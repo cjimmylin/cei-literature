@@ -180,6 +180,103 @@ def test_openrouter_defect_replays_the_exact_payload_once(tmp_path):
     assert ledger.snapshot()["replays"] == 1
 
 
+def test_hash_bound_deepseek_exception_allows_exactly_one_third_attempt(tmp_path):
+    runtime = _runtime()
+    spec = next(
+        row for row in runtime.SUT_SPECS
+        if row.slug == "deepseek/deepseek-v4-pro")
+    ledger_path = tmp_path / "openrouter-attempts.jsonl"
+    logical_key = (
+        "or:deepseek/deepseek-v4-pro:WW-01-A01:content:001")
+    messages = [Message("user", "registered canary")]
+    first_transport = _transport(
+        (404, {"error": {"message": "not found"}}),
+        (404, {"error": {"message": "not found"}}),
+    )
+    ledger = runtime.OpenRouterAttemptLedger(ledger_path)
+    with pytest.raises(runtime.ThreadStop):
+        runtime.OpenRouterPilotClient(
+            spec, "k", ledger, first_transport).complete(logical_key, messages)
+
+    first = ledger.attempt_snapshot(1)["start"]
+    marker = {
+        "schema_version": "walkworthy.open6-sol1.deepseek-exception.v1",
+        "pilot": "WALKWORTHY-OPEN6-SOL1",
+        "authorization_memo_sha256": "a" * 64,
+        "logical_key": logical_key,
+        "requested_model": spec.slug,
+        "prior_attempt_ids": [1, 2],
+        "prior_statuses": [404, 404],
+        "payload_sha256": first["payload_sha256"],
+        "ceiling_max_usd": first["ceiling_max_usd"],
+        "catalog_revalidation_logical_key": "catalog-revalidation:000001",
+        "catalog_revalidation_record_sha256": "b" * 64,
+        "maximum_additional_attempts": 1,
+    }
+    (tmp_path / "deepseek-exception-authorization.json").write_text(
+        json.dumps(marker, sort_keys=True, separators=(",", ":")) + "\n",
+        encoding="utf-8")
+
+    recovered = runtime.OpenRouterAttemptLedger(ledger_path)
+    third_transport = _transport(_ok(spec.slug, content="recovered"))
+    result = runtime.OpenRouterPilotClient(
+        spec, "k", recovered, third_transport).complete(logical_key, messages)
+
+    assert result.response.text == "recovered"
+    assert result.attempt_ids == (1, 2, 3)
+    assert len(third_transport.calls) == 1
+    assert recovered.snapshot()["attempts"] == 3
+    assert recovered.snapshot()["replays"] == 2
+
+
+def test_failed_deepseek_exception_stops_without_a_fourth_request(tmp_path):
+    runtime = _runtime()
+    spec = next(
+        row for row in runtime.SUT_SPECS
+        if row.slug == "deepseek/deepseek-v4-pro")
+    ledger_path = tmp_path / "openrouter-attempts.jsonl"
+    logical_key = runtime.DEEPSEEK_EXCEPTION_LOGICAL_KEY
+    messages = [Message("user", "registered canary")]
+    ledger = runtime.OpenRouterAttemptLedger(ledger_path)
+    with pytest.raises(runtime.ThreadStop):
+        runtime.OpenRouterPilotClient(
+            spec, "k", ledger,
+            _transport(
+                (404, {"error": {"message": "not found"}}),
+                (404, {"error": {"message": "not found"}}),
+            )).complete(logical_key, messages)
+    first = ledger.attempt_snapshot(1)["start"]
+    marker = {
+        "schema_version": "walkworthy.open6-sol1.deepseek-exception.v1",
+        "pilot": "WALKWORTHY-OPEN6-SOL1",
+        "authorization_memo_sha256": "a" * 64,
+        "logical_key": logical_key,
+        "requested_model": spec.slug,
+        "prior_attempt_ids": [1, 2],
+        "prior_statuses": [404, 404],
+        "payload_sha256": first["payload_sha256"],
+        "ceiling_max_usd": first["ceiling_max_usd"],
+        "catalog_revalidation_logical_key": "catalog-revalidation:000001",
+        "catalog_revalidation_record_sha256": "b" * 64,
+        "maximum_additional_attempts": 1,
+    }
+    (tmp_path / runtime.DEEPSEEK_EXCEPTION_MARKER_NAME).write_text(
+        json.dumps(marker, sort_keys=True, separators=(",", ":")) + "\n",
+        encoding="utf-8")
+    recovered = runtime.OpenRouterAttemptLedger(ledger_path)
+    third_transport = _transport(
+        (404, {"error": {"message": "still not found"}}))
+
+    with pytest.raises(runtime.ThreadStop, match="exceptional failure"):
+        runtime.OpenRouterPilotClient(
+            spec, "k", recovered, third_transport).complete(
+                logical_key, messages)
+
+    assert len(third_transport.calls) == 1
+    assert recovered.snapshot()["attempts"] == 3
+    assert recovered.remaining_attempts(logical_key) == 0
+
+
 def test_openrouter_sink_mutation_and_failure_are_transactional(tmp_path):
     runtime = _runtime()
     spec = runtime.SUT_SPECS[0]

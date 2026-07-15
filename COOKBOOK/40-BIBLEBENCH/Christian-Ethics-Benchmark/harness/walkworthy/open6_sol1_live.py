@@ -60,11 +60,15 @@ from .open6_sol1_run import (
     run_surface,
     status as sut_status,
     validate_catalog_snapshot,
+    validate_catalog_revalidations,
     value_sha256,
 )
 from .open6_sol1_runtime import (
     BudgetStop,
     ContractStop,
+    DEEPSEEK_EXCEPTION_LOGICAL_KEY,
+    DEEPSEEK_EXCEPTION_MARKER_NAME,
+    DEEPSEEK_EXCEPTION_MODEL,
     OpenRouterAttemptLedger,
     OpenRouterPilotClient,
     OpenRouterRunResult,
@@ -99,6 +103,11 @@ _AUTHORIZATION_MEMOS = (
     "00-PORTFOLIO/20260714-jimmy-open6-sol1-resume-authorization.md",
     "00-PORTFOLIO/20260714-jimmy-open6-sol1-unattended-execution-order.md",
 )
+DEEPSEEK_EXCEPTION_AUTHORIZATION_MEMO = (
+    "00-PORTFOLIO/"
+    "20260715-jimmy-open6-sol1-deepseek-exception-authorization.md")
+DEEPSEEK_EXCEPTION_AUTHORIZATION_SHA256 = (
+    "b5ed535ad36a69309fee52e55f4e19a09510c42cf18ef7802f5988cb0be8317f")
 _SOL_QUOTA_PATTERNS = (
     "usage limit", "usage_limit", "quota exceeded", "insufficient quota",
 )
@@ -237,6 +246,75 @@ def revalidate_catalog(benchmark_root, manifest_path, run_dir, *, fetched_at,
     return register_catalog_revalidation(
         benchmark_root, manifest_path, run_dir, raw,
         recovery_trigger=recovery_trigger)
+
+
+def materialize_deepseek_exception(
+        benchmark_root, manifest_path, run_dir, *, authorization_path):
+    """Bind Jimmy's one-attempt exception to the two failed canary attempts."""
+    root = Path(benchmark_root)
+    expected_memo = root / DEEPSEEK_EXCEPTION_AUTHORIZATION_MEMO
+    supplied_memo = Path(authorization_path)
+    if (supplied_memo.resolve() != expected_memo.resolve()
+            or not supplied_memo.is_file()
+            or _sha256_bytes(supplied_memo.read_bytes())
+            != DEEPSEEK_EXCEPTION_AUTHORIZATION_SHA256):
+        raise ContractStop("DeepSeek exception authorization mismatch")
+    manifest = prepare_run(benchmark_root, manifest_path, run_dir)
+    validate_live_authority(manifest)
+    revalidations = validate_catalog_revalidations(
+        benchmark_root, manifest_path, run_dir)
+    if not revalidations:
+        raise ContractStop("DeepSeek exception requires catalog revalidation")
+    latest = revalidations[-1]
+    if (latest.get("recovery_trigger") != "provider_recovery"
+            or not any(row.get("slug") == DEEPSEEK_EXCEPTION_MODEL
+                       for row in latest.get("eligible_providers", []))):
+        raise ContractStop("DeepSeek exception catalog eligibility mismatch")
+    ledger = OpenRouterAttemptLedger(
+        Path(run_dir) / OPENROUTER_LEDGER_NAME,
+        _allow_inflight_on_open=True)
+    history = list(ledger.history(DEEPSEEK_EXCEPTION_LOGICAL_KEY))
+    if len(history) != 2:
+        raise ContractStop("DeepSeek exception attempt history mismatch")
+    snapshots = [ledger.attempt_snapshot(value) for value in history]
+    starts = [row["start"] for row in snapshots]
+    finishes = [row["finish"] for row in snapshots]
+    if (any(row is None for row in finishes)
+            or [row.get("status") for row in finishes] != [404, 404]
+            or any(row.get("failure") != "http_failure" for row in finishes)
+            or any(row.get("requested_model") != DEEPSEEK_EXCEPTION_MODEL
+                   or row.get("logical_key") != DEEPSEEK_EXCEPTION_LOGICAL_KEY
+                   for row in starts)
+            or len({row.get("payload_sha256") for row in starts}) != 1
+            or len({row.get("ceiling_max_usd") for row in starts}) != 1):
+        raise ContractStop("DeepSeek exception prior custody mismatch")
+    marker = {
+        "schema_version": "walkworthy.open6-sol1.deepseek-exception.v1",
+        "pilot": manifest["pilot"],
+        "authorization_memo_sha256":
+            DEEPSEEK_EXCEPTION_AUTHORIZATION_SHA256,
+        "logical_key": DEEPSEEK_EXCEPTION_LOGICAL_KEY,
+        "requested_model": DEEPSEEK_EXCEPTION_MODEL,
+        "prior_attempt_ids": history,
+        "prior_statuses": [404, 404],
+        "payload_sha256": starts[0]["payload_sha256"],
+        "ceiling_max_usd": starts[0]["ceiling_max_usd"],
+        "catalog_revalidation_logical_key": latest["logical_key"],
+        "catalog_revalidation_record_sha256": latest["record_sha256"],
+        "maximum_additional_attempts": 1,
+    }
+    target = Path(run_dir) / DEEPSEEK_EXCEPTION_MARKER_NAME
+    expected = canonical_json_bytes(marker)
+    if target.exists():
+        if target.read_bytes() != expected:
+            raise ContractStop("immutable DeepSeek exception marker mismatch")
+    else:
+        with target.open("xb") as handle:
+            handle.write(expected)
+    OpenRouterAttemptLedger(
+        Path(run_dir) / OPENROUTER_LEDGER_NAME,
+        _allow_inflight_on_open=True)
+    return marker
 
 
 def validate_live_authority(manifest: dict) -> bool:
@@ -1344,13 +1422,17 @@ def _parser():
     parser = argparse.ArgumentParser(
         description="Authorized WALKWORTHY OPEN6-SOL1 live driver")
     phases = parser.add_subparsers(dest="phase", required=True)
-    for phase in ("freeze-catalog", "dry-run", "status", "execute"):
+    for phase in (
+            "freeze-catalog", "revalidate-deepseek-exception",
+            "dry-run", "status", "execute"):
         command = phases.add_parser(phase)
         command.add_argument("--benchmark-root", required=True)
         command.add_argument("--manifest", required=True)
         command.add_argument("--run-dir", required=True)
-        if phase == "freeze-catalog":
+        if phase in ("freeze-catalog", "revalidate-deepseek-exception"):
             command.add_argument("--fetched-at", required=True)
+        if phase == "revalidate-deepseek-exception":
+            command.add_argument("--authorization", required=True)
         if phase == "dry-run":
             command.add_argument("--catalog-source-run-dir", required=True)
             command.add_argument("--max-workers", type=int, default=2)
@@ -1366,6 +1448,18 @@ def main(argv=None):  # pragma: no cover - exercised through unit seams/live com
         result = freeze_catalog(
             args.benchmark_root, args.manifest, args.run_dir,
             fetched_at=args.fetched_at)
+    elif args.phase == "revalidate-deepseek-exception":
+        revalidation = revalidate_catalog(
+            args.benchmark_root, args.manifest, args.run_dir,
+            fetched_at=args.fetched_at,
+            recovery_trigger="provider_recovery")
+        exception = materialize_deepseek_exception(
+            args.benchmark_root, args.manifest, args.run_dir,
+            authorization_path=args.authorization)
+        result = {
+            "catalog_revalidation": revalidation,
+            "deepseek_exception": exception,
+        }
     elif args.phase == "dry-run":
         result = materialize_offline_dry_run(
             args.benchmark_root, args.manifest, args.run_dir,

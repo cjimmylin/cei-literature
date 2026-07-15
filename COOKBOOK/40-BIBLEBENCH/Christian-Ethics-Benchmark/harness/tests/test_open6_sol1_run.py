@@ -1078,6 +1078,54 @@ def test_terminal_sut_second_failure_is_recorded_and_other_items_continue(
         FakeSolClient(), stores, {spec.slug}) == 0
 
 
+def test_deepseek_exception_third_failure_is_a_permanent_systemic_stop(
+        benchmark_root, tmp_path):
+    run = _runmod()
+    item = run.select_public_items(benchmark_root)[0]
+    spec = next(row for row in run.SUT_SPECS
+                if row.slug == "deepseek/deepseek-v4-pro")
+    logical_key = (
+        f"or:{spec.slug}:{item.id}:content:001")
+
+    class ExceptionLedger:
+        deepseek_exception = {"logical_key": logical_key}
+
+        def attempt_snapshot(self, attempt):
+            return {
+                "start": {
+                    "logical_key": logical_key,
+                    "requested_model": spec.slug,
+                    "payload_sha256": "a" * 64,
+                },
+                "finish": {
+                    "failure": "http_failure",
+                    "status": 404,
+                },
+            }
+
+        def snapshot(self):
+            return {"attempts": 3}
+
+    custody = run.AppendOnlyStore(
+        tmp_path / "custody.jsonl", "openrouter-attempt-custody",
+        key_field="attempt_id")
+    for attempt_id in (1, 2, 3):
+        custody.append({
+            "attempt_id": attempt_id,
+            "logical_key": logical_key,
+            "status": 404,
+            "body": {"error": {"message": "model not found"}},
+        })
+
+    with pytest.raises(run.UnattendedStop, match="unavailability|HTTP 404"):
+        run._terminal_record_from_stop(
+            item, spec,
+            run.ThreadStop(
+                f"OpenRouter exceptional failure for {logical_key}: "
+                "http_failure"),
+            ExceptionLedger(), None, custody, None)
+
+
 def test_terminal_sol_classifier_second_failure_marks_item_missing_and_continues(
         benchmark_root, tmp_path):
     run = _runmod()

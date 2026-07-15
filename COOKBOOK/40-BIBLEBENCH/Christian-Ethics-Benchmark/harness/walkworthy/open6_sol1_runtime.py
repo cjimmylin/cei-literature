@@ -73,6 +73,10 @@ SOL_FAILURES = frozenset({
     "cli_failure", "tool_event", "malformed_trace", "empty", "malformed",
     "schema_invalid", "interrupted", "custody_failure",
 })
+DEEPSEEK_EXCEPTION_MARKER_NAME = "deepseek-exception-authorization.json"
+DEEPSEEK_EXCEPTION_MODEL = "deepseek/deepseek-v4-pro"
+DEEPSEEK_EXCEPTION_LOGICAL_KEY = (
+    "or:deepseek/deepseek-v4-pro:WW-01-A01:content:001")
 
 
 class ContractStop(RuntimeError):
@@ -189,6 +193,45 @@ def _is_hash(value) -> bool:
     return isinstance(value, str) and re.fullmatch(r"[0-9a-f]{64}", value) is not None
 
 
+def _load_deepseek_exception_marker(ledger_path: Path):
+    path = ledger_path.parent / DEEPSEEK_EXCEPTION_MARKER_NAME
+    if not path.exists():
+        return None
+    try:
+        marker = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ContractStop("invalid DeepSeek exception marker") from exc
+    required = {
+        "schema_version", "pilot", "authorization_memo_sha256",
+        "logical_key", "requested_model", "prior_attempt_ids",
+        "prior_statuses", "payload_sha256", "ceiling_max_usd",
+        "catalog_revalidation_logical_key",
+        "catalog_revalidation_record_sha256", "maximum_additional_attempts",
+    }
+    if (not isinstance(marker, dict) or set(marker) != required
+            or marker.get("schema_version")
+            != "walkworthy.open6-sol1.deepseek-exception.v1"
+            or marker.get("pilot") != "WALKWORTHY-OPEN6-SOL1"
+            or marker.get("logical_key") != DEEPSEEK_EXCEPTION_LOGICAL_KEY
+            or marker.get("requested_model") != DEEPSEEK_EXCEPTION_MODEL
+            or marker.get("maximum_additional_attempts") != 1
+            or not _is_hash(marker.get("authorization_memo_sha256"))
+            or not _is_hash(marker.get("payload_sha256"))
+            or not _is_hash(marker.get("catalog_revalidation_record_sha256"))
+            or not isinstance(marker.get("ceiling_max_usd"), str)
+            or re.fullmatch(r"catalog-revalidation:\d{6}",
+                            marker.get("catalog_revalidation_logical_key", ""))
+            is None
+            or not isinstance(marker.get("prior_attempt_ids"), list)
+            or len(marker["prior_attempt_ids"]) != 2
+            or any(type(value) is not int or value < 1
+                   for value in marker["prior_attempt_ids"])
+            or marker.get("prior_statuses") != [404, 404]
+            or path.read_bytes() != canonical_json_bytes(marker)):
+        raise ContractStop("invalid DeepSeek exception marker")
+    return marker
+
+
 _LOCAL_LOCKS = {}
 _LOCAL_LOCKS_GUARD = threading.Lock()
 
@@ -239,6 +282,7 @@ class OpenRouterAttemptLedger:
                  _allow_inflight_on_open=False):
         self.path = Path(path)
         self.lock_path = Path(str(self.path) + ".lock")
+        self.deepseek_exception = _load_deepseek_exception_marker(self.path)
         self.hard_nte_usd = Decimal(str(hard_nte_usd))
         self.planned_cap = int(planned_cap)
         self.max_attempts = int(max_attempts)
@@ -327,10 +371,12 @@ class OpenRouterAttemptLedger:
                         or attempt != len(self._starts) + 1):
                     raise ContractStop("invalid persisted OpenRouter start")
                 history = histories.setdefault(event["logical_key"], [])
-                if event["replay"] != bool(history) or len(history) >= 2:
+                if (event["replay"] != bool(history)
+                        or len(history) >= self._maximum_history(
+                            event["logical_key"])):
                     raise ContractStop("invalid persisted OpenRouter replay")
                 if history:
-                    prior = self._finishes.get(history[0])
+                    prior = self._finishes.get(history[-1])
                     first = self._starts[history[0]]
                     if (prior is None or prior["failure"] is None
                             or event["payload_sha256"] != first["payload_sha256"]
@@ -368,7 +414,31 @@ class OpenRouterAttemptLedger:
             raise ContractStop(f"unresolved in-flight OpenRouter attempt(s): {sorted(inflight)}")
         if self._booked() + self._inflight() > self.hard_nte_usd:
             raise ContractStop("persisted OpenRouter NTE exceeded")
+        if self.deepseek_exception is not None:
+            history = histories.get(DEEPSEEK_EXCEPTION_LOGICAL_KEY, [])
+            marker = self.deepseek_exception
+            if (history[:2] != marker["prior_attempt_ids"]
+                    or len(history) < 2 or len(history) > 3):
+                raise ContractStop("DeepSeek exception prior-attempt mismatch")
+            prior_starts = [self._starts[value] for value in history[:2]]
+            prior_finishes = [self._finishes.get(value) for value in history[:2]]
+            if (any(value is None for value in prior_finishes)
+                    or [value["status"] for value in prior_finishes]
+                    != marker["prior_statuses"]
+                    or any(value["failure"] != "http_failure"
+                           for value in prior_finishes)
+                    or any(value["requested_model"] != marker["requested_model"]
+                           or value["payload_sha256"] != marker["payload_sha256"]
+                           or value["ceiling_max_usd"] != marker["ceiling_max_usd"]
+                           for value in prior_starts)):
+                raise ContractStop("DeepSeek exception evidence mismatch")
         self._last_hash = events[-1]["event_sha256"]
+
+    def _maximum_history(self, logical_key):
+        if (self.deepseek_exception is not None
+                and logical_key == self.deepseek_exception["logical_key"]):
+            return 3
+        return 2
 
     @staticmethod
     def _validate_finish(start, event):
@@ -408,6 +478,17 @@ class OpenRouterAttemptLedger:
         return [attempt for attempt, start in sorted(self._starts.items())
                 if start["logical_key"] == logical_key]
 
+    def history(self, logical_key):
+        with _file_lock(self.lock_path):
+            self._load(allow_inflight=True)
+            return tuple(self._history(logical_key))
+
+    def remaining_attempts(self, logical_key):
+        with _file_lock(self.lock_path):
+            self._load(allow_inflight=True)
+            return self._maximum_history(logical_key) - len(
+                self._history(logical_key))
+
     def _booked(self):
         return sum((Decimal(event["booked_usd"])
                     for event in self._finishes.values()), Decimal("0"))
@@ -445,7 +526,7 @@ class OpenRouterAttemptLedger:
                     raise ThreadStop(f"OpenRouter key already in flight: {logical_key}")
                 if prior["failure"] is None:
                     raise ContractStop(f"duplicate completed OpenRouter key: {logical_key}")
-                if len(history) >= 2:
+                if len(history) >= self._maximum_history(logical_key):
                     raise ThreadStop(f"OpenRouter replay exhausted: {logical_key}")
                 if (digest != first["payload_sha256"]
                         or spec.slug != first["requested_model"]
@@ -618,8 +699,11 @@ class OpenRouterPilotClient:
     def complete(self, logical_key: str, messages, system=None,
                  response_validator=None) -> OpenRouterRunResult:
         payload = self.base_client.build_payload(messages, system)
-        attempt_ids = []
-        for index in range(2):
+        attempt_ids = list(self.ledger.history(logical_key))
+        remaining = self.ledger.remaining_attempts(logical_key)
+        if remaining <= 0:
+            raise ThreadStop(f"OpenRouter replay exhausted: {logical_key}")
+        for index in range(remaining):
             attempt = self.ledger.begin(logical_key, self.spec, payload)
             attempt_ids.append(attempt)
             self._transport_state.last = {}
@@ -680,9 +764,15 @@ class OpenRouterPilotClient:
                     response=response, body=copy.deepcopy(body), payload=payload,
                     attempt_ids=tuple(attempt_ids),
                 )
-            if index == 1:
-                raise ThreadStop(f"OpenRouter second failure for {logical_key}: {failure}")
-        raise AssertionError("unreachable")
+            if index == remaining - 1:
+                label = (
+                    "exceptional" if (
+                        logical_key == DEEPSEEK_EXCEPTION_LOGICAL_KEY
+                        and len(attempt_ids) == 3)
+                    else "second")
+                raise ThreadStop(
+                    f"OpenRouter {label} failure for {logical_key}: {failure}")
+        raise ContractStop("invalid OpenRouter attempt-loop state")
 
 
 class SolTaskLedger:

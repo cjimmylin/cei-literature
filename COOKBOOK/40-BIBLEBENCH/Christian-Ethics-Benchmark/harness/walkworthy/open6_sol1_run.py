@@ -42,6 +42,8 @@ from .open6_sol1 import (
 from .open6_sol1_runtime import (
     BudgetStop,
     ContractStop,
+    DEEPSEEK_EXCEPTION_LOGICAL_KEY,
+    DEEPSEEK_EXCEPTION_MODEL,
     MAX_CONCURRENCY,
     SOL_FAILURES,
     SUT_SPECS,
@@ -1472,7 +1474,7 @@ def _validate_terminal_unresolved_record(record, item, allowed_models):
 def _terminal_record_from_stop(item, spec, exc, sut_ledger, sol_ledger,
                                sut_custody, sol_custody):
     sut_match = re.fullmatch(
-        r"OpenRouter second failure for "
+        r"OpenRouter (second|exceptional) failure for "
         r"(or:([^:]+):([^:]+):(content|allocation):(\d{3})): ([a-z_]+)",
         str(exc),
     )
@@ -1482,7 +1484,8 @@ def _terminal_record_from_stop(item, spec, exc, sut_ledger, sol_ledger,
         str(exc),
     )
     if sut_match is not None:
-        source_key, model, item_id, phase, index_text, failure = sut_match.groups()
+        failure_label, source_key, model, item_id, phase, index_text, failure = (
+            sut_match.groups())
         source_role = "sut"
         ledger = sut_ledger
         custody_store = sut_custody
@@ -1492,6 +1495,7 @@ def _terminal_record_from_stop(item, spec, exc, sut_ledger, sol_ledger,
         phase = "classifier"
         ledger = sol_ledger
         custody_store = sol_custody
+        failure_label = "second"
     else:
         raise ContractStop("unregistered terminal SUT exception") from exc
     if (model != spec.slug or item_id != item.id
@@ -1501,7 +1505,17 @@ def _terminal_record_from_stop(item, spec, exc, sut_ledger, sol_ledger,
     if ledger is None:
         raise ContractStop("terminal exception lacks its attempt ledger") from exc
     attempts = _ledger_attempts_for_key(ledger, source_key)
-    if len(attempts) != 2:
+    exceptional = failure_label == "exceptional"
+    marker = getattr(ledger, "deepseek_exception", None)
+    if exceptional:
+        if (source_key != DEEPSEEK_EXCEPTION_LOGICAL_KEY
+                or model != DEEPSEEK_EXCEPTION_MODEL
+                or not isinstance(marker, dict)
+                or marker.get("logical_key") != source_key
+                or len(attempts) != 3):
+            raise ContractStop(
+                "invalid DeepSeek exceptional terminal history") from exc
+    elif len(attempts) != 2:
         raise ContractStop("terminal key lacks exactly two attempts") from exc
     attempt_ids = []
     payload_hashes = set()
@@ -1554,6 +1568,9 @@ def _terminal_record_from_stop(item, spec, exc, sut_ledger, sol_ledger,
                 "stderr": "",
             })
     _raise_if_systemic_terminal(source_role, custody_records, failure)
+    if exceptional:
+        raise UnattendedStop(
+            f"DeepSeek exceptional canary permanent stop: {failure}")
     record = {
         "schema_version":
             "walkworthy.open6-sol1.terminal-unresolved-item-model.v2",

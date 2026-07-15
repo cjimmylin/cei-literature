@@ -7,6 +7,8 @@ from pathlib import Path
 
 import pytest
 
+from walkworthy.clients import Message
+
 
 def _live():
     from walkworthy import open6_sol1_live
@@ -113,6 +115,92 @@ def test_live_authority_and_offline_gate_are_fail_closed(
              "holdout_loaded": False},
             {"judge_complete": True, "single_judge_only": True,
              "holdout_loaded": False})
+
+
+def test_deepseek_exception_materializes_only_after_bound_revalidation(
+        benchmark_root, tmp_path):
+    live = _live()
+    from walkworthy import open6_sol1_run as run
+    from walkworthy import open6_sol1_runtime as runtime
+
+    assert hasattr(live, "materialize_deepseek_exception")
+    manifest_path = _manifest(benchmark_root, tmp_path)
+    manifest = json.loads(manifest_path.read_text())
+    run_dir = tmp_path / "live"
+    raw = {
+        "fetched_at": "2026-07-15T08:30:00Z",
+        "source_urls": ["https://openrouter.ai/api/v1/models"],
+        "models": [{
+            "slug": row["slug"],
+            "providers": [{
+                "provider": "eligible",
+                "input_per_m_usd": row["input_per_m_usd"],
+                "output_per_m_usd": row["output_per_m_usd"],
+            }],
+        } for row in manifest["openrouter"]["models"]],
+        "raw_api_responses": [{"test": True}],
+    }
+    run.register_catalog_snapshot(
+        benchmark_root, manifest_path, run_dir, raw)
+
+    spec = next(row for row in runtime.SUT_SPECS
+                if row.slug == runtime.DEEPSEEK_EXCEPTION_MODEL)
+    responses = [
+        (404, {"error": {"message": "not found"}}),
+        (404, {"error": {"message": "not found"}}),
+    ]
+
+    def transport(_url, _headers, _payload, timeout=None):
+        return responses.pop(0)
+
+    ledger = runtime.OpenRouterAttemptLedger(
+        run_dir / live.OPENROUTER_LEDGER_NAME)
+    with pytest.raises(runtime.ThreadStop):
+        runtime.OpenRouterPilotClient(
+            spec, "k", ledger, transport).complete(
+                runtime.DEEPSEEK_EXCEPTION_LOGICAL_KEY,
+                [Message("user", "registered canary")])
+    live.revalidate_catalog(
+        benchmark_root, manifest_path, run_dir,
+        fetched_at="2026-07-15T08:31:00Z",
+        recovery_trigger="provider_recovery",
+        fetch_json=lambda url: _endpoint_response(
+            url.removeprefix(live.CATALOG_ENDPOINT_PREFIX).removesuffix(
+                "/endpoints"),
+            "0.00000001", "0.00000001"))
+
+    marker = live.materialize_deepseek_exception(
+        benchmark_root, manifest_path, run_dir,
+        authorization_path=(
+            benchmark_root / "00-PORTFOLIO" /
+            "20260715-jimmy-open6-sol1-deepseek-exception-authorization.md"))
+
+    assert marker["logical_key"] == runtime.DEEPSEEK_EXCEPTION_LOGICAL_KEY
+    assert marker["requested_model"] == runtime.DEEPSEEK_EXCEPTION_MODEL
+    assert marker["prior_attempt_ids"] == [1, 2]
+    assert marker["prior_statuses"] == [404, 404]
+    assert marker["maximum_additional_attempts"] == 1
+    assert marker["catalog_revalidation_logical_key"] == (
+        "catalog-revalidation:000001")
+    assert (run_dir / runtime.DEEPSEEK_EXCEPTION_MARKER_NAME).read_text() == (
+        json.dumps(marker, ensure_ascii=False, sort_keys=True,
+                   separators=(",", ":")) + "\n")
+
+
+def test_cli_registers_bounded_deepseek_revalidation_phase():
+    live = _live()
+
+    args = live._parser().parse_args([
+        "revalidate-deepseek-exception",
+        "--benchmark-root", "..",
+        "--manifest", "../runs/live/manifest.json",
+        "--run-dir", "../runs/live",
+        "--fetched-at", "2026-07-15T08:31:00Z",
+        "--authorization", "../00-PORTFOLIO/authorization.md",
+    ])
+
+    assert args.phase == "revalidate-deepseek-exception"
+    assert args.authorization.endswith("authorization.md")
 
 
 @pytest.mark.parametrize("api_key,max_workers", [

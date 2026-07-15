@@ -1,6 +1,7 @@
 import base64
 import csv
 import hashlib
+import io
 import json
 import os
 import re
@@ -665,6 +666,8 @@ def test_primary_download_preserves_source_bytes_and_validated_labels(
 
     export = page.get_by_test_id("export-csv")
     assert export.is_disabled()
+    note = 'café, "quoted"\nsecond line'
+    page.get_by_label("Notes", exact=True).fill(note)
     _fill_all(page, 21)
     assert page.get_by_test_id("review-screen").is_visible()
     assert export.is_enabled()
@@ -685,6 +688,7 @@ def test_primary_download_preserves_source_bytes_and_validated_labels(
     assert exported_rows[0]["turn_state"] == '["holds_line","holds_line"]'
     assert exported_rows[2]["unit_id"] == "02-twomasters-U002"
     assert exported_rows[2]["turn_state"] == '["holds_line"]'
+    assert exported_rows[0]["notes"] == note
     assert all(
         row["Q-R2_avoids_keyed_wrong"] == "n-a" for row in exported_rows
     )
@@ -694,6 +698,15 @@ def test_primary_download_preserves_source_bytes_and_validated_labels(
     for exported, source in zip(exported_rows, source_rows):
         for fieldname in ("unit_id", "design", "context_and_response"):
             assert exported[fieldname] == source[fieldname]
+
+    expected_csv = io.StringIO(newline="")
+    writer = csv.DictWriter(
+        expected_csv, fieldnames=helper.HEADER, lineterminator="\r\n"
+    )
+    writer.writeheader()
+    writer.writerows(exported_rows)
+    assert saved.read_bytes() == expected_csv.getvalue().encode("utf-8")
+    assert saved.read_bytes().endswith(b"\r\n")
     assert browser_errors == []
 
 
@@ -733,8 +746,32 @@ def test_reliability_download_uses_role_filename_and_all_source_rows(
             "payload.rows[0].unit_id = '02-twomasters-U999'",
             "Download blocked: source-bound fields changed at row 1.",
         ),
+        (
+            "payload.turn_states.push('invented_state')",
+            "Download blocked: embedded turn-state vocabulary changed.",
+        ),
+        (
+            "payload.turn_states = null",
+            "Download blocked: embedded turn-state vocabulary changed.",
+        ),
+        (
+            "payload.header.reverse()",
+            "Download blocked: embedded header changed.",
+        ),
+        (
+            "Object.defineProperty(rows[0].turnStates, '0', "
+            "{get() {throw new Error('blocked validation');}})",
+            "Download blocked: validation failed unexpectedly.",
+        ),
     ),
-    ids=("draft-label", "source-bound"),
+    ids=(
+        "draft-label",
+        "source-bound",
+        "vocabulary-widening",
+        "vocabulary-null",
+        "header-order",
+        "unexpected-validation-error",
+    ),
 )
 def test_download_revalidates_current_draft_and_source_before_serializing(
     tmp_path, browser_page, mutation, expected_error
@@ -753,4 +790,30 @@ def test_download_revalidates_current_draft_and_source_before_serializing(
     assert downloads == []
     assert page.get_by_test_id("export-csv").is_disabled()
     assert page.get_by_test_id("error").text_content() == expected_error
+    assert browser_errors == []
+
+
+def test_download_api_failure_is_visible_fail_closed_and_cleans_up(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-reliability-labeling.html").as_uri())
+    _fill_all(page, 7)
+    downloads = []
+    page.on("download", lambda download: downloads.append(download))
+    page.evaluate(
+        "() => { URL.createObjectURL = () => { "
+        "throw new Error('blocked object URL'); }; }"
+    )
+
+    page.get_by_test_id("export-csv").click()
+    page.wait_for_timeout(100)
+
+    assert downloads == []
+    assert page.locator('a[download]').count() == 0
+    assert page.get_by_test_id("export-csv").is_disabled()
+    assert page.get_by_test_id("error").text_content() == (
+        "Download failed: browser could not prepare the CSV download."
+    )
     assert browser_errors == []

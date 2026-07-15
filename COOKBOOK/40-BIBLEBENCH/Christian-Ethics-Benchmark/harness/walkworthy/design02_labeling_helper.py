@@ -117,6 +117,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
     );
     const payload = JSON.parse(new TextDecoder().decode(payloadBytes));
     const sourceHeader = Object.freeze(payload.header.slice());
+    const sourceTurnStates = Object.freeze(payload.turn_states.slice());
     const sourceRole = payload.role;
     const sourceRows = Object.freeze(payload.rows.map(row => Object.freeze({{
       unit_id: row.unit_id,
@@ -179,7 +180,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       if (!Array.isArray(value.turnStates) ||
           value.turnStates.length !== sourceRow.turns.length ||
           !value.turnStates.every(state =>
-            state === null || payload.turn_states.includes(state)
+            state === null || sourceTurnStates.includes(state)
           )) {{
         return false;
       }}
@@ -309,7 +310,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
     function validateCurrentTurn() {{
       const turn = turns[currentTurnIndex];
       const row = rows[turn.rowIndex];
-      if (!payload.turn_states.includes(row.turnStates[turn.turnOffset])) {{
+      if (!sourceTurnStates.includes(row.turnStates[turn.turnOffset])) {{
         return "Turn state is required.";
       }}
       if (!confidenceValues.slice(1).includes(row.confidence)) {{
@@ -326,7 +327,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
     }}
 
     function validateRow(row) {{
-      if (!row.turnStates.every(state => payload.turn_states.includes(state))) {{
+      if (!row.turnStates.every(state => sourceTurnStates.includes(state))) {{
         return "Every turn state is required.";
       }}
       if (!confidenceValues.slice(1).includes(row.confidence)) {{
@@ -371,21 +372,33 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
     }}
 
     function downloadText(filename, text, mime) {{
-      const blob = new Blob([text], {{type: mime}});
-      const objectUrl = URL.createObjectURL(blob);
-      const anchor = document.createElement("a");
-      anchor.href = objectUrl;
-      anchor.download = filename;
-      document.body.append(anchor);
-      try {{
-        anchor.click();
-      }} finally {{
-        window.setTimeout(() => {{
-          URL.revokeObjectURL(objectUrl);
-          if (anchor.isConnected) {{
-            anchor.remove();
+      let objectUrl = null;
+      let anchor = null;
+      const cleanup = () => {{
+        if (objectUrl !== null) {{
+          try {{
+            URL.revokeObjectURL(objectUrl);
+          }} catch (error) {{
+            // Cleanup must not surface a secondary page error.
           }}
-        }}, 1000);
+          objectUrl = null;
+        }}
+        if (anchor !== null && anchor.isConnected) {{
+          anchor.remove();
+        }}
+      }};
+      try {{
+        const blob = new Blob([text], {{type: mime}});
+        objectUrl = URL.createObjectURL(blob);
+        anchor = document.createElement("a");
+        anchor.href = objectUrl;
+        anchor.download = filename;
+        document.body.append(anchor);
+        anchor.click();
+        window.setTimeout(cleanup, 1000);
+      }} catch (error) {{
+        cleanup();
+        throw error;
       }}
     }}
 
@@ -414,8 +427,17 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
           payload.header.length !== sourceHeader.length ||
           !payload.header.every(
             (fieldname, index) => fieldname === sourceHeader[index]
-          ) ||
-          payload.role !== sourceRole ||
+          )) {{
+        return "Download blocked: embedded header changed.";
+      }}
+      if (!Array.isArray(payload.turn_states) ||
+          payload.turn_states.length !== sourceTurnStates.length ||
+          !payload.turn_states.every(
+            (state, index) => state === sourceTurnStates[index]
+          )) {{
+        return "Download blocked: embedded turn-state vocabulary changed.";
+      }}
+      if (payload.role !== sourceRole ||
           !Array.isArray(payload.rows) ||
           payload.rows.length !== sourceRows.length) {{
         return "Download blocked: embedded source structure changed.";
@@ -449,18 +471,35 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       return rowErrors.find(message => message !== "") || "";
     }}
 
+    function blockDownload(message) {{
+      setReviewValidated(false);
+      errorMessage.textContent = message;
+    }}
+
     function exportCsv() {{
-      const validationError = validateDownload();
-      if (validationError !== "") {{
-        setReviewValidated(false);
-        errorMessage.textContent = validationError;
+      let csvText;
+      try {{
+        const validationError = validateDownload();
+        if (validationError !== "") {{
+          blockDownload(validationError);
+          return;
+        }}
+        csvText = buildCsv();
+      }} catch (error) {{
+        blockDownload("Download blocked: validation failed unexpectedly.");
         return;
       }}
       const filename = sourceRole === "primary"
         ? "02-twomasters-partA-primary-completed.csv"
         : "02-twomasters-partA-reliability-completed.csv";
       errorMessage.textContent = "";
-      downloadText(filename, buildCsv(), "text/csv;charset=utf-8");
+      try {{
+        downloadText(filename, csvText, "text/csv;charset=utf-8");
+      }} catch (error) {{
+        blockDownload(
+          "Download failed: browser could not prepare the CSV download."
+        );
+      }}
     }}
 
     function renderTurn() {{

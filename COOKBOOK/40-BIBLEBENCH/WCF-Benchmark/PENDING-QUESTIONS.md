@@ -1,6 +1,32 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 judge-output contract cannot feed existing scorers
+## OPEN 2026-07-15 — Pilot 2 residual cross-seam P1s after the single correction cycle
+
+- **Question:** Should Jimmy authorize one exact residual **FIX** cycle for the three
+  still-failing original P1 categories, or **DEFER** Pilot 2 before public preflight?
+- **Why it blocks:** Named-only specification re-review passed OAuth-canary custody but
+  failed public-preflight/request consistency, live authorization/balance/first-cell gating,
+  and the full-run judge-driver/report-geometry path. The single authorized correction
+  cycle is exhausted. Quality review and public preflight require specification PASS.
+- **Evidence:** The structured schemas correctly preserve 1,740 decisions and replay the
+  unchanged scorers; 34 focused and 860 full tests pass. Exact residual failures and file
+  evidence are frozen in `20260715t-wcf-pilot2-s58-spec-rereview-stop.md`. Session 58 made
+  no public metadata, auth, OAuth, or inference call and spent `$0.00`.
+- **Suggested default:** **FIX** only the listed residuals with explicit regressions, then
+  repeat the same named-only specification re-review and run one fresh quality review only
+  after PASS. Do not run public preflight before both reviews pass.
+
+## RESOLVED 2026-07-15 — Pilot 2 judge-output contract cannot feed existing scorers
+
+- **Disposition:** Jimmy answered **YES** to route/call-specific structured judge schemas
+  preserving the registered 1,740 logical judge decisions and returning exactly the fields
+  required by the unchanged existing OPEN, CONTESTED, and EPISODE scorers. The exact
+  authority is recorded in
+  `20260715s-jimmy-pilot2-scoring-contract-authorization-record.md`.
+- **Effect:** The still-unused single named-blocker correction cycle may address only the
+  four Session-57 specification P1s with TDD and named reviews. After both reviews pass,
+  one public-catalog-only zero-paid preflight may run. No credentials, OAuth task,
+  inference, top-up, paid call, or cap is authorized.
 
 - **Question:** May Pilot 2 use route/call-specific structured JSON schemas that preserve
   the registered 1,740 logical judge decisions and return exactly the rich outputs already

@@ -8,14 +8,18 @@ has no inference path; a successful packet remains stopped at amount authorizati
 from __future__ import annotations
 
 import argparse
+import csv
+import datetime
 import hashlib
 import json
 import math
 from dataclasses import dataclass
+from decimal import Decimal, ROUND_CEILING
 from pathlib import Path
-from typing import Any, Dict, Mapping, Optional, Sequence, Tuple
+from typing import Any, Callable, Dict, Mapping, Optional, Sequence, Tuple
+from urllib.parse import urljoin
 
-from wcfbench import load_items, scorer_kind
+from wcfbench import load_items, scorer_kind, mvp
 
 import open_first_mvp_preflight as pilot1
 
@@ -36,6 +40,10 @@ JUDGE_MAX_SERIALIZED_RECORD_BYTES = 262_144
 SUT_RETRIES_RESERVED_PER_MODEL = 22
 SUT_ATTEMPTS_MAX_PER_MODEL = 252
 PROPOSED_CAP_USD = 27.03
+PLANNING_UTILIZATION = 0.8
+MODELS_URL = mvp.MODELS_URL
+OPENROUTER_ORIGIN = "https://openrouter.ai"
+ENDPOINT_URL = OPENROUTER_ORIGIN + "/api/v1/models/{slug}/endpoints"
 
 
 @dataclass(frozen=True)
@@ -64,6 +72,15 @@ SUTS = tuple(spec.slug for spec in SUT_SPECS)
 
 class PreflightError(RuntimeError):
     """Public metadata cannot prove the exact Pilot 2 protocol."""
+
+
+class PreflightOutputError(RuntimeError):
+    """The append-only public preflight packet cannot be created."""
+
+
+def _utc_now() -> str:
+    return datetime.datetime.now(datetime.timezone.utc).isoformat(
+        timespec="seconds").replace("+00:00", "Z")
 
 
 def _extra(item: Any) -> Mapping[str, Any]:
@@ -128,6 +145,25 @@ def _endpoint_rows(value: Any) -> list:
     return [dict(row) for row in (value or ()) if isinstance(row, Mapping)]
 
 
+def fetch_public_catalog(
+    *, opener: Optional[Callable[[str, Optional[str]], Dict[str, Any]]] = None,
+) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, list]]:
+    """Fetch only public model and endpoint metadata; never touch auth URLs."""
+    get = opener or mvp._http_get_json
+    payload = get(MODELS_URL, None)
+    catalog = {
+        row["id"]: dict(row) for row in (payload.get("data") or ())
+        if isinstance(row, Mapping) and row.get("id")
+    }
+    endpoints = {}
+    for slug in SUTS:
+        details = ((catalog.get(slug, {}).get("links") or {}).get("details")
+                   or ENDPOINT_URL.format(slug=slug))
+        endpoints[slug] = _endpoint_rows(
+            get(urljoin(OPENROUTER_ORIGIN, details), None))
+    return catalog, endpoints
+
+
 def _price(row: Mapping[str, Any], name: str) -> Tuple[float, float]:
     pricing = row.get("pricing")
     if not isinstance(pricing, Mapping):
@@ -147,6 +183,18 @@ def _validate_model(spec: SutSpec, catalog_row: Any, endpoint_rows: Any) -> Dict
     if (not isinstance(catalog_row.get("context_length"), int)
             or catalog_row["context_length"] < SUT_PROMPT_TOKENS + SUT_MAX_TOKENS):
         raise PreflightError(f"insufficient context ceiling: {spec.slug}")
+    architecture = catalog_row.get("architecture")
+    if (not isinstance(architecture, Mapping)
+            or "text" not in (architecture.get("input_modalities") or ())
+            or "text" not in (architecture.get("output_modalities") or ())):
+        raise PreflightError(f"text capability missing: {spec.slug}")
+    top_provider = catalog_row.get("top_provider")
+    if (not isinstance(top_provider, Mapping)
+            or not isinstance(top_provider.get("context_length"), int)
+            or top_provider["context_length"] < SUT_PROMPT_TOKENS + SUT_MAX_TOKENS
+            or not isinstance(top_provider.get("max_completion_tokens"), int)
+            or top_provider["max_completion_tokens"] < SUT_MAX_TOKENS):
+        raise PreflightError(f"top-provider context/completion capability missing: {spec.slug}")
     supported = set(catalog_row.get("supported_parameters") or ())
     if not {"temperature", "max_tokens", "reasoning"} <= supported:
         raise PreflightError(f"reasoning capability missing: {spec.slug}")
@@ -166,12 +214,18 @@ def _validate_model(spec: SutSpec, catalog_row: Any, endpoint_rows: Any) -> Dict
         raise PreflightError(f"pinned provider lacks parameters: {spec.slug}")
     if endpoint.get("data_collection") not in {None, False, "deny", "none"}:
         raise PreflightError(f"pinned provider violates data policy: {spec.slug}")
+    if (not isinstance(endpoint.get("context_length"), int)
+            or endpoint["context_length"] < SUT_PROMPT_TOKENS + SUT_MAX_TOKENS
+            or not isinstance(endpoint.get("max_completion_tokens"), int)
+            or endpoint["max_completion_tokens"] < SUT_MAX_TOKENS):
+        raise PreflightError(
+            f"pinned provider context/completion capability insufficient: {spec.slug}")
     current_prompt, current_completion = _price(endpoint, spec.provider)
     if (current_prompt > spec.prompt_price_per_token
             or current_completion > spec.completion_price_per_token):
         raise PreflightError(f"pinned provider exceeds frozen price: {spec.slug}")
-    maximum = (SUT_PROMPT_TOKENS * spec.prompt_price_per_token
-               + SUT_MAX_TOKENS * spec.completion_price_per_token)
+    maximum = (SUT_PROMPT_TOKENS * current_prompt
+               + SUT_MAX_TOKENS * current_completion)
     return {
         "slug": spec.slug,
         "canonical_slug": catalog_row.get("canonical_slug"),
@@ -186,15 +240,71 @@ def _validate_model(spec: SutSpec, catalog_row: Any, endpoint_rows: Any) -> Dict
             "require_parameters": True,
             "data_collection": "deny",
             "max_price": {
-                "prompt": spec.prompt_price_per_token * 1_000_000,
-                "completion": spec.completion_price_per_token * 1_000_000,
+                "prompt": current_prompt * 1_000_000,
+                "completion": current_completion * 1_000_000,
             },
         },
         "prices_per_token": {
+            "prompt": current_prompt,
+            "completion": current_completion,
+        },
+        "approved_price_ceiling_per_token": {
             "prompt": spec.prompt_price_per_token,
             "completion": spec.completion_price_per_token,
         },
+        "endpoint_context_length": endpoint["context_length"],
+        "endpoint_max_completion_tokens": endpoint["max_completion_tokens"],
         "maximum_attempt_cost_usd": maximum,
+    }
+
+
+def _ceil_cents(value: float) -> float:
+    return float(Decimal(str(value)).quantize(
+        Decimal("0.01"), rounding=ROUND_CEILING))
+
+
+def build_cost_plan(models: Sequence[Mapping[str, Any]]) -> Dict[str, Any]:
+    rows = []
+    for model in models:
+        per_call = float(model["maximum_attempt_cost_usd"])
+        rows.append({
+            "slug": model["slug"],
+            "pinned_provider": model["pinned_provider"],
+            "prompt_tokens": SUT_PROMPT_TOKENS,
+            "completion_tokens": SUT_MAX_TOKENS,
+            "prompt_price_per_token_usd": model["prices_per_token"]["prompt"],
+            "completion_price_per_token_usd": model["prices_per_token"]["completion"],
+            "per_call_usd": per_call,
+            "no_retry_calls": 230,
+            "no_retry_230_calls_usd": per_call * 230,
+            "attempt_envelope_calls": 252,
+            "attempt_envelope_252_calls_usd": per_call * 252,
+            "provider_canary_one_attempt_usd": per_call,
+            "provider_canary_two_attempt_usd": per_call * 2,
+        })
+    no_retry = sum(row["no_retry_230_calls_usd"] for row in rows)
+    attempts = sum(row["attempt_envelope_252_calls_usd"] for row in rows)
+    canary_one = sum(row["provider_canary_one_attempt_usd"] for row in rows)
+    canary_two = sum(row["provider_canary_two_attempt_usd"] for row in rows)
+    return {
+        "validity_label": VALIDITY_LABEL,
+        "rows": rows,
+        "totals": {
+            "no_retry_230_calls_usd": no_retry,
+            "attempt_envelope_252_calls_usd": attempts,
+            "provider_canary_one_attempt_usd": canary_one,
+            "provider_canary_two_attempt_usd": canary_two,
+            "cumulative_attempt_envelope_usd": attempts + canary_two,
+            "utilization_fraction": PLANNING_UTILIZATION,
+            "proposed_cap_usd": _ceil_cents(
+                (attempts + canary_two) / PLANNING_UTILIZATION),
+        },
+        "auth_balance": {
+            "status": "NOT_CHECKED",
+            "balance_usd": None,
+            "required_balance_usd": None,
+            "top_up_usd": None,
+        },
     }
 
 
@@ -210,8 +320,7 @@ def build_manifest(
         {"catalog": {slug: catalog.get(slug) for slug in SUTS},
          "endpoints": {slug: endpoints.get(slug) for slug in SUTS}},
         sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
-    attempt_envelope = sum(row["maximum_attempt_cost_usd"]
-                           * SUT_ATTEMPTS_MAX_PER_MODEL for row in models)
+    cost_plan = build_cost_plan(models)
     return {
         "schema_version": 1,
         "kind": "wcf_bench_pilot2_zero_paid_manifest_input",
@@ -242,14 +351,17 @@ def build_manifest(
             "tools": False,
             "web": False,
         },
-        "planning_cost": {
-            "attempt_envelope_usd": attempt_envelope,
-            "provider_canary_retry_envelope_usd": sum(
-                row["maximum_attempt_cost_usd"] * 2 for row in models),
-            "proposed_cap_usd": PROPOSED_CAP_USD,
+        "planning_cost": dict(cost_plan["totals"]),
+        "call_forecast": {
+            "sut_initial": 1150, "sut_attempt_envelope": 1260,
+            "provider_canary_initial": 5,
+            "provider_canary_attempt_envelope": 10,
+            "logical_judge_decisions": 1740,
+            "expected_oauth_tasks": 220,
+            "conservative_oauth_tasks": 590,
         },
-        "auth_balance": {"status": "NOT_CHECKED", "balance_usd": None,
-                         "top_up_usd": None},
+        "runtime_forecast_seconds": {"minimum": 25_200, "maximum": 79_200},
+        "auth_balance": dict(cost_plan["auth_balance"]),
         "authorization_gate": {
             "credential_access": False,
             "oauth_canary": False,
@@ -257,6 +369,147 @@ def build_manifest(
             "required_next": "AMOUNT_SPECIFIC_OWNER_AUTHORIZATION",
         },
     }
+
+
+def _prompt_judge_ceilings() -> Dict[str, Any]:
+    measured = derive_prompt_ceiling(load_items(str(BANK_DIR)))
+    return {
+        "sut": measured,
+        "judge": {
+            "model": JUDGE_MODEL,
+            "reasoning_effort": JUDGE_REASONING_EFFORT,
+            "max_batch_size": JUDGE_MAX_BATCH_SIZE,
+            "max_serialized_batch_bytes": JUDGE_MAX_SERIALIZED_BATCH_BYTES,
+            "max_serialized_record_bytes": JUDGE_MAX_SERIALIZED_RECORD_BYTES,
+            "expected_tasks": 220,
+            "conservative_large_response_tasks": 590,
+        },
+    }
+
+
+def _write_json_new(path: Path, value: Any) -> None:
+    with path.open("x", encoding="utf-8") as handle:
+        json.dump(value, handle, indent=2, sort_keys=True, ensure_ascii=False)
+        handle.write("\n")
+
+
+def _write_cost_csv(path: Path, cost_plan: Mapping[str, Any]) -> None:
+    fields = [
+        "slug", "pinned_provider", "prompt_tokens", "completion_tokens",
+        "prompt_price_per_token_usd", "completion_price_per_token_usd",
+        "per_call_usd", "no_retry_calls", "no_retry_230_calls_usd",
+        "attempt_envelope_calls", "attempt_envelope_252_calls_usd",
+        "provider_canary_one_attempt_usd", "provider_canary_two_attempt_usd",
+    ]
+    with path.open("x", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(cost_plan.get("rows") or ())
+        totals = cost_plan.get("totals") or {}
+        writer.writerow({
+            "slug": "TOTAL",
+            "no_retry_calls": 1150,
+            "no_retry_230_calls_usd": totals.get("no_retry_230_calls_usd"),
+            "attempt_envelope_calls": 1260,
+            "attempt_envelope_252_calls_usd": totals.get(
+                "attempt_envelope_252_calls_usd"),
+            "provider_canary_one_attempt_usd": totals.get(
+                "provider_canary_one_attempt_usd"),
+            "provider_canary_two_attempt_usd": totals.get(
+                "provider_canary_two_attempt_usd"),
+        })
+
+
+def run_public_preflight(
+    output_dir: Any, *,
+    metadata_fetch: Callable[[], Tuple[Dict[str, Any], Dict[str, Any]]] =
+        fetch_public_catalog,
+    now: Callable[[], str] = _utc_now,
+) -> Dict[str, Any]:
+    """Freeze one append-only public-metadata packet; never read auth state."""
+    output = Path(output_dir)
+    try:
+        output.mkdir(parents=False, exist_ok=False)
+    except FileExistsError as exc:
+        raise PreflightOutputError(f"output directory already exists: {output}") from exc
+    except OSError as exc:
+        raise PreflightOutputError(f"cannot create output directory: {output}") from exc
+    retrieved_at = now()
+    catalog: Dict[str, Any] = {}
+    endpoints: Dict[str, Any] = {}
+    blockers = []
+    try:
+        catalog, endpoints = metadata_fetch()
+    except Exception as exc:
+        blockers.append(f"public metadata fetch failed: {type(exc).__name__}: {exc}")
+    selected_catalog = {slug: catalog[slug] for slug in SUTS if slug in catalog}
+    selected_endpoints = {slug: endpoints.get(slug, []) for slug in SUTS}
+    snapshot_input = {"models": selected_catalog, "endpoints": selected_endpoints}
+    snapshot_hash = hashlib.sha256(json.dumps(
+        snapshot_input, sort_keys=True, separators=(",", ":"),
+        ensure_ascii=False).encode("utf-8")).hexdigest()
+    canonical_slugs = {
+        slug: selected_catalog[slug].get("canonical_slug")
+        for slug in SUTS if slug in selected_catalog
+    }
+    _write_json_new(output / "public-catalog-snapshot.json", {
+        "retrieved_at": retrieved_at, "source_hash": snapshot_hash,
+        "canonical_slugs": canonical_slugs, "models": selected_catalog})
+    _write_json_new(output / "public-endpoint-snapshots.json", {
+        "retrieved_at": retrieved_at, "source_hash": snapshot_hash,
+        "endpoints": selected_endpoints})
+    ceilings = _prompt_judge_ceilings()
+    _write_json_new(output / "prompt-judge-ceilings.json", ceilings)
+
+    models = []
+    for spec in SUT_SPECS:
+        try:
+            models.append(_validate_model(
+                spec, catalog.get(spec.slug), endpoints.get(spec.slug)))
+        except PreflightError as exc:
+            blockers.append(str(exc))
+    cost_plan = build_cost_plan(models) if len(models) == len(SUTS) else {
+        "validity_label": VALIDITY_LABEL, "rows": [], "totals": {},
+        "auth_balance": {
+            "status": "NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED",
+            "balance_usd": None, "required_balance_usd": None, "top_up_usd": None,
+        },
+    }
+    if len(models) == len(SUTS):
+        cost_plan["auth_balance"]["status"] = (
+            "NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED")
+    _write_json_new(output / "cost-plan.json", cost_plan)
+    _write_cost_csv(output / "cost-plan.csv", cost_plan)
+    if blockers:
+        failure = {
+            "schema_version": 1, "validity_label": VALIDITY_LABEL,
+            "status": "FAILED/NON-EXECUTABLE", "retrieved_at": retrieved_at,
+            "blockers": blockers, "public_snapshot_hash": snapshot_hash,
+            "canonical_slugs": canonical_slugs,
+            "auth_balance": cost_plan["auth_balance"],
+            "paid_inference_authorized": False,
+        }
+        _write_json_new(output / "failed-preflight.json", failure)
+        status = failure["status"]
+    else:
+        manifest = build_manifest(
+            catalog, endpoints, catalog_retrieved_at=retrieved_at)
+        manifest["public_snapshot_hash"] = snapshot_hash
+        manifest["canonical_slugs"] = canonical_slugs
+        manifest["rendered_prompt_and_judge_ceilings"] = ceilings
+        manifest["auth_balance"] = dict(cost_plan["auth_balance"])
+        _write_json_new(output / "pilot2-manifest.json", manifest)
+        status = "EXECUTABLE-MANIFEST-INPUT"
+    report = "\n".join([
+        "# WCF-Bench Pilot 2 public preflight", "",
+        f"> **{VALIDITY_LABEL}**", "", f"Status: **{status}**",
+        "- Auth/balance: NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED",
+        f"- Proposed cap: {cost_plan.get('totals', {}).get('proposed_cap_usd')}",
+        f"- Snapshot hash: {snapshot_hash}",
+        "- Blockers: " + (" | ".join(blockers) if blockers else "none"), "",
+    ])
+    (output / "preflight-report.md").write_text(report, encoding="utf-8")
+    return {"status": status, "output_dir": str(output), "blockers": blockers}
 
 
 def write_manifest_input(path: Path, manifest: Mapping[str, Any]) -> None:
@@ -269,18 +522,29 @@ def write_manifest_input(path: Path, manifest: Mapping[str, Any]) -> None:
         handle.write("\n")
 
 
-def main(argv: Optional[Sequence[str]] = None) -> int:
+def main(
+    argv: Optional[Sequence[str]] = None, *,
+    metadata_fetch: Callable[[], Tuple[Dict[str, Any], Dict[str, Any]]] =
+        fetch_public_catalog,
+    now: Callable[[], str] = _utc_now,
+) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--catalog-json", type=Path, required=True)
-    parser.add_argument("--endpoints-json", type=Path, required=True)
-    parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--retrieved-at", required=True)
+    parser.add_argument("--public-preflight", action="store_true")
+    parser.add_argument("--output-dir", type=Path)
     args = parser.parse_args(argv)
-    catalog = json.loads(args.catalog_json.read_text(encoding="utf-8"))
-    endpoints = json.loads(args.endpoints_json.read_text(encoding="utf-8"))
-    write_manifest_input(args.output, build_manifest(
-        catalog, endpoints, catalog_retrieved_at=args.retrieved_at))
-    return 0
+    if not args.public_preflight:
+        print("WCF-Bench Pilot 2 preflight — DRY RUN (zero network calls)")
+        return 0
+    if args.output_dir is None:
+        parser.error("--public-preflight requires --output-dir")
+    try:
+        result = run_public_preflight(
+            args.output_dir, metadata_fetch=metadata_fetch, now=now)
+    except PreflightOutputError as exc:
+        print(f"ERROR: {exc}")
+        return 2
+    print(f"Pilot 2 public preflight: {result['status']} at {result['output_dir']}")
+    return 0 if result["status"] == "EXECUTABLE-MANIFEST-INPUT" else 1
 
 
 if __name__ == "__main__":

@@ -32,7 +32,10 @@ def _catalog_and_endpoints():
             "id": spec.slug,
             "canonical_slug": spec.slug + "-canonical",
             "context_length": 131072,
-            "top_provider": {"max_completion_tokens": 16384},
+            "top_provider": {
+                "context_length": 131072,
+                "max_completion_tokens": 16384,
+            },
             "architecture": {
                 "input_modalities": ["text"], "output_modalities": ["text"]},
             "supported_parameters": [
@@ -48,6 +51,8 @@ def _catalog_and_endpoints():
                 "prompt": str(spec.prompt_price_per_token),
                 "completion": str(spec.completion_price_per_token),
             },
+            "context_length": 131072,
+            "max_completion_tokens": 16384,
         }]
     return catalog, endpoints
 

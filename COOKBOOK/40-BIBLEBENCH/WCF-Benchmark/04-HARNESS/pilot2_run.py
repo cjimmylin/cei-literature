@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import copy
 import json
 import math
 from concurrent.futures import ThreadPoolExecutor
@@ -237,15 +238,15 @@ def _judge_projection(row: Mapping[str, Any]) -> Dict[str, Any]:
     payload = row.get("payload")
     if not isinstance(payload, Mapping):
         raise TerminalStop("judge record payload is malformed")
-    return {
+    projected = {
         "record_id": row.get("record_id"),
         "sut": row.get("sut"),
         "route": row.get("route"),
-        "payload": {
-            "criterion_id": payload.get("criterion_id"),
-            "response": payload.get("response"),
-        },
+        "payload": copy.deepcopy(dict(payload)),
     }
+    if row.get("call_kind") is not None:
+        projected["call_kind"] = row.get("call_kind")
+    return projected
 
 
 def serialize_judge_record(row: Mapping[str, Any]) -> bytes:
@@ -264,7 +265,8 @@ def build_dynamic_judge_batches(
 ) -> Tuple[list, list]:
     if not records:
         return [], []
-    identities = {(row.get("sut"), row.get("route")) for row in records}
+    identities = {(row.get("sut"), row.get("route"), row.get("call_kind"))
+                  for row in records}
     if len(identities) != 1:
         raise TerminalStop("judge records may not mix SUT or route")
     ids = [row.get("record_id") for row in records]
@@ -274,7 +276,8 @@ def build_dynamic_judge_batches(
     batches, missing, current = [], [], []
     for source in records:
         projected = _judge_projection(source)
-        response = projected["payload"].get("response")
+        response = projected["payload"].get(
+            "response", projected["payload"].get("judge_prompt"))
         if not isinstance(response, str):
             raise TerminalStop("judge response is malformed")
         if len(serialize_judge_record(source)) > preflight.JUDGE_MAX_SERIALIZED_RECORD_BYTES:

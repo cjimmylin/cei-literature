@@ -7,6 +7,7 @@ import csv
 import hashlib
 import io
 import json
+import re
 from dataclasses import dataclass
 from html import escape
 from pathlib import Path
@@ -36,6 +37,12 @@ PRIMARY_SHA256 = "1ace34dd8b33b06448c4d712edca4be0f4525e6223820ea4c68101736d2e14
 RELIABILITY_SHA256 = "f448b339c1708ee5de252241e2ba03452283a2b965c1b294b9b680cca0669bee"
 PRIMARY_TURN_COUNTS = (2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 2)
 RELIABILITY_TURN_COUNTS = (2, 2, 1, 2)
+OUTPUT_NAMES = (
+    "02-primary-labeling.html",
+    "02-reliability-labeling.html",
+    "02-finalization.html",
+    "README.md",
+)
 
 
 LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
@@ -297,6 +304,10 @@ def render_label_page(instrument: Instrument, role: str) -> str:
     }
     if role not in titles:
         raise HelperContractError(f"unsupported labeling role: {role!r}")
+    if not isinstance(instrument.sha256, str) or re.fullmatch(
+        r"[0-9a-f]{64}", instrument.sha256
+    ) is None:
+        raise HelperContractError("source SHA-256 must be 64 lowercase hex characters")
 
     return LABEL_PAGE_TEMPLATE.format(
         title=titles[role],
@@ -323,16 +334,28 @@ Open the role-specific HTML file locally. Finalization support will be added in 
 def generate(bundle: InstrumentBundle, output_dir: Path) -> None:
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    files = {
-        "02-primary-labeling.html": render_label_page(bundle.primary, "primary"),
-        "02-reliability-labeling.html": render_label_page(
+    unexpected = tuple(
+        sorted(
+            entry.name
+            for entry in output_dir.iterdir()
+            if entry.name not in OUTPUT_NAMES
+            or not entry.is_file()
+            or entry.is_symlink()
+        )
+    )
+    if unexpected:
+        raise HelperContractError(f"unexpected output entries: {unexpected!r}")
+
+    contents = (
+        render_label_page(bundle.primary, "primary"),
+        render_label_page(
             bundle.reliability, "reliability"
         ),
-        "02-finalization.html": render_finalization_page(bundle),
-        "README.md": render_readme(),
-    }
-    for filename, contents in files.items():
+        render_finalization_page(bundle),
+        render_readme(),
+    )
+    for filename, document in zip(OUTPUT_NAMES, contents):
         with (output_dir / filename).open(
             "w", encoding="utf-8", newline="\n"
         ) as destination:
-            destination.write(contents.rstrip("\n") + "\n")
+            destination.write(document.rstrip("\n") + "\n")

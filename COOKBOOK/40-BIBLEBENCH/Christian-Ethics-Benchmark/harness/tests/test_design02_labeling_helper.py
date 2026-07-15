@@ -1,6 +1,9 @@
+import base64
 import csv
 import hashlib
-from dataclasses import FrozenInstanceError
+import json
+import re
+from dataclasses import FrozenInstanceError, replace
 from pathlib import Path
 
 import pytest
@@ -46,6 +49,13 @@ def _instrument(rows):
         fieldnames=helper.HEADER,
         rows=tuple(rows),
     )
+
+
+def _embedded_payload(document):
+    match = re.search(r'const DATA_B64 = "([A-Za-z0-9+/=]+)";', document)
+    assert match is not None
+    decoded = base64.b64decode(match.group(1), validate=True).decode("utf-8")
+    return json.loads(decoded)
 
 
 def test_load_instruments_freezes_hash_schema_rows_and_turns():
@@ -253,6 +263,40 @@ def test_generate_label_pages_are_self_contained_blind_and_role_separated(tmp_pa
     assert "02-twomasters-U011" in primary
     assert "02-twomasters-U004" not in reliability
 
+    primary_payload = _embedded_payload(primary)
+    reliability_payload = _embedded_payload(reliability)
+    assert primary_payload["role"] == "primary"
+    assert primary_payload["source_sha256"] == helper.PRIMARY_SHA256
+    assert len(primary_payload["rows"]) == 12
+    assert [row["unit_id"] for row in primary_payload["rows"]] == [
+        row.unit_id for row in bundle.primary.rows
+    ]
+    assert [row["context_and_response"] for row in primary_payload["rows"]] == [
+        row.context_and_response for row in bundle.primary.rows
+    ]
+    assert tuple(len(row["turns"]) for row in primary_payload["rows"]) == (
+        helper.PRIMARY_TURN_COUNTS
+    )
+
+    assert reliability_payload["role"] == "reliability"
+    assert reliability_payload["source_sha256"] == helper.RELIABILITY_SHA256
+    assert len(reliability_payload["rows"]) == 4
+    assert [row["unit_id"] for row in reliability_payload["rows"]] == [
+        "02-twomasters-U000",
+        "02-twomasters-U001",
+        "02-twomasters-U002",
+        "02-twomasters-U003",
+    ]
+    assert [
+        row["context_and_response"] for row in reliability_payload["rows"]
+    ] == [row.context_and_response for row in bundle.reliability.rows]
+    assert tuple(len(row["turns"]) for row in reliability_payload["rows"]) == (
+        helper.RELIABILITY_TURN_COUNTS
+    )
+    assert not {
+        row.unit_id for row in bundle.primary.rows[4:]
+    }.intersection(row["unit_id"] for row in reliability_payload["rows"])
+
     forbidden = (
         "02-twomasters-partA.jsonl",
         "judge_report",
@@ -267,8 +311,15 @@ def test_generate_label_pages_are_self_contained_blind_and_role_separated(tmp_pa
         "<link ",
         "<script src=",
     )
-    for document in (primary, reliability):
+    for document, payload in (
+        (primary, primary_payload),
+        (reliability, reliability_payload),
+    ):
+        decoded_json = json.dumps(
+            payload, ensure_ascii=False, separators=(",", ":"), sort_keys=True
+        )
         assert all(value not in document for value in forbidden)
+        assert all(value not in decoded_json for value in forbidden)
         assert 'data-testid="response-text"' in document
         assert 'data-testid="review-screen"' in document
         assert 'data-testid="export-csv"' in document
@@ -288,4 +339,36 @@ def test_generation_is_byte_deterministic(tmp_path):
     second_files = {
         path.name: path.read_bytes() for path in sorted(second.iterdir())
     }
+    assert helper.OUTPUT_NAMES == (
+        "02-primary-labeling.html",
+        "02-reliability-labeling.html",
+        "02-finalization.html",
+        "README.md",
+    )
+    assert set(first_files) == set(helper.OUTPUT_NAMES)
     assert first_files == second_files
+
+
+def test_generate_rejects_unexpected_output_entry_without_deleting_it(tmp_path):
+    bundle = helper.load_instruments(PRIMARY, RELIABILITY)
+    unexpected = tmp_path / "unexpected.txt"
+    unexpected.write_text("preserve me\n", encoding="utf-8")
+
+    with pytest.raises(helper.HelperContractError, match="unexpected output entries"):
+        helper.generate(bundle, tmp_path)
+
+    assert unexpected.read_text(encoding="utf-8") == "preserve me\n"
+    assert {path.name for path in tmp_path.iterdir()} == {"unexpected.txt"}
+
+
+@pytest.mark.parametrize(
+    "unsafe_sha",
+    ('0";</script><script>alert(1)</script>', "A" * 64),
+    ids=("script-metacharacters", "malformed-uppercase"),
+)
+def test_render_label_page_rejects_unsafe_source_hash(unsafe_sha):
+    bundle = helper.load_instruments(PRIMARY, RELIABILITY)
+    unsafe_instrument = replace(bundle.primary, sha256=unsafe_sha)
+
+    with pytest.raises(helper.HelperContractError, match="SHA-256"):
+        helper.render_label_page(unsafe_instrument, "primary")

@@ -952,8 +952,8 @@ def validate_json_schema(value, schema):
                    "enum", "const"},
         "array": {"type", "items", "minItems", "maxItems", "enum", "const"},
         "string": {"type", "enum", "const"},
-        "integer": {"type", "enum", "const"},
-        "number": {"type", "enum", "const"},
+        "integer": {"type", "enum", "const", "minimum", "maximum"},
+        "number": {"type", "enum", "const", "minimum", "maximum"},
         "boolean": {"type", "enum", "const"},
         "null": {"type", "enum", "const"},
     }
@@ -1003,10 +1003,22 @@ def validate_json_schema(value, schema):
         return all(validate_json_schema(item, items) for item in value)
     if kind == "string":
         return isinstance(value, str)
-    if kind == "integer":
-        return type(value) is int
-    if kind == "number":
-        return type(value) in (int, float) and math.isfinite(value)
+    if kind in ("integer", "number"):
+        minimum = schema.get("minimum")
+        maximum = schema.get("maximum")
+        for key, bound in (("minimum", minimum), ("maximum", maximum)):
+            if (key in schema
+                    and (type(bound) not in (int, float) or not math.isfinite(bound))):
+                return False
+        if minimum is not None and maximum is not None and minimum > maximum:
+            return False
+        if kind == "integer":
+            valid_type = type(value) is int
+        else:
+            valid_type = type(value) in (int, float) and math.isfinite(value)
+        return (valid_type
+                and (minimum is None or value >= minimum)
+                and (maximum is None or value <= maximum))
     if kind == "boolean":
         return type(value) is bool
     return value is None
@@ -1123,7 +1135,7 @@ class SolExecClient:
         ])
         return argv
 
-    def run_json(self, logical_key, prompt, schema):
+    def run_json(self, logical_key, prompt, schema, value_validator=None):
         payload_hash = _sha256_bytes(prompt.encode("utf-8"))
         schema_hash = _canonical_hash(schema)
         attempts = []
@@ -1136,6 +1148,7 @@ class SolExecClient:
             returncode = None
             usage = {}
             error = None
+            validation_error_detail = None
             value = None
             with tempfile.TemporaryDirectory(prefix="walkworthy-open6-sol1-") as td:
                 schema_path = Path(td) / "schema.json"
@@ -1173,6 +1186,19 @@ class SolExecClient:
                             else:
                                 if not validate_json_schema(value, schema):
                                     error = "schema_invalid"
+                                elif value_validator is not None:
+                                    try:
+                                        if value_validator(copy.deepcopy(value)) is not True:
+                                            error = "schema_invalid"
+                                            validation_error_detail = {
+                                                "type": "value_validation_failed",
+                                            }
+                                    except Exception as exc:
+                                        error = "schema_invalid"
+                                        validation_error_detail = {
+                                            "type": exc.__class__.__name__,
+                                            "message": str(exc),
+                                        }
                 except (OSError, subprocess.TimeoutExpired):
                     error = "cli_failure"
             trace_hash = _sha256_bytes(trace_text.encode("utf-8"))
@@ -1198,7 +1224,8 @@ class SolExecClient:
                         "type": exc.__class__.__name__, "message": str(exc),
                     }
                     error = "custody_failure"
-            error_detail = sink_error or ({"type": error} if error else None)
+            error_detail = (sink_error or validation_error_detail
+                            or ({"type": error} if error else None))
             self.ledger.finish(
                 attempt, valid=error is None, error_class=error,
                 trace_sha256=trace_hash, response_sha256=response_hash,

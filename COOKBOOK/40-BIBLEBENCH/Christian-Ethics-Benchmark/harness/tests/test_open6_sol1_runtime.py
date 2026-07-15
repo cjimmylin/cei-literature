@@ -530,6 +530,21 @@ def test_recursive_schema_validator_and_batch_key_contract():
     assert not runtime.validate_json_schema(
         {}, {"type": "object", "properties": {}, "required": [{}]},
     )
+    d04_rating = {"type": "integer", "minimum": 1, "maximum": 10}
+    assert runtime.validate_json_schema(1, d04_rating)
+    assert runtime.validate_json_schema(10, d04_rating)
+    assert not runtime.validate_json_schema(0, d04_rating)
+    assert not runtime.validate_json_schema(11, d04_rating)
+    assert not runtime.validate_json_schema(True, d04_rating)
+    assert not runtime.validate_json_schema(
+        5, {"type": "integer", "minimum": 10, "maximum": 1},
+    )
+    assert not runtime.validate_json_schema(
+        5, {"type": "integer", "minimum": True, "maximum": 10},
+    )
+    assert not runtime.validate_json_schema(
+        5, {"type": "integer", "minimum": None, "maximum": 10},
+    )
 
     score_schema = {
         "type": "object", "additionalProperties": False,
@@ -578,6 +593,55 @@ def test_batch_validator_rejects_bad_shape_keys_and_nested_scores(bad):
         },
     }
     assert not runtime.validate_batch_result(bad, ("u1", "u2"), score_schema)
+
+
+def test_sol_run_json_optional_value_validator_replays_semantic_batch_defect(
+        tmp_path):
+    runtime = _runtime()
+    score_schema = {
+        "type": "object", "additionalProperties": False,
+        "required": ["label"],
+        "properties": {"label": {"type": "string", "enum": ["pass", "fail"]}},
+    }
+    schema = {
+        "type": "object", "additionalProperties": False,
+        "required": ["verdicts"],
+        "properties": {"verdicts": {
+            "type": "array", "minItems": 2, "maxItems": 2,
+            "items": {
+                "type": "object", "additionalProperties": False,
+                "required": ["unit_key", "scores"],
+                "properties": {
+                    "unit_key": {"type": "string", "enum": ["u1", "u2"]},
+                    "scores": score_schema,
+                },
+            },
+        }},
+    }
+    duplicate = {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "pass"}},
+        {"unit_key": "u1", "scores": {"label": "fail"}},
+    ]}
+    good = {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "pass"}},
+        {"unit_key": "u2", "scores": {"label": "fail"}},
+    ]}
+    runner = RecordedCodexRunner([json.dumps(duplicate), json.dumps(good)])
+    ledger = runtime.SolTaskLedger(tmp_path / "sol.jsonl")
+    client = runtime.SolExecClient(
+        ledger, runner=runner, cli_version="codex-cli test",
+    )
+
+    result = client.run_json(
+        "judge/batch", "same prompt", schema,
+        value_validator=lambda value: runtime.validate_batch_result(
+            value, ("u1", "u2"), score_schema,
+        ),
+    )
+
+    assert result.value == good
+    assert result.attempt_ids == (1, 2)
+    assert ledger.attempt_snapshot(1)["finish"]["error_class"] == "schema_invalid"
 
 
 def test_sol_classifier_is_strict_and_has_no_heuristic_fallback(tmp_path):

@@ -121,6 +121,53 @@ def _completed_fixture(
     return destination
 
 
+def _identity_tampered_fixture(source, destination):
+    source_text = Path(source).read_text(encoding="utf-8")
+    assert "02-twomasters-U000" in source_text
+    destination = Path(destination)
+    destination.write_text(
+        source_text.replace(
+            "02-twomasters-U000", "02-twomasters-U999", 1
+        ),
+        encoding="utf-8",
+    )
+    return destination
+
+
+def _install_delayed_file_reads(page):
+    page.evaluate(
+        """() => {
+          const nativeText = File.prototype.text;
+          window.pendingFileReads = [];
+          File.prototype.text = function () {
+            if (!this.name.startsWith("delayed-")) {
+              return nativeText.call(this);
+            }
+            return new Promise((resolve, reject) => {
+              window.pendingFileReads.push({resolve, reject});
+            });
+          };
+        }"""
+    )
+
+
+def _settle_delayed_file_read(page, *, text=None, reject=False):
+    page.wait_for_function("() => window.pendingFileReads.length === 1")
+    page.evaluate(
+        """async ({text, reject}) => {
+          const pending = window.pendingFileReads.shift();
+          if (reject) {
+            pending.reject(new Error("delayed read failure"));
+          } else {
+            pending.resolve(text);
+          }
+          await new Promise(resolve => requestAnimationFrame(resolve));
+          await new Promise(resolve => requestAnimationFrame(resolve));
+        }""",
+        {"text": text, "reject": reject},
+    )
+
+
 def _fill_all(page, total_turns):
     for _ in range(total_turns):
         page.get_by_role("radio", name="holds_line", exact=True).check()
@@ -996,4 +1043,231 @@ def test_finalizer_read_failure_is_precise_and_fail_closed(
     assert page.locator('[data-testid="disagreement-row"]').count() == 0
     assert page.get_by_test_id("export-declaration").is_disabled()
     assert page.get_by_test_id("export-adjudications").is_disabled()
+    assert browser_errors == []
+
+
+def test_finalizer_stale_valid_result_cannot_replace_new_invalid_error(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    old_primary = _completed_fixture(
+        PRIMARY, tmp_path / "old-primary.csv", "holds_line"
+    )
+    delayed_reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "delayed-old-reliability.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    invalid_primary = _identity_tampered_fixture(
+        old_primary, tmp_path / "new-invalid-primary.csv"
+    )
+    current_reliability = _completed_fixture(
+        RELIABILITY, tmp_path / "new-reliability.csv", "holds_line"
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    _install_delayed_file_reads(page)
+
+    page.locator("#primary-file").set_input_files(old_primary)
+    page.locator("#reliability-file").set_input_files(delayed_reliability)
+    page.get_by_test_id("validate-imports").click()
+    page.wait_for_function("() => window.pendingFileReads.length === 1")
+
+    page.locator("#primary-file").set_input_files(invalid_primary)
+    page.locator("#reliability-file").set_input_files(current_reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.get_by_test_id("error")).to_contain_text(
+        "identity/order mismatch"
+    )
+
+    _settle_delayed_file_read(
+        page, text=delayed_reliability.read_text(encoding="utf-8")
+    )
+
+    assert "identity/order mismatch" in page.get_by_test_id(
+        "error"
+    ).text_content()
+    assert page.get_by_test_id("import-status").text_content() == ""
+    assert page.locator('[data-testid="disagreement-row"]').count() == 0
+    assert page.get_by_test_id("export-declaration").is_disabled()
+    assert page.get_by_test_id("export-adjudications").is_disabled()
+    assert browser_errors == []
+
+
+def test_finalizer_stale_read_error_cannot_replace_new_valid_result(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    old_primary = _completed_fixture(
+        PRIMARY, tmp_path / "old-primary.csv", "holds_line"
+    )
+    delayed_reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "delayed-old-reliability.csv",
+        "holds_line",
+    )
+    new_primary = _completed_fixture(
+        PRIMARY, tmp_path / "new-primary.csv", "holds_line"
+    )
+    new_reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "new-reliability.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    _install_delayed_file_reads(page)
+
+    page.locator("#primary-file").set_input_files(old_primary)
+    page.locator("#reliability-file").set_input_files(delayed_reliability)
+    page.get_by_test_id("validate-imports").click()
+    page.wait_for_function("() => window.pendingFileReads.length === 1")
+
+    page.locator("#primary-file").set_input_files(new_primary)
+    page.locator("#reliability-file").set_input_files(new_reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(1)
+    expect(page.get_by_test_id("import-status")).to_have_text(
+        "Validated primary: 12 rows; reliability: 4 rows; disagreements: 1."
+    )
+
+    _settle_delayed_file_read(page, reject=True)
+
+    assert page.get_by_test_id("error").text_content() == ""
+    assert page.locator('[data-testid="disagreement-row"]').count() == 1
+    assert page.get_by_test_id("import-status").text_content() == (
+        "Validated primary: 12 rows; reliability: 4 rows; disagreements: 1."
+    )
+    assert browser_errors == []
+
+
+def test_finalizer_file_change_immediately_revokes_successful_import(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary.csv", "holds_line"
+    )
+    replacement_primary = _completed_fixture(
+        PRIMARY, tmp_path / "replacement-primary.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(1)
+    expect(page.get_by_test_id("import-status")).to_have_text(
+        "Validated primary: 12 rows; reliability: 4 rows; disagreements: 1."
+    )
+
+    page.locator("#primary-file").set_input_files(replacement_primary)
+
+    assert page.locator('[data-testid="disagreement-row"]').count() == 0
+    assert page.get_by_test_id("import-status").text_content() == ""
+    assert page.get_by_test_id("error").text_content() == ""
+    assert page.get_by_test_id("export-declaration").is_disabled()
+    assert page.get_by_test_id("export-adjudications").is_disabled()
+    assert browser_errors == []
+
+
+def test_finalizer_maps_all_overlap_turn_disagreements_in_exact_order(
+    tmp_path, browser_page
+):
+    overlap = (
+        ("02-twomasters-U000", 1),
+        ("02-twomasters-U000", 2),
+        ("02-twomasters-U001", 1),
+        ("02-twomasters-U001", 2),
+        ("02-twomasters-U002", 1),
+        ("02-twomasters-U003", 1),
+        ("02-twomasters-U003", 2),
+    )
+    primary_states = (
+        "holds_line",
+        "soft_concession",
+        "material_concession",
+        "full_compliance",
+        "pushback_with_alternative",
+        "holds_line",
+        "soft_concession",
+    )
+    reliability_states = (
+        "soft_concession",
+        "material_concession",
+        "full_compliance",
+        "pushback_with_alternative",
+        "holds_line",
+        "soft_concession",
+        "material_concession",
+    )
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY,
+        tmp_path / "primary.csv",
+        "holds_line",
+        dict(zip(overlap, primary_states)),
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability.csv",
+        "holds_line",
+        dict(zip(overlap, reliability_states)),
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+
+    disagreements = page.locator('[data-testid="disagreement-row"]')
+    expect(disagreements).to_have_count(7)
+    actual = disagreements.evaluate_all(
+        """rows => rows.map(row => [
+          row.dataset.unitId,
+          Number(row.dataset.member),
+          row.dataset.primaryValue,
+          row.dataset.reliabilityValue
+        ])"""
+    )
+    assert actual == [
+        [unit_id, member, primary_state, reliability_state]
+        for (unit_id, member), primary_state, reliability_state in zip(
+            overlap, primary_states, reliability_states
+        )
+    ]
+    assert page.get_by_test_id("import-status").text_content() == (
+        "Validated primary: 12 rows; reliability: 4 rows; disagreements: 7."
+    )
+    assert browser_errors == []
+
+
+def test_finalizer_success_status_reports_zero_disagreements(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY, tmp_path / "reliability.csv", "holds_line"
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(0)
+    expect(page.get_by_test_id("import-status")).to_have_text(
+        "Validated primary: 12 rows; reliability: 4 rows; disagreements: 0."
+    )
     assert browser_errors == []

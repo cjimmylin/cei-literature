@@ -632,6 +632,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     <label for="reliability-file">Completed reliability CSV</label>
     <input id="reliability-file" type="file" accept=".csv,text/csv">
     <button data-testid="validate-imports" type="button">Validate files</button>
+    <p data-testid="import-status" role="status"></p>
     <section id="disagreements" aria-live="polite"></section>
     <button data-testid="export-declaration" type="button" disabled>Export declaration</button>
     <button data-testid="export-adjudications" type="button" disabled>Export adjudications</button>
@@ -664,6 +665,9 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     const reliabilityFile = document.getElementById("reliability-file");
     const disagreementSection = document.getElementById("disagreements");
     const errorMessage = document.querySelector('[data-testid="error"]');
+    const importStatus = document.querySelector(
+      '[data-testid="import-status"]'
+    );
     const declarationButton = document.querySelector(
       '[data-testid="export-declaration"]'
     );
@@ -673,6 +677,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     let validatedPrimary = null;
     let validatedReliability = null;
     let currentDisagreements = [];
+    let validationEpoch = 0;
 
     function parseCsv(text, role) {
       if (typeof text !== "string") {
@@ -856,6 +861,10 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
       differences.forEach(difference => {
         const row = document.createElement("article");
         row.dataset.testid = "disagreement-row";
+        row.dataset.unitId = difference.unit_id;
+        row.dataset.member = String(difference.member);
+        row.dataset.primaryValue = difference.primary_value;
+        row.dataset.reliabilityValue = difference.reliability_value;
         const heading = document.createElement("h2");
         heading.textContent = difference.unit_id + " — Turn " + difference.member;
         const values = document.createElement("p");
@@ -875,6 +884,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
       declarationButton.disabled = true;
       adjudicationsButton.disabled = true;
       errorMessage.textContent = message;
+      importStatus.textContent = "";
     }
 
     async function readSelectedFile(file, role) {
@@ -885,12 +895,29 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
       }
     }
 
+    function validationIsCurrent(epoch, primarySelection, reliabilitySelection) {
+      return validationEpoch === epoch &&
+        primaryFile.files[0] === primarySelection &&
+        reliabilityFile.files[0] === reliabilitySelection;
+    }
+
+    function revokeImportedState() {
+      validationEpoch += 1;
+      clearTrustedState("");
+    }
+
     async function validateFiles() {
+      validationEpoch += 1;
+      const epoch = validationEpoch;
       clearTrustedState("");
       const primarySelection = primaryFile.files[0];
       const reliabilitySelection = reliabilityFile.files[0];
       if (primarySelection === undefined || reliabilitySelection === undefined) {
-        clearTrustedState("Select both completed CSV files.");
+        if (validationIsCurrent(
+          epoch, primarySelection, reliabilitySelection
+        )) {
+          clearTrustedState("Select both completed CSV files.");
+        }
         return;
       }
 
@@ -898,9 +925,19 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
         const primaryText = await readSelectedFile(
           primarySelection, "Primary"
         );
+        if (!validationIsCurrent(
+          epoch, primarySelection, reliabilitySelection
+        )) {
+          return;
+        }
         const reliabilityText = await readSelectedFile(
           reliabilitySelection, "Reliability"
         );
+        if (!validationIsCurrent(
+          epoch, primarySelection, reliabilitySelection
+        )) {
+          return;
+        }
         const parsedPrimary = parseCsv(primaryText, "Primary");
         const parsedReliability = parseCsv(
           reliabilityText, "Reliability"
@@ -922,12 +959,26 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
         const candidateDifferences = computeDisagreements(
           candidatePrimary, candidateReliability
         );
+        if (!validationIsCurrent(
+          epoch, primarySelection, reliabilitySelection
+        )) {
+          return;
+        }
         validatedPrimary = candidatePrimary;
         validatedReliability = candidateReliability;
         currentDisagreements = candidateDifferences;
         errorMessage.textContent = "";
         renderDisagreements(currentDisagreements);
+        importStatus.textContent =
+          "Validated primary: " + candidatePrimary.length +
+          " rows; reliability: " + candidateReliability.length +
+          " rows; disagreements: " + candidateDifferences.length + ".";
       } catch (error) {
+        if (!validationIsCurrent(
+          epoch, primarySelection, reliabilitySelection
+        )) {
+          return;
+        }
         clearTrustedState(
           error instanceof Error
             ? error.message
@@ -939,6 +990,8 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     document.querySelector('[data-testid="validate-imports"]').addEventListener(
       "click", validateFiles
     );
+    primaryFile.addEventListener("change", revokeImportedState);
+    reliabilityFile.addEventListener("change", revokeImportedState);
   </script>
 </body>
 </html>"""

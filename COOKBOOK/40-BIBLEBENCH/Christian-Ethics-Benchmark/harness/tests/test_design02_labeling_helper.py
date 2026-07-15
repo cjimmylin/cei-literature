@@ -79,6 +79,20 @@ def _generated(tmp_path):
     return output_dir
 
 
+def _read_csv(path):
+    with Path(path).open(encoding="utf-8", newline="") as source:
+        reader = csv.DictReader(source)
+        return tuple(reader.fieldnames or ()), list(reader)
+
+
+def _fill_all(page, total_turns):
+    for _ in range(total_turns):
+        page.get_by_role("radio", name="holds_line", exact=True).check()
+        page.get_by_label("Confidence", exact=True).select_option("2")
+        page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+        page.get_by_test_id("next").click()
+
+
 def _complete_reliability(page):
     for _ in range(7):
         page.get_by_role("radio", name="holds_line", exact=True).check()
@@ -639,4 +653,104 @@ def test_storage_failure_keeps_work_in_memory_with_visible_warning(
 
     assert page.get_by_test_id("turn-progress").text_content() == "Turn 2 of 21"
     assert page.locator("#draft-warning").text_content() == DRAFT_STORAGE_WARNING
+    assert browser_errors == []
+
+
+def test_primary_download_preserves_source_bytes_and_validated_labels(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-primary-labeling.html").as_uri())
+
+    export = page.get_by_test_id("export-csv")
+    assert export.is_disabled()
+    _fill_all(page, 21)
+    assert page.get_by_test_id("review-screen").is_visible()
+    assert export.is_enabled()
+
+    with page.expect_download(timeout=2_000) as download_info:
+        export.click()
+    download = download_info.value
+    assert (
+        download.suggested_filename
+        == "02-twomasters-partA-primary-completed.csv"
+    )
+    saved = tmp_path / download.suggested_filename
+    download.save_as(saved)
+
+    fieldnames, exported_rows = _read_csv(saved)
+    assert fieldnames == helper.HEADER
+    assert len(exported_rows) == 12
+    assert exported_rows[0]["turn_state"] == '["holds_line","holds_line"]'
+    assert exported_rows[2]["unit_id"] == "02-twomasters-U002"
+    assert exported_rows[2]["turn_state"] == '["holds_line"]'
+    assert all(
+        row["Q-R2_avoids_keyed_wrong"] == "n-a" for row in exported_rows
+    )
+
+    source_fieldnames, source_rows = _read_csv(PRIMARY)
+    assert source_fieldnames == helper.HEADER
+    for exported, source in zip(exported_rows, source_rows):
+        for fieldname in ("unit_id", "design", "context_and_response"):
+            assert exported[fieldname] == source[fieldname]
+    assert browser_errors == []
+
+
+def test_reliability_download_uses_role_filename_and_all_source_rows(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-reliability-labeling.html").as_uri())
+
+    _fill_all(page, 7)
+    with page.expect_download(timeout=2_000) as download_info:
+        page.get_by_test_id("export-csv").click()
+    download = download_info.value
+    assert (
+        download.suggested_filename
+        == "02-twomasters-partA-reliability-completed.csv"
+    )
+    saved = tmp_path / download.suggested_filename
+    download.save_as(saved)
+
+    fieldnames, rows = _read_csv(saved)
+    assert fieldnames == helper.HEADER
+    assert len(rows) == 4
+    assert sum(len(json.loads(row["turn_state"])) for row in rows) == 7
+    assert browser_errors == []
+
+
+@pytest.mark.parametrize(
+    ("mutation", "expected_error"),
+    (
+        (
+            "rows[0].q2 = 'yes'",
+            "Download blocked at row 1: Q-R2 must be n-a when Q-R1 is no.",
+        ),
+        (
+            "payload.rows[0].unit_id = '02-twomasters-U999'",
+            "Download blocked: source-bound fields changed at row 1.",
+        ),
+    ),
+    ids=("draft-label", "source-bound"),
+)
+def test_download_revalidates_current_draft_and_source_before_serializing(
+    tmp_path, browser_page, mutation, expected_error
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-reliability-labeling.html").as_uri())
+    _fill_all(page, 7)
+    downloads = []
+    page.on("download", lambda download: downloads.append(download))
+
+    page.evaluate(mutation)
+    page.get_by_test_id("export-csv").click()
+    page.wait_for_timeout(100)
+
+    assert downloads == []
+    assert page.get_by_test_id("export-csv").is_disabled()
+    assert page.get_by_test_id("error").text_content() == expected_error
     assert browser_errors == []

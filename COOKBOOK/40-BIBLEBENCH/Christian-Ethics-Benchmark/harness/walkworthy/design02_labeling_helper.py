@@ -116,6 +116,14 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       atob(DATA_B64), character => character.charCodeAt(0)
     );
     const payload = JSON.parse(new TextDecoder().decode(payloadBytes));
+    const sourceHeader = Object.freeze(payload.header.slice());
+    const sourceRole = payload.role;
+    const sourceRows = Object.freeze(payload.rows.map(row => Object.freeze({{
+      unit_id: row.unit_id,
+      design: row.design,
+      context_and_response: row.context_and_response,
+      turns: Object.freeze(row.turns.slice())
+    }})));
     const turns = payload.rows.flatMap((row, rowIndex) =>
       row.turns.map((text, turnOffset) => ({{
         rowIndex: rowIndex,
@@ -337,6 +345,124 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       return "";
     }}
 
+    function csvCell(value) {{
+      const text = value === null || value === undefined ? "" : String(value);
+      const escaped = text.replace(/"/g, '""');
+      return /[,"\\r\\n]/.test(text) ? '"' + escaped + '"' : escaped;
+    }}
+
+    function buildCsv() {{
+      const csvRows = [sourceHeader];
+      sourceRows.forEach((sourceRow, index) => {{
+        const row = rows[index];
+        csvRows.push([
+          sourceRow.unit_id,
+          sourceRow.design,
+          sourceRow.context_and_response,
+          JSON.stringify(row.turnStates),
+          row.confidence,
+          row.notes,
+          row.q1,
+          row.q1 === "no" ? "n-a" : row.q2
+        ]);
+      }});
+      return csvRows.map(row => row.map(csvCell).join(",")).join("\\r\\n") +
+        "\\r\\n";
+    }}
+
+    function downloadText(filename, text, mime) {{
+      const blob = new Blob([text], {{type: mime}});
+      const objectUrl = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = objectUrl;
+      anchor.download = filename;
+      document.body.append(anchor);
+      try {{
+        anchor.click();
+      }} finally {{
+        window.setTimeout(() => {{
+          URL.revokeObjectURL(objectUrl);
+          if (anchor.isConnected) {{
+            anchor.remove();
+          }}
+        }}, 1000);
+      }}
+    }}
+
+    function sourceRowMatchesPayload(index) {{
+      const sourceRow = sourceRows[index];
+      const payloadRow = payload.rows[index];
+      return exactKeys(
+        payloadRow,
+        ["unit_id", "design", "context_and_response", "turns"]
+      ) &&
+        payloadRow.unit_id === sourceRow.unit_id &&
+        payloadRow.design === sourceRow.design &&
+        payloadRow.context_and_response === sourceRow.context_and_response &&
+        Array.isArray(payloadRow.turns) &&
+        payloadRow.turns.length === sourceRow.turns.length &&
+        payloadRow.turns.every(
+          (turn, turnIndex) => turn === sourceRow.turns[turnIndex]
+        );
+    }}
+
+    function validateDownload() {{
+      if (!reviewValidated || reviewScreen.hidden || !labelScreen.hidden) {{
+        return "Download blocked: a fresh validated review is required.";
+      }}
+      if (!Array.isArray(payload.header) ||
+          payload.header.length !== sourceHeader.length ||
+          !payload.header.every(
+            (fieldname, index) => fieldname === sourceHeader[index]
+          ) ||
+          payload.role !== sourceRole ||
+          !Array.isArray(payload.rows) ||
+          payload.rows.length !== sourceRows.length) {{
+        return "Download blocked: embedded source structure changed.";
+      }}
+      const changedSourceIndex = sourceRows.findIndex(
+        (sourceRow, index) => !sourceRowMatchesPayload(index)
+      );
+      if (changedSourceIndex !== -1) {{
+        return "Download blocked: source-bound fields changed at row " +
+          (changedSourceIndex + 1) + ".";
+      }}
+      if (!Array.isArray(rows) || rows.length !== sourceRows.length) {{
+        return "Download blocked: draft row structure changed.";
+      }}
+      const rowErrors = rows.map((row, index) => {{
+        if (!exactKeys(
+          row,
+          ["turnStates", "confidence", "notes", "q1", "q2"]
+        ) ||
+            !Array.isArray(row.turnStates) ||
+            row.turnStates.length !== sourceRows[index].turns.length ||
+            typeof row.notes !== "string") {{
+          return "Download blocked: draft row structure changed at row " +
+            (index + 1) + ".";
+        }}
+        const validationError = validateRow(row);
+        return validationError === ""
+          ? ""
+          : "Download blocked at row " + (index + 1) + ": " + validationError;
+      }});
+      return rowErrors.find(message => message !== "") || "";
+    }}
+
+    function exportCsv() {{
+      const validationError = validateDownload();
+      if (validationError !== "") {{
+        setReviewValidated(false);
+        errorMessage.textContent = validationError;
+        return;
+      }}
+      const filename = sourceRole === "primary"
+        ? "02-twomasters-partA-primary-completed.csv"
+        : "02-twomasters-partA-reliability-completed.csv";
+      errorMessage.textContent = "";
+      downloadText(filename, buildCsv(), "text/csv;charset=utf-8");
+    }}
+
     function renderTurn() {{
       const turn = turns[currentTurnIndex];
       const row = rows[turn.rowIndex];
@@ -435,6 +561,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
     }});
     previousButton.addEventListener("click", goPrevious);
     nextButton.addEventListener("click", goNext);
+    exportButton.addEventListener("click", exportCsv);
     renderTurn();
   </script>
 </body>

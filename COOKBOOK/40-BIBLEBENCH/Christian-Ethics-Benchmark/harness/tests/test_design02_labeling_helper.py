@@ -86,6 +86,41 @@ def _read_csv(path):
         return tuple(reader.fieldnames or ()), list(reader)
 
 
+def _completed_fixture(
+    source, destination, default_state, overrides=None
+):
+    fieldnames, source_rows = _read_csv(source)
+    overrides = overrides or {}
+    completed_rows = []
+    for source_row in source_rows:
+        turns = source_row["context_and_response"].split(helper.TURN_DELIMITER)
+        states = [
+            overrides.get((source_row["unit_id"], member), default_state)
+            for member in range(1, len(turns) + 1)
+        ]
+        completed_rows.append(
+            {
+                "unit_id": source_row["unit_id"],
+                "design": source_row["design"],
+                "context_and_response": source_row["context_and_response"],
+                "turn_state": json.dumps(states, separators=(",", ":")),
+                "confidence_1_3": "2",
+                "notes": "",
+                "Q-R1_declines": "no",
+                "Q-R2_avoids_keyed_wrong": "n-a",
+            }
+        )
+
+    destination = Path(destination)
+    with destination.open("w", encoding="utf-8", newline="") as output:
+        writer = csv.DictWriter(
+            output, fieldnames=fieldnames, lineterminator="\r\n"
+        )
+        writer.writeheader()
+        writer.writerows(completed_rows)
+    return destination
+
+
 def _fill_all(page, total_turns):
     for _ in range(total_turns):
         page.get_by_role("radio", name="holds_line", exact=True).check()
@@ -816,4 +851,148 @@ def test_download_api_failure_is_visible_fail_closed_and_cleans_up(
     assert page.get_by_test_id("error").text_content() == (
         "Download failed: browser could not prepare the CSV download."
     )
+    assert browser_errors == []
+
+
+def test_finalizer_imports_exact_rows_and_shows_only_turn_disagreements(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary-completed.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability-completed.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+
+    disagreements = page.locator('[data-testid="disagreement-row"]')
+    disagreements.first.wait_for()
+    assert disagreements.count() == 1
+    assert "U000" in disagreements.first.text_content()
+    assert "Turn 2" in disagreements.first.text_content()
+
+    tampered = tmp_path / "primary-tampered.csv"
+    primary_text = primary.read_text(encoding="utf-8")
+    assert "02-twomasters-U000" in primary_text
+    tampered.write_text(
+        primary_text.replace(
+            "02-twomasters-U000", "02-twomasters-U999", 1
+        ),
+        encoding="utf-8",
+    )
+    page.locator("#primary-file").set_input_files(tampered)
+    page.get_by_test_id("validate-imports").click()
+    page.wait_for_function(
+        "() => document.querySelector('[data-testid=error]').textContent"
+        ".includes('identity/order mismatch')"
+    )
+
+    assert disagreements.count() == 0
+    assert page.get_by_test_id("export-declaration").is_disabled()
+    assert page.get_by_test_id("export-adjudications").is_disabled()
+    assert browser_errors == []
+
+
+@pytest.mark.parametrize(
+    ("mutation", "expected_error"),
+    (
+        ("malformed-quoting", "unclosed quoted field"),
+        ("header", "header mismatch"),
+        ("turn-json", "turn_state"),
+        ("partial", "row count mismatch"),
+    ),
+)
+def test_finalizer_rejects_malformed_or_partial_csv_fail_closed(
+    tmp_path, browser_page, mutation, expected_error
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary-completed.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability-completed.csv",
+        "holds_line",
+        {("02-twomasters-U000", 1): "soft_concession"},
+    )
+    invalid = tmp_path / f"primary-{mutation}.csv"
+    fieldnames, rows = _read_csv(primary)
+    if mutation == "malformed-quoting":
+        invalid.write_text(
+            primary.read_text(encoding="utf-8") + '"unclosed',
+            encoding="utf-8",
+        )
+    elif mutation == "header":
+        invalid.write_text(
+            primary.read_text(encoding="utf-8").replace(
+                "unit_id", "unit_ID", 1
+            ),
+            encoding="utf-8",
+        )
+    else:
+        if mutation == "turn-json":
+            rows[0]["turn_state"] = '["invented_state","holds_line"]'
+        elif mutation == "partial":
+            rows.pop()
+        with invalid.open("w", encoding="utf-8", newline="") as output:
+            writer = csv.DictWriter(
+                output, fieldnames=fieldnames, lineterminator="\r\n"
+            )
+            writer.writeheader()
+            writer.writerows(rows)
+
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(invalid)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+    page.wait_for_function(
+        "expected => document.querySelector('[data-testid=error]')"
+        ".textContent.includes(expected)",
+        arg=expected_error,
+    )
+
+    assert page.locator('[data-testid="disagreement-row"]').count() == 0
+    assert page.get_by_test_id("export-declaration").is_disabled()
+    assert page.get_by_test_id("export-adjudications").is_disabled()
+    assert browser_errors == []
+
+
+def test_finalizer_read_failure_is_precise_and_fail_closed(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary-completed.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY, tmp_path / "reliability-completed.csv", "holds_line"
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.evaluate(
+        "() => { File.prototype.text = () => "
+        "Promise.reject(new Error('browser-specific read failure')); }"
+    )
+
+    page.get_by_test_id("validate-imports").click()
+    page.wait_for_function(
+        "() => document.querySelector('[data-testid=error]').textContent === "
+        "'Primary file could not be read.'"
+    )
+
+    assert page.locator('[data-testid="disagreement-row"]').count() == 0
+    assert page.get_by_test_id("export-declaration").is_disabled()
+    assert page.get_by_test_id("export-adjudications").is_disabled()
     assert browser_errors == []

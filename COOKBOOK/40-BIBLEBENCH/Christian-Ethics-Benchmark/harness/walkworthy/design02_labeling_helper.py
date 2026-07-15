@@ -613,14 +613,333 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Design 02 labeling finalization</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { margin: 0; line-height: 1.5; }
+    main { box-sizing: border-box; margin: 0 auto; max-width: 52rem; padding: 1.25rem; }
+    label { display: block; font-weight: 700; margin-block: 1rem 0.25rem; }
+    button { margin-block: 1rem; }
+    [data-testid="disagreement-row"] { border: 2px solid currentColor; margin-block: 0.75rem; padding: 0.75rem; }
+    [role="alert"] { font-weight: 700; }
+    :focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+  </style>
 </head>
 <body>
   <main>
     <h1>Design 02 labeling finalization</h1>
-    <p data-testid="finalization-status">Finalization support will be added in a later task.</p>
-    <p data-testid="primary-source-sha">{primary_sha}</p>
-    <p data-testid="reliability-source-sha">{reliability_sha}</p>
+    <label for="primary-file">Completed primary CSV</label>
+    <input id="primary-file" type="file" accept=".csv,text/csv">
+    <label for="reliability-file">Completed reliability CSV</label>
+    <input id="reliability-file" type="file" accept=".csv,text/csv">
+    <button data-testid="validate-imports" type="button">Validate files</button>
+    <section id="disagreements" aria-live="polite"></section>
+    <button data-testid="export-declaration" type="button" disabled>Export declaration</button>
+    <button data-testid="export-adjudications" type="button" disabled>Export adjudications</button>
+    <p data-testid="error" role="alert"></p>
   </main>
+  <script>
+    const DATA_B64 = __DATA_B64__;
+    const payloadBytes = Uint8Array.from(
+      atob(DATA_B64), character => character.charCodeAt(0)
+    );
+    const payload = JSON.parse(new TextDecoder().decode(payloadBytes));
+    const HEADER = Object.freeze(payload.header.slice());
+    const TURN_STATES = Object.freeze(payload.turn_states.slice());
+
+    function freezeExpected(instrument) {
+      return Object.freeze({
+        source_sha256: instrument.source_sha256,
+        turn_counts: Object.freeze(instrument.turn_counts.slice()),
+        rows: Object.freeze(instrument.rows.map(row => Object.freeze({
+          unit_id: row.unit_id,
+          design: row.design,
+          context_and_response: row.context_and_response
+        })))
+      });
+    }
+
+    const expectedPrimary = freezeExpected(payload.primary);
+    const expectedReliability = freezeExpected(payload.reliability);
+    const primaryFile = document.getElementById("primary-file");
+    const reliabilityFile = document.getElementById("reliability-file");
+    const disagreementSection = document.getElementById("disagreements");
+    const errorMessage = document.querySelector('[data-testid="error"]');
+    const declarationButton = document.querySelector(
+      '[data-testid="export-declaration"]'
+    );
+    const adjudicationsButton = document.querySelector(
+      '[data-testid="export-adjudications"]'
+    );
+    let validatedPrimary = null;
+    let validatedReliability = null;
+    let currentDisagreements = [];
+
+    function parseCsv(text, role) {
+      if (typeof text !== "string") {
+        throw new Error(role + " CSV read did not return text.");
+      }
+      const records = [];
+      let record = [];
+      let field = "";
+      let inQuotes = false;
+      let closedQuote = false;
+
+      function finishField() {
+        record.push(field);
+        field = "";
+        closedQuote = false;
+      }
+
+      function finishRecord() {
+        finishField();
+        if (record.every(value => value === "")) {
+          throw new Error(role + " CSV contains a blank spurious row.");
+        }
+        records.push(record);
+        record = [];
+      }
+
+      for (let index = 0; index < text.length; index += 1) {
+        const character = text[index];
+        if (inQuotes) {
+          if (character === '"') {
+            if (text[index + 1] === '"') {
+              field += '"';
+              index += 1;
+            } else {
+              inQuotes = false;
+              closedQuote = true;
+            }
+          } else {
+            field += character;
+          }
+          continue;
+        }
+
+        if (closedQuote) {
+          if (character === ",") {
+            finishField();
+          } else if (character === "\\r" || character === "\\n") {
+            finishRecord();
+            if (character === "\\r" && text[index + 1] === "\\n") {
+              index += 1;
+            }
+          } else {
+            throw new Error(role + " CSV contains post-quote junk.");
+          }
+        } else if (character === '"') {
+          if (field !== "") {
+            throw new Error(role + " CSV contains a stray quote character.");
+          }
+          inQuotes = true;
+        } else if (character === ",") {
+          finishField();
+        } else if (character === "\\r" || character === "\\n") {
+          finishRecord();
+          if (character === "\\r" && text[index + 1] === "\\n") {
+            index += 1;
+          }
+        } else {
+          field += character;
+        }
+      }
+
+      if (inQuotes) {
+        throw new Error(role + " CSV has an unclosed quoted field.");
+      }
+      if (closedQuote || field !== "" || record.length !== 0) {
+        finishRecord();
+      }
+      if (records.length === 0) {
+        throw new Error(role + " CSV is empty.");
+      }
+      const width = records[0].length;
+      const inconsistentIndex = records.findIndex(
+        recordValue => recordValue.length !== width
+      );
+      if (inconsistentIndex !== -1) {
+        throw new Error(
+          role + " CSV has inconsistent column count at row " +
+          (inconsistentIndex + 1) + "."
+        );
+      }
+      return {header: records[0], rows: records.slice(1)};
+    }
+
+    function validateHeader(actual, role) {
+      if (actual.length !== HEADER.length ||
+          !actual.every((fieldname, index) => fieldname === HEADER[index])) {
+        throw new Error(role + " header mismatch: expected exact frozen header.");
+      }
+    }
+
+    function validateImported(
+      rows, expectedRows, expectedTurnCounts, role
+    ) {
+      if (rows.length !== expectedRows.length) {
+        throw new Error(
+          role + " row count mismatch: expected " + expectedRows.length +
+          ", got " + rows.length + "."
+        );
+      }
+      return rows.map((cells, index) => {
+        const row = Object.fromEntries(
+          HEADER.map((fieldname, fieldIndex) => [fieldname, cells[fieldIndex]])
+        );
+        const expected = expectedRows[index];
+        if (row.unit_id !== expected.unit_id ||
+            row.design !== expected.design ||
+            row.context_and_response !== expected.context_and_response) {
+          throw new Error(
+            role + " identity/order mismatch at row " + (index + 1) + "."
+          );
+        }
+
+        let states;
+        try {
+          states = JSON.parse(row.turn_state);
+        } catch (error) {
+          throw new Error(
+            role + " turn_state JSON is invalid at row " + (index + 1) + "."
+          );
+        }
+        if (!Array.isArray(states) ||
+            states.length !== expectedTurnCounts[index] ||
+            !states.every(state => TURN_STATES.includes(state))) {
+          throw new Error(
+            role + " turn_state is invalid at row " + (index + 1) + "."
+          );
+        }
+        if (!["1", "2", "3"].includes(row.confidence_1_3)) {
+          throw new Error(
+            role + " confidence is invalid at row " + (index + 1) + "."
+          );
+        }
+        const q1 = row["Q-R1_declines"];
+        if (!["yes", "partially", "no"].includes(q1)) {
+          throw new Error(
+            role + " Q-R1 is invalid at row " + (index + 1) + "."
+          );
+        }
+        const q2 = row["Q-R2_avoids_keyed_wrong"];
+        if ((q1 === "no" && q2 !== "n-a") ||
+            (q1 !== "no" && !["yes", "no"].includes(q2))) {
+          throw new Error(
+            role + " Q-R2 is invalid at row " + (index + 1) + "."
+          );
+        }
+        return Object.assign({}, row, {states: states});
+      });
+    }
+
+    function computeDisagreements(primaryRows, reliabilityRows) {
+      const differences = [];
+      reliabilityRows.forEach((reliabilityRow, rowIndex) => {
+        reliabilityRow.states.forEach((reliabilityValue, turnOffset) => {
+          const primaryValue = primaryRows[rowIndex].states[turnOffset];
+          if (primaryValue !== reliabilityValue) {
+            differences.push({
+              unit_id: reliabilityRow.unit_id,
+              category: "turn_state",
+              member: turnOffset + 1,
+              primary_value: primaryValue,
+              reliability_value: reliabilityValue
+            });
+          }
+        });
+      });
+      return differences;
+    }
+
+    function renderDisagreements(differences) {
+      disagreementSection.replaceChildren();
+      differences.forEach(difference => {
+        const row = document.createElement("article");
+        row.dataset.testid = "disagreement-row";
+        const heading = document.createElement("h2");
+        heading.textContent = difference.unit_id + " — Turn " + difference.member;
+        const values = document.createElement("p");
+        values.textContent =
+          "Primary: " + difference.primary_value +
+          " · Reliability: " + difference.reliability_value;
+        row.append(heading, values);
+        disagreementSection.append(row);
+      });
+    }
+
+    function clearTrustedState(message) {
+      validatedPrimary = null;
+      validatedReliability = null;
+      currentDisagreements = [];
+      disagreementSection.replaceChildren();
+      declarationButton.disabled = true;
+      adjudicationsButton.disabled = true;
+      errorMessage.textContent = message;
+    }
+
+    async function readSelectedFile(file, role) {
+      try {
+        return await file.text();
+      } catch (error) {
+        throw new Error(role + " file could not be read.");
+      }
+    }
+
+    async function validateFiles() {
+      clearTrustedState("");
+      const primarySelection = primaryFile.files[0];
+      const reliabilitySelection = reliabilityFile.files[0];
+      if (primarySelection === undefined || reliabilitySelection === undefined) {
+        clearTrustedState("Select both completed CSV files.");
+        return;
+      }
+
+      try {
+        const primaryText = await readSelectedFile(
+          primarySelection, "Primary"
+        );
+        const reliabilityText = await readSelectedFile(
+          reliabilitySelection, "Reliability"
+        );
+        const parsedPrimary = parseCsv(primaryText, "Primary");
+        const parsedReliability = parseCsv(
+          reliabilityText, "Reliability"
+        );
+        validateHeader(parsedPrimary.header, "Primary");
+        validateHeader(parsedReliability.header, "Reliability");
+        const candidatePrimary = validateImported(
+          parsedPrimary.rows,
+          expectedPrimary.rows,
+          expectedPrimary.turn_counts,
+          "Primary"
+        );
+        const candidateReliability = validateImported(
+          parsedReliability.rows,
+          expectedReliability.rows,
+          expectedReliability.turn_counts,
+          "Reliability"
+        );
+        const candidateDifferences = computeDisagreements(
+          candidatePrimary, candidateReliability
+        );
+        validatedPrimary = candidatePrimary;
+        validatedReliability = candidateReliability;
+        currentDisagreements = candidateDifferences;
+        errorMessage.textContent = "";
+        renderDisagreements(currentDisagreements);
+      } catch (error) {
+        clearTrustedState(
+          error instanceof Error
+            ? error.message
+            : "CSV import validation failed unexpectedly."
+        );
+      }
+    }
+
+    document.querySelector('[data-testid="validate-imports"]').addEventListener(
+      "click", validateFiles
+    );
+  </script>
 </body>
 </html>"""
 
@@ -785,6 +1104,34 @@ def _payload(instrument: Instrument, role: str) -> str:
     return base64.b64encode(encoded).decode("ascii")
 
 
+def _finalization_payload(bundle: InstrumentBundle) -> str:
+    def instrument_payload(instrument: Instrument) -> dict:
+        return {
+            "rows": [
+                {
+                    "context_and_response": row.context_and_response,
+                    "design": row.design,
+                    "unit_id": row.unit_id,
+                }
+                for row in instrument.rows
+            ],
+            "source_sha256": instrument.sha256,
+            "turn_counts": [len(row.turns) for row in instrument.rows],
+        }
+
+    payload = {
+        "header": list(HEADER),
+        "primary": instrument_payload(bundle.primary),
+        "reliability": instrument_payload(bundle.reliability),
+        "schema_version": "walkworthy-design02-finalizer-v1",
+        "turn_states": list(TURN_STATES),
+    }
+    encoded = json.dumps(
+        payload, ensure_ascii=False, separators=(",", ":"), sort_keys=True
+    ).encode("utf-8")
+    return base64.b64encode(encoded).decode("ascii")
+
+
 def _storage_key(role: str, sha: str) -> str:
     return f"walkworthy:{DESIGN}:{role}:{sha}"
 
@@ -810,9 +1157,8 @@ def render_label_page(instrument: Instrument, role: str) -> str:
 
 
 def render_finalization_page(bundle: InstrumentBundle) -> str:
-    return FINALIZATION_PAGE_TEMPLATE.format(
-        primary_sha=escape(bundle.primary.sha256),
-        reliability_sha=escape(bundle.reliability.sha256),
+    return FINALIZATION_PAGE_TEMPLATE.replace(
+        "__DATA_B64__", json.dumps(_finalization_payload(bundle))
     )
 
 

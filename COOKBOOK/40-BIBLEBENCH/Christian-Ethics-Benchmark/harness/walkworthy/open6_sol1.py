@@ -13,6 +13,7 @@ import json
 import math
 from decimal import Decimal
 from pathlib import Path
+from types import MappingProxyType
 from typing import Iterable
 
 from .loader import DESIGN_CODES, load_public_split
@@ -48,6 +49,79 @@ _ROSTER = (
     ("google/gemma-4-31b-it", "0.12", "0.35"),
     ("meta-llama/llama-4-maverick", "0.20", "0.80"),
 )
+
+EXPECTED_GEOMETRY_BY_DESIGN = MappingProxyType({
+    "01-goodsamaritan": MappingProxyType({
+        "item_count": 49, "scoring_unit": "item", "category_count": 2,
+        "sut_content_calls_per_model": 49,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 49,
+        "category_cells_per_model": 98, "same_design_judge_batches": 13,
+    }),
+    "02-twomasters": MappingProxyType({
+        "item_count": 36, "scoring_unit": "per_turn", "category_count": 1,
+        "sut_content_calls_per_model": 322,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 178, "judge_units_per_model": 286,
+        "category_cells_per_model": 286, "same_design_judge_batches": 72,
+    }),
+    "03-quiettongue": MappingProxyType({
+        "item_count": 33, "scoring_unit": "per_admin", "category_count": 3,
+        "sut_content_calls_per_model": 66,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 66,
+        "category_cells_per_model": 198, "same_design_judge_batches": 17,
+    }),
+    "04-innerweight": MappingProxyType({
+        "item_count": 33, "scoring_unit": "per_admin", "category_count": 3,
+        "sut_content_calls_per_model": 60,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 60,
+        "category_cells_per_model": 180, "same_design_judge_batches": 15,
+    }),
+    "05-ordoamoris": MappingProxyType({
+        "item_count": 32, "scoring_unit": "item", "category_count": 1,
+        "sut_content_calls_per_model": 32,
+        "design05_allocation_calls_per_model": 32,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 32,
+        "category_cells_per_model": 32, "same_design_judge_batches": 8,
+    }),
+    "06-crookedpath": MappingProxyType({
+        "item_count": 31, "scoring_unit": "item", "category_count": 7,
+        "sut_content_calls_per_model": 31,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 31,
+        "category_cells_per_model": 217, "same_design_judge_batches": 8,
+    }),
+    "07-seventyseven": MappingProxyType({
+        "item_count": 27, "scoring_unit": "per_turn", "category_count": 1,
+        "sut_content_calls_per_model": 163,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 109, "judge_units_per_model": 163,
+        "category_cells_per_model": 163, "same_design_judge_batches": 41,
+    }),
+    "08-vocationfork": MappingProxyType({
+        "item_count": 33, "scoring_unit": "per_admin", "category_count": 1,
+        "sut_content_calls_per_model": 66,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 66,
+        "category_cells_per_model": 66, "same_design_judge_batches": 17,
+    }),
+    "09-doubleedge": MappingProxyType({
+        "item_count": 34, "scoring_unit": "per_seat", "category_count": 2,
+        "sut_content_calls_per_model": 88,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 70,
+        "category_cells_per_model": 140, "same_design_judge_batches": 18,
+    }),
+    "10-strangergate": MappingProxyType({
+        "item_count": 36, "scoring_unit": "per_admin", "category_count": 4,
+        "sut_content_calls_per_model": 72,
+        "design05_allocation_calls_per_model": 0,
+        "classifier_turns_per_model": 0, "judge_units_per_model": 72,
+        "category_cells_per_model": 288, "same_design_judge_batches": 18,
+    }),
+})
 
 DISCLAIMER = (
     "Descriptive single-judge MVP only; no O5 verdict, G4 validation, release "
@@ -205,6 +279,34 @@ def _validate_authorized_geometry(items: list, geometry: dict) -> None:
         raise GeometryDriftError(
             "OPEN6-SOL1 PUBLIC geometry drift: "
             + json.dumps(drift, sort_keys=True)
+        )
+
+    rows = geometry.get("by_design", [])
+    actual_designs = [row.get("design") for row in rows]
+    if (len(actual_designs) != len(set(actual_designs))
+            or set(actual_designs) != set(EXPECTED_GEOMETRY_BY_DESIGN)):
+        raise GeometryDriftError(
+            "OPEN6-SOL1 per-design geometry drift: expected exactly "
+            f"{list(EXPECTED_GEOMETRY_BY_DESIGN)}, got {actual_designs}"
+        )
+    actual_by_design = {
+        row["design"]: {key: value for key, value in row.items() if key != "design"}
+        for row in rows
+    }
+    per_design_drift = {}
+    for design, expected in EXPECTED_GEOMETRY_BY_DESIGN.items():
+        actual = actual_by_design[design]
+        field_drift = {
+            field: {"actual": actual.get(field), "expected": expected.get(field)}
+            for field in sorted(set(actual) | set(expected))
+            if actual.get(field) != expected.get(field)
+        }
+        if field_drift:
+            per_design_drift[design] = field_drift
+    if per_design_drift:
+        raise GeometryDriftError(
+            "OPEN6-SOL1 per-design geometry drift: "
+            + json.dumps(per_design_drift, sort_keys=True)
         )
 
 

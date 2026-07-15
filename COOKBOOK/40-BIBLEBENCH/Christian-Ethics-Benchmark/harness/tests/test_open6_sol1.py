@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+from copy import deepcopy
 from decimal import Decimal
 from pathlib import Path
 import subprocess
@@ -104,6 +105,126 @@ def test_geometry_is_derived_from_item_structures_and_scoring_specs(benchmark_ro
     assert by_design["07-seventyseven"]["classifier_turns_per_model"] == 109
     assert by_design["06-crookedpath"]["category_cells_per_model"] == 217
     assert sum(row["item_count"] for row in geometry["by_design"]) == 344
+
+
+def test_every_per_design_geometry_field_is_frozen_and_compensating_drift_stops(
+        benchmark_root):
+    pilot = _module()
+    expected = {
+        "01-goodsamaritan": {
+            "item_count": 49, "scoring_unit": "item", "category_count": 2,
+            "sut_content_calls_per_model": 49,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 49,
+            "category_cells_per_model": 98, "same_design_judge_batches": 13,
+        },
+        "02-twomasters": {
+            "item_count": 36, "scoring_unit": "per_turn", "category_count": 1,
+            "sut_content_calls_per_model": 322,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 178, "judge_units_per_model": 286,
+            "category_cells_per_model": 286, "same_design_judge_batches": 72,
+        },
+        "03-quiettongue": {
+            "item_count": 33, "scoring_unit": "per_admin", "category_count": 3,
+            "sut_content_calls_per_model": 66,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 66,
+            "category_cells_per_model": 198, "same_design_judge_batches": 17,
+        },
+        "04-innerweight": {
+            "item_count": 33, "scoring_unit": "per_admin", "category_count": 3,
+            "sut_content_calls_per_model": 60,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 60,
+            "category_cells_per_model": 180, "same_design_judge_batches": 15,
+        },
+        "05-ordoamoris": {
+            "item_count": 32, "scoring_unit": "item", "category_count": 1,
+            "sut_content_calls_per_model": 32,
+            "design05_allocation_calls_per_model": 32,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 32,
+            "category_cells_per_model": 32, "same_design_judge_batches": 8,
+        },
+        "06-crookedpath": {
+            "item_count": 31, "scoring_unit": "item", "category_count": 7,
+            "sut_content_calls_per_model": 31,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 31,
+            "category_cells_per_model": 217, "same_design_judge_batches": 8,
+        },
+        "07-seventyseven": {
+            "item_count": 27, "scoring_unit": "per_turn", "category_count": 1,
+            "sut_content_calls_per_model": 163,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 109, "judge_units_per_model": 163,
+            "category_cells_per_model": 163, "same_design_judge_batches": 41,
+        },
+        "08-vocationfork": {
+            "item_count": 33, "scoring_unit": "per_admin", "category_count": 1,
+            "sut_content_calls_per_model": 66,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 66,
+            "category_cells_per_model": 66, "same_design_judge_batches": 17,
+        },
+        "09-doubleedge": {
+            "item_count": 34, "scoring_unit": "per_seat", "category_count": 2,
+            "sut_content_calls_per_model": 88,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 70,
+            "category_cells_per_model": 140, "same_design_judge_batches": 18,
+        },
+        "10-strangergate": {
+            "item_count": 36, "scoring_unit": "per_admin", "category_count": 4,
+            "sut_content_calls_per_model": 72,
+            "design05_allocation_calls_per_model": 0,
+            "classifier_turns_per_model": 0, "judge_units_per_model": 72,
+            "category_cells_per_model": 288, "same_design_judge_batches": 18,
+        },
+    }
+    assert pilot.EXPECTED_GEOMETRY_BY_DESIGN == expected
+
+    items = pilot.select_public_items(benchmark_root)
+    geometry = pilot.derive_geometry(items)
+    actual = {
+        row["design"]: {key: value for key, value in row.items() if key != "design"}
+        for row in geometry["by_design"]
+    }
+    assert actual == expected
+
+    numeric_fields = [field for field in next(iter(expected.values()))
+                      if field != "scoring_unit"]
+    designs = list(expected)
+    for design in designs:
+        for field in numeric_fields:
+            changed = deepcopy(geometry)
+            rows = {row["design"]: row for row in changed["by_design"]}
+            compensator = next(
+                (other for other in designs
+                 if other != design and rows[other][field] > 0),
+                None,
+            )
+            if compensator is not None:
+                rows[design][field] += 1
+                rows[compensator][field] -= 1
+            else:
+                compensator = next(other for other in designs if other != design)
+                rows[design][field] -= 1
+                rows[compensator][field] += 1
+            with pytest.raises(pilot.GeometryDriftError, match="per-design"):
+                pilot._validate_authorized_geometry(items, changed)
+
+        changed = deepcopy(geometry)
+        rows = {row["design"]: row for row in changed["by_design"]}
+        compensator = next(
+            other for other in designs
+            if expected[other]["scoring_unit"] != expected[design]["scoring_unit"]
+        )
+        rows[design]["scoring_unit"], rows[compensator]["scoring_unit"] = (
+            rows[compensator]["scoring_unit"], rows[design]["scoring_unit"]
+        )
+        with pytest.raises(pilot.GeometryDriftError, match="per-design"):
+            pilot._validate_authorized_geometry(items, changed)
 
 
 def test_manifest_write_is_canonical_immutable_and_validates_existing_file(

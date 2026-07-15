@@ -1,0 +1,28 @@
+{
+  "judge_contested": {
+    "reason": "judge prompt includes a SUT response that does not yet exist",
+    "route": "judge_contested",
+    "status": "NOT_MEASURABLE_UNTIL_RESPONSE_EVIDENCE"
+  },
+  "judge_episode": {
+    "reason": "judge prompt includes a SUT response that does not yet exist",
+    "route": "judge_episode",
+    "status": "NOT_MEASURABLE_UNTIL_RESPONSE_EVIDENCE"
+  },
+  "judge_open": {
+    "reason": "judge prompt includes a SUT response that does not yet exist",
+    "route": "judge_open",
+    "status": "NOT_MEASURABLE_UNTIL_RESPONSE_EVIDENCE"
+  },
+  "sut": {
+    "completion_tokens": 2048,
+    "max_rendered_prompt_bytes": 2221,
+    "max_rendered_transport_bytes": 2221,
+    "max_rendered_user_bytes": 1939,
+    "max_transport_item_id": "MEND-C1-W301",
+    "max_user_item_id": "MEND-C1-W301",
+    "prompt_tokens": 2221,
+    "source": "offline_rendered_prompt_ceiling",
+    "status": "MEASURED_OFFLINE"
+  }
+}

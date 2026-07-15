@@ -1,5 +1,46 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-14 — Open-First MVP preflight amendment and second-cycle safety choice
+
+- **Question:** Should Jimmy authorize one bounded second-cycle **FIX** that (a) amends
+  the exact six-SUT request contract from `reasoning.effort="none"` to
+  `reasoning.enabled=false` only where the catalog says reasoning is not mandatory,
+  (b) treats OpenRouter's request-enforced `data_collection="deny"` plus
+  `require_parameters=true` as the data-policy gate because public endpoint rows expose
+  no data-collection field, (c) derives conservative pre-response judge prompt ceilings
+  offline, and (d) fixes the three new quality-review P1s below? After those named fixes
+  pass focused re-review, should Codex be allowed to access OpenRouter auth/balance
+  metadata and run only the registered 16-record, zero-dollar Codex-OAuth canary? No
+  paid OpenRouter inference would be authorized.
+- **Why it blocks:** The immutable public preflight packet at
+  `07-PILOTS/20260714-open-first-mvp-zero-paid-preflight/` is
+  **FAILED/NON-EXECUTABLE**. All six exact slugs exist, but five reasoning-capable rows
+  do not explicitly advertise effort `none`; none of the 72 public endpoint rows expose
+  a `data_collection` field; and route-specific judge prompt ceilings cannot be measured
+  from nonexistent SUT responses under the current implementation. The fresh quality
+  review then found three new P1s after the one permitted fix cycle: the Codex subprocess
+  inherits unrelated parent secrets, a terminal stop in one shard does not cancel the
+  other two shards, and the budget controller is not atomic/reserving across three
+  threads. The binding second-cycle rule forbids an autonomous further fix.
+- **Evidence:** exact label and design in
+  `20260714l-wcf-open-first-mvp-pilot-design.md`; implementation plan in
+  `20260714m-wcf-open-first-mvp-offline-implementation-plan.md`; public snapshot hash
+  `64f7409fb47ee5631e7ef1f86888e8565196aec51dec03dce937cd4c7295e199`;
+  exact live forecast `$6.24476427` no-retry / `$6.842089548` bounded SUT-attempt
+  envelope / `$8.56` proposed 80%-utilization cap; 49 focused tests and 782 full-suite
+  tests green; specification named-blocker re-review PASS; quality review FAIL on the
+  three P1s above. Seven public metadata GETs, no credential access, no OAuth or
+  inference calls, and `$0` spend.
+- **Suggested default:** **FIX.** Preserve the exact six models, 230/226/4 split,
+  2,048-token SUT cap, one-run boundary, descriptive/non-quotable label, missingness,
+  and no-substitution rule. Permit only the three named operational fixes, the three
+  bounded preflight-contract amendments above, focused re-review, a refreshed public
+  preflight, OpenRouter balance metadata, and the registered 16-record OAuth canary.
+  Continue to prohibit paid inference until Codex returns the canary result, measured
+  time/quota forecast, balance/top-up state, and a new amount-specific authorization
+  request. **Disclose-and-run is not recommended** because the current defects can leak
+  unrelated secrets, continue calls after a terminal stop, and exceed the strict cap.
+
 ## RESOLVED 2026-07-14 — PPP-1 manuscript-use disposition
 
 - **Disposition:** Jimmy stated exactly: “I ACCEPT the immutable PPP-1 packet for

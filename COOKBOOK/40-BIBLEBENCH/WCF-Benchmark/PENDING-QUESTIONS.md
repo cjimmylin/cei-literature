@@ -1,6 +1,30 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 reviewed live execution seams are incomplete
+## OPEN 2026-07-15 — Pilot 2 quality review found two custody/cap P1s
+
+- **Question:** Should Jimmy authorize the exact bounded **QUALITY CUSTODY FIX**, select
+  **DISCLOSE-AND-RUN**, or **DEFER** Pilot 2 before credential access?
+- **Why it blocks:** Completed-run validation can accept fabricated checkpoints without
+  matching request/raw-response/settlement evidence. Separate CLI processes can also reserve
+  and spend concurrently against independent in-memory cap state because the immutable run
+  directory has no exclusive process lease.
+- **Evidence:** `20260715am-wcf-pilot2-s64-quality-custody-stop.md`. Fresh specification
+  re-review passed; fresh quality review failed only these two P1s. No credential, balance,
+  OAuth, inference, run directory, or spend occurred; empirical execution remains 0%.
+- **Suggested default:** **QUALITY CUSTODY FIX** only checkpoint-to-evidence cross-validation
+  plus an exclusive run/judge lease, with test-first regressions and named-only specification
+  and quality re-reviews. If both pass, resume the existing strict `$28.13` authority at the
+  balance gate without changing any protocol field.
+
+## RESOLVED 2026-07-15 — Pilot 2 reviewed live execution seams are incomplete
+
+- **Disposition:** Jimmy selected **LIVE SEAM FIX**. Exact authority is recorded in
+  `20260715al-jimmy-pilot2-s63-live-seam-fix-authorization-record.md`.
+- **Effect:** One bounded TDD implementation cycle, specification review, and quality review
+  may add only the authorization binder, three persisted phases, and judge/scoring/analysis
+  driver specified below. No credential/balance access, OAuth, inference, output run
+  directory, or spend before both reviews PASS. If they pass, the existing strict `$28.13`
+  authority resumes at the private-balance gate. Any new P1 stops.
 
 - **Question:** Should Jimmy authorize the exact bounded **LIVE SEAM FIX**, or **DEFER**
   Pilot 2 before credential access and empirical execution?

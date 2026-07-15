@@ -152,12 +152,13 @@ def _write_manifest(path, manifest=None):
 def test_live_cli_requires_go_and_runtime_env_key(tmp_path, monkeypatch):
     invoked = []
     args = ["--manifest", str(tmp_path / "manifest.json"),
-            "--output-dir", str(tmp_path / "run"), "--cap", "27.03"]
-    assert live.main(args, execute_fn=lambda *_a: invoked.append(True)) == 2
+            "--output-dir", str(tmp_path / "run"), "--cap", "27.03",
+            "--phase", live.PHASE_PROVIDER_CANARIES]
+    assert live.main(args) == 2
     assert invoked == [] and not (tmp_path / "run").exists()
     _write_manifest(tmp_path / "manifest.json")
     monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
-    assert live.main(["--go", *args], execute_fn=lambda *_a: invoked.append(True)) == 2
+    assert live.main(["--go", *args]) == 2
     assert invoked == []
 
 

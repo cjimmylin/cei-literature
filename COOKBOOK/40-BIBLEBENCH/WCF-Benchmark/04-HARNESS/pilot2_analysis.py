@@ -3,16 +3,19 @@
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import math
 import os
 import random
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Callable, Dict, Mapping, Optional, Sequence
 
 import pilot2_preflight as preflight
+import pilot2_live as live
 import pilot2_run as controller
 from wcfbench.contested import (
     build_disclosure_prompt, score_contested_position, settled_core_keypoints)
@@ -66,6 +69,20 @@ def synthetic_structured_result(
 
 class AnalysisError(RuntimeError):
     """Immutable responses/verdicts cannot support valid Pilot 2 analysis."""
+
+
+ANALYSIS_FILE = "pilot2-analysis.json"
+
+
+def _write_json_new(path: Path, value: Mapping[str, Any]) -> None:
+    try:
+        with Path(path).open("x", encoding="utf-8") as handle:
+            json.dump(value, handle, indent=2, sort_keys=True, ensure_ascii=False)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+    except FileExistsError as exc:
+        raise AnalysisError("analysis output already exists; refusing overwrite") from exc
 
 
 class _CaptureJudge:
@@ -495,22 +512,35 @@ def run_judge_driver(
     if len(checkpoints) != 1150 or len(set(keys)) != 1150:
         raise AnalysisError("judge driver requires 1,150 unique completed cells")
     calls = []
-    scorable = 0
+    response_missing_calls = []
+    scorable = diagnostic = 0
     for row in checkpoints:
         sut, item_id = row.get("sut"), row.get("item_id")
         item = by_item.get(item_id)
         if sut not in preflight.SUTS or item is None:
             raise AnalysisError("judge checkpoint is outside registered roster/bank")
         if item.extra.get("dev_set_only"):
+            diagnostic += 1
             continue
         scorable += 1
         if row.get("status") != "response":
+            for call in build_judge_calls(item, "", sut=sut):
+                response_missing_calls.append({
+                    "record_id": call["record_id"],
+                    "sut": sut, "item_id": item_id,
+                    "call_kind": call["call_kind"],
+                    "status": "missing", "score": None,
+                    "reason": "sut_response_missing",
+                })
             continue
         response = row.get("final_answer")
         if not isinstance(response, str) or not response:
             raise AnalysisError("successful checkpoint lacks final answer")
         calls.extend(build_judge_calls(item, response, sut=sut))
-    if scorable != 1130 or len({row["record_id"] for row in calls}) != len(calls):
+    all_record_ids = [row["record_id"] for row in calls] + [
+        row["record_id"] for row in response_missing_calls]
+    if (scorable != 1130 or diagnostic != 20 or len(all_record_ids) != 1740
+            or len(set(all_record_ids)) != 1740):
         raise AnalysisError("judge call geometry or identity is invalid")
     call_ids = {row["record_id"] for row in calls}
     persisted = set()
@@ -528,6 +558,10 @@ def run_judge_driver(
         append(verdict_path, row)
         persisted.add(record_id)
 
+    missing = 0
+    for row in response_missing_calls:
+        append(missing_path, row)
+        missing += 1
     if judge_factory is None:
         from pilot2_judge import Pilot2CodexOAuthJudge
         judge_factory = lambda callback: Pilot2CodexOAuthJudge(persist=callback)
@@ -535,7 +569,7 @@ def run_judge_driver(
     grouped: Dict[tuple, list] = defaultdict(list)
     for call in calls:
         grouped[(call["sut"], call["route"], call["call_kind"])].append(call)
-    batches_run = missing = 0
+    batches_run = 0
     for group in grouped.values():
         batches, oversized = controller.build_dynamic_judge_batches(group)
         for row in oversized:
@@ -550,7 +584,101 @@ def run_judge_driver(
                     "reason": "judge_retries_exhausted"})
                 missing += 1
     return {
-        "logical_judge_calls": len(calls),
+        "logical_judge_calls": len(all_record_ids),
         "persisted_verdicts": len(persisted),
         "missing_verdicts": missing, "batches_run": batches_run,
     }
+
+
+def _require_persisted_oauth_canary(report_path: Path) -> None:
+    from pilot2_judge import Pilot2CodexOAuthJudge
+    from pilot2_oauth_canary import build_fixture_packet
+
+    report_path = Path(report_path)
+    try:
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+        inputs = json.loads(
+            (report_path.parent / "canary-inputs.json").read_text(encoding="utf-8"))
+        verdicts = [json.loads(line) for line in
+                    (report_path.parent / "verdicts.jsonl").read_text(
+                        encoding="utf-8").splitlines() if line.strip()]
+    except (OSError, json.JSONDecodeError) as exc:
+        raise AnalysisError("judge driver requires exact persisted OAuth canary PASS") from exc
+    packet = build_fixture_packet()
+    records = list(packet["records"])
+    pending = {row["record_id"]: row for row in records}
+    valid = Pilot2CodexOAuthJudge._valid_output_records(
+        {"records": verdicts}, pending)
+    if (inputs != packet
+            or report.get("schema_version") != 1
+            or report.get("validity_label") != preflight.VALIDITY_LABEL
+            or report.get("status") != "PASS"
+            or report.get("record_count") != 16
+            or report.get("unique_record_count") != 16
+            or report.get("missing_record_ids") != []
+            or report.get("stop_kind") is not None
+            or "stop_reason" not in report or report.get("stop_reason") is not None
+            or report.get("input_sha256") != packet["input_sha256"]
+            or set(valid) != set(pending) or len(verdicts) != 16):
+        raise AnalysisError("judge driver requires exact persisted OAuth canary PASS")
+
+
+def run_live_judge_scoring_analysis(
+    run_dir: Path, *, oauth_canary_report: Path,
+    items: Optional[Sequence[Any]] = None,
+    judge_factory: Optional[Callable[[Callable[[Dict[str, Any]], None]], Any]] = None,
+) -> Dict[str, Any]:
+    """Run the exact persisted judge/scorer/analysis path after all live gates."""
+    run_dir = Path(run_dir)
+    analysis_path = run_dir / ANALYSIS_FILE
+    if analysis_path.exists():
+        raise AnalysisError("analysis output already exists; refusing overwrite")
+    try:
+        manifest = json.loads((run_dir / live.MANIFEST_COPY).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise AnalysisError("judge driver requires the authorized manifest") from exc
+    try:
+        live.require_bound_authorization(manifest)
+    except live.CustodyStop as exc:
+        raise AnalysisError("judge driver requires the authorized manifest") from exc
+    _require_persisted_oauth_canary(oauth_canary_report)
+    try:
+        live.require_completed_run_evidence(run_dir, manifest)
+    except live.CustodyStop as exc:
+        raise AnalysisError(f"judge driver requires immutable completed run evidence: {exc}") \
+            from exc
+    judge_summary = run_judge_driver(
+        run_dir, items=items, judge_factory=judge_factory,
+        oauth_canary_report=oauth_canary_report)
+    dataset = analyze_immutable_run(run_dir)
+    dataset["custody"] = {
+        "authorized_manifest_sha256": live._hash(run_dir / live.MANIFEST_COPY),
+        "oauth_canary_report_sha256": live._hash(Path(oauth_canary_report)),
+        "run_identity_sha256": live._hash(run_dir / live.IDENTITY_FILE),
+    }
+    _write_json_new(analysis_path, dataset)
+    return {**judge_summary, "analysis_json": str(analysis_path)}
+
+
+def main(
+    argv: Optional[Sequence[str]] = None, *,
+    driver: Callable[..., Dict[str, Any]] = run_live_judge_scoring_analysis,
+) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--go", action="store_true")
+    parser.add_argument("--run-dir", type=Path, required=True)
+    parser.add_argument("--oauth-canary-report", type=Path, required=True)
+    args = parser.parse_args(argv)
+    if not args.go:
+        print("refusing Pilot 2 OAuth judging without explicit --go", file=sys.stderr)
+        return 2
+    try:
+        driver(args.run_dir, oauth_canary_report=args.oauth_canary_report)
+    except AnalysisError as exc:
+        print(f"Pilot 2 analysis stopped: {exc}", file=sys.stderr)
+        return 2
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

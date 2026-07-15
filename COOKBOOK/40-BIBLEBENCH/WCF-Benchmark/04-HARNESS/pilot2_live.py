@@ -31,6 +31,20 @@ EVIDENCE_FILE = "raw-evidence.jsonl"
 CHECKPOINT_FILE = "checkpoint.jsonl"
 CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 MAX_RETRIES_PER_CELL = 2
+STRICT_CAP_USD = 28.13
+V3_MANIFEST_SHA256 = "b5227988f67a5eca563e7f76b78e36613e8665d433fda9c37fb1efa048a05870"
+OWNER_RECORD_NAME = "20260715ai-jimmy-pilot2-s62-28-13-execution-authorization-record.md"
+OWNER_RECORD_SHA256 = "ec49e5cbbf5670c55d78a3d3d9ebf30ded38fb9aa26ff66032ad0793eba60c71"
+WCF_ROOT = Path(__file__).resolve().parent.parent
+V3_MANIFEST_PATH = (
+    WCF_ROOT / "07-PILOTS" / "20260715-pilot2-public-preflight-v3"
+    / "pilot2-manifest.json"
+)
+OWNER_RECORD_PATH = WCF_ROOT / OWNER_RECORD_NAME
+PHASE_PROVIDER_CANARIES = "provider-canaries"
+PHASE_FIRST_CELLS = "first-cells"
+PHASE_REMAINING_RUN = "remaining-run"
+PHASES = (PHASE_PROVIDER_CANARIES, PHASE_FIRST_CELLS, PHASE_REMAINING_RUN)
 
 
 class CustodyStop(RuntimeError):
@@ -66,6 +80,112 @@ def _write_new(path: Path, value: Mapping[str, Any]) -> None:
         handle.write("\n")
         handle.flush()
         os.fsync(handle.fileno())
+
+
+def _read_json(path: Path, message: str) -> Dict[str, Any]:
+    try:
+        value = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise CustodyStop(message) from exc
+    if not isinstance(value, dict):
+        raise CustodyStop(message)
+    return value
+
+
+def _validate_authority_sources(
+    source_manifest: Path, owner_record: Path, cap_usd: float,
+) -> Dict[str, Any]:
+    source_manifest = Path(source_manifest)
+    owner_record = Path(owner_record)
+    if cap_usd != STRICT_CAP_USD:
+        raise CustodyStop("authorization cap must be exactly 28.13 USD")
+    try:
+        source_hash = _hash(source_manifest)
+        owner_hash = _hash(owner_record)
+        owner_text = owner_record.read_text(encoding="utf-8")
+    except OSError as exc:
+        raise CustodyStop("authorization source record is unreadable") from exc
+    if source_hash != V3_MANIFEST_SHA256:
+        raise CustodyStop("source manifest is not the exact immutable v3 hash")
+    if (owner_record.name != OWNER_RECORD_NAME
+            or owner_hash != OWNER_RECORD_SHA256):
+        raise CustodyStop("owner authorization record is not the exact dated record")
+    if ("Owner ruling:** `PROCEED`" not in owner_text
+            or "Strict cumulative OpenRouter NTE: **`$28.13`**" not in owner_text):
+        raise CustodyStop("owner authorization record does not grant the exact cap")
+    manifest = _load_manifest(source_manifest)
+    gate = manifest.get("authorization_gate") or {}
+    if any(gate.get(name) is not False for name in (
+            "credential_access", "oauth_canary", "paid_inference")):
+        raise CustodyStop("v3 authorization gates are not the registered false state")
+    try:
+        proposed = float(manifest["planning_cost"]["proposed_cap_usd"])
+        required = float(manifest["auth_balance"]["required_balance_usd"])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise CustodyStop("v3 manifest lacks the exact strict cap") from exc
+    if proposed != STRICT_CAP_USD or required != STRICT_CAP_USD:
+        raise CustodyStop("v3 manifest lacks the exact strict cap")
+    return manifest
+
+
+def bind_authorization(
+    source_manifest: Path, owner_record: Path, output_manifest: Path, *,
+    cap_usd: float,
+) -> Dict[str, Any]:
+    """Bind the exact owner authority into a new manifest without editing v3."""
+    output_manifest = Path(output_manifest)
+    if output_manifest.exists():
+        raise CustodyStop("authorized output manifest already exists")
+    manifest = _validate_authority_sources(
+        source_manifest, owner_record, cap_usd)
+    bound = copy.deepcopy(manifest)
+    bound["authorization_gate"].update({
+        "credential_access": True,
+        "oauth_canary": True,
+        "paid_inference": True,
+    })
+    bound["authorization_binding"] = {
+        "kind": "wcf_bench_pilot2_amount_specific_authorization",
+        "source_manifest_sha256": V3_MANIFEST_SHA256,
+        "owner_record": OWNER_RECORD_NAME,
+        "owner_record_sha256": OWNER_RECORD_SHA256,
+        "strict_cap_usd": STRICT_CAP_USD,
+    }
+    try:
+        _write_new(output_manifest, bound)
+    except FileExistsError as exc:
+        raise CustodyStop("authorized output manifest already exists") from exc
+    if _hash(Path(source_manifest)) != V3_MANIFEST_SHA256:
+        raise CustodyStop("immutable v3 manifest changed during authorization binding")
+    return bound
+
+
+def require_bound_authorization(manifest: Mapping[str, Any]) -> None:
+    """Fail closed unless a manifest differs from exact v3 only by the binding."""
+    source = _validate_authority_sources(
+        V3_MANIFEST_PATH, OWNER_RECORD_PATH, STRICT_CAP_USD)
+    observed = copy.deepcopy(dict(manifest))
+    binding = observed.pop("authorization_binding", None)
+    expected_binding = {
+        "kind": "wcf_bench_pilot2_amount_specific_authorization",
+        "source_manifest_sha256": V3_MANIFEST_SHA256,
+        "owner_record": OWNER_RECORD_NAME,
+        "owner_record_sha256": OWNER_RECORD_SHA256,
+        "strict_cap_usd": STRICT_CAP_USD,
+    }
+    if binding != expected_binding:
+        raise CustodyStop("manifest lacks the exact amount-specific authorization binding")
+    gate = observed.get("authorization_gate") or {}
+    if any(gate.get(name) is not True for name in (
+            "credential_access", "oauth_canary", "paid_inference")):
+        raise CustodyStop("manifest lacks all registered authorization transitions")
+    gate.update({
+        "credential_access": False,
+        "oauth_canary": False,
+        "paid_inference": False,
+    })
+    if observed != source:
+        raise CustodyStop("authorized manifest changes fields outside the registered binding")
 
 
 def _append(path: Path, value: Mapping[str, Any], lock: threading.Lock) -> None:
@@ -666,10 +786,108 @@ def run_cell(
     return copy.deepcopy(checkpoint)
 
 
+def _phase_is_passed(state: RunState, phase: str) -> bool:
+    rows = _read_jsonl(state.run_dir / EVIDENCE_FILE)
+    matches = [row for row in rows if row.get("kind") == "phase_completion"
+               and row.get("phase") == phase]
+    if len(matches) > 1 or any(row.get("status") != "PASS" for row in matches):
+        raise CustodyStop(f"{phase} phase evidence is duplicated or malformed")
+    return len(matches) == 1
+
+
+def _persist_phase_pass(state: RunState, phase: str, **counts: Any) -> None:
+    if not _phase_is_passed(state, phase):
+        _append(state.run_dir / EVIDENCE_FILE, {
+            "kind": "phase_completion", "phase": phase, "status": "PASS",
+            **counts,
+        }, state.lock)
+
+
+def execute_provider_canaries(
+    manifest: Mapping[str, Any], state: RunState,
+    transport: Callable[[Dict[str, Any]], Mapping[str, Any]],
+) -> list:
+    _require_paid_authorization(manifest)
+    results = run_provider_canaries(manifest, state, transport)
+    if state.canaries_passed != set(preflight.SUTS):
+        raise CustodyStop("all five provider canaries must PASS")
+    _persist_phase_pass(state, PHASE_PROVIDER_CANARIES, passed=5)
+    return results
+
+
+def execute_first_cells(
+    manifest: Mapping[str, Any], state: RunState,
+    transport: Callable[[Dict[str, Any]], Mapping[str, Any]],
+) -> list:
+    _require_paid_authorization(manifest)
+    if (state.canaries_passed != set(preflight.SUTS)
+            or not _phase_is_passed(state, PHASE_PROVIDER_CANARIES)):
+        raise CustodyStop("all five provider canaries require persisted PASS evidence")
+    items = {item.id: item for item in preflight.load_items(str(preflight.BANK_DIR))}
+    cells = build_cells(manifest)
+    by_sut = {sut: [cell for cell in cells if cell.sut == sut]
+              for sut in preflight.SUTS}
+    outcomes = []
+    for sut in preflight.SUTS:
+        first = by_sut[sut][0]
+        outcome = run_cell(
+            first, manifest=manifest, state=state, transport=transport,
+            items=items, require_reasoning_gate=True)
+        outcomes.append(outcome)
+        if outcome.get("status") != "response" or sut not in state.first_validated:
+            if hasattr(state, "run_dir") and hasattr(state, "lock"):
+                _terminal(state, "five first real cells did not all PASS", sut=sut)
+            raise CustodyStop("five first real cells must all PASS before shards")
+    if state.first_validated != set(preflight.SUTS):
+        raise CustodyStop("all five first real cells must PASS")
+    _persist_phase_pass(state, PHASE_FIRST_CELLS, passed=5)
+    return outcomes
+
+
+def execute_remaining_run(
+    manifest: Mapping[str, Any], state: RunState,
+    transport: Callable[[Dict[str, Any]], Mapping[str, Any]],
+) -> list:
+    _require_paid_authorization(manifest)
+    if (state.first_validated != set(preflight.SUTS)
+            or not _phase_is_passed(state, PHASE_FIRST_CELLS)):
+        raise CustodyStop("all five first real cells require persisted PASS evidence")
+    items = {item.id: item for item in preflight.load_items(str(preflight.BANK_DIR))}
+    cells = build_cells(manifest)
+    by_sut = {sut: [cell for cell in cells if cell.sut == sut]
+              for sut in preflight.SUTS}
+    shards = controller.build_sut_shards(preflight.SUTS)
+    cancelled = threading.Event()
+
+    def shard_worker(shard: Sequence[str]) -> None:
+        try:
+            for sut in shard:
+                for cell in by_sut[sut][1:]:
+                    if cancelled.is_set():
+                        return
+                    run_cell(cell, manifest=manifest, state=state,
+                             transport=transport, items=items,
+                             cancellation=cancelled)
+        except CustodyStop:
+            cancelled.set()
+            raise
+
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        list(pool.map(shard_worker, shards))
+    expected_keys = {cell.key for cell in cells}
+    if set(state.completed) != expected_keys:
+        raise CustodyStop("remaining run did not complete all 1,150 registered cells")
+    _persist_phase_pass(
+        state, PHASE_REMAINING_RUN, completed_cells=1150,
+        scorable_cells=1130, diagnostic_only_cells=20)
+    return list(state.completed.values())
+
+
 def execute(
     manifest: Mapping[str, Any], state: RunState,
     transport: Callable[[Dict[str, Any]], Mapping[str, Any]],
 ) -> list:
+    """Compatibility wrapper retained for offline tests; live CLI uses phases."""
     _require_paid_authorization(manifest)
     run_provider_canaries(manifest, state, transport)
     items = {item.id: item for item in preflight.load_items(str(preflight.BANK_DIR))}
@@ -677,10 +895,9 @@ def execute(
     by_sut = {sut: [cell for cell in cells if cell.sut == sut]
               for sut in preflight.SUTS}
     for sut in preflight.SUTS:
-        first = by_sut[sut][0]
         outcome = run_cell(
-            first, manifest=manifest, state=state, transport=transport,
-            items=items, require_reasoning_gate=True)
+            by_sut[sut][0], manifest=manifest, state=state,
+            transport=transport, items=items, require_reasoning_gate=True)
         if outcome.get("status") != "response" or sut not in state.first_validated:
             if hasattr(state, "run_dir") and hasattr(state, "lock"):
                 _terminal(state, "five first real cells did not all PASS", sut=sut)
@@ -704,6 +921,97 @@ def execute(
     with ThreadPoolExecutor(max_workers=3) as pool:
         list(pool.map(shard_worker, shards))
     return list(state.completed.values())
+
+
+def require_completed_run_evidence(
+    run_dir: Path, manifest: Mapping[str, Any],
+) -> list:
+    """Validate completed append-only run custody without mutating it."""
+    run_dir = Path(run_dir)
+    manifest_path = run_dir / MANIFEST_COPY
+    try:
+        manifest_sha256 = _hash(manifest_path)
+    except OSError as exc:
+        raise CustodyStop("immutable completed run manifest is unreadable") from exc
+    identity = _read_json(
+        run_dir / IDENTITY_FILE, "immutable completed run identity is unreadable")
+    expected_identity = {
+        "schema_version": 1,
+        "kind": "wcf_bench_pilot2_immutable_run",
+        "validity_label": preflight.VALIDITY_LABEL,
+        "manifest_sha256": manifest_sha256,
+        "exact_sut_slugs": list(preflight.SUTS),
+        "expected_cells": 1150,
+        "scorable_cells": 1130,
+        "diagnostic_only_cells": 20,
+        "cap_usd": STRICT_CAP_USD,
+    }
+    if identity != expected_identity:
+        raise CustodyStop("immutable completed run identity is invalid")
+    if _read_json(manifest_path, "run manifest is unreadable") != dict(manifest):
+        raise CustodyStop("run manifest does not match authorized manifest")
+    evidence = _read_jsonl(run_dir / EVIDENCE_FILE)
+    if any(row.get("kind") == "terminal_stop" for row in evidence):
+        raise CustodyStop("immutable completed run records a terminal stop")
+    phase_rows = [row for row in evidence if row.get("kind") == "phase_completion"]
+    if [(row.get("phase"), row.get("status")) for row in phase_rows] != [
+            (PHASE_PROVIDER_CANARIES, "PASS"),
+            (PHASE_FIRST_CELLS, "PASS"),
+            (PHASE_REMAINING_RUN, "PASS")]:
+        raise CustodyStop("immutable completed run lacks exact phase PASS evidence")
+    if {row.get("sut") for row in evidence
+            if row.get("kind") == "provider_canary_validation"
+            and row.get("status") == "PASS"} != set(preflight.SUTS):
+        raise CustodyStop("immutable completed run lacks five provider canary PASS records")
+    expected_first = {cell.key for cell in build_cells(manifest)
+                      if cell.item_id == (manifest.get("schedule") or {})[
+                          "all_item_ids"][0]}
+    if {row.get("cell_key") for row in evidence
+            if row.get("kind") == "first_cell_validation"
+            and row.get("status") == "PASS"} != expected_first:
+        raise CustodyStop("immutable completed run lacks five first-cell PASS records")
+    open_reservations: Dict[str, list] = {}
+    spent = 0.0
+    for row in evidence:
+        kind = row.get("kind")
+        request_id = row.get("request_id")
+        if kind == "reservation":
+            maximum = row.get("maximum_usd")
+            if (not isinstance(request_id, str)
+                    or not isinstance(maximum, (int, float))
+                    or isinstance(maximum, bool) or maximum <= 0):
+                raise CustodyStop("immutable run reservation evidence is invalid")
+            open_reservations.setdefault(request_id, []).append(float(maximum))
+        elif kind == "cost_settlement":
+            queues = open_reservations.get(request_id) or []
+            if not queues:
+                raise CustodyStop("immutable run settlement lacks reservation")
+            actual = row.get("response_attributed_cost_usd")
+            if (not isinstance(actual, (int, float)) or isinstance(actual, bool)
+                    or actual < 0 or actual > queues.pop(0) + 1e-12):
+                raise CustodyStop("immutable run settlement cost is invalid")
+            spent += float(actual)
+    if any(values for values in open_reservations.values()) or spent > STRICT_CAP_USD:
+        raise CustodyStop("immutable run has unsettled or over-cap custody")
+    checkpoints = _read_jsonl(run_dir / CHECKPOINT_FILE)
+    expected_cells = {cell.key: cell for cell in build_cells(manifest)}
+    by_key = {row.get("cell_key"): row for row in checkpoints}
+    if (len(checkpoints) != 1150 or len(by_key) != 1150
+            or set(by_key) != set(expected_cells)):
+        raise CustodyStop("immutable completed run lacks 1,150 unique checkpoints")
+    for key, row in by_key.items():
+        cell = expected_cells[key]
+        if (row.get("sut") != cell.sut or row.get("item_id") != cell.item_id
+                or row.get("status") not in {"response", "error"}):
+            raise CustodyStop("immutable completed run checkpoint identity is invalid")
+        if row["status"] == "response":
+            if (row.get("missing") is not False
+                    or not isinstance(row.get("final_answer"), str)
+                    or not row["final_answer"]):
+                raise CustodyStop("completed response checkpoint is invalid")
+        elif row.get("missing") is not True or row.get("score") is not None:
+            raise CustodyStop("completed missing checkpoint is invalid")
+    return checkpoints
 
 
 def _default_transport(api_key: str) -> Callable[[Dict[str, Any]], Mapping[str, Any]]:
@@ -743,8 +1051,11 @@ def main(
     balance_fetch: Callable[[str], Mapping[str, Any]] = fetch_key_snapshot,
     transport_factory: Callable[[str], Callable[[Dict[str, Any]], Mapping[str, Any]]] =
         _default_transport,
-    execute_fn: Callable[[Mapping[str, Any], RunState,
-                          Callable[[Dict[str, Any]], Mapping[str, Any]]], Any] = execute,
+    authorization_validator: Callable[[Mapping[str, Any]], None] =
+        require_bound_authorization,
+    phase_functions: Optional[Mapping[str, Callable[
+        [Mapping[str, Any], RunState,
+         Callable[[Dict[str, Any]], Mapping[str, Any]]], Any]]] = None,
 ) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--go", action="store_true")
@@ -752,6 +1063,9 @@ def main(
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--cap", type=float, required=True)
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument(
+        "--phase", choices=PHASES, required=True,
+        help="exactly one registered live gate phase")
     args = parser.parse_args(argv)
     if not args.go:
         print("refusing Pilot 2 inference without explicit --go", file=sys.stderr)
@@ -762,6 +1076,7 @@ def main(
         return 2
     try:
         manifest = _load_manifest(args.manifest)
+        authorization_validator(manifest)
         gate = manifest.get("authorization_gate") or {}
         if gate.get("paid_inference") is not True:
             raise CustodyStop("manifest lacks amount-specific paid authorization")
@@ -772,9 +1087,18 @@ def main(
         validate_runtime_catalog(manifest, catalog, endpoints)
         _require_sufficient_balance(manifest, key, balance_fetch)
         state = prepare_run(
-            args.manifest, args.output_dir, cap_usd=args.cap, resume=args.resume)
+            args.manifest, args.output_dir, cap_usd=args.cap,
+            resume=args.resume or args.phase in {
+                PHASE_FIRST_CELLS, PHASE_REMAINING_RUN})
         transport = transport_factory(key)
-        execute_fn(manifest, state, transport)
+        phases = phase_functions or {
+            PHASE_PROVIDER_CANARIES: execute_provider_canaries,
+            PHASE_FIRST_CELLS: execute_first_cells,
+            PHASE_REMAINING_RUN: execute_remaining_run,
+        }
+        if set(phases) != set(PHASES):
+            raise CustodyStop("live phase dispatch does not match registered phases")
+        phases[args.phase](manifest, state, transport)
     except (CustodyStop, controller.TerminalStop) as exc:
         print(f"Pilot 2 stopped: {exc}", file=sys.stderr)
         return 2

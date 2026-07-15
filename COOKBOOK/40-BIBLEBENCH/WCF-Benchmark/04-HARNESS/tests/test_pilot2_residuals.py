@@ -107,14 +107,18 @@ def test_live_cli_checks_registered_balance_before_transport_construction(
     monkeypatch.setenv("OPENROUTER_API_KEY", "fixture-secret")
     result = live.main(
         ["--go", "--manifest", str(path), "--output-dir", str(tmp_path / "run"),
-         "--cap", str(cap)],
+         "--cap", str(cap), "--phase", live.PHASE_PROVIDER_CANARIES],
         runtime_fetch=lambda: _metadata(price_factor=0.5),
         balance_fetch=lambda _key: events.append("balance") or {
             "limit_remaining": cap},
         transport_factory=lambda _key: events.append("transport") or (lambda _p: {}),
-        execute_fn=lambda *_args: events.append("execute"))
+        authorization_validator=lambda _manifest: None,
+        phase_functions={
+            phase: (lambda *_args, phase=phase: events.append(phase))
+            for phase in live.PHASES
+        })
     assert result == 0
-    assert events == ["balance", "transport", "execute"]
+    assert events == ["balance", "transport", live.PHASE_PROVIDER_CANARIES]
 
 
 def test_all_five_first_cells_must_pass_before_shards(monkeypatch):

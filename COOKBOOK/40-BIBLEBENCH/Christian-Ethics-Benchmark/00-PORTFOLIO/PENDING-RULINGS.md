@@ -1318,5 +1318,33 @@ public-release authority is added.
 
 ---
 
+## PR-30 — OPEN6 exceptional canary is preempted by historical recovery logic
+
+**Surfaced:** 2026-07-15 after Jimmy authorized one exact additional DeepSeek
+canary. The same-roster/same-ceiling revalidation passed and the exception was
+hash-bound to the two historical 404s. The serial canary path then stopped
+before network dispatch because `CachedSutClient._recover_attempt()` applied the
+old two-attempt terminal rule before the exception-aware delegate could run.
+There is no attempt 5 and no new spend. Evidence:
+`20260715-open6-sol1-exception-precall-stop-report.md`.
+
+**Recommended option 1 — close OPEN6 permanently:** retain the catalog and stop
+custody, make no further OPEN6 code or call, and keep labels → G4 → verdict/PAPER
+conversion as the controlling path. Report OPEN6 as a stopped exploratory pilot
+that produced no result.
+
+**Option 2 — one narrow recovery amendment:** authorize TDD changes only to the
+pre-delegate recovery layer so the already hash-bound, still-unspent third
+attempt can reach the existing exception-aware ledger. Require a full focused
+regression and retain the same exact model, payload, provider ceiling,
+concurrency, denominators, global caps, `$25.00` NTE, no-fourth-request stop, and
+every other boundary. No call may occur until that repair is committed and
+verified. Any further unregistered behavior closes OPEN6 permanently.
+
+**Status:** PENDING Jimmy decision. No OPEN6 status-changing command, repair, or
+paid request is authorized while pending.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

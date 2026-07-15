@@ -127,7 +127,7 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — dashboard mobile containment corrected; Design 02 human labels next.</b>
+· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — Design 02 full review/context surfaces corrected and accepted; human labels next.</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -175,13 +175,16 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     <a href="../labels/20260710-partA/design02-helper/02-reliability-labeling.html">independent reliability</a>
     (four rows / seven turns),
     <a href="../labels/20260710-partA/design02-helper/02-finalization.html">Jimmy finalizer</a>, and
-    <a href="../labels/20260710-partA/design02-helper/README.md">README</a>. Their SHA-256 prefixes are
-    <code>e83070ba</code>, <code>9d3d4c1d</code>, <code>7cbf45d1</code>, and <code>73510bd3</code>.
+    <a href="../labels/20260710-partA/design02-helper/README.md">README</a>. Final whole-feature review caught
+    and fixed two P1 defects before human work: the missing persistent frozen labeling context and the forbidden
+    summary-only review. Primary now exposes all <b>12 units / 21 indexed turns</b>; reliability exposes all
+    <b>4 units / 7 indexed turns</b>, with exact unit fields, labels, notes, and full responses in native expandable
+    cards. Their current SHA-256 prefixes are <code>2919b471</code>, <code>7b314f99</code>,
+    <code>7cbf45d1</code>, and <code>73510bd3</code>.
     Actual committed <code>file://</code> acceptance passed all <b>6/6</b> page/viewport checks at
-    1280×900 and 390×844 with zero console/page/request/network errors, zero overflow, visible keyboard focus,
-    exact progress/role boundaries, closed initial gates, primary turn 1→2, and valid finalizer import/export
-    enablement. Fresh focused tests passed <b>90/90 in 103.69s</b>; the full suite passed
-    <b>750 with 1 skipped in 670.77s</b>. Labels remain <b>0/439</b> until humans return and Codex imports a
+    1280×900 and 390×844 with zero console/page/request/network errors and zero page/body overflow; context and
+    full review remained readable. Fresh focused tests passed <b>94/94 in 181.27s</b>; the full suite passed
+    <b>754 with 1 skipped in 718.36s</b>. Labels remain <b>0/439</b> until humans return and Codex imports a
     complete packet; no G4, gate, verdict, manuscript, or release state changed. OPEN6/PR-30 remains a separate
     stopped lane.<br><br>
     <b>W1 COMPLETE · W2 COMPLETE · PR-16/FR-7 COMPLETE · W3 COMPLETE · W4 G5 COMPLETE · PAPER W3 FILL COMPLETE.</b><br><br>
@@ -439,7 +442,7 @@ O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11) → F
   <li><span class="st"><span class="badge b-done">DONE</span></span> <b>PR-16 + W3</b> — 249-cell FR-7 reroute complete (245 resolved / 4 Part B / 0 defects); immutable W3 readings published; licensed PAPER fill + conformance checklist complete</li>
   <li><span class="st"><span class="badge b-done">DONE</span></span> <b>W4</b> — 92 calls, 0 errors, $0.0368785; design 06 both judges PASS; design 09 OpenAI PASS / Google DISQUALIFIED; FR-8 replacement cascade waits on 09 G4 labels</li>
   <li><span class="st"><span class="badge b-pending">PENDING · BOUNDED ATTEMPT CLOSED</span></span> <b>W5</b> — 146/146 author POSTs complete; all 73 exact replays failed the frozen parser; 0 outputs/packets/SUT calls, 0/438 complete, no flip rate, neither PASS nor FAIL; no further G7 execution planned</li>
-  <li><span class="st"><span class="badge b-done">DONE · OFFLINE ACCEPTED</span></span> <b>Design 02 labeling helper</b> — self-contained primary 12-row/21-turn page, independent reliability four-row/seven-turn page, finalizer, and README; actual committed pages passed 6/6 desktop/mobile acceptance checks; focused 90/90 and full 750 passed + 1 skipped; labels remain 0/439 until returned/imported</li>
+  <li><span class="st"><span class="badge b-done">DONE · FULL REVIEW ACCEPTED</span></span> <b>Design 02 labeling helper</b> — persistent frozen context plus exact 12-unit/21-turn primary and four-unit/seven-turn reliability review cards; finalizer and README unchanged; actual committed pages passed 6/6 desktop/mobile acceptance checks; focused 94/94 and full 754 passed + 1 skipped; labels remain 0/439 until returned/imported</li>
   <li><span class="st"><span class="badge b-open">NEXT TRIGGER · LABELS 0/439</span></span> <b>Phase 2</b> — start only when a complete design/wave plus its registered reliability input exists; then G4 per label wave (wave 1 {02,07,01} = 84 units · wave 2 {03,04,05,06} = 210 · wave 3 {08,09,10} = 145)</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>Phase 3</b> — verdict assembly via the frozen release formula → O5 report → Jimmy sign-off</li>
 </ul>
@@ -683,14 +686,15 @@ cited) — a bad outcome costs sessions, never a new decision. STOP = halt, log 
 <tr><td><b>G4 intake bridge</b></td><td class="mono">00-PORTFOLIO/20260714-codex-pr29-g4-intake-preflight.md + 20260714-jimmy-pr29-g4-intake-ruling.md — PR-29 option 1 RATIFIED + IMPLEMENTED; labels/20260710-partA/reliability/ contains the 146-unit manifest/instruments (SHA-256 41370641bf5de8e9512ce11ac31181930548a7030bd5be026d72443be20f3abb)</td></tr>
 <tr><td><b>Efficiency assessment</b></td><td class="mono">00-PORTFOLIO/efficiency-assessment.md + efficiency-assessment.html — all 47 logical sessions scored; its manuscript/PDF recommendation is now complete; labels remain the release rate limiter</td></tr>
 <tr><td><b>Assessment graphics</b></td><td class="mono">PAPER/figures/walkworthy-case-to-status-scientific.{svg,png} + walkworthy-case-to-status-explainer.{svg,png} — actual PUBLIC case → SUT → independent judges → tie-break/Part B → Design-01 S/H → G1–G7/status; explanatory only</td></tr>
+<tr><td><b>Design 02 helper</b></td><td class="mono">labels/20260710-partA/design02-helper/ — primary SHA-256 2919b471…e2645 · reliability 7b314f99…a12d7 · finalizer 7cbf45d1…3a04a · README 73510bd3…c277; exact context + 12/21 and 4/7 full review accepted</td></tr>
 <tr><td><b>Authority stack (frozen)</b></td><td class="mono">00-PORTFOLIO/20260706-normative-charter.md · 20260706-master-plan.md · 20260706-opus-item-playbook.md · 20260710-fable-gate-prereg-pilot-adjudication.md (§B/§C/§E) · 20260710-fable-PR3-ruling.md · 20260711d-fable-o5-decision-framework.md (FR-1…15) · 20260712-fable-FR16-w1-surface-ruling.md · 20260712-fable-ruling-session-log.md (FR-17 + R-J1..12) · 20260712-fable-G5-reference-review.md (FR-18) · 20260712-jimmy-PR10-PR11-ruling.md (R-J13..15)</td></tr>
 <tr><td><b>O5 execution (Codex)</b></td><td class="mono">harness/walkworthy/g7_runner.py + g7_author_contract.py + g7_author_stage.py · runs/20260713-o5-g7-a1/author-replay-checkpoint.json (146/146 author POSTs; G7 PENDING) · 20260713s-opus-g7-paraphrase-author-contract.md (SHA 59caaa1c…b320; RATIFIED) · 20260713v-jimmy-pr27-contract-ruling.md · 20260713y-jimmy-pr28-runtime-ruling.md</td></tr>
 <tr><td><b>PAPER lane</b></td><td class="mono">PAPER/ (release-grade §6 + separate exploratory §6A; G7 PENDING limitation now recorded; outline.md claims skeleton) · 20260713d-mvp-a1-scaling-scope-correction.md · 20260713d-codex-mvp-claims-correction-checklist.md</td></tr>
-<tr><td><b>Latest handoffs</b></td><td class="mono">20260715b-codex-design02-dashboard-correction-handoff.md (NEWEST / CURRENT) · 20260715-codex-design02-label-helper-complete-handoff.md (HELPER COMPLETION) · 20260714-codex-benchmark-assessment-graphics-handoff.md (FIGURES COMPLETE) · 20260714-codex-pr29-g4-intake-complete-handoff.md (G4 INTAKE READY) · 20260714-codex-mvp-v0.1-ratification-handoff.md (PRIVATE CIRCULATION RATIFIED)</td></tr>
+<tr><td><b>Latest handoffs</b></td><td class="mono">20260715c-codex-design02-review-surface-correction-handoff.md (NEWEST / CURRENT) · 20260715b-codex-design02-dashboard-correction-handoff.md (MOBILE CONTAINMENT) · 20260715-codex-design02-label-helper-complete-handoff.md (ORIGINAL HELPER COMPLETION) · 20260714-codex-benchmark-assessment-graphics-handoff.md (FIGURES COMPLETE) · 20260714-codex-pr29-g4-intake-complete-handoff.md (G4 INTAKE READY)</td></tr>
 <tr><td><b>Measurement record</b></td><td class="mono">runs/20260713-o5-g5-neutrality/ (W4 COMPLETE) · 20260713b-o5-postadjudication-readings.md (W3 PAPER source) · runs/20260713-o5-home-reroute/ (PR-16 COMPLETE) · runs/20260713-o5-home-advantage/ (W2) · runs/20260712-o5-tiebreak/ (W1) · 20260711b-o4-panel-report.md (historical; never paper source)</td></tr>
 <tr><td><b>Open questions</b></td><td class="mono">00-PORTFOLIO/PENDING-RULINGS.md — no current-cycle owner ruling blocks G4 intake; PR-7 remains next-cycle; no G7 owner ruling is open</td></tr>
 <tr><td><b>Labels (Jimmy)</b></td><td class="mono">labels/20260710-partA/ — 10 primary blind CSVs + instructions + 00-WAVE-PLAN-README.md; reliability/ contains 10 independent overlap instruments, manifest, README, and declaration template (waves {02,07,01} → {03,04,05,06} → {08,09,10})</td></tr>
-<tr><td><b>Harness</b></td><td class="mono">harness/walkworthy/ + harness/config/g5/ + harness/config/g7/ (closure: 750 passed, 1 skipped; focused helper + judge-validation + PR-29: 90/90; exact overlap-count/replay mechanics covered) — run with the vault .venv from harness/</td></tr>
+<tr><td><b>Harness</b></td><td class="mono">harness/walkworthy/ + harness/config/g5/ + harness/config/g7/ (closure: 754 passed, 1 skipped; focused helper + judge-validation + PR-29: 94/94; exact review, overlap-count, and replay mechanics covered) — run with the vault .venv from harness/</td></tr>
 <tr><td><b>Banks / holdout</b></td><td class="mono">DESIGNS/ + ANCHOR-PACKS/ (public) · HOLDOUT/ (gitignored, loader-refused, NEVER loaded)</td></tr>
 </table>
 </div>
@@ -1022,6 +1026,13 @@ no external resources).</p>
   tables locally scrollable with reachable right edges at 390×844 while retaining desktop containment at
   1280×900. Relabeled 554/554 as the earlier G7 closure suite. Helper artifacts, hashes, 90/90 focused tests,
   750 passed + 1 skipped, gates, and labels 0/439 are unchanged.</td></tr>
+<tr><td class="mono">2026-07-15</td><td><span class="badge b-codex">Codex</span></td>
+  <td><b>DESIGN 02 FULL REVIEW/CONTEXT SURFACES CORRECTED.</b> Whole-feature review caught and fixed the missing
+  frozen persistent context and summary-only review before human labeling. Primary now exposes 12 units/21
+  indexed turns and reliability 4/7 with exact fields and full responses; edit/re-review revalidates export.
+  Current hashes are 2919b471, 7b314f99, 7cbf45d1, and 73510bd3; focused 94/94 and full 754 passed + 1 skipped;
+  all 6/6 desktop/mobile page checks passed. Mobile table scrolling remains intact. Labels remain 0/439; no
+  G4, verdict, call, spend, HOLDOUT, manuscript, or release change.</td></tr>
 </table>
 </div>
 
@@ -1044,6 +1055,7 @@ reconciliation before the next Codex G4-import session. This does not block huma
 <tr><td><b>Explicitly deferred</b></td><td>No further helper engineering; no G7; no OPEN6/PR-30 work; no paid call, credential, model, HOLDOUT, candidate rejudge, scale-up, item/key/denominator/frozen-rule change, or P2/P3 polish.</td></tr>
 <tr><td><b>Release lane</b></td><td>Design 02 first, then other designs only when their complete registered packets exist. No G4 or release verdict before exact intake validation and every frozen prerequisite.</td></tr>
 <tr><td><b>Model</b></td><td><span class="badge b-codex">CODEX</span> offline verification and conversion only after the complete packet returns. No provider model or paid call is authorized.</td></tr>
+<tr><td><b>Prepared</b></td><td>2026-07-15 by Codex after full helper review/context correction and acceptance.</td></tr>
 <tr><td><b>Directory</b></td><td><span class="mono">CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>
   (scope-locked; labels under <span class="mono">labels/20260710-partA/</span>)</td></tr>
 <tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> primary + finalizer; independent second labeler reliability. Keep the primary page/CSV/draft unavailable to the independent labeler.</td></tr>
@@ -1057,7 +1069,7 @@ CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling ben
 never load HOLDOUT; never delete (mv to RECYCLE-BIN/).
 
 ON SESSION OPEN: load 00-PORTFOLIO/project-dashboard.html (Live status + §12 first), then the newest dated
-handoff, currently 00-PORTFOLIO/20260715b-codex-design02-dashboard-correction-handoff.md. Read the BibleBench
+handoff, currently 00-PORTFOLIO/20260715c-codex-design02-review-surface-correction-handoff.md. Read the BibleBench
 paper-first surfaces read-only and the PR-29 ruling/intake record as needed.
 
 ENTRY GATE: WAIT for one COMPLETE Design 02 packet. Do not start a Codex engineering session on a partial return.
@@ -1072,8 +1084,9 @@ row/turn geometry, declaration, and adjudication schema. Import append-only with
 Run the registered PR-29/G4 intake, then any available Part B, the frozen status/verdict branch, and immediate
 manuscript/PDF conversion. Stop on any P0/P1 custody or schema defect; do not repair a human CSV manually.
 
-CURRENT STATE: helper COMPLETE; primary = 12 rows / 21 turns; reliability = four rows / seven turns; finalizer
-COMPLETE; labels = 0/439; no G4 or verdict change. OPEN6 remains stopped and PR-30 remains separate.
+CURRENT STATE: corrected helper COMPLETE; primary = 12 rows / 21 turns / SHA-256 2919b471...e2645;
+reliability = four rows / seven turns / SHA-256 7b314f99...a12d7; finalizer = 7cbf45d1...3a04a;
+README = 73510bd3...c277; labels = 0/439; no G4 or verdict change. OPEN6 remains stopped and PR-30 remains separate.
 
 DO NOT DO: further helper engineering; G7; OPEN6; paid calls; credentials; provider models; HOLDOUT; scale-up;
 candidate rejudging; item/key/denominator/frozen-rule edits; generalized annotation infrastructure; or deferred
@@ -1087,7 +1100,7 @@ authorized for it.
 
 <p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html
 · LIVING document — update in place per §11 · Continuation entry point:
-<span class="mono">00-PORTFOLIO/20260715b-codex-design02-dashboard-correction-handoff.md</span> · Immutable session record:
+<span class="mono">00-PORTFOLIO/20260715c-codex-design02-review-surface-correction-handoff.md</span> · Immutable session record:
 the dated <span class="mono">00-PORTFOLIO/2026*</span> handoffs and reports</p>
 
 </div>

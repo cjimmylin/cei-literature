@@ -655,6 +655,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     const HEADER = Object.freeze(payload.header.slice());
     const TURN_STATES = Object.freeze(payload.turn_states.slice());
     const TIMESTAMP_PATTERN = /^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:Z|[+-]\\d{2}:\\d{2})$/;
+    const TIMESTAMP_COMPONENT_PATTERN = /^(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2})(?:Z|([+-])(\\d{2}):(\\d{2}))$/;
 
     function freezeExpected(instrument) {
       return Object.freeze({
@@ -701,6 +702,10 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     let trustedPrimaryFile = null;
     let trustedReliabilityFile = null;
     let downloadFailed = false;
+    const successfulDownloads = {
+      declaration: false,
+      adjudications: false
+    };
 
     function parseCsv(text, role) {
       if (typeof text !== "string") {
@@ -896,7 +901,9 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
           " · Reliability: " + difference.reliability_value;
         const goldChoices = document.createElement("fieldset");
         const legend = document.createElement("legend");
-        legend.textContent = "Gold adjudication";
+        legend.textContent =
+          "Gold adjudication — " + difference.unit_id +
+          " — Turn " + difference.member;
         goldChoices.append(legend);
         TURN_STATES.forEach(state => {
           const label = document.createElement("label");
@@ -906,6 +913,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
           radio.value = state;
           radio.addEventListener("change", () => {
             downloadFailed = false;
+            resetDownloadLatches();
             recomputeExportEligibility(true);
           });
           label.append(radio, document.createTextNode(" Gold: " + state));
@@ -924,30 +932,70 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
       }
     }
 
-    function validTimestamp(value) {
-      return TIMESTAMP_PATTERN.test(value) && !Number.isNaN(Date.parse(value));
+    function timestampEpoch(value) {
+      if (!TIMESTAMP_PATTERN.test(value)) {
+        return null;
+      }
+      const components = TIMESTAMP_COMPONENT_PATTERN.exec(value);
+      if (components === null) {
+        return null;
+      }
+      const year = Number(components[1]);
+      const month = Number(components[2]);
+      const day = Number(components[3]);
+      const hour = Number(components[4]);
+      const minute = Number(components[5]);
+      const second = Number(components[6]);
+      const offsetHour = components[7] === undefined
+        ? 0
+        : Number(components[8]);
+      const offsetMinute = components[7] === undefined
+        ? 0
+        : Number(components[9]);
+      const leapYear = year % 4 === 0 &&
+        (year % 100 !== 0 || year % 400 === 0);
+      const daysByMonth = [
+        31, leapYear ? 29 : 28, 31, 30, 31, 30,
+        31, 31, 30, 31, 30, 31
+      ];
+      if (month < 1 || month > 12 ||
+          day < 1 || day > daysByMonth[month - 1] ||
+          hour > 23 || minute > 59 || second > 59 ||
+          offsetHour > 23 || offsetMinute > 59) {
+        return null;
+      }
+      const parsed = Date.parse(value);
+      return Number.isNaN(parsed) ? null : parsed;
     }
 
     function declarationObject() {
       const primaryId = primaryLabelerId.value.trim();
       const reliabilityId = reliabilityLabelerId.value.trim();
-      const idsValid = primaryId !== "" && reliabilityId !== "" &&
-        primaryId !== reliabilityId;
-      markInvalid(primaryLabelerId, !idsValid);
-      markInvalid(reliabilityLabelerId, !idsValid);
-      if (!idsValid) {
+      const identicalIds = primaryId !== "" &&
+        primaryId === reliabilityId;
+      const primaryIdInvalid = primaryId === "" || identicalIds;
+      const reliabilityIdInvalid = reliabilityId === "" || identicalIds;
+      markInvalid(primaryLabelerId, primaryIdInvalid);
+      markInvalid(reliabilityLabelerId, reliabilityIdInvalid);
+      if (primaryIdInvalid || reliabilityIdInvalid) {
         throw new Error("labeler IDs must be nonblank and distinct");
       }
 
       const primaryTimestamp = primaryCompletedAt.value;
       const reliabilityTimestamp = reliabilityCompletedAt.value;
-      const primaryTimestampValid = validTimestamp(primaryTimestamp);
-      const reliabilityTimestampValid = validTimestamp(reliabilityTimestamp);
-      markInvalid(primaryCompletedAt, !primaryTimestampValid);
-      markInvalid(reliabilityCompletedAt, !reliabilityTimestampValid);
-      if (!primaryTimestampValid || !reliabilityTimestampValid) {
+      const primaryEpoch = timestampEpoch(primaryTimestamp);
+      const reliabilityEpoch = timestampEpoch(reliabilityTimestamp);
+      markInvalid(primaryCompletedAt, primaryEpoch === null);
+      markInvalid(reliabilityCompletedAt, reliabilityEpoch === null);
+      if (primaryEpoch === null || reliabilityEpoch === null) {
         throw new Error(
           "completion timestamps must be valid ISO-8601 with offsets"
+        );
+      }
+      if (reliabilityEpoch < primaryEpoch) {
+        markInvalid(reliabilityCompletedAt, true);
+        throw new Error(
+          "reliability completion predates primary completion"
         );
       }
 
@@ -1008,8 +1056,15 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     }
 
     function setExportEnabled(enabled) {
-      declarationButton.disabled = !enabled;
-      adjudicationsButton.disabled = !enabled;
+      declarationButton.disabled =
+        !enabled || successfulDownloads.declaration;
+      adjudicationsButton.disabled =
+        !enabled || successfulDownloads.adjudications;
+    }
+
+    function resetDownloadLatches() {
+      successfulDownloads.declaration = false;
+      successfulDownloads.adjudications = false;
     }
 
     function recomputeExportEligibility(showError) {
@@ -1072,6 +1127,10 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
 
     function exportArtifact(kind) {
       setExportEnabled(false);
+      if (successfulDownloads[kind] === true) {
+        recomputeExportEligibility(false);
+        return;
+      }
       try {
         const artifacts = artifactTexts();
         if (kind === "declaration") {
@@ -1089,6 +1148,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
         } else {
           throw new Error("unsupported export artifact");
         }
+        successfulDownloads[kind] = true;
         downloadFailed = false;
         errorMessage.textContent = "";
         recomputeExportEligibility(false);
@@ -1109,6 +1169,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
       trustedPrimaryFile = null;
       trustedReliabilityFile = null;
       downloadFailed = false;
+      resetDownloadLatches();
       disagreementSection.replaceChildren();
       setExportEnabled(false);
       errorMessage.textContent = message;
@@ -1232,6 +1293,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     ].forEach(control => {
       control.addEventListener("input", () => {
         downloadFailed = false;
+        resetDownloadLatches();
         recomputeExportEligibility(true);
       });
     });

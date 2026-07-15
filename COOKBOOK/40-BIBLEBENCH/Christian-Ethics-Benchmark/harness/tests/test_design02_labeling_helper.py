@@ -1258,6 +1258,40 @@ def test_finalizer_maps_all_overlap_turn_disagreements_in_exact_order(
     assert page.get_by_test_id("import-status").text_content() == (
         "Validated primary: 12 rows; reliability: 4 rows; disagreements: 7."
     )
+    _fill_finalizer_metadata(page)
+    declaration_button = page.get_by_test_id("export-declaration")
+    adjudications_button = page.get_by_test_id("export-adjudications")
+    for index in range(6):
+        page.locator(
+            f'input[name="gold-{index}"][value="holds_line"]'
+        ).check()
+        assert declaration_button.is_disabled()
+        assert adjudications_button.is_disabled()
+    page.locator('input[name="gold-6"][value="holds_line"]').check()
+    expect(declaration_button).to_be_enabled()
+    expect(adjudications_button).to_be_enabled()
+
+    with page.expect_download() as adjudication_download:
+        adjudications_button.click()
+    exported = Path(adjudication_download.value.path()).read_text(
+        encoding="utf-8"
+    )
+    exported_rows = [json.loads(line) for line in exported.splitlines()]
+    assert exported_rows == [
+        {
+            "unit_id": unit_id,
+            "category": "turn_state",
+            "member": member,
+            "primary_value": primary_state,
+            "reliability_value": reliability_state,
+            "gold_value": "holds_line",
+            "adjudicator": "Jimmy",
+            "adjudicated": True,
+        }
+        for (unit_id, member), primary_state, reliability_state in zip(
+            overlap, primary_states, reliability_states
+        )
+    ]
     assert browser_errors == []
 
 
@@ -1311,6 +1345,11 @@ def test_finalizer_exports_exact_pr29_declaration_and_adjudication(
     _fill_finalizer_metadata(page)
     gold_choices = page.locator('input[name="gold-0"]')
     expect(gold_choices).to_have_count(5)
+    expect(
+        page.locator('[data-testid="disagreement-row"] fieldset legend')
+    ).to_have_text(
+        "Gold adjudication — 02-twomasters-U000 — Turn 2"
+    )
     page.get_by_role("radio", name="Gold: holds_line", exact=True).check()
     expect(page.get_by_test_id("export-declaration")).to_be_enabled()
     expect(page.get_by_test_id("export-adjudications")).to_be_enabled()
@@ -1357,38 +1396,100 @@ def test_finalizer_exports_exact_pr29_declaration_and_adjudication(
     assert browser_errors == []
 
 
+def test_finalizer_double_click_downloads_once_and_input_change_rearms(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    page, browser_errors = browser_page
+    downloads = []
+    page.on("download", lambda download: downloads.append(download))
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(1)
+    _fill_finalizer_metadata(page)
+    page.get_by_role("radio", name="Gold: holds_line", exact=True).check()
+    declaration_button = page.get_by_test_id("export-declaration")
+    adjudications_button = page.get_by_test_id("export-adjudications")
+
+    declaration_button.dblclick()
+    page.wait_for_timeout(500)
+
+    assert len(downloads) == 1
+    assert downloads[0].suggested_filename == "reliability-declaration.json"
+    assert declaration_button.is_disabled()
+    assert adjudications_button.is_enabled()
+
+    page.locator("#primary-labeler-id").fill("jimmy-primary-02")
+    expect(declaration_button).to_be_enabled()
+    expect(adjudications_button).to_be_enabled()
+    assert browser_errors == []
+
+
 @pytest.mark.parametrize(
-    ("case", "expected_error", "invalid_selector"),
+    ("case", "expected_error", "invalid_selectors", "valid_selectors"),
     (
         (
-            "blank-ids",
+            "blank-primary-id",
             "labeler IDs must be nonblank and distinct",
-            "#primary-labeler-id",
+            ("#primary-labeler-id",),
+            ("#reliability-labeler-id",),
         ),
         (
             "identical-ids",
             "labeler IDs must be nonblank and distinct",
-            "#reliability-labeler-id",
+            ("#primary-labeler-id", "#reliability-labeler-id"),
+            (),
         ),
         (
             "malformed-timestamp",
             "completion timestamps must be valid ISO-8601 with offsets",
-            "#primary-completed-at",
+            ("#primary-completed-at",),
+            ("#reliability-completed-at",),
         ),
         (
             "missing-offset-timestamp",
             "completion timestamps must be valid ISO-8601 with offsets",
-            "#reliability-completed-at",
+            ("#reliability-completed-at",),
+            ("#primary-completed-at",),
+        ),
+        (
+            "impossible-calendar-date",
+            "completion timestamps must be valid ISO-8601 with offsets",
+            ("#primary-completed-at",),
+            ("#reliability-completed-at",),
+        ),
+        (
+            "reverse-chronology",
+            "reliability completion predates primary completion",
+            ("#reliability-completed-at",),
+            ("#primary-completed-at",),
         ),
         (
             "unselected-gold",
             "gold adjudication required for 02-twomasters-U000 turn 2",
-            '[data-testid="disagreement-row"] fieldset',
+            ('[data-testid="disagreement-row"] fieldset',),
+            (),
         ),
     ),
 )
 def test_finalizer_blocks_invalid_export_metadata_and_missing_gold(
-    tmp_path, browser_page, case, expected_error, invalid_selector
+    tmp_path,
+    browser_page,
+    case,
+    expected_error,
+    invalid_selectors,
+    valid_selectors,
 ):
     output_dir = _generated(tmp_path)
     primary = _completed_fixture(
@@ -1407,26 +1508,33 @@ def test_finalizer_blocks_invalid_export_metadata_and_missing_gold(
     page.get_by_test_id("validate-imports").click()
     expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(1)
 
-    if case != "blank-ids":
-        page.locator("#primary-labeler-id").fill("jimmy-primary-01")
-        page.locator("#reliability-labeler-id").fill("independent-02")
+    _fill_finalizer_metadata(page)
+    if case == "blank-primary-id":
+        page.locator("#primary-labeler-id").fill("")
     if case == "identical-ids":
         page.locator("#reliability-labeler-id").fill("jimmy-primary-01")
-    page.locator("#primary-completed-at").fill(
-        "not-a-timestamp"
-        if case == "malformed-timestamp"
-        else "2026-07-15T12:00:00-07:00"
-    )
-    page.locator("#reliability-completed-at").fill(
-        "2026-07-15T13:00:00"
-        if case == "missing-offset-timestamp"
-        else "2026-07-15T13:00:00-07:00"
-    )
+    if case == "malformed-timestamp":
+        page.locator("#primary-completed-at").fill("not-a-timestamp")
+    if case == "missing-offset-timestamp":
+        page.locator("#reliability-completed-at").fill(
+            "2026-07-15T13:00:00"
+        )
+    if case == "impossible-calendar-date":
+        page.locator("#primary-completed-at").fill(
+            "2026-02-30T12:00:00-07:00"
+        )
+    if case == "reverse-chronology":
+        page.locator("#primary-completed-at").fill(
+            "2026-07-15T14:00:00-07:00"
+        )
     if case != "unselected-gold":
         page.get_by_role("radio", name="Gold: holds_line", exact=True).check()
 
     expect(page.get_by_test_id("error")).to_have_text(expected_error)
-    assert page.locator(invalid_selector).get_attribute("aria-invalid") == "true"
+    for selector in invalid_selectors:
+        assert page.locator(selector).get_attribute("aria-invalid") == "true"
+    for selector in valid_selectors:
+        assert page.locator(selector).get_attribute("aria-invalid") is None
     assert page.get_by_test_id("export-declaration").is_disabled()
     assert page.get_by_test_id("export-adjudications").is_disabled()
     assert browser_errors == []

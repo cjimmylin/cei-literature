@@ -33,7 +33,7 @@
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);
        font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  .wrap{max-width:1120px;margin:0 auto;padding:36px 28px 80px}
+  .wrap{max-width:1120px;margin:0 auto;padding:36px 28px 80px;overflow-x:hidden}
   h1{font-size:26px;margin:0 0 4px} h2{font-size:19px;margin:42px 0 14px;color:var(--text)}
   h2 .n{color:var(--faint);font-weight:400;margin-right:8px}
   h3{font-size:15px;margin:22px 0 10px}
@@ -126,7 +126,7 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — DESIGN 02 SPEC APPROVED; TDD IMPLEMENTATION PLAN READY FOR REVIEW</b>
+· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — Design 02 helper COMPLETE; human labels next.</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -167,15 +167,22 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     verdict, substitution, workaround, or public claim was produced. Sources:
     <code>20260715-open6-sol1-exception-precall-stop-report.md</code> and PR-30. OPEN6 remains stopped pending
     PR-30; recommended disposition is permanent closure. Labels → G4 remains the controlling paper path.<br><br>
-    <b>DESIGN 02 LABEL-HELPER SPEC APPROVED; IMPLEMENTATION PLAN READY FOR REVIEW.</b> Jimmy approved the written
-    specification. The no-server design uses three
-    self-contained <code>file://</code> pages: a 12-unit / 21-turn primary wizard, an isolated four-unit /
-    seven-turn reliability wizard, and a finalizer for the PR-29 declaration plus exact one-based turn-member
-    adjudications. The reviewed implementation boundary is
-    <code>20260715-design02-labeling-helper-implementation-plan.md</code>: eight ordered RED→GREEN tasks,
-    deterministic generation, real <code>file://</code> browser checks, exact frozen-source guards, and no
-    network or new dependency. Implementation has not started and is gated on Jimmy's review of the plan plus
-    execution-mode choice; the current blank labels and all gate states are unchanged.<br><br>
+    <b>DESIGN 02 LABELING HELPER COMPLETE; HUMAN LABELS NEXT.</b> The approved written specification, implementation
+    plan, and all eight implementation tasks are complete. Open the standalone offline packet directly:
+    <a href="../labels/20260710-partA/design02-helper/02-primary-labeling.html">primary</a>
+    (12 rows / 21 turns),
+    <a href="../labels/20260710-partA/design02-helper/02-reliability-labeling.html">independent reliability</a>
+    (four rows / seven turns),
+    <a href="../labels/20260710-partA/design02-helper/02-finalization.html">Jimmy finalizer</a>, and
+    <a href="../labels/20260710-partA/design02-helper/README.md">README</a>. Their SHA-256 prefixes are
+    <code>e83070ba</code>, <code>9d3d4c1d</code>, <code>7cbf45d1</code>, and <code>73510bd3</code>.
+    Actual committed <code>file://</code> acceptance passed all <b>6/6</b> page/viewport checks at
+    1280×900 and 390×844 with zero console/page/request/network errors, zero overflow, visible keyboard focus,
+    exact progress/role boundaries, closed initial gates, primary turn 1→2, and valid finalizer import/export
+    enablement. Fresh focused tests passed <b>90/90 in 103.69s</b>; the full suite passed
+    <b>750 with 1 skipped in 670.77s</b>. Labels remain <b>0/439</b> until humans return and Codex imports a
+    complete packet; no G4, gate, verdict, manuscript, or release state changed. OPEN6/PR-30 remains a separate
+    stopped lane.<br><br>
     <b>W1 COMPLETE · W2 COMPLETE · PR-16/FR-7 COMPLETE · W3 COMPLETE · W4 G5 COMPLETE · PAPER W3 FILL COMPLETE.</b><br><br>
     <b>PR-16:</b> Jimmy ratified option 1. The NEW immutable derived run
     <code>runs/20260713-o5-home-reroute/</code> retains 2,064 records and reroutes exactly 63 Google-SUT 05/06
@@ -263,7 +270,7 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
   </div>
 </div>
 <p class="statusbar"><b>Where we are:</b> measurement, W1, W2, PR-16 FR-7, W3, and the first licensed PAPER
-fill, MVP-A1 paper preview, Opus claims review, PR-22 scope correction, the <b>hash-frozen 36-page MVP v0.1 candidate</b>, and the <b>PR-29 G4 intake bridge are DONE</b>. OPEN6-SOL1 remains stopped: its exact catalog revalidation passed, but the authorized exception was preempted before network dispatch by unregistered historical recovery behavior. Attempt count and spend are unchanged; it produced no benchmark result. PR-30 recommends permanent closure. Public release remains unauthorized. <b>Next Codex execution trigger: one complete PUBLIC design with primary + reliability + declaration + adjudicated-gold inputs → G4 → available Part B → verdict/PAPER conversion.</b> Until then, further engineering is off-path. G7 remains PENDING and closed. <b>Session value gate:</b> paper artifact or P0/P1 removal; one bundled preflight; canary before framework; no P2/P3 blocker; ≤20% overhead.</p>
+fill, MVP-A1 paper preview, Opus claims review, PR-22 scope correction, the <b>hash-frozen 36-page MVP v0.1 candidate</b>, the <b>PR-29 G4 intake bridge</b>, and the <b>Design 02 offline labeling helper are DONE</b>. OPEN6-SOL1 remains stopped: its exact catalog revalidation passed, but the authorized exception was preempted before network dispatch by unregistered historical recovery behavior. Attempt count and spend are unchanged; it produced no benchmark result. PR-30 recommends permanent closure. Public release remains unauthorized. <b>Next Codex execution trigger: one complete Design 02 packet with primary + reliability + declaration + adjudicated-gold inputs → G4 → available Part B → verdict/PAPER conversion.</b> Until then, further helper engineering and other nonblocking work are off-path. G7 remains PENDING and closed. <b>Session value gate:</b> paper artifact or P0/P1 removal; one bundled preflight; canary before framework; no P2/P3 blocker; ≤20% overhead.</p>
 
 <h2 id="mission"><span class="n">3</span>Mission &amp; the release bar</h2>
 <div class="panel">
@@ -431,6 +438,7 @@ O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11) → F
   <li><span class="st"><span class="badge b-done">DONE</span></span> <b>PR-16 + W3</b> — 249-cell FR-7 reroute complete (245 resolved / 4 Part B / 0 defects); immutable W3 readings published; licensed PAPER fill + conformance checklist complete</li>
   <li><span class="st"><span class="badge b-done">DONE</span></span> <b>W4</b> — 92 calls, 0 errors, $0.0368785; design 06 both judges PASS; design 09 OpenAI PASS / Google DISQUALIFIED; FR-8 replacement cascade waits on 09 G4 labels</li>
   <li><span class="st"><span class="badge b-pending">PENDING · BOUNDED ATTEMPT CLOSED</span></span> <b>W5</b> — 146/146 author POSTs complete; all 73 exact replays failed the frozen parser; 0 outputs/packets/SUT calls, 0/438 complete, no flip rate, neither PASS nor FAIL; no further G7 execution planned</li>
+  <li><span class="st"><span class="badge b-done">DONE · OFFLINE ACCEPTED</span></span> <b>Design 02 labeling helper</b> — self-contained primary 12-row/21-turn page, independent reliability four-row/seven-turn page, finalizer, and README; actual committed pages passed 6/6 desktop/mobile acceptance checks; focused 90/90 and full 750 passed + 1 skipped; labels remain 0/439 until returned/imported</li>
   <li><span class="st"><span class="badge b-open">NEXT TRIGGER · LABELS 0/439</span></span> <b>Phase 2</b> — start only when a complete design/wave plus its registered reliability input exists; then G4 per label wave (wave 1 {02,07,01} = 84 units · wave 2 {03,04,05,06} = 210 · wave 3 {08,09,10} = 145)</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>Phase 3</b> — verdict assembly via the frozen release formula → O5 report → Jimmy sign-off</li>
 </ul>
@@ -537,12 +545,12 @@ file, which then supersedes every number in this matrix). G4/G5/G7 are PENDING f
 <div class="lanes">
   <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes the mechanical pipeline; parks unregistered choices</h3>
     <ul><li><b>Paper priority:</b> descriptive MVP v0.1 HASH-FROZEN + RATIFIED for private circulation under Anonymous manuscript; public release remains unauthorized; no automatic scale-up or additional paid call</li>
-    <li><b>Release lane:</b> W1 + W2 + PR-16 FR-7 + W3 + W4 + first PAPER fill + PR-29 intake COMPLETE; G7 is closed PENDING; next is complete labels → per-design G4 → verdicts → O5 report → PAPER</li>
+    <li><b>Release lane:</b> W1 + W2 + PR-16 FR-7 + W3 + W4 + first PAPER fill + PR-29 intake + Design 02 offline helper COMPLETE; G7 is closed PENDING; wait for one complete Design 02 packet, then verify/import → G4 → available Part B → frozen status/verdict branch → PAPER/PDF</li>
     <li><b>Phase 2+3 after labels:</b> complete-design G4 → verdicts via the frozen formula → immediate PAPER update → O5 report → Opus review memo → Jimmy</li></ul></div>
   <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> ruling/labor/sign-offs (PR-10/11 + G5 promotion DONE)</h3>
     <ul><li><b>PR-29 decision: DONE.</b> Option 1 is ratified and the exact 146-unit reliability packet is ready</li>
     <li><b>MVP paper private-circulation action: DONE.</b> R-J16 ratified the exact v0.1 hashes under the Anonymous manuscript byline; public release remains separately unauthorized</li>
-    <li><b>Release-grade critical path:</b> complete Part-A wave-1 labels `{02,07,01}` so Codex can run frozen G4 and fill the separate §6/O5 results; this does not revise MVP §6A</li>
+    <li><b>Release-grade critical path:</b> Jimmy completes the <a href="../labels/20260710-partA/design02-helper/02-primary-labeling.html">Design 02 primary page</a>; an independent second labeler completes only the <a href="../labels/20260710-partA/design02-helper/02-reliability-labeling.html">reliability page</a>; Jimmy imports both in the <a href="../labels/20260710-partA/design02-helper/02-finalization.html">finalizer</a>, adjudicates disagreements, and returns the complete packet. Labels remain 0/439 until Codex verifies/imports it</li>
     <li><b>G7:</b> no action—zero semantic-review packets were produced and the bounded attempt is closed PENDING. Continue labels</li>
     <li>Part-A labels: wave 1 = 84 units (~8–10 h) → waves 2–3 (210 + 145 units, ~17–20 h) + 2nd labeler or declared test–retest</li>
     <li>Part-B labels: post-PR-16 unresolved surface = 1,174 cells, wave-ordered (FR-17a)</li>
@@ -1001,6 +1009,13 @@ no external resources).</p>
   <span class="mono">file://</span> acceptance, PR-29 regressions, and shared-index-safe integration. Test-only
   fixtures remain outside production code. No implementation, label, gate, call, spend, HOLDOUT, manuscript,
   OPEN6, G7, or public-release change.</td></tr>
+<tr><td class="mono">2026-07-15</td><td><span class="badge b-codex">Codex</span></td>
+  <td><b>DESIGN 02 OFFLINE LABELING HELPER COMPLETE.</b> Materialized and accepted the exact 12-row/21-turn
+  primary page, four-row/seven-turn independent-reliability page, strict finalizer, and README. All 6/6 actual
+  committed <span class="mono">file://</span> page/viewport checks passed at 1280×900 and 390×844 with zero
+  browser/network errors or overflow; focused tests passed 90/90 and the full suite passed 750 with 1 skipped.
+  Frozen source and artifact hashes match. Labels remain 0/439; no G4, verdict, manuscript, call, spend,
+  HOLDOUT, G7, OPEN6/PR-30, or release state changed.</td></tr>
 </table>
 </div>
 
@@ -1011,120 +1026,58 @@ holds THE next prepared session.</b> Whoever stages a new session replaces the c
 model, directory) and appends a Changelog row in §11 — superseded prompts remain in their dated files.</p>
 <table class="dense" style="margin-bottom:12px">
 <tr><th style="width:130px">Field</th><th>Value</th></tr>
-<tr><td><b>Session</b></td><td>Review the Design 02 TDD implementation plan; after approval, implement the standalone labeling helper task-by-task.</td></tr>
-<tr><td><b>Primary deliverable</b></td><td><b>Three validated self-contained Design 02 pages plus README that directly unlock primary, reliability, declaration, and adjudication inputs.</b></td></tr>
-<tr><td><b>Entry gate</b></td><td><span class="badge b-open">WAIT · JIMMY PLAN REVIEW</span> Review <span class="mono">20260715-design02-labeling-helper-implementation-plan.md</span> and choose subagent-driven or inline execution. The written specification is approved; implementation has not started. Current primary labels remain 0/439.</td></tr>
-<tr><td><b>Paper trigger</b></td><td>The implemented helper enables the smallest complete Design 02 label packet. Once those human inputs pass PR-29, run G4 → frozen §4 branch → available Part B → recompute/status → manuscript/PDF conversion immediately.</td></tr>
-<tr><td><b>Explicitly deferred</b></td><td>Implementation before plan review; generalized annotation infrastructure; all G7 work; every OPEN6 repair/rerun/request while PR-30 is pending; paid calls, models, scale-up, item/key/denominator edits, HOLDOUT, and P2/P3 hardening.</td></tr>
-<tr><td><b>Release lane</b></td><td>Wave 1 {02,07,01} → waves 2–3, processed design-by-design as complete. Design 09's FR-8 cascade remains label-triggered. No release without every frozen conjunct and Jimmy sign-off.</td></tr>
-<tr><td><b>Model</b></td><td><span class="badge b-codex">CODEX</span> offline mechanics only. No paid call, credential, candidate rejudge, or new model is authorized.</td></tr>
+<tr><td><b>Session</b></td><td><b>WAIT for one complete Design 02 packet; do not begin another engineering session while the human sequence is in progress.</b></td></tr>
+<tr><td><b>Primary deliverable</b></td><td>After return, verified immutable Design 02 inputs and the immediate PR-29/G4 → available Part B → frozen status/verdict → manuscript/PDF conversion artifact.</td></tr>
+<tr><td><b>Entry gate</b></td><td><span class="badge b-open">WAIT · COMPLETE DESIGN 02 PACKET</span> Labels remain 0/439 until Jimmy's primary CSV, the independent reliability CSV, Jimmy's declaration, and adjudications are returned together.</td></tr>
+<tr><td><b>Human sequence</b></td><td><span class="badge b-jimmy">JIMMY</span> completes <a href="../labels/20260710-partA/design02-helper/02-primary-labeling.html">02-primary-labeling.html</a> → an independent second labeler receives only <a href="../labels/20260710-partA/design02-helper/02-reliability-labeling.html">02-reliability-labeling.html</a> plus instructions → Jimmy loads both downloads in <a href="../labels/20260710-partA/design02-helper/02-finalization.html">02-finalization.html</a>, supplies distinct custody metadata, adjudicates every displayed disagreement, and returns all four outputs. Follow the <a href="../labels/20260710-partA/design02-helper/README.md">README</a>.</td></tr>
+<tr><td><b>Paper trigger</b></td><td>On one complete return, Codex verifies exact frozen-source, committed-artifact, returned-output, declaration, and adjudication schemas; imports without overwriting historical inputs; then runs PR-29/G4 → available Part B → the frozen status/verdict branch → manuscript/PDF conversion.</td></tr>
+<tr><td><b>Explicitly deferred</b></td><td>No further helper engineering; no G7; no OPEN6/PR-30 work; no paid call, credential, model, HOLDOUT, candidate rejudge, scale-up, item/key/denominator/frozen-rule change, or P2/P3 polish.</td></tr>
+<tr><td><b>Release lane</b></td><td>Design 02 first, then other designs only when their complete registered packets exist. No G4 or release verdict before exact intake validation and every frozen prerequisite.</td></tr>
+<tr><td><b>Model</b></td><td><span class="badge b-codex">CODEX</span> offline verification and conversion only after the complete packet returns. No provider model or paid call is authorized.</td></tr>
 <tr><td><b>Directory</b></td><td><span class="mono">CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>
   (scope-locked; labels under <span class="mono">labels/20260710-partA/</span>)</td></tr>
-<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span>: review the implementation plan and choose subagent-driven or inline execution. After implementation, Jimmy completes the primary page and adjudications; an independent second labeler completes the isolated reliability page. PR-30 and public release remain separate.</td></tr>
-<tr><td><b>Value gate</b></td><td>The helper is justified only because it directly removes the rate-limiting Design 02 label-entry friction. No adjacent framework, platform, or general annotation work is permitted.</td></tr>
+<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> primary + finalizer; independent second labeler reliability. Keep the primary page/CSV/draft unavailable to the independent labeler.</td></tr>
+<tr><td><b>Value gate</b></td><td>One complete packet unlocks the registered paper-conversion sequence. Partial returns, manual CSV edits, and further helper polish do not.</td></tr>
 </table>
 <pre style="background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:14px 16px;
 font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.5;overflow-x:auto;
 white-space:pre-wrap;color:#c8d6ee;margin:0">
-WALKWORTHY DESIGN 02 STANDALONE LABEL-HELPER IMPLEMENTATION. SCOPE LOCK: work ONLY inside
+WALKWORTHY DESIGN 02 HUMAN-PACKET WAIT AND RETURN. SCOPE LOCK: work ONLY inside
 CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches;
 never load HOLDOUT; never delete (mv to RECYCLE-BIN/).
 
-ON SESSION OPEN: read the BibleBench paper-first surfaces read-only; then read local AGENTS.md,
-00-PORTFOLIO/project-dashboard.html (Live status + §12 first),
-00-PORTFOLIO/20260715-design02-labeling-helper-design.md, and
-00-PORTFOLIO/20260715-design02-labeling-helper-implementation-plan.md, plus the newest dated Design 02 helper
-handoff. Read the PR-29 ruling/intake handoff and Design 02 instructions only as needed for implementation.
+ON SESSION OPEN: load 00-PORTFOLIO/project-dashboard.html (Live status + §12 first), then the newest dated
+handoff, currently 00-PORTFOLIO/20260715-codex-design02-label-helper-complete-handoff.md. Read the BibleBench
+paper-first surfaces read-only and the PR-29 ruling/intake record as needed.
 
-ENTRY GATE: Jimmy has approved the written specification. Jimmy must now review the implementation plan and
-choose subagent-driven or inline execution. Do not implement before that plan-review gate closes. Once approved,
-execute the plan's eight tasks in order with observed RED before production code and its stated review/commit
-checkpoints; do not broaden or redesign the helper mid-execution.
+ENTRY GATE: WAIT for one COMPLETE Design 02 packet. Do not start a Codex engineering session on a partial return.
+Human order is fixed: (1) Jimmy opens labels/20260710-partA/design02-helper/02-primary-labeling.html and returns
+the completed primary CSV; (2) an independent second labeler receives only 02-reliability-labeling.html plus the
+Design 02 instructions and returns the completed reliability CSV; (3) Jimmy opens 02-finalization.html, imports
+both, supplies distinct labeler IDs and offset timestamps, adjudicates every displayed turn disagreement, and
+returns reliability-declaration.json plus adjudications.jsonl. README.md is the controlling human workflow.
 
-FIXED DESIGN: no server and no network; three self-contained file:// pages plus README. Primary = 12 blind rows /
-21 ordered response turns. Independent reliability = frozen first four rows / seven ordered turns. Split only on
-the exact literal ` ⟦//⟧ ` delimiter. Export one compact JSON list of turn_state values per row. Finalization
-validates both files, collects a second-labeler declaration, and emits only true turn_state disagreements with
-one-based integer member indices. Never read or embed the unblinding JSONL, model IDs, judge scores, or HOLDOUT.
+ON RETURN: verify the frozen source hashes, exact committed helper hashes, complete returned CSV schemas and
+row/turn geometry, declaration, and adjudication schema. Import append-only without overwriting historical inputs.
+Run the registered PR-29/G4 intake, then any available Part B, the frozen status/verdict branch, and immediate
+manuscript/PDF conversion. Stop on any P0/P1 custody or schema defect; do not repair a human CSV manually.
 
-IMPLEMENTATION ACCEPTANCE: deterministic generator; frozen source-count/hash/schema guards; role-separated browser
-storage; conditional Q-R2; byte-preserving CSV round trip; strict declaration/adjudication finalizer; no-network and
-identity-leak tests; deterministic committed artifacts; system-Chrome file:// inspection at desktop and reduced
-widths; focused PR-29 regression plus one full suite. Primary = 12 rows/21 turns; reliability = four rows/seven
-turns; member indices are one-based turns. Reuse existing mechanics; build no general annotation platform.
+CURRENT STATE: helper COMPLETE; primary = 12 rows / 21 turns; reliability = four rows / seven turns; finalizer
+COMPLETE; labels = 0/439; no G4 or verdict change. OPEN6 remains stopped and PR-30 remains separate.
 
-OPEN6 remains stopped with PR-30 pending. No OPEN6/G7 work, paid call, credential, model, candidate rejudge,
-item/key/denominator/frozen-rule change, substitution, public release, or scale-up is authorized.
+DO NOT DO: further helper engineering; G7; OPEN6; paid calls; credentials; provider models; HOLDOUT; scale-up;
+candidate rejudging; item/key/denominator/frozen-rule edits; generalized annotation infrastructure; or deferred
+P2/P3 CLI/UI/finalizer/documentation polish.
 
-ON CLOSING: update project-dashboard.html IN PLACE, write a NEW dated handoff, stage explicit WALKWORTHY paths,
-commit, fast-forward push, and provide direct committed file links. Do not revive a local server; Jimmy declined
-local URLs, and agent-driven file:// navigation may be blocked by the in-app browser policy.
-</pre>
-<pre style="display:none">WALKWORTHY O5 PR-16 FR-7 REROUTE → W3 → PAPER session. SCOPE LOCK: work ONLY inside
-CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches,
-never load HOLDOUT/, never delete (mv to RECYCLE-BIN/).
-
-ON OPENING: read (1) 00-PORTFOLIO/project-dashboard.html (Live status + §12), (2) the
-NEWEST dated handoff, currently 20260713-codex-o5-w1-w2-pr16-stop-handoff.md,
-(3) 00-PORTFOLIO/PENDING-RULINGS.md, especially PR-16, (4) AGENTS.md, and (5)
-00-PORTFOLIO/20260712-fable-codex-full-handoff.md §4. Frozen §B/§C/§E and FR
-rulings remain interpret-only.
-
-FIRST GATE: PR-16 must be ruled by Jimmy. If OPEN, present this exact recommendation and
-stop FR-7/W3:
-"Ratify PR-16 option 1: strike Google on all 249 Google-SUT 05/06 rubric cells; reuse 11
-existing Mistral unit scores and call only the 52 missing units; adjudicate solely under
-the frozen OpenAI+Mistral two-judge tolerance/mean rule, route disagreements or defects
-to Part B, and let this FR-7 recompute supersede the 11 overlapping PR-15 ambiguity
-routes in a new immutable derived run."
-If Jimmy chooses another option, require and log its exact materialization contract.
-
-IF OPTION 1 IS RATIFIED: record Jimmy's words verbatim and close PR-16. Work TDD in a NEW
-FR-7 module/run; never mutate W1/W2. Exact surface: Google judge is disqualified only for
-google/gemini-2.5-pro on 05/06 = 63 item units / 249 rubric cells (05: 32 ×
-rationale_honesty; 06: 31 × seven criteria). Reuse the 11 complete, defect-free W1
-Mistral unit judgments and call only 52 missing item units with explicit
-mistralai/mistral-large-2512 and byte-identical prompts. One call scores the whole unit.
-Write append-only events + derived scored_items + summary in a NEW immutable run.
-
-Acceptance: 2,064 unique records retained; 63 selected units / 249 cells; exactly 11
-reused + 52 new results; unique keys; Google contributes to none of the 249 derived
-values; each selected cell is OpenAI+Mistral adjudicated or Part-B-routed; nonselected
-cells byte-identical; per-design resolution/defect/cost counts disclosed. Then run the
-already-built compliant W3 renderer with all model slugs explicit and a NEW dated output.
-Immediately apply 20260712-codex-paper-fill-boot-prompt.md §2 only to W3-licensed
-placeholders (Tables 6.1, 6.2 G1–G3, 6.4 + licensed sensitivity prose). Do not fill
-Δ(J), G4/G5/G6/G7/status/release/readout claims outside that prompt's licenses.
-
-CURRENT STATE: W1 COMPLETE at 2,682 groups / 3,176 cells, 1,181 Part-B, zero pending
-ambiguity, $1.1373068. W2 COMPLETE: 20 rows, Google flags only on 05/06. W3 renderer
-mechanics GREEN but no W3 report exists. Suite = 334/334. Labels = 0/439.
-
-EFFICIENCY POLICY (AGENTS.md, BINDING): the primary path is W1 → W2 → W3 → immediate
-PAPER results fill. Do no ancillary engineering unless it blocks the next command.
-Log and park non-blocking issues; issue one concise ruling request for blocking gaps.
-Run one entry baseline, focused tests for changed mechanics, and one final full suite.
-Reconcile the dashboard and write the handoff once at closure. Every handoff states
-paper-facing progress, the next paper-conversion trigger, and why any ancillary work
-was actually blocking.
-
-CONSTRAINTS: report immutability (NEW dated files; dashboard = sole in-place
-exemption); FIX-MECHANICS-ONLY; explicit model slugs everywhere (panel.py defaults ≠
-frozen pair); shared git index — git log -1 AND git diff --cached --name-only before
-staging, explicit WALKWORTHY pathspecs, fast-forward pushes only; no gate verdict
-until FR-1's ≤10% completeness holds on the design; labels absent at P5 → stop at
-P4-complete, report "blocked on labeling".
-
-ON CLOSING: update project-dashboard.html IN PLACE (Live status, §12 next-session
-instructions, Last-updated, Changelog row); write a NEW dated handoff; commit +
-fast-forward push WALKWORTHY paths only; open the updated dashboard in the in-app browser
-and visually verify it before handoff.
+ON SESSION CLOSE: update the dashboard per the local AGENTS.md project-dashboard protocol, write a NEW dated
+handoff, and commit only explicit WALKWORTHY paths. No push or integration occurs unless that session is separately
+authorized for it.
 </pre>
 </div>
 
 <p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html
 · LIVING document — update in place per §11 · Continuation entry point:
-<span class="mono">00-PORTFOLIO/20260715-codex-design02-helper-plan-handoff.md</span> · Immutable session record:
+<span class="mono">00-PORTFOLIO/20260715-codex-design02-label-helper-complete-handoff.md</span> · Immutable session record:
 the dated <span class="mono">00-PORTFOLIO/2026*</span> handoffs and reports</p>
 
 </div>

@@ -176,7 +176,9 @@ def test_provider_canary_retries_transport_once_but_never_semantic():
     def transport(_payload):
         calls.append(None)
         if len(calls) == 1:
-            raise run.TransportFailure("timeout")
+            raise run.TransportFailure(
+                "rejected before submission",
+                request_definitely_not_submitted=True)
         return _ok_response(spec)
 
     outcome = run.run_provider_canary(spec, transport)

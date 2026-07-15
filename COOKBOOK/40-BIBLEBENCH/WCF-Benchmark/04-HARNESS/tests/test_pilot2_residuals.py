@@ -14,6 +14,7 @@ if str(HARNESS_ROOT) not in sys.path:
 
 import pilot2_analysis as analysis  # noqa: E402
 import pilot2_live as live  # noqa: E402
+import pilot2_oauth_canary as oauth_canary  # noqa: E402
 import pilot2_preflight as preflight  # noqa: E402
 import pilot2_report as report  # noqa: E402
 import pilot2_run as controller  # noqa: E402
@@ -152,6 +153,18 @@ def test_full_run_judge_driver_builds_1740_calls_and_persists_each_valid_result(
             })
     evidence_dir = tmp_path / "evidence"
     evidence_dir.mkdir()
+    manifest = _authorized_manifest()
+    (evidence_dir / live.MANIFEST_COPY).write_text(
+        json.dumps(manifest), encoding="utf-8")
+    canary_report = tmp_path / "canary-report.json"
+    canary_report.write_text(json.dumps({
+        "schema_version": 1,
+        "validity_label": preflight.VALIDITY_LABEL,
+        "status": "PASS", "record_count": 16,
+        "unique_record_count": 16, "missing_record_ids": [],
+        "stop_kind": None, "stop_reason": None,
+        "input_sha256": oauth_canary.build_fixture_packet()["input_sha256"],
+    }), encoding="utf-8")
     (evidence_dir / live.CHECKPOINT_FILE).write_text(
         "".join(json.dumps(row) + "\n" for row in responses), encoding="utf-8")
     persisted_sizes = []
@@ -175,7 +188,7 @@ def test_full_run_judge_driver_builds_1740_calls_and_persists_each_valid_result(
             return {"records": returned, "missing_record_ids": [], "attempts": 1}
 
     result = analysis.run_judge_driver(
-        evidence_dir, items=items,
+        evidence_dir, items=items, oauth_canary_report=canary_report,
         judge_factory=lambda persist: FixtureJudge(persist))
     verdicts = [json.loads(line) for line in
                 (evidence_dir / "judge-verdicts.jsonl").read_text().splitlines()]

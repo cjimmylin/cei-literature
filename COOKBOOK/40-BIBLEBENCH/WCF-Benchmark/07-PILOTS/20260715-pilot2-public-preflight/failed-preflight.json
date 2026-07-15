@@ -1,0 +1,24 @@
+{
+  "auth_balance": {
+    "balance_usd": null,
+    "required_balance_usd": null,
+    "status": "NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED",
+    "top_up_usd": null
+  },
+  "blockers": [
+    "exact pinned provider is unavailable: minimax/minimax-m3"
+  ],
+  "canonical_slugs": {
+    "deepseek/deepseek-v4-pro": "deepseek/deepseek-v4-pro-20260423",
+    "google/gemma-4-31b-it": "google/gemma-4-31b-it-20260402",
+    "minimax/minimax-m3": "minimax/minimax-m3-20260531",
+    "qwen/qwen3.7-max": "qwen/qwen3.7-max-20260520",
+    "z-ai/glm-5.2": "z-ai/glm-5.2-20260616"
+  },
+  "paid_inference_authorized": false,
+  "public_snapshot_hash": "1b6123b60c4b23a21ca8e5c906d3bd0e76407557f3b55edfc7fbc6bc4a45de97",
+  "retrieved_at": "2026-07-15T21:14:23Z",
+  "schema_version": 1,
+  "status": "FAILED/NON-EXECUTABLE",
+  "validity_label": "EXPLORATORY WCF-BENCH PILOT 2 · FIVE REASONING-ENABLED OPEN-FIRST SUTS · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE"
+}

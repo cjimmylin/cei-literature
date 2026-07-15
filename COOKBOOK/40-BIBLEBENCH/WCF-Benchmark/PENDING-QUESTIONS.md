@@ -1,6 +1,33 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 fresh quality review found four new P1s
+## OPEN 2026-07-15 — Pilot 2 exact provider pin case drift
+
+- **Question:** Should Jimmy authorize one exact **PIN CASE FIX** changing the frozen
+  provider identifier `MiniMax` to the current public-catalog identifier `Minimax`, or
+  **DEFER** Pilot 2 before empirical execution?
+- **Why it blocks:** The single authorized public preflight failed closed because exact
+  provider matching is case-sensitive. The same `minimax/minimax-m3` model and vendor
+  endpoint are present at the frozen `$0.30/$1.20` per-million prices with reasoning
+  support, but the registered pin's capitalization does not match current metadata. The
+  five-model validation is therefore incomplete and no cap can be proposed.
+- **Evidence:** Append-only packet
+  `07-PILOTS/20260715-pilot2-public-preflight/` and stop report
+  `20260715aa-wcf-pilot2-s60-public-preflight-stop.md`. Six public metadata GETs; no
+  credential/balance access, OAuth, inference, or spend.
+- **Suggested default:** **PIN CASE FIX** only the identifier capitalization, add one
+  exact-match regression, run a named-only review, and create one append-only refreshed
+  public preflight. Do not infer paid authority or change any model, substantive provider,
+  price ceiling, reasoning setting, prompt, scorer, geometry, or retry rule.
+
+## RESOLVED 2026-07-15 — Pilot 2 fresh quality review found four new P1s
+
+- **Disposition:** Jimmy selected **QUALITY FIX**. The exact authority is recorded in
+  `20260715z-jimmy-pilot2-s59-quality-fix-authorization-record.md`.
+- **Effect:** One bounded TDD correction cycle may address only the four reproduced P1s,
+  followed by the same quality reviewer checking only those four. If and only if that
+  review passes, one public-catalog-only zero-paid preflight may return the exact
+  amount-specific gate. No credential access, balance check, OAuth task, inference, paid
+  call, top-up, or spend is authorized.
 
 - **Question:** Should Jimmy authorize one exact **QUALITY FIX** cycle for the four
   reproduced P1s, or **DEFER** Pilot 2 before public preflight?

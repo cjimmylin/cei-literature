@@ -17,7 +17,13 @@ class TerminalStop(RuntimeError):
 
 
 class TransportFailure(RuntimeError):
-    """A retryable provider transport/HTTP failure occurred."""
+    """A transport failure with explicit request-submission custody."""
+
+    def __init__(
+        self, message: str, *, request_definitely_not_submitted: bool = False,
+    ) -> None:
+        super().__init__(message)
+        self.request_definitely_not_submitted = request_definitely_not_submitted
 
 
 def _spec(slug: str) -> preflight.SutSpec:

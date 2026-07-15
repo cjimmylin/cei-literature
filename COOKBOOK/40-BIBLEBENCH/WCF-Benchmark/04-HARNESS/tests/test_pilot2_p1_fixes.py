@@ -186,7 +186,9 @@ def test_provider_canaries_are_costed_cumulative_and_retry_transport_only(tmp_pa
         slug = payload["model"]
         attempts[slug] = attempts.get(slug, 0) + 1
         if slug == preflight.SUTS[0] and attempts[slug] == 1:
-            raise live.TransportFailure("timeout")
+            raise live.TransportFailure(
+                "rejected before submission",
+                request_definitely_not_submitted=True)
         spec = next(spec for spec in preflight.SUT_SPECS if spec.slug == slug)
         return _ok_response(spec, cost=0.001)
 

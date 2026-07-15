@@ -276,20 +276,39 @@ def prepare_run(
     checkpoints = _read_jsonl(run_dir / CHECKPOINT_FILE)
     if any(row.get("kind") == "terminal_stop" for row in evidence):
         raise CustodyStop("resume evidence records a terminal stop")
-    reservations = {row["request_id"]: float(row["maximum_usd"])
-                    for row in evidence if row.get("kind") == "reservation"}
-    settlements = {row["request_id"]: float(row["response_attributed_cost_usd"])
-                   for row in evidence if row.get("kind") == "cost_settlement"}
+    reservations: Dict[str, list] = {}
+    settlements: Dict[str, list] = {}
+    for row in evidence:
+        if row.get("kind") == "reservation":
+            reservations.setdefault(row["request_id"], []).append(
+                float(row["maximum_usd"]))
+        elif row.get("kind") == "cost_settlement":
+            settlements.setdefault(row["request_id"], []).append(
+                float(row["response_attributed_cost_usd"]))
     raw_by_request = {row.get("request_id"): row for row in evidence
                       if row.get("kind") in {
                           "sut_response", "sut_transport_error",
                           "provider_canary_response", "provider_canary_transport_error"}}
     lock = threading.Lock()
-    # An observed response/known no-cost transport failure may close an interrupted
+    spent = 0.0
+    for request_id, actuals in settlements.items():
+        maximums = reservations.get(request_id, [])
+        if len(actuals) > len(maximums):
+            raise CustodyStop("resume has settlement without reservation")
+        for actual, maximum in zip(actuals, maximums):
+            if actual < 0 or actual > maximum:
+                raise CustodyStop("resume response cost exceeds reservation")
+            spent += actual
+    # An observed response/known no-cost transport failure may close one interrupted
     # reservation; a request with no terminal evidence is ambiguous and cannot resume.
-    for request_id, maximum in reservations.items():
-        if request_id in settlements:
+    for request_id, maximums in reservations.items():
+        actuals = settlements.get(request_id, [])
+        unresolved = maximums[len(actuals):]
+        if not unresolved:
             continue
+        if len(unresolved) != 1:
+            raise CustodyStop("resume has ambiguous duplicate paid requests")
+        maximum = unresolved[0]
         raw = raw_by_request.get(request_id)
         if raw is None or raw.get("response_attributed_cost_usd") is None:
             raise CustodyStop("resume has an ambiguous paid request without cost custody")
@@ -299,13 +318,11 @@ def prepare_run(
         _append(run_dir / EVIDENCE_FILE, {
             "kind": "cost_settlement", "request_id": request_id,
             "response_attributed_cost_usd": actual,
-            "cumulative_spend_usd": sum(settlements.values()) + actual,
+            "cumulative_spend_usd": spent + actual,
             "recovered_after_interruption": True,
         }, lock)
-        settlements[request_id] = actual
-    if set(settlements) - set(reservations):
-        raise CustodyStop("resume has settlement without reservation")
-    spent = sum(settlements.values())
+        settlements.setdefault(request_id, []).append(actual)
+        spent += actual
     if spent > cap_usd:
         raise CustodyStop("resume evidence exceeds strict cap")
     completed = {row["cell_key"]: row for row in checkpoints
@@ -346,6 +363,30 @@ def prepare_run(
     if any(value > 252 for value in attempts_by_sut.values()) \
             or any(value > 22 for value in retries_by_sut.values()):
         raise CustodyStop("resume evidence exceeds retry envelope")
+    canaries_passed = {row.get("sut") for row in evidence
+                       if row.get("kind") == "provider_canary_validation"
+                       and row.get("status") == "PASS"}
+    for raw in evidence:
+        if (raw.get("kind") != "provider_canary_response"
+                or raw.get("sut") in canaries_passed
+                or raw.get("request_id") not in settlements):
+            continue
+        response = raw.get("raw_response")
+        spec = next((value for value in preflight.SUT_SPECS
+                     if value.slug == raw.get("sut")), None)
+        if spec is None or not isinstance(response, Mapping):
+            raise CustodyStop("resume provider canary evidence is malformed")
+        try:
+            controller.validate_provider_response(spec, response)
+        except controller.TerminalStop as exc:
+            raise CustodyStop(str(exc)) from exc
+        _append(run_dir / EVIDENCE_FILE, {
+            "kind": "provider_canary_validation", "sut": spec.slug,
+            "status": "PASS", "attempt": raw.get("attempt"),
+            "response_sha256": raw.get("response_sha256"),
+            "recovered_after_interruption": True,
+        }, lock)
+        canaries_passed.add(spec.slug)
     return RunState(
         run_dir=run_dir, cap_usd=cap_usd, spent_usd=spent,
         attempts_by_sut=attempts_by_sut, retries_by_sut=retries_by_sut,
@@ -353,9 +394,7 @@ def prepare_run(
         first_validated={row.get("sut") for row in evidence
                          if row.get("kind") == "first_cell_validation"
                          and row.get("status") == "PASS"},
-        canaries_passed={row.get("sut") for row in evidence
-                         if row.get("kind") == "provider_canary_validation"
-                         and row.get("status") == "PASS"},
+        canaries_passed=canaries_passed,
     )
 
 
@@ -423,12 +462,17 @@ def run_provider_canaries(
             try:
                 response = transport(copy.deepcopy(payload))
             except TransportFailure as exc:
+                known_free = exc.request_definitely_not_submitted
                 _append(state.run_dir / EVIDENCE_FILE, {
                     "kind": "provider_canary_transport_error", "request_id": request_id,
                     "sut": spec.slug, "attempt": attempt,
                     "error": f"{type(exc).__name__}: {exc}",
-                    "response_attributed_cost_usd": 0.0,
+                    "response_attributed_cost_usd": 0.0 if known_free else None,
                 }, state.lock)
+                if not known_free:
+                    reason = "ambiguous post-submit provider canary transport failure"
+                    _terminal(state, reason, sut=spec.slug, request_id=request_id)
+                    raise CustodyStop(reason) from exc
                 state.settle(request_id, 0.0)
                 if attempt == 1:
                     continue
@@ -491,6 +535,7 @@ def run_cell(
     cell: LiveCell, *, manifest: Mapping[str, Any], state: RunState,
     transport: Callable[[Dict[str, Any]], Mapping[str, Any]],
     items: Mapping[str, Any], require_reasoning_gate: bool = False,
+    cancellation: Optional[threading.Event] = None,
 ) -> Dict[str, Any]:
     if cell.key in state.completed:
         return copy.deepcopy(state.completed[cell.key])
@@ -504,6 +549,8 @@ def run_cell(
     first_attempt = state.attempts_by_cell.get(cell.key, 0) + 1
     last_error = "ordinary response failed"
     for attempt in range(first_attempt, MAX_RETRIES_PER_CELL + 2):
+        if cancellation is not None and cancellation.is_set():
+            raise CustodyStop("peer shard cancelled before further transport")
         with state.lock:
             if state.attempts_by_sut.get(cell.sut, 0) >= 252:
                 last_error = "registered model attempt envelope exhausted"
@@ -529,12 +576,17 @@ def run_cell(
             response = transport(copy.deepcopy(payload))
         except TransportFailure as exc:
             last_error = f"{type(exc).__name__}: {exc}"
+            known_free = exc.request_definitely_not_submitted
             _append(state.run_dir / EVIDENCE_FILE, {
                 "kind": "sut_transport_error", "request_id": request_id,
                 "cell_key": cell.key, "sut": cell.sut, "item_id": cell.item_id,
                 "cell_attempt": attempt, "error": last_error,
-                "response_attributed_cost_usd": 0.0,
+                "response_attributed_cost_usd": 0.0 if known_free else None,
             }, state.lock)
+            if not known_free:
+                reason = "ambiguous post-submit SUT transport failure"
+                _terminal(state, reason, cell_key=cell.key, request_id=request_id)
+                raise CustodyStop(reason) from exc
             state.settle(request_id, 0.0)
             continue
         try:
@@ -634,12 +686,20 @@ def execute(
                 _terminal(state, "five first real cells did not all PASS", sut=sut)
             raise CustodyStop("five first real cells must all PASS before shards")
     shards = controller.build_sut_shards(preflight.SUTS)
+    cancelled = threading.Event()
 
     def shard_worker(shard: Sequence[str]) -> None:
-        for sut in shard:
-            for cell in by_sut[sut][1:]:
-                run_cell(cell, manifest=manifest, state=state,
-                         transport=transport, items=items)
+        try:
+            for sut in shard:
+                for cell in by_sut[sut][1:]:
+                    if cancelled.is_set():
+                        return
+                    run_cell(cell, manifest=manifest, state=state,
+                             transport=transport, items=items,
+                             cancellation=cancelled)
+        except CustodyStop:
+            cancelled.set()
+            raise
 
     with ThreadPoolExecutor(max_workers=3) as pool:
         list(pool.map(shard_worker, shards))

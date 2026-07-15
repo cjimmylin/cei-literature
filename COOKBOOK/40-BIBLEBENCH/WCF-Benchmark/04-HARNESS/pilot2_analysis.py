@@ -449,9 +449,33 @@ def analyze_immutable_run(run_dir: Path) -> Dict[str, Any]:
 def run_judge_driver(
     evidence_dir: Path, *, items: Optional[Sequence[Any]] = None,
     judge_factory: Optional[Callable[[Callable[[Dict[str, Any]], None]], Any]] = None,
+    oauth_canary_report: Optional[Path] = None,
 ) -> Dict[str, Any]:
     """Build and immediately persist every valid full-run structured verdict."""
     evidence_dir = Path(evidence_dir)
+    try:
+        manifest = json.loads((evidence_dir / "pilot2-manifest.json").read_text(
+            encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise AnalysisError("judge driver requires the frozen Pilot 2 manifest") from exc
+    if ((manifest.get("authorization_gate") or {}).get("paid_inference") is not True
+            or manifest.get("validity_label") != preflight.VALIDITY_LABEL
+            or tuple(manifest.get("exact_sut_slugs") or ()) != preflight.SUTS):
+        raise AnalysisError("judge driver requires manifest paid authorization")
+    try:
+        canary = json.loads(Path(oauth_canary_report).read_text(encoding="utf-8"))
+        from pilot2_oauth_canary import build_fixture_packet
+        registered_sha256 = build_fixture_packet()["input_sha256"]
+    except (TypeError, OSError, json.JSONDecodeError) as exc:
+        raise AnalysisError("judge driver requires registered OAuth canary PASS") from exc
+    if (canary.get("validity_label") != preflight.VALIDITY_LABEL
+            or canary.get("status") != "PASS"
+            or canary.get("record_count") != 16
+            or canary.get("unique_record_count") != 16
+            or canary.get("missing_record_ids") != []
+            or canary.get("stop_kind") is not None
+            or canary.get("input_sha256") != registered_sha256):
+        raise AnalysisError("judge driver requires registered OAuth canary PASS")
     checkpoint_path = evidence_dir / "checkpoint.jsonl"
     verdict_path = evidence_dir / "judge-verdicts.jsonl"
     missing_path = evidence_dir / "judge-missing.jsonl"

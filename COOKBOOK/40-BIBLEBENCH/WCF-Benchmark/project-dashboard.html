@@ -181,12 +181,12 @@
   and the plan to a finalized benchmark and paper.</p>
   <a class="top-assessment" href="efficiency-assessment.html">Open Efficiency Assessment</a>
   <a class="top-assessment" href="00-OVERVIEW/20260714-wcf-bench-scoring-walkthrough.html">Open Scoring Walkthrough</a>
-  <a class="top-assessment" href="20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md">Open Open-First S53 Decision</a>
+  <a class="top-assessment" href="20260715g-jimmy-open-first-mvp-s53-same-cell-request-fix-authorization-record.md">Open Open-First S54 Run Status</a>
 
   <div class="living">
     <span class="tag">Living document</span>
     <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">live</span> (maintain) or <span class="chip hist">history</span> (frozen).</span>
-    <span><b>Last updated:</b> 2026-07-15 · by Codex, session 53 — <b>INTERRUPTION FIX PASSED SPECIFICATION; STOPPED BEFORE LIVE ACCESS AT A NEW SECOND-CYCLE QUALITY P1:</b> recovery no longer reissues a uniquely persisted successful cell, but an additional unmatched same-cell request can be ignored; zero catalog/auth/inference calls and `$0.00` spend</span>
+    <span><b>Last updated:</b> 2026-07-15 · by Codex, session 54 — <b>SAME-CELL CUSTODY FIX PASSED BOTH NAMED REVIEWS; AUTHORIZED SEQUENCE RESUMING:</b> exact-one-request recovery is 13/13 green with specification and quality PASS; proceeding to runtime catalog validation and sanitized balance check before any inference; session spend remains `$0.00`</span>
   </div>
 
   <div class="nav">
@@ -199,15 +199,15 @@
 
   <h2 id="status">Live status <span class="chip live">live</span></h2>
   <table class="live-status">
-    <tr><td class="k">Current phase</td><td><b>EXPLORATORY MVP REMAINS ACCEPTED; OPEN-FIRST IS STOPPED BEFORE PAID INFERENCE AT A SECOND-CYCLE CUSTODY P1.</b> The Session-52 interruption FIX now recovers one uniquely persisted successful response without transport reissue and passed named specification re-review. Fresh quality review found that a second unmatched same-cell request can be ignored while the first response is checkpointed</td></tr>
-    <tr><td class="k">Execution owner</td><td><b>Jimmy decision next; Codex paused.</b> Jimmy must choose the exact same-cell unmatched-request FIX or DEFER in <code>20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md</code>. No catalog refresh, balance check, paid inference, empirical run, OAuth judging, supplement, top-up, T4, ranking, release, or manuscript change may occur before a new written ruling and named-review PASS</td></tr>
+    <tr><td class="k">Current phase</td><td><b>EXPLORATORY MVP REMAINS ACCEPTED; OPEN-FIRST HAS CLEARED THE SAME-CELL CUSTODY GATE AND IS RESUMING THE AUTHORIZED SEQUENCE.</b> One TDD regression plus the exact-one-request recovery correction passed fresh named-only specification and quality reviews with no P1/P2/P3. Runtime catalog and sanitized balance gates are next; no inference has started</td></tr>
+    <tr><td class="k">Execution owner</td><td><b>Codex executing under Jimmy's existing cumulative `$10.00` authority.</b> Proceed only through runtime catalog validation, sanitized balance, one immutable exact-roster run, zero-dollar OAuth judging, and the permanently non-quotable supplement. Every prior automatic stop and prohibition remains controlling</td></tr>
     <tr><td class="k">Manifest of record</td><td><code>07-PILOTS/20260712-artifact-corrected-requal/20260712-artifact-corrected-requal-manifest.json</code> — R47.3 offline correction from immutable Task-4 evidence; the as-executed 20260711 manifest remains immutable history</td></tr>
     <tr><td class="k">Judge panel of record</td><td>gemini-flash (google): OPEN award + coherence + disclosure + settled_core; grok-4.20 (x-ai): coherence + disclosure + settled_core. <b>OPEN is SINGLE-FAMILY (google), R34.4-labeled</b>; grok remains out on substantive discrimination 0/8; candidate ladder CLOSED (R47.4)</td></tr>
-    <tr><td class="k">Test suite</td><td><b>824 pytest green</b> in the final complete offline suite (150.57s, exit 0; only existing non-failing shared pytest temp-cleanup warnings). Interruption recovery module 12/12; named specification re-review PASS; named quality review FAIL on one unmatched same-cell request P1</td></tr>
-    <tr><td class="k">Next milestone</td><td><b>DECIDE: exact unmatched same-cell request custody FIX or DEFER.</b> Recommended FIX adds one deterministic regression and requires a recoverable cell to have exactly one persisted request paired to its sole successful response; any additional same-cell request stops closed. Then run named-only specification and quality re-reviews</td></tr>
-    <tr><td class="k">Blockers</td><td><b>Open-First only:</b> a second persisted same-cell request with a different attempt identity and no response can be ignored while the first successful response is checkpointed, potentially hiding issued transport and unaccounted spend. The accepted exploratory MVP itself remains unblocked and unchanged</td></tr>
+    <tr><td class="k">Test suite</td><td><b>825 pytest green</b> in the complete offline suite (149.08s, exit 0; only existing non-failing shared pytest temp-cleanup warnings). Live module 13/13; fresh named specification and quality reviews both PASS with no P1/P2/P3</td></tr>
+    <tr><td class="k">Next milestone</td><td><b>RUN: runtime catalog validation + fresh sanitized balance check.</b> If both pass unchanged, execute the one immutable six-SUT response run under the registered `$8.57` inner cap and cumulative `$10.00` outer NTE</td></tr>
+    <tr><td class="k">Blockers</td><td><b>No open P0/P1 before the registered live gates.</b> Stop on catalog/price/endpoint drift, insufficient balance, reasoning leakage, ignored frozen parameters, cost-accounting or evidence-custody failure, OAuth quota warning, or any roster/protocol change. The accepted exploratory MVP remains unblocked and unchanged</td></tr>
     <tr><td class="k">Paper (Milestone C)</td><td><b>Exploratory MVP paper: 100% complete, accepted, and stopped.</b> The integrated 9,977-word manuscript + 23-page US-letter PDF remain <b>EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE</b>. The distinct arXiv/release-grade path remains unfinished at its prior 90% planning state and is deferred/not selected</td></tr>
-    <tr><td class="k">Open escalations</td><td><b>One active Open-First owner choice:</b> FIX only the Session-53 unmatched same-cell request custody P1 or DEFER per <code>PENDING-QUESTIONS.md</code> and <code>20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md</code>. The original response/checkpoint reissue gap is corrected; the older T4 cap/branch choice, G6 recruitment, and release-grade path remain deferred/unselected and are not reopened</td></tr>
+    <tr><td class="k">Open escalations</td><td><b>No active Open-First escalation before live gates.</b> Jimmy's exact FIX is recorded in <code>20260715g-jimmy-open-first-mvp-s53-same-cell-request-fix-authorization-record.md</code>; both named reviews passed. The older T4 cap/branch choice, G6 recruitment, and release-grade path remain deferred/unselected and are not reopened</td></tr>
     <tr><td class="k">Claude/Fable lane</td><td><b>Permanently CLOSED 2026-07-12 (S25)</b> — 25 sessions, R1–R68 complete, paper pre-drafted; record in <code>20260712i-wcf-fable-lane-closure-note.md</code>. <b>Codex observed EXECUTING T1</b> (willingness-veto files in flight) at closure. Claude re-entry only if Jimmy directs: review/escalation per <code>20260712d-wcf-session23-handoff.md</code> §4 — read the NEWEST handoff first</td></tr>
   </table>
 
@@ -216,7 +216,7 @@
     <div class="stat"><div class="n">7</div><div class="l">days elapsed</div></div>
     <div class="stat"><div class="n">230</div><div class="l">items, audited</div></div>
     <div class="stat"><div class="n">816</div><div class="l">MVP cells, 0 errors</div></div>
-    <div class="stat"><div class="n">824</div><div class="l">tests green</div></div>
+    <div class="stat"><div class="n">825</div><div class="l">tests green</div></div>
     <div class="stat"><div class="n">68</div><div class="l">binding rulings</div></div>
     <div class="stat"><div class="n">$3.0552 PPP-1</div><div class="l">actual-first</div></div>
   </div>
@@ -224,12 +224,12 @@
   <h2 id="progress">Progress overview <span class="chip live">live</span></h2>
   <div class="bars">
     <div class="bar"><span class="bl">Item bank (author + audit)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
-    <div class="bar"><span class="bl">Harness core (824 tests)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">Harness core (825 tests)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
     <div class="bar"><span class="bl">Judge qualification (current manifest)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">4/4 surfaces; OPEN single-family</span></div>
     <div class="bar"><span class="bl">MVP descriptive run (204×4)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
     <div class="bar"><span class="bl">Standing plan T1–T6</span><span class="tr"><span class="fl" style="width:50%"></span></span><span class="pc">T1–T3 complete; T4+ deferred / not selected</span></div>
     <div class="bar"><span class="bl">PPP-1 cheap manuscript preview</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">678/678 recorded; packet accepted for exploratory manuscript use</span></div>
-    <div class="bar"><span class="bl">Open-First MVP adjunct pilot</span><span class="tr"><span class="fl blocked" style="width:66%"></span></span><span class="pc">16/16 OAuth canary PASS; interruption recovery 12/12 + spec PASS; empirical 0% · stopped before live access at one second-cycle quality P1</span></div>
+    <div class="bar"><span class="bl">Open-First MVP adjunct pilot</span><span class="tr"><span class="fl" style="width:68%"></span></span><span class="pc">16/16 OAuth canary PASS; custody seam 13/13 + both reviews PASS; empirical 0% · catalog/balance gates next</span></div>
     <div class="bar"><span class="bl">Shadow judge bakeoff (bounded adjunct)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">offline Pareto companion complete; GLM shadow-only; no panel effect</span></div>
     <div class="bar"><span class="bl">G6 human panel</span><span class="tr"><span class="fl blocked" style="width:5%"></span></span><span class="pc">0% · deferred / not selected</span></div>
     <div class="bar"><span class="bl">Gated G1–G7 measurement run</span><span class="tr"><span class="fl" style="width:20%"></span></span><span class="pc">pre-registration frozen; run 0% · T4 deferred / not selected</span></div>
@@ -246,21 +246,21 @@
   <table>
     <tr><th>Control</th><th>Current WCF-Bench state</th></tr>
     <tr><td class="k">Paper-critical-path health</td><td><b>ACCEPTED EXPLORATORY MVP REMAINS COMPLETE.</b> The Open-First pilot is a standalone adjunct and has not altered or replaced the accepted paper. Its mechanical OAuth canary passed, but empirical collection remains paused before inference at one second-cycle custody P1, so it contributes no manuscript result yet</td></tr>
-    <tr><td class="k">Next paper-facing milestone</td><td><b>Owner exact unmatched-request custody FIX/DEFER decision.</b> After a named FIX and both review passes, the already-authorized one immutable pilot could produce the standalone non-quotable supplement; release-grade/arXiv, G6, and T4 remain deferred and unselected</td></tr>
-    <tr><td class="k">Minimum sufficiency gate</td><td><b>UNMET FOR OPEN-FIRST / SATISFIED FOR THE ACCEPTED MVP.</b> The exact-roster manifest and 16/16 OAuth canary pass. Open-First next needs every recoverable cell's persisted request history to be unambiguous before any paid inference. The existing exploratory manuscript remains complete and unchanged</td></tr>
+    <tr><td class="k">Next paper-facing milestone</td><td><b>One immutable exact-roster run, OAuth judging, and the standalone non-quotable supplement.</b> Runtime catalog and balance gates occur first; release-grade/arXiv, G6, and T4 remain deferred and unselected</td></tr>
+    <tr><td class="k">Minimum sufficiency gate</td><td><b>LIVE-SEAM GATE SATISFIED; EMPIRICAL GATES PENDING FOR OPEN-FIRST / ACCEPTED MVP REMAINS SATISFIED.</b> The exact-roster manifest, 16/16 OAuth canary, and interruption custody reviews pass. Runtime catalog, balance, first-response parameters, cost custody, completion coverage, and OAuth quota remain fail-closed gates</td></tr>
     <tr><td class="k">Session-close artifact</td><td><code>20260715d-jimmy-open-first-mvp-s52-live-seam-fix-authorization-record.md</code> + <code>20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md</code> + <code>20260715f-codex-session53-open-first-mvp-second-cycle-stop-handoff.md</code> + the corrected offline live seam + this living dashboard; no empirical or accepted-paper artifact changed</td></tr>
     <tr><td class="k">Efficiency rule</td><td>Every session must <b>RUN, WRITE, or DECIDE</b> and produce a named paper artifact or remove a named P0/P1; otherwise fold the work into a substantive session or defer it</td></tr>
     <tr><td class="k">Review ceiling</td><td>One specification review + one quality review. Fix re-review verifies named blockers only; a new issue in a second fix cycle goes to Jimmy</td></tr>
-    <tr><td class="k">Infrastructure authorization</td><td><b>PAUSED AT A NEW SECOND-CYCLE LIVE-SEAM CUSTODY P1.</b> The v2 manifest and zero-dollar 16/16 canary remain valid append-only evidence. Jimmy's authority requires a new ruling for unmatched same-cell request custody; paid inference remains stopped until both named re-reviews pass</td></tr>
-    <tr><td class="k">Engineering timebox</td><td><b>ZERO until decision.</b> If FIX is authorized, one regression and the smallest exact-one-same-cell-request recovery constraint only; otherwise return immediately to the accepted exploratory-MVP stop</td></tr>
+    <tr><td class="k">Infrastructure authorization</td><td><b>ACTIVE ONLY FOR THE REGISTERED LIVE SEQUENCE.</b> The v2 manifest, 16/16 zero-dollar canary, and custody seam reviews pass. Codex may continue under the strict cumulative `$10.00` NTE and must stop on every registered gate</td></tr>
+    <tr><td class="k">Engineering timebox</td><td><b>NO MORE INFRASTRUCTURE POLISH.</b> Run the registered gates and evidence collection; after allowed retries, record failures as missing. Any new P1 or protocol change returns to Jimmy</td></tr>
     <tr><td class="k">Close allocation</td><td>Empirical 0% · paper 0% · infrastructure 65% · governance/admin 35%</td></tr>
-    <tr><td class="k">Owner-approved exception</td><td><b>Open-First S53 authority paused at its automatic stop:</b> original interruption gap corrected and specification PASS, but fresh quality review found a new same-cell unmatched-request P1; zero inference calls and `$0.00` spend. PF-003 and the accepted exploratory manuscript remain unchanged; no rerun, T4, gate, panel, release, or publication effect</td></tr>
+    <tr><td class="k">Owner-approved exception</td><td><b>Open-First S54 sequence active under the existing bounded exception:</b> exact six-model roster, one run, single unqualified Codex-OAuth judge, strict cumulative `$10.00` OpenRouter NTE, and permanently non-quotable supplement only. PF-003 and the accepted exploratory manuscript remain unchanged</td></tr>
   </table>
 
   <h2 id="quotable">What's quotable today <span class="chip live">live</span></h2>
   <p class="small">The validity state of every scored surface. Nothing from the MVP run is a gated measurement — every number is DESCRIPTIVE / PRE-GATE. Update this panel whenever a ruling or run changes a label.</p>
   <div class="quote-panel">
-    <div class="qrow"><span class="surf">Open-First MVP adjunct pilot</span><span class="qtag q-no">No results · stopped before inference</span><span class="why">The exact-roster v2 manifest is executable and the mechanical OAuth canary passed 16/16, but a second-cycle same-cell request-custody P1 stopped the sequence before any SUT inference. The permanent label is <b>EXPLORATORY WCF-BENCH OPEN-FIRST MVP · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE</b>; there is still nothing empirical to quote or rank.</span></div>
+    <div class="qrow"><span class="surf">Open-First MVP adjunct pilot</span><span class="qtag q-no">No results yet · authorized run in progress</span><span class="why">The exact-roster v2 manifest, 16/16 mechanical OAuth canary, and named custody reviews pass. Runtime catalog and balance gates precede the one immutable run. The permanent label is <b>EXPLORATORY WCF-BENCH OPEN-FIRST MVP · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE</b>; there is still nothing empirical to quote or rank.</span></div>
     <div class="qrow"><span class="surf">S45 exploratory MVP paper</span><span class="qtag q-no">Accepted + stopped · non-quotable</span><span class="why">Jimmy accepted the complete internal paper and stopped the lane under <b>EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE</b>. Acceptance authorizes no external quotation, public/release/arXiv claim, scientific validation, ranking, gate, T4, G6, rerun, or release packaging.</span></div>
     <div class="qrow"><span class="surf">PPP-1 cheap paper preview</span><span class="qtag q-no">Accepted · single-judge · non-quotable</span><span class="why">Jimmy accepted the immutable packet for exploratory manuscript use under <b>EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE</b>. It remains ineligible for external quotation, ranking, validation, panel-consensus, gate, release, family-level, or external headline claims.</span></div>
     <div class="qrow"><span class="surf">EPISODE (T3 22×4)</span><span class="qtag q-desc">DESCRIPTIVE / PRE-GATE</span><span class="why">The controlling offline correction records 87 scored + 1 error-recorded cells, 80 graded + 7 wholly ungraded, agreement 36 / disagreement 44, graded mean 0.50375, and per-SUT descriptive means. The original 88-scored artifact remains immutable provenance. No gated claim, panel change, manifest change, or paid rerun follows.</span></div>
@@ -444,8 +444,8 @@
     </div>
   </div>
 
-  <div class="here">📍 YOU ARE HERE — session 53: the accepted exploratory MVP remains unchanged; the Open-First exact-roster manifest and 16/16 OAuth canary remain valid, but the sequence stopped before paid inference at a second-cycle same-cell request-custody P1.
-    <div class="small">Jimmy now chooses the exact named FIX or DEFER in <code>20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md</code>. No catalog/balance refresh, paid call, empirical run, OAuth judging, supplement, T4, G6, ranking, gate, release, or manuscript action may occur before a new ruling and both named re-reviews pass.</div>
+  <div class="here">📍 YOU ARE HERE — session 54: the accepted exploratory MVP remains unchanged; the exact same-cell custody FIX passed both named reviews, and the previously authorized Open-First sequence is resuming at runtime catalog and balance gates.
+    <div class="small">If the registered gates pass, Codex executes one immutable exact-roster run under the cumulative `$10.00` NTE, then zero-dollar OAuth judging and the permanently non-quotable supplement. Stop on any new P1, drift, quota warning, or custody failure.</div>
   </div>
 
   <h2 id="results">MVP run — descriptive results <span class="chip hist">history</span></h2>
@@ -644,13 +644,13 @@
   <table>
     <tr><th>Item</th><th>Amount</th><th>Notes</th></tr>
     <tr><td class="k">Spent to date</td><td>≈$15 prior + $0.4878 Task 4 + $0.69776393843 shadow attributable + $0.4393786622 T3 attributable + $3.0552242489 PPP-1 actual-first</td><td>Response-level or actual-first accounting controls each run-specific amount. Shared-key intervals are contextual and are not silently attributed when concurrent use contaminates them.</td></tr>
-    <tr><td class="k">Remaining on key</td><td>$298.376107379 at the Session-51 Open-First balance gate, contextual/stale only</td><td>The shared account is used by another workflow, so this is not a current run-specific balance. Session 53 made no auth GET and no paid call; the automatic second-cycle custody P1 stop controls. A fresh sanitized balance check occurs only after a new ruling and both named re-reviews pass.</td></tr>
+    <tr><td class="k">Remaining on key</td><td>$298.376107379 at the Session-51 Open-First balance gate, contextual/stale only</td><td>The shared account is used by another workflow, so this is not a current run-specific balance. Session 54's fresh sanitized balance check is now authorized after both custody reviews passed; this row will be replaced with the fresh result before inference.</td></tr>
     <tr><td class="k">Milestone A forecast</td><td>T3 complete; T4 unauthorized</td><td>T3 finished under its exact $10.00 cap for $0.4393786622 response-attributed. No unused T3 authority rolls forward to T4 or a rerun.</td></tr>
     <tr><td class="k">Shadow judge bakeoff</td><td>$0.69776393843 attributable · $5.426614419 shared interval contaminated</td><td>One authorized invocation only; immutable execution label remains PARTIAL / UNRECONCILED history. Jimmy accepted the attributable cost within the $1.00 cap, and the offline companion labels GLM PARETO-PREFERRED SHADOW CANDIDATE. No rerun/resume, production, T3/T4 authorization, or panel effect; Session 34 spent $0.</td></tr>
     <tr><td class="k">T3 EPISODE run</td><td>$0.4393786622 response-attributed · $2.439582089 shared-key delta contextual/contaminated</td><td>One authorized 22×4 invocation under the $10.00 cap. The original COMPLETE 88-scored artifact remains immutable; the zero-cost offline correction controls the descriptive summary at 87 scored + 1 error-recorded. No rerun, panel/manifest effect, or T4 authorization.</td></tr>
     <tr><td class="k">PPP-1 exploratory preview</td><td>$3.0552242489 actual-first · strict $23.56 NTE · COMPLETE</td><td>One exact 226×3/single-Gemini invocation; 1,722 calls; 678/678 recorded, 618 scored + 60 error-recorded. Response-attributed total is unavailable because two calls used fallback accounting. The $13.776898416 shared-key delta is contextual only because the shared account and limit changed concurrently. Authority consumed; no rerun, T4, or paid-call authority.</td></tr>
     <tr><td class="k">T4 zero-paid preflight</td><td>$0 spent · phase one $63.234201 / $79.05 cap · full $278.788647 / $348.49 cap</td><td>Immutable packet: <code>07-PILOTS/20260713-t4-zero-paid-preflight/</code>. Phase-one top-up $16.04; full top-up $285.48. The full cap exceeds R59.5's $300 planning ceiling; no branch or paid authority selected.</td></tr>
-    <tr><td class="k">Open-First MVP public preflight</td><td>$0 spent · <code>$6.254185070</code> no-retry · <code>$6.852411468</code> bounded envelope · <code>$8.57</code> proposed cap</td><td><b>V2 EXECUTABLE-MANIFEST-INPUT; 16/16 OAUTH CANARY PASS; execution paused before inference.</b> The interruption recovery is 12/12 green and passed specification, but fresh quality review found one unmatched same-cell request P1. Zero OpenRouter inference calls and `$0.00` spend.</td></tr>
+    <tr><td class="k">Open-First MVP public preflight</td><td>$0 spent · <code>$6.254185070</code> no-retry · <code>$6.852411468</code> bounded envelope · <code>$8.57</code> proposed cap</td><td><b>V2 EXECUTABLE-MANIFEST-INPUT; 16/16 OAUTH CANARY PASS; CUSTODY REVIEWS PASS; runtime gates in progress.</b> Zero OpenRouter inference calls and `$0.00` spend so far.</td></tr>
     <tr><td class="k">Milestone B forecast — DEFERRED / NOT SELECTED</td><td>$278.788647 full reservation-safe forecast</td><td><b>Historical/dormant planning only:</b> minimum full cap $348.49; first registered branch inside the $300 planning ceiling is cumulative <code>drop_p6 + drop_p3</code> at $220.024017 forecast / $275.04 cap. No active top-up, owner ruling, or spend request exists under S47.</td></tr>
     <tr><td class="k">Milestone C forecast — DEFERRED / NOT SELECTED</td><td>≈$0 live</td><td><b>Historical/dormant planning only:</b> the writing-session estimate is not an active schedule. No active writing session or spend request exists under S47.</td></tr>
   </table>
@@ -750,42 +750,33 @@
 
   <div class="next-sess">
     <div class="meta">
-      <span><b>Lane:</b> OWNER DECISION GATE — Open-First MVP unmatched same-cell request custody FIX or DEFER</span>
-      <span><b>Model:</b> Jimmy decides in chat; Codex acts only after a new exact written ruling</span>
+      <span><b>Lane:</b> ACTIVE SESSION 54 — Open-First MVP registered live sequence</span>
+      <span><b>Model:</b> Codex executing; do not start a parallel WCF-Bench lane</span>
       <span><b>Directory:</b> <code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</code> (scope-locked to <code>COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/</code>) — <b>work on main</b></span>
-      <span><b>Prepared:</b> 2026-07-15, Codex session 53 close (interruption FIX + specification PASS; stopped before live access at second-cycle quality P1; `$0.00` spend)</span>
+      <span><b>Prepared:</b> 2026-07-15, Codex session 54 live checkpoint (same-cell custody FIX + both reviews PASS; catalog/balance gates next; `$0.00` spend)</span>
     </div>
-    <div class="paste">WCF-Bench Open-First MVP is at a second-cycle owner decision gate. The accepted exploratory MVP remains complete. The exact six-model v2 public manifest is executable at a proposed `$8.57` cap, and the immutable zero-dollar OAuth canary passed 16/16. Jimmy's Session-52 interruption FIX now reconstructs a uniquely paired, fully persisted, costed successful response without transport reissue and passed named specification re-review. Fresh quality review reproduced one new P1: a second persisted request for the same cell but a different attempt can remain unmatched and be ignored while the first response is checkpointed, potentially hiding issued transport and unaccounted spend. No catalog/auth access, OpenRouter inference call, or empirical Open-First result occurred in Session 53.
+    <div class="paste">WCF-Bench Open-First MVP Session 54 is active. Jimmy selected the exact same-cell custody FIX. One TDD regression and the minimal exact-one-request recovery rule passed fresh named-only specification and quality reviews with no P1/P2/P3. The exact six-model v2 manifest, 16/16 zero-dollar OAuth canary, `$8.57` inner cap, and cumulative `$10.00` outer NTE remain unchanged. No inference has started and spend remains `$0.00` at this checkpoint.
 
 On session open: load project-dashboard.html (Live-status first).
-Then read AGENTS.md,
+Do not start another session while Session 54 is running. If this session is interrupted, read AGENTS.md,
+20260715g-jimmy-open-first-mvp-s53-same-cell-request-fix-authorization-record.md,
 20260715f-codex-session53-open-first-mvp-second-cycle-stop-handoff.md,
-20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md,
-20260715d-jimmy-open-first-mvp-s52-live-seam-fix-authorization-record.md,
-20260714v-jimmy-open-first-mvp-overnight-execution-authority.md, and
-PENDING-QUESTIONS.md.
+20260714v-jimmy-open-first-mvp-overnight-execution-authority.md, PENDING-QUESTIONS.md, and the newest immutable
+Open-First run/checkpoint evidence. Resume only under the registered custody and retry rules.
 
-Ask Jimmy to choose the exact named FIX or DEFER in the Session-53 same-cell request custody escalation. Do not infer approval.
-If Jimmy chooses DEFER or gives no new written ruling, make no code, OAuth, OpenRouter inference, or empirical
-change and return to the accepted exploratory-MVP stop.
-
-If Jimmy authorizes FIX, add one deterministic regression for a recoverable successful response plus a second
-persisted same-cell request with a different attempt identity and no response. Make the smallest correction
-requiring the cell's complete persisted request history to contain exactly the one request paired to its sole
-successful response; any additional same-cell request stops closed. Run named-only specification and quality
-re-reviews of this boundary only. If and only if both pass, resume the already-authorized sequence: runtime
-public-catalog validation, fresh sanitized balance check, one immutable exact-roster run under the cumulative
-`$10.00` OpenRouter NTE, OAuth judging, and the permanently non-quotable Markdown/HTML/PDF supplement. Stop on
-every gate in the owner authority. No top-up, substitution, fallback model, perturbation, rerun, T4, ranking,
-release, publication, or accepted-paper change.
+Current sequence: validate runtime public catalog; perform a fresh sanitized balance check; if both pass,
+execute the one immutable exact-roster run under the cumulative `$10.00` NTE; then complete sequential
+Codex-OAuth judging and the permanently non-quotable Markdown/HTML/PDF supplement. Stop on every registered
+gate. No top-up, substitution, fallback model, perturbation, rerun, T4, ranking, release, publication, or
+accepted-paper change.
 
 The accepted internal paper remains EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE.
 The proposed adjunct remains EXPLORATORY WCF-BENCH OPEN-FIRST MVP · ONE RUN PER SUT · SINGLE
 UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE.
 
 On session close: update the dashboard per AGENTS.md §The project dashboard, then open/reload it in the browser and leave the verified next-session view open for Jimmy.</div>
-    <p class="small" style="margin-top:10px;"><b>PAPER LANE:</b> accepted exploratory MVP remains 100% complete and unchanged. Open-First is a separate executable-manifest adjunct with a 16/16 mechanical OAuth canary PASS, stopped before inference with empirical progress 0%.</p>
-    <p class="small" style="margin-top:10px;"><b>NEXT:</b> Jimmy decides the exact unmatched same-cell request custody FIX or DEFER; no autonomous Codex work remains.</p>
+    <p class="small" style="margin-top:10px;"><b>PAPER LANE:</b> accepted exploratory MVP remains 100% complete and unchanged. Open-First is a separate permanently non-quotable adjunct; empirical progress remains 0% until the first registered SUT response is durably persisted.</p>
+    <p class="small" style="margin-top:10px;"><b>NEXT:</b> Codex executes the registered catalog and balance gates, then RUN OR STOP.</p>
   </div>
 
   <div class="footer">

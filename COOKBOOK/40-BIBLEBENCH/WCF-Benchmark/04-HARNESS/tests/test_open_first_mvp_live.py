@@ -134,6 +134,40 @@ def test_resume_recovers_costed_success_persisted_before_checkpoint(
     assert called == []
 
 
+def test_resume_rejects_unmatched_same_cell_request_before_checkpoint_reconstruction(
+        tmp_path, monkeypatch):
+    manifest = _manifest()
+    run_dir = tmp_path / "20260715-open-first-live"
+    state = live.prepare_run(MANIFEST_PATH, run_dir, cap_usd=8.57, resume=False)
+    cell = live.build_cells(manifest)[0]
+    append_jsonl = live._append_jsonl
+
+    def interrupt_before_checkpoint(path, value, lock):
+        if path.name == live.CHECKPOINT_FILE:
+            raise RuntimeError("simulated interruption before checkpoint")
+        append_jsonl(path, value, lock)
+
+    with monkeypatch.context() as interrupted:
+        interrupted.setattr(live, "_append_jsonl", interrupt_before_checkpoint)
+        with pytest.raises(RuntimeError, match="simulated interruption"):
+            live.run_cell(
+                cell, manifest=manifest, state=state,
+                transport=lambda _payload: _ok_response())
+
+    request = next(
+        row for row in live._read_jsonl(run_dir / live.EVIDENCE_FILE)
+        if row.get("kind") == "sut_request")
+    append_jsonl(run_dir / live.EVIDENCE_FILE, {
+        **request,
+        "cell_attempt": request["cell_attempt"] + 1,
+        "model_attempt": request["model_attempt"] + 1,
+    }, state.evidence_lock)
+
+    with pytest.raises(live.CustodyStop, match="same-cell request"):
+        live.prepare_run(MANIFEST_PATH, run_dir, cap_usd=8.57, resume=True)
+    assert not (run_dir / live.CHECKPOINT_FILE).exists()
+
+
 def test_reservation_refuses_before_transport_when_manifest_or_outer_cap_would_break(tmp_path):
     manifest = _manifest()
     row = next(row for row in manifest["models"] if row["slug"] == preflight.SUTS[0])

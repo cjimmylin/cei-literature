@@ -300,6 +300,7 @@ def prepare_run(manifest_path: Path, run_dir: Path, *, cap_usd: float,
                 or response_row["model_attempt"] < 1):
             raise CustodyStop("resume response has malformed persisted identity")
         matching_requests = []
+        same_cell_requests = []
         for request in request_rows:
             if (not all(field in request for field in identity_fields)
                     or not isinstance(request["cell_key"], str)
@@ -314,11 +315,15 @@ def prepare_run(manifest_path: Path, run_dir: Path, *, cap_usd: float,
                     or isinstance(request["model_attempt"], bool)
                     or request["model_attempt"] < 1):
                 raise CustodyStop("resume request has malformed persisted identity")
+            if request["cell_key"] == cell_key:
+                same_cell_requests.append(request)
             if all(request[field] == response_row[field]
                    for field in identity_fields):
                 matching_requests.append(request)
         if len(matching_requests) != 1:
             raise CustodyStop("resume response lacks an unambiguous persisted request")
+        if same_cell_requests != matching_requests:
+            raise CustodyStop("resume evidence contains an additional same-cell request")
         if response_row["sut"] not in state.first_response_validated:
             raise CustodyStop("resume response lacks first-response PASS custody")
         _append_jsonl(run_dir / CHECKPOINT_FILE, {

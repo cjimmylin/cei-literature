@@ -1,6 +1,16 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Open-First MVP same-cell unmatched-request custody P1
+## RESOLVED 2026-07-15 — Open-First MVP same-cell unmatched-request custody P1
+
+- **Disposition:** Jimmy selected `FIX`. The exact ruling is recorded in
+  `20260715g-jimmy-open-first-mvp-s53-same-cell-request-fix-authorization-record.md`.
+  One TDD regression reproduced the unmatched same-cell request history; the minimal
+  correction now requires the cell's complete persisted request history to equal the
+  single request paired to its sole successful response. Fresh named-only specification
+  and quality re-reviews both passed with no P1/P2/P3.
+- **Effect:** This custody gate is closed. The previously authorized sequence resumes at
+  runtime public-catalog validation and a fresh sanitized balance check under the
+  unchanged cumulative `$10.00` OpenRouter NTE and every prior automatic stop.
 
 - **Question:** Should Jimmy authorize one exact second-cycle **FIX** for the minimum
   live seam's unmatched same-cell request ambiguity, or **DEFER** the Open-First adjunct

@@ -1,6 +1,40 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Open-First MVP live-seam interruption custody P1
+## OPEN 2026-07-15 — Open-First MVP same-cell unmatched-request custody P1
+
+- **Question:** Should Jimmy authorize one exact second-cycle **FIX** for the minimum
+  live seam's unmatched same-cell request ambiguity, or **DEFER** the Open-First adjunct
+  before any paid inference?
+- **Why it blocks:** Session-53 quality review deterministically reproduced a resume
+  history containing one fully persisted successful response plus a second same-cell
+  request with a different attempt identity and no response. The recovery path accepted
+  the first pair and synthesized a checkpoint while ignoring the unpaired request. That
+  can hide an already-issued, uncosted paid attempt and violates fail-closed custody.
+- **Evidence:** The authorized one-regression interruption fix passed named specification
+  re-review after its first named correction cycle. Fresh quality review then reproduced
+  this new P1. The focused module remains 12/12 green and the full offline harness is
+  824/824 green, but those tests do not cover the new ambiguity. No catalog, auth,
+  OpenRouter inference, or new OAuth call occurred; session spend remains `$0.00`.
+  Full packet: `20260715e-wcf-open-first-mvp-s53-same-cell-request-custody-escalation.md`.
+- **Suggested default:** **FIX only this boundary.** Add one deterministic recovery
+  regression for an unmatched same-cell request and require the recoverable cell's
+  request history to contain exactly the single request paired to its sole successful
+  response. Fail closed otherwise. Run named-only specification and quality re-reviews,
+  then resume the already-authorized sequence only if both pass.
+
+## RESOLVED 2026-07-15 — Open-First MVP response/checkpoint interruption custody P1
+
+- **Disposition:** Jimmy authorized the exact FIX, one recovery regression, and named-only
+  reviews in
+  `20260715d-jimmy-open-first-mvp-s52-live-seam-fix-authorization-record.md`. The regression
+  proved that a uniquely matched, fully persisted, costed successful response whose
+  checkpoint write was interrupted is reconstructed without transport reissue. Named
+  specification re-review passed after malformed/errored evidence and missing identity
+  fields were made fail-closed. Fresh quality review then surfaced the distinct same-cell
+  unmatched-request P1 above, so the paid sequence did not resume.
+- **Effect:** The original response/checkpoint gap is corrected, but the live seam remains
+  non-executable until Jimmy resolves the new second-cycle ambiguity. OpenRouter inference
+  calls remain zero and spend remains `$0.00`.
 
 - **Question:** Should Jimmy authorize one exact **FIX** for the minimum live seam's
   response/checkpoint interruption boundary, or **DEFER** the Open-First adjunct before

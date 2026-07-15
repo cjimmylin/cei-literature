@@ -99,6 +99,41 @@ def test_one_cell_uses_exact_payload_persists_cost_and_first_guard(tmp_path):
     assert resumed.first_response_validated == {cell.sut}
 
 
+def test_resume_recovers_costed_success_persisted_before_checkpoint(
+        tmp_path, monkeypatch):
+    manifest = _manifest()
+    run_dir = tmp_path / "20260715-open-first-live"
+    state = live.prepare_run(MANIFEST_PATH, run_dir, cap_usd=8.57, resume=False)
+    cell = live.build_cells(manifest)[0]
+    append_jsonl = live._append_jsonl
+
+    def interrupt_before_checkpoint(path, value, lock):
+        if path.name == live.CHECKPOINT_FILE:
+            raise RuntimeError("simulated interruption before checkpoint")
+        append_jsonl(path, value, lock)
+
+    with monkeypatch.context() as interrupted:
+        interrupted.setattr(live, "_append_jsonl", interrupt_before_checkpoint)
+        with pytest.raises(RuntimeError, match="simulated interruption"):
+            live.run_cell(
+                cell, manifest=manifest, state=state,
+                transport=lambda _payload: _ok_response())
+
+    assert not (run_dir / live.CHECKPOINT_FILE).exists()
+    resumed = live.prepare_run(
+        MANIFEST_PATH, run_dir, cap_usd=8.57, resume=True)
+    checkpoints = [json.loads(line) for line in
+                   (run_dir / live.CHECKPOINT_FILE).read_text().splitlines()]
+    assert [row["cell_key"] for row in checkpoints] == [cell.key]
+    called = []
+    with pytest.raises(live.CustodyStop, match="completed cell"):
+        live.run_cell(
+            cell, manifest=manifest, state=resumed,
+            transport=lambda payload: called.append(payload) or _ok_response())
+    assert cell.key in resumed.completed_keys
+    assert called == []
+
+
 def test_reservation_refuses_before_transport_when_manifest_or_outer_cap_would_break(tmp_path):
     manifest = _manifest()
     row = next(row for row in manifest["models"] if row["slug"] == preflight.SUTS[0])

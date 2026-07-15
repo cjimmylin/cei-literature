@@ -217,13 +217,14 @@ def prepare_run(manifest_path: Path, run_dir: Path, *, cap_usd: float,
     if any(row.get("response_attributed_cost_usd") is None for row in response_rows):
         raise CustodyStop("resume evidence contains unaccounted response cost")
     spent = sum(float(row["response_attributed_cost_usd"]) for row in response_rows)
+    checkpoint_keys = {row["cell_key"] for row in checkpoints
+                       if row.get("status") in {"response", "error"}}
     state = RunState(
         run_dir=run_dir, identity=expected,
         budget=controller.BudgetController(cap_usd=cap_usd, spent_usd=spent),
         attempts_by_sut={sut: 0 for sut in preflight.SUTS},
         retry_attempts_by_sut={sut: 0 for sut in preflight.SUTS},
-        completed_keys={row["cell_key"] for row in checkpoints
-                        if row.get("status") in {"response", "error"}},
+        completed_keys=checkpoint_keys,
     )
     for row in response_rows:
         sut = row.get("sut")
@@ -247,6 +248,89 @@ def prepare_run(manifest_path: Path, run_dir: Path, *, cap_usd: float,
     if (any(count > 252 for count in state.attempts_by_sut.values())
             or any(count > 22 for count in state.retry_attempts_by_sut.values())):
         raise CustodyStop("resume evidence exceeds the registered retry envelope")
+    request_rows = [row for row in evidence if row.get("kind") == "sut_request"]
+    orphan_responses = {}
+    for row in response_rows:
+        cell_key = row["cell_key"]
+        if cell_key in checkpoint_keys:
+            continue
+        orphan_responses.setdefault(cell_key, []).append(row)
+    for cell_key, rows in orphan_responses.items():
+        successful = []
+        for row in rows:
+            raw_response = row.get("raw_response")
+            if not isinstance(raw_response, Mapping):
+                raise CustodyStop("resume response contains malformed raw evidence")
+            if raw_response.get("error"):
+                raise CustodyStop("resume response contains errored raw evidence")
+            try:
+                raw_cost = _response_cost(raw_response)
+                recorded_cost = float(row["response_attributed_cost_usd"])
+            except (KeyError, TypeError, ValueError,
+                    controller.TerminalStop) as exc:
+                raise CustodyStop(
+                    "resume response contains malformed cost evidence") from exc
+            try:
+                content = _response_content(raw_response)
+            except ValueError as exc:
+                raise CustodyStop(
+                    "resume response contains malformed raw evidence") from exc
+            if raw_cost != recorded_cost:
+                raise CustodyStop("resume response cost does not match raw evidence")
+            successful.append((row, content, recorded_cost))
+        if not successful:
+            continue
+        if len(successful) != 1 or successful[0][0] is not rows[-1]:
+            raise CustodyStop("resume evidence contains ambiguous successful responses")
+        response_row, content, recorded_cost = successful[0]
+        identity_fields = (
+            "cell_key", "sut", "item_id", "diagnostic_only", "scorable",
+            "cell_attempt", "model_attempt")
+        if (not all(field in response_row for field in identity_fields)
+                or not isinstance(response_row["cell_key"], str)
+                or not isinstance(response_row["sut"], str)
+                or not isinstance(response_row["item_id"], str)
+                or not isinstance(response_row["diagnostic_only"], bool)
+                or not isinstance(response_row["scorable"], bool)
+                or not isinstance(response_row["cell_attempt"], int)
+                or isinstance(response_row["cell_attempt"], bool)
+                or response_row["cell_attempt"] < 1
+                or not isinstance(response_row["model_attempt"], int)
+                or isinstance(response_row["model_attempt"], bool)
+                or response_row["model_attempt"] < 1):
+            raise CustodyStop("resume response has malformed persisted identity")
+        matching_requests = []
+        for request in request_rows:
+            if (not all(field in request for field in identity_fields)
+                    or not isinstance(request["cell_key"], str)
+                    or not isinstance(request["sut"], str)
+                    or not isinstance(request["item_id"], str)
+                    or not isinstance(request["diagnostic_only"], bool)
+                    or not isinstance(request["scorable"], bool)
+                    or not isinstance(request["cell_attempt"], int)
+                    or isinstance(request["cell_attempt"], bool)
+                    or request["cell_attempt"] < 1
+                    or not isinstance(request["model_attempt"], int)
+                    or isinstance(request["model_attempt"], bool)
+                    or request["model_attempt"] < 1):
+                raise CustodyStop("resume request has malformed persisted identity")
+            if all(request[field] == response_row[field]
+                   for field in identity_fields):
+                matching_requests.append(request)
+        if len(matching_requests) != 1:
+            raise CustodyStop("resume response lacks an unambiguous persisted request")
+        if response_row["sut"] not in state.first_response_validated:
+            raise CustodyStop("resume response lacks first-response PASS custody")
+        _append_jsonl(run_dir / CHECKPOINT_FILE, {
+            "schema_version": 1, "cell_key": cell_key,
+            "sut": response_row["sut"], "item_id": response_row["item_id"],
+            "status": "response", "response": content,
+            "diagnostic_only": response_row["diagnostic_only"],
+            "scorable": response_row["scorable"],
+            "response_attributed_cost_usd": recorded_cost,
+            "attempts_for_cell": response_row["cell_attempt"],
+        }, state.evidence_lock)
+        state.completed_keys.add(cell_key)
     return state
 
 

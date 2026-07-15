@@ -1,6 +1,13 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Open-First first-response reasoning-leak gate
+## RESOLVED 2026-07-15 — Open-First first-response reasoning-leak gate
+
+- **Disposition:** Jimmy selected `DEFER`. The exact ruling is recorded in
+  `20260715m-jimmy-open-first-mvp-s55-defer-ratification-record.md`.
+- **Effect:** The Open-First adjunct is closed at its immutable failed first-response gate.
+  The stopped run will not be resumed, rerun, retried, substituted, judged, scored,
+  aggregated, or converted into a supplement. The accepted exploratory MVP paper remains
+  complete and unchanged. No replacement study is authorized.
 
 - **Question:** Should Jimmy **DEFER** the Open-First adjunct at its immutable failed gate,
   or authorize a separately frozen **NEW STUDY** with an explicitly changed roster or

@@ -16,6 +16,7 @@ from urllib.parse import urljoin
 
 from wcfbench import load_items, scorer_kind
 from wcfbench import mvp
+from wcfbench import codex_oauth_judge
 from wcfbench.promptbuilder import build_examinee_prompt
 
 import t4_preflight as t4
@@ -258,13 +259,14 @@ def _validate_prompt_ceilings(value: Mapping[str, Mapping[str, Any]]) -> Dict[st
 def _reasoning_parameters(entry: Mapping[str, Any], slug: str) -> Dict[str, Any]:
     reasoning = entry.get("reasoning")
     if reasoning is None:
+        if "reasoning" in (entry.get("supported_parameters") or []):
+            raise PreflightError(f"reasoning capability is unknown: {slug}")
         return {}
     if not isinstance(reasoning, Mapping):
         raise PreflightError(f"reasoning capability is malformed: {slug}")
-    efforts = reasoning.get("supported_efforts")
-    if reasoning.get("mandatory") is True or not isinstance(efforts, list) or "none" not in efforts:
-        raise PreflightError(f"reasoning.effort=none is not explicitly supported: {slug}")
-    return {"reasoning": {"effort": "none"}}
+    if reasoning.get("mandatory") is not False:
+        raise PreflightError(f"reasoning mandatory capability is true or unknown: {slug}")
+    return {"reasoning": {"enabled": False}}
 
 
 def _price_pair(entry: Mapping[str, Any], label: str) -> Tuple[float, float]:
@@ -313,7 +315,8 @@ def _validate_model(
             endpoint_required.add("reasoning")
         if not endpoint_required <= set(endpoint_supported):
             continue
-        if endpoint.get("data_collection") not in {False, "deny", "none"}:
+        if ("data_collection" in endpoint
+                and endpoint.get("data_collection") not in {False, "deny", "none"}):
             continue
         endpoint_prompt, endpoint_completion = _price_pair(
             endpoint, f"endpoint {slug}")
@@ -474,12 +477,40 @@ def _manifest_sut_ceiling(measured: Mapping[str, Any]) -> Dict[str, Any]:
     return row
 
 
-def _unmeasured_judge_ceiling(route: str) -> Dict[str, Any]:
-    return {
-        "status": "NOT_MEASURABLE_UNTIL_RESPONSE_EVIDENCE",
-        "route": route,
-        "reason": "judge prompt includes a SUT response that does not yet exist",
-    }
+def derive_judge_prompt_ceilings(
+    sut_prompt_ceiling: Mapping[str, Any],
+) -> Dict[str, Dict[str, Any]]:
+    """Render a conservative offline envelope before any SUT response exists."""
+    try:
+        sut_transport_bytes = int(sut_prompt_ceiling["max_rendered_transport_bytes"])
+        response_tokens = int(sut_prompt_ceiling["completion_tokens"])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise PreflightError("judge ceiling derivation requires the frozen SUT ceiling") from exc
+    if sut_transport_bytes != 2221 or response_tokens != SUT_MAX_TOKENS:
+        raise PreflightError("judge ceiling derivation cannot relax frozen SUT geometry")
+
+    if (response_tokens != codex_oauth_judge.MAX_SUT_RESPONSE_TOKENS
+            or JUDGE_BATCH_SIZE != codex_oauth_judge.MAX_BATCH_SIZE):
+        raise PreflightError("judge ceiling derivation cannot relax frozen batch/token geometry")
+    rendered = codex_oauth_judge.judge_prompt_byte_ceiling()
+    ceilings = {}
+    for route in ("judge_open", "judge_contested", "judge_episode"):
+        ceilings[route] = {
+            "status": "DERIVED_OFFLINE_CONSERVATIVE",
+            "route": route,
+            "source": "offline_rendered_prompt_ceiling",
+            "max_rendered_prompt_bytes": rendered,
+            "prompt_tokens": rendered,
+            "completion_tokens": 0,
+            "batch_size": JUDGE_BATCH_SIZE,
+            "max_sut_response_tokens_per_record": response_tokens,
+            "max_sut_response_bytes": codex_oauth_judge.MAX_SUT_RESPONSE_BYTES,
+            "max_record_id_bytes": codex_oauth_judge.MAX_RECORD_ID_BYTES,
+            "max_criterion_id_bytes": codex_oauth_judge.MAX_CRITERION_ID_BYTES,
+            "max_judge_input_serialized_bytes": (
+                codex_oauth_judge.MAX_JUDGE_INPUT_SERIALIZED_BYTES),
+        }
+    return ceilings
 
 
 def _write_json(path: Path, value: Any) -> None:
@@ -518,7 +549,6 @@ def run_public_preflight(
     *,
     metadata_fetch: Callable[[], Tuple[Dict[str, Any], Dict[str, Any]]] = fetch_public_catalog,
     now: Callable[[], str],
-    judge_prompt_ceilings: Optional[Mapping[str, Mapping[str, Any]]] = None,
 ) -> Dict[str, Any]:
     """Fetch only public metadata and freeze an executable or failed packet."""
     output = Path(output_dir)
@@ -557,11 +587,7 @@ def run_public_preflight(
 
     measured_sut = derive_sut_prompt_ceiling(load_items(str(BANK_DIR)))
     prompt_record = {"sut": _manifest_sut_ceiling(measured_sut)}
-    for route in ("judge_open", "judge_contested", "judge_episode"):
-        if judge_prompt_ceilings and route in judge_prompt_ceilings:
-            prompt_record[route] = dict(judge_prompt_ceilings[route])
-        else:
-            prompt_record[route] = _unmeasured_judge_ceiling(route)
+    prompt_record.update(derive_judge_prompt_ceilings(measured_sut))
     _write_json(output / "prompt-ceilings.json", prompt_record)
 
     try:
@@ -586,12 +612,6 @@ def run_public_preflight(
             _validate_model(slug, catalog[slug], endpoints.get(slug, []))
         except PreflightError as exc:
             blockers.append(str(exc))
-    if any(prompt_record[route].get("status") != "MEASURED_OFFLINE"
-           and prompt_record[route].get("source") != "offline_rendered_prompt_ceiling"
-           for route in ("judge_open", "judge_contested", "judge_episode")):
-        blockers.append(
-            "judge route prompt ceilings are NOT_MEASURABLE_UNTIL_RESPONSE_EVIDENCE")
-
     manifest = None
     if not blockers:
         try:
@@ -647,20 +667,14 @@ def main(
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--public-preflight", action="store_true")
     parser.add_argument("--output-dir")
-    parser.add_argument("--judge-ceilings-json")
     args = parser.parse_args(argv)
     if args.public_preflight:
         if not args.output_dir:
             parser.error("--public-preflight requires --output-dir")
-        judge_ceilings = None
-        if args.judge_ceilings_json:
-            with open(args.judge_ceilings_json, encoding="utf-8") as handle:
-                judge_ceilings = json.load(handle)
         clock = now or _utc_now
         try:
             result = run_public_preflight(
-                args.output_dir, metadata_fetch=metadata_fetch, now=clock,
-                judge_prompt_ceilings=judge_ceilings)
+                args.output_dir, metadata_fetch=metadata_fetch, now=clock)
         except PreflightOutputError as exc:
             print(f"ERROR: {exc}")
             return 2

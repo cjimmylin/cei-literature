@@ -15,6 +15,7 @@ if HARNESS_ROOT not in sys.path:
 
 import open_first_mvp_preflight as preflight  # noqa: E402
 from wcfbench import load_items  # noqa: E402
+import wcfbench.codex_oauth_judge as judge_module  # noqa: E402
 
 
 PRICES = {
@@ -151,7 +152,7 @@ def test_manifest_freezes_catalog_prices_as_request_ceilings_and_no_auth_check()
         if row["slug"] == "meta-llama/llama-4-maverick":
             assert "reasoning" not in row["request_parameters"]
         else:
-            assert row["request_parameters"]["reasoning"] == {"effort": "none"}
+            assert row["request_parameters"]["reasoning"] == {"enabled": False}
     assert manifest["catalog_hash"] == preflight.build_manifest(
         _catalog(), _endpoints(), _prompt_ceilings(),
         catalog_retrieved_at="2026-07-14T00:00:00Z",
@@ -174,7 +175,7 @@ def test_manifest_freezes_catalog_prices_as_request_ceilings_and_no_auth_check()
         (lambda catalog, endpoints: catalog[preflight.SUTS[0]].pop("architecture"),
          "capabilit"),
         (lambda catalog, endpoints: catalog[preflight.SUTS[0]]["reasoning"].update(
-            {"supported_efforts": ["high"]}), "reasoning.effort=none"),
+            {"mandatory": True}), "reasoning.*mandatory"),
         (lambda catalog, endpoints: endpoints.update({preflight.SUTS[0]: []}),
          "data-policy endpoint"),
         (lambda catalog, endpoints: endpoints[preflight.SUTS[0]][0]["pricing"].update(
@@ -210,15 +211,54 @@ def test_public_catalog_fetch_never_calls_auth_endpoint():
     assert all("/auth/key" not in url for url, _api_key in calls)
 
 
-def test_reasoning_object_without_explicit_none_support_is_rejected():
+def test_reasoning_mandatory_false_is_suppressed_without_effort_support():
     catalog = copy.deepcopy(_catalog())
     catalog[preflight.SUTS[0]]["reasoning"] = {
         "mandatory": False, "supported_efforts": ["high"]}
-    with pytest.raises(preflight.PreflightError, match="reasoning.effort=none"):
+    manifest = preflight.build_manifest(
+        catalog, _endpoints(), _prompt_ceilings(),
+        catalog_retrieved_at="2026-07-14T00:00:00Z",
+    )
+    row = next(model for model in manifest["models"]
+               if model["slug"] == preflight.SUTS[0])
+    assert row["request_parameters"]["reasoning"] == {"enabled": False}
+
+
+@pytest.mark.parametrize("mandatory", [True, None])
+def test_reasoning_mandatory_true_or_unknown_fails_closed(mandatory):
+    catalog = copy.deepcopy(_catalog())
+    if mandatory is None:
+        catalog[preflight.SUTS[0]]["reasoning"].pop("mandatory")
+    else:
+        catalog[preflight.SUTS[0]]["reasoning"]["mandatory"] = mandatory
+    with pytest.raises(preflight.PreflightError, match="reasoning.*mandatory"):
         preflight.build_manifest(
             catalog, _endpoints(), _prompt_ceilings(),
             catalog_retrieved_at="2026-07-14T00:00:00Z",
         )
+
+
+def test_reasoning_parameter_capability_without_metadata_fails_closed():
+    catalog = copy.deepcopy(_catalog())
+    catalog[preflight.SUTS[0]].pop("reasoning")
+    with pytest.raises(preflight.PreflightError, match="reasoning capability is unknown"):
+        preflight.build_manifest(
+            catalog, _endpoints(), _prompt_ceilings(),
+            catalog_retrieved_at="2026-07-14T00:00:00Z",
+        )
+
+
+def test_request_enforced_data_denial_accepts_omitted_endpoint_field():
+    endpoints = _endpoints()
+    for rows in endpoints.values():
+        rows[0].pop("data_collection")
+    manifest = preflight.build_manifest(
+        _catalog(), endpoints, _prompt_ceilings(),
+        catalog_retrieved_at="2026-07-14T00:00:00Z",
+    )
+    assert all(row["provider_policy"]["data_collection"] == "deny"
+               and row["provider_policy"]["require_parameters"] is True
+               for row in manifest["models"])
 
 
 def test_sut_prompt_ceiling_is_derived_from_frozen_bank_rendering():
@@ -234,6 +274,27 @@ def test_sut_prompt_ceiling_is_derived_from_frozen_bank_rendering():
         "prompt_tokens": 2221,
         "completion_tokens": 2048,
     }
+
+
+def test_judge_prompt_ceilings_are_conservative_and_derived_offline():
+    ceilings = preflight.derive_judge_prompt_ceilings(
+        preflight.derive_sut_prompt_ceiling(
+            load_items(str(preflight.BANK_DIR))))
+    assert set(ceilings) == {"judge_open", "judge_contested", "judge_episode"}
+    for route, row in ceilings.items():
+        assert row["status"] == "DERIVED_OFFLINE_CONSERVATIVE"
+        assert row["source"] == "offline_rendered_prompt_ceiling"
+        assert row["route"] == route
+        assert row["max_sut_response_tokens_per_record"] == 2048
+        assert row["batch_size"] == 8
+        assert row["max_rendered_prompt_bytes"] == row["prompt_tokens"]
+        assert row["max_rendered_prompt_bytes"] == (
+            judge_module.judge_prompt_byte_ceiling())
+        assert row["max_judge_input_serialized_bytes"] == (
+            judge_module.MAX_JUDGE_INPUT_SERIALIZED_BYTES)
+        assert row["max_record_id_bytes"] == judge_module.MAX_RECORD_ID_BYTES
+        assert row["max_criterion_id_bytes"] == judge_module.MAX_CRITERION_ID_BYTES
+        assert row["max_sut_response_bytes"] == judge_module.MAX_SUT_RESPONSE_BYTES
 
 
 def test_schedule_freezes_exact_item_id_partitions():
@@ -256,7 +317,7 @@ def test_public_preflight_failure_writes_durable_nonexecutable_packet(tmp_path):
     output = tmp_path / "20260714-open-first-failed"
     endpoints = _endpoints()
     for rows in endpoints.values():
-        rows[0].pop("data_collection")
+        rows[0]["data_collection"] = "allow"
     result = preflight.run_public_preflight(
         output,
         metadata_fetch=lambda: (_catalog(), endpoints),
@@ -284,8 +345,7 @@ def test_public_preflight_failure_writes_durable_nonexecutable_packet(tmp_path):
     prompts = json.loads((output / "prompt-ceilings.json").read_text())
     assert prompts["sut"]["max_rendered_transport_bytes"] == 2221
     for route in ("judge_open", "judge_contested", "judge_episode"):
-        assert prompts[route]["status"] == (
-            "NOT_MEASURABLE_UNTIL_RESPONSE_EVIDENCE")
+        assert prompts[route]["status"] == "DERIVED_OFFLINE_CONSERVATIVE"
     costs = json.loads((output / "cost-plan.json").read_text())
     assert costs["totals"] == {
         "no_retry_230_calls_usd": pytest.approx(6.25870296),
@@ -302,16 +362,12 @@ def test_public_preflight_failure_writes_durable_nonexecutable_packet(tmp_path):
         6.857361504)
 
 
-def test_public_preflight_success_requires_measured_judge_route_ceilings(tmp_path):
+def test_public_preflight_derives_judge_route_ceilings_before_responses_exist(tmp_path):
     output = tmp_path / "20260714-open-first-success"
     result = preflight.run_public_preflight(
         output,
         metadata_fetch=lambda: (_catalog(), _endpoints()),
         now=lambda: "2026-07-14T00:00:00Z",
-        judge_prompt_ceilings={
-            name: _prompt_ceilings()[name]
-            for name in ("judge_open", "judge_contested", "judge_episode")
-        },
     )
     assert result["status"] == "EXECUTABLE-MANIFEST-INPUT"
     manifest = json.loads((output / "open-first-mvp-manifest.json").read_text())
@@ -319,6 +375,9 @@ def test_public_preflight_success_requires_measured_judge_route_ceilings(tmp_pat
         "NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED")
     assert manifest["rendered_prompt_ceilings"]["sut"][
         "max_rendered_transport_bytes"] == 2221
+    assert all(manifest["rendered_prompt_ceilings"][route]["status"]
+               == "DERIVED_OFFLINE_CONSERVATIVE"
+               for route in ("judge_open", "judge_contested", "judge_episode"))
     assert not (output / "failed-preflight.json").exists()
 
 
@@ -337,7 +396,7 @@ def test_cli_catches_validation_failure_after_writing_packet(tmp_path):
     output = tmp_path / "cli-failure"
     endpoints = _endpoints()
     for rows in endpoints.values():
-        rows[0].pop("data_collection")
+        rows[0]["data_collection"] = "allow"
     rc = preflight.main(
         ["--public-preflight", "--output-dir", str(output)],
         metadata_fetch=lambda: (_catalog(), endpoints),

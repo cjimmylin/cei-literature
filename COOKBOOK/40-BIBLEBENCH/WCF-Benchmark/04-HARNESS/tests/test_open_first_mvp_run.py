@@ -3,6 +3,8 @@ from __future__ import annotations
 import copy
 import os
 import sys
+import threading
+from concurrent.futures import ThreadPoolExecutor
 
 import pytest
 
@@ -26,6 +28,14 @@ def _manifest():
     )
 
 
+def _budget_kwargs(cap_usd=1.0):
+    return {
+        "budget": run.BudgetController(cap_usd=cap_usd),
+        "maximum_cost_usd": lambda _sut, _item_id: 0.0,
+        "actual_cost_usd": lambda _outcome: 0.0,
+    }
+
+
 def test_sut_request_uses_exact_model_parameters_and_provider_policy():
     manifest = _manifest()
     slug = preflight.SUTS[0]
@@ -37,7 +47,7 @@ def test_sut_request_uses_exact_model_parameters_and_provider_policy():
         "messages": [{"role": "user", "content": "blind prompt"}],
         "temperature": 0,
         "max_tokens": 2048,
-        "reasoning": {"effort": "none"},
+        "reasoning": {"enabled": False},
         "provider": model["provider_policy"],
     }
     llama = run.build_sut_request(
@@ -156,10 +166,15 @@ def test_three_deterministic_shards_are_sequential_inside_each_worker():
             submitted.append(args[0])
             return ImmediateFuture(fn, args)
 
+    def run_cell(sut, item, acknowledge_start):
+        acknowledge_start()
+        calls.append((sut, item))
+
     run.execute_sut_shards(
         shards, ("I1", "I2"),
-        lambda sut, item: calls.append((sut, item)),
+        run_cell,
         executor_factory=CapturingExecutor,
+        **_budget_kwargs(),
     )
     assert submitted == list(shards)
     assert calls == [
@@ -170,6 +185,44 @@ def test_three_deterministic_shards_are_sequential_inside_each_worker():
         (preflight.SUTS[2], "I1"), (preflight.SUTS[2], "I2"),
         (preflight.SUTS[5], "I1"), (preflight.SUTS[5], "I2"),
     ]
+
+
+def test_start_acknowledgement_closes_cancellation_check_to_call_race():
+    shards = tuple((sut,) for sut in preflight.SUTS[:3])
+    cancellation = threading.Event()
+    second_cell_entered = threading.Event()
+    terminal_raising = threading.Event()
+    calls = []
+    calls_lock = threading.Lock()
+
+    def run_cell(sut, item_id, acknowledge_start):
+        with calls_lock:
+            calls.append((sut, item_id))
+        if sut == preflight.SUTS[0]:
+            acknowledge_start()
+            assert second_cell_entered.wait(timeout=2)
+            terminal_raising.set()
+            raise run.TerminalStop("registered stop")
+        if sut == preflight.SUTS[1] and item_id == "I2":
+            second_cell_entered.set()
+            assert terminal_raising.wait(timeout=2)
+            assert not cancellation.is_set()
+            acknowledge_start()
+            assert cancellation.wait(timeout=2)
+            return (sut, item_id)
+        acknowledge_start()
+        if sut == preflight.SUTS[2]:
+            assert cancellation.wait(timeout=2)
+        return (sut, item_id)
+
+    with pytest.raises(run.TerminalStop, match="registered stop"):
+        run.execute_sut_shards(
+            shards, ("I1", "I2"), run_cell,
+            cancellation_event=cancellation,
+            **_budget_kwargs(),
+        )
+    assert not any(cancellation.is_set() and item_id == "I2"
+                   for sut, item_id in calls if sut == preflight.SUTS[2])
 
 
 def test_judge_batches_are_max_eight_and_never_mix_sut_or_route():
@@ -254,7 +307,66 @@ def test_execution_identity_resume_and_budget_stop_are_fail_closed():
         run.validate_resume_identity(identity, changed)
 
     budget = run.BudgetController(cap_usd=1.0)
-    budget.authorize(0.75)
-    budget.record(0.75)
-    with pytest.raises(run.TerminalStop, match="budget"):
-        budget.authorize(0.26)
+    assert not hasattr(budget, "authorize")
+    assert not hasattr(budget, "record")
+
+
+def test_sut_runner_has_no_unbudgeted_execution_path():
+    calls = []
+
+    def run_cell(sut, item_id, *_args):
+        calls.append((sut, item_id))
+
+    with pytest.raises(TypeError):
+        run.execute_sut_shards(
+            tuple((sut,) for sut in preflight.SUTS[:3]), ("I1",),
+            run_cell,
+        )
+    assert calls == []
+
+
+def test_concurrent_budget_reservations_count_against_availability_atomically():
+    budget = run.BudgetController(cap_usd=1.0)
+    ready = threading.Barrier(3)
+
+    def reserve():
+        ready.wait()
+        try:
+            return budget.reserve(0.51)
+        except run.TerminalStop:
+            return None
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        reservations = list(executor.map(lambda _index: reserve(), range(3)))
+    accepted = [reservation for reservation in reservations if reservation is not None]
+    assert len(accepted) == 1
+    assert budget.spent_usd == 0.0
+    assert budget.reserved_usd == pytest.approx(0.51)
+
+    budget.settle(accepted[0], 0.25)
+    assert budget.spent_usd == pytest.approx(0.25)
+    assert budget.reserved_usd == 0.0
+    second = budget.reserve(0.75)
+    budget.settle(second, 0.75)
+    assert budget.spent_usd == pytest.approx(1.0)
+    assert budget.reserved_usd == 0.0
+
+
+def test_sut_runner_reserves_maximum_cost_and_settles_actual_cost():
+    shards = tuple((sut,) for sut in preflight.SUTS[:3])
+    budget = run.BudgetController(cap_usd=3.0)
+    calls = []
+
+    results = run.execute_sut_shards(
+        shards, ("I1",),
+        lambda sut, item_id, acknowledge_start: (
+            acknowledge_start() or calls.append((sut, item_id)) or {
+                "sut": sut, "item_id": item_id, "actual_cost_usd": 0.25}),
+        budget=budget,
+        maximum_cost_usd=lambda _sut, _item_id: 0.75,
+        actual_cost_usd=lambda result: result["actual_cost_usd"],
+    )
+    assert len(results) == 3
+    assert len(calls) == 3
+    assert budget.spent_usd == pytest.approx(0.75)
+    assert budget.reserved_usd == 0.0

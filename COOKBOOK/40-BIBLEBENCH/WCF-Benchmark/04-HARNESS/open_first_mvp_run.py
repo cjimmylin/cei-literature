@@ -12,8 +12,9 @@ import copy
 import hashlib
 import json
 import math
+import threading
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any, Callable, Dict, Mapping, MutableMapping, Optional, Sequence, Tuple
 
 from wcfbench import mvp
@@ -197,25 +198,87 @@ def build_sut_shards(suts: Sequence[str]) -> Tuple[Tuple[str, ...], ...]:
 
 def _run_shard(
     shard: Sequence[str], item_ids: Sequence[str],
-    run_cell: Callable[[str, str], Any],
+    run_cell: Callable[[str, str, Callable[[], None]], Any],
+    cancellation: threading.Event,
+    start_lock: threading.Lock,
+    budget: "BudgetController",
+    maximum_cost_usd: Callable[[str, str], float],
+    actual_cost_usd: Callable[[Any], float],
 ) -> list:
     output = []
     for sut in shard:
         for item_id in item_ids:
-            output.append(run_cell(sut, item_id))
+            start_lock.acquire()
+            if cancellation.is_set():
+                start_lock.release()
+                return output
+            try:
+                reservation = budget.reserve(maximum_cost_usd(sut, item_id))
+            except TerminalStop:
+                start_lock.release()
+                with start_lock:
+                    cancellation.set()
+                raise
+
+            acknowledged = False
+            gate_held = True
+
+            def acknowledge_start() -> None:
+                nonlocal acknowledged, gate_held
+                if acknowledged:
+                    raise TerminalStop("cell start was acknowledged more than once")
+                acknowledged = True
+                gate_held = False
+                start_lock.release()
+
+            result = None
+            error: Optional[Exception] = None
+            try:
+                result = run_cell(sut, item_id, acknowledge_start)
+                if not acknowledged:
+                    error = TerminalStop("cell did not acknowledge its gated start")
+            except Exception as exc:
+                error = exc
+            finally:
+                if gate_held:
+                    gate_held = False
+                    start_lock.release()
+
+            if isinstance(error, TerminalStop):
+                with start_lock:
+                    cancellation.set()
+            outcome = error if error is not None else result
+            try:
+                budget.settle(reservation, actual_cost_usd(outcome))
+            except Exception as exc:
+                if error is None:
+                    error = TerminalStop(f"cell budget settlement failed: {exc}")
+                    with start_lock:
+                        cancellation.set()
+            if error is not None:
+                raise error
+            output.append(result)
     return output
 
 
 def execute_sut_shards(
     shards: Sequence[Sequence[str]], item_ids: Sequence[str],
-    run_cell: Callable[[str, str], Any],
-    *, executor_factory: Callable[..., Any] = ThreadPoolExecutor,
+    run_cell: Callable[[str, str, Callable[[], None]], Any],
+    *, budget: "BudgetController",
+    maximum_cost_usd: Callable[[str, str], float],
+    actual_cost_usd: Callable[[Any], float],
+    executor_factory: Callable[..., Any] = ThreadPoolExecutor,
+    cancellation_event: Optional[threading.Event] = None,
 ) -> list:
     """Run three shard workers concurrently; each worker is strictly sequential."""
     if len(shards) != SUT_SHARD_CONCURRENCY:
         raise TerminalStop("Open-First execution requires exactly three SUT shards")
+    cancellation = cancellation_event or threading.Event()
+    start_lock = threading.Lock()
     with executor_factory(max_workers=SUT_SHARD_CONCURRENCY) as executor:
-        futures = [executor.submit(_run_shard, shard, item_ids, run_cell)
+        futures = [executor.submit(
+            _run_shard, shard, item_ids, run_cell, cancellation, start_lock,
+            budget, maximum_cost_usd, actual_cost_usd)
                    for shard in shards]
         return [value for future in futures for value in future.result()]
 
@@ -329,22 +392,45 @@ class BudgetController:
 
     cap_usd: float
     spent_usd: float = 0.0
+    reserved_usd: float = 0.0
+    _lock: threading.Lock = field(default_factory=threading.Lock, init=False, repr=False)
+    _reservations: Dict[int, float] = field(default_factory=dict, init=False, repr=False)
+    _next_reservation: int = field(default=1, init=False, repr=False)
 
     def __post_init__(self) -> None:
-        if not math.isfinite(self.cap_usd) or self.cap_usd <= 0:
+        if (not math.isfinite(self.cap_usd) or self.cap_usd <= 0
+                or not math.isfinite(self.spent_usd) or self.spent_usd < 0
+                or self.spent_usd > self.cap_usd
+                or self.reserved_usd != 0):
             raise ValueError("budget cap must be finite and positive")
 
-    def authorize(self, projected_usd: float) -> None:
-        if (not math.isfinite(projected_usd) or projected_usd < 0
-                or self.spent_usd + projected_usd > self.cap_usd):
-            raise TerminalStop("strict Open-First budget cap would be exceeded")
+    def reserve(self, maximum_usd: float) -> int:
+        """Atomically reserve one call's maximum cost against available funds."""
+        with self._lock:
+            if (not math.isfinite(maximum_usd) or maximum_usd < 0
+                    or self.spent_usd + self.reserved_usd + maximum_usd
+                    > self.cap_usd):
+                raise TerminalStop("strict Open-First budget cap would be exceeded")
+            reservation = self._next_reservation
+            self._next_reservation += 1
+            self._reservations[reservation] = maximum_usd
+            self.reserved_usd += maximum_usd
+            return reservation
 
-    def record(self, actual_usd: float) -> None:
-        if not math.isfinite(actual_usd) or actual_usd < 0:
-            raise TerminalStop("actual budget accounting is missing or invalid")
-        if self.spent_usd + actual_usd > self.cap_usd:
-            raise TerminalStop("strict Open-First budget cap was exceeded")
-        self.spent_usd += actual_usd
+    def settle(self, reservation: Any, actual_usd: float) -> None:
+        """Record actual cost and release only that reservation's unused capacity."""
+        with self._lock:
+            maximum_usd = self._reservations.get(reservation)
+            if maximum_usd is None:
+                raise TerminalStop("budget reservation is missing or already settled")
+            if (not math.isfinite(actual_usd) or actual_usd < 0
+                    or actual_usd > maximum_usd):
+                raise TerminalStop("actual cost exceeds its maximum reservation")
+            if self.spent_usd + actual_usd > self.cap_usd:
+                raise TerminalStop("strict Open-First budget cap was exceeded")
+            del self._reservations[reservation]
+            self.reserved_usd -= maximum_usd
+            self.spent_usd += actual_usd
 
 
 # Explicit reuse points for an authorized controller; neither makes a call by itself.

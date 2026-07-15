@@ -14,7 +14,40 @@ MODEL = "gpt-5.6-sol"
 REASONING_EFFORT = "medium"
 MAX_BATCH_SIZE = 8
 MAX_RECORD_RETRIES = 2
+MAX_RECORD_ID_BYTES = 256
+MAX_CRITERION_ID_BYTES = 256
+MAX_SUT_RESPONSE_TOKENS = 2048
+MAX_SUT_RESPONSE_BYTES = 65536
+MAX_JUDGE_INPUT_SERIALIZED_BYTES = MAX_BATCH_SIZE * (
+    MAX_RECORD_ID_BYTES + MAX_CRITERION_ID_BYTES + MAX_SUT_RESPONSE_BYTES + 128
+)
 _ALLOWED_ITEM_TYPES = {"agent_message", "reasoning"}
+_SAFE_ENV_NAMES = (
+    "PATH", "HOME", "TMPDIR", "LANG", "SSL_CERT_FILE", "CODEX_HOME",
+)
+_PROMPT_PREFIX = (
+    "You are the single unqualified WCF-Bench Open-First judge. "
+    "Do not call any tool, command, web search, MCP server, or subagent. "
+    "Judge only the supplied records. Return strict schema-conforming JSON, "
+    "preserve every record_id exactly once, and invent no IDs.\n\n"
+)
+
+
+def serialize_judge_records(records: Sequence[Mapping[str, Any]]) -> str:
+    payload = [{
+        "record_id": row["record_id"],
+        "payload": row["payload"],
+    } for row in records]
+    return json.dumps(payload, sort_keys=True, ensure_ascii=False)
+
+
+def render_judge_prompt(records: Sequence[Mapping[str, Any]]) -> str:
+    return _PROMPT_PREFIX + serialize_judge_records(records)
+
+
+def judge_prompt_byte_ceiling() -> int:
+    """Exact upper bound enforced by input validation before subprocess launch."""
+    return len(_PROMPT_PREFIX.encode("utf-8")) + MAX_JUDGE_INPUT_SERIALIZED_BYTES
 
 
 class JudgeAdapterError(RuntimeError):
@@ -53,6 +86,9 @@ class CodexOAuthJudge:
         if (any(not isinstance(value, str) or not value for value in record_ids)
                 or len(set(record_ids)) != len(record_ids)):
             raise JudgeAdapterError("judge input record IDs must be unique and non-empty")
+        if any(len(value.encode("utf-8")) > MAX_RECORD_ID_BYTES
+               for value in record_ids):
+            raise JudgeAdapterError("judge input record ID exceeds its byte envelope")
         identities = {(row.get("sut"), row.get("route")) for row in records}
         if len(identities) != 1:
             raise JudgeAdapterError("judge batch must contain the same SUT and route")
@@ -62,9 +98,18 @@ class CodexOAuthJudge:
         for row in records:
             payload = row.get("payload")
             criterion_id = payload.get("criterion_id") if isinstance(payload, Mapping) else None
-            if not isinstance(criterion_id, str) or not criterion_id:
+            response = payload.get("response") if isinstance(payload, Mapping) else None
+            if (not isinstance(payload, Mapping)
+                    or set(payload) != {"criterion_id", "response"}
+                    or not isinstance(criterion_id, str) or not criterion_id
+                    or len(criterion_id.encode("utf-8")) > MAX_CRITERION_ID_BYTES
+                    or not isinstance(response, str)
+                    or len(response.encode("utf-8")) > MAX_SUT_RESPONSE_BYTES):
                 raise JudgeAdapterError(
-                    "judge input payload requires a non-empty criterion_id")
+                    "judge input payload is outside the exact serialized schema/byte envelope")
+        if (len(serialize_judge_records(records).encode("utf-8"))
+                > MAX_JUDGE_INPUT_SERIALIZED_BYTES):
+            raise JudgeAdapterError("judge input serialized byte envelope exceeded")
 
     @staticmethod
     def _schema(route: str) -> Dict[str, Any]:
@@ -111,17 +156,7 @@ class CodexOAuthJudge:
 
     @staticmethod
     def _prompt(records: Sequence[Mapping[str, Any]]) -> str:
-        payload = [{
-            "record_id": row["record_id"],
-            "payload": row.get("payload"),
-        } for row in records]
-        return (
-            "You are the single unqualified WCF-Bench Open-First judge. "
-            "Do not call any tool, command, web search, MCP server, or subagent. "
-            "Judge only the supplied records. Return strict schema-conforming JSON, "
-            "preserve every record_id exactly once, and invent no IDs.\n\n"
-            + json.dumps(payload, sort_keys=True, ensure_ascii=False)
-        )
+        return render_judge_prompt(records)
 
     def _command(
         self, *, cwd: str, schema_path: str, output_path: str,
@@ -234,10 +269,10 @@ class CodexOAuthJudge:
                 command = self._command(
                     cwd=cwd, schema_path=schema_path, output_path=output_path,
                     records=records)
-                env = dict(os.environ)
-                # Force reuse of the CLI's saved ChatGPT OAuth, never an API key.
-                env.pop("OPENAI_API_KEY", None)
-                env.pop("CODEX_API_KEY", None)
+                # Reuse only the local CLI's OAuth location and process essentials.
+                # No unrelated parent configuration or credential can cross this boundary.
+                env = {name: os.environ[name] for name in _SAFE_ENV_NAMES
+                       if name in os.environ}
                 try:
                     process = self.runner(
                         command, capture_output=True, text=True, timeout=self.timeout_s,

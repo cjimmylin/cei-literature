@@ -11,9 +11,8 @@ HARNESS_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if HARNESS_ROOT not in sys.path:
     sys.path.insert(0, HARNESS_ROOT)
 
-from wcfbench.codex_oauth_judge import (  # noqa: E402
-    CodexOAuthJudge, JudgeAdapterError,
-)
+import wcfbench.codex_oauth_judge as judge_module  # noqa: E402
+from wcfbench.codex_oauth_judge import CodexOAuthJudge, JudgeAdapterError  # noqa: E402
 
 
 class _Proc:
@@ -76,6 +75,17 @@ def test_command_is_ephemeral_oauth_isolated_read_only_and_tool_observable(monke
 
     monkeypatch.setenv("OPENAI_API_KEY", "must-not-be-used")
     monkeypatch.setenv("CODEX_API_KEY", "must-not-be-used")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "must-not-be-used")
+    monkeypatch.setenv("GITHUB_TOKEN", "must-not-be-used")
+    monkeypatch.setenv("DATABASE_SECRET", "must-not-be-used")
+    monkeypatch.setenv("SERVICE_PASSWORD", "must-not-be-used")
+    monkeypatch.setenv("UNRELATED_CONFIG", "must-not-be-used")
+    monkeypatch.setenv("PATH", "/safe/bin")
+    monkeypatch.setenv("HOME", "/safe/home")
+    monkeypatch.setenv("TMPDIR", "/safe/tmp")
+    monkeypatch.setenv("LANG", "C.UTF-8")
+    monkeypatch.setenv("SSL_CERT_FILE", "/safe/cert.pem")
+    monkeypatch.setenv("CODEX_HOME", "/safe/codex-home")
     persisted = []
     result = CodexOAuthJudge(runner=runner, persist=persisted.append).judge(_records())
     assert result == {"records": persisted, "missing_record_ids": [], "attempts": 1}
@@ -95,6 +105,14 @@ def test_command_is_ephemeral_oauth_isolated_read_only_and_tool_observable(monke
     assert os.path.dirname(command[command.index("-o") + 1]) != captured["kwargs"]["cwd"]
     assert "OPENAI_API_KEY" not in captured["kwargs"]["env"]
     assert "CODEX_API_KEY" not in captured["kwargs"]["env"]
+    assert captured["kwargs"]["env"] == {
+        "PATH": "/safe/bin",
+        "HOME": "/safe/home",
+        "TMPDIR": "/safe/tmp",
+        "LANG": "C.UTF-8",
+        "SSL_CERT_FILE": "/safe/cert.pem",
+        "CODEX_HOME": "/safe/codex-home",
+    }
 
 
 def test_any_tool_event_rejects_the_judge_attempt():
@@ -161,6 +179,58 @@ def test_input_ids_must_be_unique_and_batch_must_not_mix_route_or_sut():
     mixed[1]["route"] = "episode"
     with pytest.raises(JudgeAdapterError, match="same SUT and route"):
         adapter.judge(mixed)
+
+
+@pytest.mark.parametrize("mutation", [
+    lambda record: record.update({
+        "record_id": "r" * (judge_module.MAX_RECORD_ID_BYTES + 1)}),
+    lambda record: record["payload"].update({
+        "criterion_id": "c" * (judge_module.MAX_CRITERION_ID_BYTES + 1)}),
+    lambda record: record["payload"].update({
+        "response": "x" * (judge_module.MAX_SUT_RESPONSE_BYTES + 1)}),
+    lambda record: record["payload"].update({"unexpected": "field"}),
+])
+def test_unbounded_judge_input_is_rejected_before_subprocess(mutation):
+    calls = []
+    record = _records()[0]
+    mutation(record)
+    with pytest.raises(JudgeAdapterError, match="judge input"):
+        CodexOAuthJudge(
+            runner=lambda *_args, **_kwargs: calls.append(True),
+            persist=lambda _row: None,
+        ).judge([record])
+    assert calls == []
+
+
+def test_serialized_judge_input_envelope_is_enforced_before_subprocess():
+    calls = []
+    records = []
+    for index in range(judge_module.MAX_BATCH_SIZE):
+        record = _records()[0]
+        record["record_id"] = f"r{index}"
+        record["payload"]["response"] = "\x00" * judge_module.MAX_SUT_RESPONSE_BYTES
+        records.append(record)
+    with pytest.raises(JudgeAdapterError, match="serialized.*envelope"):
+        CodexOAuthJudge(
+            runner=lambda *_args, **_kwargs: calls.append(True),
+            persist=lambda _row: None,
+        ).judge(records)
+    assert calls == []
+
+
+def test_exported_prompt_ceiling_bounds_every_accepted_serialization():
+    records = []
+    for index in range(judge_module.MAX_BATCH_SIZE):
+        record = _records()[0]
+        record["record_id"] = f"r{index}"
+        record["payload"]["criterion_id"] = (
+            "c" * judge_module.MAX_CRITERION_ID_BYTES)
+        record["payload"]["response"] = (
+            "x" * judge_module.MAX_SUT_RESPONSE_BYTES)
+        records.append(record)
+    CodexOAuthJudge._validate_input(records)
+    rendered = judge_module.render_judge_prompt(records)
+    assert len(rendered.encode("utf-8")) <= judge_module.judge_prompt_byte_ceiling()
 
 
 def test_foreign_or_duplicate_output_ids_are_never_persisted():

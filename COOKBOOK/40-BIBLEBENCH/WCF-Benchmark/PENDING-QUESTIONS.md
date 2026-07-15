@@ -1,6 +1,36 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-14 — Open-First MVP preflight amendment and second-cycle safety choice
+## OPEN 2026-07-14 — Open-First MVP Session-50 quality choice
+
+- **Question:** Should Jimmy authorize one final named-blocker **FIX** for the two
+  fresh quality-review P1s, or **DEFER** the Open-First adjunct as non-executable?
+- **Why it blocks:** Jimmy's prior bounded FIX was implemented and passed named-only
+  specification re-review, but fresh quality review reproduced (1) a gap that permits
+  another shard to start between reservation failure and cancellation publication and
+  (2) a settlement failure being discarded when a cell error already exists. The
+  binding second-cycle rule forbids another autonomous correction cycle. No refreshed
+  preflight or executable manifest exists.
+- **Evidence:** `20260714p-jimmy-open-first-mvp-fix-ratification-record.md`;
+  `20260714q-wcf-open-first-mvp-s50-quality-escalation.md`; 64 focused and 797 full
+  offline tests green; quality review deterministic probes recorded in the escalation
+  packet; zero metadata, auth, OAuth, or inference calls and `$0` spend this session.
+- **Suggested default:** **FIX only the two named P1s.** Publish cancellation while
+  still holding the start lock on reservation failure; make every settlement failure
+  terminal and cancelling while preserving the original cell error as context. Add
+  only two regressions, re-review only these blockers, and refresh only public metadata
+  after PASS. Continue to prohibit credential access, auth/balance calls, OAuth,
+  inference, top-up, substitution, empirical execution, T4, ranking, gates, reruns,
+  and manuscript changes.
+
+## RESOLVED 2026-07-14 — Open-First MVP preflight amendment and second-cycle safety choice
+
+- **Disposition:** Jimmy replied exactly `FIX`. Binding interpretation and consumed
+  scope are recorded in
+  `20260714p-jimmy-open-first-mvp-fix-ratification-record.md`.
+- **Effect:** The bounded offline amendments and named fixes were implemented and
+  specification re-review passed. Fresh quality review found the two new P1s above, so
+  no refreshed public preflight, credential access, OAuth, inference, or spend followed.
+  The earlier FIX authority is consumed and does not authorize another cycle.
 
 - **Question:** Should Jimmy authorize one bounded second-cycle **FIX** that (a) amends
   the exact six-SUT request contract from `reasoning.effort="none"` to

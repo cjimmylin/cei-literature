@@ -126,7 +126,7 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-14 by Codex — ASSESSMENT GRAPHICS COMPLETE; LABELS REMAIN THE RATE LIMITER</b>
+· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — OPEN6-SOL1 STOPPED AT REQUIRED CANARY; LABELS REMAIN THE CRITICAL PATH</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -153,9 +153,20 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
 <a href="#protocol">Protocol &amp; changelog</a><a href="#next-session">▶ Next session</a>
 </div>
 
-<h2 id="live"><span class="n">1</span>⚡ Live status — 2026-07-14</h2>
+<h2 id="live"><span class="n">1</span>⚡ Live status — 2026-07-15</h2>
 <div class="panel" style="border-color:#2a4a3a;background:#10241a">
   <div style="font-size:14.5px;line-height:1.6">
+    <b>OPEN6-SOL1 STOPPED AT THE REQUIRED SIX-SUT CANARY GATE.</b> The immutable 344-item PUBLIC manifest,
+    same-roster/same-ceiling catalog snapshot, final 127/127 regression, independent P1 approvals, and exact
+    full fake run all passed (2,064 records · 5,886 calls · 1,722 routes · 5,370 units · 10,008 cells ·
+    227 batches; $0; HOLDOUT false). Both frozen Sol canaries passed, as did the MiniMax and GLM promoted SUT
+    canaries. Exact <code>deepseek/deepseek-v4-pro</code> then returned HTTP 404 on the first request and its
+    single byte-identical replay, so the driver stopped before the other three SUT canaries or production.
+    Custody at stop: <b>4 OpenRouter attempts / 1 replay / 2 valid executions / $0.0320949696 booked / $0
+    inflight</b>; 2,062/2,064 item-model keys remain missing. No supplement, ranking, gate verdict, substitution,
+    third attempt, workaround, or public claim was produced. Source:
+    <code>20260715-open6-sol1-canary-stop-report.md</code>. OPEN6 cannot resume under the current contract;
+    labels → G4 remains the controlling paper path.<br><br>
     <b>W1 COMPLETE · W2 COMPLETE · PR-16/FR-7 COMPLETE · W3 COMPLETE · W4 G5 COMPLETE · PAPER W3 FILL COMPLETE.</b><br><br>
     <b>PR-16:</b> Jimmy ratified option 1. The NEW immutable derived run
     <code>runs/20260713-o5-home-reroute/</code> retains 2,064 records and reroutes exactly 63 Google-SUT 05/06
@@ -243,7 +254,7 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
   </div>
 </div>
 <p class="statusbar"><b>Where we are:</b> measurement, W1, W2, PR-16 FR-7, W3, and the first licensed PAPER
-fill, MVP-A1 paper preview, Opus claims review, PR-22 scope correction, the <b>hash-frozen 36-page MVP v0.1 candidate</b>, and the <b>PR-29 G4 intake bridge are DONE</b>. Public release remains unauthorized. <b>Next Codex execution trigger: one complete PUBLIC design with primary + reliability + declaration + adjudicated-gold inputs → G4 → available Part B → verdict/PAPER conversion.</b> Until then, further engineering is off-path. G7 remains PENDING and closed. <b>Session value gate:</b> paper artifact or P0/P1 removal; one bundled preflight; canary before framework; no P2/P3 blocker; ≤20% overhead.</p>
+fill, MVP-A1 paper preview, Opus claims review, PR-22 scope correction, the <b>hash-frozen 36-page MVP v0.1 candidate</b>, and the <b>PR-29 G4 intake bridge are DONE</b>. OPEN6-SOL1 is stopped at its required DeepSeek canary after the one replay; it produced no benchmark result. Public release remains unauthorized. <b>Next Codex execution trigger: one complete PUBLIC design with primary + reliability + declaration + adjudicated-gold inputs → G4 → available Part B → verdict/PAPER conversion.</b> Until then, further engineering is off-path. G7 remains PENDING and closed; OPEN6 requires a new explicit owner amendment before any further paid request. <b>Session value gate:</b> paper artifact or P0/P1 removal; one bundled preflight; canary before framework; no P2/P3 blocker; ≤20% overhead.</p>
 
 <h2 id="mission"><span class="n">3</span>Mission &amp; the release bar</h2>
 <div class="panel">
@@ -402,6 +413,7 @@ O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11) → F
 <h2 id="progress"><span class="n">6</span>Progress now — paper MVP + O5 release pipeline</h2>
 <div class="panel">
 <ul class="check">
+  <li><span class="st"><span class="badge b-fail">STOPPED · REQUIRED CANARY</span></span> <b>OPEN6-SOL1</b> — manifest/catalog/final tests/full fake run PASS; Sol classifier+judge and MiniMax+GLM canaries PASS; exact DeepSeek canary HTTP 404 twice (single replay exhausted); production not started; 2/2,064 records complete; $0.0320949696 booked; no current-contract resume</li>
   <li><span class="st"><span class="badge b-done">DONE · REVIEWED</span></span> <b>MVP-PILOT</b> — exact 180/180 executions; 480/480 units per judge; 1,715 paired attempts; $0.551363883; all numbers independently reproduced; PR-22 exact P1 correction applied; three P3 nits waived; no open P0/P1 and no more MVP inference authorized</li>
   <li><span class="st"><span class="badge b-done">v0.1 · PRIVATE CIRCULATION RATIFIED</span></span> <b>MVP manuscript/PDF</b> — 20,516 words · 36 verified pages · exact hashes frozen · Anonymous manuscript byline · descriptive claims only · public release unauthorized</li>
   <li><span class="st"><span class="badge b-done">DONE</span></span> <b>Phase 0</b> — pre-flight: PR-5 verified, blind CSVs intact, G4 CLI turnkey (276 baseline; 308 current tests, dry-run PASS)</li>
@@ -952,6 +964,13 @@ no external resources).</p>
   show the registered <span class="mono">I(full_obedience)=0</span> contribution and provisional S/H readings,
   and end at no final release determination. Dashboard previews/links added; manuscript/PDF hashes and §12
   label trigger unchanged. No call, spend, HOLDOUT, label, gate, or frozen-rule change.</td></tr>
+<tr><td class="mono">2026-07-15</td><td><span class="badge b-codex">Codex</span></td>
+  <td><b>OPEN6-SOL1 STOPPED AT REQUIRED LIVE CANARY.</b> Final execution mechanics passed 127/127 and three
+  independent P1 reviews; immutable manifest/catalog and exact full fake geometry passed. Both Sol canaries,
+  MiniMax, and GLM passed. Exact DeepSeek returned HTTP 404 on the first request and single identical replay,
+  so no further canary or production work ran. Stop custody: 4 OpenRouter attempts, 1 replay, 2 executions,
+  $0.0320949696 booked, $0 inflight, 2,062 missing item-model keys. No supplement, substitution, third attempt,
+  HOLDOUT, O5 verdict, or public claim. Labels → G4 remains the next execution trigger.</td></tr>
 </table>
 </div>
 
@@ -962,16 +981,16 @@ holds THE next prepared session.</b> Whoever stages a new session replaces the c
 model, directory) and appends a Changelog row in §11 — superseded prompts remain in their dated files.</p>
 <table class="dense" style="margin-bottom:12px">
 <tr><th style="width:130px">Field</th><th>Value</th></tr>
-<tr><td><b>Session</b></td><td>WALKWORTHY label-triggered G4 → available Part B → verdict/PAPER conversion.</td></tr>
+<tr><td><b>Session</b></td><td>WALKWORTHY label-triggered G4 → available Part B → verdict/PAPER conversion; OPEN6 remains stopped.</td></tr>
 <tr><td><b>Primary deliverable</b></td><td><b>Convert the first complete design's primary + reliability + adjudicated-gold labels directly into its immutable G4 report, frozen branch result, available Part-B work, recomputed status, and licensed manuscript/PDF update.</b></td></tr>
-<tr><td><b>Entry gate</b></td><td><span class="badge b-open">WAIT · COMPLETE DESIGN</span> Start only when at least one design has complete primary labels, its matching overlap labels, a valid reliability declaration, and complete disagreement adjudications. Current primary labels: 0/439. If the gate is not met, do no engineering or documentation-only session.</td></tr>
+<tr><td><b>Entry gate</b></td><td><span class="badge b-open">WAIT · COMPLETE DESIGN</span> Start only when at least one design has complete primary labels, its matching overlap labels, a valid reliability declaration, and complete disagreement adjudications. Current primary labels: 0/439. OPEN6's DeepSeek canary exhausted its one replay; no OPEN6 request may run without a new explicit Jimmy amendment. If neither gate is met, do no engineering or documentation-only session.</td></tr>
 <tr><td><b>Paper trigger</b></td><td>The first complete design now triggers immediate G4 → frozen §4 branch → available Part B → recompute/status → manuscript/PDF conversion in one session. Partial designs remain fail-closed and produce no gate result.</td></tr>
-<tr><td><b>Explicitly deferred</b></td><td>All G7 work, new inference, paid calls, models, scale-up, broad audits, refactors, item/key/denominator edits, substitution, HOLDOUT, and P2/P3 hardening. The descriptive MVP manuscript is already complete.</td></tr>
+<tr><td><b>Explicitly deferred</b></td><td>All G7 work; every OPEN6 rerun, failed-canary waiver, extra replay, or substitution; new inference, paid calls, models, scale-up, broad audits, refactors, item/key/denominator edits, HOLDOUT, and P2/P3 hardening. The descriptive MVP manuscript is already complete.</td></tr>
 <tr><td><b>Release lane</b></td><td>Wave 1 {02,07,01} → waves 2–3, processed design-by-design as complete. Design 09's FR-8 cascade remains label-triggered. No release without every frozen conjunct and Jimmy sign-off.</td></tr>
 <tr><td><b>Model</b></td><td><span class="badge b-codex">CODEX</span> offline mechanics only. No paid call, credential, candidate rejudge, or new model is authorized.</td></tr>
 <tr><td><b>Directory</b></td><td><span class="mono">CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>
   (scope-locked; labels under <span class="mono">labels/20260710-partA/</span>)</td></tr>
-<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span>: fill one primary design, the corresponding independent reliability instrument, the declaration, and disagreement adjudications. Public release remains separately unauthorized.</td></tr>
+<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span>: fill one primary design, the corresponding independent reliability instrument, the declaration, and disagreement adjudications. Optional only: issue one bundled explicit amendment if OPEN6 continuation is still desired. Public release remains separately unauthorized.</td></tr>
 <tr><td><b>Value gate</b></td><td>Close only with a new paper-facing gate/statistic/verdict/table/claim artifact or a single explicit P0/P1 escalation. Do not reopen G7 or create another preparatory session while labels are incomplete.</td></tr>
 </table>
 <pre style="background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:14px 16px;
@@ -980,6 +999,11 @@ white-space:pre-wrap;color:#c8d6ee;margin:0">
 WALKWORTHY LABEL-TRIGGERED G4 → PART B → VERDICT/PAPER CONVERSION. SCOPE LOCK: work ONLY inside
 CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches;
 never load HOLDOUT; never delete (mv to RECYCLE-BIN/).
+
+OPEN6-SOL1 IS STOPPED: read 00-PORTFOLIO/20260715-open6-sol1-canary-stop-report.md and
+00-PORTFOLIO/20260715-codex-open6-sol1-canary-stop-handoff.md. The exact DeepSeek canary returned HTTP 404
+twice and exhausted its one replay. Do not run OPEN6 execute/status-changing commands, waive the canary,
+substitute, or spend again without one new explicit Jimmy amendment. Read-only status remains permitted.
 
 ON SESSION OPEN: read the BibleBench paper-first surfaces read-only; then read local AGENTS.md,
 00-PORTFOLIO/project-dashboard.html (Live status + §12 first),
@@ -1009,7 +1033,7 @@ recompute its status, and immediately update the licensed manuscript tables/pros
 separate §6/O5 results; they never validate or change MVP-A1 §6A. Public release remains Jimmy-only.
 
 STOP POLICY: any behavior outside the registered contract becomes one P0/P1 escalation and stops that thread;
-do not open another serial G7 or intake-specification chain. No candidate rejudge, live call, credential, paid
+do not open another serial G7, OPEN6, or intake-specification chain. No candidate rejudge, live call, credential, paid
 work, new model, item/key/denominator/frozen-rule change, substitution, HOLDOUT access, or automatic scale-up.
 
 ON CLOSING: update project-dashboard.html IN PLACE, write a NEW dated handoff, commit/push WALKWORTHY paths only,

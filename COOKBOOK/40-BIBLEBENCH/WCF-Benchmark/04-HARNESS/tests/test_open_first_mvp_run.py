@@ -56,13 +56,26 @@ def test_sut_request_uses_exact_model_parameters_and_provider_policy():
     assert "tools" not in request and "models" not in request and "plugins" not in request
 
 
-def test_runtime_price_above_frozen_catalog_ceiling_stops():
+def test_runtime_no_eligible_endpoint_within_frozen_price_ceiling_stops():
     manifest = _manifest()
     current = _catalog()
-    run.validate_runtime_catalog(manifest, current)
-    current[preflight.SUTS[0]]["pricing"]["completion"] = "0.1"
+    endpoints = _endpoints()
+    run.validate_runtime_catalog(manifest, current, endpoints)
+    endpoints[preflight.SUTS[0]][0]["pricing"]["completion"] = "0.1"
     with pytest.raises(run.TerminalStop, match="price ceiling"):
-        run.validate_runtime_catalog(manifest, current)
+        run.validate_runtime_catalog(manifest, current, endpoints)
+
+
+def test_runtime_above_ceiling_aggregate_passes_with_eligible_endpoint():
+    manifest = _manifest()
+    current = _catalog()
+    endpoints = _endpoints()
+    current[preflight.SUTS[0]]["pricing"] = {
+        "prompt": "99",
+        "completion": "99",
+    }
+
+    run.validate_runtime_catalog(manifest, current, endpoints)
 
 
 @pytest.mark.parametrize("response", [

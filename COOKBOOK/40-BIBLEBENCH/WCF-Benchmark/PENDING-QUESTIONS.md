@@ -1,6 +1,17 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Open-First runtime price gate contradicts the binding endpoint rule
+## RESOLVED 2026-07-15 — Open-First runtime price gate contradicts the binding endpoint rule
+
+- **Disposition:** Jimmy selected `FIX`. The exact ruling is recorded in
+  `20260715j-jimmy-open-first-mvp-s54-runtime-price-validator-fix-authorization-record.md`.
+  Exactly one new TDD regression proved that an above-ceiling aggregate row does not block
+  execution when a current eligible endpoint remains within both frozen ceilings. The
+  minimum endpoint-bearing runtime fetch and eligible-endpoint validator passed fresh
+  named-only specification and quality reviews with no P1/P2/P3 findings.
+- **Effect:** This runtime-validator P1 is closed. The already-authorized sequence resumes
+  at a repeat public runtime gate and fresh sanitized balance check under the unchanged
+  exact roster, frozen `$8.57` inner cap, cumulative `$10.00` OpenRouter NTE, and every
+  prior automatic stop.
 
 - **Question:** Should Jimmy authorize one exact **FIX** so the live runtime price gate
   evaluates current eligible endpoints against each frozen price ceiling, or **DEFER** the

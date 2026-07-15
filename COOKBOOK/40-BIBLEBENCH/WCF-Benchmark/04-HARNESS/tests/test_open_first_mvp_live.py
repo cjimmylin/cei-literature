@@ -264,12 +264,22 @@ def test_runtime_catalog_and_cli_contract_are_fail_closed(tmp_path):
         "prompt": str(row["prices"]["prompt"]),
         "completion": str(row["prices"]["completion"]),
     }} for row in manifest["models"]}
+    endpoints = {row["slug"]: [{
+        "supported_parameters": [
+            name for name in ("temperature", "max_tokens", "reasoning")
+            if name in row["request_parameters"]
+        ],
+        "pricing": {
+            "prompt": str(row["prices"]["prompt"]),
+            "completion": str(row["prices"]["completion"]),
+        },
+    }] for row in manifest["models"]}
     called = []
     executed = []
     assert live.main([
         "--go", "--manifest", str(MANIFEST_PATH),
         "--output-dir", str(tmp_path / "20260715-live"), "--cap", "8.57",
-       ], catalog_fetch=lambda: catalog,
+       ], catalog_fetch=lambda: (catalog, endpoints),
        transport_factory=lambda _key: called.append("factory") or
        (lambda _payload: _ok_response()),
        execute_fn=lambda manifest, state, transport: executed.append(
@@ -279,6 +289,6 @@ def test_runtime_catalog_and_cli_contract_are_fail_closed(tmp_path):
     assert live.main([
         "--go", "--manifest", str(MANIFEST_PATH),
         "--output-dir", str(tmp_path / "20260715-live-2"), "--cap", "10.01",
-    ], catalog_fetch=lambda: catalog,
+    ], catalog_fetch=lambda: (catalog, endpoints),
        transport_factory=lambda _key: _ok_response,
        execute_fn=lambda *_args: pytest.fail("invalid cap executed")) == 2

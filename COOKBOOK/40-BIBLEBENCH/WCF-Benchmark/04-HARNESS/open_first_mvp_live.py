@@ -21,7 +21,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Callable, Dict, Mapping, Optional, Sequence
+from typing import Any, Callable, Dict, Mapping, Optional, Sequence, Tuple
 
 import open_first_mvp_preflight as preflight
 import open_first_mvp_run as controller
@@ -575,8 +575,10 @@ def _default_transport_factory(api_key: str) -> Callable[[Dict[str, Any]], Mappi
 
 
 def main(argv: Optional[Sequence[str]] = None, *,
-         catalog_fetch: Callable[[], Mapping[str, Mapping[str, Any]]] =
-         lambda: mvp.fetch_model_catalog(None),
+         catalog_fetch: Callable[[], Tuple[
+             Mapping[str, Mapping[str, Any]],
+             Mapping[str, Sequence[Mapping[str, Any]]],
+         ]] = preflight.fetch_public_catalog,
          transport_factory: Callable[[str], Callable[[Dict[str, Any]], Mapping[str, Any]]] =
          _default_transport_factory,
          execute_fn: Callable[[Mapping[str, Any], RunState,
@@ -601,8 +603,10 @@ def main(argv: Optional[Sequence[str]] = None, *,
         if args.cap != proposed or args.cap > OUTER_CAP_USD:
             raise CustodyStop(
                 f"--cap must equal frozen ${proposed:.2f} and remain <= $10")
-        catalog = dict(catalog_fetch())
-        controller.validate_runtime_catalog(manifest, catalog)
+        catalog_rows, endpoint_rows = catalog_fetch()
+        catalog = dict(catalog_rows)
+        endpoints = dict(endpoint_rows)
+        controller.validate_runtime_catalog(manifest, catalog, endpoints)
         state = prepare_run(
             manifest_path, Path(args.output_dir), cap_usd=args.cap,
             resume=args.resume)

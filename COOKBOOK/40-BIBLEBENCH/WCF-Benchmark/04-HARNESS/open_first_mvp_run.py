@@ -81,24 +81,57 @@ def build_blind_messages(item: Any) -> list:
 
 def validate_runtime_catalog(
     manifest: Mapping[str, Any], catalog: Mapping[str, Mapping[str, Any]],
+    endpoints: Mapping[str, Sequence[Mapping[str, Any]]],
 ) -> None:
-    """Reject missing models, missing prices, or drift above any frozen ceiling."""
+    """Require one current eligible endpoint within each frozen price ceiling."""
     for slug in preflight.SUTS:
         if slug not in catalog:
             raise TerminalStop(f"runtime catalog lacks exact slug: {slug}")
-        frozen = _model_row(manifest, slug).get("prices")
+        model = _model_row(manifest, slug)
+        frozen = model.get("prices")
         if not isinstance(frozen, Mapping):
             raise TerminalStop(f"manifest lacks price ceiling: {slug}")
+        parameters = model.get("request_parameters")
+        if not isinstance(parameters, Mapping):
+            raise TerminalStop(f"manifest lacks request parameters for {slug}")
+        rows = endpoints.get(slug)
+        if (not isinstance(rows, Sequence) or isinstance(rows, (str, bytes))
+                or not rows):
+            raise TerminalStop(f"runtime endpoint metadata absent: {slug}")
         try:
-            current_prompt, current_completion = mvp.price_for(slug, dict(catalog))
             ceilings = (float(frozen["prompt"]), float(frozen["completion"]))
-        except (KeyError, TypeError, ValueError, mvp.PricingError) as exc:
+        except (KeyError, TypeError, ValueError) as exc:
             raise TerminalStop(f"runtime price ceiling cannot be verified: {slug}") from exc
-        if (not all(math.isfinite(value) and value > 0
-                    for value in (current_prompt, current_completion, *ceilings))
-                or current_prompt > ceilings[0]
-                or current_completion > ceilings[1]):
-            raise TerminalStop(f"runtime price ceiling exceeded: {slug}")
+        if not all(math.isfinite(value) and value > 0 for value in ceilings):
+            raise TerminalStop(f"runtime price ceiling cannot be verified: {slug}")
+        required = {"temperature", "max_tokens"}
+        if "reasoning" in parameters:
+            required.add("reasoning")
+        eligible = False
+        for endpoint in rows:
+            if not isinstance(endpoint, Mapping):
+                continue
+            supported = endpoint.get("supported_parameters")
+            if not isinstance(supported, list) or not required <= set(supported):
+                continue
+            if ("data_collection" in endpoint
+                    and endpoint.get("data_collection") not in {False, "deny", "none"}):
+                continue
+            pricing = endpoint.get("pricing")
+            if not isinstance(pricing, Mapping):
+                continue
+            try:
+                current = (float(pricing["prompt"]), float(pricing["completion"]))
+            except (KeyError, TypeError, ValueError):
+                continue
+            if (all(math.isfinite(value) and value > 0 for value in current)
+                    and current[0] <= ceilings[0]
+                    and current[1] <= ceilings[1]):
+                eligible = True
+                break
+        if not eligible:
+            raise TerminalStop(
+                f"no eligible endpoint within runtime price ceiling: {slug}")
 
 
 def _reasoning_tokens(response: Mapping[str, Any]) -> float:

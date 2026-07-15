@@ -215,9 +215,8 @@ def _run_shard(
             try:
                 reservation = budget.reserve(maximum_cost_usd(sut, item_id))
             except TerminalStop:
+                cancellation.set()
                 start_lock.release()
-                with start_lock:
-                    cancellation.set()
                 raise
 
             acknowledged = False
@@ -251,10 +250,13 @@ def _run_shard(
             try:
                 budget.settle(reservation, actual_cost_usd(outcome))
             except Exception as exc:
-                if error is None:
-                    error = TerminalStop(f"cell budget settlement failed: {exc}")
-                    with start_lock:
-                        cancellation.set()
+                settlement_error = TerminalStop(
+                    f"cell budget settlement failed: {exc}")
+                with start_lock:
+                    cancellation.set()
+                if error is not None:
+                    raise settlement_error from error
+                raise settlement_error from exc
             if error is not None:
                 raise error
             output.append(result)
@@ -423,13 +425,13 @@ class BudgetController:
             maximum_usd = self._reservations.get(reservation)
             if maximum_usd is None:
                 raise TerminalStop("budget reservation is missing or already settled")
+            del self._reservations[reservation]
+            self.reserved_usd -= maximum_usd
             if (not math.isfinite(actual_usd) or actual_usd < 0
                     or actual_usd > maximum_usd):
                 raise TerminalStop("actual cost exceeds its maximum reservation")
             if self.spent_usd + actual_usd > self.cap_usd:
                 raise TerminalStop("strict Open-First budget cap was exceeded")
-            del self._reservations[reservation]
-            self.reserved_usd -= maximum_usd
             self.spent_usd += actual_usd
 
 

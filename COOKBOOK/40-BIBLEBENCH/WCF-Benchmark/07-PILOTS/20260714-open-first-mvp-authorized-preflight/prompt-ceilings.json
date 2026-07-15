@@ -1,0 +1,55 @@
+{
+  "judge_contested": {
+    "batch_size": 8,
+    "completion_tokens": 0,
+    "max_criterion_id_bytes": 256,
+    "max_judge_input_serialized_bytes": 529408,
+    "max_record_id_bytes": 256,
+    "max_rendered_prompt_bytes": 529665,
+    "max_sut_response_bytes": 65536,
+    "max_sut_response_tokens_per_record": 2048,
+    "prompt_tokens": 529665,
+    "route": "judge_contested",
+    "source": "offline_rendered_prompt_ceiling",
+    "status": "DERIVED_OFFLINE_CONSERVATIVE"
+  },
+  "judge_episode": {
+    "batch_size": 8,
+    "completion_tokens": 0,
+    "max_criterion_id_bytes": 256,
+    "max_judge_input_serialized_bytes": 529408,
+    "max_record_id_bytes": 256,
+    "max_rendered_prompt_bytes": 529665,
+    "max_sut_response_bytes": 65536,
+    "max_sut_response_tokens_per_record": 2048,
+    "prompt_tokens": 529665,
+    "route": "judge_episode",
+    "source": "offline_rendered_prompt_ceiling",
+    "status": "DERIVED_OFFLINE_CONSERVATIVE"
+  },
+  "judge_open": {
+    "batch_size": 8,
+    "completion_tokens": 0,
+    "max_criterion_id_bytes": 256,
+    "max_judge_input_serialized_bytes": 529408,
+    "max_record_id_bytes": 256,
+    "max_rendered_prompt_bytes": 529665,
+    "max_sut_response_bytes": 65536,
+    "max_sut_response_tokens_per_record": 2048,
+    "prompt_tokens": 529665,
+    "route": "judge_open",
+    "source": "offline_rendered_prompt_ceiling",
+    "status": "DERIVED_OFFLINE_CONSERVATIVE"
+  },
+  "sut": {
+    "completion_tokens": 2048,
+    "max_rendered_prompt_bytes": 2221,
+    "max_rendered_transport_bytes": 2221,
+    "max_rendered_user_bytes": 1939,
+    "max_transport_item_id": "MEND-C1-W301",
+    "max_user_item_id": "MEND-C1-W301",
+    "prompt_tokens": 2221,
+    "source": "offline_rendered_prompt_ceiling",
+    "status": "MEASURED_OFFLINE"
+  }
+}

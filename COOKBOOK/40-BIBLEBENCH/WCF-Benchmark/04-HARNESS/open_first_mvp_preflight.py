@@ -306,6 +306,7 @@ def _validate_model(
         raise PreflightError(f"missing required reasoning parameter capability: {slug}")
 
     eligible = []
+    price_blocked = False
     for endpoint in endpoints:
         endpoint_supported = endpoint.get("supported_parameters")
         if not isinstance(endpoint_supported, list):
@@ -321,11 +322,14 @@ def _validate_model(
         endpoint_prompt, endpoint_completion = _price_pair(
             endpoint, f"endpoint {slug}")
         if (endpoint_prompt > prompt_price or endpoint_completion > completion_price):
-            raise PreflightError(f"endpoint exceeds frozen price ceiling: {slug}")
+            price_blocked = True
+            continue
         name = endpoint.get("provider_name") or endpoint.get("name") or endpoint.get("provider")
         if name:
             eligible.append(str(name))
     if not eligible:
+        if price_blocked:
+            raise PreflightError(f"no eligible endpoint within frozen price ceiling: {slug}")
         raise PreflightError(f"no eligible data-policy endpoint: {slug}")
 
     request_parameters = dict(SUT_REQUEST_COMMON)

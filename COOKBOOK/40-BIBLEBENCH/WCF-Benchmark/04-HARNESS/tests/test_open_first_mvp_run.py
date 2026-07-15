@@ -225,6 +225,64 @@ def test_start_acknowledgement_closes_cancellation_check_to_call_race():
                    for sut, item_id in calls if sut == preflight.SUTS[2])
 
 
+def test_reservation_failure_publishes_cancellation_before_releasing_start_lock():
+    cancellation = threading.Event()
+    release_states = []
+
+    class ObservedLock:
+        def acquire(self):
+            return True
+
+        def release(self):
+            release_states.append(cancellation.is_set())
+
+        def __enter__(self):
+            self.acquire()
+            return self
+
+        def __exit__(self, *_args):
+            self.release()
+
+    class RejectingBudget:
+        def reserve(self, _maximum_usd):
+            raise run.TerminalStop("strict cap stop")
+
+    with pytest.raises(run.TerminalStop, match="strict cap stop"):
+        run._run_shard(
+            (preflight.SUTS[0],), ("I1",),
+            lambda *_args: pytest.fail("cell must not start"),
+            cancellation, ObservedLock(), RejectingBudget(),
+            lambda _sut, _item_id: 1.0, lambda _outcome: 0.0,
+        )
+
+    assert cancellation.is_set()
+    assert release_states == [True]
+
+
+def test_settlement_failure_overrides_cell_error_and_releases_reservation():
+    cancellation = threading.Event()
+    budget = run.BudgetController(cap_usd=10.0)
+    cell_error = RuntimeError("cell transport failed")
+
+    def run_cell(_sut, _item_id, acknowledge_start):
+        acknowledge_start()
+        raise cell_error
+
+    with pytest.raises(run.TerminalStop, match="budget settlement failed") as caught:
+        run.execute_sut_shards(
+            ((preflight.SUTS[0],), (), ()), ("I1",), run_cell,
+            budget=budget,
+            maximum_cost_usd=lambda _sut, _item_id: 1.0,
+            actual_cost_usd=lambda _outcome: 2.0,
+            cancellation_event=cancellation,
+        )
+
+    assert cancellation.is_set()
+    assert caught.value.__cause__ is cell_error
+    assert budget.spent_usd == 0.0
+    assert budget.reserved_usd == 0.0
+
+
 def test_judge_batches_are_max_eight_and_never_mix_sut_or_route():
     decisions = []
     schedule = preflight.build_schedule(

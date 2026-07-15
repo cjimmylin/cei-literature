@@ -1,6 +1,39 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-14 — Open-First MVP Session-50 quality choice
+## OPEN 2026-07-14 — Open-First MVP OAuth-canary retry-boundary P1
+
+- **Question:** Should Jimmy authorize the exact named **FIX** in
+  `20260714w-wcf-open-first-mvp-s51-canary-escalation.md`, or **DEFER** the
+  Open-First adjunct before any OAuth task?
+- **Why it blocks:** Fresh canary specification review reproduced a path where OPEN
+  missing/malformed records consume the registered initial attempt plus two retries and
+  then receive the separate batch-four fallback. The same records can therefore exceed
+  the frozen retry allowance. Jimmy's completion authority explicitly requires a new
+  owner ruling for every new P1.
+- **Evidence:** deterministic task sizes `[8, 8, 8, 4, 4, 4, 4]` incorrectly returned
+  PASS; the exact roster's refreshed manifest is otherwise executable at an `$8.57`
+  proposed cap; `$298.376107379` remained at the sanitized balance check; zero OAuth and
+  inference calls and `$0.00` spend.
+- **Suggested default:** **FIX only this boundary.** Batch-four fallback may follow a
+  true mechanical failure of the initial eight-record task, but never exhaustion of the
+  adapter's missing/malformed-record retry allowance. Add one regression and run
+  named-only specification and quality reviews, then resume the already-authorized
+  sequence only after PASS.
+
+## RESOLVED 2026-07-14 — Open-First MVP Session-50 quality choice
+
+- **Disposition:** Jimmy authorized the two named custody fixes and all registered
+  subsequent steps under a strict cumulative `$10.00` OpenRouter NTE. Binding records:
+  `20260714s-jimmy-open-first-mvp-fix-and-10-dollar-authorization-record.md`,
+  `20260714t-jimmy-open-first-mvp-provider-price-gate-amendment.md`,
+  `20260714u-jimmy-open-first-mvp-completion-authority.md`, and
+  `20260714v-jimmy-open-first-mvp-overnight-execution-authority.md`.
+- **Effect:** Both named custody P1s passed fresh reviews. The amended price gate passed
+  fresh reviews, and the append-only v2 public preflight produced an executable exact-roster
+  manifest at `$8.57`. The new canary P1 above then triggered the registered automatic
+  stop before OAuth or inference.
+
+## RESOLVED 2026-07-14 — Open-First MVP Session-50 original quality question
 
 - **Question:** Should Jimmy authorize one final named-blocker **FIX** for the two
   fresh quality-review P1s, or **DEFER** the Open-First adjunct as non-executable?

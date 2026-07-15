@@ -164,6 +164,33 @@ def test_manifest_freezes_catalog_prices_as_request_ceilings_and_no_auth_check()
     }
 
 
+def test_more_expensive_endpoint_is_excluded_when_one_endpoint_meets_price_gate():
+    endpoints = _endpoints()
+    slug = preflight.SUTS[0]
+    expensive = copy.deepcopy(endpoints[slug][0])
+    expensive["provider_name"] = "expensive-provider"
+    expensive["pricing"]["prompt"] = "99"
+    expensive["pricing"]["completion"] = "99"
+    endpoints[slug].insert(0, expensive)
+
+    manifest = preflight.build_manifest(
+        _catalog(), endpoints, _prompt_ceilings(),
+        catalog_retrieved_at="2026-07-14T00:00:00Z",
+    )
+
+    row = next(model for model in manifest["models"] if model["slug"] == slug)
+    assert row["eligible_data_policy_endpoints"] == ["fixture-provider"]
+    assert row["provider_policy"] == {
+        "sort": "price",
+        "require_parameters": True,
+        "data_collection": "deny",
+        "max_price": {
+            "prompt": PRICES[slug][0] * 1_000_000,
+            "completion": PRICES[slug][1] * 1_000_000,
+        },
+    }
+
+
 @pytest.mark.parametrize(
     ("mutation", "message"),
     [

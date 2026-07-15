@@ -1,0 +1,87 @@
+{
+  "auth_balance": {
+    "balance_usd": null,
+    "status": "NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED",
+    "top_up_usd": null
+  },
+  "rows": [
+    {
+      "attempt_envelope_252_calls_usd": 0.7872227999999999,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 1.2e-06,
+      "completion_tokens": 2048,
+      "no_retry_230_calls_usd": 0.7184969999999999,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.0031238999999999998,
+      "prompt_price_per_token_usd": 3e-07,
+      "prompt_tokens": 2221,
+      "slug": "minimax/minimax-m3"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 1.954810368,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 2.816e-06,
+      "completion_tokens": 2048,
+      "no_retry_230_calls_usd": 1.7841523199999998,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.0077571839999999994,
+      "prompt_price_per_token_usd": 8.96e-07,
+      "prompt_tokens": 2221,
+      "slug": "z-ai/glm-5.2"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 0.69246954,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 8.7e-07,
+      "completion_tokens": 2048,
+      "no_retry_230_calls_usd": 0.63201585,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.002747895,
+      "prompt_price_per_token_usd": 4.35e-07,
+      "prompt_tokens": 2221,
+      "slug": "deepseek/deepseek-v4-pro"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 2.634975,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 3.75e-06,
+      "completion_tokens": 2048,
+      "no_retry_230_calls_usd": 2.4049375,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.01045625,
+      "prompt_price_per_token_usd": 1.25e-06,
+      "prompt_tokens": 2221,
+      "slug": "qwen/qwen3.7-max"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 0.25811856,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 3.7e-07,
+      "completion_tokens": 2048,
+      "no_retry_230_calls_usd": 0.2355844,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.00102428,
+      "prompt_price_per_token_usd": 1.2e-07,
+      "prompt_tokens": 2221,
+      "slug": "google/gemma-4-31b-it"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 0.5248152,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 8e-07,
+      "completion_tokens": 2048,
+      "no_retry_230_calls_usd": 0.478998,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.0020826,
+      "prompt_price_per_token_usd": 2e-07,
+      "prompt_tokens": 2221,
+      "slug": "meta-llama/llama-4-maverick"
+    }
+  ],
+  "totals": {
+    "attempt_envelope_252_calls_usd": 6.852411468,
+    "no_retry_230_calls_usd": 6.254185069999999,
+    "proposed_cap_usd": 8.57
+  },
+  "validity_label": "EXPLORATORY WCF-BENCH OPEN-FIRST MVP · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE"
+}

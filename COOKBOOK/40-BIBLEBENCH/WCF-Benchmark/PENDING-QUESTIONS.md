@@ -1,5 +1,24 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-15 — Pilot 2 judge-output contract cannot feed existing scorers
+
+- **Question:** May Pilot 2 use route/call-specific structured JSON schemas that preserve
+  the registered 1,740 logical judge decisions and return exactly the rich outputs already
+  required by each existing OPEN, CONTESTED, and EPISODE scorer call?
+- **Why it blocks:** The current Codex-OAuth adapter returns only one Boolean for
+  OPEN/EPISODE or one three-state enum for CONTESTED. Existing scorers require award maps,
+  legal numeric Matter/Manner/End levels, position and defensibility fields, coherence,
+  settled-core votes, and multiple EPISODE keypoint votes. No ruling maps the current
+  Boolean/enum to those outputs, so completing the scoring path would invent semantics.
+- **Evidence:** Fresh specification review of the 19-test Pilot 2 scaffold found four P1s
+  and stopped the zero-paid preflight. The exact mismatch and alternatives are recorded in
+  `20260715q-wcf-pilot2-scoring-contract-escalation.md`. Session 57 made no public metadata,
+  auth, OAuth, or inference call and spent `$0.00`.
+- **Suggested default:** Authorize route/call-specific schemas preserving 1,740 decisions.
+  They make the transport explicit while leaving existing scoring arithmetic, bank data,
+  provider roster, and non-quotable claim boundary unchanged. Then fix only the four named
+  P1s and re-review them before one zero-paid public preflight.
+
 ## RESOLVED 2026-07-15 — Open-First first-response reasoning-leak gate
 
 - **Disposition:** Jimmy selected `DEFER`. The exact ruling is recorded in

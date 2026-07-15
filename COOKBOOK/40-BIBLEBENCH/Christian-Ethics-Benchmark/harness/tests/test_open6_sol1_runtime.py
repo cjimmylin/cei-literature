@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from concurrent.futures import ThreadPoolExecutor
 from decimal import Decimal
 from pathlib import Path
@@ -121,6 +122,46 @@ def test_openrouter_valid_response_is_not_replayed_and_body_is_returned(tmp_path
     assert "messages" not in persisted
 
 
+def test_openrouter_same_client_concurrency_keeps_transport_custody_thread_local(
+        tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+    transport_calls = []
+
+    def transport(url, headers, payload, timeout=None):
+        content = payload["messages"][-1]["content"]
+        transport_calls.append(content)
+        return _ok(spec.slug, content=f"answer-{content}",
+                   cost=0.001 if content == "one" else 0.002)
+
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+    client = runtime.OpenRouterPilotClient(spec, "k", ledger, transport)
+    original_complete = client.base_client.complete
+    both_transports_done = __import__("threading").Barrier(2)
+
+    def pause_after_transport(messages, system=None):
+        response = original_complete(messages, system=system)
+        both_transports_done.wait(timeout=2)
+        return response
+
+    client.base_client.complete = pause_after_transport
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        futures = {
+            key: pool.submit(client.complete, key, [Message("user", key)])
+            for key in ("one", "two")
+        }
+        results = {key: future.result() for key, future in futures.items()}
+
+    assert set(transport_calls) == {"one", "two"}
+    for key, expected_cost in (("one", "0.001"), ("two", "0.002")):
+        result = results[key]
+        assert result.response.text == f"answer-{key}"
+        assert result.body["choices"][0]["message"]["content"] == f"answer-{key}"
+        finish = ledger.attempt_snapshot(result.attempt_ids[-1])["finish"]
+        assert finish["logical_key"] == key
+        assert finish["booked_usd"] == expected_cost
+
+
 def test_openrouter_defect_replays_the_exact_payload_once(tmp_path):
     runtime = _runtime()
     spec = runtime.SUT_SPECS[0]
@@ -136,6 +177,85 @@ def test_openrouter_defect_replays_the_exact_payload_once(tmp_path):
     assert result.response.text == "recovered"
     assert len(transport.calls) == 2
     assert transport.calls[0]["payload"] == transport.calls[1]["payload"]
+    assert ledger.snapshot()["replays"] == 1
+
+
+def test_openrouter_sink_mutation_and_failure_are_transactional(tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+    pristine = _ok(spec.slug, content="original", cost=0.001)[1]
+    transport = _transport((200, pristine), (200, pristine))
+    sink_records = []
+
+    def sink(record):
+        sink_records.append(record)
+        record["body"]["choices"][0]["message"]["content"] = "mutated"
+        if len(sink_records) == 1:
+            raise RuntimeError("sink secret")
+
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+    result = runtime.OpenRouterPilotClient(
+        spec, "k", ledger, transport, response_sink=sink,
+    ).complete("key", [Message("user", "same")])
+
+    assert result.response.text == "original"
+    assert result.body["choices"][0]["message"]["content"] == "original"
+    first = ledger.attempt_snapshot(1)["finish"]
+    assert first["failure"] == "custody_failure"
+    assert first["cost_basis"] == "reported"
+    assert first["response_sha256"] == runtime._canonical_hash(pristine)
+    assert first["error_sha256"] == hashlib.sha256(
+        json.dumps({"type": "RuntimeError", "message": "sink secret"},
+                   ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+        .encode("utf-8") + b"\n"
+    ).hexdigest()
+    assert ledger.snapshot()["replays"] == 1
+    assert "sink secret" not in ledger.path.read_text()
+
+
+def test_openrouter_second_sink_failure_stops_without_inflight(tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+
+    def broken_sink(_record):
+        raise RuntimeError("down")
+
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+    client = runtime.OpenRouterPilotClient(
+        spec, "k", ledger,
+        _transport(_ok(spec.slug), _ok(spec.slug)),
+        response_sink=broken_sink,
+    )
+    with pytest.raises(runtime.ThreadStop):
+        client.complete("key", [Message("user", "same")])
+    assert ledger.snapshot()["inflight_usd"] == Decimal("0")
+
+
+def test_openrouter_optional_response_validator_replays_malformed_same_key(tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+    transport = _transport(
+        _ok(spec.slug, content="malformed allocation"),
+        _ok(spec.slug, content="VALID allocation"),
+    )
+    custody = []
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+    client = runtime.OpenRouterPilotClient(
+        spec, "k", ledger, transport, response_sink=custody.append,
+    )
+
+    result = client.complete(
+        "d05/item/model/allocation", [Message("user", "same")],
+        response_validator=lambda response, body: response.text.startswith("VALID"),
+    )
+
+    assert result.response.text == "VALID allocation"
+    assert len(transport.calls) == 2
+    assert transport.calls[0]["payload"] == transport.calls[1]["payload"]
+    assert custody[0]["body"]["choices"][0]["message"]["content"] == (
+        "malformed allocation"
+    )
+    assert ledger.attempt_snapshot(1)["finish"]["failure"] == "malformed"
     assert ledger.snapshot()["replays"] == 1
 
 
@@ -384,6 +504,82 @@ def test_sol_exec_exact_cli_is_ephemeral_isolated_and_schema_bound(
                 & set(call["env"]))
 
 
+def test_recursive_schema_validator_and_batch_key_contract():
+    runtime = _runtime()
+    schema = {
+        "type": "object", "additionalProperties": False,
+        "required": ["flags", "count", "constant", "nothing"],
+        "properties": {
+            "flags": {"type": "array", "minItems": 1, "maxItems": 2,
+                      "items": {"type": "boolean"}},
+            "count": {"type": "integer"},
+            "constant": {"type": "string", "const": "fixed"},
+            "nothing": {"type": "null"},
+        },
+    }
+    assert runtime.validate_json_schema(
+        {"flags": [True], "count": 2, "constant": "fixed", "nothing": None},
+        schema,
+    )
+    assert not runtime.validate_json_schema(
+        {"flags": [1], "count": True, "constant": "fixed", "nothing": None},
+        schema,
+    )
+    assert not runtime.validate_json_schema("anything", {"type": "mystery"})
+    assert not runtime.validate_json_schema("x", {"type": "string", "pattern": "x"})
+    assert not runtime.validate_json_schema(
+        {}, {"type": "object", "properties": {}, "required": [{}]},
+    )
+
+    score_schema = {
+        "type": "object", "additionalProperties": False,
+        "required": ["label", "quality"],
+        "properties": {
+            "label": {"type": "string", "enum": ["pass", "fail"]},
+            "quality": {"type": "number"},
+        },
+    }
+    good = {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "pass", "quality": 1}},
+        {"unit_key": "u2", "scores": {"label": "fail", "quality": 0.5}},
+    ]}
+    assert runtime.validate_batch_result(good, ("u1", "u2"), score_schema)
+    assert not runtime.validate_batch_result(good, (["unhashable"],), score_schema)
+
+
+@pytest.mark.parametrize("bad", [
+    {"verdicts": "garbage"},
+    {"verdicts": [{"unit_key": "u1", "scores": {"label": "pass", "quality": 1}}]},
+    {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "pass", "quality": 1}},
+        {"unit_key": "u1", "scores": {"label": "fail", "quality": 0}},
+    ]},
+    {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "pass", "quality": 1}},
+        {"unit_key": "u3", "scores": {"label": "fail", "quality": 0}},
+    ]},
+    {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "bogus", "quality": 1}},
+        {"unit_key": "u2", "scores": {"label": "fail", "quality": 0}},
+    ]},
+    {"verdicts": [
+        {"unit_key": "u1", "scores": {"label": "pass", "quality": "bad"}},
+        {"unit_key": "u2", "scores": {"label": "fail", "quality": 0}},
+    ]},
+])
+def test_batch_validator_rejects_bad_shape_keys_and_nested_scores(bad):
+    runtime = _runtime()
+    score_schema = {
+        "type": "object", "additionalProperties": False,
+        "required": ["label", "quality"],
+        "properties": {
+            "label": {"type": "string", "enum": ["pass", "fail"]},
+            "quality": {"type": "number"},
+        },
+    }
+    assert not runtime.validate_batch_result(bad, ("u1", "u2"), score_schema)
+
+
 def test_sol_classifier_is_strict_and_has_no_heuristic_fallback(tmp_path):
     runtime = _runtime()
     runner = RecordedCodexRunner([
@@ -476,6 +672,97 @@ def test_sol_valid_result_has_no_replay_and_ledger_is_body_free(tmp_path):
     persisted = ledger.path.read_text()
     assert "secret response body" not in persisted
     assert '"state":"terminal"' not in persisted
+
+
+def test_sol_attempt_sink_custodies_every_attempt_and_failure_replays(tmp_path):
+    runtime = _runtime()
+    runner = RecordedCodexRunner([
+        '{"state":"continue"}', '{"state":"continue"}',
+    ], traces=[
+        '{"type":"turn.completed","usage":{"input_tokens":3}}\n',
+        '{"type":"turn.completed","usage":{"input_tokens":3}}\n',
+    ])
+    records = []
+
+    def sink(record):
+        records.append(record)
+        record["prompt"] = "mutated"
+        if len(records) == 1:
+            raise RuntimeError("sink secret")
+
+    ledger = runtime.SolTaskLedger(tmp_path / "sol.jsonl")
+    client = runtime.SolExecClient(
+        ledger, runner=runner, cli_version="codex-cli test", attempt_sink=sink,
+    )
+    result = client.classify_state(
+        "route/1", "02-twomasters", "opaque",
+        ("continue", "terminal"), "body",
+    )
+
+    assert result.attempt_ids == (1, 2)
+    assert result.prompt != "mutated"
+    assert len(records) == 2
+    for record in records:
+        assert {"prompt", "schema", "final_text", "trace_jsonl", "stderr",
+                "returncode", "error_class", "payload_sha256", "schema_sha256",
+                "trace_sha256", "response_sha256", "cli_version", "usage",
+                "error_sha256", "attempt_id", "logical_key"}.issubset(record)
+    first = ledger.attempt_snapshot(1)["finish"]
+    assert first["error_class"] == "custody_failure"
+    assert first["error_sha256"] is not None
+    persisted = ledger.path.read_text()
+    assert "sink secret" not in persisted
+    assert '"state":"continue"' not in persisted
+
+
+def test_sol_planned_cap_is_separate_from_replay_reserve(tmp_path):
+    runtime = _runtime()
+    ledger = runtime.SolTaskLedger(
+        tmp_path / "sol.jsonl", planned_cap=1, max_attempts=3, replay_cap=1,
+    )
+    first = ledger.begin("one", "a" * 64, "b" * 64)
+    ledger.finish(first, valid=False, error_class="malformed")
+    replay = ledger.begin("one", "a" * 64, "b" * 64)
+    assert replay == 2
+    assert ledger.snapshot()["planned"] == 1
+    assert ledger.snapshot()["replays"] == 1
+    ledger.finish(replay, valid=True, trace_sha256="c" * 64,
+                  response_sha256="d" * 64, cli_version="codex-cli test")
+    with pytest.raises(runtime.BudgetStop, match="planned"):
+        ledger.begin("two", "e" * 64, "f" * 64)
+
+
+def test_sol_default_planned_cap_is_exact_registered_nominal(tmp_path):
+    runtime = _runtime()
+    ledger = runtime.SolTaskLedger(tmp_path / "sol.jsonl")
+    assert ledger.planned_cap == 1_949
+
+
+@pytest.mark.parametrize("event", [
+    {"type": "item.started", "item": {"type": "command_execution"}},
+    {"type": "item.completed", "item": {"type": "file_change"}},
+    {"type": "item.completed", "item": {"type": "todo_list"}},
+    {"type": "item.completed", "item": {"type": "web_search"}},
+    {"type": "item.completed", "item": {"type": "mcp_tool_call"}},
+    {"type": "future.event"},
+    {"type": "item.completed", "item": {"type": "future_item"}},
+])
+def test_sol_trace_allowlist_rejects_tool_and_unknown_events(event):
+    runtime = _runtime()
+    with pytest.raises(PermissionError):
+        runtime._trace(json.dumps(event) + "\n")
+
+
+def test_sol_trace_allowlist_accepts_only_benign_current_events():
+    runtime = _runtime()
+    trace = "\n".join(json.dumps(event) for event in (
+        {"type": "thread.started", "thread_id": "x"},
+        {"type": "turn.started"},
+        {"type": "item.started", "item": {"type": "reasoning"}},
+        {"type": "item.completed", "item": {"type": "agent_message"}},
+        {"type": "turn.completed", "usage": {"input_tokens": 2}},
+    ))
+    assert runtime._trace(trace) == {"input_tokens": 2}
 
 
 def test_sol_ledger_caps_concurrency_replays_and_rejects_tamper(tmp_path):

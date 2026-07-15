@@ -8,6 +8,7 @@ store response bodies in its ledgers.
 from __future__ import annotations
 
 import fcntl
+import copy
 import hashlib
 import json
 import math
@@ -32,6 +33,7 @@ from .open6_sol1 import (
     OPENROUTER_RESERVE_CALLS,
     OUTPUT_CAP_TOKENS,
     SOL_HARD_TURN_CAP,
+    SOL_NOMINAL_TURNS,
     SOL_RESERVE_TURNS,
     _model_manifest,
     canonical_json_bytes,
@@ -69,7 +71,7 @@ CODEX_ENV_WHITELIST = frozenset({
 })
 SOL_FAILURES = frozenset({
     "cli_failure", "tool_event", "malformed_trace", "empty", "malformed",
-    "schema_invalid", "interrupted",
+    "schema_invalid", "interrupted", "custody_failure",
 })
 
 
@@ -392,7 +394,7 @@ class OpenRouterAttemptLedger:
                 raise ContractStop("invalid persisted token custody")
         if event["failure"] not in (
                 None, "http_failure", "empty", "malformed", "wrong_model",
-                "missing_cost", "interrupted"):
+                "missing_cost", "interrupted", "custody_failure"):
             raise ContractStop("invalid persisted failure class")
         for field in ("error_sha256", "response_sha256"):
             if event[field] is not None and not _is_hash(event[field]):
@@ -475,7 +477,10 @@ class OpenRouterAttemptLedger:
             self._last_hash = stored["event_sha256"]
             return attempt
 
-    def finish(self, attempt: int, status, body) -> Optional[str]:
+    def finish(self, attempt: int, status, body, *,
+               failure_override=None, error_detail=None) -> Optional[str]:
+        if failure_override not in (None, "custody_failure", "malformed"):
+            raise ContractStop("invalid OpenRouter failure override")
         with _file_lock(self.lock_path):
             self._load(allow_inflight=True)
             start = self._starts.get(attempt)
@@ -504,6 +509,8 @@ class OpenRouterAttemptLedger:
                 failure = "empty"
             else:
                 failure = None
+            if failure_override is not None:
+                failure = failure_override
             booked = cost if cost is not None else Decimal(start["ceiling_max_usd"])
             event = {
                 "event": "attempt_finished", "attempt_id": attempt,
@@ -516,8 +523,12 @@ class OpenRouterAttemptLedger:
                 "completion_tokens": usage.get("completion_tokens", 0)
                     if type(usage.get("completion_tokens", 0)) is int else 0,
                 "failure": failure,
-                "error_sha256": (_canonical_hash(response.get("error"))
-                                   if response.get("error") is not None else None),
+                "error_sha256": (
+                    _canonical_hash(error_detail)
+                    if error_detail is not None
+                    else (_canonical_hash(response.get("error"))
+                          if response.get("error") is not None else None)
+                ),
                 "response_sha256": _canonical_hash(response),
             }
             self._validate_finish(start, {**event, "previous_sha256": self._last_hash,
@@ -595,22 +606,23 @@ class OpenRouterPilotClient:
         self.spec = spec
         self.ledger = ledger
         self.response_sink = response_sink
-        self._last_transport = {}
+        self._transport_state = threading.local()
 
         def capturing_transport(url, headers, payload, timeout=None):
             status, body = transport(url, headers, payload, timeout=timeout)
-            self._last_transport = {"status": status, "body": body}
+            self._transport_state.last = {"status": status, "body": body}
             return status, body
 
         self.base_client = make_openrouter_client(spec, api_key, capturing_transport)
 
-    def complete(self, logical_key: str, messages, system=None) -> OpenRouterRunResult:
+    def complete(self, logical_key: str, messages, system=None,
+                 response_validator=None) -> OpenRouterRunResult:
         payload = self.base_client.build_payload(messages, system)
         attempt_ids = []
         for index in range(2):
             attempt = self.ledger.begin(logical_key, self.spec, payload)
             attempt_ids.append(attempt)
-            self._last_transport = {}
+            self._transport_state.last = {}
             response = None
             try:
                 response = self.base_client.complete(messages, system=system)
@@ -619,7 +631,7 @@ class OpenRouterPilotClient:
             except (OSError, TimeoutError, urllib.error.URLError) as exc:
                 # Full exception custody is returned to the caller sink; only hashes
                 # enter the spend ledger.
-                self._last_transport = {
+                self._transport_state.last = {
                     "status": None,
                     "body": {
                         "error": {
@@ -628,19 +640,44 @@ class OpenRouterPilotClient:
                         },
                     },
                 }
-            status = self._last_transport.get("status")
-            body = self._last_transport.get("body", {})
+            captured = self._transport_state.last
+            status = captured.get("status")
+            body = copy.deepcopy(captured.get("body", {}))
+            sink_error = None
+            validation_error = None
             if self.response_sink is not None:
-                self.response_sink({
-                    "logical_key": logical_key,
-                    "attempt_id": attempt,
-                    "status": status,
-                    "body": body,
-                })
-            failure = self.ledger.finish(attempt, status, body)
+                try:
+                    self.response_sink(copy.deepcopy({
+                        "logical_key": logical_key,
+                        "attempt_id": attempt,
+                        "status": status,
+                        "body": body,
+                    }))
+                except Exception as exc:
+                    sink_error = {
+                        "type": exc.__class__.__name__, "message": str(exc),
+                    }
+            if response_validator is not None and response is not None:
+                try:
+                    if response_validator(
+                            copy.deepcopy(response), copy.deepcopy(body)) is not True:
+                        validation_error = {"type": "response_validation_failed"}
+                except Exception as exc:
+                    validation_error = {
+                        "type": exc.__class__.__name__, "message": str(exc),
+                    }
+            failure_override = (
+                "custody_failure" if sink_error
+                else ("malformed" if validation_error else None)
+            )
+            failure = self.ledger.finish(
+                attempt, status, copy.deepcopy(body),
+                failure_override=failure_override,
+                error_detail=sink_error or validation_error,
+            )
             if failure is None and response is not None:
                 return OpenRouterRunResult(
-                    response=response, body=body, payload=payload,
+                    response=response, body=copy.deepcopy(body), payload=payload,
                     attempt_ids=tuple(attempt_ids),
                 )
             if index == 1:
@@ -651,23 +688,28 @@ class OpenRouterPilotClient:
 class SolTaskLedger:
     """Hash-chained, body-free attempt ledger for Sol OAuth tasks."""
 
-    def __init__(self, path, *, max_attempts=SOL_HARD_TURN_CAP,
+    def __init__(self, path, *, planned_cap=SOL_NOMINAL_TURNS,
+                 max_attempts=SOL_HARD_TURN_CAP,
                  replay_cap=SOL_RESERVE_TURNS, max_concurrency=MAX_CONCURRENCY,
                  _allow_inflight_on_open=False):
         self.path = Path(path)
         self.lock_path = Path(str(self.path) + ".lock")
+        self.planned_cap = int(planned_cap)
         self.max_attempts = int(max_attempts)
         self.replay_cap = int(replay_cap)
         self.max_concurrency = int(max_concurrency)
         if not (0 < self.max_attempts <= SOL_HARD_TURN_CAP):
             raise ContractStop("invalid Sol attempt cap")
+        if not (0 < self.planned_cap <= SOL_NOMINAL_TURNS):
+            raise ContractStop("invalid Sol planned cap")
         if not (0 <= self.replay_cap <= SOL_RESERVE_TURNS):
             raise ContractStop("invalid Sol replay cap")
         if not (1 <= self.max_concurrency <= MAX_CONCURRENCY):
             raise ContractStop("invalid Sol concurrency cap")
         self.registration = {
             "event": "ledger_registered", "ledger": "sol",
-            "max_attempts": self.max_attempts, "replay_cap": self.replay_cap,
+            "planned_cap": self.planned_cap, "max_attempts": self.max_attempts,
+            "replay_cap": self.replay_cap,
             "max_concurrency": self.max_concurrency,
         }
         with _file_lock(self.lock_path):
@@ -730,7 +772,7 @@ class SolTaskLedger:
                 required = {
                     "event", "attempt_id", "logical_key", "requested_model", "valid",
                     "error_class", "trace_sha256", "response_sha256", "cli_version",
-                    "usage", "previous_sha256", "event_sha256",
+                    "usage", "error_sha256", "previous_sha256", "event_sha256",
                 }
                 start = self._starts.get(attempt)
                 if (set(event) != required or start is None or attempt in self._finishes
@@ -741,6 +783,8 @@ class SolTaskLedger:
                             and not _is_hash(event["trace_sha256"]))
                         or (event["response_sha256"] is not None
                             and not _is_hash(event["response_sha256"]))
+                        or (event["error_sha256"] is not None
+                            and not _is_hash(event["error_sha256"]))
                         or not _valid_usage(event["usage"])):
                     raise ContractStop("invalid persisted Sol finish")
                 if event["valid"] and event["error_class"] is not None:
@@ -752,6 +796,8 @@ class SolTaskLedger:
                 raise ContractStop("unknown Sol ledger event")
         if len(self._starts) > self.max_attempts:
             raise ContractStop("persisted Sol attempt cap exceeded")
+        if len({start["logical_key"] for start in self._starts.values()}) > self.planned_cap:
+            raise ContractStop("persisted Sol planned cap exceeded")
         if sum(start["replay"] for start in self._starts.values()) > self.replay_cap:
             raise ContractStop("persisted Sol replay cap exceeded")
         inflight = set(self._starts) - set(self._finishes)
@@ -788,6 +834,10 @@ class SolTaskLedger:
                     raise BudgetStop("Sol replay reserve exhausted")
             if len(self._starts) >= self.max_attempts:
                 raise BudgetStop("Sol attempt cap exhausted")
+            if (not history and len({start["logical_key"]
+                                     for start in self._starts.values()})
+                    >= self.planned_cap):
+                raise BudgetStop("Sol planned call cap exhausted")
             if len(self._starts) - len(self._finishes) >= self.max_concurrency:
                 raise BudgetStop("Sol concurrency cap exhausted")
             attempt = len(self._starts) + 1
@@ -803,7 +853,8 @@ class SolTaskLedger:
             return attempt
 
     def finish(self, attempt, *, valid, error_class=None, trace_sha256=None,
-               response_sha256=None, cli_version="unknown", usage=None):
+               response_sha256=None, error_sha256=None,
+               cli_version="unknown", usage=None):
         usage = usage or {}
         if not _valid_usage(usage):
             raise ContractStop("invalid Sol usage custody")
@@ -821,6 +872,7 @@ class SolTaskLedger:
                 "logical_key": start["logical_key"], "requested_model": SOL_MODEL,
                 "valid": valid, "error_class": None if valid else str(error_class),
                 "trace_sha256": trace_sha256, "response_sha256": response_sha256,
+                "error_sha256": error_sha256,
                 "cli_version": str(cli_version), "usage": usage,
             }
             stored = _append_event(self.path, event, self._last_hash)
@@ -840,7 +892,9 @@ class SolTaskLedger:
                     "logical_key": start["logical_key"],
                     "requested_model": SOL_MODEL, "valid": False,
                     "error_class": "interrupted", "trace_sha256": None,
-                    "response_sha256": None, "cli_version": "crash-recovery",
+                    "response_sha256": None,
+                    "error_sha256": _sha256_bytes(b"interrupted"),
+                    "cli_version": "crash-recovery",
                     "usage": {},
                 }
                 stored = _append_event(ledger.path, event, ledger._last_hash)
@@ -849,11 +903,24 @@ class SolTaskLedger:
             ledger._load(allow_inflight=False)
         return cls(path, **kwargs)
 
+    def attempt_snapshot(self, attempt):
+        with _file_lock(self.lock_path):
+            self._load(allow_inflight=True)
+            if attempt not in self._starts:
+                raise ContractStop("unknown Sol attempt")
+            return {
+                "start": dict(self._starts[attempt]),
+                "finish": (dict(self._finishes[attempt])
+                           if attempt in self._finishes else None),
+            }
+
     def snapshot(self):
         with _file_lock(self.lock_path):
             self._load(allow_inflight=True)
             return {
                 "attempts": len(self._starts),
+                "planned": len({start["logical_key"]
+                                for start in self._starts.values()}),
                 "replays": sum(start["replay"] for start in self._starts.values()),
                 "inflight": len(self._starts) - len(self._finishes),
             }
@@ -871,22 +938,106 @@ class SolResult:
     attempt_ids: tuple
 
 
-def _strict_object(value, schema):
-    if schema.get("type") != "object" or not isinstance(value, dict):
+def _exact_json_equal(left, right):
+    return type(left) is type(right) and left == right
+
+
+def validate_json_schema(value, schema):
+    """Validate the deliberately small, registered JSON-Schema subset."""
+    if not isinstance(schema, dict) or not isinstance(schema.get("type"), str):
         return False
-    properties = schema.get("properties", {})
-    if schema.get("additionalProperties") is False and set(value) - set(properties):
+    kind = schema["type"]
+    type_keywords = {
+        "object": {"type", "properties", "required", "additionalProperties",
+                   "enum", "const"},
+        "array": {"type", "items", "minItems", "maxItems", "enum", "const"},
+        "string": {"type", "enum", "const"},
+        "integer": {"type", "enum", "const"},
+        "number": {"type", "enum", "const"},
+        "boolean": {"type", "enum", "const"},
+        "null": {"type", "enum", "const"},
+    }
+    if kind not in type_keywords or set(schema) - type_keywords[kind]:
         return False
-    if not set(schema.get("required", ())).issubset(value):
+    if "const" in schema and not _exact_json_equal(value, schema["const"]):
         return False
-    for key, rule in properties.items():
-        if key not in value:
-            continue
-        if rule.get("type") == "string":
-            if not isinstance(value[key], str) or (
-                    "enum" in rule and value[key] not in rule["enum"]):
-                return False
-    return True
+    if "enum" in schema:
+        enum = schema["enum"]
+        if (not isinstance(enum, list) or not enum
+                or not any(_exact_json_equal(value, candidate) for candidate in enum)):
+            return False
+
+    if kind == "object":
+        if not isinstance(value, dict):
+            return False
+        properties = schema.get("properties", {})
+        required = schema.get("required", [])
+        additional = schema.get("additionalProperties", True)
+        if (not isinstance(properties, dict)
+                or not isinstance(required, list)
+                or not all(isinstance(key, str) and key in properties for key in required)
+                or len(set(required)) != len(required)
+                or type(additional) is not bool):
+            return False
+        if not additional and set(value) - set(properties):
+            return False
+        if not set(required).issubset(value):
+            return False
+        return all(
+            key not in value or validate_json_schema(value[key], child_schema)
+            for key, child_schema in properties.items()
+        )
+    if kind == "array":
+        if not isinstance(value, list):
+            return False
+        items = schema.get("items")
+        minimum = schema.get("minItems", 0)
+        maximum = schema.get("maxItems")
+        if (not isinstance(items, dict)
+                or type(minimum) is not int or minimum < 0
+                or (maximum is not None
+                    and (type(maximum) is not int or maximum < minimum))
+                or len(value) < minimum
+                or (maximum is not None and len(value) > maximum)):
+            return False
+        return all(validate_json_schema(item, items) for item in value)
+    if kind == "string":
+        return isinstance(value, str)
+    if kind == "integer":
+        return type(value) is int
+    if kind == "number":
+        return type(value) in (int, float) and math.isfinite(value)
+    if kind == "boolean":
+        return type(value) is bool
+    return value is None
+
+
+def validate_batch_result(value, expected_unit_keys, score_schema):
+    keys = tuple(expected_unit_keys)
+    if (not keys or not all(isinstance(key, str) and key for key in keys)
+            or len(set(keys)) != len(keys)):
+        return False
+    schema = {
+        "type": "object", "additionalProperties": False,
+        "required": ["verdicts"],
+        "properties": {
+            "verdicts": {
+                "type": "array", "minItems": len(keys), "maxItems": len(keys),
+                "items": {
+                    "type": "object", "additionalProperties": False,
+                    "required": ["unit_key", "scores"],
+                    "properties": {
+                        "unit_key": {"type": "string", "enum": list(keys)},
+                        "scores": score_schema,
+                    },
+                },
+            },
+        },
+    }
+    if not validate_json_schema(value, schema):
+        return False
+    returned = [verdict["unit_key"] for verdict in value["verdicts"]]
+    return len(set(returned)) == len(keys) and set(returned) == set(keys)
 
 
 _USAGE_FIELDS = {
@@ -902,18 +1053,9 @@ def _valid_usage(usage):
                     for value in usage.values()))
 
 
-def _has_tool_type(value):
-    if isinstance(value, dict):
-        for key, nested in value.items():
-            if (key in ("type", "name") and isinstance(nested, str)
-                    and ("tool" in nested.lower()
-                         or nested.lower() in ("command_execution", "web_search", "mcp"))):
-                return True
-            if _has_tool_type(nested):
-                return True
-    elif isinstance(value, list):
-        return any(_has_tool_type(item) for item in value)
-    return False
+_BENIGN_TRACE_EVENTS = {"thread.started", "turn.started", "turn.completed"}
+_ITEM_TRACE_EVENTS = {"item.started", "item.updated", "item.completed"}
+_BENIGN_ITEM_TYPES = {"agent_message", "reasoning"}
 
 
 def _trace(trace_text):
@@ -926,7 +1068,15 @@ def _trace(trace_text):
         except json.JSONDecodeError as exc:
             raise ValueError("malformed_trace") from exc
         events.append(event)
-        if _has_tool_type(event):
+        event_type = event.get("type") if isinstance(event, dict) else None
+        if event_type in _BENIGN_TRACE_EVENTS:
+            pass
+        elif event_type in _ITEM_TRACE_EVENTS:
+            item = event.get("item")
+            if (not isinstance(item, dict)
+                    or item.get("type") not in _BENIGN_ITEM_TYPES):
+                raise PermissionError("tool_or_unknown_item_event")
+        else:
             raise PermissionError("tool_event")
     usage = {}
     for event in events:
@@ -943,12 +1093,13 @@ class SolExecClient:
     """Strict structured Sol executor using the frozen manifest templates."""
 
     def __init__(self, ledger: SolTaskLedger, *, runner=None, binary="codex",
-                 timeout=600, cli_version=None):
+                 timeout=600, cli_version=None, attempt_sink=None):
         self.ledger = ledger
         self.runner = runner or subprocess.run
         self.binary = binary
         self.timeout = timeout
         self.cli_version = cli_version or self._detect_version()
+        self.attempt_sink = attempt_sink
 
     def _detect_version(self):  # pragma: no cover - live-only subprocess seam
         proc = subprocess.run(
@@ -981,8 +1132,11 @@ class SolExecClient:
             attempts.append(attempt)
             final_text = ""
             trace_text = ""
+            stderr = ""
+            returncode = None
             usage = {}
             error = None
+            value = None
             with tempfile.TemporaryDirectory(prefix="walkworthy-open6-sol1-") as td:
                 schema_path = Path(td) / "schema.json"
                 last_path = Path(td) / "last-message.json"
@@ -996,7 +1150,9 @@ class SolExecClient:
                              if key in os.environ},
                     )
                     trace_text = getattr(proc, "stdout", "") or ""
-                    if getattr(proc, "returncode", 1) != 0:
+                    stderr = getattr(proc, "stderr", "") or ""
+                    returncode = getattr(proc, "returncode", 1)
+                    if returncode != 0:
                         error = "cli_failure"
                     else:
                         try:
@@ -1015,16 +1171,39 @@ class SolExecClient:
                             except json.JSONDecodeError:
                                 error = "malformed"
                             else:
-                                if not _strict_object(value, schema):
+                                if not validate_json_schema(value, schema):
                                     error = "schema_invalid"
                 except (OSError, subprocess.TimeoutExpired):
                     error = "cli_failure"
             trace_hash = _sha256_bytes(trace_text.encode("utf-8"))
             response_hash = (_sha256_bytes(final_text.encode("utf-8"))
                              if final_text else None)
+            sink_error = None
+            if self.attempt_sink is not None:
+                custody = {
+                    "logical_key": logical_key, "attempt_id": attempt,
+                    "prompt": prompt, "schema": schema, "final_text": final_text,
+                    "trace_jsonl": trace_text, "stderr": stderr,
+                    "returncode": returncode, "error_class": error,
+                    "payload_sha256": payload_hash, "schema_sha256": schema_hash,
+                    "trace_sha256": trace_hash, "response_sha256": response_hash,
+                    "error_sha256": (_canonical_hash({"type": error})
+                                     if error else None),
+                    "cli_version": self.cli_version, "usage": usage,
+                }
+                try:
+                    self.attempt_sink(copy.deepcopy(custody))
+                except Exception as exc:
+                    sink_error = {
+                        "type": exc.__class__.__name__, "message": str(exc),
+                    }
+                    error = "custody_failure"
+            error_detail = sink_error or ({"type": error} if error else None)
             self.ledger.finish(
                 attempt, valid=error is None, error_class=error,
                 trace_sha256=trace_hash, response_sha256=response_hash,
+                error_sha256=(_canonical_hash(error_detail)
+                              if error_detail is not None else None),
                 cli_version=self.cli_version, usage=usage,
             )
             if error is None:

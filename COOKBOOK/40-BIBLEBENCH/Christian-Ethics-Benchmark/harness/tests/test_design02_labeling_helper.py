@@ -9,7 +9,7 @@ from dataclasses import FrozenInstanceError, replace
 from pathlib import Path
 
 import pytest
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect, sync_playwright
 
 from walkworthy import design02_labeling_helper as helper
 
@@ -875,10 +875,11 @@ def test_finalizer_imports_exact_rows_and_shows_only_turn_disagreements(
     page.get_by_test_id("validate-imports").click()
 
     disagreements = page.locator('[data-testid="disagreement-row"]')
-    disagreements.first.wait_for()
+    expect(disagreements).to_have_count(1)
     assert disagreements.count() == 1
-    assert "U000" in disagreements.first.text_content()
-    assert "Turn 2" in disagreements.first.text_content()
+    first_disagreement = disagreements.first
+    assert "U000" in first_disagreement.text_content()
+    assert "Turn 2" in first_disagreement.text_content()
 
     tampered = tmp_path / "primary-tampered.csv"
     primary_text = primary.read_text(encoding="utf-8")

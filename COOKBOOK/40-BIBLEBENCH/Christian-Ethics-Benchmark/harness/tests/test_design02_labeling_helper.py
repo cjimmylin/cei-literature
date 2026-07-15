@@ -1470,6 +1470,12 @@ def test_finalizer_double_click_downloads_once_and_input_change_rearms(
             ("#reliability-completed-at",),
         ),
         (
+            "year-zero",
+            "completion timestamps must be valid ISO-8601 with offsets",
+            ("#primary-completed-at",),
+            ("#reliability-completed-at",),
+        ),
+        (
             "reverse-chronology",
             "reliability completion predates primary completion",
             ("#reliability-completed-at",),
@@ -1522,6 +1528,10 @@ def test_finalizer_blocks_invalid_export_metadata_and_missing_gold(
     if case == "impossible-calendar-date":
         page.locator("#primary-completed-at").fill(
             "2026-02-30T12:00:00-07:00"
+        )
+    if case == "year-zero":
+        page.locator("#primary-completed-at").fill(
+            "0000-07-15T12:00:00-07:00"
         )
     if case == "reverse-chronology":
         page.locator("#primary-completed-at").fill(

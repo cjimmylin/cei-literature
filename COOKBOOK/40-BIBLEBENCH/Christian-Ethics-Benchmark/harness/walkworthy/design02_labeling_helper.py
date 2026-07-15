@@ -76,8 +76,8 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
   <main data-unit-ids="{unit_ids}">
     <p id="draft-warning" role="status" aria-live="polite"></p>
     <section id="label-screen">
-      <p data-testid="unit-progress"></p>
-      <p data-testid="turn-progress"></p>
+      <p data-testid="unit-progress" aria-live="polite"></p>
+      <p data-testid="turn-progress" aria-live="polite"></p>
       <article data-testid="response-text"></article>
       <fieldset id="turn-state-options">
         <legend>Turn state</legend>
@@ -188,15 +188,26 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
         return false;
       }}
       if ((value.q1 === "yes" || value.q1 === "partially") &&
-          value.q2 !== "yes" && value.q2 !== "no") {{
+          value.q2 !== "" && value.q2 !== "yes" && value.q2 !== "no") {{
         return false;
       }}
       return true;
     }}
 
+    function showStorageWarning() {{
+      draftWarning.textContent =
+        "Draft storage is unavailable; changes remain in memory for this session only.";
+    }}
+
     function loadRows() {{
       const freshRows = payload.rows.map(blankRow);
-      const stored = localStorage.getItem(STORAGE_KEY);
+      let stored;
+      try {{
+        stored = localStorage.getItem(STORAGE_KEY);
+      }} catch (error) {{
+        showStorageWarning();
+        return freshRows;
+      }}
       if (stored === null) {{
         return freshRows;
       }}
@@ -222,13 +233,18 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
 
     const rows = loadRows();
     let currentTurnIndex = 0;
+    let reviewValidated = false;
 
     function saveDraft() {{
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({{
-        sourceSha256: payload.source_sha256,
-        role: payload.role,
-        rows: rows
-      }}));
+      try {{
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({{
+          sourceSha256: payload.source_sha256,
+          role: payload.role,
+          rows: rows
+        }}));
+      }} catch (error) {{
+        showStorageWarning();
+      }}
     }}
 
     function checkedValue(name) {{
@@ -265,6 +281,21 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       }} else {{
         row.q2 = "";
       }}
+    }}
+
+    function setReviewValidated(value) {{
+      reviewValidated = value;
+      exportButton.disabled = !reviewValidated;
+    }}
+
+    function invalidateReview() {{
+      setReviewValidated(false);
+    }}
+
+    function captureAndPersist() {{
+      captureVisibleFields();
+      invalidateReview();
+      saveDraft();
     }}
 
     function validateCurrentTurn() {{
@@ -306,10 +337,6 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       return "";
     }}
 
-    function updateExportState() {{
-      exportButton.disabled = !rows.every(row => validateRow(row) === "");
-    }}
-
     function renderTurn() {{
       const turn = turns[currentTurnIndex];
       const row = rows[turn.rowIndex];
@@ -327,7 +354,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       setCheckedValue("qr1", row.q1);
       setQr2Visibility(row);
       previousButton.disabled = currentTurnIndex === 0;
-      updateExportState();
+      invalidateReview();
     }}
 
     function renderReview() {{
@@ -337,23 +364,23 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       reviewScreen.replaceChildren();
       const heading = document.createElement("h2");
       heading.textContent = "Review completed labels";
+      heading.tabIndex = -1;
       const summary = document.createElement("p");
       summary.textContent =
         payload.rows.length + " units and " + turns.length + " turns completed.";
       reviewScreen.append(heading, summary);
       errorMessage.textContent = "";
-      updateExportState();
+      setReviewValidated(true);
+      heading.focus();
     }}
 
     function goNext() {{
-      captureVisibleFields();
+      captureAndPersist();
       const validationError = validateCurrentTurn();
       if (validationError !== "") {{
         errorMessage.textContent = validationError;
-        updateExportState();
         return;
       }}
-      saveDraft();
       if (currentTurnIndex < turns.length - 1) {{
         currentTurnIndex += 1;
         renderTurn();
@@ -362,7 +389,6 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
       const firstInvalid = rows.map(validateRow).find(message => message !== "");
       if (firstInvalid !== undefined) {{
         errorMessage.textContent = firstInvalid;
-        updateExportState();
         return;
       }}
       renderReview();
@@ -373,7 +399,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
         renderTurn();
         return;
       }}
-      captureVisibleFields();
+      captureAndPersist();
       if (currentTurnIndex > 0) {{
         currentTurnIndex -= 1;
       }}
@@ -402,6 +428,10 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
         }}
         setQr2Visibility(row);
       }});
+    }});
+    labelScreen.querySelectorAll("input, select, textarea").forEach(control => {{
+      control.addEventListener("input", invalidateReview);
+      control.addEventListener("change", invalidateReview);
     }});
     previousButton.addEventListener("click", goPrevious);
     nextButton.addEventListener("click", goNext);

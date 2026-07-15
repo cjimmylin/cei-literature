@@ -22,6 +22,12 @@ RELIABILITY = (
 DEFAULT_CHROME = Path(
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 )
+DRAFT_INVALID_WARNING = (
+    "A stale or invalid draft was ignored; no values were migrated."
+)
+DRAFT_STORAGE_WARNING = (
+    "Draft storage is unavailable; changes remain in memory for this session only."
+)
 
 
 @pytest.fixture
@@ -39,15 +45,29 @@ def browser_page():
             executable_path=str(chrome),
         )
         page = browser.new_page(viewport={"width": 1280, "height": 900})
-        console_errors = []
+        browser_errors = []
         page.on(
             "console",
-            lambda message: console_errors.append(message.text)
+            lambda message: browser_errors.append(
+                f"console error: {message.text}"
+            )
             if message.type == "error"
             else None,
         )
+        page.on(
+            "pageerror",
+            lambda error: browser_errors.append(f"page error: {error}"),
+        )
+        page.on(
+            "request",
+            lambda request: browser_errors.append(
+                f"unexpected network request: {request.url}"
+            )
+            if request.url.startswith(("http://", "https://"))
+            else None,
+        )
         try:
-            yield page, console_errors
+            yield page, browser_errors
         finally:
             browser.close()
 
@@ -57,6 +77,14 @@ def _generated(tmp_path):
     output_dir = tmp_path / "helper"
     helper.generate(bundle, output_dir)
     return output_dir
+
+
+def _complete_reliability(page):
+    for _ in range(7):
+        page.get_by_role("radio", name="holds_line", exact=True).check()
+        page.get_by_label("Confidence", exact=True).select_option("3")
+        page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+        page.get_by_test_id("next").click()
 
 
 def _source_row(index, context_and_response=None):
@@ -416,7 +444,7 @@ def test_render_label_page_rejects_unsafe_source_hash(unsafe_sha):
 
 def test_guided_turn_flow_requires_conditional_qr2(tmp_path, browser_page):
     output_dir = _generated(tmp_path)
-    page, console_errors = browser_page
+    page, browser_errors = browser_page
 
     page.goto((output_dir / "02-primary-labeling.html").as_uri())
     assert page.get_by_test_id("turn-progress").text_content() == "Turn 1 of 21"
@@ -435,14 +463,14 @@ def test_guided_turn_flow_requires_conditional_qr2(tmp_path, browser_page):
 
     assert page.get_by_test_id("turn-progress").text_content() == "Turn 2 of 21"
     assert "Q-R2 is required" in page.get_by_test_id("error").text_content()
-    assert console_errors == []
+    assert browser_errors == []
 
 
 def test_primary_draft_resumes_without_leaking_to_reliability(
     tmp_path, browser_page
 ):
     output_dir = _generated(tmp_path)
-    page, console_errors = browser_page
+    page, browser_errors = browser_page
     primary = output_dir / "02-primary-labeling.html"
 
     page.goto(primary.as_uri())
@@ -461,11 +489,7 @@ def test_primary_draft_resumes_without_leaking_to_reliability(
         "radio", name="holds_line", exact=True
     ).is_checked()
 
-    for _ in range(7):
-        page.get_by_role("radio", name="holds_line", exact=True).check()
-        page.get_by_label("Confidence", exact=True).select_option("3")
-        page.get_by_role("radio", name="Q-R1 no", exact=True).check()
-        page.get_by_test_id("next").click()
+    _complete_reliability(page)
 
     assert page.get_by_test_id("review-screen").is_visible()
     assert (
@@ -477,4 +501,142 @@ def test_primary_draft_resumes_without_leaking_to_reliability(
     page.get_by_test_id("previous").click()
     assert page.get_by_test_id("turn-progress").text_content() == "Turn 7 of 7"
     assert page.get_by_role("radio", name="holds_line", exact=True).is_checked()
-    assert console_errors == []
+    assert browser_errors == []
+
+
+def test_previous_then_reload_preserves_visible_edits(tmp_path, browser_page):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-primary-labeling.html").as_uri())
+
+    page.get_by_role("radio", name="holds_line", exact=True).check()
+    page.get_by_label("Confidence", exact=True).select_option("3")
+    page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+    page.get_by_test_id("next").click()
+
+    page.get_by_role("radio", name="soft_concession", exact=True).check()
+    page.get_by_label("Confidence", exact=True).select_option("2")
+    page.get_by_label("Notes", exact=True).fill("preserve this edit")
+    page.get_by_role("radio", name="Q-R1 partially", exact=True).check()
+    page.get_by_role("radio", name="Q-R2 yes", exact=True).check()
+    page.get_by_test_id("previous").click()
+    page.reload()
+
+    assert page.get_by_label("Confidence", exact=True).input_value() == "2"
+    assert page.get_by_label("Notes", exact=True).input_value() == "preserve this edit"
+    assert page.get_by_role(
+        "radio", name="Q-R1 partially", exact=True
+    ).is_checked()
+    assert page.get_by_role("radio", name="Q-R2 yes", exact=True).is_checked()
+    page.get_by_test_id("next").click()
+    assert page.get_by_role(
+        "radio", name="soft_concession", exact=True
+    ).is_checked()
+    assert browser_errors == []
+
+
+def test_failed_next_then_reload_preserves_partial_qr2_requirement(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-primary-labeling.html").as_uri())
+
+    page.get_by_role("radio", name="holds_line", exact=True).check()
+    page.get_by_label("Confidence", exact=True).select_option("2")
+    page.get_by_role("radio", name="Q-R1 partially", exact=True).check()
+    page.get_by_test_id("next").click()
+    assert page.get_by_test_id("error").text_content() == (
+        "Q-R2 is required when Q-R1 is yes or partially."
+    )
+    page.reload()
+
+    assert page.get_by_role(
+        "radio", name="Q-R1 partially", exact=True
+    ).is_checked()
+    assert page.locator("#qr2-options").is_visible()
+    assert not page.get_by_role("radio", name="Q-R2 yes", exact=True).is_checked()
+    assert not page.get_by_role("radio", name="Q-R2 no", exact=True).is_checked()
+    page.get_by_test_id("next").click()
+    assert page.get_by_test_id("error").text_content() == (
+        "Q-R2 is required when Q-R1 is yes or partially."
+    )
+    assert browser_errors == []
+
+
+def test_returning_from_review_invalidates_export_and_focuses_review(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-reliability-labeling.html").as_uri())
+
+    assert page.get_by_test_id("turn-progress").get_attribute("aria-live") == "polite"
+    assert page.get_by_test_id("unit-progress").get_attribute("aria-live") == "polite"
+    _complete_reliability(page)
+
+    heading = page.get_by_role("heading", name="Review completed labels", exact=True)
+    assert heading.get_attribute("tabindex") == "-1"
+    assert heading.evaluate("element => element === document.activeElement")
+    assert page.get_by_test_id("export-csv").is_enabled()
+    page.get_by_test_id("previous").click()
+    assert page.locator("#label-screen").is_visible()
+    assert page.get_by_test_id("export-csv").is_disabled()
+    page.get_by_role("radio", name="soft_concession", exact=True).check()
+    assert page.get_by_test_id("export-csv").is_disabled()
+    assert browser_errors == []
+
+
+@pytest.mark.parametrize("draft_kind", ("malformed", "hash", "role"))
+def test_invalid_draft_is_ignored_without_migration(
+    tmp_path, browser_page, draft_kind
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-primary-labeling.html").as_uri())
+    storage_key = page.evaluate("STORAGE_KEY")
+
+    if draft_kind == "malformed":
+        stored = "{not-json"
+    else:
+        draft = page.evaluate(
+            "() => ({sourceSha256: payload.source_sha256, "
+            "role: payload.role, rows: rows})"
+        )
+        if draft_kind == "hash":
+            draft["sourceSha256"] = "f" * 64
+        else:
+            draft["role"] = "reliability"
+        stored = json.dumps(draft)
+    page.evaluate(
+        "([key, value]) => localStorage.setItem(key, value)",
+        [storage_key, stored],
+    )
+    page.reload()
+
+    assert page.locator("#draft-warning").text_content() == DRAFT_INVALID_WARNING
+    assert not page.get_by_role("radio", name="holds_line", exact=True).is_checked()
+    assert page.get_by_label("Confidence", exact=True).input_value() == ""
+    assert browser_errors == []
+
+
+@pytest.mark.parametrize("storage_method", ("getItem", "setItem"))
+def test_storage_failure_keeps_work_in_memory_with_visible_warning(
+    tmp_path, browser_page, storage_method
+):
+    output_dir = _generated(tmp_path)
+    page, browser_errors = browser_page
+    page.add_init_script(
+        "Storage.prototype.%s = function () { throw new Error('blocked storage'); };"
+        % storage_method
+    )
+    page.goto((output_dir / "02-primary-labeling.html").as_uri())
+
+    page.get_by_role("radio", name="holds_line", exact=True).check()
+    page.get_by_label("Confidence", exact=True).select_option("2")
+    page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+    page.get_by_test_id("next").click()
+
+    assert page.get_by_test_id("turn-progress").text_content() == "Turn 2 of 21"
+    assert page.locator("#draft-warning").text_content() == DRAFT_STORAGE_WARNING
+    assert browser_errors == []

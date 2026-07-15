@@ -174,6 +174,29 @@ def test_open_mechanical_failure_gets_one_four_record_fallback_only(tmp_path):
     assert sizes == [8, 4, 4, 4, 4]
 
 
+def test_exhausted_open_missing_retries_fail_without_four_record_fallback(tmp_path):
+    output = tmp_path / "canary"
+    sizes = []
+
+    def process(command, **_kwargs):
+        sizes.append(len(_prompt_rows(command)))
+        output_path = Path(command[command.index("-o") + 1])
+        output_path.write_text(json.dumps({"records": []}), encoding="utf-8")
+        events = "\n".join(json.dumps(event) for event in [
+            {"type": "item.completed", "item": {
+                "id": "i1", "type": "agent_message",
+            }},
+            {"type": "turn.completed", "usage": {"input_tokens": 12}},
+        ])
+        return SimpleNamespace(returncode=0, stdout=events, stderr="")
+
+    report = canary.run_canary(
+        canary.select_canary_records(), output, process_runner=process)
+    assert report["status"] == "FAIL"
+    assert report["open_fallback_used"] is False
+    assert sizes == [8, 8, 8]
+
+
 @pytest.mark.parametrize("failure", ["quota", "tool"])
 def test_quota_or_tool_gate_stops_without_open_fallback(tmp_path, failure):
     output = tmp_path / failure

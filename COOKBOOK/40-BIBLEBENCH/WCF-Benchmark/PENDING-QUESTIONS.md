@@ -1,6 +1,36 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-14 — Open-First MVP OAuth-canary retry-boundary P1
+## OPEN 2026-07-15 — Open-First MVP live-seam interruption custody P1
+
+- **Question:** Should Jimmy authorize one exact **FIX** for the minimum live seam's
+  response/checkpoint interruption boundary, or **DEFER** the Open-First adjunct before
+  any paid inference?
+- **Why it blocks:** A successful paid response and its response-attributed cost are
+  fsynced to `raw-evidence.jsonl` before the separate cell checkpoint is fsynced. If the
+  process is interrupted in that interval, resume accounts for the attempt and cost but
+  does not mark the cell complete, so it may issue the already-successful cell again.
+  That violates the immutable one-run/no-rerun boundary and can double-spend a cell.
+- **Evidence:** The offline live seam is otherwise 11/11 focused tests green. The
+  registered 16-record OAuth canary passed 16/16 in three tasks with no fallback, quota
+  warning, or missing ID. No OpenRouter inference call occurred and spend remains
+  `$0.00`. Full packet: `20260715b-wcf-open-first-mvp-s52-live-seam-custody-escalation.md`.
+- **Suggested default:** **FIX only this boundary.** Add one deterministic recovery
+  regression and make resume treat a costed, successful, fully persisted raw response as
+  completed without reissuing it, while failing closed on ambiguity. Then run named-only
+  specification and quality reviews before any paid request. Do not reopen a general
+  live-seam audit.
+
+## RESOLVED 2026-07-15 — Open-First MVP OAuth-canary retry-boundary P1
+
+- **Disposition:** Jimmy authorized the exact FIX, its one regression, and named-only
+  specification and quality reviews. The regression first failed on the reproduced
+  overrun; the minimal correction now fails after task sizes `[8, 8, 8]` with no
+  batch-four fallback, while preserving the true initial-process-failure fallback.
+  Both fresh named-only reviews passed. Binding record:
+  `20260715a-jimmy-open-first-mvp-s51-canary-fix-authorization-record.md`.
+- **Effect:** The Session-51 P1 is closed. The previously authorized sequence resumes
+  at the registered zero-dollar 16-record Codex-OAuth canary under the unchanged
+  cumulative `$10.00` OpenRouter NTE and all existing automatic stops.
 
 - **Question:** Should Jimmy authorize the exact named **FIX** in
   `20260714w-wcf-open-first-mvp-s51-canary-escalation.md`, or **DEFER** the

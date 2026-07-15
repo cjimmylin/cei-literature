@@ -1,0 +1,9 @@
+{
+  "command_sha256": "ffe0e8ddcae6c417f566d82c8eb8e36751dad1bb15f26839386c6a8e9da84b5e",
+  "elapsed_seconds": 18.108338,
+  "recorded_at": "2026-07-15T12:37:01Z",
+  "returncode": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "36e29736f80a7a1088a87a46022c77244273418074d97c9ea9b2fdb0c21491f8",
+  "task_id": "task-003"
+}

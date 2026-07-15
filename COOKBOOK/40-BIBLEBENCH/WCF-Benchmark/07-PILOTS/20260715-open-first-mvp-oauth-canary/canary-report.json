@@ -1,0 +1,47 @@
+{
+  "arithmetic": {
+    "contested": {
+      "earned_points": 6.0,
+      "graded_points": 6.0,
+      "possible_points": 6.0,
+      "weighted_fraction": 1.0
+    },
+    "episode": {
+      "earned_points": 2.0,
+      "graded_points": 4.0,
+      "possible_points": 4.0,
+      "weighted_fraction": 0.5
+    },
+    "open": {
+      "earned_points": 1.5,
+      "graded_points": 9.5,
+      "possible_points": 9.5,
+      "weighted_fraction": 0.15789473684210525
+    },
+    "total": {
+      "earned_points": 9.5,
+      "graded_points": 19.5,
+      "possible_points": 19.5,
+      "weighted_fraction": 0.48717948717948717
+    }
+  },
+  "completed_at": "2026-07-15T12:37:01Z",
+  "elapsed_seconds": 79.187161,
+  "input_sha256": "5e44fad7659ba436ad540d9467a6ef51e3b21ad45688a2d76030cd8d668c880a",
+  "missing_record_ids": [],
+  "open_fallback_used": false,
+  "record_count": 16,
+  "schema_version": 1,
+  "source_hashes": {
+    "bank_tree_sha256": "99da5be7a5e64044489252d932c9b636b8c256c3d6072a7079b873006f99f6c3",
+    "ppp1_checkpoint_sha256": "a3b8586edb0ef8bf3917f63fe965bb6f371bc861722213d6650213f3531eaae0",
+    "ppp1_raw_evidence_sha256": "b5739f50c3187bc10770fb9149745bbb435f1d78ab3726707026d8895dd28f46"
+  },
+  "status": "PASS",
+  "stop_kind": null,
+  "stop_reason": null,
+  "task_count": 3,
+  "task_elapsed_seconds": 79.113257,
+  "unique_record_count": 16,
+  "validity_label": "EXPLORATORY WCF-BENCH OPEN-FIRST MVP · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE"
+}

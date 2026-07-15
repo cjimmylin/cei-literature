@@ -366,8 +366,6 @@ def run_canary(
         open_rows = records[:8]
         try:
             result = judge(open_rows)
-            if result["missing_record_ids"]:
-                raise JudgeAdapterError("OPEN batch retained missing records")
         except OAuthQuotaStop:
             raise
         except EvidenceCustodyStop:
@@ -377,6 +375,8 @@ def run_canary(
                 raise CanaryError("FORBIDDEN_TOOL") from exc
             if _is_evidence_custody_error(exc):
                 raise CanaryError("EVIDENCE_CUSTODY") from exc
+            if evidence_runner.task_count != 1:
+                raise CanaryError("OPEN_RETRY_FAILED") from exc
             open_fallback_used = True
             pending = [row for row in open_rows
                        if row["record_id"] not in persisted]
@@ -384,6 +384,9 @@ def run_canary(
                 result = judge(pending[offset:offset + 4])
                 if result["missing_record_ids"]:
                     raise CanaryError("OPEN_FALLBACK_FAILED")
+        else:
+            if result["missing_record_ids"]:
+                raise CanaryError("OPEN_MISSING_RECORDS")
         for route, rows in (
             ("contested", records[8:12]), ("episode", records[12:16]),
         ):

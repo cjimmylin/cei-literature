@@ -33,7 +33,7 @@
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);
        font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  .wrap{max-width:1120px;margin:0 auto;padding:36px 28px 80px;overflow-x:hidden}
+  .wrap{max-width:1120px;margin:0 auto;padding:36px 28px 80px}
   h1{font-size:26px;margin:0 0 4px} h2{font-size:19px;margin:42px 0 14px;color:var(--text)}
   h2 .n{color:var(--faint);font-weight:400;margin-right:8px}
   h3{font-size:15px;margin:22px 0 10px}
@@ -42,7 +42,8 @@
   code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--panel2);
        padding:1px 5px;border-radius:4px;color:#c8d6ee}
   a{color:var(--opus);text-decoration:none} a:hover{text-decoration:underline}
-  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+  .panel{min-width:0;overflow-x:auto;-webkit-overflow-scrolling:touch;background:var(--panel);
+         border:1px solid var(--line);border-radius:10px;padding:18px 20px}
   .toc{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13px;background:var(--panel);
        border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:18px 0 0}
   .toc a{color:var(--dim)} .toc a:hover{color:var(--text)}
@@ -89,7 +90,7 @@
   .check{list-style:none;margin:0;padding:0;font-size:14px}
   .check li{padding:5px 0;border-bottom:1px solid #1f2940}
   .check li:last-child{border-bottom:none}
-  .check .st{display:inline-block;width:150px;color:var(--dim);font-size:12.5px}
+  .check .st{display:inline-block;width:260px;color:var(--dim);font-size:12.5px}
   /* lanes */
   .lanes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
   .lane{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
@@ -108,9 +109,9 @@
            background:#132a3d;color:#91c9f7;font-size:15px;font-weight:700;text-align:center}
   .toplink:hover{background:#18354d;text-decoration:none}
   .figureShowcase{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0 22px}
-  .figureCard{background:linear-gradient(145deg,#13243a,#101a2b);border:1px solid #315f85;border-radius:12px;padding:16px 18px}
+  .figureCard{min-width:0;background:linear-gradient(145deg,#13243a,#101a2b);border:1px solid #315f85;border-radius:12px;padding:16px 18px}
   .figureCard h3{margin:0 0 6px;font-size:16px;color:#e8f2ff}.figureCard p{margin:0 0 12px;color:var(--dim);font-size:13px;line-height:1.45}
-  .flowPreview{display:flex;align-items:center;gap:5px;margin:10px 0 13px;color:#8ea0b9;font-size:11px;font-weight:700;overflow:hidden}
+  .flowPreview{display:flex;align-items:center;gap:5px;margin:10px 0 13px;color:#8ea0b9;font-size:11px;font-weight:700;overflow-x:auto}
   .flowPreview span{white-space:nowrap}.flowPreview .node{padding:5px 8px;border-radius:12px;background:#1b3851;color:#bfe3ff;border:1px solid #315f85}
   .flowPreview .result{padding:5px 8px;border-radius:12px;background:#173b34;color:#a9eadb;border:1px solid #2a6b5d}
   .flowPreview .gate{padding:5px 8px;border-radius:12px;background:#463718;color:#ffd98c;border:1px solid #775d28}
@@ -126,7 +127,7 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — Design 02 helper COMPLETE; human labels next.</b>
+· <b style="color:var(--text)">Last updated: 2026-07-15 by Codex — dashboard mobile containment corrected; Design 02 human labels next.</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -198,8 +199,8 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     <b>DISQUALIFIED</b> after the registered single re-elicitation; the persistent split is WW-09-E02 /
     reasoning_method_quality. FR-8 strikes Google design-09 verdicts and requires a replacement judge to pass
     G4 on 09 labels before full rejudging + G5 rerun. Labels are absent, so the cascade is pending.<br><br>
-    <b>Quality:</b> final bounded-replay mechanics were completed under RED→GREEN TDD; the fresh full suite is
-    <b>554/554 green</b>. Labels
+    <b>Quality:</b> final bounded-replay mechanics were completed under RED→GREEN TDD; the earlier G7 closure
+    suite was <b>554/554 green</b>. Labels
     remain <b>0/439</b>. The single authorized Opus claims review independently reproduced all 30 primary
     cells, all ten agreement percentages, all custody counts, and spend; Codex independently rechecked the
     same surface. The correct unavailable-cell count is <b>4 N/A</b>.<br><br>
@@ -685,7 +686,7 @@ cited) — a bad outcome costs sessions, never a new decision. STOP = halt, log 
 <tr><td><b>Authority stack (frozen)</b></td><td class="mono">00-PORTFOLIO/20260706-normative-charter.md · 20260706-master-plan.md · 20260706-opus-item-playbook.md · 20260710-fable-gate-prereg-pilot-adjudication.md (§B/§C/§E) · 20260710-fable-PR3-ruling.md · 20260711d-fable-o5-decision-framework.md (FR-1…15) · 20260712-fable-FR16-w1-surface-ruling.md · 20260712-fable-ruling-session-log.md (FR-17 + R-J1..12) · 20260712-fable-G5-reference-review.md (FR-18) · 20260712-jimmy-PR10-PR11-ruling.md (R-J13..15)</td></tr>
 <tr><td><b>O5 execution (Codex)</b></td><td class="mono">harness/walkworthy/g7_runner.py + g7_author_contract.py + g7_author_stage.py · runs/20260713-o5-g7-a1/author-replay-checkpoint.json (146/146 author POSTs; G7 PENDING) · 20260713s-opus-g7-paraphrase-author-contract.md (SHA 59caaa1c…b320; RATIFIED) · 20260713v-jimmy-pr27-contract-ruling.md · 20260713y-jimmy-pr28-runtime-ruling.md</td></tr>
 <tr><td><b>PAPER lane</b></td><td class="mono">PAPER/ (release-grade §6 + separate exploratory §6A; G7 PENDING limitation now recorded; outline.md claims skeleton) · 20260713d-mvp-a1-scaling-scope-correction.md · 20260713d-codex-mvp-claims-correction-checklist.md</td></tr>
-<tr><td><b>Latest handoffs</b></td><td class="mono">20260715-codex-design02-label-helper-complete-handoff.md (NEWEST / CURRENT) · 20260714-codex-benchmark-assessment-graphics-handoff.md (FIGURES COMPLETE) · 20260714-codex-pr29-g4-intake-complete-handoff.md (G4 INTAKE READY) · 20260714-codex-mvp-v0.1-ratification-handoff.md (PRIVATE CIRCULATION RATIFIED)</td></tr>
+<tr><td><b>Latest handoffs</b></td><td class="mono">20260715b-codex-design02-dashboard-correction-handoff.md (NEWEST / CURRENT) · 20260715-codex-design02-label-helper-complete-handoff.md (HELPER COMPLETION) · 20260714-codex-benchmark-assessment-graphics-handoff.md (FIGURES COMPLETE) · 20260714-codex-pr29-g4-intake-complete-handoff.md (G4 INTAKE READY) · 20260714-codex-mvp-v0.1-ratification-handoff.md (PRIVATE CIRCULATION RATIFIED)</td></tr>
 <tr><td><b>Measurement record</b></td><td class="mono">runs/20260713-o5-g5-neutrality/ (W4 COMPLETE) · 20260713b-o5-postadjudication-readings.md (W3 PAPER source) · runs/20260713-o5-home-reroute/ (PR-16 COMPLETE) · runs/20260713-o5-home-advantage/ (W2) · runs/20260712-o5-tiebreak/ (W1) · 20260711b-o4-panel-report.md (historical; never paper source)</td></tr>
 <tr><td><b>Open questions</b></td><td class="mono">00-PORTFOLIO/PENDING-RULINGS.md — no current-cycle owner ruling blocks G4 intake; PR-7 remains next-cycle; no G7 owner ruling is open</td></tr>
 <tr><td><b>Labels (Jimmy)</b></td><td class="mono">labels/20260710-partA/ — 10 primary blind CSVs + instructions + 00-WAVE-PLAN-README.md; reliability/ contains 10 independent overlap instruments, manifest, README, and declaration template (waves {02,07,01} → {03,04,05,06} → {08,09,10})</td></tr>
@@ -1016,6 +1017,11 @@ no external resources).</p>
   browser/network errors or overflow; focused tests passed 90/90 and the full suite passed 750 with 1 skipped.
   Frozen source and artifact hashes match. Labels remain 0/439; no G4, verdict, manuscript, call, spend,
   HOLDOUT, G7, OPEN6/PR-30, or release state changed.</td></tr>
+<tr><td class="mono">2026-07-15</td><td><span class="badge b-codex">Codex</span></td>
+  <td><b>DASHBOARD MOBILE CONTAINMENT CORRECTED.</b> Removed global wrapper clipping and made oversized panel
+  tables locally scrollable with reachable right edges at 390×844 while retaining desktop containment at
+  1280×900. Relabeled 554/554 as the earlier G7 closure suite. Helper artifacts, hashes, 90/90 focused tests,
+  750 passed + 1 skipped, gates, and labels 0/439 are unchanged.</td></tr>
 </table>
 </div>
 
@@ -1024,6 +1030,10 @@ no external resources).</p>
 <p style="color:var(--dim);font-size:13.5px;margin:0 0 12px"><b style="color:var(--text)">This section always
 holds THE next prepared session.</b> Whoever stages a new session replaces the contents below (boot prompt,
 model, directory) and appends a Changelog row in §11 — superseded prompts remain in their dated files.</p>
+<p style="margin:0 0 12px;padding:10px 12px;border:1px solid #775d28;border-radius:8px;background:#2d2515;color:#ffd98c">
+<b>External-surface warning:</b> parent <code>../ACTIVE-CRITICAL-PATHS.md</code> currently contains stale
+PR-13/state-load-only wording. It is outside this WALKWORTHY scope and requires separate portfolio-authorized
+reconciliation before the next Codex G4-import session. This does not block humans from completing the Design 02 packet.</p>
 <table class="dense" style="margin-bottom:12px">
 <tr><th style="width:130px">Field</th><th>Value</th></tr>
 <tr><td><b>Session</b></td><td><b>WAIT for one complete Design 02 packet; do not begin another engineering session while the human sequence is in progress.</b></td></tr>
@@ -1047,7 +1057,7 @@ CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling ben
 never load HOLDOUT; never delete (mv to RECYCLE-BIN/).
 
 ON SESSION OPEN: load 00-PORTFOLIO/project-dashboard.html (Live status + §12 first), then the newest dated
-handoff, currently 00-PORTFOLIO/20260715-codex-design02-label-helper-complete-handoff.md. Read the BibleBench
+handoff, currently 00-PORTFOLIO/20260715b-codex-design02-dashboard-correction-handoff.md. Read the BibleBench
 paper-first surfaces read-only and the PR-29 ruling/intake record as needed.
 
 ENTRY GATE: WAIT for one COMPLETE Design 02 packet. Do not start a Codex engineering session on a partial return.
@@ -1077,7 +1087,7 @@ authorized for it.
 
 <p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html
 · LIVING document — update in place per §11 · Continuation entry point:
-<span class="mono">00-PORTFOLIO/20260715-codex-design02-label-helper-complete-handoff.md</span> · Immutable session record:
+<span class="mono">00-PORTFOLIO/20260715b-codex-design02-dashboard-correction-handoff.md</span> · Immutable session record:
 the dated <span class="mono">00-PORTFOLIO/2026*</span> handoffs and reports</p>
 
 </div>

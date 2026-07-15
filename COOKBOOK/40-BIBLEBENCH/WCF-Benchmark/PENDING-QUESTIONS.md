@@ -1,5 +1,32 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-15 — Open-First runtime price gate contradicts the binding endpoint rule
+
+- **Question:** Should Jimmy authorize one exact **FIX** so the live runtime price gate
+  evaluates current eligible endpoints against each frozen price ceiling, or **DEFER** the
+  Open-First adjunct before any credential access or inference?
+- **Why it blocks:** The registered runtime validator compares the model catalog's aggregate
+  price row to the frozen ceiling and does not inspect endpoint rows. It therefore stopped
+  on Gemma after its aggregate row moved to `$0.22/$0.55` per million, even though four
+  current parameter-compatible endpoints remain at or below the frozen `$0.12/$0.37`
+  ceiling. Jimmy's binding provider-price amendment says the existence of a more expensive
+  row is not a blocker when at least one eligible endpoint remains within the ceiling and
+  request routing enforces `max_price`, `require_parameters=true`, and
+  `data_collection="deny"`.
+- **Evidence:** Public metadata shows eligible Gemma endpoints WandB `$0.12/$0.35`, Venice
+  `$0.12/$0.36`, Chutes `$0.12/$0.37`, and DeepInfra `$0.12/$0.37` per million. All other
+  exact models also retain at least one endpoint within their frozen ceilings. The live
+  validator raised `TerminalStop: runtime price ceiling exceeded:
+  google/gemma-4-31b-it` before output-directory creation. Eight public metadata GETs were
+  made; auth/balance GETs, OpenRouter inference calls, and spend remain zero. Full packet:
+  `20260715h-wcf-open-first-mvp-s54-runtime-price-gate-escalation.md`.
+- **Suggested default:** **FIX only the runtime validator contract.** Add one TDD regression
+  proving an above-ceiling aggregate model row passes when a current eligible endpoint is
+  within the frozen ceiling; retain the existing fail-closed test for no eligible endpoint.
+  Make the live catalog fetch include endpoint rows and apply the already-binding endpoint
+  rule without changing roster, frozen ceilings, routing controls, cap, prompts, or retries.
+  Run named-only specification and quality reviews before repeating the public gate.
+
 ## RESOLVED 2026-07-15 — Open-First MVP same-cell unmatched-request custody P1
 
 - **Disposition:** Jimmy selected `FIX`. The exact ruling is recorded in

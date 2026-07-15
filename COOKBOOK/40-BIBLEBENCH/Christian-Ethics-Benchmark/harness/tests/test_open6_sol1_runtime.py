@@ -200,6 +200,24 @@ def test_openrouter_preserves_nominal_calls_for_first_attempts(tmp_path):
         ledger.begin("two", spec, payload)
 
 
+def test_openrouter_reserves_dynamic_byte_upper_bound_without_false_24k_rejection(
+        tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+    payload = runtime.make_openrouter_client(spec, "k", lambda *_a, **_k: None).build_payload(
+        [Message("user", "é" * 13_000)], None)
+    payload_bytes = len(json.dumps(payload).encode("utf-8"))
+    assert payload_bytes > 24_000
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+
+    attempt = ledger.begin("unicode", spec, payload)
+
+    start = ledger.attempt_snapshot(attempt)["start"]
+    assert start["reserved_input_tokens"] == payload_bytes
+    assert Decimal(start["ceiling_max_usd"]) == spec.max_call_usd_for_input(payload_bytes)
+    ledger.finish(attempt, *_ok(spec.slug))
+
+
 def test_openrouter_ledger_assigns_contiguous_ids_under_concurrency(tmp_path):
     runtime = _runtime()
     spec = runtime.SUT_SPECS[0]
@@ -237,6 +255,69 @@ def test_openrouter_resume_rejects_unresolved_or_tampered_ledger(tmp_path):
         runtime.OpenRouterAttemptLedger(path)
 
 
+def test_openrouter_transport_exception_is_closed_then_exactly_replayed(tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+    calls = []
+
+    def flaky(url, headers, payload, timeout=None):
+        calls.append(json.loads(json.dumps(payload)))
+        if len(calls) == 1:
+            raise OSError("dns secret detail")
+        return _ok(spec.slug, content="recovered")
+
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+    result = runtime.OpenRouterPilotClient(spec, "k", ledger, flaky).complete(
+        "key", [Message("user", "same")]
+    )
+
+    assert result.response.text == "recovered"
+    assert calls[0] == calls[1]
+    assert ledger.snapshot()["inflight_usd"] == Decimal("0")
+    persisted = ledger.path.read_text()
+    assert "dns secret detail" not in persisted
+    assert ledger.attempt_snapshot(1)["finish"]["failure"] == "http_failure"
+
+
+def test_openrouter_second_transport_exception_stops_without_stranded_start(tmp_path):
+    runtime = _runtime()
+    spec = runtime.SUT_SPECS[0]
+
+    def down(*_args, **_kwargs):
+        raise TimeoutError("down")
+
+    ledger = runtime.OpenRouterAttemptLedger(tmp_path / "attempts.jsonl")
+    with pytest.raises(runtime.ThreadStop):
+        runtime.OpenRouterPilotClient(spec, "k", ledger, down).complete(
+            "key", [Message("user", "same")]
+        )
+    assert ledger.snapshot()["attempts"] == 2
+    assert ledger.snapshot()["inflight_usd"] == Decimal("0")
+
+
+def test_openrouter_explicit_crash_recovery_closes_inflight_and_consumes_replay(
+        tmp_path):
+    runtime = _runtime()
+    path = tmp_path / "attempts.jsonl"
+    spec = runtime.SUT_SPECS[0]
+    payload = runtime.make_openrouter_client(spec, "k", lambda *_a, **_k: None).build_payload(
+        [Message("user", "same")], None)
+    ledger = runtime.OpenRouterAttemptLedger(path)
+    ledger.begin("crashed", spec, payload)
+    with pytest.raises(runtime.ContractStop, match="in-flight"):
+        runtime.OpenRouterAttemptLedger(path)
+
+    recovered = runtime.OpenRouterAttemptLedger.recover_inflight(path)
+    replay = recovered.begin("crashed", spec, payload)
+    other = recovered.begin("other", spec, payload)
+
+    assert replay == 2
+    assert other == 3
+    assert recovered.snapshot()["replays"] == 1
+    recovered.finish(replay, *_ok(spec.slug))
+    recovered.finish(other, *_ok(spec.slug))
+
+
 class RecordedCodexRunner:
     def __init__(self, finals, traces=None, returncodes=None):
         self.finals = list(finals)
@@ -257,8 +338,12 @@ class RecordedCodexRunner:
         )
 
 
-def test_sol_exec_exact_cli_is_ephemeral_isolated_and_schema_bound(tmp_path):
+def test_sol_exec_exact_cli_is_ephemeral_isolated_and_schema_bound(
+        tmp_path, monkeypatch):
     runtime = _runtime()
+    monkeypatch.setenv("OPENAI_API_KEY", "must-not-leak")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "must-not-leak")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "must-not-leak")
     runner = RecordedCodexRunner(['{"state":"continue"}'])
     ledger = runtime.SolTaskLedger(tmp_path / "sol.jsonl")
     client = runtime.SolExecClient(
@@ -282,12 +367,21 @@ def test_sol_exec_exact_cli_is_ephemeral_isolated_and_schema_bound(tmp_path):
         assert flag in argv
     assert argv[argv.index("--sandbox") + 1] == "read-only"
     assert argv[-1] == "-"
+    disabled = [argv[index + 1] for index, value in enumerate(argv)
+                if value == "--disable"]
+    assert disabled == list(runtime.DISABLED_CODEX_FEATURES)
+    configs = [argv[index + 1] for index, value in enumerate(argv) if value == "-c"]
+    for config in runtime.DISABLED_CONTEXT_CONFIGS:
+        assert config in configs
     assert call["input"] == result.prompt
     assert Path(call["cwd"]).name.startswith("walkworthy-open6-sol1-")
     assert result.value == {"state": "continue"}
     assert result.cli_version == "codex-cli 0.144.3"
     assert result.final_text == '{"state":"continue"}'
     assert result.trace_jsonl.startswith("{")
+    assert set(call["env"]).issubset(runtime.CODEX_ENV_WHITELIST)
+    assert not ({"OPENAI_API_KEY", "OPENROUTER_API_KEY", "ANTHROPIC_API_KEY"}
+                & set(call["env"]))
 
 
 def test_sol_classifier_is_strict_and_has_no_heuristic_fallback(tmp_path):
@@ -408,3 +502,24 @@ def test_sol_ledger_caps_concurrency_replays_and_rejects_tamper(tmp_path):
     path.write_text("\n".join(lines) + "\n")
     with pytest.raises(runtime.ContractStop, match="hash"):
         runtime.SolTaskLedger(path)
+
+
+def test_sol_explicit_crash_recovery_closes_inflight_and_consumes_replay(tmp_path):
+    runtime = _runtime()
+    path = tmp_path / "sol.jsonl"
+    ledger = runtime.SolTaskLedger(path)
+    ledger.begin("crashed", "a" * 64, "b" * 64)
+    with pytest.raises(runtime.ContractStop, match="in-flight"):
+        runtime.SolTaskLedger(path)
+
+    recovered = runtime.SolTaskLedger.recover_inflight(path)
+    replay = recovered.begin("crashed", "a" * 64, "b" * 64)
+    other = recovered.begin("other", "c" * 64, "d" * 64)
+
+    assert replay == 2
+    assert other == 3
+    assert recovered.snapshot()["replays"] == 1
+    recovered.finish(replay, valid=True, trace_sha256="e" * 64,
+                     response_sha256="f" * 64, cli_version="codex-cli test")
+    recovered.finish(other, valid=True, trace_sha256="e" * 64,
+                     response_sha256="f" * 64, cli_version="codex-cli test")

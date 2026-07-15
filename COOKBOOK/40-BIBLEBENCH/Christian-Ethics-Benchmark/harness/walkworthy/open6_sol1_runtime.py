@@ -16,6 +16,7 @@ import re
 import subprocess
 import tempfile
 import threading
+import urllib.error
 from contextlib import contextmanager
 from dataclasses import dataclass
 from decimal import Decimal, InvalidOperation
@@ -42,6 +43,34 @@ from .openrouter_backend import OpenRouterClient
 MAX_CONCURRENCY = 2
 INPUT_ENVELOPE = 24_000
 SOL_MODEL = "gpt-5.6-sol"
+DISABLED_CODEX_FEATURES = (
+    "shell_tool", "unified_exec", "apps", "enable_mcp_apps", "plugins",
+    "plugin_sharing", "remote_plugin", "in_app_browser", "browser_use",
+    "browser_use_external", "browser_use_full_cdp_access", "computer_use",
+    "multi_agent", "multi_agent_v2", "enable_fanout", "image_generation",
+    "workspace_dependencies", "tool_suggest", "tool_call_mcp_elicitation",
+    "goals", "hooks", "artifact", "code_mode", "code_mode_only",
+    "skill_mcp_dependency_install", "auth_elicitation",
+    "request_permissions_tool", "shell_snapshot", "memories",
+    "standalone_web_search",
+)
+DISABLED_CONTEXT_CONFIGS = (
+    "skills.include_instructions=false",
+    "skills.bundled.enabled=false",
+    "skills.config=[]",
+    "include_permissions_instructions=false",
+    "include_apps_instructions=false",
+    "include_collaboration_mode_instructions=false",
+    "include_environment_context=false",
+)
+CODEX_ENV_WHITELIST = frozenset({
+    "PATH", "HOME", "CODEX_HOME", "TMPDIR", "LANG", "LC_ALL",
+    "SSL_CERT_FILE", "SSL_CERT_DIR",
+})
+SOL_FAILURES = frozenset({
+    "cli_failure", "tool_event", "malformed_trace", "empty", "malformed",
+    "schema_invalid", "interrupted",
+})
 
 
 class ContractStop(RuntimeError):
@@ -81,8 +110,13 @@ class ModelSpec:
 
     @property
     def max_call_usd(self) -> Decimal:
+        return self.max_call_usd_for_input(self.input_envelope)
+
+    def max_call_usd_for_input(self, input_tokens: int) -> Decimal:
+        if type(input_tokens) is not int or input_tokens < self.input_envelope:
+            raise ContractStop("invalid registered input-token reservation")
         return (
-            Decimal(self.input_envelope) * self.ceiling_input_per_m
+            Decimal(input_tokens) * self.ceiling_input_per_m
             + Decimal(self.max_tokens) * self.ceiling_output_per_m
         ) / Decimal(1_000_000)
 
@@ -199,7 +233,8 @@ class OpenRouterAttemptLedger:
                  planned_cap=OPENROUTER_NOMINAL_CALLS,
                  max_attempts=OPENROUTER_HARD_CALL_CAP,
                  replay_cap=OPENROUTER_RESERVE_CALLS,
-                 max_concurrency=MAX_CONCURRENCY):
+                 max_concurrency=MAX_CONCURRENCY,
+                 _allow_inflight_on_open=False):
         self.path = Path(path)
         self.lock_path = Path(str(self.path) + ".lock")
         self.hard_nte_usd = Decimal(str(hard_nte_usd))
@@ -229,7 +264,7 @@ class OpenRouterAttemptLedger:
         with _file_lock(self.lock_path):
             if not self.path.exists():
                 _append_event(self.path, self.registration, None)
-            self._load(allow_inflight=False)
+            self._load(allow_inflight=_allow_inflight_on_open)
 
     def _read_events(self):
         events = []
@@ -274,12 +309,16 @@ class OpenRouterAttemptLedger:
             if kind == "attempt_started":
                 required = {
                     "event", "attempt_id", "logical_key", "role", "requested_model",
-                    "payload_sha256", "ceiling_max_usd", "replay",
+                    "payload_sha256", "reserved_input_tokens", "ceiling_max_usd", "replay",
                     "previous_sha256", "event_sha256",
                 }
                 spec = _SPECS.get(event.get("requested_model"))
+                reserved_input = event.get("reserved_input_tokens")
                 if (set(event) != required or event.get("role") != "sut"
-                        or spec is None or event.get("ceiling_max_usd") != str(spec.max_call_usd)
+                        or spec is None or type(reserved_input) is not int
+                        or reserved_input < spec.input_envelope
+                        or event.get("ceiling_max_usd")
+                        != str(spec.max_call_usd_for_input(reserved_input))
                         or not isinstance(event.get("logical_key"), str)
                         or not event["logical_key"] or not _is_hash(event.get("payload_sha256"))
                         or type(event.get("replay")) is not bool
@@ -345,13 +384,15 @@ class OpenRouterAttemptLedger:
             raise ContractStop("invalid persisted cost")
         if event["cost_basis"] not in ("reported", "registered_max"):
             raise ContractStop("invalid persisted cost basis")
-        if event["cost_basis"] == "registered_max" and booked != spec.max_call_usd:
+        if (event["cost_basis"] == "registered_max"
+                and booked != Decimal(start["ceiling_max_usd"])):
             raise ContractStop("invalid persisted registered maximum")
         for field in ("prompt_tokens", "completion_tokens"):
             if type(event[field]) is not int or event[field] < 0:
                 raise ContractStop("invalid persisted token custody")
         if event["failure"] not in (
-                None, "http_failure", "empty", "malformed", "wrong_model", "missing_cost"):
+                None, "http_failure", "empty", "malformed", "wrong_model",
+                "missing_cost", "interrupted"):
             raise ContractStop("invalid persisted failure class")
         for field in ("error_sha256", "response_sha256"):
             if event[field] is not None and not _is_hash(event[field]):
@@ -387,9 +428,9 @@ class OpenRouterAttemptLedger:
                 or payload.get("provider") != spec.provider_prefs
                 or {"temperature", "top_p", "top_k", "reasoning"} & set(payload)):
             raise ContractStop("OpenRouter payload contract mismatch")
-        input_bytes = len(json.dumps({"messages": payload.get("messages")}).encode("utf-8"))
-        if input_bytes > spec.input_envelope:
-            raise ContractStop("OpenRouter input envelope exceeded")
+        payload_bytes = len(json.dumps(payload).encode("utf-8"))
+        reserved_input_tokens = max(spec.input_envelope, payload_bytes)
+        request_ceiling = spec.max_call_usd_for_input(reserved_input_tokens)
         digest = _transport_payload_hash(payload)
         with _file_lock(self.lock_path):
             self._load(allow_inflight=True)
@@ -405,7 +446,9 @@ class OpenRouterAttemptLedger:
                 if len(history) >= 2:
                     raise ThreadStop(f"OpenRouter replay exhausted: {logical_key}")
                 if (digest != first["payload_sha256"]
-                        or spec.slug != first["requested_model"]):
+                        or spec.slug != first["requested_model"]
+                        or reserved_input_tokens != first["reserved_input_tokens"]
+                        or str(request_ceiling) != first["ceiling_max_usd"]):
                     raise ContractStop("OpenRouter replay must be byte-identical")
                 if sum(start["replay"] for start in self._starts.values()) >= self.replay_cap:
                     raise BudgetStop("OpenRouter replay reserve exhausted")
@@ -417,14 +460,15 @@ class OpenRouterAttemptLedger:
                 raise BudgetStop("OpenRouter planned call cap exhausted")
             if len(self._starts) - len(self._finishes) >= self.max_concurrency:
                 raise BudgetStop("OpenRouter concurrency cap exhausted")
-            if self._booked() + self._inflight() + spec.max_call_usd > self.hard_nte_usd:
+            if self._booked() + self._inflight() + request_ceiling > self.hard_nte_usd:
                 raise BudgetStop("OpenRouter hard NTE reservation exceeded")
             attempt = len(self._starts) + 1
             event = {
                 "event": "attempt_started", "attempt_id": attempt,
                 "logical_key": logical_key, "role": "sut",
                 "requested_model": spec.slug, "payload_sha256": digest,
-                "ceiling_max_usd": str(spec.max_call_usd), "replay": replay,
+                "reserved_input_tokens": reserved_input_tokens,
+                "ceiling_max_usd": str(request_ceiling), "replay": replay,
             }
             stored = _append_event(self.path, event, self._last_hash)
             self._starts[attempt] = stored
@@ -460,7 +504,7 @@ class OpenRouterAttemptLedger:
                 failure = "empty"
             else:
                 failure = None
-            booked = cost if cost is not None else spec.max_call_usd
+            booked = cost if cost is not None else Decimal(start["ceiling_max_usd"])
             event = {
                 "event": "attempt_finished", "attempt_id": attempt,
                 "logical_key": start["logical_key"], "role": start["role"],
@@ -485,6 +529,42 @@ class OpenRouterAttemptLedger:
             if self._booked() + self._inflight() > self.hard_nte_usd:
                 raise BudgetStop("OpenRouter hard NTE exceeded after custody")
             return failure
+
+    @classmethod
+    def recover_inflight(cls, path, **kwargs):
+        """Explicitly close crash-stranded starts; ordinary construction stays strict."""
+        ledger = cls(path, _allow_inflight_on_open=True, **kwargs)
+        with _file_lock(ledger.lock_path):
+            ledger._load(allow_inflight=True)
+            for attempt in sorted(set(ledger._starts) - set(ledger._finishes)):
+                start = ledger._starts[attempt]
+                event = {
+                    "event": "attempt_finished", "attempt_id": attempt,
+                    "logical_key": start["logical_key"], "role": start["role"],
+                    "requested_model": start["requested_model"], "status": None,
+                    "returned_model": None,
+                    "booked_usd": start["ceiling_max_usd"],
+                    "cost_basis": "registered_max", "prompt_tokens": 0,
+                    "completion_tokens": 0, "failure": "interrupted",
+                    "error_sha256": _sha256_bytes(b"interrupted"),
+                    "response_sha256": None,
+                }
+                stored = _append_event(ledger.path, event, ledger._last_hash)
+                ledger._finishes[attempt] = stored
+                ledger._last_hash = stored["event_sha256"]
+            ledger._load(allow_inflight=False)
+        return cls(path, **kwargs)
+
+    def attempt_snapshot(self, attempt):
+        with _file_lock(self.lock_path):
+            self._load(allow_inflight=True)
+            if attempt not in self._starts:
+                raise ContractStop("unknown OpenRouter attempt")
+            return {
+                "start": dict(self._starts[attempt]),
+                "finish": (dict(self._finishes[attempt])
+                           if attempt in self._finishes else None),
+            }
 
     def snapshot(self) -> dict:
         with _file_lock(self.lock_path):
@@ -536,6 +616,18 @@ class OpenRouterPilotClient:
                 response = self.base_client.complete(messages, system=system)
             except ModelCallError:
                 pass
+            except (OSError, TimeoutError, urllib.error.URLError) as exc:
+                # Full exception custody is returned to the caller sink; only hashes
+                # enter the spend ledger.
+                self._last_transport = {
+                    "status": None,
+                    "body": {
+                        "error": {
+                            "type": exc.__class__.__name__,
+                            "message": str(exc),
+                        },
+                    },
+                }
             status = self._last_transport.get("status")
             body = self._last_transport.get("body", {})
             if self.response_sink is not None:
@@ -560,7 +652,8 @@ class SolTaskLedger:
     """Hash-chained, body-free attempt ledger for Sol OAuth tasks."""
 
     def __init__(self, path, *, max_attempts=SOL_HARD_TURN_CAP,
-                 replay_cap=SOL_RESERVE_TURNS, max_concurrency=MAX_CONCURRENCY):
+                 replay_cap=SOL_RESERVE_TURNS, max_concurrency=MAX_CONCURRENCY,
+                 _allow_inflight_on_open=False):
         self.path = Path(path)
         self.lock_path = Path(str(self.path) + ".lock")
         self.max_attempts = int(max_attempts)
@@ -580,7 +673,7 @@ class SolTaskLedger:
         with _file_lock(self.lock_path):
             if not self.path.exists():
                 _append_event(self.path, self.registration, None)
-            self._load(allow_inflight=False)
+            self._load(allow_inflight=_allow_inflight_on_open)
 
     def _load(self, *, allow_inflight):
         # Reuse the same hash-chain parser without coupling the accounting types.
@@ -652,7 +745,7 @@ class SolTaskLedger:
                     raise ContractStop("invalid persisted Sol finish")
                 if event["valid"] and event["error_class"] is not None:
                     raise ContractStop("invalid persisted Sol success")
-                if not event["valid"] and not isinstance(event["error_class"], str):
+                if not event["valid"] and event["error_class"] not in SOL_FAILURES:
                     raise ContractStop("invalid persisted Sol defect")
                 self._finishes[attempt] = event
             else:
@@ -714,6 +807,8 @@ class SolTaskLedger:
         usage = usage or {}
         if not _valid_usage(usage):
             raise ContractStop("invalid Sol usage custody")
+        if not valid and error_class not in SOL_FAILURES:
+            raise ContractStop("invalid Sol failure class")
         with _file_lock(self.lock_path):
             self._load(allow_inflight=True)
             start = self._starts.get(attempt)
@@ -731,6 +826,28 @@ class SolTaskLedger:
             stored = _append_event(self.path, event, self._last_hash)
             self._finishes[attempt] = stored
             self._last_hash = stored["event_sha256"]
+
+    @classmethod
+    def recover_inflight(cls, path, **kwargs):
+        """Explicitly close crash-stranded Sol tasks as invalid interrupted work."""
+        ledger = cls(path, _allow_inflight_on_open=True, **kwargs)
+        with _file_lock(ledger.lock_path):
+            ledger._load(allow_inflight=True)
+            for attempt in sorted(set(ledger._starts) - set(ledger._finishes)):
+                start = ledger._starts[attempt]
+                event = {
+                    "event": "attempt_finished", "attempt_id": attempt,
+                    "logical_key": start["logical_key"],
+                    "requested_model": SOL_MODEL, "valid": False,
+                    "error_class": "interrupted", "trace_sha256": None,
+                    "response_sha256": None, "cli_version": "crash-recovery",
+                    "usage": {},
+                }
+                stored = _append_event(ledger.path, event, ledger._last_hash)
+                ledger._finishes[attempt] = stored
+                ledger._last_hash = stored["event_sha256"]
+            ledger._load(allow_inflight=False)
+        return cls(path, **kwargs)
 
     def snapshot(self):
         with _file_lock(self.lock_path):
@@ -839,14 +956,21 @@ class SolExecClient:
         return (proc.stdout or proc.stderr or "unknown").strip()
 
     def _argv(self, schema_path, last_path):
-        return [
+        argv = [
             self.binary, "exec", "-m", SOL_MODEL,
             "-c", 'model_reasoning_effort="medium"',
+        ]
+        for feature in DISABLED_CODEX_FEATURES:
+            argv.extend(("--disable", feature))
+        for config in DISABLED_CONTEXT_CONFIGS:
+            argv.extend(("-c", config))
+        argv.extend([
             "--ignore-user-config", "--ignore-rules", "--ephemeral",
             "--skip-git-repo-check", "--sandbox", "read-only", "--json",
             "--output-schema", str(schema_path),
             "--output-last-message", str(last_path), "-",
-        ]
+        ])
+        return argv
 
     def run_json(self, logical_key, prompt, schema):
         payload_hash = _sha256_bytes(prompt.encode("utf-8"))
@@ -868,6 +992,8 @@ class SolExecClient:
                         self._argv(schema_path, last_path),
                         input=prompt, text=True, capture_output=True,
                         cwd=td, timeout=self.timeout, check=False,
+                        env={key: os.environ[key] for key in CODEX_ENV_WHITELIST
+                             if key in os.environ},
                     )
                     trace_text = getattr(proc, "stdout", "") or ""
                     if getattr(proc, "returncode", 1) != 0:

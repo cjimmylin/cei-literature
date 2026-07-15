@@ -1,6 +1,5 @@
 import csv
 import hashlib
-import json
 from dataclasses import FrozenInstanceError
 from pathlib import Path
 
@@ -125,6 +124,17 @@ def test_load_instruments_rejects_any_source_drift(tmp_path, before, after):
 
     with pytest.raises(helper.HelperContractError, match="source SHA-256 mismatch"):
         helper.load_instruments(mutated_primary, RELIABILITY)
+
+
+def test_load_instruments_rejects_reliability_source_drift(tmp_path):
+    mutated_reliability = tmp_path / RELIABILITY.name
+    source = RELIABILITY.read_bytes()
+    before = b"02-twomasters-U000"
+    assert before in source
+    mutated_reliability.write_bytes(source.replace(before, b"02-twomasters-U999", 1))
+
+    with pytest.raises(helper.HelperContractError, match="source SHA-256 mismatch"):
+        helper.load_instruments(PRIMARY, mutated_reliability)
 
 
 @pytest.mark.parametrize(

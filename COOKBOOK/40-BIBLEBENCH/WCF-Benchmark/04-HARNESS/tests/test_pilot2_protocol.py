@@ -91,7 +91,7 @@ def test_exact_five_model_reasoning_contract_and_geometry():
         "deepseek/deepseek-v4-pro", "qwen/qwen3.7-max",
         "google/gemma-4-31b-it")
     assert tuple(spec.provider for spec in preflight.SUT_SPECS) == (
-        "MiniMax", "StreamLake", "DeepSeek", "Alibaba", "WandB")
+        "Minimax", "StreamLake", "DeepSeek", "Alibaba", "WandB")
     assert all(spec.reasoning in (
         {"enabled": True}, {"effort": "high"})
         for spec in preflight.SUT_SPECS)
@@ -149,6 +149,23 @@ def test_manifest_rejects_wrong_provider_or_reasoning_capability():
     catalog, endpoints = _catalog_and_endpoints()
     catalog[preflight.SUT_SPECS[1].slug]["reasoning"]["supported_efforts"] = ["xhigh"]
     with pytest.raises(preflight.PreflightError, match="high effort"):
+        preflight.build_manifest(
+            catalog, endpoints, catalog_retrieved_at="2026-07-15T00:00:00Z")
+
+
+def test_minimax_pin_matches_current_endpoint_identifier_exactly():
+    catalog, endpoints = _catalog_and_endpoints()
+    spec = preflight.SUT_SPECS[0]
+    endpoint = endpoints[spec.slug][0]
+    endpoint["provider_name"] = "Minimax"
+
+    assert spec.provider == endpoint["provider_name"] == "Minimax"
+    manifest = preflight.build_manifest(
+        catalog, endpoints, catalog_retrieved_at="2026-07-15T00:00:00Z")
+    assert manifest["models"][0]["pinned_provider"] == "Minimax"
+
+    endpoints[spec.slug][0]["provider_name"] = "MiniMax"
+    with pytest.raises(preflight.PreflightError, match="pinned provider"):
         preflight.build_manifest(
             catalog, endpoints, catalog_retrieved_at="2026-07-15T00:00:00Z")
 
@@ -339,6 +356,6 @@ def test_fixture_only_end_to_end_protocol_structure():
         sut=spec.slug, route="open", item_id="FIXTURE",
         criterion_id="KP1", persisted_response=final)
     batches, missing = run.build_dynamic_judge_batches([judge_record])
-    assert request["provider"]["order"] == ["MiniMax"]
+    assert request["provider"]["order"] == ["Minimax"]
     assert batches == [[judge_record]] and missing == []
     assert "reasoning" not in json.dumps(judge_record)

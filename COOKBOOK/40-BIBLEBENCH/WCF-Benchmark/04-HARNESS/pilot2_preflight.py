@@ -56,7 +56,7 @@ class SutSpec:
 
 
 SUT_SPECS: Tuple[SutSpec, ...] = (
-    SutSpec("minimax/minimax-m3", "MiniMax", {"enabled": True},
+    SutSpec("minimax/minimax-m3", "Minimax", {"enabled": True},
             0.30 / 1_000_000, 1.20 / 1_000_000),
     SutSpec("z-ai/glm-5.2", "StreamLake", {"effort": "high"},
             0.8533 / 1_000_000, 2.6818 / 1_000_000),

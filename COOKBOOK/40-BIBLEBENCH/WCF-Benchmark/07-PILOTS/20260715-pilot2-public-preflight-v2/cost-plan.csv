@@ -1,0 +1,2 @@
+slug,pinned_provider,prompt_tokens,completion_tokens,prompt_price_per_token_usd,completion_price_per_token_usd,per_call_usd,no_retry_calls,no_retry_230_calls_usd,attempt_envelope_calls,attempt_envelope_252_calls_usd,provider_canary_one_attempt_usd,provider_canary_two_attempt_usd
+TOTAL,,,,,,,1150,,1260,,,

@@ -1,6 +1,32 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 exact provider pin case drift
+## OPEN 2026-07-15 — Pilot 2 pinned GLM price exceeds frozen ceiling
+
+- **Question:** Should Jimmy authorize one exact **PRICE CEILING REFRESH** for pinned
+  StreamLake at `$0.9793/$3.0778` per million prompt/completion tokens, or **DEFER** Pilot 2
+  before empirical execution?
+- **Why it blocks:** The append-only v2 public preflight passed the corrected Minimax pin
+  but failed closed because current StreamLake pricing exceeds the frozen
+  `$0.8533/$2.6818` ceiling. The five-model validation is incomplete and no executable cap
+  or required balance exists.
+- **Evidence:** Packet `07-PILOTS/20260715-pilot2-public-preflight-v2/` and stop report
+  `20260715ad-wcf-pilot2-s61-glm-price-gate-stop.md`. Six public metadata GETs; no
+  credential/balance access, OAuth, inference, or spend. Conditional snapshot arithmetic
+  gives `$20.386632567` no-retry, `$22.513933357` maximum envelope plus canaries, and a
+  `$28.15` proposed NTE; none is authorized.
+- **Suggested default:** **PRICE CEILING REFRESH** only the exact pinned StreamLake ceiling,
+  add one regression, run one named-only review, and create one append-only public
+  preflight v3. Do not change provider, model, reasoning, prompts, scorers, geometry, or
+  retries, and do not infer paid authority.
+
+## RESOLVED 2026-07-15 — Pilot 2 exact provider pin case drift
+
+- **Disposition:** Jimmy selected **PIN CASE FIX**. The exact authority is recorded in
+  `20260715ac-jimmy-pilot2-s60-pin-case-fix-authorization-record.md`.
+- **Effect:** Change only `MiniMax` to `Minimax`, add one exact-match regression, perform
+  one named-only review, and—only after PASS—create one append-only public-catalog-only
+  zero-paid preflight. No credential/balance access, OAuth, inference, paid call, top-up,
+  or spend is authorized.
 
 - **Question:** Should Jimmy authorize one exact **PIN CASE FIX** changing the frozen
   provider identifier `MiniMax` to the current public-catalog identifier `Minimax`, or

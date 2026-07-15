@@ -1,5 +1,24 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-15 — Open-First first-response reasoning-leak gate
+
+- **Question:** Should Jimmy **DEFER** the Open-First adjunct at its immutable failed gate,
+  or authorize a separately frozen **NEW STUDY** with an explicitly changed roster or
+  reasoning contract?
+- **Why it blocks:** The exact-roster immutable execution started once and MiniMax's first
+  response reported 2,385 reasoning tokens despite `reasoning.enabled=false`. Reasoning
+  leakage is an explicit automatic stop. The existing authority prohibits roster/protocol
+  changes, substitutions, fallbacks, reruns, and continuation after a failed registered
+  gate.
+- **Evidence:** `07-PILOTS/20260715-open-first-mvp-live/` contains three concurrent first
+  requests, three persisted outcomes, one checkpoint, and the terminal-stop row. GLM passed
+  first-response validation; DeepSeek returned an error-only 404 response without reported
+  usage/cost. Response-attributed spend is `$0.00632547307`; no OAuth judging or supplement
+  began. Full packet: `20260715k-wcf-open-first-mvp-s55-first-response-gate-stop.md`.
+- **Suggested default:** **DEFER.** The accepted exploratory MVP paper is already complete;
+  changing the exact protocol now would create a new study rather than complete this
+  immutable run.
+
 ## RESOLVED 2026-07-15 — Open-First runtime price gate contradicts the binding endpoint rule
 
 - **Disposition:** Jimmy selected `FIX`. The exact ruling is recorded in

@@ -59,7 +59,7 @@ SUT_SPECS: Tuple[SutSpec, ...] = (
     SutSpec("minimax/minimax-m3", "Minimax", {"enabled": True},
             0.30 / 1_000_000, 1.20 / 1_000_000),
     SutSpec("z-ai/glm-5.2", "StreamLake", {"effort": "high"},
-            0.8533 / 1_000_000, 2.6818 / 1_000_000),
+            0.9793 / 1_000_000, 3.0778 / 1_000_000),
     SutSpec("deepseek/deepseek-v4-pro", "DeepSeek", {"effort": "high"},
             0.435 / 1_000_000, 0.87 / 1_000_000),
     SutSpec("qwen/qwen3.7-max", "Alibaba", {"enabled": True},

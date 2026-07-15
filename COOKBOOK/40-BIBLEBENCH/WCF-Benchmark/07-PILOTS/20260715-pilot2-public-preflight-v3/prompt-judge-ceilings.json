@@ -1,0 +1,21 @@
+{
+  "judge": {
+    "conservative_large_response_tasks": 590,
+    "expected_tasks": 220,
+    "max_batch_size": 8,
+    "max_serialized_batch_bytes": 800000,
+    "max_serialized_record_bytes": 262144,
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium"
+  },
+  "sut": {
+    "completion_tokens": 8192,
+    "max_rendered_transport_bytes": 2221,
+    "max_rendered_user_bytes": 1939,
+    "max_transport_item_id": "MEND-C1-W301",
+    "max_user_item_id": "MEND-C1-W301",
+    "prompt_tokens": 2221,
+    "source": "frozen_bank_rendered_prompts",
+    "status": "MEASURED_OFFLINE"
+  }
+}

@@ -137,7 +137,24 @@ def test_manifest_pins_exact_provider_reasoning_price_and_8192_reservation():
         assert row["maximum_attempt_cost_usd"] == pytest.approx(
             2221 * spec.prompt_price_per_token
             + 8192 * spec.completion_price_per_token)
-    assert manifest["planning_cost"]["proposed_cap_usd"] == 27.03
+    assert manifest["planning_cost"]["proposed_cap_usd"] == 28.15
+
+
+def test_streamlake_glm_5_2_price_ceiling_is_frozen_in_manifest():
+    spec = next(
+        spec for spec in preflight.SUT_SPECS
+        if spec.slug == "z-ai/glm-5.2")
+    assert spec.provider == "StreamLake"
+    assert spec.prompt_price_per_token == 0.9793 / 1_000_000
+    assert spec.completion_price_per_token == 3.0778 / 1_000_000
+
+    row = next(
+        row for row in _manifest()["models"]
+        if row["slug"] == "z-ai/glm-5.2")
+    assert row["approved_price_ceiling_per_token"] == {
+        "prompt": 0.9793 / 1_000_000,
+        "completion": 3.0778 / 1_000_000,
+    }
 
 
 def test_manifest_rejects_wrong_provider_or_reasoning_capability():

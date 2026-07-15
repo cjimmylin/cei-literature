@@ -1,6 +1,33 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 pinned GLM price exceeds frozen ceiling
+## OPEN 2026-07-15 — Pilot 2 exact `$28.13` amount-specific execution authority
+
+- **Question:** Does Jimmy authorize credential/private-balance access and the registered
+  gated Pilot 2 sequence under the exact strict cumulative `$28.13` OpenRouter NTE, with no
+  top-up?
+- **Why it blocks:** The append-only v3 public preflight is executable with no blockers,
+  but it explicitly requires amount-specific owner authorization before credential access,
+  the OAuth canary, provider canaries, first bank cells, or the immutable run.
+- **Evidence:** Packet `07-PILOTS/20260715-pilot2-public-preflight-v3/` and gate report
+  `20260715ag-wcf-pilot2-s62-executable-preflight-authorization-gate.md`. Current public
+  snapshot: `$20.377627101` no-retry, `$22.5039881898` maximum envelope including
+  two-attempt canaries, `$28.13` proposed NTE, `7–22` hour runtime. Required private
+  balance is `$28.13`; actual balance/top-up remains unknown because no credential access
+  was authorized. Six public metadata GETs, zero OAuth/inference/spend.
+- **Suggested default:** Approve the exact `$28.13` NTE only if Jimmy accepts the registered
+  five-model cost envelope; authorize no top-up. Run the balance check and every registered
+  canary/first-cell stop in order before the immutable execution.
+
+## RESOLVED 2026-07-15 — Pilot 2 pinned GLM price exceeds frozen ceiling
+
+- **Disposition:** Jimmy selected **PRICE CEILING REFRESH**. The exact authority is
+  recorded in
+  `20260715af-jimmy-pilot2-s61-price-ceiling-refresh-authorization-record.md`.
+- **Effect:** Change only pinned StreamLake's frozen ceiling to the public-v2 snapshot
+  values `$0.9793/$3.0778` per million, add one exact regression, perform one independent
+  named-only review, and—only after PASS—create one append-only public-catalog-only v3
+  preflight. No credential/private-balance access, OAuth, inference, top-up, paid call, or
+  spend is authorized. Any new P1 or failed registered gate stops.
 
 - **Question:** Should Jimmy authorize one exact **PRICE CEILING REFRESH** for pinned
   StreamLake at `$0.9793/$3.0778` per million prompt/completion tokens, or **DEFER** Pilot 2

@@ -1,0 +1,95 @@
+{
+  "auth_balance": {
+    "balance_usd": null,
+    "required_balance_usd": 28.13,
+    "status": "NOT_CHECKED_CREDENTIAL_ACCESS_UNAUTHORIZED",
+    "top_up_usd": null
+  },
+  "rows": [
+    {
+      "attempt_envelope_252_calls_usd": 2.6451683999999998,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 1.2e-06,
+      "completion_tokens": 8192,
+      "no_retry_230_calls_usd": 2.414241,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.0104967,
+      "pinned_provider": "Minimax",
+      "prompt_price_per_token_usd": 3e-07,
+      "prompt_tokens": 2221,
+      "provider_canary_one_attempt_usd": 0.0104967,
+      "provider_canary_two_attempt_usd": 0.0209934,
+      "slug": "minimax/minimax-m3"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 6.8920005924000005,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 3.0734e-06,
+      "completion_tokens": 8192,
+      "no_retry_230_calls_usd": 6.290318001,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.027349208700000002,
+      "pinned_provider": "StreamLake",
+      "prompt_price_per_token_usd": 9.779e-07,
+      "prompt_tokens": 2221,
+      "provider_canary_one_attempt_usd": 0.027349208700000002,
+      "provider_canary_two_attempt_usd": 0.054698417400000005,
+      "slug": "z-ai/glm-5.2"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 2.0394801000000005,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 8.7e-07,
+      "completion_tokens": 8192,
+      "no_retry_230_calls_usd": 1.8614302500000002,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.008093175000000001,
+      "pinned_provider": "DeepSeek",
+      "prompt_price_per_token_usd": 4.35e-07,
+      "prompt_tokens": 2221,
+      "provider_canary_one_attempt_usd": 0.008093175000000001,
+      "provider_canary_two_attempt_usd": 0.016186350000000002,
+      "slug": "deepseek/deepseek-v4-pro"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 9.9604449,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 4.425e-06,
+      "completion_tokens": 8192,
+      "no_retry_230_calls_usd": 9.09088225,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.039525575,
+      "pinned_provider": "Alibaba",
+      "prompt_price_per_token_usd": 1.475e-06,
+      "prompt_tokens": 2221,
+      "provider_canary_one_attempt_usd": 0.039525575,
+      "provider_canary_two_attempt_usd": 0.07905115,
+      "slug": "qwen/qwen3.7-max"
+    },
+    {
+      "attempt_envelope_252_calls_usd": 0.78969744,
+      "attempt_envelope_calls": 252,
+      "completion_price_per_token_usd": 3.5e-07,
+      "completion_tokens": 8192,
+      "no_retry_230_calls_usd": 0.7207556,
+      "no_retry_calls": 230,
+      "per_call_usd": 0.00313372,
+      "pinned_provider": "WandB",
+      "prompt_price_per_token_usd": 1.2e-07,
+      "prompt_tokens": 2221,
+      "provider_canary_one_attempt_usd": 0.00313372,
+      "provider_canary_two_attempt_usd": 0.00626744,
+      "slug": "google/gemma-4-31b-it"
+    }
+  ],
+  "totals": {
+    "attempt_envelope_252_calls_usd": 22.326791432400004,
+    "cumulative_attempt_envelope_usd": 22.503988189800005,
+    "no_retry_230_calls_usd": 20.377627100999998,
+    "proposed_cap_usd": 28.13,
+    "provider_canary_one_attempt_usd": 0.08859837870000001,
+    "provider_canary_two_attempt_usd": 0.17719675740000002,
+    "utilization_fraction": 0.8
+  },
+  "validity_label": "EXPLORATORY WCF-BENCH PILOT 2 · FIVE REASONING-ENABLED OPEN-FIRST SUTS · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE"
+}

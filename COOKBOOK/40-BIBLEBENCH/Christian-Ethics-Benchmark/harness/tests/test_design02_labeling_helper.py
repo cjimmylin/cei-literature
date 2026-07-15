@@ -184,6 +184,17 @@ def _complete_reliability(page):
         page.get_by_test_id("next").click()
 
 
+def _fill_finalizer_metadata(page):
+    page.locator("#primary-labeler-id").fill("jimmy-primary-01")
+    page.locator("#reliability-labeler-id").fill("independent-02")
+    page.locator("#primary-completed-at").fill(
+        "2026-07-15T12:00:00-07:00"
+    )
+    page.locator("#reliability-completed-at").fill(
+        "2026-07-15T13:00:00-07:00"
+    )
+
+
 def _source_row(index, context_and_response=None):
     return [
         f"02-twomasters-U{index:03d}",
@@ -1270,4 +1281,180 @@ def test_finalizer_success_status_reports_zero_disagreements(
     expect(page.get_by_test_id("import-status")).to_have_text(
         "Validated primary: 12 rows; reliability: 4 rows; disagreements: 0."
     )
+    assert browser_errors == []
+
+
+def test_finalizer_exports_exact_pr29_declaration_and_adjudication(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(1)
+    assert page.locator("#primary-labeler-id").count() == 1
+    assert page.locator("#reliability-labeler-id").count() == 1
+    assert page.locator("#primary-completed-at").count() == 1
+    assert page.locator("#reliability-completed-at").count() == 1
+
+    _fill_finalizer_metadata(page)
+    gold_choices = page.locator('input[name="gold-0"]')
+    expect(gold_choices).to_have_count(5)
+    page.get_by_role("radio", name="Gold: holds_line", exact=True).check()
+    expect(page.get_by_test_id("export-declaration")).to_be_enabled()
+    expect(page.get_by_test_id("export-adjudications")).to_be_enabled()
+
+    with page.expect_download() as declaration_download:
+        page.get_by_test_id("export-declaration").click()
+    declaration = declaration_download.value
+    assert declaration.suggested_filename == "reliability-declaration.json"
+    declaration_text = Path(declaration.path()).read_text(encoding="utf-8")
+    expected_declaration = {
+        "mode": "second_labeler",
+        "primary_labeler_id": "jimmy-primary-01",
+        "reliability_labeler_id": "independent-02",
+        "primary_completed_at": "2026-07-15T12:00:00-07:00",
+        "reliability_completed_at": "2026-07-15T13:00:00-07:00",
+        "test_retest_ratified": False,
+    }
+    assert json.loads(declaration_text) == expected_declaration
+    assert list(json.loads(declaration_text)) == list(expected_declaration)
+    assert declaration_text == json.dumps(
+        expected_declaration, ensure_ascii=False, indent=2
+    ) + "\n"
+
+    with page.expect_download() as adjudication_download:
+        page.get_by_test_id("export-adjudications").click()
+    adjudications = adjudication_download.value
+    assert adjudications.suggested_filename == "adjudications.jsonl"
+    adjudication_text = Path(adjudications.path()).read_text(encoding="utf-8")
+    expected_adjudication = {
+        "unit_id": "02-twomasters-U000",
+        "category": "turn_state",
+        "member": 2,
+        "primary_value": "holds_line",
+        "reliability_value": "soft_concession",
+        "gold_value": "holds_line",
+        "adjudicator": "Jimmy",
+        "adjudicated": True,
+    }
+    assert json.loads(adjudication_text) == expected_adjudication
+    assert list(json.loads(adjudication_text)) == list(expected_adjudication)
+    assert adjudication_text == json.dumps(
+        expected_adjudication, ensure_ascii=False, separators=(",", ":")
+    ) + "\n"
+    assert browser_errors == []
+
+
+@pytest.mark.parametrize(
+    ("case", "expected_error", "invalid_selector"),
+    (
+        (
+            "blank-ids",
+            "labeler IDs must be nonblank and distinct",
+            "#primary-labeler-id",
+        ),
+        (
+            "identical-ids",
+            "labeler IDs must be nonblank and distinct",
+            "#reliability-labeler-id",
+        ),
+        (
+            "malformed-timestamp",
+            "completion timestamps must be valid ISO-8601 with offsets",
+            "#primary-completed-at",
+        ),
+        (
+            "missing-offset-timestamp",
+            "completion timestamps must be valid ISO-8601 with offsets",
+            "#reliability-completed-at",
+        ),
+        (
+            "unselected-gold",
+            "gold adjudication required for 02-twomasters-U000 turn 2",
+            '[data-testid="disagreement-row"] fieldset',
+        ),
+    ),
+)
+def test_finalizer_blocks_invalid_export_metadata_and_missing_gold(
+    tmp_path, browser_page, case, expected_error, invalid_selector
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY,
+        tmp_path / "reliability.csv",
+        "holds_line",
+        {("02-twomasters-U000", 2): "soft_concession"},
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(1)
+
+    if case != "blank-ids":
+        page.locator("#primary-labeler-id").fill("jimmy-primary-01")
+        page.locator("#reliability-labeler-id").fill("independent-02")
+    if case == "identical-ids":
+        page.locator("#reliability-labeler-id").fill("jimmy-primary-01")
+    page.locator("#primary-completed-at").fill(
+        "not-a-timestamp"
+        if case == "malformed-timestamp"
+        else "2026-07-15T12:00:00-07:00"
+    )
+    page.locator("#reliability-completed-at").fill(
+        "2026-07-15T13:00:00"
+        if case == "missing-offset-timestamp"
+        else "2026-07-15T13:00:00-07:00"
+    )
+    if case != "unselected-gold":
+        page.get_by_role("radio", name="Gold: holds_line", exact=True).check()
+
+    expect(page.get_by_test_id("error")).to_have_text(expected_error)
+    assert page.locator(invalid_selector).get_attribute("aria-invalid") == "true"
+    assert page.get_by_test_id("export-declaration").is_disabled()
+    assert page.get_by_test_id("export-adjudications").is_disabled()
+    assert browser_errors == []
+
+
+def test_finalizer_exports_zero_byte_adjudications_when_labels_agree(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    primary = _completed_fixture(
+        PRIMARY, tmp_path / "primary.csv", "holds_line"
+    )
+    reliability = _completed_fixture(
+        RELIABILITY, tmp_path / "reliability.csv", "holds_line"
+    )
+    page, browser_errors = browser_page
+    page.goto((output_dir / "02-finalization.html").as_uri())
+    page.locator("#primary-file").set_input_files(primary)
+    page.locator("#reliability-file").set_input_files(reliability)
+    page.get_by_test_id("validate-imports").click()
+    expect(page.locator('[data-testid="disagreement-row"]')).to_have_count(0)
+    _fill_finalizer_metadata(page)
+    expect(page.get_by_test_id("export-declaration")).to_be_enabled()
+    expect(page.get_by_test_id("export-adjudications")).to_be_enabled()
+
+    with page.expect_download() as adjudication_download:
+        page.get_by_test_id("export-adjudications").click()
+    adjudications = adjudication_download.value
+    assert adjudications.suggested_filename == "adjudications.jsonl"
+    assert Path(adjudications.path()).read_bytes() == b""
     assert browser_errors == []

@@ -631,6 +631,14 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     <input id="primary-file" type="file" accept=".csv,text/csv">
     <label for="reliability-file">Completed reliability CSV</label>
     <input id="reliability-file" type="file" accept=".csv,text/csv">
+    <label for="primary-labeler-id">Primary labeler ID</label>
+    <input id="primary-labeler-id" type="text">
+    <label for="reliability-labeler-id">Reliability labeler ID</label>
+    <input id="reliability-labeler-id" type="text">
+    <label for="primary-completed-at">Primary completed at</label>
+    <input id="primary-completed-at" type="text">
+    <label for="reliability-completed-at">Reliability completed at</label>
+    <input id="reliability-completed-at" type="text">
     <button data-testid="validate-imports" type="button">Validate files</button>
     <p data-testid="import-status" role="status"></p>
     <section id="disagreements" aria-live="polite"></section>
@@ -646,6 +654,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     const payload = JSON.parse(new TextDecoder().decode(payloadBytes));
     const HEADER = Object.freeze(payload.header.slice());
     const TURN_STATES = Object.freeze(payload.turn_states.slice());
+    const TIMESTAMP_PATTERN = /^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:Z|[+-]\\d{2}:\\d{2})$/;
 
     function freezeExpected(instrument) {
       return Object.freeze({
@@ -663,6 +672,16 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     const expectedReliability = freezeExpected(payload.reliability);
     const primaryFile = document.getElementById("primary-file");
     const reliabilityFile = document.getElementById("reliability-file");
+    const primaryLabelerId = document.getElementById("primary-labeler-id");
+    const reliabilityLabelerId = document.getElementById(
+      "reliability-labeler-id"
+    );
+    const primaryCompletedAt = document.getElementById(
+      "primary-completed-at"
+    );
+    const reliabilityCompletedAt = document.getElementById(
+      "reliability-completed-at"
+    );
     const disagreementSection = document.getElementById("disagreements");
     const errorMessage = document.querySelector('[data-testid="error"]');
     const importStatus = document.querySelector(
@@ -678,6 +697,10 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     let validatedReliability = null;
     let currentDisagreements = [];
     let validationEpoch = 0;
+    let trustedEpoch = null;
+    let trustedPrimaryFile = null;
+    let trustedReliabilityFile = null;
+    let downloadFailed = false;
 
     function parseCsv(text, role) {
       if (typeof text !== "string") {
@@ -858,7 +881,7 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
 
     function renderDisagreements(differences) {
       disagreementSection.replaceChildren();
-      differences.forEach(difference => {
+      differences.forEach((difference, index) => {
         const row = document.createElement("article");
         row.dataset.testid = "disagreement-row";
         row.dataset.unitId = difference.unit_id;
@@ -871,18 +894,223 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
         values.textContent =
           "Primary: " + difference.primary_value +
           " · Reliability: " + difference.reliability_value;
-        row.append(heading, values);
+        const goldChoices = document.createElement("fieldset");
+        const legend = document.createElement("legend");
+        legend.textContent = "Gold adjudication";
+        goldChoices.append(legend);
+        TURN_STATES.forEach(state => {
+          const label = document.createElement("label");
+          const radio = document.createElement("input");
+          radio.type = "radio";
+          radio.name = "gold-" + index;
+          radio.value = state;
+          radio.addEventListener("change", () => {
+            downloadFailed = false;
+            recomputeExportEligibility(true);
+          });
+          label.append(radio, document.createTextNode(" Gold: " + state));
+          goldChoices.append(label);
+        });
+        row.append(heading, values, goldChoices);
         disagreementSection.append(row);
       });
+    }
+
+    function markInvalid(control, invalid) {
+      if (invalid) {
+        control.setAttribute("aria-invalid", "true");
+      } else {
+        control.removeAttribute("aria-invalid");
+      }
+    }
+
+    function validTimestamp(value) {
+      return TIMESTAMP_PATTERN.test(value) && !Number.isNaN(Date.parse(value));
+    }
+
+    function declarationObject() {
+      const primaryId = primaryLabelerId.value.trim();
+      const reliabilityId = reliabilityLabelerId.value.trim();
+      const idsValid = primaryId !== "" && reliabilityId !== "" &&
+        primaryId !== reliabilityId;
+      markInvalid(primaryLabelerId, !idsValid);
+      markInvalid(reliabilityLabelerId, !idsValid);
+      if (!idsValid) {
+        throw new Error("labeler IDs must be nonblank and distinct");
+      }
+
+      const primaryTimestamp = primaryCompletedAt.value;
+      const reliabilityTimestamp = reliabilityCompletedAt.value;
+      const primaryTimestampValid = validTimestamp(primaryTimestamp);
+      const reliabilityTimestampValid = validTimestamp(reliabilityTimestamp);
+      markInvalid(primaryCompletedAt, !primaryTimestampValid);
+      markInvalid(reliabilityCompletedAt, !reliabilityTimestampValid);
+      if (!primaryTimestampValid || !reliabilityTimestampValid) {
+        throw new Error(
+          "completion timestamps must be valid ISO-8601 with offsets"
+        );
+      }
+
+      return {
+        mode: "second_labeler",
+        primary_labeler_id: primaryId,
+        reliability_labeler_id: reliabilityId,
+        primary_completed_at: primaryTimestamp,
+        reliability_completed_at: reliabilityTimestamp,
+        test_retest_ratified: false
+      };
+    }
+
+    function adjudicationRows() {
+      return currentDisagreements.map((difference, index) => {
+        const fieldset = disagreementSection.querySelector(
+          '[data-testid="disagreement-row"]:nth-of-type(' + (index + 1) +
+          ') fieldset'
+        );
+        const choice = fieldset === null ? null : fieldset.querySelector(
+          'input[name="gold-' + index + '"]:checked'
+        );
+        if (choice === null) {
+          if (fieldset !== null) {
+            markInvalid(fieldset, true);
+          }
+          throw new Error(
+            "gold adjudication required for " + difference.unit_id +
+            " turn " + difference.member
+          );
+        }
+        if (!TURN_STATES.includes(choice.value)) {
+          markInvalid(fieldset, true);
+          throw new Error(
+            "gold adjudication must use frozen vocabulary for " +
+            difference.unit_id + " turn " + difference.member
+          );
+        }
+        markInvalid(fieldset, false);
+        return {
+          unit_id: difference.unit_id,
+          category: difference.category,
+          member: difference.member,
+          primary_value: difference.primary_value,
+          reliability_value: difference.reliability_value,
+          gold_value: choice.value,
+          adjudicator: "Jimmy",
+          adjudicated: true
+        };
+      });
+    }
+
+    function trustedValidationIsCurrent() {
+      return trustedEpoch !== null && trustedEpoch === validationEpoch &&
+        validatedPrimary !== null && validatedReliability !== null &&
+        primaryFile.files[0] === trustedPrimaryFile &&
+        reliabilityFile.files[0] === trustedReliabilityFile;
+    }
+
+    function setExportEnabled(enabled) {
+      declarationButton.disabled = !enabled;
+      adjudicationsButton.disabled = !enabled;
+    }
+
+    function recomputeExportEligibility(showError) {
+      setExportEnabled(false);
+      if (!trustedValidationIsCurrent() || downloadFailed) {
+        return;
+      }
+      try {
+        declarationObject();
+        adjudicationRows();
+        setExportEnabled(true);
+        errorMessage.textContent = "";
+      } catch (error) {
+        if (showError) {
+          errorMessage.textContent = error instanceof Error
+            ? error.message
+            : "Export validation failed unexpectedly.";
+        }
+      }
+    }
+
+    function artifactTexts() {
+      if (!trustedValidationIsCurrent()) {
+        throw new Error("current validated imports are required");
+      }
+      const declaration = declarationObject();
+      const adjudications = adjudicationRows();
+      return {
+        declaration: JSON.stringify(declaration, null, 2) + "\\n",
+        adjudications: adjudications.length === 0
+          ? ""
+          : adjudications.map(row => JSON.stringify(row)).join("\\n") + "\\n"
+      };
+    }
+
+    function downloadText(filename, text, mediaType) {
+      let anchor = null;
+      let objectUrl = null;
+      try {
+        const blob = new Blob([text], {type: mediaType});
+        objectUrl = URL.createObjectURL(blob);
+        if (typeof objectUrl !== "string" || objectUrl === "") {
+          throw new Error("object URL creation failed");
+        }
+        anchor = document.createElement("a");
+        anchor.href = objectUrl;
+        anchor.download = filename;
+        anchor.hidden = true;
+        document.body.append(anchor);
+        anchor.click();
+      } finally {
+        if (anchor !== null) {
+          anchor.remove();
+        }
+        if (objectUrl !== null) {
+          URL.revokeObjectURL(objectUrl);
+        }
+      }
+    }
+
+    function exportArtifact(kind) {
+      setExportEnabled(false);
+      try {
+        const artifacts = artifactTexts();
+        if (kind === "declaration") {
+          downloadText(
+            "reliability-declaration.json",
+            artifacts.declaration,
+            "application/json;charset=utf-8"
+          );
+        } else if (kind === "adjudications") {
+          downloadText(
+            "adjudications.jsonl",
+            artifacts.adjudications,
+            "application/x-ndjson;charset=utf-8"
+          );
+        } else {
+          throw new Error("unsupported export artifact");
+        }
+        downloadFailed = false;
+        errorMessage.textContent = "";
+        recomputeExportEligibility(false);
+      } catch (error) {
+        downloadFailed = true;
+        setExportEnabled(false);
+        errorMessage.textContent = error instanceof Error
+          ? error.message
+          : "Artifact generation or download failed unexpectedly.";
+      }
     }
 
     function clearTrustedState(message) {
       validatedPrimary = null;
       validatedReliability = null;
       currentDisagreements = [];
+      trustedEpoch = null;
+      trustedPrimaryFile = null;
+      trustedReliabilityFile = null;
+      downloadFailed = false;
       disagreementSection.replaceChildren();
-      declarationButton.disabled = true;
-      adjudicationsButton.disabled = true;
+      setExportEnabled(false);
       errorMessage.textContent = message;
       importStatus.textContent = "";
     }
@@ -967,12 +1195,16 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
         validatedPrimary = candidatePrimary;
         validatedReliability = candidateReliability;
         currentDisagreements = candidateDifferences;
+        trustedEpoch = epoch;
+        trustedPrimaryFile = primarySelection;
+        trustedReliabilityFile = reliabilitySelection;
         errorMessage.textContent = "";
         renderDisagreements(currentDisagreements);
         importStatus.textContent =
           "Validated primary: " + candidatePrimary.length +
           " rows; reliability: " + candidateReliability.length +
           " rows; disagreements: " + candidateDifferences.length + ".";
+        recomputeExportEligibility(false);
       } catch (error) {
         if (!validationIsCurrent(
           epoch, primarySelection, reliabilitySelection
@@ -992,6 +1224,23 @@ FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
     );
     primaryFile.addEventListener("change", revokeImportedState);
     reliabilityFile.addEventListener("change", revokeImportedState);
+    [
+      primaryLabelerId,
+      reliabilityLabelerId,
+      primaryCompletedAt,
+      reliabilityCompletedAt
+    ].forEach(control => {
+      control.addEventListener("input", () => {
+        downloadFailed = false;
+        recomputeExportEligibility(true);
+      });
+    });
+    declarationButton.addEventListener(
+      "click", () => exportArtifact("declaration")
+    );
+    adjudicationsButton.addEventListener(
+      "click", () => exportArtifact("adjudications")
+    );
   </script>
 </body>
 </html>"""

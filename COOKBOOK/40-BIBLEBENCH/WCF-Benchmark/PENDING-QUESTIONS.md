@@ -1,6 +1,31 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 exact `$28.13` amount-specific execution authority
+## OPEN 2026-07-15 — Pilot 2 reviewed live execution seams are incomplete
+
+- **Question:** Should Jimmy authorize the exact bounded **LIVE SEAM FIX**, or **DEFER**
+  Pilot 2 before credential access and empirical execution?
+- **Why it blocks:** The immutable v3 manifest remains correctly unauthorized and no
+  reviewed binder creates an authorized append-only copy; the live CLI cannot separately
+  invoke/persist the provider-canary, five-first-cell, and remaining-run gates; and no
+  reviewed command invokes OAuth judging plus analysis JSON generation. The already
+  authorized sequence cannot safely begin through current production entry points.
+- **Evidence:** `20260715aj-wcf-pilot2-s63-live-execution-seam-stop.md`. No credential,
+  balance, OAuth, inference, run directory, or spend occurred; empirical execution is 0%.
+- **Suggested default:** **LIVE SEAM FIX** only the authorization binder, persisted
+  three-phase live runner, and judge/scoring/analysis driver. One fresh TDD implementation
+  agent, specification review, and quality review; no live/auth call before both PASS. If
+  they pass, resume the existing strict `$28.13` authority at the balance gate without
+  expanding it.
+
+## RESOLVED 2026-07-15 — Pilot 2 exact `$28.13` amount-specific execution authority
+
+- **Disposition:** Jimmy selected **PROCEED** under the strict cumulative `$28.13`
+  OpenRouter NTE and the registered gated sequence. Exact authority is recorded in
+  `20260715ai-jimmy-pilot2-s62-28-13-execution-authorization-record.md`.
+- **Effect:** Codex may run the private balance check, registered zero-dollar OAuth canary,
+  five provider canaries, five first bank cells, and—only after all gates pass—one immutable
+  run, OAuth judging, analysis, and the non-quotable supplement. No top-up, substitution,
+  fallback, rerun, T4 work, ranking, release claim, or spend above `$28.13` is authorized.
 
 - **Question:** Does Jimmy authorize credential/private-balance access and the registered
   gated Pilot 2 sequence under the exact strict cumulative `$28.13` OpenRouter NTE, with no

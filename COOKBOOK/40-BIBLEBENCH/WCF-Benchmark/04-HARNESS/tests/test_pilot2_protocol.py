@@ -294,6 +294,7 @@ def test_oauth_canary_fixture_is_exact_16_and_has_near_ceiling_record():
 
 def test_immutable_custody_budget_and_missing_checkpoint(tmp_path):
     manifest = _manifest()
+    manifest["authorization_gate"]["paid_inference"] = True
     manifest_path = tmp_path / "manifest.json"
     manifest_path.write_text(json.dumps(manifest))
     state = live.prepare_run(manifest_path, tmp_path / "run", cap_usd=0.01)

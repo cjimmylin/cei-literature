@@ -1,6 +1,28 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 residual cross-seam P1s after the single correction cycle
+## OPEN 2026-07-15 — Pilot 2 fresh quality review found four new P1s
+
+- **Question:** Should Jimmy authorize one exact **QUALITY FIX** cycle for the four
+  reproduced P1s, or **DEFER** Pilot 2 before public preflight?
+- **Why it blocks:** Specification passed, but fresh quality review reproduced canary
+  reissue/spend undercount, non-cancelling terminal shards, ambiguous post-submit failures
+  recorded as free, and OAuth judge invocation without manifest/canary authorization.
+  Quality FAIL blocks the public preflight.
+- **Evidence:** Exact reproductions and positive checks are frozen in
+  `20260715x-wcf-pilot2-s59-quality-stop.md`. The full offline suite passed 867/867. Session
+  59 made no public metadata, auth, OAuth, or inference call and spent `$0.00`.
+- **Suggested default:** **FIX** only these four P1s with explicit regressions; have the
+  same quality reviewer re-check only those blockers; run no public preflight before PASS.
+
+## RESOLVED 2026-07-15 — Pilot 2 residual cross-seam P1s after the single correction cycle
+
+- **Disposition:** Jimmy selected **FIX**. The exact seven-residual authority is recorded
+  in `20260715v-jimmy-pilot2-s58-residual-fix-authorization-record.md`.
+- **Effect:** One exact residual correction cycle may run with TDD, followed by the same
+  named-only specification re-review and, only after PASS, one fresh quality review. One
+  public-catalog-only zero-paid preflight may run only after both reviews pass. No
+  credentials, balance access, OAuth task, inference, paid call, top-up, or cap is
+  authorized.
 
 - **Question:** Should Jimmy authorize one exact residual **FIX** cycle for the three
   still-failing original P1 categories, or **DEFER** Pilot 2 before public preflight?

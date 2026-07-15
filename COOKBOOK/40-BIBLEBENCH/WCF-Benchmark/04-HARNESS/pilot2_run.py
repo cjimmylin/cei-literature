@@ -42,19 +42,33 @@ def build_sut_request(
     row = _model_row(manifest, slug)
     parameters = row.get("request_parameters")
     policy = row.get("provider_policy")
+    prices = row.get("prices_per_token") or {}
+    try:
+        frozen_max_price = {
+            "prompt": float(policy["max_price"]["prompt"]),
+            "completion": float(policy["max_price"]["completion"]),
+        }
+        frozen_prices = {
+            "prompt": float(prices["prompt"]) * 1_000_000,
+            "completion": float(prices["completion"]) * 1_000_000,
+        }
+    except (KeyError, TypeError, ValueError) as exc:
+        raise TerminalStop(f"request price contract drifted: {slug}") from exc
     expected_policy = {
         "order": [spec.provider],
         "allow_fallbacks": False,
         "require_parameters": True,
         "data_collection": "deny",
-        "max_price": {
-            "prompt": spec.prompt_price_per_token * 1_000_000,
-            "completion": spec.completion_price_per_token * 1_000_000,
-        },
+        "max_price": frozen_max_price,
     }
     if parameters != {
             "temperature": 0, "max_tokens": 8192,
-            "reasoning": spec.reasoning} or policy != expected_policy:
+            "reasoning": spec.reasoning} or policy != expected_policy \
+            or frozen_max_price != frozen_prices \
+            or frozen_max_price["prompt"] > spec.prompt_price_per_token * 1_000_000 \
+            or frozen_max_price["completion"] > spec.completion_price_per_token * 1_000_000 \
+            or not all(math.isfinite(value) and value > 0
+                       for value in frozen_max_price.values()):
         raise TerminalStop(f"request contract drifted: {slug}")
     return {
         "model": slug,

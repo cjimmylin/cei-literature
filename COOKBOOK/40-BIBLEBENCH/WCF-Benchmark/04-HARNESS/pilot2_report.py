@@ -20,8 +20,13 @@ def _require_complete_empirical(dataset: Mapping[str, Any]) -> list:
     """Fail closed unless all five scalar surfaces meet the registered gate."""
     cells = dataset.get("cells")
     rows = dataset.get("per_sut")
-    if not isinstance(cells, list) or len(cells) != 222 * len(preflight.SUTS):
-        raise ReportError("complete empirical scalar evidence is required")
+    if not isinstance(cells, list) or len(cells) != 226 * len(preflight.SUTS):
+        raise ReportError("complete empirical scorable evidence is required")
+    contested = [row for row in cells if row.get("route") == "contested"]
+    scalar = [row for row in cells if row.get("route") != "contested"]
+    if len(contested) != 4 * len(preflight.SUTS) \
+            or len(scalar) != 222 * len(preflight.SUTS):
+        raise ReportError("complete empirical 1,110/20 reporting split is required")
     if not isinstance(rows, list) or len(rows) != len(preflight.SUTS):
         raise ReportError("complete empirical per-SUT summaries are required")
     keyed = {row.get("sut"): row for row in rows if isinstance(row, Mapping)}
@@ -30,6 +35,10 @@ def _require_complete_empirical(dataset: Mapping[str, Any]) -> list:
     ordered = []
     for slug in preflight.SUTS:
         row = dict(keyed[slug])
+        sut_cells = [cell for cell in cells if cell.get("sut") == slug]
+        if (len(sut_cells) != 226
+                or sum(cell.get("route") == "contested" for cell in sut_cells) != 4):
+            raise ReportError(f"complete empirical scorable geometry missing for {slug}")
         if row.get("scalar_denominator") != 222:
             raise ReportError(f"complete empirical denominator missing for {slug}")
         numeric = row.get("numeric")

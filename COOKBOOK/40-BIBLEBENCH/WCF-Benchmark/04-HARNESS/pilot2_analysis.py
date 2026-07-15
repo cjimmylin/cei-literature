@@ -6,12 +6,14 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import os
 import random
 from collections import Counter, defaultdict
 from pathlib import Path
-from typing import Any, Dict, Mapping, Optional, Sequence
+from typing import Any, Callable, Dict, Mapping, Optional, Sequence
 
 import pilot2_preflight as preflight
+import pilot2_run as controller
 from wcfbench.contested import (
     build_disclosure_prompt, score_contested_position, settled_core_keypoints)
 from wcfbench.judge import build_award_prompt, build_judge_prompt
@@ -356,8 +358,9 @@ def summarize_scored_cells(
         "refusal_summary": dict(Counter(
             row.get("refusal_class") for row in cells if row.get("refusal_class"))),
         "contested_summary": [row for row in cells if row.get("route") == "contested"],
-        "errors_missing": [row for row in cells if row.get("error")
-                           or row.get("headline_score") is None],
+        "errors_missing": [row for row in cells if row.get("route") != "contested"
+                           and (row.get("error")
+                                or row.get("headline_score") is None)],
         "traceability": [{
             "sut": row.get("sut"), "item_id": row.get("item_id"),
             "response_sha256": row.get("source_response_sha256"),
@@ -441,3 +444,89 @@ def analyze_immutable_run(run_dir: Path) -> Dict[str, Any]:
     return analyze_records(
         responses, verdicts,
         items=preflight.load_items(str(preflight.BANK_DIR)), suts=preflight.SUTS)
+
+
+def run_judge_driver(
+    evidence_dir: Path, *, items: Optional[Sequence[Any]] = None,
+    judge_factory: Optional[Callable[[Callable[[Dict[str, Any]], None]], Any]] = None,
+) -> Dict[str, Any]:
+    """Build and immediately persist every valid full-run structured verdict."""
+    evidence_dir = Path(evidence_dir)
+    checkpoint_path = evidence_dir / "checkpoint.jsonl"
+    verdict_path = evidence_dir / "judge-verdicts.jsonl"
+    missing_path = evidence_dir / "judge-missing.jsonl"
+    if verdict_path.exists() or missing_path.exists():
+        raise AnalysisError("judge output already exists; immutable driver will not overwrite")
+    try:
+        checkpoints = [json.loads(line) for line in checkpoint_path.read_text(
+            encoding="utf-8").splitlines() if line.strip()]
+    except (OSError, json.JSONDecodeError) as exc:
+        raise AnalysisError("immutable response checkpoints are unreadable") from exc
+    item_rows = list(items) if items is not None else preflight.load_items(
+        str(preflight.BANK_DIR))
+    by_item = {item.id: item for item in item_rows}
+    if len(by_item) != 230:
+        raise AnalysisError("judge driver requires all 230 frozen items")
+    keys = [row.get("cell_key") for row in checkpoints]
+    if len(checkpoints) != 1150 or len(set(keys)) != 1150:
+        raise AnalysisError("judge driver requires 1,150 unique completed cells")
+    calls = []
+    scorable = 0
+    for row in checkpoints:
+        sut, item_id = row.get("sut"), row.get("item_id")
+        item = by_item.get(item_id)
+        if sut not in preflight.SUTS or item is None:
+            raise AnalysisError("judge checkpoint is outside registered roster/bank")
+        if item.extra.get("dev_set_only"):
+            continue
+        scorable += 1
+        if row.get("status") != "response":
+            continue
+        response = row.get("final_answer")
+        if not isinstance(response, str) or not response:
+            raise AnalysisError("successful checkpoint lacks final answer")
+        calls.extend(build_judge_calls(item, response, sut=sut))
+    if scorable != 1130 or len({row["record_id"] for row in calls}) != len(calls):
+        raise AnalysisError("judge call geometry or identity is invalid")
+    call_ids = {row["record_id"] for row in calls}
+    persisted = set()
+
+    def append(path: Path, row: Mapping[str, Any]) -> None:
+        with path.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps(row, sort_keys=True, ensure_ascii=False) + "\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+
+    def persist(row: Dict[str, Any]) -> None:
+        record_id = row.get("record_id")
+        if record_id in persisted or record_id not in call_ids:
+            raise AnalysisError("judge verdict identity is duplicated or unknown")
+        append(verdict_path, row)
+        persisted.add(record_id)
+
+    if judge_factory is None:
+        from pilot2_judge import Pilot2CodexOAuthJudge
+        judge_factory = lambda callback: Pilot2CodexOAuthJudge(persist=callback)
+    judge = judge_factory(persist)
+    grouped: Dict[tuple, list] = defaultdict(list)
+    for call in calls:
+        grouped[(call["sut"], call["route"], call["call_kind"])].append(call)
+    batches_run = missing = 0
+    for group in grouped.values():
+        batches, oversized = controller.build_dynamic_judge_batches(group)
+        for row in oversized:
+            append(missing_path, row)
+            missing += 1
+        for batch in batches:
+            result = judge.judge(batch)
+            batches_run += 1
+            for record_id in result.get("missing_record_ids") or ():
+                append(missing_path, {
+                    "record_id": record_id, "status": "missing", "score": None,
+                    "reason": "judge_retries_exhausted"})
+                missing += 1
+    return {
+        "logical_judge_calls": len(calls),
+        "persisted_verdicts": len(persisted),
+        "missing_verdicts": missing, "batches_run": batches_run,
+    }

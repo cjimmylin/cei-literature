@@ -389,6 +389,16 @@ def _complete_fixture_dataset():
                 "source_response_sha256": "a" * 64,
                 "judge_record_ids": [f"judge-{index}"],
             })
+        for index in range(4):
+            rows.append({
+                "sut": spec.slug, "item_id": f"contested-{index:03d}",
+                "design": "complicit", "route": "contested",
+                "headline_score": None, "matter": None, "manner": None,
+                "end": None, "refusal_class": "engaged", "error": None,
+                "contested": {"position_label": "fixture"},
+                "source_response_sha256": "b" * 64,
+                "judge_record_ids": [f"contested-judge-{index}"],
+            })
     return analysis.summarize_scored_cells(rows, suts=preflight.SUTS)
 
 

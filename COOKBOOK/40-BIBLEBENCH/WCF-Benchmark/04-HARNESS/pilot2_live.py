@@ -22,6 +22,7 @@ import pilot2_preflight as preflight
 import pilot2_run as controller
 from wcfbench.promptbuilder import build_examinee_prompt
 from wcfbench import scorer_kind
+from wcfbench.mvp import fetch_key_snapshot
 
 
 MANIFEST_COPY = "pilot2-manifest.json"
@@ -164,6 +165,11 @@ def _load_manifest(path: Path) -> Dict[str, Any]:
     return manifest
 
 
+def _require_paid_authorization(manifest: Mapping[str, Any]) -> None:
+    if (manifest.get("authorization_gate") or {}).get("paid_inference") is not True:
+        raise CustodyStop("manifest lacks amount-specific paid authorization")
+
+
 def build_cells(manifest: Mapping[str, Any]) -> list:
     schedule = manifest.get("schedule") or {}
     all_ids = list(schedule.get("all_item_ids") or ())
@@ -228,6 +234,7 @@ def prepare_run(
     manifest_path = Path(manifest_path).resolve()
     run_dir = Path(run_dir).resolve()
     manifest = _load_manifest(manifest_path)
+    _require_paid_authorization(manifest)
     try:
         proposed = float((manifest.get("planning_cost") or {})["proposed_cap_usd"])
     except (KeyError, TypeError, ValueError) as exc:
@@ -611,6 +618,7 @@ def execute(
     manifest: Mapping[str, Any], state: RunState,
     transport: Callable[[Dict[str, Any]], Mapping[str, Any]],
 ) -> list:
+    _require_paid_authorization(manifest)
     run_provider_canaries(manifest, state, transport)
     items = {item.id: item for item in preflight.load_items(str(preflight.BANK_DIR))}
     cells = build_cells(manifest)
@@ -618,8 +626,13 @@ def execute(
               for sut in preflight.SUTS}
     for sut in preflight.SUTS:
         first = by_sut[sut][0]
-        run_cell(first, manifest=manifest, state=state, transport=transport,
-                 items=items, require_reasoning_gate=True)
+        outcome = run_cell(
+            first, manifest=manifest, state=state, transport=transport,
+            items=items, require_reasoning_gate=True)
+        if outcome.get("status") != "response" or sut not in state.first_validated:
+            if hasattr(state, "run_dir") and hasattr(state, "lock"):
+                _terminal(state, "five first real cells did not all PASS", sut=sut)
+            raise CustodyStop("five first real cells must all PASS before shards")
     shards = controller.build_sut_shards(preflight.SUTS)
 
     def shard_worker(shard: Sequence[str]) -> None:
@@ -647,9 +660,27 @@ def _default_transport(api_key: str) -> Callable[[Dict[str, Any]], Mapping[str, 
     return transport
 
 
+def _require_sufficient_balance(
+    manifest: Mapping[str, Any], api_key: str,
+    balance_fetch: Callable[[str], Mapping[str, Any]],
+) -> float:
+    try:
+        required = float((manifest.get("auth_balance") or {})[
+            "required_balance_usd"])
+        snapshot = balance_fetch(api_key)
+        remaining = float(snapshot["limit_remaining"])
+    except (KeyError, TypeError, ValueError, OSError) as exc:
+        raise CustodyStop("registered OpenRouter balance is unavailable") from exc
+    if (not math.isfinite(required) or required <= 0
+            or not math.isfinite(remaining) or remaining < required):
+        raise CustodyStop("insufficient registered OpenRouter balance")
+    return remaining
+
+
 def main(
     argv: Optional[Sequence[str]] = None, *,
     runtime_fetch: Callable[[], Any] = preflight.fetch_public_catalog,
+    balance_fetch: Callable[[str], Mapping[str, Any]] = fetch_key_snapshot,
     transport_factory: Callable[[str], Callable[[Dict[str, Any]], Mapping[str, Any]]] =
         _default_transport,
     execute_fn: Callable[[Mapping[str, Any], RunState,
@@ -679,6 +710,7 @@ def main(
             raise CustodyStop("CLI cap must equal the amount-specific authorized cap")
         catalog, endpoints = runtime_fetch()
         validate_runtime_catalog(manifest, catalog, endpoints)
+        _require_sufficient_balance(manifest, key, balance_fetch)
         state = prepare_run(
             args.manifest, args.output_dir, cap_usd=args.cap, resume=args.resume)
         transport = transport_factory(key)

@@ -286,7 +286,7 @@ def build_cost_plan(models: Sequence[Mapping[str, Any]]) -> Dict[str, Any]:
     attempts = sum(row["attempt_envelope_252_calls_usd"] for row in rows)
     canary_one = sum(row["provider_canary_one_attempt_usd"] for row in rows)
     canary_two = sum(row["provider_canary_two_attempt_usd"] for row in rows)
-    return {
+    result = {
         "validity_label": VALIDITY_LABEL,
         "rows": rows,
         "totals": {
@@ -306,6 +306,9 @@ def build_cost_plan(models: Sequence[Mapping[str, Any]]) -> Dict[str, Any]:
             "top_up_usd": None,
         },
     }
+    result["auth_balance"]["required_balance_usd"] = (
+        result["totals"]["proposed_cap_usd"])
+    return result
 
 
 def build_manifest(

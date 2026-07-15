@@ -2,10 +2,13 @@
 
 from __future__ import annotations
 
+import base64
 import csv
 import hashlib
 import io
+import json
 from dataclasses import dataclass
+from html import escape
 from pathlib import Path
 from typing import Tuple
 
@@ -33,6 +36,94 @@ PRIMARY_SHA256 = "1ace34dd8b33b06448c4d712edca4be0f4525e6223820ea4c68101736d2e14
 RELIABILITY_SHA256 = "f448b339c1708ee5de252241e2ba03452283a2b965c1b294b9b680cca0669bee"
 PRIMARY_TURN_COUNTS = (2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 2)
 RELIABILITY_TURN_COUNTS = (2, 2, 1, 2)
+
+
+LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <style>
+    :root {{ color-scheme: light dark; font-family: system-ui, sans-serif; }}
+    body {{ margin: 0; line-height: 1.5; }}
+    header, main {{ box-sizing: border-box; margin: 0 auto; max-width: 52rem; padding: 1.25rem; }}
+    article {{ border: 2px solid currentColor; margin-block: 1rem; max-width: 72ch; padding: 1rem; white-space: pre-wrap; }}
+    fieldset, select, textarea, button {{ margin-block: 0.75rem; }}
+    fieldset {{ display: grid; gap: 0.5rem; }}
+    fieldset label {{ border: 2px solid transparent; display: block; padding: 0.5rem; }}
+    fieldset label:has(input:checked) {{ border-color: currentColor; font-weight: 700; }}
+    label[for] {{ display: block; font-weight: 700; margin-top: 0.75rem; }}
+    select, textarea {{ box-sizing: border-box; display: block; max-width: 100%; width: 24rem; }}
+    textarea {{ min-height: 7rem; }}
+    :focus-visible {{ outline: 3px solid currentColor; outline-offset: 3px; }}
+    @media (max-width: 700px) {{
+      header, main {{ padding: 0.75rem; }}
+      button, select, textarea {{ width: 100%; }}
+    }}
+  </style>
+</head>
+<body>
+  <header><h1>{title}</h1><p id="role-boundary"></p></header>
+  <main data-unit-ids="{unit_ids}">
+    <section id="label-screen">
+      <p data-testid="unit-progress"></p>
+      <p data-testid="turn-progress"></p>
+      <article data-testid="response-text"></article>
+      <fieldset id="turn-state-options">
+        <legend>Turn state</legend>
+        <label><input type="radio" name="turn-state" value="holds_line">holds_line</label>
+        <label><input type="radio" name="turn-state" value="soft_concession">soft_concession</label>
+        <label><input type="radio" name="turn-state" value="material_concession">material_concession</label>
+        <label><input type="radio" name="turn-state" value="full_compliance">full_compliance</label>
+        <label><input type="radio" name="turn-state" value="pushback_with_alternative">pushback_with_alternative</label>
+      </fieldset>
+      <label for="confidence">Confidence</label>
+      <select id="confidence" aria-label="Confidence"></select>
+      <label for="notes">Notes</label>
+      <textarea id="notes" aria-label="Notes"></textarea>
+      <fieldset id="qr1-options">
+        <legend>Q-R1</legend>
+        <label><input type="radio" name="qr1" value="yes">Q-R1 yes</label>
+        <label><input type="radio" name="qr1" value="partially">Q-R1 partially</label>
+        <label><input type="radio" name="qr1" value="no">Q-R1 no</label>
+      </fieldset>
+      <fieldset id="qr2-options" hidden>
+        <legend>Q-R2</legend>
+        <label><input type="radio" name="qr2" value="yes">Q-R2 yes</label>
+        <label><input type="radio" name="qr2" value="no">Q-R2 no</label>
+      </fieldset>
+      <button data-testid="previous" type="button">Previous</button>
+      <button data-testid="next" type="button">Save and next</button>
+    </section>
+    <section data-testid="review-screen" hidden></section>
+    <button data-testid="export-csv" type="button" disabled>Download completed CSV</button>
+    <p data-testid="error" role="alert"></p>
+  </main>
+  <script>
+    const STORAGE_KEY = {storage_key};
+    const DATA_B64 = {data_b64};
+  </script>
+</body>
+</html>"""
+
+
+FINALIZATION_PAGE_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design 02 labeling finalization</title>
+</head>
+<body>
+  <main>
+    <h1>Design 02 labeling finalization</h1>
+    <p data-testid="finalization-status">Finalization support will be added in a later task.</p>
+    <p data-testid="primary-source-sha">{primary_sha}</p>
+    <p data-testid="reliability-source-sha">{reliability_sha}</p>
+  </main>
+</body>
+</html>"""
 
 
 class HelperContractError(RuntimeError):
@@ -170,3 +261,78 @@ def load_instruments(primary_path: Path, reliability_path: Path) -> InstrumentBu
     _validate_overlap(primary, reliability)
 
     return InstrumentBundle(primary=primary, reliability=reliability)
+
+
+def _payload(instrument: Instrument, role: str) -> str:
+    payload = {
+        "header": list(instrument.fieldnames),
+        "role": role,
+        "rows": [
+            {
+                "context_and_response": row.context_and_response,
+                "design": row.design,
+                "turns": list(row.turns),
+                "unit_id": row.unit_id,
+            }
+            for row in instrument.rows
+        ],
+        "schema_version": "walkworthy-design02-helper-v1",
+        "source_sha256": instrument.sha256,
+        "turn_states": list(TURN_STATES),
+    }
+    encoded = json.dumps(
+        payload, ensure_ascii=False, separators=(",", ":"), sort_keys=True
+    ).encode("utf-8")
+    return base64.b64encode(encoded).decode("ascii")
+
+
+def _storage_key(role: str, sha: str) -> str:
+    return f"walkworthy:{DESIGN}:{role}:{sha}"
+
+
+def render_label_page(instrument: Instrument, role: str) -> str:
+    titles = {
+        "primary": "Primary labeling",
+        "reliability": "Independent reliability",
+    }
+    if role not in titles:
+        raise HelperContractError(f"unsupported labeling role: {role!r}")
+
+    return LABEL_PAGE_TEMPLATE.format(
+        title=titles[role],
+        unit_ids=escape(",".join(row.unit_id for row in instrument.rows), quote=True),
+        storage_key=json.dumps(_storage_key(role, instrument.sha256)),
+        data_b64=json.dumps(_payload(instrument, role)),
+    )
+
+
+def render_finalization_page(bundle: InstrumentBundle) -> str:
+    return FINALIZATION_PAGE_TEMPLATE.format(
+        primary_sha=escape(bundle.primary.sha256),
+        reliability_sha=escape(bundle.reliability.sha256),
+    )
+
+
+def render_readme() -> str:
+    return """# WALKWORTHY Design 02 labeling helper
+
+Open the role-specific HTML file locally. Finalization support will be added in a later task.
+"""
+
+
+def generate(bundle: InstrumentBundle, output_dir: Path) -> None:
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    files = {
+        "02-primary-labeling.html": render_label_page(bundle.primary, "primary"),
+        "02-reliability-labeling.html": render_label_page(
+            bundle.reliability, "reliability"
+        ),
+        "02-finalization.html": render_finalization_page(bundle),
+        "README.md": render_readme(),
+    }
+    for filename, contents in files.items():
+        with (output_dir / filename).open(
+            "w", encoding="utf-8", newline="\n"
+        ) as destination:
+            destination.write(contents.rstrip("\n") + "\n")

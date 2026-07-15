@@ -233,3 +233,59 @@ def test_contract_dataclasses_are_immutable():
     ):
         with pytest.raises(FrozenInstanceError):
             setattr(value, field, None)
+
+
+def test_generate_label_pages_are_self_contained_blind_and_role_separated(tmp_path):
+    bundle = helper.load_instruments(PRIMARY, RELIABILITY)
+
+    helper.generate(bundle, tmp_path)
+
+    primary = (tmp_path / "02-primary-labeling.html").read_text(encoding="utf-8")
+    reliability = (tmp_path / "02-reliability-labeling.html").read_text(
+        encoding="utf-8"
+    )
+
+    assert primary.count("<!DOCTYPE html>") == 1
+    assert reliability.count("<!DOCTYPE html>") == 1
+    assert "walkworthy:02-twomasters:primary:" in primary
+    assert "walkworthy:02-twomasters:reliability:" in reliability
+    assert "walkworthy:02-twomasters:primary:" not in reliability
+    assert "02-twomasters-U011" in primary
+    assert "02-twomasters-U004" not in reliability
+
+    forbidden = (
+        "02-twomasters-partA.jsonl",
+        "judge_report",
+        "scalar_by_judge",
+        "openrouter",
+        "HOLDOUT",
+        "fetch(",
+        "XMLHttpRequest",
+        "WebSocket",
+        "http://",
+        "https://",
+        "<link ",
+        "<script src=",
+    )
+    for document in (primary, reliability):
+        assert all(value not in document for value in forbidden)
+        assert 'data-testid="response-text"' in document
+        assert 'data-testid="review-screen"' in document
+        assert 'data-testid="export-csv"' in document
+
+
+def test_generation_is_byte_deterministic(tmp_path):
+    bundle = helper.load_instruments(PRIMARY, RELIABILITY)
+    first = tmp_path / "first"
+    second = tmp_path / "second"
+
+    helper.generate(bundle, first)
+    helper.generate(bundle, second)
+
+    first_files = {
+        path.name: path.read_bytes() for path in sorted(first.iterdir())
+    }
+    second_files = {
+        path.name: path.read_bytes() for path in sorted(second.iterdir())
+    }
+    assert first_files == second_files

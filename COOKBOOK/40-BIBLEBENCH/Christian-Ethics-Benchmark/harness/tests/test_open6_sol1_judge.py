@@ -135,6 +135,7 @@ def test_judge_request_uses_exact_closed_schema_and_is_byte_stable(benchmark_roo
     second = judge.build_judge_request(batch)
 
     assert first == second
+    assert first.logical_key == f"sol:judge:{batch.batch_id}"
     assert first.expected_unit_keys == tuple(unit.unit_key for unit in batch.units)
     assert first.schema["additionalProperties"] is False
     verdict = first.schema["properties"]["verdicts"]["items"]

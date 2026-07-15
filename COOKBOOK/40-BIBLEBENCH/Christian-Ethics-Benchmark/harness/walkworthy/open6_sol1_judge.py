@@ -313,7 +313,7 @@ def build_judge_request(batch: JudgeBatch) -> JudgeRequest:
     prompt = contract["prompt"]["system_text"] + "\n\n" + user
     keys = tuple(unit.unit_key for unit in batch.units)
     return JudgeRequest(
-        logical_key="judge:" + batch.batch_id,
+        logical_key="sol:judge:" + batch.batch_id,
         batch_id=batch.batch_id,
         design=batch.design,
         prompt=prompt,

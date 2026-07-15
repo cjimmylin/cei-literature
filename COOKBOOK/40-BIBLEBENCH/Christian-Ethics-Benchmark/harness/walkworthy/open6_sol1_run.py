@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 import threading
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -39,9 +40,12 @@ from .open6_sol1 import (
     sol_runtime_contract,
 )
 from .open6_sol1_runtime import (
+    BudgetStop,
     ContractStop,
     MAX_CONCURRENCY,
+    SOL_FAILURES,
     SUT_SPECS,
+    ThreadStop,
 )
 from .parsers import AllocationParse
 
@@ -53,9 +57,69 @@ EXECUTION_NAME = "executions.jsonl"
 FAILURE_NAME = "failures.jsonl"
 CHECKPOINT_NAME = "checkpoints.jsonl"
 CATALOG_SNAPSHOT_NAME = "catalog-snapshot.json"
+CATALOG_REVALIDATION_NAME = "catalog-revalidations.jsonl"
 OPENROUTER_ATTEMPT_CUSTODY_NAME = "openrouter-attempt-custody.jsonl"
 SOL_ATTEMPT_CUSTODY_NAME = "sol-attempt-custody.jsonl"
 RUN_MODE_NAME = "run-mode.json"
+TERMINAL_UNRESOLVED_NAME = "terminal-unresolved-sut.jsonl"
+
+TERMINAL_SUT_FAILURES = frozenset({
+    "http_failure", "empty", "malformed", "wrong_model", "missing_cost",
+    "interrupted", "custody_failure",
+})
+
+
+class UnattendedStop(RuntimeError):
+    """A registered systemic condition that must halt unattended execution."""
+
+
+def _registered_sol_attempt_role(logical_key):
+    if isinstance(logical_key, str) and logical_key.startswith("sol:classifier:"):
+        return "classifier"
+    if isinstance(logical_key, str) and logical_key.startswith("sol:judge:"):
+        return "judge"
+    raise ContractStop("unregistered Sol attempt prefix")
+
+
+def _raise_if_systemic_terminal(source_role, custody_records, failure_class=None):
+    """Halt only on the owner's narrow provider/OAuth systemic patterns."""
+    if source_role == "sut":
+        for record in custody_records:
+            status = record.get("status")
+            body_text = json.dumps(
+                record.get("body", {}), ensure_ascii=False,
+                sort_keys=True).casefold()
+            if status in (401, 402, 403):
+                raise UnattendedStop(
+                    f"OpenRouter authorization/credit stop: HTTP {status}")
+            if any(pattern in body_text for pattern in (
+                    "no endpoints found", "no eligible provider",
+                    "model unavailable", "model not found")):
+                raise UnattendedStop(
+                    "OpenRouter exact-model/provider unavailability stop")
+            if (status is not None and status != 200
+                    and status not in (408, 409, 425, 429)
+                    and not (type(status) is int and 500 <= status <= 599)):
+                raise UnattendedStop(
+                    f"unregistered OpenRouter HTTP stop: {status}")
+        if failure_class == "wrong_model":
+            raise UnattendedStop("OpenRouter exact-model mismatch stop")
+        return None
+    if source_role == "classifier":
+        for record in custody_records:
+            stderr = record.get("stderr", "")
+            error_class = record.get("error_class")
+            if not isinstance(stderr, str):
+                raise UnattendedStop("unregistered Sol stderr custody")
+            lowered = stderr.casefold()
+            if any(pattern in lowered for pattern in (
+                    "usage limit", "usage_limit", "quota exceeded",
+                    "insufficient quota")):
+                raise UnattendedStop("Sol OAuth quota/usage-limit stop")
+            if error_class == "cli_failure":
+                raise UnattendedStop("unregistered Sol CLI failure stop")
+        return None
+    raise ContractStop("invalid terminal source role")
 
 
 def _canonical_line(value) -> bytes:
@@ -78,6 +142,65 @@ def value_sha256(value) -> str:
 def transport_payload_hash(payload) -> str:
     """Match the registered OpenRouter transport's exact JSON-byte hashing."""
     return hashlib.sha256(json.dumps(payload).encode("utf-8")).hexdigest()
+
+
+def _ledger_attempts_for_key(ledger, logical_key, candidate_ids=()):
+    """Return every persisted attempt for one key using the ledger's public API."""
+    ids = {attempt for attempt in candidate_ids if type(attempt) is int}
+    snapshot_method = getattr(ledger, "snapshot", None)
+    if callable(snapshot_method):
+        summary = snapshot_method()
+        total = summary.get("attempts") if isinstance(summary, dict) else None
+        if type(total) is not int or total < 0:
+            raise ContractStop("invalid attempt-ledger snapshot")
+        persisted_starts = getattr(ledger, "_starts", None)
+        if not isinstance(persisted_starts, dict):
+            persisted_starts = getattr(ledger, "starts", None)
+        if isinstance(persisted_starts, dict):
+            for attempt, start in persisted_starts.items():
+                if (type(attempt) is int and isinstance(start, dict)
+                        and start.get("logical_key") == logical_key):
+                    ids.add(attempt)
+        else:
+            for attempt in range(1, total + 1):
+                snapshot = ledger.attempt_snapshot(attempt)
+                if (snapshot.get("start") or {}).get("logical_key") == logical_key:
+                    ids.add(attempt)
+    return [(attempt, ledger.attempt_snapshot(attempt))
+            for attempt in sorted(ids)]
+
+
+def _merge_attempt_ids(prefix, current):
+    attempt_ids = list(prefix) + list(current)
+    if (not attempt_ids or any(type(attempt) is not int for attempt in attempt_ids)
+            or len(attempt_ids) != len(set(attempt_ids))):
+        raise ContractStop("invalid recovered attempt lineage")
+    return attempt_ids
+
+
+def _raise_recovered_second_failure(source_role, logical_key, attempts):
+    """Convert a crash-stranded exhausted replay into the registered stop seam."""
+    if len(attempts) > 2:
+        raise ContractStop(f"too many recovered attempts for {logical_key}")
+    if len(attempts) < 2:
+        return None
+    finishes = [snapshot.get("finish") for _, snapshot in attempts]
+    if source_role == "sut":
+        if any(finish is None or finish.get("failure") is None
+               for finish in finishes):
+            raise ContractStop(
+                f"recovered OpenRouter replay is not exhausted: {logical_key}")
+        failure = finishes[-1].get("failure")
+        raise ThreadStop(
+            f"OpenRouter second failure for {logical_key}: {failure}")
+    if source_role == "classifier":
+        if any(finish is None or finish.get("valid") is not False
+               or finish.get("error_class") is None for finish in finishes):
+            raise ContractStop(
+                f"recovered Sol replay is not exhausted: {logical_key}")
+        failure = finishes[-1].get("error_class")
+        raise ThreadStop(f"Sol second failure for {logical_key}: {failure}")
+    raise ContractStop("invalid recovered-attempt source role")
 
 
 _LOCKS = {}
@@ -246,6 +369,110 @@ class AppendOnlyStore:
         return self.append(record)
 
 
+class SoftBudgetGuard:
+    """Owner-registered $15 checkpoint and conservative $23 continuation guard."""
+
+    BOOKED_TRIGGER = Decimal("15.00")
+    PROJECTED_TOTAL_CAP = Decimal("23.00")
+
+    def __init__(self, expected_calls, call_store, terminal_store, ledger,
+                 checkpoint_store):
+        self.expected_calls = frozenset(expected_calls)
+        self.call_store = call_store
+        self.terminal_store = terminal_store
+        self.ledger = ledger
+        self.checkpoint_store = checkpoint_store
+        self._lock = threading.Lock()
+        self._persisted = False
+
+    def projection(self):
+        specs = {spec.slug: spec for spec in SUT_SPECS}
+        if any(spec.input_envelope != 24000 or spec.max_tokens != 2048
+               for spec in specs.values()):
+            raise ContractStop("soft-budget projection envelope drift")
+        terminal_prefixes = set()
+        for row in self.terminal_store.records():
+            model, item_id = row.get("model"), row.get("item_id")
+            if not isinstance(model, str) or not isinstance(item_id, str):
+                raise ContractStop("invalid terminal surface in budget projection")
+            prefix = f"or:{model}:{item_id}:"
+            if (row.get("logical_key") != f"item:{model}:{item_id}"
+                    or not any(key.startswith(prefix) for key in self.expected_calls)):
+                raise ContractStop("unregistered terminal budget exclusion")
+            terminal_prefixes.add(prefix)
+        active_expected = {
+            key for key in self.expected_calls
+            if not any(key.startswith(prefix) for prefix in terminal_prefixes)
+        }
+        completed = {row.get("logical_key") for row in self.call_store.records()}
+        if not completed.issubset(self.expected_calls):
+            raise ContractStop("unregistered SUT call in budget projection")
+        remaining = active_expected - completed
+        by_model = Counter()
+        for logical_key in remaining:
+            parts = logical_key.split(":", 4)
+            if len(parts) != 5 or parts[0] != "or" or parts[1] not in specs:
+                raise ContractStop("invalid nominal call in budget projection")
+            by_model[parts[1]] += 1
+        ceilings = {
+            slug: specs[slug].max_call_usd_for_input(specs[slug].input_envelope)
+            for slug in by_model
+        }
+        nominal_projection = sum((
+            ceilings[slug] * count for slug, count in by_model.items()
+        ), Decimal("0"))
+        snapshot = self.ledger.snapshot()
+        try:
+            booked = Decimal(str(snapshot["booked_usd"]))
+        except (KeyError, InvalidOperation) as exc:
+            raise ContractStop("invalid booked spend in soft-budget projection") from exc
+        replays = snapshot.get("replays")
+        replay_cap = getattr(self.ledger, "replay_cap", None)
+        if (not booked.is_finite() or booked < 0
+                or type(replays) is not int or replays < 0
+                or type(replay_cap) is not int or not 0 <= replays <= replay_cap):
+            raise ContractStop("invalid ledger state in soft-budget projection")
+        unused_replays = replay_cap - replays
+        max_remaining_ceiling = max(ceilings.values(), default=Decimal("0"))
+        replay_projection = max_remaining_ceiling * unused_replays
+        conservative_projection = nominal_projection + replay_projection
+        projected_total = booked + conservative_projection
+        threshold = booked >= self.BOOKED_TRIGGER
+        authorized = not threshold or projected_total <= self.PROJECTED_TOTAL_CAP
+        return {
+            "schema_version": "walkworthy.open6-sol1.soft-budget-projection.v1",
+            "soft_booked_trigger_usd": str(self.BOOKED_TRIGGER),
+            "soft_projected_total_cap_usd": str(self.PROJECTED_TOTAL_CAP),
+            "booked_usd": str(booked),
+            "remaining_nominal_calls": len(remaining),
+            "remaining_nominal_calls_by_model": dict(sorted(by_model.items())),
+            "remaining_nominal_projection_usd": str(nominal_projection),
+            "unused_replay_slots": unused_replays,
+            "maximum_remaining_call_ceiling_usd": str(max_remaining_ceiling),
+            "replay_projection_usd": str(replay_projection),
+            "conservative_projection_usd": str(conservative_projection),
+            "projected_total_usd": str(projected_total),
+            "threshold_triggered": threshold,
+            "continue_authorized": authorized,
+        }
+
+    def before_request(self):
+        with self._lock:
+            projection = self.projection()
+            if projection["threshold_triggered"] and not self._persisted:
+                sequence = len(self.checkpoint_store.records()) + 1
+                self.checkpoint_store.append({
+                    "logical_key": f"soft-budget-check:{sequence:06d}",
+                    "checkpoint_type": "soft_budget_pre_request",
+                    **projection,
+                })
+                self._persisted = True
+            if not projection["continue_authorized"]:
+                raise BudgetStop(
+                    "OPEN6-SOL1 soft projected-total cap blocks pre-request")
+            return projection
+
+
 def prepare_run(benchmark_root, manifest_path, run_dir) -> dict:
     """Validate the exact frozen manifest and copy it immutably into the run."""
     expected = canonical_json_bytes(build_manifest(benchmark_root))
@@ -371,6 +598,70 @@ def validate_catalog_snapshot(benchmark_root, manifest_path, run_dir):
     return artifact
 
 
+def _catalog_revalidation_record(manifest, frozen_catalog_sha256,
+                                 recovery_trigger, artifact, sequence):
+    if recovery_trigger not in ("provider_recovery", "oauth_recovery"):
+        raise ContractStop("invalid catalog revalidation trigger")
+    ceilings = [{
+        "slug": row["slug"],
+        "provider_ceiling": copy.deepcopy(row["provider_ceiling"]),
+    } for row in manifest["openrouter"]["models"]]
+    return {
+        "schema_version": "walkworthy.open6-sol1.catalog-revalidation.v1",
+        "logical_key": f"catalog-revalidation:{sequence:06d}",
+        "pilot": manifest["pilot"],
+        "recovery_trigger": recovery_trigger,
+        "frozen_catalog_sha256": frozen_catalog_sha256,
+        "registered_roster": [
+            row["slug"] for row in manifest["openrouter"]["models"]],
+        "provider_ceilings_sha256": _hash(ceilings),
+        "fetched_at": artifact["fetched_at"],
+        "source_urls": copy.deepcopy(artifact["source_urls"]),
+        "raw_canonical_sha256": artifact["raw_canonical_sha256"],
+        "raw_snapshot": copy.deepcopy(artifact["raw_snapshot"]),
+        "validated_model_count": artifact["validated_model_count"],
+        "eligible_providers": copy.deepcopy(artifact["eligible_providers"]),
+    }
+
+
+def validate_catalog_revalidations(benchmark_root, manifest_path, run_dir):
+    """Validate every append-only recovery observation without networking."""
+    manifest = prepare_run(benchmark_root, manifest_path, run_dir)
+    validate_catalog_snapshot(benchmark_root, manifest_path, run_dir)
+    frozen_path = Path(run_dir) / CATALOG_SNAPSHOT_NAME
+    frozen_hash = hashlib.sha256(frozen_path.read_bytes()).hexdigest()
+    store = AppendOnlyStore(
+        Path(run_dir) / CATALOG_REVALIDATION_NAME, "catalog-revalidations")
+    rows = store.records()
+    envelope = {"store_kind", "sequence", "previous_sha256", "record_sha256"}
+    for sequence, row in enumerate(rows, 1):
+        artifact = _catalog_artifact(manifest, row.get("raw_snapshot"))
+        expected = _catalog_revalidation_record(
+            manifest, frozen_hash, row.get("recovery_trigger"),
+            artifact, sequence)
+        if {key: value for key, value in row.items()
+                if key not in envelope} != expected:
+            raise ContractStop("catalog revalidation contract mismatch")
+    return rows
+
+
+def register_catalog_revalidation(benchmark_root, manifest_path, run_dir,
+                                  raw_snapshot, *, recovery_trigger):
+    """Append one roster/ceiling-preserving post-recovery catalog observation."""
+    manifest = prepare_run(benchmark_root, manifest_path, run_dir)
+    validate_catalog_snapshot(benchmark_root, manifest_path, run_dir)
+    existing = validate_catalog_revalidations(
+        benchmark_root, manifest_path, run_dir)
+    artifact = _catalog_artifact(manifest, raw_snapshot)
+    frozen_hash = hashlib.sha256(
+        (Path(run_dir) / CATALOG_SNAPSHOT_NAME).read_bytes()).hexdigest()
+    record = _catalog_revalidation_record(
+        manifest, frozen_hash, recovery_trigger, artifact, len(existing) + 1)
+    return AppendOnlyStore(
+        Path(run_dir) / CATALOG_REVALIDATION_NAME,
+        "catalog-revalidations").append(record)
+
+
 def _register_run_mode(run_dir, offline_fake):
     path = Path(run_dir) / RUN_MODE_NAME
     payload = {
@@ -442,13 +733,15 @@ class CachedSutClient:
     """Executor-compatible SUT client with deterministic call-level resume."""
 
     def __init__(self, slug: str, delegate, cache: AppendOnlyStore, *,
-                 attempt_custody: Optional[AppendOnlyStore] = None, ledger=None):
+                 attempt_custody: Optional[AppendOnlyStore] = None, ledger=None,
+                 budget_guard=None):
         self.name = slug
         self.family = slug.split("/", 1)[0]
         self.delegate = delegate
         self.cache = cache
         self.attempt_custody = attempt_custody
         self.ledger = ledger
+        self.budget_guard = budget_guard
         self._context = threading.local()
         self._last_record = threading.local()
 
@@ -500,6 +793,9 @@ class CachedSutClient:
             self._last_record.value = existing
             return response
 
+        self._recovery_attempt_ids = getattr(
+            self, "_recovery_attempt_ids", threading.local())
+        self._recovery_attempt_ids.value = []
         recovered = self._recover_attempt(
             logical_key, request, request_sha256, messages, system,
             response_validator,
@@ -508,6 +804,8 @@ class CachedSutClient:
             self._last_record.value = recovered
             return _response_from_payload(recovered["response"])
 
+        if self.budget_guard is not None:
+            self.budget_guard.before_request()
         result = self.delegate.complete(
             logical_key, messages, system=system,
             response_validator=response_validator,
@@ -527,14 +825,16 @@ class CachedSutClient:
             "response": _response_payload(response),
             "body": copy.deepcopy(getattr(result, "body", {})),
             "payload": copy.deepcopy(getattr(result, "payload", {})),
-            "attempt_ids": list(getattr(result, "attempt_ids", ())),
+            "attempt_ids": _merge_attempt_ids(
+                self._recovery_attempt_ids.value,
+                getattr(result, "attempt_ids", ())),
         })
         self._last_record.value = record
         return response
 
     def _recover_attempt(self, logical_key, request, request_sha256, messages,
                          system, response_validator):
-        """Mechanically promote a paid valid response stranded before cache append."""
+        """Reconcile crash-stranded paid work before considering one exact replay."""
         if self.attempt_custody is None or self.ledger is None:
             return None
         base = getattr(self.delegate, "base_client", None)
@@ -544,43 +844,132 @@ class CachedSutClient:
         payload_hash = transport_payload_hash(payload)
         candidates = [record for record in self.attempt_custody.records()
                       if record.get("logical_key") == logical_key]
-        for custody in sorted(candidates, key=lambda row: row.get("attempt_id", 0)):
+        custody_by_id = {}
+        for custody in candidates:
             attempt_id = custody.get("attempt_id")
-            if type(attempt_id) is not int:
-                continue
-            snapshot = self.ledger.attempt_snapshot(attempt_id)
+            if type(attempt_id) is not int or attempt_id in custody_by_id:
+                raise ContractStop(
+                    f"invalid OpenRouter attempt custody id: {logical_key}")
+            custody_by_id[attempt_id] = custody
+        attempts = _ledger_attempts_for_key(
+            self.ledger, logical_key, custody_by_id)
+        for attempt_id, snapshot in attempts:
             start = snapshot.get("start") or {}
             finish = snapshot.get("finish")
-            if finish is None:
-                raise ContractStop(
-                    f"reconcile in-flight OpenRouter attempt before recovery: {attempt_id}")
-            body = custody.get("body")
             if (start.get("logical_key") != logical_key
                     or start.get("requested_model") != self.name
-                    or start.get("payload_sha256") != payload_hash
-                    or finish.get("failure") is not None
-                    or custody.get("status") != 200
-                    or finish.get("status") != custody.get("status")
+                    or start.get("payload_sha256") != payload_hash):
+                raise ContractStop(
+                    f"OpenRouter attempt start does not cross-bind: {attempt_id}")
+            custody = custody_by_id.get(attempt_id)
+            if custody is None:
+                if finish is None:
+                    self.ledger.finish(
+                        attempt_id, None, {}, failure_override="custody_failure",
+                        error_detail={"type": "missing_attempt_custody"},
+                    )
+                    finish = self.ledger.attempt_snapshot(attempt_id).get("finish")
+                if finish is None or finish.get("failure") is None:
+                    raise ContractStop(
+                        f"valid OpenRouter finish lacks custody: {attempt_id}")
+                continue
+            body = custody.get("body")
+            status = custody.get("status")
+            if ((status is not None
+                 and (type(status) is not int or not 100 <= status <= 599))
                     or not isinstance(body, dict)
-                    or custody.get("body_sha256") != value_sha256(body)
-                    or finish.get("response_sha256") != value_sha256(body)):
-                continue
-            if not isinstance(body, dict) or body.get("model") != self.name:
-                continue
+                    or custody.get("body_sha256") != value_sha256(body)):
+                raise ContractStop(
+                    f"OpenRouter attempt custody integrity failure: {attempt_id}")
             usage = body.get("usage")
             choices = body.get("choices")
+            required_valid = (
+                status == 200
+                and body.get("model") == self.name
+                and isinstance(usage, dict)
+                and not isinstance(usage.get("cost"), bool)
+                and isinstance(usage.get("cost"), (int, float))
+                and isinstance(choices, list) and bool(choices)
+                and isinstance(choices[0], dict)
+                and isinstance(choices[0].get("message"), dict)
+                and isinstance(choices[0]["message"].get("content"), str)
+                and bool(choices[0]["message"]["content"].strip())
+            )
+            response = None
+            if required_valid:
+                try:
+                    reported_cost = Decimal(str(usage["cost"]))
+                except (KeyError, InvalidOperation):
+                    required_valid = False
+                else:
+                    required_valid = reported_cost.is_finite() and reported_cost >= 0
+            if required_valid:
+                response = ModelResponse(
+                    text=choices[0]["message"]["content"], model=self.name,
+                    family=self.family, usage=copy.deepcopy(usage),
+                    raw={"backend": "openrouter", "model": self.name},
+                )
+            validation_error = None
+            if required_valid and response_validator is not None:
+                try:
+                    accepted = response_validator(
+                        copy.deepcopy(response), copy.deepcopy(body))
+                except Exception as exc:
+                    validation_error = {
+                        "type": exc.__class__.__name__, "message": str(exc),
+                    }
+                    required_valid = False
+                else:
+                    if accepted is not True:
+                        validation_error = {
+                            "type": "response_validation_failed",
+                        }
+                        required_valid = False
+            if finish is None:
+                kwargs = {}
+                if (status == 200 and body.get("model") == self.name
+                        and isinstance(usage, dict)
+                        and not isinstance(usage.get("cost"), bool)
+                        and isinstance(usage.get("cost"), (int, float))
+                        and isinstance(choices, list) and choices
+                        and isinstance(choices[0], dict)
+                        and isinstance(choices[0].get("message"), dict)
+                        and isinstance(choices[0]["message"].get("content"), str)
+                        and choices[0]["message"]["content"].strip()
+                        and not required_valid):
+                    kwargs = {
+                        "failure_override": "malformed",
+                        "error_detail": validation_error,
+                    }
+                self.ledger.finish(
+                    attempt_id, status, copy.deepcopy(body), **kwargs)
+                finish = self.ledger.attempt_snapshot(attempt_id).get("finish")
+            if (finish is None
+                    or finish.get("status") != status
+                    or finish.get("response_sha256") != value_sha256(body)
+                    or finish.get("returned_model")
+                    != (body.get("model")
+                        if isinstance(body.get("model"), str) else None)):
+                raise ContractStop(
+                    f"OpenRouter ledger/custody finish mismatch: {attempt_id}")
+            if finish.get("failure") is not None:
+                self._recovery_attempt_ids.value.append(attempt_id)
+                continue
+            if not required_valid or response is None:
+                raise ContractStop(
+                    f"successful OpenRouter finish has invalid output: {attempt_id}")
             if (not isinstance(usage, dict)
                     or isinstance(usage.get("cost"), bool)
                     or not isinstance(usage.get("cost"), (int, float))
-                    or not isinstance(choices, list) or not choices
-                    or not isinstance(choices[0], dict)
-                    or not isinstance(choices[0].get("message"), dict)):
-                continue
+                    or not isinstance(choices, list) or not choices):
+                raise ContractStop(
+                    f"invalid successful OpenRouter custody: {attempt_id}")
             try:
                 reported_cost = Decimal(str(usage["cost"]))
                 booked_cost = Decimal(str(finish.get("booked_usd")))
             except (KeyError, InvalidOperation):
-                continue
+                raise ContractStop(
+                    f"invalid OpenRouter cost custody: {attempt_id}")
             if (not reported_cost.is_finite() or reported_cost < 0
                     or booked_cost != reported_cost
                     or finish.get("cost_basis") != "reported"
@@ -588,18 +977,8 @@ class CachedSutClient:
                     or finish.get("prompt_tokens") != usage.get("prompt_tokens", 0)
                     or finish.get("completion_tokens")
                     != usage.get("completion_tokens", 0)):
-                continue
-            content = choices[0]["message"].get("content")
-            if not isinstance(content, str) or not content.strip():
-                continue
-            response = ModelResponse(
-                text=content, model=self.name, family=self.family,
-                usage=copy.deepcopy(usage),
-                raw={"backend": "openrouter", "model": self.name},
-            )
-            if response_validator is not None and response_validator(
-                    copy.deepcopy(response), copy.deepcopy(body)) is not True:
-                continue
+                raise ContractStop(
+                    f"OpenRouter cost custody does not cross-bind: {attempt_id}")
             return self.cache.append({
                 "logical_key": logical_key,
                 "model": self.name,
@@ -615,9 +994,11 @@ class CachedSutClient:
                 "attempt_ids": [attempt_id],
                 "recovered_from_attempt_id": attempt_id,
             })
-        if candidates:
+        orphan_ids = set(custody_by_id) - {attempt for attempt, _ in attempts}
+        if orphan_ids:
             raise ContractStop(
-                f"OpenRouter attempt custody does not cross-bind: {logical_key}")
+                f"orphan OpenRouter attempt custody: {sorted(orphan_ids)}")
+        _raise_recovered_second_failure("sut", logical_key, attempts)
         return None
 
 
@@ -701,6 +1082,9 @@ class CachedSolClassifier:
                     or state not in states):
                 raise ContractStop(f"Sol routing-cache mismatch: {logical_key}")
             return state
+        self._recovery_attempt_ids = getattr(
+            self, "_recovery_attempt_ids", threading.local())
+        self._recovery_attempt_ids.value = []
         recovered = self._recover_attempt(logical_key, request, states)
         if recovered is not None:
             return recovered
@@ -723,7 +1107,9 @@ class CachedSolClassifier:
             "trace_jsonl": getattr(result, "trace_jsonl", ""),
             "cli_version": getattr(result, "cli_version", "unknown"),
             "usage": copy.deepcopy(getattr(result, "usage", {})),
-            "attempt_ids": list(getattr(result, "attempt_ids", ())),
+            "attempt_ids": _merge_attempt_ids(
+                self._recovery_attempt_ids.value,
+                getattr(result, "attempt_ids", ())),
         })
         return state
 
@@ -736,45 +1122,97 @@ class CachedSolClassifier:
         )
         candidates = [record for record in self.attempt_custody.records()
                       if record.get("logical_key") == logical_key]
-        if not candidates:
-            return None
         if self.ledger is None:
-            raise ContractStop("Sol attempt recovery lacks its registered ledger")
-        for custody in sorted(candidates, key=lambda row: row.get("attempt_id", 0)):
+            if candidates:
+                raise ContractStop("Sol attempt recovery lacks its registered ledger")
+            return None
+        custody_by_id = {}
+        for custody in candidates:
             attempt_id = custody.get("attempt_id")
-            if type(attempt_id) is not int:
-                continue
-            snapshot = self.ledger.attempt_snapshot(attempt_id)
+            if type(attempt_id) is not int or attempt_id in custody_by_id:
+                raise ContractStop(f"invalid Sol attempt custody id: {logical_key}")
+            custody_by_id[attempt_id] = custody
+        attempts = _ledger_attempts_for_key(
+            self.ledger, logical_key, custody_by_id)
+        for attempt_id, snapshot in attempts:
             start = snapshot.get("start") or {}
             finish = snapshot.get("finish")
-            if finish is None:
+            if (start.get("logical_key") != logical_key
+                    or start.get("payload_sha256") != text_sha256(prompt)
+                    or start.get("schema_sha256") != value_sha256(schema)):
                 raise ContractStop(
-                    f"reconcile in-flight Sol attempt before recovery: {attempt_id}")
+                    f"Sol attempt start does not cross-bind: {attempt_id}")
+            custody = custody_by_id.get(attempt_id)
+            if custody is None:
+                if finish is None:
+                    self.ledger.finish(
+                        attempt_id, valid=False, error_class="interrupted",
+                        trace_sha256=None, response_sha256=None,
+                        error_sha256=text_sha256("interrupted"),
+                        cli_version="crash-recovery", usage={},
+                    )
+                    finish = self.ledger.attempt_snapshot(attempt_id).get("finish")
+                if finish is None or finish.get("valid") is not False:
+                    raise ContractStop(
+                        f"valid Sol finish lacks custody: {attempt_id}")
+                continue
             final_text = custody.get("final_text", "")
             trace_text = custody.get("trace_jsonl", "")
-            if (custody.get("error_class") is not None
-                    or custody.get("prompt") != prompt
+            error_class = custody.get("error_class")
+            expected_response_hash = (
+                text_sha256(final_text) if isinstance(final_text, str) and final_text
+                else None)
+            expected_trace_hash = (
+                text_sha256(trace_text) if isinstance(trace_text, str) else None)
+            if (custody.get("prompt") != prompt
                     or custody.get("schema") != schema
                     or custody.get("payload_sha256") != text_sha256(prompt)
                     or custody.get("schema_sha256") != value_sha256(schema)
-                    or custody.get("response_sha256") != text_sha256(final_text)
-                    or custody.get("trace_sha256") != text_sha256(trace_text)
-                    or start.get("logical_key") != logical_key
-                    or start.get("payload_sha256") != custody.get("payload_sha256")
-                    or start.get("schema_sha256") != custody.get("schema_sha256")
-                    or finish.get("valid") is not True
-                    or finish.get("error_class") is not None
-                    or finish.get("response_sha256") != custody.get("response_sha256")
-                    or finish.get("trace_sha256") != custody.get("trace_sha256")
-                    or finish.get("cli_version") != custody.get("cli_version")
-                    or finish.get("usage") != custody.get("usage")):
-                continue
+                    or not isinstance(final_text, str)
+                    or not isinstance(trace_text, str)
+                    or custody.get("response_sha256") != expected_response_hash
+                    or custody.get("trace_sha256") != expected_trace_hash
+                    or (error_class is not None and error_class not in SOL_FAILURES)
+                    or not isinstance(custody.get("cli_version"), str)
+                    or not isinstance(custody.get("usage"), dict)):
+                raise ContractStop(f"Sol attempt custody integrity failure: {attempt_id}")
             try:
                 value = json.loads(final_text)
             except json.JSONDecodeError:
-                continue
+                value = None
             state = value.get("state") if isinstance(value, dict) else None
-            if set(value or {}) != {"state"} or state not in states:
+            required_valid = (
+                error_class is None and isinstance(value, dict)
+                and set(value) == {"state"} and state in states)
+            effective_error = error_class
+            if not required_valid and effective_error is None:
+                effective_error = "schema_invalid"
+            if finish is None:
+                self.ledger.finish(
+                    attempt_id, valid=required_valid,
+                    error_class=effective_error,
+                    trace_sha256=custody.get("trace_sha256"),
+                    response_sha256=custody.get("response_sha256"),
+                    error_sha256=(None if required_valid else (
+                        custody.get("error_sha256")
+                        or value_sha256({"type": effective_error}))),
+                    cli_version=custody.get("cli_version", "unknown"),
+                    usage=copy.deepcopy(custody.get("usage", {})),
+                )
+                finish = self.ledger.attempt_snapshot(attempt_id).get("finish")
+            if (finish is None
+                    or finish.get("valid") is not required_valid
+                    or finish.get("error_class")
+                    != (None if required_valid else effective_error)
+                    or finish.get("response_sha256")
+                    != custody.get("response_sha256")
+                    or finish.get("trace_sha256") != custody.get("trace_sha256")
+                    or finish.get("cli_version") != custody.get("cli_version")
+                    or finish.get("usage") != custody.get("usage")):
+                raise ContractStop(
+                    f"Sol ledger/custody finish mismatch: {attempt_id}")
+            if not required_valid:
+                self._recovery_attempt_ids.value.append(attempt_id)
                 continue
             stored = self.cache.append({
                 "logical_key": logical_key,
@@ -791,8 +1229,10 @@ class CachedSolClassifier:
                 "recovered_from_attempt_id": custody.get("attempt_id"),
             })
             return stored["state"]
-        if candidates:
-            raise ContractStop(f"Sol attempt custody does not cross-bind: {logical_key}")
+        orphan_ids = set(custody_by_id) - {attempt for attempt, _ in attempts}
+        if orphan_ids:
+            raise ContractStop(f"orphan Sol attempt custody: {sorted(orphan_ids)}")
+        _raise_recovered_second_failure("classifier", logical_key, attempts)
         return None
 
 
@@ -983,6 +1423,156 @@ def load_execution_records(path, benchmark_root, manifest_path):
     return records
 
 
+def _validate_terminal_unresolved_record(record, item, allowed_models):
+    envelope = {"store_kind", "sequence", "previous_sha256", "record_sha256"}
+    domain = {key: value for key, value in record.items() if key not in envelope}
+    required = {
+        "schema_version", "logical_key", "status", "item_id", "design",
+        "model", "source_role", "source_logical_key", "phase", "call_index",
+        "failure_class", "attempt_ids",
+    }
+    model = domain.get("model")
+    source_role = domain.get("source_role")
+    phase = domain.get("phase")
+    call_index = domain.get("call_index")
+    attempt_ids = domain.get("attempt_ids")
+    expected_source_key = None
+    if type(call_index) is int and source_role == "sut":
+        expected_source_key = f"or:{model}:{item.id}:{phase}:{call_index:03d}"
+    elif type(call_index) is int and source_role == "classifier":
+        expected_source_key = (
+            f"sol:classifier:{model}:{item.id}:{call_index:03d}")
+    if (set(domain) != required
+            or domain.get("schema_version")
+            != "walkworthy.open6-sol1.terminal-unresolved-item-model.v2"
+            or domain.get("logical_key") != f"item:{model}:{item.id}"
+            or domain.get("status") != "terminal_unresolved"
+            or domain.get("item_id") != item.id
+            or domain.get("design") != item.design
+            or model not in allowed_models
+            or source_role not in ("sut", "classifier")
+            or ((source_role == "sut" and phase not in ("content", "allocation"))
+                or (source_role == "classifier" and phase != "classifier"))
+            or (source_role == "sut" and phase == "allocation"
+                and item.design != "05-ordoamoris")
+            or type(call_index) is not int or call_index < 1
+            or domain.get("source_logical_key") != expected_source_key
+            or (source_role == "sut"
+                and domain.get("failure_class") not in TERMINAL_SUT_FAILURES)
+            or (source_role == "classifier"
+                and domain.get("failure_class") not in SOL_FAILURES)
+            or not isinstance(attempt_ids, list) or len(attempt_ids) != 2
+            or any(type(attempt) is not int for attempt in attempt_ids)
+            or len(set(attempt_ids)) != 2):
+        raise ContractStop(
+            f"invalid terminal-unresolved SUT record: {record.get('logical_key')}")
+    return domain
+
+
+def _terminal_record_from_stop(item, spec, exc, sut_ledger, sol_ledger,
+                               sut_custody, sol_custody):
+    sut_match = re.fullmatch(
+        r"OpenRouter second failure for "
+        r"(or:([^:]+):([^:]+):(content|allocation):(\d{3})): ([a-z_]+)",
+        str(exc),
+    )
+    sol_match = re.fullmatch(
+        r"Sol second failure for "
+        r"(sol:classifier:([^:]+):([^:]+):(\d{3})): ([a-z_]+)",
+        str(exc),
+    )
+    if sut_match is not None:
+        source_key, model, item_id, phase, index_text, failure = sut_match.groups()
+        source_role = "sut"
+        ledger = sut_ledger
+        custody_store = sut_custody
+    elif sol_match is not None:
+        source_key, model, item_id, index_text, failure = sol_match.groups()
+        source_role = "classifier"
+        phase = "classifier"
+        ledger = sol_ledger
+        custody_store = sol_custody
+    else:
+        raise ContractStop("unregistered terminal SUT exception") from exc
+    if (model != spec.slug or item_id != item.id
+            or (source_role == "sut" and failure not in TERMINAL_SUT_FAILURES)
+            or (source_role == "classifier" and failure not in SOL_FAILURES)):
+        raise ContractStop("terminal exception identity mismatch") from exc
+    if ledger is None:
+        raise ContractStop("terminal exception lacks its attempt ledger") from exc
+    attempts = _ledger_attempts_for_key(ledger, source_key)
+    if len(attempts) != 2:
+        raise ContractStop("terminal key lacks exactly two attempts") from exc
+    attempt_ids = []
+    payload_hashes = set()
+    schema_hashes = set()
+    for attempt_id, snapshot in attempts:
+        start = snapshot.get("start") or {}
+        finish = snapshot.get("finish")
+        valid_finish = (
+            finish is not None
+            and ((source_role == "sut" and finish.get("failure") is not None)
+                 or (source_role == "classifier"
+                     and finish.get("valid") is False
+                     and finish.get("error_class") is not None)))
+        if (start.get("logical_key") != source_key or not valid_finish
+                or (source_role == "sut"
+                    and start.get("requested_model") != spec.slug)):
+            raise ContractStop("terminal attempt evidence mismatch") from exc
+        attempt_ids.append(attempt_id)
+        payload_hashes.add(start.get("payload_sha256"))
+        if source_role == "classifier":
+            schema_hashes.add(start.get("schema_sha256"))
+    payload_hash = next(iter(payload_hashes), None)
+    if (len(payload_hashes) != 1 or not isinstance(payload_hash, str)
+            or not re.fullmatch(r"[0-9a-f]{64}", payload_hash)):
+        raise ContractStop("terminal replay payload mismatch") from exc
+    if source_role == "classifier":
+        schema_hash = next(iter(schema_hashes), None)
+        if (len(schema_hashes) != 1 or not isinstance(schema_hash, str)
+                or not re.fullmatch(r"[0-9a-f]{64}", schema_hash)):
+            raise ContractStop("terminal replay schema mismatch") from exc
+    last_finish = attempts[-1][1]["finish"]
+    observed_failure = (last_finish.get("failure") if source_role == "sut"
+                        else last_finish.get("error_class"))
+    if observed_failure != failure:
+        raise ContractStop("terminal failure class mismatch") from exc
+    custody_records = []
+    by_id = {}
+    if custody_store is not None:
+        by_id = {row.get("attempt_id"): row for row in custody_store.records()
+                 if row.get("logical_key") == source_key}
+    for attempt_id, snapshot in attempts:
+        if attempt_id in by_id:
+            custody_records.append(by_id[attempt_id])
+        elif source_role == "sut":
+            custody_records.append({
+                "status": snapshot["finish"].get("status"), "body": {}})
+        else:
+            custody_records.append({
+                "error_class": snapshot["finish"].get("error_class"),
+                "stderr": "",
+            })
+    _raise_if_systemic_terminal(source_role, custody_records, failure)
+    record = {
+        "schema_version":
+            "walkworthy.open6-sol1.terminal-unresolved-item-model.v2",
+        "logical_key": f"item:{spec.slug}:{item.id}",
+        "status": "terminal_unresolved",
+        "item_id": item.id,
+        "design": item.design,
+        "model": spec.slug,
+        "source_role": source_role,
+        "source_logical_key": source_key,
+        "phase": phase,
+        "call_index": int(index_text),
+        "failure_class": failure,
+        "attempt_ids": attempt_ids,
+    }
+    _validate_terminal_unresolved_record(record, item, {spec.slug})
+    return record
+
+
 def _stores(run_dir):
     root = Path(run_dir)
     return {
@@ -991,6 +1581,8 @@ def _stores(run_dir):
         "executions": AppendOnlyStore(root / EXECUTION_NAME, "executions"),
         "failures": AppendOnlyStore(
             root / FAILURE_NAME, "failures", key_field=None),
+        "terminal_unresolved": AppendOnlyStore(
+            root / TERMINAL_UNRESOLVED_NAME, "terminal-unresolved-sut"),
     }
 
 
@@ -1008,10 +1600,17 @@ def attempt_custody_stores(run_dir):
 
 def _run_model(spec, items, delegate_factory, sol_client, stores, allowed_models,
                sut_attempt_custody=None, sol_attempt_custody=None,
-               openrouter_ledger=None):
+               openrouter_ledger=None, budget_guard=None, abort_event=None):
     done = stores["executions"].by_key()
+    terminal_done = stores["terminal_unresolved"].by_key()
+    item_by_key = {f"item:{spec.slug}:{item.id}": item for item in items}
+    for logical_key, record in terminal_done.items():
+        item = item_by_key.get(logical_key)
+        if item is not None:
+            _validate_terminal_unresolved_record(record, item, allowed_models)
     wanted = [item for item in items
-              if f"item:{spec.slug}:{item.id}" not in done]
+              if (f"item:{spec.slug}:{item.id}" not in done
+                  and f"item:{spec.slug}:{item.id}" not in terminal_done)]
     if not wanted:
         return 0
     delegate = delegate_factory(spec)
@@ -1023,6 +1622,7 @@ def _run_model(spec, items, delegate_factory, sol_client, stores, allowed_models
         spec.slug, delegate, stores["calls"],
         attempt_custody=sut_attempt_custody,
         ledger=openrouter_ledger or getattr(delegate, "ledger", None),
+        budget_guard=budget_guard,
     )
     classifier = CachedSolClassifier(
         spec.slug, sol_client, stores["routes"],
@@ -1031,6 +1631,8 @@ def _run_model(spec, items, delegate_factory, sol_client, stores, allowed_models
     )
     new = 0
     for item in wanted:
+        if abort_event is not None and abort_event.is_set():
+            return new
         logical_key = f"item:{spec.slug}:{item.id}"
         try:
             allocation = (run_design05_allocation(item, client)
@@ -1054,6 +1656,26 @@ def _run_model(spec, items, delegate_factory, sol_client, stores, allowed_models
             validate_execution_record(record, item, allowed_models)
             stores["executions"].append(record)
             new += 1
+        except ThreadStop as exc:
+            try:
+                terminal = _terminal_record_from_stop(
+                    item, spec, exc, client.ledger, classifier.ledger,
+                    client.attempt_custody, classifier.attempt_custody)
+            except ContractStop as contract_exc:
+                stores["failures"].append({
+                    "logical_key": logical_key,
+                    "item_key": logical_key,
+                    "item_id": item.id,
+                    "design": item.design,
+                    "model": spec.slug,
+                    "error_type": type(contract_exc).__name__,
+                    "error": str(contract_exc),
+                })
+                raise
+            stores["terminal_unresolved"].append(terminal)
+            continue
+        except (BudgetStop, UnattendedStop):
+            raise
         except Exception as exc:
             stores["failures"].append({
                 "logical_key": logical_key,
@@ -1076,16 +1698,68 @@ def _selected_specs(manifest):
     return [by_slug[slug] for slug in slugs]
 
 
+def _persist_resumable_stop(benchmark_root, manifest_path, run_dir, items,
+                            models, stores, openrouter_ledger, sol_ledger, exc):
+    expected = {f"item:{model}:{item.id}" for model in models for item in items}
+    complete = set(stores["executions"].by_key())
+    terminal = set(stores["terminal_unresolved"].by_key())
+    if complete & terminal or not (complete | terminal).issubset(expected):
+        raise ContractStop("cannot checkpoint invalid item-model partition") from exc
+    missing = expected - complete - terminal
+    if openrouter_ledger is None:
+        or_state = {
+            "attempts": 0, "replays": 0, "booked_usd": "0",
+            "reserved_usd": "0", "inflight_usd": "0",
+        }
+    else:
+        snapshot = openrouter_ledger.snapshot()
+        or_state = {
+            "attempts": snapshot["attempts"], "replays": snapshot["replays"],
+            "booked_usd": str(snapshot["booked_usd"]),
+            "reserved_usd": str(snapshot["reserved_usd"]),
+            "inflight_usd": str(snapshot["inflight_usd"]),
+        }
+    if sol_ledger is None:
+        sol_state = {"attempts": 0, "replays": 0, "inflight": 0}
+    else:
+        snapshot = sol_ledger.snapshot()
+        sol_state = {key: snapshot[key]
+                     for key in ("attempts", "replays", "inflight")}
+    checkpoint_store = AppendOnlyStore(
+        Path(run_dir) / CHECKPOINT_NAME, "checkpoints")
+    sequence = len(checkpoint_store.records()) + 1
+    return checkpoint_store.append({
+        "logical_key": f"resumable-stop:{sequence:06d}",
+        "schema_version": "walkworthy.open6-sol1.resumable-stop.v1",
+        "checkpoint_type": "resumable_stop",
+        "reason_type": type(exc).__name__,
+        "reason": str(exc),
+        "complete_item_model_keys": sorted(complete),
+        "terminal_item_model_keys": sorted(terminal),
+        "missing_item_model_keys": sorted(missing),
+        "openrouter": or_state,
+        "sol": sol_state,
+        "safest_next_command": [
+            sys.executable, "-m", "walkworthy.open6_sol1_run", "checkpoint",
+            "--benchmark-root", str(Path(benchmark_root).resolve()),
+            "--manifest", str(Path(manifest_path).resolve()),
+            "--run-dir", str(Path(run_dir).resolve()),
+        ],
+    })
+
+
 def run_surface(benchmark_root, manifest_path, run_dir, *, delegate_factory,
                 sol_client, max_workers=MAX_CONCURRENCY, _canary_only=False,
                 sut_attempt_custody=None, sol_attempt_custody=None,
                 openrouter_ledger=None, offline_fake=False):
     manifest = prepare_run(benchmark_root, manifest_path, run_dir)
     validate_catalog_snapshot(benchmark_root, manifest_path, run_dir)
+    validate_catalog_revalidations(benchmark_root, manifest_path, run_dir)
     _register_run_mode(run_dir, offline_fake)
     if type(max_workers) is not int or not 1 <= max_workers <= MAX_CONCURRENCY:
         raise ContractStop("OPEN6-SOL1 concurrency must be one or two")
-    items = select_public_items(benchmark_root)
+    all_items = select_public_items(benchmark_root)
+    items = all_items
     if _canary_only:
         items = items[:1]
     stores = _stores(run_dir)
@@ -1098,15 +1772,43 @@ def run_surface(benchmark_root, manifest_path, run_dir, *, delegate_factory,
             raise ContractStop("Sol client has a divergent attempt-custody sink")
         sol_client.attempt_sink = sol_attempt_custody.append_sink
     allowed_models = {row["slug"] for row in manifest["openrouter"]["models"]}
+    expected_calls, _ = _expected_runtime_keys(items, allowed_models)
+    budget_guard = None
+    if not offline_fake:
+        if openrouter_ledger is None:
+            raise ContractStop(
+                "live OPEN6-SOL1 run requires its explicit OpenRouter ledger")
+        budget_guard = SoftBudgetGuard(
+            expected_calls, stores["calls"], stores["terminal_unresolved"],
+            openrouter_ledger,
+            AppendOnlyStore(Path(run_dir) / CHECKPOINT_NAME, "checkpoints"),
+        )
     new = 0
-    with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = [pool.submit(
-            _run_model, spec, items, delegate_factory, sol_client,
-            stores, allowed_models, sut_attempt_custody,
-            sol_attempt_custody, openrouter_ledger,
-        ) for spec in _selected_specs(manifest)]
-        for future in as_completed(futures):
-            new += future.result()
+    abort_event = threading.Event()
+
+    def run_one(spec):
+        try:
+            return _run_model(
+                spec, items, delegate_factory, sol_client,
+                stores, allowed_models, sut_attempt_custody,
+                sol_attempt_custody, openrouter_ledger, budget_guard,
+                abort_event=abort_event,
+            )
+        except Exception:
+            abort_event.set()
+            raise
+
+    try:
+        with ThreadPoolExecutor(max_workers=max_workers) as pool:
+            futures = [pool.submit(run_one, spec)
+                       for spec in _selected_specs(manifest)]
+            for future in as_completed(futures):
+                new += future.result()
+    except Exception as exc:
+        _persist_resumable_stop(
+            benchmark_root, manifest_path, run_dir, all_items, allowed_models,
+            stores, openrouter_ledger, getattr(sol_client, "ledger", None), exc)
+        raise
     summary = status(benchmark_root, manifest_path, run_dir)
     summary["new_records"] = new
     return summary
@@ -1249,7 +1951,157 @@ def _audit_cache_surfaces(calls, routes, expected_calls, expected_routes,
     return actual_calls, actual_routes
 
 
-def _audit_live_ledgers(root, calls, routes, expected_calls, expected_routes):
+def _audit_classifier_attempt_bijection(routes, sol_custody, terminal=()):
+    """Require each directly custodied classifier attempt on exactly one route."""
+    custody_by_id = {}
+    for event in sol_custody:
+        attempt_id = event.get("attempt_id")
+        logical_key = event.get("logical_key")
+        role = _registered_sol_attempt_role(logical_key)
+        if role == "judge":
+            continue
+        if type(attempt_id) is not int or attempt_id in custody_by_id:
+            raise ContractStop("classifier attempt/custody/route bijection failure")
+        custody_by_id[attempt_id] = event
+    linked = set()
+    for route in routes:
+        logical_key = route.get("logical_key")
+        attempt_ids = route.get("attempt_ids")
+        if (not isinstance(logical_key, str)
+                or not isinstance(attempt_ids, list) or not attempt_ids):
+            raise ContractStop("classifier attempt/custody/route bijection failure")
+        for attempt_id in attempt_ids:
+            event = custody_by_id.get(attempt_id)
+            if (event is None or attempt_id in linked
+                    or event.get("logical_key") != logical_key):
+                raise ContractStop(
+                    "classifier attempt/custody/route bijection failure")
+            linked.add(attempt_id)
+    terminal_linked = set()
+    for record in terminal:
+        if record.get("source_role") != "classifier":
+            continue
+        logical_key = record.get("source_logical_key")
+        for attempt_id in record.get("attempt_ids", ()):
+            event = custody_by_id.get(attempt_id)
+            if event is None:
+                continue
+            if (attempt_id in linked or attempt_id in terminal_linked
+                    or event.get("logical_key") != logical_key):
+                raise ContractStop(
+                    "classifier attempt/custody/route bijection failure")
+            terminal_linked.add(attempt_id)
+    if linked | terminal_linked != set(custody_by_id):
+        raise ContractStop("classifier attempt/custody/route bijection failure")
+    return True
+
+
+def _audit_terminal_attempt_bijection(terminal, openrouter_ledger, sol_ledger,
+                                      openrouter_custody, sol_custody):
+    """Cross-bind every terminal attempt ID to its exact invalid evidence."""
+    custody_by_role = {}
+    for role, custody in (
+            ("sut", openrouter_custody), ("classifier", sol_custody)):
+        by_id = {}
+        for event in custody:
+            attempt_id = event.get("attempt_id")
+            if type(attempt_id) is not int or attempt_id in by_id:
+                raise ContractStop("terminal attempt custody bijection failure")
+            by_id[attempt_id] = event
+        custody_by_role[role] = by_id
+
+    claimed = {"sut": set(), "classifier": set()}
+    for record in terminal:
+        role = record.get("source_role")
+        if role not in claimed:
+            continue
+        ledger = openrouter_ledger if role == "sut" else sol_ledger
+        source_key = record.get("source_logical_key")
+        attempt_ids = record.get("attempt_ids")
+        if (not isinstance(source_key, str)
+                or not isinstance(attempt_ids, list)
+                or len(attempt_ids) != 2
+                or any(type(attempt) is not int for attempt in attempt_ids)
+                or attempt_ids != sorted(attempt_ids)
+                or claimed[role].intersection(attempt_ids)):
+            raise ContractStop("terminal attempt ledger bijection failure")
+        attempts = _ledger_attempts_for_key(ledger, source_key)
+        if [attempt for attempt, _ in attempts] != attempt_ids:
+            raise ContractStop("terminal attempt ledger bijection failure")
+        claimed[role].update(attempt_ids)
+        source_custody_ids = {
+            attempt_id for attempt_id, event in custody_by_role[role].items()
+            if event.get("logical_key") == source_key
+        }
+        if not source_custody_ids.issubset(set(attempt_ids)):
+            raise ContractStop("terminal attempt custody bijection failure")
+        for attempt_id, snapshot in attempts:
+            start = snapshot.get("start") or {}
+            finish = snapshot.get("finish")
+            if (start.get("logical_key") != source_key or finish is None
+                    or (role == "sut"
+                        and (start.get("requested_model") != record.get("model")
+                             or finish.get("failure") is None))
+                    or (role == "classifier"
+                        and (finish.get("valid") is not False
+                             or finish.get("error_class") is None))):
+                raise ContractStop("terminal attempt finish bijection failure")
+            event = custody_by_role[role].get(attempt_id)
+            observed_failure = (finish.get("failure") if role == "sut"
+                                else finish.get("error_class"))
+            missing_custody_failure = (
+                (role == "sut" and observed_failure == "custody_failure")
+                or (role == "classifier" and observed_failure == "interrupted")
+            )
+            if event is None:
+                if not missing_custody_failure:
+                    raise ContractStop("terminal attempt custody bijection failure")
+            elif event.get("logical_key") != source_key:
+                raise ContractStop("terminal attempt custody bijection failure")
+            elif role == "classifier":
+                prompt = event.get("prompt")
+                schema = event.get("schema")
+                final_text = event.get("final_text")
+                trace_jsonl = event.get("trace_jsonl")
+                error_class = event.get("error_class")
+                expected_response_sha = (
+                    text_sha256(final_text)
+                    if isinstance(final_text, str) and final_text else None)
+                expected_trace_sha = (
+                    text_sha256(trace_jsonl)
+                    if isinstance(trace_jsonl, str) else None)
+                if (not isinstance(prompt, str)
+                        or not isinstance(schema, dict)
+                        or error_class not in SOL_FAILURES
+                        or error_class != finish.get("error_class")
+                        or text_sha256(prompt) != event.get("payload_sha256")
+                        or value_sha256(schema) != event.get("schema_sha256")
+                        or not isinstance(final_text, str)
+                        or not isinstance(trace_jsonl, str)
+                        or event.get("payload_sha256")
+                        != start.get("payload_sha256")
+                        or event.get("schema_sha256")
+                        != start.get("schema_sha256")
+                        or event.get("response_sha256") != expected_response_sha
+                        or event.get("trace_sha256") != expected_trace_sha
+                        or finish.get("response_sha256")
+                        != event.get("response_sha256")
+                        or finish.get("trace_sha256")
+                        != event.get("trace_sha256")
+                        or finish.get("cli_version") != event.get("cli_version")
+                        or finish.get("usage") != event.get("usage")):
+                    raise ContractStop(
+                        "terminal attempt custody cross-bind failure")
+        final_finish = attempts[-1][1]["finish"]
+        final_failure = (final_finish.get("failure") if role == "sut"
+                         else final_finish.get("error_class"))
+        if final_failure != record.get("failure_class"):
+            raise ContractStop("terminal attempt failure bijection failure")
+    return True
+
+
+def _audit_live_ledgers(root, calls, routes, expected_calls, expected_routes,
+                        terminal=()):
     from .open6_sol1_runtime import OpenRouterAttemptLedger, SolTaskLedger
     or_path = root / "openrouter-attempts.jsonl"
     sol_path = root / "sol-attempts.jsonl"
@@ -1264,13 +2116,15 @@ def _audit_live_ledgers(root, calls, routes, expected_calls, expected_routes):
     custody = attempt_custody_stores(root)
     or_custody = custody["openrouter"].records()
     sol_custody = custody["sol"].records()
-    if len(or_custody) != or_snapshot["attempts"]:
-        raise ContractStop("OpenRouter ledger/custody attempt count mismatch")
     or_by_id = {record["attempt_id"]: record for record in or_custody}
     for attempt_id in range(1, or_snapshot["attempts"] + 1):
         event = or_by_id.get(attempt_id)
         ledger = or_ledger.attempt_snapshot(attempt_id)
         start, finish = ledger["start"], ledger["finish"]
+        if event is None:
+            if finish is None or finish.get("failure") != "custody_failure":
+                raise ContractStop("OpenRouter attempt lacks required custody")
+            continue
         body = (event or {}).get("body")
         usage = body.get("usage") if isinstance(body, dict) else None
         returned = body.get("model") if isinstance(body, dict) else None
@@ -1307,7 +2161,19 @@ def _audit_live_ledgers(root, calls, routes, expected_calls, expected_routes):
         if or_ledger.attempt_snapshot(attempt_ids[-1])["finish"].get(
                 "failure") is not None:
             raise ContractStop("SUT cache is not backed by a valid finish")
+    _audit_classifier_attempt_bijection(routes, sol_custody, terminal)
     sol_by_id = {record["attempt_id"]: record for record in sol_custody}
+    for attempt_id in range(1, sol_snapshot["attempts"] + 1):
+        snapshot = sol_ledger.attempt_snapshot(attempt_id)
+        role = _registered_sol_attempt_role(snapshot["start"].get("logical_key"))
+        if role == "judge":
+            continue
+        if attempt_id in sol_by_id:
+            continue
+        finish = snapshot["finish"]
+        if (finish is None or finish.get("valid") is not False
+                or finish.get("error_class") != "interrupted"):
+            raise ContractStop("Sol attempt lacks required custody")
     for route in routes:
         attempt_ids = route.get("attempt_ids")
         if not isinstance(attempt_ids, list) or not attempt_ids:
@@ -1330,7 +2196,33 @@ def _audit_live_ledgers(root, calls, routes, expected_calls, expected_routes):
                 raise ContractStop("Sol ledger/custody cross-bind failure")
         if sol_ledger.attempt_snapshot(attempt_ids[-1])["finish"].get("valid") is not True:
             raise ContractStop("routing result is not backed by a valid Sol finish")
+    _audit_terminal_attempt_bijection(
+        terminal, or_ledger, sol_ledger, or_custody, sol_custody)
     return True, or_snapshot["attempts"], sol_snapshot["attempts"]
+
+
+def _completion_state(expected_item_keys, complete_item_keys, terminal_item_keys,
+                      *, exact_runtime_complete, failure_count, ledger_integrity):
+    expected = set(expected_item_keys)
+    complete = set(complete_item_keys)
+    terminal = set(terminal_item_keys)
+    if (complete & terminal or not complete.issubset(expected)
+            or not terminal.issubset(expected)):
+        raise ContractStop("invalid OPEN6-SOL1 completion partition")
+    terminal_surface_complete = (
+        complete | terminal == expected
+        and failure_count == 0
+        and ledger_integrity is True
+    )
+    fully_complete = (
+        terminal_surface_complete and not terminal
+        and exact_runtime_complete is True
+    )
+    return {
+        "terminal_surface_complete": terminal_surface_complete,
+        "fully_complete": fully_complete,
+        "complete": fully_complete,
+    }
 
 
 def status(benchmark_root, manifest_path, run_dir):
@@ -1338,49 +2230,86 @@ def status(benchmark_root, manifest_path, run_dir):
     root = Path(run_dir)
     records = load_execution_records(
         root / EXECUTION_NAME, benchmark_root, manifest_path)
-    calls = AppendOnlyStore(root / CALL_CACHE_NAME, "sut-call-cache").records()
+    call_store = AppendOnlyStore(root / CALL_CACHE_NAME, "sut-call-cache")
+    calls = call_store.records()
     routes = AppendOnlyStore(root / ROUTING_CACHE_NAME, "sol-routing-cache").records()
     failures = AppendOnlyStore(
         root / FAILURE_NAME, "failures", key_field=None).records()
+    terminal_store = AppendOnlyStore(
+        root / TERMINAL_UNRESOLVED_NAME, "terminal-unresolved-sut")
+    terminal = terminal_store.records()
     by_model = Counter(record["model"] for record in records)
     expected = manifest["geometry"]["item_model_records"]
     items = select_public_items(benchmark_root)
     items_by_id = {item.id: item for item in items}
     models = {row["slug"] for row in manifest["openrouter"]["models"]}
     expected_calls, expected_routes = _expected_runtime_keys(items, models)
+    terminal_by_model = Counter()
+    terminal_keys = set()
+    for record in terminal:
+        item = items_by_id.get(record.get("item_id"))
+        if item is None:
+            raise ContractStop("terminal unresolved record has unknown item")
+        domain = _validate_terminal_unresolved_record(record, item, models)
+        expected_source = (expected_calls if domain["source_role"] == "sut"
+                           else expected_routes)
+        if domain["source_logical_key"] not in expected_source:
+            raise ContractStop(
+                "terminal unresolved source key is outside the surface")
+        terminal_keys.add(domain["logical_key"])
+        terminal_by_model[domain["model"]] += 1
+    complete_keys = {record["logical_key"] for record in records}
+    expected_item_keys = {
+        f"item:{model}:{item.id}" for model in models for item in items}
+    failed_keys = {record.get("logical_key") for record in failures}
+    active_failure_keys = failed_keys - complete_keys - terminal_keys
     actual_calls, actual_routes = _audit_cache_surfaces(
         calls, routes, expected_calls, expected_routes, items_by_id, models)
     _audit_execution_cache_links(records, calls, routes, items_by_id)
     mode = _read_run_mode(run_dir)
     ledger_integrity = mode == "offline_fake"
     openrouter_attempts = sol_attempts = 0
+    soft_budget_projection = None
     if mode == "live":
         validate_catalog_snapshot(benchmark_root, manifest_path, run_dir)
+        validate_catalog_revalidations(benchmark_root, manifest_path, run_dir)
         ledger_integrity, openrouter_attempts, sol_attempts = _audit_live_ledgers(
-            root, calls, routes, expected_calls, expected_routes)
-    complete = (
-        len(records) == expected
-        and actual_calls == expected_calls
-        and actual_routes == expected_routes
-        and not failures
-        and ledger_integrity
+            root, calls, routes, expected_calls, expected_routes, terminal)
+        from .open6_sol1_runtime import OpenRouterAttemptLedger
+        projection_guard = SoftBudgetGuard(
+            expected_calls, call_store, terminal_store,
+            OpenRouterAttemptLedger(root / "openrouter-attempts.jsonl"),
+            AppendOnlyStore(root / CHECKPOINT_NAME, "checkpoints"),
+        )
+        soft_budget_projection = projection_guard.projection()
+    completion = _completion_state(
+        expected_item_keys, complete_keys, terminal_keys,
+        exact_runtime_complete=(
+            len(records) == expected
+            and actual_calls == expected_calls
+            and actual_routes == expected_routes),
+        failure_count=len(active_failure_keys), ledger_integrity=ledger_integrity,
     )
     return {
         "pilot": manifest["pilot"],
         "manifest_sha256": hashlib.sha256((root / MANIFEST_NAME).read_bytes()).hexdigest(),
         "expected_records": expected,
         "complete_records": len(records),
-        "complete": complete,
+        **completion,
         "records_by_model": dict(sorted(by_model.items())),
+        "terminal_unresolved_records": len(terminal),
+        "terminal_unresolved_by_model": dict(sorted(terminal_by_model.items())),
         "cached_sut_calls": len(calls),
         "expected_nominal_sut_calls": manifest["openrouter"]["nominal_calls"],
         "cached_classifier_routes": len(routes),
         "expected_classifier_routes": manifest["sol_oauth"]["classifier_turns"],
         "failures": len(failures),
+        "active_failures": len(active_failure_keys),
         "run_mode": mode,
         "ledger_integrity": ledger_integrity,
         "openrouter_attempts": openrouter_attempts,
         "sol_attempts": sol_attempts,
+        "soft_budget_projection": soft_budget_projection,
         "holdout_loaded": False,
     }
 

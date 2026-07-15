@@ -684,14 +684,36 @@ def build_manifest(benchmark_root) -> dict:
         },
         "authorization": {
             "owner": "Jimmy Lin",
-            "owner_memo": (
-                "00-PORTFOLIO/20260714-jimmy-open6-sol1-authorization.md"
-            ),
+            "owner_memos": [
+                "00-PORTFOLIO/20260714-jimmy-open6-sol1-authorization.md",
+                (
+                    "00-PORTFOLIO/"
+                    "20260714-jimmy-open6-sol1-full-execution-authorization.md"
+                ),
+                "00-PORTFOLIO/20260714-jimmy-open6-sol1-resume-authorization.md",
+                (
+                    "00-PORTFOLIO/"
+                    "20260714-jimmy-open6-sol1-unattended-execution-order.md"
+                ),
+            ],
             "preflight_order": (
                 "00-PORTFOLIO/20260714-open6-sol1-preflight-order.md"
             ),
-            "preflight_only": True,
-            "credential_access": False,
+            "preflight_stage": {
+                "completed_before_live_execution": True,
+                "credential_access": False,
+                "live_calls": False,
+            },
+            "live_execution": {
+                "authorized": True,
+                "credential_access_at_call_time": True,
+                "unattended": True,
+                "soft_checkpoint_usd": "15.00",
+                "projection_continue_ceiling_usd": "23.00",
+                "hard_nte_usd": HARD_NTE_USD,
+                "resume_only_missing": True,
+                "permanent_missingness_continues_unaffected_work": True,
+            },
         },
     }
 

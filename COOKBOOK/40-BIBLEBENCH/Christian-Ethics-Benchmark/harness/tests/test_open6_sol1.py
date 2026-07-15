@@ -80,6 +80,21 @@ def test_freezes_exact_roster_prices_provider_ceilings_and_limits(benchmark_root
     assert boundary["g4_validation_authorized"] is False
     assert boundary["release_claim_authorized"] is False
 
+    authorization = manifest["authorization"]
+    assert authorization["preflight_stage"]["credential_access"] is False
+    assert authorization["live_execution"]["authorized"] is True
+    assert authorization["live_execution"]["credential_access_at_call_time"] is True
+    assert authorization["live_execution"]["unattended"] is True
+    assert authorization["live_execution"]["soft_checkpoint_usd"] == "15.00"
+    assert authorization["live_execution"]["projection_continue_ceiling_usd"] == "23.00"
+    assert authorization["live_execution"]["hard_nte_usd"] == "25.00"
+    assert authorization["owner_memos"] == [
+        "00-PORTFOLIO/20260714-jimmy-open6-sol1-authorization.md",
+        "00-PORTFOLIO/20260714-jimmy-open6-sol1-full-execution-authorization.md",
+        "00-PORTFOLIO/20260714-jimmy-open6-sol1-resume-authorization.md",
+        "00-PORTFOLIO/20260714-jimmy-open6-sol1-unattended-execution-order.md",
+    ]
+
 
 def test_geometry_is_derived_from_item_structures_and_scoring_specs(benchmark_root):
     pilot = _module()

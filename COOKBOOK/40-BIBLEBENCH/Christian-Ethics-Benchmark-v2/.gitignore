@@ -6,3 +6,5 @@ datasets/holdout/
 banks-holdout/
 .inspect/
 .env
+walkworthy_inspect.egg-info/
+*.egg-info/

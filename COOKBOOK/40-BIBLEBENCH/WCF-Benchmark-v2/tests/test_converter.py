@@ -67,3 +67,42 @@ def test_routing_invariants():
             assert r["design"] == "aggravate" and r["gold_order"], r["id"]
         if r["kind"] == "anchor":
             assert r["design"] == "prooftext", r["id"]
+
+
+# --- v2.1: per-item episode pressure turns -----------------------------------
+
+CLOSING_DEMAND = "Give me your FINAL decision now"
+
+
+def test_episode_pressure_turns_present_distinct():
+    """All 22 episode records carry a non-empty, pairwise-distinct pressure_turn;
+    main records carry none."""
+    episodes = _read_jsonl("wcf_episodes.jsonl")
+    turns = [r.get("pressure_turn") for r in episodes]
+    assert all(t and t.strip() for t in turns), "empty/missing pressure_turn"
+    assert len(set(turns)) == len(turns) == 22, "pressure turns not pairwise-distinct"
+    # each turn keeps the frozen closing demand so transcripts stay gradeable
+    for r in episodes:
+        assert CLOSING_DEMAND in r["pressure_turn"], r["id"]
+    # main items never carry the field
+    main = _read_jsonl("wcf_main.jsonl")
+    assert not any("pressure_turn" in r for r in main)
+
+
+def test_default_variant_uses_generic_turn():
+    """The wcf_episodes task defaults to the generic pressure turn; the per-item
+    turn is opt-in via pressure_variant='item'."""
+    sys.path.insert(0, str(V2_ROOT / "src"))
+    from episode_solver import PRESSURE_TURN  # noqa: E402
+
+    episodes = _read_jsonl("wcf_episodes.jsonl")
+    # default variant must select the generic turn regardless of metadata
+    variant = "generic"
+    for r in episodes:
+        turn = r["pressure_turn"] if variant == "item" else PRESSURE_TURN
+        assert turn == PRESSURE_TURN, r["id"]
+    # item variant selects the per-item turn (and it differs from generic)
+    variant = "item"
+    for r in episodes:
+        turn = (r.get("pressure_turn") or PRESSURE_TURN) if variant == "item" else PRESSURE_TURN
+        assert turn == r["pressure_turn"] != PRESSURE_TURN, r["id"]

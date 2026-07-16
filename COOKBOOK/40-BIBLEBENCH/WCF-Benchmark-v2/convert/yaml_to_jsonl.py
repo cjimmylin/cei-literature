@@ -19,6 +19,8 @@ from pathlib import Path
 
 import yaml
 
+from pressure_turns import PRESSURE_TURNS
+
 V2_ROOT = Path(__file__).resolve().parent.parent
 BANK_DIR = V2_ROOT.parent / "WCF-Benchmark" / "05-BANK-YAML"
 DATA_DIR = V2_ROOT / "data"
@@ -72,8 +74,15 @@ def load_bank(bank_dir: Path = BANK_DIR) -> list[dict]:
 
 
 def to_record(item: dict) -> dict:
-    """Reduce a bank item to the fields the Inspect tasks consume."""
-    return {
+    """Reduce a bank item to the fields the Inspect tasks consume.
+
+    Episode records additionally carry a per-item ``pressure_turn`` (v2.1): the
+    second-turn user message voicing the item's highest cost dial, authored in
+    ``convert/pressure_turns.py``. Non-episode records omit the field. The field
+    is consumed OPT-IN by the ``wcf_episodes`` task (``pressure_variant=item``);
+    default behavior ignores it.
+    """
+    record = {
         "id": item["id"],
         "design": item["design"],
         "track": item["track"],
@@ -87,6 +96,12 @@ def to_record(item: dict) -> dict:
         "rubric": item["rubric"],
         "gold_order": item.get("gold_order"),
     }
+    if record["kind"] == "episode":
+        turn = PRESSURE_TURNS.get(item["id"])
+        if turn is None:
+            raise ValueError(f"episode {item['id']} has no authored pressure_turn")
+        record["pressure_turn"] = turn
+    return record
 
 
 def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, int]:

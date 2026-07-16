@@ -1,0 +1,93 @@
+{
+  "eval_set_id": "FykrzxreXEuXJYdjCisYDh",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "Fbv4Di9KSnw9htyp6HcJLF",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/deepseek/deepseek-chat",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_episodes",
+      "task_id": "Jtf6GQz6eTDHUvsUZ2GQNn",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/deepseek/deepseek-chat",
+      "model_args": {},
+      "sequence": 1
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "4ABZvaBM5QKVKfTJVAVtN6",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/meta-llama/llama-4-maverick",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_episodes",
+      "task_id": "PTP3iS9t9wwPg5RVSjWArF",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/meta-llama/llama-4-maverick",
+      "model_args": {},
+      "sequence": 1
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "NKu5wyMSux8GPuGDZPi5JT",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/mistralai/mistral-large-2512",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_episodes",
+      "task_id": "JxQ3MgbpbZMUF5NozXqVjx",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/mistralai/mistral-large-2512",
+      "model_args": {},
+      "sequence": 1
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "AVtgbaxXeXMsfzbEN5UJVR",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/qwen/qwen3.7-plus",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_episodes",
+      "task_id": "hzEAeDoMKzk3hNYrTXeEfn",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash"
+      },
+      "model": "openrouter/qwen/qwen3.7-plus",
+      "model_args": {},
+      "sequence": 1
+    }
+  ]
+}

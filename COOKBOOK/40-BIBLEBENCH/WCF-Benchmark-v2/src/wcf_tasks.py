@@ -29,7 +29,7 @@ from pathlib import Path
 from inspect_ai import Task, task
 from inspect_ai.dataset import Sample, json_dataset
 from inspect_ai.model import GenerateConfig, get_model
-from inspect_ai.scorer import grouped, mean, model_graded_qa, stderr
+from inspect_ai.scorer import grouped, mean, model_graded_qa, multi_scorer, stderr
 from inspect_ai.solver import generate, system_message
 
 WCF_V2_ROOT = Path(__file__).resolve().parent.parent
@@ -56,7 +56,15 @@ GRADE_PATTERN = r"GRADE:\s*(\d{1,3})"
 # rendering bug; warn (never truncate — a truncated rubric corrupts scoring).
 TARGET_WARN_CHARS = 6000
 
-DEFAULT_GRADER = "openrouter/google/gemini-2.5-flash"
+# v2.1 default: 3-grader median panel (session-3 Stream B: single-grader MAD vs
+# alternates exceeded the pre-set 10-point instability threshold; ranking was
+# stable but absolute levels carry a grader-of-choice offset). Reproduce the
+# session-2 single-grader config with -T grader_model=openrouter/google/gemini-2.5-flash.
+DEFAULT_GRADER = (
+    "openrouter/google/gemini-2.5-flash"
+    ",openrouter/deepseek/deepseek-chat"
+    ",openrouter/mistralai/mistral-small-2603"
+)
 
 
 def render_standard(record: dict) -> str:
@@ -110,20 +118,31 @@ def record_to_sample(record: dict) -> Sample:
             "contested": record["contested"],
             "episode": record["episode"],
             "kind": record["kind"],
+            # v2.1: per-item pressure turn (episodes only; absent on main items).
+            # Consumed OPT-IN by scripted_dialogue when pressure_variant="item".
+            "pressure_turn": record.get("pressure_turn"),
         },
     )
 
 
 def wcf_scorer(grader_model: str, grader_temperature: float, include_history: bool):
-    return model_graded_qa(
-        template=GRADE_TEMPLATE,
-        instructions=GRADE_INSTRUCTIONS,
-        grade_pattern=GRADE_PATTERN,
-        include_history=include_history,
-        model=get_model(
-            grader_model, config=GenerateConfig(temperature=grader_temperature)
-        ),
-    )
+    """``grader_model`` accepts comma-separated slugs; 2+ graders reduce by MEDIAN
+    (not inspect's default mode/majority — grades are continuous 0-100 strings,
+    so mode is degenerate when all graders disagree)."""
+    graders = [g.strip() for g in grader_model.split(",") if g.strip()]
+    scorers = [
+        model_graded_qa(
+            template=GRADE_TEMPLATE,
+            instructions=GRADE_INSTRUCTIONS,
+            grade_pattern=GRADE_PATTERN,
+            include_history=include_history,
+            model=get_model(g, config=GenerateConfig(temperature=grader_temperature)),
+        )
+        for g in graders
+    ]
+    if len(scorers) == 1:
+        return scorers[0]
+    return multi_scorer(scorers, "median")
 
 
 @task
@@ -145,11 +164,22 @@ def wcf_main(
 
 @task
 def wcf_episodes(
-    grader_model: str = DEFAULT_GRADER, grader_temperature: float = 0.0
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+    pressure_variant: str = "generic",
 ) -> Task:
+    """NARROWGATE episodes.
+
+    ``pressure_variant`` selects the second-turn pressure injection:
+      - ``"generic"`` (default) reproduces the session-2 frozen config exactly;
+      - ``"item"`` uses per-item pressure turns (v2.1).
+    """
     return Task(
         dataset=json_dataset(str(DATA_DIR / "wcf_episodes.jsonl"), record_to_sample),
-        solver=[system_message(EXAMINEE_SYSTEM), scripted_dialogue()],
+        solver=[
+            system_message(EXAMINEE_SYSTEM),
+            scripted_dialogue(pressure_variant=pressure_variant),
+        ],
         scorer=wcf_scorer(grader_model, grader_temperature, include_history=True),
         metrics=[mean(), stderr(), grouped(mean(), "tier")],
     )

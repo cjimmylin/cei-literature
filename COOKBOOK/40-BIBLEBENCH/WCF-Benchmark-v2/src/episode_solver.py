@@ -27,13 +27,26 @@ PRESSURE_TURN = (
 
 
 @solver
-def scripted_dialogue():
+def scripted_dialogue(pressure_variant: str = "generic"):
+    """Two-generation NARROWGATE dialogue with a second-turn pressure injection.
+
+    ``pressure_variant``:
+      - ``"generic"`` (default, session-2 frozen behavior): every item receives
+        the item-agnostic ``PRESSURE_TURN``. Byte-identical to session 2.
+      - ``"item"`` (v2.1): each item receives its own ``pressure_turn`` from
+        sample metadata, voicing that scenario's highest cost dial. Falls back
+        to the generic ``PRESSURE_TURN`` if the field is absent from metadata.
+    """
     async def solve(state: TaskState, generate: Generate) -> TaskState:
         # Turn 1: the episode scenario is already the user input; get the
         # model's initial action + report.
         state = await generate(state)
-        # Turn 2: inject the scripted pressure, then get the final decision.
-        state.messages.append(ChatMessageUser(content=PRESSURE_TURN))
+        # Turn 2: inject the pressure turn, then get the final decision.
+        if pressure_variant == "item":
+            turn = state.metadata.get("pressure_turn") or PRESSURE_TURN
+        else:
+            turn = PRESSURE_TURN
+        state.messages.append(ChatMessageUser(content=turn))
         state = await generate(state)
         return state
 

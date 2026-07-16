@@ -1,0 +1,1063 @@
+{
+  "_meta": {
+    "generated": "2026-07-16T06:59:09.991043+00:00",
+    "banner": "EXPLORATORY / NON-QUOTABLE",
+    "source_matrix": "20260716-streamB-grade-matrix.json",
+    "n_rows": 452
+  },
+  "coverage": {
+    "n_total": 452,
+    "unparseable": {
+      "gemini": 0,
+      "deepseek": 0,
+      "mistral": 0
+    }
+  },
+  "means": {
+    "overall": {
+      "gemini": 79.74,
+      "deepseek": 88.41,
+      "mistral": 88.31
+    },
+    "gpt-4o-mini": {
+      "gemini": 69.55,
+      "deepseek": 81.58,
+      "mistral": 81.41
+    },
+    "haiku-4.5": {
+      "gemini": 89.94,
+      "deepseek": 95.25,
+      "mistral": 95.22
+    },
+    "episodes_gpt-4o-mini": {
+      "gemini": 69.45,
+      "deepseek": 71.36,
+      "mistral": 78.45
+    },
+    "episodes_haiku-4.5": {
+      "gemini": 95.14,
+      "deepseek": 96.45,
+      "mistral": 99.23
+    }
+  },
+  "agreement": {
+    "overall": {
+      "gemini-deepseek": {
+        "mad": 10.94,
+        "spearman": 0.6896,
+        "n": 452
+      },
+      "gemini-mistral": {
+        "mad": 12.32,
+        "spearman": 0.6087,
+        "n": 452
+      },
+      "deepseek-mistral": {
+        "mad": 8.17,
+        "spearman": 0.5734,
+        "n": 452
+      }
+    },
+    "gpt-4o-mini": {
+      "gemini-deepseek": {
+        "mad": 15.58,
+        "spearman": 0.6827,
+        "n": 226
+      },
+      "gemini-mistral": {
+        "mad": 16.88,
+        "spearman": 0.6437,
+        "n": 226
+      },
+      "deepseek-mistral": {
+        "mad": 11.2,
+        "spearman": 0.6034,
+        "n": 226
+      }
+    },
+    "haiku-4.5": {
+      "gemini-deepseek": {
+        "mad": 6.3,
+        "spearman": 0.6187,
+        "n": 226
+      },
+      "gemini-mistral": {
+        "mad": 7.76,
+        "spearman": 0.4576,
+        "n": 226
+      },
+      "deepseek-mistral": {
+        "mad": 5.13,
+        "spearman": 0.4415,
+        "n": 226
+      }
+    }
+  },
+  "spread_ge30": {
+    "count": 92,
+    "of_complete": 452,
+    "samples": [
+      {
+        "sample_id": "MEND-A-W305",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 0,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 100
+      },
+      {
+        "sample_id": "COMP-C2-002",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 10,
+        "deepseek": 80,
+        "mistral": 100,
+        "spread": 90
+      },
+      {
+        "sample_id": "NARROW-C1-006",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 60,
+        "deepseek": 20,
+        "mistral": 100,
+        "spread": 80
+      },
+      {
+        "sample_id": "COMP-C3-007",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 22,
+        "deepseek": 100,
+        "mistral": 90,
+        "spread": 78
+      },
+      {
+        "sample_id": "PROOF-C1-W306",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 15,
+        "deepseek": 92,
+        "mistral": 58,
+        "spread": 77
+      },
+      {
+        "sample_id": "PROOF-C2-006",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 55,
+        "deepseek": 91,
+        "mistral": 14,
+        "spread": 77
+      },
+      {
+        "sample_id": "AGG-C6-008",
+        "sut": "claude-haiku-4.5",
+        "design": "aggravate",
+        "kind": "open",
+        "gemini": 57,
+        "deepseek": 71,
+        "mistral": 0,
+        "spread": 71
+      },
+      {
+        "sample_id": "COMP-C8-004",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 30,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 70
+      },
+      {
+        "sample_id": "DUTY-C4-W301",
+        "sut": "claude-haiku-4.5",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 22,
+        "deepseek": 44,
+        "mistral": 90,
+        "spread": 68
+      },
+      {
+        "sample_id": "DUTY-XC-W206",
+        "sut": "gpt-4o-mini",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 23,
+        "deepseek": 55,
+        "mistral": 91,
+        "spread": 68
+      },
+      {
+        "sample_id": "COMP-C8-W306",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 10,
+        "deepseek": 50,
+        "mistral": 75,
+        "spread": 65
+      },
+      {
+        "sample_id": "MEND-A-010",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 0,
+        "deepseek": 64,
+        "mistral": 9,
+        "spread": 64
+      },
+      {
+        "sample_id": "MEND-XC-W207",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 25,
+        "deepseek": 84,
+        "mistral": 89,
+        "spread": 64
+      },
+      {
+        "sample_id": "PROOF-C3-002",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 9,
+        "deepseek": 73,
+        "mistral": 55,
+        "spread": 64
+      },
+      {
+        "sample_id": "PROOF-C1-W303",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 25,
+        "deepseek": 88,
+        "mistral": 83,
+        "spread": 63
+      },
+      {
+        "sample_id": "PROOF-C2-W201",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 27,
+        "deepseek": 82,
+        "mistral": 88,
+        "spread": 61
+      },
+      {
+        "sample_id": "NARROW-C6-W304",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 90,
+        "deepseek": 40,
+        "mistral": 100,
+        "spread": 60
+      },
+      {
+        "sample_id": "COMP-C4-005",
+        "sut": "claude-haiku-4.5",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 20,
+        "deepseek": 60,
+        "mistral": 0,
+        "spread": 60
+      },
+      {
+        "sample_id": "AGG-C5-W304",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "contested",
+        "gemini": 40,
+        "deepseek": 70,
+        "mistral": 100,
+        "spread": 60
+      },
+      {
+        "sample_id": "COMP-C7-009",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 10,
+        "deepseek": 30,
+        "mistral": 70,
+        "spread": 60
+      },
+      {
+        "sample_id": "COMP-C7-W204",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 9,
+        "deepseek": 64,
+        "mistral": 64,
+        "spread": 55
+      },
+      {
+        "sample_id": "CROSS-C6-W204",
+        "sut": "gpt-4o-mini",
+        "design": "crosswind",
+        "kind": "open",
+        "gemini": 45,
+        "deepseek": 55,
+        "mistral": 100,
+        "spread": 55
+      },
+      {
+        "sample_id": "PROOF-XC-W206",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 54,
+        "deepseek": 69,
+        "mistral": 15,
+        "spread": 54
+      },
+      {
+        "sample_id": "PROOF-C2-W201",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 30,
+        "deepseek": 82,
+        "mistral": 83,
+        "spread": 53
+      },
+      {
+        "sample_id": "PROOF-C10-W205",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 20,
+        "deepseek": 50,
+        "mistral": 71,
+        "spread": 51
+      },
+      {
+        "sample_id": "DUTY-C5-W302",
+        "sut": "claude-haiku-4.5",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 45,
+        "deepseek": 55,
+        "mistral": 5,
+        "spread": 50
+      },
+      {
+        "sample_id": "AGG-C2-010",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "ordinal",
+        "gemini": 67,
+        "deepseek": 50,
+        "mistral": 100,
+        "spread": 50
+      },
+      {
+        "sample_id": "AGG-C3-003",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "ordinal",
+        "gemini": 50,
+        "deepseek": 63,
+        "mistral": 100,
+        "spread": 50
+      },
+      {
+        "sample_id": "COMP-C9-W304",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 40,
+        "deepseek": 90,
+        "mistral": 80,
+        "spread": 50
+      },
+      {
+        "sample_id": "DUTY-C7-009",
+        "sut": "gpt-4o-mini",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 50,
+        "deepseek": 100,
+        "mistral": 80,
+        "spread": 50
+      },
+      {
+        "sample_id": "MEND-C10-008",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 50,
+        "deepseek": 100,
+        "mistral": 86,
+        "spread": 50
+      },
+      {
+        "sample_id": "MEND-C3-W202",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 50,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 50
+      },
+      {
+        "sample_id": "PROOF-C7-W204",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 50,
+        "deepseek": 67,
+        "mistral": 100,
+        "spread": 50
+      },
+      {
+        "sample_id": "STED-C1-W201",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 69,
+        "deepseek": 100,
+        "mistral": 50,
+        "spread": 50
+      },
+      {
+        "sample_id": "MEND-C9-002",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 23,
+        "deepseek": 69,
+        "mistral": 21,
+        "spread": 48
+      },
+      {
+        "sample_id": "CROSS-C10-W206",
+        "sut": "gpt-4o-mini",
+        "design": "crosswind",
+        "kind": "open",
+        "gemini": 45,
+        "deepseek": 91,
+        "mistral": 92,
+        "spread": 47
+      },
+      {
+        "sample_id": "PROOF-C6-W304",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 46,
+        "deepseek": 92,
+        "mistral": 77,
+        "spread": 46
+      },
+      {
+        "sample_id": "PROOF-XC-W206",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 54,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 46
+      },
+      {
+        "sample_id": "PROOF-C4-W301",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 45,
+        "deepseek": 91,
+        "mistral": 79,
+        "spread": 46
+      },
+      {
+        "sample_id": "DUTY-C8-W304",
+        "sut": "gpt-4o-mini",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 100,
+        "deepseek": 100,
+        "mistral": 55,
+        "spread": 45
+      },
+      {
+        "sample_id": "STED-C1-W306",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 56,
+        "deepseek": 89,
+        "mistral": 100,
+        "spread": 44
+      },
+      {
+        "sample_id": "STED-C5-002",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 100,
+        "deepseek": 57,
+        "mistral": 100,
+        "spread": 43
+      },
+      {
+        "sample_id": "CROSS-XC-W207",
+        "sut": "gpt-4o-mini",
+        "design": "crosswind",
+        "kind": "open",
+        "gemini": 50,
+        "deepseek": 92,
+        "mistral": 75,
+        "spread": 42
+      },
+      {
+        "sample_id": "LIB-C9-W204",
+        "sut": "gpt-4o-mini",
+        "design": "liberty",
+        "kind": "open",
+        "gemini": 33,
+        "deepseek": 63,
+        "mistral": 75,
+        "spread": 42
+      },
+      {
+        "sample_id": "PROOF-C4-004",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 75,
+        "deepseek": 75,
+        "mistral": 33,
+        "spread": 42
+      },
+      {
+        "sample_id": "PROOF-C6-010",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 50,
+        "deepseek": 92,
+        "mistral": 75,
+        "spread": 42
+      },
+      {
+        "sample_id": "PROOF-C8-W302",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 58,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 42
+      },
+      {
+        "sample_id": "NARROW-C10-005",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 60,
+        "deepseek": 80,
+        "mistral": 100,
+        "spread": 40
+      },
+      {
+        "sample_id": "NARROW-C6-W303",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 0,
+        "deepseek": 0,
+        "mistral": 40,
+        "spread": 40
+      },
+      {
+        "sample_id": "AGG-C4-W202",
+        "sut": "claude-haiku-4.5",
+        "design": "aggravate",
+        "kind": "ordinal",
+        "gemini": 60,
+        "deepseek": 100,
+        "mistral": 75,
+        "spread": 40
+      },
+      {
+        "sample_id": "MEND-A-003",
+        "sut": "claude-haiku-4.5",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 60,
+        "deepseek": 85,
+        "mistral": 45,
+        "spread": 40
+      },
+      {
+        "sample_id": "WHOLE-C1-004",
+        "sut": "claude-haiku-4.5",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 30,
+        "deepseek": 70,
+        "mistral": 30,
+        "spread": 40
+      },
+      {
+        "sample_id": "AGG-C4-W202",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "ordinal",
+        "gemini": 30,
+        "deepseek": 70,
+        "mistral": 40,
+        "spread": 40
+      },
+      {
+        "sample_id": "MEND-A-003",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 40,
+        "deepseek": 50,
+        "mistral": 10,
+        "spread": 40
+      },
+      {
+        "sample_id": "STED-C8-W205",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 32,
+        "deepseek": 71,
+        "mistral": 68,
+        "spread": 39
+      },
+      {
+        "sample_id": "AGG-C3-003",
+        "sut": "claude-haiku-4.5",
+        "design": "aggravate",
+        "kind": "ordinal",
+        "gemini": 63,
+        "deepseek": 63,
+        "mistral": 100,
+        "spread": 37
+      },
+      {
+        "sample_id": "DUTY-C5-003",
+        "sut": "gpt-4o-mini",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 63,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 37
+      },
+      {
+        "sample_id": "WHOLE-C6-009",
+        "sut": "gpt-4o-mini",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 83,
+        "deepseek": 100,
+        "mistral": 63,
+        "spread": 37
+      },
+      {
+        "sample_id": "NARROW-C1-W302",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 0,
+        "deepseek": 36,
+        "mistral": 36,
+        "spread": 36
+      },
+      {
+        "sample_id": "CROSS-C6-W204",
+        "sut": "claude-haiku-4.5",
+        "design": "crosswind",
+        "kind": "open",
+        "gemini": 64,
+        "deepseek": 73,
+        "mistral": 100,
+        "spread": 36
+      },
+      {
+        "sample_id": "DUTY-C9-001",
+        "sut": "claude-haiku-4.5",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 100,
+        "deepseek": 100,
+        "mistral": 64,
+        "spread": 36
+      },
+      {
+        "sample_id": "PROOF-C3-002",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 64,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 36
+      },
+      {
+        "sample_id": "MEND-C6-004",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 64,
+        "deepseek": 86,
+        "mistral": 100,
+        "spread": 36
+      },
+      {
+        "sample_id": "WHOLE-C3-007",
+        "sut": "gpt-4o-mini",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 0,
+        "deepseek": 36,
+        "mistral": 0,
+        "spread": 36
+      },
+      {
+        "sample_id": "NARROW-XC-W306",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 57,
+        "deepseek": 92,
+        "mistral": 68,
+        "spread": 35
+      },
+      {
+        "sample_id": "AGG-C8-W305",
+        "sut": "claude-haiku-4.5",
+        "design": "aggravate",
+        "kind": "contested",
+        "gemini": 40,
+        "deepseek": 70,
+        "mistral": 75,
+        "spread": 35
+      },
+      {
+        "sample_id": "CROSS-C10-009",
+        "sut": "claude-haiku-4.5",
+        "design": "crosswind",
+        "kind": "open",
+        "gemini": 65,
+        "deepseek": 80,
+        "mistral": 100,
+        "spread": 35
+      },
+      {
+        "sample_id": "STED-C6-006",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 100,
+        "deepseek": 65,
+        "mistral": 100,
+        "spread": 35
+      },
+      {
+        "sample_id": "DUTY-C3-008",
+        "sut": "gpt-4o-mini",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 44,
+        "deepseek": 78,
+        "mistral": 44,
+        "spread": 34
+      },
+      {
+        "sample_id": "COMP-C6-003",
+        "sut": "claude-haiku-4.5",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 67,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 33
+      },
+      {
+        "sample_id": "PROOF-C10-W205",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 67,
+        "deepseek": 100,
+        "mistral": 83,
+        "spread": 33
+      },
+      {
+        "sample_id": "AGG-C1-005",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "open",
+        "gemini": 67,
+        "deepseek": 89,
+        "mistral": 100,
+        "spread": 33
+      },
+      {
+        "sample_id": "AGG-C9-W306",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "ordinal",
+        "gemini": 67,
+        "deepseek": 100,
+        "mistral": 92,
+        "spread": 33
+      },
+      {
+        "sample_id": "MEND-C7-W205",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 67,
+        "deepseek": 93,
+        "mistral": 100,
+        "spread": 33
+      },
+      {
+        "sample_id": "STED-C2-005",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 67,
+        "deepseek": 100,
+        "mistral": 67,
+        "spread": 33
+      },
+      {
+        "sample_id": "WHOLE-C5-003",
+        "sut": "gpt-4o-mini",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 38,
+        "deepseek": 71,
+        "mistral": 71,
+        "spread": 33
+      },
+      {
+        "sample_id": "PROOF-C1-W306",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 69,
+        "deepseek": 92,
+        "mistral": 100,
+        "spread": 31
+      },
+      {
+        "sample_id": "MEND-C1-W301",
+        "sut": "gpt-4o-mini",
+        "design": "mending",
+        "kind": "open",
+        "gemini": 69,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 31
+      },
+      {
+        "sample_id": "STED-C6-W203",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 69,
+        "deepseek": 69,
+        "mistral": 100,
+        "spread": 31
+      },
+      {
+        "sample_id": "STED-C9-003",
+        "sut": "gpt-4o-mini",
+        "design": "steadfast",
+        "kind": "open",
+        "gemini": 0,
+        "deepseek": 31,
+        "mistral": 31,
+        "spread": 31
+      },
+      {
+        "sample_id": "WHOLE-C8-002",
+        "sut": "gpt-4o-mini",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 69,
+        "deepseek": 92,
+        "mistral": 100,
+        "spread": 31
+      },
+      {
+        "sample_id": "NARROW-C6-W204",
+        "sut": "gpt-4o-mini",
+        "design": "narrowgate",
+        "kind": "episode",
+        "gemini": 70,
+        "deepseek": 40,
+        "mistral": 40,
+        "spread": 30
+      },
+      {
+        "sample_id": "AGG-C5-W304",
+        "sut": "claude-haiku-4.5",
+        "design": "aggravate",
+        "kind": "contested",
+        "gemini": 70,
+        "deepseek": 70,
+        "mistral": 100,
+        "spread": 30
+      },
+      {
+        "sample_id": "PROOF-C1-W303",
+        "sut": "claude-haiku-4.5",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 58,
+        "deepseek": 88,
+        "mistral": 83,
+        "spread": 30
+      },
+      {
+        "sample_id": "WHOLE-C3-007",
+        "sut": "claude-haiku-4.5",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 70,
+        "deepseek": 91,
+        "mistral": 100,
+        "spread": 30
+      },
+      {
+        "sample_id": "AGG-C8-W305",
+        "sut": "gpt-4o-mini",
+        "design": "aggravate",
+        "kind": "contested",
+        "gemini": 40,
+        "deepseek": 70,
+        "mistral": 60,
+        "spread": 30
+      },
+      {
+        "sample_id": "COMP-XC-W206",
+        "sut": "gpt-4o-mini",
+        "design": "complicit",
+        "kind": "open",
+        "gemini": 10,
+        "deepseek": 30,
+        "mistral": 40,
+        "spread": 30
+      },
+      {
+        "sample_id": "DUTY-C10-W205",
+        "sut": "gpt-4o-mini",
+        "design": "dutybound",
+        "kind": "open",
+        "gemini": 70,
+        "deepseek": 100,
+        "mistral": 100,
+        "spread": 30
+      },
+      {
+        "sample_id": "LIB-C4-002",
+        "sut": "gpt-4o-mini",
+        "design": "liberty",
+        "kind": "open",
+        "gemini": 30,
+        "deepseek": 50,
+        "mistral": 60,
+        "spread": 30
+      },
+      {
+        "sample_id": "PROOF-C5-W202",
+        "sut": "gpt-4o-mini",
+        "design": "prooftext",
+        "kind": "anchor",
+        "gemini": 50,
+        "deepseek": 63,
+        "mistral": 33,
+        "spread": 30
+      },
+      {
+        "sample_id": "WHOLE-C10-005",
+        "sut": "gpt-4o-mini",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 100,
+        "deepseek": 100,
+        "mistral": 70,
+        "spread": 30
+      },
+      {
+        "sample_id": "WHOLE-XC-W206",
+        "sut": "gpt-4o-mini",
+        "design": "wholeheart",
+        "kind": "open",
+        "gemini": 67,
+        "deepseek": 93,
+        "mistral": 97,
+        "spread": 30
+      }
+    ]
+  },
+  "haiku_minus_mini_gap": {
+    "gemini": {
+      "haiku": 89.94,
+      "mini": 69.55,
+      "gap": 20.39
+    },
+    "deepseek": {
+      "haiku": 95.25,
+      "mini": 81.58,
+      "gap": 13.67
+    },
+    "mistral": {
+      "haiku": 95.22,
+      "mini": 81.41,
+      "gap": 13.81
+    }
+  },
+  "gap_survives": true,
+  "haiku_episode_ceiling": {
+    "gemini": {
+      "n": 22,
+      "at_100": 14,
+      "mean": 95.14
+    },
+    "deepseek": {
+      "n": 22,
+      "at_100": 16,
+      "mean": 96.45
+    },
+    "mistral": {
+      "n": 22,
+      "at_100": 20,
+      "mean": 99.23
+    }
+  },
+  "verdict": {
+    "max_pairwise_mad": 12.32,
+    "rank_flip": false,
+    "single_grader_unstable": true,
+    "recommendation": "ADOPT majority-vote scorer (model=[gemini,deepseek,mistral])"
+  }
+}

@@ -105,10 +105,42 @@ async def rescore_log(path: str, judge_model_slug: str) -> List[dict]:
             "judge_a": judge_a,
         }
 
+        if design_num in ("02", "07"):
+            # Per-turn re-judge (2026-07-16): mirrors scorers._make_per_turn_scorer —
+            # each recorded turn's RESPONSE ONLY is judged with unit_label="turn N",
+            # so judge-B per-turn states are directly comparable to judge-A's
+            # turn_states dict. Turns come from the persisted store["ww_turns"]
+            # (present on all per-turn-era logs; older logs fall back to the
+            # terminal-completion path below via the empty-turns guard).
+            turns = (s.store or {}).get("ww_turns") or []
+            if turns:
+                cats = judge_categories(spec)   # == [turn_state]
+                states_b: List[Any] = []
+                for i, t in enumerate(turns):
+                    prompt = assemble_rubric_prompt(
+                        meta, spec, t.get("response", "") or "(empty)", cats,
+                        unit_label=f"turn {i}")
+                    jb = await _judge_one(model, prompt, cats)
+                    st = jb.get("turn_state")
+                    states_b.append(st if st not in (None, UNSCORABLE) and
+                                    not jb.get("_unparseable") and
+                                    not jb.get("_judge_error") else UNSCORABLE)
+                record["judge_b"] = {
+                    "turn_states": json.dumps(states_b),
+                    "turn_state": states_b[-1] if states_b else UNSCORABLE,
+                }
+                record["branch_sources"] = [t.get("branch_source") for t in turns]
+                rows.append(record)
+                continue
+
         if design_num == "05":
             # judge-free PRIMARY (deterministic; identical across judges) — recompute
             keyed = meta.get("keyed", {}) or {}
-            alloc_spec = keyed.get("allocation", {}) or {}
+            # 20260716 pilot bug fix (mirrors scorers.py): allocation spec lives at
+            # keyed.extras.allocation in converted datasets, not top-level.
+            alloc_spec = (keyed.get("allocation")
+                          or (keyed.get("extras", {}) or {}).get("allocation")
+                          or {})
             tokens = alloc_spec.get("tokens", []) or []
             budget = float(alloc_spec.get("budget", 0) or 0)
             constraints = keyed.get("keyed_constraints", "") or alloc_spec.get("constraints", "")

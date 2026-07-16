@@ -599,7 +599,14 @@ def design05_scorer(judge_model: str = DEFAULT_JUDGE) -> Scorer:
         meta = state.metadata or {}
         response_text = state.output.completion if state.output else ""
         keyed = meta.get("keyed", {}) or {}
-        alloc_spec = keyed.get("allocation", {}) or {}
+        # 20260716 pilot bug fix: the converter emits the allocation spec under
+        # keyed.extras.allocation, NOT top-level keyed.allocation (0/32 public items
+        # carry the latter). Reading only the top level ran every real item with
+        # tokens=[]/budget=0 -> parser had nothing to match -> CSR structurally
+        # unscorable (the root cause of the e2e and pilot all-nan CSR cells).
+        alloc_spec = (keyed.get("allocation")
+                      or (keyed.get("extras", {}) or {}).get("allocation")
+                      or {})
         tokens = alloc_spec.get("tokens", []) or []
         budget = float(alloc_spec.get("budget", 0) or 0)
         constraints = keyed.get("keyed_constraints", "") or alloc_spec.get("constraints", "")

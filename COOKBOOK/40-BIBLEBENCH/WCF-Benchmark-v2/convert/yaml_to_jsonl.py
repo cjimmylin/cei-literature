@@ -14,17 +14,38 @@ modified. Run from anywhere: paths resolve relative to this file.
 
 from __future__ import annotations
 
+import hashlib
 import json
+from datetime import date
 from pathlib import Path
 
 import yaml
 
 from pressure_turns import PRESSURE_TURNS
 from session4_patches import apply_patches
+from session5_patches import apply_patches as apply_patches_s5
 
 V2_ROOT = Path(__file__).resolve().parent.parent
 BANK_DIR = V2_ROOT.parent / "WCF-Benchmark" / "05-BANK-YAML"
 DATA_DIR = V2_ROOT / "data"
+TEMPLATE_DIR = V2_ROOT / "src" / "templates"
+
+# v2.2 bank-version manifest constants (design memo §3). GRADE_PATTERN and the
+# panel default mirror src/wcf_grading.py + src/wcf_tasks.py; kept here as literals
+# so the manifest is self-describing without importing the inspect_ai stack.
+BANK_VERSION = "v2.2"
+PATCH_LAYERS = ["session4_patches", "session5_patches"]
+# Mirrors src/wcf_grading.py:GRADE_PATTERN (last-match, word-bounded, no 4-digit
+# truncation). Kept as a literal so the manifest is self-describing without pulling
+# the inspect_ai stack into the converter; a guard test asserts it stays in sync
+# with the source of truth in src/wcf_grading.py.
+GRADE_PATTERN = r"(?is).*(?<!\w)GRADE(?!\w)\s*:\s*(\d{1,3})(?!\d)"
+PANEL_DEFAULT = (
+    "openrouter/google/gemini-2.5-flash"
+    ",openrouter/deepseek/deepseek-chat"
+    ",openrouter/mistralai/mistral-small-2603"
+)
+MANIFEST_DATE = "2026-07-16"
 
 REQUIRED_FIELDS = ("id", "design", "track", "tier", "commandments", "stem", "key", "rubric")
 
@@ -112,18 +133,57 @@ def to_record(item: dict) -> dict:
 
 
 def load_patched_bank(bank_dir: Path = BANK_DIR) -> list[dict]:
-    """Load the v1 bank, then apply the session-4 patch layer (Agent B).
+    """Load the v1 bank, then apply the session-4 patch layer, then session-5.
 
-    Quarantined items (CV-02) are dropped; surviving items carry the CV-02
-    control-twin strip, CV-04/CG-02 decline gating, CV-03 anchor-text injection,
-    and CG-03 recall-hybrid tag. The v1 source YAML is never modified.
+    Chain: v1 YAML (read-only) -> session4_patches.apply_patches (CV-02 quarantine
+    + control-twin strip + CV-04/CG-02 decline gate + CV-03 anchor-text + CG-03
+    recall tag) -> session5_patches.apply_patches (Lever B R1-R5 rubric repairs on
+    12 AMBIG items + Lever C item-specific incommensurable-head-pair enumeration on
+    the 3 contested items that carry a decline criterion). Quarantined items (CV-02)
+    are dropped by session4 (return None) before session5 runs. The v1 source YAML
+    is never modified.
     """
     patched: list[dict] = []
     for item in load_bank(bank_dir):
         out = apply_patches(item)
-        if out is not None:
-            patched.append(out)
+        if out is None:
+            continue  # CV-02 quarantine (session4)
+        out = apply_patches_s5(out)
+        patched.append(out)
     return patched
+
+
+def _sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR) -> dict:
+    """Write ``data/BANK-VERSION.json`` (design memo §3 bank-versioning rule).
+
+    Records the bank version, patch layers, sha256 of both emitted JSONL files,
+    sha256 of both grading templates (original + excellence, Lever A), the grade
+    pattern, the panel default, and the date. Must be called AFTER the JSONL files
+    are emitted so the hashes match on disk.
+    """
+    manifest = {
+        "bank_version": BANK_VERSION,
+        "patch_layers": PATCH_LAYERS,
+        "sha256_wcf_main": _sha256(data_dir / "wcf_main.jsonl"),
+        "sha256_wcf_episodes": _sha256(data_dir / "wcf_episodes.jsonl"),
+        "sha256_grading_template_original": _sha256(
+            template_dir / "wcf_grade_template.txt"
+        ),
+        "sha256_grading_template_excellence": _sha256(
+            template_dir / "wcf_grade_template_excellence.txt"
+        ),
+        "grade_pattern": GRADE_PATTERN,
+        "panel": PANEL_DEFAULT,
+        "date": MANIFEST_DATE,
+    }
+    (data_dir / "BANK-VERSION.json").write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n"
+    )
+    return manifest
 
 
 def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, int]:
@@ -136,6 +196,7 @@ def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, 
         with open(data_dir / name, "w") as f:
             for row in rows:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    write_manifest(data_dir)
     return len(main), len(episodes)
 
 
@@ -145,4 +206,5 @@ if __name__ == "__main__":
     print(f"wcf_episodes.jsonl: {n_episodes} items (expected {EXPECTED_EPISODES})")
     if (n_main, n_episodes) != (EXPECTED_MAIN, EXPECTED_EPISODES):
         raise SystemExit("COUNT MISMATCH — do not run evals until resolved")
+    print("data/BANK-VERSION.json written")
     print("OK")

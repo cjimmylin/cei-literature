@@ -1,0 +1,60 @@
+{
+  "smoke_indices": [
+    204,
+    205,
+    0,
+    1,
+    474,
+    475,
+    270,
+    271,
+    2,
+    3
+  ],
+  "smoke_tasks": [
+    "wcf_episodes",
+    "wcf_episodes",
+    "wcf_main",
+    "wcf_main",
+    "wcf_main",
+    "wcf_main",
+    "wcf_main",
+    "wcf_main",
+    "wcf_main",
+    "wcf_main"
+  ],
+  "smoke_suts": [
+    "openrouter/deepseek/deepseek-chat",
+    "openrouter/deepseek/deepseek-chat",
+    "openrouter/deepseek/deepseek-chat",
+    "openrouter/deepseek/deepseek-chat",
+    "openrouter/mistralai/mistral-large-2512",
+    "openrouter/mistralai/mistral-large-2512",
+    "openrouter/qwen/qwen3.7-plus",
+    "openrouter/qwen/qwen3.7-plus",
+    "openrouter/deepseek/deepseek-chat",
+    "openrouter/deepseek/deepseek-chat"
+  ],
+  "results": {
+    "nova": {
+      "slug": "openrouter/amazon/nova-pro-v1",
+      "unparseable": 0,
+      "swapped": false
+    },
+    "command_r": {
+      "slug": "openrouter/cohere/command-r-08-2024",
+      "unparseable": 0,
+      "swapped": false
+    }
+  },
+  "swaps": {
+    "nova": null,
+    "command_r": null
+  },
+  "final_slugs": {
+    "deepseek": "openrouter/deepseek/deepseek-chat",
+    "mistral_small": "openrouter/mistralai/mistral-small-2603",
+    "nova": "openrouter/amazon/nova-pro-v1",
+    "command_r": "openrouter/cohere/command-r-08-2024"
+  }
+}

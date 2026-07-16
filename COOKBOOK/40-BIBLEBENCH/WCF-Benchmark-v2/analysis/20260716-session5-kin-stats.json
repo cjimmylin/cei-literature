@@ -1,0 +1,109 @@
+{
+  "_meta": {
+    "generated": "2026-07-16T11:36:26.594837+00:00",
+    "banner": "EXPLORATORY / NON-QUOTABLE \u2014 descriptive stats only, no interpretation",
+    "n_rows_total": 678,
+    "n_boot_ci": 10000,
+    "panel_definition": {
+      "default_panel": [
+        "gemini",
+        "deepseek",
+        "mistral_small"
+      ],
+      "kinfree_panel": [
+        "gemini",
+        "nova",
+        "command_r"
+      ]
+    }
+  },
+  "a_per_grader_mean_by_sut": {
+    "gemini": {
+      "deepseek_sut": 85.1814,
+      "mistral_large_sut": 88.8496,
+      "qwen_sut": 93.3761
+    },
+    "deepseek": {
+      "deepseek_sut": 89.4602,
+      "mistral_large_sut": 93.8894,
+      "qwen_sut": 96.3982
+    },
+    "mistral_small": {
+      "deepseek_sut": 90.0269,
+      "mistral_large_sut": 95.0398,
+      "qwen_sut": 97.5467
+    },
+    "nova": {
+      "deepseek_sut": 82.8053,
+      "mistral_large_sut": 88.6593,
+      "qwen_sut": 92.354
+    },
+    "command_r": {
+      "deepseek_sut": 83.8682,
+      "mistral_large_sut": 88.3665,
+      "qwen_sut": 91.0283
+    }
+  },
+  "b_panel_means_by_sut": {
+    "deepseek_sut": {
+      "mean_default_panel": 89.2124,
+      "mean_kinfree_panel": 85.2389
+    },
+    "mistral_large_sut": {
+      "mean_default_panel": 93.5752,
+      "mean_kinfree_panel": 90.3053
+    },
+    "qwen_sut": {
+      "mean_default_panel": 96.292,
+      "mean_kinfree_panel": 93.9934
+    }
+  },
+  "c_per_sut_delta_default_minus_kinfree": {
+    "deepseek_sut": 3.9735,
+    "mistral_large_sut": 3.2699,
+    "qwen_sut": 2.2986
+  },
+  "d_difference_in_differences": {
+    "delta_deepseekSUT_minus_qwenSUT": {
+      "obs": 1.6748,
+      "ci95_lo": 0.1438,
+      "ci95_hi": 3.2655,
+      "n_boot": 10000,
+      "interpretation_note": "EXPLORATORY ONLY \u2014 positive = kin graders inflate deepseek SUT relative to qwen control"
+    },
+    "delta_mistralLargeSUT_minus_qwenSUT": {
+      "obs": 0.9712,
+      "ci95_lo": -0.5088,
+      "ci95_hi": 2.4558,
+      "n_boot": 10000,
+      "interpretation_note": "EXPLORATORY ONLY \u2014 positive = kin graders inflate mistral-large SUT relative to qwen control"
+    }
+  },
+  "e_per_grader_lone_outlier_rates": {
+    "gemini": {
+      "lone_outlier_count": 60,
+      "valid_rows": 678,
+      "lone_outlier_rate_pct": 8.85
+    },
+    "deepseek": {
+      "lone_outlier_count": 20,
+      "valid_rows": 678,
+      "lone_outlier_rate_pct": 2.95
+    },
+    "mistral_small": {
+      "lone_outlier_count": 42,
+      "valid_rows": 674,
+      "lone_outlier_rate_pct": 6.23
+    },
+    "nova": {
+      "lone_outlier_count": 50,
+      "valid_rows": 678,
+      "lone_outlier_rate_pct": 7.37
+    },
+    "command_r": {
+      "lone_outlier_count": 132,
+      "valid_rows": 653,
+      "lone_outlier_rate_pct": 20.21
+    }
+  }
+}

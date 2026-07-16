@@ -1,0 +1,2785 @@
+{
+  "generated": "2026-07-16",
+  "description": "Session-5 v2.2 validation run. configY: excellence_gate=true, 15 DEAD items x3 SUTs. configX-main: excellence_gate=false, 14 repaired items (11 Lever-B + 3 Lever-C contested) x3 SUTs. configX-episodes: wcf_episodes, pressure_variant=item, NARROW-C10-005 x3 SUTs. Qwen background runs had partial completions; re-runs issued and merged (last-file-wins).",
+  "suts": [
+    "qwen3.7-plus",
+    "claude-haiku-4.5",
+    "gpt-4o-mini"
+  ],
+  "counts": {
+    "configY_rows": 45,
+    "configX_main_rows": 42,
+    "configX_episodes_rows": 3,
+    "total_rows": 90,
+    "expected_total": 90,
+    "unscored_count": 0,
+    "quorum_failures_count": 1
+  },
+  "coverage_issues": [],
+  "unscored_rows": [],
+  "quorum_failures": [
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sample_id": "DUTY-XC-W206",
+      "n_valid": 2
+    }
+  ],
+  "per_sample_rows": [
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C2-W201",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C7-W204",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C7-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-36-37-00-00_wcf-main_B4BTn2e55Vx5MMMLkrBSzw.eval",
+      "token_usage": {
+        "input": 7032,
+        "output": 9515
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C8-W303",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-33-03-00-00_wcf-main_bp3qJijqDpakxNiF29DuYq.eval",
+      "token_usage": null,
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "COMP-C4-W305",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "COMP-C8-004",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-C8-002",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-C9-W305",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-XC-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        92,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-33-03-00-00_wcf-main_bp3qJijqDpakxNiF29DuYq.eval",
+      "token_usage": null,
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C3-008",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-33-03-00-00_wcf-main_bp3qJijqDpakxNiF29DuYq.eval",
+      "token_usage": null,
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C8-W304",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-33-03-00-00_wcf-main_bp3qJijqDpakxNiF29DuYq.eval",
+      "token_usage": null,
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C9-W306",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C9-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "STED-C2-005",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "STED-C2-W301",
+      "score": 92.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        81,
+        92,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval",
+      "token_usage": {
+        "input": 108859,
+        "output": 92347
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C2-W201",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C7-W204",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C7-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C8-W303",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        92,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "COMP-C4-W305",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        80
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "COMP-C8-004",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-C8-002",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        88,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-C9-W305",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-XC-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C3-008",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C8-W304",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        86,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C9-W306",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        90,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C9-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "STED-C2-005",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "STED-C2-W301",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval",
+      "token_usage": {
+        "input": 85428,
+        "output": 23671
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C2-W201",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        92,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C7-W204",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C7-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "AGG-C8-W303",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "COMP-C4-W305",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "COMP-C8-004",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        70,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-C8-002",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-C9-W305",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "CROSS-XC-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C3-008",
+      "score": 78.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        67,
+        78,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C8-W304",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        95
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C9-W306",
+      "score": 80.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        80,
+        70,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "DUTY-C9-W307",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        89,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "STED-C2-005",
+      "score": 67.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        67,
+        67,
+        67
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configY",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": true
+      },
+      "sample_id": "STED-C2-W301",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval",
+      "token_usage": {
+        "input": 84951,
+        "output": 23649
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C2-010",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C5-W304",
+      "score": 80.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        50,
+        80,
+        90
+      ],
+      "eval_file": "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval",
+      "token_usage": {
+        "input": 44027,
+        "output": 49970
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C7-007",
+      "score": 73.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        73,
+        82,
+        73
+      ],
+      "eval_file": "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval",
+      "token_usage": {
+        "input": 44027,
+        "output": 49970
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C8-W305",
+      "score": 70.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        70,
+        70,
+        100
+      ],
+      "eval_file": "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval",
+      "token_usage": {
+        "input": 44027,
+        "output": 49970
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C2-002",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C4-005",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        80
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C7-009",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C8-W306",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-XC-W206",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        90
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "CROSS-XC-W207",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval",
+      "token_usage": {
+        "input": 44027,
+        "output": 49970
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "DUTY-C4-W301",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval",
+      "token_usage": {
+        "input": 44027,
+        "output": 49970
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "DUTY-XC-W206",
+      "score": 93.0,
+      "is_unscored": false,
+      "panel_n_valid": 2,
+      "panel_values": [
+        95,
+        91,
+        null
+      ],
+      "eval_file": "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval",
+      "token_usage": {
+        "input": 44027,
+        "output": 49970
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "LIB-C4-002",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "STED-C1-W201",
+      "score": 91.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        84,
+        91,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval",
+      "token_usage": {
+        "input": 87471,
+        "output": 106565
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C2-010",
+      "score": 90.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        90,
+        90,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C5-W304",
+      "score": 80.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        56,
+        80,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C7-007",
+      "score": 73.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        73,
+        73,
+        82
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C8-W305",
+      "score": 50.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        50,
+        80,
+        50
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C2-002",
+      "score": 95.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        90,
+        95,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C4-005",
+      "score": 0.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        0,
+        60,
+        0
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C7-009",
+      "score": 90.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        80,
+        90,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C8-W306",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-XC-W206",
+      "score": 85.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        85,
+        85,
+        70
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "CROSS-XC-W207",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        96,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "DUTY-C4-W301",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "DUTY-XC-W206",
+      "score": 82.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        64,
+        82,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "LIB-C4-002",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        95,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "STED-C1-W201",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        100,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval",
+      "token_usage": {
+        "input": 68669,
+        "output": 22701
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C2-010",
+      "score": 80.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        70,
+        80,
+        90
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C5-W304",
+      "score": 60.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        60,
+        80,
+        40
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C7-007",
+      "score": 73.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        55,
+        73,
+        73
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "AGG-C8-W305",
+      "score": 50.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        40,
+        70,
+        50
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C2-002",
+      "score": 10.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        40,
+        10,
+        10
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C4-005",
+      "score": 90.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        50,
+        100,
+        90
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C7-009",
+      "score": 90.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        80,
+        90,
+        95
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-C8-W306",
+      "score": 10.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        10,
+        10,
+        0
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "COMP-XC-W206",
+      "score": 40.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        35,
+        90,
+        40
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "CROSS-XC-W207",
+      "score": 50.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        33,
+        50,
+        67
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "DUTY-C4-W301",
+      "score": 33.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        33,
+        33,
+        33
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "DUTY-XC-W206",
+      "score": 91.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        82,
+        91,
+        91
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "LIB-C4-002",
+      "score": 40.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        20,
+        40,
+        75
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-main",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_main",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "excellence_gate": false
+      },
+      "sample_id": "STED-C1-W201",
+      "score": 89.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        94,
+        89,
+        56
+      ],
+      "eval_file": "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval",
+      "token_usage": {
+        "input": 65830,
+        "output": 20868
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-episodes",
+      "sut": "qwen3.7-plus",
+      "sut_full": "openrouter/qwen/qwen3.7-plus",
+      "task": "wcf_episodes",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "pressure_variant": "item"
+      },
+      "sample_id": "NARROW-C10-005",
+      "score": 100.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        100,
+        90,
+        100
+      ],
+      "eval_file": "2026-07-16T11-36-13-00-00_wcf-episodes_J9P5fW74UXoRCodZyUzzQh.eval",
+      "token_usage": {
+        "input": 10546,
+        "output": 8875
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-episodes",
+      "sut": "claude-haiku-4.5",
+      "sut_full": "openrouter/anthropic/claude-haiku-4.5",
+      "task": "wcf_episodes",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "pressure_variant": "item"
+      },
+      "sample_id": "NARROW-C10-005",
+      "score": 90.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        80,
+        90,
+        100
+      ],
+      "eval_file": "2026-07-16T11-30-46-00-00_wcf-episodes_CRzdXTgDwr7Z6BSF7vWhiC.eval",
+      "token_usage": {
+        "input": 9379,
+        "output": 2111
+      },
+      "cost_est_usd": null
+    },
+    {
+      "config": "configX-episodes",
+      "sut": "gpt-4o-mini",
+      "sut_full": "openrouter/openai/gpt-4o-mini",
+      "task": "wcf_episodes",
+      "task_args": {
+        "grader_model": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
+        "grader_temperature": 0.0,
+        "pressure_variant": "item"
+      },
+      "sample_id": "NARROW-C10-005",
+      "score": 40.0,
+      "is_unscored": false,
+      "panel_n_valid": 3,
+      "panel_values": [
+        20,
+        40,
+        80
+      ],
+      "eval_file": "2026-07-16T11-30-47-00-00_wcf-episodes_3PDnKj5wwAQDDsuixffjje.eval",
+      "token_usage": {
+        "input": 9130,
+        "output": 1809
+      },
+      "cost_est_usd": null
+    }
+  ],
+  "per_item_derived": {
+    "configY::AGG-C2-W201": {
+      "config": "configY",
+      "sample_id": "AGG-C2-W201",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 2.67,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::AGG-C7-W204": {
+      "config": "configY",
+      "sample_id": "AGG-C7-W204",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 0.0,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::AGG-C7-W307": {
+      "config": "configY",
+      "sample_id": "AGG-C7-W307",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 0.0,
+      "pilot_mean_panel_spread": 6.0
+    },
+    "configY::AGG-C8-W303": {
+      "config": "configY",
+      "sample_id": "AGG-C8-W303",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 2.67,
+      "pilot_mean_panel_spread": 4.0
+    },
+    "configY::COMP-C4-W305": {
+      "config": "configY",
+      "sample_id": "COMP-C4-W305",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 6.67,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::COMP-C8-004": {
+      "config": "configY",
+      "sample_id": "COMP-C8-004",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 10.0,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::CROSS-C8-002": {
+      "config": "configY",
+      "sample_id": "CROSS-C8-002",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 4.0,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::CROSS-C9-W305": {
+      "config": "configY",
+      "sample_id": "CROSS-C9-W305",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 0.0,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::CROSS-XC-W307": {
+      "config": "configY",
+      "sample_id": "CROSS-XC-W307",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 2.67,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::DUTY-C3-008": {
+      "config": "configY",
+      "sample_id": "DUTY-C3-008",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 78.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 11.0,
+      "pilot_mean_panel_spread": 6.0
+    },
+    "configY::DUTY-C8-W304": {
+      "config": "configY",
+      "sample_id": "DUTY-C8-W304",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 6.33,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::DUTY-C9-W306": {
+      "config": "configY",
+      "sample_id": "DUTY-C9-W306",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 80.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 13.33,
+      "pilot_mean_panel_spread": 5.0
+    },
+    "configY::DUTY-C9-W307": {
+      "config": "configY",
+      "sample_id": "DUTY-C9-W307",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 3.67,
+      "pilot_mean_panel_spread": 0.0
+    },
+    "configY::STED-C2-005": {
+      "config": "configY",
+      "sample_id": "STED-C2-005",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 67.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 0.0,
+      "pilot_mean_panel_spread": 8.5
+    },
+    "configY::STED-C2-W301": {
+      "config": "configY",
+      "sample_id": "STED-C2-W301",
+      "sut_scores": {
+        "qwen3.7-plus": 92.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 100.0
+      },
+      "tier1_spread_abs": 8.0,
+      "val_mean_panel_spread": 6.33,
+      "pilot_mean_panel_spread": 2.5
+    },
+    "configX-main::AGG-C2-010": {
+      "config": "configX-main",
+      "sample_id": "AGG-C2-010",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 90.0,
+        "gpt-4o-mini": 80.0
+      },
+      "tier1_spread_abs": 10.0,
+      "val_mean_panel_spread": 10.0,
+      "pilot_mean_panel_spread": 30.0
+    },
+    "configX-main::AGG-C5-W304": {
+      "config": "configX-main",
+      "sample_id": "AGG-C5-W304",
+      "sut_scores": {
+        "qwen3.7-plus": 80.0,
+        "claude-haiku-4.5": 80.0,
+        "gpt-4o-mini": 60.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 41.33,
+      "pilot_mean_panel_spread": 35.0
+    },
+    "configX-main::AGG-C7-007": {
+      "config": "configX-main",
+      "sample_id": "AGG-C7-007",
+      "sut_scores": {
+        "qwen3.7-plus": 73.0,
+        "claude-haiku-4.5": 73.0,
+        "gpt-4o-mini": 73.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 12.0,
+      "pilot_mean_panel_spread": 38.5
+    },
+    "configX-main::AGG-C8-W305": {
+      "config": "configX-main",
+      "sample_id": "AGG-C8-W305",
+      "sut_scores": {
+        "qwen3.7-plus": 70.0,
+        "claude-haiku-4.5": 50.0,
+        "gpt-4o-mini": 50.0
+      },
+      "tier1_spread_abs": 20.0,
+      "val_mean_panel_spread": 30.0,
+      "pilot_mean_panel_spread": 50.0
+    },
+    "configX-main::COMP-C2-002": {
+      "config": "configX-main",
+      "sample_id": "COMP-C2-002",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 95.0,
+        "gpt-4o-mini": 10.0
+      },
+      "tier1_spread_abs": 5.0,
+      "val_mean_panel_spread": 13.33,
+      "pilot_mean_panel_spread": 55.0
+    },
+    "configX-main::COMP-C4-005": {
+      "config": "configX-main",
+      "sample_id": "COMP-C4-005",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 0.0,
+        "gpt-4o-mini": 90.0
+      },
+      "tier1_spread_abs": 100.0,
+      "val_mean_panel_spread": 43.33,
+      "pilot_mean_panel_spread": 20.0
+    },
+    "configX-main::COMP-C7-009": {
+      "config": "configX-main",
+      "sample_id": "COMP-C7-009",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 90.0,
+        "gpt-4o-mini": 90.0
+      },
+      "tier1_spread_abs": 10.0,
+      "val_mean_panel_spread": 11.67,
+      "pilot_mean_panel_spread": 15.0
+    },
+    "configX-main::COMP-C8-W306": {
+      "config": "configX-main",
+      "sample_id": "COMP-C8-W306",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 10.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 3.33,
+      "pilot_mean_panel_spread": 40.0
+    },
+    "configX-main::COMP-XC-W206": {
+      "config": "configX-main",
+      "sample_id": "COMP-XC-W206",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 85.0,
+        "gpt-4o-mini": 40.0
+      },
+      "tier1_spread_abs": 15.0,
+      "val_mean_panel_spread": 26.67,
+      "pilot_mean_panel_spread": 40.0
+    },
+    "configX-main::CROSS-XC-W207": {
+      "config": "configX-main",
+      "sample_id": "CROSS-XC-W207",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 50.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 12.67,
+      "pilot_mean_panel_spread": 12.5
+    },
+    "configX-main::DUTY-C4-W301": {
+      "config": "configX-main",
+      "sample_id": "DUTY-C4-W301",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 33.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 0.0,
+      "pilot_mean_panel_spread": 5.5
+    },
+    "configX-main::DUTY-XC-W206": {
+      "config": "configX-main",
+      "sample_id": "DUTY-XC-W206",
+      "sut_scores": {
+        "qwen3.7-plus": 93.0,
+        "claude-haiku-4.5": 82.0,
+        "gpt-4o-mini": 91.0
+      },
+      "tier1_spread_abs": 11.0,
+      "val_mean_panel_spread": 16.33,
+      "pilot_mean_panel_spread": 6.5
+    },
+    "configX-main::LIB-C4-002": {
+      "config": "configX-main",
+      "sample_id": "LIB-C4-002",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 40.0
+      },
+      "tier1_spread_abs": 0.0,
+      "val_mean_panel_spread": 20.0,
+      "pilot_mean_panel_spread": 25.0
+    },
+    "configX-main::STED-C1-W201": {
+      "config": "configX-main",
+      "sample_id": "STED-C1-W201",
+      "sut_scores": {
+        "qwen3.7-plus": 91.0,
+        "claude-haiku-4.5": 100.0,
+        "gpt-4o-mini": 89.0
+      },
+      "tier1_spread_abs": 9.0,
+      "val_mean_panel_spread": 18.0,
+      "pilot_mean_panel_spread": 19.0
+    },
+    "configX-episodes::NARROW-C10-005": {
+      "config": "configX-episodes",
+      "sample_id": "NARROW-C10-005",
+      "sut_scores": {
+        "qwen3.7-plus": 100.0,
+        "claude-haiku-4.5": 90.0,
+        "gpt-4o-mini": 40.0
+      },
+      "tier1_spread_abs": 10.0,
+      "val_mean_panel_spread": 30.0,
+      "pilot_mean_panel_spread": 30.0
+    }
+  },
+  "cost": {
+    "per_eval_file_usd": {
+      "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval": null,
+      "2026-07-16T11-36-37-00-00_wcf-main_B4BTn2e55Vx5MMMLkrBSzw.eval": null,
+      "2026-07-16T11-33-03-00-00_wcf-main_bp3qJijqDpakxNiF29DuYq.eval": null,
+      "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval": null,
+      "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval": null,
+      "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval": null,
+      "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval": null,
+      "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval": null,
+      "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval": null,
+      "2026-07-16T11-36-13-00-00_wcf-episodes_J9P5fW74UXoRCodZyUzzQh.eval": null,
+      "2026-07-16T11-30-46-00-00_wcf-episodes_CRzdXTgDwr7Z6BSF7vWhiC.eval": null,
+      "2026-07-16T11-30-47-00-00_wcf-episodes_3PDnKj5wwAQDDsuixffjje.eval": null
+    },
+    "total_estimated_usd": 0,
+    "note": "cost_est from inspect log stats.total_cost; None if field absent. Concurrent regrade job on same key: credits delta unreliable."
+  },
+  "token_usage_per_eval": {
+    "2026-07-16T11-30-16-00-00_wcf-main_j3CDDMdfMg7gCKKh6SLBGD.eval": {
+      "input": 108859,
+      "output": 92347
+    },
+    "2026-07-16T11-36-37-00-00_wcf-main_B4BTn2e55Vx5MMMLkrBSzw.eval": {
+      "input": 7032,
+      "output": 9515
+    },
+    "2026-07-16T11-33-03-00-00_wcf-main_bp3qJijqDpakxNiF29DuYq.eval": null,
+    "2026-07-16T11-30-17-00-00_wcf-main_YbCcpC9H6pTosTcEdJCeum.eval": {
+      "input": 85428,
+      "output": 23671
+    },
+    "2026-07-16T11-30-20-00-00_wcf-main_K4zpW4nNRdNKjTXR4L9UN2.eval": {
+      "input": 84951,
+      "output": 23649
+    },
+    "2026-07-16T11-30-30-00-00_wcf-main_Bh6aFvGRemZ29Q8t2akTfL.eval": {
+      "input": 87471,
+      "output": 106565
+    },
+    "2026-07-16T11-36-10-00-00_wcf-main_g9DTvXNCZVEADLUh9B4A3r.eval": {
+      "input": 44027,
+      "output": 49970
+    },
+    "2026-07-16T11-30-33-00-00_wcf-main_8iERHRn8pT7Y9Fw9WBvUJH.eval": {
+      "input": 68669,
+      "output": 22701
+    },
+    "2026-07-16T11-30-36-00-00_wcf-main_QaE9AknHfRYqfFurUjnJTY.eval": {
+      "input": 65830,
+      "output": 20868
+    },
+    "2026-07-16T11-36-13-00-00_wcf-episodes_J9P5fW74UXoRCodZyUzzQh.eval": {
+      "input": 10546,
+      "output": 8875
+    },
+    "2026-07-16T11-30-46-00-00_wcf-episodes_CRzdXTgDwr7Z6BSF7vWhiC.eval": {
+      "input": 9379,
+      "output": 2111
+    },
+    "2026-07-16T11-30-47-00-00_wcf-episodes_3PDnKj5wwAQDDsuixffjje.eval": {
+      "input": 9130,
+      "output": 1809
+    }
+  }
+}

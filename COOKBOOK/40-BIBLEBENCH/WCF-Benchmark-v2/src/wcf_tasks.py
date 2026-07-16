@@ -58,6 +58,12 @@ TEMPLATE_DIR = WCF_V2_ROOT / "src" / "templates"
 # and flags the final-turn duplication so graders don't double-weight it (GP-10).
 GRADE_TEMPLATE = (TEMPLATE_DIR / "wcf_grade_template.txt").read_text()
 GRADE_TEMPLATE_EPISODE = (TEMPLATE_DIR / "wcf_grade_template_episode.txt").read_text()
+# Lever A (v2.2, session-5): the main-template variant carrying the EXCELLENCE GATE
+# top-band calibration block. Byte-identical to the original template except for the
+# inserted gate block, so excellence_gate=False serves the original verbatim. Only
+# the MAIN task uses it; the episode template is untouched (episodes' fix is
+# escalation depth, an s6 authoring question).
+GRADE_TEMPLATE_EXCELLENCE = (TEMPLATE_DIR / "wcf_grade_template_excellence.txt").read_text()
 GRADE_INSTRUCTIONS = (TEMPLATE_DIR / "wcf_grade_instructions.txt").read_text()
 # GRADE_PATTERN is imported from wcf_grading (last-match, word-bounded, no digit
 # truncation). Kept as a module attribute for backward compatibility.
@@ -135,7 +141,12 @@ def record_to_sample(record: dict) -> Sample:
     )
 
 
-def wcf_scorer(grader_model: str, grader_temperature: float, include_history: bool):
+def wcf_scorer(
+    grader_model: str,
+    grader_temperature: float,
+    include_history: bool,
+    excellence_gate: bool = False,
+):
     """``grader_model`` accepts comma-separated slugs; 2+ graders reduce by MEDIAN
     via the explicit ``panel_median`` reducer (NOT inspect's default mode/majority
     — grades are continuous 0-100 strings, so mode is degenerate; and NOT the
@@ -148,8 +159,15 @@ def wcf_scorer(grader_model: str, grader_temperature: float, include_history: bo
     letting >100 inflate a mean or a non-numeric string coerce to 0.0 (GP-04/06).
     The ``panel_median`` reducer records ``metadata['panel']`` (effective panel
     size + each grader's parsed value) so degradation is visible and per-grader
-    provenance survives without a re-run (GP-06/07)."""
-    template = GRADE_TEMPLATE_EPISODE if include_history else GRADE_TEMPLATE
+    provenance survives without a re-run (GP-06/07).
+
+    ``excellence_gate`` (Lever A, v2.2) swaps the MAIN grading template for the
+    excellence-gate variant that reserves 95-100 for distinguished answers. It has
+    NO effect when ``include_history`` (episodes keep their template)."""
+    if include_history:
+        template = GRADE_TEMPLATE_EPISODE
+    else:
+        template = GRADE_TEMPLATE_EXCELLENCE if excellence_gate else GRADE_TEMPLATE
     # Inspect's -T parser splits a comma-separated CLI value into a list; a
     # Python caller / the DEFAULT_GRADER passes a single comma-joined string.
     # Accept both.
@@ -177,12 +195,23 @@ def wcf_scorer(grader_model: str, grader_temperature: float, include_history: bo
 
 @task
 def wcf_main(
-    grader_model: str = DEFAULT_GRADER, grader_temperature: float = 0.0
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+    excellence_gate: bool = True,
 ) -> Task:
+    """v2.2 main task. ``excellence_gate`` (Lever A, default True) grades under the
+    top-band-calibration template that reserves 95-100 for distinguished answers;
+    set ``-T excellence_gate=false`` to grade under the original byte-identical
+    template (isolates the per-item lever-B/C patches from the gate)."""
     return Task(
         dataset=json_dataset(str(DATA_DIR / "wcf_main.jsonl"), record_to_sample),
         solver=[system_message(EXAMINEE_SYSTEM), generate()],
-        scorer=wcf_scorer(grader_model, grader_temperature, include_history=False),
+        scorer=wcf_scorer(
+            grader_model,
+            grader_temperature,
+            include_history=False,
+            excellence_gate=excellence_gate,
+        ),
         metrics=[
             mean(),
             stderr(),

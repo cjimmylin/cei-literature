@@ -1,0 +1,119 @@
+{
+  "per_grader_mean_delta_overall": {
+    "gemini-2.5-flash": -6.476,
+    "deepseek-chat": 1.179,
+    "mistral-small-2603": 1.947
+  },
+  "per_grader_mean_delta_by_kind": {
+    "gemini-2.5-flash": {
+      "open": -4.994,
+      "ordinal": -9.588,
+      "contested": -11.15,
+      "anchor": -15.702,
+      "episode": -4.294
+    },
+    "deepseek-chat": {
+      "open": 0.874,
+      "ordinal": 1.688,
+      "contested": 5.6,
+      "anchor": 2.948,
+      "episode": 0.318
+    },
+    "mistral-small-2603": {
+      "open": 1.359,
+      "ordinal": 4.45,
+      "contested": 5.65,
+      "anchor": 0.574,
+      "episode": 5.045
+    }
+  },
+  "per_grader_mean_delta_by_sut": {
+    "gemini-2.5-flash": {
+      "qwen3.7-plus": -4.218,
+      "gpt-4o-mini": -10.622,
+      "haiku-4.5": -3.8,
+      "llama-4-maverick": -9.891,
+      "kimi-k2": -3.828
+    },
+    "deepseek-chat": {
+      "qwen3.7-plus": 0.253,
+      "gpt-4o-mini": 2.916,
+      "haiku-4.5": 0.131,
+      "llama-4-maverick": 2.493,
+      "kimi-k2": 0.1
+    },
+    "mistral-small-2603": {
+      "qwen3.7-plus": 1.027,
+      "gpt-4o-mini": 3.422,
+      "haiku-4.5": 1.439,
+      "llama-4-maverick": 3.068,
+      "kimi-k2": 0.801
+    }
+  },
+  "lone_outlier_counts": {
+    "gemini-2.5-flash": 55,
+    "deepseek-chat": 19,
+    "mistral-small-2603": 26
+  },
+  "lone_outlier_denominator_all3present": 1100,
+  "lone_outlier_rates": {
+    "gemini-2.5-flash": 0.05,
+    "deepseek-chat": 0.0173,
+    "mistral-small-2603": 0.0236
+  },
+  "n_valid_lt3_count": 5,
+  "n_valid_lt3_rows": [
+    {
+      "sut": "gpt-4o-mini",
+      "sample_id": "AGG-C5-004",
+      "panel_values": [
+        100,
+        100,
+        null
+      ],
+      "missing_grader": "mistral-small-2603"
+    },
+    {
+      "sut": "gpt-4o-mini",
+      "sample_id": "STED-C1-W201",
+      "panel_values": [
+        59,
+        75,
+        null
+      ],
+      "missing_grader": "mistral-small-2603"
+    },
+    {
+      "sut": "gpt-4o-mini",
+      "sample_id": "WHOLE-C8-W306",
+      "panel_values": [
+        71,
+        100,
+        null
+      ],
+      "missing_grader": "mistral-small-2603"
+    },
+    {
+      "sut": "haiku-4.5",
+      "sample_id": "PROOF-XC-W206",
+      "panel_values": [
+        null,
+        100,
+        100
+      ],
+      "missing_grader": "gemini-2.5-flash"
+    },
+    {
+      "sut": "qwen3.7-plus",
+      "sample_id": "NARROW-C6-009",
+      "panel_values": [
+        null,
+        100,
+        100
+      ],
+      "missing_grader": "gemini-2.5-flash"
+    }
+  ],
+  "gemini_mean_delta_patched_bank": -6.476,
+  "gemini_session3_old_bank_reference": -8.6
+}

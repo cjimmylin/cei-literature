@@ -20,6 +20,7 @@ from pathlib import Path
 import yaml
 
 from pressure_turns import PRESSURE_TURNS
+from session4_patches import apply_patches
 
 V2_ROOT = Path(__file__).resolve().parent.parent
 BANK_DIR = V2_ROOT.parent / "WCF-Benchmark" / "05-BANK-YAML"
@@ -27,7 +28,9 @@ DATA_DIR = V2_ROOT / "data"
 
 REQUIRED_FIELDS = ("id", "design", "track", "tier", "commandments", "stem", "key", "rubric")
 
-EXPECTED_MAIN = 204
+# v2 (session-4 patched bank): 5 CV-02 turn-conditioned items quarantined from
+# the 204 v1 main items -> 199. Episodes unchanged.
+EXPECTED_MAIN = 199
 EXPECTED_EPISODES = 22
 
 
@@ -96,6 +99,10 @@ def to_record(item: dict) -> dict:
         "rubric": item["rubric"],
         "gold_order": item.get("gold_order"),
     }
+    # CG-03 (session-4 patch): recall-hybrid tag, carried into the JSONL so the
+    # "conduct-only" framing is never overstated. Only present on tagged items.
+    if item.get("recall_hybrid") is True:
+        record["recall_hybrid"] = True
     if record["kind"] == "episode":
         turn = PRESSURE_TURNS.get(item["id"])
         if turn is None:
@@ -104,8 +111,23 @@ def to_record(item: dict) -> dict:
     return record
 
 
+def load_patched_bank(bank_dir: Path = BANK_DIR) -> list[dict]:
+    """Load the v1 bank, then apply the session-4 patch layer (Agent B).
+
+    Quarantined items (CV-02) are dropped; surviving items carry the CV-02
+    control-twin strip, CV-04/CG-02 decline gating, CV-03 anchor-text injection,
+    and CG-03 recall-hybrid tag. The v1 source YAML is never modified.
+    """
+    patched: list[dict] = []
+    for item in load_bank(bank_dir):
+        out = apply_patches(item)
+        if out is not None:
+            patched.append(out)
+    return patched
+
+
 def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, int]:
-    records = [to_record(item) for item in load_bank(bank_dir)]
+    records = [to_record(item) for item in load_patched_bank(bank_dir)]
     main = [r for r in records if r["kind"] != "episode"]
     episodes = [r for r in records if r["kind"] == "episode"]
 

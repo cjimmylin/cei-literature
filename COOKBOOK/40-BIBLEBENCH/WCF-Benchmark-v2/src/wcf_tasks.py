@@ -43,14 +43,24 @@ from prompt_frames import (  # noqa: E402
     TRACK_A_FRAME,
     TRACK_B_FRAME,
 )
+from wcf_grading import (  # noqa: E402
+    GRADE_PATTERN,
+    bounded_grader,
+    panel_median,
+)
 
 logger = logging.getLogger(__name__)
 
 DATA_DIR = WCF_V2_ROOT / "data"
 TEMPLATE_DIR = WCF_V2_ROOT / "src" / "templates"
+# Main (single-completion) template labels the response "[BEGIN MODEL RESPONSE]";
+# the episode template (include_history=True) labels the history "[BEGIN TRANSCRIPT]"
+# and flags the final-turn duplication so graders don't double-weight it (GP-10).
 GRADE_TEMPLATE = (TEMPLATE_DIR / "wcf_grade_template.txt").read_text()
+GRADE_TEMPLATE_EPISODE = (TEMPLATE_DIR / "wcf_grade_template_episode.txt").read_text()
 GRADE_INSTRUCTIONS = (TEMPLATE_DIR / "wcf_grade_instructions.txt").read_text()
-GRADE_PATTERN = r"GRADE:\s*(\d{1,3})"
+# GRADE_PATTERN is imported from wcf_grading (last-match, word-bounded, no digit
+# truncation). Kept as a module attribute for backward compatibility.
 
 # A rendered grading standard longer than this is probably an authoring or
 # rendering bug; warn (never truncate — a truncated rubric corrupts scoring).
@@ -127,22 +137,42 @@ def record_to_sample(record: dict) -> Sample:
 
 def wcf_scorer(grader_model: str, grader_temperature: float, include_history: bool):
     """``grader_model`` accepts comma-separated slugs; 2+ graders reduce by MEDIAN
-    (not inspect's default mode/majority — grades are continuous 0-100 strings,
-    so mode is degenerate when all graders disagree)."""
-    graders = [g.strip() for g in grader_model.split(",") if g.strip()]
+    via the explicit ``panel_median`` reducer (NOT inspect's default mode/majority
+    — grades are continuous 0-100 strings, so mode is degenerate; and NOT the
+    ``model=[...]`` list form, which silently reduces by mode).
+
+    Each grader is wrapped in ``bounded_grader`` which (a) defangs the WCF
+    template's own structural markers in the SUT answer before grading so a SUT
+    cannot forge a rubric block / close the response block early (GP-02), and
+    (b) routes out-of-range or non-numeric grades to ``unscored`` rather than
+    letting >100 inflate a mean or a non-numeric string coerce to 0.0 (GP-04/06).
+    The ``panel_median`` reducer records ``metadata['panel']`` (effective panel
+    size + each grader's parsed value) so degradation is visible and per-grader
+    provenance survives without a re-run (GP-06/07)."""
+    template = GRADE_TEMPLATE_EPISODE if include_history else GRADE_TEMPLATE
+    # Inspect's -T parser splits a comma-separated CLI value into a list; a
+    # Python caller / the DEFAULT_GRADER passes a single comma-joined string.
+    # Accept both.
+    if isinstance(grader_model, str):
+        grader_model = grader_model.split(",")
+    graders = [str(g).strip() for g in grader_model if str(g).strip()]
     scorers = [
-        model_graded_qa(
-            template=GRADE_TEMPLATE,
-            instructions=GRADE_INSTRUCTIONS,
-            grade_pattern=GRADE_PATTERN,
-            include_history=include_history,
-            model=get_model(g, config=GenerateConfig(temperature=grader_temperature)),
+        bounded_grader(
+            model_graded_qa(
+                template=template,
+                instructions=GRADE_INSTRUCTIONS,
+                grade_pattern=GRADE_PATTERN,
+                include_history=include_history,
+                model=get_model(
+                    g, config=GenerateConfig(temperature=grader_temperature)
+                ),
+            )
         )
         for g in graders
     ]
     if len(scorers) == 1:
         return scorers[0]
-    return multi_scorer(scorers, "median")
+    return multi_scorer(scorers, panel_median())
 
 
 @task
@@ -181,5 +211,7 @@ def wcf_episodes(
             scripted_dialogue(pressure_variant=pressure_variant),
         ],
         scorer=wcf_scorer(grader_model, grader_temperature, include_history=True),
-        metrics=[mean(), stderr(), grouped(mean(), "tier")],
+        # EP-04: episodes are all tier=T4/track=A, so grouped(mean(),"tier") is a
+        # single vacuous cell — dropped. Keep overall mean/stderr only.
+        metrics=[mean(), stderr()],
     )

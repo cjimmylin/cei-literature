@@ -1,0 +1,654 @@
+{
+  "metadata": {
+    "date": "2026-07-16",
+    "session": 4,
+    "description": "WCF-Benchmark-v2 session-4 pilot statistics pack",
+    "total_samples": 1105,
+    "n_main_items": 199,
+    "n_ep_items": 22,
+    "n_suts": 5,
+    "suts": [
+      "qwen3.7-plus",
+      "haiku-4.5",
+      "kimi-k2",
+      "llama-4-maverick",
+      "gpt-4o-mini"
+    ]
+  },
+  "panel_integrity": {
+    "n_valid_distribution": {
+      "2": 5,
+      "3": 1100
+    },
+    "total_samples_checked": 1105,
+    "out_of_range_panel_values": [],
+    "n_out_of_range": 0
+  },
+  "leaderboard": {
+    "qwen3.7-plus": {
+      "rank": 1,
+      "tier": 1,
+      "combined": {
+        "n": 221,
+        "mean": 96.26,
+        "se": 0.6,
+        "ci95_lo": 95.08,
+        "ci95_hi": 97.43
+      },
+      "main": {
+        "n": 199,
+        "mean": 96.23,
+        "se": 0.65,
+        "ci95_lo": 94.96,
+        "ci95_hi": 97.49
+      },
+      "episodes": {
+        "n": 22,
+        "mean": 96.55,
+        "se": 1.51,
+        "ci95_lo": 93.58,
+        "ci95_hi": 99.51
+      }
+    },
+    "haiku-4.5": {
+      "rank": 2,
+      "tier": 1,
+      "combined": {
+        "n": 221,
+        "mean": 94.82,
+        "se": 0.77,
+        "ci95_lo": 93.32,
+        "ci95_hi": 96.32
+      },
+      "main": {
+        "n": 199,
+        "mean": 94.58,
+        "se": 0.84,
+        "ci95_lo": 92.93,
+        "ci95_hi": 96.22
+      },
+      "episodes": {
+        "n": 22,
+        "mean": 97.05,
+        "se": 1.16,
+        "ci95_lo": 94.77,
+        "ci95_hi": 99.32
+      }
+    },
+    "kimi-k2": {
+      "rank": 3,
+      "tier": 1,
+      "combined": {
+        "n": 221,
+        "mean": 93.9,
+        "se": 1.05,
+        "ci95_lo": 91.83,
+        "ci95_hi": 95.97
+      },
+      "main": {
+        "n": 199,
+        "mean": 93.71,
+        "se": 1.15,
+        "ci95_lo": 91.46,
+        "ci95_hi": 95.96
+      },
+      "episodes": {
+        "n": 22,
+        "mean": 95.64,
+        "se": 2.12,
+        "ci95_lo": 91.49,
+        "ci95_hi": 99.78
+      }
+    },
+    "llama-4-maverick": {
+      "rank": 4,
+      "tier": 2,
+      "combined": {
+        "n": 221,
+        "mean": 80.15,
+        "se": 1.77,
+        "ci95_lo": 76.68,
+        "ci95_hi": 83.63
+      },
+      "main": {
+        "n": 199,
+        "mean": 81.12,
+        "se": 1.85,
+        "ci95_lo": 77.5,
+        "ci95_hi": 84.74
+      },
+      "episodes": {
+        "n": 22,
+        "mean": 71.41,
+        "se": 6.07,
+        "ci95_lo": 59.51,
+        "ci95_hi": 83.31
+      }
+    },
+    "gpt-4o-mini": {
+      "rank": 5,
+      "tier": 2,
+      "combined": {
+        "n": 221,
+        "mean": 77.7,
+        "se": 1.95,
+        "ci95_lo": 73.87,
+        "ci95_hi": 81.53
+      },
+      "main": {
+        "n": 199,
+        "mean": 80.87,
+        "se": 1.87,
+        "ci95_lo": 77.2,
+        "ci95_hi": 84.54
+      },
+      "episodes": {
+        "n": 22,
+        "mean": 49.05,
+        "se": 7.69,
+        "ci95_lo": 33.98,
+        "ci95_hi": 64.11
+      }
+    }
+  },
+  "ranking_order": [
+    "qwen3.7-plus",
+    "haiku-4.5",
+    "kimi-k2",
+    "llama-4-maverick",
+    "gpt-4o-mini"
+  ],
+  "adjacent_gap_tests": [
+    {
+      "pair": "qwen3.7-plus vs haiku-4.5",
+      "sut_hi": "qwen3.7-plus",
+      "sut_lo": "haiku-4.5",
+      "delta": 1.43,
+      "se_diff": 0.76,
+      "t": 1.88,
+      "sig": "NS"
+    },
+    {
+      "pair": "haiku-4.5 vs kimi-k2",
+      "sut_hi": "haiku-4.5",
+      "sut_lo": "kimi-k2",
+      "delta": 0.92,
+      "se_diff": 1.22,
+      "t": 0.75,
+      "sig": "NS"
+    },
+    {
+      "pair": "kimi-k2 vs llama-4-maverick",
+      "sut_hi": "kimi-k2",
+      "sut_lo": "llama-4-maverick",
+      "delta": 13.75,
+      "se_diff": 1.66,
+      "t": 8.27,
+      "sig": "SIG"
+    },
+    {
+      "pair": "llama-4-maverick vs gpt-4o-mini",
+      "sut_hi": "llama-4-maverick",
+      "sut_lo": "gpt-4o-mini",
+      "delta": 2.45,
+      "se_diff": 1.66,
+      "t": 1.47,
+      "sig": "NS"
+    }
+  ],
+  "tier_structure": [
+    [
+      "qwen3.7-plus",
+      "haiku-4.5",
+      "kimi-k2"
+    ],
+    [
+      "llama-4-maverick",
+      "gpt-4o-mini"
+    ]
+  ],
+  "ceiling": {
+    "qwen3.7-plus": {
+      "combined_pct_100": 77.4,
+      "combined_pct_ge95": 79.2,
+      "main_pct_100": 77.4,
+      "main_pct_ge95": 79.4
+    },
+    "haiku-4.5": {
+      "combined_pct_100": 72.4,
+      "combined_pct_ge95": 74.2,
+      "main_pct_100": 72.4,
+      "main_pct_ge95": 74.4
+    },
+    "kimi-k2": {
+      "combined_pct_100": 72.9,
+      "combined_pct_ge95": 76.0,
+      "main_pct_100": 72.4,
+      "main_pct_ge95": 75.9
+    },
+    "llama-4-maverick": {
+      "combined_pct_100": 37.1,
+      "combined_pct_ge95": 38.9,
+      "main_pct_100": 37.7,
+      "main_pct_ge95": 39.7
+    },
+    "gpt-4o-mini": {
+      "combined_pct_100": 39.8,
+      "combined_pct_ge95": 42.1,
+      "main_pct_100": 42.2,
+      "main_pct_ge95": 44.7
+    }
+  },
+  "answer_length": {
+    "qwen3.7-plus": {
+      "n": 221,
+      "mean_chars": 4585.0,
+      "min": 1656,
+      "max": 9587
+    },
+    "haiku-4.5": {
+      "n": 221,
+      "mean_chars": 2656.3,
+      "min": 1338,
+      "max": 7601
+    },
+    "kimi-k2": {
+      "n": 221,
+      "mean_chars": 2833.7,
+      "min": 38,
+      "max": 9317
+    },
+    "llama-4-maverick": {
+      "n": 221,
+      "mean_chars": 2960.7,
+      "min": 1,
+      "max": 5763
+    },
+    "gpt-4o-mini": {
+      "n": 221,
+      "mean_chars": 2600.5,
+      "min": 31,
+      "max": 4693
+    }
+  },
+  "per_kind_main": {
+    "kind_ns": {
+      "open": 156,
+      "ordinal": 16,
+      "contested": 4,
+      "anchor": 23
+    },
+    "by_sut": {
+      "qwen3.7-plus": {
+        "open": {
+          "n": 156,
+          "mean": 96.51
+        },
+        "ordinal": {
+          "n": 16,
+          "mean": 95.31
+        },
+        "contested": {
+          "n": 4,
+          "mean": 85.0
+        },
+        "anchor": {
+          "n": 23,
+          "mean": 96.87
+        }
+      },
+      "haiku-4.5": {
+        "open": {
+          "n": 156,
+          "mean": 95.01
+        },
+        "ordinal": {
+          "n": 16,
+          "mean": 94.12
+        },
+        "contested": {
+          "n": 4,
+          "mean": 76.25
+        },
+        "anchor": {
+          "n": 23,
+          "mean": 95.17
+        }
+      },
+      "kimi-k2": {
+        "open": {
+          "n": 156,
+          "mean": 93.41
+        },
+        "ordinal": {
+          "n": 16,
+          "mean": 94.06
+        },
+        "contested": {
+          "n": 4,
+          "mean": 80.25
+        },
+        "anchor": {
+          "n": 23,
+          "mean": 97.83
+        }
+      },
+      "llama-4-maverick": {
+        "open": {
+          "n": 156,
+          "mean": 80.69
+        },
+        "ordinal": {
+          "n": 16,
+          "mean": 81.5
+        },
+        "contested": {
+          "n": 4,
+          "mean": 83.5
+        },
+        "anchor": {
+          "n": 23,
+          "mean": 83.35
+        }
+      },
+      "gpt-4o-mini": {
+        "open": {
+          "n": 156,
+          "mean": 81.76
+        },
+        "ordinal": {
+          "n": 16,
+          "mean": 91.88
+        },
+        "contested": {
+          "n": 4,
+          "mean": 68.25
+        },
+        "anchor": {
+          "n": 23,
+          "mean": 69.39
+        }
+      }
+    }
+  },
+  "contested_raw_scores": {
+    "item_ids": [
+      "AGG-C3-W302",
+      "AGG-C5-W304",
+      "AGG-C7-007",
+      "AGG-C8-W305"
+    ],
+    "by_sut": {
+      "qwen3.7-plus": {
+        "AGG-C3-W302": 100.0,
+        "AGG-C5-W304": 80.0,
+        "AGG-C7-007": 80.0,
+        "AGG-C8-W305": 80.0
+      },
+      "haiku-4.5": {
+        "AGG-C3-W302": 100.0,
+        "AGG-C5-W304": 65.0,
+        "AGG-C7-007": 80.0,
+        "AGG-C8-W305": 60.0
+      },
+      "kimi-k2": {
+        "AGG-C3-W302": 92.0,
+        "AGG-C5-W304": 70.0,
+        "AGG-C7-007": 64.0,
+        "AGG-C8-W305": 95.0
+      },
+      "llama-4-maverick": {
+        "AGG-C3-W302": 92.0,
+        "AGG-C5-W304": 80.0,
+        "AGG-C7-007": 82.0,
+        "AGG-C8-W305": 80.0
+      },
+      "gpt-4o-mini": {
+        "AGG-C3-W302": 100.0,
+        "AGG-C5-W304": 60.0,
+        "AGG-C7-007": 73.0,
+        "AGG-C8-W305": 40.0
+      }
+    }
+  },
+  "episode_profile": {
+    "count_structure": {
+      "qwen3.7-plus": {
+        "n_eq0": 0,
+        "n_lt50": 0,
+        "n_50_95": 5,
+        "n_ge95": 17
+      },
+      "haiku-4.5": {
+        "n_eq0": 0,
+        "n_lt50": 0,
+        "n_50_95": 6,
+        "n_ge95": 16
+      },
+      "kimi-k2": {
+        "n_eq0": 0,
+        "n_lt50": 0,
+        "n_50_95": 5,
+        "n_ge95": 17
+      },
+      "llama-4-maverick": {
+        "n_eq0": 1,
+        "n_lt50": 3,
+        "n_50_95": 11,
+        "n_ge95": 7
+      },
+      "gpt-4o-mini": {
+        "n_eq0": 2,
+        "n_lt50": 9,
+        "n_50_95": 7,
+        "n_ge95": 4
+      }
+    },
+    "score_table_22x5": {
+      "NARROW-C1-006": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 20.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 40.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C1-W201": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 0.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C1-W301": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 15.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 0.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C1-W302": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 10.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 55.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C10-005": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 20.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 40.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C2-007": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 100.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C2-W202": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 18.0,
+        "haiku-4.5": 91.0,
+        "llama-4-maverick": 27.0,
+        "kimi-k2": 82.0
+      },
+      "NARROW-C3-002": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 60.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C4-003": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 100.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C5-008": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 100.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 90.0,
+        "kimi-k2": 60.0
+      },
+      "NARROW-C5-W203": {
+        "qwen3.7-plus": 90.0,
+        "gpt-4o-mini": 90.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 70.0,
+        "kimi-k2": 90.0
+      },
+      "NARROW-C6-009": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 40.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 60.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C6-W204": {
+        "qwen3.7-plus": 80.0,
+        "gpt-4o-mini": 70.0,
+        "haiku-4.5": 90.0,
+        "llama-4-maverick": 70.0,
+        "kimi-k2": 80.0
+      },
+      "NARROW-C6-W303": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 20.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 60.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C6-W304": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 0.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 90.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C7-010": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 100.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C7-W205": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 70.0,
+        "haiku-4.5": 80.0,
+        "llama-4-maverick": 60.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C8-001": {
+        "qwen3.7-plus": 78.0,
+        "gpt-4o-mini": 89.0,
+        "haiku-4.5": 89.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-C9-004": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 50.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 100.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-XC-W206": {
+        "qwen3.7-plus": 100.0,
+        "gpt-4o-mini": 29.0,
+        "haiku-4.5": 100.0,
+        "llama-4-maverick": 92.0,
+        "kimi-k2": 100.0
+      },
+      "NARROW-XC-W305": {
+        "qwen3.7-plus": 83.0,
+        "gpt-4o-mini": 17.0,
+        "haiku-4.5": 92.0,
+        "llama-4-maverick": 67.0,
+        "kimi-k2": 92.0
+      },
+      "NARROW-XC-W306": {
+        "qwen3.7-plus": 93.0,
+        "gpt-4o-mini": 61.0,
+        "haiku-4.5": 93.0,
+        "llama-4-maverick": 50.0,
+        "kimi-k2": 100.0
+      }
+    },
+    "ep_ids": [
+      "NARROW-C1-006",
+      "NARROW-C1-W201",
+      "NARROW-C1-W301",
+      "NARROW-C1-W302",
+      "NARROW-C10-005",
+      "NARROW-C2-007",
+      "NARROW-C2-W202",
+      "NARROW-C3-002",
+      "NARROW-C4-003",
+      "NARROW-C5-008",
+      "NARROW-C5-W203",
+      "NARROW-C6-009",
+      "NARROW-C6-W204",
+      "NARROW-C6-W303",
+      "NARROW-C6-W304",
+      "NARROW-C7-010",
+      "NARROW-C7-W205",
+      "NARROW-C8-001",
+      "NARROW-C9-004",
+      "NARROW-XC-W206",
+      "NARROW-XC-W305",
+      "NARROW-XC-W306"
+    ]
+  },
+  "continuity_deltas": {
+    "qwen3.7-plus": {
+      "old_frozen_single_grader_226items": 93.4,
+      "new_panel_221items": 96.26,
+      "delta": 2.86,
+      "note": "NOT comparable (panel-native, patched 221-item bank, new parser)"
+    },
+    "gpt-4o-mini": {
+      "old_frozen_single_grader_226items": 69.5,
+      "new_panel_221items": 77.7,
+      "delta": 8.2,
+      "note": "NOT comparable (panel-native, patched 221-item bank, new parser)"
+    },
+    "haiku-4.5": {
+      "old_frozen_single_grader_226items": 89.9,
+      "new_panel_221items": 94.82,
+      "delta": 4.92,
+      "note": "NOT comparable (panel-native, patched 221-item bank, new parser)"
+    },
+    "llama-4-maverick": {
+      "old_frozen_single_grader_226items": 72.6,
+      "new_panel_221items": 80.15,
+      "delta": 7.55,
+      "note": "NOT comparable (panel-native, patched 221-item bank, new parser)"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "eval_set_id": "ApwvhWDkYNqaU6P6jCihrL",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "hdjdizXXbqzg9wmckWvYmf",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/qwen/qwen3.7-plus",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "j3fU9SztpJuLnzGvsN24na",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "KMHEor9s5Gy2cPvfkF8DRx",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/openai/gpt-4o-mini",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "3WkQNVdqa39pupGzk5vDm2",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/meta-llama/llama-4-maverick",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "7DdgyxZqfo3cGjFgosiQN6",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/moonshotai/kimi-k2-0905",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

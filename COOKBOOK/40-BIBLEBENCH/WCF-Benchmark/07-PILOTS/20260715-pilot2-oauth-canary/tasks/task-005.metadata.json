@@ -1,0 +1,8 @@
+{
+  "command_sha256": "02dd8fa2fa8816986e60cdd99db8efff3605f7941c44c70d29a763100403f4eb",
+  "elapsed_seconds": 9.18525,
+  "returncode": 0,
+  "stderr_sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+  "stdout_sha256": "b93f9579d00198a948cbab89661fbe5089f83dd1b91c887ce20bf5d352ed91b9",
+  "task_id": "task-005"
+}

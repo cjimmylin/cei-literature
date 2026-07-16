@@ -1,5 +1,18 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-15 — Pilot 2 failed the all-five provider-canary gate
+
+- **Question:** Should Jimmy select exact **DEFER**, or separately authorize and freeze a
+  new study after Pilot 2's terminal provider-canary failure?
+- **Why it blocks:** MiniMax and GLM passed, but DeepSeek returned an ambiguous post-submit
+  HTTP 404 with missing attributable cost. The registered terminal guard stopped before
+  Qwen, Gemma, all bank cells, judging, or analysis. This Pilot 2 invocation cannot resume.
+- **Evidence:** `20260715ay-wcf-pilot2-s67-provider-canary-stop.md` and immutable directory
+  `07-PILOTS/20260715-pilot2-reasoning-run/`. Known response-attributed cost is
+  `$0.00072496261`; one DeepSeek attempt remains unknown/missing, never zero.
+- **Suggested default:** **DEFER**. Preserve the partial packet as failed-gate history and do
+  not retry, substitute, or turn a protocol change into a resume.
+
 ## RESOLVED 2026-07-15 — Pilot 2 quality review found a macOS path-alias lease P1
 
 - **Disposition:** Jimmy selected exact **TOP-LEVEL ALIAS FIX**. Exact authority is

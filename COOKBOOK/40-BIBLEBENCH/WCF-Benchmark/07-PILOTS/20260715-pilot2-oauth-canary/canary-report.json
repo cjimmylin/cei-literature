@@ -1,0 +1,39 @@
+{
+  "arithmetic": {
+    "contested": {
+      "earned_points": 0.0,
+      "graded_points": 4.0,
+      "possible_points": 4.0,
+      "weighted_fraction": 0.0
+    },
+    "episode": {
+      "earned_points": 4.0,
+      "graded_points": 4.0,
+      "possible_points": 4.0,
+      "weighted_fraction": 1.0
+    },
+    "open": {
+      "earned_points": 0.0,
+      "graded_points": 8.0,
+      "possible_points": 8.0,
+      "weighted_fraction": 0.0
+    },
+    "total": {
+      "earned_points": 4.0,
+      "graded_points": 16.0,
+      "possible_points": 16.0,
+      "weighted_fraction": 0.25
+    }
+  },
+  "elapsed_seconds": 90.901755,
+  "input_sha256": "27fe4aaacaa75c7b1a0b45be9b24a3af9cdc262d34dadd5cf83a025380175c2d",
+  "missing_record_ids": [],
+  "record_count": 16,
+  "schema_version": 1,
+  "status": "PASS",
+  "stop_kind": null,
+  "stop_reason": null,
+  "task_count": 6,
+  "unique_record_count": 16,
+  "validity_label": "EXPLORATORY WCF-BENCH PILOT 2 · FIVE REASONING-ENABLED OPEN-FIRST SUTS · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE"
+}

@@ -1,0 +1,17 @@
+{
+  "cap_usd": 28.13,
+  "diagnostic_only_cells": 20,
+  "exact_sut_slugs": [
+    "minimax/minimax-m3",
+    "z-ai/glm-5.2",
+    "deepseek/deepseek-v4-pro",
+    "qwen/qwen3.7-max",
+    "google/gemma-4-31b-it"
+  ],
+  "expected_cells": 1150,
+  "kind": "wcf_bench_pilot2_immutable_run",
+  "manifest_sha256": "6cbd41f45bdd6605d18096cedcf50a95f2c163384f35f484000d84a58c76c047",
+  "schema_version": 1,
+  "scorable_cells": 1130,
+  "validity_label": "EXPLORATORY WCF-BENCH PILOT 2 · FIVE REASONING-ENABLED OPEN-FIRST SUTS · ONE RUN PER SUT · SINGLE UNQUALIFIED CODEX-OAUTH GPT-5.6 SOL JUDGE · NON-QUOTABLE"
+}

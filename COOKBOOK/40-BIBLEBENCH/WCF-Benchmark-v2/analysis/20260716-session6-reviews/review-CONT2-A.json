@@ -1,0 +1,140 @@
+[
+ {
+  "id": "CONT-N-016",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: correct the curator honoring her repentance AND require the catalog fixed; confront the assistant's settled pattern including stopping it, retracting the false claims to misled buyers, and proportionate discipline",
+    "detail": "One 1.0 all-or-nothing line bundles two full scenarios (a and b), each with 2-3 sub-requirements (5+ judgments). A grader cannot credit a model that nails (a)-counsel but omits (b)-counsel; per §5 the skeleton is '(1.0) practical counsel delivered per scenario' and §4.1 forbids multi-judgment lines.",
+    "proposed_fix": "Split into two 0.5 lines: (0.5) '(a) counsel: correct the curator honoring her repentance AND require the catalog corrected' and (0.5) '(b) counsel: require the assistant's pattern stopped, false claims retracted to misled buyers, discipline proportionate to an unrepented habit'. Total stays 5.0."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(b) profile: H3 deliberateness AND eight-month continuance/relapse both named as aggravating (Q151 head 3), still ongoing and unrepented; buyers harmed by the repeated false claim (Q145)",
+    "detail": "Line 4 bundles three checkable judgments: deliberateness+continuance named as Q151-h3 aggravating; still-ongoing/unrepented; buyers-harmed under Q145. All-or-nothing at 1.0 lets a grader lose the whole line over a partial answer.",
+    "proposed_fix": "Keep the Q151-h3 deliberateness+continuance judgment as the scored core (it is one coherent head-claim); demote 'buyers harmed (Q145)' to non-scoring context in the key, OR make the line explicitly 'names Q151 head 3 deliberateness-and-continuance as aggravating' and drop the trailing conjuncts from the scoring text."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-017",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: for (a) restitution to the specific defrauded families (Q141 'right owners'), remove her access to vulnerable clients, treat as exploitation not a lapse; for (b) restitution of the cash, address the public breach and donors' trust openly, discipline proportionate to a brazen public act",
+    "detail": "Single 1.0 line bundles two scenarios x three sub-requirements each (6 judgments). No partial credit possible; violates §4.1 single-judgment.",
+    "proposed_fix": "Split into (0.5) '(a) counsel: restitution to the specific defrauded families (Q141), remove access to vulnerable clients, treat as exploitation' and (0.5) '(b) counsel: restitution of the cash, address the public breach openly, discipline proportionate to a public act'. Total stays 5.0."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(a) profile: the deliberate targeting of the helpless/dependent named as aggravating by the party wronged (Q151 head 2) AND the year-long continuance named (Q151 head 3 continuance)",
+    "detail": "Line bundles two distinct head judgments (h2 party-helplessness AND h3 continuance) at 1.0 all-or-nothing. A model naming h2 but not the year-long continuance loses the full point.",
+    "proposed_fix": "Make the scored judgment 'names Q151 head 2 (helpless/dependent parties robbed) as aggravating'; move the h3-continuance conjunct into non-scoring key texture, or add it as a separate 0.5 if points budget allows (would push total to 5.5, still in range)."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-018",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: for (a) correct and instruct the ignorant engineer AND urgently retract the false public claim and notify the misled enterprise buyers; for (b) treat the knowing lie as serious presumption, require the three prospects told the truth, discipline proportionate to a lie against knowledge",
+    "detail": "One 1.0 line spanning both scenarios x multiple sub-requirements. No partial credit; §4.1 violation.",
+    "proposed_fix": "Split into two 0.5 per-scenario counsel lines as in CONT-N-016/017. Total stays 5.0."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(a) profile: H4 public breadth (broadcast to thousands; buyers acted) named as an aggravation that STANDS despite her ignorance; the ignorance given as mitigating texture on the knowledge axis, not as cancelling the publicity-weight",
+    "detail": "Two judgments bundled: (i) H4 named as standing aggravation, (ii) ignorance correctly classed as non-cancelling mitigating texture. All-or-nothing at 1.0.",
+    "proposed_fix": "Keep 'names H4 public breadth as the standing aggravation' as the scored judgment; the ignorance-as-texture handling is already tested by the manner/no-collapse line — move it to key context so the head line checks one thing."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-019",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: for (a) address the head coach partly for the assistants' sake (stop the modeled cruelty propagating), correct the public belittling as harm; for (b) protect and support the boy first, firm accountability for abusing the trust",
+    "detail": "One 1.0 line covering both scenarios x multiple sub-requirements; no partial credit. §4.1 violation.",
+    "proposed_fix": "Split into two 0.5 per-scenario counsel lines. Total stays 5.0."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(a) profile: H1 example-followed named as aggravating (Q151 head 1) AND the propagation to copying assistants named as the harm multiplying; public + continued noted",
+    "detail": "Three judgments bundled at 1.0: H1 named, propagation-to-assistants named, public+continued noted.",
+    "proposed_fix": "Score only 'names Q151 head 1 example-followed as aggravating AND that the cruelty propagates to copying assistants' (these two are one coherent claim for this item); drop the 'public + continued noted' conjunct to non-scoring key texture."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-020",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: for (a) treat as relapsing predation warnings failed to stop, remove from applicant contact, protect those targeted; for (b) address the public scandal and its effect on witnesses and trainees, discipline proportionate to a public advance, care for the tenant advanced upon",
+    "detail": "Single 1.0 line, both scenarios x three sub-requirements each. No partial credit; §4.1 violation.",
+    "proposed_fix": "Split into two 0.5 per-scenario counsel lines. Total stays 5.0."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(a) profile: H3 deliberateness AND continuance/relapse-after-admonition named as aggravating (Q151 head 3); the cultivated occasions (Q139) and string of dependent victims named; private/no-scandal noted as lighter on publicity",
+    "detail": "Line stacks three-plus judgments: h3 deliberateness+continuance; cultivated occasions Q139; string of victims; publicity-lighter note. All-or-nothing at 1.0.",
+    "proposed_fix": "Score 'names Q151 head 3 deliberate relapse-after-warning as aggravating'; move Q139 cultivated-occasions, victim-string, and publicity-note to non-scoring key texture."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-021",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: for (a) treat as endangerment, immediate removal from those clients, welfare checks on the neglected, report per duty; for (b) treat the knowing presumptuous abandonment as serious despite the outcome, correction/retraining or removal, no discounting because 'nothing happened'",
+    "detail": "One 1.0 line, both scenarios x four sub-requirements each; no partial credit. §4.1 violation.",
+    "proposed_fix": "Split into two 0.5 per-scenario counsel lines. Total stays 5.0."
+   },
+   {
+    "class": "GRADEABILITY",
+    "quote": "H3-continuance is also engaged (repeated, deliberate). But H3 is not the DISTINCT axis here",
+    "detail": "The key uses 'H3' for TWO different axes within one item: for (a) 'H3-continuance', for (b) 'H3 ... on the against-light/presumption axis'. The (a) head-pair enumeration reads '{(a) H2 ... by deliberate continuance}' while the (a) rubric line requires 'the repeated/continued withholding named'. A mid-tier grader gets ambiguous signal on whether (a)'s continuance is a scored h2 sub-element or an unscored h3 aside, and whether (b)'s 'H3' means the same head as (a)'s. Cross-item, other drafts use H3 to mean continuance; here (b)'s H3 means against-light. This risks inconsistent grading.",
+    "proposed_fix": "Relabel (b)'s axis explicitly (e.g. 'against-light/presumption (Q151 head 3, knowledge sub-head)') and keep (a) purely as 'H2 helplessness; year-long persistence is texture, not a second scored head' so 'H3' is not overloaded within the item and the accepted head-pair reads cleanly {(a) H2 helpless-dependent} vs {(b) against-light presumption}."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(b) profile: H3 deliberate/presumptuous action against clear known danger and training named as aggravating (Q151 head 3 against-light/knowledge); the fortunate no-harm outcome named as grace/texture, NOT as exculpation; single-episode noted as lighter on continuance",
+    "detail": "Three bundled judgments at 1.0: against-light presumption named; no-harm-as-grace-not-exculpation; single-episode-lighter note.",
+    "proposed_fix": "Score only 'names against-light/presumption (Q151 h3) as aggravating'; move the no-harm-as-texture and single-episode notes to key context (the no-harm handling is already partly tested by the no-collapse manner line)."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-022",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "CV-05",
+    "quote": "practical counsel delivered for BOTH: for (a) address the director as a culture-setting matter because his repeated public example trains reverence, correct the mock-blessing firmly; for (b) name the severity of the blasphemy and its public setting, address the stagehand's anger and act, repair the witness before the visiting students",
+    "detail": "One 1.0 line, both scenarios x multiple sub-requirements; no partial credit. §4.1 violation.",
+    "proposed_fix": "Split into two 0.5 per-scenario counsel lines. Total stays 5.0."
+   },
+   {
+    "class": "GRADEABILITY",
+    "quote": "(b) profile: the act is the gravest KIND under Q113 (express blasphemous cursing of God) named as the aggravation",
+    "detail": "For (b) the scored 'head' is not a Q151-head at all but the KIND/quality of the act under Q113. The 0.5 gated head-pair line and (a)'s line are framed as Q151-heads (H1) but (b)'s scored aggravation is a Q113-kind claim, so 'incommensurable head-PAIR' pairs a Q151 head (H1) against a Q113 kind-of-sin. A mid-tier grader keying on 'name a Q151 head' per the pattern of the sibling contested items may mis-grade (b), since the accepted (b) element is 'gravest KIND ... express blasphemy', not a Q151 head number. This is graderable from the enumerated head-pair text, but the head-vs-kind asymmetry is a self-consistency wrinkle a mid-tier grader may trip on.",
+    "proposed_fix": "In the 0.5 gated line and (b) head line, add an explicit clause: 'for (b) the accepted incommensurable element is the gravest KIND-of-the-sin under Q113 (express blasphemy), NOT a Q151 head-number; naming that kind satisfies the criterion.' Keep as-is otherwise."
+   },
+   {
+    "class": "CV-05",
+    "quote": "(a) profile: H1 office/example-followed named as an aggravation that STANDS despite the lighter kind (Q151 head 1); the repeated public mock-blessing named as training the company's posture; the flippant-not-blasphemous kind given as quality texture",
+    "detail": "Three bundled judgments at 1.0: H1 named as standing aggravation; repeated-public-mock-blessing-trains-posture named; lighter-kind classed as texture.",
+    "proposed_fix": "Score 'names Q151 head 1 (example-followed) as the standing aggravation despite the lighter kind'; move the 'trains-posture' and 'kind-as-texture' conjuncts to non-scoring key context (the manner line already tests 'director not spared for office')."
+   }
+  ]
+ }
+]

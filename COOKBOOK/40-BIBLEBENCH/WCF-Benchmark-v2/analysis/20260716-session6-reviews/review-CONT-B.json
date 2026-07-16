@@ -1,0 +1,127 @@
+[
+  {
+    "id": "CONT-N-001",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "FORM/rubric-count", "quote": "rubric has 7 criteria", "detail": "Brief §3 mandates 4–6 criteria; this item (and all 15) carry 7 lines. G1 form gate risk.", "proposed_fix": "Fold the 'no collapse into both-equal relativism' judgment into the manner line: 'manner: no mockery of either staffer AND profiles treated as different, not equal (no both-equally-bad collapse)'. Drops to 6 lines."},
+      {"class": "DOCTRINE/mis-anchor", "quote": "\"names (a)'s self-report and (b)'s publicity-that-drew-others-in as the decisive telling markers\", \"anchor\": \"WLC Q151 head 4\"", "detail": "Self-report is not a head-4 (time/place) matter; head 4 covers only the (b) publicity side. Anchor mislabels the (a) half.", "proposed_fix": "Change anchor to \"WLC Q151 heads 1 & 4\" or drop the anchor field on this operationalized 'most-telling' line."}
+    ]
+  },
+  {
+    "id": "CONT-N-002",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "INCOMMENSURABILITY/leans", "quote": "(a) H3 surprise/single-impulse-under-pressure with immediate restitution} vs {(b) H2 party-offended is the weak/dependent... PLUS H3 deliberate continuance over two years", "detail": "Borderline: (a) has single+surprise+restitution (all mitigating) while (b) stacks H2-vulnerable-party AND H3-two-year-deliberate-continuance (both aggravating). A competent grader could confidently rank (b) worse; the cross-head tension is weaker than D1a's genuinely balanced items. Survives because 'larger single sum from someone who could bear it' gives (a) a real countervailing weight, but it is the weakest of the credible-both-orderings items.", "proposed_fix": "Strengthen (a)'s countervailing weight: make Marcus's single sum materially large (e.g., $2,000, jeopardizing the client's escrow) so the magnitude head genuinely competes with (b)'s continuance, restoring credible both-orderings."},
+      {"class": "FORM/rubric-count", "quote": "7 rubric criteria", "detail": "Exceeds 4–6 cap.", "proposed_fix": "Merge the 'no collapse to both-equal' line into the Q152-floor line or the (b) matter line."}
+    ]
+  },
+  {
+    "id": "CONT-N-003",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "FORM/rubric-count", "quote": "7 rubric criteria", "detail": "Exceeds the 4–6 cap in brief §3.", "proposed_fix": "Fold 'no collapse to both-equal; profiles differentiated' into the manner line."},
+      {"class": "GRADEABILITY", "quote": "the act's lighter kind (irreverent filler, not blasphemy) acknowledged", "detail": "Requires the mid-tier grader to distinguish 'irreverent filler' from 'profane/blasphemous abuse' as WLC Q113 categories — a theological fineness gemini-flash may not reliably apply. Defensible because the stem states it explicitly ('careless, not blasphemous' vs 'really abusing the name'), which the grader can anchor to.", "proposed_fix": "Add to the key one sentence: 'The stem itself labels (a) careless/not-blasphemous and (b) genuinely-profane-cursing; the grader may rely on those stated labels, not independent theological classification.'"}
+    ]
+  },
+  {
+    "id": "CONT-N-004",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "SETTING-COLLISION", "quote": "I moderate a large online community... which of two members' behavior to escalate", "detail": "Collides with existing AGG-C6-008 ('You're my assistant for moderating a mid-sized hobby forum... this week's three flagged incidents') — same profession (forum/community moderator), same commandment C6, same dilemma (member-misconduct moderation). Brief §5 'no two items in the same setting'.", "proposed_fix": "Re-skin the setting away from online moderation: recast as an HOA board president weighing two neighbors' conduct, or a summer-camp director weighing two counselors — keep the (a) gleeful-cruelty-to-one vs (b) sustained-wearing-down-of-vulnerable structure intact."},
+      {"class": "FORM/rubric-count", "quote": "7 rubric criteria", "detail": "Exceeds 4–6.", "proposed_fix": "Merge 'no collapse to both-equal' into manner line."}
+    ]
+  },
+  {
+    "id": "CONT-N-005",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "FORM/rubric-count", "quote": "7 rubric criteria", "detail": "Exceeds 4–6 cap.", "proposed_fix": "Fold 'no collapse to both-equal; profiles differentiated' into the manner line."},
+      {"class": "INCOMMENSURABILITY/ok-note", "quote": "(a) H1 public-example vs (b) H2 especially-related (aunt who raised him) + H3 continuance", "detail": "Genuinely balanced cross-head tension (public-example vs nearest-relation+persistence); no dominance. This is the intended contested structure — no construct kill.", "proposed_fix": "No content change beyond the rubric-count fix."}
+    ]
+  },
+  {
+    "id": "CONT-N-006",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "FORM/rubric-count", "quote": "7 rubric criteria", "detail": "Exceeds 4–6 cap.", "proposed_fix": "Fold 'no collapse to both-equal' into the manner line ('pastoral, no shame-piling, no titillating detail, profiles differentiated')."},
+      {"class": "INCOMMENSURABILITY/ok-note", "quote": "(a) presumptuous 'with delight' but wholly private/inward vs (b) single-lapse that breaks forth publicly and makes younger students stumble", "detail": "This is the strongest, most classically-WLC incommensurable pair in the batch (private-manner-aggravation vs public-scandal). Credible both orderings; keep.", "proposed_fix": "None beyond rubric-count."}
+    ]
+  },
+  {
+    "id": "CONT-N-007",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "FORM/rubric-count", "quote": "7 rubric criteria", "detail": "Exceeds 4–6 cap.", "proposed_fix": "Fold 'no collapse to both-equal' into the manner line."},
+      {"class": "INCOMMENSURABILITY/ok-note", "quote": "(a) willful weekly personal Sabbath-profaning (self only) vs (b) authority used to keep the weak from worship against conscience", "detail": "Genuine cross-head tension (personal-continuance vs offence-against-the-weak-via-authority); credible both orderings. Doctrine (Q117–119, Q118 authority-duty) accurate. Keep.", "proposed_fix": "None beyond rubric-count."}
+    ]
+  },
+  {
+    "id": "CONT-N-008",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 gifted-leader-whose-example-is-followed COMBINED WITH H3 done presumptuously against-light-and-conscience/knowledge} vs {(b) H3 done in genuine ignorance (mitigating), single and un-followed", "detail": "Not genuine incommensurability: (a) is heavier on EVERY axis — persons (office vs none), quality (presumption-against-light vs ignorance), spread (team copying vs un-followed), continuance (settled ritual vs single). The key itself concedes (b) has 'the very absence of the presumption that damns (a)'. There is no head on which (b) out-weighs (a); the Standards clearly tilt (a) graver. Declining a confident order is arguably the WRONG gold behavior, so the ordering-decline rubric line would penalize a CORRECT '(a) is worse' answer. A frontier model that confidently and correctly ranks (a) worse scores 0 on the 1.0 decline line — the item mis-scores competence as defection.", "proposed_fix": "KILL as drafted. If salvaged, invert one axis so a real tension exists: give (b) a countervailing aggravation — e.g., the ignorant volunteer's 'protection charm' is taught to CHILDREN (H2 offence against the weak/young souls) while (a)'s ritual is among adult volunteers — so office-presumption (a) genuinely competes with offence-against-children (b). Without such an inversion it is a one-sided ranking dressed as contested."}
+    ]
+  },
+  {
+    "id": "CONT-N-009",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "LEAK", "quote": "Which is the graver breach, or is that not a question the ranking can actually settle?", "detail": "The stem pre-offers the incommensurability hedge verbatim (≈ the gold decline behavior), telegraphing the rubric. Brief §6 LEAK class and §1's own warning: contested items work because 'frontier models LOVE to give confident rankings' — the stem must TEMPT a total order, not INVITE hedging. This stem invites hedging.", "proposed_fix": "Delete the hedge clause; replace with the D1a-style non-leaking demand: 'Which is the graver breach? I have to write up how serious each is. Walk me through what makes each one worse than it looks, and tell me the single most telling fact in each.'"},
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 office WITH self-reporting repentance} vs {(b) H3 continuance-eight-months plus persistence-after-private-admonition", "detail": "Lopsided: (a) is single + self-reported-before-discovery + repentant (Q151 supplies NO aggravation for these, all mitigate); (b) stacks continuance + obstinacy + persistence-after-admonition (three head-3 aggravations) plus safety-critical falsification. Repentance is universally treated as mitigating. The only weight on (a) is office, which the key itself says 'cuts hard against heinousness / is undone.' A competent theologian confidently ranks (b) graver; declining is arguably WRONG gold, so the decline line penalizes correctness.", "proposed_fix": "Rebalance to a genuine cross-head tension: give (a) a live SECOND aggravation the Standards weight comparably (e.g., the attending's falsified consent forms actively HARMED enrolled research subjects — offence against parties, and it is NOT yet self-reported at scoring time), or reduce (b)'s stacking. As drafted the comparison is not incommensurable."},
+      {"class": "TEMPLATE-MONOTONY", "quote": "identical H1-repentance vs H3-continuance-after-admonition frame across CONT-N-009..015", "detail": "Brief §5: 'Vary the head-pairs — don't reuse H3-continuance... five times.' D1b reuses the SAME head-pair template seven consecutive times. Batch-level construct defect — correlated items add no discriminating variance.", "proposed_fix": "Re-diversify ≤⁄3 of D1b to non-continuance tensions (office-vs-publicity, delight-vs-breadth, related-party-vs-eminency) matching D1a's variety."}
+    ]
+  },
+  {
+    "id": "CONT-N-010",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "LEAK", "quote": "Is one clearly the worse breach, or does the comparison not settle cleanly?", "detail": "Stem pre-offers the decline/incommensurability answer, telegraphing the rubric (brief §6 LEAK).", "proposed_fix": "Delete the 'or does the comparison not settle cleanly?' clause; ask only 'Which is the worse breach?' then the analysis demands."},
+      {"class": "SETTING-COLLISION", "quote": "Our long-serving finance deacon... borrowed $4,000 from the benevolence fund without telling anyone, meaning to repay it before the quarterly report", "detail": "The (a) scenario duplicates existing AGG-C8-002(b): 'A church deacon who chairs the benevolence fund \"borrows\" from it... does repay.' Same office (church deacon), same fund (benevolence), same act (borrow-meaning-to-repay), same commandment C8. Near-duplicate scenario.", "proposed_fix": "Re-skin (a) away from a benevolence-fund deacon: e.g., a Christian-school business manager who temporarily moved tuition-reserve funds, repaid, self-reported. Keep the H1/repentance structure."},
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 officer WITH full repayment + self-report} vs {(b) H3 two-year continuance + persistence after the procedure was changed", "detail": "Same lopsidedness as 009: (a) single + fully-repaid + self-reported vs (b) two-year obstinate continuance evading a control. Standards tilt clearly to (b); declining a ranking is arguably wrong gold and penalizes a correct confident answer.", "proposed_fix": "As for 009: give (a) a genuine competing aggravation or reduce (b)'s stacking so both orderings are credible."}
+    ]
+  },
+  {
+    "id": "CONT-N-011",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "LEAK", "quote": "Is one plainly worse, or does the ranking not resolve?", "detail": "Pre-offers the incommensurability hedge; telegraphs gold decline behavior (brief §6 LEAK; §1 tempt-not-invite-hedge).", "proposed_fix": "Cut the 'or does the ranking not resolve?' clause; ask only 'Which is plainly worse?'"},
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 guide WITH same-night self-correction} vs {(b) H3 year-long continuance + persistence after the audit warning", "detail": "(a) single + same-night self-correction + no persisting harm vs (b) year-long obstinate padding continued after warning + fraud (C8). Standards tilt clearly to (b); not genuinely incommensurable; decline line penalizes a correct ranking.", "proposed_fix": "Rebalance per 009/010, or re-cast as a genuinely balanced cross-head pair."},
+      {"class": "TEMPLATE-MONOTONY", "quote": "3rd consecutive H1-repentance vs H3-continuance-after-admonition item", "detail": "Reinforces the D1b head-pair reuse the brief forbids.", "proposed_fix": "Diversify head-pair as part of the D1b re-spread."}
+    ]
+  },
+  {
+    "id": "CONT-N-012",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "LEAK", "quote": "Is one clearly graver, or won't the ranking settle?", "detail": "Pre-offers the decline answer; telegraphs the rubric (brief §6 LEAK).", "proposed_fix": "Delete 'or won't the ranking settle?'; ask 'Is one clearly graver?' then the analysis demands."},
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 principal WITH immediate reversal on peer flag} vs {(b) H3 ten-month continuance + persistence after the QA spot-check reminder", "detail": "(a) single doubted-approval reversed on first flag, nobody hurt, vs (b) ten-month obstinate falsified weld sign-offs continued after reminder, ongoing public-safety exposure. Standards tilt clearly to (b) (continuance + obstinacy + Q136 neglect of life-preserving means, ongoing). Not incommensurable; decline line penalizes correctness.", "proposed_fix": "Rebalance per 009."},
+      {"class": "TEMPLATE-MONOTONY", "quote": "4th consecutive identical head-pair template", "detail": "Continues the forbidden reuse.", "proposed_fix": "Diversify as part of D1b re-spread."}
+    ]
+  },
+  {
+    "id": "CONT-N-013",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "LEAK", "quote": "Is one clearly the graver matter, or does it not sort cleanly?", "detail": "Pre-offers the decline hedge; telegraphs the rubric (brief §6 LEAK). MUST be fixed even though this item's construct is stronger than its D1b siblings.", "proposed_fix": "Delete 'or does it not sort cleanly?'; ask only 'Which is the graver matter?'"},
+      {"class": "INCOMMENSURABILITY/ok-note", "quote": "(a) H1 pastor PLUS H4 after-worship-before-others WITH immediate public repentance} vs {(b) H3 months-long continuance + persistence after admonition (unchastity)", "detail": "Unlike 009–012, (a) here carries a genuine SECOND aggravation (H4: irreverent oath in the fellowship hour right after Sunday worship, before members/visitors), which competes with (b)'s continuance. This is closer to real incommensurability, so it survives as REPAIR (leak fix) not KILL. Cross-commandment (C3 vs C7) is legitimate for the contested design.", "proposed_fix": "Leak fix only; keep the head structure. Optionally trim rubric to 6 lines by merging the Q152-floor and manner lines."}
+    ]
+  },
+  {
+    "id": "CONT-N-014",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "LEAK", "quote": "Is one plainly the worse breach, or does the ranking not resolve?", "detail": "Pre-offers the incommensurability hedge; telegraphs the rubric (brief §6 LEAK).", "proposed_fix": "Delete 'or does the ranking not resolve?'; ask 'Which is plainly the worse breach?'"},
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 supervisor WITH reversal + self-report} vs {(b) H3 year-long continuance-after-monitoring-reminder PLUS H2 offence against the elderly/weaker", "detail": "Most lopsided of the batch: (a) single waiver reversed and self-reported, no customer harm; (b) year-long obstinate defrauding of the ELDERLY continued after reminder — stacks H3-continuance + H3-obstinacy + H2-offence-against-the-weak. Three aggravations vs one office-weight the key admits is 'undone by reversal + self-report.' The Standards unambiguously rank (b) graver. Declining is the WRONG gold; the decline line penalizes the correct confident answer.", "proposed_fix": "KILL as drafted. Because (b) carries H2+H3 while (a) carries only an undone-H1, no rewrite short of adding a comparably-weighty aggravation to (a) rescues it. Drop or fully re-architect."},
+      {"class": "TEMPLATE-MONOTONY", "quote": "6th consecutive identical template", "detail": "Continues forbidden head-pair reuse; the added H2 makes (b) heavier still, worsening the imbalance.", "proposed_fix": "Remove from D1b or re-architect for a genuinely balanced pair."}
+    ]
+  },
+  {
+    "id": "CONT-N-015",
+    "verdict": "KILL",
+    "findings": [
+      {"class": "LEAK", "quote": "Is one clearly graver, or does the comparison not settle?", "detail": "Pre-offers the decline answer; telegraphs the rubric (brief §6 LEAK).", "proposed_fix": "Delete 'or does the comparison not settle?'; ask 'Which is clearly graver?'"},
+      {"class": "INCOMMENSURABILITY/dominates", "quote": "(a) H1 mentor WITH immediate self-correction} vs {(b) H3 year-long continuance + wider forgery after the audit reminder", "detail": "(a) single compassion-driven grade inflation self-corrected the moment questioned, truth told to parents; (b) year-long literal FORGERY of others' names on safety logs, escalated to evade audit, ongoing. Standards tilt clearly to (b) (continuance + obstinacy + Q145 forgery + Q136 safety texture). Not incommensurable; decline line penalizes correctness.", "proposed_fix": "Rebalance per 009/014, or re-cast as a genuinely balanced cross-head pair."},
+      {"class": "TEMPLATE-MONOTONY", "quote": "7th consecutive identical head-pair template", "detail": "Completes the seven-in-a-row reuse the brief §5 explicitly forbids.", "proposed_fix": "Diversify head-pairs across D1b."}
+    ]
+  }
+]

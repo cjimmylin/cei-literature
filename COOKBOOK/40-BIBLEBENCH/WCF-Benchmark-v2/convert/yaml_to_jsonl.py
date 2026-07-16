@@ -24,17 +24,22 @@ import yaml
 from pressure_turns import PRESSURE_TURNS
 from session4_patches import apply_patches
 from session5_patches import apply_patches as apply_patches_s5
+from session6_patches import apply_patches as apply_patches_s6
+from session6_new_items import load_new_items
 
 V2_ROOT = Path(__file__).resolve().parent.parent
 BANK_DIR = V2_ROOT.parent / "WCF-Benchmark" / "05-BANK-YAML"
 DATA_DIR = V2_ROOT / "data"
 TEMPLATE_DIR = V2_ROOT / "src" / "templates"
 
-# v2.2 bank-version manifest constants (design memo §3). GRADE_PATTERN and the
+# v2.3 bank-version manifest constants (design memo §3). GRADE_PATTERN and the
 # panel default mirror src/wcf_grading.py + src/wcf_tasks.py; kept here as literals
 # so the manifest is self-describing without importing the inspect_ai stack.
-BANK_VERSION = "v2.2"
-PATCH_LAYERS = ["session4_patches", "session5_patches"]
+# v2.3 (session-6) = v2.2 chain + session6_patches (COMP-C4-005 stem repair +
+# no-deliverable gate) + the session-6 authored new items (G1-G5 gated subset).
+BANK_VERSION = "v2.3"
+PATCH_LAYERS = ["session4_patches", "session5_patches", "session6_patches"]
+NEW_ITEM_SOURCES = ["session6_new_items"]
 # Mirrors src/wcf_grading.py:GRADE_PATTERN (last-match, word-bounded, no 4-digit
 # truncation). Kept as a literal so the manifest is self-describing without pulling
 # the inspect_ai stack into the converter; a guard test asserts it stays in sync
@@ -149,6 +154,7 @@ def load_patched_bank(bank_dir: Path = BANK_DIR) -> list[dict]:
         if out is None:
             continue  # CV-02 quarantine (session4)
         out = apply_patches_s5(out)
+        out = apply_patches_s6(out)
         patched.append(out)
     return patched
 
@@ -165,9 +171,13 @@ def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR)
     pattern, the panel default, and the date. Must be called AFTER the JSONL files
     are emitted so the hashes match on disk.
     """
+    from session6_new_items import G4_EXCLUDED, NEW_ITEMS_PATH
     manifest = {
         "bank_version": BANK_VERSION,
         "patch_layers": PATCH_LAYERS,
+        "new_item_sources": NEW_ITEM_SOURCES,
+        "sha256_session6_new_items": _sha256(NEW_ITEMS_PATH),
+        "g4_excluded_new_items": sorted(G4_EXCLUDED),
         "sha256_wcf_main": _sha256(data_dir / "wcf_main.jsonl"),
         "sha256_wcf_episodes": _sha256(data_dir / "wcf_episodes.jsonl"),
         "sha256_grading_template_original": _sha256(
@@ -188,6 +198,11 @@ def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR)
 
 def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, int]:
     records = [to_record(item) for item in load_patched_bank(bank_dir)]
+    # v2.3: append the session-6 authored items (already record-shaped; form
+    # rules enforced from birth, so no patch layer applies). G4 gate exclusions
+    # (from the Phase-2 live pilot) are applied inside bank_items().
+    from session6_new_items import bank_items
+    records.extend(bank_items())
     main = [r for r in records if r["kind"] != "episode"]
     episodes = [r for r in records if r["kind"] == "episode"]
 
@@ -201,10 +216,14 @@ def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, 
 
 
 if __name__ == "__main__":
+    from session6_new_items import bank_items
+    new = bank_items()
+    want_main = EXPECTED_MAIN + sum(1 for r in new if not r["episode"])
+    want_eps = EXPECTED_EPISODES + sum(1 for r in new if r["episode"])
     n_main, n_episodes = convert()
-    print(f"wcf_main.jsonl: {n_main} items (expected {EXPECTED_MAIN})")
-    print(f"wcf_episodes.jsonl: {n_episodes} items (expected {EXPECTED_EPISODES})")
-    if (n_main, n_episodes) != (EXPECTED_MAIN, EXPECTED_EPISODES):
+    print(f"wcf_main.jsonl: {n_main} items (expected {want_main})")
+    print(f"wcf_episodes.jsonl: {n_episodes} items (expected {want_eps})")
+    if (n_main, n_episodes) != (want_main, want_eps):
         raise SystemExit("COUNT MISMATCH — do not run evals until resolved")
     print("data/BANK-VERSION.json written")
     print("OK")

@@ -41,6 +41,17 @@ def scripted_dialogue(pressure_variant: str = "generic"):
         # Turn 1: the episode scenario is already the user input; get the
         # model's initial action + report.
         state = await generate(state)
+        # Session-6 escalation episodes carry ``pressure_turns`` (a list of 3
+        # escalating user turns, d1 -> d2 -> d3; the final turn ends with the
+        # frozen closing demand). These items ALWAYS run their authored ramp
+        # regardless of ``pressure_variant`` — the 4-turn design IS the item.
+        # Items without the field keep the v2.0/v2.1 behavior byte-identical.
+        ramp = state.metadata.get("pressure_turns")
+        if ramp:
+            for turn in ramp:
+                state.messages.append(ChatMessageUser(content=turn))
+                state = await generate(state)
+            return state
         # Turn 2: inject the pressure turn, then get the final decision.
         if pressure_variant == "item":
             turn = state.metadata.get("pressure_turn") or PRESSURE_TURN

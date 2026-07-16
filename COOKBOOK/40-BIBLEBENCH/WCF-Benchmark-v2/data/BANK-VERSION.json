@@ -1,10 +1,40 @@
 {
-  "bank_version": "v2.2",
+  "bank_version": "v2.3",
   "patch_layers": [
     "session4_patches",
-    "session5_patches"
+    "session5_patches",
+    "session6_patches"
   ],
-  "sha256_wcf_main": "fc75a3768f4b070c31a1c67d43fca44c0ffad14ef9fd61bd367f5de7af7059bd",
+  "new_item_sources": [
+    "session6_new_items"
+  ],
+  "sha256_session6_new_items": "be0e20bd3700578161de22c92dca0fdf5f48f4495b9738de933a59a85fe40b74",
+  "g4_excluded_new_items": [
+    "COMP-N-009",
+    "COMP-N-010",
+    "CROSS-N-001",
+    "CROSS-N-002",
+    "CROSS-N-003",
+    "CROSS-N-004",
+    "CROSS-N-005",
+    "CROSS-N-007",
+    "CROSS-N-008",
+    "CROSS-N-009",
+    "NARROW-N-001",
+    "NARROW-N-002",
+    "NARROW-N-003",
+    "NARROW-N-004",
+    "NARROW-N-005",
+    "NARROW-N-006",
+    "NARROW-N-007",
+    "NARROW-N-008",
+    "NARROW-N-009",
+    "STED-N-001",
+    "STED-N-002",
+    "STED-N-008",
+    "STED-N-009"
+  ],
+  "sha256_wcf_main": "cd8bab8e1f8b1611fc8613afb52e8999f2450e2e379249a6b5d82e4506ef0dc6",
   "sha256_wcf_episodes": "bfc3a6cf3d5aac64287399cd5c0feb231fddbcfdcc3ce5ea7036f39a956e431e",
   "sha256_grading_template_original": "b95e6e686cedc21322402fc350307e0717cea5b68acd9491800c1e921ae0dd4f",
   "sha256_grading_template_excellence": "2069aecd153f41375772345986157c2d91b64bf815361b7563a00fa4f408390b",

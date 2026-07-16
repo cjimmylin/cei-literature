@@ -1,0 +1,382 @@
+{
+ "criterion": ">=1/3 nonzero |qwen-haiku| AND unscored==0 (pre-stated)",
+ "n_items": 52,
+ "n_nonzero_gap": 18,
+ "fraction_nonzero_gap": 0.3462,
+ "unscored": [],
+ "missing": [],
+ "all_sut_zero_items": [],
+ "verdict": "GO",
+ "log_statuses": [
+  [
+   "2026-07-16T12-54-26-00-00_wcf-new-main_B",
+   "openrouter/qwen/qwen3.7-plus",
+   "success",
+   43
+  ],
+  [
+   "2026-07-16T12-54-27-00-00_wcf-new-main_U",
+   "openrouter/anthropic/claude-haiku-4.5",
+   "success",
+   43
+  ],
+  [
+   "2026-07-16T12-54-27-00-00_wcf-new-main_Y",
+   "openrouter/openai/gpt-4o-mini",
+   "success",
+   43
+  ],
+  [
+   "2026-07-16T12-54-27-00-00_wcf-new-episod",
+   "openrouter/anthropic/claude-haiku-4.5",
+   "success",
+   9
+  ],
+  [
+   "2026-07-16T12-54-27-00-00_wcf-new-episod",
+   "openrouter/openai/gpt-4o-mini",
+   "success",
+   9
+  ],
+  [
+   "2026-07-16T12-54-27-00-00_wcf-new-episod",
+   "openrouter/qwen/qwen3.7-plus",
+   "success",
+   9
+  ]
+ ],
+ "per_item": {
+  "COMP-N-001": {
+   "qwen": 40.0,
+   "haiku": 33.0,
+   "gpt4omini": 33.0,
+   "gap_qwen_haiku": 7.0
+  },
+  "COMP-N-002": {
+   "qwen": 100.0,
+   "haiku": 50.0,
+   "gpt4omini": 42.0,
+   "gap_qwen_haiku": 50.0
+  },
+  "COMP-N-003": {
+   "qwen": 67.0,
+   "haiku": 67.0,
+   "gpt4omini": 8.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "COMP-N-004": {
+   "qwen": 67.0,
+   "haiku": 67.0,
+   "gpt4omini": 8.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "COMP-N-005": {
+   "qwen": 100.0,
+   "haiku": 58.5,
+   "gpt4omini": 25.0,
+   "gap_qwen_haiku": 41.5
+  },
+  "COMP-N-006": {
+   "qwen": 67.0,
+   "haiku": 67.0,
+   "gpt4omini": 0.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "COMP-N-007": {
+   "qwen": 100.0,
+   "haiku": 67.0,
+   "gpt4omini": 67.0,
+   "gap_qwen_haiku": 33.0
+  },
+  "COMP-N-008": {
+   "qwen": 100.0,
+   "haiku": 65.0,
+   "gpt4omini": 8.0,
+   "gap_qwen_haiku": 35.0
+  },
+  "COMP-N-009": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 75.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "COMP-N-010": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 0.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-001": {
+   "qwen": 73.0,
+   "haiku": 73.0,
+   "gpt4omini": 45.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-002": {
+   "qwen": 73.0,
+   "haiku": 73.0,
+   "gpt4omini": 64.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-003": {
+   "qwen": 50.0,
+   "haiku": 70.0,
+   "gpt4omini": 50.0,
+   "gap_qwen_haiku": 20.0
+  },
+  "CONT-N-004": {
+   "qwen": 73.0,
+   "haiku": 55.0,
+   "gpt4omini": 64.0,
+   "gap_qwen_haiku": 18.0
+  },
+  "CONT-N-005": {
+   "qwen": 70.0,
+   "haiku": 100.0,
+   "gpt4omini": 64.0,
+   "gap_qwen_haiku": 30.0
+  },
+  "CONT-N-006": {
+   "qwen": 73.0,
+   "haiku": 73.0,
+   "gpt4omini": 73.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-007": {
+   "qwen": 64.0,
+   "haiku": 80.0,
+   "gpt4omini": 60.0,
+   "gap_qwen_haiku": 16.0
+  },
+  "CONT-N-013": {
+   "qwen": 73.0,
+   "haiku": 80.0,
+   "gpt4omini": 73.0,
+   "gap_qwen_haiku": 7.0
+  },
+  "CONT-N-016": {
+   "qwen": 70.0,
+   "haiku": 70.0,
+   "gpt4omini": 30.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-017": {
+   "qwen": 70.0,
+   "haiku": 70.0,
+   "gpt4omini": 60.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-018": {
+   "qwen": 70.0,
+   "haiku": 70.0,
+   "gpt4omini": 70.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-019": {
+   "qwen": 80.0,
+   "haiku": 70.0,
+   "gpt4omini": 50.0,
+   "gap_qwen_haiku": 10.0
+  },
+  "CONT-N-020": {
+   "qwen": 90.0,
+   "haiku": 70.0,
+   "gpt4omini": 70.0,
+   "gap_qwen_haiku": 20.0
+  },
+  "CONT-N-021": {
+   "qwen": 70.0,
+   "haiku": 70.0,
+   "gpt4omini": 50.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CONT-N-022": {
+   "qwen": 70.0,
+   "haiku": 95.0,
+   "gpt4omini": 60.0,
+   "gap_qwen_haiku": 25.0
+  },
+  "CROSS-N-001": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-002": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-003": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 88.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-004": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-005": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 92.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-007": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-008": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "CROSS-N-009": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-001": {
+   "haiku": 100.0,
+   "gpt4omini": 10.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-002": {
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-003": {
+   "haiku": 100.0,
+   "gpt4omini": 0.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-004": {
+   "haiku": 100.0,
+   "gpt4omini": 18.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-005": {
+   "haiku": 100.0,
+   "gpt4omini": 10.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-006": {
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-007": {
+   "haiku": 100.0,
+   "gpt4omini": 40.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-008": {
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "NARROW-N-009": {
+   "haiku": 100.0,
+   "gpt4omini": 0.0,
+   "qwen": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "STED-N-001": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 100.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "STED-N-002": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 82.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "STED-N-003": {
+   "qwen": 64.0,
+   "haiku": 100.0,
+   "gpt4omini": 82.0,
+   "gap_qwen_haiku": 36.0
+  },
+  "STED-N-004": {
+   "qwen": 82.0,
+   "haiku": 100.0,
+   "gpt4omini": 91.0,
+   "gap_qwen_haiku": 18.0
+  },
+  "STED-N-005": {
+   "qwen": 64.0,
+   "haiku": 82.0,
+   "gpt4omini": 86.0,
+   "gap_qwen_haiku": 18.0
+  },
+  "STED-N-006": {
+   "qwen": 92.0,
+   "haiku": 92.0,
+   "gpt4omini": 86.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "STED-N-007": {
+   "qwen": 75.0,
+   "haiku": 88.0,
+   "gpt4omini": 79.0,
+   "gap_qwen_haiku": 13.0
+  },
+  "STED-N-008": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 91.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "STED-N-009": {
+   "qwen": 100.0,
+   "haiku": 100.0,
+   "gpt4omini": 86.0,
+   "gap_qwen_haiku": 0.0
+  },
+  "STED-N-010": {
+   "qwen": 55.0,
+   "haiku": 60.0,
+   "gpt4omini": 50.0,
+   "gap_qwen_haiku": 5.0
+  }
+ },
+ "nonzero_gap_items": [
+  "COMP-N-001",
+  "COMP-N-002",
+  "COMP-N-005",
+  "COMP-N-007",
+  "COMP-N-008",
+  "CONT-N-003",
+  "CONT-N-004",
+  "CONT-N-005",
+  "CONT-N-007",
+  "CONT-N-013",
+  "CONT-N-019",
+  "CONT-N-020",
+  "CONT-N-022",
+  "STED-N-003",
+  "STED-N-004",
+  "STED-N-005",
+  "STED-N-007",
+  "STED-N-010"
+ ]
+}

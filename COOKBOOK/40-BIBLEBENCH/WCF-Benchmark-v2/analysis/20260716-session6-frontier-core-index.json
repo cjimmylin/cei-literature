@@ -1,0 +1,33 @@
+{
+ "n_items": 29,
+ "scope": "frontier-core index (29 v2.3 *-N-* bank items), from the Phase-2 gate run",
+ "suts": {
+  "qwen": {
+   "mean": 73.86,
+   "stderr": 2.72
+  },
+  "haiku": {
+   "mean": 72.95,
+   "stderr": 2.84
+  },
+  "gpt4omini": {
+   "mean": 53.38,
+   "stderr": 4.71
+  }
+ },
+ "qwen-vs-haiku": {
+  "gap": 0.91,
+  "mdd80": 10.65,
+  "sig": false
+ },
+ "qwen-vs-gpt4omini": {
+  "gap": 20.48,
+  "mdd80": 15.01,
+  "sig": true
+ },
+ "haiku-vs-gpt4omini": {
+  "gap": 19.57,
+  "mdd80": 10.87,
+  "sig": true
+ }
+}

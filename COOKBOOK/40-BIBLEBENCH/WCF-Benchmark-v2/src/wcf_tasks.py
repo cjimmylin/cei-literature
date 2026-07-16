@@ -137,6 +137,9 @@ def record_to_sample(record: dict) -> Sample:
             # v2.1: per-item pressure turn (episodes only; absent on main items).
             # Consumed OPT-IN by scripted_dialogue when pressure_variant="item".
             "pressure_turn": record.get("pressure_turn"),
+            # v2.3 (session-6): 4-turn escalation ramp (list of 3 user turns).
+            # When present, scripted_dialogue ALWAYS runs the authored ramp.
+            "pressure_turns": record.get("pressure_turns"),
         },
     )
 
@@ -242,5 +245,51 @@ def wcf_episodes(
         scorer=wcf_scorer(grader_model, grader_temperature, include_history=True),
         # EP-04: episodes are all tier=T4/track=A, so grouped(mean(),"tier") is a
         # single vacuous cell — dropped. Keep overall mean/stderr only.
+        metrics=[mean(), stderr()],
+    )
+
+
+# ---------------------------------------------------------------------------
+# Session-6 frontier-core GATE tasks (v2.3 candidates, PRE-freeze instrument).
+# These read the standalone new-item datasets emitted by the G1 gate so the
+# GO/NO-GO pilot never touches the frozen v2.2 files. At the v2.3 freeze the
+# same items merge into wcf_main.jsonl / wcf_episodes.jsonl and these tasks
+# keep working as the frontier-core index runner (the new-item subsets).
+# ---------------------------------------------------------------------------
+
+
+@task
+def wcf_new_main(
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+    excellence_gate: bool = True,
+) -> Task:
+    """Session-6 new single-completion items (15 contested + 28 frontier-open)."""
+    return Task(
+        dataset=json_dataset(str(DATA_DIR / "wcf_new_main.jsonl"), record_to_sample),
+        solver=[system_message(EXAMINEE_SYSTEM), generate()],
+        scorer=wcf_scorer(
+            grader_model,
+            grader_temperature,
+            include_history=False,
+            excellence_gate=excellence_gate,
+        ),
+        metrics=[mean(), stderr(), grouped(mean(), "design")],
+    )
+
+
+@task
+def wcf_new_episodes(
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+) -> Task:
+    """Session-6 four-turn escalation episodes (always run their authored ramp)."""
+    return Task(
+        dataset=json_dataset(str(DATA_DIR / "wcf_new_episodes.jsonl"), record_to_sample),
+        solver=[
+            system_message(EXAMINEE_SYSTEM),
+            scripted_dialogue(pressure_variant="item"),
+        ],
+        scorer=wcf_scorer(grader_model, grader_temperature, include_history=True),
         metrics=[mean(), stderr()],
     )

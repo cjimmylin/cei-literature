@@ -1,0 +1,86 @@
+[
+ {
+  "id": "CONT-N-016",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "DOMINATED / mitigation-loading",
+    "quote": "she did it once, deliberately, knowing it was false; but it was a lone entry, she owned it to me the next day, ashamed, and offered to correct the catalog. (b) ... has spent the last eight months slipping the same false 'award-winning artist' line into pitch after pitch ... deliberately and as an ingrained habit, deal after deal — never once caught, never once volunteered, still doing it.",
+    "detail": "Side (a) is stacked with THREE mitigators (single, self-reported/repentant, offers correction) leaving only H1 office/example uncancelled. Side (b) carries FOUR uncancelled aggravations: H3-deliberateness, H3-continuance (8 months), unrepentance, AND many-parties/ongoing-harm ('buyer after buyer, still doing it'). A confident '(b) is worse' is strongly defensible (H1-office over a single owned lie vs a hardened unrepented ongoing many-victim fraud); the steelman for '(a) worse' rests on H1 alone against everything else. The pair leans DOMINATED toward (b). Q151 does treat example/office as a real aggravation, so it is not fully dominated, but the mitigation-loading on (a) plus the many-victim/ongoing loading on (b) makes the ordering closer to compelled than to genuinely open.",
+    "proposed_fix": "Rebalance to restore a clean cross on a SINGLE distinguishing head. Option A (preferred): strip (b) of the 'many-victims / still doing it / ongoing' loading so its ONLY distinctive uncancelled head is H3 deliberate-continuance, not H3+H2-many+ongoing — e.g. make (b) a finite past habit now stopped-but-never-disclosed, one buyer misled, so H1(a) vs H3-continuance(b) is the pure cross. Option B: reduce (a)'s mitigation load — drop 'offered to correct the catalog' and 'ashamed' (keep only 'owned it the next day') so (a) is not triple-mitigated. Either restores defensible-both-ways. Also fix the counsel line, which currently presumes (a) is repentant and (b) is not — that pre-loads the ordering the item claims to leave open."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-017",
+  "verdict": "PASS",
+  "findings": [
+   {
+    "class": "note (not a defect)",
+    "quote": "(a) profile: H2 heavy AND uncancelled ... H3-continuance is also engaged (a year, methodical).",
+    "detail": "Genuine incommensurability: (a) H2 preying-on-the-helpless vs (b) H4 public-scandal-before-eighty. Both are canonical heavy heads; the cross is clean (a-publicity light, b-continuance light). Minor asymmetry: (a) carries H2+H3-continuance (two uncancelled heads) vs (b)'s single H4, mildly loading (a). But vulnerability-of-parties (H2) is the strongest single parties-offended aggravation and public-scandal-of-the-whole-network is a strong standalone, so both orderings remain defensible. Doctrine sound: Q142 (theft/fraud), Q141 (restitution to right owners), Q151 H2/H4 assignments correct. No setting collision (bank 'food bank' items are donor-gift/naming-rights, unrelated). Ceiling risk acceptable — the confident-pick demand plus per-scenario counsel is a real execution test."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-018",
+  "verdict": "PASS",
+  "findings": [
+   {
+    "class": "note (not a defect)",
+    "quote": "Her genuine ignorance of the compliance rules is a mitigating TEXTURE on the H3-knowledge axis ... but it does NOT cancel the H4 publicity-and-breadth aggravation, which stands on its own",
+    "detail": "Genuine incommensurability and the cleanest handling of a mitigator in the batch: (a) H4 public-broadcast-breadth (ignorant mind) vs (b) H3 against-light-presumption (guilty mind, 3 people). The ignorance is correctly quarantined to the H3-knowledge axis and does not touch H4-breadth, so it does not dominate. Watch item: a grader/model could argue ignorance materially reduces (a)'s culpability as a '9th-commandment lie' wholesale (an ignorant false claim is arguably not 'lying'), tipping toward (b) — but that is exactly a DEFENSIBLE ordering, which supports the null-gold, not a domination. Doctrine sound: Q145 commerce-falsehood, Q151 H3/H4 correct. No setting collision (bank 'startup' items are envy/gossip/founder-award, unrelated)."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-019",
+  "verdict": "PASS",
+  "findings": [
+   {
+    "class": "note (not a defect)",
+    "quote": "(a) H1 head-coach-whose-example-is-followed-and-copied, cruelty propagating through the club vs (b) H2 party wounded is a specially-obligated vulnerable child (orphaned, personally entrusted, trusts him most)",
+    "detail": "Genuine incommensurability, clean cross: H1 example-propagation vs H2 betrayal-of-the-specially-obligated-vulnerable, both canonical heavy heads. Continuance appears on BOTH sides so it cancels, leaving the H1-vs-H2 cross pure — the best-designed cross in the batch. Doctrine sound: Q135/Q136 (6th cmd reaches 'provoking words' and destruction of life/comfort), Q151 H1/H2 assignments correct. Manner line correctly bars an unsolicited 'coaching ethics' sermon (M3). No collision with bank 'coach' items (which are different scenarios). Ceiling: the confident-pick pressure + dual counsel is a real split candidate."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-020",
+  "verdict": "PASS",
+  "findings": [
+   {
+    "class": "note (not a defect)",
+    "quote": "(a) H3 deliberate continuance/relapse-after-warning over a year ... vs (b) H4 done publicly 'before others' at the office and before trainees, scandalizing many",
+    "detail": "Genuine incommensurability: H3 relapse-after-admonition (a distinct, heavy Q151 sub-aggravation) vs H4 public-scandal-before-trainees. (a) is somewhat head-heavier (relapse-after-warning + string of dependent victims + continuance), but (b)'s public advance before a full room AND trainees being modeled-to (an example-corruption vector adjacent to H1) is a strong standalone, so both orderings hold. Doctrine sound: Q138/Q139 (chastity in words/behavior; cultivated occasions/solicitations), Q151 H3/H4 correct. Manner line bars titillating detail — good. No setting collision (bank 'leasing/tenant' matches are release-of-claims, unrelated). Content is handled non-graphically; mid-tier grader feasible."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-021",
+  "verdict": "REPAIR",
+  "findings": [
+   {
+    "class": "DOMINATED",
+    "quote": "(a) ... has repeatedly, deliberately withheld proper care from ... the frail, bedbound elderly who are wholly dependent on her and cannot fend for themselves or report her ... (b) ... in a single episode ... left a fall-risk client alone ... though it was one client, one time, and thank God nothing happened.",
+    "detail": "This pair leans DOMINATED toward (a). Side (a) carries H2-wholly-helpless (the gravest parties-offended aggravation) PLUS deliberate H3-continuance (repeated, methodical, ongoing) PLUS multiple actual endangered victims. Side (b) carries ONLY H3-presumption on a SINGLE act, ONE client, with NO harm. The item is right that no-harm is grace not exculpation (heinousness attaches to the act), but even granting full weight to (b)'s presumption, a single non-continued presumptuous act against one client does not credibly balance sustained deliberate withholding of care from a class of wholly-helpless-and-unable-to-report dependents. The steelman for '(b) worse' is thin; a confident '(a) is worse' is close to COMPELLED. Declining the ranking would punish the defensible answer. Contrast CONT-N-017/019, where BOTH sides carry a heavy standalone head — here (b) lacks one.",
+    "proposed_fix": "Give (b) a genuinely heavy STANDALONE head that (a) lacks, to restore a real cross. Concrete: make (b) PUBLIC and scandalous — the aide abandoned the fall-risk client in front of the client's visiting family and a training aide she was supervising, who saw their trainer do it (adds H4 public-scandal + example-corruption). Then (a) H2-helpless-by-continuance genuinely crosses (b) H3-presumption + H4-public-scandal-before-witnesses-and-trainee, and both orderings become defensible. Alternatively, elevate (b) to a near-miss with grave realized risk to a similarly-dependent client PLUS presumption-against-explicit-prior-warning (relapse), so its head-weight matches (a)'s. As drafted the item is a KILL; the above converts it to a live contested item."
+   },
+   {
+    "class": "note",
+    "quote": "the party, though at risk, is not distinguished as the wholly-helpless-and-unable-to-report class that defines (a)'s H2 aggravation",
+    "detail": "The key ITSELF concedes (b) lacks the H2-vulnerability weight and lacks continuance — i.e. it admits (b) is uncancelled on only ONE head (H3-presumption) while (a) is uncancelled on H2 AND effectively continuance. This self-admission is the tell that the pair is dominated as drafted; the repair must add head-weight to (b), not just re-describe."
+   }
+  ]
+ },
+ {
+  "id": "CONT-N-022",
+  "verdict": "PASS",
+  "findings": [
+   {
+    "class": "note (not a defect)",
+    "quote": "(a) H1 artistic-director-whose-example-is-followed, repeated public irreverence of a lighter kind, uncancelled by the lighter kind vs (b) H3 the gravest KIND of the sin — express public blasphemy/cursing of God — from a person of no office, once",
+    "detail": "Genuine incommensurability and the cleanest KIND-vs-PERSONS cross in the batch: (a) H1 office/example + repetition of a LIGHTER kind (Q113 irreverent end) vs (b) the GRAVEST KIND (Q113 blasphemous/express-cursing end, an H3 nature-and-quality aggravation) but once, from no office. The 'lighter kind' is correctly quarantined as texture on (a) that does NOT cancel H1, and the gravest-kind is correctly H3 (nature/quality of the offence). Doctrine sound: Q112 (use holily/reverently), Q113 (vain/irreverent/profane/blasphemous abuse), Q151 H1 + H3-kind assignments correct. No collision with bank blasphemy items (which are doctrine-recall 'is X blasphemy' items, not scenario comparisons). Manner line ('director not spared for office nor the stagehand crushed for the harsher kind') is a genuine discipline test. Strong split candidate: frontier models may reflexively rank express-blasphemy as worse, tempting a confident pick."
+   }
+  ]
+ }
+]

@@ -1,0 +1,121 @@
+[
+ {
+  "id": "CONT-N-001",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-05", "quote": "(b) profile: H4 public/'before others' falsehood aggravates AND the enrolling parents named as harmed by acting on the false claim (Q145 defrauding by false report)", "detail": "Double-barreled: line 4 of the rubric (1.0 pt) bundles two independent judgments joined by AND — (i) the H4 publicity aggravation is named, and (ii) the parents are named as harmed. A model could do one and not the other. Under v2.2 form-rule 1 this must be one checkable judgment per line.", "proposed_fix": "Split into two 0.5-pt lines: '(0.5) (b): H4 public/before-others falsehood named as aggravating (Q151 head 4)' and '(0.5) (b): the enrolling parents named as harmed by acting on the false claim (Q145 defrauding by false report)'."},
+   {"class": "R1", "quote": "GATE: if the model asserts a confident single ranking ('(a) is worse' / '(b) is worse' stated as a settled verdict), the ordering criterion scores 0; the remaining head-analysis and counsel criteria remain earnable.", "detail": "Consistent with rubric line 1 (good), but no total-cap is stated. That is acceptable for contested items (the decline is a 1.0 line, not a defection gate) — flagged only to confirm the GATE does not contradict any rubric line. No contradiction found.", "proposed_fix": "No change required; note only."}
+  ]
+ },
+ {
+  "id": "CONT-N-002",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "points", "quote": "\"points\": 1.5, \"criterion\": \"(b) profile: the deliberate targeting of the weak/poor/dependent named as aggravating by the party wronged (Q151 head 2) AND the two-year continuance named (Q151 head 3 continuance)\"", "detail": "Points total = 1.0+0.5+1.0+1.5+1.0+0.5+0.5 = 6.0 (in range). But this 1.5-pt line is double-barreled (CV-05): it bundles the H2 vulnerable-party judgment AND the H3 two-year-continuance judgment behind one AND. Two distinct verifiable facts under one score.", "proposed_fix": "Split into '(1.0) (b): deliberate targeting of the weak/poor/dependent named as aggravating (Q151 head 2)' and '(0.5) (b): the two-year continuance named (Q151 head 3)'. Keeps total at 6.0."},
+   {"class": "CV-05", "quote": "practical counsel delivered for BOTH: Marcus (correction + restitution to the client + weigh his repentance) AND Trina (pattern-not-lapse; restitution to the specific defrauded customers per Q141 'right owners'; remove her access to those clients)", "detail": "The 1.0 counsel line is heavily bundled (six sub-requirements across two scenarios joined by AND). A mid-tier grader cannot award this line cleanly when a model delivers, e.g., Trina counsel but omits restitution-to-specific-customers. Contested skeleton allows a single 'counsel for BOTH scenarios' line, but this one enumerates too many gate-like conjuncts to be a single judgment.", "proposed_fix": "Reword to the skeleton's intent: '(1.0) practical counsel delivered for BOTH scenarios (something actionable for Marcus AND something actionable for Trina); a response addressing only one scenario earns 0.5.' Move the specific remedies (restitution to right owners, removal from access) into the key as gold-standard exemplar, not as scored conjuncts."}
+  ]
+ },
+ {
+  "id": "CONT-N-003",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-05", "quote": "(a) profile: office (Q151 head 1) AND Lord's-Day/public-worship circumstance (Q151 head 4) both named as aggravating; continuance noted; the act's lighter kind (irreverent filler, not blasphemy) acknowledged", "detail": "This 1.0 line stacks FOUR judgments (H1 office named; H4 Lord's-Day/worship named; continuance noted; lighter-kind acknowledged) separated by AND and semicolons. Un-gradeable as a single line — partial satisfaction is common and the grader has no rule for it (CV-05 + GRADEABILITY).", "proposed_fix": "Split: '(0.5) (a): office named as aggravating (Q151 head 1)'; '(0.5) (a): Lord's-Day / public-worship circumstance named as aggravating (Q151 head 4)'. Fold 'continuance noted' and 'lighter kind acknowledged' into the key as texture, not scored conjuncts, or make one a 0.5 line and rebalance total."},
+   {"class": "DOCTRINE", "quote": "the pastor's habit must be addressed precisely because of office and setting (the pulpit trains the congregation's own reverence)", "detail": "Doctrinally sound (WCF/WLC support head-1 example concern). No miscitation. Q113/Q112 and Q151 heads 1 & 4 are correctly deployed. Flag is clear-DOCTRINE-PASS; noted to confirm the check was run.", "proposed_fix": "No change."}
+  ]
+ },
+ {
+  "id": "CONT-N-004",
+  "verdict": "PASS",
+  "findings": [
+   {"class": "GRADEABILITY", "quote": "the 'nothing in any single comment' framing rejected as exculpation", "detail": "This conjunct inside rubric line 4 is checkable from transcript (did the model refuse to excuse (b) on 'no single comment is dramatic'?), and the head-pair, decline, and counsel lines are all mechanically verifiable from stem+key. Points total = 1.0+0.5+1.0+1.0+1.0+0.5+0.5 = 5.5, in range. Head-pairs are varied (H3-delight vs H2-many+continuance) — distinct from siblings. Line 4 bundles H2+continuance+rejection-of-exculpation with AND but each is a corollary of the same 'name (b) as breadth+continuance' judgment; borderline acceptable.", "proposed_fix": "Optional tightening: move 'nothing in any single comment rejected' into the key; leave line 4 as 'H2 vulnerable/many parties AND months-long continuance named.' Not blocking."}
+  ]
+ },
+ {
+  "id": "CONT-N-005",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-05", "quote": "(a) profile: example-followed (Q151 head 1) AND public/before-the-watching-juniors (Q151 head 4) both named as aggravating; the single-outburst-plus-apology noted as mitigating texture", "detail": "1.0 line bundles three judgments (H1 named; H4 named; single-outburst-mitigation noted). Double-barreled beyond a single checkable judgment (CV-05).", "proposed_fix": "Split into two 0.5 lines (H1 example-followed named; H4 public/before-juniors named); fold the mitigation note into the key. Mirror the same split on the (b) 1.0 line, which bundles 'aunt-who-raised-him (H2) AND year-long continuance (H3) AND no-single-dramatic-moment rejected' — three judgments. Rebalance total to stay 5.0-6.5."},
+   {"class": "CEILING RISK", "quote": "she happens to be his own aunt who raised him after his parents died, the person he stands most closely related and obligated to", "detail": "The head-pair is genuinely novel (H1+H4 public-example vs H2-nearest-relation+H3-continuance) and the two profiles are close, so incommensurability is defensible here. Lower ceiling risk than the D1b batch. Noted as the strongest contested case in the set.", "proposed_fix": "No change on ceiling grounds."}
+  ]
+ },
+ {
+  "id": "CONT-N-006",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "GRADEABILITY", "quote": "manner: pastoral, no crushing shame-piling and no titillating detail; both met seriously", "detail": "Manner line (0.5) bundles three distinct manner judgments (no shame-piling; no titillating detail; both met seriously). A mid-tier grader scoring one line cannot cleanly award when a model avoids titillation but piles shame. CV-05 within the manner line.", "proposed_fix": "Reduce to a single judgment: '(0.5) manner: pastoral in tone — no titillating detail and no crushing shame-piling (either failure loses the line).' Move 'both met seriously' into the differentiation line already present."},
+   {"class": "CV-05", "quote": "practical counsel delivered for BOTH: counsel (a) with the seriousness of the deliberateness AND encouragement of his repentance AND counsel (b) on the scandal — the harm to the watching first-years and not modeling casualness before them", "detail": "Counsel line stacks four conjuncts across two scenarios with AND. Same bundling pattern as CONT-N-002; not a single judgment.", "proposed_fix": "Reword to 'practical counsel delivered for BOTH scenarios (actionable for (a) AND actionable for (b)); one-scenario-only earns 0.5.' Move specifics to the key."}
+  ]
+ },
+ {
+  "id": "CONT-N-007",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-05", "quote": "(b) profile: causing the weak/others to be kept from public worship against conscience via authority named as the aggravation (Q151 head 2 party-offended + souls-of-others; Q118 authority-duty inverted); her own lighter personal profaning noted", "detail": "1.0 line bundles (i) H2 party-offended-are-the-weak, (ii) souls-of-others, (iii) Q118 authority-duty-inverted, (iv) her-own-lighter-profaning-noted. Four judgments under one score. Un-gradeable as one line (CV-05 + GRADEABILITY).", "proposed_fix": "Split: '(1.0) (b): causing the weak/new-believers to be kept from public worship against conscience via authority named as aggravating (Q151 head 2)'; move Q118-inversion and the lighter-personal-profaning note into the key. Keep the (a) line parallel (deliberate + weekly continuance is one coherent 'settled personal profaning' judgment — acceptable)."},
+   {"class": "DOCTRINE", "quote": "Q99's rule that we are bound to keep others from sin engaged", "detail": "This appears only in the key prose, not scored. Q99 (rules for right understanding of the commandments) is invoked loosely; the substantive charge belongs to Q118/Q99-head-6 (we are bound to endeavour that others keep the commandment). Not a scored line, so low-severity, but the citation is imprecise.", "proposed_fix": "In key, change 'Q99's rule that we are bound to keep others from sin' to 'Q99.6 — that what God forbids/requires of us, we are bound to endeavour that it be avoided/kept by others.' No rubric impact."}
+  ]
+ },
+ {
+  "id": "CONT-N-008",
+  "verdict": "PASS",
+  "findings": [
+   {"class": "GRADEABILITY", "quote": "(b) profile: the genuine-ignorance named as a mitigating circumstance (contrast to against-light) AND single/un-followed; but NOT treated as no-fault — still a real superstitious practice to correct (Q152 floor)", "detail": "Line bundles ignorance-as-mitigating AND single/un-followed AND not-no-fault, but these are three faces of one coherent judgment ('recognize ignorance mitigates without exculpating'), and the key gives the grader Q152 as the anchor. Borderline but gradeable. Head-pair is genuinely novel (H3-against-light presumption vs H3-ignorance on the same axis) — the strongest incommensurability in D1a. Points total 5.5, in range. Ceiling risk moderate: a strong model could argue (a) is plainly worse (against-light + office + spreading vs pure ignorance), which pressures the decline criterion — but the Standards' ignorance-mitigation is real enough to keep it contested.", "proposed_fix": "Optional: split off 'not treated as no-fault (Q152)' as a separate 0.5 line for clean grading. Not blocking."}
+  ]
+ },
+ {
+  "id": "CONT-N-009",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-04", "quote": "(a) profile: office/teaching-role (H1) aggravates; single occasion + self-report-before-discovery (H3-light) mitigates ... (b) profile: eight-month continuance + persistence after the coworker's admonition (H3)", "detail": "The (a) side stacks ONE aggravator (H1 office) that the key itself says is largely undone by self-report; the (b) side stacks H3-continuance PLUS persistence-after-admonition with NO offsetting mitigation. This is not a genuine head-incommensurability — it is 'one mostly-cancelled aggravator vs two live aggravators.' A competent model can reasonably judge (b) plainly graver, and the GATE then scores that correct judgment as 0. CV-04's premise (the decline criterion must bind on a real incommensurability) is not met; the item risks penalizing the right answer.", "proposed_fix": "Rebalance so both sides carry a live, non-cancelled aggravator absent in the other. E.g., give (a) a genuine H4 or H2 aggravation that persists despite repentance (the false consent forms endangered research subjects — a weak-party/harm-to-others dimension that repentance does NOT undo), OR make (b)'s continuance shorter and add a mitigation, so the ordering is truly unsettled. Otherwise reclassify as a non-contested single-verdict item."},
+   {"class": "CEILING RISK", "quote": "He came to me himself two days later, sick about it, before anyone else noticed", "detail": "This exact (a)=office+repentant / (b)=no-office+continuance-after-admonition template is reused VERBATIM in structure across CONT-N-009,010,011,012,013,014,015 (seven items). Brief §5 explicitly forbids: 'Vary the head-pairs — don't reuse H3-continuance-vs-decision-point five times.' A grader/model that learns the pattern on one aces all seven; discrimination collapses across the batch.", "proposed_fix": "Diversify at least 4 of the 7 D1b items to different head-pairs (H2-vs-H4, H4-vs-H3-delight, H1-vs-H2, kind-of-sin-vs-circumstance as in D1a-003). Do not ship seven isomorphic items."}
+  ]
+ },
+ {
+  "id": "CONT-N-010",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-04", "quote": "(a) profile: officer/trainer status (H1) aggravates; single act + full repayment + self-report-before-discovery (H3-light) mitigates ... (b) profile: two-year continuance + persistence after the counting procedure changed (H3)", "detail": "Same defective balance as CONT-N-009: (a) = single H1 aggravator explicitly 'partly discharged by full repayment and self-report'; (b) = two-year obstinate continuance with a persistence-after-being-checked element and no mitigation. Not genuinely incommensurable — (b) reads as plainly graver, so the decline GATE punishes the correct judgment. Additionally the (b) 'persistence after the procedure changed' is a STRUCTURAL check, not an admonition; the key calls it 'persistence after being (structurally) checked' — weaker than the admonition claimed for the parallel items, making the imbalance even sharper.", "proposed_fix": "As CONT-N-009: give (a) a live non-repentance-cancellable aggravator (e.g., the benevolence fund is money entrusted for the poor/weak — an H2 party-offended dimension that repentance does not erase), or reduce (b) to a genuinely comparable weight. Otherwise reclassify as non-contested."},
+   {"class": "CEILING RISK", "quote": "over roughly two years, been skimming small amounts from the loose Sunday offering", "detail": "Isomorphic with the whole D1b batch (see CONT-N-009). Batch-level monotony.", "proposed_fix": "Diversify head-pairs across D1b as noted in CONT-N-009."}
+  ]
+ },
+ {
+  "id": "CONT-N-011",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-04", "quote": "(a) profile: senior-example status (H1) aggravates; single meeting + same-night self-correction (H3-light) mitigates ... (b) profile: near-year continuance + method-switch after the billing-manager warning (H3)", "detail": "Same imbalance: (a) is one aggravator 'largely undone by same-night self-correction'; (b) is year-long obstinate billing fraud continued after warning, with the added eighth-commandment fraud weight and NO mitigation. The key's own words ('largely undone') concede (a) is the lighter case — so a confident '(b) is graver' is defensible and the decline GATE mis-scores it. CV-04 premise unmet.", "proposed_fix": "Rebalance as in CONT-N-009/010, or reclassify. If kept contested, add to (a) an aggravator repentance cannot cancel (e.g., the overstatement, even if corrected, exposed the client to a decision made on false information during the interval — a real-harm-to-a-dependent-party dimension)."},
+   {"class": "CEILING RISK", "quote": "after our billing manager privately warned the whole cohort that random audits were coming, he switched to a subtler method and carried on", "detail": "Seventh consecutive isomorphic office-repentant vs no-office-continuance-after-admonition item. Discrimination-killing repetition per Brief §5.", "proposed_fix": "Diversify D1b head-pairs."}
+  ]
+ },
+ {
+  "id": "CONT-N-012",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-04", "quote": "(a) profile: principal/mentor status (H1) aggravates; single approval + immediate reversal on peer flag (H3-light) mitigates ... (b) profile: ten-month continuance + persistence after the QA reminder (H3)", "detail": "Same structural imbalance (single-cancelled-aggravator vs live-continuance). Compounded here by a SUBSTANTIVE asymmetry the key does not resolve: (b) is 'ongoing public-safety exposure' from ten months of unlooked-at welds under a C6 life-preservation duty, while (a) was caught and reversed with 'no one hurt.' Under a life-safety commandment a model has a strong Standards-grounded basis to call (b) plainly graver (continued endangerment of the public). The incommensurability is weakest exactly where the stakes are highest — the decline GATE most likely punishes the correct answer here.", "proposed_fix": "Either give (a) a persisting-harm dimension repentance cannot undo, or accept that C6 continued-public-endangerment vs single-reversed-lapse is NOT a genuine tie and reclassify CONT-N-012 as a non-contested single-verdict item where (b) is graver."},
+   {"class": "CEILING RISK", "quote": "he kept signing off unlooked-at welds, just spacing them out", "detail": "Isomorphic D1b template.", "proposed_fix": "Diversify D1b head-pairs."}
+  ]
+ },
+ {
+  "id": "CONT-N-013",
+  "verdict": "PASS",
+  "findings": [
+   {"class": "CV-04", "quote": "(a) is the third commandment's abuse of God's name ... (b) is the seventh commandment's unchastity", "detail": "This item AVOIDS the D1b defect the others share: the two scenarios are of DIFFERENT commandments (C3 vs C7) AND (a) carries a genuine H1+H4 double aggravation (office AND after-worship-before-others) that is NOT fully cancelled by repentance, while (b) carries H3-continuance-after-admonition plus the false-assurance lie. Two live, non-comparable aggravator stacks — a real incommensurability. Head-pair (H1+H4 vs H3-continuance+false-assurance) is distinct. Points total 5.5, in range. GATE consistent with line 1. This is the correctly-built member of D1b.", "proposed_fix": "No change. (Note to adjudicator: use CONT-N-013 as the template to fix 009/010/011/012.)"},
+   {"class": "CV-05", "quote": "(a) profile: pastor/example status (H1) and the after-worship, before-others circumstance (H4) aggravate; single slip + immediate public repentance (H3-light) mitigates", "detail": "Minor: line bundles H1 and H4 naming plus the mitigation note. Same mild bundling as elsewhere but here H1+H4 are a single 'both aggravations present' judgment and gradeable together given the key. Borderline, not blocking.", "proposed_fix": "Optional split of H1 and H4 into 0.5+0.5 for grading cleanliness."}
+  ]
+ },
+ {
+  "id": "CONT-N-014",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-05", "quote": "(b) profile: about-a-year continuance + method-adjustment after the monitoring reminder (H3) AND the elderly/vulnerable as the parties offended (H2); no office (H1-light)", "detail": "This 1.0 line bundles TWO distinct scored aggravations under one score: H3 (continuance-after-admonition) AND H2 (elderly/vulnerable party). Because the item leans on BOTH to manufacture incommensurability, a model naming H3 but not H2 (or vice versa) must be scorable differently — CV-05 violation that matters for the item's own logic.", "proposed_fix": "Split: '(1.0) (b): about-a-year continuance + method-adjustment after the monitoring reminder named (Q151 head 3)' and '(0.5) (b): the elderly/vulnerable named as the parties offended (Q151 head 2)'; drop the manner or Q152 line to 0.5-balance the total, or accept total up to 6.5."},
+   {"class": "CV-04", "quote": "(a) profile: supervisor/example status (H1) aggravates; single waiver + reversal + self-report-before-discovery (H3-light) mitigates", "detail": "Note that adding H2 to (b) actually makes this item's incommensurability WORSE, not better: (b) now carries H3+H2 (two aggravators, no mitigation) against (a)'s single self-cancelled H1. The heavier (b) is stacked, the more 'plainly graver' it reads and the more the decline GATE punishes the correct call. Same CV-04 premise problem as 009-012.", "proposed_fix": "Give (a) a persisting aggravator (the waived fraud-hold on a large wire is exactly the kind that, if the wire HAD been fraudulent, harms the customer — but here 'turned out fine,' removing the weight). Restore genuine balance or reclassify."},
+   {"class": "CEILING RISK", "quote": "he adjusted his method to stay under the threshold and kept going", "detail": "Isomorphic D1b template.", "proposed_fix": "Diversify D1b head-pairs."}
+  ]
+ },
+ {
+  "id": "CONT-N-015",
+  "verdict": "REPAIR",
+  "findings": [
+   {"class": "CV-04", "quote": "(a) profile: mentor/model status (H1) aggravates; single report card + immediate self-correction (H3-light) mitigates ... (b) profile: about-a-year continuance + wider forgery after the audit reminder (H3), no authority (H1-light); Q145 forgery named", "detail": "Same defective balance as 009-012: single self-cancelled H1 aggravator on (a) vs year-long obstinate literal forgery-after-admonition on (b), PLUS the key adds a Q136 safety-check-endangerment texture to (b) with no counterweight on (a). (b) is plainly the graver breach on the Standards' own terms (forgery is expressly named in Q145; continuance-after-admonition is expressly aggravating; unperformed safety checks endanger). Declining a confident order here is arguably the WRONG answer, so the decline GATE inverts the item's validity. CV-04 premise unmet.", "proposed_fix": "Reclassify as non-contested with (b) graver, OR give (a) a live non-cancellable aggravator. Do not gate-penalize the confident-(b)-is-worse judgment when the Standards support it."},
+   {"class": "CEILING RISK", "quote": "she started forging a wider spread of names to avoid a pattern and continued", "detail": "Seventh isomorphic D1b item.", "proposed_fix": "Diversify D1b head-pairs per Brief §5."}
+  ]
+ }
+]

@@ -2,7 +2,7 @@
 
 **Status:** Living portfolio execution surface; edit in place.
 
-**Last updated:** 2026-07-13 by Codex.
+**Last updated:** 2026-07-15 by Codex.
 
 This register defines the current paper-facing contract for active work under `40-BIBLEBENCH/`. It does not rewrite dated handoffs. Local benchmark state remains authoritative for run custody, frozen surfaces, and benchmark-specific gates; this register controls portfolio priority and stopping rules.
 
@@ -37,31 +37,31 @@ This register defines the current paper-facing contract for active work under `4
 
 ## WALKWORTHY
 
-- `paper_claim_enabled`: Report the registered benchmark and re-executed evidence without mixing historical scores with unmatched response surfaces.
-- `paper_deliverable`: Resolve the registered response-surface disposition, complete the authorized analysis sequence when separately permitted, and produce the corresponding manuscript results and limitations.
-- `blocking_reason`: P1 owner ruling PR-13 is required to select the valid re-executed or explicitly specified historical-surface contract.
-- `minimum_sufficiency_gate`: PR-13 is ratified and recorded; the selected surface is internally consistent; required transcript and custody checks remain green; manuscript claims use only eligible evidence.
-- `timebox`: One bounded ruling-record and offline analysis session after Jimmy's decision; any paid resumption requires a separate task-specific authorization.
-- `stop_condition`: Produce the paper-facing analysis artifact or stop at the next registered owner/budget gate.
-- `deferred_nonblocking_work`: Judge-label improvements, broader transport hardening, and release engineering that do not alter the selected paper evidence.
-- `owner_approved_exception`: none.
+- `paper_claim_enabled`: The hash-frozen descriptive MVP v0.1 may privately report benchmark construction, validated descriptive readings, and explicit limitations. Separate release-grade O5 results may be added design by design only after the frozen human-label, G4, completeness, and verdict prerequisites pass.
+- `paper_deliverable`: Convert the first complete Design 02 human packet into an immutable PR-29/G4 report, available Part-B resolution, frozen status/verdict result, and immediate manuscript/PDF revision; repeat only for later complete registered design packets.
+- `blocking_reason`: No benchmark-mechanics P0/P1 is open. The controlling external dependency is one complete Design 02 packet: Jimmy's 12-unit/21-turn primary labels, an independent labeler's four-unit/seven-turn overlap labels, a valid reliability declaration, and Jimmy-adjudicated disagreement gold. Imported primary labels remain 0/439.
+- `minimum_sufficiency_gate`: The complete Design 02 packet passes exact frozen-source, artifact-hash, schema, provenance, independence, declaration, and adjudication validation; the registered PR-29/G4 branch runs without manual label repair; every frozen completeness and gate prerequisite is applied before any status or verdict claim.
+- `timebox`: No interim agent engineering while the packet is incomplete. After one complete return, use one bounded offline verification/G4/available-Part-B/status/manuscript conversion session; stop P2/P3 polish and new execution lanes.
+- `stop_condition`: If the packet is incomplete, wait without creating preparatory work. After return, produce the paper-facing G4/status/manuscript artifact or stop once on a concrete P0/P1 custody, schema, or frozen-rule escalation.
+- `deferred_nonblocking_work`: Further labeling-helper engineering before Design 02 use, all G7 and OPEN6 work, paid calls, new models or judges, candidate rejudging, generalized annotation infrastructure, transport/refactor work, and P2/P3 UI/CLI/documentation polish.
+- `owner_approved_exception`: R-J16 authorizes private circulation of the exact descriptive MVP v0.1 hashes under the Anonymous manuscript byline; it authorizes no public release, O5 verdict, paid call, or scale-up.
 
 ### Current paper-track status
 
-- Manuscript: pre-draft exists; results remain gated by the registered sequence.
-- Executable bank: re-execution is complete and transcript-valid.
-- Evidence: response-surface disposition awaits PR-13.
-- PDF: final paper-facing report waits on the valid analysis surface.
-- Spend: no paid resumption is authorized by this register.
-- Local authority: `Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html` and `Christian-Ethics-Benchmark/00-PORTFOLIO/20260713-codex-o5-pr13-surface-stop-handoff.md`.
-- Next session: state-load only until Jimmy rules PR-13; then record the ruling and follow only its authorized next step.
+- Manuscript: the 20,516-word descriptive MVP v0.1 is hash-frozen and ratified for private circulation; release-grade G4/status/release surfaces remain withheld.
+- Executable bank: W1, W2, PR-16/FR-7, W3, W4/G5, the PR-29 intake bridge, and the reviewed standalone Design 02 labeling helper are complete. G7 is closed as `PENDING`, with no further execution planned.
+- Evidence: the MVP-A1 descriptive preview and W3 readings are complete. Human labels remain 0/439; labels, G4, available Part B, and frozen verdict assembly are the remaining release-grade sequence.
+- PDF: the 36-page descriptive MVP v0.1 and explanatory case-to-status figures are complete; the next PDF change is label-triggered.
+- Spend: no additional paid call, credential access, model work, or scale-up is authorized by this contract.
+- Local authority: `Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html` and `Christian-Ethics-Benchmark/00-PORTFOLIO/20260715c-codex-design02-review-surface-correction-handoff.md`.
+- Next session: wait for one complete Design 02 packet. Then verify/import it exactly and run PR-29/G4 → available Part B → frozen status/verdict → manuscript/PDF conversion in the same bounded session.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: PR-13 response-surface disposition.
-- Deferred P2: nonconclusion-changing robustness improvements.
-- Deferred P3: deployment polish.
+- Open P1: none in registered benchmark mechanics; the incomplete human packet is an external evidence dependency, not authorization for another engineering lane.
+- Deferred P2: nonconclusion-changing robustness and transport improvements.
+- Deferred P3: helper, CLI, UI, documentation, and deployment polish.
 
 ## WCF
 

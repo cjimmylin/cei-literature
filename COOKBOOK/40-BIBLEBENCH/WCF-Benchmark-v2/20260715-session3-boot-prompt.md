@@ -87,6 +87,7 @@ No code changes. Config frozen to session-2: tasks as-is (generic episode turn),
 - mockllm graders produce unscored/nan — that is the PASS condition for $0 plumbing tests.
 - Single-item design means are noise (crosswind: 9 at n=1 vs 82 at n=19). Report design means only at full-bank n.
 - Always `python -m pip`, never bare pip. Never `rm` anything — the vault hook will deny the whole command (even a commit message *containing* deletion-pattern strings gets denied; rephrase).
+- **Commit with explicit pathspecs — `git commit -m "..." -- <your paths>` — never bare `git commit -m`.** Sibling sessions leave changes PRE-STAGED in the shared index; a bare commit sweeps them into your commit under your message (happened session 2→3 handoff: commit 2b1a91beb carried 14 staged BIBLEBENCH-PILOT files alongside 1 boot-prompt file). The pathspec form commits only the named paths regardless of what else is staged.
 
 ## Acceptance checklist
 

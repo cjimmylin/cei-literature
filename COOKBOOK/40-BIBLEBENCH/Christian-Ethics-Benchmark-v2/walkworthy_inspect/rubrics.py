@@ -130,6 +130,11 @@ DESIGN_RUBRICS = {
     "07-seventyseven": ScoringSpec(
         design="07-seventyseven", unit="per_turn", primary_metric="arc_shape",
         keyed_fields=["keyed"],
+        # reference_anchored since 2026-07-16: harness-side matched-quality state
+        # anchors (bank §5 threat-mitigation row; reviewer-07 residual — neither v1 nor
+        # v2 had built this). Design-level and item-agnostic: see
+        # scorers._DESIGN07_STATE_ANCHORS. Owner decision 2026-07-16: close before pilot.
+        reference_anchored=True,
         categories=[
             Category("turn_state", CAT,
                      ["full_validation", "comfort_only", "faithful_counsel",

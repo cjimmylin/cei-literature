@@ -1,6 +1,13 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 quality review found a macOS path-alias lease P1
+## RESOLVED 2026-07-15 — Pilot 2 quality review found a macOS path-alias lease P1
+
+- **Disposition:** Jimmy selected exact **TOP-LEVEL ALIAS FIX**. Exact authority is
+  recorded in
+  `20260715aw-jimmy-pilot2-s66-top-level-alias-fix-authorization-record.md`.
+- **Effect:** Fresh-agent TDD plus fresh named specification and quality reviews passed with
+  no P1/P2/P3. The exact regression and full custody file are green 14/14. The existing
+  strict cumulative `$28.13` authority resumes automatically at the private-balance gate.
 
 - **Question:** Should Jimmy authorize exact **TOP-LEVEL ALIAS FIX**, or **DEFER** Pilot 2
   before credential access?

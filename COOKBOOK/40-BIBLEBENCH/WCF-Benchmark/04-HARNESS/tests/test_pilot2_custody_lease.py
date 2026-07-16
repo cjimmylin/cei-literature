@@ -392,6 +392,11 @@ def _hold_direct_lease(run_dir, acquired, release):
             raise AssertionError("fixture direct lease holder timed out")
 
 
+def _hold_direct_lease_from_cwd(cwd, relative_run_dir, acquired, release):
+    os.chdir(cwd)
+    _hold_direct_lease(relative_run_dir, acquired, release)
+
+
 def _try_direct_lease(run_dir, result):
     try:
         with live.exclusive_run_lease(run_dir):
@@ -468,6 +473,57 @@ def test_process_lease_blocks_second_process_after_missing_parent_becomes_symlin
         if contender is not None and contender.is_alive():
             contender.terminate()
             contender.join(timeout=5)
+    assert holder.exitcode == 0
+
+
+@pytest.mark.skipif(sys.platform != "darwin", reason="macOS /var alias regression")
+def test_process_lease_blocks_absolute_var_alias_for_relative_holder_after_symlink(
+    tmp_path,
+):
+    canonical_cwd = tmp_path.resolve() / "cwd"
+    canonical_cwd.mkdir()
+    relative_run_dir = Path("later-linked") / "run"
+    target_parent = canonical_cwd / "link-target"
+    target_parent.mkdir()
+    absolute_alias_run_dir = (
+        Path("/var")
+        / canonical_cwd.relative_to("/private/var")
+        / relative_run_dir
+    )
+    context = multiprocessing.get_context("fork")
+    acquired = context.Event()
+    release = context.Event()
+    result = context.Queue()
+    holder = context.Process(
+        target=_hold_direct_lease_from_cwd,
+        args=(canonical_cwd, relative_run_dir, acquired, release),
+    )
+    contender = None
+    holder.start()
+    try:
+        assert acquired.wait(timeout=10)
+        (canonical_cwd / relative_run_dir.parent).symlink_to(
+            target_parent, target_is_directory=True)
+        contender = context.Process(
+            target=_try_direct_lease, args=(absolute_alias_run_dir, result))
+        contender.start()
+        contender.join(timeout=10)
+        if contender.is_alive():
+            contender.terminate()
+            contender.join(timeout=5)
+        assert contender.exitcode == 0
+        assert result.get(timeout=5) == "blocked"
+    finally:
+        release.set()
+        holder.join(timeout=10)
+        if holder.is_alive():
+            holder.terminate()
+            holder.join(timeout=5)
+        if contender is not None and contender.is_alive():
+            contender.terminate()
+            contender.join(timeout=5)
+        result.close()
+        result.join_thread()
     assert holder.exitcode == 0
 
 

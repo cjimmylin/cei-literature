@@ -5,15 +5,18 @@ from __future__ import annotations
 
 import argparse
 import copy
+import fcntl
 import hashlib
 import json
 import math
 import os
 import sys
+import tempfile
 import threading
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from contextlib import contextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Dict, Mapping, Optional, Sequence
@@ -90,6 +93,35 @@ def _read_json(path: Path, message: str) -> Dict[str, Any]:
     if not isinstance(value, dict):
         raise CustodyStop(message)
     return value
+
+
+def _run_lease_path(run_dir: Path) -> Path:
+    resolved = Path(run_dir).resolve()
+    identity = hashlib.sha256(str(resolved).encode("utf-8")).hexdigest()[:24]
+    return Path(tempfile.gettempdir()).resolve() / (
+        f".wcfbench-pilot2-{identity}.lease")
+
+
+@contextmanager
+def exclusive_run_lease(run_dir: Path):
+    """Hold the one nonblocking process lease for a Pilot 2 run directory."""
+    lease_path = _run_lease_path(run_dir)
+    try:
+        handle = lease_path.open("a+", encoding="utf-8")
+    except OSError as exc:
+        raise CustodyStop("Pilot 2 process lease is unavailable") from exc
+    try:
+        try:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except (BlockingIOError, OSError) as exc:
+            raise CustodyStop(
+                "another Pilot 2 process holds the run lease") from exc
+        try:
+            yield
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+    finally:
+        handle.close()
 
 
 def _validate_authority_sources(
@@ -188,12 +220,16 @@ def require_bound_authorization(manifest: Mapping[str, Any]) -> None:
         raise CustodyStop("authorized manifest changes fields outside the registered binding")
 
 
+def _append_unlocked(path: Path, value: Mapping[str, Any]) -> None:
+    with path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(value, sort_keys=True, ensure_ascii=False) + "\n")
+        handle.flush()
+        os.fsync(handle.fileno())
+
+
 def _append(path: Path, value: Mapping[str, Any], lock: threading.Lock) -> None:
     with lock:
-        with path.open("a", encoding="utf-8") as handle:
-            handle.write(json.dumps(value, sort_keys=True, ensure_ascii=False) + "\n")
-            handle.flush()
-            os.fsync(handle.fileno())
+        _append_unlocked(path, value)
 
 
 @dataclass
@@ -239,11 +275,11 @@ class RunState:
             self.spent_usd += actual_usd
             del self.reservations[request_id]
             cumulative = self.spent_usd
-        _append(self.run_dir / EVIDENCE_FILE, {
-            "kind": "cost_settlement", "request_id": request_id,
-            "response_attributed_cost_usd": actual_usd,
-            "cumulative_spend_usd": cumulative,
-        }, self.lock)
+            _append_unlocked(self.run_dir / EVIDENCE_FILE, {
+                "kind": "cost_settlement", "request_id": request_id,
+                "response_attributed_cost_usd": actual_usd,
+                "cumulative_spend_usd": cumulative,
+            })
 
     def checkpoint_missing(self, cell_key: str, reason: str, *, attempts: int) -> None:
         if not isinstance(attempts, int) or isinstance(attempts, bool) or attempts < 1:
@@ -963,54 +999,264 @@ def require_completed_run_evidence(
             if row.get("kind") == "provider_canary_validation"
             and row.get("status") == "PASS"} != set(preflight.SUTS):
         raise CustodyStop("immutable completed run lacks five provider canary PASS records")
-    expected_first = {cell.key for cell in build_cells(manifest)
+    expected_cells = {cell.key: cell for cell in build_cells(manifest)}
+    expected_first = {cell.key for cell in expected_cells.values()
                       if cell.item_id == (manifest.get("schedule") or {})[
                           "all_item_ids"][0]}
     if {row.get("cell_key") for row in evidence
             if row.get("kind") == "first_cell_validation"
             and row.get("status") == "PASS"} != expected_first:
         raise CustodyStop("immutable completed run lacks five first-cell PASS records")
-    open_reservations: Dict[str, list] = {}
+    indexed = list(enumerate(evidence))
+    request_kinds = {"provider_canary_request", "sut_request"}
+    outcome_kinds = {
+        "provider_canary_response", "provider_canary_transport_error",
+        "sut_response", "sut_transport_error",
+    }
+
+    def unique_by_request(kinds: set, label: str) -> Dict[str, tuple]:
+        found: Dict[str, tuple] = {}
+        for index, row in indexed:
+            if row.get("kind") not in kinds:
+                continue
+            request_id = row.get("request_id")
+            if not isinstance(request_id, str) or not request_id:
+                raise CustodyStop(f"immutable run {label} request identity is invalid")
+            if request_id in found:
+                raise CustodyStop(f"immutable run {label} evidence is duplicated")
+            found[request_id] = (index, row)
+        return found
+
+    reservations = unique_by_request({"reservation"}, "reservation")
+    requests = unique_by_request(request_kinds, "request")
+    outcomes = unique_by_request(outcome_kinds, "response/error")
+    settlements = unique_by_request({"cost_settlement"}, "settlement")
+    request_ids = set(requests)
+    if (not request_ids or set(reservations) != request_ids
+            or set(outcomes) != request_ids or set(settlements) != request_ids):
+        raise CustodyStop(
+            "immutable run request/response/settlement evidence is not exact")
     spent = 0.0
-    for row in evidence:
-        kind = row.get("kind")
-        request_id = row.get("request_id")
-        if kind == "reservation":
-            maximum = row.get("maximum_usd")
-            if (not isinstance(request_id, str)
-                    or not isinstance(maximum, (int, float))
-                    or isinstance(maximum, bool) or maximum <= 0):
-                raise CustodyStop("immutable run reservation evidence is invalid")
-            open_reservations.setdefault(request_id, []).append(float(maximum))
-        elif kind == "cost_settlement":
-            queues = open_reservations.get(request_id) or []
-            if not queues:
-                raise CustodyStop("immutable run settlement lacks reservation")
-            actual = row.get("response_attributed_cost_usd")
-            if (not isinstance(actual, (int, float)) or isinstance(actual, bool)
-                    or actual < 0 or actual > queues.pop(0) + 1e-12):
-                raise CustodyStop("immutable run settlement cost is invalid")
-            spent += float(actual)
-    if any(values for values in open_reservations.values()) or spent > STRICT_CAP_USD:
-        raise CustodyStop("immutable run has unsettled or over-cap custody")
+    for request_id in request_ids:
+        reservation_index, reservation = reservations[request_id]
+        request_index, _request = requests[request_id]
+        outcome_index, _outcome = outcomes[request_id]
+        settlement_index, settlement = settlements[request_id]
+        maximum = reservation.get("maximum_usd")
+        actual = settlement.get("response_attributed_cost_usd")
+        if (not isinstance(maximum, (int, float)) or isinstance(maximum, bool)
+                or not math.isfinite(float(maximum)) or maximum <= 0):
+            raise CustodyStop("immutable run reservation evidence is invalid")
+        if (not isinstance(actual, (int, float)) or isinstance(actual, bool)
+                or not math.isfinite(float(actual)) or actual < 0
+                or actual > float(maximum) + 1e-12):
+            raise CustodyStop("immutable run settlement cost is invalid")
+        if not (reservation_index < request_index < outcome_index < settlement_index):
+            raise CustodyStop("immutable run request custody order is invalid")
+    for _index, settlement in sorted(settlements.values()):
+        actual = float(settlement["response_attributed_cost_usd"])
+        spent += actual
+        cumulative = settlement.get("cumulative_spend_usd")
+        if (not isinstance(cumulative, (int, float))
+                or isinstance(cumulative, bool)
+                or not math.isfinite(float(cumulative))
+                or abs(float(cumulative) - spent) > 1e-12):
+            raise CustodyStop(
+                "immutable run cumulative settlement cost is invalid")
+    if spent > STRICT_CAP_USD + 1e-12:
+        raise CustodyStop("immutable run has over-cap custody")
+
+    items = {item.id: item for item in preflight.load_items(str(preflight.BANK_DIR))}
+    spec_by_sut = {spec.slug: spec for spec in preflight.SUT_SPECS}
+    cell_attempts: Dict[str, list] = {}
+    model_attempts: Dict[str, list] = {sut: [] for sut in preflight.SUTS}
+    retry_attempts: Dict[str, int] = {sut: 0 for sut in preflight.SUTS}
+    terminal_error_by_request: Dict[str, str] = {}
+    successful_by_request: Dict[str, Dict[str, Any]] = {}
+
+    for request_id, (_index, request) in requests.items():
+        outcome = outcomes[request_id][1]
+        settlement = settlements[request_id][1]
+        reservation = reservations[request_id][1]
+        kind = request.get("kind")
+        sut = request.get("sut")
+        spec = spec_by_sut.get(sut)
+        if spec is None:
+            raise CustodyStop("immutable run request SUT is invalid")
+        if abs(float(reservation["maximum_usd"])
+               - _maximum_cost(manifest, sut)) > 1e-12:
+            raise CustodyStop("immutable run reservation/model cost linkage is invalid")
+        if kind == "provider_canary_request":
+            attempt = request.get("attempt")
+            if (not isinstance(attempt, int) or isinstance(attempt, bool)
+                    or attempt not in {1, 2}
+                    or request_id != f"canary::{sut}::{attempt}"
+                    or not isinstance(request.get("payload"), Mapping)
+                    or request["payload"].get("model") != sut
+                    or outcome.get("sut") != sut
+                    or outcome.get("attempt") != attempt):
+                raise CustodyStop("immutable provider canary request linkage is invalid")
+        elif kind == "sut_request":
+            cell_key = request.get("cell_key")
+            cell = expected_cells.get(cell_key)
+            attempt = request.get("cell_attempt")
+            model_attempt = request.get("model_attempt")
+            if (cell is None or sut != cell.sut
+                    or request.get("item_id") != cell.item_id
+                    or not isinstance(attempt, int) or isinstance(attempt, bool)
+                    or attempt < 1 or attempt > MAX_RETRIES_PER_CELL + 1
+                    or request_id != f"cell::{cell_key}::{attempt}"
+                    or not isinstance(model_attempt, int)
+                    or isinstance(model_attempt, bool) or model_attempt < 1
+                    or request.get("diagnostic_only") is not cell.diagnostic_only
+                    or request.get("scorable") is not cell.scorable):
+                raise CustodyStop("immutable SUT request identity is invalid")
+            expected_payload = controller.build_sut_request(
+                manifest, sut, build_blind_messages(items[cell.item_id]))
+            if request.get("payload") != expected_payload:
+                raise CustodyStop("immutable SUT request model/payload linkage is invalid")
+            for field in ("cell_key", "sut", "item_id", "cell_attempt"):
+                if outcome.get(field) != request.get(field):
+                    raise CustodyStop("immutable SUT response identity is invalid")
+            if outcome.get("kind") == "sut_response":
+                if (outcome.get("model_attempt") != model_attempt
+                        or outcome.get("diagnostic_only") is not cell.diagnostic_only
+                        or outcome.get("scorable") is not cell.scorable):
+                    raise CustodyStop("immutable SUT response model linkage is invalid")
+            cell_attempts.setdefault(cell_key, []).append((attempt, request_id))
+            model_attempts[sut].append(model_attempt)
+            if attempt > 1:
+                retry_attempts[sut] += 1
+        else:
+            raise CustodyStop("immutable completed run request kind is invalid")
+
+        if outcome.get("kind") in {
+                "provider_canary_transport_error", "sut_transport_error"}:
+            if (not isinstance(outcome.get("error"), str)
+                    or not outcome["error"]
+                    or outcome.get("response_attributed_cost_usd") != 0.0
+                    or settlement.get("response_attributed_cost_usd") != 0.0):
+                raise CustodyStop("immutable transport error custody is invalid")
+            terminal_error_by_request[request_id] = outcome["error"]
+            continue
+        expected_response_kind = (
+            "provider_canary_response" if kind == "provider_canary_request"
+            else "sut_response")
+        raw_response = outcome.get("raw_response")
+        if (outcome.get("kind") != expected_response_kind
+                or not isinstance(raw_response, Mapping)
+                or raw_response.get("provider") != spec.provider
+                or outcome.get("response_sha256") != _response_hash(raw_response)):
+            raise CustodyStop("immutable raw response identity is invalid")
+        raw_cost = _cost(raw_response)
+        outcome_cost = outcome.get("response_attributed_cost_usd")
+        if (not isinstance(outcome_cost, (int, float))
+                or isinstance(outcome_cost, bool)
+                or not math.isfinite(float(outcome_cost))
+                or abs(float(outcome_cost) - raw_cost) > 1e-12
+                or abs(float(settlement["response_attributed_cost_usd"]) - raw_cost)
+                > 1e-12):
+            raise CustodyStop("immutable response/settlement cost linkage is invalid")
+        if kind == "provider_canary_request":
+            continue
+        cell = expected_cells[request["cell_key"]]
+        if outcome.get("status") == "response":
+            if raw_response.get("error"):
+                raise CustodyStop("immutable successful response contains an error")
+            try:
+                parsed = _ordinary_validation(
+                    spec, raw_response,
+                    reasoning_gate=cell.item_id == (manifest.get("schedule") or {})[
+                        "all_item_ids"][0])
+            except (CustodyStop, ValueError) as exc:
+                raise CustodyStop("immutable successful response is invalid") from exc
+            if (outcome.get("final_answer") != parsed["final_answer"]
+                    or outcome.get("private_reasoning") != parsed["private_reasoning"]
+                    or outcome.get("reasoning_tokens") != parsed["reasoning_tokens"]):
+                raise CustodyStop("immutable successful response content is invalid")
+            successful_by_request[request_id] = outcome
+        elif outcome.get("status") == "upstream_error":
+            if not raw_response.get("error"):
+                raise CustodyStop("immutable upstream error response is invalid")
+            terminal_error_by_request[request_id] = str(raw_response["error"])
+        elif outcome.get("status") == "ordinary_error":
+            if raw_response.get("error"):
+                raise CustodyStop("immutable ordinary error response is invalid")
+            try:
+                _ordinary_validation(
+                    spec, raw_response,
+                    reasoning_gate=cell.item_id == (manifest.get("schedule") or {})[
+                        "all_item_ids"][0])
+            except ValueError as exc:
+                terminal_error_by_request[request_id] = str(exc)
+            except CustodyStop as exc:
+                raise CustodyStop("immutable ordinary error response is terminal") from exc
+            else:
+                raise CustodyStop("immutable ordinary error response is valid")
+        else:
+            raise CustodyStop("immutable SUT response status is invalid")
+
+    for sut, attempts in model_attempts.items():
+        if sorted(attempts) != list(range(1, len(attempts) + 1)):
+            raise CustodyStop("immutable model attempt sequence is invalid")
+
+    canary_validations = [row for row in evidence
+                          if row.get("kind") == "provider_canary_validation"]
+    if len(canary_validations) != len(preflight.SUTS):
+        raise CustodyStop("immutable provider canary validation is duplicated")
+    for row in canary_validations:
+        request_id = f"canary::{row.get('sut')}::{row.get('attempt')}"
+        response = outcomes.get(request_id, (None, {}))[1]
+        if (row.get("status") != "PASS"
+                or response.get("kind") != "provider_canary_response"
+                or row.get("response_sha256") != response.get("response_sha256")):
+            raise CustodyStop("immutable provider canary PASS linkage is invalid")
+
     checkpoints = _read_jsonl(run_dir / CHECKPOINT_FILE)
-    expected_cells = {cell.key: cell for cell in build_cells(manifest)}
     by_key = {row.get("cell_key"): row for row in checkpoints}
     if (len(checkpoints) != 1150 or len(by_key) != 1150
             or set(by_key) != set(expected_cells)):
         raise CustodyStop("immutable completed run lacks 1,150 unique checkpoints")
     for key, row in by_key.items():
         cell = expected_cells[key]
-        if (row.get("sut") != cell.sut or row.get("item_id") != cell.item_id
-                or row.get("status") not in {"response", "error"}):
+        attempts = sorted(cell_attempts.get(key, []))
+        attempt_numbers = [attempt for attempt, _request_id in attempts]
+        if (row.get("kind") != "pilot2_cell"
+                or row.get("sut") != cell.sut or row.get("item_id") != cell.item_id
+                or row.get("diagnostic_only") is not cell.diagnostic_only
+                or row.get("scorable") is not cell.scorable
+                or row.get("score") is not None
+                or row.get("status") not in {"response", "error"}
+                or attempt_numbers != list(range(1, len(attempts) + 1))
+                or not attempts or row.get("attempts") != len(attempts)):
             raise CustodyStop("immutable completed run checkpoint identity is invalid")
+        final_request_id = attempts[-1][1]
+        successes = [request_id for _attempt, request_id in attempts
+                     if request_id in successful_by_request]
         if row["status"] == "response":
             if (row.get("missing") is not False
                     or not isinstance(row.get("final_answer"), str)
-                    or not row["final_answer"]):
+                    or not row["final_answer"]
+                    or successes != [final_request_id]):
                 raise CustodyStop("completed response checkpoint is invalid")
-        elif row.get("missing") is not True or row.get("score") is not None:
-            raise CustodyStop("completed missing checkpoint is invalid")
+            response = successful_by_request[final_request_id]
+            if (row.get("response_sha256") != response.get("response_sha256")
+                    or row.get("final_answer") != response.get("final_answer")):
+                raise CustodyStop("completed response checkpoint linkage is invalid")
+        else:
+            if row.get("missing") is not True or successes:
+                raise CustodyStop("completed missing checkpoint is invalid")
+            expected_error = terminal_error_by_request.get(final_request_id)
+            actual_error = row.get("error")
+            exhausted = (
+                actual_error == "registered model attempt envelope exhausted"
+                and len(model_attempts[cell.sut]) == 252) or (
+                actual_error == "registered model retry reserve exhausted"
+                and retry_attempts[cell.sut] == 22
+                and len(model_attempts[cell.sut]) < 252)
+            if (not isinstance(actual_error, str) or not actual_error
+                    or (actual_error != expected_error and not exhausted)):
+                raise CustodyStop("completed missing checkpoint linkage is invalid")
     return checkpoints
 
 
@@ -1085,20 +1331,21 @@ def main(
             raise CustodyStop("CLI cap must equal the amount-specific authorized cap")
         catalog, endpoints = runtime_fetch()
         validate_runtime_catalog(manifest, catalog, endpoints)
-        _require_sufficient_balance(manifest, key, balance_fetch)
-        state = prepare_run(
-            args.manifest, args.output_dir, cap_usd=args.cap,
-            resume=args.resume or args.phase in {
-                PHASE_FIRST_CELLS, PHASE_REMAINING_RUN})
-        transport = transport_factory(key)
-        phases = phase_functions or {
-            PHASE_PROVIDER_CANARIES: execute_provider_canaries,
-            PHASE_FIRST_CELLS: execute_first_cells,
-            PHASE_REMAINING_RUN: execute_remaining_run,
-        }
-        if set(phases) != set(PHASES):
-            raise CustodyStop("live phase dispatch does not match registered phases")
-        phases[args.phase](manifest, state, transport)
+        with exclusive_run_lease(args.output_dir):
+            _require_sufficient_balance(manifest, key, balance_fetch)
+            state = prepare_run(
+                args.manifest, args.output_dir, cap_usd=args.cap,
+                resume=args.resume or args.phase in {
+                    PHASE_FIRST_CELLS, PHASE_REMAINING_RUN})
+            transport = transport_factory(key)
+            phases = phase_functions or {
+                PHASE_PROVIDER_CANARIES: execute_provider_canaries,
+                PHASE_FIRST_CELLS: execute_first_cells,
+                PHASE_REMAINING_RUN: execute_remaining_run,
+            }
+            if set(phases) != set(PHASES):
+                raise CustodyStop("live phase dispatch does not match registered phases")
+            phases[args.phase](manifest, state, transport)
     except (CustodyStop, controller.TerminalStop) as exc:
         print(f"Pilot 2 stopped: {exc}", file=sys.stderr)
         return 2

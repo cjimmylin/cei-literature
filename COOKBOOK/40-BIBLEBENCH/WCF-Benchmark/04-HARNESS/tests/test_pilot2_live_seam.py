@@ -89,43 +89,22 @@ def _write_completed_mixed_run(tmp_path: Path):
         and cell.item_id != first_item_id
         and not items[cell.item_id].extra.get("dev_set_only")
         and scorer_kind(items[cell.item_id]) in {"open", "episode"})
-    evidence = [
-        *({"kind": "provider_canary_validation", "sut": sut, "status": "PASS"}
-          for sut in preflight.SUTS),
-        {"kind": "phase_completion", "phase": live.PHASE_PROVIDER_CANARIES,
-         "status": "PASS", "passed": 5},
-        *({"kind": "first_cell_validation", "sut": sut,
-           "cell_key": f"{sut}::{first_item_id}", "status": "PASS"}
-          for sut in preflight.SUTS),
-        {"kind": "phase_completion", "phase": live.PHASE_FIRST_CELLS,
-         "status": "PASS", "passed": 5},
-        {"kind": "phase_completion", "phase": live.PHASE_REMAINING_RUN,
-         "status": "PASS", "completed_cells": 1150,
-         "scorable_cells": 1130, "diagnostic_only_cells": 20},
-    ]
-    (state.run_dir / live.EVIDENCE_FILE).write_text(
-        "".join(json.dumps(row) + "\n" for row in evidence), encoding="utf-8")
-    checkpoints = []
-    for cell in live.build_cells(manifest):
-        base = {
-            "kind": "pilot2_cell", "cell_key": cell.key,
-            "sut": cell.sut, "item_id": cell.item_id,
-            "diagnostic_only": cell.diagnostic_only, "scorable": cell.scorable,
-            "score": None,
-        }
-        if cell == error_cell:
-            checkpoints.append({
-                **base, "status": "error", "missing": True,
-                "error": "registered fixture missing response", "attempts": 3,
-            })
-        else:
-            checkpoints.append({
-                **base, "status": "response", "missing": False,
-                "final_answer": "WLC Q145 and WCF 1.9. RANKING: a < b.",
-                "response_sha256": "a" * 64, "attempts": 1,
-            })
-    (state.run_dir / live.CHECKPOINT_FILE).write_text(
-        "".join(json.dumps(row) + "\n" for row in checkpoints), encoding="utf-8")
+    error_payload = live.controller.build_sut_request(
+        manifest, error_cell.sut,
+        live.build_blind_messages(items[error_cell.item_id]))
+
+    def transport(payload):
+        spec = next(spec for spec in preflight.SUT_SPECS
+                    if spec.slug == payload["model"])
+        response = _ok_response(
+            spec, content="WLC Q145 and WCF 1.9. RANKING: a < b.", cost=0.00001)
+        if payload == error_payload:
+            response["error"] = {"message": "registered fixture missing response"}
+        return response
+
+    live.execute_provider_canaries(manifest, state, transport)
+    live.execute_first_cells(manifest, state, transport)
+    live.execute_remaining_run(manifest, state, transport)
     return state.run_dir, manifest, items[error_cell.item_id], error_cell
 
 

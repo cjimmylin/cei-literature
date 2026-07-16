@@ -673,8 +673,9 @@ def main(
         print("refusing Pilot 2 OAuth judging without explicit --go", file=sys.stderr)
         return 2
     try:
-        driver(args.run_dir, oauth_canary_report=args.oauth_canary_report)
-    except AnalysisError as exc:
+        with live.exclusive_run_lease(args.run_dir):
+            driver(args.run_dir, oauth_canary_report=args.oauth_canary_report)
+    except (AnalysisError, live.CustodyStop) as exc:
         print(f"Pilot 2 analysis stopped: {exc}", file=sys.stderr)
         return 2
     return 0

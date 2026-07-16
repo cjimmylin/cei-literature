@@ -1,6 +1,32 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 quality review found two custody/cap P1s
+## OPEN 2026-07-15 — Pilot 2 quality review found a lease-identity symlink P1
+
+- **Question:** Should Jimmy authorize the exact bounded **LEASE IDENTITY FIX**, or
+  **DEFER** Pilot 2 before credential access?
+- **Why it blocks:** The process lease hashes `Path.resolve()`. If a missing run parent is
+  created as a symlink while process A holds the lease, process B derives a different lease
+  file and can acquire concurrently, defeating strict-cap and append-only custody.
+- **Evidence:** `20260715ar-wcf-pilot2-s65-quality-lease-symlink-stop.md`. The initial
+  quality-custody specification review failed two blockers; the one permitted correction
+  cycle and named specification re-review passed. Fresh quality review reproduced only this
+  new P1. No credential/balance, OAuth, inference, empirical run directory, or spend occurred;
+  empirical execution remains 0%.
+- **Suggested default:** **LEASE IDENTITY FIX** only an invariant lease identity plus the
+  reproduced two-process symlink regression and named-only specification/quality re-reviews.
+  If both pass, resume the existing strict `$28.13` authority at the private-balance gate.
+
+## RESOLVED 2026-07-15 — Pilot 2 quality review found two custody/cap P1s
+
+- **Disposition:** Jimmy approved the exact **QUALITY CUSTODY FIX**. Exact authority is
+  recorded in
+  `20260715ao-jimmy-pilot2-s64-quality-custody-fix-authorization-record.md`.
+- **Effect:** One bounded TDD implementation cycle, named-only specification review, and
+  named-only quality review may add only checkpoint-to-evidence cross-validation and an
+  exclusive run/judge lease. No credential/private-balance access, OAuth, inference,
+  empirical run directory, or spend before both reviews PASS. If both pass, the existing
+  strict cumulative `$28.13` authority resumes at the private-balance gate. Any new P1 or
+  failed registered gate stops.
 
 - **Question:** Should Jimmy authorize the exact bounded **QUALITY CUSTODY FIX**, select
   **DISCLOSE-AND-RUN**, or **DEFER** Pilot 2 before credential access?

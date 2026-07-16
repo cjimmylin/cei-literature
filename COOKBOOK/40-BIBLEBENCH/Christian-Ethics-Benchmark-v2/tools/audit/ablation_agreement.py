@@ -123,14 +123,37 @@ def _judge_b_turn_states(sut_dir: str, design_num: str) -> Dict[Any, List[Any]]:
     return out
 
 
-def _ablation_turn_states(path: str, design_num: str) -> Dict[Any, List[Any]]:
-    """{sample_id: turn_states list} from a script-1 ablation JSONL (verdict.turn_states)."""
+def _sut_log_basenames(sut_dir: str, design_num: str) -> set:
+    """Eval-log basenames for one SUT × design — used to scope ablation-JSONL rows.
+
+    Ablation rows carry the source log's basename in r["log"]; sample_ids REPEAT
+    across SUTs (same items), so joining by sample_id alone silently collides —
+    the last-loaded SUT's rows would overwrite all others (bug found 2026-07-16
+    on the first answer-blind analysis: identical 'blind' cells across all 5 SUTs).
+    """
+    names = set()
+    for p in sorted(glob.glob(os.path.join(sut_dir, "*.eval"))):
+        log = read_eval_log(p, header_only=True)
+        if _design_num_from_task(log.eval.task) == design_num:
+            names.add(os.path.basename(p))
+    return names
+
+
+def _ablation_turn_states(path: str, design_num: str,
+                          allowed_logs: Optional[set] = None) -> Dict[Any, List[Any]]:
+    """{sample_id: turn_states list} from a script-1 ablation JSONL (verdict.turn_states).
+
+    allowed_logs: when given, keep only rows whose r["log"] basename is in the set
+    (one SUT's logs) — required whenever the JSONL spans multiple SUTs.
+    """
     out: Dict[Any, List[Any]] = {}
     if not path or not os.path.exists(path):
         return out
     for line in open(path, encoding="utf-8"):
         r = json.loads(line)
         if not r.get("design", "").startswith(design_num):
+            continue
+        if allowed_logs is not None and os.path.basename(r.get("log", "")) not in allowed_logs:
             continue
         v = r.get("verdict") or {}
         out[r["sample_id"]] = _decode_turn_states(v.get("turn_states"))
@@ -168,11 +191,13 @@ def cmd_per_turn(args) -> None:
         m, both, exc = _agg_agreement(a_map, b_map)
         line = f"  {name:20} baseline A/B: {_fmt_agree(m, both, exc)}"
         if have_ablation:
-            # ablation vs stored judge-A (arm-off vs arm-on comparison)
-            abl_map = _ablation_turn_states(args.ablation_a, design) if args.ablation_a else {}
-            abl_map_b = _ablation_turn_states(args.ablation_b, design) if args.ablation_b else {}
-            # A/ablation and B/ablation not both needed; report vs judge-A by default,
-            # and vs judge-B when --ablation-b supplied.
+            # ablation vs stored judge (arm-off vs arm-on) — rows scoped to THIS SUT's
+            # log basenames (sample_ids repeat across SUTs; see _sut_log_basenames).
+            allowed = _sut_log_basenames(sut, design)
+            abl_map = (_ablation_turn_states(args.ablation_a, design, allowed)
+                       if args.ablation_a else {})
+            abl_map_b = (_ablation_turn_states(args.ablation_b, design, allowed)
+                         if args.ablation_b else {})
             extras = []
             if abl_map:
                 am, ab, ae = _agg_agreement(a_map, abl_map)
@@ -180,6 +205,9 @@ def cmd_per_turn(args) -> None:
             if abl_map_b:
                 bm, bb, be = _agg_agreement(b_map, abl_map_b)
                 extras.append(f"B/ablation-b: {_fmt_agree(bm, bb, be)}")
+            if abl_map and abl_map_b:
+                xm, xb, xe = _agg_agreement(abl_map, abl_map_b)
+                extras.append(f"ablated A'/B': {_fmt_agree(xm, xb, xe)}")
             line += "   " + " | ".join(extras)
         print(line)
 
@@ -211,14 +239,20 @@ def _judge_a_scores(sut_dir: str, design_num: str) -> Dict[Any, dict]:
     return out
 
 
-def _ablation_verdicts(path: str, design_num: str) -> Dict[Any, dict]:
-    """{sample_id: verdict dict} from a script-1 ablation JSONL for one design."""
+def _ablation_verdicts(path: str, design_num: str,
+                       allowed_logs: Optional[set] = None) -> Dict[Any, dict]:
+    """{sample_id: verdict dict} from a script-1 ablation JSONL for one design.
+
+    allowed_logs: scope rows to one SUT's log basenames (see _sut_log_basenames).
+    """
     out: Dict[Any, dict] = {}
     if not path or not os.path.exists(path):
         return out
     for line in open(path, encoding="utf-8"):
         r = json.loads(line)
         if not r.get("design", "").startswith(design_num):
+            continue
+        if allowed_logs is not None and os.path.basename(r.get("log", "")) not in allowed_logs:
             continue
         out[r["sample_id"]] = r.get("verdict") or {}
     return out
@@ -244,7 +278,8 @@ def cmd_leniency(args) -> None:
         for sut in suts:
             name = Path(sut.rstrip("/")).name
             vis = _judge_a_scores(sut, dnum)
-            blind = _ablation_verdicts(args.ablated, dnum)
+            blind = _ablation_verdicts(args.ablated, dnum,
+                                       _sut_log_basenames(sut, dnum))
             common = [sid for sid in vis if sid in blind]
             if not common:
                 continue

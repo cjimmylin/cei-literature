@@ -61,3 +61,17 @@ An exception authorizes only its stated scope. It does not authorize spending, c
 - Expiration or completion condition: Jimmy reviews the assembled PPP-1 paper packet and records a stop, bounded repair, full-T4 authorization, narrowing, or deferral decision.
 - Spending boundary: Planning basis is about $2.80 with a proposed $5.00 NTE cap. This ruling authorizes no credential access and no paid calls; exact current prices, balance, manifest, forecast, cap, and paid execution require separate written authorization.
 - Closing disposition: active WCF preview strategy.
+
+## PF-004 — WALKWORTHY exploratory MVP paper preview
+
+- Date: 2026-07-13
+- Status: RATIFIED
+- Owner: Jimmy Lin
+- Reason: WALKWORTHY needs a complete, reviewable paper-shaped preview before further investment in larger or premium model rosters and stronger judge panels.
+- Scope: WALKWORTHY MVP-PILOT only: the deterministic 60-item PUBLIC subset defined in `Christian-Ethics-Benchmark/00-PORTFOLIO/20260713-walkworthy-mvp-paper-strategy-amendment.md`; exactly three inexpensive SUTs and two inexpensive cross-family judges; descriptive analysis, complete provisional results/limitations presentation, and a scale-up memo. Frozen O5 evidence and release gates remain separate and unchanged.
+- Decision: Make the bounded MVP-PILOT the immediate WALKWORTHY paper-facing priority. Label every result small-panel, unvalidated-judge, descriptive-only evidence; make no release, ranking, item-kill, or gate claim from the pilot.
+- Affected paper milestone: First complete WALKWORTHY manuscript preview populated across every planned table and figure shape.
+- Approval words: Jimmy requested the fastest path to an MVP paper using a few cheap models and less-robust judges, selected a WALKWORTHY-specific amendment, approved the proposed 60-item/three-SUT/two-judge/$5 design, and directed Codex to execute its propagation.
+- Expiration or completion condition: Jimmy reviews the complete MVP paper preview and records a stop, bounded repair, or scale-up decision.
+- Spending boundary: $5.00 absolute ceiling with a checkpoint before projected spend exceeds $3.00. This ruling authorizes no credential access, balance check, provider call, or paid execution; exact model slugs, current availability/prices, worst-case budget, and paid execution require separate written authorization.
+- Closing disposition: active WALKWORTHY preview strategy.

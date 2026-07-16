@@ -1,80 +1,130 @@
 {
+  "estimate_version": "biblebench-cheap-pilot-cost-v1",
+  "status": "PROPOSAL_ONLY",
+  "as_of": "2026-07-13",
+  "expires_at": "2026-07-20T23:59:59Z",
   "authorized": false,
-  "calculated_worst_case_usd": 1.6839168,
   "calls_made": 0,
-  "cue": "C1",
-  "estimate_version": "pf002-three-model-preflight-v1",
-  "evidence_registry_sha256": "bcfb95c07c5b5a41af4f8913be28c96e7c946573d975fde8c372955587354b82",
-  "expires_on": "2026-07-20",
-  "forecast_limit_usd": 3,
-  "forecast_usd": 1.6839168,
+  "spend_usd": 0.0,
+  "currency": "USD",
+  "execution_mode": "standard_synchronous_api",
+  "batch_discount_assumed": false,
+  "cache_discount_assumed": false,
+  "fallback_allowed": false,
+  "automatic_retry_allowed": false,
   "geometry": {
-    "actors": 3,
+    "models": 4,
+    "provider_families": 4,
     "episodes": 48,
-    "logical_calls": 288,
-    "maximum_attempts_per_logical_call": 2,
-    "primary_calls": 144,
-    "probe_calls": 144
+    "calls_per_model": {
+      "forecast": 48,
+      "primary": 144,
+      "probe": 144,
+      "total": 336
+    },
+    "pilot_calls": 1344,
+    "smoke_calls_per_model": 3,
+    "smoke_calls": 12,
+    "maximum_total_calls": 1356
   },
-  "hard_nte_usd": 5,
+  "token_caps_per_model": {
+    "input_tokens_per_call": 4096,
+    "pilot_input_tokens": 1376256,
+    "forecast_output_tokens_per_call": 128,
+    "forecast_output_tokens": 6144,
+    "primary_output_tokens_from_registered_episode_caps": 101232,
+    "probe_output_tokens_per_call": 256,
+    "probe_output_tokens": 36864,
+    "pilot_output_tokens": 144240,
+    "smoke_input_tokens": 3072,
+    "smoke_output_tokens": 768
+  },
   "models": [
     {
-      "actor_alias": "actor-alpha",
-      "api_family": "responses",
-      "input_usd_per_million_tokens": 0.05,
-      "max_input_tokens": 4096,
-      "max_output_tokens": 700,
+      "provider_family": "OpenAI",
+      "provider_route": "OpenAI first-party API",
       "model_id": "gpt-5-nano-2025-08-07",
-      "official_sources": [
-        "https://developers.openai.com/api/docs/models/gpt-5-nano",
-        "https://platform.openai.com/docs/guides/text-generation"
-      ],
+      "general_purpose_basis": "GPT-5 nano text generation model; official page describes it as the fastest, most cost-efficient GPT-5 version.",
+      "input_usd_per_million_tokens": 0.05,
       "output_usd_per_million_tokens": 0.4,
-      "provider": "OpenAI",
-      "route_id": "openai/first-party/responses",
-      "route_worst_case_usd": 0.0930816
+      "context_window_tokens": 400000,
+      "maximum_output_tokens": 128000,
+      "pilot_worst_case_usd": 0.1265088,
+      "smoke_worst_case_usd": 0.0004608,
+      "route_total_worst_case_usd": 0.1269696,
+      "official_sources": [
+        "https://developers.openai.com/api/docs/models/gpt-5-nano"
+      ]
     },
     {
-      "actor_alias": "actor-beta",
-      "api_family": "generate_content",
-      "input_usd_per_million_tokens": 0.1,
-      "max_input_tokens": 4096,
-      "max_output_tokens": 700,
+      "provider_family": "Google",
+      "provider_route": "Gemini Developer API first-party route",
       "model_id": "gemini-2.5-flash-lite",
+      "general_purpose_basis": "Stable text-output Gemini model with structured output and function calling; selected as Google's most cost-efficient multimodal general model.",
+      "input_usd_per_million_tokens": 0.1,
+      "output_usd_per_million_tokens": 0.4,
+      "context_window_tokens": 1048576,
+      "maximum_output_tokens": 65536,
+      "pilot_worst_case_usd": 0.1953216,
+      "smoke_worst_case_usd": 0.0006144,
+      "route_total_worst_case_usd": 0.195936,
       "official_sources": [
         "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
-        "https://ai.google.dev/gemini-api/docs/pricing",
-        "https://ai.google.dev/api/generate-content"
-      ],
-      "output_usd_per_million_tokens": 0.4,
-      "provider": "Google",
-      "route_id": "google/first-party/generate-content",
-      "route_worst_case_usd": 0.1324032
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ]
     },
     {
-      "actor_alias": "actor-gamma",
-      "api_family": "messages",
-      "input_usd_per_million_tokens": 1,
-      "max_input_tokens": 4096,
-      "max_output_tokens": 700,
+      "provider_family": "Mistral",
+      "provider_route": "Mistral Studio first-party API",
+      "model_id": "mistral-small-2603",
+      "general_purpose_basis": "Mistral Small 4 hybrid instruct, reasoning, and coding model with chat completions and structured outputs.",
+      "input_usd_per_million_tokens": 0.15,
+      "output_usd_per_million_tokens": 0.6,
+      "context_window_tokens": 256000,
+      "maximum_output_tokens": null,
+      "pilot_worst_case_usd": 0.2929824,
+      "smoke_worst_case_usd": 0.0009216,
+      "route_total_worst_case_usd": 0.293904,
+      "official_sources": [
+        "https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03"
+      ]
+    },
+    {
+      "provider_family": "Anthropic",
+      "provider_route": "Claude first-party API",
       "model_id": "claude-haiku-4-5-20251001",
+      "general_purpose_basis": "Claude Haiku 4.5 general text model; official comparison describes it as Anthropic's fastest model with near-frontier intelligence.",
+      "input_usd_per_million_tokens": 1.0,
+      "output_usd_per_million_tokens": 5.0,
+      "context_window_tokens": 200000,
+      "maximum_output_tokens": 64000,
+      "pilot_worst_case_usd": 2.097456,
+      "smoke_worst_case_usd": 0.006912,
+      "route_total_worst_case_usd": 2.104368,
       "official_sources": [
         "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "https://docs.anthropic.com/en/api/messages"
-      ],
-      "output_usd_per_million_tokens": 5,
-      "provider": "Anthropic",
-      "route_id": "anthropic/first-party/messages",
-      "route_worst_case_usd": 1.458432
+        "https://www.anthropic.com/claude/haiku"
+      ]
     }
   ],
-  "proposal_manifest_sha256": "33e1aae176561ecb3c93edf41b9a9682096d088b261cad8297fbed675c63872e",
-  "spend_usd": 0,
-  "status": "PROPOSAL_ONLY",
+  "subtotal_worst_case_usd": 2.7211776,
+  "contingency_fraction": 0.2,
+  "subtotal_with_contingency_usd": 3.26541312,
+  "proposed_hard_nte_usd": 4.0,
   "stop_rules": [
-    "Do not access credentials or construct transport without owner approval.",
-    "Stop before any call if the exact manifest, roster, expiry, or NTE changes.",
-    "Stop before forecast exceeds 3 USD or spend could exceed 5 USD."
+    "Stop before credential access or any call unless Jimmy approves this exact roster, routes, ceilings, expiry, and NTE in writing.",
+    "Stop if pass one and the blinded repeat are not both frozen before pilot-output exposure.",
+    "Stop if cue custody is not verified before any cue-contrast-eligible run.",
+    "Stop if any exact model ID, official price, context limit, output limit, provider route, or required parameter cannot be reverified at preflight.",
+    "Stop after three harmless smoke calls per model unless all identity, no-fallback, decoding, usage, and receipt checks pass.",
+    "Stop a route before its first bank call if its smoke cost exceeds its recorded route smoke ceiling.",
+    "Stop the full pilot when cumulative provider-reported spend reaches 3.60 USD; reserve the remaining 0.40 USD for delayed usage reconciliation and do not dispatch another call.",
+    "Treat unknown delivery status as terminal evidence; do not retry automatically.",
+    "Never exceed 1356 total calls or 4.00 USD under this proposal."
   ],
-  "verified_on": "2026-07-13"
+  "remaining_preflight_unknowns": [
+    "Mistral Small 4 maximum output-token limit was not stated on the cited official model card and must be verified before authorization.",
+    "Account-specific rate limits, regional availability, tax treatment, and billing rounding must be verified without changing the NTE.",
+    "Provider support for the exact registered decoding parameters and response contracts must pass the harmless smoke."
+  ]
 }

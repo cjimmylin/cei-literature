@@ -11,31 +11,33 @@ CHECKPOINT = PACKAGE_ROOT / "pilot-cost-estimate.json"
 
 def test_cost_checkpoint_is_exact_recomputable_and_non_authorizing() -> None:
     data = json.loads(CHECKPOINT.read_text(encoding="utf-8"))
-    assert data["estimate_version"] == "pf002-three-model-preflight-v1"
+
     assert data["status"] == "PROPOSAL_ONLY"
     assert data["authorized"] is False
     assert data["calls_made"] == 0
     assert Decimal(str(data["spend_usd"])) == Decimal("0")
-    assert data["geometry"] == {
-        "actors": 3,
-        "episodes": 48,
-        "primary_calls": 144,
-        "probe_calls": 144,
-        "logical_calls": 288,
-        "maximum_attempts_per_logical_call": 2,
-    }
+    assert len(data["models"]) == 4
+    assert len({route["provider_family"] for route in data["models"]}) == 4
+    assert len({route["model_id"] for route in data["models"]}) == 4
+
     total = Decimal("0")
-    for actor in data["models"]:
-        expected = Decimal(192) * (
-            Decimal(4096)
-            * Decimal(str(actor["input_usd_per_million_tokens"]))
-            + Decimal(700)
-            * Decimal(str(actor["output_usd_per_million_tokens"]))
+    caps = data["token_caps_per_model"]
+    input_tokens = caps["pilot_input_tokens"] + caps["smoke_input_tokens"]
+    output_tokens = caps["pilot_output_tokens"] + caps["smoke_output_tokens"]
+    for route in data["models"]:
+        expected = (
+            Decimal(input_tokens)
+            * Decimal(str(route["input_usd_per_million_tokens"]))
+            + Decimal(output_tokens)
+            * Decimal(str(route["output_usd_per_million_tokens"]))
         ) / Decimal("1000000")
-        assert Decimal(str(actor["route_worst_case_usd"])) == expected
-        total += expected
-    assert Decimal(str(data["calculated_worst_case_usd"])) == total
-    assert Decimal(str(data["forecast_usd"])) == total
-    assert total <= Decimal("3")
-    assert Decimal(str(data["forecast_limit_usd"])) == Decimal("3")
-    assert Decimal(str(data["hard_nte_usd"])) == Decimal("5")
+        recorded = Decimal(str(route["route_total_worst_case_usd"]))
+        assert recorded == expected
+        assert all(url.startswith("https://") for url in route["official_sources"])
+        total += recorded
+
+    assert Decimal(str(data["subtotal_worst_case_usd"])) == total
+    assert Decimal(str(data["contingency_fraction"])) == Decimal("0.2")
+    assert Decimal(str(data["proposed_hard_nte_usd"])) == Decimal("4")
+    assert any("3.60 USD" in rule for rule in data["stop_rules"])
+    assert data["geometry"]["maximum_total_calls"] == 1356

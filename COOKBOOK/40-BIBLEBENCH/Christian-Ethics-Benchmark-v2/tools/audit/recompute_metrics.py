@@ -49,12 +49,58 @@ REPORT_REFERENCE: Dict[str, Dict[str, Any]] = {
 }
 
 # the headline key each design leads with (for the compact table)
+# 04 leads with the SIGNED delta since the M1 fix (20260716 adjudication CV-2);
+# motive_sensitivity_index (abs) remains in the full dict as the legacy companion.
 HEADLINE_KEY = {
     "01": "full_obedience_rate", "02": "break_rate", "03": "say_do_gap",
-    "04": "motive_sensitivity_index", "05": "csr_mean", "06": "profile_mean",
+    "04": "motive_delta_mean", "05": "csr_mean", "06": "profile_mean",
     "07": "arc_pass_rate", "08": "covert_overt_gap", "09": "symmetry_index",
     "10": "mercy_delta",
 }
+
+# M2 (20260716 adjudication, SD-5): binary-rate keys that get a Wilson 95% interval,
+# mapped to the dict key holding their denominator. Non-binary headlines (means of
+# deltas / CSR fractions / profile means / symmetry with 0.5 cells) get no Wilson CI —
+# a bootstrap interval is the pilot-report tool for those.
+RATE_CI: Dict[str, List[tuple]] = {
+    "01": [("full_obedience_rate", "n")],
+    "02": [("break_rate", "n")],
+    "03": [("revealed_faithful_rate", "pairs")],
+    "04": [("motive_correct_rate", "correct_n")],
+    "07": [("arc_pass_rate", "n")],
+    "08": [("covert_protection_rate", "covert_n")],
+    "10": [("mercy_pass_rate", "pass_n")],
+}
+
+_Z95 = 1.959963984540054
+
+
+def _wilson(p: float, n: int) -> Optional[tuple]:
+    """Wilson 95% score interval for a binomial rate; None when undefined."""
+    if n <= 0 or p is None or (isinstance(p, float) and math.isnan(p)):
+        return None
+    z2 = _Z95 * _Z95
+    denom = 1.0 + z2 / n
+    center = (p + z2 / (2 * n)) / denom
+    half = (_Z95 * math.sqrt((p * (1 - p) + z2 / (4 * n)) / n)) / denom
+    return (max(0.0, center - half), min(1.0, center + half))
+
+
+def _ci_strings(num: str, val: Dict[str, Any]) -> List[str]:
+    out = []
+    for rate_key, n_key in RATE_CI.get(num, []):
+        p, n = val.get(rate_key), val.get(n_key)
+        if isinstance(p, (int, float)) and isinstance(n, int):
+            ci = _wilson(float(p), n)
+            if ci:
+                out.append(f"{rate_key}={p:.3f} [{ci[0]:.3f}, {ci[1]:.3f}] (n={n})")
+                continue
+        out.append(f"{rate_key}: CI undefined (n={val.get(n_key)})")
+    return out
+
+
+def _stratum_of(md: Optional[Dict[str, Any]]) -> str:
+    return str((md or {}).get("stratum", "") or "").strip().lower()
 
 
 def _design_num(task_name: str, log) -> str:
@@ -115,9 +161,20 @@ def main() -> None:
         sscores = _sample_scores(log)
         new_val = factory()(sscores)          # recompute with NEW code
         old_val = _old_metrics(log) or REPORT_REFERENCE.get(num, {})
+        # M2 (20260716 adjudication, CF-2/CF-4): per-stratum cells. Headline scope is
+        # stratum (a) only; stratum (c) intra-corpus-dispute items are QUARANTINED into
+        # their own cell (judge not G5-neutrality-certified in v2).
+        strata = {_stratum_of(ss.sample_metadata) for ss in sscores}
+        strat_a = strat_c = None
+        if strata - {""}:
+            a_scores = [ss for ss in sscores if _stratum_of(ss.sample_metadata) == "a"]
+            c_scores = [ss for ss in sscores if _stratum_of(ss.sample_metadata) == "c"]
+            strat_a = factory()(a_scores) if a_scores else None
+            strat_c = factory()(c_scores) if c_scores else None
         rows.append({"design": num, "log": Path(p).name,
                      "n_samples": len(log.samples or []),
-                     "old": old_val, "new": new_val})
+                     "old": old_val, "new": new_val,
+                     "stratum_a": strat_a, "stratum_c": strat_c})
 
     rows.sort(key=lambda r: r["design"])
 
@@ -133,12 +190,22 @@ def main() -> None:
         extra = f"  exemplars_excluded={exc}" if exc is not None else ""
         print(f"{r['design']:8} {key:26} {old_h:>10} {new_h:>10}  {r['new']}{extra}")
 
+    # Wilson 95% intervals for binary-rate headlines (SD-5: intervals, not just n)
+    print("\n=== WILSON 95% INTERVALS (binary-rate metrics; all samples) ===")
+    for r in rows:
+        for line in _ci_strings(r["design"], r["new"] if isinstance(r["new"], dict) else {}):
+            print(f"  design {r['design']}: {line}")
+
     # full old-vs-new dump
     print("\n=== FULL old-vs-new per design ===")
     for r in rows:
         print(f"\n[design {r['design']}]  ({r['n_samples']} samples, {r['log']})")
         print(f"  OLD: {r['old']}")
         print(f"  NEW: {r['new']}")
+        if r.get("stratum_a") is not None:
+            print(f"  STRATUM-a (headline scope): {r['stratum_a']}")
+        if r.get("stratum_c") is not None:
+            print(f"  STRATUM-c (QUARANTINED — judge not G5-certified): {r['stratum_c']}")
 
 
 if __name__ == "__main__":

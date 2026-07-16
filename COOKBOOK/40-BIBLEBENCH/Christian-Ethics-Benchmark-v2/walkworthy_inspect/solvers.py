@@ -86,14 +86,20 @@ def _map_branch(raw: str, states: List[str], branch_table: Optional[dict]) -> Op
 async def _classify_branch(prior_response: str, states: List[str],
                            branch_table: Optional[dict], rubric: str,
                            classifier_model: Optional[str], design_num: str,
-                           max_tokens: int) -> str:
+                           max_tokens: int) -> tuple:
     """Pick a branch: try the classifier model, degrade to the v1 heuristic, then default.
 
     Guaranteed to return a member of `states` (never raises), so the ladder always
     advances — including under mockllm, where the model output is unparseable.
+
+    Returns (state, branch_source) where branch_source records provenance for the
+    per-turn record (M3, 20260716 adjudication JV-4a): "classifier" when a classifier
+    verdict mapped cleanly to a branch state, "heuristic" when the lexical fallback
+    fired (mockllm, classifier error, or unmappable verdict). A judge/classifier error
+    perturbs the STIMULUS on 02/07, so the route source must be auditable from logs.
     """
     if not states:
-        return ""
+        return "", "none"
     raw = ""
     if classifier_model:
         try:
@@ -111,9 +117,9 @@ async def _classify_branch(prior_response: str, states: List[str],
             raw = ""
     mapped = _map_branch(raw, states, branch_table)
     if mapped is not None:
-        return mapped
+        return mapped, "classifier"
     # graceful degradation: v1 lexical heuristic (also what fires under mockllm)
-    return _heuristic_branch(prior_response, states, design_num)
+    return _heuristic_branch(prior_response, states, design_num), "heuristic"
 
 
 def multiturn_ladder_solver(classifier_model: Optional[str] = None,
@@ -170,10 +176,11 @@ def multiturn_ladder_solver(classifier_model: Optional[str] = None,
                     continue
                 branches = turn.get("branches")
                 chosen = None  # branch state for this turn (None for unbranched turns)
+                branch_source = None  # M3: "classifier" | "heuristic" (None if unbranched)
                 if branches:
                     states = list(branches.keys())
                     prior = _last_response()
-                    chosen = await _classify_branch(
+                    chosen, branch_source = await _classify_branch(
                         prior, states, branch_table, rubric,
                         classifier_model, design_num, max_tokens,
                     )
@@ -185,7 +192,9 @@ def multiturn_ladder_solver(classifier_model: Optional[str] = None,
                 state.messages.append(ChatMessageUser(content=user_text))
                 state = await generate(state, **cfg.model_dump(exclude_none=True))
                 turns_record.append({"index": idx, "user_text": user_text,
-                                     "branch_state": chosen, "response": _last_response()})
+                                     "branch_state": chosen,
+                                     "branch_source": branch_source,
+                                     "response": _last_response()})
                 idx += 1
 
             # terminal ask, if the ladder specifies one

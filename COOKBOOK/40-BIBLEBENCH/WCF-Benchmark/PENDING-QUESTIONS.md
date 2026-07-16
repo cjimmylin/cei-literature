@@ -1,6 +1,31 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-15 — Pilot 2 quality review found a lease-identity symlink P1
+## OPEN 2026-07-15 — Pilot 2 quality review found a macOS path-alias lease P1
+
+- **Question:** Should Jimmy authorize exact **TOP-LEVEL ALIAS FIX**, or **DEFER** Pilot 2
+  before credential access?
+- **Why it blocks:** Normal macOS `/var/...` and `/private/var/...` spellings can represent
+  the same run directory but hash to different lexical leases when one process uses a relative
+  path and another the equivalent absolute spelling. Concurrent entry remains possible.
+- **Evidence:** `20260715au-wcf-pilot2-s66-quality-relative-absolute-stop.md`. The exact
+  symlink-parent regression and fresh specification review passed; fresh quality reproduced
+  only this new P1. No credential/balance, OAuth, inference, empirical run directory, or spend
+  occurred; empirical execution remains 0%.
+- **Suggested default:** **TOP-LEVEL ALIAS FIX** only stable top-level filesystem
+  canonicalization plus the reproduced relative/absolute two-process regression and fresh
+  named-only specification/quality reviews. If both pass, resume the existing strict `$28.13`
+  authority at the private-balance gate.
+
+## RESOLVED 2026-07-15 — Pilot 2 quality review found a lease-identity symlink P1
+
+- **Disposition:** Jimmy selected exact **LEASE IDENTITY FIX**. Exact authority is recorded
+  in `20260715at-jimmy-pilot2-s65-lease-identity-fix-authorization-record.md`.
+- **Effect:** One bounded TDD implementation cycle and fresh named-only specification and
+  quality reviews may change only the lease identity and add the reproduced two-process
+  symlink-parent regression. No credential/private-balance access, OAuth, inference,
+  empirical run directory, or spend before both reviews PASS. If both pass, the existing
+  strict cumulative `$28.13` authority resumes at the private-balance gate. Any new P1 or
+  failed registered gate stops.
 
 - **Question:** Should Jimmy authorize the exact bounded **LEASE IDENTITY FIX**, or
   **DEFER** Pilot 2 before credential access?

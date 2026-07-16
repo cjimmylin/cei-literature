@@ -96,8 +96,8 @@ def _read_json(path: Path, message: str) -> Dict[str, Any]:
 
 
 def _run_lease_path(run_dir: Path) -> Path:
-    resolved = Path(run_dir).resolve()
-    identity = hashlib.sha256(str(resolved).encode("utf-8")).hexdigest()[:24]
+    lexical = os.path.abspath(os.fspath(run_dir))
+    identity = hashlib.sha256(lexical.encode("utf-8")).hexdigest()[:24]
     return Path(tempfile.gettempdir()).resolve() / (
         f".wcfbench-pilot2-{identity}.lease")
 

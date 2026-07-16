@@ -392,6 +392,14 @@ def _hold_direct_lease(run_dir, acquired, release):
             raise AssertionError("fixture direct lease holder timed out")
 
 
+def _try_direct_lease(run_dir, result):
+    try:
+        with live.exclusive_run_lease(run_dir):
+            result.put("acquired")
+    except live.CustodyStop:
+        result.put("blocked")
+
+
 def _live_main_args(manifest_path, run_dir):
     return [
         "--go", "--manifest", str(manifest_path),
@@ -422,6 +430,44 @@ def test_process_lease_identity_stays_stable_when_missing_parent_appears(tmp_pat
         if holder.is_alive():
             holder.terminate()
             holder.join(timeout=5)
+    assert holder.exitcode == 0
+
+
+def test_process_lease_blocks_second_process_after_missing_parent_becomes_symlink(
+    tmp_path,
+):
+    run_dir = tmp_path / "later-linked" / "run"
+    target_parent = tmp_path / "link-target"
+    target_parent.mkdir()
+    context = multiprocessing.get_context("fork")
+    acquired = context.Event()
+    release = context.Event()
+    result = context.Queue()
+    holder = context.Process(
+        target=_hold_direct_lease, args=(run_dir, acquired, release))
+    holder.start()
+    assert acquired.wait(timeout=10)
+    contender = None
+    try:
+        run_dir.parent.symlink_to(target_parent, target_is_directory=True)
+        contender = context.Process(
+            target=_try_direct_lease, args=(run_dir, result))
+        contender.start()
+        contender.join(timeout=10)
+        if contender.is_alive():
+            contender.terminate()
+            contender.join(timeout=5)
+        assert contender.exitcode == 0
+        assert result.get(timeout=5) == "blocked"
+    finally:
+        release.set()
+        holder.join(timeout=10)
+        if holder.is_alive():
+            holder.terminate()
+            holder.join(timeout=5)
+        if contender is not None and contender.is_alive():
+            contender.terminate()
+            contender.join(timeout=5)
     assert holder.exitcode == 0
 
 

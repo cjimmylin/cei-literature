@@ -31,11 +31,23 @@ def recover(log_path: str) -> dict:
     log = read_eval_log(log_path)
     vals: List[float] = []
     n_total = noncompliant = undecidable = 0
+    # F9 coverage split (logs produced after design05_format_retry_solver landed):
+    # first-pass vs post-retry compliance from store "ww_format_retry". The re-parse
+    # below runs on the FINAL response (the retry response when the retry fired), so
+    # `non_compliant` above is post-retry; first-pass compliance comes from the store.
+    retry_used = first_pass_ok = retry_recovered = 0
+    have_retry_records = False
     for s in (log.samples or []):
         meta = s.metadata or {}
         if meta.get("is_exemplar") or str(meta.get("admin", "")).endswith("-exemplar"):
             continue
         n_total += 1
+        rec = (getattr(s, "store", None) or {}).get("ww_format_retry") or {}
+        if rec:
+            have_retry_records = True
+            retry_used += bool(rec.get("format_retry_used"))
+            first_pass_ok += bool(rec.get("first_pass_ok"))
+            retry_recovered += bool(rec.get("format_retry_used") and rec.get("retry_ok"))
         keyed = meta.get("keyed", {}) or {}
         alloc = (keyed.get("allocation")
                  or (keyed.get("extras", {}) or {}).get("allocation") or {})
@@ -53,8 +65,12 @@ def recover(log_path: str) -> dict:
             continue
         vals.append(float(csr))
     mean = sum(vals) / len(vals) if vals else float("nan")
-    return {"csr_mean": round(mean, 4), "n": len(vals), "n_total": n_total,
-            "non_compliant": noncompliant, "undecidable_constraints": undecidable}
+    out = {"csr_mean": round(mean, 4), "n": len(vals), "n_total": n_total,
+           "non_compliant": noncompliant, "undecidable_constraints": undecidable}
+    if have_retry_records:
+        out.update({"first_pass_ok": first_pass_ok, "format_retry_used": retry_used,
+                    "retry_recovered": retry_recovered})
+    return out
 
 
 def main() -> None:

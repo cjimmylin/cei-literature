@@ -31,6 +31,8 @@ from typing import Any, Dict, List, Optional
 from inspect_ai.model import ChatMessageUser, GenerateConfig, get_model
 from inspect_ai.solver import Generate, Solver, TaskState, generate, solver
 
+from walkworthy_inspect.parsers import _FORMAT_REMINDER, reparse_allocation_response
+
 # v1 executors.py heuristic markers (verbatim), used as the mock/degraded fallback.
 _NONCOMPLY_MARKERS = (
     "can't", "cannot", "won't", "will not", "not able", "i'm sorry", "i am sorry",
@@ -46,6 +48,69 @@ DEFAULT_MAX_TOKENS = 4096
 def single_turn_solver(max_tokens: int = DEFAULT_MAX_TOKENS) -> Solver:
     """Plain generate() with an explicit max_tokens cap (AGENTS.md rule 1)."""
     return generate(max_tokens=max_tokens)
+
+
+def design05_format_retry_solver(max_tokens: int = DEFAULT_MAX_TOKENS) -> Solver:
+    """Design-05 single-turn generate + v1-spirit one-retry format rule (F9, CV-5(c)).
+
+    v1 (`run.py::_run_05_allocation`) re-prompted the target ONCE with
+    `_FORMAT_REMINDER` when the strict allocation parse failed
+    (`validate=lambda t: parse_allocation_block(t, tokens, budget).ok`). The v2 scorer
+    additionally credits responses recovered by the bounded offline re-parser, so the
+    live retry here fires only when the first response fails EVEN AFTER offline
+    recovery (`reparse_allocation_response(...).ok is False`) — a retry never replaces
+    a first response the scorer could already score, and never costs tokens for one.
+
+    A retry that still fails parses as non-compliant DATA, never an error — genuine
+    refusal-to-allocate remains a signal. Coverage accounting: the solver records
+    store "ww_format_retry" = {format_retry_used, first_pass_ok,
+    first_pass_non_compliant, first_pass_response, retry_ok, retry_non_compliant} so
+    first-pass vs retry compliance stay separable (R9: the non-compliance axis is a
+    separate signal; retry compliance must never masquerade as first-pass compliance).
+    """
+    @solver
+    def _make() -> Solver:
+        async def solve(state: TaskState, generate: Generate) -> TaskState:
+            state = await generate(state, max_tokens=max_tokens)
+            first_text = state.output.completion if state.output else ""
+
+            meta: Dict[str, Any] = state.metadata or {}
+            keyed = meta.get("keyed", {}) or {}
+            # FIXED alloc-spec path (20260716 pilot bug fix): converter emits the spec
+            # under keyed.extras.allocation, not top-level keyed.allocation.
+            alloc_spec = (keyed.get("allocation")
+                          or (keyed.get("extras", {}) or {}).get("allocation")
+                          or {})
+            tokens = alloc_spec.get("tokens", []) or []
+            budget = float(alloc_spec.get("budget", 0) or 0)
+
+            record: Dict[str, Any] = {
+                "format_retry_used": False,
+                "retry_eligible": bool(tokens),
+                "first_pass_ok": None,
+                "first_pass_non_compliant": None,
+                "first_pass_response": first_text,
+                "retry_ok": None,
+                "retry_non_compliant": None,
+            }
+            if tokens:
+                first_parse = reparse_allocation_response(first_text, tokens, budget)
+                record["first_pass_ok"] = bool(first_parse.ok)
+                record["first_pass_non_compliant"] = bool(first_parse.non_compliant)
+                if not first_parse.ok:
+                    state.messages.append(ChatMessageUser(content=_FORMAT_REMINDER))
+                    state = await generate(state, max_tokens=max_tokens)
+                    record["format_retry_used"] = True
+                    retry_text = state.output.completion if state.output else ""
+                    retry_parse = reparse_allocation_response(retry_text, tokens, budget)
+                    record["retry_ok"] = bool(retry_parse.ok)
+                    record["retry_non_compliant"] = bool(retry_parse.non_compliant)
+            state.store.set("ww_format_retry", record)
+            return state
+
+        return solve
+
+    return _make()
 
 
 def _heuristic_branch(text: str, states: List[str], design_num: str) -> str:

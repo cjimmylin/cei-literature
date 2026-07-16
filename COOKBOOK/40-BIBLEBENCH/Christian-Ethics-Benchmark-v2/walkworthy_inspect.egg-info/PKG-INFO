@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: walkworthy-inspect
+Version: 0.2.0
+Summary: WALKWORTHY (Christian-Ethics-Benchmark) on Inspect AI — v2 harness package
+Requires-Python: >=3.11

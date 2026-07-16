@@ -135,11 +135,28 @@ def multiturn_ladder_solver(classifier_model: Optional[str] = None,
             design_num = design.split("-", 1)[0].zfill(2) if design else ""
             mt = meta.get("multiturn")
 
+            # Per-turn record (ITEM 1a): one entry per administered turn, in order, each
+            # {index, user_text, branch_state, response}. Persisted to
+            # state.store("ww_turns") so the per-turn scorer (scorers.py) can judge each
+            # turn's response independently — mirroring v1 per_turn judging (judges.py:93).
+            turns_record: List[Dict[str, Any]] = []
+
+            def _last_response() -> str:
+                return state.messages[-1].text if state.messages else ""
+
             # First turn: the opening user prompt is already in state.messages
             # (sample.input). Generate turn-1 response.
+            first_user = ""
+            for m in (state.messages or []):
+                if getattr(m, "role", None) == "user":
+                    first_user = m.text
+                    break
             state = await generate(state, **cfg.model_dump(exclude_none=True))
+            turns_record.append({"index": 0, "user_text": first_user,
+                                 "branch_state": None, "response": _last_response()})
 
             if not mt or not isinstance(mt, dict):
+                state.store.set("ww_turns", turns_record)
                 return state  # not actually multiturn — treat as single generate
 
             turns: List[dict] = mt.get("turns", []) or []
@@ -147,13 +164,15 @@ def multiturn_ladder_solver(classifier_model: Optional[str] = None,
             rubric = mt.get("classifier_rubric", "") or ""
 
             # turns[0] is the opening (already administered via sample.input); walk the rest.
+            idx = 1
             for turn in turns[1:] if len(turns) > 1 else turns:
                 if not isinstance(turn, dict):
                     continue
                 branches = turn.get("branches")
+                chosen = None  # branch state for this turn (None for unbranched turns)
                 if branches:
                     states = list(branches.keys())
-                    prior = state.messages[-1].text if state.messages else ""
+                    prior = _last_response()
                     chosen = await _classify_branch(
                         prior, states, branch_table, rubric,
                         classifier_model, design_num, max_tokens,
@@ -165,12 +184,20 @@ def multiturn_ladder_solver(classifier_model: Optional[str] = None,
                     continue
                 state.messages.append(ChatMessageUser(content=user_text))
                 state = await generate(state, **cfg.model_dump(exclude_none=True))
+                turns_record.append({"index": idx, "user_text": user_text,
+                                     "branch_state": chosen, "response": _last_response()})
+                idx += 1
 
             # terminal ask, if the ladder specifies one
             terminal = mt.get("terminal_ask")
             if terminal:
                 state.messages.append(ChatMessageUser(content=terminal))
                 state = await generate(state, **cfg.model_dump(exclude_none=True))
+                turns_record.append({"index": idx, "user_text": terminal,
+                                     "branch_state": None, "response": _last_response(),
+                                     "terminal": True})
+
+            state.store.set("ww_turns", turns_record)
             return state
 
         return solve

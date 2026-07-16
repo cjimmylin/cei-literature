@@ -7,16 +7,16 @@ dataset contract (tools/SCHEMA.md).
 """
 from __future__ import annotations
 
-from .datasets import (
+from walkworthy_inspect.datasets import (
     WalkworthyHoldoutError,
     load_design,
     load_holdout,
     record_to_sample,
 )
-from .metrics import PRIMARY_METRICS
-from .rubrics import DESIGN_RUBRICS, spec_for
-from .scorers import SCORER_FACTORIES
-from .solvers import multiturn_ladder_solver, single_turn_solver
+from walkworthy_inspect.metrics import PRIMARY_METRICS
+from walkworthy_inspect.rubrics import DESIGN_RUBRICS, spec_for
+from walkworthy_inspect.scorers import SCORER_FACTORIES
+from walkworthy_inspect.solvers import multiturn_ladder_solver, single_turn_solver
 
 __all__ = [
     "load_design",

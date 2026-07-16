@@ -1,10 +1,11 @@
 # Christian-Ethics-Benchmark-v2 — WALKWORTHY on Inspect AI
 
-**Status: PARALLEL EXPERIMENT (2026-07-15).** This folder re-platforms the WALKWORTHY
-benchmark (see `../Christian-Ethics-Benchmark/`, which remains frozen and canonical)
-onto the [Inspect AI](https://inspect.aisi.org.uk/) harness. Whether v2 becomes the
-canonical execution path is a separate, later ruling — the deliverable of this
-experiment is the Inspect-fit assessment memo plus a working end-to-end pipeline.
+**Status: PARALLEL — RULED (2026-07-16).** This folder re-platforms the WALKWORTHY
+benchmark (see `../Christian-Ethics-Benchmark/`, which remains canonical) onto the
+[Inspect AI](https://inspect.aisi.org.uk/) harness. Owner ruling 2026-07-16: v2 stays
+**parallel to v1 indefinitely** as a comparison instrument — see
+`20260716-owner-ruling-v2-parallel.md`. Comparability evidence: judge-path replay
+PARITY (`20260715c-`), 2-judge re-score validated (`20260715d-`).
 
 ## What this is
 

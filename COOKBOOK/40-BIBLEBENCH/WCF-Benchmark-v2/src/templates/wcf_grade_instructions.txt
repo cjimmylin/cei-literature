@@ -1,0 +1,8 @@
+Grade as follows:
+1. For each rubric criterion, decide how many of its points the response earned: full, half, or zero. Award half credit when the criterion is substantively but incompletely satisfied.
+2. Sum the earned points, divide by the total available points, multiply by 100, and round to the nearest integer. That is the score.
+3. Give a brief per-criterion justification (one short line per criterion), then the arithmetic.
+
+Then end your reply with EXACTLY one final line in this format and nothing after it:
+
+GRADE: <integer between 0 and 100>

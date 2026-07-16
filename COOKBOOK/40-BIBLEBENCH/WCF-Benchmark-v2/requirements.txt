@@ -1,0 +1,4 @@
+inspect-ai==0.3.246
+pyyaml
+pytest
+openai

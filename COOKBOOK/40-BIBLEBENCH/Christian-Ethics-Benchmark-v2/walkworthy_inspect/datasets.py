@@ -110,30 +110,57 @@ def _read_jsonl(path: Path) -> List[dict]:
     return rows
 
 
-def _build_dataset(rows: List[dict], design: str, include_nonrunnable: bool) -> MemoryDataset:
+def _parse_item_ids(item_ids: Any) -> Optional[set]:
+    """Normalize the item_ids filter arg into a set of item_id strings, or None.
+
+    Accepts a set/list/tuple, or a comma/whitespace-separated string (so it can be
+    passed on the CLI as `-T item_ids=WW-01-A01,WW-01-B03`). Returns None when no
+    filter was requested (empty / falsy), preserving default (unfiltered) behavior.
+    """
+    if not item_ids:
+        return None
+    if isinstance(item_ids, (set, frozenset)):
+        return {str(x).strip() for x in item_ids if str(x).strip()}
+    if isinstance(item_ids, (list, tuple)):
+        return {str(x).strip() for x in item_ids if str(x).strip()}
+    # string: split on commas and/or whitespace
+    import re as _re
+    parts = [p for p in _re.split(r"[,\s]+", str(item_ids)) if p]
+    return set(parts) or None
+
+
+def _build_dataset(rows: List[dict], design: str, include_nonrunnable: bool,
+                   item_ids: Optional[set] = None) -> MemoryDataset:
     samples: List[Sample] = []
     for rec in rows:
         meta = rec.get("metadata", {}) or {}
         if not include_nonrunnable and meta.get("runnable", True) is False:
+            continue
+        if item_ids is not None and str(meta.get("item_id")) not in item_ids:
             continue
         samples.append(record_to_sample(rec))
     return MemoryDataset(samples=samples, name=f"walkworthy-{design}")
 
 
 def load_design(design: str, dataset_dir: Optional[str] = None,
-                include_nonrunnable: bool = False) -> MemoryDataset:
+                include_nonrunnable: bool = False,
+                item_ids: Any = None) -> MemoryDataset:
     """Load the public bank for one design.
 
     Args:
       design: '01'..'10' or a full slug like '01-goodsamaritan'.
       dataset_dir: directory holding `designNN.jsonl` (default: <v2>/datasets/public).
       include_nonrunnable: keep `runnable:false` items (default: filter them out).
+      item_ids: optional filter — keep only administrations whose `metadata.item_id`
+        is in this set/list, or a comma/whitespace-separated string (CLI-friendly).
+        Default None = no filter (unchanged behavior). All administrations of a matched
+        item_id are kept.
     """
     num = _design_num(design)
     base = _resolve_dir(dataset_dir, PUBLIC_DIR)
     path = base / f"design{num}.jsonl"
     rows = _read_jsonl(path)
-    return _build_dataset(rows, num, include_nonrunnable)
+    return _build_dataset(rows, num, include_nonrunnable, _parse_item_ids(item_ids))
 
 
 def load_holdout(design: str, dataset_dir: Optional[str] = None,

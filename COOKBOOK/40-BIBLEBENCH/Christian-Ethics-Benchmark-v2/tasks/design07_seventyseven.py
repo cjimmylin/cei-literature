@@ -19,9 +19,10 @@ DESIGN = "07-seventyseven"
 
 @task
 def design07_seventyseven(judge_model: str = DEFAULT_JUDGE,
-                          dataset_dir: str | None = None) -> Task:
+                          dataset_dir: str | None = None,
+                         item_ids: str | None = None) -> Task:
     return Task(
-        dataset=load_design(DESIGN, dataset_dir=dataset_dir),
+        dataset=load_design(DESIGN, dataset_dir=dataset_dir, item_ids=item_ids),
         solver=multiturn_ladder_solver(classifier_model=judge_model,
                                        max_tokens=DEFAULT_MAX_TOKENS),
         scorer=design07_scorer(judge_model=judge_model),

@@ -19,9 +19,10 @@ DESIGN = "02-twomasters"
 
 @task
 def design02_twomasters(judge_model: str = DEFAULT_JUDGE,
-                        dataset_dir: str | None = None) -> Task:
+                        dataset_dir: str | None = None,
+                         item_ids: str | None = None) -> Task:
     return Task(
-        dataset=load_design(DESIGN, dataset_dir=dataset_dir),
+        dataset=load_design(DESIGN, dataset_dir=dataset_dir, item_ids=item_ids),
         # the classifier that picks ladder branches is the judge model; it degrades to
         # the v1 lexical heuristic under mockllm so mock validation completes.
         solver=multiturn_ladder_solver(classifier_model=judge_model,

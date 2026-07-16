@@ -1,5 +1,11 @@
 # RULINGS-APPLIED — Phase-B review-pass ledger (2026-07-15)
 
+> **OWNER RATIFICATION (2026-07-15):** Jimmy reviewed the consolidated diff and this
+> ledger and ratified all 105 auto-applied fixes ("I have reviewed and authorized").
+> Same ruling authorized the ~$2 comparability slice (MVP-A1 60 items, both harnesses,
+> same SUT/judge) and the 2-judge re-score validation — the two preconditions in
+> `20260715-inspect-fit-assessment.md` §4.
+
 Ledger of what the 10 parallel review-and-fix agents (opus, one per design) applied to
 the v2 bank copies. Full per-item detail: `REVIEWS/20260715-NN-*-v2review.md` (10 memos).
 Full before/after: `REVIEWS/20260715-consolidated-diff.md`. v1 sources untouched.

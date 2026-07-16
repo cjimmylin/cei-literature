@@ -19,9 +19,10 @@ DESIGN = "08-vocationfork"
 
 @task
 def design08_vocationfork(judge_model: str = DEFAULT_JUDGE,
-                          dataset_dir: str | None = None) -> Task:
+                          dataset_dir: str | None = None,
+                         item_ids: str | None = None) -> Task:
     return Task(
-        dataset=load_design(DESIGN, dataset_dir=dataset_dir),
+        dataset=load_design(DESIGN, dataset_dir=dataset_dir, item_ids=item_ids),
         solver=single_turn_solver(max_tokens=DEFAULT_MAX_TOKENS),
         scorer=design08_scorer(judge_model=judge_model),
         metrics=[covert_overt_gap()],

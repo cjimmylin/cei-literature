@@ -226,14 +226,15 @@ def _sha256(path):
 
 def test_manifest_exists_and_wellformed():
     m = json.loads((V2_ROOT / "data" / "BANK-VERSION.json").read_text())
-    # v2.3 (session-6): third patch layer + authored new-item source.
-    assert m["bank_version"] == "v2.3"
+    # v2.4 (session-7): second authored new-item source, no new patch layer.
+    assert m["bank_version"] == "v2.4"
     assert m["patch_layers"] == [
         "session4_patches", "session5_patches", "session6_patches"
     ]
-    assert m["new_item_sources"] == ["session6_new_items"]
+    assert m["new_item_sources"] == ["session6_new_items", "session7_new_items"]
     assert len(m["sha256_session6_new_items"]) == 64
-    assert len(m["g4_excluded_new_items"]) == 23
+    assert len(m["sha256_session7_new_items"]) == 64
+    assert len(m["g4_excluded_new_items"]) == 23 + 5
     assert m["date"] == "2026-07-16"
     assert m["panel"] == PANEL_DEFAULT
     assert m["grade_pattern"] == GRADE_PATTERN

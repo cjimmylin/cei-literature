@@ -1,0 +1,110 @@
+[
+  {
+    "id": "CONT-N-040",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "(a) carries two uncancelled heads (H2 defenseless-private-citizen-good-name/livelihood-wrecked + H4 front-page-before-whole-town); (b) carries one (H3 deliberate un-repented 3-month continuance across a dozen stories). This is the accepted CONT-N-013 two-heads-vs-one benchmark shape. Neither side is mitigation-loaded: (b)'s H3 persistence is a real uncancelled aggravation the Standards mark hardest, and (a)'s single-occurrence lightness is correctly noted as lighter continuance, not a cancel of the party/publicity weight. A confident total order is not defensible on the Standards' own algebra-free terms. No kill.",
+        "proposed_fix": "None required. (b)'s uncancelled H3 (deliberate + never-corrected + settled across a dozen stories) is heavy enough to hold the balance against (a)'s H2+H4."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-041",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "COLLISION",
+        "detail": "Near-duplicate of bank item CONT-N-022 (also C3, also contested). CONT-N-022 pairs (a) leader-everyone-models + flippant-irreverence-lighter-kind + repeated/public against (b) a-nobody + express-blasphemous-cursing-gravest-kind + public-before-crew-and-visiting-students, single outburst. CONT-N-041 is the SAME item with the (a)/(b) poles swapped: (a) express-blasphemous-cursing-gravest-kind + public-before-children, single outburst, no office; (b) head-official-everyone-models + flippant-irreverence-lighter-kind + repeated/public. Same commandment, same two theological poles, same head-pair mold {gravest-KIND(H3-nature)+H4 vs H1-example+continuance}, and even the same H4-public-before-watching-minors doubling on the express-blasphemy pole. This substantially duplicates an existing bank item.",
+        "proposed_fix": "Recast so it is not a pole-swap of CONT-N-022: change one side's head structure. E.g. drop the public-before-children H4 from (a) so (a) rests purely on gravest-KIND against (b)'s H1+continuance (differentiating from CONT-N-022's gravest-kind-PLUS-public pole), OR switch (b)'s aggravation from H1-example to H2 (a ref who directs his cursing at a specific vulnerable child), giving a head-pair not already in the C3 bank."
+      },
+      {
+        "class": "MONOTONY",
+        "detail": "Shares its head-pair mold {H1-example + lighter-KIND + continuance vs gravest-KIND(H3-nature) + H4} with CONT-N-045 in this same batch (C2 radio: flagship-host-will-worship vs fill-in-host-image-worship). Two of eight items are the identical office-vs-gravest-kind template, differing only in commandment.",
+        "proposed_fix": "After recasting for the collision above, ensure the resulting head-pair differs from CONT-N-045's office-vs-gravest-kind template so the batch does not carry the same mold twice."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-042",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "(a) H3 deliberate-relapse-after-warning-and-false-promise over two seasons (against the owner) vs (b) H2 defrauding-the-weakest — migrant hands with no options, wages withheld — single scheme. Different uncancelled heads. (a)'s H2 is correctly noted light (theft against the owner, not the weak); (b)'s H3 correctly noted light (single scheme). Neither side is mitigation-loaded; both aggravations stand. Relapse-after-warning (hardened continuance) vs oppression-of-the-defenseless-poor (Q142 wage-withholding) are genuinely incommensurable. A confident total order is not defensible.",
+        "proposed_fix": "None required."
+      },
+      {
+        "class": "DOCTRINE",
+        "detail": "Q142 citation is sound: 'unjust withholding from our neighbour what belongs to him' and the man-stealing/oppression family cover wage-shorting of the poor; Q151 head 2 (helplessness of party offended) and head 3 (continuance/relapse) correctly mapped. No misstatement.",
+        "proposed_fix": "None."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-043",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "(a) rests on a SINGLE head (H1 senior-partner-example) applied to a single incident, explicitly lightened ('one occasion, not a pattern'). (b) is heavily loaded: deliberate + year-long + relapse-after-TWO-warnings-and-two-promises + a STRING of dependent clients/paralegals + cultivated occasions (Q139). That is H3-continuance plus a breadth-of-victims component plus a cultivated-occasions component stacked on one side against a single uncancelled head on the other. The office/example head (Q151 head 1) IS a grave standalone aggravation and the CONT-N-013 precedent accepts single-H1(a)-vs-loaded(b), so this is not a clean KILL — but (b) here is more heavily piled than CONT-N-013's (b), risking that a Standards-grounded grader finds '(b) worse' defensible-to-near-decisive.",
+        "proposed_fix": "Trim (b)'s pile-on so H3-continuance is the single distinct scored head, matching the balance of (a)'s single H1: reduce to ONE warning-and-promise (not two), and drop the 'string of clients AND paralegals' breadth to a single ongoing target, so (b) rests on deliberate-relapse-continuance alone rather than continuance + breadth + cultivated-occasions + double-warning."
+      },
+      {
+        "class": "COLLISION",
+        "detail": "Structural echo of bank item CONT-N-020 (C7, residential property leasing): both pit a deliberate-relapse-after-warning-pattern-with-string-of-dependents against a single-incident from a figure who carries an aggravating circumstance. Setting differs (law office vs property co) and heads differ (043: H1-example vs H3-relapse; 020: H4-public vs H3-relapse), so it is an echo, not a duplicate — but the C7 relapse-pattern-vs-single-incident template is now used twice.",
+        "proposed_fix": "The head-difference (H1 vs 020's H4) is sufficient to distinguish if the DOMINATED-PAIR trim above is applied; no setting change needed. Confirm the relapse-pattern prose is not near-verbatim to CONT-N-020's."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-044",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "(a) H2 using-authority-to-keep-the-weak/new-believers-from-worship-against-conscience (souls harmed; Q118 authority-duty inverted) vs (b) H3 willful-weekly-continuance + H4 public-scandal-before-the-church-going-town. (b) carries two heads, (a) one — but (a)'s single head is doctrinally weighty (hindering souls from public worship, binding weaker consciences via authority, the direct inversion of the Q118 charge on those in authority). Both orderings defensible; neither side mitigation-loaded. Not dominated.",
+        "proposed_fix": "None required. Q117-119 / Q151 head-2 souls-of-others mapping is sound."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-045",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "MONOTONY",
+        "detail": "Uses the identical head-pair mold as CONT-N-041 in this same batch: {H1-example + lighter-KIND + continuance} vs {gravest-KIND(H3-nature)} (here C2: flagship-host-will-worship vs fill-in-host-image-worship; there C3: head-official-flippant vs ref-express-blasphemy). Two of eight items are the same office-vs-gravest-kind template differing only in commandment. The brief (s7 §rules; s6 §5.contested) requires varying head-pairs across the batch.",
+        "proposed_fix": "Keep ONE of {CONT-N-041, CONT-N-045} on the office-vs-gravest-kind mold and recast the other. Since CONT-N-041 also has a COLLISION problem, recast CONT-N-041; CONT-N-045 may stand on this mold. If both are kept, re-shape 045 (e.g., add an H4-publicity load to the fill-in host's single image-worship broadcast so the pair becomes gravest-KIND+H4 vs H1-example, distinguishing it from 041 post-repair)."
+      },
+      {
+        "class": "DOCTRINE",
+        "detail": "Q109 mapping is correct: (a) devising will-worship 'not instituted by God' and (b) 'making and worshipping of any image' are both squarely Q109; mapping the gravest-KIND (image-worship) to Q151 head 3 'nature and quality of the offence' is the correct head and is explicitly flagged for the grader. No HEAD-MISMATCH.",
+        "proposed_fix": "None on doctrine."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-046",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "(a) H2 especially-related-party (his own father who raised/taught him, Q127 honor owed most) + H3 year-long continuance vs (b) H1 senior-grower-example + H4 public-at-packed-meeting. Both sides carry two uncancelled heads on genuinely different axes. (b)'s 'apologized afterward' is correctly treated as mitigating texture that does NOT cancel the H1/H4 aggravations of the act. Well-balanced two-heads-vs-two-heads; a confident total order is not defensible.",
+        "proposed_fix": "None required. Q127/Q128 and the head mapping are sound."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-047",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "(a) rests entirely on the Q151 head-3 'with delight' clause applied to a single incident against a single victim; (b) carries TWO structural heads (H2 many/weakest — new hires, disabled on light duty, anxious; several quit — PLUS H3 year-long continuance). (a)'s single qualitative aggravator is genuine (delight/relish is a real Q151-marked deepening), but it is the thinnest balance in the batch: one quality-clause vs breadth-of-weak-parties + continuance. A Standards-grounded grader could find '(b) worse' close to decisive, since (b) engages two heads the Standards mark most gravely while (a)'s single occurrence engages no breadth and no continuance.",
+        "proposed_fix": "Score the H4 publicity already present in (a)'s stem. The stem says the cruelty was done 'in front of the whole crew' — an available H4 circumstance the key/rubric currently ignores. Add (a)'s public-before-the-whole-crew element as a second uncancelled head (H4) so (a) = H3-delight + H4-public against (b) = H2-many-weak + H3-continuance, restoring a two-heads-vs-two-heads balance. Update the (a)-profile rubric line and the enumerated head-pair accordingly."
+      }
+    ]
+  }
+]

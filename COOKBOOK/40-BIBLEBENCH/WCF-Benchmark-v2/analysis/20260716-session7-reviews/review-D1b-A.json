@@ -1,0 +1,66 @@
+[
+  {
+    "id": "CONT-N-032",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 5 (1.0) bundles three judgments: \"the dependent elderly widow least able to check him (H2) AND the eight-month settled continuance (H3) both named as aggravating; 'no single dramatic lie' rejected as exculpation\". Naming H2 and H3 is the sanctioned combined-head profile line, but the appended \"'no single dramatic lie' rejected as exculpation\" is a third distinct checkable judgment on the same line.",
+        "proposed_fix": "Drop the exculpation-rejection clause from line 5, leaving a clean two-facet H2+H3 profile judgment. The exculpation-rejection is already covered by line 7 (\"neither treated as no-fault\"); if it must be scored on (b), split it into its own 0.0-weight qualifier or fold explicitly into line 7."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-033",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "CONT-N-034",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 4 (1.0) bundles three judgments: \"the many and vulnerable parties endangered (Q151 head 2) AND the quarter-long deliberate-negligence continuance (Q151 head 3) both named; the 'nothing dramatic in any single choice' framing rejected as exculpation\". H2+H3 is the sanctioned combined-head form, but the exculpation-rejection clause is a third distinct checkable judgment.",
+        "proposed_fix": "Remove \"the 'nothing dramatic in any single choice' framing rejected as exculpation\" from line 4; it duplicates the intent of line 6 (\"no collapse to 'both equal'; profiles differentiated\"). Keep line 4 as a clean two-facet H2+H3 profile judgment."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-035",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "GRADEABILITY",
+        "detail": "The head-pair is asymmetric (a) H1-persons vs (b) \"the kind/nature of the act itself (express blasphemy)\" mapped to Q151 head-3. The key concedes \"(b)'s gravest-KIND weight is itself a Q151 head-3 claim\" and instructs a mid-tier grader to ACCEPT \"the kind/nature of the act itself\" as the H3 anchor rather than a numbered continuance/knowledge sub-head. This is a non-obvious equivalence that loads unusual interpretive work onto gemini-flash/deepseek/mistral-small; unlike the other seven items it does not pair two clean numbered heads. It is mechanically written into both key and rubric lines 2 and 4, so it is verifiable, but the mapping is fragile compared to the rest of the batch.",
+        "proposed_fix": "Tighten the H3 anchor by giving the grader an explicit accept-list of surface phrases that satisfy (b)'s head, e.g. 'accept any of: express blasphemy / the kind of the act itself is the gravest / cursing God directly is the deepest kind of C3 sin / nature-and-quality of the offence (Q151 head 3)'. Consider re-anchoring (b) to a distinct numbered head (e.g. H4-publicity before watching schoolchildren already present in the stem) so the head-pair reads (a) H1 vs (b) H4 with 'gravest kind' as texture, removing the asymmetry. NOTE: whether (b)'s 'gravest kind' is truly incommensurable with (a)'s H1 or is a straight dominance (express blasphemy simply outweighs flippant irreverence) is a DOMINATED-PAIR question for the substance lens, not this FORM lens."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-036",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "CONT-N-037",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 5 (1.0) bundles three judgments: \"the especially-obligated aunt/benefactor who raised him (H2) AND the year-long settled continuance (H3) both named as aggravating; the small-amounts framing rejected as exculpation\". H2+H3 is the sanctioned combined-head form; the appended \"the small-amounts framing rejected as exculpation\" is a third distinct checkable judgment on the same line.",
+        "proposed_fix": "Strike \"the small-amounts framing rejected as exculpation\" from line 5; it overlaps line 7 (\"neither treated as no-fault\"). Leave line 5 as a clean two-facet H2+H3 profile judgment."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-038",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "CONT-N-039",
+    "verdict": "PASS",
+    "findings": []
+  }
+]

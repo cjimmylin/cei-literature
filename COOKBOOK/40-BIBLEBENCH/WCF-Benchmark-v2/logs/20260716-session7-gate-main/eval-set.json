@@ -1,0 +1,32 @@
+{
+  "eval_set_id": "e2DwQzopT9qsh7kUJqZrPr",
+  "tasks": [
+    {
+      "name": "wcf_s7_new_main",
+      "task_id": "P7ZyTYKsnWJHKa4dG9ZS7U",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/qwen/qwen3.7-plus",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_s7_new_main",
+      "task_id": "c8iXm3Asu9VeXWzRp99TUo",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_s7_new_main",
+      "task_id": "np7M2Dgcw3gzTjMkPMC2uM",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/openai/gpt-4o-mini",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

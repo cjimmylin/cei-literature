@@ -1,0 +1,14 @@
+{
+  "eval_set_id": "m4irpyJLVMbB3j7gL23NLM",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "eAury6X6UbooR3WspHb8NP",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/z-ai/glm-5",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

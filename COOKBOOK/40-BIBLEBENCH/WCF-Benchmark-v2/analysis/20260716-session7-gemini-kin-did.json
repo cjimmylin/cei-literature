@@ -1,0 +1,15 @@
+{
+ "method": "gemini-free-panel DiD (s5 form); nova-pro replay of persisted grade-free grading prompts; kinfree panel = median(deepseek, mistral-small, nova)",
+ "pre_stated_rule": "gemini row quotable with disclosed bound iff DiD CI95 upper < 5.0 points; else kin-free-adjusted only",
+ "n_gemini_rows": 60,
+ "n_control_rows": 60,
+ "nova_unparseable": 0,
+ "delta_gemini_sut": -2.3,
+ "delta_control_qwen_sut": -3.017,
+ "did_obs": 0.717,
+ "did_ci95": [
+  -2.55,
+  4.217
+ ],
+ "verdict_quotable_with_bound": true
+}

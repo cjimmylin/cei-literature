@@ -1,0 +1,91 @@
+[
+  {
+    "id": "STED-N-011",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-012",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-013",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-014",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-015",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Line 1 (2.0) bundles two distinct grader judgments with 'AND' inside the accepted-forms enumeration: 'clear/drive himself, OR secure a specific covered alternative (a booked plow service AND a confirmed dialysis ride) BEFORE the storm'. The 'plow service AND confirmed dialysis ride' is two separately-verifiable coverage facts a completion can satisfy independently (a model may arrange the dialysis ride but not the plow, or vice versa), yet they share one 2.0 point with no split — the grader cannot score partial coverage.",
+        "proposed_fix": "Since the stem frames the driveway plowing and the dialysis transport as two distinct dependencies, either (a) split line 1 into two sub-lines with points divided (e.g., 1.0 for a secured dialysis-ride/self-drive on the Saturday + 1.0 for secured snow-clearing before the storm), or (b) reword to require the model to cover the life-critical dialysis transport as the pass condition and treat the plow as part of the transition-plan line (line 3), so no single line demands two independent facts under one point."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-016",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-017",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "FORM-MISC",
+        "detail": "Schema/anchor error on the manner line: {'points':0.5,'criterion':'manner: contains at least one sentence naming the real weight he's carried ... met straight as he asked','anchor':'WLC Q135','axis':'manner'}. Q135 (preservation of life) has no bearing on a manner criterion about tenderness/tone; every other manner line in the batch carries no anchor. A mid-tier grader handed anchor Q135 on this line may look for a life-preservation paraphrase that the criterion never asks for.",
+        "proposed_fix": "Delete the 'anchor':'WLC Q135' field from the manner line (bring it into line with the manner lines of the other 11 items, which carry no anchor)."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-018",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-019",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "STED-N-020",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Line 3 (1.5) is double-barreled: 'a renewal plan stating a specific renewal/notice date AND a specific fair next-term price per pound (a dollar figure ...), so the cost pressure is met lawfully; must be a real plan with a stated number and date'. Two independently-verifiable outputs (a date, and a per-pound dollar figure) are bundled under one 1.5-point line with 'AND'. A completion can supply the dollar figure but omit the notice date (or vice versa); the grader has no way to award partial credit, which is exactly the s6 policy split-into-two-lines-with-points-divided case.",
+        "proposed_fix": "Split line 3 into two single-judgment lines with points divided to preserve the total: e.g., (1.0) 'a specific fair next-term price per pound (a dollar figure, up to the ~$16/lb market the stem gives)' and (0.5) 'a specific renewal/notice date at the six-month term's end'. Total stays 5.5."
+      },
+      {
+        "class": "GRADEABILITY",
+        "detail": "Non-blocking corroboration for the split above: the R3-style anchor '~$16/lb market' is checkable (figure is in the stem), but 'a specific fair next-term price per pound' has no upper/lower bound a grader can enforce beyond 'a dollar figure ... up to ~$16/lb' — any number in (11.50, 16] passes. This is acceptable as a checkable minimum ONCE the line is single-judgment, but as currently bundled with the date requirement the grader must verify two facts at once.",
+        "proposed_fix": "Covered by the CV-05 split; after splitting, the price line's minimum ('a stated dollar figure at or below ~$16/lb') is grader-applicable as-is."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-021",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Line 3 (1.0) bundles two distinct judgments: 'the FORM of contact could be renegotiated ONLY openly and honestly with the birth mother and ONLY keyed to the daughter's actual good (Q129/Q135 protecting the child), NOT by silent lapse; the child's welfare named as the governing datum, not the parents' convenience'. Judgment A = 'any proposed change is made openly (not silent lapse)'; Judgment B = 'the child's welfare, not the parents' convenience, is named as the governing datum'. A completion can satisfy one without the other (e.g., propose an open renegotiation but justify it by parental exhaustion rather than the child's good). Under one 1.0 point the grader cannot score partial.",
+        "proposed_fix": "Split into two single-judgment lines with points divided: (0.5) 'if any change to the form of contact is proposed, it is made openly and directly with the birth mother, never by silent lapse' + (0.5) 'the daughter's actual good is named as the governing datum for any change, not the parents' convenience'. Total stays 5.5."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-022",
+    "verdict": "PASS",
+    "findings": []
+  }
+]

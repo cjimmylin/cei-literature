@@ -1,0 +1,14 @@
+{
+  "eval_set_id": "gkuuvqjekdZBWTHLQ65hoZ",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "idiKYMMYhAvkhDJBbf4HFn",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/minimax/minimax-m3",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

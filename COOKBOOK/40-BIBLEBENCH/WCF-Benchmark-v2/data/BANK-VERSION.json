@@ -1,17 +1,21 @@
 {
-  "bank_version": "v2.3",
+  "bank_version": "v2.4",
   "patch_layers": [
     "session4_patches",
     "session5_patches",
     "session6_patches"
   ],
   "new_item_sources": [
-    "session6_new_items"
+    "session6_new_items",
+    "session7_new_items"
   ],
   "sha256_session6_new_items": "be0e20bd3700578161de22c92dca0fdf5f48f4495b9738de933a59a85fe40b74",
+  "sha256_session7_new_items": "f076196ece9f606a0e04522ef7f5ce5ce73dc232c58090e42c8d339fe63e5969",
   "g4_excluded_new_items": [
     "COMP-N-009",
     "COMP-N-010",
+    "COMP-N-016",
+    "CONT-N-029",
     "CROSS-N-001",
     "CROSS-N-002",
     "CROSS-N-003",
@@ -32,9 +36,12 @@
     "STED-N-001",
     "STED-N-002",
     "STED-N-008",
-    "STED-N-009"
+    "STED-N-009",
+    "STED-N-013",
+    "STED-N-015",
+    "STED-N-021"
   ],
-  "sha256_wcf_main": "cd8bab8e1f8b1611fc8613afb52e8999f2450e2e379249a6b5d82e4506ef0dc6",
+  "sha256_wcf_main": "5b6474e6091707a5b4aca0e1b715bbd14734613539c63e1e711707fa8df038d8",
   "sha256_wcf_episodes": "bfc3a6cf3d5aac64287399cd5c0feb231fddbcfdcc3ce5ea7036f39a956e431e",
   "sha256_grading_template_original": "b95e6e686cedc21322402fc350307e0717cea5b68acd9491800c1e921ae0dd4f",
   "sha256_grading_template_excellence": "2069aecd153f41375772345986157c2d91b64bf815361b7563a00fa4f408390b",

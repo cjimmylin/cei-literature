@@ -55,13 +55,16 @@ def test_patched_bank_counts():
 def test_jsonl_counts_and_split():
     main = _read_jsonl("wcf_main.jsonl")
     episodes = _read_jsonl("wcf_episodes.jsonl")
-    # v2.3: 199 v1-derived main (204 - 5 CV-02 quarantines, session-4) + 29
-    # session-6 authored items that passed the G4 live-pilot gate (52 authored
-    # - 23 instantly-dead exclusions, all 9 new episodes among them).
+    # v2.4: 199 v1-derived main (204 - 5 CV-02 quarantines, session-4) + 29
+    # session-6 authored G4 survivors (52 authored - 23 exclusions, all 9 new
+    # episodes among them) + 37 session-7 authored G4 survivors (42 accepted -
+    # 5 dead-ceiling exclusions; session-7 authored no episodes).
     v1_main = [r for r in main if "-N-" not in r["id"]]
-    new_main = [r for r in main if "-N-" in r["id"]]
+    s6_main = [r for r in main if "-N-" in r["id"] and r.get("authored") == "session-6"]
+    s7_main = [r for r in main if "-N-" in r["id"] and r.get("authored") == "session-7"]
     assert len(v1_main) == 199
-    assert len(new_main) == 29
+    assert len(s6_main) == 29
+    assert len(s7_main) == 37
     assert len(episodes) == 22  # no session-6 episode survived G4
     assert all(r["kind"] != "episode" for r in main)
     assert all(r["kind"] == "episode" for r in episodes)

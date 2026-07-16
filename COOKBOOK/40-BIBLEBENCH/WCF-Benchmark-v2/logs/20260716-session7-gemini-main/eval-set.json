@@ -1,0 +1,14 @@
+{
+  "eval_set_id": "6ha5tH8eSdp66yTb34ZVSK",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "cC8YHNMjjzH6vmLKzEd5as",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/google/gemini-3.5-flash",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

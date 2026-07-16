@@ -32,14 +32,18 @@ BANK_DIR = V2_ROOT.parent / "WCF-Benchmark" / "05-BANK-YAML"
 DATA_DIR = V2_ROOT / "data"
 TEMPLATE_DIR = V2_ROOT / "src" / "templates"
 
-# v2.3 bank-version manifest constants (design memo §3). GRADE_PATTERN and the
+# v2.4 bank-version manifest constants (design memo §3). GRADE_PATTERN and the
 # panel default mirror src/wcf_grading.py + src/wcf_tasks.py; kept here as literals
 # so the manifest is self-describing without importing the inspect_ai stack.
 # v2.3 (session-6) = v2.2 chain + session6_patches (COMP-C4-005 stem repair +
 # no-deliverable gate) + the session-6 authored new items (G1-G5 gated subset).
-BANK_VERSION = "v2.3"
+# v2.4 (session-7) = v2.3 + the session-7 authored frontier-core expansion
+# (22 contested + 20 frontier-open accepted; 37 enter the bank after strict G4
+# from analysis/20260716-session7-gate-results.json). No new patch layer —
+# session-7 items carry form rules from birth.
+BANK_VERSION = "v2.4"
 PATCH_LAYERS = ["session4_patches", "session5_patches", "session6_patches"]
-NEW_ITEM_SOURCES = ["session6_new_items"]
+NEW_ITEM_SOURCES = ["session6_new_items", "session7_new_items"]
 # Mirrors src/wcf_grading.py:GRADE_PATTERN (last-match, word-bounded, no 4-digit
 # truncation). Kept as a literal so the manifest is self-describing without pulling
 # the inspect_ai stack into the converter; a guard test asserts it stays in sync
@@ -172,12 +176,15 @@ def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR)
     are emitted so the hashes match on disk.
     """
     from session6_new_items import G4_EXCLUDED, NEW_ITEMS_PATH
+    from session7_new_items import G4_EXCLUDED as G4_EXCLUDED_S7
+    from session7_new_items import NEW_ITEMS_PATH as NEW_ITEMS_PATH_S7
     manifest = {
         "bank_version": BANK_VERSION,
         "patch_layers": PATCH_LAYERS,
         "new_item_sources": NEW_ITEM_SOURCES,
         "sha256_session6_new_items": _sha256(NEW_ITEMS_PATH),
-        "g4_excluded_new_items": sorted(G4_EXCLUDED),
+        "sha256_session7_new_items": _sha256(NEW_ITEMS_PATH_S7),
+        "g4_excluded_new_items": sorted(G4_EXCLUDED | G4_EXCLUDED_S7),
         "sha256_wcf_main": _sha256(data_dir / "wcf_main.jsonl"),
         "sha256_wcf_episodes": _sha256(data_dir / "wcf_episodes.jsonl"),
         "sha256_grading_template_original": _sha256(
@@ -203,6 +210,10 @@ def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, 
     # (from the Phase-2 live pilot) are applied inside bank_items().
     from session6_new_items import bank_items
     records.extend(bank_items())
+    # v2.4: append the session-7 frontier-core expansion (same contract; G4
+    # exclusions from the s7 Phase-2 gate applied inside bank_items()).
+    from session7_new_items import bank_items as bank_items_s7
+    records.extend(bank_items_s7())
     main = [r for r in records if r["kind"] != "episode"]
     episodes = [r for r in records if r["kind"] == "episode"]
 
@@ -217,7 +228,8 @@ def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, 
 
 if __name__ == "__main__":
     from session6_new_items import bank_items
-    new = bank_items()
+    from session7_new_items import bank_items as bank_items_s7
+    new = bank_items() + bank_items_s7()
     want_main = EXPECTED_MAIN + sum(1 for r in new if not r["episode"])
     want_eps = EXPECTED_EPISODES + sum(1 for r in new if r["episode"])
     n_main, n_episodes = convert()

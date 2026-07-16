@@ -1,0 +1,14 @@
+{
+  "eval_set_id": "oXi8zUKkxA3Gj4gRp7YBxe",
+  "tasks": [
+    {
+      "name": "wcf_new_episodes",
+      "task_id": "aPC4KqEeVqvgKv8dmGpdfg",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/qwen/qwen3.7-plus",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

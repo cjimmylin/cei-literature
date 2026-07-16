@@ -92,7 +92,8 @@ def test_new_episode_escalation_machinery():
 
 def test_g4_exclusions_match_manifest_and_bank():
     m = json.loads((V2_ROOT / "data" / "BANK-VERSION.json").read_text())
-    assert sorted(G4_EXCLUDED) == m["g4_excluded_new_items"]
+    # v2.4: the manifest list is the union across authored sessions (s6 + s7).
+    assert set(G4_EXCLUDED) <= set(m["g4_excluded_new_items"])
     bank_ids = {r["id"] for r in _read_jsonl("wcf_main.jsonl")}
     bank_ids |= {r["id"] for r in _read_jsonl("wcf_episodes.jsonl")}
     assert not (G4_EXCLUDED & bank_ids), "G4-excluded item leaked into the bank"

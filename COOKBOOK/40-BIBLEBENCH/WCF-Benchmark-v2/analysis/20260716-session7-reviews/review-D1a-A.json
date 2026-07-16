@@ -1,0 +1,68 @@
+[
+  {
+    "id": "CONT-N-023",
+    "verdict": "PASS",
+    "findings": [
+      {"class": "FORM-MISC", "detail": "Structural gates all pass: total 5.0 (in 5.0-6.5), 8 rubric lines (<=8 for contested OK), manner line present, GATE block present, lever-C split form correct (1.0 binary decline + 0.5 enumerated head-pair with accepted list written into the criterion). The only 'AND' line is the 1.0 'practical counsel delivered for BOTH' line, which is the s6 brief section-5 contested skeleton's sanctioned per-scenario counsel form, not a CV-05 double-barrel.", "proposed_fix": "none"}
+    ]
+  },
+  {
+    "id": "CONT-N-024",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "CV-05", "detail": "Rubric line 5 (1.0, matter) bundles two-to-three distinct scored judgments in one line: 'the act is the graver KIND under Q113 (express profane abuse/cursing of the name, per the stem's label) AND he continued after admonition (brushed off the correction and persists), given as aggravating; no office / empty gym given as mitigating circumstances'. The KIND judgment, the continuance-after-admonition judgment, and the mitigation acknowledgement are separate checkables — a mid-tier grader cannot tell whether partial credit applies when only one is present.", "proposed_fix": "Split into two lines: (0.5) '(b) the act is the graver KIND under Q113 — express profane abuse/cursing of the name, per the stem's own label — named as aggravating' and (0.5) '(b) he continued after admonition (brushed off the principal's correction and persists) named as aggravating; no office/empty-gym acknowledged as mitigating texture'. Total stays 5.0 (7->8 lines, still <=8)."}
+    ]
+  },
+  {
+    "id": "CONT-N-025",
+    "verdict": "PASS",
+    "findings": [
+      {"class": "FORM-MISC", "detail": "Structural gates all pass: total 5.0, 8 lines (<=8), manner present, GATE present, lever-C split form correct with enumerated accepted head-pair. Per-scenario matter lines are single-judgment (foreman-status; open-before-crew; benefactor; continuance+small-amounts-exculpation is one continuance judgment). The sole 'AND' line is the sanctioned 'practical counsel for BOTH' 1.0 line. No CV-05, no CV-02, no CV-04, no SELF-CONTAIN, no LEAK ('settled deliberate pattern' in stem is descriptive continuance vocabulary, not the banned hedge 'settle the question').", "proposed_fix": "none"}
+    ]
+  },
+  {
+    "id": "CONT-N-026",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "CV-05", "detail": "Rubric line 5 (1.0, matter) is triple-barreled: 'the year-long continuance AND persistence after the clerk's admonition (false assurance then concealed harder) named as aggravating, against a helpless trusting widow; \\'no single dramatic scene\\' rejected as exculpation'. Four distinct checkables (continuance; persistence-after-admonition; victim-helplessness/trust; exculpation-rejection) collapsed into one 1.0 line — a grader cannot resolve partial performance.", "proposed_fix": "Split into (0.5) '(b) year-long continuance AND persistence after the clerk's admonition (false assurance then concealed harder) named as aggravating; \\'no single dramatic scene\\' rejected as exculpation' and (0.5) '(b) the party wronged named as a helpless, specially-trusting victim (fragile elderly widow relying entirely on his word) — this vulnerability named as aggravating'. Keeps total 5.0 (7->8 lines)."},
+      {"class": "FORM-MISC", "detail": "Minor: stem 'settled deliberate pattern' is descriptive continuance vocabulary, not the banned hedge; no LEAK. Other gates (total 5.0, manner, GATE, lever-C) pass.", "proposed_fix": "none"}
+    ]
+  },
+  {
+    "id": "CONT-N-027",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "CV-05", "detail": "Rubric line 6 (0.5, matter) bundles two distinct judgments: 'the year-long continuance AND persistence after the board member's admonition (swore he'd stop, then concealed harder) named as aggravating; \\'no public scene\\' rejected as exculpation'. Continuance and persistence-after-admonition are separate checkables sharing a single 0.5 award — ambiguous whether either alone earns half.", "proposed_fix": "Option A (preferred, keeps 8 lines): reword to a single continuance-head judgment: '(b) the year-long, admonition-defying continuance (swore he'd stop, then concealed harder) named as aggravating; \\'no public scene\\' rejected as exculpation' — treating persistence-after-admonition as one intensified continuance judgment rather than two. Option B: split to two 0.5 lines (would push to 9 > 8 limit, so prefer A)."}
+    ]
+  },
+  {
+    "id": "CONT-N-028",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "CV-05", "detail": "Rubric line 3 (0.5, matter) is double-barreled: '(a) office/example-followed status AND actively drawing others (a cohort of new hires) into the sin named as aggravating'. Office/example-followed (H1) and drawing-others-in (the occasioning aggravation) are two distinct checkables in one 0.5 line.", "proposed_fix": "Reword to a single judgment or split. Single-judgment option: '(a) office/example-followed status — actively drawing a cohort of new hires into the sin — named as aggravating' (treats drawing-others as the specific instance of the example aggravation). If split is wanted, move the drawing-others clause into the enumerated head-pair line 2 where it already appears."},
+      {"class": "CV-05", "detail": "Rubric line 5 (1.0, matter) is double-barreled: '(b) obstinate weekly continuance AND persistence after the supervisor's admonition (promised to stop, then rearranged to keep doing it) named as aggravating; \\'only her own Sunday, hurts no one else\\' rejected as exculpation of the obstinacy'. Continuance and persistence-after-admonition are separate judgments at 1.0.", "proposed_fix": "Reword as one intensified continuance-head judgment: '(b) obstinate weekly continuance, persisted-in after the supervisor's admonition (promised to stop, then rearranged to keep doing it), named as aggravating; \\'only her own Sunday, hurts no one else\\' rejected as exculpation of the obstinacy' — the persistence being the aggravating quality of the same continuance, not a second independent checkable. Total stays 5.0, 7 lines."}
+    ]
+  },
+  {
+    "id": "CONT-N-029",
+    "verdict": "PASS",
+    "findings": [
+      {"class": "FORM-MISC", "detail": "Structural gates all pass: total 5.0, 8 lines, manner present, GATE present, lever-C split form with enumerated accepted head-pair. Per-scenario matter lines are single-judgment; note the item inverts the usual layout (a=obstinate-continuance private, b=public-example) but the head-pair {(a) H3 obstinate continuance-after-repeated-admonition} vs {(b) H1+H4 public example} is on different heads per hard rule 1. Sole 'AND' line is the sanctioned counsel-for-BOTH 1.0 line. Stem 'settled obstinate habit' is descriptive, not the banned hedge.", "proposed_fix": "none"}
+    ]
+  },
+  {
+    "id": "CONT-N-030",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "CV-05", "detail": "Rubric line 3 (0.5, matter) is double-barreled: '(a) office/example-followed status AND actively leading the whole assembly into the sin named as aggravating'. H1 office/example and the leading-the-assembly (occasioning) aggravation are two distinct checkables in one 0.5 line.", "proposed_fix": "Reword to one judgment: '(a) office/example-followed status — actively leading the whole assembly into the sin — named as aggravating', or fold the leading-others clause into head-pair line 2 where it is already enumerated."},
+      {"class": "CV-05", "detail": "Rubric line 5 (1.0, matter) is double-barreled: '(b) obstinate private continuance AND persistence after the friend's admonition (said she'd stop, then became more secretive) named as aggravating; \\'it's private, touches no one else\\' rejected as exculpation of the obstinacy'. Continuance and persistence-after-admonition split one 1.0 award.", "proposed_fix": "Reword as one intensified continuance judgment: '(b) obstinate private continuance, persisted-in after the friend's admonition (said she'd stop, then became more secretive), named as aggravating; \\'it's private, touches no one else\\' rejected as exculpation of the obstinacy'."}
+    ]
+  },
+  {
+    "id": "CONT-N-031",
+    "verdict": "REPAIR",
+    "findings": [
+      {"class": "CV-05", "detail": "Rubric line 6 (0.5, matter) bundles two distinct judgments: '(b) the year-long continuance AND persistence after the acquaintance's admonition (promised to stop, then concealed harder) named as aggravating; \\'no one at school saw it\\' rejected as exculpation'. Continuance and persistence-after-admonition are separate checkables sharing a single 0.5.", "proposed_fix": "Reword as one intensified continuance judgment (keeps 8-line limit): '(b) the year-long, admonition-defying continuance (promised to stop, then concealed harder) named as aggravating; \\'no one at school saw it\\' rejected as exculpation'."}
+    ]
+  }
+]

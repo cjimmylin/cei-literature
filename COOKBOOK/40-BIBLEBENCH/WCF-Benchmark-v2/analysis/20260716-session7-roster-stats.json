@@ -1,0 +1,207 @@
+{
+ "bank_version": "v2.4",
+ "panel": "gemini-2.5-flash + deepseek-chat + mistral-small-2603 (median, last-match parser, excellence gate ON main)",
+ "note": "EXPLORATORY / NON-QUOTABLE; rubric conformity 0-100, not accuracy. Frontier-trio epochs-averaged core index in 20260716-session7-epochs-stats.json.",
+ "suts": {
+  "gemini35flash": {
+   "kin_note": "QUOTABLE ONLY per 20260716-session7-gemini-kin-did.json",
+   "n_bank_scored": 287,
+   "full_bank_mean": 88.37,
+   "full_bank_stderr": 1.14,
+   "n_core": 66,
+   "frontier_core_mean": 71.09,
+   "frontier_core_stderr": 2.23,
+   "escalation_panel_mean": 91.89,
+   "n_panel_scored": 9,
+   "unscored_bank": [],
+   "unscored_panel": [],
+   "quorum_drops_bank": 0,
+   "quorum_drops_panel": 0,
+   "log_statuses": [
+    [
+     "2026-07-16T15-42-39-00-00_wcf-main_cC8YHNMjj",
+     "success",
+     265
+    ],
+    [
+     "2026-07-16T16-05-11-00-00_wcf-episodes_KVHeG",
+     "success",
+     22
+    ],
+    [
+     "2026-07-16T16-09-10-00-00_wcf-new-episodes_g",
+     "success",
+     9
+    ]
+   ],
+   "usage_tokens": {
+    "openrouter/google/gemini-3.5-flash": {
+     "in": 80238,
+     "out": 30927
+    },
+    "openrouter/mistralai/mistral-small-2603": {
+     "in": 53225,
+     "out": 2461
+    },
+    "openrouter/google/gemini-2.5-flash": {
+     "in": 51666,
+     "out": 3712
+    },
+    "openrouter/deepseek/deepseek-chat": {
+     "in": 53708,
+     "out": 2711
+    }
+   }
+  },
+  "mistral_large": {
+   "kin_note": "family kin to g3 mistral-small: +0.97 bound (s5)",
+   "n_bank_scored": 287,
+   "full_bank_mean": 90.51,
+   "full_bank_stderr": 1.1,
+   "n_core": 66,
+   "frontier_core_mean": 73.2,
+   "frontier_core_stderr": 2.85,
+   "escalation_panel_mean": 100.0,
+   "n_panel_scored": 9,
+   "unscored_bank": [],
+   "unscored_panel": [],
+   "quorum_drops_bank": 0,
+   "quorum_drops_panel": 0,
+   "log_statuses": [
+    [
+     "2026-07-16T15-43-17-00-00_wcf-main_kiXL4KoYT",
+     "success",
+     265
+    ],
+    [
+     "2026-07-16T16-24-33-00-00_wcf-episodes_3oufE",
+     "success",
+     22
+    ],
+    [
+     "2026-07-16T16-29-22-00-00_wcf-new-episodes_7",
+     "success",
+     9
+    ]
+   ],
+   "usage_tokens": {
+    "openrouter/mistralai/mistral-large-2512": {
+     "in": 58731,
+     "out": 37399
+    },
+    "openrouter/mistralai/mistral-small-2603": {
+     "in": 63938,
+     "out": 3190
+    },
+    "openrouter/google/gemini-2.5-flash": {
+     "in": 66249,
+     "out": 2977
+    },
+    "openrouter/deepseek/deepseek-chat": {
+     "in": 64110,
+     "out": 2835
+    }
+   }
+  },
+  "glm5": {
+   "kin_note": "substituted for retired glm-4.7 slug (2026-07-16 catalog)",
+   "n_bank_scored": 287,
+   "full_bank_mean": 90.2,
+   "full_bank_stderr": 0.98,
+   "n_core": 66,
+   "frontier_core_mean": 71.53,
+   "frontier_core_stderr": 1.97,
+   "escalation_panel_mean": 100.0,
+   "n_panel_scored": 9,
+   "unscored_bank": [],
+   "unscored_panel": [],
+   "quorum_drops_bank": 0,
+   "quorum_drops_panel": 0,
+   "log_statuses": [
+    [
+     "2026-07-16T15-43-18-00-00_wcf-main_eAury6X6U",
+     "success",
+     265
+    ],
+    [
+     "2026-07-16T18-15-25-00-00_wcf-episodes_BQvr7",
+     "success",
+     22
+    ],
+    [
+     "2026-07-16T18-25-25-00-00_wcf-new-episodes_9",
+     "success",
+     9
+    ]
+   ],
+   "usage_tokens": {
+    "openrouter/z-ai/glm-5": {
+     "in": 43882,
+     "out": 49966
+    },
+    "openrouter/mistralai/mistral-small-2603": {
+     "in": 36302,
+     "out": 2537
+    },
+    "openrouter/google/gemini-2.5-flash": {
+     "in": 39883,
+     "out": 3563
+    },
+    "openrouter/deepseek/deepseek-chat": {
+     "in": 38440,
+     "out": 2710
+    }
+   }
+  },
+  "minimax_m3": {
+   "kin_note": null,
+   "n_bank_scored": 287,
+   "full_bank_mean": 94.1,
+   "full_bank_stderr": 0.8,
+   "n_core": 66,
+   "frontier_core_mean": 80.45,
+   "frontier_core_stderr": 2.13,
+   "escalation_panel_mean": 100.0,
+   "n_panel_scored": 9,
+   "unscored_bank": [],
+   "unscored_panel": [],
+   "quorum_drops_bank": 1,
+   "quorum_drops_panel": 0,
+   "log_statuses": [
+    [
+     "2026-07-16T15-43-20-00-00_wcf-main_idiKYMMYh",
+     "success",
+     265
+    ],
+    [
+     "2026-07-16T18-12-21-00-00_wcf-episodes_hpe2Z",
+     "success",
+     22
+    ],
+    [
+     "2026-07-16T18-26-42-00-00_wcf-new-episodes_R",
+     "success",
+     9
+    ]
+   ],
+   "usage_tokens": {
+    "openrouter/minimax/minimax-m3": {
+     "in": 67861,
+     "out": 76408
+    },
+    "openrouter/google/gemini-2.5-flash": {
+     "in": 65067,
+     "out": 3966
+    },
+    "openrouter/mistralai/mistral-small-2603": {
+     "in": 60232,
+     "out": 2908
+    },
+    "openrouter/deepseek/deepseek-chat": {
+     "in": 62495,
+     "out": 2999
+    }
+   }
+  }
+ }
+}

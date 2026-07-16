@@ -1,0 +1,155 @@
+{
+ "scope": "expanded frontier core (66 v2.4 *-N-* items) x epochs 3",
+ "bank_version": "v2.4",
+ "epochs": 3,
+ "log_statuses": [
+  [
+   "2026-07-16T15-40-32-00-00_wcf-frontier-c",
+   "openrouter/qwen/qwen3.7-plus",
+   "success",
+   198
+  ],
+  [
+   "2026-07-16T15-40-33-00-00_wcf-frontier-c",
+   "openrouter/openai/gpt-5-mini",
+   "success",
+   198
+  ],
+  [
+   "2026-07-16T15-40-33-00-00_wcf-frontier-c",
+   "openrouter/anthropic/claude-haiku-4.5",
+   "success",
+   198
+  ]
+ ],
+ "unscored": [],
+ "suts": {
+  "qwen": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 75.33,
+   "stderr": 1.64
+  },
+  "gpt5mini": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 78.39,
+   "stderr": 2.17
+  },
+  "haiku": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 72.48,
+   "stderr": 1.63
+  }
+ },
+ "pairwise": {
+  "gpt5mini-vs-haiku": {
+   "n": 66,
+   "gap": 5.9,
+   "se_diff": 1.93,
+   "mdd80": 5.41,
+   "significant_at_mdd80": true
+  },
+  "gpt5mini-vs-qwen": {
+   "n": 66,
+   "gap": 3.06,
+   "se_diff": 1.84,
+   "mdd80": 5.15,
+   "significant_at_mdd80": false
+  },
+  "haiku-vs-qwen": {
+   "n": 66,
+   "gap": -2.84,
+   "se_diff": 1.41,
+   "mdd80": 3.95,
+   "significant_at_mdd80": false
+  }
+ },
+ "qwen_ramp_probe": {
+  "log_statuses": [
+   [
+    "2026-07-16T15-40-32-00-00_wcf-new-episod",
+    "openrouter/qwen/qwen3.7-plus",
+    "success",
+    27
+   ]
+  ],
+  "unscored": [],
+  "per_episode": {
+   "NARROW-N-001": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-002": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-003": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-004": {
+    "epoch_scores": [
+     27.0,
+     100.0,
+     27.0
+    ],
+    "mean": 51.33
+   },
+   "NARROW-N-005": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-006": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-007": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-008": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   },
+   "NARROW-N-009": {
+    "epoch_scores": [
+     100.0,
+     100.0,
+     100.0
+    ],
+    "mean": 100.0
+   }
+  },
+  "panel_mean_of_episode_means": 94.59
+ }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "CONT-N-040",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 3 is triple-barreled: \"(a) profile: the defenseless specific victim whose good name/livelihood was wrecked (Q151 head 2) AND the public front-page publicity before the whole town (Q151 head 4) both named as aggravating; the single occurrence noted as lighter continuance, not treated as cancelling the party/publicity weight\" bundles (i) name H2, (ii) name H4, (iii) note single-occurrence-as-lighter-not-cancelling. The two-head combination is design-inherent to contested items (benchmark CONT-N-013), but clause (iii) is a separately-checkable judgment fused onto the head-naming.",
+        "proposed_fix": "Keep the H2+H4 head-naming as the single 1.0 matter line; drop the trailing 'single occurrence noted as lighter continuance, not treated as cancelling' clause OR relocate it to the head-pair line 2 (which already carries the incommensurability logic). No point-total change."
+      },
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 4 bundles two judgments: name H3 deliberate+continuance as aggravating AND 'the no single dramatic fabrication framing rejected as exculpation.' The 'rejected as exculpation' clause is a second, independently gradeable judgment.",
+        "proposed_fix": "Trim line 4 to the single H3-naming judgment; fold the 'no single dramatic fabrication rejected as exculpation' cue into the key prose rather than making it a scored sub-judgment."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-041",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 3 fuses two head judgments plus an interpretive gloss: name the gravest KIND (Q151 head-3) AND name the public setting (Q151 head 4). The two-head form is design-inherent; the risk is the embedded parenthetical 'this IS a Q151 head-3 nature-and-quality claim, so naming the kind/nature of the act itself satisfies it' making the single line carry both a required-element check and a grader-mapping instruction.",
+        "proposed_fix": "Retain the H3+H4 combined matter line but move the 'this IS a Q151 head-3 claim / naming the kind satisfies it' mapping note out of the criterion text and into the key's existing GRADER-MAPPING NOTE (it is already stated there), so the scored criterion is just the two head-namings."
+      },
+      {
+        "class": "LEAK",
+        "detail": "Stem pre-labels the graded head: 'genuinely profane oaths cursing God directly — the deep, express abuse of the name ... it was the gravest kind of abuse of the name.' Rubric line 3 then scores 'the act is the gravest KIND ... named.' The stem hands the model the exact classification the rubric checks, lowering frontier discrimination. This is disclosed and intentional per the key's GRADER NOTE (grader may rely on stem labels), so it is a soft finding, not a kill.",
+        "proposed_fix": "Acceptable as-is given the disclosed grader-reliance design; if frontier gap is weak in the gate run, soften the stem label to 'a profane oath against God' and let the model supply the 'gravest kind' classification. Flag for Fable's gate-sensitivity call."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-042",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "CONT-N-043",
+    "verdict": "PASS",
+    "findings": []
+  },
+  {
+    "id": "CONT-N-044",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 4 is triple-barreled across two heads: '(b) profile: the deliberate/willful AND weekly continuance of unnecessary Sabbath work (Q151 head 3; Q119) AND the public scandal before the church-going town (Q151 head 4) both named.' The H3+H4 combination is design-inherent, but 'deliberate/willful AND weekly continuance' also splits head 3 into two sub-checks, giving three distinct verifiable elements in one 1.0 line.",
+        "proposed_fix": "Collapse the head-3 sub-clause to a single judgment ('the willful weekly continuance ... named') so the line reads as exactly two head-namings (H3 + H4), matching the H2-single form used on line 3. No total change."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-045",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "LEAK",
+        "detail": "Stem pre-labels both graded kinds: (a) 'a devised-worship practice with no warrant in the Word' (will-worship) and (b) 'the gravest kind of the second-commandment sin, outright creature-worship ... praying to and venerating an image.' Rubric line 4 scores 'the act is the gravest KIND (outright image/creature-worship ...) named.' The stem supplies the exact classification the rubric checks. Disclosed via the key's GRADER NOTE, so soft, but it further weakens frontier discrimination beyond CONT-N-041 because BOTH sides' kinds are pre-labeled.",
+        "proposed_fix": "Acceptable under the disclosed grader-reliance design; if the gate run shows a saturated (near-zero) qwen-haiku gap, strip the explicit 'gravest kind of the second-commandment sin' phrase from stem (b) and require the model to classify it. Flag for Fable's gate-sensitivity call."
+      },
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 4 embeds a grader-mapping instruction inside the scored criterion: 'this IS a Q151 head-3 nature-and-quality claim, so naming the kind/nature of the act itself as the anchor satisfies it; the grader must accept the kind-of-the-act as the H3 anchor for (b), not require a numbered continuance/knowledge sub-head.' Mixing the pass condition with a meta-instruction to the grader makes the single line carry two things.",
+        "proposed_fix": "Reduce the criterion to the pass condition ('the gravest KIND (image/creature-worship) named as the aggravation'); the head-3 mapping instruction is already present in the key's GRADER-MAPPING NOTE and need not be duplicated in the scored line."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-046",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 3 is triple-barreled: '(a) profile: the especially-related/obligated party (his own father who raised him, Q151 head 2) AND the year-long continuance (Q151 head 3) both named as aggravating; \"no single dramatic moment\" rejected as exculpation.' Two head-namings (H2+H3) PLUS a separate 'rejected as exculpation' judgment = three checks.",
+        "proposed_fix": "Keep the H2+H3 combined naming as the 1.0 line; move the '\"no single dramatic moment\" rejected as exculpation' cue into the key prose (it is already implied there)."
+      },
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 4 is also triple-barreled: 'H1 example-followed (Q151 head 1) AND the public/before-the-watching-members circumstance (Q151 head 4) both named as aggravating and NOT cancelled by the single outburst and apology (treated as mitigating texture).' H1 + H4 namings PLUS the 'not cancelled by the apology' judgment.",
+        "proposed_fix": "Retain the H1+H4 combined naming; strip the 'NOT cancelled by the single outburst and apology' clause from the scored line (the mitigation-does-not-cancel logic is carried by the key). This is the most bundled item in the batch — both matter lines need the third-clause trim."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-047",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "CV-05",
+        "detail": "Rubric line 4 bundles two head-namings plus an exculpation-rejection: '(b) profile: the weak/vulnerable/\"many\" parties offended (Q151 head 2) AND the year-long continuance (Q151 head 3) both named; the \"nothing in any single remark\" framing rejected as exculpation.' Three distinct checks in one 1.0 line.",
+        "proposed_fix": "Keep the H2+H3 combined naming as the scored 1.0 line; fold the '\"nothing in any single remark\" rejected as exculpation' cue into the key prose rather than making it a scored sub-judgment. Line 3 (single head-3 'with delight' against one) is clean and needs no change."
+      }
+    ]
+  }
+]

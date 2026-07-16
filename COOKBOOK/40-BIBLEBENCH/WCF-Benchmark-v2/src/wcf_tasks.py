@@ -293,3 +293,59 @@ def wcf_new_episodes(
         scorer=wcf_scorer(grader_model, grader_temperature, include_history=True),
         metrics=[mean(), stderr()],
     )
+
+
+# ---------------------------------------------------------------------------
+# Session-7 frontier-core GATE task (v2.4 candidates, PRE-freeze instrument).
+# Reads the standalone session-7 new-item dataset emitted by the G1 gate
+# (analysis/session7_g1_check.py + gate emit) so the GO/NO-GO pilot never
+# touches the frozen v2.3 files. At the v2.4 freeze the surviving items merge
+# into wcf_main.jsonl and this task keeps working as the s7 subset runner.
+# ---------------------------------------------------------------------------
+
+
+@task
+def wcf_frontier_core(
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+    excellence_gate: bool = True,
+) -> Task:
+    """Frontier-core index: every *-N-* authored item in the frozen main bank.
+
+    At v2.3 this is the 29 session-6 survivors; at v2.4 it adds the session-7
+    G4 survivors automatically (all authored items carry the -N- namespace;
+    the escalation panel lives in wcf_new_episodes.jsonl and never enters).
+    """
+    dataset = json_dataset(str(DATA_DIR / "wcf_main.jsonl"), record_to_sample)
+    dataset = dataset.filter(lambda s: "-N-" in str(s.id))
+    return Task(
+        dataset=dataset,
+        solver=[system_message(EXAMINEE_SYSTEM), generate()],
+        scorer=wcf_scorer(
+            grader_model,
+            grader_temperature,
+            include_history=False,
+            excellence_gate=excellence_gate,
+        ),
+        metrics=[mean(), stderr(), grouped(mean(), "design")],
+    )
+
+
+@task
+def wcf_s7_new_main(
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+    excellence_gate: bool = True,
+) -> Task:
+    """Session-7 new single-completion items (22 contested + 20 frontier-open)."""
+    return Task(
+        dataset=json_dataset(str(DATA_DIR / "wcf_s7_new_main.jsonl"), record_to_sample),
+        solver=[system_message(EXAMINEE_SYSTEM), generate()],
+        scorer=wcf_scorer(
+            grader_model,
+            grader_temperature,
+            include_history=False,
+            excellence_gate=excellence_gate,
+        ),
+        metrics=[mean(), stderr(), grouped(mean(), "design")],
+    )

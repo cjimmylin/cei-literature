@@ -1,0 +1,14 @@
+{
+  "eval_set_id": "WKZBNPqvCfSNEFfqdZxerj",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "kiXL4KoYT6KG9i8Lx3rjf3",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/mistralai/mistral-large-2512",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

@@ -141,11 +141,23 @@ def _sanitize_state_for_grading(state: TaskState) -> TaskState:
     return s
 
 
+# Session-7 grader-transient rule (Phase-0, 2026-07-16): the gemini-2.5-flash
+# g1 grader dropped ~4% of samples in s6 and 8.7% in the s7 gate run — a
+# provider transient, evenly spread. Per the pre-stated rule, a grader whose
+# parsed grade comes back invalid is retried up to 2 more times (fresh calls)
+# before it is recorded as unscored. Grading SEMANTICS are unchanged: valid
+# grades are never re-rolled, and a persistent failure still yields unscored
+# (dropped from the panel median, never coerced to 0).
+GRADER_ATTEMPTS = 3
+
+
 def bounded_grader(inner: Scorer) -> Scorer:
     """Wrap a ``model_graded_qa`` scorer so that (a) the SUT answer is sanitized
     against WCF-marker injection before grading (GP-02) and (b) the parsed grade
     is range-guarded to 0..100 -> else ``Score.unscored()`` (GP-04/06 non-numeric
-    and out-of-range never become a counted 0 or an inflating >100).
+    and out-of-range never become a counted 0 or an inflating >100), with (c) up
+    to ``GRADER_ATTEMPTS-1`` retries of the inner scorer on an invalid grade or
+    provider exception (s7 Phase-0 transient rule) before unscored is recorded.
 
     The grading transcript metadata from the inner scorer is preserved so audit
     still works; only the value is replaced with NaN when invalid.
@@ -155,8 +167,20 @@ def bounded_grader(inner: Scorer) -> Scorer:
     def _wrapped() -> Scorer:
         async def score(state: TaskState, target: Target) -> Score:
             sanitized = _sanitize_state_for_grading(state)
-            inner_score = await inner(sanitized, target)
-            grade = _score_to_grade(inner_score)
+            inner_score, grade, err = None, None, None
+            for attempt in range(GRADER_ATTEMPTS):
+                try:
+                    inner_score = await inner(sanitized, target)
+                except Exception as exc:  # provider transient — retry
+                    err = exc
+                    continue
+                grade = _score_to_grade(inner_score)
+                if grade is not None:
+                    break
+            if inner_score is None:  # every attempt raised
+                return Score.unscored(
+                    metadata={"unscored_reason": f"grader_exception: {err!r}"}
+                )
             if grade is None:
                 return Score.unscored(
                     answer=inner_score.answer,

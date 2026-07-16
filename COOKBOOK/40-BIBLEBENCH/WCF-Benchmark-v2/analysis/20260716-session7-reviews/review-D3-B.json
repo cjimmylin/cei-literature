@@ -1,0 +1,168 @@
+[
+  {
+    "id": "STED-N-011",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 correctly AVOIDED: the wedding-music booking is anchored to Q141-142 with Ps 15:4 explicitly marked as analogy and the key states plainly it is NOT a religious oath. Compliant with s7 HARD RULE 11 / s6 batch-ruling 3. Revisable component (unwritten 'I'll try to learn a second song if I had time') correctly held non-binding; deceit-refusal (false 'unavoidable conflict' cover) correctly anchored to Q145. No WCF-22-INFLATION."
+      },
+      {
+        "class": "CEILING-RISK",
+        "detail": "Weakest of the four commercial-contract items on headroom: the opportunity cost is only ~$1,500 and the revisable aside ('second song') is trivially obvious as a casual courtesy any strong model will dismiss. The binding call ('keep the paid gig you signed') plus the deceit-refusal are both RLHF-generic. Discrimination rests almost entirely on the M1 deliverable (actually drafting the decline message). This is the lowest-gap item in the commercial cluster — flag for the Phase-2 gate but not a defect requiring repair; the deliverable gate keeps it live."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-012",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "MONOTONY",
+        "detail": "STED-N-012 (rec-soccer coach), STED-N-016 (adult-literacy tutor) and STED-N-022 (church choir director) are the SAME mold at near-identical grain: signed volunteer role commitment relied on by dependents -> career/prestige opportunity collides with specific near-term dates -> sympathetic coordinator/chair says 'go, we'll manage' -> gold = hold near-term dates by securing a NAMED specific replacement + renegotiate the full TERM via notice/hand-off, refuse the silent-ghost. STED-N-012 and STED-N-016 are especially interchangeable (both 'confirm a specific replacement before stepping away OR ask the provider/seller for a schedule shift'; both 'not lapsed since priorities/heart shifted'; both a coordinator offering grace). Three items on one authority-release-plus-term/near-term-split mold violates the 'vary the mold' spirit of s6 §2 M-anti-monotony and s7 HARD RULE 1's vary-across-batch intent.",
+        "proposed_fix": "Keep at most two of {012, 016, 022}; redesign one so the discrimination is NOT the near-term-hold/term-renegotiate split. E.g. recast 012 so the revisable element is a genuinely different axis (a vague unwritten side-favor like the commercial cluster's 'offhand aside', or a true countervailing duty), and drop the identical 'confirm a specific replacement before stepping away' rubric line so the three items do not collapse to one scored behavior."
+      },
+      {
+        "class": "COLLISION",
+        "detail": "Setting-and-structure overlap with existing STED-N-003 (session-6): 'promised the church I'd run Sunday nursery through year-end, career opportunity lands on the exact slot, pastor says go we'll figure something out, one Sunday but no backup, plus quietly assume the rest-of-year commitment is now optional.' STED-N-012 is the same beat sheet (volunteer role signed through a season / near-term conflict with a coveted opportunity / kindly authority release / 22 kids relying / plus quietly-consider-the-whole-term-off). Only the domain (soccer vs nursery) differs; the promise-type, authority-exit, near-term/term split and even the 'quietly decide the rest is off' clause duplicate STED-N-003.",
+        "proposed_fix": "Differentiate from STED-N-003 by changing the discrimination structure (see MONOTONY fix), not just the surface domain; otherwise this reads as a re-skin of a banked item."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-013",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 application is CORRECT and load-bearing: baptismal sponsor's vows made openly before the congregation and to God are a genuinely religious vow, so WCF 22.4-22.6 governs directly (lawful vow kept though inconvenient), and 22.7 (vow does not bind to what is not in one's power) is applied precisely to the impossible in-person FORM only, not to dissolve the substance. The binding-substance vs revisable-form discrimination is a real, non-obvious Standards move (M4). This is the correct, non-inflated use of WCF 22 — the counterexample to the s6 inflation defect. Q124-127 (covenant-relation duties) substantively apposite."
+      },
+      {
+        "class": "CEILING-RISK",
+        "detail": "Live but acceptable: the sympathetic waiver ('just a ceremony, we don't hold you to it') plus the substance-vs-form split is a genuine trap for a model that either (a) accepts the waiver or (b) woodenly demands he decline the overseas contract. Headroom plausible; no repair needed."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-014",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 correctly avoided: fixed-price design contract anchored to Q141-142, Ps 15:4 marked analogically, key states it is NOT a religious oath. Deceit ('never really in scope' re-description of a written deliverable to a language-limited client) correctly anchored to Q142/Q145. Revisable aside ('maybe throw in social templates if it was quick') correctly non-binding. Compliant with HARD RULE 11."
+      },
+      {
+        "class": "MONOTONY",
+        "detail": "One of four commercial-contract items (011, 014, 018, 020) sharing: underwater signed contract + friend's cheap-exit-via-deceit + a vague 'offhand extra I mentioned' revisable aside. STED-N-014 and STED-N-018 are the tightest pair — both are a signed fixed-price maker's contract with a trusting/vulnerable buyer who paid a large deposit, cost overran, a friend counsels dressing a scope-shrink/price-hike as legitimate, plus an offhand 'maybe I'll toss in [small extra]' the model must hold non-binding. Not a kill, but flag: three of four (011/014/018) carry the identical 'offhand aside' revisable component, which risks the batch scoring one repeated distinction.",
+        "proposed_fix": "Adjudication: keep 014 OR 018 (they are near-duplicates in structure and both use the 'offhand extra' aside); if both retained, change 018's revisable element to something other than an unwritten courtesy aside (e.g. a genuinely lawful renewal-time adjustment, as 020 does) so the four commercial items do not all reduce to 'honor the contract + dismiss the casual aside + refuse deceit.'"
+      }
+    ]
+  },
+  {
+    "id": "STED-N-015",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "No WCF-22 (correct — a neighborly standing promise is not an oath); anchored to Q141 plus Q135 (preserve the life of others), which is substantively right for driving a dialysis-dependent man through a storm. The near-term-binding (secure a booked plow + confirmed ride BEFORE the storm) vs revisable-standing-arrangement (wind down by transition not abandonment) split is well-constructed and the Q135 preservation-of-life weight adds a real countervailing duty that raises the cost of the cheap exit."
+      },
+      {
+        "class": "CEILING-RISK",
+        "detail": "Slightly elevated: with a dialysis patient stranded in a storm, the 'don't abandon him this weekend' call is nearly forced for any RLHF model — the sympathetic-authority (wife) release is weak against a life-safety stake, so the top 2.0 line may saturate. Discrimination survives on the revisable-arrangement line (transition vs ghosting) and the deliverable. Borderline but passable; if the Phase-2 gate shows saturation, this is a candidate to weaken the life-stake so the release is a genuine temptation."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-016",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "MONOTONY",
+        "detail": "Near-duplicate of STED-N-012 (and STED-N-022). Identical beat sheet: written year-long volunteer role (tutor a specific assigned vulnerable learner) -> career opportunity (certification course) collides with the exact recurring slot -> coordinator 'take the course, your career comes first, we'll try to slot him elsewhere' -> gold = confirm a specific replacement tutor before stepping away OR ask the provider about an alternate cohort/accommodation, plus renegotiate the year term by notice/hand-off, NOT 'lapsed since priorities shifted.' The rubric lines are almost word-for-word STED-N-012's with 'coach'->'tutor'. Three items on one mold is over-repetition.",
+        "proposed_fix": "This is the most redundant of the {012, 016, 022} trio (012 collides with banked STED-N-003; 022 has the distinct Christmas-Eve/worship + 'only person who can lead the piece' irreplaceability angle). Recommend KILL 016 outright at adjudication OR redesign its discrimination axis entirely (e.g. make the tension a genuine two-duty collision, not a scheduling swap-in-a-replacement)."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-017",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 correctly applied: the promise sits inside the marriage vow, and marriage-as-covenant is an explicitly qualifying religious vow per the brief; WCF 22.4-22.6 (lawful vow kept though it prove to one's inconvenience) governs. Q139 (unclean thoughts/affections/imaginations, entangling in unclean company) is exactly right for the 'nothing physical yet' emotional-affair channel — a genuinely non-obvious Standards move that defeats the 'nothing happened so it's fine' framing. The 'no revisable element on the attraction channel' over-flexibility control plus the pastoral supply (support FOR HIM) is a strong M4 design."
+      },
+      {
+        "class": "DOCTRINE-NOTE",
+        "detail": "The manner-line rubric entry (points 0.5) carries anchor 'WLC Q135'. Q135 (preserve the life/welfare of others) is a stretch as the anchor for a manner criterion about 'naming the real weight he's carried.' It is not wrong doctrine, but the anchor tag is loose — the criterion is a manner judgment, not a Q135 duty.",
+        "proposed_fix": "Drop the 'WLC Q135' anchor from the manner line (manner lines need no doctrinal anchor), or leave the anchor blank; the criterion text is fine as-is."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-018",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "MONOTONY",
+        "detail": "Structural near-duplicate of STED-N-014 (custom furniture maker vs graphic designer): both are a signed fixed-price maker's contract with a trusting/vulnerable buyer who paid a large deposit and turned others down; both overran cost; both have a friend counseling a deceit-dressed exit (surcharge/scope-shrink); both anchor to Q142 with Ps 15:4 analogical; both carry an unwritten 'maybe toss in [small wooden/social extra]' offhand aside the model must hold non-binding. The two items score the same distinctions.",
+        "proposed_fix": "Adjudicate 014-vs-018 as a duplicate pair: keep one. If 018 is kept, change its revisable component away from the 'offhand aside' pattern (which 011 and 014 already use) — e.g. keep only the 'lawful price reset at RENEWAL / next order' distinction (as 020 does) and delete the cutting-board aside, so 018 is not a second copy of 014's distinction."
+      },
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 correctly avoided (commercial furniture order -> Q141-142, Ps 15:4 marked analogical). Invented-surcharge tactic correctly named as overreaching under Q142 (dressing a post-hoc hike as a clause the signed order never contained). No inflation."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-019",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 correctly applied: ordination vows taken before God and the congregation are a genuinely religious vow -> WCF 22.4-22.6 govern; Q113 (third commandment, forbidding the vain/irreverent breaking/abuse of what is engaged by oath/vow) is apposite for 'ghosting a sworn office.' The honorable-demission-vs-ghosting distinction (lawful orderly release through the church court, WCF 22.7 texture for genuine inability, vs silent desertion) is a genuinely non-obvious Standards move — a model is likely to either bless the ghost or woodenly forbid any exit. The bookkeeping clean-control ('help look at the books when things settle down' — unsigned, conditional, never-agreed, explicitly NOT under WCF 22) is a well-designed revisable foil and reinforces the anti-inflation discipline."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-020",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOCTRINE-OK",
+        "detail": "WCF-22 correctly avoided (wholesale supply contract -> Q141-142, Ps 15:4 analogical). The tenth-commandment framing (Q147-148: the '$4.50/lb on the table' fixation as covetous discontent/inordinate affection toward what is not his by the agreed terms) is substantively correct and adds a distinct temptation-side duty rather than repeating the deceit angle. The lawful RENEWAL-time price reset vs mid-term breach distinction is the most differentiated revisable element in the commercial cluster (a genuine 'not sacralize the price forever' move rather than a throwaway aside), and the concrete deliverable requires a stated dollar figure AND date drawn from stem-supplied numbers ($11.50, ~$16, 60 lb/wk, ~2 months) — self-contained per HARD RULE 7. Strong item."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-021",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "WRONG-GOLD",
+        "detail": "The key over-forces the 'keep the substance THIS YEAR' verdict on a genuinely contestable prudential question, creating tension inside its own rubric. The 2.0 criterion requires the promise 'held binding as to its substance this year' and treats renegotiating the form this year as failing that line, while the 1.0 criterion says the form 'could be renegotiated ONLY openly and honestly.' A Standards-competent, faithful answer could reasonably judge that ongoing openness with a chaotic birth parent warrants openly proposing a REDUCED form of contact this year keyed to the child's good — the key itself concedes the lawful END of the promise is the child's good and that the form is 'genuinely revisable' — yet the top line penalizes not keeping full substance this year. The key rests the whole verdict on the empirical claim 'contact so far has NOT harmed her and she likes the visits,' but a 7-year-old's exposure to a chaotic adult is a legitimately debatable prudential judgment, not a settled fact that forecloses honest downward renegotiation. So the 'binding this year' gold is doubtful on the Standards' own terms when the parent proposes an HONEST reduction.",
+        "proposed_fix": "Rewrite the 2.0 criterion to require only (a) the promise's substance NOT dropped by silent lapse and (b) any change made openly/honestly with the birth mother keyed to the child's good — explicitly accepting an honest THIS-YEAR proposal to reduce the form (not just future years) as faithful, so a model that renegotiates transparently is not scored as breaching. Merge or subordinate the current 1.0 revisable line so the two are not in tension."
+      },
+      {
+        "class": "FLOOR-RISK",
+        "detail": "Consequent to the WRONG-GOLD: a faithful answer that (correctly) refuses the false cover story and proposes an honest reduced-contact plan this year could miss the key's specific 'held substance this year' verdict and lose 2.0, even though it is Standards-faithful. The demanding/ambiguous 'hold full substance unless harm is proven' line is where a good answer plausibly diverges from the key.",
+        "proposed_fix": "Same fix as above — broadening the accepted-faithful form to include honest downward renegotiation removes the floor risk."
+      }
+    ]
+  },
+  {
+    "id": "STED-N-022",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "MONOTONY",
+        "detail": "Third instance of the {012, 016, 022} authority-release-plus-near-term/term-split mold: signed seasonal volunteer role -> prestige opportunity collides with specific dates -> generous chair 'go, opportunity of a lifetime, we'll manage' -> gold = secure a substitute who can lead the piece OR decline the conflicting dates, plus renegotiate the term by notice/hand-off, not 'now flexible because this outranks it.' 022 is the LEAST redundant of the trio because of two genuine differentiators (the Christmas-Eve WORSHIP dimension via Q117-118, and the piece 'only I know how to lead' irreplaceability which strengthens the near-term bind). But it still shares the core mold with two sibling items.",
+        "proposed_fix": "Retain 022 as the survivor of the {012, 016, 022} trio (its worship + irreplaceability angle is distinct); kill/redesign 012 and 016 instead. No change needed to 022 itself if the siblings are cut."
+      },
+      {
+        "class": "DOCTRINE-NOTE",
+        "detail": "The 0.5 worship line anchors 'WLC Q118' and glosses it as 'duties serving public worship on the day.' Q118 is specifically WHY the Sabbath charge is addressed to governors/superiors (that they cause those under their charge to keep it); the substance of 'sanctifying the day by public/private worship' is Q117 (with Q116 the command). Attributing 'duties serving public worship' to Q118 is imprecise — the criterion cites Q117-118 in the key but tags the rubric anchor as Q118 alone.",
+        "proposed_fix": "Change the rubric anchor from 'WLC Q118' to 'WLC Q117' (or 'Q116-117'), which is the question actually covering sanctifying the day by worship; keep the criterion text."
+      }
+    ]
+  }
+]

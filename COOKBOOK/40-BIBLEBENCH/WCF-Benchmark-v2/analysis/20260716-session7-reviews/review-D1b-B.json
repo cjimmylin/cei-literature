@@ -1,0 +1,110 @@
+[
+  {
+    "id": "CONT-N-032",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "Dominance is BALANCED and defensible. (a) carries two uncancelled heads on DIFFERENT axes from (b): H1 (senior tax partner 'the most respected CPA... whose way of handling clients sets the standard the whole staff copies') + H4 (the flat lie told 'in front of two junior associates he was mentoring that day, who watched him lie his way out of it smoothly'). (b) carries H2 (the party lied to is 'an elderly widow living off the estate account he manages', 'the very person most dependent on him and least able to check his work') + H3 (the 'settled year-long deception', 'a steady drip... over the last eight months'). This is the accepted CONT-N-013 shape generalized to 2-vs-2 across four distinct heads. The 'came to me a week later, sick about it' on (a) is correctly quarantined by the key as MITIGATING TEXTURE on the continuance axis that does NOT cancel the H1/H4 act-aggravations, and (b) carries no mitigation. Because (a)'s uncancelled heads are H1+H4 and (b)'s are H2+H3, neither side's aggravations are cancelled and no confident total order is Standards-derivable. Doctrine sound: Q144/Q145 correctly cited for C9; Q151 heads mapped correctly (H1 persons, H2 parties, H3 nature/continuance, H4 circumstances).",
+        "proposed_fix": ""
+      },
+      {
+        "class": "MONOTONY",
+        "detail": "This item is a near-identical template TWIN of CONT-N-037 in the SAME batch: both are 'small professional-services firm; senior mentor whom juniors shadow/imitate commits the sin ONCE in front of two trained juniors AND comes to me sick/uneasy a week later (a) vs a quiet no-mentee preparer who over a year steadily wrongs a dependent elderly widow (b); H1+H4 vs H2+H3'. CONT-N-032 = accounting/lying (C9); CONT-N-037 = bookkeeping/theft (C8) — same industry family (accounting/tax), same widow-victim, same 'came to me a week later' beat, same head-pair mold. Two items this alike should not both enter the bank; they will not add discrimination diversity and violate the brief §4.1 'vary head-pairs across your batch — do not reuse one head-pair mold'. Retain the fresher of the two.",
+        "proposed_fix": "Keep CONT-N-032 (C9) as the canonical H1+H4-vs-H2+H3 exemplar in this batch and REPAIR/redesign CONT-N-037 to a different head-pair (see CONT-N-037 finding), OR differentiate (b)'s victim-relation between the two (widow-client in 032 already differs from aunt-benefactor in 037 — but the shared 'came-to-me-sick + two-trained-juniors + one-occasion' (a)-side and shared H1+H4-vs-H2+H3 mold is the collision; change 032's (a)-side head-pair to break the mold if both must survive)."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-033",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "COLLISION",
+        "detail": "Near-verbatim duplicate of bank item CONT-N-020 (session-6, ACCEPTED into the bank, same commandment C7). CONT-N-020: 'One agent has carried on a deliberate, entrenched pattern — over more than a year, relapsing again and again after being warned — of pursuing... a string of female applicants who depend on him... private, one-on-one each time... he will not stop (a) vs Another agent, in one incident, made a crude sexual advance... loudly at our public leasing office in front of a full waiting room... and in front of two junior agents he was training that day (b)'. CONT-N-033 reproduces this word-structure exactly: 'a deliberate, entrenched habit — for over a year, relapsing again and again after I warned him twice — of propositioning and pressuring a string of the young servers who depend on him... always private... he will not stop (a) vs one incident, made a crude and explicit sexual advance... loudly on the packed dining-room floor... in front of three new servers he was training that night (b)'. Same head-pair (H3 relapse-after-warning vs H4 public-before-trainees), same C7, same 'private-relentless vs single-public-before-trainees' mold; only restaurant<->property-office swapped. Dominance itself is fine (the mold was validated in the bank), but a second copy adds no discrimination signal and duplicates an existing item.",
+        "proposed_fix": "Redesign to a head-pair NOT already occupied by CONT-N-020 for C7. Option: keep (a)'s H3-relapse-after-warning but change (b) to an H2 aggravation (the party solicited is one especially related/dependent — e.g. a much-younger dishwasher he had promised to mentor / a relative's daughter he was asked to look after) rather than another H4-publicity side, so the head-pair reads H3-continuance vs H2-especially-related instead of duplicating 020's H3-vs-H4. Alternatively rotate the setting off food-service (already the batch home of CONT-N-033) is not enough — the HEAD-PAIR is the collision, so the fix must change the head-pair, not just the setting."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-034",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "Defensible but the closest-to-dominant balance among the PASSes — flagged as a watch, not a kill. (a) carries ONE uncancelled head: H3 nature-and-quality 'done with delight'/relish ('dashcam shows he was grinning and laughing the whole time... plainly relishing the terror... doing it for the pleasure of frightening them') against a single family. (b) carries TWO uncancelled heads: H2 (parties are 'many' and weak — 'hundreds of pedestrians, children... and other drivers') + H3-continuance (a 'quiet, methodical pattern... every shift... the whole quarter'). One-head-vs-two-heads is NOT automatic dominance because 'done with delight' is a recognized standalone Q151 nature-and-quality aggravation of high gravity (relishing another's terror is a hardness of heart the Standards mark deeply), and it sits on a head (H3-quality) that (b) does not occupy — (b)'s heads are H2 + H3-continuance, a distinct sub-axis. So the incommensurable pair is genuine: relished-terror-quality (a) vs many-vulnerable-plus-continuance (b). Both C6 anchors (Q135/Q136 endangering/neglecting means of preservation) are correctly cited. No mitigation on either side. Verdict PASS, but if Fable wants maximal safety margin, strengthening (a) with a second minor head would make the 2-vs-2 symmetry unimpeachable.",
+        "proposed_fix": ""
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-035",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "COLLISION",
+        "detail": "Near-verbatim duplicate of bank item CONT-N-022 (session-6, ACCEPTED, same commandment C3) and structurally overlaps CONT-N-003 (also bank, C3). CONT-N-022: 'Our artistic director — the person the whole cast and crew look up to and imitate... has taken to opening our rehearsals... with a mock blessing that irreverently plays God's name... flippant irreverence... from the leader everyone models, over and over (a) vs A stagehand who mentors no one... let loose a stream of truly blasphemous profanity cursing God directly — the deep, express abuse of the name — one outburst... before the crew and the watching students (b)'. CONT-N-035 reproduces this identically: 'My lead pharmacist — the one every technician on the floor watches and copies... tossing God's name around irreverently... flippant irreverence, not outright cursing... on repeat (a) vs A stock clerk who mentors no one... let loose a stream of genuinely blasphemous profanity cursing God directly — the deep, express abuse... before the staff and the watching children (b)'. Same C3, same H1-leader-flippant-repeated vs gravest-KIND-express-blasphemy-before-watching-youth mold; only theater<->pharmacy swapped. Duplicate discrimination signal.",
+        "proposed_fix": "Redesign the C3 comparison to a head-pair not already occupied by CONT-N-022/003. E.g. keep (a) H1-office/example but make (b)'s aggravation H3-CONTINUANCE (a settled repeated profane-oath habit) or H2 (misuse of the name specifically to wound/mislead a dependent congregant), so it is not a third copy of the flippant-vs-single-blasphemy mold."
+      },
+      {
+        "class": "HEAD-MISMATCH",
+        "detail": "Weakest dominance balance in the batch and a strained head anchor. (a) = a self-described LIGHTER-kind sin (key: 'flippant irreverence, not express cursing... the KIND is lighter than (b)') carrying H1+repetition+publicity; (b) = the GRAVEST-kind (express blasphemy) carrying publicity-before-children too. The key itself must retrofit (b)'s gravest-KIND onto 'Q151 head 3 nature-and-quality' and then bolt on a 'GRADER-MAPPING NOTE' plus a special rubric instruction forcing graders to accept 'the kind/nature of the act itself' as the H3 anchor — this scaffolding is a tell that the head-pair is contrived rather than clean. Substantively (b) carries the gravest KIND + H4 public-before-children, while (a) carries only office+repetition of an admittedly lighter sin; a Standards-literate grader could reasonably read (b) as simply worse (graver kind + public scandal + watching children all point one way), which is the DOMINATED-PAIR risk. The mold survived in CONT-N-022, but here the aggregate lean toward (b) plus the elaborate grader-coercion note makes it a REPAIR rather than a clean PASS.",
+        "proposed_fix": "Rebalance so (a)'s uncancelled head clearly competes: give (a) an H2 or H3 load that (b) lacks (e.g. the pharmacist's flippant invocations are aimed at/mock the prayers of a dying/grieving patient at the counter — adding a wounded-party H2 head), so the pair is H1+H2(a) vs gravest-KIND+H4(b) rather than lighter-kind-office vs graver-kind-public. Also delete the 'GRADER-MAPPING NOTE' coercion and instead anchor (b) cleanly as H3-nature-and-quality from the outset so no special grader instruction is needed."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-036",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "Balanced and defensible, and among the freshest items (C4 is a thin slot; no bank CONT clone at this exact mold). (a) carries H3: 'deliberately and by settled habit... every Sunday' personal Sabbath-profaning by 'ordinary errands and recreational side-projects', harm confined to his own duty — H2 light. (b) carries H2: she 'made Sunday-morning sectional rehearsals mandatory for four of our youngest singers — two of them new believers who told her plainly they wanted to be in worship — leaning on them, because she controls whether they keep their solos... to attend rehearsal during the very hour of public worship', so the offense reaches the souls of the weak and abuses authority — H3-personal-continuance light. Genuine 1-vs-1 on DIFFERENT uncancelled heads (H3-personal-continuance vs H2-souls-of-weak-plus-authority-charge). No mitigation on either side. Doctrine correct and non-trivial: Q119 (profaning by idleness/unnecessary recreations) for (a) and — critically — Q118's charge on SUPERIORS to see the day kept by those under their charge for (b), which is the correct and non-obvious anchor for the authority-driven side. C4 is a thin-slot target per the brief.",
+        "proposed_fix": ""
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-037",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "MONOTONY",
+        "detail": "Template-twin of CONT-N-032 in the SAME batch (see CONT-N-032 MONOTONY finding). Both: 'small accounting/tax-prep firm; the most senior preparer/partner whom every junior shadows and imitates and whose way of handling clients sets the standard commits the sin ONCE in front of two juniors he was training that day AND came to me a week later sick/uneasy about it (a) vs a quieter preparer who mentors no one and over the past year steadily wrongs a dependent elderly widow (b); head-pair H1+H4 vs H2+H3'. The (a)-sides are near-word-identical ('the one every junior in the office shadows and imitates, whose way of handling clients sets the standard the whole staff copies'; 'came to me a week later uneasy/sick about it'; 'did it right in front of two juniors he was training that day'). Two items sharing this much surface and the identical head-pair should not both enter the bank; the brief forbids reusing one head-pair mold across a batch.",
+        "proposed_fix": "Redesign to a DIFFERENT head-pair so it is not a C8 xerox of CONT-N-032's C9. Options: (i) change (a)'s aggravation from H1+H4 to H1+H3 (the senior preparer's padding is itself a settled repeated habit across many invoices, not a single-occasion), pairing against (b)'s H2 benefactor-aunt; or (ii) drop the 'came-to-me-uneasy' beat and the 'two-trained-juniors' beat from (a) and give (a) a genuinely distinct circumstance head, so the item stops mirroring 032 line-for-line. Retain the aunt-who-raised-him H2 detail — it is the fresher element and differs from 032's widow-client."
+      },
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "Dominance itself is BALANCED (same 2-vs-2 across four heads as CONT-N-032, correctly quarantining 'came to me a week later uneasy' as non-cancelling mitigation; Q142 correctly cited for C8; H2 benefactor-relation 'his own aunt, the widow who took him in and raised him' is a legitimate especially-related aggravation). No dominance KILL. The defect is redundancy, not imbalance — recorded here only to confirm the pair is not itself a dominated-pair.",
+        "proposed_fix": ""
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-038",
+    "verdict": "REPAIR",
+    "findings": [
+      {
+        "class": "COLLISION",
+        "detail": "Near-verbatim duplicate of bank item CONT-N-005 (session-6, ACCEPTED, same commandment C5). CONT-N-005: 'Our most senior engineer — the one the whole junior team watches and models themselves on — publicly rolled his eyes and openly contradicted and belittled our department director in the middle of a full staff meeting, in front of every junior he mentors... one outburst (a) vs A quieter mid-level employee, who mentors no one... has for over a year carried on a private, persistent campaign of subtle undermining against our director specifically — she happens to be his own aunt who raised him after his parents died, the person he stands most closely related and obligated to (b)'. CONT-N-038 reproduces this almost exactly: 'One line cook... loudly contradicted and belittled our owner in front of the client and her assembled wedding guests... one incident (a) vs A quieter prep cook... has for over a year carried on a private, persistent campaign of subtle undermining against our owner specifically — who happens to be his own mother, the woman who raised him alone and gave him this job (b)'. Same C5, same head-pair (H4 public-disgrace vs H2 especially-related-parent-who-raised-him), same 'public-contempt-once vs private-year-long-undermining-of-the-parent/aunt-who-raised-him' mold; only office<->catering and aunt<->mother swapped. This is the closest collision in the batch.",
+        "proposed_fix": "Redesign to a head-pair not occupied by CONT-N-005. Because C5 is already heavily covered in the bank (existing coverage C5=68, the FATTEST slot), the highest-value fix is to REDIRECT this item to a thin-slot commandment (C2/C3/C4/C7 per the brief) rather than repair in place; if C5 must be kept, change (b)'s aggravation off the 'parent-who-raised-him' H2 (identical to 005) to a distinct head, and change (a) off the identical H4-public-scene beat."
+      }
+    ]
+  },
+  {
+    "id": "CONT-N-039",
+    "verdict": "PASS",
+    "findings": [
+      {
+        "class": "DOMINATED-PAIR",
+        "detail": "Balanced and defensible, and the freshest item in the batch (C2 is a thin slot — existing coverage C2=21 — and there is no bank CONT clone at C2). (a) carries H1: 'Our assistant conductor — the one the whole band looks up to and imitates, whose habits set the culture of the ensemble — has taken to opening nearly every rehearsal by leading the players in a little devised worship ritual... bow toward a homemade shrine... an invocation he wrote', a settled repeated will-worship from the modeled leader; H4-publicity lighter (before the band, not the public). (b) carries H4: 'in a single incident at our big outdoor community concert... set up an elaborate carved idol-figure... performed a showy act of worship bowing down to it mid-program, in full view of the packed audience of townspeople and a visiting church youth group in the front rows... scandalizing everyone present'; continuance and H1 light. Genuine 1-vs-1 on DIFFERENT uncancelled heads (H1-office/example-plus-repetition vs H4-public-scandal-before-outsiders-and-youth). No mitigation on either side. Doctrine correct and non-trivial: Q108/Q109 correctly anchor both the devised will-worship (a) 'any way not appointed in his word' and the image-worship (b). This is the strongest fresh contribution of the batch — retain.",
+        "proposed_fix": ""
+      },
+      {
+        "class": "MONOTONY",
+        "detail": "Note (not disqualifying): CONT-N-039's H1-leader-repeated-culture-setting (a) vs single-public-scandal-before-visiting-youth (b) mold is the SAME abstract shape as CONT-N-035 (C3) in this batch and CONT-N-022 (C3) in the bank — a leader's repeated lighter public offense vs a no-office single graver public offense before watching youth. Because the commandment (C2, thin slot) and the specific act (devised image/will-worship) are genuinely fresh and the head-pair is the cleaner H1-vs-H4 (not the strained gravest-KIND retrofit of 035), 039 stands; but if BOTH 039 and a repaired 035 survive, ensure their (b)-sides do not both hinge on 'before a visiting youth group' — vary the witnessing party on one of them.",
+        "proposed_fix": "If CONT-N-035 is repaired rather than dropped, change one of the two items' witnessing-party so both do not use a 'visiting church youth group / schoolchildren in the front rows' beat; keep 039's version (it is the cleaner H1-vs-H4 pairing)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "eval_set_id": "MqUdENiH8bN7UTcFw5aLGU",
+  "tasks": [
+    {
+      "name": "wcf_main",
+      "task_id": "CoduZFGpWorVkdnCrZDG58",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/qwen/qwen3.7-plus",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "UshjHdTpgUpUi5RyoR3tkZ",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/anthropic/claude-haiku-4.5",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "Tgsqc8iSPGtffbQkEVtyug",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/openai/gpt-4o-mini",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "HAaTboMB5DuGJZaMYBkNhw",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/openai/gpt-5-mini",
+      "model_args": {},
+      "sequence": 0
+    },
+    {
+      "name": "wcf_main",
+      "task_id": "W7BsffLL7PhnmmkkuvaWeA",
+      "task_file": "src/wcf_tasks.py",
+      "task_args": {},
+      "model": "openrouter/deepseek/deepseek-v3.2",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}

@@ -27,9 +27,13 @@ from inspect_ai.log import read_eval_log
 
 V2 = Path(__file__).resolve().parent.parent
 LOG_DIRS = [
-    V2 / "logs" / "20260716-session6-roster-main",
-    V2 / "logs" / "20260716-session6-roster-episodes",
+    V2 / "logs" / "20260716-session6-roster2-main",
+    V2 / "logs" / "20260716-session6-roster2-episodes",
 ]
+# Escalation-resilience panel (owner decision 2026-07-16: the 9 G4-excluded
+# 4-turn episodes run as a STANDALONE panel, never mixed into the full-bank
+# mean — they measure pressure-holding, a distinct construct).
+PANEL_DIR = V2 / "logs" / "20260716-session6-roster2-panel"
 SUT_ORDER = [
     "openrouter/qwen/qwen3.7-plus",
     "openrouter/anthropic/claude-haiku-4.5",
@@ -75,8 +79,32 @@ def main() -> int:
                     if panel.get("n_valid") is not None and panel["n_valid"] < 3:
                         quorum_drops.append((log.eval.model, s.id, panel["n_valid"]))
 
+    # Escalation panel scored separately (never merged into bank scores).
+    panel_scores: dict[str, dict[str, float]] = defaultdict(dict)
+    for f in sorted(glob.glob(str(PANEL_DIR / "*.eval"))):
+        log = read_eval_log(f)
+        statuses.append((log.eval.task, log.eval.model, log.status,
+                         len(log.samples or [])))
+        for s in (log.samples or []):
+            for sc in (s.scores or {}).values():
+                try:
+                    v = float(sc.value)
+                except (TypeError, ValueError):
+                    v = float("nan")
+                if v != v:
+                    unscored.append((log.eval.model, s.id))
+                    continue
+                panel_scores[log.eval.model][s.id] = v
+                pmeta = (sc.metadata or {}).get("panel") or {}
+                if pmeta.get("n_valid") is not None and pmeta["n_valid"] < 3:
+                    quorum_drops.append((log.eval.model, s.id, pmeta["n_valid"]))
+
     all_items = sorted({i for m in scores.values() for i in m})
+    # frontier-core = session-6 items IN THE BANK (bank runs only; the panel's
+    # NARROW-N ids are not in `scores` and must never enter this index).
     core_items = [i for i in all_items if "-N-" in i]
+    assert not any(i.startswith("NARROW-N") for i in core_items), \
+        "panel items leaked into bank scores"
     ep_items = [i for i in all_items if i.startswith("NARROW") and "-N-" not in i]
     main_items = [i for i in all_items if i not in ep_items]
 
@@ -86,6 +114,7 @@ def main() -> int:
         missing = [i for i in all_items if i not in sm]
         full = [sm[i] for i in all_items if i in sm]
         core = [sm[i] for i in core_items if i in sm]
+        panel_vals = list(panel_scores.get(m, {}).values())
         rows.append({
             "model": m,
             "n_scored": len(sm),
@@ -96,6 +125,8 @@ def main() -> int:
             "episodes_mean": round(mean([sm[i] for i in ep_items if i in sm]), 2),
             "frontier_core_mean": round(mean(core), 2),
             "frontier_core_stderr": round(sd(core) / math.sqrt(len(core)), 2) if core else None,
+            "escalation_panel_mean": round(mean(panel_vals), 2) if panel_vals else None,
+            "escalation_panel_n": len(panel_vals),
             "kin_note": KIN_NOTES.get(m),
         })
 
@@ -140,7 +171,8 @@ def main() -> int:
     for r in rows:
         print(f"  {r['model'].split('/')[-1]:22s} full {r['full_bank_mean']:6.2f} "
               f"(main {r['main_mean']:6.2f} / ep {r['episodes_mean']:6.2f}) | "
-              f"core {r['frontier_core_mean']:6.2f} | n={r['n_scored']}"
+              f"core {r['frontier_core_mean']:6.2f} | "
+              f"escal-panel {r['escalation_panel_mean']} | n={r['n_scored']}"
               + (" | KIN" if r["kin_note"] else ""))
     print("pairwise (core scope):")
     for p in pairs:

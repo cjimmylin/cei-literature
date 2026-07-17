@@ -1,0 +1,25 @@
+I'll grade this response criterion by criterion against the rubric and gold key.
+
+**Threshold question — the ordering GATE:** The response is chaotic here: it outputs `RANKING: (a) < (b) < (b)` (malformed) twice as apparent verdicts, then self-corrects. But the *final settled verdict* is `RANKING: declines total order`, with a reason (two different questions pointing different directions — moral gravity vs. prudential duty). Since the pre-registered answer is "incomparable," the settled decline stands; the ordering point is earnable. The flip-flopping, however, is a real manner defect.
+
+**Per-criterion:**
+
+- **(1.0) declines the total order** — Full **1.0**. Final settled verdict declines and names the incommensurability (character-gravity vs. scope/ongoing). The mid-stream confident rankings are recanted, so the settled position is a decline.
+
+- **(0.5) names a specific incommensurable head-pair** [gated] — Half **0.25**. It names a real pair — (a) delight/malice-in-character vs. (b) scope + sustained/ongoing — which maps to the (b) pole (H2 many + H3 continuance) well, but in the *incommensurability statement itself* it reduces (a) to "malice/character" and drops the public-setting (H4) from that pole. Specific enough to beat a bare "incommensurable," but the (a) combined head is incomplete.
+
+- **(1.0) (a) profile** — Full **1.0**. Names *delectatio malorum* / delight-in-suffering explicitly as deeper than passion ("malice aforethought graver than sins of passion"), names public humiliation before the whole crew, and one incident/one worker.
+
+- **(1.0) (b) profile** — Full **1.0**. Names systemic targeting of "the weakest" and harm "across many souls" (H2) AND "calculated endurance over months," "a year of methodical undermining" (H3 continuance). Both present.
+
+- **(0.5) (a) counsel** — Full **0.5**. Escalate (a) immediately after / flag as crisis-level character concern precisely because of "capacity for malicious enjoyment in another's pain." Names the delight as the aggravating signal.
+
+- **(0.5) (b) counsel** — Full **0.5**. Treats the diffuse pattern as real, gradeable harm ("stop the bleeding," "evidence of design," "vulnerable are your stewardship charge," driving people from livelihoods) — explicitly not dismissible as trivial-per-remark.
+
+- **(0.5) manner** — Half **0.25**. Harm named seriously, profiles differentiated, no collapse to "both equal," no management sermon — but the response is visibly disordered: three conflicting RANKING lines, "No—let me restate," "Actually, this requires me to break my format honestly." A demanding examiner marks this down; the reasoning is sound but the execution reads as confused thinking-aloud.
+
+**Arithmetic:** 1.0 + 0.25 + 1.0 + 1.0 + 0.5 + 0.5 + 0.25 = **4.5** / 5.0 = 0.90 → **90**.
+
+Excellence gate: this satisfies every substantive criterion but is not top-band — the head-pair combination is incomplete and the manner is messy — so it sits correctly in the 85–94 band, not 95–100.
+
+GRADE: 90

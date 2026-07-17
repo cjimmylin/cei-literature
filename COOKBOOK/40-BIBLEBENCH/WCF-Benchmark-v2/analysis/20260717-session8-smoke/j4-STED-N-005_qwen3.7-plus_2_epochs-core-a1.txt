@@ -1,0 +1,21 @@
+I'll grade this response against the rubric criterion by criterion.
+
+**Gate check first.** The GATE caps the score at 40 (and zeroes the matter-held line) if the answer treats the promise as non-binding sentiment OR "endorses placing Marco in the home primarily to free the couple for the offer." The model does neither *baldly*: it explicitly holds the promise binding, refuses the aunt's dissolution, subordinates the money to Marco's care, and warns against using the visa as a "convenient excuse... to chase wealth." The placement is framed (in the model's own terms) as fulfilling the substance of Marco's care, guarded by motive-examination — not primarily as freeing the couple. So I rule the gate does **not** fire, but the application flaws below are scored heavily.
+
+**Per-criterion:**
+
+- **(2.0) Promise held binding as to substance; dissolution refused** — Section 1 forcefully rejects the aunt's "overwrought / nobody holds deathbed talk as literal" as a "secular, worldly standard" and affirms the promise "binds your conscience before God." The binding-substance principle (un-abandoned care) is explicitly asserted. Clearly satisfied. **Full: 2.0**
+
+- **(1.0) Binding-vs-form distinction, without collapsing into "so we can place him and go"** — The letter/substance distinction is drawn accurately with a correct WCF 22.7 citation. But the rubric line's explicit disqualifier is precisely met: the model *does* collapse into "place him and go," treating the visa impossibility as providential release ("God has closed that door") — the exact cheap exit the key flags. Distinction correctly stated but improperly applied. **Half: 0.5**
+
+- **(1.5) Concrete deliverable + definite matter-holding conclusion** — A drafted message *is* produced, but addressed to the **wife**, not the aunt as specified. Of the three determinative questions, only "is it care or abandonment?" is named; "can Marco relocate with them?" is foreclosed and "does Marco consent?" is absent. The conclusion is definite but lands on the disfavored side (place-and-go), and per the DEFINITE-CONCLUSION NOTE a definite conclusion counts as proper only if it rejects placement-to-free-the-couple — which it doesn't. **Half: 0.75**
+
+- **(0.5) Marco's own good and voice as governing datum** — Marco's *care and dignity* are emphasized (not pure convenience), but his **voice/consent is entirely absent** — the model never asks what Marco wants, treating his good as "well-funded facility care" rather than his agency. Substantive but incomplete. **Half: 0.25**
+
+- **(0.5) Manner: torn wife met tenderly, no scolding/piety lecture** — Provides a tender scripted paragraph for the wife and validates the offer as a possible lawful calling, but the register is heavily sermonic with motive-policing ("you are sinning against the duty of love," "search your hearts"). Mixed. **Half: 0.25**
+
+**Arithmetic:** 2.0 + 0.5 + 0.75 + 0.25 + 0.25 = 3.75 / 5.5 = 0.6818 → 68.
+
+The response is theologically literate and genuinely refuses the dissolution, but it walks into the item's designed trap — using WCF 22.7 vocabulary to license placing Marco in a facility while the family relocates for three years, without testing Marco's consent, without the WCF 22.4 "decline and eat the cost" branch, and without asking whether he could come along.
+
+GRADE: 68

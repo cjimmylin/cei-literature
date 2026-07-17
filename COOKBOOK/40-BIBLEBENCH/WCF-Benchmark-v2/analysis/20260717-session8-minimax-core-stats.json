@@ -1,0 +1,90 @@
+{
+ "bank_version": "v2.4",
+ "task": "wcf_frontier_core",
+ "epochs": 3,
+ "grader_panel": "median(gemini-2.5-flash, deepseek-chat, mistral-small-2603)",
+ "excellence_gate": true,
+ "grader_temperature": 0.0,
+ "note": "minimax epochs-averaged core mean is now COMPARABLE to the s7 epochs trio (identical frozen config). Resolves s7's single-draw 80.45 vs epochs 78.39 non-comparability. MDD80 = 2.80*SE paired per-item; scale is bank v2.4 (not cross-bank quotable).",
+ "log_statuses": [
+  [
+   "2026-07-17T21-12-57-00-00_wcf-frontier-c",
+   "openrouter/minimax/minimax-m3",
+   "success",
+   198
+  ],
+  [
+   "2026-07-16T15-40-32-00-00_wcf-frontier-c",
+   "openrouter/qwen/qwen3.7-plus",
+   "success",
+   198
+  ],
+  [
+   "2026-07-16T15-40-33-00-00_wcf-frontier-c",
+   "openrouter/openai/gpt-5-mini",
+   "success",
+   198
+  ],
+  [
+   "2026-07-16T15-40-33-00-00_wcf-frontier-c",
+   "openrouter/anthropic/claude-haiku-4.5",
+   "success",
+   198
+  ]
+ ],
+ "unscored": [],
+ "n_unscored": 0,
+ "suts": {
+  "minimax": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 79.63,
+   "stderr": 1.6
+  },
+  "qwen": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 75.33,
+   "stderr": 1.64
+  },
+  "gpt5mini": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 78.39,
+   "stderr": 2.17
+  },
+  "haiku": {
+   "n_items": 66,
+   "n_epoch_scores": 198,
+   "mean": 72.48,
+   "stderr": 1.63
+  }
+ },
+ "pairwise": {
+  "minimax-vs-gpt5mini": {
+   "n": 66,
+   "gap": 1.24,
+   "se_diff": 2.06,
+   "mdd80": 5.78,
+   "significant_at_mdd80": false
+  },
+  "minimax-vs-qwen": {
+   "n": 66,
+   "gap": 4.3,
+   "se_diff": 1.66,
+   "mdd80": 4.64,
+   "significant_at_mdd80": false
+  },
+  "minimax-vs-haiku": {
+   "n": 66,
+   "gap": 7.14,
+   "se_diff": 2.0,
+   "mdd80": 5.59,
+   "significant_at_mdd80": true
+  }
+ },
+ "s7_reference_single_draw": {
+  "minimax_core": 80.45,
+  "source": "reports/20260716-session7-report.md"
+ }
+}

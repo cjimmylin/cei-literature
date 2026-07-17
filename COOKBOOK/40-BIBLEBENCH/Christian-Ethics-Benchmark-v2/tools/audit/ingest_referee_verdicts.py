@@ -75,16 +75,25 @@ def normalize(design, verdict):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description="Ingest blind referee verdicts (defaults = Opus arm)")
+    ap.add_argument("--verdict-dir", default=VERDICT_DIR)
+    ap.add_argument("--out-file", default=OUT)
+    ap.add_argument("--rej-file", default=REJ)
+    ap.add_argument("--referee-label", default="claude-opus-agent")
+    ap.add_argument("--missing-file", default=os.path.join(JR, "missing-shas.json"))
+    args = ap.parse_args()
+
     manifest = load_manifest()
     already = set()
-    if os.path.exists(OUT):
-        with open(OUT) as f:
+    if os.path.exists(args.out_file):
+        with open(args.out_file) as f:
             for line in f:
                 already.add(json.loads(line)["prompt_sha256"])
 
     accepted = rejected = skipped = 0
-    with open(OUT, "a") as out, open(REJ, "a") as rej:
-        for path in sorted(glob.glob(os.path.join(VERDICT_DIR, "batch-*.json"))):
+    with open(args.out_file, "a") as out, open(args.rej_file, "a") as rej:
+        for path in sorted(glob.glob(os.path.join(args.verdict_dir, "batch-*.json"))):
             batch = os.path.basename(path)[:-len(".json")]
             try:
                 with open(path) as f:
@@ -111,7 +120,7 @@ def main():
                     continue
                 out.write(json.dumps({"prompt_sha256": sha, "design": manifest[sha],
                                       "verdict": norm, "batch": batch,
-                                      "referee": "claude-opus-agent"}, sort_keys=True) + "\n")
+                                      "referee": args.referee_label}, sort_keys=True) + "\n")
                 already.add(sha)
                 accepted += 1
 
@@ -121,7 +130,7 @@ def main():
                       "total_ingested": len(already),
                       "manifest_total": len(manifest),
                       "missing": len(missing)}, indent=1))
-    with open(os.path.join(JR, "missing-shas.json"), "w") as f:
+    with open(args.missing_file, "w") as f:
         json.dump(missing, f, indent=1)
 
 

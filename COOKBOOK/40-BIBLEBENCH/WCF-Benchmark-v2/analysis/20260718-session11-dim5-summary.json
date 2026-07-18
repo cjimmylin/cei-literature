@@ -1,0 +1,239 @@
+{
+  "_meta": {
+    "script": "20260718-session11-dim5-reliability.py",
+    "date": "2026-07-18",
+    "n_items_in_ledger": 301
+  },
+  "flag_counts_overall": {
+    "LOW-AGREEMENT": 37,
+    "OK": 264,
+    "NO-DATA": 0
+  },
+  "flag_counts_by_mold": {
+    "v1-kind": {
+      "OK": 167,
+      "LOW-AGREEMENT": 22
+    },
+    "complicit": {
+      "OK": 30,
+      "LOW-AGREEMENT": 10
+    },
+    "contested": {
+      "OK": 36
+    },
+    "steadfast": {
+      "OK": 31,
+      "LOW-AGREEMENT": 5
+    }
+  },
+  "low_agreement_rate_by_mold": {
+    "v1-kind": {
+      "n_items": 189,
+      "n_low_agreement": 22,
+      "pct_low_agreement": 11.6
+    },
+    "complicit": {
+      "n_items": 40,
+      "n_low_agreement": 10,
+      "pct_low_agreement": 25.0
+    },
+    "contested": {
+      "n_items": 36,
+      "n_low_agreement": 0,
+      "pct_low_agreement": 0.0
+    },
+    "steadfast": {
+      "n_items": 36,
+      "n_low_agreement": 5,
+      "pct_low_agreement": 13.9
+    }
+  },
+  "flag_counts_n_core_items": {
+    "OK": 65,
+    "LOW-AGREEMENT": 10
+  },
+  "n_n_core_items": 75,
+  "steadfast_weakness_check": {
+    "mold_mean_max_normalized_disagreement": {
+      "v1-kind": 0.1492,
+      "steadfast": 0.128,
+      "complicit": 0.1737,
+      "contested": 0.051
+    },
+    "expected_ranking_from_slice_icc": "steadfast < contested (lower ICC = higher disagreement)",
+    "steadfast_mean": 0.128,
+    "contested_mean": 0.051,
+    "complicit_mean": 0.1737,
+    "v1_kind_mean": 0.1492,
+    "steadfast_worse_than_contested_at_item_level": true,
+    "note": "Slice ICC ordering was steadfast(0.557) < contested(0.612) < overall(0.798). Item-level disagreement should reproduce this if the same instruments are consistent."
+  },
+  "top_15_worst_items": [
+    {
+      "rank": 1,
+      "item_id": "AGG-C4-W202",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.468,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 46.8,
+      "kin_mean_pairwise_disagreement": 19.2667,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "F-lone-lenient"
+    },
+    {
+      "rank": 2,
+      "item_id": "PROOF-C1-005",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.43,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 9,
+      "kin_mean_pairwise_disagreement": 12.8,
+      "s8_mean_abs_j4_j5_delta": 43,
+      "gpartition_category": null
+    },
+    {
+      "rank": 3,
+      "item_id": "PROOF-C2-006",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.426,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 42.6,
+      "kin_mean_pairwise_disagreement": 19.6,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "D-anchor"
+    },
+    {
+      "rank": 4,
+      "item_id": "PROOF-C4-W301",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.4,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 40,
+      "kin_mean_pairwise_disagreement": 14.0667,
+      "s8_mean_abs_j4_j5_delta": 6.75,
+      "gpartition_category": "D-anchor"
+    },
+    {
+      "rank": 5,
+      "item_id": "AGG-C3-003",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.396,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 39.6,
+      "kin_mean_pairwise_disagreement": 18.3333,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "F-lone-lenient"
+    },
+    {
+      "rank": 6,
+      "item_id": "PROOF-C1-W303",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.392,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 39.2,
+      "kin_mean_pairwise_disagreement": 18.7333,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "D-anchor"
+    },
+    {
+      "rank": 7,
+      "item_id": "PROOF-C6-W304",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.384,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 38.4,
+      "kin_mean_pairwise_disagreement": 14.2,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "D-anchor"
+    },
+    {
+      "rank": 8,
+      "item_id": "PROOF-C1-W306",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.368,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 36.8,
+      "kin_mean_pairwise_disagreement": 17.2,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "B-counterfactual"
+    },
+    {
+      "rank": 9,
+      "item_id": "CROSS-C10-W206",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.364,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 36.4,
+      "kin_mean_pairwise_disagreement": 4.5333,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "F-lone-harsh"
+    },
+    {
+      "rank": 10,
+      "item_id": "WHOLE-C3-007",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.344,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 34.4,
+      "kin_mean_pairwise_disagreement": 29.4,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "F-lone-lenient"
+    },
+    {
+      "rank": 11,
+      "item_id": "AGG-C8-W305",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.34,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 34,
+      "kin_mean_pairwise_disagreement": 24.2667,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "C-contested"
+    },
+    {
+      "rank": 12,
+      "item_id": "PROOF-C3-002",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.338,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 33.8,
+      "kin_mean_pairwise_disagreement": 13.8667,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "D-anchor"
+    },
+    {
+      "rank": 13,
+      "item_id": "WHOLE-C6-009",
+      "mold": "v1-kind",
+      "max_normalized_disagreement": 0.336,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 33.6,
+      "kin_mean_pairwise_disagreement": 24.1333,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "G-diffuse"
+    },
+    {
+      "rank": 14,
+      "item_id": "STED-C6-006",
+      "mold": "steadfast",
+      "max_normalized_disagreement": 0.33,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 33,
+      "kin_mean_pairwise_disagreement": 8.9333,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "F-lone-harsh"
+    },
+    {
+      "rank": 15,
+      "item_id": "STED-C5-002",
+      "mold": "steadfast",
+      "max_normalized_disagreement": 0.328,
+      "reliability_flag": "LOW-AGREEMENT",
+      "pilot_mean_panel_spread": 32.8,
+      "kin_mean_pairwise_disagreement": 13.9333,
+      "s8_mean_abs_j4_j5_delta": null,
+      "gpartition_category": "F-lone-harsh"
+    }
+  ],
+  "_caveats": "Disagreement magnitudes are era-specific: pilot panel (3 mixed LLM judges, session-5 bank) vs kin-matrix (5 graders, session-5 bank) vs s8 twin pairs (J4=claude-opus-4-8 and J5=gpt-5.5 on session-8 bank). Flags may compose across sources but raw magnitudes must not be averaged across eras. Single-judge J4\u00d7J5 deltas are stability-only signals, not full panel ICC. Items with only one source populated are less reliable flag candidates."
+}

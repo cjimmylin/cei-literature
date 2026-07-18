@@ -1,0 +1,203 @@
+{
+  "_caveats": [
+    "Cross-era score comparisons are INVALID: v1 pilot (session-5, SUTs kimi/llama/qwen/haiku/gpt4omini), gate era (session-6/7, same 3 SUTs but different bank version and judge epoch), and s8 J4/J5 (gpt-5-mini replaces gpt4omini; different judge model) are separate instruments. Any v1 vs s6/s7 difficulty comparison requires the S8-J4 data, where v1 ran in S2-ceiling (different SUT set, different stratum design) \u2014 still a confounded cross-stratum comparison.",
+    "Within-era s6 vs s7 gate comparison (Finding 3/4) is valid: both batches ran in the same session-6 and session-7 gate runs under identical conditions (same 3 SUTs, same judge epoch, same rubric version). The gate data cover ALL 52 s6-authored and ALL 42 s7-authored items, not just the 29/37 admitted to main \u2014 but only the 29/37 admitted items appear in the ledger.",
+    "J4 S1 stratum covers only s6 (29 items) and s7 (37 items). V1 items ran under S2-ceiling with SUTs gemini-3.5-flash / minimax-m3 / glm-5 / mistral-large-2512 \u2014 completely different SUT pool. No within-era v1 vs s6/s7 difficulty comparison is possible from s8 data.",
+    "Single-judge stability: J4 (opus) and J5 (gpt-5.5) directional findings converge for s6 vs s7 within-era, but both are single-judge readings. The meta-judging analysis in session-8 (20260717-session8-meta-judging-stats.json) should be consulted for judge reliability."
+  ],
+  "_findings": [
+    "DESIGN MIX: s7 concentrates in 'complicit' and 'steadfast' (largest design shares in s7). s6 spreads across 'complicit', 'steadfast', and 'crosswind'. v1 covers all 9 designs; s6+s7 introduce new '-N-' suffixed items into existing designs plus new 'crosswind'/'contested' designs for s6.",
+    "KIND MIX: s6 kinds={'contested': 15, 'open': 14}; s7 kinds={'contested': 21, 'open': 16}. v1 kinds={'open': 156, 'anchor': 23, 'ordinal': 16, 'contested': 4}. s7 strongly favors 'anchor' kind vs s6.",
+    "GATE-ERA DIFFICULTY (within-era, s6 vs s7 VALID): s6 mean_qwen=73.86, mean_haiku=72.95, mean_gpt4omini=53.38; s7 mean_qwen=80.78, mean_haiku=71.08, mean_gpt4omini=58.26. s7 items scored higher on average across all 3 SUTs, suggesting s7 items are easier on the gate instrument.",
+    "GAP RATE (qwen minus haiku, gate era, within-era): s6 18/29 = 62.1% nonzero; s7 29/37 = 78.4% nonzero. s7 has substantially higher gap rate, indicating stronger discrimination between the top SUT (qwen) and haiku.",
+    "J4 S1 ERA (opus judge, same stratum, within-era s6 vs s7 VALID): s6 mean_all_suts=57.1 (n=29 items); s7 mean_all_suts=62.05 (n=37 items). s7 items show higher mean score under J4 as well, consistent with gate-era finding.",
+    "V1 PILOT TRIAGE (session-5 era, v1 only \u2014 cross-era comparison INVALID): 52.8% DEAD-CEILING, 17.1% CORE-DISCRIMINATING, 10.6% flat-no-discrim. High ceiling rate (52.8%) among v1 items on the pilot instrument motivated the new-item authoring sessions."
+  ],
+  "_labeling_verified": {
+    "eps_all_v1": true,
+    "eps_n": 22,
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)",
+    "s6_n": 29,
+    "s7_n": 37,
+    "total_main": 265,
+    "v1_n": 199
+  },
+  "s6": {
+    "design_dist": {
+      "aggravate": 15,
+      "complicit": 8,
+      "steadfast": 6
+    },
+    "gate_era_scores": {
+      "_era": "Session-6/7 gate run: qwen3.7-plus / claude-haiku-4.5 / gpt-4o-mini, same judge epoch. s6 vs s7 comparison VALID within this era. v1 NOT present.",
+      "mean_gap_qwen_haiku": 13.88,
+      "mean_gpt4omini": 53.38,
+      "mean_haiku": 72.95,
+      "mean_qwen": 73.86,
+      "n_nonzero_gap": 18,
+      "n_with_gate_data": 29,
+      "pct_nonzero_gap": 62.1
+    },
+    "j4_s1_scores": {
+      "_era": "Session-8 J4 (judge=opus), S1-epochs-core stratum. SUTs: qwen3.7-plus, claude-haiku-4.5, gpt-5-mini. s6 vs s7 comparison VALID (same stratum, same SUTs, same judge). v1 ran in S2-ceiling stratum with different SUTs \u2014 cross-cohort invalid.",
+      "mean_all_suts": 57.1,
+      "mean_claude_haiku_4_5": 51.41,
+      "mean_gpt_5_mini": 64.59,
+      "mean_qwen3_7_plus": 55.31,
+      "n_with_j4_data": 29,
+      "suts_present": [
+        "claude-haiku-4.5",
+        "gpt-5-mini",
+        "qwen3.7-plus"
+      ]
+    },
+    "j5_s1_scores": {
+      "_era": "Session-8 J5 (judge=gpt-5.5), S1-epochs-core stratum. SUTs: qwen3.7-plus, claude-haiku-4.5, gpt-5-mini (not all SUTs scored all items). s6 vs s7 comparison VALID within J5 era.",
+      "mean_all_suts": 55.62,
+      "mean_claude_haiku_4_5": 50.59,
+      "mean_gpt_5_mini": 63.41,
+      "mean_qwen3_7_plus": 52.86,
+      "n_with_j5_data": 29,
+      "suts_present": [
+        "claude-haiku-4.5",
+        "gpt-5-mini",
+        "qwen3.7-plus"
+      ]
+    },
+    "kind_dist": {
+      "contested": 15,
+      "open": 14
+    },
+    "n": 29,
+    "n_contested": 15,
+    "n_episode": 0,
+    "n_neg_suffix": 29,
+    "pct_contested": 51.7,
+    "pct_neg_suffix": 100.0,
+    "tier_dist": {
+      "T2": 8,
+      "T2b": 15,
+      "T3": 6
+    },
+    "track_dist": {
+      "A": 8,
+      "B": 21
+    },
+    "v1_triage": null
+  },
+  "s7": {
+    "design_dist": {
+      "aggravate": 21,
+      "complicit": 9,
+      "steadfast": 7
+    },
+    "gate_era_scores": {
+      "_era": "Session-6/7 gate run: qwen3.7-plus / claude-haiku-4.5 / gpt-4o-mini, same judge epoch. s6 vs s7 comparison VALID within this era. v1 NOT present.",
+      "mean_gap_qwen_haiku": 14.24,
+      "mean_gpt4omini": 58.26,
+      "mean_haiku": 71.08,
+      "mean_qwen": 80.78,
+      "n_nonzero_gap": 29,
+      "n_with_gate_data": 37,
+      "pct_nonzero_gap": 78.4
+    },
+    "j4_s1_scores": {
+      "_era": "Session-8 J4 (judge=opus), S1-epochs-core stratum. SUTs: qwen3.7-plus, claude-haiku-4.5, gpt-5-mini. s6 vs s7 comparison VALID (same stratum, same SUTs, same judge). v1 ran in S2-ceiling stratum with different SUTs \u2014 cross-cohort invalid.",
+      "mean_all_suts": 62.05,
+      "mean_claude_haiku_4_5": 54.22,
+      "mean_gpt_5_mini": 69.35,
+      "mean_qwen3_7_plus": 62.59,
+      "n_with_j4_data": 37,
+      "suts_present": [
+        "claude-haiku-4.5",
+        "gpt-5-mini",
+        "qwen3.7-plus"
+      ]
+    },
+    "j5_s1_scores": {
+      "_era": "Session-8 J5 (judge=gpt-5.5), S1-epochs-core stratum. SUTs: qwen3.7-plus, claude-haiku-4.5, gpt-5-mini (not all SUTs scored all items). s6 vs s7 comparison VALID within J5 era.",
+      "mean_all_suts": 59.27,
+      "mean_claude_haiku_4_5": 49.08,
+      "mean_gpt_5_mini": 69.54,
+      "mean_qwen3_7_plus": 59.19,
+      "n_with_j5_data": 37,
+      "suts_present": [
+        "claude-haiku-4.5",
+        "gpt-5-mini",
+        "qwen3.7-plus"
+      ]
+    },
+    "kind_dist": {
+      "contested": 21,
+      "open": 16
+    },
+    "n": 37,
+    "n_contested": 21,
+    "n_episode": 0,
+    "n_neg_suffix": 37,
+    "pct_contested": 56.8,
+    "pct_neg_suffix": 100.0,
+    "tier_dist": {
+      "T2": 9,
+      "T2b": 21,
+      "T3": 7
+    },
+    "track_dist": {
+      "A": 9,
+      "B": 28
+    },
+    "v1_triage": null
+  },
+  "v1": {
+    "design_dist": {
+      "aggravate": 24,
+      "complicit": 23,
+      "crosswind": 23,
+      "dutybound": 21,
+      "liberty": 19,
+      "mending": 21,
+      "prooftext": 23,
+      "steadfast": 23,
+      "wholeheart": 22
+    },
+    "gate_era_scores": null,
+    "j4_s1_scores": null,
+    "j5_s1_scores": null,
+    "kind_dist": {
+      "anchor": 23,
+      "contested": 4,
+      "open": 156,
+      "ordinal": 16
+    },
+    "n": 199,
+    "n_contested": 4,
+    "n_episode": 0,
+    "n_neg_suffix": 0,
+    "pct_contested": 2.0,
+    "pct_neg_suffix": 0.0,
+    "tier_dist": {
+      "T2": 51,
+      "T2a": 26,
+      "T2b": 30,
+      "T3": 68,
+      "T4": 24
+    },
+    "track_dist": {
+      "A": 46,
+      "B": 153
+    },
+    "v1_triage": {
+      "_note": "Session-5 pilot era (kimi/llama/qwen/haiku/gpt4omini). Cross-era comparison to s6/s7 gate scores is INVALID.",
+      "n_triaged": 199,
+      "pct_core_discriminating": 17.1,
+      "pct_dead_ceiling": 52.8,
+      "pct_flat_no_discrim": 10.6,
+      "triage_class_dist": {
+        "CORE-DISCRIMINATING": 34,
+        "DEAD-CEILING": 105,
+        "NOISY": 36,
+        "TIER-BREAK-ONLY": 24
+      }
+    }
+  }
+}

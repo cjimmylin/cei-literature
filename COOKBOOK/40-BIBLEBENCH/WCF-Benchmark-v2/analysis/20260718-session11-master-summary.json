@@ -1,0 +1,383 @@
+{
+  "_meta": {
+    "date": "2026-07-18",
+    "bank_version": "v2.4",
+    "bank_ids_count": 287,
+    "orphan_count": 14,
+    "orphan_ids": [
+      "DUTY-C6-002",
+      "DUTY-C7-009",
+      "MEND-A-003",
+      "MEND-A-010",
+      "MEND-A-W305",
+      "NARROW-N-001",
+      "NARROW-N-002",
+      "NARROW-N-003",
+      "NARROW-N-004",
+      "NARROW-N-005",
+      "NARROW-N-006",
+      "NARROW-N-007",
+      "NARROW-N-008",
+      "NARROW-N-009"
+    ],
+    "dual_rated_items": 78,
+    "template_audit_file": "20260718-session11-qual/template-audit.json",
+    "template_audit_note": "Machinery-level audit \u2014 not included in per-item ledger"
+  },
+  "dim2_discrimination": {
+    "verdict_distribution": {
+      "DEAD-CEILING": 119,
+      "WEAK": 71,
+      "DISCRIMINATING": 97
+    }
+  },
+  "dim5_reliability": {
+    "flag_distribution": {
+      "OK": 250,
+      "LOW-AGREEMENT": 37
+    },
+    "orphan_ids_in_dim5_not_in_bank": [
+      "DUTY-C6-002",
+      "DUTY-C7-009",
+      "MEND-A-003",
+      "MEND-A-010",
+      "MEND-A-W305",
+      "NARROW-N-001",
+      "NARROW-N-002",
+      "NARROW-N-003",
+      "NARROW-N-004",
+      "NARROW-N-005",
+      "NARROW-N-006",
+      "NARROW-N-007",
+      "NARROW-N-008",
+      "NARROW-N-009"
+    ]
+  },
+  "dim7_redundancy": {
+    "flag_distribution": {
+      "OK": 280,
+      "HIGH-SIM": 7
+    }
+  },
+  "dim8_contamination": {
+    "risk_distribution": {
+      "LOW": 248,
+      "MODERATE": 29,
+      "HIGH": 10
+    }
+  },
+  "dim10_hygiene": {
+    "n_items_with_0_flags": 36,
+    "n_items_with_1plus_flags": 251,
+    "n_items_with_2plus_flags": 107
+  },
+  "crosstabs": {
+    "discrimination_x_reliability": {
+      "DEAD-CEILING": {
+        "OK": 112,
+        "LOW-AGREEMENT": 7
+      },
+      "WEAK": {
+        "OK": 54,
+        "LOW-AGREEMENT": 17
+      },
+      "DISCRIMINATING": {
+        "OK": 84,
+        "LOW-AGREEMENT": 13
+      }
+    },
+    "contamination_x_mold": {
+      "LOW": {
+        "AGG": 24,
+        "COMP": 40,
+        "CONT": 34,
+        "CROSS": 15,
+        "DUTY": 21,
+        "LIB": 19,
+        "MEND": 8,
+        "NARROW": 21,
+        "PROOF": 16,
+        "STED": 35,
+        "WHOLE": 15
+      },
+      "MODERATE": {
+        "CONT": 2,
+        "CROSS": 5,
+        "MEND": 13,
+        "NARROW": 1,
+        "STED": 1,
+        "WHOLE": 7
+      },
+      "HIGH": {
+        "CROSS": 3,
+        "PROOF": 7
+      }
+    },
+    "qual_cv_raterA_x_mold": {
+      "STRONG": {
+        "COMP": 21,
+        "CONT": 35,
+        "DUTY": 6,
+        "STED": 13
+      },
+      "ADEQUATE": {
+        "COMP": 1,
+        "CONT": 1,
+        "DUTY": 1
+      }
+    }
+  },
+  "irr_stats": {
+    "overall": {
+      "n": 78,
+      "cv": {
+        "exact_agree_pct": 76.9,
+        "linear_weighted_kappa": 0.1959
+      },
+      "rq": {
+        "exact_agree_pct": 98.7,
+        "linear_weighted_kappa": 0.0
+      },
+      "tf": {
+        "exact_agree_pct": 66.7,
+        "linear_weighted_kappa": 0.2028
+      }
+    },
+    "batch1": {
+      "n": 12,
+      "cv": {
+        "exact_agree_pct": 58.3,
+        "linear_weighted_kappa": 0.1667
+      },
+      "rq": {
+        "exact_agree_pct": 100.0,
+        "linear_weighted_kappa": 1.0
+      },
+      "tf": {
+        "exact_agree_pct": 0.0,
+        "linear_weighted_kappa": 0.0
+      }
+    },
+    "batch3": {
+      "n": 12,
+      "cv": {
+        "exact_agree_pct": 0.0,
+        "linear_weighted_kappa": 0.0
+      },
+      "rq": {
+        "exact_agree_pct": 100.0,
+        "linear_weighted_kappa": 1.0
+      },
+      "tf": {
+        "exact_agree_pct": 0.0,
+        "linear_weighted_kappa": 0.0
+      }
+    },
+    "batches_2_4_5_6_7": {
+      "n": 54,
+      "cv": {
+        "exact_agree_pct": 98.1,
+        "linear_weighted_kappa": 0.7907
+      },
+      "rq": {
+        "exact_agree_pct": 98.1,
+        "linear_weighted_kappa": 0.0
+      },
+      "tf": {
+        "exact_agree_pct": 96.3,
+        "linear_weighted_kappa": 0.8393
+      }
+    }
+  },
+  "negative_flag_summary": {
+    "items_with_any_negative_flag": 277,
+    "pct_of_287": 96.5
+  },
+  "top_20_most_flagged": [
+    {
+      "id": "AGG-C7-007",
+      "n_flags": 4,
+      "flags": [
+        "dim5:LOW-AGREEMENT",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:RUBRIC_LARGE",
+        "dim10:NON_ORDINAL_HAS_GOLD_ORDER"
+      ]
+    },
+    {
+      "id": "CROSS-C6-008",
+      "n_flags": 4,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim5:LOW-AGREEMENT",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_HIGH"
+      ]
+    },
+    {
+      "id": "CROSS-C8-002",
+      "n_flags": 4,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_LOW",
+        "dim10:RUBRIC_SMALL"
+      ]
+    },
+    {
+      "id": "PROOF-XC-W206",
+      "n_flags": 4,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim8:HIGH",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_HIGH"
+      ]
+    },
+    {
+      "id": "STED-C2-W301",
+      "n_flags": 4,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_HIGH",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "AGG-C1-005",
+      "n_flags": 3,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_LOW"
+      ]
+    },
+    {
+      "id": "AGG-C5-W304",
+      "n_flags": 3,
+      "flags": [
+        "dim5:LOW-AGREEMENT",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:NON_ORDINAL_HAS_GOLD_ORDER"
+      ]
+    },
+    {
+      "id": "AGG-C6-008",
+      "n_flags": 3,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_HIGH"
+      ]
+    },
+    {
+      "id": "AGG-C7-W204",
+      "n_flags": 3,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_HIGH"
+      ]
+    },
+    {
+      "id": "AGG-C8-002",
+      "n_flags": 3,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:POINTS_LOW"
+      ]
+    },
+    {
+      "id": "AGG-C8-W305",
+      "n_flags": 3,
+      "flags": [
+        "dim5:LOW-AGREEMENT",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:NON_ORDINAL_HAS_GOLD_ORDER"
+      ]
+    },
+    {
+      "id": "COMP-C3-007",
+      "n_flags": 3,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim5:LOW-AGREEMENT",
+        "dim10:PARTIAL_ANCHOR"
+      ]
+    },
+    {
+      "id": "COMP-C5-008",
+      "n_flags": 3,
+      "flags": [
+        "dim2:DEAD-CEILING",
+        "dim5:LOW-AGREEMENT",
+        "dim10:PARTIAL_ANCHOR"
+      ]
+    },
+    {
+      "id": "CONT-N-004",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "CONT-N-005",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "CONT-N-007",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:PARTIAL_ANCHOR",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "CONT-N-036",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:ANCHORLESS",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "CONT-N-044",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:ANCHORLESS",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "CONT-N-046",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:ANCHORLESS",
+        "dim10:RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "CONT-N-047",
+      "n_flags": 3,
+      "flags": [
+        "dim7:HIGH-SIM",
+        "dim10:ANCHORLESS",
+        "dim10:RUBRIC_LARGE"
+      ]
+    }
+  ]
+}

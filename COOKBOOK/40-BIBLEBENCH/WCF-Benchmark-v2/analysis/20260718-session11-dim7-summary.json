@@ -1,0 +1,245 @@
+{
+  "_meta": {
+    "script": "20260718-session11-dim7-redundancy.py",
+    "date": "2026-07-18",
+    "n_items": 287,
+    "n_pairs_total": 41041,
+    "sklearn_available": false,
+    "methods": [
+      "word-TF-IDF cosine (numpy)",
+      "char-3-gram Jaccard (pure-python)"
+    ]
+  },
+  "threshold_pair_counts": {
+    ">=0.90": 0,
+    ">=0.80 (NEAR-DUP)": 0,
+    ">=0.70": 1,
+    ">=0.60 (HIGH-SIM)": 4,
+    ">=0.50": 9,
+    "total_pairs": 41041
+  },
+  "flagged_counts": {
+    "NEAR-DUP_pairs": 0,
+    "HIGH-SIM_pairs": 4,
+    "RUB-CLONE_pairs": 0,
+    "NEAR-DUP_items": 0,
+    "HIGH-SIM_items": 7,
+    "OK_items": 280,
+    "rubric_clone_annotated_items": 0
+  },
+  "cluster_summary": {
+    "n_clusters": 3,
+    "largest_cluster_size": 3,
+    "largest_cluster_molds": [
+      "CONT"
+    ],
+    "total_items_in_clusters": 7
+  },
+  "cluster_inventory": [
+    {
+      "cluster_id": 3,
+      "size": 3,
+      "molds": [
+        "CONT"
+      ],
+      "member_ids": [
+        "CONT-N-007",
+        "CONT-N-036",
+        "CONT-N-044"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 2,
+      "molds": [
+        "CONT"
+      ],
+      "member_ids": [
+        "CONT-N-004",
+        "CONT-N-047"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 2,
+      "molds": [
+        "CONT"
+      ],
+      "member_ids": [
+        "CONT-N-005",
+        "CONT-N-046"
+      ]
+    }
+  ],
+  "top15_highest_sim_pairs": [
+    {
+      "id_a": "CONT-N-007",
+      "id_b": "CONT-N-036",
+      "mold_a": "CONT",
+      "mold_b": "CONT",
+      "cross_mold": false,
+      "stem_tfidf_cos": 0.728,
+      "stem_c3_jaccard": 0.7246,
+      "stem_max": 0.728,
+      "rub_tfidf_cos": 0.8594,
+      "rub_c3_jaccard": 0.8707,
+      "shared_excerpt_10w": "i on the board of a and two of our"
+    },
+    {
+      "id_a": "CONT-N-007",
+      "id_b": "CONT-N-044",
+      "mold_a": "CONT",
+      "mold_b": "CONT",
+      "cross_mold": false,
+      "stem_tfidf_cos": 0.6166,
+      "stem_c3_jaccard": 0.6369,
+      "stem_max": 0.6369,
+      "rub_tfidf_cos": 0.7485,
+      "rub_c3_jaccard": 0.7342,
+      "shared_excerpt_10w": "i on the of a small and two of our"
+    },
+    {
+      "id_a": "CONT-N-004",
+      "id_b": "CONT-N-047",
+      "mold_a": "CONT",
+      "mold_b": "CONT",
+      "cross_mold": false,
+      "stem_tfidf_cos": 0.6361,
+      "stem_c3_jaccard": 0.6344,
+      "stem_max": 0.6361,
+      "rub_tfidf_cos": 0.7866,
+      "rub_c3_jaccard": 0.722,
+      "shared_excerpt_10w": "i the of a and i which of two to"
+    },
+    {
+      "id_a": "CONT-N-005",
+      "id_b": "CONT-N-046",
+      "mold_a": "CONT",
+      "mold_b": "CONT",
+      "cross_mold": false,
+      "stem_tfidf_cos": 0.596,
+      "stem_c3_jaccard": 0.6268,
+      "stem_max": 0.6268,
+      "rub_tfidf_cos": 0.7592,
+      "rub_c3_jaccard": 0.7109,
+      "shared_excerpt_10w": "i a and two people showed real dishonor to authority"
+    }
+  ],
+  "most_redundant_pair": {
+    "id_a": "CONT-N-007",
+    "id_b": "CONT-N-036",
+    "mold_a": "CONT",
+    "mold_b": "CONT",
+    "cross_mold": false,
+    "stem_tfidf_cos": 0.728,
+    "stem_c3_jaccard": 0.7246,
+    "stem_max": 0.728,
+    "rub_tfidf_cos": 0.8594,
+    "rub_c3_jaccard": 0.8707,
+    "shared_excerpt_10w": "i on the board of a and two of our"
+  },
+  "cross_mold_vs_within_mold": {
+    "cross_mold_high_sim_pairs": 0,
+    "within_mold_high_sim_pairs": 4,
+    "top_cross_mold_pairs": []
+  },
+  "per_mold_pairwise_stats": {
+    "AGG": {
+      "n_within_pairs": 276,
+      "median_pairwise_stem_sim": 0.2553,
+      "mean_pairwise_stem_sim": 0.2586,
+      "max_pairwise_stem_sim": 0.45
+    },
+    "COMP": {
+      "n_within_pairs": 780,
+      "median_pairwise_stem_sim": 0.2137,
+      "mean_pairwise_stem_sim": 0.2161,
+      "max_pairwise_stem_sim": 0.3166
+    },
+    "CROSS": {
+      "n_within_pairs": 253,
+      "median_pairwise_stem_sim": 0.3155,
+      "mean_pairwise_stem_sim": 0.3154,
+      "max_pairwise_stem_sim": 0.392
+    },
+    "DUTY": {
+      "n_within_pairs": 210,
+      "median_pairwise_stem_sim": 0.1979,
+      "mean_pairwise_stem_sim": 0.201,
+      "max_pairwise_stem_sim": 0.2912
+    },
+    "LIB": {
+      "n_within_pairs": 171,
+      "median_pairwise_stem_sim": 0.2122,
+      "mean_pairwise_stem_sim": 0.2143,
+      "max_pairwise_stem_sim": 0.4431
+    },
+    "MEND": {
+      "n_within_pairs": 210,
+      "median_pairwise_stem_sim": 0.3174,
+      "mean_pairwise_stem_sim": 0.3192,
+      "max_pairwise_stem_sim": 0.4128
+    },
+    "PROOF": {
+      "n_within_pairs": 253,
+      "median_pairwise_stem_sim": 0.2235,
+      "mean_pairwise_stem_sim": 0.2224,
+      "max_pairwise_stem_sim": 0.2997
+    },
+    "STED": {
+      "n_within_pairs": 630,
+      "median_pairwise_stem_sim": 0.2614,
+      "mean_pairwise_stem_sim": 0.2627,
+      "max_pairwise_stem_sim": 0.464
+    },
+    "WHOLE": {
+      "n_within_pairs": 231,
+      "median_pairwise_stem_sim": 0.274,
+      "mean_pairwise_stem_sim": 0.2729,
+      "max_pairwise_stem_sim": 0.3633
+    },
+    "CONT": {
+      "n_within_pairs": 630,
+      "median_pairwise_stem_sim": 0.3508,
+      "mean_pairwise_stem_sim": 0.3573,
+      "max_pairwise_stem_sim": 0.728
+    },
+    "NARROW": {
+      "n_within_pairs": 231,
+      "median_pairwise_stem_sim": 0.2812,
+      "mean_pairwise_stem_sim": 0.2883,
+      "max_pairwise_stem_sim": 0.5034
+    }
+  },
+  "top10_within_mold_outliers_by_exceedance": [
+    {
+      "id_a": "CONT-N-007",
+      "id_b": "CONT-N-036",
+      "mold": "CONT",
+      "stem_max": 0.728,
+      "exceedance_over_mold_median": 0.3772
+    },
+    {
+      "id_a": "CONT-N-007",
+      "id_b": "CONT-N-044",
+      "mold": "CONT",
+      "stem_max": 0.6369,
+      "exceedance_over_mold_median": 0.2861
+    },
+    {
+      "id_a": "CONT-N-004",
+      "id_b": "CONT-N-047",
+      "mold": "CONT",
+      "stem_max": 0.6361,
+      "exceedance_over_mold_median": 0.2853
+    },
+    {
+      "id_a": "CONT-N-005",
+      "id_b": "CONT-N-046",
+      "mold": "CONT",
+      "stem_max": 0.6268,
+      "exceedance_over_mold_median": 0.276
+    }
+  ],
+  "_caveats": "Lexical similarity only \u2014 semantic near-duplicates with different vocabulary are NOT detected. Treat OK flags as 'no lexical redundancy', not 'unique'. TF-IDF here is corpus-relative (in-set IDF); short stems may have inflated Jaccard from shared stop-words despite normalisation. Rubric-clone detection (rub >= 0.85 AND stem < 0.60) is conservative by design: items that overlap heavily on both stem AND rubric are already caught by stem flags."
+}

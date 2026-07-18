@@ -1,0 +1,2872 @@
+{
+  "AGG-C9-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 116,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C8-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 73,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C3-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 106,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C5-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 108,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C1-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 103,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C2-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 103,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C4-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 70,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C6-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 96,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C7-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 147,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C10-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 126,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 112,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C4-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 121,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C7-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 95,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C6-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 131,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C10-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 123,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C2-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 78,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C6-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 158,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C3-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 139,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C8-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 130,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C5-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 106,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C8-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 103,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C9-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 112,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C7-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 104,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "AGG-C10-W308": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 116,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C9-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 68,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C2-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 63,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C6-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 78,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C8-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 68,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C4-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 71,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C1-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 76,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C3-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 88,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C5-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 108,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C7-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 90,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C10-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 122,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 106,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C1-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 96,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C3-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 99,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C5-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 80,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C7-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 83,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C10-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 110,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C8-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 127,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C2-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 109,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C6-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 118,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C9-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 141,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C4-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 86,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C8-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 110,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-C9-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 139,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C9-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 163,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C8-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 126,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C5-003": {
+    "public_text_overlap_ngram_len": 7,
+    "distinctiveness_score": 142,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C1-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 170,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C2-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 186,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C3-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 192,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C4-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 208,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C6-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 195,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C7-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 220,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "CROSS-C10-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 209,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-XC-W207": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 221,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "CROSS-C2-005": {
+    "public_text_overlap_ngram_len": 8,
+    "distinctiveness_score": 264,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "CROSS-C3-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 197,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C4-007": {
+    "public_text_overlap_ngram_len": 17,
+    "distinctiveness_score": 256,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "CROSS-C6-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 199,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C10-009": {
+    "public_text_overlap_ngram_len": 8,
+    "distinctiveness_score": 237,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "CROSS-C7-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 204,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C7-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 201,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C5-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 219,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "CROSS-C8-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 185,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-C9-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 264,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "CROSS-C1-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 206,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CROSS-XC-W307": {
+    "public_text_overlap_ngram_len": 7,
+    "distinctiveness_score": 258,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "DUTY-C9-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 67,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C5-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 99,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C4-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 77,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C8-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 85,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C1-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 100,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C2-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 102,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C3-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 69,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C7-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 121,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C10-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 125,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 68,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C1-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 129,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C2-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 72,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C3-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 95,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C10-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 74,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C4-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 140,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C5-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 150,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C6-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 177,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C8-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 156,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C8-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 200,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C9-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 186,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "DUTY-C9-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 190,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C6-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 60,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C4-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 69,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C8-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 88,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C2-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 79,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C5-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 69,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C1-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 107,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C7-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 97,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C9-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 108,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C10-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 92,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 116,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C1-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 98,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C3-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 152,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C10-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 86,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C9-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 129,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C4-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 171,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C6-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 113,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C5-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 135,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C5-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 140,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "LIB-C2-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 137,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C8-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 170,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C9-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 131,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C6-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 166,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C2-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 123,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C1-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 181,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C3-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 218,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C4-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 149,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-C5-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 231,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C7-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 228,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C10-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 138,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "MEND-XC-W207": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 297,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C7-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 238,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C4-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 228,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C10-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 233,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C5-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 253,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C1-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 328,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C2-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 287,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C6-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 314,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C8-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 306,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C6-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 301,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "MEND-C9-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 281,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "PROOF-C9-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 89,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C3-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 93,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C8-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 156,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C4-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 54,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C1-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 73,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C2-W201": {
+    "public_text_overlap_ngram_len": 13,
+    "distinctiveness_score": 111,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-C5-W202": {
+    "public_text_overlap_ngram_len": 23,
+    "distinctiveness_score": 129,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-C6-W203": {
+    "public_text_overlap_ngram_len": 18,
+    "distinctiveness_score": 130,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-C7-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 123,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C10-W205": {
+    "public_text_overlap_ngram_len": 16,
+    "distinctiveness_score": 114,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-XC-W206": {
+    "public_text_overlap_ngram_len": 25,
+    "distinctiveness_score": 141,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-C2-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 146,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C5-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 108,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C7-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 116,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C10-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 77,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C6-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 106,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C4-W301": {
+    "public_text_overlap_ngram_len": 27,
+    "distinctiveness_score": 170,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-C8-W302": {
+    "public_text_overlap_ngram_len": 7,
+    "distinctiveness_score": 153,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C1-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 149,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C6-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 154,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C9-W305": {
+    "public_text_overlap_ngram_len": 20,
+    "distinctiveness_score": 176,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "HIGH"
+  },
+  "PROOF-C1-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 173,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "PROOF-C7-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 169,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C4-001": {
+    "public_text_overlap_ngram_len": 6,
+    "distinctiveness_score": 132,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C5-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 124,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C9-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 120,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C10-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 111,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C2-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 137,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C1-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 134,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C3-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 135,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C6-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 135,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C7-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 152,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C8-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 167,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 181,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C6-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 192,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C7-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 159,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C8-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 171,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C1-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 185,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C3-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C2-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 209,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C4-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 234,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "STED-C5-W303": {
+    "public_text_overlap_ngram_len": 6,
+    "distinctiveness_score": 210,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C9-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 192,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C9-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 180,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C1-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 202,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-C10-W307": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 200,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C9-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 143,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C8-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 170,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C5-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 100,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C1-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 80,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C10-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 120,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C2-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 181,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C3-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 159,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C4-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 112,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C6-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 202,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C7-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 219,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 165,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C2-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 219,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-C3-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 122,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C4-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 217,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C6-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 108,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C7-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 258,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-C9-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 254,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-C1-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 208,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "WHOLE-C5-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 240,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-C8-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 222,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-C10-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 259,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "WHOLE-C8-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 217,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 144,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 139,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 114,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 129,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 153,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 121,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 130,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 4
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 155,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 167,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 189,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 156,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 130,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 142,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 173,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 91,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-013": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 191,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-016": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 162,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 5
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-017": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-018": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 187,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-019": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-020": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 180,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-021": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 187,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 5
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-022": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 194,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 5
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 139,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 132,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 141,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 146,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 120,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 129,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-012": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 217,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-015": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 164,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-017": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 189,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-018": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 133,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-020": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 161,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-021": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 123,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-022": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 148,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 59
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-023": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 151,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "COMP-N-024": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 144,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-023": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 212,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-024": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 183,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 10
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-025": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 209,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-026": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 253,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "CONT-N-027": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 157,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-028": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 214,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-030": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 206,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-031": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 157,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 10
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-032": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 208,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 4
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-034": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 190,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-036": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 115,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-037": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-039": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 219,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  },
+  "CONT-N-040": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 190,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-041": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 215,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-042": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 211,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 10
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-043": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 189,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-044": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 191,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-045": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 173,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-046": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 186,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "CONT-N-047": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-011": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 182,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-014": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 171,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 30
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-017": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-018": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 197,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-019": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 189,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-020": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 172,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "STED-N-022": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 177,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": true,
+      "style_changed_grade_delta": 0
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C8-001": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 147,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C3-002": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 115,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C4-003": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 152,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C9-004": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 119,
+    "has_named_entities": false,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C10-005": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 118,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C1-W201": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 136,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C2-W202": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 149,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C5-W203": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 134,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C6-W204": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 152,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C7-W205": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 150,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-XC-W206": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 193,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C1-006": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 195,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C2-007": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 186,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C5-008": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 174,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C6-009": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 148,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C7-010": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 163,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C1-W301": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 198,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C1-W302": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 196,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C6-W303": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 167,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-C6-W304": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 171,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-XC-W305": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 183,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "LOW"
+  },
+  "NARROW-XC-W306": {
+    "public_text_overlap_ngram_len": 0,
+    "distinctiveness_score": 230,
+    "has_named_entities": true,
+    "s8_probe": {
+      "probed": false,
+      "style_changed_grade_delta": null
+    },
+    "contamination_risk": "MODERATE"
+  }
+}

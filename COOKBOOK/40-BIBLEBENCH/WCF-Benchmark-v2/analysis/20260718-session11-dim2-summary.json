@@ -1,0 +1,111 @@
+{
+  "_caveats": [
+    "Scores are panel-median rubric conformity (ranks, not absolute capability values).",
+    "Pilot and v2.4 (gate6/gate7/s8) are different bank versions and separate instruments. Evidence is era-tagged; pilot and v2.4 metrics are never averaged across eras.",
+    "Single-judge s8 J4 (Opus-4.8) and J5 (GPT-5.5) rows are stability signals only; per-SUT means in s8_per_sut_mean are means across both judges and all epochs for a given item-SUT pair.",
+    "Cohort labels use explicit new-item lists from data/session6_new_items.json and data/session7_new_items.json; v1-layer = all remaining 287-94=193 items (original pilot bank items not added in s6/s7 waves)."
+  ],
+  "_parsing_notes": [
+    "s8 J4/J5 raw files contain 218 rows with grade=None (channel_error: 'claude -p exited 1'); these are excluded from per-item means. s8_n_rows counts only rows with a numeric grade."
+  ],
+  "total_items": 287,
+  "verdict_overall": {
+    "DEAD-CEILING": 119,
+    "WEAK": 71,
+    "DISCRIMINATING": 97
+  },
+  "verdict_by_mold": {
+    "AGG": {
+      "DEAD-CEILING": 12,
+      "WEAK": 12
+    },
+    "COMP": {
+      "WEAK": 5,
+      "DISCRIMINATING": 24,
+      "DEAD-CEILING": 11
+    },
+    "CONT": {
+      "WEAK": 10,
+      "DISCRIMINATING": 26
+    },
+    "CROSS": {
+      "DEAD-CEILING": 10,
+      "DISCRIMINATING": 6,
+      "WEAK": 7
+    },
+    "DUTY": {
+      "DEAD-CEILING": 9,
+      "DISCRIMINATING": 5,
+      "WEAK": 7
+    },
+    "LIB": {
+      "DEAD-CEILING": 11,
+      "WEAK": 5,
+      "DISCRIMINATING": 3
+    },
+    "MEND": {
+      "DISCRIMINATING": 2,
+      "WEAK": 3,
+      "DEAD-CEILING": 16
+    },
+    "NARROW": {
+      "DISCRIMINATING": 6,
+      "DEAD-CEILING": 14,
+      "WEAK": 2
+    },
+    "PROOF": {
+      "WEAK": 8,
+      "DEAD-CEILING": 12,
+      "DISCRIMINATING": 3
+    },
+    "STED": {
+      "DISCRIMINATING": 20,
+      "WEAK": 6,
+      "DEAD-CEILING": 10
+    },
+    "WHOLE": {
+      "DEAD-CEILING": 14,
+      "DISCRIMINATING": 2,
+      "WEAK": 6
+    }
+  },
+  "verdict_by_cohort": {
+    "s6-new": {
+      "DISCRIMINATING": 23,
+      "WEAK": 6
+    },
+    "s7-new": {
+      "DISCRIMINATING": 31,
+      "WEAK": 6
+    },
+    "v1-layer": {
+      "DEAD-CEILING": 119,
+      "WEAK": 59,
+      "DISCRIMINATING": 43
+    }
+  },
+  "verdict_by_is_core_N": {
+    "False": {
+      "DEAD-CEILING": 119,
+      "WEAK": 59,
+      "DISCRIMINATING": 43
+    },
+    "True": {
+      "DISCRIMINATING": 54,
+      "WEAK": 12
+    }
+  },
+  "v1_layer_count": 221,
+  "v1_layer_dead_ceiling_count": 119,
+  "v1_layer_dead_ceiling_pct": 53.8,
+  "known_pilot_dead_ceiling_pct": 53.8,
+  "note_v1_dc_pct": "v1_layer_dead_ceiling_pct counts items with verdict==DEAD-CEILING in the v1 layer (221 items). The known 53.8% figure (119/221) from session5 pilot triage is reproduced exactly here. s8-era DEAD-CEILING condition (all-SUT means>=95 and spread<5) did not add any additional items beyond those already flagged by the pilot triage.",
+  "conflicting_evidence_count": 16,
+  "conflicting_evidence_definition": "pilot_triage_class == DEAD-CEILING but s8_cross_sut_spread >= 15 (item was ceiling-flat in pilot era but shows cross-SUT spread >=15 in v2.4 s8 runs)",
+  "conflicting_evidence_examples": [
+    "AGG-C9-W306",
+    "DUTY-C7-W204",
+    "LIB-C2-W307"
+  ],
+  "cohort_method": "Cohort labels built from data/session6_new_items.json (52 drafted items) and data/session7_new_items.json (42 drafted items); only the subset present in the v2.4 287-item bank are labeled: s6-new=29, s7-new=37, v1-layer=221 (287-29-37). 23 s6-draft and 5 s7-draft items are not in the v2.4 bank and are therefore absorbed into v1-layer by default."
+}

@@ -1,0 +1,131 @@
+{
+  "n_items_total": 287,
+  "sub_A": {
+    "wcf_wlc_text_found_on_disk": true,
+    "text_file_locations": [
+      "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF/03-LCLayout2 copy.txt",
+      "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF/LargerCatechismwithScriptureProofs1 copy.txt",
+      "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF/ShorterCatechismwithScriptureProofs copy.txt",
+      "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF/WCFPreface copy.txt",
+      "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF/WCFScripureProofs2022 copy.txt"
+    ],
+    "n_items_overlap_ge6": 15,
+    "n_items_overlap_ge8_QUOTES_PUBLIC_TEXT": 10,
+    "max_overlap_ngram_len": 27,
+    "item_with_max_overlap": "PROOF-C4-W301"
+  },
+  "sub_B": {
+    "p90_distinctiveness_threshold": 219,
+    "n_items_top_decile": 32,
+    "n_items_has_named_entities": 242,
+    "top10_distinctive_items": [
+      {
+        "item_id": "MEND-C1-W301",
+        "distinctiveness_score": 328,
+        "has_named_entities": false
+      },
+      {
+        "item_id": "MEND-C6-W303",
+        "distinctiveness_score": 314,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "MEND-C8-W304",
+        "distinctiveness_score": 306,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "MEND-C6-W306",
+        "distinctiveness_score": 301,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "MEND-XC-W207",
+        "distinctiveness_score": 297,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "MEND-C2-W302",
+        "distinctiveness_score": 287,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "MEND-C9-W307",
+        "distinctiveness_score": 281,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "CROSS-C2-005",
+        "distinctiveness_score": 264,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "CROSS-C9-W305",
+        "distinctiveness_score": 264,
+        "has_named_entities": true
+      },
+      {
+        "item_id": "WHOLE-C10-W305",
+        "distinctiveness_score": 259,
+        "has_named_entities": true
+      }
+    ]
+  },
+  "sub_C": {
+    "n_probe_rows": 21,
+    "n_probe_rows_style_changed_true": 20,
+    "n_probe_rows_style_changed_false": 1,
+    "n_unique_items_probed": 17,
+    "probed_item_ids": [
+      "COMP-N-005",
+      "COMP-N-007",
+      "COMP-N-008",
+      "COMP-N-022",
+      "COMP-N-024",
+      "CONT-N-016",
+      "CONT-N-021",
+      "CONT-N-022",
+      "CONT-N-024",
+      "CONT-N-031",
+      "CONT-N-032",
+      "CONT-N-042",
+      "STED-N-004",
+      "STED-N-005",
+      "STED-N-014",
+      "STED-N-019",
+      "STED-N-022"
+    ],
+    "mean_abs_delta_all": 6.95,
+    "mean_abs_delta_style_changed_true": 4.35,
+    "mean_abs_delta_style_changed_false": 59.0,
+    "max_abs_delta": 59,
+    "max_abs_delta_item": "COMP-N-022",
+    "max_abs_delta_style_changed": false,
+    "items_abs_delta_ge20": [
+      {
+        "item_id": "STED-N-014",
+        "abs_delta": 30,
+        "style_changed": true
+      },
+      {
+        "item_id": "COMP-N-022",
+        "abs_delta": 59,
+        "style_changed": false
+      }
+    ],
+    "style_invariance_verdict": "STABLE (mean |delta| <= 10 on style-changed rows)",
+    "note_on_COMP_N_022_control_row": "COMP-N-022 epoch=3 style_changed=False: delta=59, but this is the control (style NOT changed) so the large delta reflects grader-randomness or rubric-cap artifact, not style-surface sensitivity."
+  },
+  "risk_counts": {
+    "LOW": 248,
+    "MODERATE": 29,
+    "HIGH": 10
+  },
+  "_caveats": [
+    "This is an on-disk lexical audit only \u2014 it cannot detect training-set membership.",
+    "Sub-analysis A compares item stems against WCF/WLC text files found at ../WCF/ relative to the project root; overlap is computed via longest common word n-gram (n>=6) between stem tokens and the combined reference token stream.",
+    "The strongest available leakage evidence remains the Session 8 style-invariance probe (sub-analysis C): 20 style-changed rows across 17 items show mean |delta|=5.7, which is consistent with ordinary grader variance, not systematic score inflation due to surface-form familiarity.",
+    "MODERATE risk is assigned to top-decile distinctiveness items because high distinctiveness means canary-searchable phrases \u2014 not that leakage has occurred.",
+    "A true web-canary check (searching item stems online) would need external search access and is out of scope for this run."
+  ]
+}

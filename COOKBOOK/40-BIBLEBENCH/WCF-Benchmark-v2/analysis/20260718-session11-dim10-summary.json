@@ -1,0 +1,255 @@
+{
+  "generated_by": "20260718-session11-dim10-hygiene.py",
+  "date": "2026-07-18",
+  "corpus": {
+    "total_items": 287,
+    "main_file_items": 265,
+    "episode_file_items": 22
+  },
+  "clean_items": {
+    "count": 36,
+    "ids": [
+      "AGG-C9-001",
+      "AGG-C2-W201",
+      "AGG-C10-W205",
+      "AGG-C2-010",
+      "AGG-C6-W301",
+      "WHOLE-C9-001",
+      "WHOLE-C5-003",
+      "WHOLE-C1-004",
+      "WHOLE-C10-005",
+      "WHOLE-C2-W201",
+      "WHOLE-C3-W202",
+      "WHOLE-C6-W204",
+      "WHOLE-C2-006",
+      "WHOLE-C3-007",
+      "WHOLE-C4-008",
+      "WHOLE-C6-009",
+      "WHOLE-C7-010",
+      "WHOLE-C10-W305",
+      "NARROW-C3-002",
+      "NARROW-C4-003",
+      "NARROW-C9-004",
+      "NARROW-C1-W201",
+      "NARROW-C2-W202",
+      "NARROW-C5-W203",
+      "NARROW-C6-W204",
+      "NARROW-C7-W205",
+      "NARROW-XC-W206",
+      "NARROW-C1-006",
+      "NARROW-C2-007",
+      "NARROW-C5-008",
+      "NARROW-C6-009",
+      "NARROW-C7-010",
+      "NARROW-C1-W302",
+      "NARROW-C6-W303",
+      "NARROW-C6-W304",
+      "NARROW-XC-W305"
+    ]
+  },
+  "flag_counts_ranked": {
+    "PARTIAL_ANCHOR": 190,
+    "POINTS_HIGH": 70,
+    "RUBRIC_LARGE": 44,
+    "ANCHORLESS": 33,
+    "POINTS_LOW": 14,
+    "NON_ORDINAL_HAS_GOLD_ORDER": 4,
+    "STEM_SHORT_OUTLIER": 3,
+    "STEM_LONG_OUTLIER": 3,
+    "RUBRIC_SMALL": 1
+  },
+  "points_total_distribution": {
+    "4.0": 6,
+    "4.5": 8,
+    "5.0": 83,
+    "5.5": 56,
+    "6.0": 64,
+    "6.5": 18,
+    "7.0": 16,
+    "7.5": 6,
+    "8.0": 19,
+    "8.5": 8,
+    "9.0": 3
+  },
+  "points_dominant_band": [
+    5.0,
+    6.0
+  ],
+  "rubric_size_distribution": {
+    "3": 1,
+    "4": 14,
+    "5": 163,
+    "6": 65,
+    "7": 29,
+    "8": 14,
+    "9": 1
+  },
+  "rubric_band_spec": [
+    4,
+    6
+  ],
+  "rubric_actual_range": [
+    3,
+    9
+  ],
+  "stem_length_stats": {
+    "chars_min": 381,
+    "chars_max": 1811,
+    "chars_mean": 989.3,
+    "chars_median": 954,
+    "chars_p1": 430,
+    "chars_p99": 1749,
+    "words_min": 61,
+    "words_max": 339,
+    "words_mean": 170.1,
+    "words_median": 164,
+    "words_p1": 67,
+    "words_p99": 316
+  },
+  "anchor_citation_pattern": {
+    "regex": "^(WLC Q\\d+([\u2013\\-]\\d+)?(\\s+(H[1-4]|Rule[s]?\\s+\\d+([\u2013\\-]\\d+)?|head\\s+\\d+|Q\\d+))?|WCF \\d+\\.\\d+|WSC Q\\d+)$",
+    "description": "WLC Q### [optional sub-locator] | WCF chapter.section | WSC Q##",
+    "total_non_empty_anchors": 859,
+    "conforming": 859,
+    "deviants": 0
+  },
+  "duplicate_check": {
+    "duplicate_ids_found": false,
+    "duplicate_ids": {},
+    "duplicate_keys_found": false,
+    "duplicate_keys_count": 0
+  },
+  "gold_order_consistency": {
+    "kind_crosstab": {
+      "anchor": {
+        "with_gold_order": 0,
+        "without_gold_order": 23
+      },
+      "contested": {
+        "with_gold_order": 4,
+        "without_gold_order": 36
+      },
+      "episode": {
+        "with_gold_order": 0,
+        "without_gold_order": 22
+      },
+      "open": {
+        "with_gold_order": 0,
+        "without_gold_order": 186
+      },
+      "ordinal": {
+        "with_gold_order": 16,
+        "without_gold_order": 0
+      }
+    },
+    "non_ordinal_with_gold_order_violations": [
+      "AGG-C7-007",
+      "AGG-C3-W302",
+      "AGG-C5-W304",
+      "AGG-C8-W305"
+    ],
+    "violation_count": 4
+  },
+  "episode_field_consistency": {
+    "main_items_with_episode_true": 0,
+    "ep_items_missing_pressure_turn": 0,
+    "main_items_with_pressure_turn": 0
+  },
+  "commandments_summary": {
+    "xc_items": 13,
+    "xc_note": "XC = cross-commandment; treated as valid special value",
+    "empty_commandments": 0,
+    "out_of_range": 0
+  },
+  "schema_gap_mold_provenance": {
+    "note": "Neither 'mold' nor 'provenance' is an explicit field in wcf_main.jsonl or wcf_episodes.jsonl. Cohort/session provenance is inferred from the id prefix (AGG/COMP/CROSS/\u2026) and the session draft lists in data/session*-drafts/. This is a structural schema gap \u2014 no per-item flag emitted.",
+    "items_with_mold_field": 0,
+    "items_with_provenance_field": 0
+  },
+  "worst_hygiene_top10": [
+    {
+      "id": "AGG-C7-007",
+      "n_flags": 3,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "RUBRIC_LARGE",
+        "NON_ORDINAL_HAS_GOLD_ORDER"
+      ]
+    },
+    {
+      "id": "CROSS-C8-002",
+      "n_flags": 3,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_LOW",
+        "RUBRIC_SMALL"
+      ]
+    },
+    {
+      "id": "STED-C1-W201",
+      "n_flags": 3,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_HIGH",
+        "RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "STED-C2-W301",
+      "n_flags": 3,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_HIGH",
+        "RUBRIC_LARGE"
+      ]
+    },
+    {
+      "id": "AGG-C1-005",
+      "n_flags": 2,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_LOW"
+      ]
+    },
+    {
+      "id": "AGG-C3-W302",
+      "n_flags": 2,
+      "hygiene_flags": [
+        "POINTS_HIGH",
+        "NON_ORDINAL_HAS_GOLD_ORDER"
+      ]
+    },
+    {
+      "id": "AGG-C5-W304",
+      "n_flags": 2,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "NON_ORDINAL_HAS_GOLD_ORDER"
+      ]
+    },
+    {
+      "id": "AGG-C6-008",
+      "n_flags": 2,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_HIGH"
+      ]
+    },
+    {
+      "id": "AGG-C7-W204",
+      "n_flags": 2,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_HIGH"
+      ]
+    },
+    {
+      "id": "AGG-C8-002",
+      "n_flags": 2,
+      "hygiene_flags": [
+        "PARTIAL_ANCHOR",
+        "POINTS_LOW"
+      ]
+    }
+  ]
+}

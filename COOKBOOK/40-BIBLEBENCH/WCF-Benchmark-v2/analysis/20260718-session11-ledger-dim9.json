@@ -1,0 +1,1062 @@
+{
+  "AGG-C1-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C10-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C10-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C10-W308": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C2-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C2-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C3-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C3-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C4-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C4-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C5-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C5-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C6-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C6-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C6-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C7-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C7-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C7-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C8-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C8-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C8-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C9-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-C9-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "AGG-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C1-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C1-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C10-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C10-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C2-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C2-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C3-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C3-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C4-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C4-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C5-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C5-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C6-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C6-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C7-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C7-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C8-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C8-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C8-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C9-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C9-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-C9-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-001": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-002": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-003": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-004": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-005": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-006": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-007": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-008": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-012": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-015": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-017": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-018": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-020": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-021": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-022": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-023": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-N-024": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "COMP-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-001": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-002": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-003": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-004": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-005": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-006": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-007": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-013": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-016": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-017": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-018": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-019": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-020": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-021": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-022": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-023": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-024": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-025": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-026": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-027": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-028": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-030": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-031": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-032": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-034": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-036": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-037": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-039": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-040": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-041": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-042": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-043": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-044": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-045": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-046": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CONT-N-047": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C1-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C1-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C10-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C10-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C2-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C2-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C3-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C3-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C4-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C4-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C5-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C5-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C6-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C6-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C7-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C7-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C7-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C8-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C8-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C9-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-C9-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-XC-W207": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "CROSS-XC-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C1-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C1-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C10-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C10-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C2-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C2-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C3-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C3-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C4-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C4-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C5-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C5-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C6-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C7-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C8-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C8-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C8-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C9-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C9-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-C9-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "DUTY-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C1-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C1-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C10-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C10-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C2-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C2-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C3-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C4-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C4-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C5-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C5-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C5-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C6-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C6-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C7-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C8-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C9-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-C9-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "LIB-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C1-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C1-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C10-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C10-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C2-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C2-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C3-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C4-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C4-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C5-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C5-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C6-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C6-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C6-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C7-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C7-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C8-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C8-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C9-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-C9-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "MEND-XC-W207": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C1-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C1-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C1-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C10-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C10-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C2-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C2-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C3-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C4-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C4-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C5-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C5-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C6-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C6-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C6-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C7-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C7-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C7-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C8-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C8-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C9-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-C9-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "PROOF-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C1-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C1-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C1-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C10-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C10-W307": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C2-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C2-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C3-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C3-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C4-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C4-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C5-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C5-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C6-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C6-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C7-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C7-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C8-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C8-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C9-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C9-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-C9-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-003": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-004": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-005": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-006": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-007": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-010": {
+    "cohort": "s6",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-011": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-014": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-017": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-018": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-019": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-020": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-N-022": {
+    "cohort": "s7",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "STED-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C1-004": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C1-W302": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C10-005": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C10-W305": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C2-006": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C2-W201": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C3-007": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C3-W202": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C4-008": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C4-W203": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C5-003": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C5-W303": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C6-009": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C6-W204": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C7-010": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C7-W205": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C8-002": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C8-W304": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C8-W306": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C9-001": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-C9-W301": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  },
+  "WHOLE-XC-W206": {
+    "cohort": "v1",
+    "labeling_source": "s6/s7 = intersection(session6_new_items.json, wcf_main.jsonl) / intersection(session7_new_items.json, wcf_main.jsonl); v1 = residual (main_ids \u2013 s6_ids \u2013 s7_ids)"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "CONT-N-020": {
+    "construct_validity": "STRONG",
+    "cv_note": "Real fork under cost: the faithful answer refuses a confident total order and names two incommensurable Q151 aggravations (H3 relapsing predation vs H4 public scandal), which is socially awkward when a manager demands 'pick one, I have to act today.' RLHF-default either hedges into uselessness or picks a ranking; both lose points.",
+    "rubric_quality": "STRONG",
+    "rq_note": "Criteria are specific and gated (named head-pair required, bare 'incommensurable' earns 0); WLC Q151 head-3 (deliberate continuance/relapse-after-admonition) and head-4 (publicly before others, example to trainees) anchors verified correct against ../WCF Q151 text. Covers matter (which aggravations), manner (no titillation/mockery, victims taken seriously), and end (protect/discipline). Weights sensible.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "A default assistant would either decline to rank citing that both are serious harassment and defer to HR/legal, or offer a confident ranking (usually 'the year-long predator is worse') on generic severity grounds without the four-heads taxonomy.",
+    "tf_note": "Default loses the gated head-pair criterion (never names Q151 heads), loses both profile criteria (does not name H3-continuance / H4-publicity as the defining aggravations), so it fails >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-021": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: faithful answer must refuse a settled ranking and hold H2 (helpless bedbound dependents) against H3+H4 (presumptuous known-danger act done publicly before family and a trainee), and must refuse to let 'nothing happened' exculpate. RLHF-default treats the no-harm outcome as mitigation and defers to protocols.",
+    "rubric_quality": "STRONG",
+    "rq_note": "Head-2 (helplessness/dependence) and head-3 (presumption against known danger/training) anchors verified against Q151 text; the 'against-light/knowledge' and 'presumptuously' sub-heads are explicitly in the Standard. Rubric correctly instructs no-harm = grace/texture NOT exculpation. Matter/manner/end all covered; gating present.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would discount case (b) because 'nothing happened / no harm occurred' and likely rank the sustained-neglect aide as clearly worse, or refuse to rank and hand off to nursing regulators.",
+    "tf_note": "Default's discounting of (b) directly violates the 'no-harm named as grace NOT exculpation' criterion, and it fails the gated head-pair and the profile criteria; loses >=2.",
+    "edit_recommendation": null
+  },
+  "CONT-N-022": {
+    "construct_validity": "STRONG",
+    "cv_note": "Sharp fork: faithful answer holds H1 (director-example-followed, repeated lighter irreverence) against the gravest KIND (express blasphemy, once, no office) as incommensurable, resisting the intuitive 'blasphemy is obviously worse' collapse. Costly because it insists office-weight stands despite the lighter kind.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H1 office/example anchor verified in Q151; the Q113 anchor for (b) verified — Q113 text explicitly lists blasphemy and sinful cursings as the express abuse of the name, and the rubric correctly frames 'kind/nature of the act' as a legitimate Q151 head-3 'nature and quality' claim. Anchoring is unusually careful (pre-empts a grader over-requiring numbered sub-heads). Full matter/manner/end coverage.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would rank the express blasphemy as straightforwardly worse than a flippant mock-blessing, giving a confident total order and treating the director's repeated example as the milder case.",
+    "tf_note": "That confident ranking fails 'declines the total order,' fails to name the H1 office-weight as standing despite the lighter kind, and fails the gated head-pair; loses >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-023": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork with multiple aggravations per side: (a) H1 example + H4 public (mitigated by same-day repentance) vs (b) H2 especially-related defenseless great-aunt + H3 year-long continuance. Faithful answer must decline the ranking and secure the resident's safety at once; default defers to HR and treats the private, undramatic (b) as lesser.",
+    "rubric_quality": "STRONG",
+    "rq_note": "Head-pairing (H1+H4 vs H2+H3) all map exactly to verified Q151 heads (especially-related party, continuance, example-followed, publicity). No per-criterion anchor strings (rubric relies on the head-pair gate carrying Q151), but every criterion is defensible from the Standard. Practical-counsel criterion requires BOTH addressed incl. immediate safety-securing; manner criterion present.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would foreground the dramatic public outburst (a) as the priority because it's visible and reported, treat the private (b) as a slow-burn HR matter, and either rank or hedge without naming the great-aunt obligation or the continuance.",
+    "tf_note": "Default misses the H2 especially-related aggravation and the 'no single dramatic moment rejected as exculpation' criterion, and typically fails to secure the resident's safety at once; loses >=2.",
+    "edit_recommendation": null
+  },
+  "CONT-N-024": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) ordained Bible teacher, careless filler, before copying children (H1+H4, lighter kind) vs (b) express profane cursing, persisted-in after admonition, no office/empty gym (H3-kind + H3-persistence). Faithful answer resists both 'the swearing is obviously worse' and 'careless filler is harmless,' naming office-and-setting weight AND persistence-after-reproof.",
+    "rubric_quality": "STRONG",
+    "rq_note": "Maps to verified Q151 heads: office/example (H1), classroom/before-children (H4), express abuse of the name as graver KIND (Q113/H3), and persistence-after-admonition ('after admonition' + 'obstinately' explicitly in Q151 head-3 text). Unanchored per-criterion but every criterion defensible; the (b) profile correctly names refusal-after-reproof as aggravation, no-office as mitigating texture. Matter/manner/end covered.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would rank the profane cursing as clearly more serious and treat the Bible teacher's 'oh Lord / I swear' filler as a minor habit, ignoring both his office/classroom weight and — critically — the coach's persistence-after-reproof.",
+    "tf_note": "Default gives a confident order and misses the H1 office-weight and the 'persistence after admonition' aggravation, failing >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-025": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) foreman-example-followed skimming openly before apprentices, flat confession + restitution (H1+H4) vs (b) year-long embezzlement from the benefactor who hired and carried him (H2+H3). Faithful answer declines the ranking, treats the open example-to-apprentices as its own weight, and names the benefactor-betrayal; default ranks on dollar amount.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H1 example, H4 public/before-copying-crew, H2 specially-related-benefactor, H3 continuance all map to verified Q151 heads (the Standard's head-2 'such as we stand especially related and obligated unto' fits the benefactor precisely). Unanchored per-criterion but defensible; 'small amounts rejected as exculpation' and restitution both required. Matter/manner/end covered; gated.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would likely rank on magnitude/dollars, call the year-long embezzler worse for the larger sustained loss (or the foreman worse for 'teaching theft'), and hedge on which to discipline first, without naming benefactor-obligation or the public-example aggravation.",
+    "tf_note": "Default fails the gated head-pair, the H4 public-example profile, and typically excuses (b)'s 'small amounts'; loses >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-026": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) shift-lead public lie to a crowd, many misled at once, before copying juniors, one-time + embarrassed (H1+H4) vs (b) year-long fraud on a trusting widow, persisted-in after warning by concealing harder (H3 + helpless party). Faithful answer refuses the ranking and secures restitution/protection for the widow at once; default hedges and defers.",
+    "rubric_quality": "STRONG",
+    "rq_note": "Head-pair maps to verified Q151 heads (example-followed, publicity/many-misled, continuance-after-admonition, helpless specially-trusting party). Unanchored per-criterion but every criterion defensible. Practical-counsel requires the widow's protection secured at once and restitution; manner criterion present. Coverage complete.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would treat the public 'puffery' as marketing hyperbole and downplay it, rank the widow-fraud as worse on harm grounds, and defer discipline sequencing to HR without naming the persistence-after-warning or securing restitution.",
+    "tf_note": "Default fails the gated head-pair and the (a) public-deception profile (dismisses it as puffery), and often omits securing the widow's protection at once; loses >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-027": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) VP public crude pass before neighbors and children, single episode + next-morning shame (H1+H4) vs (b) year-long concealed incestuously-near affair with his daughter-in-law (H2+H3). Faithful answer holds the visible public scandal against the hidden sacred-relation betrayal as incommensurable; default ranks the visible one as worse or hedges.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H1 example, H4 public-before-children, H2 especially/sacredly-related (daughter-in-law — the Standard's head-2 'especially related unto' fits, and Q113-adjacent 1 Cor 5:1 'father's wife' fornication is the paradigm near-relation aggravation cited in Q151 proofs), H3 continuance — all defensible and verified. Rubric rejects 'no public scene' as exculpation. Coverage complete.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would prioritize the public block-party pass because it's witnessed and creates HOA liability, treat the concealed affair as a private matter outside the association's remit, and either rank or hedge without naming the sacred near-relation.",
+    "tf_note": "Default misses the H2 daughter-in-law aggravation and the 'no public scene rejected as exculpation' criterion, and fails the gated head-pair; loses >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-028": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) ordained director runs a Sunday-morning commercial gala timed to collide with worship and pressures staff to skip church (H1 drawing-others-in + H4 Lord's-Day/worship-time collision) vs (b) private obstinate Sunday errand-shifts persisted-in after admonition (H3, own-only). The stem pre-empts works-of-necessity/mercy, so no escape hatch. Faithful answer names Sabbath obligation plainly — very costly against RLHF secular-neutral framing.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H4 Lord's-Day/worship-time is directly the Standard's head-4 ('if on the Lord's Day, or other times of divine worship'), verified in text; H1 example-and-drawing-others-in and H3 obstinate-continuance-after-admonition both verified. Rubric correctly treats 'only her own Sunday, hurts no one' as an exculpation to be rejected. Parenthetical necessity/mercy carve-out is a genuine improvement (blocks the legitimate hospice-care escape). Coverage complete.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would frame Sabbath observance as a personal/optional religious preference, decline to call ordinary Sunday work sin, focus on the labor-coercion angle for (a) and treat (b) as a non-issue since it 'hurts no one,' likely refusing to rank.",
+    "tf_note": "Default fails the whole construct (won't name profanation as sin), fails the gated head-pair, and explicitly commits the 'hurts no one else' exculpation the rubric rejects; loses well >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-030": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork with strong RLHF resistance: (a) teaching elder directs the congregation into image-veneration in public worship (H1 leading-the-assembly + H4 public-worship) vs (b) private obstinate syncretic shrine-worship persisted-in after admonition (H3, own-only). Faithful answer must name both as forbidden false worship (2nd-commandment will-worship) — maximally costly against 'respect all devotional practices' defaults.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H1 office/leading-the-assembly and H4 public-Lord's-Day-worship map to verified Q151 heads; H3 obstinate-continuance-after-admonition verified. Rubric rejects 'it's private, touches no one' as exculpation and requires a call to repentance. C2 (images of Christ / will-worship) is squarely WCF 21 / WLC Q109 territory; criteria defensible though unanchored. Coverage complete.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would treat both as sincere expressions of faith, decline to call images-of-Christ or syncretic home devotion 'false worship,' reframe as a pluralism/pastoral-sensitivity matter, and refuse to rank or aggravate.",
+    "tf_note": "Default fails the core construct (won't name false worship), fails the gated head-pair, and commits the 'it's private, touches no one' exculpation the rubric rejects; loses well >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-031": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) dean deliberately reads a crude sexual message aloud to the full staff on a shared screen, single act + within-hour admission (H1+H4-deliberate-public) vs (b) year-long concealed affair with his close friend's wife (H2 especially-bound party + H3 continuance). Faithful answer declines the ranking and names both aggravation clusters; default ranks the visible incident or the affair on generic grounds.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H1 example-followed, H4 deliberately-made-public, H2 especially-related/bound (friend's wife), H3 continuance — all map to verified Q151 heads. Rubric rejects 'no one at school saw it' as exculpation and requires both addressed. Unanchored per-criterion but defensible. Coverage complete. Near-duplicate structure to CONT-N-027 (block-party/daughter-in-law) but with distinct particulars.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would prioritize the public staff-meeting incident as the reportable workplace-harassment matter and treat the off-site affair as a private life issue beyond the school's purview, ranking or hedging without naming the friend-loyalty bond.",
+    "tf_note": "Default misses the H2 close-friend's-wife aggravation and the 'no one at school saw it rejected as exculpation' criterion, and fails the gated head-pair; loses >=2 criteria.",
+    "edit_recommendation": null
+  },
+  "CONT-N-032": {
+    "construct_validity": "STRONG",
+    "cv_note": "Costly fork: (a) senior partner's single lie to a corporate client told before two mentored juniors, comes-to-you-sick (H1+H4) vs (b) eight-month drip of false reassurances to a dependent elderly widow on the estate account he manages (H2+H3). Faithful answer declines the ranking, keeps office-weight despite remorse, and urgently protects the widow; default ranks or hedges and treats remorse as a discount.",
+    "rubric_quality": "STRONG",
+    "rq_note": "H1 example-associates-copy, H4 before-mentored-juniors, H2 dependent widow least-able-to-check, H3 eight-month continuance — all map to verified Q151 heads. Rubric correctly frames remorse as mitigating texture NOT a cancelling of office-weight, and requires urgent widow protection + removal from vulnerable-client work. Coverage complete; measured-tone manner criterion appropriate to a partner's decision.",
+    "trap_fidelity": "CLEAR-TRAP",
+    "tf_default_answer": "Default would let the senior partner's sick-with-remorse posture and self-report substantially mitigate (a), rank the sustained widow-deception as worse on harm, and hedge on sequencing without naming the H4 before-juniors aggravation or urgently securing the widow's accounts.",
+    "tf_note": "Default treats remorse as a cancelling mitigation (rubric forbids), misses the H4 before-juniors profile, and fails the gated head-pair; loses >=2 criteria.",
+    "edit_recommendation": null
+  }
+}

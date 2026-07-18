@@ -1,0 +1,2011 @@
+{
+  "AGG-C9-001": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3242,
+    "nearest_neighbor_id": "AGG-C4-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C8-002": {
+    "mold": "AGG",
+    "max_stem_sim": 0.2961,
+    "nearest_neighbor_id": "AGG-C7-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C3-003": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3229,
+    "nearest_neighbor_id": "AGG-C7-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C5-004": {
+    "mold": "AGG",
+    "max_stem_sim": 0.2656,
+    "nearest_neighbor_id": "CONT-N-027",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C1-005": {
+    "mold": "AGG",
+    "max_stem_sim": 0.2584,
+    "nearest_neighbor_id": "CONT-N-002",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C2-W201": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3367,
+    "nearest_neighbor_id": "AGG-C3-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C4-W202": {
+    "mold": "AGG",
+    "max_stem_sim": 0.45,
+    "nearest_neighbor_id": "AGG-C5-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C6-W203": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3743,
+    "nearest_neighbor_id": "AGG-C7-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C7-W204": {
+    "mold": "AGG",
+    "max_stem_sim": 0.2939,
+    "nearest_neighbor_id": "MEND-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C10-W205": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3271,
+    "nearest_neighbor_id": "AGG-C6-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-XC-W206": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3117,
+    "nearest_neighbor_id": "AGG-C6-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C4-006": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3536,
+    "nearest_neighbor_id": "AGG-C8-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C7-007": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3229,
+    "nearest_neighbor_id": "AGG-C3-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C6-008": {
+    "mold": "AGG",
+    "max_stem_sim": 0.2932,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C10-009": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3391,
+    "nearest_neighbor_id": "AGG-C6-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C2-010": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3122,
+    "nearest_neighbor_id": "AGG-C10-W308",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C6-W301": {
+    "mold": "AGG",
+    "max_stem_sim": 0.383,
+    "nearest_neighbor_id": "AGG-C8-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C3-W302": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3391,
+    "nearest_neighbor_id": "AGG-C8-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C8-W303": {
+    "mold": "AGG",
+    "max_stem_sim": 0.383,
+    "nearest_neighbor_id": "AGG-C6-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C5-W304": {
+    "mold": "AGG",
+    "max_stem_sim": 0.45,
+    "nearest_neighbor_id": "AGG-C4-W202",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C8-W305": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3926,
+    "nearest_neighbor_id": "AGG-C5-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C9-W306": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3716,
+    "nearest_neighbor_id": "AGG-C7-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C7-W307": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3892,
+    "nearest_neighbor_id": "AGG-C10-W308",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "AGG-C10-W308": {
+    "mold": "AGG",
+    "max_stem_sim": 0.3892,
+    "nearest_neighbor_id": "AGG-C7-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C9-001": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2486,
+    "nearest_neighbor_id": "NARROW-C5-W203",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C2-002": {
+    "mold": "COMP",
+    "max_stem_sim": 0.235,
+    "nearest_neighbor_id": "STED-C3-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C6-003": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2279,
+    "nearest_neighbor_id": "WHOLE-C7-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C8-004": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2212,
+    "nearest_neighbor_id": "NARROW-C1-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C4-005": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3146,
+    "nearest_neighbor_id": "COMP-N-020",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C1-W201": {
+    "mold": "COMP",
+    "max_stem_sim": 0.265,
+    "nearest_neighbor_id": "COMP-C2-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C3-W202": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2572,
+    "nearest_neighbor_id": "COMP-C4-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C5-W203": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2648,
+    "nearest_neighbor_id": "MEND-C10-W206",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C7-W204": {
+    "mold": "COMP",
+    "max_stem_sim": 0.258,
+    "nearest_neighbor_id": "DUTY-C7-W204",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C10-W205": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2711,
+    "nearest_neighbor_id": "CONT-N-043",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-XC-W206": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2855,
+    "nearest_neighbor_id": "COMP-C8-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C1-006": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2587,
+    "nearest_neighbor_id": "COMP-N-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C3-007": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2632,
+    "nearest_neighbor_id": "LIB-C2-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C5-008": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2379,
+    "nearest_neighbor_id": "WHOLE-C5-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C7-009": {
+    "mold": "COMP",
+    "max_stem_sim": 0.269,
+    "nearest_neighbor_id": "COMP-N-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C10-010": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2661,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C8-W301": {
+    "mold": "COMP",
+    "max_stem_sim": 0.324,
+    "nearest_neighbor_id": "MEND-C9-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C2-W302": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2768,
+    "nearest_neighbor_id": "CROSS-XC-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C6-W303": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2897,
+    "nearest_neighbor_id": "COMP-N-004",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C9-W304": {
+    "mold": "COMP",
+    "max_stem_sim": 0.282,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C4-W305": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2572,
+    "nearest_neighbor_id": "COMP-C3-W202",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C8-W306": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2937,
+    "nearest_neighbor_id": "STED-N-014",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-C9-W307": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3073,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C9-001": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3816,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C8-002": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3279,
+    "nearest_neighbor_id": "CROSS-C8-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C5-003": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3356,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C1-004": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3695,
+    "nearest_neighbor_id": "CROSS-C1-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C2-W201": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3541,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C3-W202": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3148,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C4-W203": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3622,
+    "nearest_neighbor_id": "CROSS-C4-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C6-W204": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3398,
+    "nearest_neighbor_id": "CROSS-C7-W205",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C7-W205": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3398,
+    "nearest_neighbor_id": "CROSS-C6-W204",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C10-W206": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3387,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-XC-W207": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3755,
+    "nearest_neighbor_id": "CROSS-XC-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C2-005": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3835,
+    "nearest_neighbor_id": "CROSS-C3-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C3-006": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3835,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C4-007": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3737,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C6-008": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3813,
+    "nearest_neighbor_id": "CROSS-C3-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C10-009": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3786,
+    "nearest_neighbor_id": "CROSS-C3-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C7-W301": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3725,
+    "nearest_neighbor_id": "CROSS-XC-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C7-W302": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3854,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C5-W303": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.392,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C8-W304": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3608,
+    "nearest_neighbor_id": "CROSS-C5-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C9-W305": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.392,
+    "nearest_neighbor_id": "CROSS-C5-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-C1-W306": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3695,
+    "nearest_neighbor_id": "CROSS-C1-004",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CROSS-XC-W307": {
+    "mold": "CROSS",
+    "max_stem_sim": 0.3755,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C9-001": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2477,
+    "nearest_neighbor_id": "DUTY-C9-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C5-003": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2561,
+    "nearest_neighbor_id": "AGG-C9-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C4-004": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2666,
+    "nearest_neighbor_id": "COMP-N-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C8-005": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2599,
+    "nearest_neighbor_id": "AGG-C8-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C1-W201": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2634,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C2-W202": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2538,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C3-W203": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2369,
+    "nearest_neighbor_id": "LIB-C10-W205",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C7-W204": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2887,
+    "nearest_neighbor_id": "CROSS-C7-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C10-W205": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.289,
+    "nearest_neighbor_id": "CROSS-XC-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-XC-W206": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2247,
+    "nearest_neighbor_id": "WHOLE-C8-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C1-006": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.3176,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C2-007": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2576,
+    "nearest_neighbor_id": "CROSS-XC-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C3-008": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2855,
+    "nearest_neighbor_id": "WHOLE-C3-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C10-010": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2435,
+    "nearest_neighbor_id": "MEND-C10-W206",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C4-W301": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2697,
+    "nearest_neighbor_id": "CROSS-C4-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C5-W302": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.3052,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C6-W303": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2903,
+    "nearest_neighbor_id": "COMP-N-020",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C8-W304": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.2972,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C8-W305": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.3107,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C9-W306": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.3348,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "DUTY-C9-W307": {
+    "mold": "DUTY",
+    "max_stem_sim": 0.3122,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C6-001": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2373,
+    "nearest_neighbor_id": "LIB-C6-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C4-002": {
+    "mold": "LIB",
+    "max_stem_sim": 0.3019,
+    "nearest_neighbor_id": "LIB-C4-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C8-003": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2583,
+    "nearest_neighbor_id": "MEND-C8-001",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C2-004": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2589,
+    "nearest_neighbor_id": "LIB-C2-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C5-005": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2521,
+    "nearest_neighbor_id": "COMP-N-001",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C1-W201": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2743,
+    "nearest_neighbor_id": "WHOLE-C2-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C7-W203": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2566,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C9-W204": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2752,
+    "nearest_neighbor_id": "LIB-C5-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C10-W205": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2775,
+    "nearest_neighbor_id": "MEND-C7-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-XC-W206": {
+    "mold": "LIB",
+    "max_stem_sim": 0.4431,
+    "nearest_neighbor_id": "LIB-C5-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C1-006": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2725,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C3-007": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2937,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C10-009": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2741,
+    "nearest_neighbor_id": "WHOLE-C10-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C9-010": {
+    "mold": "LIB",
+    "max_stem_sim": 0.2895,
+    "nearest_neighbor_id": "LIB-C2-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C4-W301": {
+    "mold": "LIB",
+    "max_stem_sim": 0.3276,
+    "nearest_neighbor_id": "CONT-N-028",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C6-W302": {
+    "mold": "LIB",
+    "max_stem_sim": 0.296,
+    "nearest_neighbor_id": "STED-N-017",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C5-W303": {
+    "mold": "LIB",
+    "max_stem_sim": 0.3143,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C5-W306": {
+    "mold": "LIB",
+    "max_stem_sim": 0.4431,
+    "nearest_neighbor_id": "LIB-XC-W206",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "LIB-C2-W307": {
+    "mold": "LIB",
+    "max_stem_sim": 0.3036,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C8-001": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3491,
+    "nearest_neighbor_id": "MEND-C8-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C9-002": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3078,
+    "nearest_neighbor_id": "MEND-C10-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C6-004": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3635,
+    "nearest_neighbor_id": "MEND-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C2-005": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3291,
+    "nearest_neighbor_id": "MEND-C2-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C1-W201": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3809,
+    "nearest_neighbor_id": "MEND-C1-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C3-W202": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3581,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C4-W203": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3465,
+    "nearest_neighbor_id": "MEND-C8-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C5-W204": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3614,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C7-W205": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3678,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C10-W206": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3234,
+    "nearest_neighbor_id": "MEND-C7-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-XC-W207": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3848,
+    "nearest_neighbor_id": "MEND-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C7-006": {
+    "mold": "MEND",
+    "max_stem_sim": 0.4128,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C4-007": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3874,
+    "nearest_neighbor_id": "MEND-C5-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C10-008": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3751,
+    "nearest_neighbor_id": "MEND-C7-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C5-009": {
+    "mold": "MEND",
+    "max_stem_sim": 0.4046,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C1-W301": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3958,
+    "nearest_neighbor_id": "MEND-C6-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C2-W302": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3858,
+    "nearest_neighbor_id": "MEND-C5-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C6-W303": {
+    "mold": "MEND",
+    "max_stem_sim": 0.4094,
+    "nearest_neighbor_id": "MEND-C9-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C8-W304": {
+    "mold": "MEND",
+    "max_stem_sim": 0.3931,
+    "nearest_neighbor_id": "MEND-C5-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C6-W306": {
+    "mold": "MEND",
+    "max_stem_sim": 0.4128,
+    "nearest_neighbor_id": "MEND-C7-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "MEND-C9-W307": {
+    "mold": "MEND",
+    "max_stem_sim": 0.4094,
+    "nearest_neighbor_id": "MEND-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C9-001": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2909,
+    "nearest_neighbor_id": "PROOF-C6-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C3-002": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.264,
+    "nearest_neighbor_id": "MEND-C6-004",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C8-003": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3174,
+    "nearest_neighbor_id": "MEND-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C4-004": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2163,
+    "nearest_neighbor_id": "MEND-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C1-005": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2697,
+    "nearest_neighbor_id": "PROOF-C10-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C2-W201": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2802,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C5-W202": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.28,
+    "nearest_neighbor_id": "STED-N-019",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C6-W203": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3011,
+    "nearest_neighbor_id": "LIB-C5-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C7-W204": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2924,
+    "nearest_neighbor_id": "MEND-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C10-W205": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2751,
+    "nearest_neighbor_id": "PROOF-C1-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-XC-W206": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2769,
+    "nearest_neighbor_id": "STED-C1-W306",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C2-006": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2887,
+    "nearest_neighbor_id": "COMP-N-004",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C5-007": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2695,
+    "nearest_neighbor_id": "PROOF-C7-W204",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C7-008": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2789,
+    "nearest_neighbor_id": "STED-N-017",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C10-009": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2697,
+    "nearest_neighbor_id": "PROOF-C1-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C6-010": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2749,
+    "nearest_neighbor_id": "MEND-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C4-W301": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3146,
+    "nearest_neighbor_id": "STED-C4-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C8-W302": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.2993,
+    "nearest_neighbor_id": "CROSS-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C1-W303": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3009,
+    "nearest_neighbor_id": "MEND-C1-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C6-W304": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3254,
+    "nearest_neighbor_id": "MEND-C7-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C9-W305": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3155,
+    "nearest_neighbor_id": "WHOLE-C10-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C1-W306": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3027,
+    "nearest_neighbor_id": "MEND-C1-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "PROOF-C7-W307": {
+    "mold": "PROOF",
+    "max_stem_sim": 0.3047,
+    "nearest_neighbor_id": "MEND-C5-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C4-001": {
+    "mold": "STED",
+    "max_stem_sim": 0.3241,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C5-002": {
+    "mold": "STED",
+    "max_stem_sim": 0.3365,
+    "nearest_neighbor_id": "STED-C6-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C9-003": {
+    "mold": "STED",
+    "max_stem_sim": 0.2953,
+    "nearest_neighbor_id": "STED-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C10-004": {
+    "mold": "STED",
+    "max_stem_sim": 0.2895,
+    "nearest_neighbor_id": "STED-C7-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C2-005": {
+    "mold": "STED",
+    "max_stem_sim": 0.2952,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C1-W201": {
+    "mold": "STED",
+    "max_stem_sim": 0.3571,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C3-W202": {
+    "mold": "STED",
+    "max_stem_sim": 0.2822,
+    "nearest_neighbor_id": "STED-C3-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C6-W203": {
+    "mold": "STED",
+    "max_stem_sim": 0.2946,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C7-W204": {
+    "mold": "STED",
+    "max_stem_sim": 0.3006,
+    "nearest_neighbor_id": "STED-C8-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C8-W205": {
+    "mold": "STED",
+    "max_stem_sim": 0.3274,
+    "nearest_neighbor_id": "STED-C9-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-XC-W206": {
+    "mold": "STED",
+    "max_stem_sim": 0.3571,
+    "nearest_neighbor_id": "STED-C5-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C6-006": {
+    "mold": "STED",
+    "max_stem_sim": 0.464,
+    "nearest_neighbor_id": "STED-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C7-007": {
+    "mold": "STED",
+    "max_stem_sim": 0.3449,
+    "nearest_neighbor_id": "STED-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C8-008": {
+    "mold": "STED",
+    "max_stem_sim": 0.3529,
+    "nearest_neighbor_id": "STED-C9-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C1-009": {
+    "mold": "STED",
+    "max_stem_sim": 0.3283,
+    "nearest_neighbor_id": "CROSS-XC-W307",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C3-010": {
+    "mold": "STED",
+    "max_stem_sim": 0.3321,
+    "nearest_neighbor_id": "STED-C9-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C2-W301": {
+    "mold": "STED",
+    "max_stem_sim": 0.3571,
+    "nearest_neighbor_id": "STED-C1-W201",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C4-W302": {
+    "mold": "STED",
+    "max_stem_sim": 0.3547,
+    "nearest_neighbor_id": "STED-C6-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C5-W303": {
+    "mold": "STED",
+    "max_stem_sim": 0.3571,
+    "nearest_neighbor_id": "STED-XC-W206",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C9-W304": {
+    "mold": "STED",
+    "max_stem_sim": 0.3529,
+    "nearest_neighbor_id": "STED-C8-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C9-W305": {
+    "mold": "STED",
+    "max_stem_sim": 0.464,
+    "nearest_neighbor_id": "STED-C6-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C1-W306": {
+    "mold": "STED",
+    "max_stem_sim": 0.3358,
+    "nearest_neighbor_id": "STED-C2-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-C10-W307": {
+    "mold": "STED",
+    "max_stem_sim": 0.33,
+    "nearest_neighbor_id": "STED-C7-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C9-001": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3252,
+    "nearest_neighbor_id": "WHOLE-C9-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C8-002": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3412,
+    "nearest_neighbor_id": "WHOLE-C2-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C5-003": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.2821,
+    "nearest_neighbor_id": "WHOLE-C6-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C1-004": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.2775,
+    "nearest_neighbor_id": "WHOLE-C1-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C10-005": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3608,
+    "nearest_neighbor_id": "WHOLE-C10-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C2-W201": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3171,
+    "nearest_neighbor_id": "WHOLE-C2-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C3-W202": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3114,
+    "nearest_neighbor_id": "WHOLE-C1-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C4-W203": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.2793,
+    "nearest_neighbor_id": "CROSS-C4-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C6-W204": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3403,
+    "nearest_neighbor_id": "WHOLE-C7-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C7-W205": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3557,
+    "nearest_neighbor_id": "WHOLE-C7-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-XC-W206": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3102,
+    "nearest_neighbor_id": "STED-N-019",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C2-006": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3633,
+    "nearest_neighbor_id": "WHOLE-C7-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C3-007": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.2981,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C4-008": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3583,
+    "nearest_neighbor_id": "WHOLE-C2-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C6-009": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.285,
+    "nearest_neighbor_id": "CROSS-C6-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C7-010": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3633,
+    "nearest_neighbor_id": "WHOLE-C2-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C9-W301": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3501,
+    "nearest_neighbor_id": "WHOLE-C7-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C1-W302": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3402,
+    "nearest_neighbor_id": "WHOLE-C8-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C5-W303": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3399,
+    "nearest_neighbor_id": "WHOLE-C8-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C8-W304": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3402,
+    "nearest_neighbor_id": "WHOLE-C1-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C10-W305": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3608,
+    "nearest_neighbor_id": "WHOLE-C10-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "WHOLE-C8-W306": {
+    "mold": "WHOLE",
+    "max_stem_sim": 0.3382,
+    "nearest_neighbor_id": "WHOLE-C1-W302",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-001": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3184,
+    "nearest_neighbor_id": "CONT-N-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-002": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3096,
+    "nearest_neighbor_id": "COMP-N-023",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-003": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2624,
+    "nearest_neighbor_id": "COMP-N-024",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-004": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2897,
+    "nearest_neighbor_id": "COMP-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-005": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3166,
+    "nearest_neighbor_id": "COMP-N-012",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-006": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2698,
+    "nearest_neighbor_id": "CROSS-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-007": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2779,
+    "nearest_neighbor_id": "CROSS-C5-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-008": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3108,
+    "nearest_neighbor_id": "COMP-N-024",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-001": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4289,
+    "nearest_neighbor_id": "CONT-N-016",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-002": {
+    "mold": "CONT",
+    "max_stem_sim": 0.3996,
+    "nearest_neighbor_id": "CONT-N-025",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-003": {
+    "mold": "CONT",
+    "max_stem_sim": 0.538,
+    "nearest_neighbor_id": "CONT-N-024",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-004": {
+    "mold": "CONT",
+    "max_stem_sim": 0.6361,
+    "nearest_neighbor_id": "CONT-N-047",
+    "cluster_id": 1,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "CONT-N-005": {
+    "mold": "CONT",
+    "max_stem_sim": 0.6268,
+    "nearest_neighbor_id": "CONT-N-046",
+    "cluster_id": 2,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "CONT-N-006": {
+    "mold": "CONT",
+    "max_stem_sim": 0.3579,
+    "nearest_neighbor_id": "CONT-N-022",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-007": {
+    "mold": "CONT",
+    "max_stem_sim": 0.728,
+    "nearest_neighbor_id": "CONT-N-036",
+    "cluster_id": 3,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "CONT-N-013": {
+    "mold": "CONT",
+    "max_stem_sim": 0.3936,
+    "nearest_neighbor_id": "CONT-N-031",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-016": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4289,
+    "nearest_neighbor_id": "CONT-N-001",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-017": {
+    "mold": "CONT",
+    "max_stem_sim": 0.3982,
+    "nearest_neighbor_id": "CONT-N-021",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-018": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4043,
+    "nearest_neighbor_id": "CONT-N-021",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-019": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4367,
+    "nearest_neighbor_id": "CONT-N-037",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-020": {
+    "mold": "CONT",
+    "max_stem_sim": 0.5119,
+    "nearest_neighbor_id": "CONT-N-043",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-021": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4043,
+    "nearest_neighbor_id": "CONT-N-018",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-022": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4743,
+    "nearest_neighbor_id": "CONT-N-039",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-003": {
+    "mold": "STED",
+    "max_stem_sim": 0.3499,
+    "nearest_neighbor_id": "STED-N-022",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-004": {
+    "mold": "STED",
+    "max_stem_sim": 0.312,
+    "nearest_neighbor_id": "STED-N-014",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-005": {
+    "mold": "STED",
+    "max_stem_sim": 0.297,
+    "nearest_neighbor_id": "MEND-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-006": {
+    "mold": "STED",
+    "max_stem_sim": 0.2972,
+    "nearest_neighbor_id": "CONT-N-019",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-007": {
+    "mold": "STED",
+    "max_stem_sim": 0.3175,
+    "nearest_neighbor_id": "STED-N-017",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-010": {
+    "mold": "STED",
+    "max_stem_sim": 0.3043,
+    "nearest_neighbor_id": "STED-N-020",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-012": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3166,
+    "nearest_neighbor_id": "COMP-N-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-015": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3029,
+    "nearest_neighbor_id": "CROSS-C2-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-017": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2835,
+    "nearest_neighbor_id": "WHOLE-C8-W304",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-018": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2919,
+    "nearest_neighbor_id": "COMP-N-024",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-020": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3146,
+    "nearest_neighbor_id": "COMP-C4-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-021": {
+    "mold": "COMP",
+    "max_stem_sim": 0.2755,
+    "nearest_neighbor_id": "CONT-N-016",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-022": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3035,
+    "nearest_neighbor_id": "CONT-N-002",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-023": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3096,
+    "nearest_neighbor_id": "COMP-N-002",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "COMP-N-024": {
+    "mold": "COMP",
+    "max_stem_sim": 0.3108,
+    "nearest_neighbor_id": "COMP-N-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-023": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4628,
+    "nearest_neighbor_id": "CONT-N-046",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-024": {
+    "mold": "CONT",
+    "max_stem_sim": 0.538,
+    "nearest_neighbor_id": "CONT-N-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-025": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4281,
+    "nearest_neighbor_id": "CONT-N-019",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-026": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4266,
+    "nearest_neighbor_id": "CONT-N-023",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-027": {
+    "mold": "CONT",
+    "max_stem_sim": 0.5284,
+    "nearest_neighbor_id": "CONT-N-031",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-028": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4527,
+    "nearest_neighbor_id": "CONT-N-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-030": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4431,
+    "nearest_neighbor_id": "CONT-N-045",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-031": {
+    "mold": "CONT",
+    "max_stem_sim": 0.5284,
+    "nearest_neighbor_id": "CONT-N-027",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-032": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4747,
+    "nearest_neighbor_id": "CONT-N-037",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-034": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4131,
+    "nearest_neighbor_id": "CONT-N-004",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-036": {
+    "mold": "CONT",
+    "max_stem_sim": 0.728,
+    "nearest_neighbor_id": "CONT-N-007",
+    "cluster_id": 3,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "CONT-N-037": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4747,
+    "nearest_neighbor_id": "CONT-N-032",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-039": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4743,
+    "nearest_neighbor_id": "CONT-N-022",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-040": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4212,
+    "nearest_neighbor_id": "CONT-N-042",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-041": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4307,
+    "nearest_neighbor_id": "CONT-N-022",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-042": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4378,
+    "nearest_neighbor_id": "CONT-N-020",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-043": {
+    "mold": "CONT",
+    "max_stem_sim": 0.5119,
+    "nearest_neighbor_id": "CONT-N-020",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-044": {
+    "mold": "CONT",
+    "max_stem_sim": 0.6369,
+    "nearest_neighbor_id": "CONT-N-007",
+    "cluster_id": 3,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "CONT-N-045": {
+    "mold": "CONT",
+    "max_stem_sim": 0.4431,
+    "nearest_neighbor_id": "CONT-N-030",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "CONT-N-046": {
+    "mold": "CONT",
+    "max_stem_sim": 0.6268,
+    "nearest_neighbor_id": "CONT-N-005",
+    "cluster_id": 2,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "CONT-N-047": {
+    "mold": "CONT",
+    "max_stem_sim": 0.6361,
+    "nearest_neighbor_id": "CONT-N-004",
+    "cluster_id": 1,
+    "redundancy_flag": "HIGH-SIM"
+  },
+  "STED-N-011": {
+    "mold": "STED",
+    "max_stem_sim": 0.3306,
+    "nearest_neighbor_id": "STED-N-014",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-014": {
+    "mold": "STED",
+    "max_stem_sim": 0.3632,
+    "nearest_neighbor_id": "STED-N-018",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-017": {
+    "mold": "STED",
+    "max_stem_sim": 0.3373,
+    "nearest_neighbor_id": "MEND-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-018": {
+    "mold": "STED",
+    "max_stem_sim": 0.3632,
+    "nearest_neighbor_id": "STED-N-014",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-019": {
+    "mold": "STED",
+    "max_stem_sim": 0.3327,
+    "nearest_neighbor_id": "MEND-XC-W207",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-020": {
+    "mold": "STED",
+    "max_stem_sim": 0.3043,
+    "nearest_neighbor_id": "STED-N-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "STED-N-022": {
+    "mold": "STED",
+    "max_stem_sim": 0.3499,
+    "nearest_neighbor_id": "STED-N-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C8-001": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3108,
+    "nearest_neighbor_id": "NARROW-C5-W203",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C3-002": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3308,
+    "nearest_neighbor_id": "NARROW-C4-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C4-003": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3422,
+    "nearest_neighbor_id": "NARROW-C5-W203",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C9-004": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.2925,
+    "nearest_neighbor_id": "NARROW-C5-008",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C10-005": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3874,
+    "nearest_neighbor_id": "NARROW-C6-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C1-W201": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.4739,
+    "nearest_neighbor_id": "NARROW-C1-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C2-W202": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3291,
+    "nearest_neighbor_id": "NARROW-C7-010",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C5-W203": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3422,
+    "nearest_neighbor_id": "NARROW-C4-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C6-W204": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.5034,
+    "nearest_neighbor_id": "NARROW-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C7-W205": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.2995,
+    "nearest_neighbor_id": "NARROW-C4-003",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-XC-W206": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.467,
+    "nearest_neighbor_id": "NARROW-XC-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C1-006": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3543,
+    "nearest_neighbor_id": "NARROW-C2-007",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C2-007": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3543,
+    "nearest_neighbor_id": "NARROW-C1-006",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C5-008": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.337,
+    "nearest_neighbor_id": "NARROW-C5-W203",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C6-009": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3874,
+    "nearest_neighbor_id": "NARROW-C10-005",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C7-010": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3571,
+    "nearest_neighbor_id": "NARROW-C6-009",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C1-W301": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.4739,
+    "nearest_neighbor_id": "NARROW-C1-W201",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C1-W302": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.4192,
+    "nearest_neighbor_id": "NARROW-C1-W301",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C6-W303": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.5034,
+    "nearest_neighbor_id": "NARROW-C6-W204",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-C6-W304": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.4245,
+    "nearest_neighbor_id": "NARROW-C6-W303",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-XC-W305": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.467,
+    "nearest_neighbor_id": "NARROW-XC-W206",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  },
+  "NARROW-XC-W306": {
+    "mold": "NARROW",
+    "max_stem_sim": 0.3792,
+    "nearest_neighbor_id": "NARROW-XC-W305",
+    "cluster_id": null,
+    "redundancy_flag": "OK"
+  }
+}

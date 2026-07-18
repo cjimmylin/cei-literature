@@ -8,3 +8,8 @@ banks-holdout/
 .env
 walkworthy_inspect.egg-info/
 *.egg-info/
+
+# Consolidated deck build/verification scratch — preserved on disk, not committed
+# (screenshots, http/render logs, deck text extraction). See the consolidation manifest:
+# REPORTS/20260717-briefing/working/20260717-consolidation-manifest.md
+REPORTS/20260717-briefing/deck/build-intermediates-20260717/

@@ -39,6 +39,17 @@ inspect eval tasks/design01_goodsamaritan.py \
   --limit 2 --max-tokens 4096
 ```
 
+## Consolidated intermediates & provenance
+
+This folder is the single, self-contained home for the project. Session intermediates
+(referee-run scratch, deck build/verification artifacts, per-model recompute outputs) were
+consolidated here on 2026-07-17 — see
+[`REPORTS/20260717-briefing/working/20260717-consolidation-manifest.md`](REPORTS/20260717-briefing/working/20260717-consolidation-manifest.md)
+for the full inventory, where each item now lives, and what was deliberately left out (v1
+stays a read-only sibling; large disposable `/tmp` test roots were not imported). Raw
+data/scratch is kept on disk (gitignored: `logs/`, `.venv/`, holdout, build scratch); the
+committed reports carry the analyzed numbers.
+
 ## Canary
 
 `WALKWORTHY-CANARY-7f3e2026` — preserved in every sample. Do not train on this data.

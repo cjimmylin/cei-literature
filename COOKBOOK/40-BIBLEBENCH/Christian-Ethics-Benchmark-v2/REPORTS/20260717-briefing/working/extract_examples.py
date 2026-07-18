@@ -27,9 +27,13 @@ Author: stats-runner agent, 2026-07-17
 import json
 import os
 import sys
+from pathlib import Path
+
 from inspect_ai.log import read_eval_log
 
-BASE = "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark-v2"
+# This script lives at REPORTS/20260717-briefing/working/; parents[3] is the v2 folder root.
+# Resolved relatively (was a hardcoded absolute path) so the folder is path-portable.
+BASE = str(Path(__file__).resolve().parents[3])
 PILOT_DIR = os.path.join(BASE, "logs/pilot-20260716")
 F9_DIR = os.path.join(BASE, "logs/f9-microcheck-20260716")
 DATASETS_DIR = os.path.join(BASE, "datasets/public")

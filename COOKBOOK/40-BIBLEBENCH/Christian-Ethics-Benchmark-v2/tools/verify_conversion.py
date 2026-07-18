@@ -27,10 +27,9 @@ from typing import Any, Dict, List, Optional, Tuple
 
 CANARY = "WALKWORTHY-CANARY-7f3e2026"
 V2_ROOT = Path(__file__).resolve().parent.parent
-V1_ROOT_DEFAULT = Path(
-    "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/"
-    "40-BIBLEBENCH/Christian-Ethics-Benchmark"
-)
+# v1 canonical benchmark is the read-only sibling (kept as a sibling per owner ruling).
+# Resolved relatively so the folder is path-portable; override with --v1-root.
+V1_ROOT_DEFAULT = V2_ROOT.parent / "Christian-Ethics-Benchmark"
 
 DESIGN_NUMS = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"]
 

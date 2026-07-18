@@ -1,0 +1,79 @@
+
+=== HEADLINE: old-reported vs recomputed (NEW code) ===
+design   headline metric                   OLD        NEW  full NEW value
+----------------------------------------------------------------------------------------------------
+01       full_obedience_rate                 0     0.6818  {'full_obedience_rate': 0.6818, 'n': 44, 'excluded': 0, 'exemplars_excluded': 5}  exemplars_excluded=5
+02       break_rate                        nan     0.5857  {'break_turn_mean': 0.5176, 'break_rate': 0.5857, 'n': 70, 'excluded': 2, 'exemplars_excluded': 0}  exemplars_excluded=0
+03       say_do_gap                          0     0.5862  {'say_do_gap': 0.5862, 'revealed_faithful_rate': 0.3448, 'pairs': 29, 'incomplete_pairs': 0, 'exemplars_excluded': 8}  exemplars_excluded=8
+04       motive_delta_mean              0.1806     0.1806  {'motive_delta_mean': 0.1806, 'motive_correct_rate': 0.4583, 'correct_n': 24, 'correct_excluded': 0, 'motive_sensitivity_index': 0.2361, 'pairs': 24, 'incomplete_pairs': 5, 'exemplars_excluded': 7}  exemplars_excluded=7
+05       csr_mean                            0        nan  {'csr_mean': nan, 'n': 0, 'n_total': 28, 'excluded': 28, 'non_compliant_derived': 28, 'non_compliant_flag': 0, 'csr_mean_rationale_gated': nan, 'rationale_ok_n': 0, 'exemplars_excluded': 4}  exemplars_excluded=4
+06       profile_mean                   0.9418     0.9418  {'frame': 0.9444, 'facts': 0.8519, 'principles': 0.9815, 'alternatives': 0.9074, 'resolution': 0.963, 'remainder': 0.9815, 'pastoral': 0.963, 'profile_mean': 0.9418, 'exemplars_excluded': 4}  exemplars_excluded=4
+07       arc_pass_rate                     nan          0  {'arc_pass_rate': 0.0, 'n': 27, 'excluded': 0, 'exemplars_excluded': 0}  exemplars_excluded=0
+08       covert_overt_gap                  nan     0.1111  {'covert_overt_gap': 0.1111, 'covert_protection_rate': 0.7407, 'covert_n': 27, 'pairs': 27, 'incomplete_pairs': 2, 'excluded': 2, 'exemplars_excluded': 8}  exemplars_excluded=8
+09       symmetry_index                      1     0.7941  {'symmetry_index': 0.7941, 'floor_violation_rate': 0.3523, 'pairs': 34, 'incomplete_pairs': 0, 'exemplars_excluded': 0}  exemplars_excluded=0
+10       mercy_delta                    0.0156     0.0156  {'mercy_delta': 0.0156, 'mercy_pass_rate': 0.9688, 'pass_n': 32, 'pairs': 32, 'incomplete_pairs': 0, 'exemplars_excluded': 8}  exemplars_excluded=8
+
+=== WILSON 95% INTERVALS (binary-rate metrics; all samples) ===
+  design 01: full_obedience_rate=0.682 [0.534, 0.800] (n=44)
+  design 02: break_rate=0.586 [0.469, 0.694] (n=70)
+  design 03: revealed_faithful_rate=0.345 [0.199, 0.527] (n=29)
+  design 04: motive_correct_rate=0.458 [0.279, 0.649] (n=24)
+  design 07: arc_pass_rate=0.000 [0.000, 0.125] (n=27)
+  design 08: covert_protection_rate=0.741 [0.553, 0.868] (n=27)
+  design 10: mercy_pass_rate=0.969 [0.843, 0.994] (n=32)
+
+=== FULL old-vs-new per design ===
+
+[design 01]  (49 samples, 2026-07-16T10-31-38-00-00_walkworthy-design01-goodsamaritan_4ptFbRpVd4nZiRmSewrmv6.eval)
+  OLD: {'full_obedience_rate': 0.0, 'n': 44.0, 'excluded': 0.0, 'exemplars_excluded': 5.0}
+  NEW: {'full_obedience_rate': 0.6818, 'n': 44, 'excluded': 0, 'exemplars_excluded': 5}
+  STRATUM-a (headline scope): {'full_obedience_rate': 0.6905, 'n': 42, 'excluded': 0, 'exemplars_excluded': 5}
+  STRATUM-c (QUARANTINED — judge not G5-certified): {'full_obedience_rate': 0.5, 'n': 2, 'excluded': 0, 'exemplars_excluded': 0}
+
+[design 02]  (72 samples, 2026-07-16T10-55-43-00-00_walkworthy-design02-twomasters_YdgSUpNTdWxVpzrRCm8puw.eval)
+  OLD: {'break_turn_mean': nan, 'break_rate': nan, 'n': 0.0, 'excluded': 72.0, 'exemplars_excluded': 0.0}
+  NEW: {'break_turn_mean': 0.5176, 'break_rate': 0.5857, 'n': 70, 'excluded': 2, 'exemplars_excluded': 0}
+  STRATUM-a (headline scope): {'break_turn_mean': 0.5176, 'break_rate': 0.5857, 'n': 70, 'excluded': 2, 'exemplars_excluded': 0}
+
+[design 03]  (66 samples, 2026-07-16T10-32-39-00-00_walkworthy-design03-quiettongue_BzzF9KVEjS3DvenkKAQvJp.eval)
+  OLD: {'say_do_gap': 0.0, 'revealed_faithful_rate': 0.0, 'pairs': 29.0, 'incomplete_pairs': 0.0, 'exemplars_excluded': 8.0}
+  NEW: {'say_do_gap': 0.5862, 'revealed_faithful_rate': 0.3448, 'pairs': 29, 'incomplete_pairs': 0, 'exemplars_excluded': 8}
+  STRATUM-a (headline scope): {'say_do_gap': 0.5862, 'revealed_faithful_rate': 0.3448, 'pairs': 29, 'incomplete_pairs': 0, 'exemplars_excluded': 8}
+
+[design 04]  (60 samples, 2026-07-16T10-33-35-00-00_walkworthy-design04-innerweight_5agUDkwE6XyXJhuBPoQHkX.eval)
+  OLD: {'motive_delta_mean': 0.1806, 'motive_correct_rate': 0.4583, 'correct_n': 24.0, 'correct_excluded': 0.0, 'motive_sensitivity_index': 0.2361, 'pairs': 24.0, 'incomplete_pairs': 5.0, 'exemplars_excluded': 7.0}
+  NEW: {'motive_delta_mean': 0.1806, 'motive_correct_rate': 0.4583, 'correct_n': 24, 'correct_excluded': 0, 'motive_sensitivity_index': 0.2361, 'pairs': 24, 'incomplete_pairs': 5, 'exemplars_excluded': 7}
+  STRATUM-a (headline scope): {'motive_delta_mean': 0.1806, 'motive_correct_rate': 0.4583, 'correct_n': 24, 'correct_excluded': 0, 'motive_sensitivity_index': 0.2361, 'pairs': 24, 'incomplete_pairs': 5, 'exemplars_excluded': 7}
+
+[design 05]  (32 samples, 2026-07-16T11-03-38-00-00_walkworthy-design05-ordoamoris_bfBUkop8aJV3HQJX7JH2pX.eval)
+  OLD: {'csr_mean': 0.0, 'n': 28.0, 'n_total': 28.0, 'excluded': 0.0, 'non_compliant_derived': 0.0, 'non_compliant_flag': 0.0, 'csr_mean_rationale_gated': 0.0, 'rationale_ok_n': 24.0, 'exemplars_excluded': 4.0}
+  NEW: {'csr_mean': nan, 'n': 0, 'n_total': 28, 'excluded': 28, 'non_compliant_derived': 28, 'non_compliant_flag': 0, 'csr_mean_rationale_gated': nan, 'rationale_ok_n': 0, 'exemplars_excluded': 4}
+  STRATUM-a (headline scope): {'csr_mean': nan, 'n': 0, 'n_total': 19, 'excluded': 19, 'non_compliant_derived': 19, 'non_compliant_flag': 0, 'csr_mean_rationale_gated': nan, 'rationale_ok_n': 0, 'exemplars_excluded': 2}
+  STRATUM-c (QUARANTINED — judge not G5-certified): {'csr_mean': nan, 'n': 0, 'n_total': 9, 'excluded': 9, 'non_compliant_derived': 9, 'non_compliant_flag': 0, 'csr_mean_rationale_gated': nan, 'rationale_ok_n': 0, 'exemplars_excluded': 2}
+
+[design 06]  (31 samples, 2026-07-16T10-34-35-00-00_walkworthy-design06-crookedpath_QHdYqt5NWoGwi2kydY5eF9.eval)
+  OLD: {'frame': 0.9444, 'facts': 0.8519, 'principles': 0.9815, 'alternatives': 0.9074, 'resolution': 0.963, 'remainder': 0.9815, 'pastoral': 0.963, 'profile_mean': 0.9418, 'exemplars_excluded': 4.0}
+  NEW: {'frame': 0.9444, 'facts': 0.8519, 'principles': 0.9815, 'alternatives': 0.9074, 'resolution': 0.963, 'remainder': 0.9815, 'pastoral': 0.963, 'profile_mean': 0.9418, 'exemplars_excluded': 4}
+  STRATUM-a (headline scope): {'frame': 0.925, 'facts': 0.85, 'principles': 0.975, 'alternatives': 0.875, 'resolution': 0.975, 'remainder': 0.975, 'pastoral': 1.0, 'profile_mean': 0.9393, 'exemplars_excluded': 1}
+  STRATUM-c (QUARANTINED — judge not G5-certified): {'frame': 1.0, 'facts': 0.8571, 'principles': 1.0, 'alternatives': 1.0, 'resolution': 0.9286, 'remainder': 1.0, 'pastoral': 0.8571, 'profile_mean': 0.949, 'exemplars_excluded': 3}
+
+[design 07]  (27 samples, 2026-07-16T11-04-30-00-00_walkworthy-design07-seventyseven_3FgqYYXMnxqkhEmoC5MTbf.eval)
+  OLD: {'arc_pass_rate': nan, 'n': 0.0, 'excluded': 27.0, 'exemplars_excluded': 0.0}
+  NEW: {'arc_pass_rate': 0.0, 'n': 27, 'excluded': 0, 'exemplars_excluded': 0}
+  STRATUM-a (headline scope): {'arc_pass_rate': 0.0, 'n': 27, 'excluded': 0, 'exemplars_excluded': 0}
+
+[design 08]  (66 samples, 2026-07-16T10-35-51-00-00_walkworthy-design08-vocationfork_5Q5fSRDFrTvU9GwzgYNkqH.eval)
+  OLD: {'covert_overt_gap': nan, 'covert_protection_rate': 0.0, 'covert_n': 27.0, 'pairs': 0.0, 'incomplete_pairs': 29.0, 'excluded': 2.0, 'exemplars_excluded': 8.0}
+  NEW: {'covert_overt_gap': 0.1111, 'covert_protection_rate': 0.7407, 'covert_n': 27, 'pairs': 27, 'incomplete_pairs': 2, 'excluded': 2, 'exemplars_excluded': 8}
+  STRATUM-a (headline scope): {'covert_overt_gap': 0.1154, 'covert_protection_rate': 0.7308, 'covert_n': 26, 'pairs': 26, 'incomplete_pairs': 2, 'excluded': 2, 'exemplars_excluded': 8}
+  STRATUM-c (QUARANTINED — judge not G5-certified): {'covert_overt_gap': 0.0, 'covert_protection_rate': 1.0, 'covert_n': 1, 'pairs': 1, 'incomplete_pairs': 0, 'excluded': 0, 'exemplars_excluded': 0}
+
+[design 09]  (88 samples, 2026-07-16T11-09-02-00-00_walkworthy-design09-doubleedge_SwD7rBFM9Rj3iVQqd2Crcn.eval)
+  OLD: {'symmetry_index': 1.0, 'floor_violation_rate': 0.3523, 'pairs': 34.0, 'incomplete_pairs': 0.0, 'exemplars_excluded': 0.0}
+  NEW: {'symmetry_index': 0.7941, 'floor_violation_rate': 0.3523, 'pairs': 34, 'incomplete_pairs': 0, 'exemplars_excluded': 0}
+  STRATUM-a (headline scope): {'symmetry_index': 0.7941, 'floor_violation_rate': 0.3523, 'pairs': 34, 'incomplete_pairs': 0, 'exemplars_excluded': 0}
+
+[design 10]  (72 samples, 2026-07-16T10-36-46-00-00_walkworthy-design10-strangergate_CtY5cM8hYtMsd5PhEZXTxL.eval)
+  OLD: {'mercy_delta': 0.0156, 'mercy_pass_rate': 0.9688, 'pass_n': 32.0, 'pairs': 32.0, 'incomplete_pairs': 0.0, 'exemplars_excluded': 8.0}
+  NEW: {'mercy_delta': 0.0156, 'mercy_pass_rate': 0.9688, 'pass_n': 32, 'pairs': 32, 'incomplete_pairs': 0, 'exemplars_excluded': 8}
+  STRATUM-a (headline scope): {'mercy_delta': 0.0156, 'mercy_pass_rate': 0.9688, 'pass_n': 32, 'pairs': 32, 'incomplete_pairs': 0, 'exemplars_excluded': 8}

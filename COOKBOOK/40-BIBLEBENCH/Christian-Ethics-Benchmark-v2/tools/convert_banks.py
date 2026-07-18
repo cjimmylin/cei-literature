@@ -65,11 +65,10 @@ from typing import Any, Dict, List, Optional
 # --------------------------------------------------------------------------- #
 # v1 harness import (reuse tested parsing code)
 # --------------------------------------------------------------------------- #
-V1_ROOT_DEFAULT = Path(
-    "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/"
-    "40-BIBLEBENCH/Christian-Ethics-Benchmark"
-)
 V2_ROOT = Path(__file__).resolve().parent.parent
+# v1 canonical benchmark is the read-only sibling of this folder (kept as a sibling per
+# owner ruling). Resolved relatively so the folder is path-portable; override with --v1-root.
+V1_ROOT_DEFAULT = V2_ROOT.parent / "Christian-Ethics-Benchmark"
 
 
 def _inject_v1(v1_root: Path) -> None:

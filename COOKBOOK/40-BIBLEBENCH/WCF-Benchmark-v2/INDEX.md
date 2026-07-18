@@ -1,0 +1,58 @@
+# WCF-Benchmark-v2 — Folder Index
+
+Single-glance map of this project. WCF-Bench-v2 is a discriminating **Christian-ethics
+conduct benchmark** (Westminster Standards) evaluated on Inspect AI, with a validated
+median-of-3 LLM judge-panel and a frontier leaderboard.
+
+**This folder is self-contained** — every artifact, dataset, script, and deliverable lives
+inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been
+vendored in (see `vendor/`). Nothing outside the folder points into it, so it can be moved,
+archived, or handed off as a single unit.
+
+## Folder map
+
+| Path | What's here |
+|------|-------------|
+| `README.md` | Original project readme |
+| `INDEX.md` | This file — the navigation entry point |
+| `20260715-session3` … `20260717-session10-deck-boot-prompt.md` | The 8 session boot-prompts (chronological build log) |
+| `DECK/` | **Session-10 summary deck** — `…-readiness-deck.md` (source) → `build-deck.py` → `.html` → `.pdf` |
+| `reports/` | 40+ session reports + the **6 session-9 readiness reports** (`20260717-session9-0{1..6}-*.md`) + `build-pdf.py` → 34pp briefing PDF |
+| `METHODS/` | Academic + operational methods write-ups and handoff |
+| `src/` | Core benchmark library: `wcf_tasks.py`, `wcf_grading.py`, `prompt_frames.py`, `episode_solver.py`, `templates/` |
+| `convert/` | Data pipeline: `yaml_to_jsonl.py` (bank → datasets) + per-session patch/new-item scripts |
+| `analysis/` | 23 per-session stat scripts + their JSON/JSONL/CSV outputs + review subfolders |
+| `data/` | Generated item bank: `wcf_main.jsonl`, `wcf_episodes.jsonl`, drafts, `BANK-VERSION.json` |
+| `tests/` | Pytest suite (converter, grading, sessions 5–7) |
+| `logs/` | Inspect-AI eval run logs (33 run-sets, 126 `.eval` + manifests) — 217 MB |
+| `vendor/v1-bank-yaml/` | **Frozen copy of the v1 item-bank YAML** the converter reads (see `vendor/README.md`) |
+| `.venv-v2/` | Python virtualenv (gitignored; rebuild via `requirements.txt`) — 258 MB |
+| `RECYCLE-BIN/`, `reports/RECYCLE-BIN/` | Superseded files (never deleted, per vault rule) |
+
+## Rebuild each deliverable
+
+| Deliverable | Command (run from this folder root) |
+|-------------|-------------------------------------|
+| Datasets (`data/wcf_main.jsonl`, `wcf_episodes.jsonl`) | `.venv-v2/bin/python convert/yaml_to_jsonl.py` (reads `vendor/v1-bank-yaml/`) |
+| Session-9 briefing PDF (34pp) | `.venv-v2/bin/python reports/20260717-session9-build-pdf.py` (pandoc → Typst) |
+| Session-10 deck HTML | `python3 DECK/20260717-session10-build-deck.py` |
+| Session-10 deck PDF | Chrome headless `--print-to-pdf` on `DECK/…-readiness-deck.html?print` (one slide/page via `body.print` CSS) |
+| Analysis stats | `.venv-v2/bin/python analysis/<compute_*.py>` (paths now anchor to this folder) |
+
+## Git / artifact notes
+
+- Tracked in the `CEI-Lit-WS` repo (shared trunk `main`).
+- **PDFs are gitignored** (root `.gitignore` `*.pdf`) — on-disk only, regenerable via the build scripts above.
+- `.venv-v2/`, `__pycache__/`, `*.pyc`, `.pytest_cache/` gitignored locally.
+- The session-10 deck `.html` is tracked; both PDFs are not.
+
+## Provenance / external touch-points
+
+- `vendor/v1-bank-yaml/` is a **frozen copy** of `../WCF-Benchmark/05-BANK-YAML/` (the v1
+  predecessor), taken 2026-07-17. The converter reads the vendored copy, so re-running the
+  pipeline no longer requires the v1 sibling. The upstream copy stays canonical.
+- Documentation (boot-prompts, METHODS, README) still *mentions* `../WCF-Benchmark/` and
+  `../Christian-Ethics-Benchmark*/` as historical context / read-only reference — these are
+  narrative pointers, not runtime dependencies.
+- `logs/*/logs.json` embed absolute dataset paths from when the evals ran (historical;
+  only relevant if you re-index/replay old eval logs).

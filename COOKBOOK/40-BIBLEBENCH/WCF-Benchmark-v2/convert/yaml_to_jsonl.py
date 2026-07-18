@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 """Convert the WCF-Benchmark v1 YAML item bank to Inspect AI JSONL datasets.
 
-Reads all multi-document YAML files in WCF-Benchmark/05-BANK-YAML/ (read-only),
+Reads all multi-document YAML files in vendor/v1-bank-yaml/ (a frozen, read-only
+copy of WCF-Benchmark v1's 05-BANK-YAML/; see vendor/README.md for provenance),
 drops dev_set_only items, routes each item to a scorer kind (mirroring v1
 wcfbench/routing.py precedence exactly), and writes two JSONL files:
 
@@ -28,7 +29,10 @@ from session6_patches import apply_patches as apply_patches_s6
 from session6_new_items import load_new_items
 
 V2_ROOT = Path(__file__).resolve().parent.parent
-BANK_DIR = V2_ROOT.parent / "WCF-Benchmark" / "05-BANK-YAML"
+# Vendored, frozen copy of WCF-Benchmark v1's 05-BANK-YAML/ (see vendor/README.md).
+# Kept in-folder so the conversion pipeline is self-contained and re-runnable
+# without the v1 sibling present.
+BANK_DIR = V2_ROOT / "vendor" / "v1-bank-yaml"
 DATA_DIR = V2_ROOT / "data"
 TEMPLATE_DIR = V2_ROOT / "src" / "templates"
 

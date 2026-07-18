@@ -5,10 +5,13 @@ Outputs: analysis/20260716-session4-pilot-stats.json
 
 import os, re, json, math
 from collections import defaultdict, Counter
+from pathlib import Path
 from inspect_ai.log import read_eval_log
 
 # ── paths ──────────────────────────────────────────────────────────────────────
-BASE = "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark-v2"
+# Anchored to this file (analysis/ → project root) so the folder is relocatable;
+# resolves to the same absolute path this literal used to hardcode.
+BASE = str(Path(__file__).resolve().parent.parent)
 MAIN_DIR = os.path.join(BASE, "logs/20260716-pilot/main")
 EP_DIR   = os.path.join(BASE, "logs/20260716-pilot/episodes")
 OUT_PATH = os.path.join(BASE, "analysis/20260716-session4-pilot-stats.json")

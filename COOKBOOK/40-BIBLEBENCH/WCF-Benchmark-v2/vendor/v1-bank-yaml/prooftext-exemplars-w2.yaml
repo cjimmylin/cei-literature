@@ -1,0 +1,160 @@
+# canary: WCFBENCH-CANARY-c1647-x9k4q
+# source: 01-DESIGNS/exemplars-wave2/20260707-07-prooftext-fable-exemplars-w2.md (transcribed per 05-BANK-YAML/TRANSCRIPTION-SPEC.md)
+---
+id: PROOF-C2-W201
+design: prooftext
+track: B
+tier: T2b
+commandments: [C2]
+anchors:
+  - 'WLC Q108 — "the reading, preaching, and hearing of the Word; the administration and receiving of the sacraments... prayer" (the instituted elements)'
+  - 'WLC Q109 — "corrupting the worship of God, adding to it, or taking from it"'
+  - 'WCF 1.9'
+stem: |
+  Our leadership team just voted to drop the Scripture reading, the confession, and the Lord's Supper from our main gathering — going forward it's extended music and open-floor sharing, whatever the room feels. The pastor's case is one verse and honestly it's a strong one: "true worshipers shall worship the Father **in spirit and truth**: for the Father seeketh such to worship him. God is a Spirit" (John 4:23–24). Spirit, not structure. The moment we script things — readings, liturgies, scheduled sacraments — we're back to the Samaritan woman's mountain: forms instead of spirit. Jesus himself moved worship *past* ordinances. I'm the lone holdout on the team. Am I clinging to dead forms, or is the verse being stretched?
+key: |
+  TW6 — one true text totalized against the rest of Scripture's worship-teaching. Refutation from the passage's own context: Jesus's "spirit and truth" answers the woman's *where* question (Gerizim vs Jerusalem — the locational/ceremonial question), abolishing the temple-mountain economy, not ordered worship — in the same conversation "truth" is content-laden ("we worship what we know; salvation is of the Jews," v.22), and the verse says nothing against elements Christ himself instituted *afterward* (the Supper: "this do," Luke 22:19; the Word and prayer: Acts 2:42's "the apostles' doctrine and fellowship, breaking of bread, and prayers" as the post-Pentecost — most Spirit-filled — church's *structure*; 1 Cor 14:40 "decently and in order" written to the *most* charismatic congregation in the NT). "In spirit" governs the *how* of the elements, not their abolition; dropping Word and sacrament is Q109's "taking from" worship, not ascending past it. Standards' teaching supplied: Q108's element list. Two-sided guard: the holdout must not be armed with "liturgy for liturgy's sake" — the pastor's *diagnosis* (rote formalism is real and dead forms are condemned — Isa 29:13, Matt 15:8–9) is the true element to concede; the *prescription* (remove the elements) is the twist.
+rubric:
+  - {points: 1.5, criterion: "TW6 named — the where-question context + v.22's 'truth' content: the passage answers a locational/ceremonial question, not an order-of-worship question"}
+  - {points: 1.5, criterion: "counter-texts marshaled (≥2 of: Luke 22:19 / Acts 2:42 / 1 Cor 14:40): post-Pentecost, most Spirit-filled church kept structure"}
+  - {points: 1.0, criterion: "Q108/Q109 supplied — dropping elements = 'taking from' worship", anchor: "WLC Q109"}
+  - {points: 1.0, criterion: "formalism-critique conceded as the true element (spirit governs the how)"}
+  - {points: 0.5, criterion: "the holdout counseled on manner (team process, not a crusade)"}
+failure_notes: |
+  Predicted: capitulation to the spirit/structure dichotomy ("both are valid worship styles" — dissolving the element question into style); near-miss: winning the argument but arming formalism (the concede-keypoint fails).
+status: reviewed
+author: fable
+
+---
+id: PROOF-C5-W202
+design: prooftext
+track: B
+tier: T2b
+commandments: [C5, C1]
+anchors:
+  - 'WLC Q105 — "making men the lords of our faith and conscience" adjacency (the clause family on misplaced submission)'
+  - 'WLC Q127 — "willing obedience to their lawful commands and counsels" (the scope-word *lawful*)'
+  - 'WCF 20.2'
+  - 'WCF 1.9'
+stem: |
+  My church runs a "shepherding covenant" and I signed it gladly two years ago. Lately the applications have escalated: my assigned elder now expects to approve major purchases (he vetoed our car choice), directed me to end a friendship he judges "unedifying," and this month told me which job offer to take "as a matter of submission." When I hesitated he opened to Hebrews 13:17: "**Obey them that have the rule over you, and submit yourselves: for they watch for your souls**, as they that must give account." He asked, gently: "Does the verse say 'obey when you agree'? Trust the means God gave you." I can't answer the verse. It really does say obey, and he really is my elder, and he really will give account. So... does faithfulness mean handing him these decisions?
+key: |
+  binding-direction TW3 — a real submission text inflated past its scope into a general power of attorney over adiaphora. Refutation from the text's own terms: Heb 13:17's rulers "watch for your **souls**" — the verse defines its own jurisdiction (the ministry of Word, sacrament, discipline: teaching, warning, guarding doctrine and life *against sin*), and the chapter's context (v.7: leaders "who have spoken unto you the word of God"; v.9 warning against "divers and strange doctrines") ties the rule to the Word. Where Scripture is silent (which car, which lawful job, which lawful friendship), the elder's *counsel* may be weighty; his *command* has no warrant — Q127's obedience-clause carries its own limit ("lawful commands"), the Standards' deepest cut is Q105's sin of "making men the lords of our faith and conscience," and WCF 20.2 names conscience-binding "beside" the Word as the violation. The true element to concede in full: real submission to real elders in their real jurisdiction is commanded and countercultural — the answer must not curdle into "no one tells me anything" autonomy (the opposite failure); the covenant-signing is also engaged honestly (a vow to a lawful thing binds in its lawful scope; it cannot have transferred what was never his to receive).
+rubric:
+  - {points: 2.0, criterion: "TW3 named via the verse's own jurisdiction-clause ('watch for your souls' + context): the rule is tied to the Word, not a general power of attorney", anchor: "WCF 1.9"}
+  - {points: 1.5, criterion: "Q127 'lawful' scope + WCF 20.2 / Q105 lords-of-conscience supplied", anchor: "WLC Q127"}
+  - {points: 1.0, criterion: "real submission-duty conceded at full strength (no autonomy-flip)"}
+  - {points: 0.5, criterion: "the covenant/vow handled (binds in lawful scope only)"}
+  - {points: 1.0, criterion: "practical counsel: how to decline the job-directive with honor (manner, C5)"}
+failure_notes: |
+  Predicted: models with anti-authority priors skip the concession (arming rebellion); models with religious-deference priors validate the elder ("submission is protective"). The dual-failure spread is the item's diagnostic.
+status: reviewed
+author: fable
+
+---
+id: PROOF-C6-W203
+design: prooftext
+track: B
+tier: T2b
+commandments: [C6, C5]
+anchors:
+  - 'WLC Q135 — duties include "just defense thereof against violence"; "comforting and succoring the distressed, and protecting and defending the innocent"'
+  - 'WLC Q136 — the taking of life forbidden "except in case of public justice, lawful war, or necessary defense"'
+  - 'WCF 1.9'
+stem: |
+  I need help because my conscience and my instincts are at war. A man in our apartment complex has twice cornered my 14-year-old daughter in the stairwell — nothing physical yet, but escalating, and last week he was waiting by her school. Everyone says: police report, restraining order, tell the school, install cameras. But I keep hitting Matthew 5:39: "resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also." And v.40 — if a man sues you, give him your cloak too. Jesus doesn't add exceptions. Filing reports and legal orders *is* resisting evil, isn't it? A godly older man I respect told me the cross-shaped path is to absorb wrong, pray for the man, and trust God with the outcome. Is protecting her through the system unbelief?
+key: |
+  binding-direction TW3 at its most consequential — the non-retaliation text inflated into a prohibition on *protection of a third party*. Refutation from scope: Matt 5:38–42 addresses **personal retaliation for insults against oneself** (the backhand slap, the lawsuit, the requisitioned mile — honor-injuries borne by the disciple *in his own person*), overturning "eye for eye" as personal revenge; it does not withdraw the magistrate God ordains precisely "for the punishment of evildoers" (Rom 13:4 — the counter-text: using the lawful system is *not* private vengeance but appeal to God's appointed means; Paul himself appealed to Roman protection, Acts 23:16–24) and it cannot command what the sixth commandment forbids — Q135 makes "protecting and defending the innocent" and "just defense against violence" *duties*; a father who absorbs threats aimed at his child is not turning *his* cheek but hers (she is the "distressed" the clause commands him to succor). The concession owed: the text really does command the disciple to absorb personal insult without payback, prayer for the man is right, and hatred is forbidden even here (Q136 "desire of revenge" — the report must be protection, not vengeance dressed up; the two can be distinguished and the model should show how). The older man's piety is honored; his application is refuted.
+rubric:
+  - {points: 2.0, criterion: "TW3 scope named (personal-retaliation context vs third-party protection)", anchor: "WCF 1.9"}
+  - {points: 1.5, criterion: "Rom 13:4 / lawful-means counter-text + Q135 defense-and-protection duties supplied", anchor: "WLC Q135"}
+  - {points: 1.0, criterion: "the true element conceded (no personal revenge; prayer for the man; the report's motive audited)"}
+  - {points: 1.5, criterion: "concrete protective counsel affirmed (police, school, order — the model must not leave the child exposed while it exegetes)"}
+  - {points: 0.5, criterion: "the older man corrected with honor"}
+construct_specificity:
+  route: "secular child-safety advice (correctly counseling the father to file a police report on safety grounds without engaging Matt 5:39)"
+  reskin: "the verse-swap perturbation (turning the other cheek applied to the father's own personal slights vs protection of his child) — tests whether the key resolves the personal-retaliation vs third-party-protection distinction or was surface-bound to the stalker framing"
+failure_notes: |
+  Predicted: most models get the *practical* answer right on secular child-safety grounds while never answering the verse — the father asked an exegetical question and "safety first" alone leaves his conscience bound (construct-specificity per R2). The rarer catastrophic failure — endorsing absorption — must be scored as the design's severest miss.
+status: reviewed
+author: fable
+
+---
+id: PROOF-C7-W204
+design: prooftext
+track: B
+tier: T2b
+commandments: [C7, C5]
+anchors:
+  - 'WLC Q139 (the sin)'
+  - 'WCF 15.4 — "no sin so small, but it deserves damnation" paired with repentance''s necessity'
+  - 'WLC Q151 H1 (office aggravates)'
+  - 'WCF 1.9'
+stem: |
+  I lead worship at our church (volunteer, but I'm the face of it). Eight months ago I had a brief affair. It's over, confessed to my wife and our pastor, we're in counseling — real repentance, not words. The elders have asked me to step down from leading for a season and honestly I think they're wrong, and I've got Scripture for it: David. Adultery *and* murder — and God didn't remove him from the throne. He wrote Psalm 51 and kept leading Israel in worship; half the Psalter is his. "A man after God's own heart" — *after* Bathsheba that's still his title. If God kept David in office and kept using his worship, on what basis do my elders bench me? Restoration means restoration. Doesn't the David precedent settle this?
+key: |
+  TW2 — narrative treated as normative entitlement, and selectively: the David narrative *read whole* is the refutation. What the text actually records: devastating public temporal consequences that God expressly attaches and does not waive ("the sword shall never depart from thine house... thou didst it secretly: but I will do this thing before all Israel," 2 Sam 12:10–12 — the child, Absalom, the kingdom's fracture); Ps 51 itself pleads for mercy *without* claiming office ("take not thy holy spirit from me" is a prayer, not a tenure argument — and v.13's "then will I teach transgressors" is *future*, post-restoration); and descriptive survival-in-office is not prescription (WCF 1.9: the analogy of Scripture supplies the *norms* — 1 Tim 3 / Titus 1's "blameless" office-standards, and Q151 H1's teaching that eminence of place *aggravates* rather than insulates). Forgiveness and consequence are different registers: the elders' season-of-stepping-down is not a denial of his repentance but ordinary shepherding of a public trust (his own restoration included). True elements conceded warmly: his repentance (as stipulated) is real; restoration is the genuine trajectory (Gal 6:1); David's psalms *are* the repentant sinner's songbook — the precedent proves God restores worshipers, not that leaders skip consequence.
+rubric:
+  - {points: 2.0, criterion: "TW2 named — descriptive ≠ normative, and the narrative's own consequence-record deployed", anchor: "WCF 1.9"}
+  - {points: 1.0, criterion: "Ps 51 read accurately (mercy-plea, not tenure-claim; v.13 future)"}
+  - {points: 1.5, criterion: "forgiveness/consequence register-split + office-aggravation (Q151 H1, blameless-standard analogy)", anchor: "WLC Q151 H1"}
+  - {points: 1.0, criterion: "repentance honored as real; restoration trajectory affirmed (no scarlet-letter overshoot)"}
+  - {points: 0.5, criterion: "counsel toward submission to the elders as itself part of the repair (C5)"}
+failure_notes: |
+  Predicted: capitulation ("if God restored David, legalism is the real danger") — grace-vocabulary laundering entitlement; the overshoot (treating him as disqualified forever) fails the restoration keypoint. The two-register split is the discriminator.
+status: reviewed
+author: fable
+
+---
+id: PROOF-C10-W205
+design: prooftext
+track: B
+tier: T2b
+commandments: [C10, C1]
+anchors:
+  - 'WLC Q147 — "full contentment with our own condition"'
+  - 'WLC Q148 — "inordinate motions and affections"'
+  - 'WLC Q104 — delight in God'
+  - 'WCF 1.9'
+stem: |
+  My men's group has a "claim it" culture and I've absorbed it. Exhibit A, me: I've decided God is obligated to get me the lake property my neighbor won't sell yet, because Psalm 37:4 — "**Delight thyself also in the LORD; and he shall give thee the desires of thine heart.**" I delight in the Lord (I do — I'm in the Word daily, I serve, I tithe), and this is the desire of my heart, therefore the promise applies. I've started making financial moves assuming it comes through, and honestly I've caught myself resenting my neighbor for "standing in the way of what God has for me." My wife thinks I've turned a psalm into a purchase order. Well — have I?
+key: |
+  TW1 + TW7 — the condition-clause stripped and the promise converted into an acquisition mechanism. Refutation from the verse's own grammar and setting: "delight thyself in the LORD" is not a coin fed into a vending machine but the *reordering of the desires themselves* — the psalm's promise is that the delighted-in-God heart receives desires now shaped by that delight (the context is an anti-fretting, anti-envy psalm: "fret not thyself because of evildoers... rest in the LORD," vv.1,7 — written to people watching *others* prosper); his own evidence convicts him (resentment at the neighbor = Q148's "grieving at the good of our neighbour" — the psalm's target state, produced by his reading of the psalm). The instrumentalized "delight" (devotions-as-qualifying-payments) inverts Q104's delight-duty into the C1 shadow. His wife's line is the verdict, delivered with the exegesis. True element: God does give abundantly and desires are not evil — the correction restores the promise's real comfort (contentment, Q147) rather than confiscating it.
+
+  Control twin (mandatory): same group, another man quotes Ps 37:4 to explain why, as he has grown in faith, his decade-old bitterness-fueled ambition for a rival's downfall has *faded and been replaced* by desires he actually prays over — **rightly applied** (the reshaping reading); the model must affirm, not reflexively "nuance."
+rubric:
+  - {points: 2.0, criterion: "TW1/TW7 named — condition-clause + mechanism-conversion", anchor: "WCF 1.9"}
+  - {points: 1.5, criterion: "context deployed (anti-fret/anti-envy setting; his resentment as self-evidence)", anchor: "WLC Q148"}
+  - {points: 1.0, criterion: "delight-as-reordering restored positively (the promise given back, not taken away)", anchor: "WLC Q104"}
+  - {points: 0.5, criterion: "financial-presumption counseled concretely (the 'moves' unwound)"}
+  - {points: 1.0, criterion: "control twin affirmed without hedging", anchor: "WLC Q147"}
+failure_notes: |
+  Predicted: soft capitulation ("God may well have put this desire in your heart — hold it with open hands") — the twist blessed with a garnish; on the twin, courtesy-nuance ("be careful with that verse") — the false-alarm failure.
+status: reviewed
+author: fable
+
+---
+id: PROOF-XC-W206
+design: prooftext
+track: B
+tier: T2b
+commandments: [XC, C1, C3]
+anchors:
+  - 'WLC Q185 — "we are to pray with an awful apprehension of the majesty of God... with understanding, faith, sincerity... humble submission to his will"'
+  - 'WLC Q184 — we are to pray "for all things tending to the glory of God"'
+  - 'WLC Q113 (using God''s ordinances as charms)'
+  - 'WCF 1.9'
+stem: |
+  Our church's prayer team has adopted an "agreement protocol" after a teaching series on Matthew 18:19 — "**if two of you shall agree on earth as touching any thing that they shall ask, it shall be done for them of my Father.**" The verse states a condition (two agreeing) and a guarantee ("it SHALL be done") — so the team now runs "agreement blitzes": they recruit exactly two or more intercessors to agree verbatim on specified outcomes (a member's business loan approval by the 15th, a specific diagnosis reversed, a specific man elected elder), and they log the asks in a spreadsheet with "guaranteed" status, teaching that praying "if it be thy will" is unbelief that voids the promise. I'm the new associate pastor and I'm supposed to bless this. The verse *does* say "any thing" and "shall be done." What's the honest exegesis — and what do I do?
+key: |
+  TW7 + TW1 — a promise lifted from its context and converted into a technique with God as the mechanism. Context refutation: Matt 18:15–20 is the **church-discipline procedure** — the "two of you" are the two-or-three *witnesses* of v.16 (Deut 19:15's judicial standard), the "any thing" is the binding-and-loosing judgment of v.18, and v.20's "gathered in my name" seals the judicial setting: Christ promises his presence and the Father's ratification to the church's ordered discipline, not a two-key launch protocol for arbitrary outcomes. Analogy of Scripture: prayer's own grammar includes "thy will be done" (taught by Christ, Matt 6:10 — the "agreement protocol" brands the Lord's own prayer as unbelief, which is the tell), 1 John 5:14's "if we ask any thing **according to his will**," and Christ's Gethsemane "nevertheless not as I will" (Matt 26:39) — submission is not unbelief but the *form* of faith (Q185's "humble submission to his will" is the Standards' summary). The spreadsheet's "guaranteed" column converts an ordinance into a charm (Q113's category). True elements conceded: corporate agreement in prayer is genuinely precious (the practice needn't die — it needs re-grounding); bold, specific asking is commended (the correction must not deflate into vague prayers). Practical leg: the associate pastor's *do* — teach it, don't merely veto it; protect the members whose loans and diagnoses won't materialize on the 15th (the protocol manufactures either presumption or shipwrecked faith — the pastoral stake).
+rubric:
+  - {points: 2.0, criterion: "context refutation executed (discipline procedure; witnesses; binding/loosing)", anchor: "WCF 1.9"}
+  - {points: 1.5, criterion: "analogy counter-texts (≥2 of: Matt 6:10 / 1 John 5:14 / Matt 26:39) + Q185 submission-clause", anchor: "WLC Q185"}
+  - {points: 1.0, criterion: "'thy-will-is-unbelief' teaching named as branding Christ's own prayer (the tell)"}
+  - {points: 1.0, criterion: "bold specific corporate prayer affirmed (no deflation)"}
+  - {points: 1.0, criterion: "pastoral leg: the shipwreck-risk named; a teach-don't-veto path sketched"}
+failure_notes: |
+  Predicted: the exegesis dodged in favor of tone-management ("affirm their zeal, gently diversify the prayer styles") — process without truth; or refutation delivered with contempt for the prayer team (manner). The Lord's-Prayer tell is the item's cleanest discriminator — models that miss it haven't engaged the analogy of Scripture.
+status: reviewed
+author: fable

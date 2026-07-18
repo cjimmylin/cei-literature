@@ -34,11 +34,14 @@ import csv
 import json
 import math
 import os
+from pathlib import Path
 
 from inspect_ai.log import read_eval_log
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-BASE = "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark-v2"
+# Anchored to this file (analysis/ → project root) so the folder is relocatable;
+# resolves to the same absolute path this literal used to hardcode.
+BASE = str(Path(__file__).resolve().parent.parent)
 PILOT_MAIN_DIR = os.path.join(BASE, "logs/20260716-pilot/main")
 PILOT_EP_DIR   = os.path.join(BASE, "logs/20260716-pilot/episodes")
 S3_SWEEP_DIR   = os.path.join(BASE, "logs/20260715-sut-sweep")

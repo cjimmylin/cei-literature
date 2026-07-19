@@ -91,7 +91,11 @@ def render_standard(record: dict) -> str:
     grade (rubric entries carry their own anchor text where it matters).
     """
     parts = ["GOLD KEY:", record["key"].rstrip()]
-    if record.get("gold_order"):
+    # gold_order is a list on true ordinal items, but 5 v1 AGG items carry the
+    # STRING sentinel "declines total order" (no total order exists; the rubric
+    # encodes the decline). Joining a string char-splits it into the judge
+    # prompt, so the GOLD ORDER line is emitted for lists only.
+    if isinstance(record.get("gold_order"), list):
         parts.append(
             "GOLD ORDER (least to most heinous): " + " < ".join(record["gold_order"])
         )
@@ -340,6 +344,29 @@ def wcf_s7_new_main(
     """Session-7 new single-completion items (22 contested + 20 frontier-open)."""
     return Task(
         dataset=json_dataset(str(DATA_DIR / "wcf_s7_new_main.jsonl"), record_to_sample),
+        solver=[system_message(EXAMINEE_SYSTEM), generate()],
+        scorer=wcf_scorer(
+            grader_model,
+            grader_temperature,
+            include_history=False,
+            excellence_gate=excellence_gate,
+        ),
+        metrics=[mean(), stderr(), grouped(mean(), "design")],
+    )
+
+
+@task
+def wcf_s12_new_main(
+    grader_model: str = DEFAULT_GRADER,
+    grader_temperature: float = 0.0,
+    excellence_gate: bool = True,
+) -> Task:
+    """Session-12 gate candidates (v2.5 pre-freeze): 80 -N- items across the
+    four thin molds (MEND/LIB/PROOF/WHOLE, 20 each). Reads the standalone
+    dataset emitted from data/session12_new_items.json so the GO/NO-GO gate
+    never touches the frozen v2.4 files (the s7 precedent)."""
+    return Task(
+        dataset=json_dataset(str(DATA_DIR / "wcf_s12_new_main.jsonl"), record_to_sample),
         solver=[system_message(EXAMINEE_SYSTEM), generate()],
         scorer=wcf_scorer(
             grader_model,

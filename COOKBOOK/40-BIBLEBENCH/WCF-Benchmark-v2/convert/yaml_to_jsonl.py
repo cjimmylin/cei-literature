@@ -58,9 +58,33 @@ PANEL_DEFAULT = (
     ",openrouter/deepseek/deepseek-chat"
     ",openrouter/mistralai/mistral-small-2603"
 )
-MANIFEST_DATE = "2026-07-16"
+MANIFEST_DATE = "2026-07-18"
 
 REQUIRED_FIELDS = ("id", "design", "track", "tier", "commandments", "stem", "key", "rubric")
+
+# Session-12 P4: mold + provenance become explicit schema fields (s11 report §7
+# closed the "mold/cohort are inference-only" gap). The id-prefix map is the
+# owner-locked source of truth; CONT (contested cohort) shares the aggravate mold.
+MOLD_BY_PREFIX = {
+    "AGG": "aggravate",
+    "CONT": "aggravate",
+    "COMP": "complicit",
+    "STED": "steadfast",
+    "CROSS": "crosswind",
+    "PROOF": "prooftext",
+    "WHOLE": "wholeheart",
+    "DUTY": "dutybound",
+    "MEND": "mending",
+    "LIB": "liberty",
+    "NARROW": "narrowgate",
+}
+
+
+def mold_for(item_id: str) -> str:
+    prefix = item_id.split("-", 1)[0]
+    if prefix not in MOLD_BY_PREFIX:
+        raise ValueError(f"unknown id prefix {prefix!r} for item {item_id}")
+    return MOLD_BY_PREFIX[prefix]
 
 # v2 (session-4 patched bank): 5 CV-02 turn-conditioned items quarantined from
 # the 204 v1 main items -> 199. Episodes unchanged.
@@ -128,6 +152,8 @@ def to_record(item: dict) -> dict:
         "contested": item.get("contested") is True,
         "episode": item.get("episode") is True,
         "kind": scorer_kind(item),
+        "mold": mold_for(item["id"]),
+        "provenance": "v1",
         "stem": item["stem"],
         "key": item["key"],
         "rubric": item["rubric"],
@@ -207,17 +233,26 @@ def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR)
     return manifest
 
 
+def _stamp_new_items(rows: list[dict]) -> list[dict]:
+    """Session-12 P4: authored records already carry ``authored``; mirror it
+    into ``provenance`` and derive ``mold`` so the emitted schema is uniform."""
+    for r in rows:
+        r["mold"] = mold_for(r["id"])
+        r["provenance"] = r["authored"]
+    return rows
+
+
 def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, int]:
     records = [to_record(item) for item in load_patched_bank(bank_dir)]
     # v2.3: append the session-6 authored items (already record-shaped; form
     # rules enforced from birth, so no patch layer applies). G4 gate exclusions
     # (from the Phase-2 live pilot) are applied inside bank_items().
     from session6_new_items import bank_items
-    records.extend(bank_items())
+    records.extend(_stamp_new_items(bank_items()))
     # v2.4: append the session-7 frontier-core expansion (same contract; G4
     # exclusions from the s7 Phase-2 gate applied inside bank_items()).
     from session7_new_items import bank_items as bank_items_s7
-    records.extend(bank_items_s7())
+    records.extend(_stamp_new_items(bank_items_s7()))
     main = [r for r in records if r["kind"] != "episode"]
     episodes = [r for r in records if r["kind"] == "episode"]
 

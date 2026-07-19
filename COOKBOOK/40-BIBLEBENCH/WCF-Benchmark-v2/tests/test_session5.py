@@ -235,7 +235,8 @@ def test_manifest_exists_and_wellformed():
     assert len(m["sha256_session6_new_items"]) == 64
     assert len(m["sha256_session7_new_items"]) == 64
     assert len(m["g4_excluded_new_items"]) == 23 + 5
-    assert m["date"] == "2026-07-16"
+    # 2026-07-18 = session-12 P4 restamp (mold + provenance schema fields).
+    assert m["date"] == "2026-07-18"
     assert m["panel"] == PANEL_DEFAULT
     assert m["grade_pattern"] == GRADE_PATTERN
     for k in (

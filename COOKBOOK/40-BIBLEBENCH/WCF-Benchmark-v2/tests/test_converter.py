@@ -59,15 +59,21 @@ def test_jsonl_counts_and_split():
     # session-6 authored G4 survivors (52 authored - 23 exclusions, all 9 new
     # episodes among them) + 37 session-7 authored G4 survivors (42 accepted -
     # 5 dead-ceiling exclusions; session-7 authored no episodes).
-    v1_main = [r for r in main if "-N-" not in r["id"]]
-    s6_main = [r for r in main if "-N-" in r["id"] and r.get("authored") == "session-6"]
-    s7_main = [r for r in main if "-N-" in r["id"] and r.get("authored") == "session-7"]
+    # Session-12 P4: provenance is now an explicit schema field (mirrors
+    # ``authored`` on new items, "v1" otherwise) — count by it directly.
+    v1_main = [r for r in main if r["provenance"] == "v1"]
+    s6_main = [r for r in main if r["provenance"] == "session-6"]
+    s7_main = [r for r in main if r["provenance"] == "session-7"]
     assert len(v1_main) == 199
     assert len(s6_main) == 29
     assert len(s7_main) == 37
     assert len(episodes) == 22  # no session-6 episode survived G4
+    assert all(r["provenance"] == "v1" for r in episodes)
     assert all(r["kind"] != "episode" for r in main)
     assert all(r["kind"] == "episode" for r in episodes)
+    for r in main + episodes:
+        assert r["provenance"] == r.get("authored", "v1"), r["id"]
+        assert ("-N-" in r["id"]) == (r["provenance"] != "v1"), r["id"]
 
 
 def test_no_dev_set_leakage():
@@ -82,6 +88,10 @@ def test_schema_and_vocab():
     assert len(ids) == len(set(ids)), "duplicate ids"
     for r in rows:
         assert r["design"] in DESIGNS, r["id"]
+        # Session-12 P4 schema fields: mold shares the design vocabulary
+        # (CONT ids carry the aggravate mold); provenance is a closed vocab.
+        assert r["mold"] in DESIGNS, r["id"]
+        assert r["provenance"] in {"v1", "session-6", "session-7", "session-12"}, r["id"]
         assert r["tier"] in TIERS, f"{r['id']} unexpected tier {r['tier']}"
         assert r["track"] in ("A", "B"), r["id"]
         assert r["stem"].strip() and r["key"].strip(), r["id"]

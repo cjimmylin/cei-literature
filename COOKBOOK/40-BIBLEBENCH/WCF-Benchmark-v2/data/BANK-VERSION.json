@@ -41,11 +41,11 @@
     "STED-N-015",
     "STED-N-021"
   ],
-  "sha256_wcf_main": "5b6474e6091707a5b4aca0e1b715bbd14734613539c63e1e711707fa8df038d8",
-  "sha256_wcf_episodes": "bfc3a6cf3d5aac64287399cd5c0feb231fddbcfdcc3ce5ea7036f39a956e431e",
+  "sha256_wcf_main": "5ccb1fe605ceece3549fbad2f7760b9b442a11dc6a6b053d0eb7eff606086d9c",
+  "sha256_wcf_episodes": "a665839d0fd75e6ca437fb39d93bd9e0d335d94e6c74f6d9565a9149a925a511",
   "sha256_grading_template_original": "b95e6e686cedc21322402fc350307e0717cea5b68acd9491800c1e921ae0dd4f",
   "sha256_grading_template_excellence": "2069aecd153f41375772345986157c2d91b64bf815361b7563a00fa4f408390b",
   "grade_pattern": "(?is).*(?<!\\w)GRADE(?!\\w)\\s*:\\s*(\\d{1,3})(?!\\d)",
   "panel": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
-  "date": "2026-07-16"
+  "date": "2026-07-18"
 }

@@ -278,10 +278,22 @@ def _extract_pack_entry(pack_text: str, area_letter: str, entry_num: int) -> str
         ),
     ]
 
-    for pat in patterns:
-        m = pat.search(pack_text)
-        if m:
-            return m.group(0).strip()[:PACK_ENTRY_CAP]
+    # PE-24 fix (2026-07-24): search the pack BEFORE the scenario-motifs section
+    # first. The scenario list uses `1. **(a)** ...` numbering, which the generic
+    # num-bold pattern matched ahead of letter-prefixed claims (**K-1 (a).** etc.),
+    # so prefix-less citations resolved to scenario stubs instead of claims — the
+    # source of the false "wrong pack content" anchor findings in the 2026-07-18
+    # sweep (C5 artifact class). Fall back to the full text so packs without the
+    # header keep the old behavior.
+    scen_m = re.search(r'^##\s*\d+\.\s*Scenario', pack_text, re.MULTILINE)
+    search_spaces = [pack_text[:scen_m.start()]] if scen_m else []
+    search_spaces.append(pack_text)
+
+    for space in search_spaces:
+        for pat in patterns:
+            m = pat.search(space)
+            if m:
+                return m.group(0).strip()[:PACK_ENTRY_CAP]
     return ""
 
 

@@ -158,3 +158,7 @@ review_status: reviewed-clean
 ## 8. Handoff Notes for Opus
 
 21 more pairs per matrix. One cue per item, from the taxonomy; balance cue types (≥4 each) and balance outgroup-antipathy items across ideological directions exactly. Facts-diff every pair (need/efficacy identical). Draft attested-adjustment lists per U variant from pack claims (cite numbers) — they are what keeps judges from importing merit heuristics. Duality exemplars: bank 6+ during drafting for judge prompts.
+
+## 9. Design note — composite-cue exemplars (2026-07-24, item-assessment PE-23, ruled)
+
+`WW-10-B01`, `WW-10-M01`, `WW-10-M05`, and `WW-10-I04` stack more than one desert cue in the U arm (e.g., culpability + repeat; repeat + burned bridges) rather than the one-cue-per-item rule §8 sets for wave-2 drafting. This is documented as intentional exemplar-tier design, not a defect: the composite U cue raises cue salience for the duality-demanding scoring tier, and the scoring structure routes prudence-channel adjustments separately, so the treatment-channel delta = 0 key is unaffected by the stacking. Constraint on future edits: do not add composite cues to non-exemplar items, and keep the d10 partisan mirror-pair (M02/M03) direction-balanced under any edit (bias-invariant, per the 2026-07-18 BI ruling).

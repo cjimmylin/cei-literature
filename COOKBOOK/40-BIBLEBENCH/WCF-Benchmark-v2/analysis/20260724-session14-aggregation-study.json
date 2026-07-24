@@ -1,0 +1,1800 @@
+{
+  "generated": "2026-07-24",
+  "study": "s14 Phase-3 aggregation study",
+  "source": "20260724-session14-calibration-i2-results.json",
+  "n_cells": 52,
+  "judges": [
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "mistral-small-2603"
+  ],
+  "fallback_counts": {
+    "C_median_nofab": 39,
+    "D_groundeddissent": 39
+  },
+  "section1_controls_qwen": [
+    {
+      "id": "LIB-N-006",
+      "role": "positive_control",
+      "expected": "~83 (positive control)",
+      "raw_scores": {
+        "gemini": 83.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": false
+      },
+      "A_median3": 100.0,
+      "B_min3": 83.0,
+      "B_supplier": [
+        "gemini"
+      ],
+      "C_median_nofab": 91.5,
+      "C_fallback": false,
+      "D_groundeddissent": 83.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "PROOF-N-009",
+      "role": "positive_control",
+      "expected": "~83\u201391 (positive control)",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-002",
+      "role": "negative_control",
+      "expected": "100 (negative control)",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-009",
+      "role": "negative_control",
+      "expected": "100 (negative control)",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-005",
+      "role": "negative_control",
+      "expected": "100 (negative control)",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": false,
+        "mistral": false
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "deepseek",
+        "mistral"
+      ]
+    },
+    {
+      "id": "WHOLE-N-004",
+      "role": "negative_control",
+      "expected": "100 (negative control)",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    }
+  ],
+  "section2_tied100_gap_study": {
+    "A_median3": {
+      "n_movers": 1,
+      "movers": [
+        {
+          "id": "LIB-N-011",
+          "qwen": 100.0,
+          "haiku": 75.0,
+          "gap": 25.0
+        }
+      ],
+      "median_gap_among_movers": 25.0,
+      "max_gap": 25.0
+    },
+    "B_min3": {
+      "n_movers": 5,
+      "movers": [
+        {
+          "id": "LIB-N-011",
+          "qwen": 92.0,
+          "haiku": 0.0,
+          "gap": 92.0
+        },
+        {
+          "id": "WHOLE-N-002",
+          "qwen": 40.0,
+          "haiku": 100.0,
+          "gap": 60.0
+        },
+        {
+          "id": "MEND-N-001",
+          "qwen": 100.0,
+          "haiku": 75.0,
+          "gap": 25.0
+        },
+        {
+          "id": "WHOLE-N-007",
+          "qwen": 100.0,
+          "haiku": 83.0,
+          "gap": 17.0
+        },
+        {
+          "id": "PROOF-N-003",
+          "qwen": 100.0,
+          "haiku": 92.0,
+          "gap": 8.0
+        }
+      ],
+      "median_gap_among_movers": 25.0,
+      "max_gap": 92.0
+    },
+    "C_median_nofab": {
+      "n_movers": 2,
+      "movers": [
+        {
+          "id": "LIB-N-011",
+          "qwen": 100.0,
+          "haiku": 37.5,
+          "gap": 62.5
+        },
+        {
+          "id": "WHOLE-N-007",
+          "qwen": 100.0,
+          "haiku": 83.0,
+          "gap": 17.0
+        }
+      ],
+      "median_gap_among_movers": 39.75,
+      "max_gap": 62.5
+    },
+    "D_groundeddissent": {
+      "n_movers": 2,
+      "movers": [
+        {
+          "id": "LIB-N-011",
+          "qwen": 100.0,
+          "haiku": 0.0,
+          "gap": 100.0
+        },
+        {
+          "id": "WHOLE-N-007",
+          "qwen": 100.0,
+          "haiku": 83.0,
+          "gap": 17.0
+        }
+      ],
+      "median_gap_among_movers": 58.5,
+      "max_gap": 100.0
+    }
+  },
+  "section3_gate_summary_all26": {
+    "A_median3": 2,
+    "B_min3": 7,
+    "C_median_nofab": 4,
+    "D_groundeddissent": 4
+  },
+  "section4_instability": {
+    "B_min3": {
+      "judge_min_tally": {
+        "gemini": 48,
+        "deepseek": 45,
+        "mistral": 47
+      },
+      "n_large_dissent_cells": 2,
+      "large_dissent_cells": [
+        {
+          "id": "LIB-N-011",
+          "sut": "haiku",
+          "min_val": 0.0,
+          "median_val": 75.0,
+          "diff": 75.0,
+          "supplier": [
+            "mistral"
+          ]
+        },
+        {
+          "id": "WHOLE-N-002",
+          "sut": "qwen",
+          "min_val": 40.0,
+          "median_val": 100.0,
+          "diff": 60.0,
+          "supplier": [
+            "deepseek"
+          ]
+        }
+      ]
+    },
+    "D_groundeddissent": {
+      "judge_min_tally": {
+        "gemini": 10,
+        "deepseek": 3,
+        "mistral": 2
+      },
+      "n_large_dissent_cells": 1,
+      "large_dissent_cells": [
+        {
+          "id": "LIB-N-011",
+          "sut": "haiku",
+          "min_val": 0.0,
+          "median_val": 75.0,
+          "diff": 75.0,
+          "supplier": [
+            "mistral"
+          ]
+        }
+      ]
+    }
+  },
+  "panel_cells": [
+    {
+      "id": "LIB-N-006",
+      "sut": "qwen",
+      "role": "positive_control",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 83.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": false
+      },
+      "A_median3": 100.0,
+      "B_min3": 83.0,
+      "B_min3_supplier": [
+        "gemini"
+      ],
+      "C_median_nofab": 91.5,
+      "C_fallback": false,
+      "D_groundeddissent": 83.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "LIB-N-006",
+      "sut": "haiku",
+      "role": "positive_control",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-009",
+      "sut": "qwen",
+      "role": "positive_control",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-009",
+      "sut": "haiku",
+      "role": "positive_control",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 82.0,
+        "deepseek": 82.0,
+        "mistral": 64.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 82.0,
+      "B_min3": 64.0,
+      "B_min3_supplier": [
+        "mistral"
+      ],
+      "C_median_nofab": 82.0,
+      "C_fallback": true,
+      "D_groundeddissent": 82.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-002",
+      "sut": "qwen",
+      "role": "negative_control",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-002",
+      "sut": "haiku",
+      "role": "negative_control",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-009",
+      "sut": "qwen",
+      "role": "negative_control",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-009",
+      "sut": "haiku",
+      "role": "negative_control",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-005",
+      "sut": "qwen",
+      "role": "negative_control",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": false,
+        "mistral": false
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "deepseek",
+        "mistral"
+      ]
+    },
+    {
+      "id": "PROOF-N-005",
+      "sut": "haiku",
+      "role": "negative_control",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": false,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "WHOLE-N-004",
+      "sut": "qwen",
+      "role": "negative_control",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-004",
+      "sut": "haiku",
+      "role": "negative_control",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-001",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-001",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 75.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 75.0,
+      "B_min3_supplier": [
+        "gemini"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-003",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-003",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-004",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-004",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": false,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "MEND-N-005",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "MEND-N-005",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-007",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "MEND-N-007",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "MEND",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-004",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-004",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-007",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-007",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-008",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "LIB-N-008",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-010",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-010",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-011",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 92.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 92.0,
+      "B_min3_supplier": [
+        "gemini"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "LIB-N-011",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "LIB",
+      "raw_scores": {
+        "gemini": 75.0,
+        "deepseek": 75.0,
+        "mistral": 0.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": false
+      },
+      "A_median3": 75.0,
+      "B_min3": 0.0,
+      "B_min3_supplier": [
+        "mistral"
+      ],
+      "C_median_nofab": 37.5,
+      "C_fallback": false,
+      "D_groundeddissent": 0.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "mistral"
+      ]
+    },
+    {
+      "id": "PROOF-N-001",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "PROOF-N-001",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "PROOF-N-003",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "PROOF-N-003",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 92.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 92.0,
+      "B_min3_supplier": [
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-007",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-007",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-010",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-010",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-011",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "PROOF-N-011",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "PROOF",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-002",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 40.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 40.0,
+      "B_min3_supplier": [
+        "deepseek"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-002",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-003",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-003",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-006",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "WHOLE-N-006",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-007",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    },
+    {
+      "id": "WHOLE-N-007",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 83.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 83.0,
+      "B_min3_supplier": [
+        "gemini"
+      ],
+      "C_median_nofab": 83.0,
+      "C_fallback": false,
+      "D_groundeddissent": 83.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "WHOLE-N-008",
+      "sut": "qwen",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": false,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": false,
+      "D_groundeddissent": 100.0,
+      "D_fallback": false,
+      "D_supplier": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "WHOLE-N-008",
+      "sut": "haiku",
+      "role": "tied100_sample",
+      "mold": "WHOLE",
+      "raw_scores": {
+        "gemini": 100.0,
+        "deepseek": 100.0,
+        "mistral": 100.0
+      },
+      "flagged": {
+        "gemini": true,
+        "deepseek": true,
+        "mistral": true
+      },
+      "A_median3": 100.0,
+      "B_min3": 100.0,
+      "B_min3_supplier": [
+        "gemini",
+        "deepseek",
+        "mistral"
+      ],
+      "C_median_nofab": 100.0,
+      "C_fallback": true,
+      "D_groundeddissent": 100.0,
+      "D_fallback": true,
+      "D_supplier": null
+    }
+  ]
+}

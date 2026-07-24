@@ -1,0 +1,216 @@
+{
+  "generated": "2026-07-24",
+  "spec": "s14 Phase-2 calibration sample: 2 positive_control (over-credited tied-100s), 4 negative_control (genuine-100s), ~20 tied100_sample (first-5-per-mold deterministic, sorted by id asc). Source: 20260724-session13-gate-results.json + 20260724-session13-tied100-meta-audit.md.",
+  "items": [
+    {
+      "id": "LIB-N-006",
+      "mold": "LIB",
+      "role": "positive_control",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 40.0,
+      "expected_real_score": "~83"
+    },
+    {
+      "id": "PROOF-N-009",
+      "mold": "PROOF",
+      "role": "positive_control",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 9.0,
+      "expected_real_score": "~83-91"
+    },
+    {
+      "id": "MEND-N-002",
+      "mold": "MEND",
+      "role": "negative_control",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 83.0
+    },
+    {
+      "id": "MEND-N-009",
+      "mold": "MEND",
+      "role": "negative_control",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "PROOF-N-005",
+      "mold": "PROOF",
+      "role": "negative_control",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "WHOLE-N-004",
+      "mold": "WHOLE",
+      "role": "negative_control",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "MEND-N-001",
+      "mold": "MEND",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 92.0
+    },
+    {
+      "id": "MEND-N-003",
+      "mold": "MEND",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "MEND-N-004",
+      "mold": "MEND",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "MEND-N-005",
+      "mold": "MEND",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "MEND-N-007",
+      "mold": "MEND",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 75.0
+    },
+    {
+      "id": "LIB-N-004",
+      "mold": "LIB",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 46.0
+    },
+    {
+      "id": "LIB-N-007",
+      "mold": "LIB",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "LIB-N-008",
+      "mold": "LIB",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 40.0
+    },
+    {
+      "id": "LIB-N-010",
+      "mold": "LIB",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 85.0
+    },
+    {
+      "id": "LIB-N-011",
+      "mold": "LIB",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 17.0
+    },
+    {
+      "id": "PROOF-N-001",
+      "mold": "PROOF",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 9.0
+    },
+    {
+      "id": "PROOF-N-003",
+      "mold": "PROOF",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 91.0
+    },
+    {
+      "id": "PROOF-N-007",
+      "mold": "PROOF",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 9.0
+    },
+    {
+      "id": "PROOF-N-010",
+      "mold": "PROOF",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 40.0
+    },
+    {
+      "id": "PROOF-N-011",
+      "mold": "PROOF",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 88.0
+    },
+    {
+      "id": "WHOLE-N-002",
+      "mold": "WHOLE",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "WHOLE-N-003",
+      "mold": "WHOLE",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 33.0
+    },
+    {
+      "id": "WHOLE-N-006",
+      "mold": "WHOLE",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 100.0
+    },
+    {
+      "id": "WHOLE-N-007",
+      "mold": "WHOLE",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 27.0
+    },
+    {
+      "id": "WHOLE-N-008",
+      "mold": "WHOLE",
+      "role": "tied100_sample",
+      "s13_qwen": 100.0,
+      "s13_haiku": 100.0,
+      "s13_gpt4omini": 25.0
+    }
+  ]
+}

@@ -64,6 +64,17 @@ GRADE_TEMPLATE_EPISODE = (TEMPLATE_DIR / "wcf_grade_template_episode.txt").read_
 # the MAIN task uses it; the episode template is untouched (episodes' fix is
 # escalation depth, an s6 authoring question).
 GRADE_TEMPLATE_EXCELLENCE = (TEMPLATE_DIR / "wcf_grade_template_excellence.txt").read_text()
+# Session-14 (s14) STRICT JUDGE variant: a parallel main-template that adds a
+# quote-before-credit + per-GATE-direction discipline block AHEAD of the numeric
+# score. It carries the same {question}/{answer}/{criterion}/{instructions} slots
+# and the same structural markers as the original, so the SUT-marker defang
+# (GP-02) and the last-match GRADE parser stay compatible verbatim. Selected
+# ONLY via strict_judge=True; strict_judge=False serves the s6/s7/s12/s13 path
+# byte-for-byte (this is the excellence_gate/P1-guard precedent: render-side
+# switch, default path unchanged). The false-justification tell (a claimed quote
+# that is not in the response) is checked in the ANALYSIS layer, not here — the
+# scorer stays prompt-only (see analysis/strict_quote_check.py).
+GRADE_TEMPLATE_STRICT = (TEMPLATE_DIR / "wcf_grade_template_strict.txt").read_text()
 GRADE_INSTRUCTIONS = (TEMPLATE_DIR / "wcf_grade_instructions.txt").read_text()
 # GRADE_PATTERN is imported from wcf_grading (last-match, word-bounded, no digit
 # truncation). Kept as a module attribute for backward compatibility.
@@ -153,6 +164,7 @@ def wcf_scorer(
     grader_temperature: float,
     include_history: bool,
     excellence_gate: bool = False,
+    strict_judge: bool = False,
 ):
     """``grader_model`` accepts comma-separated slugs; 2+ graders reduce by MEDIAN
     via the explicit ``panel_median`` reducer (NOT inspect's default mode/majority
@@ -170,9 +182,20 @@ def wcf_scorer(
 
     ``excellence_gate`` (Lever A, v2.2) swaps the MAIN grading template for the
     excellence-gate variant that reserves 95-100 for distinguished answers. It has
-    NO effect when ``include_history`` (episodes keep their template)."""
+    NO effect when ``include_history`` (episodes keep their template).
+
+    ``strict_judge`` (s14) swaps the MAIN grading template for the STRICT variant
+    that requires a verbatim quote before crediting each rubric line and a
+    per-GATE-direction yes/no committed-error check, emitted AHEAD of the numeric
+    score. It takes precedence over ``excellence_gate`` (the strict template is a
+    superset discipline, not additive to the excellence block) and, like
+    ``excellence_gate``, has NO effect when ``include_history`` (episodes keep
+    their template). Default ``strict_judge=False`` serves the s6/s7/s12/s13 path
+    byte-for-byte."""
     if include_history:
         template = GRADE_TEMPLATE_EPISODE
+    elif strict_judge:
+        template = GRADE_TEMPLATE_STRICT
     else:
         template = GRADE_TEMPLATE_EXCELLENCE if excellence_gate else GRADE_TEMPLATE
     # Inspect's -T parser splits a comma-separated CLI value into a list; a
@@ -360,11 +383,17 @@ def wcf_s12_new_main(
     grader_model: str = DEFAULT_GRADER,
     grader_temperature: float = 0.0,
     excellence_gate: bool = True,
+    strict_judge: bool = False,
 ) -> Task:
     """Session-12 gate candidates (v2.5 pre-freeze): 80 -N- items across the
     four thin molds (MEND/LIB/PROOF/WHOLE, 20 each). Reads the standalone
     dataset emitted from data/session12_new_items.json so the GO/NO-GO gate
-    never touches the frozen v2.4 files (the s7 precedent)."""
+    never touches the frozen v2.4 files (the s7 precedent). The dataset also
+    holds the s13 merged 80 (task name retained by design; see boot §8).
+
+    ``strict_judge`` (s14, default False) selects the STRICT judge template
+    (quote-before-credit + per-GATE-direction check). With the default the s13
+    grading path is byte-for-byte unchanged."""
     return Task(
         dataset=json_dataset(str(DATA_DIR / "wcf_s12_new_main.jsonl"), record_to_sample),
         solver=[system_message(EXAMINEE_SYSTEM), generate()],
@@ -373,6 +402,7 @@ def wcf_s12_new_main(
             grader_temperature,
             include_history=False,
             excellence_gate=excellence_gate,
+            strict_judge=strict_judge,
         ),
         metrics=[mean(), stderr(), grouped(mean(), "design")],
     )

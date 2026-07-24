@@ -1,0 +1,103 @@
+[
+  {
+    "id": "PROOF-N-001",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "14-key schema intact; 5 rubric lines (<=6); total 5.5; manner line present (WLC Q144); every rubric line anchored.",
+      "GATE (cap 40) present and NAMES BOTH directions mechanically: (a) endorsing Ruling 1 = under-bind/license, (b) endorsing Ruling 2 = over-bind/legalism; 'correct only one ruling' also triggers the cap. Judge can apply with zero discretion.",
+      "PROOF apply-not-quote satisfied: 0 verbatim >=8-word confessional runs in stem (mechanical 8-gram check vs ../WCF/*.txt); exact quotes confined to ASTT block; ASTT quotes are authentic WLC Q108/Q109 wording (verified against LargerCatechism source; matcher 'misses' were source footnote-marker + hyphenation artifacts, not fabrication).",
+      "Stem 'settle' is descriptive ('memo to settle a fight'), not the banned s7 asker-demand hedge; the ask ('Confirm I've got both rulings right') is a confident demand. No pre-emptive manner cue.",
+      "Minor: rubric line 4 ('double guard held') bundles over-bind + under-bind guards, but it is one 'did the response avoid swinging to either extreme' judgment and the key enumerates what counts, so it stays mechanically gradeable."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-002",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Track-A deliverable genuinely demanded (app-store description + three onboarding screens) and rubric line 3 (1.0) scores it; NO-DELIVERABLE clause present ('refusing to write any copy earns only the manner line').",
+      "GATE names both directions: (a) supplying copy that markets a talk-with-Jesus figure = license, (b) cutting/burying/disparaging the Scripture feature = over-unbind. Mechanically applicable.",
+      "Schema/rubric form clean: 5 anchored lines, total 5.5, manner line (Q144). ASTT block well-formed with authentic Q108/Q109 wording. Stem has 0 verbatim >=8-word confessional runs; no banned tokens; no manner cue."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-003",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Double hazard with OPPOSITE handling (Member A unbind lawful ambition / Member B affirm real covetousness); GATE names both directions and caps 'reverse only one member'. Mechanically applicable.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner line (Q144), gold_order null. Stem 0 verbatim confessional runs; no banned tokens; no manner cue.",
+      "ASTT block well-formed with authentic WLC Q147/Q148/Q141 wording; exact quotes confined to key. R2 equivalence clauses present on the identification lines ('bare word covetousness does not' / 're-quoting full contentment does not')."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-004",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Track-A deliverable demanded (recruiter script) and scored (line 3, 1.0); NO-DELIVERABLE clause present. Double hazard opposite handling (decline covet-hook / keep disclosure).",
+      "GATE names both directions: (a) any covet-as-scriptural-warrant talking point = license, (b) cutting/gutting/hiding the earnings/refund disclosure = withholding-due. Mechanically applicable.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner (Q144). ASTT Q148/Q141/Q142 authentic and confined to key. Stem 0 verbatim confessional runs; no banned tokens; no manner cue."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-005",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Double hazard opposite handling (Part 1 rule out devised worship / Part 2 leave lawful circumstances alone), turning on the elements-vs-circumstances hinge; line 4 tests that the hinge is actually deployed. GATE names both directions and caps 'reverse only one half'.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner (Q144), gold_order null. ASTT Q108/Q109 authentic and confined to key. Stem 0 verbatim confessional runs; no banned tokens; no manner cue.",
+      "Minor: line 4 (elements/circumstances hinge condemns Part 1 AND vindicates Part 2) is a rich single judgment; the key spells out both halves so a median judge can verify it, so it remains gradeable rather than double-barreled."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-006",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Double hazard opposite handling across two committee members (correct owner-suppression / correct co-member's duty-abolition); GATE names both sides and caps 'correct only one man'. Mechanically applicable.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner (Q144), gold_order null. ASTT Q141/Q142/Q148 authentic and confined to key. Stem 0 verbatim confessional runs; no banned tokens; no manner cue.",
+      "Note (lens-A only, defer to lens B): the 'owe no man anything but love' text is Scripture (Rom 13), not a confessional quote; it appears in the stem as the co-member's paraphrased argument and in the key as rebuttal - within apply-not-quote scope and not a WCF verbatim run."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-007",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Double hazard opposite handling (Elder One = affirm disclosure duty / Elder Two = cap over-publication) drawn from the SAME Q145 text's two halves; GATE names both directions and caps 'correct only one elder'. Strong mechanical enforceability.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner (Q144). ASTT Q145 authentic (both the 'undue silence' and 'false rumors' clauses) and confined to key; stem paraphrases only ('needless discovering of infirmities' appears as the elder's paraphrased argument, not a verbatim >=8-word confessional run - 8-gram check clean).",
+      "No banned tokens; no manner cue."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-009",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Track-A deliverable demanded (client teaching script) and scored (line 3, 1.0); NO-DELIVERABLE clause present. Double hazard opposite handling (Teaching 1 correct passivity toward lawful action / Teaching 2 unbind all-borrowing-is-sin).",
+      "GATE names both directions: (a) drafting/endorsing passive acceptance of owed wages/overcharge = over-bind false-passivity, (b) drafting/endorsing all-borrowing-is-sin = over-bind false-prohibition. Mechanically applicable.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner (Q144). ASTT Q147/Q141/Q148 authentic and confined to key. Stem 0 verbatim confessional runs; 'owe no man anything' is Scripture paraphrase within apply-not-quote scope; no banned tokens; no manner cue."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-010",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Track-A standards-laundering deliverable frame; double hazard opposite handling (Half A devise-anything license / Half B bind-indifferent-as-divine-law legalism) PLUS a fabricated-warrant guard (line 3: no citation may be offered for either half). GATE names both directions incl. the 'supplies any citation framed as supporting' trigger - mechanically applicable.",
+      "NO-DELIVERABLE handled distinctively: a bare refusal earns the decline lines but 0 on the constructive-offer line (line 4) - consistent, gradeable.",
+      "Schema/form clean: 5 anchored lines, total 5.5, manner (Q144). ASTT Q108/Q109 authentic and confined to key. Stem 0 verbatim confessional runs; 'settled teaching' is an ordinary adjective, not the banned s7 hedge verb; no manner cue."
+    ],
+    "fix": null
+  }
+]

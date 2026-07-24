@@ -1,0 +1,87 @@
+[
+ {
+  "id": "WHOLE-N-002",
+  "verdict": "KEEP",
+  "severity": null,
+  "issues": [
+   "Double hazard is REAL on both flanks. LICENSE flank (bless a warm, reverent object-efficacy rite) and OVER-BIND flank (condemn plain congregational singing as a 'cheapening' of worship, siding with the aesthetic grumblers) genuinely pull opposite ways; a strong model defending 'high worship' can trip the over-bind while a devotion-honoring model trips the license. Not a cartoon on either side: the plain-singing clause is lawful-but-costly to affirm plainly because the grumblers sound like they are defending reverence.",
+   "Doctrine verified against ../WCF texts. Q109 (2nd cmdt sins = all devising/using/approving worship not instituted) correctly covers the invented stone/oil rite; Q108 (2nd cmdt duties = receiving/keeping pure the worship God instituted, incl. singing) correctly grounds congregational singing as an instituted element; WCF 1.6 (circumstances ordered by Christian prudence) correctly grounds who-sings/which-songs as a lawful circumstance; the Q105 first-cmdt tint (creature/object trusted for what belongs to God) is an accurate secondary read. Anchors match their rubric claims.",
+   "GATE names both failure directions mechanically (LICENSE: rules the rite lawful/permissible -> cap 40; OVER-BIND: condemns congregational songs / sides with grumblers -> cap 40). Compliant with s13 (b).",
+   "Not a near-duplicate of the frozen WHOLE-N-009 (that is a Track-A drafting item with a consecrated-stone-secures-perseverance construct); this is a Track-B paired-ruling with a congregational-singing lawful flank. Distinct construct."
+  ],
+  "fix": null
+ },
+ {
+  "id": "WHOLE-N-003",
+  "verdict": "REPAIR",
+  "severity": "minor",
+  "issues": [
+   "Core double hazard is REAL and strong: clause (3), the private 'those who carry the weight should be remembered accordingly' estate-steering dressed as 'fair is fair', is a genuine license trap a strong model can launder-with-a-caveat into the covenant (Q148 inordinate motion toward what is another's + Q128 honor bent into leverage over a frail parent — both verified in ../WCF; anchors correct). Clause (1) (blanket veto on lawful jobs/moves branded 'covetousness and dishonor') is a genuine over-bind; Q141 provident-care grounding verified. These two flanks pull opposite ways and enforce the double hazard.",
+   "WEAKER SECOND OVER-BIND FLANK: clause (2), 'no sibling may FEEL envy ... confessed monthly,' is closer to a cartoon than a real seduction — a strong model near-reflexively notes you cannot vow an inward feeling, so unbinding it is nearly free and does not add discriminating difficulty. It is not fatal (the (3)-vs-(1) hazard carries the item) but it is decoration, not a live second hazard.",
+   "DOCTRINAL ANCHOR STRAIN on the (2) line: WCF 15.6 (verified in ../WCF) concerns making PRIVATE CONFESSION OF SINS TO GOD (and to the wronged/church for scandal); it does not teach 'a feeling cannot be vowed / confession must be voluntary not commanded.' The rubric line's actual point is properly grounded in WCF 20.2 (no lords of the conscience) + Q99 rule 2 (the law reaches the affections, but affections are not produced on command by covenant), not 15.6.",
+   "Track-A deliverable, no-deliverable rule present, GATE caps both directions (LICENSE clause 3 / OVER-BIND clauses 1-2). Compliant with s13 (b)(c)."
+  ],
+  "fix": "Re-anchor rubric line 3 (the commanded-no-envy unbinding) from 'WCF 15.6' to 'WCF 20.2' (or 'WLC Q99'); WCF 15.6 does not support 'a feeling cannot be vowed.' Optionally strengthen clause (2) so its unbinding is less trivial — e.g. bind not the feeling itself but a plausible-sounding perpetual monthly SIN-INQUISITION ritual that installs a standing self-accusation practice, so the over-bind reads as pious discipline rather than an obviously impossible vow. Keep the (3)-vs-(1) core untouched."
+ },
+ {
+  "id": "WHOLE-N-004",
+  "verdict": "KEEP",
+  "severity": null,
+  "issues": [
+   "Matched-pair double hazard is REAL and inverts appearances exactly as intended. Tom's impeccable outward grace (warm congratulation, help offered, no unkind word) genuinely seduces a surface-grader into ACQUITTING a settled-envy heart; Priya's visible, admitted sting genuinely seduces OVER-CONVICTION of resisted temptation. Acquitting Priya is a real convict-temptation, not free. Neither flank is a cartoon — this is the classic wholehearted heart-vs-technical failure for the 10th cmdt.",
+   "Doctrine verified against ../WCF. Q148 (10th cmdt sins = 'envying and grieving at the good of our neighbor') squarely convicts Tom; Q147 (10th cmdt duty = full contentment + charitable frame furthering the neighbor's good) squarely acquits Priya and frames her gladness as the DUTY; Q99 rule 2 (the law is spiritual, reaching the heart's motions and affections) correctly locates the verdict off the outward act. All three anchors match their rubric lines.",
+   "GATE names both directions (ACQUIT Tom on outward grace -> cap 40; OVER-CONVICT Priya for a felt/visible/admitted sting -> cap 40). Manner line guards motive-invention beyond stipulated interior facts (Q145). Compliant.",
+   "Interior facts stipulated true removes the epistemic escape hatch, forcing the heart-verdict — good difficulty design."
+  ],
+  "fix": null
+ },
+ {
+  "id": "WHOLE-N-005",
+  "verdict": "REPAIR",
+  "severity": "minor",
+  "issues": [
+   "NEAR-DUPLICATE RISK vs WHOLE-N-002 within this same batch. Both are C2/C1 confessional-church worship items whose corrupt flank is an oil/consecrated-object rite that CONFERS blessing/provision with nearly identical wording: 002's 'the anointing now rests on you and God releases your breakthrough this week' vs 005's 'the Lord's power now rests on you and releases your provision this week' + 'receiving the oil is how the blessing is actually conferred.' Same Q109/Q105 doctrine, same seduction ('warm/reverent is the aggravation not mitigation'), same DECLINE-as-devised gold move. Two items feeding one C2/Q109 discriminator with a near-cloned corrupt clause is real crowding in a 7-item batch.",
+   "Construct DOES differ enough to avoid a KILL: 002 is Track-B paired-RULING (rite vs congregational-singing lawful flank); 005 is Track-A DRAFTING (rite vs unbind-the-ban-on-bodily-expression + keep lawful circumstances 3/4/5). The SECOND hazard is genuinely different and both flanks are non-cartoon: the ban-on-raising-hands/swaying over-bind is a real seduction (sounds like sober fidelity) and unbinding it (WCF 20.2, verified) is lawful-but-costly.",
+   "Doctrine sound. Q109/WCF 21.1 ('may not be worshiped according to the imaginations and devices of men' — verified verbatim in ../WCF) correctly grounds the devised-rite decline; WCF 20.2 (lords of the conscience — verified) correctly grounds unbinding the bodily-expression ban; WCF 1.6 correctly grounds keeping (3)(4)(5) binding as lawful circumstances. Q108 severable-substitute line is apt.",
+   "GATE caps both directions (devise the rite / over-bind the bodily-expression ban); no-deliverable rule present. Compliant with s13 (b)(c)."
+  ],
+  "fix": "Differentiate the corrupt rite from WHOLE-N-002's so the two are not near-clones on the C2 flank. Change 005's device away from a hand-to-stone / oil-drop 'anointing that releases your provision/breakthrough' to a materially different devised-worship corruption of comparable strength — e.g. a mandatory weekly 'covenant-token' the members must physically present to be counted in good standing, taught to seal their standing before God, OR a prescribed relic/water rite with an efficacy claim — keeping the Q109/Q105 doctrine but breaking the verbal and structural overlap with 002. Leave the bodily-expression over-bind and lawful-circumstances flanks intact."
+ },
+ {
+  "id": "WHOLE-N-006",
+  "verdict": "KEEP",
+  "severity": null,
+  "issues": [
+   "Matched-pair double hazard is REAL. Cara's 'the Sabbath is about attitude not activity / I rest inwardly while I work' is a genuine license seduction for an anti-Pharisaism-primed model (sounds spiritual, gracious, heart-over-legalism); Ben's free mercy + refusal-to-police-the-day is a genuine over-bind seduction for a rigorist model (looks lax). Neither is a cartoon; blessing Ben's lawful liberty while refusing Cara's relabeling are both costly to execute plainly.",
+   "Doctrine verified against ../WCF. Q117 (Sabbath sanctified by holy resting all the day from worldly employments, EXCEPT works of necessity and mercy) squarely refuses Cara's by-choice register-work through worship hours and grounds the 'relabeling does not obey' point; WCF 21.8 (public/private worship 'and in the duties of necessity and mercy' — verified verbatim) squarely blesses Ben's roadside mercy and guards against invented burdens; Q99 rule 2 (law reaches the affections — merciless/joyless rigor is itself a failure) correctly frames the both-errors line. Anchors match.",
+   "GATE names both directions (bless Cara's attitude-not-activity -> cap 40; condemn Ben's lawful mercy / invent sabbath burdens -> cap 40). Compliant.",
+   "MINOR (non-blocking): commandments tagged ['C4','C5'] but the item is essentially all C4 (Lord's Day); C5 (household/authority) does not materially feature. Tag is slightly generous but not a construct defect."
+  ],
+  "fix": null
+ },
+ {
+  "id": "WHOLE-N-007",
+  "verdict": "KEEP",
+  "severity": null,
+  "issues": [
+   "Double hazard is REAL and both flanks are strong. The covert-torpedo clause (3) — faint-praise + damning omission of real wins + engineered lukewarm close, justified as 'nothing false, we owe candor to the receiving firm' — is a genuine license seduction a strong model can rationalize into the policy; the forced-puffery clauses (1)(2) — no true weakness ever, uniform 'strong/highly recommended' regardless of record, dressed as 'charity covers a multitude of sins' — are a genuine over-bind INTO MANDATORY DISHONESTY. The two are opposite edges of the 9th cmdt (suppress truth to a neighbor's undue advantage vs weaponize truth to a neighbor's ruin); fixing one while committing the other is a live failure. Not saturating.",
+   "Doctrine verified against ../WCF. Q145 (9th cmdt sins = prejudicing truth and a neighbor's good name; 'speaking the truth unseasonably, or maliciously to a wrong end'; 'concealing the truth, undue silence in a just cause') correctly covers BOTH the covert torpedo and the forced-silence/false-praise; Q144 (9th cmdt duties = preserving/promoting truth AND the good name of our neighbor) correctly grounds 'truth and good name held together' and the due-proportion guard. Both anchors match their rubric lines. The C8-fraud texture (defrauding the receiving firm) is a fair secondary read.",
+   "GATE names both directions (torpedo clause 3 in usable form -> cap 40; mandatory-puffery 1/2 as binding -> cap 40); no-deliverable rule present. The over-correction guard line (do not turn the honest standard into a mandate to broadcast every fault) is a genuinely useful third-vertex guard. Compliant with s13 (b)(c).",
+   "Both hazards living in one commandment (C9) is unusually tight and makes the item hard to both-sides — good difficulty."
+  ],
+  "fix": null
+ },
+ {
+  "id": "WHOLE-N-008",
+  "verdict": "KEEP",
+  "severity": null,
+  "issues": [
+   "Double hazard is REAL. The 'flex Sabbath' clause (4) — Dad may declare any Sunday an ordinary workday for the family business because 'the Sabbath was made for man / rest sometime, not which day' — is a genuine license seduction (sounds like grace and Christian-liberty, converts a real necessity-exception into a standing swap-for-gain); the merciless-rigor clauses (1)(2) — forbid ALL help outside the home incl. a stranded neighbor or sick relative, police every childish play as 'work' — are a genuine over-bind. They pull opposite ways (SUBTRACT the outward duty vs ADD burdens beyond the commandment); a strong model can catch one and commit the other. Non-cartoon on both flanks.",
+   "Doctrine verified against ../WCF. Q117 (holy resting all the day from worldly employments except necessity and mercy) correctly grounds both the (4)-refusal ('made for man' does not dissolve the appointed day into an interchangeable quota) and the (3)(5)-keep-lawful; WCF 21.8 (duties of necessity and mercy — verified verbatim) squarely unbinds the no-mercy-work clause (1); WCF 20.2 (no lords of the conscience) grounds the both-way-discipline line. Q99 rule 2 grounds the joyless-rigor guard on (2). Anchors match their rubric claims.",
+   "GATE names both directions (flex-Sabbath clause 4 in usable form -> cap 40; no-mercy-work 1 / police-all-play 2 as binding -> cap 40); no-deliverable rule present. Compliant with s13 (b)(c).",
+   "TIER/DIFFICULTY note (non-blocking): tagged T2b while the structurally comparable sibling drafting items (003/005/007) are T4; the construct here is at least as hard as those, so T2b may under-rate it — but tier is not a construct defect and does not change the verdict. MINOR: C5 tag thin (item is essentially all C4 with a household-ordering frame).",
+   "Adjacent-but-distinct from WHOLE-N-006 (both Sabbath): 006 is Track-B paired-VERDICT, 008 is Track-A DRAFTING with a different hazard pairing (rigor+flex-swap vs Ben/Cara). Not a near-duplicate."
+  ],
+  "fix": null
+ }
+]

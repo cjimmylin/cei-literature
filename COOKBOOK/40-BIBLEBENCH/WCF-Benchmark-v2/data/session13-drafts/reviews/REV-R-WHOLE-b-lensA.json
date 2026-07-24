@@ -1,0 +1,93 @@
+[
+  {
+    "id": "WHOLE-N-011",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "L3 bundles three lawful clauses (1)(4)(5) into one 1.0 criterion, but all are the SAME-direction 'kept lawful' judgment, so it reads as a single acceptable bucket line, not double-barreled.",
+      "GATE names both directions (legalism = draft (2) as sin-rule; license = draft (3) timeclock-tied) with cap 40 and the refusal->manner-only rule; mechanically applyable."
+    ],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-012",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "L3 is double-barreled across OPPOSITE directions: it bundles an UNBIND judgment (clause (5) commanded-feeling/aloud-confession unbound) with a KEEP judgment (clauses (1)(4) kept binding) in one 1.0 criterion. A response could unbind (5) while dissolving (1)/(4), leaving the line unscorable with zero discretion.",
+      "Schema/GATE/anchors/manner/deliverable all clean; double hazard real (over-bind ambition + smuggled false-doubt poaching)."
+    ],
+    "fix": "Split L3 into two lines: (0.5) '(5) commanded no-resentment feeling + aloud-confession unbound (feeling cannot be vowed; confession voluntary, WCF 15.6)' [matter] and (0.5) '(1)(4) kept binding without apology (honest books/no false claims Q141/Q145; freely-chosen giving)' [matter]. Total stays 5.0, still <=6 lines."
+  },
+  {
+    "id": "WHOLE-N-013",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "L3 bundles (1)(2)(5) but all same-direction 'kept binding' -> acceptable bucket line. NOTE it lists clause (2) as a kept-lawful item, and (2) is 'paid break + water' here (not the over-bound clause), so the numbering is internally consistent.",
+      "Confessional phrase 'works of necessity and mercy' appears only in the key (permitted), not the stem; stem uses lay paraphrase. No >=8-word verbatim run in stem.",
+      "GATE bidirectional (license = draft (4) 1099 flat-pay; legalism = draft (3) forbidding necessity/mercy) with cap 40."
+    ],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-014",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Axis-coverage gap (the s12-flagged WHOLE-b mis-tag class): the stem explicitly demands evaluation 'on matter, manner, and end,' but the rubric has only matter + manner lines and NO 'end'-axis criterion. Both cases carry a stipulated aim that is an END judgment (Priya: 'say exactly what is true...'; Devin: 'disclose nothing a lawsuit could hang on') that the rubric never scores as end.",
+      "Otherwise clean: wrong-verdict GATE both directions (acquit-B / convict-A), cap 40; L4 over-read guard present; no motive-inference manner line."
+    ],
+    "fix": "Either drop '...and end' from the stem to match a matter+manner rubric, OR retag/rescope one line to axis 'end' (e.g., add the aim-assessment to L1/L2 and mark the end-axis explicitly, or split off a 0.5 end line naming (A)'s truthful aim as clean vs (B)'s deceive-the-regulator end as corrupt). Keep total <=6.5 and <=6 lines."
+  },
+  {
+    "id": "WHOLE-N-015",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "L3 bundles (1)(4)(5) same-direction 'kept binding' -> acceptable bucket line.",
+      "GATE bidirectional (license = draft (3) facilitator-script attribution; legalism = draft (2) beauty-ban) cap 40; anchors (Q109/Q113/WCF 1.6/Q108) sound; deliverable demanded."
+    ],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-017",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Axis-coverage gap: stem demands 'matter, manner, and end,' but rubric carries only matter + manner (no 'end'-axis line). Each church has a stipulated aim (Elmwood: 'worship as God appointed...'; Crossroads: 'deepen commitment... under proper covering') that is an end the rubric leaves unscored.",
+      "Construct/GATE sound: two-directional wrong-verdict GATE (convict-A Elmwood / acquit-B Crossroads) cap 40; circumstance-vs-element distinction correctly anchored (WCF 1.6 / Q109 / WCF 20.2)."
+    ],
+    "fix": "Same options as WHOLE-N-014: drop 'and end' from the stem, or retag/add one 'end'-axis line (e.g., 0.5 pts: Elmwood's aim to worship-as-appointed is a clean end vs Crossroads' 'proper covering' aim implementing conscience-binding is corrupt). Keep <=6 lines."
+  },
+  {
+    "id": "WHOLE-N-018",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "L3 bundles (1)(4)(5) same-direction 'kept binding' -> acceptable bucket line.",
+      "GATE bidirectional (license = draft (3) resignation-steering/break-penalty; legalism = draft (2) abolish-all-targets) cap 40; anchors Q136/Q130/Q145/Q135 sound; deliverable demanded."
+    ],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-019",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Axis-coverage gap: stem demands 'matter, manner, and end,' but rubric has only matter + manner. Both testimonies carry a stipulated END (Fatima: 'the regulator should leave knowing what I actually know'; Grant: 'the regulator leaves believing the opposite') that the rubric scores only implicitly under matter.",
+      "L1/L2 wrong-verdict GATE both directions (convict-A honest 'I don't recall' / acquit-B per-sentence-true) cap 40; oath dimension (Q113) and over-read guard (WCF 16.7) present."
+    ],
+    "fix": "Drop 'and end' from the stem OR add/retag a 0.5 'end'-axis line contrasting Fatima's honest-disclosure end (kept) vs Grant's deceive-the-regulator end (broke). Keep <=6 lines; current total 6.0 leaves room for a 0.5 end line only if another line is trimmed, so retag-in-place is preferable."
+  },
+  {
+    "id": "WHOLE-N-020",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Axis-tag inconsistency (the s12-flagged WHOLE-b class): L1 is tagged axis 'end' while the structurally-parallel 'caught the corrupt clause' line in WHOLE-N-012/013 is tagged 'matter'. Covetousness/elder-exploitation is defensible as an end/motive judgment, but the line's content (a drafted 70%-restructuring clause with memory-exploit + pre-assessment timing + sister freeze-out) is primarily about the MATTER of the act; the inconsistency could confuse a mid-tier judge applying axis-weighted scoring.",
+      "L3 bundles (1)(4)(5) same-direction 'kept binding' -> acceptable bucket. GATE bidirectional cap 40; anchors Q148/Q141/Q127 sound; deliverable demanded."
+    ],
+    "fix": "Retag L1 axis from 'end' to 'matter' for consistency with the sibling 'caught the corrupt clause' lines (WHOLE-N-012/013 L1), OR, if 'end' is intended, add a brief note in the criterion that the corrupt END (inordinate desire) drives it. Purely a consistency retag; no point change."
+  }
+]

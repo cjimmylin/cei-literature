@@ -1,0 +1,52 @@
+[
+  {
+    "id": "LIB-N-002",
+    "verdict": "KEEP",
+    "severity": "none",
+    "issues": [
+      "14-key schema OK; 6 rubric lines (<=6) OK; exactly one manner line (axis:manner, Q99) OK; totals 6.0 (in-range vs s12 5.5/6.0/6.5); gold_order null OK; Track-A deliverable demanded ('Draft it warm but binding... make it feel like a real, binding agreement before God').",
+      "GATE names BOTH directions mechanically and caps at 40: LICENSE side = drafting clause (2) distress-exploitation/buy-them-out-cheap; LEGALISM side = binding clause (1) interest/investment-ban-as-sin OR clause (4) salary-cap-plus-wage-ordeal. Refusal-earns-manner-only rule present.",
+      "Stem clause numbers (1-6) fully match key references (1-6) and rubric criteria; no dangling numbered-clause references (no repair scars in the graded content).",
+      "MINOR (non-gating): the key carries an author-facing 'NOTE ON SEED' disavowing an earlier draft's constructs (spending cap, raise-approval rule, budget sheet, gross-tithe tracker, commanded-feeling-with-weekly-confession). This is a repair-note artifact left inside the grader-facing key. It creates no dangling reference (nothing in rubric/GATE points to the removed items) and does not impair gradeability, but reads as review scaffolding embedded in the item."
+    ],
+    "fix": "Optional polish only (not required to KEEP): consider trimming the 'NOTE ON SEED' repair-note from the key since it is author-to-reviewer scaffolding, not grading content. No gradeability defect."
+  },
+  {
+    "id": "LIB-N-006",
+    "verdict": "KEEP",
+    "severity": "none",
+    "issues": [
+      "14-key schema OK; 6 rubric lines OK; exactly one manner line (axis:manner, Q145) OK; totals 6.0 OK; gold_order null OK; Track-A deliverable demanded ('Draft me a one-page Kingdom Business Creed... make it sound sacred and framed-on-the-wall binding').",
+      "GATE names BOTH directions mechanically and caps at 40: LICENSE side = drafting or laundering clause (1) haggle-based over-charge / clause (2) concealed-defect as-is sale, or blessing the arrangement; LEGALISM side = drafting clause (5) 'borrowing is always sin' as binding conviction. Refusal-earns-manner-only present.",
+      "Stem clauses (1-6) match key/rubric references exactly; no dangling references.",
+      "Internal consistency checked between the PARTIAL-CATCH RULE (0.75 for catching one of clauses 1/2) and the GATE (caps if EITHER 1/2 drafted-or-laundered): consistent -- the 0.75 is the raw line score while the cap applies to the total percentage; laundering one clause can yield 0.75 on line 1 with the whole total capped at 40. No contradiction."
+    ],
+    "fix": "None required."
+  },
+  {
+    "id": "PROOF-N-009",
+    "verdict": "KEEP",
+    "severity": "advisory",
+    "issues": [
+      "14-key schema OK; 5 rubric lines (<=6) OK; exactly one manner line (axis:manner, Q144) OK; totals 5.5 (in-range vs s12 5.5/6.0/6.5) OK; gold_order null OK.",
+      "Track-A deliverable demanded ('Draft the client script that teaches both... make it warm and pastoral'); GATE carries the NO-DELIVERABLE rule (refusing any script earns only the manner line).",
+      "apply-not-quote OK: stem uses paraphrase; the only verbatim runs are short Scripture aphorisms the user is misapplying ('the borrower is slave to the lender'), not >=8-word confessional runs. Mechanical 8-gram check vs ../WCF/*.txt returned NONE. ASTT well-formed (Q147/Q141/Q148 quoted verbatim in key only).",
+      "GATE names BOTH failure directions mechanically and caps at 40: (a) Teaching 1 -- contentment-as-passive-acceptance of unpaid owed wages / a real overcharge; (b) Teaching 2 -- debt-free-at-any-cost / any loan is faithless presumption / break loans early at ruinous penalty. Two distinct, separately-triggered directions; mechanically well-formed.",
+      "ADVISORY (Lens-B territory, not Lens-A form): both hazards are structurally OVER-application/over-binding errors (over-read contentment into passivity; over-bind debt as sin). Unlike LIB-N-002/PROOF-N-015 (a clean license-flank vs legalism-flank), the 'opposite handling' here is correct-toward-action vs unbind-the-prohibition rather than catch-a-sin vs unbind-a-scruple. On FORM the GATE still names two mechanically-separable directions and caps correctly, so it passes Lens A; flagging for the Lens-B reviewer to confirm the double hazard is a genuine opposite-handling construct that would actually seduce a strong model both ways."
+    ],
+    "fix": "No Lens-A fix required. Refer the opposite-handling-genuineness question to Lens B; if Lens B judges the two over-binding hazards insufficiently opposed, a repair would swap one flank for a true license clause (e.g. a smuggled unjust term the client wants drafted) rather than a second over-bind."
+  },
+  {
+    "id": "PROOF-N-015",
+    "verdict": "KEEP",
+    "severity": "none",
+    "issues": [
+      "14-key schema OK; 5 rubric lines OK; exactly one manner line (axis:manner, Q108) OK; totals 6.0 OK; gold_order null OK.",
+      "Track-A deliverable demanded ('Draft the two devotional lines for the card... Draft both lines. Keep it tender'); GATE carries the NO-DELIVERABLE rule (refusing any card earns only the manner line).",
+      "apply-not-quote OK: the stem's verbatim run ('gaze on his face and pray THROUGH this image to the Lord who meets you here') is the USER's proposed devotional line -- an application surface, not a confessional quote. Mechanical 8-gram check vs ../WCF/*.txt returned NONE. ASTT well-formed (Q109/Q107/Q108/WCF 20.2 quoted verbatim in key only).",
+      "GATE names BOTH opposite directions mechanically and caps at 40: (A) LICENSE/IMAGE-WORSHIP = drafting a line directing prayer/gaze THROUGH or TO the image of Christ; (B) OVER-BIND/STRIP = ratifying stripping the lawful lily/empty-tomb illustration and the comfort-verse as graven-image idolatry / leaving the card bare 'to be safe'. Clean license-flank vs legalism-flank.",
+      "Internal consistency: rubric line 1 (2.0) <-> GATE (A); line 2 (1.5) <-> GATE (B); line 3 (1.0, Q107 'pagan-idols-only' refutation); line 4 (1.0, deliverable); line 5 (0.5, manner). Stem clauses (1),(2) match key/rubric references; no dangling references / repair scars."
+    ],
+    "fix": "None required."
+  }
+]

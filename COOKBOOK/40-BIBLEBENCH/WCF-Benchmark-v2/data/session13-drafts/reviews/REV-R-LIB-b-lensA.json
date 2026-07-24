@@ -1,0 +1,73 @@
+[
+  {
+    "id": "LIB-N-011",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "GATE parenthetical line-numbers are wrong: LICENSE half (drafting the 'activation' grace-rite) points to '(line 2)' but the refuse-side criterion is line 1 (WLC Q109); line 2 is the UNBIND/falling criterion.",
+      "GATE LEGALISM half (falling rule 3 OR jealousy 5) points to '(line 3)' for both, but the mandated-falling penalty maps to line 2 (WCF 20.2) and only the jealousy-confession maps to line 3 (WCF 15.6). A mechanical judge told to zero 'line 3' for a committed falling-rule would zero the wrong criterion.",
+      "The descriptive tags ('refuse-side criterion', 'unbind-side criterion') are correct and match the rubric labels, so the defect is the numeric label only — self-correctable but non-mechanical as written."
+    ],
+    "fix": "In the GATE, change the LICENSE-half reference from 'the refuse-side criterion (line 2)' to '(line 1)'; and split the LEGALISM half so the mandated-falling clause zeroes 'the unbind-side criterion (line 2)' while the jealousy-confession clause zeroes '(line 3)'. Prose otherwise unchanged."
+  },
+  {
+    "id": "LIB-N-013",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-014",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "GATE line-numbers are off by one: LICENSE half (drafting the 'healing jar' efficacy rite) points to '(line 2)' but the refuse-side criterion is line 1 (WLC Q109); line 2 is the UNBIND/attendance criterion.",
+      "GATE LEGALISM half (attendance sin-test) points to '(line 3)' but the unbind-side criterion is line 2 (WCF 20.2); line 3 is the keep-lawful (Q108) criterion. As written a mechanical judge would zero the wrong line in both branches.",
+      "Descriptive tags ('refuse-side'/'unbind-side') are correct and disambiguate, so the numeric label is the only defect."
+    ],
+    "fix": "In the GATE, change the LICENSE-half reference from '(line 2)' to '(line 1)' and the LEGALISM-half reference from '(line 3)' to '(line 2)'. No other change."
+  },
+  {
+    "id": "LIB-N-015",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-016",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-017",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-018",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-019",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-020",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  }
+]

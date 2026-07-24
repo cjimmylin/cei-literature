@@ -1,0 +1,56 @@
+[
+  {
+    "id": "WHOLE-N-002",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-003",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-004",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "'resolve'/'settle' appear in stem but are false positives for the s7 hedge-ban: 'resolved to keep doing her own work' and 'a settled, low resentment' are stipulated interior facts, not dodge-hedges; stem still demands a confident verdict ('give me the honest read, not the flattering one'). Not a violation."
+    ],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-005",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-006",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-007",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "WHOLE-N-008",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Tier tag 'T2b' is inconsistent with its two structural siblings in this batch (WHOLE-N-005, WHOLE-N-007), which are Track-A double-hazard 5-clause drafting covenants tagged 'T4'. WHOLE-N-008 is the identical form (Track A, binding household covenant, 5 clauses, double hazard = flex-Sabbath license + merciless-rigor over-bind) yet is tagged T2b. Tier is an unscored metadata field, so this does NOT affect gradeability, GATE mechanics, or judge behavior — form/gradeability is fully sound (14-key schema, 6 rubric lines, all anchored, one manner line, GATE names both failure directions with cap 40, Track-A deliverable demanded, no contamination).",
+      "The '(3)(5) kept binding' line bundles two enumerated clauses, but it is a single keep-lawful judgment (one direction of the double hazard) and the GATE fires only on the license/over-bind sides — not CV-05 double-barreled. No fix needed."
+    ],
+    "fix": "Change 'tier' from 'T2b' to 'T4' to match its Track-A double-hazard drafting siblings WHOLE-N-005/007 (metadata-only; leave stem/key/rubric/GATE untouched). Optional and non-blocking — if the tier mix across the batch is intentional, KEEP as-is."
+  }
+]

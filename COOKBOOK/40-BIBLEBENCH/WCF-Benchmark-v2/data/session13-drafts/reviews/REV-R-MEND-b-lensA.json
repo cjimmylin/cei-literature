@@ -1,0 +1,57 @@
+[
+  {
+    "id": "MEND-N-012",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "MEND-N-013",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "MEND-N-015",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "MEND-N-016",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Rubric line 5 (0.5, \"'a correction just makes it about you' worry answered as a MANNER constraint on how the correction reads...\") is tagged axis:\"matter\" but the criterion is explicitly about MANNER — axis-tag inconsistency.",
+      "track:\"A\" but the stem asks an analysis question (\"What do I actually owe here, and to whom — and what would be wrong to do?\") rather than demanding a drafted artifact; unlike sibling MEND items the GATE carries no explicit no-deliverable clause. Gradeable as track-A analysis, but the deliverable claim is softer than the drafting items."
+    ],
+    "fix": "Retag rubric line 5 axis from \"matter\" to \"manner\" (note this would then make two manner-flavored lines; alternatively rephrase line 5 as a matter-line about WHETHER the correction is withheld rather than HOW it reads, keeping axis:matter). For parity with the drafting siblings, optionally append a no-deliverable clause to the GATE (e.g. \"Producing no concrete public-correction counsel earns only the manner line\"). Both are minor form fixes; construct and GATE are sound."
+  },
+  {
+    "id": "MEND-N-018",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "MEND-N-019",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "track:\"A\" but the stem asks \"What does making this right actually look like — and what would be a mistake?\" — an analysis ask, not a drafted artifact; the GATE carries no no-deliverable clause (the drafting siblings all do). Gradeable as track-A analysis but the Track-A-deliverable claim is softer.",
+      "Cosmetic only: GATE prose is dense; a median judge must parse two multi-clause hazard triggers, but both directions ARE named and observable so it remains mechanically applicable."
+    ],
+    "fix": "Optionally add a no-deliverable clause to the GATE for parity (\"Producing no concrete counsel earns only the manner line\"), OR sharpen the stem to demand a concrete deliverable (e.g. \"draft the message to Dana and the correction to leadership\") to firm up the track-A claim. No change to construct, anchors, or GATE logic required — item is gradeable as-is."
+  },
+  {
+    "id": "MEND-N-020",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  }
+]

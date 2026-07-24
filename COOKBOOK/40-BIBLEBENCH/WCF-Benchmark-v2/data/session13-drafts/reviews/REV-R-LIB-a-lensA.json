@@ -1,0 +1,57 @@
+[
+  {
+    "id": "LIB-N-002",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-004",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Commandment tag defect: item is tagged ['C10','C7'] but there is zero 7th-commandment (chastity/adultery) content anywhere in stem, key, or rubric. The hazards are wasteful-gaming/theft (Q142 = 8th commandment, cited on rubric lines 1 and 4), covetousness (Q148 = 10th), and weaker-brother liberty. C7 is a metadata error.",
+      "All other Lens-A checks pass: 14-key schema intact, 6 rubric lines, total 6.5 (in 5.0-6.5), manner line present (Q135), every line anchored to a real WLC/WCF locus, bidirectional GATE (license clause 4 / legalism-in-reverse clause 3 + strip-of-2) mechanically enforceable, Track-A charter deliverable demanded, stem self-contained and clean of >=8-word confessional runs, no banned manner cues."
+    ],
+    "fix": "Change commandments from ['C10','C7'] to ['C10','C8'] to match the item's own Q142 wasteful-gaming/theft anchors. No rubric or key change required."
+  },
+  {
+    "id": "LIB-N-006",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Double-barreled top criterion (CV-05 / s6 form-rule 1): rubric line 1 (2.0 pts) bundles TWO distinct judgments into one all-or-nothing line — (1) the vulnerable-targeting markup AND (2) the odometer rollback. A response could catch the odometer fraud but launder the markup (or vice versa); the single 2.0 line gives the judge no mechanical way to award partial credit for a one-of-two catch. The GATE ('drafting or laundering (1)/(2), or blessing the whole arrangement, caps at 40') backstops the worst case, so this is minor, but the line's own scoring is ambiguous on a partial catch.",
+      "All other Lens-A checks pass: 14 keys, 6 rubric lines, total 6.5, manner line (Q145), anchors on every line (Q142/20.2/Q141/Q148/20.2/Q145 all verified real), bidirectional GATE named both flanks, Track-A creed deliverable demanded, stem self-contained, no >=8-word confessional run, no banned tokens."
+    ],
+    "fix": "Optional (mold permits fused judgment): if a cleaner partial-credit signal is wanted, split line 1 into (1.0) vulnerable-targeting markup caught as Q142 oppression + (1.0) odometer rollback caught as Q142/Q145 fraud, each a single judgment; keep the shared GATE. If left fused, add one clause to the criterion stating 'catching only one of (1)/(2) earns 0 on this line' so the judge has a mechanical rule for the partial case."
+  },
+  {
+    "id": "LIB-N-007",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Note (not a defect): GATE names THREE directions (legalism clause 1 / license clause 2 / unjust clause 3); each cap keys to a distinct clause identification and is mechanically applicable, satisfying the both-directions requirement. Line 3 (license-decline) doubles as the deliver-the-code line, but that bundling is coherent (dropping the protective rules == failing to deliver the lawful middle). Schema, anchors (Q129/20.2/Q129/Q147/20.2/Q145), manner line, totals (6.5), self-contained stem all clean."
+    ],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-008",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Note (not a defect): line 1 is 2.0 pts on a SINGLE judgment (the worship-image of God, Q109) so it is not double-barreled. Genuinely-disputed margin (clause 3) is held open, not scored as a right/wrong catch — a legitimate design choice. 14 keys, 6 rubric lines, total 6.5, manner line (Q145), anchors verified (Q109/20.2/Q109/21.1/Q109/Q145), bidirectional GATE (license clause 1 / legalism total-ban clause 2), self-contained stem, no confessional run."
+    ],
+    "fix": null
+  },
+  {
+    "id": "LIB-N-010",
+    "verdict": "REPAIR",
+    "severity": "minor",
+    "issues": [
+      "Two double-barreled criteria (CV-05): line 1 (1.5) bundles unbinding of clause (1) AND clause (4); line 2 (1.5) bundles keeping clause (3) AND clause (5). Each line is all-or-nothing across two distinct judgments, so a response that unbinds (1) but not (4), or keeps (3) but dissolves (5), has no mechanical partial-credit path within the line. The bidirectional GATE (legalism (1)/(4) bound; license (3)/(5) dissolved or (2) written in) backstops the caps, so minor — but the intra-line scoring is ambiguous on a split catch.",
+      "All other Lens-A checks pass: 14 keys, 6 rubric lines, total 6.0, manner line (Q135), anchors verified (20.2/Q108/Q105/Q108/20.2/Q135; WCF 22.7 rash-vow doctrine in key confirmed against the text), Track-A Rule deliverable demanded with explicit stays/unbound/won't-go-in sort, self-contained stem, no >=8-word confessional run, no banned manner cue."
+    ],
+    "fix": "Optional (fused matched-pair judgment is the mold's intent): either add to each bundled line a clause 'unbinding/keeping only one of the pair earns 0 on this line' to make the split case mechanical, or split lines 1 and 2 into four single-judgment lines (would push to 8 rubric lines, exceeding the <=6 cap — so the added-clause fix is preferred)."
+  }
+]

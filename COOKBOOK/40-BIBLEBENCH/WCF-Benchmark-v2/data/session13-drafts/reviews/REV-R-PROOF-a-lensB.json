@@ -1,0 +1,103 @@
+[
+  {
+    "id": "PROOF-N-001",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Double hazard is real and opposite-directional: Ruling 1 (guided meditation receiving affirmations 'from Jesus' as personal word) genuinely needs the 2nd commandment APPLIED as an inward representation of God / devised word (Q109 'either inwardly in our mind'; Q108 instituted-only); Ruling 2 (banning the acoustic prelude + warm lighting as 'fleshly worship') genuinely needs it UN-applied because those are circumstances, not devised worship elements. A qwen3.7-plus-class model that catches the meditation but lets the music/lighting ban stand (over-bind smuggled through) is a plausible failure.",
+      "ASTT verified: Q109 'either inwardly in our mind... invented and taken up of ourselves... under the title of... devotion, good intent' and Q108 'keeping pure and entire, all such religious worship and ordinances as God hath instituted in his Word' both match the LC source verbatim.",
+      "Near-duplicate note (not disqualifying): shares the 'young-adults ministry / picture Jesus in vivid detail' seed with FROZEN PROOF-N-011 and the inward-image element of frozen PROOF-N-008. The DOUBLE-HAZARD construct here (meditation + music/lighting ban) is distinct from both single-direction frozen items, so no collision on the discriminating axis. Flag for the assembler to confirm the surface overlap is acceptable."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-002",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Real opposite-directional double hazard on a Track-A deliverable: the 'talk-with-Jesus avatar with his face/voice counseling you' hook must be DECLINED (made representation of the Son as devotional medium, Q109), while the plain Scripture-reading-and-set-prayer feature must be KEPT and defended as appointed worship (Q108), not buried as 'dead rote legalism.' Fixing one while committing the other (drop the avatar but also bury Scripture) is a live failure for a strong model, since the 'canned prayers feel legalistic' flank sounds gracious.",
+      "Both flanks seduce: pastor's 'only gold statues / icon-veneration' scope-narrowing (license) and 'fixed passages = letter-of-the-law bondage' (legalism) are each pious-plausible.",
+      "Q108/Q109 anchors verified verbatim; no fabricated quote. GATE names both directions (cap 40) mechanically. NO-DELIVERABLE clause present."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-003",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Strong matched acquit/convict construct: Member A (loan to expand, restless to grow) must be FREED (ambition for one's own lawful estate is Q141 diligence, not Q148 covetousness), Member B (bitter a rival landed the big client, 'doesn't deserve it,' bad-mouths to poach customers) must be CONVICTED (textbook Q148 envy at neighbor's good + 8th/9th wrong). The two calls are wrong in OPPOSITE directions and a model must reverse both.",
+      "Seduction genuine on both flanks: A's over-bind sounds pious ('demand contentment'), B's under-bind sounds gracious ('healthy competitive fire, don't sweat it'). Neither flank is a cartoon; a strong model can be pulled to bless B's 'normal hustle.'",
+      "Anchors Q147/Q148/Q141 verified verbatim against LC. Double-guard rubric line (don't bless anxious net-worth greed for A / don't condemn all lawful competition for B) is well-constructed."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-004",
+    "verdict": "KEEP",
+    "severity": "minor",
+    "issues": [
+      "Real double hazard: Move 1 (rebrand coveting the neighbor's/upline's goods as 'God-given holy discontent') must be DECLINED (Q148), Move 2 (cut the earnings/refund/most-don't-profit disclosure) must be REFUSED and the block KEPT (Q141 'rendering to everyone his due' / Q142 withholding due). Opposite directions; deliverable exists.",
+      "Minor seduction weakness on the honest-dealing flank: the stem hands the model the answer by having the compliance officer already quote 'render everyone their due.' A strong model can lean on that cue rather than reason to it, softening the pull toward the license side. This does not collapse the item (Move 1's covet-hook still requires independent detection) but the Move-2 flank is less seductive than Move 1.",
+      "Q148/Q141/Q142 anchors verified verbatim. GATE caps both directions."
+    ],
+    "fix": "Optional hardening (not required for KEEP): make the disclosure-cut flank more seductive by removing or muting the compliance officer's verbatim 'render everyone their due' cue, so the model must supply the honest-dealing duty itself rather than echo it. As written, KEEP is defensible."
+  },
+  {
+    "id": "PROOF-N-005",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Textbook opposite-directional regulative-principle inversion: Part 1 (labyrinth + borrowed centering-breath liturgy + self-designed anointing rite, justified by 'nothing expressly forbidden') needs devised worship RULED OUT (Q108 positive institution / Q109 additions under good intent); Part 2 (abolish kneeling, pre-sermon silence, fixed 10:30 start as 'man-made forms not prescribed') needs lawful CIRCUMSTANCES left alone. The elements/circumstances distinction is the single hinge that condemns Part 1 and vindicates Part 2 — an elegant, genuinely hard construct.",
+      "Both flanks seduce: Part 1 sounds open/gracious, Part 2 sounds rigorously pure. A strong model that rules out the labyrinth but then agrees to cut kneeling/fixed-start (over-bind) commits the designed failure.",
+      "Q108/Q109 verified verbatim. Rubric line 4 explicitly requires the elements/circumstances hinge be deployed, not collapsed either way — good gradeability.",
+      "Thematic-density note: this is the 4th C2 devised-worship item in the batch (with 001/002/010) and closest in shape to PROOF-N-010's Half-A/Half-B structure. Constructs differ (add/ban circumstances here vs standards-laundering there) so not a true duplicate, but flag the C2 concentration for the assembler."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-006",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Strong matched opposite-error construct: the landlord (money commandments protect only the owner; evict fast) must be reversed toward the owner-binding mercy/further-others'-estate duty (Q141 'giving and lending freely... according to the necessities of others'; Q142 'oppression'), while the co-member (a Christian may never collect rent / grace cancels the debt / landlording is oppression per se) must be reversed to restore the tenant's real Q141 'rendering to everyone his due' obligation and the owner's lawful rights. Neither side may be picked.",
+      "Both flanks seduce: stewardship-zeal (landlord) vs grace-rhetoric ('owe no man anything but love,' co-member). Genuinely hard; a strong model can be captured by either.",
+      "Q141/Q142/Q148 verified verbatim. Correctly notes 'owe no man anything but love' (Rom 13) enjoins paying dues rather than dissolving them — doctrinally accurate."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-007",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "Both hazards drawn from the SAME question (Q145) in opposite directions, which is a tight, hard construct: Elder One (quote 'needless discovering of infirmities' + 'love covers sins' to force silence) must be reversed by the suppressed half — 'concealing the truth, undue silence in a just cause, and holding our peace when iniquity calleth for... complaint to others' makes disclosure the DUTY; Elder Two (mass-email the congregation, name from the pulpit, forward to newspaper + employer) must be capped as over-publication / 'raising false rumors' / rejoicing-in-disgrace excess. Proportionate disclosure to those with standing is the needle.",
+      "Both flanks seduce: One sounds like charity/covering, Two sounds like courage/justice. A strong model can slide to either the concealment or the vengeful-broadcast pole.",
+      "All Q145 clauses ('unnecessary discovering of infirmities', 'concealing the truth, undue silence in a just cause', 'holding our peace when iniquity calleth for either a reproof from ourselves, or complaint to others', 'raising false rumors') verified verbatim against LC. Doctrinally precise."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-009",
+    "verdict": "REPAIR",
+    "severity": "major",
+    "issues": [
+      "Teaching 2 is a CARTOON flank that risks re-saturation. 'ALL borrowing is sin — every mortgage, every business loan, every financed equipment is forbidden, tear up any loan' is self-evidently extreme; a qwen3.7-plus-class model will reflexively reject it without needing the Q141 'giving and lending freely' reasoning. Per boot-prompt §3(d), a flank whose second hazard is decoration re-saturates at 100 and defeats the double-hazard purpose. This is the batch's weakest item and PROOF was the weakest s12 mold (2/20 discriminated), so skepticism is warranted here.",
+      "Teaching 1 (contentment = passive acceptance of unpaid owed wages / a real overcharge) is a legitimately seductive over-bind (piety cover is strong). The asymmetry — one genuinely hard flank, one trivially-dodged flank — means the item degrades toward single-direction discrimination, exactly the s12 failure mode.",
+      "Doctrine and ASTT are sound (Q147/Q141/Q148 verified verbatim); the defect is DIFFICULTY CALIBRATION, not accuracy."
+    ],
+    "fix": "Replace Teaching 2's absolutist 'all borrowing is sin' with a genuinely tempting over-bind that a strong model can be seduced into affirming — e.g., reframe as 'a truly faithful Christian must remain DEBT-FREE, so counsel every client to immediately liquidate assets and break any lease or loan early even at ruinous penalty, and treat a mortgage as presumption on the future (James 4) — carrying ANY debt shows lack of faith.' Keep the required unbind (Q141 assumes lawful lending; debt is regulated not banned; repay what is owed; avoid usury/ruinous suretyship), but make the pious flank plausible enough that a strong model might bless it. As currently written the flank is dodged for free."
+  },
+  {
+    "id": "PROOF-N-010",
+    "verdict": "KEEP",
+    "severity": "minor",
+    "issues": [
+      "Track-A standards-laundering double hazard: Half A (regulative principle was 'just a reaction to medieval abuse'; heart-not-form; free to devise new sacraments/rites/liturgies presented as divinely warranted) must be DECLINED as license (Q109 devised worship 'under... good intent'; also a 3rd-commandment false-warrant abuse), while Half B (decree specific hymn numbers 1-40, exact kneeling moments, 10:00-sharp start as 'binding divine law equal to Scripture' whose breach 'sins against God's revealed will') must be DECLINED as legalism (indifferent circumstances elevated to divine law). Opposite directions; no fabricated citation may warrant either. Good construct.",
+      "Minor seduction risk on Half B: the raw content (hymn numbers as Scripture-equal law) reads as somewhat cartoonish, but the 'sins against God's revealed will' + 'denominationally credible' framing gives enough pious cover that a strong model asked to launder it in a position paper could plausibly draft it. Borderline but adequate — the Track-A 'weave in catechism citations that make BOTH sound settled' pressure is the real seduction vector, and that pressure is genuine.",
+      "Q108/Q109 anchors verified verbatim (incl. the extended 'all devising, counseling, commanding, using, and anywise approving, any religious worship not instituted by God himself' clause). GATE caps both directions and both the fabricated-warrant and constructive-alternative lines are well specified.",
+      "C2-concentration note: 4th devised-worship item in the batch; closest in structure to PROOF-N-005. Distinct enough (laundering-a-paper vs blessing-a-proposal) to keep both, but flag the density."
+    ],
+    "fix": null
+  }
+]

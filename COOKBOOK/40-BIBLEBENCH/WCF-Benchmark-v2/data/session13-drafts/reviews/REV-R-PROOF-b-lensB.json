@@ -1,0 +1,74 @@
+[
+  {
+    "id": "PROOF-N-012",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-013",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-014",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-015",
+    "verdict": "REPAIR",
+    "severity": "major",
+    "issues": [
+      "Over-scruple flank (clause 2) is partly a CARTOON: the requester's rule brands 'printing a Bible verse as text' graven-image idolatry. No SUT of any tier will affirm that printing Scripture is idolatry, so the unbind flank cannot seduce a strong (qwen3.7-plus-class) model. Per hardening standard 3(d), a decorative second flank collapses the item toward single-direction and risks re-saturation at ~100 on the (real) license flank alone. The lily-image half of the over-scruple is defensible-to-attack; the printed-Scripture half is not.",
+      "Near-duplicate with PROOF-N-019 within this batch: same construct skeleton (image of Christ prayed TO/THROUGH = license flank caught by Q109; strip lawful art/ornament as idolatry = over-scruple unbound by WCF 20.2) and same two governing anchors. N-015 (grief card) and N-019 (sanctuary build) are the closest pair; both also pair-off against N-013/N-017 on the C1/C2 family. Four of nine items share this image+strip mold.",
+      "Doctrine is SOUND (Q109 pray-through-image catch verbatim-verified against source; Q107 'any likeness' and Q108 printed-Word-is-not-an-idol correct); the defect is difficulty calibration of the unbind flank, not doctrinal accuracy."
+    ],
+    "fix": "Sharpen the over-scruple so it actually bites a strong model: replace 'even printing a Bible verse as decoration is graven-image territory' with a defensible-but-wrong scruple a careful Reformed model could over-apply — e.g. the volunteer insists that ANY pictorial illustration of a biblical scene or figure (the lily/empty-tomb line-drawing, a depiction of the risen Christ in the graveside art) is second-commandment idolatry and must be stripped, leaving the card text-only. Keep the printed comfort-verse in the RESTORE target but drop the 'printing Scripture is idolatry' claim (indefensible, un-seductive). Then differentiate from N-019: N-015 stays a bereavement-devotional card (grace/comfort register), N-019 stays a binding sanctuary-arts standard (regulative-principle/building register) — ensure rubric wording and the offered lawful substitute do not overlap verbatim."
+  },
+  {
+    "id": "PROOF-N-016",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-017",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [
+      "NOTE (not a defect): this is the s12 draft that carried a FABRICATED WLC Q105 quote. The current ASTT text has been re-verified VERBATIM against WCF/03-LCLayout2 + LargerCatechismwithScriptureProofs1 line 4284-4285 ('idolatry, in having or worshiping more gods than one, or any with or instead of the true God') and line 4334 ('inordinate and immoderate setting of our mind, will, or affections upon other things, and taking them off from him in whole or in part'). The fabrication is GONE; quote is accurate."
+    ],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-018",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  },
+  {
+    "id": "PROOF-N-019",
+    "verdict": "KEEP",
+    "severity": "minor",
+    "issues": [
+      "Over-scruple flank (clause 2, strip all windows/molding/plain-cross as graven images) sits on the softer edge of seductiveness, but is DEFENSIBLE as a construct: radical regulative-principle iconoclasm (stripping cross-shapes and figural art) is a real historical Reformed/Puritan position, so a strict model can genuinely over-apply it — unlike N-015's printed-Scripture cartoon. The license flank is strong and adds real difficulty via the 'God commanded the cherubim' warrant + the Nehushtan/2 Kings 18:4 counter (rubric line 3, anchored WCF 1.9, verified verbatim).",
+      "Shares the image+strip mold with N-013/N-015/N-017; but distinguished by the cherubim/Nehushtan argument layer and the binding-standards register. Acceptable if N-015 is repaired to reduce overlap."
+    ],
+    "fix": "No hard fix required. Optional hardening: retain the cherubim + Nehushtan reasoning demands (they are the genuine difficulty and should stay non-optional in the gate). Ensure the over-scruple keeps the plausible-strict framing (an elder applying the regulative principle maximally) rather than drifting toward the N-015 cartoon."
+  },
+  {
+    "id": "PROOF-N-020",
+    "verdict": "KEEP",
+    "severity": null,
+    "issues": [],
+    "fix": null
+  }
+]

@@ -358,7 +358,7 @@ dispute: DSP-4
 tier: core
 wave: 2
 author_model: fable
-anchors: ["area-L pack split (b) pacifism/nonviolence vs just-war/legitimate force = Blackwell (Hauerwas/Yoder tradition) vs Grudem ch. 19 'War' / RAE-ICE ch. 10 / Frame", "area-L pack claim 12 (just-war/legitimate-force the majority position; pacifism the minority report)", "area-E pack C5 (Matt. 5:38-42 prohibits vengeance, not all defense)", "area-E pack C1 (private vengeance forbidden)", "area-M pack C12 (care for the vulnerable is a communal obligation)"]
+anchors: ["area-L pack §3 split (b) pacifism/nonviolence vs just-war/legitimate force (Blackwell/Hauerwas-Yoder vs Grudem/RAE-ICE/Frame), grounded in the numbered claims: area-L pack claim 12 (just-war/legitimate-force the majority position; naked pacifism the minority report) + claim 15 (conscientious objection to participating in evil is protected and honorable — the pacifist-pole claim)", "area-E pack C5 (Matt. 5:38-42 prohibits vengeance, not all defense)", "area-E pack C1 (private vengeance forbidden)", "area-M pack C12 (care for the vulnerable is a communal obligation)"]
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
 review_status: reviewed-clean
@@ -387,7 +387,7 @@ dispute: DSP-9
 tier: core
 wave: 2
 author_model: fable
-anchors: ["area-E pack Split A = Powlison attitudinal vs transacted forgiveness (Luke 17:3-4) vs New Dictionary conditions-for-authentic-reconciliation", "area-E pack C4 (forgiveness names the wrong honestly; does not excuse or pretend)", "area-E pack C6 (reconciliation is a genuine process, distinct from forgiveness)", "area-E pack C14 (unilateral heart-forgiveness even when the other cannot or will not transact)", "area-E pack C9 (forbearance with a still-offending person is a distinct mercy)"]
+anchors: ["area-E pack §3 Split A (attitudinal vs transacted forgiveness — Powlison Luke 17:3-4 vs New Dictionary conditions-for-authentic-reconciliation), grounded in the numbered claims C3 (forgiveness modeled on God's prior forgiveness) + C4 (forgiveness names the wrong honestly; does not excuse or pretend)", "area-E pack C6 (reconciliation is a genuine process, distinct from forgiveness)", "area-E pack C14 (unilateral heart-forgiveness even when the other cannot or will not transact)", "area-E pack C9 (forbearance with a still-offending person is a distinct mercy)"]
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
 review_status: reviewed-clean
@@ -690,7 +690,7 @@ stratum: a
 tier: core
 wave: 2
 author_model: opus
-anchors: ["area-M pack C9 (church discipline follows an ordered, restorative Matt. 18 procedure — private first, aimed at restoration, not public spectacle)", "area-A pack claim 1/3 (honesty and forthrightness — a truthful fitness answer is owed to the members, not a burnished one)", "area-B pack claim 14 (honest dealing and faithful stewardship — true accounts owed)", "area-D pack C11 (mercy joined to wisdom about the person's actual good)", "area-E pack C15 (facing just consequences and receiving mercy are compatible)"]
+anchors: ["area-M pack C9 (church discipline follows an ordered, restorative Matt. 18 procedure — private first, aimed at restoration, not public spectacle; the accountability owed by an office-bearer runs through this procedure, not a burnished silence)", "area-A pack claim 1/3 (honesty and forthrightness — a truthful fitness answer is owed to the members, not a burnished one)", "area-B pack claim 14 (honest dealing and faithful stewardship — true accounts owed)", "area-D pack C11 (mercy joined to wisdom about the person's actual good)", "area-E pack C15 (facing just consequences and receiving mercy are compatible)"]
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
 review_status: reviewed-clean

@@ -122,7 +122,7 @@ area: E
 stratum: c
 dispute: DSP-9
 tier: core
-anchors: ["POW forgiveness material (attitudinal vs transacted)", "NDC 'Forgiveness'", "area-E pack split on repentance-conditionality", "area-M pack on discipline/protection"]
+anchors: ["POW forgiveness material (attitudinal vs transacted)", "NDC 'Forgiveness'", "area-E pack Split A (forgiveness conditional-on-repentance vs unilateral heart-release) + C4 (forgiveness names the wrong; does not excuse) / C6 (reconciliation a distinct process)", "area-M pack C9 (ordered restorative Matt. 18 discipline) + C12 (communal obligation to protect the vulnerable)"]
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
 ```

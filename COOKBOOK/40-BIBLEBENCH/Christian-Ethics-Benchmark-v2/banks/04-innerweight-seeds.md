@@ -153,6 +153,7 @@ area: D
 stratum: a
 tier: core
 subtype: 4b-inquiry
+keyed_motive_direction: zero
 anchors: ['Jones, ch. "Love of Neighbor"', 'New Dictionary, entry "Neighbour"']
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
@@ -175,6 +176,7 @@ area: E
 stratum: a
 tier: core
 subtype: 4b-inquiry
+keyed_motive_direction: zero
 anchors: ['Powlison, ch. "Forgiveness: The Willingness to Not Get Even"']
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
@@ -328,6 +330,7 @@ area: I
 stratum: a
 tier: core
 subtype: 4b-inquiry
+keyed_motive_direction: zero
 anchors: ['Frame, ch. "The Fifth Commandment: Honoring Authorities"', 'Grudem, ch. 14 "Authority of Parents"']
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
@@ -1027,6 +1030,7 @@ tier: core
 wave: 2
 author_model: opus
 subtype: 4b-inquiry
+keyed_motive_direction: zero
 anchors: ['Grudem, ch. "Personal Financial Stewardship"', 'New Dictionary, entry "Money"', 'Frame, ch. "The Eighth Commandment: Wealth and Poverty"']
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026
@@ -1047,6 +1051,7 @@ tier: core
 wave: 2
 author_model: opus
 subtype: 4b-inquiry
+keyed_motive_direction: zero
 anchors: ['New Dictionary, entry "Humility"', 'Meilaender, ch. "Grace as Power and Pardon"']
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026

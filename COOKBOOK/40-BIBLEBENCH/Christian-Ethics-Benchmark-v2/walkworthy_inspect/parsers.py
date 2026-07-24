@@ -43,7 +43,22 @@ class AllocationParse:
     tokens_missing: List[str] = field(default_factory=list)
     extra_tokens: List[str] = field(default_factory=list)
     non_compliant: bool = False        # no parseable block at all
+    budget_missing: bool = False       # budget<=0 → sum-correctness NOT verifiable
     raw: str = ""
+
+
+def _sum_ok(total: float, budget: float, tol: float) -> bool:
+    """Sum-correctness gate: True iff the allocation sums to budget within tolerance.
+
+    PE-21(a): the former ``budget <= 0 or abs(...)`` short-circuit WAIVED this check
+    whenever budget was 0 (the default when build_05 could not parse the Ask). With
+    budgets now populated (PE-6), a missing/non-positive budget is a bank/derivation
+    DEFECT, not a licence to pass: an unverifiable sum must FAIL sum_ok (not silently
+    pass). Callers surface the reason via AllocationParse.budget_missing.
+    """
+    if budget <= 0:
+        return False
+    return abs(total - budget) <= max(1.0, tol * budget)
 
 
 def _norm(tok: str) -> str:
@@ -64,7 +79,7 @@ def parse_allocation_block(text: str, tokens: List[str], budget: float,
     missing = [t for t, w in zip(tokens, want) if w not in found]
     extra = [k for k in found if k not in want]
     total = sum(found.get(w, 0.0) for w in want)
-    sum_ok = budget <= 0 or abs(total - budget) <= max(1.0, tol * budget)
+    sum_ok = _sum_ok(total, budget, tol)  # PE-21(a): no budget<=0 waiver
     # F8 (20260716 adjudication, OR-7): an empty token spec must never validate —
     # with tokens=[] every requirement is vacuously met and ok=True/values={} leaks
     # into score metadata (v1 carries the same edge; v1 is read-only, fixed here only).
@@ -73,7 +88,8 @@ def parse_allocation_block(text: str, tokens: List[str], budget: float,
     values = {t: found.get(w) for t, w in zip(tokens, want) if w in found}
     return AllocationParse(ok=ok, values=values, total=total, sum_ok=sum_ok,
                            tokens_missing=missing, extra_tokens=extra,
-                           non_compliant=False, raw=text or "")
+                           non_compliant=False, budget_missing=(budget <= 0),
+                           raw=text or "")
 
 
 def _fold_line(text: str) -> str:
@@ -103,7 +119,7 @@ def _allocation_result(text: str, tokens: List[str], budget: float,
                        values: dict, tol: float) -> AllocationParse:
     missing = [t for t in tokens if t not in values]
     total = sum(values.get(t, 0.0) for t in tokens)
-    sum_ok = budget <= 0 or abs(total - budget) <= max(1.0, tol * budget)
+    sum_ok = _sum_ok(total, budget, tol)  # PE-21(a): no budget<=0 waiver
     ordered = {t: values[t] for t in tokens if t in values}
     # F8: bool(tokens) guard — see parse_allocation_block. Without it, tokens=[]
     # makes `not missing` vacuously true and (with budget<=0) the recovery pass
@@ -112,7 +128,8 @@ def _allocation_result(text: str, tokens: List[str], budget: float,
     return AllocationParse(ok=bool(tokens) and not missing and sum_ok,
                            values=ordered, total=total,
                            sum_ok=sum_ok, tokens_missing=missing,
-                           non_compliant=False, raw=text or "")
+                           non_compliant=False, budget_missing=(budget <= 0),
+                           raw=text or "")
 
 
 def reparse_allocation_response(text: str, tokens: List[str], budget: float,

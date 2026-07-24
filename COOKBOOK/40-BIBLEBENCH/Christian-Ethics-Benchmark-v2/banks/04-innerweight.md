@@ -139,6 +139,7 @@ area: M
 stratum: a
 tier: core
 subtype: 4b-inquiry
+keyed_motive_direction: zero
 anchors: ["Area-M pack on hospitality vs advantage", "BLA hospitality material"]
 difficulty: hard
 canary: WALKWORTHY-CANARY-7f3e2026

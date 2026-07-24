@@ -58,6 +58,7 @@ from __future__ import annotations
 import argparse
 import dataclasses
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -210,7 +211,8 @@ def _keyed_payload(item) -> Dict[str, Any]:
     if item.extras:
         # extras carry scoring-relevant structure for 04/05/06/08/09/10
         payload["extras"] = _jsonable(item.extras)
-    return payload
+    # PE-5: strip between-item scaffold that v1's field-span logic bled in.
+    return _scrub_scaffold(payload)
 
 
 def _target(item, admin) -> str:
@@ -225,7 +227,8 @@ def _target(item, admin) -> str:
                   "process_notes", "keyed_constraints"):
         v = k.get(field)
         if isinstance(v, str) and v.strip():
-            return v.strip()
+            # PE-5: scrub scaffold before it becomes the judged target string.
+            return _strip_trailing_scaffold(v).strip()
     # last-resort non-empty target so no line violates the SCHEMA guarantee.
     return (f"[{item.design} {item.id}] Judge per design rubric "
             f"(walkworthy_inspect/rubrics.py); keyed behavior not inlined.")
@@ -239,6 +242,161 @@ def _jsonable(obj: Any) -> Any:
     if isinstance(obj, (list, tuple)):
         return [_jsonable(v) for v in obj]
     return obj
+
+
+# --------------------------------------------------------------------------- #
+# scaffold-contamination scrubber (PE-5)
+# --------------------------------------------------------------------------- #
+# WHY: v1's parsing._extract_fields runs a `**Label:**` field value from its
+# start line to the NEXT field-start line or the next `### WW-..` item header
+# (split_items). Nothing between an item's last field and the next item header
+# is a field-start, so the between-item SCAFFOLD — the `---` separator, the
+# `## AREA X` seed-section headers, and the `## N. Handoff Notes` / tally /
+# batch-check / revision-log authoring blocks — bleeds into that last field's
+# value verbatim. That contaminated the `keyed` payload on 84+ items.
+#
+# FIX (v2-side; v1 harness is vendored READ-ONLY): after v1 hands us each keyed
+# string we truncate it at the first SECTION BOUNDARY that is not inside a
+# balanced fenced code block — either a Markdown horizontal rule (`---`) or an
+# ATX heading (`# … `). Inside a single item block, real keyed content never
+# opens a new Markdown section header or a horizontal rule (verified across all
+# 10 designs: every such line in every keyed value is scaffold; legit fenced
+# blocks — e.g. 09/10 facts_diff YAML — close their fence BEFORE the trailing
+# `---`/`##` scaffold, so fence-awareness preserves them intact). We cut at the
+# boundary rather than enumerate scaffold header names so the rule is robust to
+# new authoring-block titles.
+_SECTION_BOUNDARY_RE = re.compile(r"(?:-{3,}|#{1,6}\s)")
+
+
+def _strip_trailing_scaffold(text: str) -> str:
+    """Cut a keyed field value at the first fence-external section boundary.
+
+    Returns text truncated (rstripped) at the first `---`/`## …` line that lives
+    outside a fenced code block; returns the input unchanged if no such boundary
+    exists. See the block comment above for the invariant this relies on.
+    """
+    if not text or "\n" not in text and not _SECTION_BOUNDARY_RE.match(text.strip()):
+        # fast path: single-line values almost never carry scaffold; still guard
+        # the degenerate case where the whole value IS a boundary line.
+        if not text:
+            return text
+    lines = text.split("\n")
+    in_fence = False
+    cut: Optional[int] = None
+    for i, ln in enumerate(lines):
+        stripped = ln.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        if re.fullmatch(r"-{3,}", stripped) or re.match(r"#{1,6}\s", stripped):
+            cut = i
+            break
+    if cut is None:
+        return text
+    return "\n".join(lines[:cut]).rstrip()
+
+
+def _scrub_scaffold(obj: Any) -> Any:
+    """Recursively apply _strip_trailing_scaffold to every string in a payload."""
+    if isinstance(obj, str):
+        return _strip_trailing_scaffold(obj)
+    if isinstance(obj, dict):
+        return {k: _scrub_scaffold(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_scrub_scaffold(v) for v in obj]
+    return obj
+
+
+# --------------------------------------------------------------------------- #
+# PE-19: design-04 single-admin keyed_motive_direction passthrough
+# --------------------------------------------------------------------------- #
+# WHY: v1's build_04 only synthesizes extras["keyed_motive"] for the PAIRED
+# (α/β) motive-twin items (from the "delta > 0" phrasing in title+Keyed); the
+# 4b SINGLE-administration items go down the `else` branch and get NO keyed_motive
+# at all. An owner ruling staged `keyed_motive_direction: <dir>` as a YAML
+# frontmatter key on 9 design-04 single-admin items (6 public / 3 holdout) so the
+# motive_sensitivity_index metric can route them, but build_04 (vendored READ-ONLY)
+# never reads it. This v2-side passthrough copies the raw-YAML key onto the built
+# item at the SAME shape paired items use — item.extras["keyed_motive"] =
+# {"direction": <dir>} — which _keyed_payload surfaces as metadata.keyed.extras
+# .keyed_motive, exactly where metrics.motive_sensitivity_index reads
+# ((keyed.extras).keyed_motive).direction. We do NOT clobber an existing
+# keyed_motive (paired items already carry a builder-derived one).
+_KEYED_MOTIVE_DIRECTIONS = ("positive", "zero")
+
+
+def _apply_keyed_motive_direction(item, raw, design_code: str) -> None:
+    """PE-19: mirror a raw-YAML `keyed_motive_direction` onto item.extras.
+
+    Only for design-04; only when the raw frontmatter carries the key; never
+    overwrites a keyed_motive the v1 builder already synthesized for paired items.
+    Raises AssertionError on an out-of-vocabulary direction so a bank typo fails
+    the build loudly rather than silently mis-routing the metric.
+    """
+    if design_code != "04-innerweight":
+        return
+    y = getattr(raw, "yaml", None) or {}
+    direction = y.get("keyed_motive_direction")
+    if direction is None:
+        return
+    direction = str(direction).strip()
+    assert direction in _KEYED_MOTIVE_DIRECTIONS, (
+        f"design-04 {getattr(item, 'id', '?')!r} has keyed_motive_direction="
+        f"{direction!r}; expected one of {_KEYED_MOTIVE_DIRECTIONS}. Fix the bank YAML."
+    )
+    existing = item.extras.get("keyed_motive")
+    if isinstance(existing, dict) and existing.get("direction"):
+        # paired item already carries a builder-derived keyed_motive; leave it.
+        return
+    item.extras["keyed_motive"] = {"direction": direction}
+
+
+_CONTAMINATION_MARKERS = ("## AREA", "Handoff Notes")
+
+
+def _assert_no_scaffold(line: Dict[str, Any]) -> None:
+    """Post-conversion guard: no keyed/target text may carry scaffold markers.
+
+    Raises AssertionError naming the offending line id + marker so a regression
+    in the field-span logic fails the build loudly instead of silently leaking
+    seed-section headers or authoring blocks into the scoring key.
+    """
+    blob = json.dumps(line.get("metadata", {}).get("keyed", {}), ensure_ascii=False)
+    blob += "\n" + str(line.get("target", ""))
+    for marker in _CONTAMINATION_MARKERS:
+        assert marker not in blob, (
+            f"scaffold contamination in {line.get('id')!r}: keyed/target text "
+            f"contains {marker!r} (field-span bleed — see _strip_trailing_scaffold)"
+        )
+
+
+def _assert_budget_present(line: Dict[str, Any]) -> None:
+    """Post-conversion guard (PE-6): a design-05 allocation block needs budget>0.
+
+    build_05 derives the budget by regexing ``exactly <N>`` out of the Ask field;
+    items phrased ``allocate the N sessions`` slipped through with budget=0.0,
+    which the CSR checker then silently waived (sum-correctness un-checked). If an
+    allocation block is present at all, its budget must now be a positive number —
+    a non-runnable exemplar with no budget must also have no allocation block.
+    """
+    alloc = (
+        line.get("metadata", {})
+        .get("keyed", {})
+        .get("extras", {})
+        .get("allocation")
+    )
+    if not isinstance(alloc, dict):
+        return
+    if "budget" not in alloc:
+        return
+    budget = alloc.get("budget")
+    assert isinstance(budget, (int, float)) and budget > 0, (
+        f"design-05 allocation on {line.get('id')!r} has budget={budget!r} "
+        f"(expected >0). Bank Ask text must state the allocable total in a form "
+        f"build_05 can parse, or the allocation block must be removed."
+    )
 
 
 def _line_for_admin(item, admin, design_code: str) -> Dict[str, Any]:
@@ -314,16 +472,21 @@ def _items_for_design(design_code: str, banks_dir: Path, is_holdout: bool):
             return []
         raws = parse_raw_items(hp.read_text(encoding="utf-8"), str(hp))
         for r in raws:
-            items.append(builder(r, design_code))
+            it = builder(r, design_code)
+            _apply_keyed_motive_direction(it, r, design_code)  # PE-19
+            items.append(it)
     else:
         seed = banks_dir / f"{design_code}-seeds.md"
         if seed.exists():
             for r in parse_raw_items(seed.read_text(encoding="utf-8"), str(seed)):
-                items.append(builder(r, design_code))
+                it = builder(r, design_code)
+                _apply_keyed_motive_direction(it, r, design_code)  # PE-19
+                items.append(it)
         spec = banks_dir / f"{design_code}.md"
         if spec.exists():
             for r in parse_raw_items(spec.read_text(encoding="utf-8"), str(spec)):
                 ex = builder(r, design_code)
+                _apply_keyed_motive_direction(ex, r, design_code)  # PE-19
                 ex.is_exemplar = True
                 items.append(ex)
     for it in items:
@@ -350,6 +513,8 @@ def convert_split(banks_dir: Path, out_dir: Path, is_holdout: bool) -> Dict[str,
             for it in items:
                 for admin in it.administrations:
                     line = _line_for_admin(it, admin, design_code)
+                    _assert_no_scaffold(line)       # PE-5 guard
+                    _assert_budget_present(line)     # PE-6 guard
                     fh.write(json.dumps(line, ensure_ascii=False) + "\n")
                     n_lines += 1
                     if it.runnable:

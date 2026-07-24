@@ -85,6 +85,12 @@ to the Christian construct. (c) In the pilot report, state plainly that 01/02/03
 08/09 primarily measure general behavioral ethics under pressure and only 04/05/10 (and
 divergence-flagged items elsewhere) isolate distinctively-Christian commitments.
 
+> **AMENDMENT — 2026-07-24 owner ruling PE-22:** designs **06** and **07** are added to
+> the corpus-distinctive set on S3 evidence (96.3% non-generic item-level GR, matching the
+> 04/05/10 tier; see `REPORTS/20260718-item-assessment/20260718-08-substudies.md`). The
+> corpus-distinctive set is therefore **04/05/06/07/10**. The original 04/05/10 annotation
+> is retained above as the pre-S3 snapshot; this note amends, not replaces it.
+
 ---
 
 ## CV-2 — Design 04's `abs()` on the motive delta converts a *directional* moral-sensitivity construct into a *reactivity-to-any-cue* magnitude, losing sign and admitting the wrong-direction confound.

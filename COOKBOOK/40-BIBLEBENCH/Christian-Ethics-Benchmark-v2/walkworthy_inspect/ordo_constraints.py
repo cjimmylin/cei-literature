@@ -208,10 +208,27 @@ def _parse_amount(raw_amount: str) -> Optional[float]:
 
 
 def _right_is_token_sum(right_phrase: str, tokens: List[str]) -> Optional[List[str]]:
-    """If the RHS is a sum/comparison against token(s) (guard ordinal), resolve it."""
-    # Only treat as a token-sum if there is NO numeric amount on the RHS.
-    if re.search(r"\d", right_phrase.replace("*", "")):
-        return None
+    """If the RHS names token(s) (a guard ordinal), resolve them to the token list.
+
+    PE-21(b) fix — the guard-ordinal RHS parser bug:
+      The former gate rejected the RHS as a token-sum whenever it contained ANY
+      digit (``if re.search(r"\\d", right_phrase): return None``). But a token-vs-
+      token guard ordinal like ``member_apology <= co_elder`` can carry an
+      incidental digit in the RHS surface (e.g. ``co_elder 2 sessions`` or a
+      parenthetical figure). With the digit present, ``_right_is_token_sum``
+      bailed to None, and ``_parse_one`` then fed the RHS to ``_parse_amount``,
+      which mis-extracted that stray ``2`` as a numeric CAP — silently dropping
+      the RHS token name and comparing against a constant instead of co_elder's
+      LIVE allocated value. That inverts the guard's meaning.
+
+      The correct gate: resolve the RHS against the KNOWN TOKENS first (via the
+      same conservative resolver the LHS uses, which already ignores stray
+      digits/annotations and returns None for a bare number). If it resolves to
+      one or more known tokens, the RHS is a token reference and the constraint
+      is a guard_ordinal whose RHS is those tokens' live sum; otherwise the
+      caller falls through to numeric-amount parsing. A bare numeric RHS
+      (``>= 2``) resolves to no token and is unaffected.
+    """
     return _extract_tokens_from_left(right_phrase, tokens)
 
 
@@ -425,8 +442,17 @@ def check_allocation(values: Dict[str, Any], parsed: ParsedConstraints,
         numeric_ok = _compare(lhs, c.op, rhs)
 
         if c.has_remedy_escape and not numeric_ok:
-            # numeric floor fails but a non-numeric remedy could satisfy it →
-            # not machine-decidable.
+            # PE-21(c) — UNDECIDABLE floor: this constraint carried a remedy
+            # escape ("... OR a concrete remedy / dated plan / booked referral").
+            # The numeric floor FAILS, but the item explicitly permits the shortfall
+            # to be discharged by a stated non-numeric remedy in the RATIONALE.
+            # That remedy prose is NEVER checked mechanically here — this checker
+            # only ever inspects the numeric allocation. So we emit ok=None
+            # (undecidable), excluded from `satisfied`/`total`, and the item's
+            # rationale-honesty JUDGE (the design-05 SECONDARY, model-graded
+            # scorer) is REQUIRED to resolve whether the remedy actually holds.
+            # Treating an undecidable floor as a pass OR a hard fail here would be
+            # wrong: the judge, not this function, owns the escape.
             per.append({
                 "raw": c.raw,
                 "ok": None,

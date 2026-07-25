@@ -6,14 +6,13 @@ PART FILE — assembles into paper (b). Title, abstract, keywords.
 
 # Judging the Judges for $0: A Two-Referee Concordance Method for Localizing LLM-as-Judge Failure on Value-Laden Rubrics
 
-> **STATUS: v0.1 — DO NOT CIRCULATE.** An adversarial review returned three blocking
-> findings. The verified factual corrections have been applied. Two contested
-> interpretive questions remain open and are escalated for owner adjudication in
-> `20260725-ESCALATION-claims-validity.md`: whether the ordering-flip test is
-> reportable without a calibrated null, and whether variance shares must carry a
-> df-proportional no-effect baseline. **Both bear on the central claim of this paper**,
-> and both are deliberately left unresolved here rather than settled by the drafting
-> session.
+> **STATUS: v0.1 — adjudicated draft.** An adversarial review returned three blocking
+> findings; the verified factual corrections were applied at assembly, and the two contested
+> interpretive questions escalated in `20260725-ESCALATION-claims-validity.md` have since
+> been ruled by the owner (`RULINGS-APPLIED-20260725c.md`, 2026-07-25) and applied here:
+> variance shares are read against a df-proportional no-effect reference line, and the
+> binary ordering-flip verdicts are reported alongside graded Kendall's-τ verdicts with
+> tie flags.
 
 *Venue-generic and author-generic draft. No venue, authorship, acknowledgements, or
 funding statement has been decided for this manuscript.*
@@ -26,7 +25,10 @@ fifteen-work Christian-ethics registry, we administer the full public bank — 3
 across 563 administration lines — to five cheap-tier systems under test in three
 independent epochs, and rescore every administration offline with a second judge drawn
 from a different model family, so that the only variable between scorings is the judge.
-**Eight of the nine judged designs flip their system ordering under the swap.** The ninth
+**Eight of the nine judged designs flip their system ordering under the swap** — a binary
+verdict (exact permutation equality of point estimates) that we report alongside graded
+Kendall's-τ verdicts, which show the disagreement ranging from genuine anti-correlation to a
+single adjacent transposition. The ninth
 judged design is floor-saturated — its judge-A headline is 0.000 on all five systems in two
 of three epochs — and so yields no ordering to test. The tenth design, whose primary metric
 is computed from a parsed allocation against keyed constraints and never reaches a judge at
@@ -39,12 +41,17 @@ what makes the interaction estimable separately from residual error. The decompo
 corrects a tempting reading. The judge does not simply dominate: system and judge
 footprints are comparable at the median (35.6% versus 35.3%), and the system main effect
 is the single largest term in four of the eight judged, non-saturated designs, reaching
-63.4%. **The models genuinely differ.** What voids comparison is the interaction. The
-system-by-judge term is non-zero in all **8** judged, non-saturated designs (median 17.2%), and an
-interaction of that size is enough to permute the ranking of five closely-spaced systems
-even where the underlying model effect is large. The claim the data support is therefore
-narrower and more useful than "the judge decides": *the models differ, but the judges
-disagree about the ordering in every judged design.*
+63.4%. **The models genuinely differ on most designs.** Each share is read against its
+df-proportional no-effect expectation (13.79% for the system and interaction terms) — a
+descriptive reference line, not a test. Against that line the system-by-judge interaction is
+clearly elevated in four of the eight judged designs (up to 46.5%), where it permutes the
+ranking of five closely-spaced systems even when the underlying model effect is large; in
+the other four it sits at or below what pure epoch noise produces, and there the flips
+reflect systems spaced too tightly for either judge to resolve. The claim the data support
+is therefore narrower and more useful than "the judge decides": *the models differ on most
+designs; on a minority the judges clearly disagree about the ordering, and on the rest the
+systems are too tightly spaced for either judge to resolve — either way, no comparative
+claim survives the swap.*
 
 Two controls guard the inference. The judge-free design is an exact positive control — its
 judge and interaction terms are 0.000000 by construction and are recovered as such — and

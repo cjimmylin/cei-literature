@@ -49,16 +49,22 @@ coincidence.
 **Third, the effect has a quantitative form, and it is not the one usually asserted.**
 Treating the design as a balanced five-system by two-judge layout with the three epochs as
 replicates, the variance in each reported headline decomposes into a system main effect, a
-judge main effect, their interaction, and epoch noise. Across the eight judged, non-saturated
-designs the judge footprint (main effect plus interaction) has median 35.3% and the system
-footprint median 35.6% — a ratio of 1.0×. **The models genuinely differ**, and in several
-designs the system main effect is the single largest term (63.4%, 54.4%, 46.3%, 45.4%). The
-decision-relevant quantity is not that ratio but the interaction, the term that asks whether
-the judges agree about *which* system is better. That term is non-zero in all 8 judged, non-saturated
-designs, with median 17.2% and range 1.4–46.5%. The claim the data support is therefore
-precise and narrow: *the models differ, but the judges disagree about the ordering in every
-judged design.* An interaction of 9–23% is enough to permute the ranking of five
-closely-spaced systems even where the instrument is plainly responding to the model.
+judge main effect, their interaction, and epoch noise — and each share is read against its
+df-proportional no-effect expectation (13.79% for the system and interaction terms), a
+descriptive reference line carrying no significance apparatus. Across the eight judged,
+non-saturated designs the judge footprint (main effect plus interaction) has median 35.3% and
+the system footprint median 35.6% — a ratio of 1.0×. **The models genuinely differ on most
+designs** — the system main effect is the single largest term in four of the eight (63.4%,
+54.4%, 46.3%, 45.4%) — though not suite-wide: the system share sits below its reference line
+in three designs. The decision-relevant quantity is not that ratio but the interaction, the
+term that asks whether the judges agree about *which* system is better. That term is clearly
+above its reference line in four designs (up to 46.5%) and at or below it — within epoch
+noise — in the other four. The claim the data support is therefore precise and narrow: *the
+models differ on most designs; on a minority the judges clearly disagree about the ordering,
+and on the rest the systems are too tightly spaced for either judge to resolve — either way,
+no comparative claim survives the swap.* Where the interaction is clearly elevated — 23.0% on
+design 01 against a 45.4% model effect — it permutes the ranking of five closely-spaced
+systems even where the instrument is plainly responding to the model.
 
 **Fourth, on the one judge-free surface in the suite, no concealed ranking is detectable at this n.** The one judge-free surface
 in the suite was tested against the full pre-registered pairwise contrast set with the

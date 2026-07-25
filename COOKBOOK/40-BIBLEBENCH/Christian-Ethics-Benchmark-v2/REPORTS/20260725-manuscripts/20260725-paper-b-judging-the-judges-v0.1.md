@@ -1,13 +1,12 @@
 # Judging the Judges for $0: A Two-Referee Concordance Method for Localizing LLM-as-Judge Failure on Value-Laden Rubrics
 
-> **STATUS: v0.1 — DO NOT CIRCULATE.** An adversarial review returned three blocking
-> findings. The verified factual corrections have been applied. Two contested
-> interpretive questions remain open and are escalated for owner adjudication in
-> `20260725-ESCALATION-claims-validity.md`: whether the ordering-flip test is
-> reportable without a calibrated null, and whether variance shares must carry a
-> df-proportional no-effect baseline. **Both bear on the central claim of this paper**,
-> and both are deliberately left unresolved here rather than settled by the drafting
-> session.
+> **STATUS: v0.1 — adjudicated draft.** An adversarial review returned three blocking
+> findings; the verified factual corrections were applied at assembly, and the two contested
+> interpretive questions escalated in `20260725-ESCALATION-claims-validity.md` have since
+> been ruled by the owner (`RULINGS-APPLIED-20260725c.md`, 2026-07-25) and applied here:
+> variance shares are read against a df-proportional no-effect reference line, and the
+> binary ordering-flip verdicts are reported alongside graded Kendall's-τ verdicts with
+> tie flags.
 
 *Venue-generic and author-generic draft. No venue, authorship, acknowledgements, or
 funding statement has been decided for this manuscript.*
@@ -20,7 +19,10 @@ fifteen-work Christian-ethics registry, we administer the full public bank — 3
 across 563 administration lines — to five cheap-tier systems under test in three
 independent epochs, and rescore every administration offline with a second judge drawn
 from a different model family, so that the only variable between scorings is the judge.
-**Eight of the nine judged designs flip their system ordering under the swap.** The ninth
+**Eight of the nine judged designs flip their system ordering under the swap** — a binary
+verdict (exact permutation equality of point estimates) that we report alongside graded
+Kendall's-τ verdicts, which show the disagreement ranging from genuine anti-correlation to a
+single adjacent transposition. The ninth
 judged design is floor-saturated — its judge-A headline is 0.000 on all five systems in two
 of three epochs — and so yields no ordering to test. The tenth design, whose primary metric
 is computed from a parsed allocation against keyed constraints and never reaches a judge at
@@ -33,12 +35,17 @@ what makes the interaction estimable separately from residual error. The decompo
 corrects a tempting reading. The judge does not simply dominate: system and judge
 footprints are comparable at the median (35.6% versus 35.3%), and the system main effect
 is the single largest term in four of the eight judged, non-saturated designs, reaching
-63.4%. **The models genuinely differ.** What voids comparison is the interaction. The
-system-by-judge term is non-zero in all **8** judged, non-saturated designs (median 17.2%), and an
-interaction of that size is enough to permute the ranking of five closely-spaced systems
-even where the underlying model effect is large. The claim the data support is therefore
-narrower and more useful than "the judge decides": *the models differ, but the judges
-disagree about the ordering in every judged design.*
+63.4%. **The models genuinely differ on most designs.** Each share is read against its
+df-proportional no-effect expectation (13.79% for the system and interaction terms) — a
+descriptive reference line, not a test. Against that line the system-by-judge interaction is
+clearly elevated in four of the eight judged designs (up to 46.5%), where it permutes the
+ranking of five closely-spaced systems even when the underlying model effect is large; in
+the other four it sits at or below what pure epoch noise produces, and there the flips
+reflect systems spaced too tightly for either judge to resolve. The claim the data support
+is therefore narrower and more useful than "the judge decides": *the models differ on most
+designs; on a minority the judges clearly disagree about the ordering, and on the rest the
+systems are too tightly spaced for either judge to resolve — either way, no comparative
+claim survives the swap.*
 
 Two controls guard the inference. The judge-free design is an exact positive control — its
 judge and interaction terms are 0.000000 by construction and are recovered as such — and
@@ -111,16 +118,22 @@ coincidence.
 **Third, the effect has a quantitative form, and it is not the one usually asserted.**
 Treating the design as a balanced five-system by two-judge layout with the three epochs as
 replicates, the variance in each reported headline decomposes into a system main effect, a
-judge main effect, their interaction, and epoch noise. Across the eight judged, non-saturated
-designs the judge footprint (main effect plus interaction) has median 35.3% and the system
-footprint median 35.6% — a ratio of 1.0×. **The models genuinely differ**, and in several
-designs the system main effect is the single largest term (63.4%, 54.4%, 46.3%, 45.4%). The
-decision-relevant quantity is not that ratio but the interaction, the term that asks whether
-the judges agree about *which* system is better. That term is non-zero in all 8 judged, non-saturated
-designs, with median 17.2% and range 1.4–46.5%. The claim the data support is therefore
-precise and narrow: *the models differ, but the judges disagree about the ordering in every
-judged design.* An interaction of 9–23% is enough to permute the ranking of five
-closely-spaced systems even where the instrument is plainly responding to the model.
+judge main effect, their interaction, and epoch noise — and each share is read against its
+df-proportional no-effect expectation (13.79% for the system and interaction terms), a
+descriptive reference line carrying no significance apparatus. Across the eight judged,
+non-saturated designs the judge footprint (main effect plus interaction) has median 35.3% and
+the system footprint median 35.6% — a ratio of 1.0×. **The models genuinely differ on most
+designs** — the system main effect is the single largest term in four of the eight (63.4%,
+54.4%, 46.3%, 45.4%) — though not suite-wide: the system share sits below its reference line
+in three designs. The decision-relevant quantity is not that ratio but the interaction, the
+term that asks whether the judges agree about *which* system is better. That term is clearly
+above its reference line in four designs (up to 46.5%) and at or below it — within epoch
+noise — in the other four. The claim the data support is therefore precise and narrow: *the
+models differ on most designs; on a minority the judges clearly disagree about the ordering,
+and on the rest the systems are too tightly spaced for either judge to resolve — either way,
+no comparative claim survives the swap.* Where the interaction is clearly elevated — 23.0% on
+design 01 against a 45.4% model effect — it permutes the ranking of five closely-spaced
+systems even where the instrument is plainly responding to the model.
 
 **Fourth, on the one judge-free surface in the suite, no concealed ranking is detectable at this n.** The one judge-free surface
 in the suite was tested against the full pre-registered pairwise contrast set with the
@@ -218,12 +231,15 @@ different judge, nor by how much. We supply that missing quantity directly. By r
 administration offline with a second judge from a different model family, so that the judge is
 the only variable, and by running three independent epochs so that the epochs serve as
 replicates, we decompose each design's headline variance into system, judge, system-by-judge
-and epoch-noise components. The interaction term is the decision-relevant one, because it asks
-whether the two judges agree about *which* system is better; it is non-zero in 8 of 8 judged
-designs with a median of 17.2%. This also disciplines the conclusion in a direction the bias
-literature does not: system and judge footprints are comparable at the median (35.6% versus
-35.3%), so the correct statement is not that the judge overwhelms the signal. The models
-genuinely differ; the judges disagree about the ordering in every judged design.
+and epoch-noise components, each read against its df-proportional no-effect expectation. The
+interaction term is the decision-relevant one, because it asks whether the two judges agree
+about *which* system is better; it is clearly above its 13.79% reference line in four of the
+eight judged designs (median 17.2%, maximum 46.5%) and at or below it in the other four. This
+also disciplines the conclusion in two directions the bias literature does not: system and
+judge footprints are comparable at the median (35.6% versus 35.3%), so the correct statement
+is not that the judge overwhelms the signal; and the disagreement is design-specific — the
+models differ on most designs, the judges clearly disagree about the ordering on a minority,
+and on the rest the systems are too tightly spaced for either judge to resolve.
 
 ### 2.2 Reliability and agreement in evaluation
 
@@ -540,22 +556,46 @@ The judge-swap test asks, per design and per epoch, whether the ordering of the 
 on that design's headline metric is preserved when judge-A's verdicts are replaced by
 judge-B's over the identical stored transcripts. The test is offline and costs nothing.
 
+**The criterion, stated exactly.** A cell reads "flips" if and only if the full five-way
+permutation of unrounded point estimates differs between the two judges — exact permutation
+equality, stable-sort tie-break, no intervals; the swap tool's own section header calls this
+the *"naive point-estimate order."* The binary verdict is retained because pre-registered rule
+R4 is written in its terms, but it is blunt: a single adjacent transposition counts as a full
+flip, and ties are broken by input order. Each cell therefore also carries a graded verdict,
+Kendall's τ (τ_a = (C − D)/10 over the ten system pairs) between the two judges' orderings,
+with ᵗ flagging cells where either judge assigns tied scores — 10 of the 27 judged
+design-epochs, in which the binary verdict is partly arbitrary.
+
 | design | ep1 | ep2 | ep3 | verdict |
 |---|:--:|:--:|:--:|---|
-| 01 goodsamaritan | flips | flips | flips | judge-sensitive (all epochs) |
-| 02 twomasters | flips | flips | flips | judge-sensitive (all epochs) |
-| 03 quiettongue | flips | flips | STABLE | stability not reproducible |
-| 04 innerweight | flips | STABLE | flips | stability not reproducible |
-| 05 ordoamoris | STABLE | STABLE | STABLE | stable by construction (judge-free primary) |
-| 06 crookedpath | flips | STABLE | STABLE | stability not reproducible |
+| 01 goodsamaritan | flips (τ +0.60) | flips (τ 0.00) | flips (τ +0.40) | judge-sensitive (all epochs) |
+| 02 twomasters | flips (τ −0.30 ᵗ) | flips (τ −0.60) | flips (τ −0.20) | judge-sensitive (all epochs); the orderings anti-correlate |
+| 03 quiettongue | flips (τ +0.20) | flips (τ +0.20) | STABLE (τ +0.70 ᵗ) | stability not reproducible |
+| 04 innerweight | flips (τ +0.20 ᵗ) | STABLE (τ +1.00) | flips (τ +0.70 ᵗ) | stability not reproducible |
+| 05 ordoamoris | STABLE (τ +1.00) | STABLE (τ +1.00) | STABLE (τ +1.00) | stable by construction (judge-free primary) |
+| 06 crookedpath | flips (τ +0.80) | STABLE (τ +1.00) | STABLE (τ +1.00) | stability not reproducible; the lone flip is a single adjacent transposition |
 | 07 seventyseven ▲ | — | — | — | **ordering undefined** (floor-saturated; judge-A is 0.000 on all five systems in ep1/ep2) |
-| 08 vocationfork | flips | flips | flips | judge-sensitive (all epochs) |
-| 09 doubleedge | flips | flips | flips | judge-sensitive (all epochs) |
-| 10 strangergate | flips | flips | flips | judge-sensitive (all epochs) |
+| 08 vocationfork | flips (τ 0.00) | flips (τ −0.20) | flips (τ +0.80) | judge-sensitive (all epochs) |
+| 09 doubleedge | flips (τ +0.20) | flips (τ +0.60) | flips (τ −0.10 ᵗ) | judge-sensitive (all epochs); ep3 tie-affected |
+| 10 strangergate | flips (τ +0.10 ᵗ) | flips (τ −0.10 ᵗ) | flips (τ −0.20) | judge-sensitive (all epochs) |
+
+ᵗ tie-affected: at least one pair of systems receives equal scores from a judge in that cell
+(e.g. design 09 epoch 3, where judge-A scores deepseek = gemini = 0.8235). A STABLE cell can
+carry τ < +1.00 when tied pairs sort identically under both judges (design 03 epoch 3).
 
 **Eight of the nine judged designs flip.** Design 07 is excluded from this count: it is floor-saturated, its judge-A headline is 0.000 on all five systems in epochs 1 and 2, and it therefore has no ordering to preserve or permute — the tool's recorded flip there is a stable-sort tie-break artefact, not a disagreement. The one judged design that never flips is design 05, and it is the one
 design whose primary metric never reaches a judge at all: its constraint-satisfaction rate is
 computed from a parsed allocation against keyed constraints.
+
+Graded, the picture is heterogeneous rather than uniform. Design 02's orderings genuinely
+anti-correlate in all three epochs (τ −0.60 to −0.20); designs 01 and 08 reach τ ≈ 0 in at
+least one epoch. At the other end, design 06's flip status rests entirely on epoch 1's single
+adjacent transposition (τ +0.80; epochs 2 and 3 are identical orderings, τ +1.00), and design
+09's epoch 3 verdict is tie-affected. The binary count is honest but flattens this range, which
+is why τ accompanies it wherever the flip result is reported. No chance rate is quoted for the
+binary test: the two judges score the same stored transcripts, so their orderings are
+correlated by construction and no calibrated null is available — a further reason to read the
+graded verdict alongside the binary one.
 
 The reading is the following. An ordering that holds in one epoch and flips in another is not
 a stable ordering; it is a coincidence at that sample. Designs 03, 04 and 06 must therefore be
@@ -598,7 +638,9 @@ produced. It is available only because the run replicates.
 
 Designs 03, 04 and 06 each register STABLE in one or two epochs and judge-sensitive in the
 others: design 03 flips in epochs 1 and 2 and is stable in epoch 3; design 04 flips in epochs
-1 and 3 and is stable in epoch 2; design 06 flips in epoch 1 and is stable in epochs 2 and 3.
+1 and 3 and is stable in epoch 2; design 06 flips in epoch 1 and is stable in epochs 2 and 3
+(graded, the weakest instability of the three: that lone flip is a single adjacent
+transposition, τ +0.80, against identical orderings in the other two epochs).
 **A single-epoch run would have reported those three orderings as stable**, and the stability
 does not reproduce. Only design 05 is stable in all three epochs, and it is stable by
 construction rather than by measurement.
@@ -636,14 +678,22 @@ system, judge, system × judge, and error.
 ◆ judge-free primary — the positive control. ▲ floor-saturated; its percentages describe noise
 around a floor and are excluded from the summary.
 
+**The reference line.** Sums of squares are non-negative, and under a null of no effect their
+expectations are proportional to degrees of freedom: with `SS_total (df 29) = SS_SUT (4) +
+SS_judge (1) + SS_SUT×judge (4) + SS_error (20)`, the no-effect expectations of the shares are
+**13.79%** (SUT), 3.45% (judge), **13.79%** (SUT × judge) and 68.97% (error). This line is a
+descriptive expectation, not a test — no p-value or rejection decision attaches to it — but
+shares must be read against it, because a share at or below its line is no larger than what
+pure epoch noise produces.
+
 Across the eight judged, non-saturated designs (01, 02, 03, 04, 06, 08, 09, 10):
 
-| component | median | range |
-|---|---:|---|
-| SUT (do the models differ) | 35.6% | 5.8–63.4% |
-| judge (severity shift) | 20.5% | 2.9–88.8% |
-| SUT × judge (which model is better) | 17.2% | 1.4–46.5% |
-| error (epoch noise) | 19.1% | 0.9–48.3% |
+| component | median | range | E[share] under no effect |
+|---|---:|---|---:|
+| SUT (do the models differ) | 35.6% | 5.8–63.4% | 13.79% |
+| judge (severity shift) | 20.5% | 2.9–88.8% | 3.45% |
+| SUT × judge (which model is better) | 17.2% | 1.4–46.5% | 13.79% |
+| error (epoch noise) | 19.1% | 0.9–48.3% | 68.97% |
 
 Judge footprint (main effect plus interaction) has median **35.3%**; system footprint has
 median **35.6%**; the ratio is **1.0×**. The judge footprint exceeds the system footprint in
@@ -652,32 +702,45 @@ median **35.6%**; the ratio is **1.0×**. The judge footprint exceeds the system
 **This does not say that the judge overwhelms the model, and the paper does not claim it.**
 Judge and system footprints are comparable at the median, and the system main effect is the
 single largest term in several designs — 63.4% on design 06, 54.4% on design 09, 46.3% on
-design 04, 45.4% on design 01. **The models genuinely differ**, and any reading of these
-results as "the measurement is only about the judge" misstates them.
+design 04, 45.4% on design 01. **The models genuinely differ on most designs** — but the
+signal is design-specific rather than suite-wide: the system share sits below its own 13.79%
+reference line in designs 02 (5.8%), 03 (6.6%) and 08 (9.1%). A reading of these results as
+"the measurement is only about the judge" misstates them; so does a reading that the models
+separate everywhere.
 
 The decision-relevant term is the **interaction**, not the main-effect ratio. A large system
 main effect says the models differ; it does not license a *ranking* if the judges disagree
-about the order. That disagreement is exactly `SUT × judge`, and it is **non-zero in all 8 judged, non-saturated
-judged designs**, median 17.2%.
+about the order. That disagreement is exactly `SUT × judge`. Read against its 13.79%
+reference line it is clearly above the line in four judged designs (02, 08, 10, 01) and at or
+below it — no larger than pure epoch noise produces — in the other four (06, 09, 04, 03). We
+do not report the term as "non-zero in 8 of 8 designs": a sum of squares on a continuous
+metric is almost surely non-zero, so that statement carries no information.
 
-| design | SUT×judge | SUT | note |
-|---|---:|---:|---|
-| 02 | 46.5% | 5.8% | judge disagreement swamps a near-absent model signal |
-| 07 ▲ | 33.9% | 24.5% | floor-saturated; listed for completeness only |
-| 08 | 25.9% | 9.1% | the covert-protection boundary, quantified |
-| 10 | 25.8% | 25.8% | interaction equals the model effect |
-| 01 | 23.0% | 45.4% | large system effect, judges still reorder it |
-| 06 | 11.4% | 63.4% | large system effect, judges still reorder it |
-| 09 | 9.9% | 54.4% | large system effect, judges still reorder it |
-| 04 | 4.9% | 46.3% | smallest interaction among the judged designs |
-| 03 | 1.4% | 6.6% | interaction small because the judge *level* shift is 88.8% |
+| design | SUT×judge | vs 13.79% | SUT | note |
+|---|---:|:--:|---:|---|
+| 02 | 46.5% | above | 5.8% | judge disagreement swamps a near-absent model signal |
+| 07 ▲ | 33.9% | — | 24.5% | floor-saturated; listed for completeness only |
+| 08 | 25.9% | above | 9.1% | the covert-protection boundary, quantified |
+| 10 | 25.8% | above | 25.8% | interaction equals the model effect |
+| 01 | 23.0% | above | 45.4% | large system effect, judges still reorder it — the only exemplar clearly above the line |
+| 06 | 11.4% | **below** | 63.4% | interaction within epoch noise; its R4 failure rests on the flip verdict — one adjacent transposition (§5.2) |
+| 09 | 9.9% | **below** | 54.4% | interaction within epoch noise; its R4 failure rests on the flip verdict — tie-affected in ep3 (§5.2) |
+| 04 | 4.9% | **below** | 46.3% | smallest interaction among the judged designs |
+| 03 | 1.4% | **below** | 6.6% | interaction small because the judge *level* shift is 88.8% |
 
-**The precise claim the data support is therefore: the models differ, but the judges disagree
-about the ordering in every judged design.** Designs 01, 06 and 09 are the sharpest
-illustration — a substantial genuine model effect that nonetheless fails the swap test,
-because an interaction of 9–23% is enough to permute the ranking of five closely-spaced
-systems. This is the mechanism behind §5.2's flip result, and it is why no comparative claim
-survives even where the instrument is plainly responding to the model.
+**The precise claim the data support:** *the models differ on most designs. On a minority of
+designs the judges clearly disagree about the ordering; on the rest the systems are too
+tightly spaced for either judge to resolve. Either way, no comparative claim survives the
+swap.* Design 01 is the sharpest single illustration of the first arm — a large genuine model
+effect (45.4%) carrying an interaction clearly above the reference line (23.0%) that permutes
+the ranking in every epoch. Designs 06 and 09, cited alongside it in an earlier report of
+this analysis, do not support that mechanistic reading: their interaction shares sit below
+the reference line, and their R4 failures rest on the graded flip verdicts of §5.2 — one
+adjacent transposition, and a tie-affected cell — which is the signature of systems too
+tightly spaced to resolve, not of judges in resolvable disagreement. Both routes void a
+ranking; they void it for different reasons, and the repair each calls for differs (a better
+judge could in principle help design 02; only harder separation between systems helps 06 and
+09).
 
 Two designs are instructive special cases in opposite directions. **Design 03** is 88.8% judge
 *level* shift with almost no interaction: the two judges apply near-uniformly different
@@ -722,6 +785,15 @@ while per-item standard deviations run 0.12–0.21, so the between-system signal
 relative to within-system item variance at this n. The instrument reads models; on this data
 it does not separate *these* models on the one surface where separation could have been
 claimed.
+
+**The positive control's own main effect sits at its null expectation.** Because design 05 is
+judge-free, its two judge levels are exact duplicates and the layout collapses to 5 systems ×
+3 epochs — `SS_total (df 14) = SS_SUT (4) + SS_error (10)` — so the no-effect expectation of
+its system share is 4/14 = **28.6%**. The observed share is **27.4%**. The one surface where
+a ranking could have been claimed shows a system main effect indistinguishable from what pure
+epoch noise produces, independently corroborating the contrast result above: the judge-free
+surface genuinely does not separate these five systems, and no concealed ranking is being
+obscured by judge noise.
 
 *Construction note.* The means in this table differ from the §5.2 headline table in the third
 decimal (deepseek 0.9292 here vs 0.9277 there). The headline table averages each epoch's

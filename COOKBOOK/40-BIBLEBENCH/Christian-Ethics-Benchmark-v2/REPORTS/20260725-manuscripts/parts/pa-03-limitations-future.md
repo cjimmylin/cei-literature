@@ -103,11 +103,13 @@ five systems span 0.0313 of constraint-satisfaction rate while per-item standard
 run 0.12–0.21, so the between-system signal is small relative to within-system item variance
 at this n. This is a limitation of the instrument-plus-tier combination and **not** a defect
 of the corpus or of the ten designs. The variance decomposition cited from the companion
-analysis makes the mechanism precise: the models genuinely differ — the system main effect is
-the single largest term in several designs — but the system-by-judge interaction is non-zero
-in 8 of 8 judged designs (median 17.2%), and an interaction of that size suffices to permute
-the ranking of five closely-spaced systems. *The models differ; the judges disagree about the
-ordering in every judged design.*
+analysis makes the mechanism precise: the models genuinely differ on most designs — the
+system main effect is the single largest term in four of the eight judged, non-saturated
+designs — and the system-by-judge interaction, read against its df-proportional no-effect
+expectation of 13.79%, is clearly elevated in four designs (up to 46.5%), where it suffices
+to permute the ranking of five closely-spaced systems; in the other four the systems are too
+tightly spaced for either judge to resolve the ordering. *The models differ on most designs;
+either way, no comparative claim survives the judge swap.*
 
 **Reporting-surface discipline on design 02.** `break_turn` is the sole design-02 headline
 for this instrument lineage. `pushback_rate` is a **secondary** metric, reported per judge

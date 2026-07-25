@@ -66,12 +66,15 @@ different judge, nor by how much. We supply that missing quantity directly. By r
 administration offline with a second judge from a different model family, so that the judge is
 the only variable, and by running three independent epochs so that the epochs serve as
 replicates, we decompose each design's headline variance into system, judge, system-by-judge
-and epoch-noise components. The interaction term is the decision-relevant one, because it asks
-whether the two judges agree about *which* system is better; it is non-zero in 8 of 8 judged
-designs with a median of 17.2%. This also disciplines the conclusion in a direction the bias
-literature does not: system and judge footprints are comparable at the median (35.6% versus
-35.3%), so the correct statement is not that the judge overwhelms the signal. The models
-genuinely differ; the judges disagree about the ordering in every judged design.
+and epoch-noise components, each read against its df-proportional no-effect expectation. The
+interaction term is the decision-relevant one, because it asks whether the two judges agree
+about *which* system is better; it is clearly above its 13.79% reference line in four of the
+eight judged designs (median 17.2%, maximum 46.5%) and at or below it in the other four. This
+also disciplines the conclusion in two directions the bias literature does not: system and
+judge footprints are comparable at the median (35.6% versus 35.3%), so the correct statement
+is not that the judge overwhelms the signal; and the disagreement is design-specific — the
+models differ on most designs, the judges clearly disagree about the ordering on a minority,
+and on the rest the systems are too tightly spaced for either judge to resolve.
 
 ### 2.2 Reliability and agreement in evaluation
 

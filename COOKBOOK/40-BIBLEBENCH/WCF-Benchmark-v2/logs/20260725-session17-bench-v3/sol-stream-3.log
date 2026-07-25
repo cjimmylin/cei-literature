@@ -1,0 +1,7 @@
+[stream 3] 5 cells: ['LIB-N-010__haiku', 'MEND-N-002__qwen', 'PROOF-N-009__qwen', 'WHOLE-N-003__haiku', 'WHOLE-N-008__haiku']
+[stream 3] LIB-N-010__haiku: GRADE=100 (77s)
+[stream 3] MEND-N-002__qwen: GRADE=75 (85s)
+[stream 3] PROOF-N-009__qwen: GRADE=82 (72s)
+[stream 3] WHOLE-N-003__haiku: GRADE=8 (31s)
+[stream 3] WHOLE-N-008__haiku: GRADE=92 (54s)
+[stream 3] DONE

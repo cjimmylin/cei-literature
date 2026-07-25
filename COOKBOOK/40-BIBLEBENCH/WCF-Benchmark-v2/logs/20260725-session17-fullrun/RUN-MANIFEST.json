@@ -1,0 +1,73 @@
+{
+  "name": "WCF-Bench-v2 session-17 FULL RUN manifest (Scenario A)",
+  "date": "2026-07-25",
+  "launch_state": "LAUNCHED 2026-07-25 (runner nohup --expect-count 345; 8 sol probe streams nohup; opus arm via session-bound Workflow chunks, remainder = s18)",
+  "scenario": "A",
+  "scope": {
+    "suts": {
+      "gpt-4o-mini": "openai/gpt-4o-mini",
+      "gpt-5-mini": "openai/gpt-5-mini",
+      "minimax-m3": "minimax/minimax-m3",
+      "qwen": "qwen/qwen3.7-plus",
+      "haiku": "anthropic/claude-haiku-4.5"
+    },
+    "sut_order_within_epoch": ["gpt-4o-mini", "gpt-5-mini", "minimax-m3", "qwen", "haiku"],
+    "n_items_spec": 317,
+    "n_items_spec_formula": "main 345 - 28 G4",
+    "n_items_actual_on_disk": 345,
+    "scope_note": "SPEC/DATA DISCREPANCY (flagged for main-session adjudication): the task specifies 317 = wcf_main(345) - g4_excluded(28), but the 28 g4_excluded_new_items ids are ALREADY absent from wcf_main.jsonl (v2.5 frozen bank, sha 6eb858d8063a7f62455b595e29dff9c62e5354f7af34fa212eacced6f894b8de). COMP-N jumps 008->012 (009/010/016 gone); NARROW-N / CROSS-N are entirely absent. analysis/20260724-session16-instrument-freeze.json records items_main=345 with g4_excluded=28 as SEPARATE historical bookkeeping, confirming 345 is the post-G4 scored bank. The runner APPLIES the g4 filter defensively (a no-op here) and scopes to 345; it prints a loud SCOPE MISMATCH banner and supports --expect-count to hard-pin. RESOLVED 2026-07-25 (owner-ratified before launch): N=345 is CORRECT — the s16 '317' was an arithmetic double-count (345 - 28 computed without membership check; the G4 exclusion was already applied at the v2.4->v2.5 merge). Verified independently: bank sha matches the freeze manifest, 345 unique ids, 0 G4 ids present. G4 policy (keep excluded + disclose) unchanged and satisfied by the bank as-is. Scenario A = 5 x 345 x 3 = 5,175 calls, est. ~$31-38, cap $70 unchanged. Do NOT quote 317 anywhere.",
+    "epochs": 3,
+    "episodes": "OUT (episodes bank excluded from Scenario A)"
+  },
+  "rulings": {
+    "STOP-POINT_A_2026-07-25": "strict-v3 gate FAILED on both grounds -> auto-revert to the ratified-accepted instrument: strict-v2 + Sol-anchored disclosure.",
+    "STOP-POINT_4_2026-07-25": "Scenario A authorized: 8-stream Sol probe (fallback 4 streams), $70 hard SUT cap = 2x the $28-35 estimate, episodes OUT."
+  },
+  "instrument": {
+    "template": "src/templates/wcf_grade_template_strict_v2.txt",
+    "template_sha256": "c32fee45652008e724c304a3e6df8c1d4ee43b055a7439d826f1ab0048d6e650",
+    "panel": ["opus (Claude Agent dispatch, fresh context per verdict)", "gpt-5.6-sol (codex exec OAuth)"],
+    "aggregation": "mean-of-2 per (item, SUT) cell; per-judge grades retained for sensitivity reporting",
+    "judging_mode": "single-packet mode ONLY (one packet per fresh judge context); SUT-pure batch judging PROHIBITED (not part of the frozen instrument)",
+    "cost": "$0 judge side (Agent + OAuth channels)"
+  },
+  "disclosure": {
+    "opus_known_lenient": "advisory-prose-without-artifact and compliance-theater garnish idioms; +57..+68 single-judge on the audited cells",
+    "sol": "trap-clean on the audited cells",
+    "requirement": "full-run analysis MUST include a judge-gap triage (blind audit of high opus-minus-sol cells) per STOP-POINT A adjudication"
+  },
+  "standing_regrades_to_ride_the_analysis": {
+    "gold_order_regrade": "5-AGG gold_order char-split regrade at wcf_tasks.py:96",
+    "fitness_recheck": "fitness re-check from 84"
+  },
+  "cost": {
+    "estimate_usd": "28-35",
+    "hard_cap_usd": 70.00,
+    "cap_rationale": "2x estimate"
+  },
+  "runner": {
+    "script": "analysis/session17_fullrun_runner.py",
+    "max_tokens": 16384,
+    "max_concurrency": 8,
+    "work_order": "epoch-major (epoch 1 all SUTs first, cheapest-first within epoch), then epoch 2, then epoch 3 — so completed epoch-1 files can be judged while later epochs sample",
+    "responses": "logs/20260725-session17-fullrun/responses-<tag>-ep<N>.jsonl (15 files, append-only, resume-safe per item id per file)",
+    "api_key": "sourced from ~/.codex/secrets/openrouter.env (never the calling environment)",
+    "completion_flag": "logs/20260725-session17-fullrun/RUNNER-DONE (+ RUN-SUMMARY.json, updated incrementally after each SUT/epoch)"
+  },
+  "packets": {
+    "script": "analysis/session17_fullrun_packets.py",
+    "renderer": "session15_bench_packets.render_strict_v2_prompt (strict-v2, import-time sha256 gate)",
+    "out_dir": "/tmp/wcf-s17-fullrun/packets/<ITEM>__<tag>__ep<N>.md",
+    "atomicity": "tmp file + os.replace; incremental (renders only missing packets); empty completions still render"
+  },
+  "sol_driver": {
+    "script": "analysis/session17_fullrun_sol_driver.py",
+    "streams_default": 8,
+    "streams_fallback": 4,
+    "sharding": "zlib.crc32(filename) % nstreams == stream",
+    "verdicts": "logs/20260725-session17-fullrun/sol-verdicts/<name>.md (REPO dir, not /tmp)",
+    "parse_contract": "strict last-match 'GRADE: <int>'; one re-prompt on failure; call_sol RuntimeError -> retry once then <name>.md.FAILED marker (nothing deleted/overwritten)",
+    "exit": "RUNNER-DONE exists AND renderer 0 rendered AND shard 0 unjudged; else sleep 60s"
+  },
+  "interpreter": "/opt/homebrew/opt/python@3.14/bin/python3.14"
+}

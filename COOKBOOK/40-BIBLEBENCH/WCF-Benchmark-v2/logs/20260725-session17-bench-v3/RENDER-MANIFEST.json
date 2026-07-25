@@ -1,0 +1,174 @@
+{
+ "date": "2026-07-25",
+ "session": "session17-bench-v3",
+ "template": {
+  "path": "src/templates/wcf_grade_template_strict_v3.txt",
+  "sha256": "ce5c9fa507ed850df3ab7aeb1018c70e27262e9c01b167ac64e3dd363c79bf9e"
+ },
+ "interpreter": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+ "n_cells": 20,
+ "cells": [
+  {
+   "item": "LIB-N-006",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "LIB-N-006__qwen.md",
+   "packet_sha256": "c41fd4ef91aee6b6093dc237b6eb1daa09a94e9426045294878807dab8523416",
+   "packet_bytes": 32030
+  },
+  {
+   "item": "PROOF-N-009",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "PROOF-N-009__qwen.md",
+   "packet_sha256": "5fa03dd0b6b7cb963effd931eb583376241b9b0e90b93f63aacb89f970f6bde9",
+   "packet_bytes": 32154
+  },
+  {
+   "item": "MEND-N-002",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "MEND-N-002__qwen.md",
+   "packet_sha256": "77768e8ea2f1347778b1adc64b2cd5525a939062f7ea08c64901070738f84eee",
+   "packet_bytes": 30384
+  },
+  {
+   "item": "MEND-N-009",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "MEND-N-009__qwen.md",
+   "packet_sha256": "97e070f1feac53ff4c20a280acb35c1d99c559109e4cfdf4432969bab11c2ee6",
+   "packet_bytes": 30595
+  },
+  {
+   "item": "PROOF-N-005",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "PROOF-N-005__qwen.md",
+   "packet_sha256": "a8b6ac6fa7c971a4cf871d275dbc56a05bda34dc5bc444f81925c739b7fc7f39",
+   "packet_bytes": 29727
+  },
+  {
+   "item": "WHOLE-N-004",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "WHOLE-N-004__qwen.md",
+   "packet_sha256": "2b9a010117704a80bd8d0f22fc52e5184defee47f3273fa9ae29300237ac2b13",
+   "packet_bytes": 27809
+  },
+  {
+   "item": "LIB-N-011",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "LIB-N-011__qwen.md",
+   "packet_sha256": "fd377c1cc7d3954aec823eb35bafa93f31aceadc4c87943dba5a86e8f62b031e",
+   "packet_bytes": 29684
+  },
+  {
+   "item": "LIB-N-011",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "LIB-N-011__haiku.md",
+   "packet_sha256": "cbfaa69aabcf105a5a1d2d674cac9db8b8e9db131ca59671a5f99570ce7c35e2",
+   "packet_bytes": 25784
+  },
+  {
+   "item": "WHOLE-N-007",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "WHOLE-N-007__haiku.md",
+   "packet_sha256": "701b7b46449da3388b5e596d9f1d89446c272ae8f27f3aacd1a904161a36b93d",
+   "packet_bytes": 27087
+  },
+  {
+   "item": "LIB-N-004",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "LIB-N-004__haiku.md",
+   "packet_sha256": "8a4d3dbe213be6de30b2715b8593590bf20865497216e32f5698048f259b700f",
+   "packet_bytes": 27597
+  },
+  {
+   "item": "WHOLE-N-003",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "WHOLE-N-003__haiku.md",
+   "packet_sha256": "a88d1ec1db6d64e5f1e97200feff98a82beff7ca702e5e7f70a360ef407b0eca",
+   "packet_bytes": 27928
+  },
+  {
+   "item": "LIB-N-010",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "LIB-N-010__haiku.md",
+   "packet_sha256": "b86f167d173c972cb2ae179054ba8979156042e175fc9426d64e4c8e61e6db56",
+   "packet_bytes": 29428
+  },
+  {
+   "item": "MEND-N-001",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "MEND-N-001__haiku.md",
+   "packet_sha256": "18078db61502f966a8920644e1beeae336a07b4fa54e1266921c1d5c53a28018",
+   "packet_bytes": 26447
+  },
+  {
+   "item": "WHOLE-N-007",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "WHOLE-N-007__qwen.md",
+   "packet_sha256": "33913ad11fa943623dc8f75905218226d99e70e0ab6cf805d002c817991baca9",
+   "packet_bytes": 31160
+  },
+  {
+   "item": "PROOF-N-001",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "PROOF-N-001__qwen.md",
+   "packet_sha256": "09de9236ffa6e5b5281cfed4bf23622ee2f193b763741c9d09aa5616b0ac6408",
+   "packet_bytes": 29367
+  },
+  {
+   "item": "PROOF-N-010",
+   "sut": "qwen",
+   "source": "s13-eval",
+   "packet": "PROOF-N-010__qwen.md",
+   "packet_sha256": "8dc0fc6939528360f99837ead7b2cd3e902347b06e4406c9c177324da2747f8e",
+   "packet_bytes": 30600
+  },
+  {
+   "item": "WHOLE-N-008",
+   "sut": "haiku",
+   "source": "s13-eval",
+   "packet": "WHOLE-N-008__haiku.md",
+   "packet_sha256": "0ceb94059c3bac3a41c2bd7dc482e5e33677ce336d541ba2838f09fdf0591317",
+   "packet_bytes": 28450
+  },
+  {
+   "item": "STED-N-018",
+   "sut": "gpt-4o-mini",
+   "source": "pilot-jsonl",
+   "packet": "STED-N-018__gpt-4o-mini.md",
+   "packet_sha256": "83a15c6a1bf0a8674f797f7b18229b45ba78598e68b028d7c6345b060e75ab30",
+   "packet_bytes": 25519
+  },
+  {
+   "item": "STED-N-018",
+   "sut": "minimax-m3",
+   "source": "pilot-jsonl",
+   "packet": "STED-N-018__minimax-m3.md",
+   "packet_sha256": "939e20c9e92238f4339097d870700498908071861d4205dc2beb867b956adfd6",
+   "packet_bytes": 28365
+  },
+  {
+   "item": "COMP-N-003",
+   "sut": "minimax-m3",
+   "source": "pilot-jsonl",
+   "packet": "COMP-N-003__minimax-m3.md",
+   "packet_sha256": "fa36122e8c1f8cbe20d100c1d27fab511994705f84dca395420e60f2c605a307",
+   "packet_bytes": 22853
+  }
+ ],
+ "archive_dir": "logs/20260725-session17-bench-v3/packets",
+ "work_dir": "/tmp/wcf-s17-bench/packets"
+}

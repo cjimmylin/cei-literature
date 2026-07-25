@@ -1,0 +1,7 @@
+[stream 2] 5 cells: ['LIB-N-006__qwen', 'MEND-N-001__haiku', 'PROOF-N-005__qwen', 'STED-N-018__minimax-m3', 'WHOLE-N-007__qwen']
+[stream 2] LIB-N-006__qwen: GRADE=83 (41s)
+[stream 2] MEND-N-001__haiku: GRADE=69 (104s)
+[stream 2] PROOF-N-005__qwen: GRADE=100 (48s)
+[stream 2] STED-N-018__minimax-m3: GRADE=5 (27s)
+[stream 2] WHOLE-N-007__qwen: GRADE=96 (60s)
+[stream 2] DONE

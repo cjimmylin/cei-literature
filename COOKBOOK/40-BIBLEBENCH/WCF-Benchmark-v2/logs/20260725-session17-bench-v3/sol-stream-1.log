@@ -1,0 +1,7 @@
+[stream 1] 5 cells: ['LIB-N-004__haiku', 'LIB-N-011__qwen', 'PROOF-N-001__qwen', 'STED-N-018__gpt-4o-mini', 'WHOLE-N-007__haiku']
+[stream 1] LIB-N-004__haiku: GRADE=8 (40s)
+[stream 1] LIB-N-011__qwen: GRADE=4 (48s)
+[stream 1] PROOF-N-001__qwen: GRADE=100 (53s)
+[stream 1] STED-N-018__gpt-4o-mini: GRADE=10 (34s)
+[stream 1] WHOLE-N-007__haiku: GRADE=8 (25s)
+[stream 1] DONE

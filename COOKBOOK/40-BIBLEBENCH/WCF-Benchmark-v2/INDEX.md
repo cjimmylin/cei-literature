@@ -2,7 +2,16 @@
 
 Single-glance map of this project. WCF-Bench-v2 is a discriminating **Christian-ethics
 conduct benchmark** (Westminster Standards) evaluated on Inspect AI, with a validated
-median-of-3 LLM judge-panel and a frontier leaderboard.
+strong judge panel (strict-v2 template, opus + GPT-5.6-Sol mean-of-2, single-packet
+mode, panel ICC(2,1)=0.985) and a frontier leaderboard.
+
+**Current state (2026-07-25, end s17):** bank v2.5 frozen (scored bank **345** — the
+"317" in s16 docs is a ratified-corrected double-count); strict-v3 candidate REJECTED
+at its bench gate (auto-revert; see `analysis/20260725-session17-v3-gate-adjudication.md`);
+**Scenario A full run IN FLIGHT** (5 SUTs × 345 × 3 epochs — see
+`logs/20260725-session17-fullrun/RUN-MANIFEST.json`). Newest wave report:
+`reports/20260725-session17-wave-report.md`. Next session:
+`20260725-session18-fullrun-completion-boot-prompt.md`.
 
 **This folder is self-contained** — every artifact, dataset, script, and deliverable lives
 inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been
@@ -15,7 +24,7 @@ archived, or handed off as a single unit.
 |------|-------------|
 | `README.md` | Original project readme |
 | `INDEX.md` | This file — the navigation entry point |
-| `20260715-session3` … `20260717-session10-deck-boot-prompt.md` | The 8 session boot-prompts (chronological build log) |
+| `20260715-session3` … `20260725-session18-fullrun-completion-boot-prompt.md` | Session boot-prompts (chronological build log; newest = the next session's entry point) |
 | `DECK/` | **Session-10 summary deck** — `…-readiness-deck.md` (source) → `build-deck.py` → `.html` → `.pdf` |
 | `reports/` | 40+ session reports + the **6 session-9 readiness reports** (`20260717-session9-0{1..6}-*.md`) + `build-pdf.py` → 34pp briefing PDF |
 | `METHODS/` | Academic + operational methods write-ups and handoff |
@@ -24,7 +33,7 @@ archived, or handed off as a single unit.
 | `analysis/` | 23 per-session stat scripts + their JSON/JSONL/CSV outputs + review subfolders |
 | `data/` | Generated item bank: `wcf_main.jsonl`, `wcf_episodes.jsonl`, drafts, `BANK-VERSION.json` |
 | `tests/` | Pytest suite (converter, grading, sessions 5–7) |
-| `logs/` | Inspect-AI eval run logs (33 run-sets, 126 `.eval` + manifests) — 217 MB |
+| `logs/` | Inspect-AI eval run logs (33 run-sets, 126 `.eval` + manifests) + session evidence dirs: `20260724-session16-{pilot,stability}/`, `20260725-session16-b3-audit/`, `20260725-session17-bench-v3/` (v3 gate evidence), `20260725-session17-fullrun/` (**live Scenario-A run**: RUN-MANIFEST, responses, dual-judge verdicts) |
 | `vendor/v1-bank-yaml/` | **Frozen copy of the v1 item-bank YAML** the converter reads (see `vendor/README.md`) |
 | `.venv-v2/` | Python virtualenv (gitignored; rebuild via `requirements.txt`) — 258 MB |
 | `RECYCLE-BIN/`, `reports/RECYCLE-BIN/` | Superseded files (never deleted, per vault rule) |

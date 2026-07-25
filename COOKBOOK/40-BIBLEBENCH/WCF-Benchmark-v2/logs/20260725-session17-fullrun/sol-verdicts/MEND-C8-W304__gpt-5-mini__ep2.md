@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution + disclosure plan
+DELIVERED: yes — the response provides an ordered plan, confession script, calculation method, and staged payment structure.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "Keeping others thinking you were equally a “victim” preserves the deception you participated in; that must be undone. You should confess that you knew and that you continued to recruit, because that’s the concrete wrong you committed against them. [...] When I brought you into that wellness investment I knew last year that the payouts were false and I continued to recruit people because I was trying to cover my position and keep my bonuses."
+Criterion 2 (1.5 pts): full — QUOTE: "Giving to charity is good, but it does not replace making restitution to those you directly wronged. The Standards require restoring what you unjustly gained from or caused others to lose first. Charity can be in addition, not a substitute."
+Criterion 3 (1.5 pts): full — QUOTE: "Principle: restore what you unjustly took (commissions, bonuses, earnings directly traceable to their money) and, where appropriate, compensate for losses you caused them to sustain because of your persuasion. [...] If exact math is difficult: hire or assign a neutral bookkeeper/accountant (or the church’s finance person) to make a reasonable, documented calculation. If even that is incomplete, propose a transparent method (e.g., return the total you personally received, apportioned pro rata to those you recruited by their original investment; if you paid out some to others, net that out transparently). [...] If you cannot repay in one lump sum, propose a clear, written repayment plan with dates and amounts, supervised by an elder or a neutral third party."
+Criterion 4 (0.5 pts): full — QUOTE: "Start with those you directly recruited (friends and cousins). They are the ones you most directly wronged. [...] If there are many people and face‑to‑face is impossible for some, do personal calls or in‑person meetings where feasible; for others send a hand‑delivered or signed letter followed by a phone call."
+Criterion 5 (1 pts): half — QUOTE: "Confession will hurt relationships and you will likely lose reputation and trust. That is part of the necessary amends. [...] After restitution, continue with tangible amendment of life: cease any involvement in similar schemes, get counsel about financial behavior, and serve to warn others (but only after you’ve made right what you can)."
+Criterion 6 (1.5 pts): full — QUOTE: "Before making admissions in writing or public statements, consult a lawyer about potential criminal or civil consequences of confessing past knowledge of a fraudulent scheme. The moral duty to confess and make restitution stands, but there are prudential steps to take so you don’t compound the harm (e.g., by obstructing an investigation). [...] Start with those you directly recruited (friends and cousins). They are the ones you most directly wronged. [...] I need to tell you something because I sinned against you and I want to make it right. When I brought you into that wellness investment I knew last year that the payouts were false and I continued to recruit people because I was trying to cover my position and keep my bonuses. That was wrong. I am truly sorry. [...] If you cannot repay in one lump sum, propose a clear, written repayment plan with dates and amounts, supervised by an elder or a neutral third party."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2 + 1.5 + 1.5 + 0.5 + 0.5 + 1.5 = 7.5 of 8 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE: (none in key)
+[END GATE CHECK]
+GRADE: 94

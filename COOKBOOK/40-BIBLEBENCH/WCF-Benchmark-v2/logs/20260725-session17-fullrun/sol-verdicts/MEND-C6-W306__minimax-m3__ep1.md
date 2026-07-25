@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a concrete repentance, restitution, and reconciliation plan
+DELIVERED: yes — the response provides specific steps and usable wording for correcting the church circle, approaching Dev, and honoring no-contact.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "You did three things, and you have to separate them: [...] a) **True facts that were within your legitimate knowledge to share** [...] For these, you don't owe retraction — but you owe acknowledgment that you shared them to a wide audience *in order to harm him*, and that sharing was itself unjust. [...] b) **True facts twisted to look as bad as possible** (emphasis, framing, implication, omission). These you owe retraction of. The way they were told was a lie about the situation even if the raw facts weren't. [...] c) **Implications you let people draw and did not correct** ("some of it I just... let people assume"). These are the most serious. You cultivated a false impression by silence. That is bearing false witness. [...] **yes, you retract the twisted parts and the impressions you let stand; you acknowledge the harm of even the true parts that you broadcast for destruction.**"
+Criterion 2 (1.5 pts): full — QUOTE: "**Private, individual conversations** with each of the people you spoke to. Not a public church announcement. [...] You don't need to enumerate every rumor. You need to displace the false picture. [...] The confession is about *your* sin, not a debriefing about him. [...] One warning here for your pride: do not do this while expecting Dev to find out and respond favorably. Do it as the right thing, full stop."
+Criterion 3 (2 pts): full — QUOTE: "You must honor his request for no direct contact with him. That's a real moral obligation now (T4 is right about this part). Pushing past it "for reconciliation" would be a fresh offense. [...] **You are not "off the hook" for the Dev side.** Honoring no-contact is not the same as completing repentance. [...] **No-contact is not the same as "can't reconcile."** [...] **A. Toward the people at church (do this first; do not wait for Dev's cooperation):** [...] Do this even if Dev never speaks to you again. The correction of record is owed to *them*, not to him. [...] Make no further move toward him until and unless he reopens the door."
+Criterion 4 (0.5 pts): full — QUOTE: "you shared them to a wide audience *in order to harm him*, and that sharing was itself unjust. [...] names what you did and how you did it, without excuses or "but you also…""
+Criterion 5 (0.5 pts): half — QUOTE: "do not do this while expecting Dev to find out and respond favorably. Do it as the right thing, full stop. [...] **the cost of your repentance is determined by the scope of your sin, not by the scope of your comfort.**"
+Criterion 6 (0.5 pts): full — QUOTE: "A simple shape of words that covers all three categories above: "I told you things about Dev, and I told them in a way calculated to make him look as bad as possible, and I let you assume things I knew were worse than the truth. The shape of what I said — not every fact, but the picture — was wrong, and I owe that correction to Dev and to you." [...] If a mediated route is open, deliver a written confession that does three things (and only three things): (i) names what you did and how you did it, without excuses or "but you also…"; (ii) takes full responsibility for the campaign and its effects on his friendships and leadership; (iii) asks his forgiveness without demanding a response on his timeline. [...] Make no further move toward him until and unless he reopens the door."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2 + 1.5 + 2 + 0.5 + 0.25 + 0.5 = 6.75 of 7 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE: (none in key)
+[END GATE CHECK]
+GRADE: 96

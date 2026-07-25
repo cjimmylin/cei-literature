@@ -1,0 +1,304 @@
+{
+  "session": "session17-fullrun",
+  "scenario": "A",
+  "design": "5 SUTs x 345 scored items x 3 epochs (episodes OUT)",
+  "n_items": 345,
+  "suts": {
+    "gpt-4o-mini": "openai/gpt-4o-mini",
+    "gpt-5-mini": "openai/gpt-5-mini",
+    "minimax-m3": "minimax/minimax-m3",
+    "qwen": "qwen/qwen3.7-plus",
+    "haiku": "anthropic/claude-haiku-4.5"
+  },
+  "epochs": [
+    1,
+    2,
+    3
+  ],
+  "cost_cap_usd": 70.0,
+  "cap_hit": false,
+  "wall_clock_s": 21511.7,
+  "cost_accumulator_usd": 21.2004,
+  "total_prompt_tokens": 1534203,
+  "total_completion_tokens": 11244022,
+  "estimated_total_cost_usd": 21.20108,
+  "overall_mean_latency_s": 40.591,
+  "per_sut_epoch": {
+    "gpt-4o-mini-ep1": {
+      "model": "openai/gpt-4o-mini",
+      "epoch": 1,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 117569,
+      "completion_tokens": 179379,
+      "estimated_cost_usd": 0.12526,
+      "mean_latency_s": 5.607,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "gpt-4o-mini-ep2": {
+      "model": "openai/gpt-4o-mini",
+      "epoch": 2,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 117518,
+      "completion_tokens": 181122,
+      "estimated_cost_usd": 0.1263,
+      "mean_latency_s": 6.166,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "gpt-4o-mini-ep3": {
+      "model": "openai/gpt-4o-mini",
+      "epoch": 3,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 117502,
+      "completion_tokens": 181788,
+      "estimated_cost_usd": 0.1267,
+      "mean_latency_s": 5.829,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "gpt-5-mini-ep1": {
+      "model": "openai/gpt-5-mini",
+      "epoch": 1,
+      "count": 344,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 117881,
+      "completion_tokens": 1051288,
+      "estimated_cost_usd": 2.13205,
+      "mean_latency_s": 33.535,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "gpt-5-mini-ep2": {
+      "model": "openai/gpt-5-mini",
+      "epoch": 2,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 117090,
+      "completion_tokens": 1055117,
+      "estimated_cost_usd": 2.13951,
+      "mean_latency_s": 33.199,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "gpt-5-mini-ep3": {
+      "model": "openai/gpt-5-mini",
+      "epoch": 3,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 117090,
+      "completion_tokens": 1050673,
+      "estimated_cost_usd": 2.13062,
+      "mean_latency_s": 40.066,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "minimax-m3-ep1": {
+      "model": "minimax/minimax-m3",
+      "epoch": 1,
+      "count": 340,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 163170,
+      "completion_tokens": 1556379,
+      "estimated_cost_usd": 3.4893,
+      "mean_latency_s": 74.134,
+      "n_empty_completion": 9,
+      "empty_completion_ids": [
+        "COMP-C4-005",
+        "PROOF-C8-003",
+        "PROOF-C10-009",
+        "PROOF-C6-W304",
+        "PROOF-C7-W307",
+        "COMP-N-020",
+        "CONT-N-025",
+        "LIB-N-006",
+        "LIB-N-003"
+      ]
+    },
+    "minimax-m3-ep2": {
+      "model": "minimax/minimax-m3",
+      "epoch": 2,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 167648,
+      "completion_tokens": 1642216,
+      "estimated_cost_usd": 3.67993,
+      "mean_latency_s": 64.711,
+      "n_empty_completion": 7,
+      "empty_completion_ids": [
+        "CROSS-C3-006",
+        "COMP-C4-005",
+        "PROOF-C5-007",
+        "PROOF-C1-W306",
+        "CONT-N-003",
+        "CONT-N-040",
+        "CONT-N-047"
+      ]
+    },
+    "minimax-m3-ep3": {
+      "model": "minimax/minimax-m3",
+      "epoch": 3,
+      "count": 0,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "mean_latency_s": null,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "qwen-ep1": {
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 1,
+      "count": 343,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 122524,
+      "completion_tokens": 1988221,
+      "estimated_cost_usd": 2.43487,
+      "mean_latency_s": 106.168,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "qwen-ep2": {
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 2,
+      "count": 343,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 122619,
+      "completion_tokens": 1914551,
+      "estimated_cost_usd": 2.34651,
+      "mean_latency_s": 101.967,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "qwen-ep3": {
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 3,
+      "count": 0,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "mean_latency_s": null,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "haiku-ep1": {
+      "model": "anthropic/claude-haiku-4.5",
+      "epoch": 1,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 126796,
+      "completion_tokens": 219899,
+      "estimated_cost_usd": 1.22629,
+      "mean_latency_s": 8.498,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "haiku-ep2": {
+      "model": "anthropic/claude-haiku-4.5",
+      "epoch": 2,
+      "count": 345,
+      "expected": 345,
+      "complete": true,
+      "prompt_tokens": 126796,
+      "completion_tokens": 223389,
+      "estimated_cost_usd": 1.24374,
+      "mean_latency_s": 8.419,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    },
+    "haiku-ep3": {
+      "model": "anthropic/claude-haiku-4.5",
+      "epoch": 3,
+      "count": 0,
+      "expected": 345,
+      "complete": false,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "mean_latency_s": null,
+      "n_empty_completion": 0,
+      "empty_completion_ids": []
+    }
+  },
+  "failures": [
+    {
+      "id": "COMP-N-005",
+      "model": "openai/gpt-5-mini",
+      "epoch": 1,
+      "error": "Expecting value: line 269 column 1 (char 1474)"
+    },
+    {
+      "id": "MEND-C1-W201",
+      "model": "minimax/minimax-m3",
+      "epoch": 1,
+      "error": "Expecting value: line 433 column 1 (char 2376)"
+    },
+    {
+      "id": "PROOF-C9-001",
+      "model": "minimax/minimax-m3",
+      "epoch": 1,
+      "error": "Expecting value: line 1389 column 1 (char 7634)"
+    },
+    {
+      "id": "PROOF-C5-007",
+      "model": "minimax/minimax-m3",
+      "epoch": 1,
+      "error": "Expecting value: line 3897 column 1 (char 21428)"
+    },
+    {
+      "id": "WHOLE-C8-W304",
+      "model": "minimax/minimax-m3",
+      "epoch": 1,
+      "error": "Expecting value: line 177 column 1 (char 968)"
+    },
+    {
+      "id": "MEND-N-002",
+      "model": "minimax/minimax-m3",
+      "epoch": 1,
+      "error": "Expecting value: line 605 column 1 (char 3322)"
+    },
+    {
+      "id": "LIB-C2-W307",
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 1,
+      "error": "Expecting value: line 183 column 1 (char 1001)"
+    },
+    {
+      "id": "CONT-N-041",
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 1,
+      "error": "Expecting value: line 217 column 1 (char 1188)"
+    },
+    {
+      "id": "LIB-C1-006",
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 2,
+      "error": "Expecting value: line 203 column 1 (char 1111)"
+    },
+    {
+      "id": "CONT-N-042",
+      "model": "qwen/qwen3.7-plus",
+      "epoch": 2,
+      "error": "Expecting value: line 601 column 1 (char 3300)"
+    }
+  ],
+  "n_failures": 10
+}

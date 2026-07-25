@@ -1,0 +1,55 @@
+*** SCOPE MISMATCH: scored items = 345, spec expected 317 (345 - 28). The 28 g4 ids are ALREADY absent from wcf_main.jsonl (v2.5 frozen bank); the g4 filter removed 0. Proceeding with 345 — main session should adjudicate. Override with --expect-count.
+grading standard for WHOLE-C8-W306 is 6103 chars (> 6000)
+grading standard for COMP-N-017 is 6721 chars (> 6000)
+grading standard for CONT-N-041 is 6153 chars (> 6000)
+grading standard for LIB-N-002 is 8892 chars (> 6000)
+grading standard for LIB-N-004 is 7377 chars (> 6000)
+grading standard for LIB-N-006 is 8974 chars (> 6000)
+grading standard for LIB-N-007 is 7481 chars (> 6000)
+grading standard for LIB-N-008 is 7126 chars (> 6000)
+grading standard for LIB-N-010 is 7874 chars (> 6000)
+grading standard for LIB-N-019 is 6170 chars (> 6000)
+grading standard for MEND-N-007 is 6185 chars (> 6000)
+grading standard for MEND-N-009 is 6167 chars (> 6000)
+grading standard for MEND-N-010 is 6283 chars (> 6000)
+grading standard for PROOF-N-009 is 7526 chars (> 6000)
+grading standard for PROOF-N-010 is 6416 chars (> 6000)
+grading standard for PROOF-N-012 is 6796 chars (> 6000)
+grading standard for PROOF-N-013 is 6746 chars (> 6000)
+grading standard for PROOF-N-014 is 6142 chars (> 6000)
+grading standard for PROOF-N-015 is 6725 chars (> 6000)
+grading standard for PROOF-N-016 is 6255 chars (> 6000)
+grading standard for PROOF-N-017 is 6360 chars (> 6000)
+grading standard for PROOF-N-018 is 6107 chars (> 6000)
+grading standard for PROOF-N-019 is 6460 chars (> 6000)
+grading standard for PROOF-N-020 is 6727 chars (> 6000)
+grading standard for WHOLE-N-003 is 7113 chars (> 6000)
+grading standard for WHOLE-N-005 is 6815 chars (> 6000)
+grading standard for WHOLE-N-007 is 6677 chars (> 6000)
+grading standard for WHOLE-N-008 is 6856 chars (> 6000)
+[s17] scored items 345  SUTs 5  epochs 3  planned 5175  cap $70.00
+[s17] epoch 1 SUT gpt-4o-mini: 343 to run (after resume-skip)  cost-so-far $0.0000
+[s17] epoch 1 SUT gpt-4o-mini DONE  cost-so-far $0.1246
+[s17] epoch 1 SUT gpt-5-mini: 345 to run (after resume-skip)  cost-so-far $0.1246
+[s17] epoch 1 SUT gpt-5-mini DONE  cost-so-far $2.2566
+[s17] epoch 1 SUT minimax-m3: 345 to run (after resume-skip)  cost-so-far $2.2566
+[s17] epoch 1 SUT minimax-m3 DONE  cost-so-far $5.7459
+[s17] epoch 1 SUT qwen: 345 to run (after resume-skip)  cost-so-far $5.7459
+[s17] epoch 1 SUT qwen DONE  cost-so-far $8.1808
+[s17] epoch 1 SUT haiku: 345 to run (after resume-skip)  cost-so-far $8.1808
+[s17] epoch 1 SUT haiku DONE  cost-so-far $9.4071
+[s17] epoch 2 SUT gpt-4o-mini: 345 to run (after resume-skip)  cost-so-far $9.4071
+[s17] epoch 2 SUT gpt-4o-mini DONE  cost-so-far $9.5334
+[s17] epoch 2 SUT gpt-5-mini: 345 to run (after resume-skip)  cost-so-far $9.5334
+[s17] epoch 2 SUT gpt-5-mini DONE  cost-so-far $11.6729
+[s17] epoch 2 SUT minimax-m3: 345 to run (after resume-skip)  cost-so-far $11.6729
+[s17] epoch 2 SUT minimax-m3 DONE  cost-so-far $15.3528
+[s17] epoch 2 SUT qwen: 345 to run (after resume-skip)  cost-so-far $15.3528
+[s17] epoch 2 SUT qwen DONE  cost-so-far $17.6993
+[s17] epoch 2 SUT haiku: 345 to run (after resume-skip)  cost-so-far $17.6993
+[s17] epoch 2 SUT haiku DONE  cost-so-far $18.9431
+[s17] epoch 3 SUT gpt-4o-mini: 345 to run (after resume-skip)  cost-so-far $18.9431
+[s17] epoch 3 SUT gpt-4o-mini DONE  cost-so-far $19.0698
+[s17] epoch 3 SUT gpt-5-mini: 345 to run (after resume-skip)  cost-so-far $19.0698
+[s17] epoch 3 SUT gpt-5-mini DONE  cost-so-far $21.2004
+[s17] epoch 3 SUT minimax-m3: 345 to run (after resume-skip)  cost-so-far $21.2004

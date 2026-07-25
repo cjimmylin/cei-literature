@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested decision-and-carrying counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Affirm their theological instinct about restoration (it's biblical)." [...] "You have no biblical basis to demand permanent exclusion." [...] "No cash/keys: Yes. Not forever, but genuinely earned back."
+Criterion 2 (1.5 pts): full — QUOTE: "Say **yes, with conditions**" [...] "Trust broken in financial stewardship takes time to rebuild visibly" [...] "No cash/keys: Yes. Not forever, but genuinely earned back."
+Criterion 3 (1.5 pts): full — QUOTE: "After 12-18 months of faithful service, revisit." [...] "No public fanfare: Yes—for now." [...] "Be honest about *why* you're doing this:"
+Criterion 4 (0.5 pts): full — QUOTE: "Reggie's restitution is complete. You have no biblical basis to demand permanent exclusion." [...] "You're worried about donor confidence and the theater's reputation. That's legitimate stewardship."
+Criterion 5 (0.5 pts): half — QUOTE: "Transparency protects him as much as it protects the organization." [...] "Not to humiliate him, but because changed behavior needs time to be demonstrated and observed."
+Criterion 6 (0.5 pts): half — QUOTE: "No public fanfare: Yes—for now. Let the community observe his faithfulness quietly."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.5 + 0.5 + 0.25 + 0.25 = 6.0 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses a flat permanent ban": no — QUOTE: (none)
+GATE "endorses unconditional restoration of money or keys": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 92

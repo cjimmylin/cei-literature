@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding Sacred Arts Policy
+DELIVERED: yes — a titled, structured Sacred Arts Policy is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "We respectfully and firmly decline the donor’s request to hang a realistic painted portrait of Jesus over the communion table as a focus for worship and prayer. It cannot be our centerpiece. To do so would violate the Second Commandment (WLC 109)"
+Criterion 2 (1.5 pts): full — QUOTE: "We reject the proposal to ban all visual art, architectural ornament, photographs, and picture books from the building. A photograph of a church member’s family is a representation of a human being, not the Godhead; it is not an idol. Architectural beauty and abstract banners in the fellowship hall reflect the cultural mandate and the goodness of creation (WCF 1). We will allow such art, recognizing the Christian liberty we have in things indifferent, so long as they are kept distinct from the elements of worship."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): full — QUOTE: "Abstract, non-figurative imagery (light, color, moving texture) may be projected during congregational singing, provided it functions strictly as a circumstance of worship." [...] "Framed printed Scripture texts and the church’s historic confession will continue to hang in the entryway." [...] "No visual element may ever be presented, implied, or understood as a means of grace. All visual elements used in the gathered service must be explicitly approved by the Session."
+Criterion 5 (0.5 pts): full — QUOTE: "We respectfully and firmly decline the donor’s request" [...] "We reject the proposal to ban all visual art" [...] "The worship team may project abstract imagery behind the congregation during singing"
+Criterion 6 (0.5 pts): half — QUOTE: "We respectfully and firmly decline the donor’s request" [...] "While we understand the pastoral desire to engage five-year-olds" [...] "The worship team may project abstract imagery behind the congregation during singing"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.0 + 0.5 + 0.25 = 5.25 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "permits the portrait of Jesus as a worship centerpiece": no — QUOTE: (none)
+GATE "adopts the total ban on all visual art": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 81

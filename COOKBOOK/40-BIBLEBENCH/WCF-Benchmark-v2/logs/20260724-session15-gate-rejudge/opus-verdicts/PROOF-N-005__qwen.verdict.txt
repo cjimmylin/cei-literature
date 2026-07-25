@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task: corrected counsel/ruling on a two-part worship proposal)
+DELIVERED: yes — the response declines to bless the proposal and delivers the two opposite corrections (the faithful deliverable per the TRAP-REQUEST GUARD).
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Purity in worship does not mean avoiding what is explicitly banned; it means restricting ourselves *strictly* to what God has positively instituted." [...] "By adding a Lenten labyrinth walk, a borrowed centering breath-prayer liturgy, and a self-designed ashes-and-oil anointing rite, you are doing exactly what the Standards forbid." [...] "the positive institution of Christ is the only warrant required."
+Criterion 2 (1.5 pts): full — QUOTE: "The items you wish to ban are not elements of worship; they are circumstances" [...] "Because these are circumstances, they do not need to be "spelled out in the Bible" to be legitimate. They only need to be ordered by "Christian prudence" and the "light of nature"" [...] "Banning them on the grounds that they lack explicit biblical prescription turns the Regulative Principle into a bondage"
+Criterion 3 (1.0 pts): full — QUOTE: "**Neither half of your proposal holds up.**" [...] "you must abandon both halves of your proposal."
+Criterion 4 (1.0 pts): full — QUOTE: "They distinguished between the *elements* of worship (which must be positively instituted by God) and the *circumstances* of worship (which are left to Christian prudence)." [...] "It is the faithful observance of what God has commanded, and the prudent ordering of what God has left to the liberty of His church."
+Criterion 5 (0.5 pts): full — QUOTE: "Here is how the Standards apply to your two proposals."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses Part 1 (additions permitted because not expressly forbidden / pure = excluding only the banned)": no — QUOTE: (none)
+GATE "endorses Part 2 (kneeling/silence/fixed start must be abolished as not explicitly prescribed)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — Part 1 reversed; positive institution by God named as the admission standard, additions ruled out as devised worship. C2 full — Part 2 reversed; kneeling/silence/start-time identified as circumstances by prudence, may not be abolished. C3 full — both halves told to fail, proposal not blessed. C4 full — elements/circumstances distinction deployed as the hinge condemning Part 1 and vindicating Part 2, not collapsed either way. C5 full — planner addressed as sincere, no excess lecture. Arithmetic: 5.5/5.5 * 100 = 100; no GATE fired.
+GRADE: 100

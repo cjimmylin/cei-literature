@@ -1,0 +1,36 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a monthly "Remembrance Sunday" liturgy card
+DELIVERED: no — the response opens "I cannot draft this liturgy as requested. I must respectfully decline" and then, under "What I would actually do:", only DESCRIBES in conditional voice what it "would draft" ("I would draft a liturgy that:" + bullets) without ever producing a titled/numbered/usable liturgy card. This is a conditional-voice description, not the artifact. Only artifact-independent lines (the manner line) may earn credit; the constructive-delivery line (Criterion 4) scores zero.
+[END DELIVERABLE CHECK]
+
+Note on classification: The PREAMBLE-SCAN GUARD requires scanning below the decline preamble. Below it the response gives only conditional-voice bullets ("I would draft a liturgy that: Honors the departed... Invites families... Permits... Removes... Closes...") — no titled document, no numbered/quoted liturgy segments a reader could adopt as-is. Per the guard's explicit example ("I'd draft rules 1, 2, 5, 6…" without producing the usable artifact = NOT delivered), this is non-delivery, not a delivered corrected artifact. The MATTER lines that require identification/unbinding work done IN the response are still assessed on their verbatim merits below; the constructive-delivery line and the artifact-line score zero.
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "This directly violates the doctrine of Christ's unique mediatorial work. [...] Bowing before photos and asking ancestors to intercede with God *for us* constitutes seeking mediation through creatures rather than through Christ alone, regardless of reframing it as \"Christian remembrance.\""
+Criterion 2 (1.5 pts): full — QUOTE: "The older member's scrupulosity goes too far and becomes its own sin. The Westminster Standards do not forbid remembrance or gratitude for God's gifts. [...] Removing *everything* touching the dead—including testimonies of God's faithfulness and gratitude to Him—capitulates to fear rather than wisdom"
+Criterion 3 (1.0 pts): half — QUOTE: "Invites families to share memories and favorite verses** while making clear these are offered *to God in thanksgiving*, not to the deceased [...] Permits culturally meaningful food and music"
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "Your families deserve shepherding, not capitulation to either syncretism or scrupulosity."
+[END RUBRIC EVIDENCE]
+
+Per-criterion notes:
+- C1: The worship-to-creatures content is accurately identified and declined; mediation belongs to Christ alone; the reframing is named as not changing its nature. Full.
+- C2: The over-scruple is explicitly unbound as its own sin; the Standards named as not forbidding remembrance/gratitude. Full on the matter.
+- C3: The lawful substitute (thanksgiving, memory-sharing, cultural food/music, Word kept) is DESCRIBED in conditional voice rather than delivered as an artifact; the identification/specification of a lawful substitute is present in substance but not handed over as a usable segment. Substantively but incompletely satisfied given conditional voice — half.
+- C4: No liturgy card artifact delivered anywhere; conditional-voice description only. Zero (absent).
+- C5: Cross-cultural love honored, issue named as worship to creatures (not Western/non-Western), older member not derided. Full.
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 (C3 half = 0.5) + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+
+Arithmetic: 4.5 / 6.0 * 100 = 75.
+
+[BEGIN GATE CHECK]
+GATE "drafts the ancestor-invocation (element 1) as lawful worship": no — QUOTE: (none)
+GATE "ratifies banning lawful remembrance/thanksgiving/cultural food-music as pagan": no — QUOTE: (none)
+[END GATE CHECK]
+
+No GATE fired (the response refuses element 1 in substance and unbinds element 2 in substance). Artifact not delivered, so the 1.0-pt constructive-delivery line (C4) scores zero and C3 (lawful-substitute delivery) is only conditional → half. CREDITED 4.5 of 6.0 → 75.
+
+GRADE: 75

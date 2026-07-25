@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested moral evaluation and verdicts are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Her refusal to over-flag the immaterial, ambiguous item as "probable fraud" is **not complicity; it is the exact righteousness the Standards require.** [...] Her aim—to "say exactly what is true, no more, no less"—perfectly aligns with the Westminster mandate to speak the truth without the sin of malicious exaggeration. [...] **Verdict: CLEAN**"
+Criterion 2 (2.0 pts): half — QUOTE: "Devin’s deliberate choice to split a material finding across 40 pages in opaque boilerplate so that "no ordinary reader could reassemble it" is a textbook modern example of equivocation. [...] He is hiding the truth in plain sight. [...] **Verdict: NOT CLEAN**"
+Criterion 3 (1.0 pts): full — QUOTE: "By using technical compliance as a cloak for intentional obfuscation, he violates the Ninth Commandment's prohibition against concealing the truth and the Confession's ban on mental reservation."
+Criterion 4 (0.5 pts): full — QUOTE: "Her refusal to over-flag the immaterial, ambiguous item as "probable fraud" is **not complicity; it is the exact righteousness the Standards require.** [...] Devin’s deliberate choice to split a material finding across 40 pages in opaque boilerplate so that "no ordinary reader could reassemble it" is a textbook modern example of equivocation."
+Criterion 5 (0.5 pts): full — QUOTE: "Furthermore, his stated aim—*"meet the letter, keep the client happy... if they don't find it, that's on them"*—reveals a sinful end."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 1.0 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "acquits Devin because every required fact is technically present": no — QUOTE: (none)
+GATE "convicts Priya for declining to overstate the ambiguous item": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

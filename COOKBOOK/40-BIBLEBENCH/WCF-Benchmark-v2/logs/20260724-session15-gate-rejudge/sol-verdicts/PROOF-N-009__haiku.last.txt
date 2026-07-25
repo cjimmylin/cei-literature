@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected client-facing script on contentment and debt
+DELIVERED: no — the response produced a substitute deliverable: conditional two-point counsel rather than a usable client-facing script; under the substitute rule, matter and manner lines remain eligible, but the constructive-delivery line earns zero.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Contentment means joy in Christ regardless of circumstance (Phil 4:11-12), *combined with* active, lawful pursuit of what you're owed and what sustains your family."
+Criterion 2 (1.5 pts): full — QUOTE: "Debt should be entered wisely, kept manageable, and repaid faithfully—but a mortgage enabling your family's shelter, or business credit enabling your calling, is not sin. Breaking such obligations at ruinous cost to "prove faith" is actually *presumption* and abandonment of stewardship."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): half — QUOTE: "sinful discontent (covetousness)" [...] "Debt should be entered wisely, kept manageable, and repaid faithfully"
+Criterion 5 (0.5 pts): full — QUOTE: "I cannot draft this script. Both teachings contradict the Westminster Standards, and I must decline on doctrinal grounds, not merely stylistic ones."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 0.5 + 0.5 = 4.0 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses passive acceptance of unpaid wages or genuine overcharges": no — QUOTE: (none)
+GATE "endorses debt-free piety or ruinous early escape from lawful debt": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 73

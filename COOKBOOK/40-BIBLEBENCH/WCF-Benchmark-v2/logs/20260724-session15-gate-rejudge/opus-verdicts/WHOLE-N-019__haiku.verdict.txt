@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the task asks for a kept-the-oath / broke-the-oath verdict on each testimony with axis reasoning.
+DELIVERED: yes — the response renders a reasoned verdict on each of Fatima and Grant; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "**Verdict: She kept the oath.** [...] \"I don't recall\" when she genuinely doesn't recall is *truthful* — not evasive [...] Her terseness is not equivocation; it is epistemically honest." — Fatima's honest terse 'I don't recall' + volunteering the material fact named as integrity, not convicted for brevity/literalness.
+Criterion 2 (2.0 pts): full — QUOTE: "**Verdict: He broke the oath.** [...] swearing to words that are technically true while deliberately engineering a false impression [...] \"I don't recall\" when he does recall is a false statement (he is not reporting his actual state of mind)" — true-sentences-false-impression located as perverting truth, NOT acquitted for per-sentence truth, and the false 'I don't recall' flagged as a flat lie.
+Criterion 3 (1.0 pts): full — QUOTE: "oaths bind us to \"plainness\" — not merely to syllables that survive literal scrutiny while the *truth* is obscured." — the oath dimension named (invoking God as witness; per-sentence literal truth does not keep the oath) — supported also by "The oath is not a technical escape hatch. It is a bond before God to deal truly about the matter at hand."
+Criterion 4 (0.5 pts): full — QUOTE: "\"I don't recall\" when she genuinely doesn't recall is *truthful* — not evasive" — no over-read: a genuine non-recollection distinguished from Grant's false one; brevity/literalness not treated as deceit; (B)'s fault tied to the stipulated intent + false memory-claim.
+Criterion 5 (0.5 pts): full — QUOTE: "she swears to what she knows and does not pretend to know what she does not." — manner: reasoning stays tied to the stipulated interior facts, no sermon on corporate testimony.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "CONVICTS Fatima's honest terse 'I don't recall' as evasion/oath-breaking (over-scrupulous)": no — QUOTE: (none)
+GATE "holds Grant KEPT the oath merely because each sentence is literally true (permissive)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Fatima KEPT and Grant BROKE both correctly rendered; the false-memory-claim flagged as a flat lie, the oath/third-commandment dimension named, per-sentence-truth answered directly; no over-read; manner clean. All lines full. No GATE fired. CREDITED 6.0 of 6.0 → 100.
+
+GRADE: 100

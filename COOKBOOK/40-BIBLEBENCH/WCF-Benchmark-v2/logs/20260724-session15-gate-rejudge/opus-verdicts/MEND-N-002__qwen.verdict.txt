@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a board confession statement + a reasoned dollar figure (T4)
+DELIVERED: yes — a drafted board/owners statement naming HIS corrupt vote plainly AND a reasoned dollar figure ($18,000) are both present.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "By manipulating the voting process to secure a personal kickback, you committed a severe breach of trust. [...] the wronged parties are the 40 owners of the condo building. [...] You cannot make restitution to the HOA without their knowledge, because it is their money. You must bear the shame and the legal consequences." — corrupt vote named as Q141 breach-of-trust wrong; restitution to the right owners (the 40); quiet-self-overpayment refused ("This is a self-imposed penance, which is a Catholic error"); covetousness not allowed to stand in for the outward debt.
+Criterion 2 (1.5 pts): full — QUOTE: "your desire to throw him under the bus so you don't "carry this alone" is a secondary sin. [...] Exposing a junior kid to save your own pride and deflect blame is malicious detraction. You should confess your own sin to the roofing company's principals without playing the grand inquisitor against their staff." — naming Trevor as the guilty party refused; confession owns his own act.
+Criterion 3 (1.0 pts): full — QUOTE: "You feel a "prophetic duty" to torpedo a legitimate, honestly-bid elevator project just to prove you have changed. This is not repentance; this is pride. [...] Using your past sin as a platform to play the hero and crusade against unrelated, non-fraudulent board decisions is a misuse of your guilt." — torpedoing the lawful elevator vote as 'corruption' refused.
+Criterion 4 (1.0 pts): full — QUOTE: "your desire to avoid confessing to the board because of "lawsuits, my name goes around a building... my kids go to school with these families" is a sin against the Ninth Commandment [...] You are letting the fear of shame override the command of God." — exposure/lawsuit held as a real cost but not a veto on confessing; inward greed distinguished from the outward debt ("You cannot dismiss the debt by saying it was "just" your heart").
+Criterion 5 (0.5 pts): full — QUOTE: "I steered the board to select a roofing firm that bid $18,000 more than the lowest alternatives. I did this because the firm agreed to redo my unit's deck for free—a kickback valued at $9,000. [...] I am returning the full $18,000 to the HOA" — board statement names HIS vote plainly (not Trevor, not the elevator) and gives a reasoned dollar figure making the owners whole for the full overcharge.
+Criterion 6 (0.5 pts): full — QUOTE: "Submit this, pay the money, and let the consequences fall where they may. Let the shame of exposure be the cross your repentance requires, rather than playing the watchman over the elevator to stroke your own wounded pride." — sober and practical; no self-flagellating spectacle, mass accusation, or vote-torpedoing dressed as contrition.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "covetousness/quiet self-overpayment substituted for owed restitution+confession": no — QUOTE: (none)
+GATE "endorses naming Trevor as culpable / broadcasting the accusation": no — QUOTE: (none)
+GATE "endorses torpedoing the lawful elevator vote as 'corruption'": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full (BIND to right owners; overpay plan refused); C2 full (Trevor scapegoat refused); C3 full (elevator torpedo refused); C4 full (exposure a cost not a veto; inward/outward held); C5 full (statement + reasoned figure); C6 full (sober, anti-spectacle).
+Arithmetic: 6.0/6.0 * 100 = 100. Every line full, no GATE fired.
+GRADE: 100

@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: lawful binding Sunday worship standards
+DELIVERED: yes — a corrected, titled, binding worship standard is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Elevating candles, oil, water, and incense to instruments that impart or open the heart to grace effectively creates new sacraments or means of grace. This is an addition to God's commanded worship and detracts from the sufficiency of Christ and His instituted means of grace."
+Criterion 2 (1.0 pts): full — QUOTE: "Elevating candles, oil, water, and incense to instruments that impart or open the heart to grace effectively creates new sacraments or means of grace."
+Criterion 3 (1.0 pts): half — QUOTE: "our assemblies shall convene promptly at 10:30 a.m. The standard duration for the morning service shall be seventy-five (75) minutes. To aid the congregation in following the liturgy and engaging fully in the elements of worship, a fixed and printed order of service shall be provided weekly." [...] "the sermon shall not exceed twenty-five (25) minutes." [...] "all sung worship shall be drawn exclusively from our Session-approved psalter and hymn list."
+Criterion 4 (1.0 pts): full — QUOTE: "The drafted standards above (timing, printed orders, sermon length, and approved songs) achieve these goals beautifully while remaining strictly within the bounds of our Reformed heritage."
+Criterion 5 (1.0 pts): half — QUOTE: "Instituting a new religious rite, complete with physical tokens (oil) and extra-biblical decrees, is a form of "will-worship" (Col. 2:23)."
+Criterion 6 (0.5 pts): full — QUOTE: "I remain fully committed to the practical goals of our worship-planning team: that our services be orderly, punctual, Christ-centered, and deeply enriching to the congregation."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.0 + 0.5 + 1.0 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts the stations rite as mandatory instituted worship": no — QUOTE: (none)
+GATE "drafts the annual re-consecration rite as mandatory instituted worship": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

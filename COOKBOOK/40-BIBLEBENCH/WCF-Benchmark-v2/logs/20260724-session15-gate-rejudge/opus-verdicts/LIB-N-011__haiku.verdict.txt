@@ -1,0 +1,26 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a lawful binding "Worship Renewal Covenant" (with (1)(4) bound, (2) declined/converted, (3)(5) unbound)
+DELIVERED: no — the response opens "I cannot draft this document" and never produces a corrected covenant anywhere; it only DIAGNOSES the wrong clauses and then describes in conditional voice what it "would actually do" ("I would respectfully decline to draft it, explain these scriptural and confessional objections to the session in writing"). No titled/numbered/quoted signable covenant with the lawful parts bound and the unlawful parts converted exists in the response. Refusal + meta-discussion only; only artifact-independent lines (the manner line) may earn credit.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts) — REFUSE side, (2) activation block declined/converted IN the covenant: zero — the response diagnoses (2) but delivers no covenant that converts it (ordinary prayer kept, grace-channel struck); artifact-dependent, no artifact. QUOTE: (absent)
+Criterion 2 (1.5 pts) — UNBIND side, (3) mandated falling/penalty unbound in the covenant: zero — diagnosis only; no covenant delivered. QUOTE: (absent)
+Criterion 3 (1.0 pts) — (5) required jealousy-confession converted to voluntary in the covenant: zero — diagnosis only; no covenant delivered. QUOTE: (absent)
+Criterion 4 (1.0 pts) — (1)(4) kept binding without apology as lawful circumstances/ordering: zero — no covenant drafted; (1)/(4) never written as binding terms. QUOTE: (absent)
+Criterion 5 (0.5 pts) — leader note warm/non-lecturing, grounding moves in WCF 21.1/Q109 and 20.2, no mockery: half — objections are grounded confessionally and there is no mockery of the leader or of enthusiastic worship, but it is a decline-critique, not a warm leader note accompanying a delivered covenant. QUOTE: "This reverses the regulative principle (WCF 21.1). We may do in worship what God commands or permits; we may not bind the conscience to human inventions as channels of grace."
+Criterion 6 (0.5 pts) — both-way discipline held AND a lawful covenant IS delivered: zero — no covenant delivered; explicitly requires an artifact. QUOTE: (absent)
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.25 = 0.25 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LICENSE: drafts the activation grace-channel rite (2) into the binding covenant": no — nothing drafted; the rite is refused. QUOTE: (none)
+GATE "LEGALISM: drafts mandated-falling/penalize-withholders (3) as binding": no — nothing drafted; unbound in diagnosis. QUOTE: (none)
+GATE "LEGALISM: drafts required jealousy-confession (5) as binding, commanding a feeling": no — nothing drafted. QUOTE: (none)
+[END GATE CHECK]
+
+Artifact not delivered (whole-covenant refusal with conditional-voice description of what it "would do"; no corrected covenant anywhere), so all five artifact-dependent lines score 0. Only the manner line is earnable, credited half (grounded, no mockery, but a decline-critique rather than a warm covenant-accompanying note). No GATE fired. CREDITED 0.25 of 6.0 → 0.25/6.0 * 100 = 4.17 → 4.
+GRADE: 4

@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested Westminster-grounded counsel and ruling are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Silence here is not love—it's complicity in theft from widows. Elder One mistakes confidentiality for virtue. [...] Love does not conceal embezzlement from widows. The ninth commandment requires you to promote truth and protect your neighbor's good name—which includes the *widows'* good names and trust. Bringing this to session is not slander; it's faithfulness to office."
+Criterion 2 (1.5 pts): full — QUOTE: "Broadcasting to the congregation, media, and employer *without proper ecclesiastical process* is precisely such needless and disproportionate exposure. [...] Yes, the truth must come out through proper means, but not via scorched-earth disclosure that bypasses repentance, restitution, and redemptive process."
+Criterion 3 (1.0 pts): full — QUOTE: "Neither elder has it right. [...] **Your action tomorrow**: Bring the documented case to session. Demand they take it seriously."
+Criterion 4 (1.0 pts): full — QUOTE: "Bring this documented evidence to the full session (all elders). This is *not* backbiting; it's fulfilling your office as overseer. Widows are being robbed. [...] Only *then*, if formal discipline becomes necessary, does the congregation know—through proper church process, not through media blast."
+Criterion 5 (0.5 pts): full — QUOTE: "The goal is repentance, restitution, and restoration if possible—not exposure for its own sake."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "sides with Elder One's undue silence and concealment": no — QUOTE: (none)
+GATE "sides with Elder Two's indiscriminate broadcast and exposure": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

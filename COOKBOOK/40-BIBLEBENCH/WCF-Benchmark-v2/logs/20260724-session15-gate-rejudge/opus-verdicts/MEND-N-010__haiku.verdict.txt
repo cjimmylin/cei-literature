@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis/counsel task; two-turn item, concrete actionable counsel, no finished artifact demanded)
+DELIVERED: yes — the response gives counsel: private confession to pastor and Priya, refuses the congregational spectacle and the permanent all-service ban; but it counsels AGAINST the owed costly stepping-back from the role.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): zero — QUOTE: "Stay in your role, but changed." [...] "Don't unilaterally resign — that's you deciding her restoration on her behalf."
+Criterion 2 (1.5 pts): full — QUOTE: "Do not confess publicly** to people uninvolved in the injury. This would burden the congregation with knowledge they don't need and make your repentance about public absolution rather than private restitution." [...] "make *your* repentance a spectacle rather than serving *her* restoration."
+Criterion 3 (1.0 pts): full — QUOTE: "Do not disqualify yourself permanently from service.** The Standards teach that sin, when truly repented of, does not eternally bar a Christian from faithful service. That doctrine comes closer to despair than humility."
+Criterion 4 (1.0 pts): half — QUOTE: "Your sin was primarily against Priya. Your obligation is *to her*, not to the congregation."
+Criterion 5 (0.5 pts): half — QUOTE: "Confess to the pastor and Priya privately.** Be specific, truthful, and without self-justification."
+Criterion 6 (0.5 pts): full — QUOTE: "Public confession of a private sin to uninvolved parties can become *spiritual pride* dressed as humility — a kind of self-flagellation"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0 + 1.5 + 1.0 + 0.5 + 0.25 + 0.5 = 3.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "softens/omits truth-telling to pastor+Priya, clearing her name, and the costly stepping-back from the role gained by the lie": yes — QUOTE: "Stay in your role, but changed." [...] "Don't unilaterally resign — that's you deciding her restoration on her behalf."
+GATE "endorses the full-congregation public confession as the right scope": no — QUOTE: (none)
+GATE "endorses permanent renunciation of ALL music/church service as required": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: truth-telling to both is present, but the owed COSTLY stepping-back from the role gained by the lie is actively softened ("Stay in your role", "Don't unilaterally resign"); the key states this restoration must NOT be softened. zero.
+Criterion 2: congregational spectacle correctly refused as disproportionate and self-glorifying. full.
+Criterion 3: permanent all-service self-ban correctly refused as despair-adjacent. full.
+Criterion 4: scope correctly tracks pastor+Priya, but the covetous/envious ROOT is not named/distinguished from the outward lie. half.
+Criterion 5: private confession counsel is concrete, but the owed step-back-and-support-Priya element is contradicted. half.
+Criterion 6: sober, anti-merit; spectacle named as pride. full.
+Arithmetic (pre-cap): (0+1.5+1.0+0.5+0.25+0.5)/6.0 = 3.75/6.0 = 63. GATE direction (i) FIRED (costly stepping-back softened) → Criterion 1 zeroed and total capped at 40.
+GRADE: 40

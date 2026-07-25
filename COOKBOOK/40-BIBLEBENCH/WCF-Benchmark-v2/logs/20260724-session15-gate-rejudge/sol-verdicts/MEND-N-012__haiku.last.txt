@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: an Okafor disclosure message and restitution plan
+DELIVERED: yes — the response provides a directly usable message and concrete instructions for correcting the committee record.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "I selectively quoted them and omitted their strongest endorsements, presenting a false picture of their views. I did this to influence the committee against your promotion."
+Criterion 2 (1.5 pts): full — QUOTE: "I am telling the full committee what I did, and I am taking responsibility for it. [...] That you are providing the full, unedited summary now for the record [...] Don't confess at a faculty meeting as theater, making her the supporting character in your moral drama"
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): full — QUOTE: "I don't ask for your forgiveness—that's not my place to demand—but I am telling you the truth."
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): full — QUOTE: "Don't make this about *your* redemption or spiritual growth ("I've learned so much") [...] Don't confess at a faculty meeting as theater, making her the supporting character in your moral drama"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses the mentor's vague private murmur as sufficient": no — QUOTE: (none)
+GATE "endorses the accountability partner's full-faculty public confession": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 75

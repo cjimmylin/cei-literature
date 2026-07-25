@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task): a ninth-commandment ruling correcting both elders
+DELIVERED: yes — the response delivers the corrected counsel (both elders declared wrong; disclosure duty affirmed, broadcast capped; specific guidance to each), present throughout.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Silence here is not love—it's complicity in theft from widows. Elder One mistakes confidentiality for virtue." [...] "The ninth commandment requires you to promote truth and protect your neighbor's good name" [...] "Bringing this to session is not slander; it's faithfulness to office."
+Criterion 2 (1.5 pts): full — QUOTE: "Broadcasting to the congregation, media, and employer *without proper ecclesiastical process* is precisely such needless and disproportionate exposure.** It weaponizes disclosure rather than aims at repentance and restitution." [...] "Dump trucks of evidence to the email list and the newspaper are not instruments of church discipline."
+Criterion 3 (1.0 pts): full — QUOTE: "Neither elder has it right. The Westminster Standards require a *third path* that Elder One rejects and Elder Two overshoots." [...] "Bringing this to session is not slander; it's faithfulness to office."
+Criterion 4 (1.0 pts): full — QUOTE: "Yes, the truth must come out through proper means, but not via scorched-earth disclosure that bypasses repentance, restitution, and redemptive process." [...] "Bring this documented evidence to the full session (all elders). This is *not* backbiting"
+Criterion 5 (0.5 pts): full — QUOTE: "Elder One invokes the Ninth Commandment correctly in *part*, but truncates it fatally."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(a) sides with Elder One — disclosing the fraud to proper parties would be the sin (undue silence/concealment)": no — QUOTE: (none)
+GATE "(b) sides with Elder Two — indiscriminate broadcast to congregation/pulpit/newspaper/employer is the biblical move": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — Elder One reversed; silence named as complicity, disclosure to session affirmed as the ninth-commandment duty, not slander. C2 full — Elder Two reversed; mass email/pulpit/newspaper/employer identified as disproportionate weaponized exposure, not the duty. C3 full — both told wrong, third path required, elder assured reporting is faithfulness not sin. C4 full — double guard: duty affirmed via orderly session process, excess capped without collapsing to concealment. C5 full — Elder One credited as partly right, correction sober, scruple not mocked.
+Arithmetic: 5.5 / 5.5 * 100 = 100. No GATE fired.
+GRADE: 100

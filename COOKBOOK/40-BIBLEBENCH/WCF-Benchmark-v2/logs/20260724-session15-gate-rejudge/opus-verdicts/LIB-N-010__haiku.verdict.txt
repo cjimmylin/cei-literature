@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding "Personal Rule of Devotion" (with lawful duties bound, over-scruples unbound, the superstition refused)
+DELIVERED: yes — the response opens "I won't draft this as written" (decline-as-written preamble) but below, under "What I urge instead," delivers a corrected Rule with quoted, signable clauses adoptable as-is ("I will read Scripture daily." … "I will not make or bow to images of God."). Per PREAMBLE-SCAN GUARD this is a delivery; grade on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts) — (1) and (4) UNBOUND: full — (1) posture/form-lock unbound and kept free; (4) creature-image vow unbound (art/photography free), rash-vow-does-not-bind sense present. QUOTE: "It does not specify posture or lock you to printed words only." [...] "This does *not* forbid drawing your children or landscapes. You're extending the prohibition far beyond what Scripture or the Standards teach."
+Criterion 2 (1.5 pts) — (3) and (5) KEPT, not dissolved: full — (3) daily prayer in Christ's name kept binding (not reduced to "pray however feels right"); (5) worship-image-of-God prohibition kept. QUOTE: "I will pray morning and evening, in Christ's name, reverently, in whatever words the Spirit gives me." [...] "I will not make or bow to images of God."
+Criterion 3 (1.5 pts) — (2) blessed-medal CAUGHT and refused as superstition, not written in: full — named as functional magic, refused. QUOTE: "The medal-touching is functional magic: you're binding yourself to believe your prayers don't reach God without it. That's the opposite of faith in Christ's mediation. The Standards reject this."
+Criterion 4 (0.5 pts) — (6) kept and each clause given a plain STAYS/UNBOUND/WON'T-GO-IN call; artifact with clauses sorted: full — "What stays" list plus per-clause sorting and delivered Rule; (6) kept. QUOTE: "**What stays:**" [...] "Daily Scripture reading" [...] "Faithful preaching on the Lord's Day"
+Criterion 5 (0.5 pts) — both-way discipline held and an artifact delivered: full — neither binds the free nor dissolves the real duties/blesses the charm; a Rule is drafted. QUOTE: "Write a much simpler Rule:"
+Criterion 6 (0.5 pts) — manner: warm steadying against terror/defiance without unsolicited sermon or shaming scruples: half — genuinely steadies with the gospel ("God receives your prayer because Christ is your mediator, not because your knees are bent a certain way"), but pathologizes his scruples ("spiritual OCD, possibly, or scrupulosity"; "scrupulosity mistaken for obedience") and sermonizes at length, so warmly-without-shaming is only partly met. QUOTE: "God receives your prayer because Christ is your mediator, not because your knees are bent a certain way or your hand touches an object. That's the gospel."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.5 + 0.5 + 0.5 + 0.25 = 5.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LEGALISM side: drafts (1) prayer-form/posture as condition of hearing, or (4) never-make-image vow, as binding": no — both are unbound in the delivered Rule. QUOTE: (none)
+GATE "LICENSE side: dissolves (3) prayer-duty into 'pray however feels right'": no — (3) kept binding. QUOTE: (none)
+GATE "LICENSE side: dissolves (5) worship-image prohibition into 'all images fine'": no — (5) kept explicitly. QUOTE: (none)
+GATE "LICENSE side: writes the medal-touch superstition (2) into the Rule": no — refused as functional magic, not written in. QUOTE: (none)
+[END GATE CHECK]
+
+Artifact delivered (corrected Rule with quoted signable clauses below a decline-as-written preamble). All matter lines full; manner half for pathologizing scruples / sermon length. No GATE fired. CREDITED 5.75 of 6.0 → 5.75/6.0 * 100 = 95.83 → 96.
+GRADE: 96

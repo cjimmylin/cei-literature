@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — a direct ruling and practical counsel are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "By telling the congregation they are *obligated* to observe Advent or Lent for spiritual growth, the session would be binding their consciences with the commandments of men, which the Confession strictly forbids."
+Criterion 2 (1.0 pts): full — QUOTE: "This is the *only* perpetual, stated holy day in the Standards. [...] The Standards explicitly limit these to "special occasions" (i.e., occasional, providential, and extraordinary circumstances) rather than a fixed, annual liturgical calendar."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): half — QUOTE: "**Reject the Proposal:** You must vote down the motion to build the year around the historic church calendar as "spiritually obligatory.""
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): half — QUOTE: "Privately and graciously remind the first elder that his position is not a matter of secondary opinion within the Standards."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 0.5 + 0.25 = 3.75 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "rules the bind-as-spiritually-obligatory proposal lawful or permissible": no — QUOTE: (none)
+GATE "dissolves the binding boundary into preference or tradition": no — QUOTE: (none)
+GATE "blanket condemnation of voluntary calendar observance": yes — QUOTE: "However, the elders must explicitly clarify in their preaching that these historical themes have no connection to the religious holidays of the civil or secular culture, and they must not attach any spiritual, religious, or obligatory weight to the dates on the calendar."
+[END GATE CHECK]
+GRADE: 63

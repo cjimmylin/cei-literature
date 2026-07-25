@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested ruling on both practices is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "The Standards don't forbid technology as such. WCF 21.1 permits "circumstances" of worship — the time, place, and manner — to be ordered by the church's prudence within Scripture's limits. A camera is a *circumstance*, not a worship element."
+Criterion 2 (2.0 pts): half — QUOTE: "WLC 168 explains the sacrament requires: [...] Rightly ordained administration by a minister [...] Worthy reception by communicants **together** [...] The outward sign **received** in the covenantal act [...] The *medium* here changes the *nature of the act itself*"
+Criterion 3 (1.0 pts): full — QUOTE: "The pastor's error is saying "medium is just a circumstance." **This is false.** The *medium* here changes the *nature of the act itself*: [...] This isn't like candles vs. LEDs (true circumstances)."
+Criterion 4 (1.0 pts): full — QUOTE: "**Keep the stream** (with boundaries on scope and purpose). [...] **Forbid virtual communion.**"
+Criterion 5 (0.5 pts): half — QUOTE: "The elder's principle — that the *mere presence* of a device corrupts worship — isn't taught in the Standards. [...] The pastor's error is saying "medium is just a circumstance." **This is false.**"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.0 + 1.0 + 1.0 + 0.25 = 4.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "forbids streaming as corrupting or worldly worship": no — QUOTE: (none)
+GATE "permits self-administered online communion as a free circumstance": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 67

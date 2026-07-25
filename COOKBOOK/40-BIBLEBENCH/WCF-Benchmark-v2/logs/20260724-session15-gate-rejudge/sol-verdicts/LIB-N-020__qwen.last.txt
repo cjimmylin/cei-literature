@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested counsel and corrected rulings are present in the response
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "No. Your desire for this job is not the sin of covetousness, though you must examine your heart to ensure it does not become so. [...] you must not confuse "contentment" with passive endurance of abuse. [...] Take the interview. Pursue the new job with a clear conscience"
+Criterion 2 (2.0 pts): full — QUOTE: "No. It is not fair; it is theft. You must leave the files behind. [...] Regardless of how much sweat equity you put into the client list, the list itself, along with the pricing playbook, is the intellectual and legal property of the employer. [...] Your manager’s prior sins do not transfer the ownership of the company’s property to you."
+Criterion 3 (1.0 pts): half — QUOTE: "Pursue the new job with a clear conscience [...] Leave the client list and the playbook on your desk. Do not take a single file, email, or document that belongs to the company."
+Criterion 4 (0.5 pts): full — QUOTE: "Discontentment is a rebellious murmuring against God’s providence. Furthermore, you must ensure you are not violating the First Commandment by making money an idol. If your desire for the 40% raise is driven by an *"inordinate affection"* for wealth (WLC 148) or a desire to fund sinful luxuries, that is a sin."
+Criterion 5 (0.5 pts): full — QUOTE: "Your conscience is troubled because you are misapplying the Tenth Commandment to your desire for a better job, and you are justifying a violation of the Eighth Commandment under the guise of fairness. [...] Walk away with clean hands. If your manager has wronged you, leave his judgment to God, or pursue it through lawful channels, but do not let his sin draw you into the sin of theft."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 0.5 + 0.5 + 0.5 = 5.0 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "rules the lawful desire covetous and requires staying put": no — QUOTE: (none)
+GATE "endorses taking the client list or pricing playbook": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 91

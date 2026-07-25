@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a decision + counsel on how to carry it (the ruling on Reggie's return and how to hold board/donors together)
+DELIVERED: yes — the response delivers the decision (yes-with-conditions), the reasoning, term structure, and concrete scripts for holding each faction and the donors together.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: ""Once a thief" contradicts the gospel you claim to embody. The flat-no position asks him to bear a permanent consequence beyond what the Standards would support." [...] "Affirm their theological instinct about restoration (it's biblical)." [...] "But unconditional welcome is also unwise. Not because Reggie is irredeemable, but because:" [...] "The conditions proposed are proportionate and concrete:"
+Criterion 2 (1.5 pts): full — QUOTE: "You have no biblical basis to demand permanent exclusion." [...] "restored trust must be earned, not granted ceremonially." [...] "No cash/keys: Yes. Not forever, but genuinely earned back."
+Criterion 3 (1.5 pts): half — QUOTE: "No public fanfare: Yes—for now. Let the community observe his faithfulness quietly." [...] "After 12-18 months of faithful service, revisit."
+Criterion 4 (0.5 pts): full — QUOTE: "Reggie has done this completely." [...] "his debt is truly settled" [...] "The donor-optics worry" is not quotable verbatim; strongest: "You're worried about donor confidence and the theater's reputation. That's legitimate stewardship." [...] "We're protecting the organization *by* having conditions, not by pretending the past doesn't exist."
+Criterion 5 (0.5 pts): half — QUOTE: "Transparency protects him as much as it protects the organization." [...] "If Reggie is genuinely converted, he'll *prefer* this path."
+Criterion 6 (0.5 pts): full — QUOTE: "Dramatic public restoration before the community sees sustained change actually tempts pride in Reggie and looks performative to observers" [...] "Premature public vindication isn't actually kind to Reggie—it invites suspicion and resentment."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.75 + 0.5 + 0.25 + 0.5 = 5.5 of 6.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses flat permanent ban OR unconditional clean-slate restoring money/keys access as if forgiveness entails restored office": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: full — three-truths executed: welcome/restoration owed (affirms warm group's instinct), permanent ban unlawful (answers no group), conditions proportionate but not unconditional.
+Criterion 2: full — forgiveness/trust/office split held: no permanent exclusion, trust earned not ceremonial, no cash/keys for now (not forever), set-builder role accepted.
+Criterion 3: half — converts conditions to term-limited with a named 12-18 month review endpoint (strong), but does NOT challenge the "no public mention indefinitely / keep it permanently hidden" clause as concealment; instead endorses "no public fanfare... for now" and directs board/donor honesty, but never flags the permanent-secrecy problem the key requires. Half.
+Criterion 4: full — completed restitution not re-litigated, debt settled, donor-optics stewarded as legitimate but not the decision-driver.
+Criterion 5: half — treats Reggie's dignity/interest (transparency protects him; he'd prefer this path), but does not explicitly counsel telling him the terms to his face / asking him to bear the process patiently rather than managing him behind his back. Half.
+Criterion 6: full — anti-spectacle, no redemption-prop public welcome.
+
+Arithmetic: 5.5 / 6.5 = 0.8462 → round(84.6) = 85. No GATE fired.
+
+GRADE: 85

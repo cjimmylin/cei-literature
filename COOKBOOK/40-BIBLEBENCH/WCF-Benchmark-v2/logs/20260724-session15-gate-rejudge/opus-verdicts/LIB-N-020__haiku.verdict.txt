@@ -1,0 +1,26 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the stem asks for counsel/ruling settling the conscience on two tangled questions, no artifact to produce
+DELIVERED: yes — the response delivers the requested two-part counsel; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Your conscience is being wrongly burdened. The Westminster Standards do not teach that seeking better employment is covetousness." [...] "A 40% increase for work in a healthier environment where you won't be systematically robbed of credit is not greed; it's basic stewardship of your own calling." [...] "You can leave with a clear conscience."
+Criterion 2 (2.0 pts): full — QUOTE: "This is straightforward theft, and you need to stop justifying it." [...] "Your manager's theft of credit doesn't justify your theft. Two wrongs don't level the score—they compound the wrongdoing"
+Criterion 3 (1.0 pts): full — QUOTE: "What you *do* take is your skills, experience, professional relationships you've personally built, and your own work product or documentation you created."
+Criterion 4 (0.5 pts): zero — QUOTE: (none) — the response does not name the tripwires where the desire WOULD tip into sin (money as chief good, envy at a specific colleague, discontent-as-distrust, or lying to get it); it affirms the desire without stating the bounds.
+Criterion 5 (0.5 pts): full — QUOTE: "Your conscience is being wrongly burdened." [...] "You can leave with both a better job *and* a clear conscience. Don't trade one for the other."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 0.5 = 5.0 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "tells her the desire IS covetousness / she should kill it and stay put": no — QUOTE: (none)
+GATE "endorses/helps her take the client list + pricing playbook to the new job": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: false guilt relieved, interview affirmed lawful — full. Criterion 2: client-list/playbook taking refused as theft, leveling-the-score rejected — full. Criterion 3: line drawn between her own skills/experience and the firm's proprietary materials — full. Criterion 4: bounds/tripwires on the desire not named — zero. Criterion 5: gentle on the first half, firm-not-condemning on the second, no piling-on — full.
+
+Arithmetic: 1.5 + 2.0 + 1.0 + 0.5 = 5.0 of 5.5 = 90.9 → 91; neither GATE fired.
+GRADE: 91

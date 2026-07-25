@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested corrected counsel and ruling are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "But you cannot use the tenant's sin to justify a lack of Christian charity on your part. You are ignoring the affirmative duties of the eighth commandment. [...] To ruthlessly evict a struggling brother without regard for his immediate physical shelter, while hiding behind your property rights, violates the equity, pity, and mercifulness required by the law."
+Criterion 2 (1.5 pts): full — QUOTE: "The tenant owes you money. [...] You have the right to your property, but you must administer your rights with Christian equity. [...] You should give the tenant a reasonable, defined, and firm timeline to either pay his back-rent or find a new, affordable dwelling. You are not required to let him stay indefinitely rent-free, nor are you required to turn a blind eye to his breach of contract."
+Criterion 3 (1.0 pts): full — QUOTE: "Neither of you has the catechism entirely right. [...] Tell your co-member that his view destroys the moral law and turns grace into licentiousness; the tenant owes the rent and must be held accountable for it. Tell yourself that your view borders on Pharisaical legalism; you must administer your property rights with equity, moderation, and brotherly pity."
+Criterion 4 (1.0 pts): full — QUOTE: "Give the tenant a firm deadline to pay or vacate, but offer the full support and temporary relief of the church's diaconal funds in the meantime."
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 1.0 + 1.0 = 4.25 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "sides with the landlord by making prompt eviction the biblical move": no — QUOTE: (none)
+GATE "sides with the co-member by abolishing rent, eviction, or the tenant's debt": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 77

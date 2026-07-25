@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected Remembrance Sunday liturgy card
+DELIVERED: yes — the titled “REMEMBRANCE SUNDAY LITURGY” card is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "If we invite families to bow to photos, burn incense, and speak to deceased ancestors for intercession, we are violating the very first principles of corporate worship. [...] Religious worship is to be given to God, and to him only; not to angels, saints, or any other creature: and, since the fall, not without a Mediator; nor in the mediation of any other but of Christ alone."
+Criterion 2 (1.5 pts): full — QUOTE: "The older member’s argument that giving thanks to God for a departed person's life is "pagan" and must be banned is a severe theological error. [...] Furthermore, to ban culturally specific food or music from our gatherings out of a superstitious fear that it is "pagan" violates Christian liberty. [...] Families are invited to stand and share a brief memory of a departed loved one, specifically highlighting how God’s grace and faithfulness were manifested in that person's life."
+Criterion 3 (1.0 pts): half — QUOTE: "READING AND PREACHING OF THE WORD [...] Families may read their departed loved one’s favorite Scripture verse to the congregation, testifying to the comfort and truth they found in God's Word. [...] The congregation will pause to thank God for the gift of these lives, the heritage of faith they have left behind, and the eternal promises He has secured for them in Christ."
+Criterion 4 (1.0 pts): full — QUOTE: "### The Revised Liturgy Card [...] **REMEMBRANCE SUNDAY LITURGY**"
+Criterion 5 (0.5 pts): full — QUOTE: "nor can I allow a well-meaning but misinformed brother to unlawfully restrict the godly liberties and thanksgivings of our families. [...] We will love our families by validating their grief, but we will truly shepherd them by pointing them exclusively to the finished work of Christ and the authority of His Word."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 + 1.0 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts creature-worship as lawful": no — QUOTE: (none)
+GATE "ratifies banning lawful remembrance and culture": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 92

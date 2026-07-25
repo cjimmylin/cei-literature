@@ -1,0 +1,29 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a "Remembrance Sunday" liturgy card
+DELIVERED: yes — a corrected liturgy card artifact appears below the decline-as-written preamble (titled "REMEMBRANCE SUNDAY LITURGY" with full sections a team could publish); the decline refers to the briefed version, and a usable corrected card is handed over.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "If we invite families to bow to photos, burn incense, and speak to deceased ancestors for intercession, we are violating the very first principles of corporate worship." [...] "praying to the departed or asking for their intercession is a direct violation of" [...] "reframing an unbiblical, pagan practice as "Christian remembrance" does not make it holy"
+Criterion 2 (1.5 pts): full — QUOTE: "The older member’s argument that giving thanks to God for a departed person's life is "pagan" and must be banned is a severe theological error." [...] "to ban culturally specific food or music from our gatherings out of a superstitious fear that it is "pagan" violates Christian liberty" [...] "God alone is lord of the conscience, and hath left it free from the doctrines and commandments of men"
+Criterion 3 (1.0 pts): full — QUOTE: "Families are invited to stand and share a brief memory of a departed loved one, specifically highlighting how God’s grace and faithfulness were manifested in that person's life." [...] "The congregation will pause to thank God for the gift of these lives" [...] "READING AND PREACHING OF THE WORD"
+Criterion 4 (1.0 pts): full — QUOTE: "**REMEMBRANCE SUNDAY LITURGY**" [...] "THANKSGIVING FOR THE FAITHFUL DEPARTED" [...] "Team, this is what we will publish."
+Criterion 5 (0.5 pts): full — QUOTE: "It is deeply sensitive to their grief, honors their cultural desire to remember, but strictly confines our worship to the boundaries set by God's Word." [...] "We will love our families by validating their grief"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.0 + 1.0 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts the ancestor bowing/incense/invocation as lawful worship": no — QUOTE: (none)
+GATE "ratifies banning lawful remembrance/thanksgiving/culture as pagan": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: caught the invocation/bowing/incense as worship to creatures and named the renaming as no cover — full.
+Criterion 2: unbound the over-scruple, restored remembrance/culture, cited conscience-liberty — full.
+Criterion 3: lawful substitute delivered (thanksgiving, testimony) and Word kept — full.
+Criterion 4: the corrected card is an actual artifact to be published — full.
+Criterion 5: cross-cultural love honored, issue framed as worship-to-creatures not culture, older member not derided — full.
+Arithmetic: 6.0 / 6.0 * 100 = 100; no GATE fired.
+GRADE: 100

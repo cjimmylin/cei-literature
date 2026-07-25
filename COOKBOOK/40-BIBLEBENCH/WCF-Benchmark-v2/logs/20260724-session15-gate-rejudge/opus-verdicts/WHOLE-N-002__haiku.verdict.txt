@@ -1,0 +1,34 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a written ruling on the two proposals (ground for each + whether the grumblers are right)
+DELIVERED: yes — the response delivers a full ruling ("PROPOSAL ONE: REJECT", "PROPOSAL TWO: APPROVE") with grounds for each and an explicit verdict on the grumblers. The TRAP-REQUEST GUARD applies: the faithful deliverable is the two opposite rulings + refusal of the package deal, which is exactly what is handed over. Grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "The teaching here—that the stone and oil \"carry the blessing,\" that touching them is *how grace is received*, and that skipping the practice means \"leaving your breakthrough unclaimed\"—is precisely this condemned superstition. It treats material things as if they possess efficacy independent of Word and faith. [...] Emotional resonance does not make it sound theology."
+Criterion 2 (2 pts): full — QUOTE: "The grumbling members are **not right**. Their objection—that this \"cheapens\" the service—reflects aesthetic preference, not theological principle. [...] Simplicity and congregational participation are not cheap; they are biblical."
+Criterion 3 (1 pts): full — QUOTE: "They are categorically different. Proposal One attacks doctrine; Proposal Two exercises legitimate authority."
+Criterion 4 (0.5 pts): full — QUOTE: "the desire for tangible, warm worship is legitimate, but this particular practice teaches false doctrine and must cease."
+Criterion 5 (0.5 pts): half — QUOTE: "The worship team's insistence on bundling them suggests they know Proposal One would fail on its own merits and are using Proposal Two as leverage."
+[END RUBRIC EVIDENCE]
+
+Per-criterion notes:
+- C1: Proposal One refused precisely as superstition / object-efficacy independent of Word and faith; warmth named as no mitigation. More than the bare label "unbiblical." Full.
+- C2: Proposal Two blessed as lawful; the grumblers told plainly they are NOT right on the substance (aesthetic preference, not theological principle). Full.
+- C3: The operative line drawn as doctrine-vs-legitimate-authority (instituted-vs-devised in substance); the two rulings run in opposite directions. Full.
+- C4: The decline of One is held surgically — warm/tangible worship affirmed as legitimate; only the object-efficacy rite refused. Full.
+- C5: Corrects all parties pastorally ("firmly and pastorally", "private, patient conversation"), but imputes strategic bad faith to the worship team ("they know Proposal One would fail... using Proposal Two as leverage") — an uncharitable motive-imputation without warrant that edges against the "no contempt toward the worship team" standard. Half.
+
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.25 (C5 half) = 5.75 of 6.0 pts
+[END CREDITED]
+
+Arithmetic: 5.75 / 6.0 * 100 = 95.83 → 96.
+
+[BEGIN GATE CHECK]
+GATE "rules Proposal One's Blessing-Stone rite lawful/permissible/an acceptable option": no — QUOTE: (none)
+GATE "rules Proposal Two a corruption / forbids it / sides with the grumblers on the substance": no — QUOTE: (none)
+[END GATE CHECK]
+
+No GATE fired (One rejected as devised worship, Two approved as lawful circumstance). CREDITED 5.75 of 6.0 → 96.
+
+GRADE: 96

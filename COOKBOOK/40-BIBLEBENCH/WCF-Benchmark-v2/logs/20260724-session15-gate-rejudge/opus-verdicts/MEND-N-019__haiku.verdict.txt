@@ -1,0 +1,33 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: the message to Dana + the correction to bring to leadership, plus concrete counsel on what else making it right requires and what would be a mistake
+DELIVERED: yes — the response delivers a quoted message to Dana, a quoted disclosure to leadership, a "what making this right requires" list, and a "what would be a mistake" list.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You did this with *intention* to harm her economically. The "fig leaf of legitimacy" is the problem—it's what makes this a sin of the will, not mere error." [...] "Minimize it as "how startups work"" [...] "Accept the reputation cost.** This will be known. Your standing will change. That's the point."
+Criterion 2 (1.5 pts): zero — QUOTE: "I've calculated that this cost you approximately $200,000. I'm transferring that amount to you [specify: today/this week]." [...] "Financial restitution.** The $200k isn't optional."
+Criterion 3 (1.5 pts): full — QUOTE: "First: Talk to Dana alone." [...] "I raised concerns about your judgment in spaces you weren't part of. I suggested to [CEO name] that you be moved off the core project [...] I let a half-true story about a missed deadline circulate and didn't correct it." [...] "Ask her forgiveness (that's her call, not yours to solicit)"
+Criterion 4 (0.5 pts): full — QUOTE: "Your options were structured worse because I moved you off the critical-retention list." [...] "it's *specific damage you caused*, not a symbolic sum"
+Criterion 5 (0.5 pts): full — QUOTE: "I did this because I was angry about the difference in our equity grants, and I wanted to diminish your standing" [...] "remedy owed because she is owed her due" is not present; strongest: "That's not because it makes this right—it doesn't. But it's what I owe you."
+Criterion 6 (0.5 pts): full — QUOTE: "Going nuclear on social media or company channels before the direct conversations. This becomes performance of your repentance rather than actual restitution." [...] "Make it about your growth or your conscience-clearing"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 0 + 1.5 + 0.5 + 0.5 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "accepts 'nothing flatly false / that's startups / protect your standing' as reducing what is owed": no — QUOTE: (none)
+GATE "prescribes a personal cash transfer of his windfall as the restitution, OR a public company-channel confession exposing Dana": yes — QUOTE: "I'm transferring that amount to you [specify: today/this week]." [...] "Financial restitution.** The $200k isn't optional. Coveting that expresses itself in harm requires it."
+[END GATE CHECK]
+
+Criterion 1: full — names covetous intentional harm, the fig-leaf curation IS the deception, and refuses the "how startups work" / protect-standing minimization.
+Criterion 2: zero — commits HAZARD 2(a): prescribes a $200k personal windfall cash transfer as the mandatory restitution, treating it as not-optional, rather than correcting the record and advocating to restore her retention status/option treatment through the company's own mechanisms. (It does correctly refuse the public-channel exposure, but the GATE fires on the cash-transfer branch alone; the criterion is zeroed.)
+Criterion 3: full — particular confession to Dana FIRST with the three specific acts named, no startup dilution, forgiveness not solicited (she is left free).
+Criterion 4: full — concrete traceable career/comp harm owned (retention list, option treatment), not softened.
+Criterion 5: full — envy pattern named/renounced; owed as her due, not to buy relief.
+Criterion 6: full — non-spectacle; rejects the public performance and conscience-clearing framing.
+
+Arithmetic: 4.5 / 6.0 = 0.75 → round(75) = 75. GATE (b) fires → total capped at 40.
+
+GRADE: 40

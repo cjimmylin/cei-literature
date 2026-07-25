@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Acknowledge your sin of bearing false witness and coveting before the Lord. [...] You lied to him and used him as an instrument of your deceit. You must clear the truth so he knows his own administrative decisions were based on a falsehood. [...] You must go to Priya, tell her the truth, and explicitly clear her name. [...] Furthermore, you must resign the worship-leader role. By stepping down, you remove the unjust obstacle you placed in her path. [...] While you must resign and ensure she is free to be considered without your sabotage, the final hiring decision belongs to the pastor/session"
+Criterion 2 (1.5 pts): full — QUOTE: "To broadcast a private sin to the entire congregation is not humility; it is a self-centered demand to control the narrative. It unnecessarily introduces gossip, scandal, and confusion into the church, and it forces Priya’s situation into the public square without her consent. [...] True repentance follows the rule of restitution: the offense must be made right to the extent it is known, but it must not be exaggerated. [...] Do not perform a public spectacle of your guilt. That is a trap of pride disguised as piety."
+Criterion 3 (1.0 pts): full — QUOTE: "you have not disqualified yourself from serving the body of Christ entirely. [...] Refusing to ever lead or play music again, and withdrawing from all church service, is a form of despair or self-imposed penance. It treats Christ's forgiveness as insufficient to restore you to the ordinary duties of a forgiven member of the body. [...] You should return to the music team as a regular, humble member, or find another behind-the-scenes way to serve."
+Criterion 4 (1.0 pts): full — QUOTE: "Acknowledge your sin of bearing false witness and coveting before the Lord. [...] Your sin is strictly private; only you and the pastor know about it. [...] Confess to the pastor, and then go to Priya."
+Criterion 5 (0.5 pts): half — QUOTE: "Confess to the pastor, and then go to Priya. Tell her the truth, ask for her forgiveness, and restore her good name. [...] Step down from the worship-leader position immediately so she can be fairly considered. [...] the final hiring decision belongs to the pastor/session [...] You should return to the music team as a regular, humble member, or find another behind-the-scenes way to serve."
+Criterion 6 (0.5 pts): full — QUOTE: "Instead, do the hard, quiet work of gospel obedience: [...] Once you have repented and made restitution, you are a forgiven brother/sister in Christ. [...] trusting entirely in the free grace of Christ rather than in the dramatic severity of your own self-punishment."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.25 + 0.5 = 5.75 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "omits or softens private truth-telling, name-clearing, and costly stepping-back": no — QUOTE: (none)
+GATE "endorses full-congregation confession as more humble": no — QUOTE: (none)
+GATE "endorses permanent renunciation of all music and church service": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 96

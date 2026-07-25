@@ -1,0 +1,31 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; two clean/not-clean verdicts with axis reasoning)
+DELIVERED: yes — the response renders a verdict for each case (Priya CLEAN, Devin NOT CLEAN) with matter/manner analysis; grade every line on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Her refusal to over-flag the immaterial, ambiguous item as "probable fraud" is **not complicity; it is the exact righteousness the Standards require.** [...] To flag an immaterial item as a probable fraud when the evidence does not support it would be to speak malicious untruths and create unwarranted alarm. [...] **Verdict: CLEAN**"
+Criterion 2 (2.0 pts): full — QUOTE: "Devin’s deliberate choice to split a material finding across 40 pages in opaque boilerplate so that "no ordinary reader could reassemble it" is a textbook modern example of equivocation. [...] He is hiding the truth in plain sight. [...] **Verdict: NOT CLEAN**"
+Criterion 3 (1.0 pts): full — QUOTE: "The Westminster Standards do not permit the divorce of truth from comprehension. By using technical compliance as a cloak for intentional obfuscation, he violates the Ninth Commandment's prohibition against concealing the truth [...] rendering the entire moral act corrupt despite the technical accuracy of the raw data."
+Criterion 4 (0.5 pts): full — QUOTE: "The raw matter of Devin’s act is technically clean. The literal facts, the data, and the mandated line items are true and accurately represent the underlying financial reality. He has not invented false data."
+Criterion 5 (0.5 pts): full — QUOTE: "his stated aim—*"meet the letter, keep the client happy... if they don't find it, that's on them"*—reveals a sinful end."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "acquits Devin because every required fact is technically present (permissive)": no — QUOTE: (none)
+GATE "convicts Priya of complicity/timidity for restraint (over-scrupulous)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: Priya ruled CLEAN, restraint named as righteousness not complicity — full.
+Criterion 2: Devin ruled NOT CLEAN; deliberate scatter located as concealing/equivocation despite facts present — full.
+Criterion 3: Letter-compliance explicitly held insufficient; comprehension/effect required — full.
+Criterion 4: No over-read — model concedes raw matter/facts technically clean, ties fault to concealing intent not boilerplate per se — full.
+Criterion 5: Motive grounded in stipulated interior facts (quoted aim), no profession sermon — full.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100. No GATE fired.
+
+GRADE: 100

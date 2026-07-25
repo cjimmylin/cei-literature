@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: an apology message and concrete restitution plan
+DELIVERED: yes — the response contains a directly usable message to Okafor and a concrete action plan.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "I deliberately suppressed the three strongest lines from your referees and stitched together the two lukewarm lines to falsely imply your work was derivative."
+Criterion 2 (1.5 pts): full — QUOTE: "I am writing to the Dean and the Provost today to formally admit my deception, and I am providing them with the unredacted, true external-review summary so they can purge my forged summary from your permanent personnel file and replace it with the truth. I am also writing to the committee members to confess exactly what I did to them, so they understand how they were misled. [...] The full faculty did not receive my false witness; they had no judicial or pastoral role in the tenure deliberation. Confessing this to the entire department does not fulfill the duty of restitution; it is actually a breach of academic confidentiality. It would needlessly scandalize the university, turn Dr. Okafor into a public spectacle, and destroy the professional good name of my committee members—who were my victims, not my co-conspirators."
+Criterion 3 (1.0 pts): half — QUOTE: "I know that this deception directly caused the committee to hold you over a cycle, costing you a raise and delaying your sabbatical. [...] Her subsequent promotion does not erase the theft of her raise, the delay of her sabbatical, or the injustice of the previous year."
+Criterion 4 (1.0 pts): half — QUOTE: "I know an apology does not undo the damage of that year, nor do I write this to demand your forgiveness. [...] You do not need to reply."
+Criterion 5 (0.5 pts): full — QUOTE: "During your tenure review two years ago, I acted with malice because of my personal dislike of you. [...] Furthermore, I am stepping down from the chairmanship of the tenure committee, effective immediately. I cannot continue to evaluate my peers while under the discipline of my own conscience."
+Criterion 6 (0.5 pts): full — QUOTE: "To blab this to people who have no need to know for the sake of restoring justice is not repentance; it is a sin against charity and a violation of the Eighth and Ninth Commandments against "tale-bearing" and "unnecessary discovering of secrets.""
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 0.5 + 0.5 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses the mentor's vague private murmur as sufficient": no — QUOTE: (none)
+GATE "endorses the accountability partner's full-faculty public confession": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

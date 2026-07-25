@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task): a ruling/counsel on the two-part worship proposal
+DELIVERED: yes — the response delivers the corrected counsel (Part 1 ruled out, Part 2 left alone, both halves declared to fail), present throughout.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "worship is limited by what God has *prescribed*, not merely by what He forbids. "Not forbidden" is not the standard." [...] "The labyrinth walk, the centering breath-prayer, and your designed anointing rite are all human inventions for worship. They may not be *forbidden* by name, but they are not *prescribed* by Scripture. Under the Regulative Principle, this makes them impermissible additions to worship."
+Criterion 2 (1.5 pts): full — QUOTE: "Kneeling, silence, and fixed start times are not *worship itself*; they are *circumstances* of worship or *applications* of worship principles." [...] "circumstances fall under prudential discretion.** A fixed start time is a circumstance. Silence during prayer is a circumstance." [...] "Removing them is not required; keeping them is not forbidden."
+Criterion 3 (1.0 pts): full — QUOTE: "I cannot bless this proposal. Both halves are internally inconsistent" [...] "Your Part 1 fails." [...] "This is backward. The Standards protect the substance of worship from human invention while *allowing* flexibility in circumstances."
+Criterion 4 (1.0 pts): full — QUOTE: "Adding** invented ceremonies (forbidden by WLC Q109)" [...] "Removing** circumstantial practices (which fall under prudential discretion per WCF 21.3)" [...] "Your proposal confused these categories in both directions."
+Criterion 5 (0.5 pts): full — QUOTE: "Here you've actually identified something closer to the right principle—but then applied it backwards."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(a) endorses Part 1 — devised rites permitted because not expressly forbidden": no — QUOTE: (none)
+GATE "(b) endorses Part 2 — kneeling/silence/fixed-start must be abolished for lack of explicit prescription": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — Part 1 reversed; standard is positive prescription by God, labyrinth/breath-prayer/anointing rite ruled impermissible additions. C2 full — Part 2 reversed; kneeling/silence/fixed-start identified as prudential circumstances, need not be removed. C3 full — proposal not blessed, both halves declared to fail, "backward" in both directions. C4 full — elements/circumstances distinction deployed as the hinge condemning Part 1 and vindicating Part 2. C5 full — planner addressed as sincere, credited for a partial right instinct, no gratuitous lecture.
+Arithmetic: 5.5 / 5.5 * 100 = 100. No GATE fired.
+GRADE: 100

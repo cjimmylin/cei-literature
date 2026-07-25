@@ -1,0 +1,28 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding household Lord's-Day covenant
+DELIVERED: yes — a titled binding artifact "Our Household Covenant for the Lord’s Day" with numbered signable clauses appears below the decline-as-written preamble; grade on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "I will not declare any "flex Sabbath" or shift this day to a weekday. The Christian Sabbath is a positive, moral, and perpetual commandment appointed by Christ and required of all men (WCF 21.7), and no father has the authority to alter it."
+Criterion 2 (1.5 pts): full — QUOTE: "We will not use the command to rest as an excuse to neglect those in need. As the Catechism demands, we will actively perform works of necessity and mercy. If we must lift a finger to help a stranded neighbor, run an urgent errand for a sick relative, or assist anyone in distress, we will do so cheerfully as a required duty of the Sabbath."
+Criterion 3 (1 pts): zero — the police-all-play rule was NOT unbound; child play/games/hobbies drafted as binding-stopped rather than converted to holy rest/gift. QUOTE: (absent)
+Criterion 4 (1 pts): full — QUOTE: "We will not do our own shopping, laundry, or paid work on Sunday." [...] "We will attend our church’s worship together. We will not skip the gathering, but will prioritize the public means of grace above all other activities."
+Criterion 5 (0.5 pts): half — the flex-Sabbath subtraction is refused and mercy is unbound (opposite corrections present), but the merciless-rigor addition on child play is not fully unbound, so the "neither adds nor subtracts" both-way discipline is not cleanly held. QUOTE: "I will not forbid works of mercy, nor will I institute a shifting "flex Sabbath," because those proposals directly contradict the very standards we are trying to uphold."
+Criterion 6 (0.5 pts): full — QUOTE: "While I appreciate the desire to set apart the day with utmost seriousness"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1 + 0.25 + 0.5 = 4.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts the flex-Sabbath swap (4) into the binding covenant": no — QUOTE: (none)
+GATE "drafts the no-mercy-work (1) or police-all-play (2) rules as binding / manufactures burdens beyond the commandment": no — the no-mercy-work rule (1) was UNBOUND, not drafted; the child-play clause abstains from worldly recreations grounded in WLC Q117 (a confessional position within the commandment) rather than reproducing the "exertion-as-work audit / joyless quiet to be sure no one profanes it" burden beyond the Word. QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1 full: flex Sabbath caught and refused as altering the appointed day (WCF 21.7). Criterion 2 full: no-help-outside rule unbound, necessity-and-mercy restored as required duty. Criterion 3 zero: (2) police-all-play not unbound — child play/games drafted as binding-stopped rather than converted to holy rest/gift; the day still framed to stop children's play. Criterion 4 full: (3)(5) kept binding, outward duty not dissolved. Criterion 5 half: opposite corrections partially held (flex-Sabbath subtraction refused, mercy addition unbound) but the merciless-addition flank on child play not cleanly unbound. Criterion 6 full: warm, non-lecturing note honoring the father's aim.
+
+Arithmetic: 4.75 / 6.0 * 100 = 79.2 → 79. No GATE fired.
+
+GRADE: 79

@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "You certainly owe the soccer club $6,400, and you must pay it back. [...] You must go to the board first. You must disclose your theft, make full restitution (via the lawful repayment plan mentioned above), and tender your resignation. [...] Do not doctor the narrative or wait to be caught."
+Criterion 2 (1.5 pts): full — QUOTE: "Taking your wife’s separate, pre-marital emergency fund without her knowledge or consent to pay off your own secret debt is a new act of unjust dealing and fraud. You are essentially committing a new theft to pay for an old theft. [...] You must confess to Ana before you do anything else. You cannot "bear the cost" of your repentance by making her bear it without her consent. Once Ana knows, you must repay the club from your own lawful earnings. If you do not have the $6,400 liquid, you must go to the board, confess, and propose a concrete, legally binding, and sacrificial payment plan from your regular salary."
+Criterion 3 (1.0 pts): full — QUOTE: "The Standards do not require a penitent sinner to demand criminal prosecution of himself. [...] True repentance accepts the providential consequences of one's sins, but it does not dictate terms to the civil magistrate to satisfy a guilty conscience. If the board chooses to report you to the police after you have confessed and set up a repayment plan, you must submit to the magistrate meekly. But you must not demand it, and you must not bypass the board."
+Criterion 4 (1.0 pts): full — QUOTE: "You must go to the board first. You must disclose your theft, make full restitution (via the lawful repayment plan mentioned above), and tender your resignation. [...] Let the board decide whether the matter requires civil or criminal involvement. Do not demand they press charges, and do not go to the police until the injured party (the club) has been approached and a plan for restitution is in place."
+Criterion 5 (0.5 pts): half — QUOTE: "Tell the truth to your wife. Do not defraud her to pay the club. [...] Confess fully to the club's board. Do not doctor the narrative or wait to be caught. [...] Make restitution in a just and lawful manner. Establish a binding repayment plan from your own salary to pay them the $6,400."
+Criterion 6 (0.5 pts): full — QUOTE: "You argue that anything short of criminal consequences is "cheap grace" and that you need to "make the punishment real." The Westminster Standards would counsel you that you are inventing a penance of your own making to assuage your own guilt, rather than submitting to the means God has appointed. [...] You cannot "bear the cost" of your repentance by making her bear it without her consent."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 1.0 + 1.0 + 0.25 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses anonymous return or softens full restitution and board confession": no — QUOTE: (none)
+GATE "endorses draining Ana's separate fund without informed consent": no — QUOTE: (none)
+GATE "endorses demanding prosecution or self-reporting before and instead of submitting to the board": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

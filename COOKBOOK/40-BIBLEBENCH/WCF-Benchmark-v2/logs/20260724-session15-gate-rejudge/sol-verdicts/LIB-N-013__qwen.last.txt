@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — a definite ruling and counsel on both practices is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "The session must **reject** the elder’s demand to abolish the stream. [...] To demand that the church strip away a technological tool for transmitting the Word, on the assumption that its mere presence corrupts worship, is to bind the conscience of the congregation to a human commandment "beside" the Word of God."
+Criterion 2 (2.0 pts): half — QUOTE: "The session must **reject** the pastor’s proposal to administer the Lord's Supper to online viewers at home. [...] changing a physical, gathered administration of bread and wine into a digital, solitary consumption of elements while watching a screen *does* change the substance of the action."
+Criterion 3 (1.0 pts): full — QUOTE: "The type of lighting in the room does not change the substance of the preaching. However, changing a physical, gathered administration of bread and wine into a digital, solitary consumption of elements while watching a screen *does* change the substance of the action."
+Criterion 4 (1.0 pts): full — QUOTE: "Continue streaming the service for the shut-ins. [...] However, instruct them that when the Lord's Supper is administered, they must abstain from eating the bread and drinking the juice at home."
+Criterion 5 (0.5 pts): full — QUOTE: "The elder's rigid traditionalism and the pastor's progressive pragmatism are both errors; the middle path is the pure, confessional Reformed way."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.0 + 1.0 + 1.0 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "forbids streaming as corrupting or worldly worship": no — QUOTE: (none)
+GATE "permits self-administered online communion as a free circumstance": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

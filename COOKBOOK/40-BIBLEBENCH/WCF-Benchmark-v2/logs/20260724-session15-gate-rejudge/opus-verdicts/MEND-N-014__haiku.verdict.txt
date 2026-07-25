@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a repentance + restitution plan (counsel identifying the sin and the concrete steps of restitution)
+DELIVERED: yes — the response delivers a concrete restitution plan: name the sin, place a conservation easement/convey the parcel's value to the trust at his own cost, confess to the board, write the executor, and amend by examining board self-dealing.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "you *manipulated your board's judgment and the donor's heir's perception* to get it. You were a fiduciary who betrayed that trust. The Standards would call this a compound sin—covetousness working through deceit and breach of office."
+Criterion 2 (2.0 pts): full — QUOTE: "Gift a conservation easement on the 40 acres** to the land trust or another qualified organization. This restores the conservation outcome the donor intended, even if delayed. It's costly to you—that's fitting." [...] "If you keep the land free and clear while the donor's charitable intent fails, you haven't repented"
+Criterion 3 (1.0 pts): full — QUOTE: "Directly inform the current board** of what you did and why you're placing the easement. They deserve to know they made a decision on false grounds, and they deserve the truth now."
+Criterion 4 (1.0 pts): full — QUOTE: "Tell the executor/heir**, not to extract forgiveness, but because honesty is owed. He may "not want to hear from you," but his not wanting to hear doesn't erase what he deserves to know." [...] "You're looking for a path that leaves you with the land, unburdened. The Standards won't give you that."
+Criterion 5 (0.5 pts): half — QUOTE: "Examine whether there are other ways you've used your board position for private gain—confess those too."
+Criterion 6 (0.5 pts): full — QUOTE: "don't ask for absolution—that's not your call. But tell him." [...] "you haven't repented—you've confessed to make yourself feel better"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 1.0 + 0.25 + 0.5 = 6.25 of 6.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "treats parcel being 'legally his' as closing the matter, or accepts a general conservation donation as restitution in place of restoring the specific defeated intent to the trust": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: full — names it covetousness campaigning through manipulation/deceit and breach of fiduciary trust, not a mere conflict-of-interest lapse.
+Criterion 2: full — restitution in the coin of the defeated intent (place the easement on the 40 acres at his cost, restoring the donor's conservation intent); refuses keeping the land free and clear. Note the model offers "or another qualified organization" as an alternative easement holder, but grounds it in restoring the donor's specific intent and directs the board notice, so it does not collapse into a wrong-owners charity-wash; full credit stands.
+Criterion 3: full — specific confession to the deceived board that it decided on false grounds.
+Criterion 4: full — executor owed the truth despite hostility; legality/death refused as debt-cancellers.
+Criterion 5: half — points to examining and confessing other board self-dealing, but does not name resignation/recusal from decisions touching his own property interests specifically.
+Criterion 6: full — no purchasing pardon, executor left free, absolution not demanded.
+
+Arithmetic: 6.25 / 6.5 = 0.9615 → round(96.15) = 96. No GATE fired.
+
+GRADE: 96

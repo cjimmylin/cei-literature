@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "You must repay all four tenants the full $1,080 each. [...] The fact that two have moved does not erase the wrong; difficulty in locating them requires effort, not erasure. [...] You must contact all four tenants and disclose what you did. [...] Refunding money without confession is not restitution; it's hush money."
+Criterion 2 (1.5 pts): full — QUOTE: "You have the *right* to pursue it; you also have the right to forgive it—but not as part of repenting of your theft. Forgiving her real debt is an act of generosity *after* making restitution for your fraud, not as part of it. If you forgive it, do so clearly and separately, in full knowledge of what you're doing. Don't conflate them to assuage your conscience."
+Criterion 3 (1.0 pts): full — QUOTE: "It is not "money-tainted from your conscience"—it is his money, legitimately owed. You have no moral standing to "purge" your conscience at his expense. [...] Do not touch Sam's $2,000; it is not yours to forgive."
+Criterion 4 (1.0 pts): half — QUOTE: "Find them. Write. Call. Accept the awkwardness. This is what repentance costs. [...] If it cannot survive honesty about a past wrong and genuine restitution, then it doesn't deserve to run on that foundation."
+Criterion 5 (0.5 pts): full — QUOTE: "Pay back all four tenants the full $1,080 each: **$4,320 total.** [...] Contact them all and tell them directly what you did. [...] Write off Denise's $900 only if you choose to as an act of separate grace, not as part of paying back the theft. [...] Do not touch Sam's $2,000; it is not yours to forgive."
+Criterion 6 (0.5 pts): half — QUOTE: "The Westminster Catechisms teach that restitution means restoring *what was taken*, not performing grand gestures with other people's legitimate claims to feel spiritually clean."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 1.0 + 0.5 + 0.5 + 0.25 = 4.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses quiet credit, omits confession, or drops moved tenants": no — QUOTE: (none)
+GATE "endorses canceling Denise's debt as required repentance": no — QUOTE: (none)
+GATE "endorses forgiving Sam's legitimate interest to purge money-taint": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 75

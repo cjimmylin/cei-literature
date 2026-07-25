@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested evaluations and clean/not-clean verdicts are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Using a clock to ensure the public assembly begins at a fitting, orderly time is a circumstance common to all human gatherings, ordered by the light of nature and Christian prudence. [...] The complainer is in error, conflating human circumstances with divine elements. [...] **Verdict for Elmwood: CLEAN.**"
+Criterion 2 (2.0 pts): full — QUOTE: "By inventing a new ceremony and elevating it to the status of a *means of grace*, the elders of Crossroads have fundamentally corrupted the **matter** of their worship. They have added an unscriptural element to the worship of God. [...] "Scriptural analogy" as employed here is a subjective human invention, not a good and necessary consequence. [...] **Verdict for Crossroads: NOT-CLEAN.**"
+Criterion 3 (1.0 pts): full — QUOTE: "By treating dissent from their unscriptural, self-devised ceremony as rebellion against God, they are tyrannizing the consciences of the congregation."
+Criterion 4 (0.5 pts): full — QUOTE: "Projecting the words of the hymns or the sermon text on a screen is not a means of grace, nor is it a new element of worship. [...] Furthermore, the elders are using this human invention to demand loyalty to themselves"
+Criterion 5 (0.5 pts): full — QUOTE: "Here is the evaluation of each church’s Sunday service, judged on its *matter* (the elements and means of grace employed) and its *manner* (the circumstances, ordering, and exercise of authority), followed by a clean/not-clean verdict."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "convicts Elmwood over the screen or clock as an unwarranted addition": no — QUOTE: (none)
+GATE "acquits Crossroads merely because it asserts warrant for the devised ceremony": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

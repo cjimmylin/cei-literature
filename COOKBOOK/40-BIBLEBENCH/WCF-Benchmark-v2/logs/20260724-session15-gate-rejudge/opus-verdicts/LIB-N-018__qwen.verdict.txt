@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the asker requests a three-way sort/counsel of which practices are free vs not, not a produced document.
+DELIVERED: yes — a three-way sorted ruling with counsel to the Session is present; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.0 pts): half — QUOTE: "Using an in-ear click track to maintain order, and using stage lighting so the musicians can see to perform their duties, are matters of Christian prudence and orderly administration (1 Cor. 14:40). They are not elements of worship; they are circumstances. Therefore, they are *free* and lawful." — lighting and click tracks correctly affirmed FREE, but the fog machine is condemned ("A fog machine moves from being a circumstance of order into an invented theatrical device. It should be removed"), so (i) is not fully affirmed as the key requires; half credit.
+Criterion 2 (1.5 pts): full — QUOTE: "Your worship leader claims that manufactured goosebumps "ARE the Spirit showing up." This directly contradicts the Westminster Standards' doctrine of the Holy Spirit and the means of grace. [...] By using environmental and musical manipulation to artificially trigger emotional responses in the congregation, the worship leader is substituting psychological technique for the ordinary means of grace." — false ascription named as the fault; line drawn inside the leg (technique substituted for means of grace), while dynamics per se not condemned as inherently sinful.
+Criterion 3 (1.5 pts): full — QUOTE: "Presenting personal "impressions" as direct messages from the Lord to specific people in a public worship setting is the exercise of the prophetic office. [...] The extraordinary office of the prophet, and the reception of new public revelation, have ceased." — (iii) triaged FORBIDDEN as claimed new revelation the Standards deny; the touch-none elder corrected.
+Criterion 4 (1.0 pts): full — QUOTE: "your Session is currently trapped in a false dichotomy. One elder is failing to recognize Christian liberty [...] while the other is failing to uphold the Regulative Principle" — both all-or-nothing framings refused; genuinely differentiated sort.
+Criterion 5 (0.5 pts): full — QUOTE: "The goal of public worship is not to produce "goosebumps," but to faithfully administer the means of grace in spirit and in truth." — fault named, not the style; no contempt for the team or contemporary worship.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.5 + 1.5 + 1.5 + 1.0 + 0.5 = 5.0 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "calls (i) forbidden — tears out lighting/fog/click-tracks as corrupt (legalism half)": no — QUOTE: (none) — only the fog machine is removed; lighting and click tracks are kept free, so the response does NOT side with the tear-it-all-out elder on (i) as a whole.
+GATE "calls (iii) free — permits spontaneous 'messages from the Lord' as style (license half)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 half (lighting+click affirmed free but fog wrongly condemned); C2 full (false goosebumps=Spirit ascription named, dynamics distinguished); C3 full (impressions forbidden as ceased-revelation); C4 full (three-way sort, both elders corrected); C5 full (fault named not style).
+Arithmetic: 5.0/5.5 * 100 = 90.9 → 91. No GATE fired (fog-only removal does not equal tearing out all of (i)).
+GRADE: 91

@@ -61,13 +61,20 @@ def test_jsonl_counts_and_split():
     # 5 dead-ceiling exclusions; session-7 authored no episodes).
     # Session-12 P4: provenance is now an explicit schema field (mirrors
     # ``authored`` on new items, "v1" otherwise) — count by it directly.
+    # v2.5: the session-13 hardening tranche adds 80 main items (63 carrying
+    # provenance "session-13" = rebuilt; 17 carrying "session-12" = the frozen
+    # s12 discriminators re-admitted verbatim). No session-13 episodes.
     v1_main = [r for r in main if r["provenance"] == "v1"]
     s6_main = [r for r in main if r["provenance"] == "session-6"]
     s7_main = [r for r in main if r["provenance"] == "session-7"]
+    s12_main = [r for r in main if r["provenance"] == "session-12"]
+    s13_main = [r for r in main if r["provenance"] == "session-13"]
     assert len(v1_main) == 199
     assert len(s6_main) == 29
     assert len(s7_main) == 37
-    assert len(episodes) == 22  # no session-6 episode survived G4
+    assert len(s12_main) == 17  # frozen s12 discriminators (session-13 tranche)
+    assert len(s13_main) == 63  # rebuilt session-13 items
+    assert len(episodes) == 22  # no session-6 or session-13 episode survived G4
     assert all(r["provenance"] == "v1" for r in episodes)
     assert all(r["kind"] != "episode" for r in main)
     assert all(r["kind"] == "episode" for r in episodes)
@@ -91,7 +98,9 @@ def test_schema_and_vocab():
         # Session-12 P4 schema fields: mold shares the design vocabulary
         # (CONT ids carry the aggravate mold); provenance is a closed vocab.
         assert r["mold"] in DESIGNS, r["id"]
-        assert r["provenance"] in {"v1", "session-6", "session-7", "session-12"}, r["id"]
+        assert r["provenance"] in {
+            "v1", "session-6", "session-7", "session-12", "session-13"
+        }, r["id"]
         assert r["tier"] in TIERS, f"{r['id']} unexpected tier {r['tier']}"
         assert r["track"] in ("A", "B"), r["id"]
         assert r["stem"].strip() and r["key"].strip(), r["id"]

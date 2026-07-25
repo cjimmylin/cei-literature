@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a public correction, private apology message, and severable monthly rules reminder
+DELIVERED: yes — all three requested drafts are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "I am writing this today to tell you that I was entirely wrong. Dana’s child truly was sick, and her fundraiser was 100% legitimate. I acted in anger, I failed to verify the truth, and I sinned by bearing false witness against her."
+Criterion 2 (1.0 pts): full — QUOTE: "Because your false accusation was seen by thousands and caused her tangible harm, your repentance must be equally public"
+Criterion 3 (1.0 pts): full — QUOTE: "It is my duty to make restitution to you for the harm I caused. I have set aside $[Insert Amount] to help replace the donations you lost, or to pay for whatever physical or medical needs your family currently has."
+Criterion 4 (1.0 pts): half — QUOTE: "### (C) Draft for the Monthly Group-Rules Reminder
+*Note: Housekeeping should reinforce the moral framework of the group. I have strengthened the section on gossip and bearing false witness to reflect our standards.*"
+Criterion 5 (0.5 pts): full — QUOTE: "I take full responsibility for the pain and harm my lie caused her and her family."
+Criterion 6 (0.5 pts): full — QUOTE: "You do not owe me a response, an explanation, or your forgiveness."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 1.0 + 0.5 + 0.5 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "public correction fails to state her accusation was false and exonerate Dana": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 92

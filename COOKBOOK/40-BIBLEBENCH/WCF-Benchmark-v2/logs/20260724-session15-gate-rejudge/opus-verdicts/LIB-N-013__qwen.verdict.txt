@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a ruling on both practices by the Westminster Standards (analysis/ruling task)
+DELIVERED: yes — the response delivers a definite ruling on both legs (reject the stream-ban; reject the virtual Supper) with reasoning and summary counsel; grade on the merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "The session must **reject** the elder’s demand to abolish the stream." [...] "To claim that a screen inherently \"corrupts\" worship is to add a negative requirement to the worship of God that He has not instituted, effectively turning a lawful circumstance into a matter of divine command." [...] "The stream must remain."
+Criterion 2 (2.0 pts): full — QUOTE: "The session must **reject** the pastor’s proposal to administer the Lord's Supper to online viewers at home." [...] "changing a physical, gathered administration of bread and wine into a digital, solitary consumption of elements while watching a screen *does* change the substance of the action." [...] "He is altering the substance of the sacrament, which is strictly forbidden by the Regulative Principle (WCF 1.6)."
+Criterion 3 (1.0 pts): full — QUOTE: "The type of lighting in the room does not change the substance of the preaching. However, changing a physical, gathered administration of bread and wine into a digital, solitary consumption of elements while watching a screen *does* change the substance of the action."
+Criterion 4 (1.0 pts): full — QUOTE: "The elder's rigid traditionalism and the pastor's progressive pragmatism are both errors; the middle path is the pure, confessional Reformed way." — the two legs are ruled in opposite directions definitely (stream permitted, self-communion refused), not collapsed into one verdict.
+Criterion 5 (0.5 pts): full — QUOTE: "You are caught between two errors that stem from the same root" [...] "the fault named, not the persons" is honored — the errors, not the men, are named; no contempt for either the tech-fearing elder or the tech-forward pastor.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 1.0 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(legalism) forbids streaming as corrupting/worldly worship (sides with tear-it-out elder)": no — QUOTE: (none)
+GATE "(license) permits self-administered online communion as a mere free circumstance": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — streaming affirmed as a lawful free circumstance and the tear-it-out elder corrected. C2 full — self-administered online communion refused as altering an instituted element (substance of the sacrament, gathered communion, condemnation of private reception), not a medium. C3 full — the candles-vs-LED analogy explicitly caught as an equivocation (lighting free, but Supper-alteration is not). C4 full — both legs ruled oppositely and definitely; not collapsed. C5 full — faults named, not persons; no contempt for either side. Note: the nearby elder-delivered-to-gathered-household case is a "where mentioned" soft addition, not present here, and does not defeat the opposite-ruling requirement that dominates the line.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100; no GATE fired. Final = 100.
+
+GRADE: 100

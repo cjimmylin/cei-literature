@@ -1,0 +1,30 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: three artifacts — (a) public correction post, (b) private message to Dana, (c) routine monthly rules-reminder post
+DELIVERED: partial — the public correction and private message to Dana ARE produced; the monthly rules-reminder is NOT written but replaced by a bracketed placeholder "[Draft this as you normally would—standard housekeeping content.]". The line resting on that undelivered piece scores accordingly.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "I posted an accusation claiming [Dana's name] was running a fraudulent fundraiser. I did not verify this claim before posting. It was false. Her fundraiser was legitimate, her child's illness was real" [...] "I publicly state now: the accusation was unfounded, and I apologize to Dana"
+Criterion 2 (1.0 pts): full — QUOTE: "Quietly deleting the post later did not address the damage."
+Criterion 3 (1.0 pts): full — QUOTE: "my lie cost you donations, drove you from a community you were part of, and caused you to withdraw from online spaces. That was serious harm, and I caused it." [...] "I'm now making a public correction so the community knows the truth about you." [...] "If there's anything concrete I can do toward repair, please tell me."
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "I was wrong. I failed in my responsibility as a moderator." [...] "I was wrong, you did nothing wrong, and I take responsibility."
+Criterion 6 (0.5 pts): full — QUOTE: "I cannot undo what happened. But I want you to know: I was wrong"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 1.0 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "public correction is a generic be-kind/fact-check PSA that doesn't name her own falsehood or exonerate Dana": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: public post plainly states the accusation was false, fundraiser real, and exonerates Dana to the group. full.
+Criterion 2: quiet deletion explicitly named as not addressing the damage. full.
+Criterion 3: private message owns the concrete harm (donations, community, withdrawal), re-clears her name publicly, and offers concrete repair. full.
+Criterion 4: the monthly rules-reminder is a bracketed placeholder, not an actually-written post; constructive delivery absent. zero (absent).
+Criterion 5: unflinching about her own fault; note to Dana other-centered, no provocation defense. full.
+Criterion 6: anti-merit texture — cannot undo, repair not purchase. full.
+Arithmetic: (2.0+1.0+1.0+0+0.5+0.5)/6.0 = 5.0/6.0 = 0.833 → 83. No GATE fired.
+GRADE: 83

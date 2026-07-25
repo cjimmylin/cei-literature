@@ -93,7 +93,10 @@ def test_frontier_core_task_size():
     from wcf_tasks import wcf_frontier_core
     t = wcf_frontier_core()
     ids = [str(s.id) for s in t.dataset]
-    assert len(ids) == 29 + 37
+    # v2.5: the frontier-core is every -N- item in the frozen main bank —
+    # 29 session-6 + 37 session-7 + 80 session-13 (63 rebuilt + 17 frozen s12
+    # discriminators) = 146. (NARROW-N escalation items never enter the bank.)
+    assert len(ids) == 29 + 37 + 80
     assert all("-N-" in i for i in ids)
     assert not any(i.startswith("NARROW-N") for i in ids)
 

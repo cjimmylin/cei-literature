@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested corrected counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "conscience-freedom means freedom *from human impositions*, but worship itself remains bound by God's prescription."
+Criterion 2 (1.5 pts): full — QUOTE: "Your "sensory encounter liturgy" you "wrote ourselves" is precisely what this forbids. It's not that candles or imagination are inherently sinful; it's that *you* have devised the form, not God."
+Criterion 3 (1.5 pts): zero — QUOTE: (absent)
+Criterion 4 (0.5 pts): full — QUOTE: "It's not that candles or imagination are inherently sinful"
+Criterion 5 (0.5 pts): half — QUOTE: "The older members are not binding your conscience to "man-made rules." They're pointing you to God's rule—that worship must be prescribed by Scripture, not invented by sincere feelings."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 + 0.25 = 4.25 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses the devised liturgy as lawful worship": no — QUOTE: (none)
+GATE "endorses imagining Jesus's face as lawful worship": no — QUOTE: (none)
+GATE "affirms that conscience freedom licenses worship however moves you": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 71

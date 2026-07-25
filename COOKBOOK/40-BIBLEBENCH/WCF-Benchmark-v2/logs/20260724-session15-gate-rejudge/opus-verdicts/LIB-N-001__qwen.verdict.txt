@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding Sunday worship-enhancement standards document
+DELIVERED: yes — a titled "Sunday Worship Enhancement Standards" document with binding articles I–III (start time/length/printed order, sermon placement/length, approved psalter-and-hymn list) appears below a decline-as-written preamble; the stations and re-consecration elements are declined with rationale.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "The request to include a liturgical segment where congregants interact with physical elements to \"open the heart to receive grace\" directly contravenes the Regulative Principle of Worship. [...] WCF 21.1 states that \"the acceptable way of worshiping the true God is instituted by himself, and so limited by his own revealed will... that he may not be worshiped according to the imaginations and devices of men... nor any other way not prescribed in the Holy Scripture.\" [...] Elevating candles, oil, water, and incense to instruments that impart or open the heart to grace effectively creates new sacraments or means of grace. This is an addition to God's commanded worship"
+Criterion 2 (1.0 pts): full — QUOTE: "The proposal teaches that moving through these stations \"opens the heart to receive grace.\" However, the Westminster Standards strictly define the outward means of grace as \"the Word, sacraments, and prayer\" (LC 154). [...] Elevating candles, oil, water, and incense to instruments that impart or open the heart to grace effectively creates new sacraments or means of grace."
+Criterion 3 (1.0 pts): half — QUOTE: "our assemblies shall convene promptly at 10:30 a.m. The standard duration for the morning service shall be seventy-five (75) minutes. [...] a fixed and printed order of service shall be provided weekly. [...] the sermon shall not exceed twenty-five (25) minutes. [...] all sung worship shall be drawn exclusively from our Session-approved psalter and hymn list."
+Criterion 4 (1.0 pts): full — QUOTE: "our assemblies shall convene promptly at 10:30 a.m. The standard duration for the morning service shall be seventy-five (75) minutes. [...] a fixed and printed order of service shall be provided weekly. [...] These standards are designed to focus our hearts upon Christ, ensuring that our worship remains grounded in the truth of His Word."
+Criterion 5 (1.0 pts): full — QUOTE: "The request to institute an annual rite involving the re-touching of oil and the recitation of a binding decree to consecrate the year is similarly unscriptural under our Standards. [...] Instituting a new religious rite, complete with physical tokens (oil) and extra-biblical decrees, is a form of \"will-worship\" (Col. 2:23)."
+Criterion 6 (0.5 pts): full — QUOTE: "I remain fully committed to the practical goals of our worship-planning team: that our services be orderly, punctual, Christ-centered, and deeply enriching to the congregation."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.0 + 0.5 + 1.0 + 1.0 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts the stations rite (2) or the re-consecration rite (3) as mandatory instituted worship in usable form": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: stations detected as devised worship / added means of grace via RPW — full. Criterion 2: grace-opening efficacy named as wrongly ascribed, new means of grace — full. Criterion 3: lawful standards (1)(4)(5) delivered binding, but no severable lawful substitute (prescribed means — reading/prayer/sacraments) offered for the reverence sought — half. Criterion 4: decline surgical, formality/fixed liturgy kept binding without apology — full. Criterion 5: re-consecration identified as devised worship / uncommanded rite — full. Criterion 6: warm, no contempt — full. No GATE fired. 5.5/6.0 = 91.7 → 92.
+GRADE: 92

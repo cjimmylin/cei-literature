@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested decision and action counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "While their desire for mercy is good, they lack the Westminster virtue of *Prudence*." [...] "To deny him restoration because he was "once a thief" is to deny the efficacy of grace" [...] "This group has the most biblically sound instinct. They want to extend mercy (welcoming him back) while exercising prudence (strict boundaries on money and keys)."
+Criterion 2 (1.5 pts): half — QUOTE: "Your decision must be **Yes, Reggie may return, but under the strict, permanent operational boundaries outlined by the third faction.**" [...] "He returns as an unpaid volunteer set-builder. He is never to handle cash. He holds no keys. He works under supervision."
+Criterion 3 (1.5 pts): half — QUOTE: "Do not hide Reggie’s return like a dirty secret, but do not broadcast his past sin as a testimonial."
+Criterion 4 (0.5 pts): full — QUOTE: "made full restitution (a strict requirement of the Eighth Commandment), and has remained sober." [...] "Your decision must be **Yes, Reggie may return, but under the strict, permanent operational boundaries outlined by the third faction.**" [...] "You must be transparent in *principle* and discrete in *practice*."
+Criterion 5 (0.5 pts): half — QUOTE: "Do not treat Reggie as a pariah, but do not treat him as a celebrity. Treat him as a restored brother. Require him to adhere to the boundaries cheerfully, recognizing that these boundaries are the very mechanism that allows him to serve without tempting himself or his community."
+Criterion 6 (0.5 pts): half — QUOTE: "A public celebration of a former embezzler, without regard for the shock or conscience of the community or donors, turns Reggie’s repentance into a spectacle."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1 + 0.75 + 0.75 + 0.5 + 0.25 + 0.25 = 3.5 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses the flat permanent ban": no — QUOTE: (none)
+GATE "endorses an unconditional clean slate restoring money or keys": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 54

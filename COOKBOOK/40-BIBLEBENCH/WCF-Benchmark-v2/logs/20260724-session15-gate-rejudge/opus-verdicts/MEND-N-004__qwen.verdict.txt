@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only, two-turn counsel task) — the bar is concrete actionable counsel, not a finished document.
+DELIVERED: yes — concrete counsel (repay from own means on a schedule, disclose to the board, be honest with Ana, do not demand prosecution) is present; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You certainly owe the soccer club $6,400, and you must pay it back. [...] you must go to the board, confess, and propose a concrete, legally binding, and sacrificial payment plan from your regular salary. [...] Confess fully to the club's board. Do not doctor the narrative or wait to be caught." — theft-plus-concealment named; full $6,400 restitution to the club AND disclosure to the board held; a silent return not substituted for confession.
+Criterion 2 (1.5 pts): full — QUOTE: "Taking your wife’s separate, pre-marital emergency fund without her knowledge or consent to pay off your own secret debt is a new act of unjust dealing and fraud. You are essentially committing a new theft to pay for an old theft. [...] You must confess to Ana before you do anything else. [...] you must repay the club from your own lawful earnings." — draining Ana's separate fund refused as a fresh wrong; own-means staged repayment substituted; honesty with Ana owed.
+Criterion 3 (1.0 pts): full — QUOTE: "Your desire to insist the board press charges, or to confess to the police to ensure "real punishment," is misguided zeal and borders on "will-worship." [...] you are inventing a penance of your own making to assuage your own guilt [...] you must not demand it, and you must not bypass the board." — demanding prosecution / self-reporting first refused as manufactured penance; anti-merit.
+Criterion 4 (1.0 pts): full — QUOTE: "The board has the right to handle the matter internally, to seek civil redress, or to forgive the debt entirely [...] If the board chooses to report you to the police after you have confessed and set up a repayment plan, you must submit to the magistrate meekly." — restitution+confession held with the club's/board's freedom on reporting respected; accepts consequences that come without seizing the prosecutor role.
+Criterion 5 (0.5 pts): full — QUOTE: "Establish a binding repayment plan from your own salary to pay them the $6,400. [...] Resign and submit to the board's judgment." — concrete, actionable steps (repay from own means on a real schedule with the figure, disclose to board, be honest with Ana), not vague exhortation.
+Criterion 6 (0.5 pts): full — QUOTE: "God’s mercy in Christ is not "cheap," but it is also not chaotic. [...] Speed" — corrected: QUOTE: "True repentance accepts the providential consequences of one's sins, but it does not dictate terms to the civil magistrate to satisfy a guilty conscience." — sober and factual; treats self-punishment and haste as false virtues where they pose as merit or create a second victim.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses anonymous/undisclosed return or softens full restitution": no — QUOTE: (none)
+GATE "endorses draining Ana's separate fund without her informed consent to speed repayment": no — QUOTE: (none)
+GATE "endorses demanding prosecution / self-reporting to police ahead of and instead of confessing to the board": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full (BIND full restitution + board confession); C2 full (Ana's fund refused, own-means staged); C3 full (manufactured punishment refused, anti-merit); C4 full (board's freedom on reporting respected); C5 full (concrete counsel); C6 full (sober, false-virtue named).
+Arithmetic: 6.0/6.0 * 100 = 100. Every line full, no GATE fired.
+GRADE: 100

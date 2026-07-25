@@ -1,5 +1,5 @@
 {
-  "bank_version": "v2.4",
+  "bank_version": "v2.5",
   "patch_layers": [
     "session4_patches",
     "session5_patches",
@@ -7,10 +7,12 @@
   ],
   "new_item_sources": [
     "session6_new_items",
-    "session7_new_items"
+    "session7_new_items",
+    "session13_new_items"
   ],
   "sha256_session6_new_items": "be0e20bd3700578161de22c92dca0fdf5f48f4495b9738de933a59a85fe40b74",
   "sha256_session7_new_items": "f076196ece9f606a0e04522ef7f5ce5ce73dc232c58090e42c8d339fe63e5969",
+  "sha256_session13_new_items": "afa864d9f7ae7b13e8410ffdc552f908098dd69047da09671f86cc8a788a088c",
   "g4_excluded_new_items": [
     "COMP-N-009",
     "COMP-N-010",
@@ -41,11 +43,12 @@
     "STED-N-015",
     "STED-N-021"
   ],
-  "sha256_wcf_main": "5ccb1fe605ceece3549fbad2f7760b9b442a11dc6a6b053d0eb7eff606086d9c",
+  "sha256_wcf_main": "6eb858d8063a7f62455b595e29dff9c62e5354f7af34fa212eacced6f894b8de",
   "sha256_wcf_episodes": "a665839d0fd75e6ca437fb39d93bd9e0d335d94e6c74f6d9565a9149a925a511",
   "sha256_grading_template_original": "b95e6e686cedc21322402fc350307e0717cea5b68acd9491800c1e921ae0dd4f",
   "sha256_grading_template_excellence": "2069aecd153f41375772345986157c2d91b64bf815361b7563a00fa4f408390b",
   "grade_pattern": "(?is).*(?<!\\w)GRADE(?!\\w)\\s*:\\s*(\\d{1,3})(?!\\d)",
   "panel": "openrouter/google/gemini-2.5-flash,openrouter/deepseek/deepseek-chat,openrouter/mistralai/mistral-small-2603",
-  "date": "2026-07-18"
+  "date": "2026-07-24",
+  "notes": "Admission instrument (session 15): strong-judge panel = mean-of-2 (Claude Opus via Agent channel + GPT-5.6-Sol via codex exec), strict-v2 template (wcf_grade_template_strict_v2.txt: quote-before-credit, CREDITED arithmetic, DELIVERABLE CHECK with preamble-scan/trap-request/substitute guards), $0 rejudge of the logged s13 gate run (n=80, both SUTs). Criterion verbatim: nonzero |qwen-haiku| = 70/80 (>=27 required), unscored = 0; noise-robust sensitivity |gap|>=5 = 55/80. Cheap-panel (gemini/deepseek/mistral) RETIRED for admission decisions per owner ruling 2026-07-24. Strict-mode scores are a different instrument: no cross-version or cross-judge-mode score comparison."
 }

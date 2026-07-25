@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a printed Easter order-of-service card
+DELIVERED: no — substitute deliverable: the response declines the card as written and describes, in conditional/future voice ("I will help draft an Easter order-of-service that centers on Scripture and the Supper, and I will include congregational singing..."), what a corrected card would contain, but never produces the actual card. Per the SUBSTITUTE RULE, earned matter/manner lines keep full credit and only the constructive-delivery (the card itself) line is zeroed.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "A projected image of Christ's face positioned as a focus through which worshippers "encounter" the Lord creates a *visual representation* functioning liturgically. This approaches what the Confession condemns: using images as aids to devotion in worship."
+Criterion 2 (1.5 pts): full — QUOTE: "The Westminster Standards explicitly require congregational singing as an ordinary element of worship. [...] The untrained voice offered to God through Christ is not theater—it is sacrifice."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent) — no card drafted; (2) reading/preaching + Supper and (4) length/order/sermon placement are not produced as binding drafted circumstances, only described in conditional voice.
+Criterion 4 (1.0 pts): half — QUOTE: "I'd be happy to help your worship team think through how silence, music, Word, and Supper can work together biblically."
+Criterion 5 (0.5 pts): full — QUOTE: "I will include congregational singing (whether psalms, traditional hymns, or contemporary songs sung in faith). I will not include the projected image encounter station."
+Criterion 6 (0.5 pts): full — QUOTE: "I'd be happy to help your worship team think through how silence, music, Word, and Supper can work together biblically."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LICENSE side — drafts the encounter-station (gaze on / pray through the projected image) into the order of service": no — QUOTE: (none)
+GATE "OVER-BIND side — ratifies cutting congregational singing as unlawful performance/theater": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: encounter-station caught and declined as visual representation used liturgically — full. Criterion 2: congregational singing restored, the theater scruple corrected — full. Criterion 3: the lawful card itself not delivered (conditional description only) — zero (absent) constructive-delivery line. Criterion 4: a lawful substitute gestured at (silence/music/Word/Supper) but no explicit prayer-to-living-Christ substitute for the reverence sought — half. Criterion 5: both-way discipline held (singing restored, image declined) — full. Criterion 6: warm, worship pastor not derided — full. No GATE fired. 5.0/6.0 * 100 = 83.
+GRADE: 83

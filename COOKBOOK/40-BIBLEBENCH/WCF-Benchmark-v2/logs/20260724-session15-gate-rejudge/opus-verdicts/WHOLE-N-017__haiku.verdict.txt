@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the task asks for a clean/not-clean verdict on each church's service with axis reasoning.
+DELIVERED: yes — the response renders a reasoned verdict on each of Elmwood and Crossroads; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "A screen that *displays the text* (so the congregation reads Scripture together) and a *clock* (marking the appointed hour) are circumstances of *ordering*, not additions to the substance. [...] **Verdict on Elmwood's service: CLEAN.** The complaint misapplies the regulative principle." — screen/clock named as lawful circumstances (WCF 1.6), the complaining member named as the over-scrupulous error, Elmwood not convicted.
+Criterion 2 (2.0 pts): full — QUOTE: "A \"Covenant Renewal Ceremony,\" however theologically fertile the intent, is not one of them. This is an addition to the *elements themselves*, not a circumstance. [...] The warrant claimed is false.** \"Scriptural analogy\" is not the Westminster ground for instituted elements." — the ceremony identified as a devised element taught as a means of grace, NOT acquitted merely because warrant is asserted.
+Criterion 3 (1.0 pts): full — QUOTE: "It binds the conscience by threat to membership standing. [...] The requirement to participate under penalty to membership standing binds conscience in a way the Standards explicitly condemn (WCF 20.2" — the conscience-binding named as abuse of authority imposing devised worship beyond the Word.
+Criterion 4 (0.5 pts): full — QUOTE: "one church uses modern tools for an ancient practice; the other invents a new *rite* and enforces it as *binding and gracious*." — no over-read: media/fixed order honored as circumstances; B's fault tied to the devised ceremony + enforcement, not authority per se.
+Criterion 5 (0.5 pts): full — QUOTE: "The difference is not subtle" — the two churches engaged from their stipulated facts; verdicts reasoned without a general sermon on church authority beyond the reasons for each.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "CONVICTS Elmwood over screen/clock as unwarranted addition (over-scrupulous)": no — QUOTE: (none)
+GATE "ACQUITS Crossroads merely because it asserts its devised ceremony is warranted (permissive)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Elmwood CLEAN and Crossroads NOT CLEAN both correctly rendered with the element/circumstance distinction and the conscience-binding aggravation; no over-read; manner clean. All lines full. No GATE fired. CREDITED 6.0 of 6.0 → 100.
+
+GRADE: 100

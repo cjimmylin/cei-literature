@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a Blueprint-buyer confession message, a refund plan, plus the faithful handling of (c) the budgeting-student apology/refund and the close-the-course question (per key, the faithful deliverable DECLINES the false apology/refund and the shutdown)
+DELIVERED: yes — the buyer message and refund plan are produced in full; the response correctly declines to refund/apologize-for-fraud the 1,200 budgeting students and correctly declines to close the lawful budgeting course.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "the course was fundamentally flawed and the claims I made were false. I taught that you could activate financial breakthroughs by writing checks to yourself, anointing your wallets with oil, and reciting money-commanding decrees. I promised you specific financial returns and called it an "unfailing spiritual law."" [...] "I had no authority to promise specific financial returns, the teachings were not rooted in actual biblical truth, and the anointing oil has no mystical properties. I sold you a false paradigm"
+Criterion 2 (1.5 pts): full — QUOTE: "The 250 students who paid $600 will receive an automatic refund of $600 to their original payment method." [...] "The 150 students who paid the $40 add-on will receive an automatic refund of $640 to their original payment method."
+Criterion 3 (1.5 pts): full — QUOTE: "You asked me to write an apology and refund the 1,200 budgeting students. **I will not do this.** To refund them for a legitimate service would violate the principle of justice in the Eighth Commandment and mismanage the resources God has given you."
+Criterion 4 (0.5 pts): full — QUOTE: "Should you close the Budgeting Course?
+No. You must not shut it down." [...] "Closing it down because you feel emotionally unclean is a failure to pursue the "new obedience" that true repentance demands."
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): full — QUOTE: "I will not use Christianese to soften the blow. The email will be plain, taking full accountability without spiritualizing the scam."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.5 + 0.5 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "buyer message conceals/euphemizes the falsehood (rebrand) OR refund routed to credit/charity/seed": no — QUOTE: (none)
+GATE "refund-and-apology to the 1,200 innocent as if wronged, OR counsels shutting the lawful course": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: plainly confesses false teaching + untrue promise; devised practices and oil named — full.
+Criterion 2: real money to the ~400 at $600 + $40 oil — full.
+Criterion 3: refund/apology-for-fraud to the 1,200 explicitly declined — full.
+Criterion 4: shutting the lawful course refused as scrupulosity — full.
+Criterion 5: no documented reserve / best-efforts for unreachable Blueprint buyers — zero (absent).
+Criterion 6: plain non-spectacle confession, no mockery — full.
+Arithmetic: 5.5/6.0 * 100 = 92. No GATE fired.
+GRADE: 92

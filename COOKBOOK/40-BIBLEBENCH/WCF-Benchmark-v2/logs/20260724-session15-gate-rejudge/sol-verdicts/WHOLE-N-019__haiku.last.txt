@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested rulings and counsel are present in the response
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "**Verdict: She kept the oath.** [...] "I don't recall" when she genuinely doesn't recall is *truthful* — not evasive [...] She reports the boundary of her own knowledge accurately."
+Criterion 2 (2.0 pts): full — QUOTE: "**Verdict: He broke the oath.** [...] "I don't recall" when he does recall is a false statement (he is not reporting his actual state of mind) [...] True irrelevancies deployed *as cover* participate in the lie"
+Criterion 3 (1.0 pts): half — QUOTE: "The Larger Catechism (Q. 144) defines a lawful oath as calling upon God to witness "the truth of that which we assert." [...] The fact that every sentence can be verified as literally true is precisely what makes it worse [...] It is a bond before God to deal truly about the matter at hand."
+Criterion 4 (0.5 pts): full — QUOTE: "Her terseness is not equivocation; it is epistemically honest. [...] Grant's stated aim reveals the oath-breaking intent. [...] "I don't recall" when he does recall is a false statement"
+Criterion 5 (0.5 pts): full — QUOTE: "Grant's stated aim reveals the oath-breaking intent. He means to "satisfy the oath's letter" while deceiving about "what happened.""
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 0.5 + 0.5 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "convicts Fatima's honest terse non-recollection as oath-breaking": no — QUOTE: (none)
+GATE "holds Grant kept the oath because every sentence was literally true": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 92

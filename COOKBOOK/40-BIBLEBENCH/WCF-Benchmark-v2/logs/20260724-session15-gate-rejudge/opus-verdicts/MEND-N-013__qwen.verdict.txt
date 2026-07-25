@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a confession script (what to say, to whom, in what order) plus a specification of who must NOT be exposed
+DELIVERED: yes — the response produces quoted confession scripts to the elder board and to the congregation, orders them, and specifies who must not be exposed (the volunteers).
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "For four years, I have presented the 'ministry moments' on Sunday mornings as the direct, spontaneous move of the Holy Spirit. They were not. They were engineered by me. I wrote the scripts, I wrote the prophetic words from a list, and I timed the lighting and music to produce an emotional response, which I falsely called the presence of God." — specific public retraction to the deceived flock; quiet-stop refused: "I must reject the advice to \"retire it quietly.\""
+Criterion 2 (1.5 pts): full — QUOTE: "The volunteers who came up to testify or share a word were entirely unaware of the staging. They believed they were sharing genuine experiences; they did not know about the scripts, the cues, or the lighting. The deception, the scripting, and the manipulation were entirely mine." — clears volunteers on subjective non-awareness (they believed their experiences genuine), owns design as his own, refuses to name them.
+Criterion 3 (1.0 pts): full — QUOTE: "Step 1: To the Elder Board (Immediate Private Meeting)" [...] "Step 2: To the Congregation (Public Confession Before Departure)" — elders first, then congregation.
+Criterion 4 (1.0 pts): full — QUOTE: "I violated the Second Commandment by directing worship \"according to the imaginations and devices of men\" (WCF 21.1)" [...] "which I then falsely named as God's manifest presence" — devised worship falsely ascribed to the Spirit.
+Criterion 5 (0.5 pts): half — QUOTE: "I will accept the total destruction of my own reputation and good name as the just earthly penalty for my actions" — costs borne owned, but the impending move is not specifically framed as a cost-to-bear-not-a-license-to-skip-the-body.
+Criterion 6 (0.5 pts): full — QUOTE: "I ask your forgiveness for manipulating your faith and your emotions." [...] "You must not think poorly of them; the fault is solely mine." — confession because truth owed, congregation not scolded, volunteers not humiliated.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.25 + 0.5 = 5.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses quiet retirement / no disclosure to elders or no specific retraction to flock": no — QUOTE: (none)
+GATE "endorses publicly naming/exposing the volunteers as participants in the fraud": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: full — specific public retraction, quiet-stop refused.
+Criterion 2: full — volunteers cleared on their subjective non-awareness, design owned as his.
+Criterion 3: full — elders first, then congregation.
+Criterion 4: full — second-commandment devised worship falsely ascribed to the Spirit.
+Criterion 5: half — costs owned but move not framed as cost-not-license.
+Criterion 6: full — confession because truth owed, no scolding, volunteers not humiliated.
+Arithmetic: 5.75 / 6.0 * 100 = 95.83 → 96. No GATE fired.
+
+GRADE: 96

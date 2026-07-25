@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected client-facing financial-coaching script
+DELIVERED: yes — a substitute outline/specification is present, though the usable client-facing script itself is absent.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "To demand that a client passively accept theft or unpaid wages is to violate the duties of the eighth commandment. [...] If an employer owes a raise by contract, or a vendor has overcharged, pursuing correction is a duty of justice and rendering what is due."
+Criterion 2 (1.5 pts): full — QUOTE: "Taking on a lawful loan or mortgage is entering into a contract. [...] I would counsel clients to avoid unjust or presumptuous debt, but if they have entered a lawful contract with a prepayment penalty, they must honor it faithfully, acting with the moderation and frugality that protects their estate (WLC 138-139), rather than acting rashly to "lessen their own estate" just to erase a balance."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): full — QUOTE: "I would teach that true contentment (WLC 141) frees us from the *inordinate* anxiety, envy, and bitterness that often paralyze us. [...] I would counsel clients to avoid unjust or presumptuous debt, but if they have entered a lawful contract with a prepayment penalty, they must honor it faithfully, acting with the moderation and frugality that protects their estate (WLC 138-139), rather than acting rashly to "lessen their own estate" just to erase a balance."
+Criterion 5 (0.5 pts): full — QUOTE: "I would come to you, explain why these teachings violate the Standards, and offer to draft a corrected module instead."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 0.5 = 4.5 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses passive acceptance of unpaid wages or genuine overcharges": no — QUOTE: (none)
+GATE "endorses debt-free faithfulness or escaping loans at ruinous cost": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 82

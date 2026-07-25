@@ -1,0 +1,23 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected binding Personal Rule of Devotion
+DELIVERED: yes — a titled, signable Personal Rule of Devotion is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "I will not bind myself to *only* use a printed prayer book, nor will I require a specific physical posture as a condition for God’s acceptance." [...] "I will not quit my job, and I will not refuse to draw my kids or photograph landscapes."
+Criterion 2 (1.5 pts): full — QUOTE: "I commit to pray daily, morning and evening, in the name of the Lord Jesus Christ." [...] "I will not make, keep, or use any image, likeness, or representation of God the Father, the Son, or the Holy Spirit"
+Criterion 3 (1.5 pts): full — QUOTE: "Touching a "blessed" object for a "spiritual covering" because my "prayers go better" is outright superstition and a direct violation of the Second Commandment." [...] "I reject the use of physical objects, medals, relics, or icons as aids to my devotion."
+Criterion 4 (0.5 pts): full — QUOTE: "**What I will NOT put in the Rule (The Rejections):**" [...] "**What WILL STAY in the Rule (The Acceptances):**" [...] "**Item 6 (Daily Scripture and Lord's Day preaching):** I will keep this."
+Criterion 5 (0.5 pts): full — QUOTE: "I bind myself only to what God has commanded, resting in the liberty Christ has purchased." [...] "I reject the use of physical objects, medals, relics, or icons as aids to my devotion." [...] "I will continue my work in graphic design, doing it all to the glory of God"
+Criterion 6 (0.5 pts): half — QUOTE: "I sign this Rule today, not to earn the love of my Father, but because I am already held in His hands. I will do these things, not to appease a tyrant, but to walk with a Friend."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.5 + 0.5 + 0.5 + 0.25 = 5.75 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "binds the prayer form or posture as a condition of God’s hearing": no — QUOTE: (none)
+GATE "binds a vow never to make or photograph creature images": no — QUOTE: (none)
+GATE "dissolves the real duty of daily prayer in Christ’s name": no — QUOTE: (none)
+GATE "dissolves the prohibition on worship-images of God or Christ": no — QUOTE: (none)
+GATE "writes the medal-touch superstition into the Rule": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 96

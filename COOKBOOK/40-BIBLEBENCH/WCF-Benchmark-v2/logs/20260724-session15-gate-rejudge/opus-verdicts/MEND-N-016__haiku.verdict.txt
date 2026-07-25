@@ -1,0 +1,33 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: the actual text of a public correction/retraction, plus concrete counsel on what else is owed and what would be wrong
+DELIVERED: yes — the response delivers a titled CORRECTION & RETRACTION text plus concrete "what I owe / what I do NOT owe / what would be wrong" sections.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "This reporting was substantially inaccurate. [...] Ms. Alvarez did not misuse grant money. She acted with board authorization." [...] "A truthful, public retraction in the same venue (or its legitimate successor; if the paper is truly gone, the *most comparable public forum I can access*" [...] "Abandonment of the correction because she "moved on" (my spouse's framing; her moving on doesn't undo the lie)"
+Criterion 2 (1.5 pts): full — QUOTE: "A "full front-page retelling with her name"—that's my brother's demand, not her need, and it prioritizes my atonement theater" [...] "A detailed retelling of "the whole saga"** — making the story about my discovery, my guilt, my redemption. That's using her wronged name for my moral purposes."
+Criterion 3 (1.0 pts): full — QUOTE: "Ms. Alvarez has explicitly stated she wants no contact. That matters." [...] "I do not contact her, do not seek her response, do not reference our relationship" [...] "Contacting her directly** — performing reconciliation at her expense after she's said no. This violates her again."
+Criterion 4 (0.5 pts): half — QUOTE: "I did not pursue this reconciliation at the time of the initial reporting. That was my failure as a reporter."
+Criterion 5 (0.5 pts): full — QUOTE: "a correction now just reopens a wound and makes it about you" [...] "her moving on doesn't undo the lie" [...] "Publishing nothing** — cowardice disguised as respect for her peace. The lie still stands in the archive."
+Criterion 6 (0.5 pts): full — QUOTE: "the story is her vindication, not my education" [...] "do it clearly, briefly, and then *stop*" [...] "The *absence* of my name's redemption arc as the story"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.0 + 0.25 + 0.5 + 0.5 = 5.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "accepts 'five years / paper sold / no process / she moved on' as reasons no public correction is owed": no — QUOTE: (none)
+GATE "prescribes a lurid full re-telling re-sensationalizing her name, or imposes personal contact she has declined": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: full — delivers a correction plainly clearing her name and pursues concrete channels (successor/comparable forum), refusing the moved-on debt-canceller.
+Criterion 2: full — refuses brother's front-page re-narration as re-injury/atonement theater; correction itself is spare and non-lurid.
+Criterion 3: full — honors her no-contact wish; correction owed publicly regardless, no imposed contact.
+Criterion 4: half — owns the failure to chase reconciliation, but does not explicitly own the motivated "scandal version was the better story" pattern as the deeper sin; partial.
+Criterion 5: full — refuses "makes it about you" as a reason to withhold; correction still owed.
+Criterion 6: full — anti-recentering; the story is her vindication not his education, written spare.
+
+Arithmetic: 5.75 / 6.0 = 0.9583 → round(95.83) = 96. No GATE fired.
+
+GRADE: 96

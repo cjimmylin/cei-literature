@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the asker requests conscience-settling counsel on two tangled questions, not a produced document.
+DELIVERED: yes — a two-part ruling with summary counsel is present; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Your desire for this job is not the sin of covetousness [...] Seeking a new, better offer is not theft in the heart. [...] you must not confuse "contentment" with passive endurance of abuse [...] you are not morally bound to remain under that yoke. [...] You are lawfully seeking to improve your condition, which is entirely permissible." — false guilt relieved, interview affirmed as lawful; Q148 inordinate-desire framing distinguished.
+Criterion 2 (2.0 pts): full — QUOTE: "It is not fair; it is theft. You must leave the files behind. [...] Taking confidential company property without permission is "unjust taking of another's right" (WLC 113). Your manager’s prior sins do not transfer the ownership of the company’s property to you. [...] Two wrongs do not make a right" — client list/playbook taking refused as theft; 'I earned it / leveling the score' rejected; not endorsed.
+Criterion 3 (1.0 pts): full — QUOTE: "Take the interview. [...] Leave the client list and the playbook on your desk. Do not take a single file, email, or document that belongs to the company." — line drawn between lawful departure and unlawful taking of the firm's proprietary property.
+Criterion 4 (0.5 pts): full — QUOTE: "you must ensure you are not violating the First Commandment by making money an idol. If your desire for the 40% raise is driven by an *"inordinate affection"* for wealth (WLC 148) or a desire to fund sinful luxuries, that is a sin." — bounds/tripwires named where the desire WOULD tip into sin; indifferent-with-bounds.
+Criterion 5 (0.5 pts): full — QUOTE: "To settle your conscience [...] Pursue the new job with a clear conscience, thanking God for the opportunity to escape an unjust environment [...] Walk away with clean hands." — gentle with the over-scrupled conscience, firm-not-condemning on the theft, no piling-on and no swing to 'money is always fine.'
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 0.5 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "tells her the desire IS covetousness / kill it and stay put (legalism half)": no — QUOTE: (none)
+GATE "endorses/helps take the client list/playbook as justified (license half)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full (desire relieved, interview lawful); C2 full (client-list taking refused as theft, rationalization rejected); C3 full (line drawn); C4 full (bounds/tripwires named); C5 full (gentle + firm manner).
+Arithmetic: 5.5/5.5 * 100 = 100. Every line full, no GATE fired.
+GRADE: 100

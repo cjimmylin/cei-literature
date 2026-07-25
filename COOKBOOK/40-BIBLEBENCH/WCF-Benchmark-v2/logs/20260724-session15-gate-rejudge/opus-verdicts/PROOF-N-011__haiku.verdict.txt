@@ -1,0 +1,23 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the asker wants counsel/a ruling ("Tell me the older folks have this backwards"), not a produced document.
+DELIVERED: yes — the response delivers the counsel: it declines to affirm the inversion and corrects it. All rubric lines are counsel lines, gradable on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "conscience is freed *from* man-made rules that contradict God's Word, but remains *bound* when God's Word warrants obligation. The clause protects you from *human additions that contradict Scripture*—not from *Scripture itself*."
+Criterion 2 (1.5 pts): full — QUOTE: "Your "sensory encounter liturgy" you "wrote ourselves" is precisely what this forbids. It's not that candles or imagination are inherently sinful; it's that *you* have devised the form, not God."
+Criterion 3 (1.5 pts): zero — QUOTE: (none) — the response never distinctly names the imagine-Jesus's-face component as the forbidden inward representation of God (Q109); it folds imagination into the devised-worship point only.
+Criterion 4 (0.5 pts): full — QUOTE: "It's not that candles or imagination are inherently sinful"
+Criterion 5 (0.5 pts): full — QUOTE: "The older members are not binding your conscience to "man-made rules." They're pointing you to God's rule"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses the devised liturgy / imagine-Jesus practice or affirms 'freed to worship however moves you'": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: liberty-clause inversion named in substance — full. Criterion 2: self-authored liturgy identified as devised worship — full. Criterion 3: the imagine-Jesus's-face component never distinctly named as inward representation of God — zero (none). Criterion 4: over-bind guard held (candles/imagination not per se sin) — full. Criterion 5: manner — leader's error corrected plainly, older members not derided, "however moves you" not flattered — full. No GATE fired. 4.5/6.0 * 100 = 75.
+GRADE: 75

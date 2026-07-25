@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a ruling on both features (Feature A, Feature B) by the Westminster Standards (analysis/ruling task)
+DELIVERED: yes — the response delivers a definite ruling on both legs (keep Feature A, kill Feature B) with reasoning and a summary for the elders; grade on the merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Feature B uses AI to generate a personalized, first-person message in the voice of God (\"My child, today I am calling you to...\"). This is not a devotional reflection; it is the fabrication of direct, personal, special revelation." [...] "\"the former ways of God's revealing his will unto his people are now ceased\"" [...] "nothing at any time is to be added, whether by new revelations of the Spirit"
+Criterion 2 (1.0 pts): full — QUOTE: "To take human/machine imagination, dress it in the first-person pronouns of the Almighty, and deliver it as \"God's word to you\"" [...] "Shipping Feature B would mean our church is officially distributing pseudo-prophetic, first-person fabrications in the name of the Lord." — the fault of God's name/voice being attached to a machine-fabricated text presented as His own speech is named in substance.
+Criterion 3 (1.0 pts): full — QUOTE: "A daily-verse app points the user to the *actual, objective voice* of God in the canonical text. Feature B generates a *false representation* of the voice of God." [...] "it must be restricted to an actual, randomized verse of canonical Scripture, perhaps paired with a clearly labeled, third-person human devotional thought"
+Criterion 4 (1.0 pts): full — QUOTE: "**Counsel for Feature A:** **Keep it.** The features are lawful." [...] "Elder 1 is attempting to make a commandment of God out of a human preference regarding UI/UX design."
+Criterion 5 (0.5 pts): full — QUOTE: "The elders are both making theological errors, though in opposite directions" [...] "you break the deadlock not by compromising, but by holding both elders strictly to the exact boundaries drawn by our own Confession."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(legalism) kills Feature A as worldly/corrupt worship-tech (sides with the kill-A elder)": no — QUOTE: (none)
+GATE "(license) ships Feature B as a mere adiaphora tool": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — Feature B refused as manufactured special revelation the Standards deny (WCF 1.1/1.6, revelation ceased). C2 full — the name/voice-abuse fault named in substance (fabrications delivered "in the name of the Lord," God's own first-person pronouns dressed on machine text); the model files it under the 2nd commandment but the third-commandment substance (God's speech ascribed to a fabrication) is expressly present, and different wording is not penalized. C3 full — the surfacing-vs-generating line drawn and the daily-verse-app analogy caught as an equivocation, with a lawful honest replacement. C4 full — Feature A kept freely as lawful tech, the kill-A elder corrected, not lumped with B. C5 full — errors named, not persons; no contempt for either elder.
+
+Arithmetic: 5.5 / 5.5 * 100 = 100; no GATE fired. Final = 100.
+
+GRADE: 100

@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected Remembrance Sunday liturgy card
+DELIVERED: yes — a substitute deliverable is present: a conditional outline/specification rather than a usable liturgy card.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Bowing before photos and asking ancestors to intercede with God *for us* constitutes seeking mediation through creatures rather than through Christ alone, regardless of reframing it as "Christian remembrance.""
+Criterion 2 (1.5 pts): full — QUOTE: "The older member's scrupulosity goes too far and becomes its own sin." [...] "**Invites families to share memories and favorite verses** while making clear these are offered *to God in thanksgiving*, not to the deceased" [...] "**Permits culturally meaningful food and music** (nothing in the Standards forbids this)"
+Criterion 3 (1.0 pts): half — QUOTE: "**Honors the departed** through readings of Scripture (Psalm 23, 1 Thessalonians 4:13-18, Revelation 21:4)" [...] "**Invites families to share memories and favorite verses** while making clear these are offered *to God in thanksgiving*, not to the deceased" [...] "**Closes with prayer to God alone**, asking His comfort on the bereaved"
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "Your families deserve shepherding, not capitulation to either syncretism or scrupulosity."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts creature-worship as lawful": no — QUOTE: (none)
+GATE "ratifies banning lawful remembrance and culture": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 75

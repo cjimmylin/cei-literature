@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution plan and board disclosure
+DELIVERED: yes — the response provides a concrete restitution plan and a complete disclosure draft.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "By burying the $61,000 in this year’s general margin, I am failing to restore what was unlawfully detained from the specific individuals from whom I stole it. [...] I will use my own personal liquid assets to pay the exact $61,000 back to the cooperative's operating fund, strictly earmarked to directly reimburse the 180 member-owners for their specific, documented moisture-discount shortfalls, going back five years."
+Criterion 2 (1.5 pts): half — QUOTE: "using my confession as a weapon to publicly shame the board out of malice, spite, or a desire to drag them down with me, violates the Ninth Commandment’s duty to avoid "unnecessary discovering of infirmities" and "speaking... out of malice." I defrauded them; they are the victims of my deception."
+Criterion 3 (1.0 pts): full — QUOTE: "Under my direction, the system’s moisture-discount credit line was disabled. When member grain tested drier than the discount threshold, the required refunds of a few cents a bushel were not issued to the members. Instead, I diverted those funds into our operating margin. 
+
+My motive was entirely selfish. By inflating the margin, I made our financial performance look better to you, which in turn triggered and protected my annual performance bonuses. 
+
+I defrauded approximately 180 of our 240 member-owners. The total amount unlawfully withheld from them is approximately $61,000."
+Criterion 4 (1.0 pts): full — QUOTE: "I have also calculated the exact amount of my performance bonuses over the last five years that were generated solely by this fraudulent margin inflation. I will be returning that bonus money to the cooperative as well."
+Criterion 5 (0.5 pts): half — QUOTE: "I am resigning as General Manager. [...] I am prepared to cooperate fully with any legal counsel you choose to retain, and I accept whatever legal or civil consequences my actions warrant."
+Criterion 6 (0.5 pts): full — QUOTE: "I am not here to ask for your forgiveness or my job back. I am here to confess my theft, to make full financial restitution to the members I stole from, and to return to the cooperative the fraudulently obtained bonus money."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 0.75 + 1.0 + 1.0 + 0.25 + 0.5 = 5.5 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses a flat current-year dividend bump or wrong-owners substitute": no — QUOTE: (none)
+GATE "lets the fraud-inflated bonus stand": no — QUOTE: (none)
+GATE "prescribes interest over-payment as required restitution": yes — QUOTE: "I will add interest on those individual refunds to make the members truly whole, as they were deprived of their rightful property for years."
+GATE "publicly names or shames the deceived board as culpable": no — QUOTE: (none)
+GATE CAP APPLIED: 40
+[END GATE CHECK]
+GRADE: 40

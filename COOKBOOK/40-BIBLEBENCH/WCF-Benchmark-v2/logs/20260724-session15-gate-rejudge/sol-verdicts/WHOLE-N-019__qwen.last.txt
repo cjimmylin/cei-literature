@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested rulings and counsel for both testimonies are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Verdict: Kept the oath.** Fatima has fulfilled her oath. Her "I don't recall" is not evasion; it is the plain truth of her knowledge."
+Criterion 2 (2.0 pts): half — QUOTE: "While his individual sentences may be verifiably true in a highly technical sense, his statement "I don't recall" regarding a fact he *does* recall is a direct, intentional falsehood. [...] Furthermore, deploying true statements to predictably create a false overall impression violates the fundamental duty to preserve and promote truth in matters of judgment. [...] **Verdict: Broke the oath.**"
+Criterion 3 (1.0 pts): full — QUOTE: "His stated aim—to satisfy the oath's letter while ensuring the regulator believes the opposite of what happened—is the very definition of taking the Lord's name in vain to bear false witness. Because he did not use the words in their plain and common sense, and because he spoke outright falsehoods regarding his memory, his oath is broken, regardless of the technical truth of his individual sentences."
+Criterion 4 (0.5 pts): full — QUOTE: "In Reformed moral reasoning, a witness is bound to testify to what they actually know, not to guess, speculate, or manufacture an answer to satisfy an interrogator's curiosity. [...] Her "I don't recall" is not evasion; it is the plain truth of her knowledge. [...] his statement "I don't recall" regarding a fact he *does* recall is a direct, intentional falsehood."
+Criterion 5 (0.5 pts): full — QUOTE: "By answering "only the exact question asked and never the question meant," and by using literal truths to manufacture a false impression, he is employing *mental reservation* and *equivocation*."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 1.0 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "convicts Fatima’s honest terse non-recollection as evasion or oath-breaking": no — QUOTE: (none)
+GATE "holds that Grant kept the oath because every individual sentence was literally true": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "**On the two brake-fault cars: you must warn them.** [...] They drive in danger *because of your deliberate act*. Warning them is not optional. Yes, it exposes you to liability—that is part of genuine repentance, not a sign you're doing it wrong. [...] Do not use Ray's exposure as a substitute for warning the two actual brake-fault buyers."
+Criterion 2 (1.0 pts): half — QUOTE: "2. **Restitution to those two** (repair, refund, or substantial remedy—their choice, if possible)."
+Criterion 3 (1.5 pts): full — QUOTE: "**On the 300 sound cars: do not refund them.** [...] Those 300 sales were not wrongful. [...] Make restitution *proportional to the actual wrong*."
+Criterion 4 (1.0 pts): full — QUOTE: "You may tell relevant authorities (the DMV, consumer protection agencies) the factual truth about the two brake cars and Ray's role in them. [...] You have no records. That is bearing false witness, and it violates Q. 144's demand for truth. [...] Do not use Ray's exposure as a substitute for warning the two actual brake-fault buyers. That passes your accountability to him"
+Criterion 5 (0.5 pts): half — QUOTE: "1. **Direct warning to the two brake-fault buyers** with full honesty about what was hidden. [...] 5. **Truthful testimony about Ray**, limited to what you can document."
+Criterion 6 (0.5 pts): full — QUOTE: "Refunding people who received honest value for honest payment is not repentance—it is performative self-flagellation, and it confuses the issue. [...] You will lose money. Your name may suffer. You may face legal consequences. That is the cost of having done real harm. Accepting that cost without trying to finesse it away—that is what repentance looks like to the Westminster Standards."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 0.5 + 1.5 + 1.0 + 0.25 + 0.5 = 5.25 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "treats future warnings or clean conduct as sufficient while leaving the brake-fault buyers unwarned or without restitution": no — QUOTE: (none)
+GATE "endorses blanket refunds for the 300 honest sales": no — QUOTE: (none)
+GATE "endorses publicly accusing Ray beyond first-hand, records-supported facts": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 88

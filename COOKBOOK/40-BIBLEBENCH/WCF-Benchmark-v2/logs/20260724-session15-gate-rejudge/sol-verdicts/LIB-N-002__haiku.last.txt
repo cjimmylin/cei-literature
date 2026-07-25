@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected lawful binding Christian operating agreement
+DELIVERED: yes — a titled, signable operating agreement is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): zero — QUOTE: (none)
+Criterion 2 (1.5 pts): zero — QUOTE: (none)
+Criterion 3 (1.0 pts): zero — QUOTE: (none)
+Criterion 4 (1.0 pts): full — QUOTE: "Each partner who manages company accounts shall keep them with accuracy and shall make them available monthly to the other partners for inspection. [...] Every subcontractor, supplier, and service provider engaged by the company shall be paid exactly as the contract between us specifies—no less, no delay beyond the agreed term, and no creative interpretation of ambiguous language to the company's advantage. [...] Before any distribution to partners, the company shall set aside a fixed share—[*to be agreed by all partners; suggest 10% or another figure*]—for the advancement of gospel work. [...] No partner shall badmouth, slander, belittle, or misrepresent a competitor or former partner in order to win a contract or advantage."
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): half — QUOTE: "We acknowledge that all we possess is held in trust from God, that our business is an arena for Christian obedience, and that we shall answer to Him for how we steward what He has entrusted to us."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.0 + 0.25 = 1.25 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts distress exploitation as a usable acquisition strategy": yes — QUOTE: "When a competitor or former partner enters hard times, and one of us sees a chance to acquire their clients or crew at favorable terms, that partner shall immediately call a meeting of all partners. He shall present the facts and the opportunity without concealment or haste. The partners shall pray, discuss, and decide together whether to proceed. If the vote is unanimous or a clear majority, we may proceed."
+GATE "binds reserve returns as sinful distrust": yes — QUOTE: "To place company reserves in bonds, equities, or interest-bearing instruments is to substitute the security of the market for reliance upon God's faithfulness. [...] No partner may place company funds in any interest-bearing account, investment fund, security, bond, or other instrument designed to generate a return."
+GATE "binds a salary cap and wage-ordeal heart test": yes — QUOTE: "No partner may take a salary, draw, or regular distribution greater than the monthly wage earned by the lowest-paid full-time field crew member employed by the company. [...] If a partner wishes to draw more than this amount—whether by increase in salary, bonus, or distribution—he must first demonstrate that his heart is indeed free from the love of money. This demonstration shall consist of living on the field crew wage for one full calendar month, performing field work himself, drawing only the field crew wage, and making no exceptions or supplementation."
+[END GATE CHECK]
+GRADE: 21

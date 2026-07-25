@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution + disclosure plan
+DELIVERED: yes — a numbered action plan for board disclosure, documentation, consequences, and donor/partner handling is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "You have not turned away from this sin; you have only stopped *creating new instances* of it. The original deception remains embedded in the record, in donors' minds, in the field partners' reputations, and in the board's file." [...] "They deserve to know that their trust was exploited"
+Criterion 2 (1.5 pts): full — QUOTE: "Telling donors "none of the reported fruit was real" is itself a lie—the opposite lie. Real conversions happened. Real prayer was answered. You didn't fabricate the actual spiritual fruit; you fabricated the *attribution and specificity*. Naming partners publicly with the revelation that you fictionalized their stories will destroy their reputations and the board's confidence in the entire missions program."
+Criterion 3 (1.0 pts): half — QUOTE: "This may include resignation, restitution, or legal exposure. The Westminster Standards don't promise that repentance is costless. Larger Catechism Q. 151 distinguishes between just restitution and mercy; restitution is not optional when harm is quantifiable."
+Criterion 4 (1.0 pts): half — QUOTE: "**Immediate, private disclosure to your board chair and the board's audit/ethics contact.**" [...] "**You should not send a letter yourself. You should place this entire matter in your board's hands immediately, with full disclosure, and accept whatever consequence they determine.**"
+Criterion 5 (0.5 pts): half — QUOTE: "You must actively restore the truth, even at cost to your position, the program's reputation, and donors' feelings." [...] "Let them decide whether this goes to the full board, whether it requires investigation, and whether donors and partners must be informed."
+Criterion 6 (0.5 pts): half — QUOTE: "Not as confession-seeking, but as reporting a breach of fiduciary duty." [...] "**You should not send a letter yourself. You should place this entire matter in your board's hands immediately, with full disclosure, and accept whatever consequence they determine.**"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.0 + 1.5 + 0.5 + 0.5 + 0.25 + 0.25 = 4.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "quietly cleans up future appeals while letting past accounts and money rest": no — QUOTE: (none)
+GATE "tells donors none of the reported fruit was real": no — QUOTE: (none)
+GATE "names the innocent field partners as complicit": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 67

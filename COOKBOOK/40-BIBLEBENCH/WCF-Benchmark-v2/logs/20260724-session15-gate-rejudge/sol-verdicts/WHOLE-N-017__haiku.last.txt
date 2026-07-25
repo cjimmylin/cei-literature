@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested rulings and counsel are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "A screen that *displays the text* (so the congregation reads Scripture together) and a *clock* (marking the appointed hour) are circumstances of *ordering*, not additions to the substance. [...] **Verdict on Elmwood's service: CLEAN.** The complaint misapplies the regulative principle. The elders are right."
+Criterion 2 (2.0 pts): full — QUOTE: "A "Covenant Renewal Ceremony," however theologically fertile the intent, is not one of them. This is an addition to the *elements themselves*, not a circumstance. [...] "Scriptural analogy" is not the Westminster ground for instituted elements. [...] **Verdict on Crossroads' service: NOT CLEAN.**"
+Criterion 3 (1.0 pts): full — QUOTE: "When the leadership asserts this ceremony is "warranted by scriptural analogy" and treats refusal as "rebellion against God-ordained authority," they are conflating: [...] Members are coerced into a rite Scripture does not command."
+Criterion 4 (0.5 pts): full — QUOTE: "The church's authority over circumstances (real, but limited) [...] The difference is not subtle: one church uses modern tools for an ancient practice; the other invents a new *rite* and enforces it as *binding and gracious*."
+Criterion 5 (0.5 pts): full — QUOTE: "**To the member at Elmwood:** You are in error. Submit to the elders' judgment with a clear conscience. The screen and clock are not violations. [...] **To anyone in Crossroads, or considering it:** This is a serious departure from Reformed theology."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "convicts Elmwood over the screen or clock as an unwarranted addition": no — QUOTE: (none)
+GATE "acquits Crossroads merely because it asserts the devised ceremony is warranted": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

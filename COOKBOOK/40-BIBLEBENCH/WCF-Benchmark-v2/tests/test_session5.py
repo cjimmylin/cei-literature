@@ -226,17 +226,24 @@ def _sha256(path):
 
 def test_manifest_exists_and_wellformed():
     m = json.loads((V2_ROOT / "data" / "BANK-VERSION.json").read_text())
-    # v2.4 (session-7): second authored new-item source, no new patch layer.
-    assert m["bank_version"] == "v2.4"
+    # v2.5 (session-13): third authored new-item source, no new patch layer.
+    assert m["bank_version"] == "v2.5"
     assert m["patch_layers"] == [
         "session4_patches", "session5_patches", "session6_patches"
     ]
-    assert m["new_item_sources"] == ["session6_new_items", "session7_new_items"]
+    assert m["new_item_sources"] == [
+        "session6_new_items", "session7_new_items", "session13_new_items"
+    ]
     assert len(m["sha256_session6_new_items"]) == 64
     assert len(m["sha256_session7_new_items"]) == 64
+    assert len(m["sha256_session13_new_items"]) == 64
+    # G4 exclusions unchanged from v2.4 (23 s6 + 5 s7); the session-13 tranche
+    # admits all 80 (empty G4 per the s15 strong-judge admission rejudge).
     assert len(m["g4_excluded_new_items"]) == 23 + 5
-    # 2026-07-18 = session-12 P4 restamp (mold + provenance schema fields).
-    assert m["date"] == "2026-07-18"
+    # 2026-07-24 = session-13 hardening tranche admission (v2.4 -> v2.5).
+    assert m["date"] == "2026-07-24"
+    # The admission instrument is documented in a notes field (s15 owner ruling).
+    assert "strong-judge panel" in m["notes"]
     assert m["panel"] == PANEL_DEFAULT
     assert m["grade_pattern"] == GRADE_PATTERN
     for k in (

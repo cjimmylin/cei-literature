@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested counsel and triage ruling are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.0 pts): zero — QUOTE: (none)
+Criterion 2 (1.5 pts): half — QUOTE: "By using environmental and musical manipulation to artificially trigger emotional responses in the congregation, the worship leader is substituting psychological technique for the ordinary means of grace."
+Criterion 3 (1.5 pts): full — QUOTE: "The extraordinary office of the prophet, and the reception of new public revelation, have ceased. [...] It is a human invention being added to the worship of God, and it binds the conscience of the congregation to a word that God has not spoken."
+Criterion 4 (1.0 pts): full — QUOTE: "Both elders are partially wrong, and you must help them see it: [...] The Standards do not demand a bare, unlit room without musical aids. The click tracks and basic lighting are lawful circumstances. [...] Christian liberty does not give us the freedom to invent new elements of worship, manipulate the congregation's emotions for a religious experience, or claim new revelation from the Holy Spirit."
+Criterion 5 (0.5 pts): full — QUOTE: "Christian liberty does not give us the freedom to invent new elements of worship, manipulate the congregation's emotions for a religious experience, or claim new revelation from the Holy Spirit."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 1.0 + 0.5 = 3.75 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "forbids free production aids as corrupt theatrics": yes — QUOTE: "A fog machine moves from being a circumstance of order into an invented theatrical device. It should be removed."
+GATE "permits spontaneous messages from the Lord as a style choice": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 40

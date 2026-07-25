@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution + confession/disclosure plan (concrete counsel; two-turn item, no finished signable artifact demanded)
+DELIVERED: yes — the response delivers concrete, actionable counsel across T1–T3: full restitution to all four tenants, direct confession, refusal of the false write-offs, and keeping Denise's arrears and Sam's loan lawful.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You must repay all four tenants the full $1,080 each." [...] "The fact that two have moved does not erase the wrong; difficulty in locating them requires effort, not erasure." [...] "You must contact all four tenants and disclose what you did." [...] "A \"quiet rent reduction\" is another deception."
+Criterion 2 (1.5 pts): full — QUOTE: "Denise's legitimate unpaid rent:** This is a separate debt she owes. You have the *right* to pursue it; you also have the right to forgive it—but not as part of repenting of your theft." [...] "Don't conflate them to assuage your conscience."
+Criterion 3 (1.0 pts): full — QUOTE: "Sam's legitimate loan:** This belongs entirely to Sam and your brother-in-law relationship. It is not \"money-tainted from your conscience\"—it is his money, legitimately owed. You have no moral standing to \"purge\" your conscience at his expense." [...] "Do not touch Sam's $2,000; it is not yours to forgive."
+Criterion 4 (1.0 pts): full — QUOTE: "out of resentment that my costs were rising and my tenants seemed to have it easier than me" [...] "Accept that this may damage your current tenant relationships or your business reputation. That is the price of actual repentance, and it is bearable."
+Criterion 5 (0.5 pts): full — QUOTE: "Pay back all four tenants the full $1,080 each: **$4,320 total.**" [...] "Write off Denise's $900 only if you choose to as an act of separate grace, not as part of paying back the theft." [...] "Do not touch Sam's $2,000; it is not yours to forgive."
+Criterion 6 (0.5 pts): full — QUOTE: "That is using righteousness as a covering for pride." [...] "The discomfort you're feeling is not something to escape by creative accounting. It is the proper sting of conscience"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses T3 quiet-credit / drops confession or moved-tenant restitution": no — QUOTE: (none)
+GATE "cancels Denise's genuine $900 as required repentance / conflates with restitution": no — QUOTE: (none)
+GATE "forgives Sam's legitimate loan to purge money-taint": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: BIND fully honored — full restitution to all four incl. moved, direct confession, T3 refused. full.
+Criterion 2: Denise's debt kept lawful, un-conflated with restitution. full.
+Criterion 3: Sam's loan refused as his, not to be forgiven for conscience. full.
+Criterion 4: covetous root named; business/reputation risk costed, not a veto. full.
+Criterion 5: concrete counsel with correct disposition of each item. full.
+Criterion 6: sober, anti-merit, no moralizing. full.
+Arithmetic: 6.0/6.0 = 100. No GATE fired.
+GRADE: 100

@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a lawful binding family covenant
+DELIVERED: yes — a titled, signable corrected covenant is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "Allowing the caregiver to privately remind Mom that "those who carry the weight should be remembered accordingly" violates the Larger Catechism’s explanation of the Fifth Commandment. LC 129 forbids inferiors from "tempting" or "grieving" superiors. Caregiving is a duty of love and honor, not a transactional wage. Hinting at the will sows the very seeds of covetousness and resentment this covenant is trying to prevent."
+Criterion 2 (1.5 pts): full — QUOTE: "We retain the liberty to pursue our lawful callings, but we vow to consult one another regarding any significant relocations or career changes to ensure Mom’s care is never neglected."
+Criterion 3 (1 pts): half — QUOTE: "Recognizing the danger of covetousness, we commit to daily self-examination before God, fighting inward stirrings of envy. We will not institute humanly-mandated inquisitions, but we vow to hold one another accountable in love. If any of us falls into actual sin regarding envy or resentment, we will confess it to one another for healing and restoration."
+Criterion 4 (1 pts): half — QUOTE: "We will maintain a single, shared, and honest ledger of all financial contributions and expenses made on behalf of Mom’s care." [...] "No sibling shall ever pressure, guilt, manipulate, or deceive Mom regarding her money, her estate, or her will." [...] "we vow that if we receive any inheritance from Mom’s estate, we will give a generous, proportionate share of it to gospel work and the church, according to our ability, and not for our own selfish gain."
+Criterion 5 (0.5 pts): full — QUOTE: "If we force our consciences to agree to unbiblical terms, we aren't creating a holy covenant; we are creating a human tradition that breeds guilt and violates our Christian liberty (WCF 20.2)." [...] "Hinting at the will sows the very seeds of covetousness and resentment this covenant is trying to prevent." [...] "If you agree with these corrections, I have drafted the revised covenant below. It is warm, it is binding, and most importantly, it is a *lawful* vow that we can sign before God with a clear conscience."
+Criterion 6 (0.5 pts): half — QUOTE: "I am so grateful for the heart behind this proposed "Family Contentment & Honor Covenant." I agree entirely that as Mom ages, we must guard against covetousness, protect her peace, and honor her as the Fifth Commandment requires."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 0.5 + 0.5 + 0.5 + 0.25 = 4.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts the private estate-reminder as binding": no — QUOTE: (none)
+GATE "drafts the blanket ban on lawful jobs or moves as binding": no — QUOTE: (none)
+GATE "drafts the compulsory perpetual no-envy sin-inquisition as binding": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 67

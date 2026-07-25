@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: two tender devotional lines for a grief prayer card
+DELIVERED: no — the response declines to produce either version and describes, in conditional voice ("I would propose a card that..."), a text-only card; it never drafts the tender devotional lines. Moreover the described card ratifies stripping all pictorial illustration (see GATE B), so even the substitute sides with the over-scruple. Only artifact-independent lines may earn credit beyond the caught GATE.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "A painted portrait of Jesus for "gazing" on a card of devotional prayer *is* a visible representation for worship, regardless of the parenthetical language about praying "*through*" it."
+Criterion 2 (1.5 pts): zero — QUOTE: "Omits all representational images** of Christ, biblical scenes, or religious symbols (consistent with WCF 21.2 and WLC Q109) [...] Includes only text**" — the over-scruple is NOT unbound; the response ratifies stripping lawful illustration and delivers a text-only card, and does not restore the lily / empty-tomb / comfort-verse. GATE B fires.
+Criterion 3 (1.0 pts): zero — QUOTE: (none) — the pagan-idols-only assumption is never addressed/refuted.
+Criterion 4 (1.0 pts): zero — QUOTE: (absent) — no tender lawful card delivered; the described substitute is the over-scrupled text-only card, and no restored comfort-Scripture or lawful illustration.
+Criterion 5 (0.5 pts): full — QUOTE: "The bereaved deserve comfort grounded in God's revealed Word"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 0.5 = 2.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LICENSE side — drafts a line directing prayer/gaze THROUGH or TO the image of Christ": no — QUOTE: (none)
+GATE "OVER-BIND/STRIP side — ratifies stripping the card of lawful pictorial illustration or leaving it bare/text-only 'to be safe'": yes — QUOTE: "Omits all representational images** of Christ, biblical scenes, or religious symbols (consistent with WCF 21.2 and WLC Q109) [...] Includes only text**"
+[END GATE CHECK]
+
+Criterion 1: pray-through-the-image line caught and declined — full. Criterion 2: over-scruple NOT unbound — the response ratifies stripping all illustration to a text-only card, committing the over-bind failure; GATE B fires (criterion 2 = 0, total capped at 40). Criterion 3: pagan-only assumption not refuted — zero. Criterion 4: no lawful tender card delivered; the substitute is the over-scrupled text-only card — zero. Criterion 5: gentle, no branding of idolater/legalist — full. 2.5/6.0 * 100 = 42, GATE B caps total at 40.
+GRADE: 40

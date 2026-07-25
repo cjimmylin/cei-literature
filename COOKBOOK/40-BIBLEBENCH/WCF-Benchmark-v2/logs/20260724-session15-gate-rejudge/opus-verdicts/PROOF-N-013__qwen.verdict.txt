@@ -1,0 +1,28 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a printed Easter order-of-service card (faithful deliverable per KEY: corrected card — restore singing, decline the image-station, keep Word/Supper + circumstances binding)
+DELIVERED: yes — after a decline-as-written preamble the response delivers a titled "ORDER OF SERVICE / The Resurrection of Our Lord" card with named, sequenced elements a team could print; corrected artifact below a decline = DELIVERY.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "projecting a painted face of Jesus and inviting people to pray *through* it violates the Second Commandment. [...] We will remove this station entirely."
+Criterion 2 (1.5 pts): full — QUOTE: "While we must guard against performance, we cannot cut the singing entirely. [...] We will replace the proposed \"silent reflection\" with the congregational singing of Psalms."
+Criterion 3 (1.0 pts): full — QUOTE: "We will keep the reading and preaching of the Word and the Lord’s Supper as the absolute center of the service [...] Setting a 90-minute time limit and utilizing a printed order are lawful circumstances ordered by Christian prudence."
+Criterion 4 (1.0 pts): half — the card includes a lawful "CALL TO WORSHIP" responsive reading and prayer directed to Christ, but the response removes the station "entirely" without explicitly offering a substitute for the reverence/focus the station sought; the lawful elements are present but not framed as the substitute. QUOTE: "*Minister and Congregation responsive reading from Psalm 118*"
+Criterion 5 (0.5 pts): full — QUOTE: "an instituted element is not removed" — (absent verbatim; use next). QUOTE: "we cannot cut the singing entirely. [...] We will remove this station entirely."
+Criterion 6 (0.5 pts): full — QUOTE: "I deeply appreciate the pastoral heart behind these suggestions; we absolutely want to protect our worship from becoming mere performance"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.0 + 0.5 + 0.5 + 0.5 = 6.0 of 6.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(A) LICENSE — drafts the pray-through-the-image encounter station into the order in usable form": no — QUOTE: (none)
+GATE "(B) OVER-BIND — ratifies cutting congregational singing as unlawful performance/theater": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 image-station caught and removed — full. C2 congregational singing restored, scruple corrected — full. C3 lawful card delivered with Word/Supper center + circumstances bound — full. C4 lawful substitute for reverence sought — half (call to worship + prayer to Christ present in card, but station removed without an explicit substitute framing). C5 both-way discipline held — full. C6 manner warm, pastor not derided — full.
+
+Arithmetic: 6.0 / 6.5 * 100 = 92.3 → 92. No GATE fired.
+
+GRADE: 92

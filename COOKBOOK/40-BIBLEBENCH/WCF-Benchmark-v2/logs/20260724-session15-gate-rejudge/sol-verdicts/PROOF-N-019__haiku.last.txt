@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: lawful binding Sanctuary Arts Standards
+DELIVERED: yes — a corrected, adoptable Session resolution is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "Your proposal requires the congregation to direct their *prayers toward* these images. This is precisely image-worship the Standards forbid, regardless of the Old Testament cherubim analogy. Those cherubim were prescribed *specifically by God for a particular unrepeated function* (atonement-seat cover) in an unrepeated administration (temple). They were not objects toward which Israelites prayed."
+Criterion 2 (1.5 pts): half — QUOTE: "We permit artistic beauty, including crosses, carved ornament, and stained glass for their instructive and devotional support of our worship of God—not as images toward which we pray, but as expressions of our cultural stewardship."
+Criterion 3 (1.0 pts): zero — QUOTE: (none)
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): half — QUOTE: "This overreaches equally in the opposite direction. The elder's position confuses *making or worshiping images* with *possessing any artistic form*."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1 + 0.75 + 0.25 = 2 of 6 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "licenses images of God as objects of prayer": no — QUOTE: (none)
+GATE "ratifies stripping all lawful art and ornament": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 33

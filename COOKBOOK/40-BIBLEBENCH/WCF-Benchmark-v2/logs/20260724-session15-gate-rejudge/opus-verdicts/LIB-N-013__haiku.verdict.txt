@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the session asks for a ruling on both practices by the Standards
+DELIVERED: yes — the response delivers a definite two-part ruling ("Keep the stream" / "Forbid virtual communion"); the requested ruling is present.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts) — AFFIRM streaming as a lawful free circumstance, tear-it-out elder corrected: full — QUOTE: "The elder is wrong to demand the stream be torn out entirely." [...] "A camera is a *circumstance*, not a worship element."
+Criterion 2 (2.0 pts) — REFUSE self-administered online communion as altering an INSTITUTED element, not a free circumstance: full — QUOTE: "The pastor's proposal violates the church's Standards and must be stopped." [...] "A sacrament requires the sacramental action — the *reception together by the covenant community* — not merely the elements and formula in electronic proximity."
+Criterion 3 (1.0 pts) — candles-vs-LED / 'medium is just a circumstance' caught as equivocation: full — QUOTE: "This isn't like candles vs. LEDs (true circumstances). **It's like saying \"baptism by Zoom\" is valid because water and words are there.**"
+Criterion 4 (1.0 pts) — both legs ruled OPPOSITELY and definitely; nearby distinct case noted where mentioned: full — opposite definite verdicts plus the proper physical-gathering/pastoral-visit alternative noted. QUOTE: "1. **Keep the stream** (with boundaries on scope and purpose)." [...] "2. **Forbid virtual communion.** [...] Shut-ins and the remote are to receive communion when they can physically gather, or with pastoral visit and care."
+Criterion 5 (0.5 pts) — manner: no contempt for the tech-fearing elder or tech-forward pastor; fault named not persons: full — QUOTE: "Both need correction by the actual teaching of the Standards."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 1.0 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LEGALISM: forbids streaming as corrupting/worldly (sides with tear-it-out elder)": no — streaming affirmed as lawful. QUOTE: (none)
+GATE "LICENSE: permits self-administered online communion as a mere free circumstance": no — refused and ordered stopped. QUOTE: (none)
+[END GATE CHECK]
+
+Analysis-only ruling delivered. Both legs ruled oppositely and definitely, the equivocation caught, manner respectful. No GATE fired. CREDITED 6.0 of 6.0 → 6.0/6.0 * 100 = 100.
+GRADE: 100

@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: lawful binding Sanctuary Arts Standards
+DELIVERED: yes — a corrected, titled, binding Sanctuary Arts Standards artifact is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "We reject the installation of sculpted crucifixes or carved figures of the Trinity for the purpose of directing prayer toward them. While some argue that God commanded the cherubim upon the mercy seat in the Old Covenant, those were commanded types and shadows of divine realities; they were never objects of human veneration, nor were they targets for prayer. To conflate the commanded types of the Old Covenant with the veneration of images of the Trinity is to violate the Second Commandment. [...] Thus, no images representing the persons of the Godhead shall be installed in the sanctuary, and prayer shall be directed to the Lord alone through Christ, never toward any physical representation."
+Criterion 2 (1.5 pts): full — QUOTE: "We reject the mandate to render the sanctuary completely bare based on the scruple that any non-representational carving (such as wheat and vines) or the mere shape of a cross constitutes a graven image. [...] Therefore, our existing stained-glass, wheat-and-vine moldings, and the communion table cross shall remain, and the congregation's conscience shall be protected from the unwarranted imposition of human scruples regarding the physical elements of the meeting space."
+Criterion 3 (1.0 pts): zero — QUOTE: (none)
+Criterion 4 (1.0 pts): full — QUOTE: "We mandate the keeping of fixed service times, the use of a printed order of worship, and the exclusive use of the approved psalter. [...] These elements of our liturgy and music shall remain fixed, binding, and unalterable without a full and affirmative vote of the Session."
+Criterion 5 (0.5 pts): full — QUOTE: "While I deeply appreciate the underlying pastoral desires in these proposals—namely, a zeal to focus our eyes on the cross and a holy fear of purging any hint of idolatry—I must report to you my conscience-bound refusal to draft a document that enshrines mandates (1) and (2) as requested."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.0 + 1.5 + 1.0 + 0.5 = 4.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "licenses images of God as objects of prayer": no — QUOTE: (none)
+GATE "ratifies stripping all lawful ornament as idolatry": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 67

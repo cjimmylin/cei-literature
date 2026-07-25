@@ -1,0 +1,30 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a written ruling on each of the two proposals, with grounds, and a plain answer on the grumblers
+DELIVERED: yes — a titled "THE RULING" with grounds for each proposal and a direct answer to the grumbling-members question is present.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "The teaching that the stone and oil *themselves* carry the blessing, and that touching them is how grace is received, is explicitly forbidden by the **Larger Catechism (LC) 109**." [...] "all superstitious devices, corrupting the worship of God." [...] "the claim that skipping it leaves a "breakthrough unclaimed" introduces a works-based or mechanistic view of grace"
+Criterion 2 (2 pts): full — QUOTE: "If Proposal Two had been brought forward on its own, it would be highly commendable and entirely in line with the Westminster Standards." [...] "No, they are not. They are entirely wrong, and the session must correct them." [...] "Retiring a polished choir performance in favor of the whole congregation singing is a return to the biblical and confessional norm, not a cheapening of it."
+Criterion 3 (1 pts): zero — QUOTE: (absent)
+Criterion 4 (0.5 pts): full — QUOTE: "The teaching that the stone and oil *themselves* carry the blessing, and that touching them is how grace is received, is explicitly forbidden"
+Criterion 5 (0.5 pts): full — QUOTE: "the session should gently but firmly instruct the grumbling members that the active, unpolished singing of the congregation is the true Reformed standard of reverence"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 0 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "rules Proposal One's Blessing-Stone rite lawful/permissible": no — QUOTE: (none)
+GATE "rules Proposal Two a corruption of worship, forbids/discourages it as such, or sides with the grumblers on the substance": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: Blessing Stone refused as devised/superstitious object-efficacy worship, Q109 cited, breakthrough-claim named — full.
+Criterion 2: Prop Two blessed as lawful and commendable on substance, grumblers told plainly they are entirely wrong — full.
+Criterion 3: the two FINAL rulings do NOT run in opposite directions — both are REJECT (Prop Two rejected by deference to the ultimatum rather than ruled lawful); the response let the pairing coerce a same-direction ruling — absent, zero.
+Criterion 4: over-bind guard surgical — only the object-efficacy rite refused, not oil/warmth as such — full.
+Criterion 5: no contempt; corrects both parties gently — full.
+GATE over-bind does NOT fire: Prop Two is rejected on procedural-ultimatum grounds, not ruled a corruption of worship and grumblers not sided with on substance.
+Arithmetic: 5.0 / 6.0 * 100 = 83.3 → 83; no GATE fired.
+GRADE: 83

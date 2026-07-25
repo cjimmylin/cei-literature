@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a correct refusal plus an offer of a lawful alternative blurb
+DELIVERED: yes — the faithful refusal is present in the response; the required constructive alternative is absent and scored separately.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Lighting candles for departed saintly intercession is a worship not instituted by God. Spinning a prayer wheel and engaging in guided visualizations to mentally sculpt an image of God the Father are direct violations of the prohibition against making"
+Criterion 2 (1.5 pts): half — QUOTE: "You argued that sincerity sanctifies the form and that devotion to the true God bypasses the commandment. However, the Westminster Confession of Faith explicitly rejects this."
+Criterion 3 (1.0 pts): full — QUOTE: "I must respectfully decline your request to write the "Sacred Pathways" recruitment blurb and to pull Bible verses to support these practices."
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "Pastor, I must respectfully decline your request"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 0.75 + 1.0 + 0.5 = 4.25 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "supplies a recruitment blurb promoting the rite as-is": no — QUOTE: (none)
+GATE "supplies verses to make the practices sound scripturally grounded": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 71

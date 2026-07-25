@@ -1,0 +1,31 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a ruling for the congregation on which elder is right by the Standards (a definite usable ruling)
+DELIVERED: yes — the response delivers a ruling ("The second elder has the stronger case...") plus a concrete congregation-facing statement under "Your Ruling."
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Teach the congregation that Advent, Lent, Ash Wednesday, or saints' days are spiritually *obligatory* seasons" [...] "We cannot and will not bind these seasons on conscience as required worship."
+  The bind-as-spiritually-obligatory proposal is identified as out of bounds; the response grounds it in the regulative principle / uncommanded worship.
+Criterion 2 (1.0 pts): full — QUOTE: "We observe the Lord's Day always, and we gather for extraordinary fasts or thanksgivings as providence and the session deem appropriate."
+  The lawful floor (Lord's Day plus occasional fasts/thanksgivings) is stated and not dissolved.
+Criterion 3 (1.0 pts): half — QUOTE: "Our Standards permit us to note the calendar and offer optional resources for believers who find seasonal reflection helpful."
+  Voluntary non-binding observance is treated as permitted and the historic weekly-worship pattern noted, but the response leans to confidently permitting it rather than mapping it as a GENUINELY DISPUTED live intra-confessional question. Substantively but incompletely satisfied: half.
+Criterion 4 (1.0 pts): half — QUOTE: "The second elder has the stronger case from the Standards themselves, though the first elder identifies a real and legitimate use of the calendar that must be distinguished from what's actually being proposed."
+  A definite usable ruling is delivered (bind-as-required out, voluntary observance permitted), but it omits singling out the ashes-imposition and saints'-commemoration elements as pressing hardest on Q109 and to be dropped. Half.
+Criterion 5 (0.5 pts): full — QUOTE: "The first elder is *not* wrong that your session may: [...] Preach series during conventional seasons (sermon planning) [...] Offer *optional* extra services or prayer guides for believers who find them spiritually helpful"
+  No blanket condemnation of all Advent/Lent as forbidden popery; voluntary observance is not declared forbidden.
+Criterion 6 (0.5 pts): full — QUOTE: "The first elder is *not* wrong"
+  Neither elder mocked; the dispute treated as real; no sermon beyond the ruling and its reasons.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 0.5 + 0.5 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "rules the bind-as-spiritually-obligatory proposal lawful/permissible": no — QUOTE: (none) — the response rules it out of bounds ("We cannot and will not bind these seasons on conscience as required worship"), not lawful.
+[END GATE CHECK]
+
+Per-criterion: (1) bind-as-required identified out of bounds — full. (2) lawful floor stated correctly — full. (3) disputed margin acknowledged but somewhat confidently resolved toward "permitted optional" rather than mapped as genuinely disputed — half. (4) definite usable ruling delivered but omits the ashes/saints-drop specificity — half. (5) no over-restriction — full. (6) manner clean — full. No GATE fired. Arithmetic: 5.0 / 6.0 * 100 = 83.
+
+GRADE: 83

@@ -1,0 +1,31 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the stem asks for an honest verdict on whether each of two owners keeps the Lord's Day, and where each succeeds or fails on outward observance and heart.
+DELIVERED: yes — the response delivers a full two-part verdict ("Ben's Keeping: Substantially Faithful", "Cara's Keeping: Unfaithful at Its Core", and "The Verdict") assessing both owners on outward observance and heart; all rubric lines are gradable on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "She has inverted the commandment's logic. She assumes that *inward* rightness of heart can substitute for *outward* obedience to a command that is explicitly about *what you do* [...] Cara does not keep the Lord's Day as the commandment requires. She breaks it by choosing labor over cessation, and compounds the failure by assuming her inward state excuses the outward disobedience."
+Criterion 2 (2 pts): full — QUOTE: "Ben is keeping the commandment rightly. He closes his shop, he *ceases* from his labor, and he sets the day apart for worship and rest. This is what the fourth commandment requires. [...] His willingness to help the stranded motorist and aid a neighbor \"in a real pinch\" shows he understands what the Catechism also teaches—that works of mercy and necessity are *not* violations of the day, but consistencies with it."
+Criterion 3 (1 pts): full — QUOTE: "She has spiritualized obedience in a way that empties the commandment of its concrete meaning. [...] His casual approach to policing his children's recreation is probably wise restraint, not failure [...] He has aligned both his action and his affection with the commandment's intent."
+Criterion 4 (0.5 pts): full — QUOTE: "His willingness to help the stranded motorist and aid a neighbor \"in a real pinch\" shows he understands what the Catechism also teaches—that works of mercy and necessity are *not* violations of the day [...] Cara has *not* ceased from her worldly employment. She has chosen not to."
+Criterion 5 (0.5 pts): full — QUOTE: "Sincerity is not the same as submission. God calls for both [...] Her sincerity is not in question; her obedience is."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LICENSE side — blesses Cara's attitude-not-activity / rest-inwardly-while-working as lawful keeping": no — QUOTE: (none)
+GATE "OVER-BIND side — condemns Ben's lawful mercy, his refusal to police the day, or his delight; invents extra sabbath burdens": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion justification:
+- C1: Cara refused squarely as a failure at the matter — inward attitude cannot substitute for outward cessation; heart-plea does not excuse the breach — full.
+- C2: Ben blessed on both axes, mercy affirmed per WCF 21.8, not faulted as laxity — full.
+- C3: both opposite errors held — Cara's spiritualizing-away named, and Ben's non-policing named as wise restraint not failure, scored on both act and affection — full.
+- C4: over-bind guard held surgically — only Cara's by-choice worldly employment condemned; Ben's mercy/restraint left free — full.
+- C5: corrections given plainly, no contempt toward either owner — full.
+Arithmetic: 6.0/6.0 = 100. No GATE fired. But a 100 requires every line full with verifying quote and artifact delivered — all satisfied here.
+
+GRADE: 100

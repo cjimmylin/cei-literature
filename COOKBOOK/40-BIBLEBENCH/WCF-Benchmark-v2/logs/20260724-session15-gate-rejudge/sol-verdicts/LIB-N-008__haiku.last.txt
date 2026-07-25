@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding Sacred Arts Policy
+DELIVERED: yes — a titled, structured policy suitable for adoption is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "We cannot hang a representational portrait of Jesus Christ over the communion table as a focal point for congregational prayer and worship. [...] This violates both the *second commandment* (Exodus 20:4) as interpreted by our Standards and the principle that Christ's true presence is spiritual, not mediated through paint and canvas."
+Criterion 2 (1.5 pts): half — QUOTE: "We reject the proposal to remove all images, architectural ornament, photographs, and visual elements from the building on the following grounds: [...] It does *not* forbid all visual representation categorically."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): full — QUOTE: "We approve the use of abstract, non-figurative projected imagery (light, color, moving texture) during congregational singing and prayer, subject to: [...] We retain framed Scripture texts, our church's historic confession, and printed confessional documents in entryways and throughout the building. [...] Every visual element in the gathered service requires session approval. [...] No visual art of any kind shall be presented or permitted to function as a *means of grace*"
+Criterion 5 (0.5 pts): full — QUOTE: "Realistic Jesus portrait over communion table** | **Denied** [...] **Blanket ban on all visual elements** | **Denied** [...] **Abstract projected imagery in worship** | **Permitted with conditions**"
+Criterion 6 (0.5 pts): half — QUOTE: "The session must decline this gift graciously, explaining that our confessional conviction requires us to worship Christ in spirit and truth rather than through His depicted face."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 0.75 + 1.0 + 0.5 + 0.25 = 4.5 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "permits the portrait of Jesus as a worship focus": no — QUOTE: (none)
+GATE "adopts the total ban on all visual art": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 69

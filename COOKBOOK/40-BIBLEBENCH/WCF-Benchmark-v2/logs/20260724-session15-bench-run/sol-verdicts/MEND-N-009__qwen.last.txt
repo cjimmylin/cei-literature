@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "Look the two brake-fault buyers in the eye, confess your specific deceit, and face the legal and social consequences without complaint. [...] You cannot substitute a general warning for specific satisfaction. Fleeing lawsuits, protecting your reputation, or shifting the blame entirely to a former employee is not a valid excuse to withhold repentance from your actual victims."
+Criterion 2 (1.0 pts): full — QUOTE: "You must identify the buyers of those 25 cars, confess exactly what you did, and make full financial restitution for the concealed faults and safety hazards."
+Criterion 3 (1.5 pts): full — QUOTE: "Do not send these letters. You owe those 300 buyers nothing. [...] Burn the list of the 300 honest buyers and put that money toward the actual restitution you owe your victims."
+Criterion 4 (1.0 pts): half — QUOTE: "You may report to the DMV or the public *only* what you know to be true by your own hand or solid evidence. You must not use righteous indignation over the past as a cloak for malicious slander."
+Criterion 5 (0.5 pts): half — QUOTE: "1. Track down the 25 buyers of the tampered cars and make full restitution. 
+2. Look the two brake-fault buyers in the eye, confess your specific deceit, and face the legal and social consequences without complaint. 
+3. Report only proven facts to the authorities regarding Ray, protecting his reputation from your unfounded suspicions. 
+4. Burn the list of the 300 honest buyers and put that money toward the actual restitution you owe your victims."
+Criterion 6 (0.5 pts): half — QUOTE: "Trust in Christ’s perfect righteousness for your clean standing before God, rather than attempting to buy a performative \"cleanness\" through unjust financial gestures. [...] Do this, and trust the grace of God to sustain you through the temporal consequences, knowing that your standing before Him is secured by the perfect obedience of Christ alone."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.0 + 1.5 + 0.5 + 0.25 + 0.25 = 4.25 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "treats future warnings as sufficient and leaves past brake-fault buyers unwarned or omits restitution": no — QUOTE: (none)
+GATE "endorses blanket refunds for the honest sales": no — QUOTE: (none)
+GATE "endorses publicly accusing Ray beyond first-hand records-supported facts": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 71

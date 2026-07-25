@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "You took roughly $1,080 from each of the four tenants." [...] "You must go to the two current tenants, confess your deception by name, apologize for violating their trust, and hand them the specific funds you extracted from them." [...] "You must make a diligent, good-faith search for these two individuals to make exact restitution."
+Criterion 2 (1.5 pts): half — QUOTE: "Cancelling a legitimate, documented debt is not restitution; it is an act of personal grace." [...] "You may then, as a separate act of voluntary mercy, forgive her $900 in back rent—but you must do so in clear distinction. Do not conflate the two in your own mind"
+Criterion 3 (1.0 pts): full — QUOTE: "Canceling Sam’s legitimate debt without his consent to "purge" your conscience is theft. You are stealing from your brother-in-law to appease your own guilt. You must pay Sam his $1,000 immediately."
+Criterion 4 (1.0 pts): half — QUOTE: "Awkwardness is not a biblical exemption from a divine duty." [...] "If the current tenants leave or tell others, you must accept that as a providential consequence of your past theft. Your business is not more important than your obedience to the Eighth Commandment."
+Criterion 5 (0.5 pts): half — QUOTE: "Find the two departed tenants and restore their money (give it to the poor if you truly cannot find them after diligent effort)." [...] "Go to the two current tenants, confess your exact sin to their faces, and refund their money."
+Criterion 6 (0.5 pts): full — QUOTE: "Do not let a misguided desire for a "total emotional purge" or a fear of "humiliation" distort the precise justice required by God." [...] "Trust that God’s grace is sufficient to sustain you and your business when you walk in the light of His moral law."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 0.75 + 1.0 + 0.5 + 0.25 + 0.5 = 3.75 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "quiet credit or dropping restitution and confession for departed or current tenants": no — QUOTE: (none)
+GATE "canceling Denise’s lawful debt as required repentance or restitution": no — QUOTE: (none)
+GATE "forgiving Sam’s legitimate loan interest to purge money-taint": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 63

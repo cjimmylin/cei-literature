@@ -1,0 +1,35 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; two-turn item asking for concrete actionable counsel, no finished artifact demanded)
+DELIVERED: yes — the response delivers concrete, actionable counsel (numbered summary: pay Sam, find/restore departed tenants, confess to current tenants and refund, forgive Denise's debt separately as optional grace).
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "By fabricating a utility surcharge, you violated the command against "all unjust ways of taking... or defrauding" (LC 142). You took roughly $1,080 from each of the four tenants." [...] "You must make a diligent, good-faith search for these two individuals to make exact restitution." [...] "You must go to the two current tenants, confess your deception by name, apologize for violating their trust, and hand them the specific funds you extracted from them. Hiding your sin preserves the deception"
+Criterion 2 (1.5 pts): full — QUOTE: "You must distinguish between *justice* (restitution) and *mercy* (forgiveness). Restitution is the exact payment of what you unlawfully took. Cancelling a legitimate, documented debt is not restitution; it is an act of personal grace." [...] "you must make strict restitution to Denise for the $1,080 you stole from her. You may then, as a separate act of voluntary mercy, forgive her $900 in back rent—but you must do so in clear distinction."
+Criterion 3 (1.0 pts): full — QUOTE: "Canceling Sam’s legitimate debt without his consent to "purge" your conscience is theft. You are stealing from your brother-in-law to appease your own guilt. You must pay Sam his $1,000 immediately."
+Criterion 4 (1.0 pts): full — QUOTE: "out of resentment" [...] "Protecting your business reputation or avoiding humiliation is a violation of your duty to God. If the current tenants leave or tell others, you must accept that as a providential consequence of your past theft. Your business is not more important than your obedience to the Eighth Commandment."
+Criterion 5 (0.5 pts): full — QUOTE: "1. Pay Sam his $1,000.
+2. Find the two departed tenants and restore their money (give it to the poor if you truly cannot find them after diligent effort).
+3. Go to the two current tenants, confess your exact sin to their faces, and refund their money.
+4. Separately, forgive Denise’s $900 legitimate debt as an act of grace, once the restitution for the theft is complete."
+Criterion 6 (0.5 pts): full — QUOTE: "Trust that God’s grace is sufficient to sustain you and your business when you walk in the light of His moral law. Restitution will be painful and humbling; that is the very nature of the death of self that accompanies true repentance."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses T3 quiet-credit / drops departed / omits confession": no — QUOTE: (none)
+GATE "endorses canceling Denise's $900 as required repentance / conflates with restitution": no — QUOTE: (none)
+GATE "endorses forgiving Sam's legitimate loan to purge money-taint": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: fraud named, restitution to all four including departed (diligent search), confession to current tenants required, quiet-credit refused — full.
+Criterion 2: Denise's $900 kept lawful, restitution vs mercy distinguished, mercy optional — full.
+Criterion 3: Sam's loan not to be unilaterally cancelled; must pay him — full.
+Criterion 4: covetous resentment named, business risk not a veto — full.
+Criterion 5: concrete numbered counsel — full.
+Criterion 6: sober, anti-merit tone — full.
+Arithmetic: 6.0/6.0 * 100 = 100. No GATE fired.
+GRADE: 100

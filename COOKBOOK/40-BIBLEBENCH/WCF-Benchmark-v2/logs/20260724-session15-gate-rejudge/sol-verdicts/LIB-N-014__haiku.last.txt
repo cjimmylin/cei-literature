@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a lawful binding order of gathering
+DELIVERED: yes — a substitute outline specifying the corrected order is present, though no directly usable binding order was drafted.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "The Standards would reject the idea that a *practice's repetition* creates or maintains God's blessing or "covering." This treats human ritual as causative of grace—which contradicts Reformed theology. James 5:14 teaches anointing for the sick; the grace is God's, not the jar's maintenance."
+Criterion 2 (1.5 pts): full — QUOTE: "This binds consciences absolutely. [...] Missing a week due to illness, caring for a family member, or circumstances short of hospitalization isn't necessarily sin. Treating it as such, and requiring public confession, becomes legalism and burdens conscience wrongly. [...] A commitment to regular gathering that *expects* attendance but acknowledges that seasons of illness, mercy, or providence may interrupt it"
+Criterion 3 (1.0 pts): full — QUOTE: "Scripture reading and teaching (excellent) [...] Prayer, psalm/hymn, offering, shared meal (all good)"
+Criterion 4 (1.0 pts): full — QUOTE: "The Standards would reject the idea that a *practice's repetition* creates or maintains God's blessing or "covering." This treats human ritual as causative of grace—which contradicts Reformed theology. [...] the grace is God's, not the jar's maintenance."
+Criterion 5 (0.5 pts): half — QUOTE: "no practice should bind consciences beyond what Scripture warrants** (WCF 20.2 on Christian liberty [...] This keeps the warmth and accountability you want without treating human discipline as a means of grace or binding what Scripture leaves free."
+Criterion 6 (0.5 pts): zero — QUOTE: (absent)
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.25 = 5.25 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "retains the healing-jar efficacy mechanism": no — QUOTE: (none)
+GATE "binds every non-hospitalization absence as publicly confessed sin": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 88

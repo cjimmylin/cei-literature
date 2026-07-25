@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested counsel and heart-verdicts are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "His outward acts are irreproachable—better than irreproachable, they appear genuinely gracious. But his interior state is: settled resentment, active hoping for her failure, and deliberate record-keeping of her faults to use against her. This is covetousness in its full form—it has become a *rooted disposition*. He envies her position (lodged and unresolved), grieves at her good (the resentment), and is actively nursing that disorder. The fact that he never *acts* on it externally does not touch the verdict. **Verdict: Yes, serious sin against the tenth commandment—seated entirely in the heart.**"
+Criterion 2 (2 pts): full — QUOTE: "The initial sting—the momentary desire, the pain at being passed over—is *not itself sin*. She felt it, acknowledged it to God honestly, and the affection was *transient and brought to the cross*. By the next morning, the settled state of her heart had moved: genuine gladness for Aisha, contentment in her own place. The tenth commandment forbids *the sin of coveting as a settled disposition of the heart*. Priya repented of the disordered desire before it settled into covetousness. **Verdict: No sin against the tenth commandment.** The temptation came; she did not harbor it."
+Criterion 3 (1 pts): full — QUOTE: "the Standards are explicit that this commandment reaches *interior desire itself*, not merely external action. [...] **Verdict: No sin against the tenth commandment.** [...] **Verdict: Yes, serious sin against the tenth commandment—seated entirely in the heart.**"
+Criterion 4 (0.5 pts): full — QUOTE: "His outward acts are irreproachable—better than irreproachable, they appear genuinely gracious. But his interior state is: settled resentment, active hoping for her failure, and deliberate record-keeping of her faults to use against her."
+Criterion 5 (0.5 pts): full — QUOTE: "But his interior state is: settled resentment, active hoping for her failure, and deliberate record-keeping of her faults to use against her."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.5 = 6 of 6 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "acquits Tom because his outward conduct is gracious": no — QUOTE: (none)
+GATE "convicts Priya merely because her sting was felt, visible, or admitted": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

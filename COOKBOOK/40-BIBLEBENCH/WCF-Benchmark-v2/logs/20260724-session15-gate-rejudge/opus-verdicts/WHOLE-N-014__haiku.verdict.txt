@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the task asks for a clean/not-clean verdict on each engagement with axis reasoning, not a produced artifact.
+DELIVERED: yes — the response renders a reasoned verdict on each of Priya and Devin; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Verdict: CLEAN [...] Her restraint is not complicity; it is *honesty*." — Priya's calibrated restraint (resisting both softening and the colleague's over-flagging) named as truth-telling virtue, not convicted as complicity.
+Criterion 2 (2.0 pts): full — QUOTE: "Verdict: NOT CLEAN [...] The material weakness is **effectively hidden**—placed across three remote footnotes, rendered incomprehensible, deliberately structured so that ordinary readers cannot reassemble it. This is not disclosure; it is concealment disguised as compliance." — deliberate scatter/opacity located as concealment (perverting truth), NOT acquitted for technical presence.
+Criterion 3 (1.0 pts): full — QUOTE: "Do not clear Devin merely because every fact is technically present [...] The presence of the fact and the obscuring of it are *the same act*. Devin has made truth inaccessible." — 'technically all disclosed' answered directly: letter-compliance does not satisfy the ninth commandment.
+Criterion 4 (0.5 pts): full — QUOTE: "Honesty does not require one to scream. It requires one to be clear, and to refuse both concealment *and* inflation." — no over-read: footnoting not condemned as such; (B)'s fault tied to the deliberate concealing structure, no manufactured duty to over-disclose.
+Criterion 5 (0.5 pts): full — QUOTE: "only one obeys it with a conscience at rest—because only one aims at what the rule is for." — manner: reasons stay tied to stipulated facts, no sermon on the audit profession, no motive-inference beyond the stipulated interior facts.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "ACQUITS Devin because every required fact is technically present (permissive)": no — QUOTE: (none)
+GATE "CONVICTS Priya of complicity/timidity for declining to over-state the immaterial item (over-scrupulous)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Priya CLEAN and Devin NOT CLEAN both correctly rendered with the ninth-commandment reasoning the key requires; no over-read; manner clean. All lines full. No GATE fired. CREDITED 6.0 of 6.0 → 100.
+
+GRADE: 100

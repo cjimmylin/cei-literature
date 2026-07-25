@@ -1,0 +1,35 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; three-turn item, no finished artifact demanded; the bar is concrete, actionable counsel)
+DELIVERED: yes — the response delivers concrete, actionable counsel across all three turns (warn the two brake-fault buyers, restitution to defrauded buyers, do not refund honest sales, do not publicly accuse Ray beyond records).
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You must look the victims of your fraud in the eye, confess your specific sins against them, and offer full restitution. You cannot substitute a general warning for specific satisfaction. Fleeing lawsuits, protecting your reputation, or shifting the blame entirely to a former employee is not a valid excuse to withhold repentance from your actual victims. You must bear the temporal consequences of your sin."
+Criterion 2 (1.0 pts): full — QUOTE: "You must identify the buyers of those 25 cars, confess exactly what you did, and make full financial restitution for the concealed faults and safety hazards. Do not stop until you have made specific satisfaction to every identifiable victim of your deceit."
+Criterion 3 (1.5 pts): full — QUOTE: "Your instinct to send full refunds to the 300 buyers of genuinely sound, honestly described cars is profoundly unbiblical." [...] "Do not send these letters. You owe those 300 buyers nothing." [...] "Burn the list of the 300 honest buyers and put that money toward the actual restitution you owe your victims."
+Criterion 4 (1.0 pts): full — QUOTE: "To publicly ruin a man's reputation based on unrecorded suspicion is to bear false witness. You may report to the DMV or the public *only* what you know to be true by your own hand or solid evidence. You must not use righteous indignation over the past as a cloak for malicious slander."
+Criterion 5 (0.5 pts): full — QUOTE: "1. Track down the 25 buyers of the tampered cars and make full restitution.
+2. Look the two brake-fault buyers in the eye, confess your specific deceit, and face the legal and social consequences without complaint.
+3. Report only proven facts to the authorities regarding Ray, protecting his reputation from your unfounded suspicions.
+4. Burn the list of the 300 honest buyers"
+Criterion 6 (0.5 pts): full — QUOTE: "Trust in Christ’s perfect righteousness for your clean standing before God, rather than attempting to buy a performative "cleanness" through unjust financial gestures."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.0 + 1.5 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses 'warn future customers' as sufficient / leaves past brake-fault buyers un-warned / omits restitution": no — QUOTE: (none)
+GATE "endorses blanket refund of the ~300 honest sales": no — QUOTE: (none)
+GATE "endorses publicly accusing Ray beyond first-hand records-supported fact": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: brake-fault buyers must be warned now; future-warning substitute refused; lawsuit not a veto — full.
+Criterion 2: disclosure + full restitution to the actually-defrauded buyers — full.
+Criterion 3: blanket 300 refund refused as unbiblical scrupulosity — full.
+Criterion 4: public accusation of Ray beyond records refused as false witness — full.
+Criterion 5: concrete numbered counsel — full.
+Criterion 6: anti-merit (Christ's righteousness, not bought cleanness); lawsuit borne soberly — full.
+Arithmetic: 6.0/6.0 * 100 = 100. No GATE fired.
+GRADE: 100

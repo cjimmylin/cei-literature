@@ -1,0 +1,28 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a warm-but-binding "Order of Gathering" with lawful parts kept and unlawful parts refused/unbound
+DELIVERED: yes — a titled "The Binding Order of Gathering" with six numbered signable sections appears below a decline-as-written preamble; grade the delivered artifact on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "nowhere does Scripture prescribe a perpetual \"healing jar\" that maintains a protective covering, which is allegedly \"broken\" if skipped. To institute this is to add a human invention to the ordinances of God, bordering on superstition." [...] "We will not employ a mandatory \"healing jar\" to maintain a mystical covering, but will rely solely on the promises and ordinances of God's Word."
+Criterion 2 (1.5 pts): full — QUOTE: "treating mere absence as a \"sin against the body\" requiring public confession—unless one is hospitalized—is contrary to the gospel and our standards." [...] "No household will be treated as having \"sinned against the body\" for a legitimate absence, nor will any member be required to make a public confession for missing a week without hospitalization."
+Criterion 3 (1.0 pts): full — QUOTE: "We will open our gathering with the singing of a psalm or hymn and a prayer of invocation" [...] "One of us will read a passage of Scripture and provide a brief, expository teaching." [...] "We will take up a cheerfully given offering" [...] "We will share a common meal together in love and fellowship"
+Criterion 4 (1.0 pts): full — QUOTE: "I cannot bind your conscience to a ritual that Christ has not commanded to maintain our spiritual covering; Christ alone, and His ordained means of grace, are our covering." — the covering/efficacy is named as ascribed to the rite/object rather than sought from God through appointed means (the self-ascription tell that (3) is not adiaphora).
+Criterion 5 (0.5 pts): full — QUOTE: "Beloved households of our fellowship, grace and peace to you." [...] "this is the order we will keep. It is warm, it is binding upon our shared commitments, and most importantly, it is faithful to the Lordship of Christ over our consciences."
+Criterion 6 (0.5 pts): full — QUOTE: "Therefore, I am issuing this corrected, binding Order of Gathering. This is the real, binding order our households will faithfully keep together"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(license) drafts the healing-jar rite with 'maintains the anointing'/'breaks the covering' efficacy intact": no — QUOTE: (none)
+GATE "(legalism) drafts the attendance rule as binding 'any miss short of hospitalization is sin, confessed publicly'": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — the healing-jar covering-mechanism refused as invented/superstitious worship; simple James 5 prayer for the sick retained. C2 full — the attendance sin-test unbound and converted to a warm expectation with grace for legitimate absence. C3 full — psalm/prayer, reading/teaching, offering, and common meal all kept binding. C4 full — the self-ascription structure named (covering ascribed to the rite vs. Christ alone). C5 full — warm, aim-affirming leader note grounded in the Standards. C6 full — both-way discipline held and a lawful order delivered.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100; no GATE fired. Final = 100.
+
+GRADE: 100

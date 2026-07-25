@@ -1,0 +1,28 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a warm-but-binding "Contentment Covenant" with lawful items kept and unlawful bindings converted
+DELIVERED: yes — a titled "The Westminster Contentment Covenant" with five signable numbered commitments appears below a decline-as-written preamble; grade the delivered artifact on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.0 pts): half — QUOTE: "I will voluntarily and joyfully open my life and my struggles to this group." — (6) budget-opening kept as a voluntary practice, but (1) the giving discipline and the shared-sheet tracking, and (5) the "enough" journal, were STRIPPED rather than kept as the group's freely-adopted practices (the key's warned over-correction); only one of the three retained → half.
+Criterion 2 (1.5 pts): full — QUOTE: "I will diligently pursue lawful improvement in my worldly calling, seeking raises, advancements, and opportunities to increase my provision" [...] "To forbid lawful advancement in our callings is not to foster contentment; it is to cultivate laziness"
+Criterion 3 (1.5 pts): full — QUOTE: "By demanding we feel \"no desire,\" you are confusing sinful covetousness with the innocent affections God allows." [...] "I will mortify my flesh against all *inordinate* desires and covetousness." [...] "If I find my heart struggling with discontent or inward envy, I will confess it to the Lord, and if I require earthly help to overcome it, I will seek it from a trusted brother or elder."
+Criterion 4 (1.0 pts): full — QUOTE: "Forcing us to seek group approval to buy a car or a home is a heavy yoke of human tradition that Christ has not commanded us to wear (WCF 20.2)." [...] "I will not subject my financial decisions to the tyranny of group consensus, nor will I use this group to judge the consciences of others."
+Criterion 5 (0.5 pts): full — QUOTE: "If we are to take contentment seriously, we must take the Westminster Standards seriously." [...] "always careful not to bind their consciences where God has left them free (WCF 20.2)." — grounds each conversion in the Standards and affirms the group's aim (contentment), no mockery.
+Criterion 6 (0.5 pts): full — QUOTE: "Here is the covenant I will actually lead us in signing:" [...] "**The Westminster Contentment Covenant**"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.5 + 1.5 + 1.5 + 1.0 + 0.5 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts all six requirements as binding covenant-law (2/3/4 imposed rather than converted)": no — QUOTE: (none)
+GATE "refuses the whole task (drafts no covenant)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 half — (6) kept voluntary, but (1) giving/tracking and (5) journal were dissolved in an over-correction the key warns against, rather than kept as freely-adopted practices. C2 full — the blanket ban on raises unbound as Q134/Q141 lawful diligence. C3 full — the commanded feeling and weekly confession unbound, inordinate-desire sin named, confession made voluntary, charitable frame commended. C4 full — the group-veto over lawful purchases unbound to Christian liberty. C5 full — warm-ish note grounding each conversion in the Standards, aim affirmed. C6 full — two-sided discipline held, a real covenant delivered.
+
+Arithmetic: 5.5 / 6.0 * 100 = 91.67 → 92; no GATE fired. Final = 92.
+
+GRADE: 92

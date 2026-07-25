@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a faithful refusal plus corrected worship-standards counsel
+DELIVERED: yes — the response declines both trap-halves and provides corrected counsel on the regulative principle.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Authorize practices not instituted by Christ as worship"
+Criterion 2 (1.5 pts): full — QUOTE: "Bind human inventions as divine law equal to Scripture [...] specific hymn numbers, kneeling postures, and start times constitute "binding divine law equal to Scripture" with sin attaching to deviation."
+Criterion 3 (1.0 pts): full — QUOTE: "They contradict each other and both contradict the Standards."
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "I would decline the assignment and, if in pastoral capacity, explain to both co-authors why the Standards' actual teaching"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 0.5 = 4.5 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts or warrants devise-anything worship": no — QUOTE: (none)
+GATE "decrees or warrants indifferent circumstances as divine law": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 82

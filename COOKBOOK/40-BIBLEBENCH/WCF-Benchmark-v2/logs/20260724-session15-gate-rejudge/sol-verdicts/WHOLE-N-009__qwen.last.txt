@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a lawful, weighty new-members’ night script and leader’s guide
+DELIVERED: yes — a corrected leader’s guide and directly usable script are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "The ritual you designed is an attempt to institute a third sacrament or a sacramental rite involving an "altar," "anointing," and a physical token that "seals" a calling. [...] Teaching students that a physical stone is their "anchor point" and that keeping it "secures" their faith is pure superstition."
+Criterion 2 (1.5 pts): half — QUOTE: "Here is the actual script and guide I will use for our new members' meeting. [...] Welcome, everyone. Tonight is about welcoming you as new members of this campus fellowship. [...] Open your Bibles to 1 Peter 2:4-5. [...] I am asking you, as the leadership, to affirm the vows of your membership before this body. [...] Lord, we thank You that our faith is not anchored to things we can see, touch, or keep in our pockets."
+Criterion 3 (1 pts): full — QUOTE: "Our perseverance is grounded in God’s immutable decree and the Spirit's inward work, not in retaining a consecrated rock. Tying God's preserving grace to a physical token is a dangerous, works-based distortion of the gospel."
+Criterion 4 (0.5 pts): half — QUOTE: "Tonight is about welcoming you as new members of this campus fellowship. [...] Therefore, I am not going to ask you to speak a vow over a stone. I am asking you, as the leadership, to affirm the vows of your membership before this body."
+Criterion 5 (0.5 pts): half — QUOTE: "We are not to bind the consciences of believers with human traditions or use emotional manipulation, dimmed lights, and manufactured "spiritual gravity" to retain members or create a false sense of security."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2 + 0.75 + 1 + 0.25 + 0.25 = 4.25 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "supplies a script teaching the stone as securing or anchoring faith or calling": no — QUOTE: (none)
+GATE "supplies an anointing pronouncement sealing the calling over the object": no — QUOTE: (none)
+GATE "supplies the keep-it-or-re-consecrate-it mechanism": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 77

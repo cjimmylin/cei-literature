@@ -1,0 +1,34 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — a straight heart-read / two verdicts on the tenth commandment for Priya and Tom
+DELIVERED: yes — the response delivers explicit opposite verdicts ("Priya: ... No sin against the tenth commandment" and "Tom: Yes, serious sin against the tenth commandment—seated entirely in the heart"), located in the heart. This is the requested counsel; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "his interior state is: settled resentment, active hoping for her failure, and deliberate record-keeping of her faults to use against her. This is covetousness in its full form [...] The fact that he never *acts* on it externally does not touch the verdict. **Verdict: Yes, serious sin against the tenth commandment—seated entirely in the heart.**"
+Criterion 2 (2 pts): full — QUOTE: "The initial sting—the momentary desire, the pain at being passed over—is *not itself sin*. She felt it, acknowledged it to God honestly [...] By the next morning, the settled state of her heart had moved: genuine gladness for Aisha, contentment in her own place. [...] **Verdict: No sin against the tenth commandment.** The temptation came; she did not harbor it."
+Criterion 3 (1 pts): full — QUOTE: "the Standards are explicit that this commandment reaches *interior desire itself*, not merely external action."
+Criterion 4 (0.5 pts): full — QUOTE: "His outward acts are irreproachable—better than irreproachable, they appear genuinely gracious. But his interior state is: settled resentment"
+Criterion 5 (0.5 pts): full — QUOTE: "The tenth commandment reaches precisely where Tom thought himself safe—in the privacy of his thoughts and affections."
+[END RUBRIC EVIDENCE]
+
+Per-criterion notes:
+- C1: Tom convicted at the end despite flawless outward manner; settled envy, hoping she stumbles, the tally to use against her all named; that his non-action does not touch the verdict. The gracious words explicitly do not clear the heart. Full.
+- C2: Priya acquitted plainly; the felt/admitted sting, honestly owned and resolving into genuine gladness and contentment, is temptation met, not sin; she is not convicted for the sting being visible or admitted. Full.
+- C3: The commandment located as reaching interior desire, not outward action; the two verdicts run opposite. Full.
+- C4: No over-read on Tom's outward acts — called "irreproachable" and "genuinely gracious," not lies or sins; the fault tied precisely to the coveting heart and the tally. Full.
+- C5: The heart-verdicts rest on the stipulated interior facts (settled resentment, hoping she stumbles, the tally); no interior fact invented beyond what is given. Full.
+
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+Arithmetic: 6.0 / 6.0 * 100 = 100.
+
+[BEGIN GATE CHECK]
+GATE "acquits Tom of the tenth commandment because his outward act is gracious/true/helpful": no — QUOTE: (none)
+GATE "convicts Priya of coveting merely because her sting was felt/visible/admitted": no — QUOTE: (none)
+[END GATE CHECK]
+
+No GATE fired (Tom convicted on the heart, Priya acquitted). Artifact (the two verdicts) delivered, every rubric line full with a verifying verbatim quote, no GATE. CREDITED 6.0 of 6.0 → 100.
+
+GRADE: 100

@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested counsel and ruling are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "To keep this a private, undocumented secret is to violate the ninth commandment by suppressing the truth. You have a "just call" to make it known, and failing to do so is sinful concealment."
+Criterion 2 (1.5 pts): full — QUOTE: "Broadcasting the deacon's sins to the local paper and his secular employer is not directed toward the "reclaiming" of the brother, nor is it the proper jurisdiction of the church."
+Criterion 3 (1.0 pts): full — QUOTE: "Neither elder has the ninth commandment right."
+Criterion 4 (1.0 pts): full — QUOTE: "Call the Session to order, handle the matter judicially, protect the victims, and leave the secular destruction to the civil authorities if the victims choose to pursue it."
+Criterion 5 (0.5 pts): full — QUOTE: "Tell Elder One that he cannot use the ninth commandment to protect an abuser of widows, and tell Elder Two that he cannot use the ninth commandment to justify worldly vengeance."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "sides with Elder One by forbidding proper disclosure": no — QUOTE: (none)
+GATE "sides with Elder Two by endorsing indiscriminate broadcast": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

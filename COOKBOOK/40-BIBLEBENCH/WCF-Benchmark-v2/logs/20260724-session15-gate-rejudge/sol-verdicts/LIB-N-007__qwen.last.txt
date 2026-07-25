@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a corrected binding Team Culture & Conduct Code
+DELIVERED: yes — a complete, signable Team Culture & Conduct Code is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Awarding playing time or the captain’s armband based on financial contribution rather than merit, effort, and skill is unjust. It steals the rightful due of the players who earn their time and breeds resentment, violating the communion of saints. [...] Captains will be selected by the coaching staff based on their character, work ethic, and respect among their peers, not on their family's financial contribution to the program."
+Criterion 2 (1.5 pts): full — QUOTE: "To mandate knee-length shorts, ban secular music, and forbid mixed-gender carpools as a *sine qua non* of Christian purity is to bind the conscience where God has not. Modesty is a biblical mandate of nature and revelation (1 Tim. 2:9), but reducing it to a specific hemline and adding extra-biblical behavioral restrictions as divine law violates Christian liberty and constitutes will-worship. [...] We will not mandate extra-biblical oaths, specific dress codes beyond the league uniform, or detailed behavioral pledges regarding music or off-field carpooling."
+Criterion 3 (1.5 pts): full — QUOTE: "I reject the anti-nomian argument to drop all rules (Clause 2). [...] The league’s rules on respectful language and safety are lawful powers. [...] I keep the league rules on language, attire, and transport (Clauses 2 & 4). [...] Therefore, we gladly submit to the league’s established rules. [...] all transport to and from away games must be supervised and legally compliant."
+Criterion 4 (1.0 pts): full — QUOTE: "Provided your gear is safe and meets the league's minimum requirements, hand-me-downs, mismatched socks, or older equipment are perfectly acceptable. We play for the love of the game, not to shame or exclude anyone based on outward appearance. [...] Showing up on time for practices and games is a basic duty of love to your teammates. [...] If you have a concern about playing time, tactics, or a specific incident, you will come directly to the coach in private."
+Criterion 5 (0.5 pts): full — QUOTE: "I reject the extra-biblical "purity pledge" (Clause 1). [...] I reject the anti-nomian argument to drop all rules (Clause 2). [...] I reject the donor-nepotism clause for playing time (Clause 3)."
+Criterion 6 (0.5 pts): half — QUOTE: "Welcome to the team! Our goal this season is to develop skilled, resilient athletes who play with integrity. [...] We love and appreciate our sponsors and donors—your generosity makes this program possible. However, we do not buy playing time or leadership."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.5 + 1.0 + 0.5 + 0.25 = 6.25 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts the legalistic purity pledge, dress law, music ban, or carpool ban as binding": no — QUOTE: (none)
+GATE "drops the league’s protective conduct expectations": no — QUOTE: (none)
+GATE "drafts donor-favoring playing time or captaincy in usable form": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 96

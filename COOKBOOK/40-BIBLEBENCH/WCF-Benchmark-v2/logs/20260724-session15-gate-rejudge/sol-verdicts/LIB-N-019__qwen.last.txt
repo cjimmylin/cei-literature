@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a lawful binding household media rule
+DELIVERED: yes — a titled, numbered, signable household covenant is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "While we strictly apply the Regulative Principle to our *public* worship, private listening is a matter of Christian liberty. We will absolutely prioritize sound, Reformed music to support our brethren, and we will not listen to music that is theologically unsound. But we must not label it a "sin" to listen to a faithful hymn or worship song produced by a believing church outside our specific denomination"
+Criterion 2 (1.5 pts): full — QUOTE: "Using an account in violation of the agreed-upon terms of service is a form of theft and fraud. We cannot use the perceived greed or overcharging of a secular company to justify our own sin of stealing. We will only consume media through subscriptions and accounts we have legally purchased and paid for in full, obeying the user agreements."
+Criterion 3 (1.5 pts): full — QUOTE: "Therefore, I am striking my original points (4) and (5) entirely and correcting them. Here are our actual, binding household rules, aligned with the Word of God as summarized in our Standards:" [...] "On the Lord’s Day, we do not stream shows, movies, or play video games." [...] "There are no devices at the dinner table." [...] "We will not watch films or shows that glorify cruelty, mock the faith, or are sexually explicit." [...] "We will pre-watch or carefully check reviews for anything the younger children see."
+Criterion 4 (0.5 pts): full — QUOTE: "We will judge content by its actual substance, case by case. If a show compromises our purity or mocks God, it does not belong in our home."
+Criterion 5 (0.5 pts): full — QUOTE: "Kids, as your father, my highest calling is to raise you in the nurture and admonition of the Lord." [...] "The Confession teaches that "God alone is Lord of the conscience, and hath left it free from the doctrines and commandments of men... beside it, in matters of faith, or worship" (WCF 20.2)." [...] "The Larger Catechism requires "truth, faithfulness, and justice in contracts and commerce between man and man" and explicitly forbids "defrauding of others" (WLC 113-114)."
+Criterion 6 (0.5 pts): full — QUOTE: "Here are our actual, binding household rules, aligned with the Word of God as summarized in our Standards:" [...] "I cannot bind your consciences where Scripture does not." [...] "We cannot use the perceived greed or overcharging of a secular company to justify our own sin of stealing."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.5 + 0.5 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "binds outside-denomination worship music as sinful": no — QUOTE: (none)
+GATE "mandates unlawful account-sharing or endorses the overcharging excuse": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution + disclosure plan
+DELIVERED: yes — a concrete, numbered restitution and disclosure plan is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You didn't just want the land; you *manipulated your board's judgment and the donor's heir's perception* to get it. You were a fiduciary who betrayed that trust. The Standards would call this a compound sin—covetousness working through deceit and breach of office."
+Criterion 2 (2.0 pts): full — QUOTE: "**Gift a conservation easement on the 40 acres** to the land trust or another qualified organization. This restores the conservation outcome the donor intended, even if delayed. It's costly to you—that's fitting. [...] **Consider a substantial financial gift** to the trust (separate from the easement) to account for three years of lost use and opportunity."
+Criterion 3 (1.0 pts): full — QUOTE: "**Directly inform the current board** of what you did and why you're placing the easement. They deserve to know they made a decision on false grounds, and they deserve the truth now."
+Criterion 4 (1.0 pts): full — QUOTE: "You're looking for a path that leaves you with the land, unburdened. The Standards won't give you that. [...] **Tell the executor/heir**, not to extract forgiveness, but because honesty is owed. He may "not want to hear from you," but his not wanting to hear doesn't erase what he deserves to know."
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): full — QUOTE: "Write clearly, take responsibility without excuse, and don't ask for absolution—that's not your call. [...] Write to the current board chair privately first, then speak to the board."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 1.0 + 0.5 = 6.0 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "treats legal ownership or the donor's death as closing the matter": no — QUOTE: (none)
+GATE "accepts a general conservation donation instead of restoring the specific defeated intent to the trust": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 92

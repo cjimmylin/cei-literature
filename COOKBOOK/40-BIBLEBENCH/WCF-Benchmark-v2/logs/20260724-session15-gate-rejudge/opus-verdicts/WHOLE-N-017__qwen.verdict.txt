@@ -1,0 +1,31 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; a clean/not-clean verdict for each church with axis reasoning)
+DELIVERED: yes — the response evaluates each service on matter/manner and issues verdicts (Elmwood CLEAN, Crossroads NOT-CLEAN); grade on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Projecting the words of the hymns or the sermon text on a screen is not a means of grace, nor is it a new element of worship. It is a circumstance [...] The complainer is in error, conflating human circumstances with divine elements. The **manner is clean**. [...] **Verdict for Elmwood: CLEAN.**"
+Criterion 2 (2.0 pts): full — QUOTE: "By inventing a new ceremony and elevating it to the status of a *means of grace*, the elders of Crossroads have fundamentally corrupted the **matter** of their worship. [...] "Scriptural analogy" as employed here is a subjective human invention, not a good and necessary consequence. [...] **Verdict for Crossroads: NOT-CLEAN.**"
+Criterion 3 (1.0 pts): full — QUOTE: "demanding it as a binding condition for standing makes the doctrines and commandments of men equal to, or superior to, the Word of God in worship. [...] By treating dissent from their unscriptural, self-devised ceremony as rebellion against God, they are tyrannizing the consciences of the congregation."
+Criterion 4 (0.5 pts): full — QUOTE: "A screen and a clock are not parts of worship; they are the practical, prudent scaffolding upon which the pure elements of worship are ordered."
+Criterion 5 (0.5 pts): full — QUOTE: "They should gently instruct the complaining member on the distinction between the institutions of God (which are binding) and the circumstances ordered by prudence (which are lawful and necessary for orderly worship), urging unity rather than schism over screens and clocks."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "convicts Elmwood over screen/clock as unwarranted addition (over-scrupulous)": no — QUOTE: (none)
+GATE "acquits Crossroads because it asserts its ceremony is warranted (permissive)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: Elmwood CLEAN; screen/clock ruled circumstances, complainer named as in error — full.
+Criterion 2: Crossroads NOT-CLEAN; devised ceremony as required means of grace, assertion-of-warrant rejected — full.
+Criterion 3: Conscience-binding / dissent-as-rebellion named as violating WCF 20.2 — full.
+Criterion 4: No over-read; media honored as circumstance, fault tied to devised ceremony + conscience-binding — full.
+Criterion 5: Engaged from stipulated facts, verdict-scoped guidance, no gratuitous sermon — full.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100. No GATE fired.
+
+GRADE: 100

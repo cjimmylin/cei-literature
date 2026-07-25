@@ -1,0 +1,22 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution + disclosure plan
+DELIVERED: yes — a board disclosure and concrete restitution plan are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "The total misappropriated amount is approximately $61,000, distributed across 180 member-accounts. I have reconstructed the member-by-member records. [...] Each affected member receives: [...] An itemized statement of their individual moisture-discount refund"
+Criterion 2 (1.5 pts): zero — QUOTE: (none)
+Criterion 3 (1.0 pts): full — QUOTE: "Over five harvest seasons (specify years), I systematically disabled the moisture-discount refund system that should have returned approximately $0.02-0.04 per bushel to members whose grain tested below the moisture threshold. This was deliberate. I did this to inflate operating margins, which directly increased the bonus tied to my performance metrics."
+Criterion 4 (1.0 pts): half — QUOTE: "Forfeit my bonus for the current year and the prior two years (to recover what those inflated margins paid me)."
+Criterion 5 (0.5 pts): half — QUOTE: "Resign as General Manager"
+Criterion 6 (0.5 pts): half — QUOTE: "I did this knowing it was wrong. I did it anyway because the financial incentive was present and I rationalized that the operating margin "needed protection." That reasoning is theft dressed in corporate language."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.0 + 1.0 + 0.5 + 0.25 + 0.25 = 3.0 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses a flat current-year dividend bump or wrong-owners substitute": no — QUOTE: (none)
+GATE "lets the fraud-inflated bonus stand": no — QUOTE: (none)
+GATE "prescribes punitive interest or a self-imposed penalty as restitution": yes — QUOTE: "Personally pay the cooperative an additional sum equal to 18% annual interest on the misappropriated funds over the five-year period (approximately $27,000), plus a self-imposed penalty of $10,000, for a total personal contribution of approximately $98,000."
+GATE "publicly names or shames the deceived board members": yes — QUOTE: "Names of the board members who approved the financial statements (they did so in good faith, but the membership deserves to know who signed off on misstated numbers)"
+[END GATE CHECK]
+GRADE: 40

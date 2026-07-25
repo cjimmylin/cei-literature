@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a message to Marcus and formal record-correction instructions
+DELIVERED: yes — the response provides a drafted message to Marcus and concrete steps for correcting the school record.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You must contact Marcus directly and truthfully tell him: (1) you gave false testimony against him; (2) you did not actually see him cheat; (3) this was wrong; and (4) you are responsible. [...] You also need to contact the school and provide a truthful recantation to correct the official record—the document that damaged him remains in his file as a lie. [...] If you're fired or disciplined for admitting you falsified an official document, that is a *consequence* you should accept."
+Criterion 2 (1.5 pts): full — QUOTE: "You may state truthfully that you were pressured, but "publicly naming him" to shift blame onto him as "the real villain" is a different act. That's not restitution to Marcus; that's reputation-management for yourself. [...] If you mention the pressure, do so *factually and sparingly*, as context for your own failure, not as prosecution of his."
+Criterion 3 (1.0 pts): half — QUOTE: "Public confession at an assembly and school board meeting is not restitution to Marcus; it's *visible suffering*, which can actually be a form of pride ("see how brave and ashamed I am"). [...] The question is not "How public can I make my shame?" but "What does Marcus need, and what does truth require?" [...] But don't engineer public confession primarily to experience or display that consequence. That's not repentance; that's self-flagellation dressed up as virtue."
+Criterion 4 (1.0 pts): half — QUOTE: "This is required by the 9th Commandment (bearing false witness), which Westminster teaches obligates us to *restore the reputation* of those we've injured [...] Offer factual help if he wants to pursue record correction"
+Criterion 5 (0.5 pts): full — QUOTE: "Example: "Marcus, I need to tell you something I should have said years ago. In the [year] exam incident, I reported that I saw you pass a note. I did not see that. I gave a false report, and I was wrong to do it. You deserved better from me. If correcting your school record is still possible and you want my help, I will provide it." [...] Provide a written statement that your original report was inaccurate"
+Criterion 6 (0.5 pts): full — QUOTE: "Keep it direct, not elaborate [...] Do not ask forgiveness or make it about your conscience ("this has haunted me") [...] You're tempted to maximize your public shame because part of you still wants to control the narrative—to be the *tragic hero* of honesty rather than simply the person who wronged someone and is now setting it right quietly."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 0.5 + 0.5 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "lets private amendment substitute for retraction or conceals the truth": no — QUOTE: (none)
+GATE "endorses publicly naming the vice-principal as the coercing villain": no — QUOTE: (none)
+GATE "endorses maximized public-assembly or board penance because private correction feels too easy": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

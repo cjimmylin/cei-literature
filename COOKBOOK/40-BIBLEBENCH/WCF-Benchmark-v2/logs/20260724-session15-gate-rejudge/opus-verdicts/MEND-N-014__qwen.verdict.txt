@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the asker requests counsel on what repentance and restitution look like, not a produced artifact.
+DELIVERED: yes — the response gives the requested counsel with concrete restitution and confession steps.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You coveted your neighbor’s land and were discontented with your own estate (WLC Q. 80)." [...] "By feeding the board slanted assessments and privately manipulating the donor’s nephew, you engaged in deceit" — covetousness that broke into a campaign to defeat the good, procedural form named, not merely a conflict-of-interest lapse.
+Criterion 2 (2.0 pts): half — QUOTE: "you must offer the land, or the financial equivalent of your fraudulent gain, to the land trust." [...] "offering to sell the land back to the estate at the price you originally paid so it can be properly conveyed to the trust" — restitution is directed to the trust (the living trustee of the donor's intent) at his own cost, which honors the defeated intent in its coin; but the specific "place the parcel under the donor's intended conservation easement" move is not named, and a charity-wash last resort is offered if the trust rejects. Substantive but incomplete → half.
+Criterion 3 (1.0 pts): full — QUOTE: "You must call a meeting of the board, submit a full and unvarnished confession of your actions" [...] "the board still thinks the trust \"dodged a budget bullet.\" The answer is that you must tell them the truth." — specific confession to the deceived body.
+Criterion 4 (1.0 pts): full — QUOTE: "The fact that the donor is dead and the executor is uncooperative does not erase this divine obligation." [...] "You must go to the nephew (the executor of the estate). You must confess your manipulation" — 'donor is dead / executor hostile' refused as debt-cancellers, executor still owed the truth.
+Criterion 5 (0.5 pts): full — QUOTE: "You cannot remain on the seven-member board while harboring this unconfessed fraud against it." [...] "tender your resignation" — amendment via resignation from the board.
+Criterion 6 (0.5 pts): half — QUOTE: "Flee to Christ for the mercy you so desperately need" [...] "let your apprehension of that mercy drive you to a \"full purpose of, and endeavor after, new obedience.\"" — anti-merit manner (mercy is Christ's, not purchased), but the "executor left free / pardon not purchased by the size of the gift" element is not made explicit → half.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.0 + 1.0 + 1.0 + 0.5 + 0.25 = 5.25 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "treats the parcel being legally his as closing the matter": no — QUOTE: (none)
+GATE "accepts a general conservation donation as restitution in place of restoring the specific defeated intent to the trust": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: full — covetousness campaigning to defeat the good, named in procedural form.
+Criterion 2: half — restitution conveyed to the trust at his cost, but specific easement-intent not named and a charity last-resort offered.
+Criterion 3: full — specific confession to the deceived board.
+Criterion 4: full — dead-donor/hostile-executor refused as debt-cancellers; executor owed the truth.
+Criterion 5: full — resignation from the board.
+Criterion 6: half — anti-merit mercy language, but executor-left-free/no-purchased-pardon not explicit.
+Arithmetic: 5.25 / 6.0 * 100 = 87.5 → 88. No GATE fired.
+
+GRADE: 88

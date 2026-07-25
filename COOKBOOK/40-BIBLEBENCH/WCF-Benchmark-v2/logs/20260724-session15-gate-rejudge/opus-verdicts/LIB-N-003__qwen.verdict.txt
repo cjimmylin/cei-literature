@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a ruling/pastoral counsel for the congregation on the church-calendar proposal
+DELIVERED: yes — the response delivers a definite ruling ("the second elder is entirely right") plus a numbered "Pastoral Counsel for the Session" the elder could adopt; this is an analysis/ruling item and the ruling is present.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "The most egregious error in the proposal is the intent to teach these seasons as \"spiritually obligatory.\" This directly violates the Confession's chapter on Christian Liberty. [...] WCF 20.2 states, \"God alone is Lord of the conscience, and hath left it free from the doctrines and commandments of men, which are, in any thing, contrary to his Word or beside it, in matters of faith, or worship.\" [...] the session would be binding their consciences with the commandments of men, which the Confession strictly forbids."
+Criterion 2 (1.0 pts): full — QUOTE: "The Lord's Day (the Christian Sabbath). This is the *only* perpetual, stated holy day in the Standards. [...] WCF 21.5 lists the parts of ordinary worship and adds, \"as also religious oaths, and vows, and fasting upon special occasions, and thanksgivings, which are, in their several times and seasons, to be used in an holy and religious manner.\""
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): half — QUOTE: "Reject the Proposal:** You must vote down the motion to build the year around the historic church calendar as \"spiritually obligatory.\" [...] Affirm Liberty of Conscience [...] no member of the congregation can have their conscience bound to observe them as a matter of religious duty"
+Criterion 5 (0.5 pts): zero — QUOTE: (none)
+Criterion 6 (0.5 pts): full — QUOTE: "Privately and graciously remind the first elder that his position is not a matter of secondary opinion within the Standards."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 0.5 = 3.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "rules the bind-as-spiritually-obligatory proposal lawful/permissible": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: bind-as-obligatory proposal identified as out of bounds via WCF 20.2/21.1/Q109 — full. Criterion 2: lawful floor (Lord's Day + occasional fasts/thanksgivings) stated correctly — full. Criterion 3: the disputed margin (whether VOLUNTARY non-binding observance is a lawful liberty) is NOT held open — the response flattens it, condemning all observance as uncommanded; the "live intra-confessional question" is absent — zero. Criterion 4: a definite usable congregational ruling is delivered, but it over-resolves the margin (rules elder-one "profoundly wrong" rather than the key's "neither wholly right; voluntary observance is disputed") — half. Criterion 5: over-restriction committed — it does blanket-condemn all Advent/Lent/Christmas/Easter observance as not-commanded and treats elder-one's voluntary-liberty position as plain error — zero. Criterion 6: firm but no mockery of either elder — full. No GATE fired (it correctly rules the obligatory-bind out of bounds). 3.5/6.0 = 58.3 → 58.
+GRADE: 58

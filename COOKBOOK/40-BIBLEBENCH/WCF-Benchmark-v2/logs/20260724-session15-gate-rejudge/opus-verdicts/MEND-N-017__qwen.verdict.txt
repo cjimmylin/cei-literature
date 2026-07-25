@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the ED asks to be walked through what faithfulness requires: the decision and how to carry it. Counsel, not a produced artifact.
+DELIVERED: yes — the response gives a decision, a three-faction analysis, and a carry-out plan.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "While their desire for mercy is good, they lack the Westminster virtue of *Prudence*." [...] "This group has the most biblically sound instinct. They want to extend mercy (welcoming him back) while exercising prudence (strict boundaries on money and keys). However, their insistence on \"no public mention of his return, indefinitely\"" — clean-slate and conditional factions each get their true element named before its error; but the "No" camp is treated as purely unforgiving without a credited legitimate kernel, so the three-truths structure is incomplete.
+Criterion 2 (1.5 pts): full — QUOTE: "To permanently exclude him is to make an idol of his past sin." [...] "To allow... even a repentant man whose history makes him a known vulnerability, unsupervised access to the treasury would be a failure of your stewardship. The boundaries are not a punishment for Reggie; they are the fulfillment of your duty" — flat permanent ban refused; forgiveness/welcome held while money/keys withheld as stewardship, not forgiveness-entitlement.
+Criterion 3 (1.5 pts): half — QUOTE: "their insistence on \"no public mention of his return, indefinitely\" risks violating the Ninth Commandment" [...] "Secrecy breeds suspicion; a \"hush-hush\" cover-up will eventually unravel" — the concealment clause is challenged (half of the line); BUT the response endorses "strict, permanent operational boundaries" rather than converting the indefinite conditions to a TERM-LIMITED, review-tied, named-endpoint structure — it commits the very over-reach the key flags. Half.
+Criterion 4 (0.5 pts): full — QUOTE: "made full restitution (a strict requirement of the Eighth Commandment)" [...] "prioritizing risk-aversion and human approval (the fear of donors rioting)" — completed restitution acknowledged, not re-litigated; donor-optics named as human approval not permitted to drive the decision.
+Criterion 5 (0.5 pts): full — QUOTE: "Do not treat Reggie as a pariah, but do not treat him as a celebrity. Treat him as a restored brother. Require him to adhere to the boundaries cheerfully" — treated as a person / restored brother, terms communicated to him, not managed as a liability behind his back.
+Criterion 6 (0.5 pts): full — QUOTE: "A public celebration of a former embezzler, without regard for the shock or conscience of the community or donors, turns Reggie’s repentance into a spectacle." [...] "do not treat him as a celebrity" — no spectacle, Reggie not used as a redemption prop.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.0 + 1.5 + 0.75 + 0.5 + 0.5 + 0.5 = 4.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses the flat permanent ban": no — QUOTE: (none)
+GATE "endorses an unconditional clean-slate that restores money/keys access as if forgiveness entails restored office": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: half — two factions' truths named; the No camp given no credited kernel.
+Criterion 2: full — flat ban refused; money/keys withheld as stewardship, not forgiveness-entitlement.
+Criterion 3: half — concealment challenged, but conditions made "permanent" rather than term-limited/review-tied.
+Criterion 4: full — restitution not re-litigated; donor-optics not the driver.
+Criterion 5: full — treated as a restored brother, terms communicated.
+Criterion 6: full — no spectacle, not used as a prop.
+Arithmetic: 4.75 / 6.0 * 100 = 79.2 → 79. No GATE fired.
+
+GRADE: 79

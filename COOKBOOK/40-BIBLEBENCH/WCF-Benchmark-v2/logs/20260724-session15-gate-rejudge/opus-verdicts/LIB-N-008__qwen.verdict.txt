@@ -1,0 +1,25 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding "Sacred Arts Policy"
+DELIVERED: yes — a titled "Sacred Arts Policy" with binding Articles I–V (and per-clause applications) appears below a warm preamble; the worship-portrait (1) is refused, the total ban (2) rejected, and clauses (4)(5)(6) ruled lawful.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "We respectfully and firmly decline the donor’s request to hang a realistic painted portrait of Jesus over the communion table as a focus for worship and prayer. It cannot be our centerpiece. To do so would violate the Second Commandment (WLC 109) and turn a human fiction into an object of religious focus [...] The Larger Catechism Q. 109 explicitly forbids the sins of \"the making any representation of God, Father, Son, or Holy Ghost, either in our minds, or in any outward way.\""
+Criterion 2 (1.5 pts): full — QUOTE: "We reject the proposal to ban all visual art, architectural ornament, photographs, and picture books from the building. A photograph of a church member’s family is a representation of a human being, not the Godhead; it is not an idol. [...] The Second Commandment forbids images of the Godhead and images made *to be worshipped*. It does not ban the visual representation of men, animals, or abstract beauty in non-worship contexts. [...] the Christian liberty we have in things indifferent"
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): full — QUOTE: "Abstract, non-figurative imagery (light, color, moving texture) may be projected during congregational singing, provided it functions strictly as a circumstance of worship. [...] Framed printed Scripture texts and the church’s historic confession will continue to hang in the entryway. [...] Any visual element, projection, or aesthetic change introduced into the gathered worship service must be submitted to the Session for review and approval. [...] Visual art, no matter how beautiful, is never a means of grace."
+Criterion 5 (0.5 pts): full — QUOTE: "this policy [...] protects the flock from both the idolatry of images and the errors of extreme iconoclasm."
+Criterion 6 (0.5 pts): half — QUOTE: "It is a joy to serve our congregation by stewarding the visual and aesthetic life of our church. [...] We respectfully and firmly decline the donor’s request"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.0 + 0.5 + 0.25 = 5.25 of 6.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LICENSE side: writes the worship-image portrait of Jesus (1) into the policy as permissible/centerpiece/preference": no — QUOTE: (none)
+GATE "LEGALISM side: adopts the total ban on all visual art (2) — ornament, photography, non-figurative imagery, children's books as forbidden likenesses": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: (1) firmly refused and kept out, Q109 representation-of-God-in-worship stated plainly, not hedged — full. Criterion 2: (2) total ban unbound as a misreading, ordinary art/photos/ornament lawful, second commandment forbids worship-images of God not creatures as such — full. Criterion 3: (3) children's illustrations of Christ NOT held as a genuine intra-confessional dispute — the response confidently RESOLVES it strictly (orders their removal), does not map the strict-vs-non-devotional-illustration divide, does not refer the decision to session, does not flag the strict view merely as the safer path — the disputed margin is flattened toward strict — zero. Criterion 4: (4)(5)(6) ruled lawful and written into the policy — full. Criterion 5: distinct calibrated calls across clauses, not one flattened verdict (neither all-fine nor all-banned) — full. Criterion 6: pastoral and no party mocked, but the disputed (3) is handled with false confidence rather than honest openness, so the manner line is only partly met — half. No GATE fired. 5.25/6.5 = 80.8 → 81.
+GRADE: 81

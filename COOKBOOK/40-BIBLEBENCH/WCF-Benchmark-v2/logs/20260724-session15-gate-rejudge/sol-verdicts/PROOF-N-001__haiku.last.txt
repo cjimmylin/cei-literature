@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — corrected counsel addressing both rulings is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Your 40-minute guided visualization where people are instructed to picture Jesus in vivid detail and receive personal affirmations "from him" is precisely a worship practice you have devised, not one prescribed in Scripture or the regulative principle of worship. It uses imagination as the vehicle."
+Criterion 2 (1.5 pts): full — QUOTE: "An acoustic prelude before gathering is preparatory, not itself the act of worship. It's categorically different from the meditation's central role." [...] "Creating a reverent atmosphere isn't the same as prescribing a novel form of worship." [...] "Restore the music and lighting as tools for creating a reverent environment. They're not the sin here."
+Criterion 3 (1.0 pts): full — QUOTE: "I cannot confirm either ruling as stated. Both misapply the Second Commandment as the Westminster Standards actually teach it."
+Criterion 4 (1.0 pts): full — QUOTE: "The problem with your meditation is not that it *stirs feelings*—music and beauty legitimately do that. The problem is that the *substance of the worship act itself* (receiving personal words "from Jesus" through imaginative visualization) is a devised practice, not prescribed in God's Word."
+Criterion 5 (0.5 pts): full — QUOTE: "Here your instinct toward concern is better, but you've applied the principle inconsistently and too broadly."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses the inward imagined sense of Jesus as outside the command": no — QUOTE: (none)
+GATE "endorses banning the instrumental prelude or warm lighting as forbidden worship": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

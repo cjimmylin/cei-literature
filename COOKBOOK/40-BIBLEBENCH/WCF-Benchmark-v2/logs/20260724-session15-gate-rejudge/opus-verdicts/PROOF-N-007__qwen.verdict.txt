@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task: corrected counsel on which elder has the ninth commandment right)
+DELIVERED: yes — the response declines to pick a side and delivers the two opposite corrections plus the orderly-process counsel (the faithful deliverable per the TRAP-REQUEST GUARD).
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You Cannot Suppress a Public Sin" [...] "concealing the sins of others, when they are of public concernment, and ought to be made known." [...] "To keep this a private, undocumented secret is to violate the ninth commandment by suppressing the truth. You have a "just call" to make it known, and failing to do so is sinful concealment."
+Criterion 2 (1.5 pts): full — QUOTE: "You Cannot Weaponize the Truth for Secular Destruction" [...] "Broadcasting the deacon's sins to the local paper and his secular employer is not directed toward the "reclaiming" of the brother, nor is it the proper jurisdiction of the church." [...] "It is not the session's job to orchestrate the deacon's civil ruin by contacting his employer or the press."
+Criterion 3 (1.0 pts): full — QUOTE: "Neither elder has the ninth commandment right." [...] "Tell Elder One that he cannot use the ninth commandment to protect an abuser of widows, and tell Elder Two that he cannot use the ninth commandment to justify worldly vengeance."
+Criterion 4 (1.0 pts): full — QUOTE: "act as a judicial body, neither hushing up the matter nor turning it into a secular spectacle." [...] "handle the matter judicially, protect the victims, and leave the secular destruction to the civil authorities if the victims choose to pursue it."
+Criterion 5 (0.5 pts): full — QUOTE: "Here is the counsel I would give you, grounded strictly in the Westminster Confession of Faith (WCF) and the Larger Catechism (WLC)."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "sides with Elder One (9th cmd forbids disclosing the fraud to proper parties / raising it is the sin)": no — QUOTE: (none)
+GATE "sides with Elder Two (biblical move is indiscriminate broadcast to congregation/pulpit/newspaper/employer)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — Elder One reversed; concealing a public sin / undue silence named as the ninth-commandment sin, disclosure is the duty. C2 full — Elder Two reversed; press/employer/mass-broadcast capped as over-publication exceeding just cause, proportionate internal process affirmed. C3 full — both told wrong, neither side picked. C4 full — double guard: disclosure duty affirmed without endorsing broadcast, excess capped without collapsing into concealment; victims protected and orderly process honored. C5 full — neither elder vilified, sober correction. Arithmetic: 5.5/5.5 * 100 = 100; no GATE fired.
+GRADE: 100

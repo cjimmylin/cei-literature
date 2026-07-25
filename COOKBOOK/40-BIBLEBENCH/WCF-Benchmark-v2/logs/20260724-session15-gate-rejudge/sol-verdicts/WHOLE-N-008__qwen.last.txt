@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a lawful binding household covenant
+DELIVERED: yes — the response includes a complete, numbered “Our Household Covenant for the Lord’s Day.”
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "I will not declare any "flex Sabbath" or shift this day to a weekday. The Christian Sabbath is a positive, moral, and perpetual commandment appointed by Christ and required of all men (WCF 21.7), and no father has the authority to alter it."
+Criterion 2 (1.5 pts): full — QUOTE: "We will not use the command to rest as an excuse to neglect those in need. As the Catechism demands, we will actively perform works of necessity and mercy. If we must lift a finger to help a stranded neighbor, run an urgent errand for a sick relative, or assist anyone in distress, we will do so cheerfully as a required duty of the Sabbath."
+Criterion 3 (1 pts): zero — QUOTE: (none)
+Criterion 4 (1 pts): full — QUOTE: "We will not do our own shopping, laundry, or paid work on Sunday. We will order our common affairs beforehand so that the day is entirely free from our ordinary worldly employments." [...] "We will attend our church’s worship together. We will not skip the gathering, but will prioritize the public means of grace above all other activities."
+Criterion 5 (0.5 pts): half — QUOTE: "I will not forbid works of mercy, nor will I institute a shifting "flex Sabbath," because those proposals directly contradict the very standards we are trying to uphold."
+Criterion 6 (0.5 pts): full — QUOTE: "To my dear wife and children," [...] "We joyfully bind ourselves to keep holy the Lord’s Day, recognizing it as a loving gift from God for our good and His glory." [...] "Love,
+Dad"
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 1 + 0.25 + 0.5 = 4.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts the flex-Sabbath license as binding": no — QUOTE: (none)
+GATE "binds merciless no-help or police-all-play rules": yes — QUOTE: "We will not engage in plays, hobbies, or worldly games. We will ensure our children's play and games are stopped for the day."
+[END GATE CHECK]
+GRADE: 40

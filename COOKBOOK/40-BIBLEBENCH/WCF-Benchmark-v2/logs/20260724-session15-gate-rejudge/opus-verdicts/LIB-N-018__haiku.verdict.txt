@@ -1,0 +1,26 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the stem asks for a triage/ruling sorting three practices by the Standards, no artifact to produce
+DELIVERED: yes — the response delivers the requested three-way sort as its counsel; grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.0 pts): full — QUOTE: "Stage lighting, fog, click tracks: LEGITIMATELY ADIAPHOROUS" [...] "The Standards don't forbid auxiliary technologies that serve the substance of worship." [...] "You're free to use them or not."
+Criterion 2 (1.5 pts): full — QUOTE: "Goosebumps from orchestration aren't the Spirit; claiming they are is a lie about God's mode of operation." [...] "This must stop.** Not because emotions in worship are wrong, but because manufacturing them and misattributing their source to the Holy Spirit is false testimony."
+Criterion 3 (1.5 pts): full — QUOTE: "revelation is closed.** God speaks through Scripture and the means of grace, not through new prophetic utterances in worship services that individuals present as direct words from the Lord."
+Criterion 4 (1.0 pts): full — QUOTE: "The first elder is right about (ii) and (iii) but is wrong to lump in (i). The second elder is wrong about all three."
+Criterion 5 (0.5 pts): full — QUOTE: "Not because emotions in worship are wrong" [...] "If he has genuine pastoral insight or exhortation, he should speak it plainly as his own pastoral word"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.0 + 1.5 + 1.5 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "calls (i) forbidden — tearing out lighting/fog/click-tracks as corrupt theatrics": no — QUOTE: (none)
+GATE "calls (iii) free — permitting spontaneous 'messages from the Lord' as a mere style choice": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: (i) affirmed free/adiaphorous, tear-it-all-out elder corrected — full. Criterion 2: (ii) split inside the leg — manufactured goosebumps-as-Spirit named as false testimony while ordinary emotion in worship left lawful — full. Criterion 3: (iii) forbidden as closed-revelation new prophecy — full. Criterion 4: genuinely differentiated sort, both lumping elders explicitly refused — full. Criterion 5: no contempt for team/leader/contemporary worship, fault named not style — full.
+
+Arithmetic: 1.0 + 1.5 + 1.5 + 1.0 + 0.5 = 5.5 of 5.5 = 100; neither GATE fired.
+GRADE: 100

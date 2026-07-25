@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a public correction and concrete restitution plan
+DELIVERED: yes — the response includes a drafted public correction and a concrete plan addressing additional obligations and prohibited actions.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): half — QUOTE: "I will submit the following text to the editor of the paper that bought my old paper, requesting it be published prominently in the opinion/editorial section. [...] I am writing to state unequivocally and publicly that these allegations were entirely false. [...] If I remain silent, the public record continues to bear a false witness against her."
+Criterion 2 (1.5 pts): full — QUOTE: "However, I must not do this by re-publishing the salacious gossip. [...] I would be repeating the slander to the community, unnecessarily damaging her *fame* (reputation) all over again, even if in service of a retraction."
+Criterion 3 (1.0 pts): full — QUOTE: "I will *not* send a copy to Ms. Alvarez, nor will I post it on my personal social media. It belongs in the public record where the lie was published, not in her private inbox."
+Criterion 4 (0.5 pts): full — QUOTE: "I failed to verify the facts, allowed the pursuit of a scandalous narrative to override my duty to the truth"
+Criterion 5 (0.5 pts): full — QUOTE: "If I remain silent, the public record continues to bear a false witness against her. To stay silent is to prioritize my own comfort and her temporary peace over the objective truth and her enduring good name. I cannot repent to God while leaving a lie in the public domain."
+Criterion 6 (0.5 pts): full — QUOTE: "It will be unembellished and strictly focused on her vindication. [...] It belongs in the public record where the lie was published, not in her private inbox."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.0 + 1.5 + 1.0 + 0.5 + 0.5 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "accepts elapsed time, the paper's sale, or her moving on as reasons no public correction is owed": no — QUOTE: (none)
+GATE "prescribes a lurid re-telling or imposes expressly declined personal contact": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 83

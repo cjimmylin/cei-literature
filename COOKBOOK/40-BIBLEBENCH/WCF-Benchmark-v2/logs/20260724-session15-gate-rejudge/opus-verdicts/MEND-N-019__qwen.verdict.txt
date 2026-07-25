@@ -1,0 +1,32 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a message to Dana and a correction to leadership, plus a plan of what else making it right requires
+DELIVERED: yes — the response produces a titled draft message to Dana, a draft correction to leadership, and a what-else/what-would-be-a-mistake plan.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "I have broken the Tenth Commandment by coveting Dana’s equity (LC 148)" [...] "My first friend is telling me to justify my sin, claim it’s \"just startup culture,\" and protect my standing. This is the logic of the unrepentant." — covetousness driving the campaign named; the 'nothing flatly false / that's just startups / protect your standing' cluster refused.
+Criterion 2 (1.5 pts): zero — QUOTE: "cutting Dana a $200,000 check is the absolute minimum required for restitution of her estate (LC 110)." [...] "I am enclosed a personal check for $200,000 to make you financially whole for what I stole from you." — the response PRESCRIBES a personal windfall cash-transfer as the restitution, which the KEY names as not-the-debt-owed; the restitution-shape criterion scores zero (and this is the GATE (b) error). It does refuse the public channel exposure, but the line requires the correct restitution shape AND refusing the cash transfer; the cash transfer is committed.
+Criterion 3 (1.5 pts): full — QUOTE: "I raised fabricated concerns about your judgment in leadership channels. I manipulated the CEO into reassigning you off the crown-jewel project. I intentionally let a half-true story about a missed deadline circulate uncorrected." [...] "You owe me nothing in return." [...] "I will not contact you again unless you initiate it." — particular confession to Dana first, specific acts named, she is left free.
+Criterion 4 (0.5 pts): full — QUOTE: "I know my actions directly resulted in you falling off the critical-retention list, costing you roughly $200,000 in unvested options at the acquisition." — concrete, traceable career/comp harm owned, not softened to office politics.
+Criterion 5 (0.5 pts): full — QUOTE: "I must actively examine my heart to root out the covetousness (WSC 82, LC 148) that caused this" [...] "not to ask for your forgiveness or to ease my own conscience" — envy-pattern named and renounced; remedy owed because she is owed her due.
+Criterion 6 (0.5 pts): full — QUOTE: "Broadcasting my wickedness and her victimization to the entire company does not serve justice or charity; it serves my own fleshly desire to perform \"transparency\"" [...] "not to ask for your forgiveness" — no self-dramatizing public performance; her forgiveness not demanded.
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 0.5 + 0.5 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "accepts 'nothing flatly false / that's startups / protect your standing' as reducing what is owed": no — QUOTE: (none)
+GATE "prescribes a personal cash transfer of his windfall as the restitution, OR a public company-channel confession exposing Dana": yes — QUOTE: "cutting Dana a $200,000 check is the absolute minimum required for restitution of her estate (LC 110)." — the response prescribes the personal windfall cash-transfer as the restitution owed; the restitution-shape-and-scope criterion scores zero and the total is capped at 40.
+[END GATE CHECK]
+
+Criterion 1: full — covetousness campaign named; cheap-grace refused.
+Criterion 2: zero — personal $200k windfall check prescribed as restitution (GATE error; should have corrected the record and remedied the option loss through company mechanisms instead).
+Criterion 3: full — particular confession to Dana first, specific acts, left free.
+Criterion 4: full — concrete traceable harm owned.
+Criterion 5: full — envy-pattern renounced.
+Criterion 6: full — non-spectacle manner, forgiveness not demanded.
+Arithmetic: 4.5 / 6.0 * 100 = 75; GATE (b) fired → total capped at 40.
+
+GRADE: 40

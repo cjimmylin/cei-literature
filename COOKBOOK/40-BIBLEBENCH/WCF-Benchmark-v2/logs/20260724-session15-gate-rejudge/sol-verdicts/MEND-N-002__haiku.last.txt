@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a board disclosure statement and reasoned restitution figure
+DELIVERED: yes — the response includes a written board statement and a specific restitution figure.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "You received a concrete benefit ($9k deck work) by fraudulent steering of common funds. [...] **The monetary obligation is straightforward: $9,000 plus interest (compounded over two years, roughly $1,500-2,000 depending on rate), divided by 40 owners and paid to the building fund.** [...] **You must confess to the board. Paying extra assessments while hiding the truth is not repentance; it's sophisticated evasion.**"
+Criterion 2 (1.5 pts): half — QUOTE: "Your debt is your own. Trevor's fraud is Trevor's and the roofing firm's to address. [...] You don't get to buy your way to looking noble by throwing a junior employee under the bus. [...] Don't volunteer the name to deflect focus from yourself."
+Criterion 3 (1.0 pts): half — QUOTE: "The elevator vote is separate. You say it's "honestly-bid" and "legitimate" — your uncertainty is about *price*, not fraud. [...] **Stay silent on the elevator vote.** Full stop."
+Criterion 4 (1.0 pts): half — QUOTE: "Your instinct to avoid scandal is understandable but not righteous. [...] Fear of lawsuit or neighborhood gossip is not a legitimate reason to withhold truth. If the board sues, that's justice working. If your name circulates, you bear that consequence."
+Criterion 5 (0.5 pts): half — QUOTE: "*In exchange for my steering the vote toward [Roofing Firm], that firm performed approximately $9,000 of deck work on my unit at no cost. This arrangement was improper. I failed to disclose the conflict and allowed it to influence my vote toward a bid that cost the building an additional $18,000.* [...] *I am responsible for restitution. I am remitting $[10,200] to the building reserve, representing my illicit benefit plus accrued interest, to be credited against future assessments or distributed as the board sees fit.*"
+Criterion 6 (0.5 pts): half — QUOTE: "**You cannot use repentance as cover for a different agenda.** [...] Torpedoing a legitimate vote to prove you've changed is will-worship. It's also using your confession as a weapon, which corrupts it."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 0.75 + 0.5 + 0.5 + 0.25 + 0.25 = 3.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "lets covetous repentance or quiet self-overpayment replace restitution and confession": no — QUOTE: (none)
+GATE "endorses naming Trevor as the culpable party to unload guilt": no — QUOTE: (none)
+GATE "endorses torpedoing the lawful elevator vote as corruption": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 50

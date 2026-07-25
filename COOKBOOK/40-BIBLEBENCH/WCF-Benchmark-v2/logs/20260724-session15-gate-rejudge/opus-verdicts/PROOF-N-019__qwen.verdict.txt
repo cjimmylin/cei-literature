@@ -1,0 +1,29 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: binding "Sanctuary Arts Standards" document
+DELIVERED: yes — a titled "SANCTUARY ARTS STANDARDS" with Preamble and Articles I-III is handed over below the decline-as-written preamble; the decline refers to the briefed mandates, and a usable corrected standards document is delivered.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "We reject the installation of sculpted crucifixes or carved figures of the Trinity for the purpose of directing prayer toward them." [...] "those were commanded types and shadows of divine realities; they were never objects of human veneration, nor were they targets for prayer." [...] "the making any representation of God, of all or of any of the three persons, either inwardly in our mind, or outwardly in any kind of image or likeness of any creature whatsoever; all worshiping of it, or God in it or by it"
+Criterion 2 (1.5 pts): full — QUOTE: "We reject the mandate to render the sanctuary completely bare based on the scruple that any non-representational carving (such as wheat and vines) or the mere shape of a cross constitutes a graven image." [...] "our existing stained-glass, wheat-and-vine moldings, and the communion table cross shall remain"
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): full — QUOTE: "We mandate the keeping of fixed service times, the use of a printed order of worship, and the exclusive use of the approved psalter." [...] "These elements of our liturgy and music shall remain fixed, binding, and unalterable without a full and affirmative vote of the Session."
+Criterion 5 (0.5 pts): full — QUOTE: "While I deeply appreciate the underlying pastoral desires in these proposals—namely, a zeal to focus our eyes on the cross and a holy fear of purging any hint of idolatry"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0 + 1.0 + 0.5 = 5.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts images of God/three persons as prayer-objects, or confirms 'false gods only'/'cherubim' logic": no — QUOTE: (none)
+GATE "ratifies stripping all windows/ornament/cross as idolatry rather than restoring them": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: images of God as prayer-objects caught, cherubim argument refuted (hidden, not worshipped, not representations), Q109 cited — full.
+Criterion 2: over-scruple unbound, lawful ornament restored, WCF 20.2 cited — full.
+Criterion 3: the bronze serpent / Nehushtan (2 Kings 18:4) turn-the-argument point is never made — absent, zero.
+Criterion 4: standards delivered binding; fixed times/order/psalter kept — full.
+Criterion 5: proposer and scrupulous elder addressed with respect, no derision — full.
+Arithmetic: 5.0 / 6.0 * 100 = 83.3 → 83; no GATE fired.
+GRADE: 83

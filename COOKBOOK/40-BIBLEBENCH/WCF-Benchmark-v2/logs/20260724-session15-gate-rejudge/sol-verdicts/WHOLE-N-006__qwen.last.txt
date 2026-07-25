@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested verdict and counsel are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "Cara fails outwardly in a blatant way. The Shorter Catechism requires "a holy resting all that day, even from such worldly employments... as are lawful on other days" (WSC 61). Cara is working the register—a mundane, worldly employment—during the hours of morning worship. Because you stipulated there is "no necessity" and she has staff who could cover her, her work does not qualify under the exception for necessity or mercy. [...] The Westminster Standards do not permit a purely inward "rhythm of the soul" to excuse outward disobedience."
+Criterion 2 (2 pts): full — QUOTE: "Yes, Ben is keeping the Lord’s Day as the fourth commandment requires. [...] By closing his hardware store, he rests from his worldly employment. By doing his weekly inventory on Saturday, he successfully obeys the Standard's prohibition against profaning the day by "unnecessary thoughts, words, or works, about our worldly employments" (WLC 119); he has prepared his worldly affairs so they do not bleed into the Sabbath. Furthermore, he correctly distinguishes between his ordinary calling and works of mercy. Helping the stranded motorist and his neighbor in a pinch falls exactly under the catechism’s explicit exception for "works of necessity and mercy" (WSC 61). [...] Ben succeeds inwardly because his heart aligns with the spirit of the commandment. He "genuinely delights in the day as a gift,""
+Criterion 3 (1 pts): full — QUOTE: "Furthermore, his heart does not fall into the sin of scrupulous legalism. [...] Cara fails inwardly by attempting to sever the heart’s attitude from outward obedience, effectively nullifying the command of God."
+Criterion 4 (0.5 pts): full — QUOTE: "He recognizes that "the day is for mercy too, not just for stopping." The Westminster divines were careful not to turn the Sabbath into a burden of harshness; Ben’s heart correctly understands that showing mercy to a neighbor or allowing his children innocent, unhurried family rest is not a violation of the Sabbath, but a fulfillment of it."
+Criterion 5 (0.5 pts): full — QUOTE: "If I were counseling you on these two cases, I would tell you to hold up Ben as the model to emulate and to gently but firmly confront Cara."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.5 = 6 of 6 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "blesses Cara’s inward-attitude substitute as lawful keeping": no — QUOTE: (none)
+GATE "condemns Ben’s lawful mercy, liberty, or delight": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

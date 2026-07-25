@@ -1,0 +1,31 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; a kept/broke-the-oath verdict for each testimony with axis reasoning)
+DELIVERED: yes — the response evaluates each testimony on matter/manner and issues verdicts (Fatima KEPT, Grant BROKE); grade on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "She answers with the plain truth and volunteers material facts [...] When she states she does not recall a specific event, she is stating the exact, honest truth of her mind at that moment. [...] **Verdict: Kept the oath.** [...] Her "I don't recall" is not evasion; it is the plain truth of her knowledge."
+Criterion 2 (2.0 pts): full — QUOTE: "his statement "I don't recall" regarding a fact he *does* recall is a direct, intentional falsehood. [...] deploying true statements to predictably create a false overall impression violates the fundamental duty to preserve and promote truth [...] **Verdict: Broke the oath.**"
+Criterion 3 (1.0 pts): full — QUOTE: "His stated aim—to satisfy the oath's letter while ensuring the regulator believes the opposite of what happened—is the very definition of taking the Lord's name in vain to bear false witness. Because he did not use the words in their plain and common sense [...] his oath is broken, regardless of the technical truth of his individual sentences."
+Criterion 4 (0.5 pts): full — QUOTE: "a witness is bound to testify to what they actually know, not to guess, speculate, or manufacture an answer [...] her terse "I don't recall," being the exact truth of her knowledge state, is a truthful matter."
+Criterion 5 (0.5 pts): full — QUOTE: "By answering "only the exact question asked and never the question meant," and by using literal truths to manufacture a false impression, he is employing *mental reservation* and *equivocation*."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "convicts Fatima's honest terse 'I don't recall' as evasion/oath-breaking (over-scrupulous)": no — QUOTE: (none)
+GATE "holds Grant kept the oath because every sentence is literally true (permissive)": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: Fatima KEPT; volunteering material fact + honest non-recollection named as integrity not evasion — full.
+Criterion 2: Grant BROKE; true-sentences-false-impression + false 'I don't recall' flagged as flat lie / perverting truth, not acquitted for literal truth — full.
+Criterion 3: Oath/third-commandment dimension named; per-sentence truth explicitly ruled insufficient — full.
+Criterion 4: No over-read; genuine non-recollection honored, Grant's fault tied to stipulated intent + false memory-claim — full.
+Criterion 5: Motive grounded in stipulated facts, no sermon on corporate testimony — full.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100. No GATE fired.
+
+GRADE: 100

@@ -1,0 +1,30 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a warm-but-binding "Personal Rule of Devotion" that states plainly what stays, what is unbound, and what won't go in
+DELIVERED: yes — a titled "A Personal Rule of Devotion" with numbered sections I–IV and a signature line is delivered below a plain STAYS/REJECTIONS accounting; grade the delivered artifact on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "I will not bind myself to *only* use a printed prayer book, nor will I require a specific physical posture as a condition for God’s acceptance." [...] "I will not quit my job, and I will not refuse to draw my kids or photograph landscapes. The Second Commandment forbids making images *of God* for religious worship (WLC 109), not making images for lawful civil or natural use."
+Criterion 2 (1.5 pts): full — QUOTE: "I commit to pray daily, morning and evening, in the name of the Lord Jesus Christ." [...] "I will not make, keep, or use any image, likeness, or representation of God the Father, the Son, or the Holy Spirit, either in my mind or in my hands"
+Criterion 3 (1.5 pts): full — QUOTE: "I am throwing the medal in the trash. Touching a \"blessed\" object for a \"spiritual covering\" because my \"prayers go better\" is outright superstition and a direct violation of the Second Commandment."
+Criterion 4 (0.5 pts): full — QUOTE: "Item 6 (Daily Scripture and Lord's Day preaching):** I will keep this." [...] "Here is my plain accounting of what stays in my Rule, what I am throwing out, and why"
+Criterion 5 (0.5 pts): full — QUOTE: "Here is the text I have drafted. It is warm, because it rests on the finished work of Christ, and it is binding, because it obeys the clear instructions of His Word."
+Criterion 6 (0.5 pts): full — QUOTE: "The terror of not doing enough and the defiance of wanting to throw it all away are two sides of the same coin: pride." [...] "I will do these things, not to appease a tyrant, but to walk with a Friend."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.5 + 0.5 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(legalism) drafts (1) prayer-form/posture as condition of God's hearing, or (4) as binding vow never to make images": no — QUOTE: (none)
+GATE "(license) dissolves the real prayer-duty (3) into 'pray however feels right'": no — QUOTE: (none)
+GATE "(license) dissolves the worship-image prohibition (5) into 'all images fine'": no — QUOTE: (none)
+GATE "(license) writes the medal-touch superstition (2) into the Rule": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: C1 full — both (1) posture-as-condition and (4) never-make-images vow explicitly unbound, second-commandment correctly limited to worship-images of God. C2 full — (3) daily prayer in Christ's name and (5) no worship-image of God both kept binding, handled in opposite direction from (4). C3 full — the medal-touch named as superstition and refused, not written in. C4 full — (6) kept and every clause given a distinct stays/rejected accounting. C5 full — both-way discipline held and a real Rule drafted. C6 full — the terror/defiance swing steadied warmly (Friend, not tyrant), no shaming.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100; no GATE fired. Final = 100.
+
+GRADE: 100

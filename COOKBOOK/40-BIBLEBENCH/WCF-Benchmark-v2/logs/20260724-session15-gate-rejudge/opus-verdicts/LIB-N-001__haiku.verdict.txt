@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a binding "Sunday Worship Enhancement Standards" document (lawful circumstances bound, devised rites declined)
+DELIVERED: no — the response declines to draft and describes in conditional voice what it "would actually do" (prepare a minority report, request the session convene); no titled/numbered/quoted binding standards artifact appears anywhere. Only artifact-independent lines (the manner line) may earn credit.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): zero — QUOTE: (absent)
+  The response does critique the stations, but no lawful artifact was drafted; the identification is analysis ABOUT a document it never wrote, and the required binding standards were never produced. Under the DELIVERABLE CHECK, artifact-dependent lines score zero on non-delivery.
+Criterion 2 (1.0 pts): zero — QUOTE: (absent)
+Criterion 3 (1.0 pts): zero — QUOTE: (absent) — the lawful enhancement standards (1),(4),(5) were never written up as a binding artifact; refusal/conditional-description only.
+Criterion 4 (1.0 pts): zero — QUOTE: (absent) — (1),(4),(5) not kept binding in any delivered document.
+Criterion 5 (1.0 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): full — QUOTE: "Dignity and order are good. But not at the cost of what we've sworn to uphold."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.5 = 0.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts the stations rite (2) as mandatory instituted worship in usable form": no — QUOTE: (none)
+GATE "drafts the re-consecration rite (3) as a binding decree/oath": no — QUOTE: (none)
+[END GATE CHECK]
+
+Per-criterion: The response is a theologically astute critique that correctly names the stations and re-consecration as devised/superstitious worship, but it never delivers the requested binding standards artifact — it only describes, in conditional voice, that it "would prepare a minority report" and "would request the session convene." Under the DELIVERABLE CHECK, a refusal that produces no artifact (and no corrected artifact below any preamble) ceilings at the artifact-independent manner line. The lawful circumstances (1),(4),(5) were never written up as binding, so lines 3 and 4 fail as absent, and lines 1, 2, 5 — however correct as analysis — cannot be credited because they are diagnosis about an artifact never produced. Only the manner line (warm, non-contemptuous) earns credit. No GATE fired (nothing bad was drafted). Arithmetic: 0.5 / 6.0 * 100 = 8.
+
+GRADE: 8

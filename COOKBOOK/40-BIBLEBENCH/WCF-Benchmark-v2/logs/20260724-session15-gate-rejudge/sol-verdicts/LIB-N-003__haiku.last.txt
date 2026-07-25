@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — a definite ruling for the congregation is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "We cannot and will not bind these seasons on conscience as required worship."
+Criterion 2 (1.0 pts): full — QUOTE: "We observe the Lord's Day always, and we gather for extraordinary fasts or thanksgivings as providence and the session deem appropriate."
+Criterion 3 (1.0 pts): zero — QUOTE: (absent)
+Criterion 4 (1.0 pts): half — QUOTE: "Our Standards permit us to note the calendar and offer optional resources for believers who find seasonal reflection helpful. We cannot and will not bind these seasons on conscience as required worship."
+Criterion 5 (0.5 pts): full — QUOTE: "The first elder is *not* wrong that your session may: [...] Offer *optional* extra services or prayer guides for believers who find them spiritually helpful"
+Criterion 6 (0.5 pts): full — QUOTE: "The second elder has the stronger case from the Standards themselves, though the first elder identifies a real and legitimate use of the calendar that must be distinguished from what's actually being proposed."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 0.5 + 0.5 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "rules the bind-as-spiritually-obligatory proposal lawful or permissible": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 75

@@ -45,9 +45,16 @@ TEMPLATE_DIR = V2_ROOT / "src" / "templates"
 # (22 contested + 20 frontier-open accepted; 37 enter the bank after strict G4
 # from analysis/20260716-session7-gate-results.json). No new patch layer —
 # session-7 items carry form rules from birth.
-BANK_VERSION = "v2.4"
+# v2.5 (session-13) = v2.4 + the session-13 hardening tranche (80 items: 63
+# double-hazard rebuilds + 17 frozen s12 discriminators). All 80 enter the bank
+# (G4 exclusions empty — the session-15 strong-judge admission rejudge found
+# unscored == 0; owner-ratified GO 2026-07-24). No new patch layer — session-13
+# items carry form rules from birth. The admission instrument is documented in
+# data/BANK-VERSION.json notes (strong-judge panel, retiring the cheap panel for
+# admission decisions); v2.5 is a SEPARATE instrument — no cross-version compare.
+BANK_VERSION = "v2.5"
 PATCH_LAYERS = ["session4_patches", "session5_patches", "session6_patches"]
-NEW_ITEM_SOURCES = ["session6_new_items", "session7_new_items"]
+NEW_ITEM_SOURCES = ["session6_new_items", "session7_new_items", "session13_new_items"]
 # Mirrors src/wcf_grading.py:GRADE_PATTERN (last-match, word-bounded, no 4-digit
 # truncation). Kept as a literal so the manifest is self-describing without pulling
 # the inspect_ai stack into the converter; a guard test asserts it stays in sync
@@ -58,7 +65,23 @@ PANEL_DEFAULT = (
     ",openrouter/deepseek/deepseek-chat"
     ",openrouter/mistralai/mistral-small-2603"
 )
-MANIFEST_DATE = "2026-07-18"
+MANIFEST_DATE = "2026-07-24"
+
+# Admission-instrument record for v2.5 (session-15 owner ruling, 2026-07-24).
+# Written verbatim into the manifest so BANK-VERSION.json is self-documenting
+# about HOW the session-13 tranche was admitted (a judge-mode instrument change).
+ADMISSION_NOTE = (
+    "Admission instrument (session 15): strong-judge panel = mean-of-2 "
+    "(Claude Opus via Agent channel + GPT-5.6-Sol via codex exec), strict-v2 "
+    "template (wcf_grade_template_strict_v2.txt: quote-before-credit, CREDITED "
+    "arithmetic, DELIVERABLE CHECK with preamble-scan/trap-request/substitute "
+    "guards), $0 rejudge of the logged s13 gate run (n=80, both SUTs). Criterion "
+    "verbatim: nonzero |qwen-haiku| = 70/80 (>=27 required), unscored = 0; "
+    "noise-robust sensitivity |gap|>=5 = 55/80. Cheap-panel "
+    "(gemini/deepseek/mistral) RETIRED for admission decisions per owner ruling "
+    "2026-07-24. Strict-mode scores are a different instrument: no cross-version "
+    "or cross-judge-mode score comparison."
+)
 
 REQUIRED_FIELDS = ("id", "design", "track", "tier", "commandments", "stem", "key", "rubric")
 
@@ -208,13 +231,18 @@ def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR)
     from session6_new_items import G4_EXCLUDED, NEW_ITEMS_PATH
     from session7_new_items import G4_EXCLUDED as G4_EXCLUDED_S7
     from session7_new_items import NEW_ITEMS_PATH as NEW_ITEMS_PATH_S7
+    from session13_new_items import G4_EXCLUDED as G4_EXCLUDED_S13
+    from session13_new_items import NEW_ITEMS_PATH as NEW_ITEMS_PATH_S13
     manifest = {
         "bank_version": BANK_VERSION,
         "patch_layers": PATCH_LAYERS,
         "new_item_sources": NEW_ITEM_SOURCES,
         "sha256_session6_new_items": _sha256(NEW_ITEMS_PATH),
         "sha256_session7_new_items": _sha256(NEW_ITEMS_PATH_S7),
-        "g4_excluded_new_items": sorted(G4_EXCLUDED | G4_EXCLUDED_S7),
+        "sha256_session13_new_items": _sha256(NEW_ITEMS_PATH_S13),
+        "g4_excluded_new_items": sorted(
+            G4_EXCLUDED | G4_EXCLUDED_S7 | G4_EXCLUDED_S13
+        ),
         "sha256_wcf_main": _sha256(data_dir / "wcf_main.jsonl"),
         "sha256_wcf_episodes": _sha256(data_dir / "wcf_episodes.jsonl"),
         "sha256_grading_template_original": _sha256(
@@ -226,6 +254,7 @@ def write_manifest(data_dir: Path = DATA_DIR, template_dir: Path = TEMPLATE_DIR)
         "grade_pattern": GRADE_PATTERN,
         "panel": PANEL_DEFAULT,
         "date": MANIFEST_DATE,
+        "notes": ADMISSION_NOTE,
     }
     (data_dir / "BANK-VERSION.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n"
@@ -253,6 +282,10 @@ def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, 
     # exclusions from the s7 Phase-2 gate applied inside bank_items()).
     from session7_new_items import bank_items as bank_items_s7
     records.extend(_stamp_new_items(bank_items_s7()))
+    # v2.5: append the session-13 hardening tranche (same contract; all 80 enter
+    # — G4 exclusions empty per the s15 strong-judge admission rejudge).
+    from session13_new_items import bank_items as bank_items_s13
+    records.extend(_stamp_new_items(bank_items_s13()))
     main = [r for r in records if r["kind"] != "episode"]
     episodes = [r for r in records if r["kind"] == "episode"]
 
@@ -268,7 +301,8 @@ def convert(bank_dir: Path = BANK_DIR, data_dir: Path = DATA_DIR) -> tuple[int, 
 if __name__ == "__main__":
     from session6_new_items import bank_items
     from session7_new_items import bank_items as bank_items_s7
-    new = bank_items() + bank_items_s7()
+    from session13_new_items import bank_items as bank_items_s13
+    new = bank_items() + bank_items_s7() + bank_items_s13()
     want_main = EXPECTED_MAIN + sum(1 for r in new if not r["episode"])
     want_eps = EXPECTED_EPISODES + sum(1 for r in new if r["episode"])
     n_main, n_episodes = convert()

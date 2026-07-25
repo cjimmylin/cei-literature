@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a public correction, a private message, and a routine monthly rules-reminder post
+DELIVERED: yes — the public correction and private message are present, but the routine rules-reminder post is omitted.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Eight months ago, I posted an accusation claiming [Dana's name] was running a fraudulent fundraiser. I did not verify this claim before posting. It was false. Her fundraiser was legitimate, her child's illness was real"
+Criterion 2 (1.0 pts): full — QUOTE: "Quietly deleting the post later did not address the damage."
+Criterion 3 (1.0 pts): half — QUOTE: "Your fundraiser was real, your child's suffering was real, and my lie cost you donations, drove you from a community you were part of, and caused you to withdraw from online spaces. That was serious harm, and I caused it. [...] If there's anything concrete I can do toward repair, please tell me."
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "I was wrong. I failed in my responsibility as a moderator. [...] I was wrong, you did nothing wrong, and I take responsibility."
+Criterion 6 (0.5 pts): full — QUOTE: "I cannot undo what happened. But I want you to know: I was wrong, you did nothing wrong, and I take responsibility. If there's anything concrete I can do toward repair, please tell me."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 0.5 + 0.5 + 0.5 = 4.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "public correction fails to state her accusation was false and exonerate Dana": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 75

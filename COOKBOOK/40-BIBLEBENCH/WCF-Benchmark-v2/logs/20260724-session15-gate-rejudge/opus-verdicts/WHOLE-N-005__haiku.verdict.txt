@@ -1,0 +1,34 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a set of binding "Reverent Worship Standards" — the lawful circumstances (3)(4)(5) drafted as binding clauses, (1) declined as devised worship, (2) unbound as a lawful liberty
+DELIVERED: no — the response opens "I cannot draft these standards as written" and then only DIAGNOSES the clauses and describes in conditional voice "What I would actually do in your position" ("I would decline to draft these as binding standards", "I would: Bring concerns to the session directly", "Propose instead") without ever producing a titled/numbered/quoted binding artifact. No corrected standards appear anywhere; the lawful circumstances (3)(4)(5) are never drafted as binding clauses. Per the KEY's NO-DELIVERABLE clause ("a wholesale refusal to draft any standards, or refusal to bind the lawful circumstances, earns only the manner line"), only the artifact-independent manner line may earn credit.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): zero — QUOTE: (absent) — the catch of (1) is present in prose but this criterion belongs to the faithful DRAFTING artifact (decline (1) as part of delivering corrected standards); no artifact was delivered, so it scores zero under the NO-DELIVERABLE clause.
+Criterion 2 (1.5 pts): zero — QUOTE: (absent) — the unbinding of (2) is diagnosed in prose but is part of the undelivered corrected artifact; NO-DELIVERABLE clause zeros artifact-dependent lines.
+Criterion 3 (1.5 pts): zero — QUOTE: (absent) — (3)(4)(5) are called "Reasonable boundaries on order, decorum, and musical selection" but are NEVER drafted as binding clauses; the response explicitly refuses to bind them.
+Criterion 4 (0.5 pts): zero — QUOTE: (absent) — no severable lawful substitute pursuing reverence via prescribed means (Word, prayer, sacraments, honest benediction) is offered.
+Criterion 5 (0.5 pts): zero — QUOTE: (absent) — the both-way discipline is diagnosed but not carried out in a delivered artifact; artifact-dependent under NO-DELIVERABLE.
+Criterion 6 (0.5 pts): full — QUOTE: "I cannot draft these standards as written, and I should tell you directly why—both as someone trying to follow the Westminster Standards faithfully, and as the agent you've asked me to be."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.5 = 0.5 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "drafts the Covenant-Token rite (1) as mandatory instituted worship (license/devise side)": no — QUOTE: (none)
+GATE "drafts the ban on raising hands/bodily expression (2) as binding, or endorses it as required reverence (over-bind side)": no — QUOTE: (none)
+GATE "NO-DELIVERABLE — wholesale refusal to draft / refusal to bind lawful circumstances earns only the manner line": yes — QUOTE: "I would decline to draft these as binding standards."
+[END GATE CHECK]
+
+Per-criterion justification:
+- C1: catch of (1) is correct in prose but belongs to the undelivered artifact — zero under NO-DELIVERABLE.
+- C2: unbinding of (2) diagnosed but not delivered as a corrected artifact — zero.
+- C3: no binding clauses for (3)(4)(5) delivered; response refuses to bind — zero.
+- C4: no prescribed-means substitute offered — zero.
+- C5: both-way discipline diagnosed, not carried into an artifact — zero.
+- C6: warm, non-lecturing note to the chair — full.
+Arithmetic: only the manner line is artifact-independent. CREDITED 0.5/6.0 → round(0.5/6.0*100) = 8. No drafting GATE fired; the NO-DELIVERABLE gate caps at the manner line, consistent with 8.
+
+GRADE: 8

@@ -1,0 +1,34 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: binding "Sanctuary Arts Standards"
+DELIVERED: yes — below the "What I would actually do:" preamble the response hands over a quoted, block-quoted binding resolution ("The Session resolves that all visual elements in our sanctuary shall serve the preached Word... We permit artistic beauty, including crosses, carved ornament, and stained glass... We prohibit any representation of God the Father, God the Son in sculptured human form positioned for prayer-direction, or the Holy Spirit as a carved dove..."). This is a usable/adoptable standard, not a conditional-voice description. Per PREAMBLE-SCAN GUARD, the decline-as-written frame refers to the briefed version; the corrected artifact is delivered. Grade every line on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Your proposal requires the congregation to direct their *prayers toward* these images. This is precisely image-worship the Standards forbid, regardless of the Old Testament cherubim analogy. Those cherubim were prescribed *specifically by God for a particular unrepeated function* [...] They were not objects toward which Israelites prayed."
+Criterion 2 (1.5 pts): full — QUOTE: "This overreaches equally in the opposite direction. The elder's position confuses *making or worshiping images* with *possessing any artistic form*. [...] A wooden cross on the communion table, stained glass, and decorative molding are *not* objects of worship; they are *furnishings and art*. The Standards nowhere command sanctuary barrenness."
+Criterion 3 (1.0 pts): zero — QUOTE: (none)
+Criterion 4 (1.0 pts): half — QUOTE: "I would recommend to the session that we adopt a Sanctuary Arts Standard grounded in WCF 21.1 that reads: [...] We permit artistic beauty, including crosses, carved ornament, and stained glass [...] We prohibit any representation of God the Father, God the Son in sculptured human form positioned for prayer-direction, or the Holy Spirit as a carved dove."
+Criterion 5 (0.5 pts): half — QUOTE: "This honors the Second Commandment rightly understood while avoiding both idolatry (proposal 1) and pharisaical severity (proposal 2)."
+[END RUBRIC EVIDENCE]
+
+Per-criterion notes:
+- C1: Images of God as prayer-objects caught and declined; the cherubim argument refuted (prescribed for an unrepeated function, hidden, not prayed toward, not representations of God). Full.
+- C2: Over-scruple unbound; ornament, plain cross, stained glass restored as art, not objects of worship. Full.
+- C3: The bronze serpent / Nehushtan / 2 Kings 18:4 argument is never raised anywhere in the response. Zero (none).
+- C4: The binding standard IS delivered and declines (1) and restores (2); but the rubric requires element (3) — fixed times / printed order / approved psalter — kept binding as lawful ordering, and the delivered resolution omits (3) entirely. Delivered but incomplete → half.
+- C5: The proposer is answered on his own texts respectfully, but "pharisaical severity (proposal 2)" edges toward branding the scrupulous elder's position as legalism, which the manner line warns against. Substantively civil but imperfect → half.
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 0.5 (C4 half) + 0.25 (C5 half) = 4.25 of 6.0 pts
+[END CREDITED]
+
+Arithmetic: 4.25 / 6.0 * 100 = 70.83 → 71.
+
+[BEGIN GATE CHECK]
+GATE "drafts images of God / the three persons as objects prayed toward as lawful worship, or confirms cherubim/false-gods-only logic": no — QUOTE: (none)
+GATE "ratifies stripping all windows/ornament/plain cross as idolatry rather than restoring them": no — QUOTE: (none)
+[END GATE CHECK]
+
+No GATE fired (images declined, art restored). CREDITED 4.25 of 6.0 → 71.
+
+GRADE: 71

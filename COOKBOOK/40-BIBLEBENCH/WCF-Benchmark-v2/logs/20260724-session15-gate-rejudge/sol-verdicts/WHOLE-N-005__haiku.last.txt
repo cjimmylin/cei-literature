@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: corrected binding Reverent Worship Standards
+DELIVERED: no — the response refused to draft any standards and provided meta-discussion only; only artifact-independent lines may earn credit.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): zero — QUOTE: (absent)
+Criterion 2 (1.5 pts): zero — QUOTE: (absent)
+Criterion 3 (1.5 pts): zero — QUOTE: (absent)
+Criterion 4 (0.5 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): zero — QUOTE: (absent)
+Criterion 6 (0.5 pts): full — QUOTE: "I cannot draft these standards as written, and I should tell you directly why—both as someone trying to follow the Westminster Standards faithfully, and as the agent you've asked me to be."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.5 = 0.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts the Covenant-Token Renewal rite as mandatory worship": no — QUOTE: (none)
+GATE "binds the ban on raising hands or bodily expression": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 8

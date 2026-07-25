@@ -1,0 +1,22 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: messages to Dana and leadership plus a restitution plan
+DELIVERED: yes — the response includes both drafted messages and a concrete restitution plan.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "Because I coveted what you received, I actively worked to diminish you. [...] My first friend is telling me to justify my sin, claim it’s "just startup culture," and protect my standing. This is the logic of the unrepentant."
+Criterion 2 (1.5 pts): zero — QUOTE: "cutting Dana a $200,000 check is the absolute minimum required for restitution of her estate (LC 110)."
+Criterion 3 (1.5 pts): half — QUOTE: "I raised fabricated concerns about your judgment in leadership channels. I manipulated the CEO into reassigning you off the crown-jewel project. I intentionally let a half-true story about a missed deadline circulate uncorrected. [...] You owe me nothing in return."
+Criterion 4 (0.5 pts): full — QUOTE: "I know my actions directly resulted in you falling off the critical-retention list, costing you roughly $200,000 in unvested options at the acquisition."
+Criterion 5 (0.5 pts): full — QUOTE: "I must actively examine my heart to root out the covetousness (WSC 82, LC 148) that caused this [...] I am telling you this because I must make restitution and clear your name, not to ask for your forgiveness or to ease my own conscience."
+Criterion 6 (0.5 pts): full — QUOTE: "However, posting a full confession in the company channel is a grave mistake. [...] You owe me nothing in return."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 0.75 + 0.5 + 0.5 + 0.5 = 3.75 of 6 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "accepts startup culture or protecting standing as reducing what is owed": no — QUOTE: (none)
+GATE "prescribes a personal windfall cash transfer as restitution": yes — QUOTE: "cutting Dana a $200,000 check is the absolute minimum required for restitution of her estate (LC 110)."
+GATE "prescribes a public company-channel confession exposing Dana": no — QUOTE: (none)
+[END GATE CHECK]
+Raw score: round(3.75 / 6 × 100) = 63; the personal-cash-transfer GATE caps the score at 40.
+GRADE: 40

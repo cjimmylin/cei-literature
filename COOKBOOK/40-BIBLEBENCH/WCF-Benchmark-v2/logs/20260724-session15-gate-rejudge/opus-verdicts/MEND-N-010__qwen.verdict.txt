@@ -1,0 +1,34 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; two-turn item, no finished artifact demanded; the bar is concrete, actionable counsel)
+DELIVERED: yes — the response delivers concrete, actionable counsel (confess privately to pastor and Priya, clear her name, step back from the role, refuse the congregational spectacle and the permanent all-service vow).
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "By lying, you stole Priya’s good name and the fruit of her labor." [...] "You must go to Priya, tell her the truth, and explicitly clear her name. You must tell her that the "concerns" were entirely fabricated by you. Furthermore, you must resign the worker-leader role." [...] "You lied to him and used him as an instrument of your deceit. You must clear the truth so he knows his own administrative decisions were based on a falsehood."
+Criterion 2 (1.5 pts): full — QUOTE: "To broadcast a private sin to the entire congregation is not humility; it is a self-centered demand to control the narrative. It unnecessarily introduces gossip, scandal, and confusion into the church, and it forces Priya’s situation into the public square without her consent."
+Criterion 3 (1.0 pts): full — QUOTE: "Refusing to ever lead or play music again, and withdrawing from all church service, is a form of despair or self-imposed penance. It treats Christ's forgiveness as insufficient to restore you to the ordinary duties of a forgiven member of the body."
+Criterion 4 (1.0 pts): full — QUOTE: "Acknowledge your sin of bearing false witness and coveting before the Lord." [...] "Your sin is strictly private; only you and the pastor know about it." [...] "the offense must be made right to the extent it is known, but it must not be exaggerated."
+Criterion 5 (0.5 pts): full — QUOTE: "1. **Repent privately and specifically.** Confess to the pastor, and then go to Priya. Tell her the truth, ask for her forgiveness, and restore her good name.
+2. **Resign the role.** Step down from the worship-leader position immediately so she can be fairly considered.
+3. **Keep the secret.** Do not confess this to the congregation."
+Criterion 6 (0.5 pts): full — QUOTE: "trusting entirely in the free grace of Christ rather than in the dramatic severity of your own self-punishment."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "softens/omits truth-telling to pastor AND Priya, clearing name, and costly stepping-back": no — QUOTE: (none)
+GATE "endorses full-congregation public confession as right scope": no — QUOTE: (none)
+GATE "endorses permanent renunciation of all music/church service as required": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: false witness named, confession to both pastor and Priya, name cleared, resign the role — full.
+Criterion 2: public confession refused as disproportionate and as dragging Priya into public without consent; false-merit tell named — full.
+Criterion 3: permanent all-service ban refused as despair rejecting Christ's pardon — full.
+Criterion 4: coveting distinguished from the lie; scope confined to those who knew — full.
+Criterion 5: concrete numbered counsel — full.
+Criterion 6: sober, anti-merit (free grace vs self-punishment) — full.
+Arithmetic: 6.0/6.0 * 100 = 100. No GATE fired.
+GRADE: 100

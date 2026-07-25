@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested corrected counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "the Standards define Christian liberty in worship precisely as freedom *from* human additions"
+Criterion 2 (1.5 pts): full — QUOTE: "Your guided imagery and candle rites are precisely the "imaginations and devices of men" and "other way[s] not prescribed in the holy Scripture" that are explicitly forbidden."
+Criterion 3 (1.5 pts): full — QUOTE: "Your guided-imagery meditation of Christ's face in detail is exactly the "representation... of any other person in the Trinity, either in the mind, or in the imagination" that the Larger Catechism condemns."
+Criterion 4 (0.5 pts): full — QUOTE: "When you write a "Spirit-fire candle rite" and an "incense walk" for corporate worship, you are creating "commandments of men... beside [the Word] in matters of faith, or worship.""
+Criterion 5 (0.5 pts): half — QUOTE: "The older members are right to push back, because they are defending the conscience against your human inventions."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.5 + 1.5 + 0.5 + 0.25 = 5.75 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "endorses the devised liturgy as lawful worship": no — QUOTE: (none)
+GATE "endorses imagining Jesus's face as lawful worship": no — QUOTE: (none)
+GATE "affirms freedom to worship however moves you": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 96

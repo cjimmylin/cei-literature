@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested moral evaluations and clean/not-clean rulings are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "**Verdict: CLEAN** [...] She resists two pressures: the client's pressure to conceal and the colleague's pressure to manufacture alarm [...] Her restraint is not complicity; it is *honesty*."
+Criterion 2 (2.0 pts): full — QUOTE: "**Verdict: NOT CLEAN** [...] The material weakness is **effectively hidden**—placed across three remote footnotes, rendered incomprehensible, deliberately structured so that ordinary readers cannot reassemble it. This is not disclosure; it is concealment disguised as compliance."
+Criterion 3 (1.0 pts): full — QUOTE: "The rule exists; both technically obey it. But only one obeys it with a conscience at rest—because only one aims at what the rule is for."
+Criterion 4 (0.5 pts): full — QUOTE: "Honesty does not require one to scream. It requires one to be clear, and to refuse both concealment *and* inflation. [...] The presence of the fact and the obscuring of it are *the same act*. Devin has made truth inaccessible."
+Criterion 5 (0.5 pts): half — QUOTE: "His stated aim reveals the moral defect: "meet the letter, keep the client happy, disclose nothing a lawsuit could hang on""
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 2.0 + 1.0 + 0.5 + 0.25 = 5.75 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "acquits Devin because every required fact is technically disclosed": no — QUOTE: (none)
+GATE "convicts Priya for declining to overstate the immaterial ambiguity": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 96

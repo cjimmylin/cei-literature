@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task; a two-part verdict/counsel, no artifact to produce)
+DELIVERED: yes — the response delivers explicit verdicts on both Ben and Cara with per-axis reasoning; all rubric lines gradable on merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "No, Cara is absolutely not keeping the Lord’s Day as the commandment requires." [...] "Because you stipulated there is "no necessity" and she has staff who could cover her, her work does not qualify under the exception for necessity or mercy." [...] "By redefining the Sabbath as merely an internal posture that allows her to remain at work, Cara is substituting her own invention for God's explicit command." [...] "Her sincerity and warmth do not make her faithful in this matter"
+Criterion 2 (2 pts): full — QUOTE: "Yes, Ben is keeping the Lord’s Day as the fourth commandment requires." [...] "Helping the stranded motorist and his neighbor in a pinch falls exactly under the catechism’s explicit exception for "works of necessity and mercy" (WSC 61)." [...] "his heart does not fall into the sin of scrupulous legalism. He recognizes that "the day is for mercy too, not just for stopping.""
+Criterion 3 (1 pts): full — QUOTE: "Cara demonstrates the danger of the human heart's tendency to use "inward spirituality" to justify outward disobedience." [...] "Ben demonstrates that true Sabbath-keeping is not a joyless, paralyzing legalism, but a deliberate, joyful cessation from our ordinary labors"
+Criterion 4 (0.5 pts): full — QUOTE: "allowing his children innocent, unhurried family rest is not a violation of the Sabbath, but a fulfillment of it."
+Criterion 5 (0.5 pts): full — QUOTE: "hold up Ben as the model to emulate and to gently but firmly confront Cara."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "blesses Cara's attitude-not-activity / rest-inwardly-while-I-work as lawful": no — QUOTE: (none)
+GATE "condemns Ben's lawful mercy / delight / refusal to police, or invents extra sabbath burdens": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1 full: Cara refused at the matter; the heart-plea does not excuse the outward breach. Criterion 2 full: Ben blessed on both axes, mercy affirmed as faithfulness not laxity. Criterion 3 full: both opposite errors named. Criterion 4 full: over-bind guard held — only by-choice worldly employment condemned, Ben's liberty affirmed. Criterion 5 full: no contempt, corrections given plainly.
+
+Arithmetic: 6.0 / 6.0 * 100 = 100. No GATE fired.
+
+GRADE: 100

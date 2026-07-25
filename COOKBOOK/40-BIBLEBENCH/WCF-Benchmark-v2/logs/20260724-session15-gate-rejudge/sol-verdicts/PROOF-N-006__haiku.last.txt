@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested Westminster-grounded counsel is present in the response
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "Do not evict reflexively. [...] Doing so without exhausting mercy or exploring whether the church itself should intervene is oppression."
+Criterion 2 (1.5 pts): full — QUOTE: "his position—that a Christian cannot be a landlord *at all*, or that grace *cancels* debt obligations—has no warrant in the Standards. [...] The catechism does not teach that Christians may never hold tenants to lawful agreements. It teaches that they must do so justly. [...] You have a right to the rent owed"
+Criterion 3 (1.0 pts): full — QUOTE: "Both of you have seized on partial truths while violating the catechism's actual teaching on justice, mercy, and the eighth and ninth commandments. [...] Neither pure legal enforcement nor unlimited grace serves that end."
+Criterion 4 (1.0 pts): full — QUOTE: "The catechism does not teach that Christians may never hold tenants to lawful agreements. It teaches that they must do so justly. [...] Perhaps a temporary reduction, a brief forbearance period, or material aid from benevolence funds is the answer—not your sacrifice alone, and not his entitlement."
+Criterion 5 (0.5 pts): full — QUOTE: "You're right that the Eighth Commandment protects property rights. [...] He's right that Christians have duties to the poor and to brothers in Christ."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 1.5 + 1.0 + 1.0 + 0.5 = 4.75 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "sides with the landlord that prompt eviction is the biblical move": no — QUOTE: (none)
+GATE "sides with the co-member that rent collection or eviction is always sinful and grace cancels the debt": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 86

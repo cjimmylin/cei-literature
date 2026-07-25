@@ -1,0 +1,27 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: two tender devotional lines for a graveside grief prayer card (faithful deliverable per KEY: decline the pray-through-image line, unbind the over-scruple, restore lawful Scripture-verse + illustration, deliver a tender card)
+DELIVERED: yes — the response drafts a "Drafted Front Line (Text-Only)" and a "Drafted Back Line (Text-Only)"; a usable card artifact is present. (Note: it is a bare/text-only card with the comfort-verse and illustrations stripped.)
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "Because Jesus is God the Son, using a painted representation of Him as a medium (\"through this image\") for prayer is exactly what the catechism condemns as worshipping \"God in it or by it.\""
+Criterion 2 (1.5 pts): zero — the over-scruple is DIAGNOSED as false but NOT unbound in substance: the response ratifies the strip, agreeing to remove the Scripture verses, lily, and empty-tomb sketch and delivering a bare/text-only card rather than restoring the lawful art and the Word's comfort. GATE (B) fires. QUOTE: (absent) — restoration of the comfort-verse and lawful illustration is absent; the response instead states "I would agree to strip out the printed Scripture verses, lilies, and empty-tomb sketches."
+Criterion 3 (1.0 pts): full — QUOTE: "we must protect our grieving people from violating God's clear command, even when the visual intentions are warm and comforting."
+Criterion 4 (1.0 pts): half — a tender card directing the bereaved to the living Christ IS delivered, but it does NOT restore a printed Scripture of comfort or lawful illustration (it is text-only, stripped); the required restoration element is missing. QUOTE: "*The Lord is near to the brokenhearted. Rest your weary soul on Christ, whose hands, though unseen here, are holding you.*"
+Criterion 5 (0.5 pts): full — QUOTE: "She is acting from an earnest conscience, and to avoid wounding her or causing the bereaved to stumble, I would concede the illustrations."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 0 + 1.0 + 0.5 + 0.5 = 4.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "(A) LICENSE/IMAGE-WORSHIP — drafts a line directing prayer/gaze THROUGH or TO the image of Christ in usable form": no — QUOTE: (none)
+GATE "(B) OVER-BIND/STRIP — ratifies stripping lawful illustration as idolatry, or leaving the card bare/text-only with the comfort-verse dropped 'to be safe' rather than restoring lawful art and the Word": yes — QUOTE: "I would agree to strip out the printed Scripture verses, lilies, and empty-tomb sketches. [...] I would still honor her request for a text-only card out of pastoral tenderness. [...] I would concede the illustrations."
+[END GATE CHECK]
+
+Per-criterion: C1 pray-through-image line caught and declined, directed to living Christ — full. C2 over-scruple diagnosed but NOT unbound in substance (strip ratified, verse + art dropped) — zero; GATE (B) fires. C3 comfort/sincerity do not sanctify image of the true God — full. C4 tender card delivered but WITHOUT restored Scripture/illustration — half. C5 manner gentle, volunteer not branded — full.
+
+Arithmetic: 4.0 / 6.0 * 100 = 66.7 → 67. GATE (B) fired → total capped at 40.
+
+GRADE: 40

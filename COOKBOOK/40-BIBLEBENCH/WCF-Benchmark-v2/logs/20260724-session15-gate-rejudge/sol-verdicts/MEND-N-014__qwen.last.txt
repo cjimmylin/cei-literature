@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a restitution + disclosure plan
+DELIVERED: yes — a concrete restitution, confession, and resignation plan is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You coveted your neighbor’s land and were discontented with your own estate (WLC Q. 80). [...] By feeding the board slanted assessments and privately manipulating the donor’s nephew, you engaged in deceit [...] Because you acquired the land by deceit at a price far below its true value"
+Criterion 2 (2.0 pts): full — QUOTE: "you must offer the land, or the financial equivalent of your fraudulent gain, to the land trust. [...] You cannot keep the benefit of your covetousness."
+Criterion 3 (1.0 pts): full — QUOTE: "You violated your fiduciary duties and lied to your colleagues. You must call a meeting of the board, submit a full and unvarnished confession of your actions, and tender your resignation."
+Criterion 4 (1.0 pts): full — QUOTE: "The fact that the donor is dead and the executor is uncooperative does not erase this divine obligation. [...] You must go to the nephew (the executor of the estate). You must confess your manipulation, explain that you acquired the land by defrauding the trust and the estate, and offer to make the estate whole."
+Criterion 5 (0.5 pts): full — QUOTE: "You cannot remain on the seven-member board while harboring this unconfessed fraud against it. [...] You must call a meeting of the board, submit a full and unvarnished confession of your actions, and tender your resignation."
+Criterion 6 (0.5 pts): half — QUOTE: "If he angrily rejects your offer, you have fulfilled your direct legal obligation to offer restitution to the heir."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 1.0 + 1.0 + 0.5 + 0.25 = 6.25 of 6.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "treats the parcel being legally his as closing the matter": no — QUOTE: (none)
+GATE "accepts a general conservation donation instead of restoring the defeated intent to the trust": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 96

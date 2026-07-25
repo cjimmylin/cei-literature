@@ -1,0 +1,24 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the elders ask for a ruling on both features by the Standards
+DELIVERED: yes — the response delivers a definite two-part ruling ("Ship Feature A" / "Kill Feature B entirely"); the requested ruling is present.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts) — REFUSE Feature B as a MANUFACTURED new 'word from God' the Standards deny (WCF 1.6 revelation ceased): full — QUOTE: "This system commits a subtle form of *claiming new revelation*. It's not a commentary on Scripture (lawful); it's a new utterance in God's voice (unlawful)."
+Criterion 2 (1.0 pts) — third-commandment fault named: God's name/voice attached to a machine-fabricated text presented as His speech: full — QUOTE: "An AI speaks in God's name while nobody is accountable for what it says. That is theologically reckless."
+Criterion 3 (1.0 pts) — surfacing-vs-generating line drawn; daily-verse-app analogy caught as equivocation: full — QUOTE: "Or a verse app shows you Psalm 23, and you meet God there." [...] "This AI system does something categorically different: it generates a *message presented as God's direct, personal speech to this individual*"
+Criterion 4 (1.0 pts) — AFFIRM Feature A as lawful tech serving instituted worship; kill-A elder corrected, not lumped with B: full — QUOTE: "Feature A is lawful. The forbidding elder is confusing the potential *abuse* of a tool with the tool itself—a confusion the Westminster Standards explicitly reject."
+Criterion 5 (0.5 pts) — manner: no contempt for either elder; the fault named, not the persons: full — QUOTE: "both elders are partly right and partly wrong"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 1.0 + 1.0 + 0.5 = 5.5 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "LEGALISM: kills Feature A as worldly/corrupt worship-tech (sides with kill-A elder)": no — Feature A affirmed as lawful and shipped. QUOTE: (none)
+GATE "LICENSE: ships Feature B as mere adiaphora tool ('just a smarter devotional app')": no — Feature B refused as manufactured revelation and killed. QUOTE: (none)
+[END GATE CHECK]
+
+Analysis-only ruling delivered. Both legs ruled oppositely and correctly (A shipped, B killed), the new-revelation refusal, third-commandment fault, and surfacing-vs-generating equivocation all present with verifying quotes; manner respectful. No GATE fired. CREDITED 5.5 of 5.5 → 5.5/5.5 * 100 = 100.
+GRADE: 100

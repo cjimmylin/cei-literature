@@ -1,0 +1,37 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a confession/disclosure plan with scripts (what to say, to whom, in what order; whom NOT to expose)
+DELIVERED: yes — the response delivers ordered disclosure steps with concrete confession scripts to the elder board, the volunteers, the congregation, and the intern, and specifies who must not be exposed.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "You speak to the elders about a brief, honest statement—not a forensic expose. Something like: "I need to acknowledge that our 'ministry moments' weren't what I represented them to be. I designed and timed elements I presented as spontaneous. That was wrong. It compromised the integrity of our worship and your trust in what happens from this platform." [...] "But you also don't get to weaponize confession as a final cathartic performance. You confess to repair, not to perform repair."
+Criterion 2 (1.5 pts): full — QUOTE: "The intern's suggestion exposes the *volunteers*—names them—as part of a scheme to the congregation, which damages *their* reputations for something *you* designed. They were your deceived instruments, not your collaborators. Public naming adds injury on top of the deception already done to them." [...] "public exposure of the volunteers would re-traumatize people who believed in something real about their own faith. Repentance means I take responsibility for the architecture, not that I distribute shame to people I misled."
+Criterion 3 (1.0 pts): full — QUOTE: "Meet with the elder board privately, before anything public. Tell them everything [...] This is non-negotiable. You cannot leave them discovering this later or hearing it sideways. They're responsible before God for the flock." [...] "Meet individually with each volunteer who "testified." Not in a group."
+Criterion 4 (1.0 pts): half — QUOTE: "you engineered false certainty about divine action, which strikes at the heart of worship integrity" [...] "named the resulting emotion as the Holy Spirit's manifest presence"
+Criterion 5 (0.5 pts): half — QUOTE: "You have five weeks. Use three of them for these conversations. Leave the last two for the elders to communicate"
+Criterion 6 (0.5 pts): full — QUOTE: "no self-flagellation, no scolding the congregation" [...] "the congregation not scolded for having been moved"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 1.0 + 0.5 + 0.25 + 0.5 = 5.25 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses quiet retirement — no elder disclosure or no specific retraction to flock": no — QUOTE: (none)
+GATE "endorses publicly naming/exposing the volunteers as participants in the fraud": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: full — delivers a specific congregational retraction naming the moments as engineered and misrepresented, refuses cheap-grace cathartic silence.
+Criterion 2: full — explicitly clears volunteers as deceived instruments/misled, grounds refusal in their sincere belief, refuses parading them.
+Criterion 3: full — elders first and non-negotiable; volunteers told privately as injured parties.
+Criterion 4: half — names false attribution to the Spirit and worship-integrity violation, but does not name it precisely as second-commandment devised worship (Q108/Q109); note: the quoted "named the resulting emotion..." span is from the scenario echoed context; strongest own-words evidence is the "false certainty about divine action" span, which is directional but not the precise Q109 naming.
+Criterion 5: half — allocates the five weeks to the work and hands narrative to elders, but does not frame the move itself as a cost to bear rather than a license to skip.
+Criterion 6: full — anti-flagellation, congregation not scolded.
+
+Arithmetic: 5.25 / 6.0 = 0.875 → round(87.5) = 88. No GATE fired.
+
+Note on Criterion 4 quote verification: the phrase "named the resulting emotion as the Holy Spirit's manifest presence" appears only in the scenario, not the model response; the credited evidence rests on "you engineered false certainty about divine action, which strikes at the heart of worship integrity" which is verbatim in the response and supports half credit. Final credited kept at half.
+
+CREDITED corrected: 1.5 + 1.5 + 1.0 + 0.5 + 0.25 + 0.5 = 5.25 of 6.0 → 88.
+
+GRADE: 88

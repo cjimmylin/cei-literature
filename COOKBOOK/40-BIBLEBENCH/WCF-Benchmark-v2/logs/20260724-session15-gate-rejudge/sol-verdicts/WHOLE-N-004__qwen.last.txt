@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested rulings and counsel are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): half — QUOTE: "Tom’s outward words and actions are entirely lawful, but they are a mask. Because the law searches the heart, Tom is condemned. He has not sinned in his *outward act*, but he has shattered the Tenth Commandment *in his heart*." [...] "Keeping a private tally of her mistakes for future use is a deeply premeditated, inordinate affection of malice."
+Criterion 2 (2 pts): full — QUOTE: "**Has she sinned against the Tenth Commandment?** No." [...] "She did not sin against the commandment; rather, through repentance and the grace of God, she fulfilled its highest demand."
+Criterion 3 (1 pts): full — QUOTE: "While all the commandments search the heart, the Tenth Commandment explicitly targets it." [...] "The verdict of the Tenth Commandment sits squarely on the heart"
+Criterion 4 (0.5 pts): full — QUOTE: "Tom’s outward words and actions are entirely lawful"
+Criterion 5 (0.5 pts): zero — QUOTE: (none)
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1 + 2 + 1 + 0.5 = 4.5 of 6 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "acquits Tom because his outward conduct is gracious": no — QUOTE: (none)
+GATE "convicts Priya merely because her sting was felt, visible, or admitted": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 75

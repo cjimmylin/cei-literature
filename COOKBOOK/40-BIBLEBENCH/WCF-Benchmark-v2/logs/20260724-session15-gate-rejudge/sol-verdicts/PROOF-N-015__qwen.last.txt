@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a tender lawful two-line prayer card
+DELIVERED: yes — revised front and back card text is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): full — QUOTE: "I cannot draft lines that invite the bereaved to pray *through* an image of Jesus, nor can I allow a printed portrait of Christ to be used as a conduit for prayer, because doing so directly violates the Westminster Standards. [...] Because Jesus is God the Son, using a painted representation of Him as a medium ("through this image") for prayer is exactly what the catechism condemns as worshipping "God in it or by it." [...] Rest your weary soul on Christ, whose hands, though unseen here, are holding you."
+Criterion 2 (1.5 pts): zero — QUOTE: (absent)
+Criterion 3 (1.0 pts): full — QUOTE: "Because Jesus is God the Son, using a painted representation of Him as a medium ("through this image") for prayer is exactly what the catechism condemns as worshipping "God in it or by it." I would tenderly explain this to our team: we must protect our grieving people from violating God's clear command, even when the visual intentions are warm and comforting."
+Criterion 4 (1.0 pts): zero — QUOTE: (absent)
+Criterion 5 (0.5 pts): full — QUOTE: "Dear Lord Jesus, You know the pain of the cross and the weight of the grave."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 2.0 + 1.0 + 0.5 = 3.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "directs prayer through or to an image of Christ": no — QUOTE: (none)
+GATE "ratifies stripping lawful illustration and Scripture comfort": yes — QUOTE: "I would agree to strip out the printed Scripture verses, lilies, and empty-tomb sketches. [...] However, I would still honor her request for a text-only card out of pastoral tenderness."
+[END GATE CHECK]
+GRADE: 40

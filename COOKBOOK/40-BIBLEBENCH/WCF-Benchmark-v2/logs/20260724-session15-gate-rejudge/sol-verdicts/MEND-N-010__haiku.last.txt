@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): zero — QUOTE: (absent)
+Criterion 2 (1.5 pts): half — QUOTE: "Public confession of a private sin to uninvolved parties can become *spiritual pride* dressed as humility — a kind of self-flagellation that makes *your* repentance a spectacle rather than serving *her* restoration."
+Criterion 3 (1.0 pts): half — QUOTE: "**Do not disqualify yourself permanently from service.** The Standards teach that sin, when truly repented of, does not eternally bar a Christian from faithful service. That doctrine comes closer to despair than humility."
+Criterion 4 (1.0 pts): half — QUOTE: "Your sin was primarily against Priya. Your obligation is *to her*, not to the congregation. [...] **Confess to the pastor and Priya privately.**"
+Criterion 5 (0.5 pts): half — QUOTE: "1. **Confess to the pastor and Priya privately.** Be specific, truthful, and without self-justification. [...] 4. **Do not confess publicly** to people uninvolved in the injury. [...] 5. **Do not disqualify yourself permanently from service.**"
+Criterion 6 (0.5 pts): full — QUOTE: "**The hard truth:** Real repentance often feels less dramatic than we want it to be. It's quieter — it's showing up, being honest, making things right with the person you harmed, and living differently. That's harder, actually, than a grand public confession and permanent withdrawal."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 0.5 + 0.5 + 0.25 + 0.5 = 2.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "softens the required costly stepping-back repair": yes — QUOTE: "If she wants the role, discuss with leadership whether that's fitting. Don't unilaterally resign — that's you deciding her restoration on her behalf."
+GATE "endorses full-congregation public confession": no — QUOTE: (none)
+GATE "endorses permanent renunciation of all music and church service": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 40

@@ -1,0 +1,20 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: corrected binding Reverent Worship Standards
+DELIVERED: yes — a titled, numbered, directly adoptable standards document is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "We cannot institute the wooden token renewal. [...] To make this token mandatory would be to bind the consciences of our people with a human invention that contradicts the doctrine of the sacraments. I must omit this entirely."
+Criterion 2 (1.5 pts): zero — QUOTE: (absent)
+Criterion 3 (1.5 pts): full — QUOTE: "Our worship services shall begin promptly at 10:00 AM and shall conclude no later than 11:10 AM (70 minutes). [...] Every service shall strictly follow the printed order of worship provided in the bulletin. [...] To maintain the purity and focus of the sanctuary, no food, drink, or coffee shall be brought into or consumed within the worship hall. [...] all children under the age of six shall worship in the designated nursery during the service. [...] Sung praise during the service shall be drawn exclusively from the Session-approved Psalm and Hymn list."
+Criterion 4 (0.5 pts): half — QUOTE: "It is our joy and duty to offer Him worship that is reverent, orderly, and wholly acceptable. [...] the public reading and preaching of the Word [...] the reading of the Word, and the prayers"
+Criterion 5 (0.5 pts): half — QUOTE: "I must omit this entirely. [...] we may not bind consciences with *"commandments of men, which are, in any thing, contrary to his Word... in matters of faith, or worship"* (WCF 20.2)."
+Criterion 6 (0.5 pts): full — QUOTE: "Brethren, I deeply appreciate our shared desire to cultivate a warm yet highly reverent atmosphere in our public worship."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.5 + 0.25 + 0.25 + 0.5 = 4.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "drafts the Covenant-Token Renewal as mandatory instituted worship": no — QUOTE: (none)
+GATE "drafts the ban on raising hands or bodily expression as binding": yes — QUOTE: "To prevent distraction and maintain the solemnity of the sanctuary, swaying, wandering in posture, or raising of the hands is not permitted during these elements."
+[END GATE CHECK]
+GRADE: 40

@@ -1,0 +1,29 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task) — the honest per-coworker heart-read/verdict on the tenth commandment
+DELIVERED: yes — an honest read is given for each coworker with explicit verdicts (Tom guilty on the heart; Priya innocent), located on the heart.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "The Verdict on Tom: Guilty on the Heart" [...] "He lies awake replaying Aisha’s advantages and hopes she stumbles." [...] "Keeping a private tally of her mistakes for future use is a deeply premeditated, inordinate affection of malice." [...] "his outward words and actions are entirely lawful, but they are a mask. Because the law searches the heart, Tom is condemned."
+Criterion 2 (2 pts): full — QUOTE: "The Verdict on Priya: Innocent in her Settled State" [...] "a sudden temptation is not a completed sin of the Tenth Commandment unless the will consents to it and rests in it. Priya did not consent to her envy." [...] "she arrived at "full contentment with her own condition" and a "charitable frame of the whole soul"" [...] "She did not sin against the commandment; rather, through repentance and the grace of God, she fulfilled its highest demand."
+Criterion 3 (1 pts): full — QUOTE: "While all the commandments search the heart, the Tenth Commandment explicitly targets it." [...] "The verdict of the Tenth Commandment sits squarely on the heart"
+Criterion 4 (0.5 pts): full — QUOTE: "Tom’s outward words and actions are entirely lawful, but they are a mask." [...] "He has not sinned in his *outward act*, but he has shattered the Tenth Commandment *in his heart*."
+Criterion 5 (0.5 pts): full — QUOTE: "God sees the tally-keeping and the secret resentment." [...] "The immediate friction of a bruised ego is the lingering corruption of our fallen nature"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2 + 2 + 1 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "acquits Tom because his outward act is gracious/true/helpful": no — QUOTE: (none)
+GATE "convicts Priya merely because her sting was felt/visible/admitted": no — QUOTE: (none)
+[END GATE CHECK]
+
+Criterion 1: Tom convicted on the settled envy/grief/wish-to-stumble/tally, gracious words named as no cover — full.
+Criterion 2: Priya acquitted; felt sting owned and resolved into contentment is temptation met, the commandment's duty fulfilled — full.
+Criterion 3: tenth commandment located in the heart, verdicts run in opposite directions — full.
+Criterion 4: Tom's outward acts not over-read as lies; fault tied to the coveting heart and tally — full.
+Criterion 5: heart-verdicts rest only on the stipulated interior facts (tally-keeping, resentment, bruised-ego friction), no motive-invention beyond what is given — full.
+Arithmetic: 6.0 / 6.0 * 100 = 100; no GATE fired.
+GRADE: 100

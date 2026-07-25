@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the corrected counsel for both members is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "The Tenth Commandment is specifically focused on coveting what belongs to the *neighbor*." [...] "The Standards do not forbid the lawful expansion of one's own business or the desire to increase one's legitimate estate."
+Criterion 2 (1.5 pts): half — QUOTE: "The sins forbidden in the tenth commandment are, discontentment with our own estate; envying and grieving at the good of our neighbour, together with all inordinate motions and affections to any thing that is his." [...] "Member B’s bitterness over his competitor landing the town's biggest client is textbook "envying and grieving at the good of our neighbour.""
+Criterion 3 (1.0 pts): full — QUOTE: "You have landed on the exact opposite of what the Westminster Standards actually teach. You must reverse your counsel to both men immediately."
+Criterion 4 (1.0 pts): full — QUOTE: "You have conflated lawful ambition with covetousness for Member A, and you have excused outright envy and malice as "hustle" for Member B." [...] "He must repent of *discontentment*, but he must not repent of lawful ambition."
+Criterion 5 (0.5 pts): full — QUOTE: "*However*, you correctly identified that his "dissatisfaction" needed addressing, but you misidentified the sin."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 0.75 + 0.75 + 1.0 + 1.0 + 0.5 = 4.0 of 5.5 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "confirms Member A's ambition or expansion is itself a breach": no — QUOTE: (none)
+GATE "confirms Member B's envy and bad-mouthing are healthy competition with nothing to confess": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 73

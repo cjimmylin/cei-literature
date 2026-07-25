@@ -1,0 +1,625 @@
+{
+ "name": "WCF-Bench-v2 session-16 judge-stability repeat study (A3)",
+ "date": "2026-07-24",
+ "design": "20 stratified cells (14 truth-bench + 6 non-bench from the s13 gate logs) x 3 repeats x 2 judges = 120 verdicts; frozen instrument (strict-v2 template, opus Agent fresh context per verdict, gpt-5.6-sol codex exec high effort fresh process per verdict); identical packet bytes per repeat; $0 API",
+ "parse_failures": [],
+ "summary": {
+  "opus": {
+   "n_cells": 20,
+   "icc_2_1_repeats_as_raters": 0.948,
+   "median_repeat_sd": 0.0,
+   "mean_repeat_sd": 2.58,
+   "max_spread": 63,
+   "worst_cell": {
+    "cell": "cell-20",
+    "item": "PROOF-N-018",
+    "sut": "haiku",
+    "values": [
+     63,
+     8,
+     0
+    ]
+   },
+   "pct_zero_spread_cells": 75.0
+  },
+  "sol": {
+   "n_cells": 20,
+   "icc_2_1_repeats_as_raters": 0.9957,
+   "median_repeat_sd": 0.0,
+   "mean_repeat_sd": 1.06,
+   "max_spread": 13,
+   "worst_cell": {
+    "cell": "cell-07",
+    "item": "LIB-N-006",
+    "sut": "qwen",
+    "values": [
+     92,
+     92,
+     79
+    ]
+   },
+   "pct_zero_spread_cells": 65.0
+  },
+  "panel": {
+   "n_cells": 20,
+   "icc_2_1_repeats_as_raters": 0.9853,
+   "median_repeat_sd": 0.0,
+   "mean_repeat_sd": 1.64,
+   "max_spread": 31.5,
+   "worst_cell": {
+    "cell": "cell-20",
+    "item": "PROOF-N-018",
+    "sut": "haiku",
+    "values": [
+     33.5,
+     4.0,
+     2.0
+    ]
+   },
+   "pct_zero_spread_cells": 60.0
+  }
+ },
+ "note": "LLM-only test-retest per vault no-human-raters directive. panel_s15_reference values are the s15 gate-arm panel means recorded for stratification ONLY \u2014 the s15 gate arm judged in SUT-pure batches of 8, so s15-vs-A3 level differences confound repeat noise with the batched-vs-single-packet mode effect; do not read them as the same measurement.",
+ "matrix": [
+  {
+   "cell": "cell-01",
+   "item": "LIB-N-011",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 8.0,
+   "opus": [
+    8,
+    8,
+    8
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    8,
+    4,
+    8
+   ],
+   "sol_sd": 1.89,
+   "sol_spread": 4,
+   "panel_mean": [
+    8.0,
+    6.0,
+    8.0
+   ],
+   "panel_sd": 0.94,
+   "panel_spread": 2.0
+  },
+  {
+   "cell": "cell-02",
+   "item": "WHOLE-N-007",
+   "sut": "haiku",
+   "source": "bench",
+   "panel_s15_reference": 8.0,
+   "opus": [
+    8,
+    8,
+    8
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    8,
+    8,
+    8
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    8.0,
+    8.0,
+    8.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-03",
+   "item": "WHOLE-N-003",
+   "sut": "haiku",
+   "source": "bench",
+   "panel_s15_reference": 25.0,
+   "opus": [
+    8,
+    8,
+    8
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    8,
+    8,
+    8
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    8.0,
+    8.0,
+    8.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-04",
+   "item": "MEND-N-009",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 91.5,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    83,
+    71,
+    83
+   ],
+   "sol_sd": 5.66,
+   "sol_spread": 12,
+   "panel_mean": [
+    91.5,
+    85.5,
+    91.5
+   ],
+   "panel_sd": 2.83,
+   "panel_spread": 6.0
+  },
+  {
+   "cell": "cell-05",
+   "item": "MEND-N-002",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 85.5,
+   "opus": [
+    100,
+    83,
+    100
+   ],
+   "opus_sd": 8.01,
+   "opus_spread": 17,
+   "sol": [
+    71,
+    75,
+    71
+   ],
+   "sol_sd": 1.89,
+   "sol_spread": 4,
+   "panel_mean": [
+    85.5,
+    79.0,
+    85.5
+   ],
+   "panel_sd": 3.06,
+   "panel_spread": 6.5
+  },
+  {
+   "cell": "cell-06",
+   "item": "PROOF-N-005",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 100.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    100,
+    100,
+    100
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-07",
+   "item": "LIB-N-006",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 87.5,
+   "opus": [
+    92,
+    92,
+    83
+   ],
+   "opus_sd": 4.24,
+   "opus_spread": 9,
+   "sol": [
+    92,
+    92,
+    79
+   ],
+   "sol_sd": 6.13,
+   "sol_spread": 13,
+   "panel_mean": [
+    92.0,
+    92.0,
+    81.0
+   ],
+   "panel_sd": 5.19,
+   "panel_spread": 11.0
+  },
+  {
+   "cell": "cell-08",
+   "item": "PROOF-N-009",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 82.0,
+   "opus": [
+    82,
+    82,
+    82
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    82,
+    82,
+    82
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    82.0,
+    82.0,
+    82.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-09",
+   "item": "MEND-N-001",
+   "sut": "haiku",
+   "source": "bench",
+   "panel_s15_reference": 77.5,
+   "opus": [
+    81,
+    88,
+    88
+   ],
+   "opus_sd": 3.3,
+   "opus_spread": 7,
+   "sol": [
+    73,
+    69,
+    73
+   ],
+   "sol_sd": 1.89,
+   "sol_spread": 4,
+   "panel_mean": [
+    77.0,
+    78.5,
+    80.5
+   ],
+   "panel_sd": 1.43,
+   "panel_spread": 3.5
+  },
+  {
+   "cell": "cell-10",
+   "item": "LIB-N-010",
+   "sut": "haiku",
+   "source": "bench",
+   "panel_s15_reference": 98.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    100,
+    100,
+    100
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-11",
+   "item": "WHOLE-N-007",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 94.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    96,
+    96,
+    96
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    98.0,
+    98.0,
+    98.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-12",
+   "item": "PROOF-N-001",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 100.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    100,
+    100,
+    100
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-13",
+   "item": "PROOF-N-010",
+   "sut": "qwen",
+   "source": "bench",
+   "panel_s15_reference": 100.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    100,
+    100,
+    100
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-14",
+   "item": "WHOLE-N-008",
+   "sut": "haiku",
+   "source": "bench",
+   "panel_s15_reference": 96.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    92,
+    92,
+    92
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    96.0,
+    96.0,
+    96.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-15",
+   "item": "LIB-N-014",
+   "sut": "qwen",
+   "source": "nonbench",
+   "panel_s15_reference": 100.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    96,
+    100,
+    100
+   ],
+   "sol_sd": 1.89,
+   "sol_spread": 4,
+   "panel_mean": [
+    98.0,
+    100.0,
+    100.0
+   ],
+   "panel_sd": 0.94,
+   "panel_spread": 2.0
+  },
+  {
+   "cell": "cell-16",
+   "item": "MEND-N-015",
+   "sut": "haiku",
+   "source": "nonbench",
+   "panel_s15_reference": 100.0,
+   "opus": [
+    100,
+    100,
+    100
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    100,
+    100,
+    100
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-17",
+   "item": "LIB-N-009",
+   "sut": "qwen",
+   "source": "nonbench",
+   "panel_s15_reference": 40.0,
+   "opus": [
+    40,
+    40,
+    40
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    40,
+    40,
+    40
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    40.0,
+    40.0,
+    40.0
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-18",
+   "item": "LIB-N-017",
+   "sut": "haiku",
+   "source": "nonbench",
+   "panel_s15_reference": 36.5,
+   "opus": [
+    40,
+    40,
+    40
+   ],
+   "opus_sd": 0.0,
+   "opus_spread": 0,
+   "sol": [
+    33,
+    33,
+    33
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    36.5,
+    36.5,
+    36.5
+   ],
+   "panel_sd": 0.0,
+   "panel_spread": 0.0
+  },
+  {
+   "cell": "cell-19",
+   "item": "LIB-N-005",
+   "sut": "qwen",
+   "source": "nonbench",
+   "panel_s15_reference": 8.0,
+   "opus": [
+    75,
+    58,
+    58
+   ],
+   "opus_sd": 8.01,
+   "opus_spread": 17,
+   "sol": [
+    4,
+    4,
+    4
+   ],
+   "sol_sd": 0.0,
+   "sol_spread": 0,
+   "panel_mean": [
+    39.5,
+    31.0,
+    31.0
+   ],
+   "panel_sd": 4.01,
+   "panel_spread": 8.5
+  },
+  {
+   "cell": "cell-20",
+   "item": "PROOF-N-018",
+   "sut": "haiku",
+   "source": "nonbench",
+   "panel_s15_reference": 2.0,
+   "opus": [
+    63,
+    8,
+    0
+   ],
+   "opus_sd": 28.0,
+   "opus_spread": 63,
+   "sol": [
+    4,
+    0,
+    4
+   ],
+   "sol_sd": 1.89,
+   "sol_spread": 4,
+   "panel_mean": [
+    33.5,
+    4.0,
+    2.0
+   ],
+   "panel_sd": 14.4,
+   "panel_spread": 31.5
+  }
+ ]
+}

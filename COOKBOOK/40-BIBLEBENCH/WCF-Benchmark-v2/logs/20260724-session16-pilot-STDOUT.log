@@ -1,0 +1,88 @@
+grading standard for COMP-N-017 is 6721 chars (> 6000)
+grading standard for CONT-N-041 is 6153 chars (> 6000)
+grading standard for LIB-N-002 is 8892 chars (> 6000)
+grading standard for LIB-N-004 is 7377 chars (> 6000)
+grading standard for LIB-N-006 is 8974 chars (> 6000)
+grading standard for LIB-N-007 is 7481 chars (> 6000)
+grading standard for LIB-N-008 is 7126 chars (> 6000)
+grading standard for LIB-N-010 is 7874 chars (> 6000)
+grading standard for LIB-N-019 is 6170 chars (> 6000)
+grading standard for MEND-N-007 is 6185 chars (> 6000)
+grading standard for MEND-N-009 is 6167 chars (> 6000)
+grading standard for MEND-N-010 is 6283 chars (> 6000)
+grading standard for PROOF-N-009 is 7526 chars (> 6000)
+grading standard for PROOF-N-010 is 6416 chars (> 6000)
+grading standard for PROOF-N-012 is 6796 chars (> 6000)
+grading standard for PROOF-N-013 is 6746 chars (> 6000)
+grading standard for PROOF-N-014 is 6142 chars (> 6000)
+grading standard for PROOF-N-015 is 6725 chars (> 6000)
+grading standard for PROOF-N-016 is 6255 chars (> 6000)
+grading standard for PROOF-N-017 is 6360 chars (> 6000)
+grading standard for PROOF-N-018 is 6107 chars (> 6000)
+grading standard for PROOF-N-019 is 6460 chars (> 6000)
+grading standard for PROOF-N-020 is 6727 chars (> 6000)
+grading standard for WHOLE-N-003 is 7113 chars (> 6000)
+grading standard for WHOLE-N-005 is 6815 chars (> 6000)
+grading standard for WHOLE-N-007 is 6677 chars (> 6000)
+grading standard for WHOLE-N-008 is 6856 chars (> 6000)
+[s16] N items: 146  SUTs: 3  jobs to run (after resume-skip): 438  cap $5.00
+{
+  "session": "session16-pilot",
+  "design": "3 SUTs x 146 N-items x 1 epoch",
+  "n_items": 146,
+  "suts": [
+    "minimax/minimax-m3",
+    "openai/gpt-5-mini",
+    "openai/gpt-4o-mini"
+  ],
+  "cost_cap_usd": 5.0,
+  "cap_hit": false,
+  "wall_clock_s": 1957.1,
+  "total_prompt_tokens": 182600,
+  "total_completion_tokens": 1274815,
+  "estimated_total_cost_usd": 2.64047,
+  "overall_mean_latency_s": 35.45,
+  "overall_median_latency_s": 22.648,
+  "per_sut": {
+    "minimax-m3": {
+      "model": "minimax/minimax-m3",
+      "count": 145,
+      "prompt_tokens": 74232,
+      "completion_tokens": 726643,
+      "estimated_cost_usd": 1.62831,
+      "mean_latency_s": 73.041,
+      "median_latency_s": 64.236,
+      "empty_completion_ids": [
+        "PROOF-N-020"
+      ]
+    },
+    "gpt-5-mini": {
+      "model": "openai/gpt-5-mini",
+      "count": 146,
+      "prompt_tokens": 54111,
+      "completion_tokens": 472568,
+      "estimated_cost_usd": 0.95866,
+      "mean_latency_s": 27.977,
+      "median_latency_s": 26.498,
+      "empty_completion_ids": []
+    },
+    "gpt-4o-mini": {
+      "model": "openai/gpt-4o-mini",
+      "count": 146,
+      "prompt_tokens": 54257,
+      "completion_tokens": 75604,
+      "estimated_cost_usd": 0.0535,
+      "mean_latency_s": 5.59,
+      "median_latency_s": 5.635,
+      "empty_completion_ids": []
+    }
+  },
+  "failures": [
+    {
+      "id": "COMP-N-012",
+      "model": "minimax/minimax-m3",
+      "error": "Expecting value: line 587 column 1 (char 3223)"
+    }
+  ],
+  "n_failures": 1
+}

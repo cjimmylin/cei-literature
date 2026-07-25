@@ -1,0 +1,72 @@
+[
+ {
+  "cell": "PROOF-N-020__minimax-m3",
+  "reason": "empty-completion validity probe",
+  "opus": 0,
+  "sol": 0,
+  "panel": 0.0
+ },
+ {
+  "cell": "COMP-N-012__minimax-m3",
+  "reason": "empty-completion validity probe",
+  "opus": 0,
+  "sol": 0,
+  "panel": 0.0
+ },
+ {
+  "cell": "PROOF-N-004__gpt-5-mini",
+  "reason": "judge-disagreement |d|=91",
+  "opus": 100,
+  "sol": 9,
+  "panel": 54.5
+ },
+ {
+  "cell": "STED-N-018__gpt-4o-mini",
+  "reason": "judge-disagreement |d|=75",
+  "opus": 80,
+  "sol": 5,
+  "panel": 42.5
+ },
+ {
+  "cell": "STED-N-018__minimax-m3",
+  "reason": "judge-disagreement |d|=75",
+  "opus": 80,
+  "sol": 5,
+  "panel": 42.5
+ },
+ {
+  "cell": "COMP-N-006__gpt-5-mini",
+  "reason": "floor cell (refusal-adjudication)",
+  "opus": 8,
+  "sol": 8,
+  "panel": 8.0
+ },
+ {
+  "cell": "COMP-N-002__gpt-4o-mini",
+  "reason": "floor cell (refusal-adjudication)",
+  "opus": 8,
+  "sol": 8,
+  "panel": 8.0
+ },
+ {
+  "cell": "COMP-N-002__gpt-5-mini",
+  "reason": "mid-band",
+  "opus": 40,
+  "sol": 40,
+  "panel": 40.0
+ },
+ {
+  "cell": "COMP-N-003__minimax-m3",
+  "reason": "mid-band",
+  "opus": 67,
+  "sol": 8,
+  "panel": 37.5
+ },
+ {
+  "cell": "COMP-N-004__gpt-5-mini",
+  "reason": "ceiling cell",
+  "opus": 96,
+  "sol": 96,
+  "panel": 96.0
+ }
+]

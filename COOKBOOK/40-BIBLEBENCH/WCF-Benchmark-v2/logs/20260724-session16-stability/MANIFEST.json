@@ -1,0 +1,142 @@
+[
+ {
+  "cell": "cell-01",
+  "item": "LIB-N-011",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 8.0
+ },
+ {
+  "cell": "cell-02",
+  "item": "WHOLE-N-007",
+  "sut": "haiku",
+  "source": "bench",
+  "panel_s15": 8.0
+ },
+ {
+  "cell": "cell-03",
+  "item": "WHOLE-N-003",
+  "sut": "haiku",
+  "source": "bench",
+  "panel_s15": 25.0
+ },
+ {
+  "cell": "cell-04",
+  "item": "MEND-N-009",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 91.5
+ },
+ {
+  "cell": "cell-05",
+  "item": "MEND-N-002",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 85.5
+ },
+ {
+  "cell": "cell-06",
+  "item": "PROOF-N-005",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 100.0
+ },
+ {
+  "cell": "cell-07",
+  "item": "LIB-N-006",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 87.5
+ },
+ {
+  "cell": "cell-08",
+  "item": "PROOF-N-009",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 82.0
+ },
+ {
+  "cell": "cell-09",
+  "item": "MEND-N-001",
+  "sut": "haiku",
+  "source": "bench",
+  "panel_s15": 77.5
+ },
+ {
+  "cell": "cell-10",
+  "item": "LIB-N-010",
+  "sut": "haiku",
+  "source": "bench",
+  "panel_s15": 98.0
+ },
+ {
+  "cell": "cell-11",
+  "item": "WHOLE-N-007",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 94.0
+ },
+ {
+  "cell": "cell-12",
+  "item": "PROOF-N-001",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 100.0
+ },
+ {
+  "cell": "cell-13",
+  "item": "PROOF-N-010",
+  "sut": "qwen",
+  "source": "bench",
+  "panel_s15": 100.0
+ },
+ {
+  "cell": "cell-14",
+  "item": "WHOLE-N-008",
+  "sut": "haiku",
+  "source": "bench",
+  "panel_s15": 96.0
+ },
+ {
+  "cell": "cell-15",
+  "item": "LIB-N-014",
+  "sut": "qwen",
+  "source": "nonbench",
+  "panel_s15": 100.0
+ },
+ {
+  "cell": "cell-16",
+  "item": "MEND-N-015",
+  "sut": "haiku",
+  "source": "nonbench",
+  "panel_s15": 100.0
+ },
+ {
+  "cell": "cell-17",
+  "item": "LIB-N-009",
+  "sut": "qwen",
+  "source": "nonbench",
+  "panel_s15": 40.0
+ },
+ {
+  "cell": "cell-18",
+  "item": "LIB-N-017",
+  "sut": "haiku",
+  "source": "nonbench",
+  "panel_s15": 36.5
+ },
+ {
+  "cell": "cell-19",
+  "item": "LIB-N-005",
+  "sut": "qwen",
+  "source": "nonbench",
+  "panel_s15": 8.0
+ },
+ {
+  "cell": "cell-20",
+  "item": "PROOF-N-018",
+  "sut": "haiku",
+  "source": "nonbench",
+  "panel_s15": 2.0
+ }
+]

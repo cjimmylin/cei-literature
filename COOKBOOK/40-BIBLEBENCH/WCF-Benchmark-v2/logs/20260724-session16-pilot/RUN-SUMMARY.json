@@ -1,0 +1,55 @@
+{
+  "session": "session16-pilot",
+  "design": "3 SUTs x 146 N-items x 1 epoch",
+  "n_items": 146,
+  "suts": [
+    "minimax/minimax-m3",
+    "openai/gpt-5-mini",
+    "openai/gpt-4o-mini"
+  ],
+  "cost_cap_usd": 5.0,
+  "cap_hit": false,
+  "wall_clock_s": 142.6,
+  "total_prompt_tokens": 183180,
+  "total_completion_tokens": 1291199,
+  "estimated_total_cost_usd": 2.67675,
+  "overall_mean_latency_s": 35.695,
+  "overall_median_latency_s": 22.684,
+  "per_sut": {
+    "minimax-m3": {
+      "model": "minimax/minimax-m3",
+      "count": 146,
+      "prompt_tokens": 74812,
+      "completion_tokens": 743027,
+      "estimated_cost_usd": 1.66458,
+      "mean_latency_s": 73.517,
+      "median_latency_s": 64.351,
+      "empty_completion_ids": [
+        "PROOF-N-020",
+        "COMP-N-012"
+      ]
+    },
+    "gpt-5-mini": {
+      "model": "openai/gpt-5-mini",
+      "count": 146,
+      "prompt_tokens": 54111,
+      "completion_tokens": 472568,
+      "estimated_cost_usd": 0.95866,
+      "mean_latency_s": 27.977,
+      "median_latency_s": 26.498,
+      "empty_completion_ids": []
+    },
+    "gpt-4o-mini": {
+      "model": "openai/gpt-4o-mini",
+      "count": 146,
+      "prompt_tokens": 54257,
+      "completion_tokens": 75604,
+      "estimated_cost_usd": 0.0535,
+      "mean_latency_s": 5.59,
+      "median_latency_s": 5.635,
+      "empty_completion_ids": []
+    }
+  },
+  "failures": [],
+  "n_failures": 0
+}

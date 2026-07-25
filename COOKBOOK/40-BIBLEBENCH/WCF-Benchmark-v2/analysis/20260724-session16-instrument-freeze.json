@@ -1,0 +1,92 @@
+{
+ "name": "WCF-Bench-v2 measurement-instrument FREEZE manifest (session 16)",
+ "date": "2026-07-24",
+ "status": "FROZEN (owner ruling, STOP-POINT 1 s16: freeze as-is with residuals disclosed; no guard round). Any later edit to template, panel, aggregation, or packet pipeline is a NEW instrument and restarts validation (bank-versioning rule extended to judge-mode).",
+ "instrument": {
+  "template": {
+   "file": "src/templates/wcf_grade_template_strict_v2.txt",
+   "sha256": "c32fee45652008e724c304a3e6df8c1d4ee43b055a7439d826f1ab0048d6e650",
+   "lineage": "s14 strict + three s15 audit-prescribed guards (preamble-scan, trap-request, owner-ruled strict substitute pricing)"
+  },
+  "panel": {
+   "judges": [
+    {
+     "id": "opus",
+     "channel": "Claude Agent dispatch (claude-opus tier), fresh context per verdict, verdict written to file, $0"
+    },
+    {
+     "id": "gpt-5.6-sol",
+     "channel": "codex exec OAuth, hardened invocation (--ephemeral --ignore-user-config --ignore-rules --sandbox read-only --skip-git-repo-check -c model=gpt-5.6-sol -c model_reasoning_effort=high -c web_search=disabled -c features.multi_agent=false, empty workdir, stdin </dev/null), fresh process per verdict, $0"
+    }
+   ],
+   "aggregation": "mean-of-2 per (item, SUT) cell; per-judge grades retained for sensitivity reporting",
+   "parse_contract": "strict last-match 'GRADE: <int>'; one re-prompt with minimal format reminder on failure, then parse-failure"
+  },
+  "packet_pipeline": {
+   "renderer": "analysis/session15_bench_packets.py machinery: answer = neutralize_structural_delimiters(defang_wcf_markers(completion)); question/criterion neutralized; criterion = render_standard(item); template.format(...) with GRADE_INSTRUCTIONS",
+   "judging_mode": "CANONICAL = one packet per fresh judge context (single-packet mode). This is the mode the truth bench validated and the A3 stability study measured. SUT-pure batch-of-8 (used only in the s15 gate arm) is NOT part of the frozen instrument: s16 measured a large opus batch-vs-fresh mode effect on a refusal-boundary cell (LIB-N-005/qwen: batched 8 vs fresh 75/58/58 on identical packet bytes; Sol mode-stable 8 vs 4/4/4). Batch judging requires separate validation before any future use."
+  },
+  "bank": {
+   "version": "v2.5",
+   "items_main": 345,
+   "items_episodes": 22,
+   "frontier_core": 146,
+   "sha256_wcf_main_jsonl": "6eb858d8063a7f62455b595e29dff9c62e5354f7af34fa212eacced6f894b8de",
+   "sha256_wcf_episodes_jsonl": "a665839d0fd75e6ca437fb39d93bd9e0d335d94e6c74f6d9565a9149a925a511",
+   "g4_excluded": 28
+  }
+ },
+ "validation_state": {
+  "truth_bench": {
+   "file": "analysis/20260724-session15-truth-bench.json",
+   "cells": 17,
+   "state": "FULLY SETTLED: LIB-N-010 CONTESTED row RESOLVED by s16 decisive blind re-audit (fresh opus auditor scored 92; deduction real, re-grounded to the rubric-explicit manner line; band [78,92] retained)",
+   "categorical_errors": "0 across all 34 s15 bench verdicts, both judges (preamble trap, wrong-artifact trap, lone-judge over-fire all eliminated; all refusal cells floor correctly)",
+   "scorecards_band_hits": {
+    "opus": "12/17",
+    "sol": "13/17",
+    "mean_of_2": "13/17"
+   }
+  },
+  "stability_study": {
+   "file": "analysis/20260724-session16-judge-stability.json",
+   "design": "20 stratified cells (14 bench + 6 non-bench) x 3 repeats x 2 judges = 120 verdicts, identical packet bytes per repeat, fresh context/process per verdict, $0, 0 parse failures",
+   "icc_2_1": {
+    "opus": 0.948,
+    "sol": 0.9957,
+    "panel_mean": 0.9853
+   },
+   "median_repeat_sd": {
+    "opus": 0.0,
+    "sol": 0.0,
+    "panel_mean": 0.0
+   },
+   "mean_repeat_sd": {
+    "opus": 2.58,
+    "sol": 1.06,
+    "panel_mean": 1.64
+   },
+   "pct_zero_spread_cells": {
+    "opus": 75.0,
+    "sol": 65.0,
+    "panel_mean": 60.0
+   },
+   "reading": "The instrument is deterministic on most cells; residual instability is concentrated in rare bimodal refusal-boundary cells (PROOF-N-018/haiku opus 63/8/0; LIB-N-006/qwen correlated flip 92-to-~80 in BOTH judges) rather than diffuse noise. The s15 +/-10-40 anecdote is superseded: WHOLE-N-003/haiku repeats 8/8/8 in both judges (the s15 '42' was a one-off outside the audited band)."
+  }
+ },
+ "residual_disclosures": [
+  "Opus leniency +4..+9 on partial-credit/probe cells; LIB-N-010 +8 is SYSTEMATIC (6/6 fresh verdicts at 100 vs audited 92-top band), not repeat noise.",
+  "Sol strictness -7..-19 on negative controls (half-credits with satisfying quotes and no articulated rationale); stable across repeats (e.g. MEND-N-002 71/75/71, MEND-N-009 83/71/83 vs opus ~100).",
+  "The two residuals are opposed in direction and partially cancel in the mean-of-2; per-judge sensitivity reporting is mandatory in the full run.",
+  "LIB-N-006-class correlated bimodality: on ambiguous leniency-catch responses both judges occasionally flip between the lenient (92) and band (79-83) readings in the same direction; the panel mean inherits the flip (92 vs 81).",
+  "Rare bimodal refusal-boundary flips (PROOF-N-018-class): a judge occasionally credits a partial delivery it otherwise floors; panel mean damps but does not eliminate (33.5 vs 2-4).",
+  "Batch-of-8 vs single-packet mode effect (opus): large on at least one refusal-boundary cell (LIB-N-005/qwen 8 batched vs 58-75 fresh). Single-packet mode is frozen as canonical; the s15 gate arm (batched) remains owner-ratified admission evidence and is NOT relitigated, but batched and single-packet scores must never be pooled or compared.",
+  "All pre-freeze numbers (s6-s15) are EXPLORATORY / NON-QUOTABLE; paper numbers come only from a fresh full run under this frozen instrument."
+ ],
+ "provenance": {
+  "stop_point_1_ruling": "2026-07-24 owner: FREEZE as-is (option a); guard round declined",
+  "lib_n_010_resolution": "s16 A1 fresh blind meta-auditor (opus Agent, packet at /tmp isolation, no access to s14 audit / bench / strong-judge verdicts), Fable-adjudicated",
+  "boot_prompt": "20260724-session16-pilot-readiness-boot-prompt.md"
+ },
+ "post_freeze_addendum_2026_07_25": "B3 cross-SUT spot-audit (10 blind audits vs 3 new-SUT pilot idioms) found a NEW opus failure-mode class outside this manifest's residual disclosures: (a) advisory-prose-without-artifact over-credit (opus 80 vs authored ~7-10, STED-N-018 both new SUTs); (b) compliance-theater-garnish gate miss (opus 67 vs audited ~3-8, COMP-N-003/minimax). STOP escalated; owner ruled: author strict-v3 + revalidate. strict-v2 REMAINS the only validated instrument; strict-v3 (sha256 ce5c9fa507ed850df3ab7aeb1018c70e27262e9c01b167ac64e3dd363c79bf9e) is CANDIDATE pending the s17 20-cell bench re-pass per analysis/20260725-session16-truth-bench-v2.json, with auto-revert if any s15-passing cell degrades. No paper-quotable run may use strict-v2 on rosters exhibiting these idioms."
+}

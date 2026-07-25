@@ -7,6 +7,17 @@ benchmark (see `../Christian-Ethics-Benchmark/`, which remains canonical) onto t
 `20260716-owner-ruling-v2-parallel.md`. Comparability evidence: judge-path replay
 PARITY (`20260715c-`), 2-judge re-score validated (`20260715d-`).
 
+**State as of 2026-07-25 (phase 7 closed).** The full-bank 3-epoch ARM 1 run is done and
+adjudicated. Two manuscripts live in `REPORTS/20260725-manuscripts/` — paper (a)
+instrument-and-validity, paper (b) judging-the-judges — both **generated files**: edit
+`parts/*.md`, then rebuild with `assemble.py` (see that directory's `README.md`). All
+escalated claims-validity questions are ruled; the rulings ledger is the
+`RULINGS-APPLIED-*.md` series at this root (newest first is authoritative; a ruling is
+superseded by a new dated ruling, never amended). Headline discipline: no SUT-vs-SUT
+claim is licensed; variance shares are read against the df-proportional reference line;
+flip verdicts are reported binary + Kendall's τ. The holdout remains quarantined and
+unspent. Dated reports are immutable — corrections travel as successor files.
+
 ## What this is
 
 - All 10 WALKWORTHY designs as Inspect tasks (`tasks/design01_*.py` … `design10_*.py`)

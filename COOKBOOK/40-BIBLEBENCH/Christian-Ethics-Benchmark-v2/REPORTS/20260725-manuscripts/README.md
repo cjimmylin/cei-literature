@@ -58,8 +58,17 @@ re-validate it the same way; a linter never shown to catch anything proves nothi
 Paper (b) owns the variance decomposition and the two-referee method. **Paper (a) must
 not reproduce the decomposition numbers** — it states the judge-sensitivity verdict
 qualitatively and hands off to the companion methods paper. Two sanctioned exceptions
-exist in paper (a): §9 cites the 8-of-8 interaction when scoping the comparative
-limitation, and §10 cites the design-02 interaction when arguing the taxonomy repair.
+exist in paper (a): §9 cites the system-by-judge interaction **read against its
+df-proportional no-effect reference line** when scoping the comparative limitation, and §10
+cites the design-02 interaction (46.5% on a 5.8% system main effect) when arguing the
+taxonomy repair.
+
+> **Corrected 2026-07-29.** This paragraph previously described §9 as citing "the 8-of-8
+> interaction". That formulation — "non-zero in 8 of 8" — was **WITHDRAWN as evidential** by
+> `../../RULINGS-APPLIED-20260725c.md` RULING 1, because an SS is almost surely non-zero and
+> four of the eight interactions sit at or below the df-proportional line. It no longer
+> appears anywhere in paper (a); the manuscript was already correct and only this README was
+> stale.
 
 Each manuscript is self-contained on its own claims. Neither may depend on the other
 being published first.
@@ -68,9 +77,27 @@ being published first.
 
 **Never write "the judge dominates."** Judge and system footprints are comparable at the
 median (35.3% vs 35.6%) and the system main effect is the largest single term in four of
-the eight judged designs. The models genuinely differ. The claim is: *the models differ,
-but the judges disagree about the ordering in every judged design.* The linter enforces
-this.
+the eight judged designs. **This prohibition is BLOCKER-enforced by `lint_claims.py`.**
+
+The binding suite-wide claim is the one ruled in `../../RULINGS-APPLIED-20260725c.md`
+RULING 1, quoted verbatim:
+
+> *The models differ on most designs. On a minority of designs the judges clearly
+> disagree about the ordering; on the rest the systems are too tightly spaced for
+> either judge to resolve. Either way, no comparative claim survives the swap.*
+
+Two riders travel with it. "Models genuinely differ" is **design-specific**, not suite-wide
+— %SUT sits below the df-proportional line in designs 02, 03 and 08. And "a large model
+effect the judges still reorder" is restricted to **design 01 alone**; designs 06 and 09 are
+re-grounded in the graded flip verdicts instead.
+
+> **Corrected 2026-07-29.** This section previously stated the claim as *"the models differ,
+> but the judges disagree about the ordering in every judged design"* and asserted that the
+> linter enforced it. Both were wrong after RULING 1: the "every judged design" reading was
+> replaced by the narrowed claim above, and the linter only ever enforced the *prohibition*
+> (a BLOCKER regex on judge-dominates), never the positive framing — no linter rule can
+> verify that a claim is correctly scoped. The manuscript prose already carries the narrowed
+> claim; only this README was stale.
 
 ## Verification performed at v0.1
 

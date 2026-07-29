@@ -18,6 +18,26 @@ claim is licensed; variance shares are read against the df-proportional referenc
 flip verdicts are reported binary + Kendall's τ. The holdout remains quarantined and
 unspent. Dated reports are immutable — corrections travel as successor files.
 
+> ### ➜ ENTRY POINT: `20260729c-boot-prompt-reentry-project-closed.md`
+>
+> **Read that file first.** It is the current re-entry brief and supersedes the phase-6 and
+> phase-7 boot prompts, which are historical snapshots and must **not** be executed.
+>
+> **Update as of 2026-07-29 — the project is CLOSED at phase 7 and there is NO open work
+> queue.** Three things changed after the 07-25 paragraph above:
+> - **Holdout: quarantine RATIFIED** (`RULINGS-APPLIED-20260729b.md`) — no longer a standing
+>   recommendation but a ruling. Release is conditioned on a repaired instrument version
+>   demonstrating discrimination on public data. Cite the ruling, not the old recommendation.
+> - **§2 citation gaps: all 8 CLOSED** (`RULINGS-APPLIED-20260729.md`). Both manuscripts are
+>   citation-complete — paper (a) 18,686 words, paper (b) 15,190 words. A standing
+>   **search-provenance rule** came out of it: retrieval does not confer provenance; a source
+>   found via search is not citable until its publication apparatus is inspected directly.
+> - **Instrument-repair queue and vault citation remediation: both DEFERRED** by owner
+>   decision. They are on record, unscoped, and must not be re-raised as open items.
+>
+> Everything remaining needs explicit owner authorization to become work. If you are unsure
+> whether something is authorized, it is not — enumerate, recommend, and ask.
+
 ## What this is
 
 - All 10 WALKWORTHY designs as Inspect tasks (`tasks/design01_*.py` … `design10_*.py`)

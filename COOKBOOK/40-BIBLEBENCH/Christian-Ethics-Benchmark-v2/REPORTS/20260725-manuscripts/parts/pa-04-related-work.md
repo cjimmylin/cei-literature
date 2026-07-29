@@ -104,12 +104,22 @@ claim anywhere in the bank. Items on which the fifteen works do not speak with o
 are stratified as intra-corpus disputed and quarantined from comparative claims. Where
 Owen (2026) treats flattening across eleven traditions as the defect to be detected, we
 take the complementary route: we decline breadth entirely, name a single narrow corpus,
-and accept the resulting limits on generality as the price of an auditable target. To our
-knowledge no prior behavioral benchmark anchors conduct to a named Christian-ethics
-corpus in this way, though we state that as a gap in the literature we surveyed rather
-than as an exhaustive claim
-[CITATION NEEDED — any prior behavioral benchmark anchoring LLM conduct to a named
-Christian-ethics text corpus, if one exists outside the surveyed vault corpus].
+and accept the resulting limits on generality as the price of an auditable target.
+
+Christian-anchored evaluation of language models does exist, and precision about how it
+differs is more useful here than a bare claim of novelty. The closest neighbour we located
+is the Gospel Coalition's AI Christian Benchmark (Sapp et al., 2025), which puts seven
+theological questions to seven consumer platforms and has a panel of Christian scholars
+hand-grade the answers, with score bands keyed to the Nicene Creed and, higher up, to that
+organisation's own foundation documents and historic Protestant confessions. It is a
+single-turn evaluation of **doctrinal assent** — what a model says it believes when asked
+directly — and it is issued as a ministry report rather than a peer-reviewed study.
+Adjacent academic work measures religious *bias* rather than conduct (Abrar et al., 2025;
+Liu et al., 2025). What we did not locate is a *behavioral* benchmark that anchors conduct
+— what a model does under pressure, across turns, in twinned conditions — to a named
+corpus of Christian ethicists rather than to a creed or a confession. That narrower gap is
+the one this instrument occupies, and we state it as a gap in the literature we surveyed
+rather than as an exhaustive claim.
 
 ### 2.3 Behavioral versus knowledge-style evaluation
 
@@ -154,11 +164,18 @@ buys partial immunity to the rater-level and stylistic confounds that afflict ab
 scoring, because both members of a pair are scored under the same rubric by the same
 judge. One design (05) is judge-free by construction, scored by a mechanical allocation
 parser, and is the only surface in the suite where the two-judge precondition is satisfied
-by construction rather than by arrangement. We are not aware of a general methodological
-treatment of minimal-pair or counterfactual twinning as a confound-control device for
-value-laden model evaluation that we can cite here
-[CITATION NEEDED — methodological work on minimal-pair / counterfactual paired-administration
-design as confound control in behavioral LLM evaluation].
+by construction rather than by arrangement. The logic of that manipulation is inherited
+from the counterfactual-revision literature. Kaushik et al. (2020) have annotators make
+minimal local edits that flip a document's label, so that what separates the twinned pair
+is the feature under test rather than a correlated artefact; Gardner et al. (2020) turn the
+same primitive toward evaluation, assembling contrast sets that probe a model's local
+decision boundary where an ordinary test set would let a shortcut pass unnoticed. Our
+paired designs apply that primitive to a behavioral, value-laden target: the manipulated
+factor is a single situational cue, and the reported quantity is the within-item difference
+it produces. What we did not locate is that primitive developed specifically as a
+confound-control device for value-laden *behavioral* evaluation, where the twinned object
+is a multi-turn administration rather than a document — so what we claim here is the
+application, not the device.
 
 ### 2.4 Construct validity and benchmark measurement
 
@@ -271,6 +288,18 @@ report that as a finding rather than as a schedule.
 | Panickssery et al., 2024 (LLM Evaluators Recognize and Favor Their Own Generations) | `/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/BACKGROUND/EXTRACT/2024-Panickssery-LLM Evaluators Favor Own Generations.md` |
 | Son et al., 2024 (LLM-as-a-Judge & Reward Model: What They Can and Cannot Do) | `/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/BACKGROUND/EXTRACT/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md` |
 | "the companion methods paper" (referred to generically; no citation key) | — (companion manuscript in this same `20260725-manuscripts` set; venue-generic, deliberately uncited) |
+
+### External sources (added 2026-07-29; not held in the vault)
+
+These three were added by the §2 citation sweep and are **not** vault-resident. Each was
+retrieved and inspected directly rather than cited from memory; the retrieval date is
+recorded so the claim is auditable.
+
+| Cited as | Full record | Verification |
+|---|---|---|
+| Sapp et al., 2025 (The Gospel Coalition AI Christian Benchmark) | The Gospel Coalition / The Keller Center, ministry report, not peer-reviewed. Seven theological prompts × seven consumer platforms, hand-graded by a panel of Christian scholars; score bands keyed to the Nicene Creed (lower band) and TGC foundation documents plus historic Protestant confessions (upper band). `https://www.thegospelcoalition.org/ai-christian-benchmark/` | Page retrieved and read 2026-07-29. **A vault record exists** at `CEI-Lit-WS/papers/2025-Coalition-The Gospel Coalition AI Christian Benchmark.md` (its `first_author` is Casey Sapp, so the filename token "Coalition" is another byline mismatch) **but its PDF extract is an empty shell** — `PDF Extracts/2025/2025-Coalition-…md` reports `pages: 0` with a blank content block. The vault copy therefore cannot support a citation; the live report can. |
+| Kaushik, Hovy and Lipton, 2020 (*Learning the Difference That Makes a Difference with Counterfactually-Augmented Data*) | International Conference on Learning Representations, 2020. Code/data: `https://github.com/acmi-lab/counterfactually-augmented-data` | Record confirmed against the conference programme listing and the authors' repository, 2026-07-29. |
+| Gardner et al., 2020 (*Evaluating Models' Local Decision Boundaries via Contrast Sets*) | Findings of the Association for Computational Linguistics: EMNLP 2020, pp. 1307–1323. `https://aclanthology.org/2020.findings-emnlp.117/` | Record confirmed against the ACL Anthology entry, 2026-07-29. |
 
 **Note on filename-vs-byline mismatches.** Seven vault sources carry an author token in the
 filename that does not match the paper's own byline (Hamid/Abrar, Buyl/Liu, Alharbi/Abdelaal,

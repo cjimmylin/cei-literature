@@ -182,14 +182,18 @@ def format_refs(table):
     table = table.replace("/Users/jimmy.lin/Documents/CEI-Literature-Vault/", "")
     return (
         "## Provisional reference list\n\n"
-        "*v0.1. Every entry below was verified against a file in the project literature "
-        "vault at drafting time, and the vault path is retained so each citation can be "
-        "re-checked. Bibliographic details are to be reconciled against the canonical "
-        "records before submission: several vault filenames carry an author token that "
-        "disagrees with the work's printed byline, so a bibliography build must resolve "
-        "against the documents themselves rather than against filenames. Topics marked "
-        "`[CITATION NEEDED]` in §2 are genuine gaps, not omissions — the drafting pass "
-        "was deliberately confined to the vault.*\n\n"
+        "*v0.1. Every entry below was verified against one of two channels: a file in the "
+        "project literature vault, or — for the works added by the 2026-07-29 citation "
+        "sweep — an external record retrieved and inspected directly. Both channels are "
+        "itemised in the citation ledger of the relevant §2 part file, and vault paths are "
+        "retained so each citation can be re-checked. Bibliographic details are to be "
+        "reconciled against the canonical records before submission: several vault "
+        "filenames carry an author token that disagrees with the work's printed byline, so "
+        "a bibliography build must resolve against the documents themselves rather than "
+        "against filenames. The `[CITATION NEEDED]` gap markers carried in §2 at assembly "
+        "are now closed; one candidate source was inspected and rejected as unverifiable, "
+        "and is recorded as rejected in the paper (b) ledger so it is not silently "
+        "rediscovered.*\n\n"
         + table.rstrip() + "\n")
 
 

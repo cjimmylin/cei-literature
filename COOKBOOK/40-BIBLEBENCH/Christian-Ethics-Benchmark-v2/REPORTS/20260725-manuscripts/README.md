@@ -85,9 +85,14 @@ this.
 
 - Supplementary material is not assembled (IVR-1.1 rater protocol, PE-1..25 ledger,
   per-design agreement tables, consolidated defect ledger).
-- `[CITATION NEEDED]` markers in §2 of either paper are real gaps: the drafting agents
-  had no web access by design, so §2 cites only works verifiable in the vault. Filling
-  them needs a literature sweep with external search.
+- ~~`[CITATION NEEDED]` markers in §2 of either paper~~ — **CLOSED 2026-07-29** by an
+  authorized external citation sweep. All eight bracketed markers (two in paper (a), six in
+  paper (b)) are filled. The added works are not vault-resident and are itemised, with
+  retrieval dates, in per-part "External sources" ledger tables. One candidate source was
+  fetched, inspected and **rejected as unverifiable**; it is recorded as rejected in the
+  paper (b) ledger so it is not silently rediscovered. Two of the closures narrowed a claim
+  under owner authorization — paper (a)'s Christian-corpus novelty statement and paper (b)'s
+  cost-barrier sentence — and both narrowings make the papers claim less, not more.
 - No venue or authorship decision has been made. Both manuscripts stay venue-generic and
   author-generic.
 - The holdout remains quarantined and its first use is **recommended against** for now —

@@ -5,9 +5,9 @@
 > Target paper: *Judging the Judges for $0: A Two-Referee Concordance Method for Localizing
 > LLM-as-Judge Failure on Value-Laden Rubrics.* Venue-generic and author-generic by ruling.
 >
-> Every citation below is traceable to a vault file listed in the citation ledger at the end
-> of this part. Claims for which no vault source could be located are marked inline with
-> `[CITATION NEEDED — …]` rather than attributed to a work from memory.
+> Every citation below is traceable either to a vault file or to an external source
+> retrieved and inspected during the 2026-07-29 citation sweep; both are listed in the
+> citation ledger at the end of this part. Nothing is attributed to a work from memory.
 
 ---
 
@@ -94,9 +94,30 @@ judgements instead. Gehrmann, Clark and Sellam (2022) survey two decades of accu
 in generated-text evaluation practice — human and automatic alike — and observe that better
 methods are documented but rarely adopted.
 
-`[CITATION NEEDED — foundational chance-corrected agreement statistics (Cohen's κ, Krippendorff's α) and their standard interpretive thresholds; no vault source located]`
-`[CITATION NEEDED — the prevalence/base-rate paradox in κ, i.e. that a high raw agreement rate can coexist with a near-zero chance-corrected coefficient on skewed label distributions; no vault source located]`
-`[CITATION NEEDED — generalizability theory / variance-component reliability (Cronbach and successors) as the measurement-theoretic ancestor of the decomposition used in §4; no vault source located]`
+It is worth being explicit about what these agreement statistics inherit, because two of
+the inherited properties bear directly on judge auditing. Chance-corrected agreement
+descends from Cohen's κ (Cohen, 1960) and, in its multi-coder, any-measurement-level
+generalisation, from Krippendorff's α (Krippendorff, 2019). The interpretive bands that
+convert a coefficient into a verdict — "fair", "moderate", "substantial", "almost perfect"
+— are those of Landis and Koch (1977), who advanced them as acknowledged personal judgement
+rather than on evidentiary grounds. A field that treats a coefficient above a band boundary
+as a licence to proceed is therefore leaning on a convention that never claimed to be more
+than one.
+
+The first inherited property is the prevalence paradox: on skewed label distributions a
+high raw agreement rate can coexist with a near-zero chance-corrected coefficient, and the
+marginal imbalance responsible is not repaired by substituting κ_max for κ (Feinstein and
+Cicchetti, 1990; Cicchetti and Feinstein, 1990). Judge verdicts over a benchmark bank are
+skewed in exactly this way, because most administrations pass; a low κ on such a bank may
+report the base rate rather than the judges. The second is that an agreement coefficient
+compresses into one number a design that has several independent sources of error. That is
+the problem generalizability theory was built to address: Cronbach, Gleser, Nanda and
+Rajaratnam (1972) replace the single true score and single error term of classical
+reliability with a universe score and separately estimated variance components — one for
+the object of measurement, one for each facet, and one for every interaction (see also
+Brennan, 2001). The decomposition in §4 is that move applied to judge auditing, with system,
+judge and epoch as the facets; the term we care about is an interaction, which is precisely
+the quantity a single coefficient cannot expose.
 
 Our distinction here is a logical one and it is easy to state. Agreement between two judges is
 a *necessary but not sufficient* diagnostic. Two judges can agree on a respectable share of
@@ -159,9 +180,25 @@ testimony to summarise — with null effects and dropped verification rates wher
 fails. Their recommended artefact is a pre-deployment audit that predicts when the protocol
 will help, and a cheaper primitive that recovers most of the benefit at lower inference cost.
 
-`[CITATION NEEDED — panels/juries/ensembles of multiple smaller LLM judges as a substitute for a single large judge (e.g. the "panel of LLM evaluators" line); no vault source located]`
-`[CITATION NEEDED — work reporting that LLM annotators match or exceed crowdworkers on annotation tasks, the substitution argument that motivates cheap-judge pipelines; no vault source located]`
-`[CITATION NEEDED — an explicit accounting of the API cost of meta-evaluation as a barrier to routine pre-publication judge auditing; the cost barrier is asserted here from the design constraints of this study rather than from a cited source]`
+Panels are the other structured response to judge unreliability. Verga et al. (2024)
+replace a single large judge with a panel of smaller evaluators drawn from disjoint model
+families, and report that the panel tracks human judgement more closely than one large
+judge while exhibiting less intra-model bias, at over seven times lower cost. The economic
+premise underneath this whole thread is the annotator-substitution result: Gilardi et al.
+(2023) find a general-purpose assistant matching or exceeding crowd workers on relevance,
+stance, topic and frame detection across 6,183 tweets and news articles, at under $0.003
+per annotation — roughly twenty times cheaper than the crowd platform it was compared
+against. Cheap judging became attractive for the same reason cheap annotation did, and the
+two literatures share a cost logic that is rarely stated as such.
+
+We did not locate a published accounting of what it costs to *audit* a judge, as distinct
+from what it costs to run one, and we therefore ground the cost barrier in this study's own
+design constraints rather than attributing it to a source. Both referee arms reported here
+ran at $0 API spend through subscription channels; the full-bank two-judge measurement run
+they sit alongside cost roughly $11 in total, of which $8.53 was metered exactly and the
+second-judge rescore is an estimate. Those figures are what license the claim that
+pre-publication judge auditing is affordable as routine practice rather than as a funded
+follow-up study — and they are ours, not the literature's.
 
 Three features separate our protocol from this thread. First, its purpose: panels, juries and
 debate protocols aim to produce a *better aggregate score*; our two referees aim to **localize
@@ -217,10 +254,33 @@ and LLM psychometrics additionally at
 The `papers/` entries are used as canonical here; the author lines should be reconciled once
 before the reference list is finalised.
 
-**Open gap markers left in this part (5):** foundational chance-corrected agreement statistics;
-the κ prevalence/base-rate paradox; generalizability theory / variance-component reliability;
-panels or juries of LLM judges; the substitution and cost-barrier literature motivating cheap
-judge pipelines.
+### External sources (added 2026-07-29; not held in the vault)
+
+The six gap markers previously standing in this part were closed by the 2026-07-29 citation
+sweep. **Open gap markers left in this part: none.** None of the six works below is
+vault-resident; each was retrieved and inspected directly rather than cited from memory, and
+the retrieval date is recorded so every claim above remains auditable.
+
+| Cited as | Full record |
+|---|---|
+| Cohen, 1960 (*A Coefficient of Agreement for Nominal Scales*) | *Educational and Psychological Measurement* 20(1):37–46 |
+| Landis and Koch, 1977 (*The Measurement of Observer Agreement for Categorical Data*) | *Biometrics* 33(1):159–174 |
+| Krippendorff, 2019 (*Content Analysis: An Introduction to Its Methodology*) | Sage, 4th edition (α is developed in the reliability chapter; 1st edition 1980) |
+| Feinstein and Cicchetti, 1990 (*High Agreement but Low Kappa: I. The Problems of Two Paradoxes*) · Cicchetti and Feinstein, 1990 (*II. Resolving the Paradoxes*) | *Journal of Clinical Epidemiology* 43(6):543–549 and 43(6):551–558 |
+| Cronbach, Gleser, Nanda and Rajaratnam, 1972 (*The Dependability of Behavioral Measurements: Theory of Generalizability for Scores and Profiles*) | Wiley, New York · with Brennan, 2001 (*Generalizability Theory*), Springer, `10.1007/978-1-4757-3456-0` |
+| Verga et al., 2024 (*Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models*) | `arXiv:2404.18796` |
+| Gilardi, Alizadeh and Kubli, 2023 (*ChatGPT Outperforms Crowd Workers for Text-Annotation Tasks*) | *PNAS* 120(30):e2305016120, `10.1073/pnas.2305016120` |
+
+**Inspected and REJECTED — do not cite.** The sweep surfaced a document titled *"What the
+Models Already Know: 67 Billion Tokens of Christian Moral Reasoning in the Pretraining
+Corpus"* (attributed to Tim Hwang, "Institute for a Christian Machine Intelligence", ICMI
+Working Paper No. 6, dated 2026-04-03, at `icmi-proceedings.com`). It was fetched and
+inspected: no DOI, no ISSN, no editorial board, no programme committee, no peer-review
+attestation, and no companion papers indexed; the domain is unrelated to the ACM conference
+whose acronym it borrows. Its central quantitative claim reached this session pre-summarised
+as established fact by a search layer, which is exactly the laundering route the vault's
+anti-fabrication rule exists to block. It is recorded here so a later session does not
+rediscover it and read the absence of a note as evidence it was never checked.
 
 ---
 

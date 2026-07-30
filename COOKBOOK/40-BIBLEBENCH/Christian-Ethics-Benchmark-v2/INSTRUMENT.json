@@ -1,0 +1,293 @@
+{
+  "instrument_id": "WW-v2-20260724b",
+  "bank_revision": "2026-07-24b",
+  "stamped": "2026-07-30",
+  "stamp_kind": "retrospective",
+  "stamp_note": "Retrospective stamp written 2026-07-30 (T0-8). The tree has been unchanged since the 2026-07-24 full-bank run: 20260725-fullbank-3ep-run-report.md records that no defect found in that run forced a code or bank edit. This file therefore names the instrument that produced the full-bank 3-epoch results; it does not introduce a new instrument.",
+  "canary": "WALKWORTHY-CANARY-7f3e2026",
+  "schema_contract": "tools/SCHEMA.md, section 'Instrument version stamp (added 2026-07-30, T0-8)'",
+  "verifier": "tools/verify_instrument.py",
+  "surface": {
+    "scope": "public bank only",
+    "items": 344,
+    "runnable": 344,
+    "admin_lines": 563,
+    "per_design": {
+      "design01.jsonl": {
+        "items": 49,
+        "runnable": 49,
+        "admin_lines": 49
+      },
+      "design02.jsonl": {
+        "items": 36,
+        "runnable": 36,
+        "admin_lines": 72
+      },
+      "design03.jsonl": {
+        "items": 33,
+        "runnable": 33,
+        "admin_lines": 66
+      },
+      "design04.jsonl": {
+        "items": 33,
+        "runnable": 33,
+        "admin_lines": 60
+      },
+      "design05.jsonl": {
+        "items": 32,
+        "runnable": 32,
+        "admin_lines": 32
+      },
+      "design06.jsonl": {
+        "items": 31,
+        "runnable": 31,
+        "admin_lines": 31
+      },
+      "design07.jsonl": {
+        "items": 27,
+        "runnable": 27,
+        "admin_lines": 27
+      },
+      "design08.jsonl": {
+        "items": 33,
+        "runnable": 33,
+        "admin_lines": 66
+      },
+      "design09.jsonl": {
+        "items": 34,
+        "runnable": 34,
+        "admin_lines": 88
+      },
+      "design10.jsonl": {
+        "items": 36,
+        "runnable": 36,
+        "admin_lines": 72
+      }
+    },
+    "source": "recounted from datasets/public/design01..10.jsonl on 2026-07-30; matches the bank-revision line of 20260725-fullbank-3ep-run-report.md (344 items / 344 runnable / 563 administration lines)"
+  },
+  "pins": {
+    "judge_a": {
+      "role": "primary judge (judge-A) for all model-graded designs",
+      "model": "openrouter/openai/gpt-4.1-nano",
+      "set_by": "explicit run-time override",
+      "source": "20260724d-spend-memo-fullbank-3ep.md (the '-T judge_model=' pin) and RULINGS-APPLIED-20260724e.md ruling 1: 'Judge-A and the 02/07 branch classifier are both nano'; run recorded in 20260725-fullbank-3ep-run-report.md header 'Classifier lineage: Option A - gpt-4.1-nano carried forward'",
+      "code_default_differs": true,
+      "code_default": "openrouter/openai/gpt-4.1-mini",
+      "code_default_source": "walkworthy_inspect/scorers.py line 46, DEFAULT_JUDGE; inherited by every tasks/design*.py judge_model parameter",
+      "note": "The nano pin is NOT the code default. Every task's judge_model parameter defaults to gpt-4.1-mini; nano is supplied per run via '-T judge_model='. Any unattended run of the task defaults is therefore a DIFFERENT instrument and requires a new instrument_id."
+    },
+    "judge_b": {
+      "role": "second judge (judge-B), rescoring pass used for the R4 judge-swap test",
+      "model": "openrouter/meta-llama/llama-3.3-70b-instruct",
+      "set_by": "explicit run-time argument to the second-judge driver",
+      "source": "20260724d-spend-memo-fullbank-3ep.md route table row 'SUT 4 / judge-B'; 20260725-fullbank-3ep-run-report.md section 4 'Judge-B (llama-3.3-70b)'"
+    },
+    "branch_classifier": {
+      "role": "branch-state classifier for the scripted multi-turn ladder, designs 02 and 07",
+      "model": "openrouter/openai/gpt-4.1-nano",
+      "set_by": "identical to judge-A by construction",
+      "source": "20260716-prereg-comparisons-RATIFIED.md C6 / RULING 1d (classifier pin FREEZES at nano for the current instrument lineage); route policy in walkworthy_inspect/solvers.py, _classify_branch; wiring in tasks/design02_twomasters.py and tasks/design07_seventyseven.py, multiturn_ladder_solver classifier_model=judge_model",
+      "note": "C6 makes the classifier part of the instrument: model slug + provider + prompt template + route policy. No cross-classifier pooling, ever. RULINGS-APPLIED-20260724e.md records that the classifier and judge-A cannot be separated without a code change, which was not made. A documented instrument property of this pin is nano's refused-overcall on design-02 branch turns (20260716-f3-crossfamily-classifier-results.md).",
+      "v_next_repin": "20260716-design02-classifier-pin-decision.md rules that the v-next design-02 instrument re-pins to a cross-family classifier (mistral-small-3.2 or gemini-2.5-flash-lite). That is a NEW instrument_id, not a modification of this one."
+    },
+    "classifier_prompt_and_route": {
+      "role": "prompt template and route policy component of the C6 classifier pin",
+      "source": "walkworthy_inspect/solvers.py, _classify_branch (hashed under components) plus each item's metadata.multiturn.classifier_rubric (hashed as part of the design02/design07 bank files)"
+    }
+  },
+  "provenance": {
+    "prereg": {
+      "path": "20260716-prereg-comparisons-RATIFIED.md",
+      "role": "ratified pre-registered comparison set; C6 pinned-classifier clause and RULING 1d govern instrument identity"
+    },
+    "rulings": {
+      "path": "RULINGS-APPLIED-20260724b.md",
+      "role": "rulings applied to produce bank revision 2026-07-24b"
+    },
+    "run_report": {
+      "path": "20260725-fullbank-3ep-run-report.md",
+      "role": "full public bank, 5 SUTs x 3 epochs, two judges; states the bank revision and that no defect forced a code or bank edit"
+    },
+    "related": [
+      {
+        "path": "RULINGS-APPLIED-20260724e.md",
+        "role": "classifier lineage Option A (nano carried forward) + phase-5 spend GO"
+      },
+      {
+        "path": "20260716-design02-classifier-pin-decision.md",
+        "role": "v-next classifier re-pin, i.e. a future instrument version"
+      },
+      {
+        "path": "20260724b-conversion-parity-report.md",
+        "role": "conversion parity for bank revision 2026-07-24b"
+      }
+    ]
+  },
+  "holdout": {
+    "quarantined": true,
+    "hashed_into_stamp": false,
+    "counted_in_surface": false,
+    "read_by_verifier": false,
+    "note": "datasets/holdout/ is quarantined. Its files are not hashed into this stamp, not counted in surface, and are never opened by tools/verify_instrument.py. This stamp certifies the PUBLIC surface only. A holdout stamp, if ever needed, would be a separate artifact under separate authorization; do not set WALKWORTHY_ALLOW_HOLDOUT to produce one."
+  },
+  "components": {
+    "datasets/public/design01.jsonl": {
+      "sha256": "ad8482f20a8087d7926ad268aff7bce605c264b0aff823d887f53c9a14155ee5",
+      "bytes": 145703,
+      "role": "public bank, design 01"
+    },
+    "datasets/public/design02.jsonl": {
+      "sha256": "0ecbbab8a6c9f6133b83521d0cdb735274a29cac9004d56e54602efc9f203cba",
+      "bytes": 477286,
+      "role": "public bank, design 02"
+    },
+    "datasets/public/design03.jsonl": {
+      "sha256": "81fcafd19bdc624132e75a48b99c2b6cc05e20676cab9298e11e1b0cd9c240bc",
+      "bytes": 272768,
+      "role": "public bank, design 03"
+    },
+    "datasets/public/design04.jsonl": {
+      "sha256": "333f67eaaed9ab9e2ab76d05114a603b8547ef297b8d66856bcc63f6c247f196",
+      "bytes": 173835,
+      "role": "public bank, design 04"
+    },
+    "datasets/public/design05.jsonl": {
+      "sha256": "3f8428b3cae3f1621617bba98cba754ca68c7379c8cb15cd7171406cdfee7de8",
+      "bytes": 279830,
+      "role": "public bank, design 05"
+    },
+    "datasets/public/design06.jsonl": {
+      "sha256": "e9d47d904128cf3c642216ae0265c63acab14346147ff6353af7758ec17cef97",
+      "bytes": 230827,
+      "role": "public bank, design 06"
+    },
+    "datasets/public/design07.jsonl": {
+      "sha256": "8000cc7b6656f4dd5d5e7db4a956aa9ac204db688e0da9b7f68bfee99968fcbd",
+      "bytes": 418997,
+      "role": "public bank, design 07"
+    },
+    "datasets/public/design08.jsonl": {
+      "sha256": "ccffa63a83b74b4f5daa2a9782cf6456a574763870e6f800279781b5d1a2eeb4",
+      "bytes": 300994,
+      "role": "public bank, design 08"
+    },
+    "datasets/public/design09.jsonl": {
+      "sha256": "071a829c98e57dbda56fd41f55009a3ce66d854827e6f9f1d444e56f92155020",
+      "bytes": 706148,
+      "role": "public bank, design 09"
+    },
+    "datasets/public/design10.jsonl": {
+      "sha256": "d7020ab0ec89f502cbf31c478b666afecaf850ef1ca7567ce6e73da81cf8e15b",
+      "bytes": 379491,
+      "role": "public bank, design 10"
+    },
+    "walkworthy_inspect/__init__.py": {
+      "sha256": "b7b17d27627e2fe0df7ec5b2f8531a2f9daccb02682935190e078f889e89b681",
+      "bytes": 1138,
+      "role": "package surface (exports, MULTITURN_DESIGNS)"
+    },
+    "walkworthy_inspect/datasets.py": {
+      "sha256": "17047c931da1468dab2d97956ed2c8532475a60f879c422a2be337bbbffee153",
+      "bytes": 6977,
+      "role": "dataset loader (public/holdout gating, record_to_sample)"
+    },
+    "walkworthy_inspect/metrics.py": {
+      "sha256": "0ef7f3f7a8d63cc2b6cfc04db465d13dabe32a544ea7808dd44f672384f1c7a3",
+      "bytes": 30906,
+      "role": "metric module (primary metrics; the metrics.py of this instrument)"
+    },
+    "walkworthy_inspect/ordo_constraints.py": {
+      "sha256": "6fe6d6136e307cf643b413b1430128066d21be2f05a4e7061909328927ed03e8",
+      "bytes": 20362,
+      "role": "design-05 constraint engine (judge-free primary)"
+    },
+    "walkworthy_inspect/parsers.py": {
+      "sha256": "591c8d480fa0ccdd961ceb9ef8f32bae3aef160d5e1862fe3672244aa06ac8ae",
+      "bytes": 9998,
+      "role": "judge-output parser"
+    },
+    "walkworthy_inspect/refusal.py": {
+      "sha256": "abc4e666a595090d4b1cc81b573f3f2d04e8330baaeef46fcfdd1c5e00447a01",
+      "bytes": 5698,
+      "role": "refusal taxonomy"
+    },
+    "walkworthy_inspect/rubrics.py": {
+      "sha256": "0284808eeb80d39b97dfc7ba9a2c0938df0c3ed302f0ae811367ba8782dcdaac",
+      "bytes": 12861,
+      "role": "rubric module (per-design scoring specs, ported verbatim from v1)"
+    },
+    "walkworthy_inspect/scorers.py": {
+      "sha256": "a6e54225bfb5a87faef32dcc4e5cf91f245e8cee858f0d5de98cae2a47c72e50",
+      "bytes": 34110,
+      "role": "scorer module (judge prompts, model-graded + per-turn scorers)"
+    },
+    "walkworthy_inspect/solvers.py": {
+      "sha256": "41762b17db0bced203de80d9f25445a74cfa30be86a2c2342b3624ff3d22840f",
+      "bytes": 13545,
+      "role": "solver module (single-turn + multi-turn ladder, branch classifier route)"
+    },
+    "tasks/design01_goodsamaritan.py": {
+      "sha256": "52ef2f125a6fd6fbbca61134ef56229fe987fff3a7522c049f7f0bbcbc516805",
+      "bytes": 1144,
+      "role": "task definition"
+    },
+    "tasks/design02_twomasters.py": {
+      "sha256": "0fce5518d3ebe259ab025b83461d4b3cd40fb16898fe86013246efb729560721",
+      "bytes": 1365,
+      "role": "task definition"
+    },
+    "tasks/design03_quiettongue.py": {
+      "sha256": "46c96033c12f3113947ae671986de9640a835a69c17013d853e499031527bcbd",
+      "bytes": 1109,
+      "role": "task definition"
+    },
+    "tasks/design04_innerweight.py": {
+      "sha256": "c99d181a9e8a3e9d3b9f2ce6cfeacf352298c04350ee32edf3a80d9e7b088e39",
+      "bytes": 1151,
+      "role": "task definition"
+    },
+    "tasks/design05_ordoamoris.py": {
+      "sha256": "a57521ba72b14d1bed56c04fd8facbee6847612cb4fe67d49b155b66cf35283f",
+      "bytes": 1347,
+      "role": "task definition"
+    },
+    "tasks/design06_crookedpath.py": {
+      "sha256": "ad98d879c7abf4dcf675b927f23f54ea9c81459dd62305be219858c281a53e1a",
+      "bytes": 1130,
+      "role": "task definition"
+    },
+    "tasks/design07_seventyseven.py": {
+      "sha256": "0bcf0b55ba0496cf6b5ceaadac69b4968202d941dee099ef6caa519cd2a8ea39",
+      "bytes": 1205,
+      "role": "task definition"
+    },
+    "tasks/design08_vocationfork.py": {
+      "sha256": "889e754ab6fb390ca7613e9043bb12f99c4ce09a771075ebf7f8a0c4cd2ff25a",
+      "bytes": 1132,
+      "role": "task definition"
+    },
+    "tasks/design09_doubleedge.py": {
+      "sha256": "9540006fc6aaf7b948c560c22c2636c82ff221c9500eccfaefb1f3afe42d4f11",
+      "bytes": 1116,
+      "role": "task definition"
+    },
+    "tasks/design10_strangergate.py": {
+      "sha256": "66614e7d97e6bb3ba728e6108ce78e86008f4f56cef18087ef31bc87534f6483",
+      "bytes": 1117,
+      "role": "task definition"
+    },
+    "tasks/walkworthy_suite.py": {
+      "sha256": "69d0f4a70c94feda9f22956aae4a5c0039463b62a0b1af490ecd6e578ecc1a26",
+      "bytes": 2220,
+      "role": "task definition"
+    }
+  },
+  "components_excluded": {
+    "__pycache__": "compiled artifacts, never hashed",
+    "logs/": "run outputs, not instrument definition",
+    "datasets/holdout/": "quarantined, see holdout",
+    "banks/, banks-holdout/": "authoring sources upstream of conversion; the converted public JSONL is the instrument surface",
+    "tools/convert_banks.py": "producer of the bank; the produced bytes are what this stamp pins"
+  }
+}

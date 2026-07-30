@@ -4,11 +4,11 @@ WALKWORTHY-CANARY-7f3e2026 · no holdout content
 
 | field | value |
 |---|---|
-| version | v0.1 DRAFT |
+| version | v0.2 DRAFT (adversarially reviewed; see `20260730l-paper-c-adversarial-review-adjudication.md`) |
 | date | 2026-07-30 |
 | authors | author list deferred by standing rule; no authorship, acknowledgements, or funding statement has been decided |
 | venue | venue-generic; no venue has been decided |
-| relation | paper-c is the instrument-diagnostics companion to paper-a (the benchmark and its full-bank administration) and paper-b (the judge-sensitivity analysis); it reports diagnostics of the instrument only and restates no headline of either |
+| relation | paper-c is the instrument-diagnostics companion to paper-a (the benchmark and its full-bank administration) and paper-b (the judge-sensitivity analysis); it reports diagnostics of the instrument only. Two published paper-a headlines are restated for context in §1.1 and §7.1, with attribution; nothing here introduces a new benchmark headline or changes a published value |
 | instrument | WW-v2-20260724b, per `INSTRUMENT.json` |
 | canary | WALKWORTHY-CANARY-7f3e2026 · no holdout content |
 
@@ -19,10 +19,12 @@ WALKWORTHY-CANARY-7f3e2026 · no holdout content
 We report a fully offline, zero-spend audit of a frozen run of a judge-scored ethics benchmark: five
 systems under test, three independent epochs, a 344-item public bank, and every administration scored
 by two judges from different model families. Ten audit items were specified in advance, in the spirit
-of pre-registration, each carrying a mandatory gate requiring its script to reproduce an
-already-published, immutable number before any novel output of that script was trusted. Four results
-follow. First, judge-order instability appears at every level examined — the within-item contrast, the
-individual item, and the per-turn label. Second, four of the ten audit items refuted their own
+of pre-registration; the six that recompute quantities from the frozen run tree each carried a
+mandatory gate requiring the script to reproduce an already-published, immutable number before any
+novel output of that script was trusted. Four results
+follow. First, judge disagreement appears at every level examined — the per-turn label, the
+individual item, and the within-item contrast, where it takes the form of order instability across
+the five systems. Second, four of the ten audit items refuted their own
 premises, and the audit design is what made those refutations credible: a premise test ran before the
 measurement it licensed. Third, provenance findings that previously lived only in run commands —
 notably that the primary judge pin was a run-time override rather than the code default — are now
@@ -45,12 +47,15 @@ named ethics corpus, described in full in the companion instrument paper
 (`REPORTS/20260725-manuscripts/20260725-paper-a-walkworthy-benchmark-v0.1.md`). Its public surface is
 344 runnable items across 563 administration lines and ten method-distinct designs, per
 `INSTRUMENT.json`. Nine designs are scored by a model judge; one — ordered-love constraint
-satisfaction — is scored by a mechanical allocation parser and never touches a judge.
+satisfaction — has a primary metric scored by a mechanical allocation parser that never touches a
+judge (paper-a calls the design "primarily judge-free"; its secondary read-outs are judged, which is
+why per-judge columns for it appear in §3.3).
 
 The audit exists because of a verdict the instrument returned about itself. Paper-a reports that eight
 of the nine judged designs flip their system ordering when the scoring judge is swapped, the ninth
 being floor-saturated and yielding no ordering to test; and that the one judge-free surface yields 0
-of 10 pre-registered pairwise contrasts whose Bonferroni-widened interval excludes zero. That is not a
+of 10 pre-registered pairwise contrasts whose Bonferroni-widened interval excludes zero (§5.3 reports
+a scope correction to that label; the value 0 of 10 is unchanged under the corrected scope). That is not a
 leaderboard with caveats. It is a measurement instrument reporting that its comparative surface is not
 usable at this system tier.
 
@@ -75,10 +80,12 @@ reports that it fired.
 
 ### 1.3 Contributions
 
-1. A worked, zero-spend audit protocol for a frozen judge-scored run, in which every audit script must
-   reproduce a published immutable number before any novel output is read (§2).
-2. Judge-side diagnostics localizing order instability at three levels: the per-turn label, the item,
-   and the within-item contrast (§3).
+1. A worked, zero-spend audit protocol for a frozen judge-scored run, in which every audit script
+   that recomputes from stored data must reproduce a published immutable number before any novel
+   output is read — six of the ten items; the remaining four are bank or tree reads with no
+   recomputed quantity to gate (§2).
+2. Judge-side diagnostics localizing judge disagreement at three levels — the per-turn label, the
+   item, and the within-item contrast, at which level it appears as order instability (§3).
 3. Bank-side diagnostics: two item-constant defects inside the shipped headline pool, a structural
    pairing gap, an authored-marker asymmetry in which text is invisible to code and visible to the
    judge, and a difficulty-skewed exclusion rule (§4).
@@ -113,8 +120,9 @@ its access flag was never set.
 
 The instrument is `WW-v2-20260724b`. Its stamp, `INSTRUMENT.json`, is a machine-readable object naming
 the bank revision, hashing every component file, counting the public surface, and recording each model
-pin with a source citation. Components are the ten public design files, the metric, scorer, solver,
-rubric, and dataset-loader modules, and the eleven task definitions. Per `tools/SCHEMA.md`, section
+pin with a source citation. Thirty component files are hashed: the ten public design files, the nine
+`walkworthy_inspect/` package modules (the metric, scorer, solver, rubric, and dataset-loader modules
+among them), and the eleven task definitions. Per `tools/SCHEMA.md`, section
 "Instrument version stamp", a change to any hashed component, any model slug, or any surface count
 requires a new instrument identifier; the semantics of an identifier already used to label a result
 are never edited in place. Three model pins are recorded: a primary judge; a second judge from a
@@ -197,10 +205,15 @@ read-out, not a hidden signal recovered.
 
 The new finding is on the judge side. The share of turns labeled with the failure category by ladder
 position runs, under judge A, from 51.6% at turn 0 to 93.3% at turn 7 — a rise of 41.7 points from
-opening to terminal turn. Under judge B the same profile is flat between 76.0% and 85.5% at every
-position, changing by -2.7 points from opening to terminal. Judge A's labels carry the escalation
+opening to terminal turn. Cell sizes are uneven and matter here: ladder positions 0 through 4 hold
+405 administrations each, position 6 holds 60, and the terminal position holds 15, so both terminal
+figures rest on fifteen administrations. Under judge B the same profile runs between 68.1% and 85.5%
+with no escalation trend (minimum at position 3), changing by -2.7 points from opening to terminal.
+Judge A's labels carry the escalation
 gradient an escalating-pressure design should produce; judge B's do not. Across 2,445 comparable turns
-raw per-turn agreement is 0.497, and the confusion structure is not a severity offset. DIAGNOSTIC:
+raw per-turn agreement is 0.497, and the confusion structure is not a severity offset. DIAGNOSTIC —
+the six most frequent cells, covering 86.7% of turns; the agreement and pole-flip totals quoted in
+prose include cells not shown:
 
 | judge A label | judge B label | count | share | reading |
 |---|---|---:|---:|---|
@@ -262,8 +275,9 @@ DIAGNOSTIC:
 
 All ten cells lie between 0.5882 and 0.8137; 0 of 5 systems and 0 of 15 system-by-epoch cells reach
 1.0 under either judge, so the measure is unsaturated. The orderings are not the same ordering:
-Spearman rho 0.40, Kendall tau 0.40, descriptive. One system sits fourth from the top under judge A
-and top under judge B, a three-rank move; one is last under both. Judge B compresses the
+Spearman rho 0.40, Kendall tau 0.40, descriptive. gpt41mini sits fourth from the top under judge A
+and top under judge B, a three-rank move — named as a diagnostic rank statement, not a conduct
+comparison; one system is last under both. Judge B compresses the
 between-system spread to about half of judge A's, 0.1078 against 0.2157.
 
 ### 3.3 Item-level instability
@@ -420,7 +434,7 @@ only: the two pools differ in size, difficulty composition, and provenance simul
 difference column is not attributable to any one of those, no interval was computed, and none of these
 differences estimates how far a corrected headline would move. The judge-free design is the useful
 control: the one surface where the exclusion changes essentially nothing is the one surface with no
-judge in the path. Three coverage facts complete the picture: three designs — the two multi-turn
+judge in the path. Two coverage facts complete the picture: three designs — the two multi-turn
 ladders and the dispute-seat design — carry no exemplar administrations at all, their
 specification-bank items being non-runnable sketches the loader filters out by default; and the motive
 design carries fifteen unpaired exemplar administrations, one per cell, counted as incomplete pairs.
@@ -436,9 +450,12 @@ The most useful single finding of this audit is a result we did not report, reco
 future session rediscovers it as a result. The obvious way to build a base-versus-cold-open contrast
 on the social-pressure design is to wire its shipped break-position read-out into the same paired
 helper every other paired design uses and take the difference. Doing so produces the following, using
-the identical pooling construction used for the corrected read-out. ABLATION, and a rejected one:
+the identical pooling construction used for the corrected read-out. ABLATION, and a rejected one.
+Note the sign convention: in this table the difference is base minus cold-open, the convention of the
+rejected construction's source table, and therefore OPPOSITE to §3.2, whose difference is cold-open
+minus laddered; a negative entry here means the cold-open value is higher.
 
-| judge | system | break position, base | break position, cold-open | difference |
+| judge | system | break position, base | break position, cold-open | difference (base minus cold-open) |
 |---|---|---:|---:|---:|
 | A | deepseek | 0.5339 | 0.8287 | -0.2948 |
 | A | gemini | 0.4923 | 0.6667 | -0.1744 |
@@ -467,12 +484,28 @@ differenced against one with about twenty, on the same scale, with the never-bro
 the top of that scale. The contrast is confounded with ladder length in a fixed direction by
 construction.
 
-The methods contribution is the tell. The corrected read-out of §3.2, which does not reference ladder
-length at all, is materially less tidy: four of five systems agree on direction rather than five of
-five, and cross-judge rank agreement drops from near-perfect to about 0.53 to 0.56. In a suite where
-every other judged surface flips under the judge swap, a contrast that suddenly holds in all ten cells
-is not a discovery but a prompt to ask what tightened. Here what tightened was the support of the
-read-out under one arm of the design.
+The methods contribution is the tell, and it is sign uniformity, not rank agreement. The corrected
+read-out of §3.2, which does not reference ladder length at all, is materially less tidy in sign:
+four of five systems agree on direction rather than ten of ten cells. Rank agreement runs the other
+way — ranking the artifact's own per-system differences across the two judges gives Spearman 0.00 and
+Kendall -0.20 (DIAGNOSTIC, five paired numbers, no inference), strictly worse than the corrected
+read-out's 0.5643, so the artifact's apparent judge-stability lived entirely in sign, never in
+ordering. (A planning-era figure of roughly +0.7 for this rank agreement, carried into
+`20260730i-gate-a-memo.md`, is not reproducible from the committed run data; see
+`20260730l-paper-c-adversarial-review-adjudication.md`.) In a suite where every other judged surface
+flips under the judge swap, a contrast that suddenly holds in all ten cells is not a discovery but a
+prompt to ask what tightened. Here what tightened was the support of the read-out under one arm of
+the design.
+
+One disclosure belongs here rather than in a footnote. The break-position premium was the design-02
+gate candidate that looked judge-stable at planning time; the terminal-state rate replaced it. That
+substitution was not made mid-audit: `RULINGS-APPLIED-20260729d.md` — the same document that
+committed the tier and gate structure, before any Tier 0 execution — disqualifies the break-position
+construction on construct grounds (degenerate support under the cold-open arm) and names the
+terminal-state statistic as the T0-4 read-out. The substitution is also outcome-irrelevant: with the
+artifact's committed-data rank agreement at 0.00, gate prong (b) fails on this surface under either
+measure. A disqualification on support, committed before execution, is not a post-hoc re-scoping on
+the merits; the distinction §5.3 draws is the one being applied here.
 
 ### 5.2 A saturated value that was never the metric
 
@@ -554,12 +587,17 @@ from the docstrings and comments of `tests/test_metrics_characterization.py`:
 | 9 | an item with no keyed-expression list scores the expressed-correct term as zero rather than being excluded | this can drive the say-versus-do gap negative on unkeyed items |
 | 10 | a motive pair with no keyed direction is excluded from the signed pool, the zero pool, and correctness, yet still contributes to the legacy index and to the pair count | the legacy companion has a wider base than every headline cell around it |
 | 11 | the criterion profile mean is the mean of every present criterion cell pooled across samples, not the mean of the seven per-criterion means | ragged criterion coverage reweights criteria by how often they were scored; this metric alone reports no sample count and no exclusion count |
-| 12 | the scalar guard rejects only the null value | every other falsy value passes, so an empty string or an empty list reaching a category cell is treated as a real judgment |
+| 12 | the scalar guard rejects only null, the unscorable sentinel, and the not-a-number value | every other falsy value passes, so an empty string or an empty list reaching a category cell is treated as a real judgment |
+
+One counting note: the test file carries thirteen inline suspect flags; rows 2 above merges two of
+them — a false-positive exclusion (the stringified flag) and a false-negative detection (the cased or
+bare suffix) — because both concern the same exemplar-detection helper. The two flag opposite failure
+directions, which the row's wording preserves.
 
 The headline hazard is entry 5, the grouping-key pooling behavior: it silently produces wrong numbers
-rather than merely surprising ones, and it is why every audit script in this package namespaces its
-pair keys by system and epoch before pooling — a step several source reports document as a required
-structural adaptation. Two further behaviors are pinned as documented artifacts rather than suspects:
+rather than merely surprising ones, and it is why every audit script in this package that pools
+across cells namespaces its pair keys by system and epoch before pooling — a step several source
+reports document as a required structural adaptation. Two further behaviors are pinned as documented artifacts rather than suspects:
 the length-1 degeneracy of §5.1, and its analogue on the pastoral-arc rule, where a one-turn ladder
 ending in the faithful-counsel state passes the whole arc rule with no arc to inspect. The file states
 its own status plainly: these tests pin current behavior, are not a specification of intended
@@ -616,8 +654,15 @@ change updates the expectation in the same commit and says so; the test is not d
 ### 7.1 The evidence
 
 The criterion asks for a single surface satisfying both prongs: a within-item contrast that is
-unsaturated and judge-order-stable. The evidence assembled across the ten audit items, reproduced from
-`20260730i-gate-a-memo.md` section 2:
+unsaturated and judge-order-stable. The evidence comes from the ten audit items together with two
+rows carried over from the phase-7 adjudication record, which this tier did not re-test. The table is
+adapted from `20260730i-gate-a-memo.md` section 2 with three declared changes: system names are
+replaced by rank statements in the stability column; the memo's planning-era rank-agreement figure
+for the break-position premium is omitted as unreproducible from the committed data (corrected in
+§5.1 and in `20260730l-paper-c-adversarial-review-adjudication.md`); and the constraint-satisfaction
+ceiling count is restated over the non-exemplar denominator. Values keep the memo's rounding; exact
+figures appear in §3 and §5. DIAGNOSTIC throughout, except the restated paper-a headline in the
+constraint-satisfaction row:
 
 | surface | unsaturated | judge-order-stable | source |
 |---|---|---|---|
@@ -625,7 +670,7 @@ unsaturated and judge-order-stable. The evidence assembled across the ten audit 
 | dispute-seat design, strict seat agreement | yes — all 10 cells in 0.588 to 0.814, none at ceiling | no — Spearman rho 0.40; one system moves three rank positions between judges | `20260730g` |
 | social-pressure design, break-position premium on the cold-open arm | — | DISQUALIFIED — a ladder-length artifact; the cold-open ladder has length 1, so the read-out admits only the values 0 and 1; documented as a rejected alternative | `20260730f` section 6 |
 | pastoral-arc conjunction and graded variants | no — the floor is real; levels 0.20 to 0.27 under grading, spread 0.0686 | moot; judge-B labels on this design are additionally near-unusable | `20260729e` |
-| constraint-satisfaction design, judge-free | no at item level — median 0.975, 12 of 32 items pinned at ceiling; and no within-item contrast exists, the design being single-administration; 0 of 10 contrasts exclude zero under the pre-registered scope | trivially stable, there being no judge | `20260730e`, `20260730d` |
+| constraint-satisfaction design, judge-free | no at item level — median 0.975, 12 of 28 non-exemplar items pinned at ceiling (the memo's figure of 32 is the full bank count including 4 exemplar items); and no within-item contrast exists, the design being single-administration; 0 of 10 contrasts exclude zero under the pre-registered scope | trivially stable, there being no judge | `20260730e`, `20260730d` |
 | covert-versus-overt gap | — | no — cross-judge rank correlation about -0.5 | phase-7 adjudication record |
 | remaining judged paired designs | item-level spread exists on designs 01 to 04 | no re-test at this tier; the prior result stands — eight of nine judged designs flip system ordering under judge swap | phase-7 record; `20260730e` |
 
@@ -638,7 +683,10 @@ both prongs.
 The stop criterion fires. Tier 1, Tier 2, and Tier 3 remain closed and no spend is authorized. One
 planned Tier 1 item — a rescore of the pastoral-arc anchors — is formally retired rather than
 deferred, because the diagnostic that would have motivated it refuted its premise: the floor survives
-every ablation rung, so mislanding anchors are not what produced it.
+every ablation rung, so mislanding anchors are not what produced it. The memo adds two qualifiers
+carried here for completeness: the item's residual value was as a probe of the second judge's label
+degeneracy, which is a judge-certification question rather than a design question, and the tier that
+would have hosted it is closed regardless.
 
 Three things are preserved by stopping here. The withheld holdout is unspent: the gate worded as its
 release condition is never reached, and a matched, never-published surface remains available for a
@@ -662,14 +710,17 @@ belief that the say-versus-do design has a deterministic parser reading the syst
 no such parser exists in the package for that design, and the only extraction that exists runs on the
 judge's own output. T0-5, the dispute-seat item, was written against an expected triangle count and a
 saturated symmetry value; the count was a per-judge double-count and the saturation was a known-wrong
-stored value rather than the metric. T0-10, the contrast-scope item, found the published number had
-been computed on a wider scope than its label claimed. A fifth item, T0-2, refuted the premise of a
+stored value rather than the metric. T0-10, the contrast-scope item, was scheduled on the planning
+claim that the correctly-scoped cell would be too small to report at all; the cell is 19 bank items,
+passes the ratified floor, and the claim is refuted — the item's actual yield, the scope
+mislabeling, was adjacent to its premise rather than confirming it. A fifth item, T0-2, refuted the premise of a
 downstream repair task rather than its own. Two design features made those refutations cheap: each
 item ran a premise test before the measurement the premise licensed — T0-7's three provenance checks
 cost nothing but a completion-hash comparison across systems — and each item was authorized to report
 a negative result about its own question. An audit item that can only succeed will succeed.
 
-**8.2 Put a reproduce-a-published-number gate on every audit script.** The G0 rule of §2.3 caught
+**8.2 Put a reproduce-a-published-number gate on every audit script that recomputes from stored
+data.** The G0 rule of §2.3 caught
 nothing spectacular, which is the point: it is what allows a reader to believe the numbers it did not
 catch anything about. An offline recompute over stored verdicts has many ways to be internally
 consistent and wrong — a join that silently drops rows, an exemplar filter applied after grouping
@@ -701,7 +752,10 @@ about what produced that result, and a change to any pinned component is a new v
 **8.5 Pre-commit a stop criterion; it converts a null repair outcome into a clean result.** The
 criterion of §1.2 was written before the diagnostics ran, as a disjunction over surfaces rather than a
 threshold on any one number, and stated in advance that stopping forfeits nothing. When the evidence
-came in the decision was mechanical. Without the pre-commitment the same evidence would have supported
+came in the decision was mechanical, with one qualification §5.1 discloses in full: the design-02
+surface was evaluated on a read-out substituted for a disqualified one — a substitution itself
+pre-committed in the authorizing ruling before execution, and outcome-irrelevant on the committed
+data. Without the pre-commitment the same evidence would have supported
 an indefinite sequence of one-more-probe decisions, each individually reasonable, and the holdout
 would have been at risk in service of finding something rather than testing something. The
 generalizable form: a repair plan should name, before it starts, the observation that would make
@@ -730,16 +784,17 @@ degenerate support, undocumented pins, and unfalsifiable audit items are not pec
 but we have demonstrated none of them elsewhere. Readers should treat §8 as cheap checks worth
 running, not as validated findings.
 
-**Corrected premises are now single-sourced.** Four planning premises were corrected during execution,
-and each correction currently rests on one audit item's derivation: that the excluded administrations
-are provenance-flagged live generations rather than gold references; that the triangle count is 270
-rather than approximately 524 and the stored saturation was an in-log artifact; that the say-versus-do
-design has no deterministic extractor on the system side and its epoch-1 anchor is 143 of 145; and
-that the stratum-a cell holds 19 bank items and clears the ratified reportability floor. Each is
-individually checkable offline and each is backed by a passing gate, but none has been independently
-re-derived, and a corrected premise carries the same single-source risk that produced the original
-error. Independent re-derivation of all four would be worth its cost before any is relied on to close
-a repair item.
+**Corrected premises are now single-sourced.** Five planning premises were corrected during
+execution, and each correction currently rests on one audit item's derivation: that the excluded
+administrations are provenance-flagged live generations rather than gold references; that the
+triangle count is 270 rather than approximately 524 and the stored saturation was an in-log artifact;
+that the say-versus-do design has no deterministic extractor on the system side and its epoch-1
+anchor is 143 of 145; that the stratum-a cell holds 19 bank items and clears the ratified
+reportability floor; and, trivially but recorded for completeness, that the metric module lives in
+the evaluation package, not the tools tree. Each is individually checkable offline and, where a
+recompute was involved, backed by a passing gate, but none has been independently re-derived, and a
+corrected premise carries the same single-source risk that produced the original error. Independent
+re-derivation would be worth its cost before any is relied on to close a repair item.
 
 **Scope of the sweeps.** The marker code sweep of §4.3 covered the tracked Python files under the
 tools tree and the whole evaluation package; a marker-consuming reference in a notebook or one-off
@@ -770,6 +825,12 @@ spend, offline, against the frozen run tree.
 Governing synthesis: `20260730i-gate-a-memo.md`. Positioning companion:
 `REPORTS/20260725-manuscripts/20260725-paper-a-walkworthy-benchmark-v0.1.md`.
 
+The rows above quote the memo's one-line results, two of which are corrected elsewhere in this paper:
+the T0-2 row's "flat 76% to 85%" is the source report's prose range — the source table's full
+judge-B range is 68.1% to 85.5% with no escalation trend (§3.1) — and the memo's design-05 ceiling
+denominator is restated over non-exemplar items in §7.1. Both corrections are recorded in
+`20260730l-paper-c-adversarial-review-adjudication.md`.
+
 ---
 
 ## Appendix B — Claims discipline
@@ -780,9 +841,11 @@ What this paper does not claim, stated positively so no reader has to infer it:
    test on any construct. System names appear as fixed factors in diagnostic layouts. Where an
    ordering is printed it is printed to show that two judges produce different orderings, which is a
    property of the instrument.
-2. **No benchmark headline numbers.** No quantity here is a WALKWORTHY headline, restates one, or
-   corrects one in value. The one published number this paper touches is a scope label, and the
-   recompute under the corrected scope returns the identical headline. All quantities herein are
+2. **No new benchmark headline numbers.** No quantity here is a new WALKWORTHY headline or corrects
+   a published one in value. Two published paper-a headlines — the judge-swap flip count and the
+   judge-free 0 of 10 — are restated with attribution in §1.1 and §7.1 for context; neither value
+   changes. The one published number this paper touches at all is a scope label, and the recompute
+   under the corrected scope returns the identical headline. All other quantities herein are
    diagnostics and are labeled DIAGNOSTIC where confusion is possible.
 3. **Ablations are labeled as ablations.** The graded-rung values on the pastoral-arc design and the
    break-position contrast of §5.1 are read-out ablations, never benchmark numbers.

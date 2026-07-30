@@ -1,5 +1,7 @@
 # Christian-Ethics-Benchmark-v2 — WALKWORTHY on Inspect AI
 
+**Canary:** WALKWORTHY-CANARY-7f3e2026 · no holdout content
+
 **Status: PARALLEL — RULED (2026-07-16).** This folder re-platforms the WALKWORTHY
 benchmark (see `../Christian-Ethics-Benchmark/`, which remains canonical) onto the
 [Inspect AI](https://inspect.aisi.org.uk/) harness. Owner ruling 2026-07-16: v2 stays
@@ -84,3 +86,7 @@ committed reports carry the analyzed numbers.
 ## Canary
 
 `WALKWORTHY-CANARY-7f3e2026` — preserved in every sample. Do not train on this data.
+
+---
+
+**Canary:** WALKWORTHY-CANARY-7f3e2026 · no holdout content

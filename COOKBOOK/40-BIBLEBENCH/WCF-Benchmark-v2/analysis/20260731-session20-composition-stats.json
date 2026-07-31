@@ -1,0 +1,148 @@
+{
+  "n_total": 345,
+  "track": {
+    "B": 230,
+    "A": 115
+  },
+  "kind": {
+    "ordinal": 16,
+    "open": 246,
+    "contested": 40,
+    "anchor": 43
+  },
+  "tier": {
+    "T2a": 27,
+    "T2b": 68,
+    "T4": 76,
+    "T3": 102,
+    "T2": 72
+  },
+  "authored": 146,
+  "v1_derived": 199,
+  "gate_clause_count": 100,
+  "no_deliverable_count": 47,
+  "axis_manner_count": 243,
+  "recall_hybrid_count": 7,
+  "criteria_per_item_range": [
+    3,
+    9
+  ],
+  "points_per_item_range": [
+    4.0,
+    9.0
+  ],
+  "by_family": {
+    "AGG": {
+      "n": 24,
+      "track_A": 3,
+      "track_B": 21,
+      "kind": {
+        "ordinal": 16,
+        "open": 4,
+        "contested": 4
+      },
+      "v1_derived": 24,
+      "authored": 0
+    },
+    "COMP": {
+      "n": 40,
+      "track_A": 37,
+      "track_B": 3,
+      "kind": {
+        "open": 40
+      },
+      "v1_derived": 23,
+      "authored": 17
+    },
+    "CONT": {
+      "n": 36,
+      "track_A": 0,
+      "track_B": 36,
+      "kind": {
+        "contested": 36
+      },
+      "v1_derived": 0,
+      "authored": 36
+    },
+    "CROSS": {
+      "n": 23,
+      "track_A": 0,
+      "track_B": 23,
+      "kind": {
+        "open": 23
+      },
+      "v1_derived": 23,
+      "authored": 0
+    },
+    "DUTY": {
+      "n": 21,
+      "track_A": 11,
+      "track_B": 10,
+      "kind": {
+        "open": 21
+      },
+      "v1_derived": 21,
+      "authored": 0
+    },
+    "LIB": {
+      "n": 39,
+      "track_A": 17,
+      "track_B": 22,
+      "kind": {
+        "open": 39
+      },
+      "v1_derived": 19,
+      "authored": 20
+    },
+    "MEND": {
+      "n": 41,
+      "track_A": 10,
+      "track_B": 31,
+      "kind": {
+        "open": 41
+      },
+      "v1_derived": 21,
+      "authored": 20
+    },
+    "PROOF": {
+      "n": 43,
+      "track_A": 15,
+      "track_B": 28,
+      "kind": {
+        "anchor": 43
+      },
+      "v1_derived": 23,
+      "authored": 20
+    },
+    "STED": {
+      "n": 36,
+      "track_A": 3,
+      "track_B": 33,
+      "kind": {
+        "open": 36
+      },
+      "v1_derived": 23,
+      "authored": 13
+    },
+    "WHOLE": {
+      "n": 42,
+      "track_A": 19,
+      "track_B": 23,
+      "kind": {
+        "open": 42
+      },
+      "v1_derived": 22,
+      "authored": 20
+    }
+  },
+  "frontier_core_n": 146,
+  "frontier_core_by_family": {
+    "COMP": 17,
+    "CONT": 36,
+    "LIB": 20,
+    "MEND": 20,
+    "PROOF": 20,
+    "STED": 13,
+    "WHOLE": 20
+  }
+}

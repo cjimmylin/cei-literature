@@ -13,8 +13,12 @@ mandatory judge-gap triage executed (90-cell blind audit, 90% idiom rate — see
 `analysis/20260731-session19-judge-gap-triage.md`). **First QUOTABLE results report
 shipped:** `reports/20260731-session19-quotable-results-report.md` — every earlier
 report/artifact (s1–s18) stays EXPLORATORY and must not be cited as SUT evidence.
-Next session: `20260731-session20-paper-drafting-boot-prompt.md` (paper drafting from
-the quotable results).
+**Session 20: full v1.x paper draft landed** (venue-generic, no venue/DOI/author list):
+`reports/20260731-session20-v1x-paper-draft.md` — every number traces to the s19 report
+or `analysis/session20_composition_stats.py`'s reproducible bank-composition figures; all
+6 s19 disclosures plus the strict-v3 episode carried into its own Limitations & Methods
+Integrity section. Uncommitted pending owner review — not yet accepted without material
+revision, so no session-21 boot prompt has been written.
 
 **This folder is self-contained** — every artifact, dataset, script, and deliverable lives
 inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been

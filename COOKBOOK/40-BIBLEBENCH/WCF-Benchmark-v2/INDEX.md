@@ -17,8 +17,11 @@ report/artifact (s1–s18) stays EXPLORATORY and must not be cited as SUT eviden
 `reports/20260731-session20-v1x-paper-draft.md` — every number traces to the s19 report
 or `analysis/session20_composition_stats.py`'s reproducible bank-composition figures; all
 6 s19 disclosures plus the strict-v3 episode carried into its own Limitations & Methods
-Integrity section. Committed + pushed (`629bcdbc1`) — but not yet reviewed/accepted by the
-owner without material revision, so no session-21 boot prompt has been written.
+Integrity section. Committed + pushed (`629bcdbc1`, `900645023`). **Owner accepted the
+draft (2026-07-31)** — 12pp PDF built via `reports/20260731-session20-build-pdf.py`
+(pandoc→typst, same pipeline as the s9 briefing): `reports/20260731-session20-v1x-paper-draft.pdf`
+(gitignored, disk-only; build script committed `6f750bac6`). No session-21 boot prompt
+written yet — next step is the owner's to name.
 
 **This folder is self-contained** — every artifact, dataset, script, and deliverable lives
 inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been

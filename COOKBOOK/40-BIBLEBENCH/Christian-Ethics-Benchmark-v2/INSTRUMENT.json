@@ -1,9 +1,9 @@
 {
-  "instrument_id": "WW-v2-20260724b",
-  "bank_revision": "2026-07-24b",
-  "stamped": "2026-07-30",
-  "stamp_kind": "retrospective",
-  "stamp_note": "Retrospective stamp written 2026-07-30 (T0-8). The tree has been unchanged since the 2026-07-24 full-bank run: 20260725-fullbank-3ep-run-report.md records that no defect found in that run forced a code or bank edit. This file therefore names the instrument that produced the full-bank 3-epoch results; it does not introduce a new instrument.",
+  "instrument_id": "WW-v2-20260731b",
+  "bank_revision": "2026-07-31",
+  "stamped": "2026-07-31",
+  "stamp_kind": "concurrent",
+  "stamp_note": "Successor to WW-v2-20260724b (preserved at INSTRUMENT-WW-v2-20260724b-superseded.json). One bundled repair version per RULINGS-APPLIED-20260731b: (1) metrics.py exemplar docstring corrected; (2) scorers.py expressed_judgment synonym-key fallback (recovers the 6-of-990 d03 extraction failures documented in 20260730h section 5 on frozen-log re-extraction); (3) bank item repairs — WW-05-L01 keyed constraints given a hard family floor so CSR is always decidable, WW-03-L02 DO-arm omission pressure made implicit and the faithful bar reduced to its core elements, and the five twinless design-04 4b singles (WW-04-B05, WW-04-D03, WW-04-E02, WW-04-H04, WW-04-I02) converted to alpha/beta motive pairs (design-04 paired denominator 24 -> 29). ALL repaired/authored items are UNVALIDATED pending live administration; no repaired item may enter a published statistic until a future ruling authorizes validation runs. Every number produced by WW-v2-20260724b remains a claim about that instrument, not this one. $0 version: no model was called to produce it.",
   "canary": "WALKWORTHY-CANARY-7f3e2026",
   "schema_contract": "tools/SCHEMA.md, section 'Instrument version stamp (added 2026-07-30, T0-8)'",
   "verifier": "tools/verify_instrument.py",
@@ -11,7 +11,7 @@
     "scope": "public bank only",
     "items": 344,
     "runnable": 344,
-    "admin_lines": 563,
+    "admin_lines": 568,
     "per_design": {
       "design01.jsonl": {
         "items": 49,
@@ -31,7 +31,7 @@
       "design04.jsonl": {
         "items": 33,
         "runnable": 33,
-        "admin_lines": 60
+        "admin_lines": 65
       },
       "design05.jsonl": {
         "items": 32,
@@ -64,7 +64,7 @@
         "admin_lines": 72
       }
     },
-    "source": "recounted from datasets/public/design01..10.jsonl on 2026-07-30; matches the bank-revision line of 20260725-fullbank-3ep-run-report.md (344 items / 344 runnable / 563 administration lines)"
+    "source": "recounted from datasets/public/design01..10.jsonl on 2026-07-31 at re-stamp"
   },
   "pins": {
     "judge_a": {
@@ -102,8 +102,8 @@
       "role": "ratified pre-registered comparison set; C6 pinned-classifier clause and RULING 1d govern instrument identity"
     },
     "rulings": {
-      "path": "RULINGS-APPLIED-20260724b.md",
-      "role": "rulings applied to produce bank revision 2026-07-24b"
+      "path": "RULINGS-APPLIED-20260731b.md",
+      "role": "repair ruling that produced bank revision 2026-07-31 (decision-menu item 2)"
     },
     "run_report": {
       "path": "20260725-fullbank-3ep-run-report.md",
@@ -121,6 +121,14 @@
       {
         "path": "20260724b-conversion-parity-report.md",
         "role": "conversion parity for bank revision 2026-07-24b"
+      },
+      {
+        "path": "INSTRUMENT-WW-v2-20260724b-superseded.json",
+        "role": "superseded predecessor stamp; names the instrument behind all frozen fullbank-3ep-20260724 results and the Tier 0 / paper-c reports"
+      },
+      {
+        "path": "RULINGS-APPLIED-20260724b.md",
+        "role": "rulings behind predecessor bank revision 2026-07-24b"
       }
     ]
   },
@@ -143,18 +151,18 @@
       "role": "public bank, design 02"
     },
     "datasets/public/design03.jsonl": {
-      "sha256": "81fcafd19bdc624132e75a48b99c2b6cc05e20676cab9298e11e1b0cd9c240bc",
-      "bytes": 272768,
+      "sha256": "0d0521589c145d7c4daf9114711ca0444bfd3e1fcdb1a5f85cd582bbef686722",
+      "bytes": 273188,
       "role": "public bank, design 03"
     },
     "datasets/public/design04.jsonl": {
-      "sha256": "333f67eaaed9ab9e2ab76d05114a603b8547ef297b8d66856bcc63f6c247f196",
-      "bytes": 173835,
+      "sha256": "064d1ef46a44bd6373c060f8df8d68eb0a98a440c8339c4541309cbbecfb0267",
+      "bytes": 201396,
       "role": "public bank, design 04"
     },
     "datasets/public/design05.jsonl": {
-      "sha256": "3f8428b3cae3f1621617bba98cba754ca68c7379c8cb15cd7171406cdfee7de8",
-      "bytes": 279830,
+      "sha256": "e3a7c1a1df8514c1580744700a71b27c34173fbcc27d2106aba9e6b3ac6fd22f",
+      "bytes": 279782,
       "role": "public bank, design 05"
     },
     "datasets/public/design06.jsonl": {
@@ -193,8 +201,8 @@
       "role": "dataset loader (public/holdout gating, record_to_sample)"
     },
     "walkworthy_inspect/metrics.py": {
-      "sha256": "0ef7f3f7a8d63cc2b6cfc04db465d13dabe32a544ea7808dd44f672384f1c7a3",
-      "bytes": 30906,
+      "sha256": "6d91b28cbafff1f5262bed9e18457d97e564afe53ee133f5b5f98b34a351c069",
+      "bytes": 31055,
       "role": "metric module (primary metrics; the metrics.py of this instrument)"
     },
     "walkworthy_inspect/ordo_constraints.py": {
@@ -218,8 +226,8 @@
       "role": "rubric module (per-design scoring specs, ported verbatim from v1)"
     },
     "walkworthy_inspect/scorers.py": {
-      "sha256": "a6e54225bfb5a87faef32dcc4e5cf91f245e8cee858f0d5de98cae2a47c72e50",
-      "bytes": 34110,
+      "sha256": "e1224ff63d614124e594e571d031d81b8dc09adcb367685f40ac58f0ad88d143",
+      "bytes": 35040,
       "role": "scorer module (judge prompts, model-graded + per-turn scorers)"
     },
     "walkworthy_inspect/solvers.py": {

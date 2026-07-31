@@ -73,8 +73,10 @@ def _ok(x: Any) -> bool:
 
 def _is_exemplar(ss: SampleScore) -> bool:
     """ITEM 2b: a sample is an exemplar iff metadata.is_exemplar is truthy OR its admin
-    label endswith '-exemplar'. Exemplars are gold-standard reference administrations
-    and must never contribute to a model-under-test metric."""
+    label endswith '-exemplar'. Exemplars are spec-bank-sourced items administered live
+    to each system like any other item (tools/convert_banks.py flags them at build; they
+    are NOT pre-authored gold-standard reference outputs) and must never contribute to a
+    model-under-test metric."""
     m = _meta(ss)
     if m.get("is_exemplar"):
         return True

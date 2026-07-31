@@ -266,6 +266,26 @@ def _coerce(value: Any, category: Category) -> Optional[Any]:
     return value
 
 
+# Judge JSONs occasionally rename expressed_judgment (observed: classified_judgment,
+# interpreted_judgment, explained_judgment, represented_judgment, mentioned_judgment,
+# indicated_judgment — 20260730h §5). Fallback authorized by RULINGS-APPLIED-20260731b:
+# accept a *_judgment synonym key ONLY when the schema key is entirely absent.
+_SYNONYM_SUFFIX_FALLBACK = {"expressed_judgment": "_judgment"}
+
+
+def _coerce_synonym(obj: Dict[str, Any], category: Category) -> Optional[Any]:
+    suffix = _SYNONYM_SUFFIX_FALLBACK.get(category.name)
+    if suffix is None:
+        return None
+    for k, v in obj.items():
+        if k == category.name or not isinstance(k, str) or not k.endswith(suffix):
+            continue
+        coerced = _coerce(v, category)
+        if coerced is not None:
+            return coerced
+    return None
+
+
 def parse_judge_json(text: str, categories: List[Category]) -> Optional[Dict[str, Any]]:
     """Parse the judge completion into {category: coerced_value}. None if unparseable.
 
@@ -287,6 +307,8 @@ def parse_judge_json(text: str, categories: List[Category]) -> Optional[Dict[str
     any_ok = False
     for c in categories:
         coerced = _coerce(obj.get(c.name), c)
+        if coerced is None and c.name not in obj:
+            coerced = _coerce_synonym(obj, c)
         out[c.name] = coerced
         if coerced is not None:
             any_ok = True

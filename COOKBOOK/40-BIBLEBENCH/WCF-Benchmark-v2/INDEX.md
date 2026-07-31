@@ -5,13 +5,16 @@ conduct benchmark** (Westminster Standards) evaluated on Inspect AI, with a vali
 strong judge panel (strict-v2 template, opus + GPT-5.6-Sol mean-of-2, single-packet
 mode, panel ICC(2,1)=0.985) and a frontier leaderboard.
 
-**Current state (2026-07-25, end s17):** bank v2.5 frozen (scored bank **345** — the
+**Current state (2026-07-31, end s19):** bank v2.5 frozen (scored bank **345** — the
 "317" in s16 docs is a ratified-corrected double-count); strict-v3 candidate REJECTED
 at its bench gate (auto-revert; see `analysis/20260725-session17-v3-gate-adjudication.md`);
-**Scenario A full run IN FLIGHT** (5 SUTs × 345 × 3 epochs — see
-`logs/20260725-session17-fullrun/RUN-MANIFEST.json`). Newest wave report:
-`reports/20260725-session17-wave-report.md`. Next session:
-`20260725-session18-fullrun-completion-boot-prompt.md`.
+**Scenario A full run COMPLETE** (5,175/5,175 responses, both judge arms) and the
+mandatory judge-gap triage executed (90-cell blind audit, 90% idiom rate — see
+`analysis/20260731-session19-judge-gap-triage.md`). **First QUOTABLE results report
+shipped:** `reports/20260731-session19-quotable-results-report.md` — every earlier
+report/artifact (s1–s18) stays EXPLORATORY and must not be cited as SUT evidence.
+Next session: `20260731-session20-paper-drafting-boot-prompt.md` (paper drafting from
+the quotable results).
 
 **This folder is self-contained** — every artifact, dataset, script, and deliverable lives
 inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been

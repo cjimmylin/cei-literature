@@ -1,0 +1,1090 @@
+{
+  "summary": {
+    "gap_threshold": 30,
+    "total_population": 314,
+    "target_n": 90,
+    "actual_n": 90,
+    "seed": 19,
+    "n_strata": 44,
+    "allocation": {
+      "gpt-4o-mini__AGG": {
+        "population": 5,
+        "sampled": 1
+      },
+      "gpt-4o-mini__COMP": {
+        "population": 11,
+        "sampled": 3
+      },
+      "gpt-4o-mini__CONT": {
+        "population": 1,
+        "sampled": 1
+      },
+      "gpt-4o-mini__CROSS": {
+        "population": 6,
+        "sampled": 1
+      },
+      "gpt-4o-mini__DUTY": {
+        "population": 4,
+        "sampled": 1
+      },
+      "gpt-4o-mini__LIB": {
+        "population": 5,
+        "sampled": 1
+      },
+      "gpt-4o-mini__MEND": {
+        "population": 3,
+        "sampled": 2
+      },
+      "gpt-4o-mini__PROOF": {
+        "population": 11,
+        "sampled": 3
+      },
+      "gpt-4o-mini__STED": {
+        "population": 20,
+        "sampled": 6
+      },
+      "gpt-4o-mini__WHOLE": {
+        "population": 9,
+        "sampled": 2
+      },
+      "gpt-5-mini__COMP": {
+        "population": 9,
+        "sampled": 2
+      },
+      "gpt-5-mini__CROSS": {
+        "population": 1,
+        "sampled": 1
+      },
+      "gpt-5-mini__DUTY": {
+        "population": 1,
+        "sampled": 1
+      },
+      "gpt-5-mini__LIB": {
+        "population": 2,
+        "sampled": 1
+      },
+      "gpt-5-mini__MEND": {
+        "population": 8,
+        "sampled": 2
+      },
+      "gpt-5-mini__PROOF": {
+        "population": 6,
+        "sampled": 1
+      },
+      "gpt-5-mini__STED": {
+        "population": 7,
+        "sampled": 2
+      },
+      "gpt-5-mini__WHOLE": {
+        "population": 4,
+        "sampled": 1
+      },
+      "haiku__AGG": {
+        "population": 3,
+        "sampled": 2
+      },
+      "haiku__COMP": {
+        "population": 16,
+        "sampled": 4
+      },
+      "haiku__CROSS": {
+        "population": 9,
+        "sampled": 2
+      },
+      "haiku__DUTY": {
+        "population": 5,
+        "sampled": 1
+      },
+      "haiku__LIB": {
+        "population": 4,
+        "sampled": 1
+      },
+      "haiku__MEND": {
+        "population": 7,
+        "sampled": 2
+      },
+      "haiku__PROOF": {
+        "population": 7,
+        "sampled": 2
+      },
+      "haiku__STED": {
+        "population": 13,
+        "sampled": 4
+      },
+      "haiku__WHOLE": {
+        "population": 12,
+        "sampled": 3
+      },
+      "minimax-m3__AGG": {
+        "population": 1,
+        "sampled": 1
+      },
+      "minimax-m3__COMP": {
+        "population": 13,
+        "sampled": 4
+      },
+      "minimax-m3__CROSS": {
+        "population": 3,
+        "sampled": 2
+      },
+      "minimax-m3__DUTY": {
+        "population": 5,
+        "sampled": 1
+      },
+      "minimax-m3__LIB": {
+        "population": 6,
+        "sampled": 1
+      },
+      "minimax-m3__MEND": {
+        "population": 6,
+        "sampled": 1
+      },
+      "minimax-m3__PROOF": {
+        "population": 8,
+        "sampled": 2
+      },
+      "minimax-m3__STED": {
+        "population": 12,
+        "sampled": 3
+      },
+      "minimax-m3__WHOLE": {
+        "population": 13,
+        "sampled": 4
+      },
+      "qwen__COMP": {
+        "population": 15,
+        "sampled": 4
+      },
+      "qwen__CROSS": {
+        "population": 4,
+        "sampled": 1
+      },
+      "qwen__DUTY": {
+        "population": 3,
+        "sampled": 2
+      },
+      "qwen__LIB": {
+        "population": 1,
+        "sampled": 1
+      },
+      "qwen__MEND": {
+        "population": 2,
+        "sampled": 1
+      },
+      "qwen__PROOF": {
+        "population": 7,
+        "sampled": 2
+      },
+      "qwen__STED": {
+        "population": 17,
+        "sampled": 5
+      },
+      "qwen__WHOLE": {
+        "population": 9,
+        "sampled": 2
+      }
+    }
+  },
+  "picks": [
+    {
+      "item": "AGG-C1-005",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "AGG",
+      "opus": 20,
+      "sol": 56,
+      "panel_mean": 38.0,
+      "gap": -36
+    },
+    {
+      "item": "COMP-C5-008",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 0,
+      "sol": 30,
+      "panel_mean": 15.0,
+      "gap": -30
+    },
+    {
+      "item": "COMP-C9-001",
+      "sut": "gpt-4o-mini",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 20,
+      "sol": 70,
+      "panel_mean": 45.0,
+      "gap": -50
+    },
+    {
+      "item": "COMP-N-002",
+      "sut": "gpt-4o-mini",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 40,
+      "sol": 8,
+      "panel_mean": 24.0,
+      "gap": 32
+    },
+    {
+      "item": "CONT-N-022",
+      "sut": "gpt-4o-mini",
+      "epoch": "3",
+      "mold": "CONT",
+      "opus": 45,
+      "sol": 75,
+      "panel_mean": 60.0,
+      "gap": -30
+    },
+    {
+      "item": "CROSS-C6-W204",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "CROSS",
+      "opus": 50,
+      "sol": 0,
+      "panel_mean": 25.0,
+      "gap": 50
+    },
+    {
+      "item": "DUTY-C6-W303",
+      "sut": "gpt-4o-mini",
+      "epoch": "3",
+      "mold": "DUTY",
+      "opus": 64,
+      "sol": 32,
+      "panel_mean": 48.0,
+      "gap": 32
+    },
+    {
+      "item": "LIB-N-015",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "LIB",
+      "opus": 92,
+      "sol": 58,
+      "panel_mean": 75.0,
+      "gap": 34
+    },
+    {
+      "item": "MEND-C4-007",
+      "sut": "gpt-4o-mini",
+      "epoch": "2",
+      "mold": "MEND",
+      "opus": 40,
+      "sol": 70,
+      "panel_mean": 55.0,
+      "gap": -30
+    },
+    {
+      "item": "MEND-N-015",
+      "sut": "gpt-4o-mini",
+      "epoch": "2",
+      "mold": "MEND",
+      "opus": 40,
+      "sol": 8,
+      "panel_mean": 24.0,
+      "gap": 32
+    },
+    {
+      "item": "PROOF-N-003",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "PROOF",
+      "opus": 40,
+      "sol": 100,
+      "panel_mean": 70.0,
+      "gap": -60
+    },
+    {
+      "item": "PROOF-N-007",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "PROOF",
+      "opus": 32,
+      "sol": 86,
+      "panel_mean": 59.0,
+      "gap": -54
+    },
+    {
+      "item": "PROOF-N-008",
+      "sut": "gpt-4o-mini",
+      "epoch": "2",
+      "mold": "PROOF",
+      "opus": 54,
+      "sol": 8,
+      "panel_mean": 31.0,
+      "gap": 46
+    },
+    {
+      "item": "STED-C9-W305",
+      "sut": "gpt-4o-mini",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 28,
+      "sol": 63,
+      "panel_mean": 45.5,
+      "gap": -35
+    },
+    {
+      "item": "STED-N-004",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "STED",
+      "opus": 64,
+      "sol": 9,
+      "panel_mean": 36.5,
+      "gap": 55
+    },
+    {
+      "item": "STED-N-005",
+      "sut": "gpt-4o-mini",
+      "epoch": "2",
+      "mold": "STED",
+      "opus": 9,
+      "sol": 40,
+      "panel_mean": 24.5,
+      "gap": -31
+    },
+    {
+      "item": "STED-N-005",
+      "sut": "gpt-4o-mini",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 9,
+      "sol": 40,
+      "panel_mean": 24.5,
+      "gap": -31
+    },
+    {
+      "item": "STED-N-019",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "STED",
+      "opus": 60,
+      "sol": 10,
+      "panel_mean": 35.0,
+      "gap": 50
+    },
+    {
+      "item": "STED-N-022",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "STED",
+      "opus": 50,
+      "sol": 5,
+      "panel_mean": 27.5,
+      "gap": 45
+    },
+    {
+      "item": "WHOLE-C5-003",
+      "sut": "gpt-4o-mini",
+      "epoch": "1",
+      "mold": "WHOLE",
+      "opus": 38,
+      "sol": 71,
+      "panel_mean": 54.5,
+      "gap": -33
+    },
+    {
+      "item": "WHOLE-N-004",
+      "sut": "gpt-4o-mini",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 83,
+      "sol": 40,
+      "panel_mean": 61.5,
+      "gap": 43
+    },
+    {
+      "item": "COMP-C5-008",
+      "sut": "gpt-5-mini",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 70,
+      "sol": 40,
+      "panel_mean": 55.0,
+      "gap": 30
+    },
+    {
+      "item": "COMP-N-021",
+      "sut": "gpt-5-mini",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 40,
+      "sol": 86,
+      "panel_mean": 63.0,
+      "gap": -46
+    },
+    {
+      "item": "CROSS-XC-W207",
+      "sut": "gpt-5-mini",
+      "epoch": "2",
+      "mold": "CROSS",
+      "opus": 50,
+      "sol": 83,
+      "panel_mean": 66.5,
+      "gap": -33
+    },
+    {
+      "item": "DUTY-XC-W206",
+      "sut": "gpt-5-mini",
+      "epoch": "2",
+      "mold": "DUTY",
+      "opus": 68,
+      "sol": 32,
+      "panel_mean": 50.0,
+      "gap": 36
+    },
+    {
+      "item": "LIB-N-010",
+      "sut": "gpt-5-mini",
+      "epoch": "3",
+      "mold": "LIB",
+      "opus": 79,
+      "sol": 40,
+      "panel_mean": 59.5,
+      "gap": 39
+    },
+    {
+      "item": "MEND-N-006",
+      "sut": "gpt-5-mini",
+      "epoch": "1",
+      "mold": "MEND",
+      "opus": 83,
+      "sol": 40,
+      "panel_mean": 61.5,
+      "gap": 43
+    },
+    {
+      "item": "MEND-N-017",
+      "sut": "gpt-5-mini",
+      "epoch": "3",
+      "mold": "MEND",
+      "opus": 62,
+      "sol": 92,
+      "panel_mean": 77.0,
+      "gap": -30
+    },
+    {
+      "item": "PROOF-C1-005",
+      "sut": "gpt-5-mini",
+      "epoch": "1",
+      "mold": "PROOF",
+      "opus": 77,
+      "sol": 0,
+      "panel_mean": 38.5,
+      "gap": 77
+    },
+    {
+      "item": "STED-C3-010",
+      "sut": "gpt-5-mini",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 88,
+      "sol": 44,
+      "panel_mean": 66.0,
+      "gap": 44
+    },
+    {
+      "item": "STED-N-018",
+      "sut": "gpt-5-mini",
+      "epoch": "2",
+      "mold": "STED",
+      "opus": 75,
+      "sol": 40,
+      "panel_mean": 57.5,
+      "gap": 35
+    },
+    {
+      "item": "WHOLE-N-012",
+      "sut": "gpt-5-mini",
+      "epoch": "3",
+      "mold": "WHOLE",
+      "opus": 80,
+      "sol": 35,
+      "panel_mean": 57.5,
+      "gap": 45
+    },
+    {
+      "item": "AGG-C6-008",
+      "sut": "haiku",
+      "epoch": "1",
+      "mold": "AGG",
+      "opus": 46,
+      "sol": 0,
+      "panel_mean": 23.0,
+      "gap": 46
+    },
+    {
+      "item": "AGG-C6-008",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "AGG",
+      "opus": 46,
+      "sol": 0,
+      "panel_mean": 23.0,
+      "gap": 46
+    },
+    {
+      "item": "COMP-C4-005",
+      "sut": "haiku",
+      "epoch": "2",
+      "mold": "COMP",
+      "opus": 60,
+      "sol": 20,
+      "panel_mean": 40.0,
+      "gap": 40
+    },
+    {
+      "item": "COMP-N-001",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 40,
+      "sol": 8,
+      "panel_mean": 24.0,
+      "gap": 32
+    },
+    {
+      "item": "COMP-N-002",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 4,
+      "sol": 58,
+      "panel_mean": 31.0,
+      "gap": -54
+    },
+    {
+      "item": "COMP-N-017",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 54,
+      "sol": 0,
+      "panel_mean": 27.0,
+      "gap": 54
+    },
+    {
+      "item": "CROSS-C2-005",
+      "sut": "haiku",
+      "epoch": "2",
+      "mold": "CROSS",
+      "opus": 64,
+      "sol": 9,
+      "panel_mean": 36.5,
+      "gap": 55
+    },
+    {
+      "item": "CROSS-C2-005",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "CROSS",
+      "opus": 82,
+      "sol": 9,
+      "panel_mean": 45.5,
+      "gap": 73
+    },
+    {
+      "item": "DUTY-C6-W303",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "DUTY",
+      "opus": 86,
+      "sol": 45,
+      "panel_mean": 65.5,
+      "gap": 41
+    },
+    {
+      "item": "LIB-N-014",
+      "sut": "haiku",
+      "epoch": "1",
+      "mold": "LIB",
+      "opus": 4,
+      "sol": 88,
+      "panel_mean": 46.0,
+      "gap": -84
+    },
+    {
+      "item": "MEND-N-016",
+      "sut": "haiku",
+      "epoch": "2",
+      "mold": "MEND",
+      "opus": 92,
+      "sol": 40,
+      "panel_mean": 66.0,
+      "gap": 52
+    },
+    {
+      "item": "MEND-N-016",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "MEND",
+      "opus": 83,
+      "sol": 40,
+      "panel_mean": 61.5,
+      "gap": 43
+    },
+    {
+      "item": "PROOF-C1-W306",
+      "sut": "haiku",
+      "epoch": "2",
+      "mold": "PROOF",
+      "opus": 77,
+      "sol": 45,
+      "panel_mean": 61.0,
+      "gap": 32
+    },
+    {
+      "item": "PROOF-N-017",
+      "sut": "haiku",
+      "epoch": "1",
+      "mold": "PROOF",
+      "opus": 8,
+      "sol": 63,
+      "panel_mean": 35.5,
+      "gap": -55
+    },
+    {
+      "item": "STED-C9-W304",
+      "sut": "haiku",
+      "epoch": "1",
+      "mold": "STED",
+      "opus": 69,
+      "sol": 3,
+      "panel_mean": 36.0,
+      "gap": 66
+    },
+    {
+      "item": "STED-C9-W304",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 58,
+      "sol": 6,
+      "panel_mean": 32.0,
+      "gap": 52
+    },
+    {
+      "item": "STED-N-003",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 59,
+      "sol": 5,
+      "panel_mean": 32.0,
+      "gap": 54
+    },
+    {
+      "item": "STED-N-022",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 45,
+      "sol": 5,
+      "panel_mean": 25.0,
+      "gap": 40
+    },
+    {
+      "item": "WHOLE-N-010",
+      "sut": "haiku",
+      "epoch": "1",
+      "mold": "WHOLE",
+      "opus": 41,
+      "sol": 9,
+      "panel_mean": 25.0,
+      "gap": 32
+    },
+    {
+      "item": "WHOLE-N-010",
+      "sut": "haiku",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 50,
+      "sol": 9,
+      "panel_mean": 29.5,
+      "gap": 41
+    },
+    {
+      "item": "WHOLE-N-016",
+      "sut": "haiku",
+      "epoch": "3",
+      "mold": "WHOLE",
+      "opus": 59,
+      "sol": 5,
+      "panel_mean": 32.0,
+      "gap": 54
+    },
+    {
+      "item": "AGG-C1-005",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "AGG",
+      "opus": 89,
+      "sol": 56,
+      "panel_mean": 72.5,
+      "gap": 33
+    },
+    {
+      "item": "COMP-N-005",
+      "sut": "minimax-m3",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 54,
+      "sol": 8,
+      "panel_mean": 31.0,
+      "gap": 46
+    },
+    {
+      "item": "COMP-N-008",
+      "sut": "minimax-m3",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 63,
+      "sol": 0,
+      "panel_mean": 31.5,
+      "gap": 63
+    },
+    {
+      "item": "COMP-N-020",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "COMP",
+      "opus": 82,
+      "sol": 36,
+      "panel_mean": 59.0,
+      "gap": 46
+    },
+    {
+      "item": "COMP-N-023",
+      "sut": "minimax-m3",
+      "epoch": "3",
+      "mold": "COMP",
+      "opus": 67,
+      "sol": 8,
+      "panel_mean": 37.5,
+      "gap": 59
+    },
+    {
+      "item": "CROSS-C2-005",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "CROSS",
+      "opus": 82,
+      "sol": 9,
+      "panel_mean": 45.5,
+      "gap": 73
+    },
+    {
+      "item": "CROSS-C7-W205",
+      "sut": "minimax-m3",
+      "epoch": "1",
+      "mold": "CROSS",
+      "opus": 41,
+      "sol": 9,
+      "panel_mean": 25.0,
+      "gap": 32
+    },
+    {
+      "item": "DUTY-C10-010",
+      "sut": "minimax-m3",
+      "epoch": "1",
+      "mold": "DUTY",
+      "opus": 67,
+      "sol": 6,
+      "panel_mean": 36.5,
+      "gap": 61
+    },
+    {
+      "item": "LIB-N-005",
+      "sut": "minimax-m3",
+      "epoch": "3",
+      "mold": "LIB",
+      "opus": 8,
+      "sol": 75,
+      "panel_mean": 41.5,
+      "gap": -67
+    },
+    {
+      "item": "MEND-C7-W205",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "MEND",
+      "opus": 77,
+      "sol": 47,
+      "panel_mean": 62.0,
+      "gap": 30
+    },
+    {
+      "item": "PROOF-N-015",
+      "sut": "minimax-m3",
+      "epoch": "3",
+      "mold": "PROOF",
+      "opus": 79,
+      "sol": 40,
+      "panel_mean": 59.5,
+      "gap": 39
+    },
+    {
+      "item": "PROOF-N-016",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "PROOF",
+      "opus": 79,
+      "sol": 46,
+      "panel_mean": 62.5,
+      "gap": 33
+    },
+    {
+      "item": "STED-C3-010",
+      "sut": "minimax-m3",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 79,
+      "sol": 0,
+      "panel_mean": 39.5,
+      "gap": 79
+    },
+    {
+      "item": "STED-N-010",
+      "sut": "minimax-m3",
+      "epoch": "1",
+      "mold": "STED",
+      "opus": 73,
+      "sol": 9,
+      "panel_mean": 41.0,
+      "gap": 64
+    },
+    {
+      "item": "STED-N-022",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "STED",
+      "opus": 55,
+      "sol": 5,
+      "panel_mean": 30.0,
+      "gap": 50
+    },
+    {
+      "item": "WHOLE-C1-004",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 50,
+      "sol": 0,
+      "panel_mean": 25.0,
+      "gap": 50
+    },
+    {
+      "item": "WHOLE-C6-009",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 38,
+      "sol": 8,
+      "panel_mean": 23.0,
+      "gap": 30
+    },
+    {
+      "item": "WHOLE-N-010",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 50,
+      "sol": 5,
+      "panel_mean": 27.5,
+      "gap": 45
+    },
+    {
+      "item": "WHOLE-N-012",
+      "sut": "minimax-m3",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 75,
+      "sol": 5,
+      "panel_mean": 40.0,
+      "gap": 70
+    },
+    {
+      "item": "COMP-C1-W201",
+      "sut": "qwen",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 60,
+      "sol": 10,
+      "panel_mean": 35.0,
+      "gap": 50
+    },
+    {
+      "item": "COMP-C2-W302",
+      "sut": "qwen",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 70,
+      "sol": 10,
+      "panel_mean": 40.0,
+      "gap": 60
+    },
+    {
+      "item": "COMP-C6-W303",
+      "sut": "qwen",
+      "epoch": "1",
+      "mold": "COMP",
+      "opus": 70,
+      "sol": 5,
+      "panel_mean": 37.5,
+      "gap": 65
+    },
+    {
+      "item": "COMP-C6-W303",
+      "sut": "qwen",
+      "epoch": "2",
+      "mold": "COMP",
+      "opus": 80,
+      "sol": 10,
+      "panel_mean": 45.0,
+      "gap": 70
+    },
+    {
+      "item": "CROSS-C7-W205",
+      "sut": "qwen",
+      "epoch": "3",
+      "mold": "CROSS",
+      "opus": 41,
+      "sol": 9,
+      "panel_mean": 25.0,
+      "gap": 32
+    },
+    {
+      "item": "DUTY-C8-W305",
+      "sut": "qwen",
+      "epoch": "1",
+      "mold": "DUTY",
+      "opus": 70,
+      "sol": 5,
+      "panel_mean": 37.5,
+      "gap": 65
+    },
+    {
+      "item": "DUTY-C9-001",
+      "sut": "qwen",
+      "epoch": "1",
+      "mold": "DUTY",
+      "opus": 82,
+      "sol": 27,
+      "panel_mean": 54.5,
+      "gap": 55
+    },
+    {
+      "item": "LIB-N-002",
+      "sut": "qwen",
+      "epoch": "3",
+      "mold": "LIB",
+      "opus": 88,
+      "sol": 40,
+      "panel_mean": 64.0,
+      "gap": 48
+    },
+    {
+      "item": "MEND-N-018",
+      "sut": "qwen",
+      "epoch": "3",
+      "mold": "MEND",
+      "opus": 85,
+      "sol": 40,
+      "panel_mean": 62.5,
+      "gap": 45
+    },
+    {
+      "item": "PROOF-N-014",
+      "sut": "qwen",
+      "epoch": "1",
+      "mold": "PROOF",
+      "opus": 88,
+      "sol": 58,
+      "panel_mean": 73.0,
+      "gap": 30
+    },
+    {
+      "item": "PROOF-N-016",
+      "sut": "qwen",
+      "epoch": "2",
+      "mold": "PROOF",
+      "opus": 96,
+      "sol": 63,
+      "panel_mean": 79.5,
+      "gap": 33
+    },
+    {
+      "item": "STED-C3-010",
+      "sut": "qwen",
+      "epoch": "2",
+      "mold": "STED",
+      "opus": 68,
+      "sol": 0,
+      "panel_mean": 34.0,
+      "gap": 68
+    },
+    {
+      "item": "STED-C3-010",
+      "sut": "qwen",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 65,
+      "sol": 0,
+      "panel_mean": 32.5,
+      "gap": 65
+    },
+    {
+      "item": "STED-N-005",
+      "sut": "qwen",
+      "epoch": "2",
+      "mold": "STED",
+      "opus": 45,
+      "sol": 0,
+      "panel_mean": 22.5,
+      "gap": 45
+    },
+    {
+      "item": "STED-N-011",
+      "sut": "qwen",
+      "epoch": "3",
+      "mold": "STED",
+      "opus": 65,
+      "sol": 0,
+      "panel_mean": 32.5,
+      "gap": 65
+    },
+    {
+      "item": "STED-N-020",
+      "sut": "qwen",
+      "epoch": "2",
+      "mold": "STED",
+      "opus": 68,
+      "sol": 9,
+      "panel_mean": 38.5,
+      "gap": 59
+    },
+    {
+      "item": "WHOLE-N-001",
+      "sut": "qwen",
+      "epoch": "2",
+      "mold": "WHOLE",
+      "opus": 50,
+      "sol": 5,
+      "panel_mean": 27.5,
+      "gap": 45
+    },
+    {
+      "item": "WHOLE-N-015",
+      "sut": "qwen",
+      "epoch": "3",
+      "mold": "WHOLE",
+      "opus": 80,
+      "sol": 40,
+      "panel_mean": 60.0,
+      "gap": 40
+    }
+  ]
+}

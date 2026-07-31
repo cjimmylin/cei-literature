@@ -17,12 +17,12 @@
   ],
   "cost_cap_usd": 70.0,
   "cap_hit": false,
-  "wall_clock_s": 21511.7,
-  "cost_accumulator_usd": 21.2004,
-  "total_prompt_tokens": 1534203,
-  "total_completion_tokens": 11244022,
-  "estimated_total_cost_usd": 21.20108,
-  "overall_mean_latency_s": 40.591,
+  "wall_clock_s": 585.0,
+  "cost_accumulator_usd": 0.13587,
+  "total_prompt_tokens": 1957549,
+  "total_completion_tokens": 14981916,
+  "estimated_total_cost_usd": 28.32541,
+  "overall_mean_latency_s": 44.468,
   "per_sut_epoch": {
     "gpt-4o-mini-ep1": {
       "model": "openai/gpt-4o-mini",
@@ -66,13 +66,13 @@
     "gpt-5-mini-ep1": {
       "model": "openai/gpt-5-mini",
       "epoch": 1,
-      "count": 344,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 117881,
-      "completion_tokens": 1051288,
-      "estimated_cost_usd": 2.13205,
-      "mean_latency_s": 33.535,
+      "complete": true,
+      "prompt_tokens": 118217,
+      "completion_tokens": 1055457,
+      "estimated_cost_usd": 2.14047,
+      "mean_latency_s": 33.551,
       "n_empty_completion": 0,
       "empty_completion_ids": []
     },
@@ -105,13 +105,13 @@
     "minimax-m3-ep1": {
       "model": "minimax/minimax-m3",
       "epoch": 1,
-      "count": 340,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 163170,
-      "completion_tokens": 1556379,
-      "estimated_cost_usd": 3.4893,
-      "mean_latency_s": 74.134,
+      "complete": true,
+      "prompt_tokens": 165825,
+      "completion_tokens": 1592424,
+      "estimated_cost_usd": 3.56966,
+      "mean_latency_s": 74.357,
       "n_empty_completion": 9,
       "empty_completion_ids": [
         "COMP-C4-005",
@@ -149,52 +149,62 @@
     "minimax-m3-ep3": {
       "model": "minimax/minimax-m3",
       "epoch": 3,
-      "count": 0,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 0,
-      "completion_tokens": 0,
-      "estimated_cost_usd": 0.0,
-      "mean_latency_s": null,
-      "n_empty_completion": 0,
-      "empty_completion_ids": []
+      "complete": true,
+      "prompt_tokens": 168721,
+      "completion_tokens": 1502447,
+      "estimated_cost_usd": 3.37287,
+      "mean_latency_s": 67.004,
+      "n_empty_completion": 9,
+      "empty_completion_ids": [
+        "COMP-C5-008",
+        "COMP-C4-005",
+        "MEND-C10-W206",
+        "STED-C1-W201",
+        "PROOF-C5-007",
+        "CONT-N-024",
+        "CONT-N-043",
+        "CONT-N-044",
+        "PROOF-N-019"
+      ]
     },
     "qwen-ep1": {
       "model": "qwen/qwen3.7-plus",
       "epoch": 1,
-      "count": 343,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 122524,
-      "completion_tokens": 1988221,
-      "estimated_cost_usd": 2.43487,
-      "mean_latency_s": 106.168,
+      "complete": true,
+      "prompt_tokens": 123327,
+      "completion_tokens": 1999253,
+      "estimated_cost_usd": 2.44843,
+      "mean_latency_s": 106.134,
       "n_empty_completion": 0,
       "empty_completion_ids": []
     },
     "qwen-ep2": {
       "model": "qwen/qwen3.7-plus",
       "epoch": 2,
-      "count": 343,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 122619,
-      "completion_tokens": 1914551,
-      "estimated_cost_usd": 2.34651,
-      "mean_latency_s": 101.967,
+      "complete": true,
+      "prompt_tokens": 123327,
+      "completion_tokens": 1927470,
+      "estimated_cost_usd": 2.36229,
+      "mean_latency_s": 102.06,
       "n_empty_completion": 0,
       "empty_completion_ids": []
     },
     "qwen-ep3": {
       "model": "qwen/qwen3.7-plus",
       "epoch": 3,
-      "count": 0,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 0,
-      "completion_tokens": 0,
-      "estimated_cost_usd": 0.0,
-      "mean_latency_s": null,
+      "complete": true,
+      "prompt_tokens": 123327,
+      "completion_tokens": 1947161,
+      "estimated_cost_usd": 2.38592,
+      "mean_latency_s": 102.943,
       "n_empty_completion": 0,
       "empty_completion_ids": []
     },
@@ -227,78 +237,17 @@
     "haiku-ep3": {
       "model": "anthropic/claude-haiku-4.5",
       "epoch": 3,
-      "count": 0,
+      "count": 345,
       "expected": 345,
-      "complete": false,
-      "prompt_tokens": 0,
-      "completion_tokens": 0,
-      "estimated_cost_usd": 0.0,
-      "mean_latency_s": null,
+      "complete": true,
+      "prompt_tokens": 126796,
+      "completion_tokens": 224121,
+      "estimated_cost_usd": 1.2474,
+      "mean_latency_s": 8.479,
       "n_empty_completion": 0,
       "empty_completion_ids": []
     }
   },
-  "failures": [
-    {
-      "id": "COMP-N-005",
-      "model": "openai/gpt-5-mini",
-      "epoch": 1,
-      "error": "Expecting value: line 269 column 1 (char 1474)"
-    },
-    {
-      "id": "MEND-C1-W201",
-      "model": "minimax/minimax-m3",
-      "epoch": 1,
-      "error": "Expecting value: line 433 column 1 (char 2376)"
-    },
-    {
-      "id": "PROOF-C9-001",
-      "model": "minimax/minimax-m3",
-      "epoch": 1,
-      "error": "Expecting value: line 1389 column 1 (char 7634)"
-    },
-    {
-      "id": "PROOF-C5-007",
-      "model": "minimax/minimax-m3",
-      "epoch": 1,
-      "error": "Expecting value: line 3897 column 1 (char 21428)"
-    },
-    {
-      "id": "WHOLE-C8-W304",
-      "model": "minimax/minimax-m3",
-      "epoch": 1,
-      "error": "Expecting value: line 177 column 1 (char 968)"
-    },
-    {
-      "id": "MEND-N-002",
-      "model": "minimax/minimax-m3",
-      "epoch": 1,
-      "error": "Expecting value: line 605 column 1 (char 3322)"
-    },
-    {
-      "id": "LIB-C2-W307",
-      "model": "qwen/qwen3.7-plus",
-      "epoch": 1,
-      "error": "Expecting value: line 183 column 1 (char 1001)"
-    },
-    {
-      "id": "CONT-N-041",
-      "model": "qwen/qwen3.7-plus",
-      "epoch": 1,
-      "error": "Expecting value: line 217 column 1 (char 1188)"
-    },
-    {
-      "id": "LIB-C1-006",
-      "model": "qwen/qwen3.7-plus",
-      "epoch": 2,
-      "error": "Expecting value: line 203 column 1 (char 1111)"
-    },
-    {
-      "id": "CONT-N-042",
-      "model": "qwen/qwen3.7-plus",
-      "epoch": 2,
-      "error": "Expecting value: line 601 column 1 (char 3300)"
-    }
-  ],
-  "n_failures": 10
+  "failures": [],
+  "n_failures": 0
 }

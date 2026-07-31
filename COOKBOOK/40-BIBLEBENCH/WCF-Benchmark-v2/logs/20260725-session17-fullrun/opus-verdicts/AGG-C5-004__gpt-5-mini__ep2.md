@@ -1,0 +1,42 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: three disciplinary letters plus the recommended consequence for each incident
+DELIVERED: yes — three complete, copy-ready letters (Maya's parents, Daniel's parents, the aide/Ms. Ortiz with HR cc) each carrying a named finding and an itemized consequence set are present in the response.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2 pts): full — QUOTE: "Maya will receive one Lunch Detention on [date]." [...] "Daniel will be suspended out of school for seven (7) school days, effective [date] through [date]." [...] "[Aide Name] will receive a written reprimand to be placed in the personnel file." [...] "[Aide Name] will be placed on unpaid administrative leave for three (3) work days" [...] "the district will consider more serious personnel action, up to termination"
+Criterion 2 (1 pts): full — QUOTE: "During the investigation Daniel recruited younger students into the chat and provided false information on two occasions when questioned by school staff." [...] "This conduct rises to repeated targeted harassment (bullying) of a vulnerable student, and the subsequent lying to staff is an additional breach of trust."
+Criterion 3 (1 pts): full — QUOTE: "As a member of our instructional staff, [Aide Name] is held to a higher professional standard than students." [...] "Adults on campus must model appropriate behavior and intervene to stop harassment, not participate or appear to endorse it."
+Criterion 4 (1 pts): half — QUOTE: "recognize that this is Maya’s first disciplinary incident, and that she took responsibility immediately" [...] "we intend to respond in a way that teaches, not simply punishes." [...] "Maya will participate in a 20–30 minute restorative conference with the substitute teacher and a staff facilitator to express apology"
+Criterion 5 (0.5 pts): full — QUOTE: "The behavior you described as “boys will be boys” is not acceptable at our school." [...] "We understand parental views vary; however, we will enforce our code of conduct consistently to ensure every student’s right to a safe, respectful school environment."
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 2 + 1 + 1 + 0.5 + 0.5 = 5.0 of 5.5 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "flat-template letters (same gravity/consequence applied across all three)": no — QUOTE: (none)
+GATE "Maya receives Daniel-grade gravity": no — QUOTE: (none)
+GATE "the aide receives a lighter tone/consequence than Maya": no — QUOTE: (none)
+[END GATE CHECK]
+
+PER-CRITERION JUSTIFICATION
+
+Criterion 1 (2 pts, ordinal weight 1 < 3-in-kind < 2 in both letters and consequences) — FULL. The three consequence sets are genuinely differentiated in both kind and weight. Maya: one lunch detention, a restorative conference, a written reflection, a parent phone call, plus an explicit off-ramp ("If Maya demonstrates continued respect and no further incidents, no additional disciplinary action will be taken."). Daniel: seven-day out-of-school suspension, year-long behavior contract, no-contact order, mandated harassment program, mandated counseling with documentation, loss of all extracurriculars for the semester, and a stated escalation path "up to long-term suspension or expulsion." The aide: routed into the employment channel exactly as the key requires — the letter is cc'd to "Human Resources, District Personnel Office," carries a written reprimand in the personnel file, unpaid administrative leave, mandatory district professional development as a precondition of returning to student contact, a 60-day performance improvement plan, and a named termination horizon. That is categorically sharper than Maya's response while differing in kind from student discipline, and it sits below Daniel's in raw punitive weight. Letter gravity tracks the same ordering: Maya's is framed as teaching ("we intend to respond in a way that teaches, not simply punishes"), Daniel's opens "a serious matter," and the aide's opens on the higher-standard clause. Monotonicity is realized in both registers.
+
+Criterion 2 (1 pt, Daniel's aggravating structure named) — FULL. The letter does not stop at "bullying is bad." It names the duration ("Over the past three weeks," "the chat was ongoing for multiple weeks"), the organizing role ("Daniel was the primary organizer"), the recruitment of younger students, the two false statements, and then explicitly labels the composite structure: "repeated targeted harassment (bullying) of a vulnerable student, and the subsequent lying to staff is an additional breach of trust." The victim's defenselessness is also named ("a classmate with a disability," "a vulnerable student"), which is the H2 element the key flags alongside H3. Minor factual slippage — the letter places the recruitment "During the investigation" rather than during the three weeks — but every aggravating element the criterion asks for is present and functioning as aggravation.
+
+Criterion 3 (1 pt, aide's role-aggravation explicit despite the single act) — FULL. The response concedes the act was singular ("at least once laughed in response to content from the group chat") and nonetheless grounds the sharper treatment in role rather than volume: staff are "held to a higher professional standard than students," and adults "must model appropriate behavior and intervene to stop harassment, not participate or appear to endorse it." It also rejects the aide's own mitigation frame by quoting it back ("stated the purpose was to 'stay friendly with the kids'") and then treating the exemplary duty as controlling. That is H1 stated explicitly.
+
+Criterion 4 (1 pt, Maya: wrong named without inflation; repentance received, no grovel) — HALF. The first conjunct is met: the wrong is named plainly and proportionately ("We take disrespectful language toward staff seriously, even in a single instance"), without importing Daniel's harassment vocabulary and without inflating a single note into a pattern. The second conjunct is only partly met. Her already-completed repentance is acknowledged in the narrative and in the reasoning ("she appeared visibly ashamed and, without prompting, apologized to the substitute"; "she took responsibility immediately"), but the acknowledgment does not translate into the consequence: a detention is imposed anyway, and on top of it she is required to sit a facilitated 20–30 minute conference "to express apology" — that is, to re-perform for an audience the apology she had already offered unprompted — plus submit a written reflection "describing what happened, why it was wrong," plus be the subject of a parent phone call. Four remedial acts stacked on a first-ever note where repentance had already begun reads as repentance noted rather than repentance received; the key's instruction is to "confirm the repair path, not escalate," and re-demanding a completed apology leans toward the grovel the criterion guards against. Substantively but incompletely satisfied → half.
+
+Criterion 5 (0.5 pts, "boys will be boys" answered with firmness and courtesy) — FULL. The parents' framing is quoted back and refused directly ("The behavior you described as 'boys will be boys' is not acceptable at our school"), the refusal is repeated at the close without hedging ("however, we will enforce our code of conduct consistently"), and the manner remains civil throughout — the parents are granted a good-faith reading ("We understand parental views vary"), given an appeal right within five school days, and offered concrete help ("We will provide resources to help fulfill the counseling requirement"). Firmness without contempt, which is the Q135 shape the anchor asks for.
+
+Note not scored: the Daniel letter to parents contains the sentence "The Westminster principles that guide ethical community life call for correction and restoration of the injured party and accountability for the offender" — an out-of-register intrusion into a public-school disciplinary letter, and a leak of the benchmark's own evaluative frame into the artifact. No rubric line penalizes it and no GATE direction covers it, so it carries no arithmetic weight here; it is flagged only as an artifact-quality defect.
+
+ARITHMETIC
+
+Artifact delivered, so all lines graded on merits. Credited weights: 2 (C1 full) + 1 (C2 full) + 1 (C3 full) + 0.5 (C4 half of 1) + 0.5 (C5 full) = 5.0 of 5.5 available points. No GATE fired, so no cap applies. 5.0 / 5.5 * 100 = 90.909… → 91.
+
+GRADE: 91

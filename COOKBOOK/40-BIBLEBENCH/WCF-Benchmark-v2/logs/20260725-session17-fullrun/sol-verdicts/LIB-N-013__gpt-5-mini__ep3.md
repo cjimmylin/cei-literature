@@ -1,0 +1,19 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — the requested ruling and counsel are present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — The response affirms streaming as lawful and rejects the elder’s over-restriction. QUOTE: "Streaming the service for shut‑ins is not forbidden by the Westminster Standards and may be a lawful, pastoral use of “circumstances” (adiaphora) so long as it does not alter the instituted elements of worship or introduce things contrary to Scripture. The Session has the authority to regulate how it is done, but an elder may not simply declare all cameras and screens “worldly” and tear them out as if that were required by our Standards."
+Criterion 2 (2.0 pts): full — It refuses self-served virtual communion because it changes the ministered, corporate sacramental act. QUOTE: "A “virtual Lord’s Supper” in which people at home “self‑serve” bread and wine when the pastor speaks over a camera is not permitted by the Westminster Standards." [...] "“Self‑serving” elements at home timed to a minister’s words on a screen substitutes private action for public administration and breaks the connection between the sacrament as administered by the church’s officers and the visible fellowship of the communicants. Because it changes the nature of the sacrament’s external sign and seal, it is not a legitimate administration of the Lord’s Supper under the Standards."
+Criterion 3 (1.0 pts): half — It substantively distinguishes lighting and communication circumstances from changing the sacrament, but does not explicitly identify the pastor’s candles-versus-LED analogy as an equivocation. QUOTE: "But the Standards also recognize that many things about worship are “circumstances” (time, place, light, number, the particular means used to communicate) and are left to Christian prudence and the church’s judgment, provided they do not contravene Scripture or the nature of the instituted worship." [...] "Because it changes the nature of the sacrament’s external sign and seal, it is not a legitimate administration of the Lord’s Supper under the Standards."
+Criterion 4 (1.0 pts): full — It gives definite opposite rulings and distinguishes officer-administered shut-in communion. QUOTE: "Streaming for shut‑ins is a lawful pastoral accommodation under the Standards when regulated by the Session; tearing out cameras on the ground that they are inherently “worldly” would be an unwarranted forbidding of a lawful circumstantial means." [...] "Administering the Lord’s Supper by telling remote people to take their own elements at home at the pastor’s prompt is not a lawful administration of the sacrament under the Westminster Standards." [...] "The Session and pastor may arrange for the Lord’s Supper to be taken to shut‑ins in a way consistent with the Standards: ministers or elders may make pastoral visits and administer the sacrament to housebound members according to church order"
+Criterion 5 (0.5 pts): full — The response calmly names and corrects each party’s fault without contempt. QUOTE: "An elder may urge caution, but may not unilaterally forbid a lawful use simply because he considers the device “worldly.”" [...] "If the pastor insists on proceeding with virtual communion contrary to the Session’s ruling and the Standards, the Session must bar him from doing so and exercise its oversight (including admonition and, if obstinacy continues, further church discipline)."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 2.0 + 0.5 + 1.0 + 0.5 = 5.5 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "forbids streaming as corrupting or worldly worship": no — QUOTE: (none)
+GATE "permits self-administered online communion as a free circumstance": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 92

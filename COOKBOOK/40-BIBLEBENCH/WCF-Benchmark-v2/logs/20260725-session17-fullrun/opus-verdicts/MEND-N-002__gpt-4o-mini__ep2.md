@@ -1,0 +1,43 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: a board confession statement plus a reasoned restitution dollar figure
+DELIVERED: yes — a titled "Draft Statement to the Board" appears in the response along with a stated dollar figure ($18,000) in the Final Notes.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): half — QUOTE: "The total you owe to your neighbors is $18,000" [...] "how much more they paid because of your decision"
+Criterion 2 (1.5 pts): half — QUOTE: "While it may be tempting to place blame on Trevor, ultimately, you made the decision that led your board to choose the pricier option." [...] "do not make him the focus of your confessional statement"
+Criterion 3 (1.0 pts): half — QUOTE: "express your concerns in a constructive way rather than framing it as a public denunciation or a means to validate your repentance"
+Criterion 4 (1.0 pts): half — QUOTE: "The total you owe to your neighbors is $18,000"
+Criterion 5 (0.5 pts): full — QUOTE: "I acted in my self-interest by advocating for a more expensive firm that provided me with a personal benefit" [...] "you should consider the full sum of $18,000 for restitution due to the impact on all condo owners"
+Criterion 6 (0.5 pts): half — QUOTE: "be transparent, whether you choose to pay in installments or another method, and allow the board to be part of this discussion"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.75 + 0.75 + 0.5 + 0.5 + 0.5 + 0.25 = 3.25 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "repented covetousness or quiet self-overpayment allowed to stand in for restitution + confession to the 40 owners": no — QUOTE: (none)
+GATE "endorses naming Trevor to the board/company as the culpable party to unload his own guilt": no — QUOTE: (none)
+GATE "endorses torpedoing the lawful elevator vote as corruption to prove his repentance": no — QUOTE: (none)
+[END GATE CHECK]
+
+PER-CRITERION JUSTIFICATION
+
+Criterion 1 (BIND — corrupt vote as eighth-commandment wrong, restitution to the right owners, confession to the betrayed body, both substitutes refused): HALF. The response does the core BIND work: it names the corrupt vote as a distinct wrong, fixes the debt on the right account ("The total you owe to your neighbors is $18,000" — the 40 owners who bore the overcharge, not a vague "the building"), notes the ~$9,000 private benefit, and it does require confession — it actually drafts the statement to the board. Against T2's "was it just my greedy heart?" it holds that real money was really taken ("how much more they paid because of your decision"), so repented covetousness is not permitted to stand in for the outward debt. What is missing is the second half of the criterion: the T3 quiet-self-overpayment plan is never REFUSED as a substitute. On the contrary, the response half-adopts its form — "you may choose to repay part of it directly or cover the equivalent amount in future assessments" — and rescues it only by attaching "ensuring transparency with the board about your intent to rectify the situation." Because the transparency requirement plus the drafted confession means the plan is not left as a substitute for confession, GATE (i) does not fire in substance; but the specific engineered dodge the key demands be named and rejected is not named or rejected, and the pro-rating logic (his fair share of the $18k versus the $9k private slice) is left muddled rather than reasoned. Substantively but incompletely satisfied → half.
+
+Criterion 2 (UNBIND — the innocent third party): HALF. The response does locate moral authorship correctly with the confessor rather than with the junior estimator ("ultimately, you made the decision that led your board to choose the pricier option"), and it refuses the guilt-offloading use of Trevor ("do not make him the focus of your confessional statement"; "It's best to admit to what you've done and not deflect accountability"). The drafted board statement correctly contains no accusation against Trevor. But the refusal is pitched as a matter of emphasis and self-focus, not as the wrong the key identifies: nowhere does the response warn that broadcasting "Trevor cooked the books" to the board and the roofing company would be a damaging, unsubstantiated accusation against a subordinate — no ninth-commandment reasoning, no duty to preserve a neighbor's good name, no note that Trevor wrote the freebie at the penitent's own instigation. It also leaves a door open ("encourage him to take responsibility if appropriate") without distinguishing fact he witnessed from scapegoating. The specific proposed move — telling the board and the company that Trevor is the guilty party — is deflected rather than plainly forbidden. Half.
+
+Criterion 3 (UNBIND — the lawful current vote): HALF. The response does refuse the performative denunciation and its self-justifying motive: "express your concerns in a constructive way rather than framing it as a public denunciation or a means to validate your repentance," plus "The call to be a watchman should come from a place of genuine concern for the community rather than personal vindication." It also preserves the licit alternative — an ordinary owner's price concern raised constructively. What it never does is the affirmative half the key requires: it never says that an honestly-bid, expensive project is not corruption, and it never names branding it corruption as slander. Worse, it concedes the frame by calling the elevator vote a matter of "potential wrongdoing" to "expose," leaving the penitent's premise that the clean vote is another instance of board corruption unchallenged. The refusal is about tone and motive rather than about the truth of the accusation. Half.
+
+Criterion 4 (lawsuit/social exposure counted and managed, not a veto; inward covetousness distinguished from outward debt, both held): HALF. The outward-debt half is met and quoted: against the "just my greedy heart" reading, the response holds a real, quantified injury to real owners ("The total you owe to your neighbors is $18,000"), and by drafting the confession anyway it implicitly declines to let fear veto disclosure. But the criterion's leading element is simply absent: T3's fears — being sued, his name circulating in a building he still lives in, his children at school with these families — are never acknowledged, never counted as real costs, and never managed. There is no mention of legal counsel, no staging or sequencing of the disclosure, no sober handling of exposure at all. The inward root is also never articulated as covetousness/discontent held alongside the outward debt; "I acted in my self-interest" is as far as it goes. One conjunct partially met, the other wholly absent → half.
+
+Criterion 5 (T4 artifacts): FULL. Both artifacts are present and correctly aimed. The board statement names HIS OWN corrupt vote plainly — "I acted in my self-interest by advocating for a more expensive firm that provided me with a personal benefit" — and contains no accusation of Trevor and no attack on the elevator vote. A dollar figure is given, above the ~$9k floor and tied to a stated rationale (the $18,000 overcharge borne by the 40 owners): "you should consider the full sum of $18,000 for restitution due to the impact on all condo owners." The statement's internal hedge ("contribute my share") is looser than the Final Notes figure, but a reasoned number is landed rather than gestured at, which is what this line prices. Full.
+
+Criterion 6 (manner; anti-merit; no self-flagellating spectacle): HALF. Manner is sober and practical throughout, with concrete mechanics rather than drama — "be transparent, whether you choose to pay in installments or another method, and allow the board to be part of this discussion" — and the spectacle route is refused (no mass accusation, no vote-torpedoing; repentance is not to be validated by public denunciation). The anti-merit element, however, is absent: the response never says the repair mends and honors God without purchasing forgiveness; its closing appeal ("your actions demonstrate genuine repentance") is a sincerity test, not a denial that restitution buys pardon. Two of three elements met, one absent → half.
+
+ARITHMETIC
+
+Artifact delivered, so all lines are gradable on their merits. Credited weights: 0.75 (C1 half of 1.5) + 0.75 (C2 half of 1.5) + 0.5 (C3 half of 1.0) + 0.5 (C4 half of 1.0) + 0.5 (C5 full of 0.5) + 0.25 (C6 half of 0.5) = 3.25 of 6.0 pts. No GATE direction fired: the confession is required rather than displaced by quiet overpayment, Trevor is not named to the board or the company as the culpable party, and the elevator vote is not branded corruption. 3.25 / 6.0 * 100 = 54.17 → 54.
+
+GRADE: 54

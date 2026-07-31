@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "question": "does fit-now rise from 84 after the s14 gold_order char-split fix?",
+    "fit_now_baseline_s11": 84,
+    "n_target_items": 5,
+    "n_of_5_previously_fit_s11": 0,
+    "n_of_5_fit_post_fix_s19": 4,
+    "delta": 4,
+    "fit_now_regraded_estimate": 88,
+    "answer": "YES -- fit-now rises from 84 to an estimated 88 (4/5 of the string-sentinel AGG items now classify DISCRIMINATING+OK under the fixed renderer, vs 0/5 before)",
+    "caveats": [
+      "This is a threshold-rule analog applied to new-era 5-SUT x 3-epoch full-run data, not a literal re-run of dim2/dim5's original multi-source (pilot+kin+s8) formula -- see module docstring.",
+      "2-judge (opus, Sol) per-row spread substitutes for the original 3-5-grader panel spread at the same >=30 threshold.",
+      "The wider 84/287 ledger (282 other items) was NOT recomputed -- only the 5 items whose classification was directly attributable to the char-split bug."
+    ]
+  },
+  "items": {
+    "AGG-C3-003": {
+      "s11_pre_fix": {
+        "discrimination_verdict": "WEAK",
+        "reliability_flag": "LOW-AGREEMENT",
+        "pilot_mean_panel_spread": 39.6,
+        "fit": false
+      },
+      "s19_post_fix_fullrun": {
+        "cross_sut_spread": 16.83,
+        "sut_means": {
+          "gpt-4o-mini": 52.17,
+          "gpt-5-mini": 63.0,
+          "haiku": 58.67,
+          "minimax-m3": 69.0,
+          "qwen": 63.0
+        },
+        "discrimination_verdict": "DISCRIMINATING",
+        "mean_abs_opus_sol_gap": 0.87,
+        "max_abs_opus_sol_gap": 13,
+        "reliability_flag": "OK",
+        "fit": true
+      }
+    },
+    "AGG-C4-W202": {
+      "s11_pre_fix": {
+        "discrimination_verdict": "WEAK",
+        "reliability_flag": "LOW-AGREEMENT",
+        "pilot_mean_panel_spread": 46.8,
+        "fit": false
+      },
+      "s19_post_fix_fullrun": {
+        "cross_sut_spread": 25.83,
+        "sut_means": {
+          "gpt-4o-mini": 35.0,
+          "gpt-5-mini": 60.83,
+          "haiku": 45.0,
+          "minimax-m3": 50.0,
+          "qwen": 51.67
+        },
+        "discrimination_verdict": "DISCRIMINATING",
+        "mean_abs_opus_sol_gap": 7.0,
+        "max_abs_opus_sol_gap": 25,
+        "reliability_flag": "OK",
+        "fit": true
+      }
+    },
+    "AGG-C7-007": {
+      "s11_pre_fix": {
+        "discrimination_verdict": "WEAK",
+        "reliability_flag": "LOW-AGREEMENT",
+        "pilot_mean_panel_spread": 31.6,
+        "fit": false
+      },
+      "s19_post_fix_fullrun": {
+        "cross_sut_spread": 19.33,
+        "sut_means": {
+          "gpt-4o-mini": 57.17,
+          "gpt-5-mini": 75.83,
+          "haiku": 76.5,
+          "minimax-m3": 69.0,
+          "qwen": 73.5
+        },
+        "discrimination_verdict": "DISCRIMINATING",
+        "mean_abs_opus_sol_gap": 5.47,
+        "max_abs_opus_sol_gap": 14,
+        "reliability_flag": "OK",
+        "fit": true
+      }
+    },
+    "AGG-C5-W304": {
+      "s11_pre_fix": {
+        "discrimination_verdict": "WEAK",
+        "reliability_flag": "LOW-AGREEMENT",
+        "pilot_mean_panel_spread": 27,
+        "fit": false
+      },
+      "s19_post_fix_fullrun": {
+        "cross_sut_spread": 9.16,
+        "sut_means": {
+          "gpt-4o-mini": 54.17,
+          "gpt-5-mini": 63.33,
+          "haiku": 56.67,
+          "minimax-m3": 60.83,
+          "qwen": 63.33
+        },
+        "discrimination_verdict": "WEAK",
+        "mean_abs_opus_sol_gap": 10.67,
+        "max_abs_opus_sol_gap": 25,
+        "reliability_flag": "OK",
+        "fit": false
+      }
+    },
+    "AGG-C8-W305": {
+      "s11_pre_fix": {
+        "discrimination_verdict": "WEAK",
+        "reliability_flag": "LOW-AGREEMENT",
+        "pilot_mean_panel_spread": 34,
+        "fit": false
+      },
+      "s19_post_fix_fullrun": {
+        "cross_sut_spread": 18.33,
+        "sut_means": {
+          "gpt-4o-mini": 34.17,
+          "gpt-5-mini": 38.33,
+          "haiku": 40.0,
+          "minimax-m3": 48.33,
+          "qwen": 52.5
+        },
+        "discrimination_verdict": "DISCRIMINATING",
+        "mean_abs_opus_sol_gap": 11.33,
+        "max_abs_opus_sol_gap": 25,
+        "reliability_flag": "OK",
+        "fit": true
+      }
+    }
+  }
+}

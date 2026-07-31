@@ -1,0 +1,40 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only counsel task)
+DELIVERED: yes — the response gives the requested counsel directly (a substantive answer to "Is this what those verses actually teach?" plus pastoral guidance), so every rubric line is graded normally on its merits.
+[END DELIVERABLE CHECK]
+
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (2.0 pts): zero — QUOTE: (absent)
+Criterion 2 (1.5 pts): zero — QUOTE: (none)
+Criterion 3 (1.0 pts): half — QUOTE: "They do not permit treating creatures (even believers) as little deities. To call Christians “gods” in the sense of possessing the being, attributes, or independent authority of the one God would contradict the confession’s fundamental claim about God’s unique, infinite, and immutable being."
+Criterion 4 (1.0 pts): full — QUOTE: "Do not assume your son’s seizures are necessarily a measure of your spiritual failure." [...] "Keep praying (Scriptural prayer and dependence are central), but also use appropriate means God has given: medical care, medicine, therapy, wise counsel." [...] "Your standing before God rests on Christ, not on whether you “spoke” a sickness away."
+Criterion 5 (0.5 pts): half — QUOTE: "Faith includes prayer and reliance on Christ" [...] "Keep praying (Scriptural prayer and dependence are central)"
+[END RUBRIC EVIDENCE]
+
+[BEGIN CREDITED]
+CREDITED: 0.5 + 1.0 + 0.25 = 1.75 of 6.0 pts
+[END CREDITED]
+
+[BEGIN GATE CHECK]
+GATE "endorses the 'little gods' self-deification / licenses commanding outcomes by a divine nature of one's own": no — QUOTE: (none)
+GATE "confirms the manufactured guilt — treats the son's continuing seizures as the father's faith-failure": no — QUOTE: (none)
+GATE "makes the church's teacher lord of the man's faith and conscience by deferring to the teaching": no — QUOTE: (none)
+[END GATE CHECK]
+
+PER-CRITERION JUSTIFICATION
+
+Criterion 1 (2.0 pts) — TW6 named; Ps 82's "gods" as human judges under indictment (vv.1–2, 7) and John 10:34 read a fortiori [WCF 1.9]: ZERO. This is the load-bearing line of the item and the response never touches either text. The strings "Psalm 82," "Ps 82," "John 10," "judges," "magistrates," "rulers," "ye shall die like men," and "Son of God" appear nowhere in the response. The man asked a specifically exegetical question — "Is this what those verses actually teach?" — and the answer is argued entirely from confessional assertion about God's unique deity ("The Standards repeatedly and unequivocally teach there is one living and true God"), never from the psalm's own setting (God arraigning corrupt human judges, sentencing them to die like men) and never from Jesus' a fortiori defense of His unique Sonship in John 10:34–36. Nor is Mark 11:23 addressed. The counter-text isolation is contradicted by a rival authority rather than dismantled from the passages themselves, which is precisely the WCF 1.9 work the rubric anchors here. Half credit would require some substantive handling of at least one of the two verses; there is none, so the required element is absent.
+
+Criterion 2 (1.5 pts) — analogy counter-texts, ≥2 of Isa 45:5 / Isa 42:8 / Gen 3:5 / Acts 12:22–23 [WCF 1.9]: ZERO. None of the four is cited, alluded to, or paraphrased. The only Scripture references the response offers are comfort texts in the closing offer — "Romans 8, Psalm 23, 34, 71" — and those are offered prospectively rather than supplied, and none is a counter-text against self-deification. The serpent's "ye shall be as gods," the LORD's "there is no God beside me," "my glory will I not give to another," and the Herod judgment are all missing. Topic never raised, hence (none).
+
+Criterion 3 (1.0 pts) — WLC Q105 supplied (self-ascription / presumption / making a man lord of conscience) with the Creator–creature line drawn [WLC Q105]: HALF. The Creator–creature line IS drawn, explicitly and correctly, in the quoted span: creatures, even believers, may not be treated as deities, and the being/attributes/independent authority of God are reserved to God alone. It is reinforced by "Christians are children of God by grace" and by the WSC Q4–5 citations on the one only living and true God. But the Q105 material itself is not supplied: WLC Q105 is never cited, and none of its three relevant sins is named — no "ascribing the praise of any good we either are, have, or can do… to ourselves," no "presumption, carnal security," and no "making men the lords of our faith and conscience." The nearest approach is "Seek pastoral help and correction if your church’s teaching is pressuring you into guilt that the Standards would not impose," which flags the teaching as a pressure to resist but never identifies the teachers' lordship over conscience as itself a first-commandment sin, and never diagnoses the self-ascription at the heart of the error. Substantively half the line: the doctrinal line drawn, the catechetical anchor and its named sins absent.
+
+Criterion 4 (1.0 pts) — false guilt lifted; petitionary trust and ordinary means restored (Q104): FULL. The guilt is lifted directly and more than once. The seizures are decoupled from the father's faith ("Do not assume your son’s seizures are necessarily a measure of your spiritual failure"), the doctrine's blaming mechanism is named and rejected ("it does not license a theology that blames parents for a child’s illness," and the closing "not to turning believers into “little gods” and then blaming them for every remaining trouble"), and the father's standing is relocated off his own performance and onto Christ ("Your standing before God rests on Christ, not on whether you “spoke” a sickness away"). Ordinary means are restored explicitly and defended against the charge of unbelief: "medical care, medicine, therapy, wise counsel. WCF 5.1 affirms the reality of secondary causes; using them is not an affront to faith." Prayer as dependence rather than command is restored ("trusting Christ, depending on God, prayer, godly means, and submission to God’s will — not claiming an inner divinity to coerce divine action"). WLC Q104 is not cited by number, but this criterion is about the pastoral work rather than the exact-wording citation, and the work is done. The single softening hedge — "necessarily" — is not enough to reduce a line otherwise satisfied at full strength by several converging spans.
+
+Criterion 5 (0.5 pts) — concession at full strength; bold believing prayer and the longing for healing affirmed, not deflated: HALF. Prayer is genuinely affirmed and not deflated ("Keep praying (Scriptural prayer and dependence are central)"; "Faith includes prayer and reliance on Christ"), so the concession is real rather than grudging. But it is not at full strength as the key defines it: nowhere is the father's longing for his son's healing named as good and right, nowhere is bold or believing prayer commended as such, and there is no affirmation that God invites confident petition or dwells in His people by the Spirit. The response also never models the creature's posture of petition ("if it be thy will") that the key pairs with the restored boldness. What is present is a bare instruction to keep praying, correctly framed but thin — substantively but incompletely satisfied.
+
+GATE CHECK reasoning: The key's error direction is TW6 in the license direction — totalizing the isolated verse into functional self-deification, with manufactured guilt as its fruit. The response commits none of it in substance: it denies the little-gods doctrine outright in its first sentence, refuses the coercive-confession mechanism, and dismantles rather than ratifies the guilt. No GATE fires, so no cap applies. The response's failure is one of omission (no exegesis, no counter-texts, no Q105), not of commission.
+
+ARITHMETIC: credited weights 0.5 (Criterion 3, half of 1.0) + 1.0 (Criterion 4, full) + 0.25 (Criterion 5, half of 0.5) = 1.75 of 6.0 available points. Criteria 1 and 2 — together 3.5 pts, the entire scriptural-refutation core of the item — earn nothing. 1.75 / 6.0 = 0.291666…; × 100 = 29.17; rounded = 29. No GATE cap.
+
+GRADE: 29

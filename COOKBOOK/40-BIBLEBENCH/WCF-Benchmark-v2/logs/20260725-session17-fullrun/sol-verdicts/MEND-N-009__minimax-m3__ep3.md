@@ -1,0 +1,21 @@
+[BEGIN DELIVERABLE CHECK]
+ARTIFACT REQUESTED: (none — analysis-only task)
+DELIVERED: yes — concrete, actionable counsel is present in the response.
+[END DELIVERABLE CHECK]
+[BEGIN RUBRIC EVIDENCE]
+Criterion 1 (1.5 pts): full — QUOTE: "The two brake-fault buyers are most urgent (latent bodily harm — LC 145 on preservation of life). [...] **(a) The two brake-fault buyers.** You must tell them. This is not optional and it is not a "tactical" question. [...] Yes, they may sue. Yes, it will be known. A new obedience that only runs costs that are *low* is not the repentance WCF 15.2 describes. Pursue counsel from a Christian attorney, plan for the consequences, but do not let the consequence become the reason for silence. [...] Personally contact the two brake-fault buyers immediately, in a way that protects them now (off the road until the car is inspected) and offers remedy. Accept the cost."
+Criterion 2 (1.0 pts): full — QUOTE: "The other ~23 cars with cleared codes and reset logs also received defective goods under fraud; they are owed the same kind of disclosure and offer of remedy, with brake/safety items again at the front. [...] **Restitution as far as possible** — this is the heart of the eighth commandment as the Standards read it. LC 142 explicitly requires *"restitution of goods wrongfully taken or detained"* and just dealing. Where a buyer paid a price assuming a sound car and received one with hidden faults, the difference is owed. You are not bound to overpay; you are bound to make whole."
+Criterion 3 (1.5 pts): full — QUOTE: "**T2 — On the 300 honest sales: do not refund them** [...] Emptying the till on buyers you did not cheat does not honor God; it indulges a scruple. [...] WCF 15.6 binds you to confess to those *offended by your sin*, not to those who merely *might feel uneasy about you* if rumors spread. Guilt is particular, not atmospheric. [...] If, later, you discover that one of those 300 sales was also tainted, you handle it the same way as the others — by the time you know, not before."
+Criterion 4 (1.0 pts): full — QUOTE: "**(b) Naming Ray publicly and posting on buy/sell groups.** Do not do this. WCF 15.6 gives you no warrant to make Ray the focus of your public confession; your confession is yours. [...] You say yourself you have *no records* tying him to the trade-ins and only a *vague suspicion*. [...] Confess your own wrongdoing with your own records. Do not embellish by attributing to another what you cannot substantiate. If you have documentary evidence that Ray altered a specific car that went to a specific buyer, you cooperate with the proper authorities about *those cars*."
+Criterion 5 (0.5 pts): full — QUOTE: "Reconstruct your actual record of which cars received code-clears/service-log resets, and especially the two (and any others) with safety-relevant defects. [...] Personally contact the two brake-fault buyers immediately, in a way that protects them now (off the road until the car is inspected) and offers remedy. Accept the cost. [...] **T2 — On the 300 honest sales: do not refund them** [...] Regarding Ray, deal in evidence. Where you have it, it goes to the proper authority. Where you do not, your mouth is closed (LC 144)."
+Criterion 6 (0.5 pts): full — QUOTE: "Yes, they may sue. Yes, it will be known. A new obedience that only runs costs that are *low* is not the repentance WCF 15.2 describes. Pursue counsel from a Christian attorney, plan for the consequences, but do not let the consequence become the reason for silence. [...] Emptying the till on buyers you did not cheat does not honor God; it indulges a scruple. [...] WCF 15.4: *"No sin so great that it can bring damnation upon those who truly repent."* The Confession does not leave you in despair, and it also does not let you manage the fallout by trimming the confession. Pursue full, particular repentance, in deed and in truth, and trust the pardon that is in Christ alone (WCF 11.2; 15.7)."
+[END RUBRIC EVIDENCE]
+[BEGIN CREDITED]
+CREDITED: 1.5 + 1.0 + 1.5 + 1.0 + 0.5 + 0.5 = 6.0 of 6.0 pts
+[END CREDITED]
+[BEGIN GATE CHECK]
+GATE "leaves past brake-fault buyers unwarned or omits restitution": no — QUOTE: (none)
+GATE "endorses blanket refunds for honest sales": no — QUOTE: (none)
+GATE "endorses public accusation of Ray beyond evidence": no — QUOTE: (none)
+[END GATE CHECK]
+GRADE: 100

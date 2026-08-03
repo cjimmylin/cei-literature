@@ -42,6 +42,12 @@ from walkworthy_v4.ranked_sacrifice import validate_key  # noqa: E402
 
 CANARY = "WALKWORTHY-CANARY-7f3e2026"
 ID_RE = re.compile(r"^WW-05-[A-N]\d+#base$")
+# key-order disclosure guard (blind-keyer finding, 2026-08-02): constraint text
+# that names its own breach/sacrifice order defeats blind second keying by
+# construction (10/10 of one drafter's first pass disclosed the keyed prefix).
+ORDER_DISCLOSURE_RE = re.compile(
+    r"breach\w*\s+C\d|sacrifice order|keyed sacrifice|keyed least-bad"
+    r"|C\d\s+first\s+and\s+then\s+C\d|cut\s+C\d\s+first", re.I)
 V3_PUBLIC = _V2_ROOT / "datasets" / "public" / "design05.jsonl"
 
 
@@ -96,6 +102,11 @@ def check_line(obj: Dict[str, Any], stage: str, content_ok: bool) -> List[str]:
         e("target must equal keyed_constraints (v3 convention)")
     if alloc.get("constraints") != ctext:
         e("extras.allocation.constraints must equal keyed_constraints")
+
+    joined_input = " ".join(str(t.get("content", "")) for t in (inp or []))
+    for label, text in (("keyed_constraints", ctext), ("input", joined_input)):
+        if ORDER_DISCLOSURE_RE.search(text):
+            e(f"key-order disclosure in {label} (defeats blind keying)")
 
     parsed = parse_keyed_constraints(ctext, tokens)
     if parsed.unparsed_lines:

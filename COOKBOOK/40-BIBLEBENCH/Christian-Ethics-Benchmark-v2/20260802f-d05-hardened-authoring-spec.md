@@ -146,4 +146,32 @@ quarantine) or any other drafter's files. Nobody sets
 
 ---
 
+## 8. Addendum v1.1 (2026-08-02, same session — two rules mechanized mid-drafting)
+
+Two defect classes surfaced during the drafting fan-out and are now ENFORCED by
+`validate_v4_banks.py` (both discovered by drafters, confirmed across banks):
+
+1. **Escaped-keyed-first prohibition** (drafter-C finding; 18 of 18 items in
+   two other drafters' first passes failed it): `keys.author1[0]` (and the
+   final `adjudicated[0]`) must be a hard, non-remedy-escaped constraint. A
+   remedy-escaped clause in the keyed-first slot makes the PRIMARY read-out
+   structurally impossible — its shortfall is UNDECIDABLE and can never enter
+   the violated top set. Preferred fix when the morally-correct first
+   sacrifice IS the escaped claimant: move the escape to a mid-order clause,
+   keep the moral order. `author2` is deliberately not checked (independent
+   blind judgment; disagreements are adjudication inputs).
+2. **Arithmetic-gift scan** (drafter-A finding): no subset of single-token
+   floors — hard AND escaped — may sum exactly to the budget. An exact fit
+   hands the model a tidy "satisfy these, zero those" answer and restores the
+   v3 ceiling route.
+
+Parser sharp edges recorded by drafters (authoring guidance, not mechanically
+checkable): rationale prose on a numeric clause's RHS must not contain a token
+name as a whole word (the floor silently becomes a guard ordinal); a guard
+clause's RHS prose must name exactly one token (a second hit makes a trailing
+number a spurious cap); narrative blocks must sit behind a recognized stop
+header.
+
+---
+
 **Canary:** WALKWORTHY-CANARY-7f3e2026 · no holdout content.

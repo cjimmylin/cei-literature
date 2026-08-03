@@ -126,6 +126,21 @@ def check_line(obj: Dict[str, Any], stage: str, content_ok: bool) -> List[str]:
         e(f"infeasibility certificate FAILS: single-token hard floors sum "
           f"{total_floor:g} <= budget {budget:g}")
 
+    # arithmetic-gift scan (drafter-A finding, 2026-08-02; spec §4 "no
+    # arithmetic gifts"): no subset of single-token floors (hard OR escaped)
+    # may sum exactly to the budget — an exact fit hands the model a tidy
+    # "satisfy these, zero those" answer and restores the v3 ceiling route.
+    single_floors = [float(c.right) for c in parsed.constraints
+                     if c.kind == "floor" and len(c.left) == 1
+                     and not isinstance(c.right, list)]
+    for mask in range(1, 1 << len(single_floors)):
+        subset = [single_floors[i] for i in range(len(single_floors))
+                  if mask & (1 << i)]
+        if abs(sum(subset) - budget) < 1e-9:
+            e(f"arithmetic gift: floor subset {subset} sums exactly to "
+              f"budget {budget:g}")
+            break
+
     rk = (keyed.get("extras") or {}).get("ranked_sacrifice") or {}
     keys = rk.get("keys") or {}
     n = parsed.n_parsed
@@ -133,6 +148,26 @@ def check_line(obj: Dict[str, Any], stage: str, content_ok: bool) -> List[str]:
     a1 = keys.get("author1")
     if not a1 or set(a1) != expected or len(a1) != n:
         e(f"keys.author1 must be a permutation of C1..C{n}: {a1}")
+
+    # scoring-pathology guard (drafter-C finding, 2026-08-02): a remedy-escaped
+    # clause in the keyed-first slot makes the PRIMARY structurally unscorable —
+    # its shortfall is UNDECIDABLE, so it can never sit in the violated top set.
+    def _first_not_escaped(order, label):
+        if not order:
+            return
+        try:
+            idx = int(str(order[0])[1:]) - 1
+            if 0 <= idx < n and parsed.constraints[idx].has_remedy_escape:
+                e(f"{label}[0] = {order[0]} is remedy-escaped: first-sacrifice "
+                  f"match would be structurally impossible")
+        except (ValueError, IndexError):
+            pass  # malformed ids already reported by the permutation check
+
+    # author2 is deliberately NOT checked here: it is an independent blind
+    # judgment whose disagreements are adjudication inputs, not defects.
+    _first_not_escaped(a1, "keys.author1")
+    if stage == "final":
+        _first_not_escaped(rk.get("adjudicated"), "adjudicated")
     if stage == "final":
         for defect in validate_key(rk, n):
             e(f"ranked key: {defect}")

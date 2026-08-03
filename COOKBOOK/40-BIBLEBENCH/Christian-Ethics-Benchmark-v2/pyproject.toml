@@ -9,4 +9,4 @@ description = "WALKWORTHY (Christian-Ethics-Benchmark) on Inspect AI — v2 harn
 requires-python = ">=3.11"
 
 [tool.setuptools]
-packages = ["walkworthy_inspect"]
+packages = ["walkworthy_inspect", "walkworthy_v4"]

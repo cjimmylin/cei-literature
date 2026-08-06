@@ -1,8 +1,12 @@
 # WCF-Benchmark-v2 — Inspect AI rebuild
 
-> **STATUS: EXPLORATORY.** Every number produced by this harness is exploratory and
-> non-quotable. No gates, no pre-registration. The Inspect `.eval` logs in `logs/`
-> are the audit trail.
+> **This banner is historical** (original v2.0 build-out README; item counts and the
+> scoring-model description below reflect the project's early state, not its current
+> one). **For current status, read `INDEX.md`, not this file.** As of session 19–20
+> (2026-07-31) the project shipped its first QUOTABLE results report and an
+> owner-accepted v1.x paper draft — the "every number is exploratory and non-quotable"
+> claim originally on this line no longer holds project-wide; it describes sessions
+> 1–18 only. The Inspect `.eval` logs in `logs/` remain the audit trail.
 
 ## What this is
 

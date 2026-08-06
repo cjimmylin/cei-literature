@@ -20,8 +20,10 @@ or `analysis/session20_composition_stats.py`'s reproducible bank-composition fig
 Integrity section. Committed + pushed (`629bcdbc1`, `900645023`). **Owner accepted the
 draft (2026-07-31)** — 12pp PDF built via `reports/20260731-session20-build-pdf.py`
 (pandoc→typst, same pipeline as the s9 briefing): `reports/20260731-session20-v1x-paper-draft.pdf`
-(gitignored, disk-only; build script committed `6f750bac6`). No session-21 boot prompt
-written yet — next step is the owner's to name.
+(gitignored, disk-only; build script committed `6f750bac6`).
+**Next session: `20260806-session21-next-direction-boot-prompt.md`** — no next task has
+been chosen yet; that session's first job is presenting options and getting an owner
+decision, not executing one.
 
 **This folder is self-contained** — every artifact, dataset, script, and deliverable lives
 inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been

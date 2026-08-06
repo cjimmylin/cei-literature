@@ -17,8 +17,12 @@ project before. Read before any live run.
    explicit owner (Jimmy) authorization. The 2026-07-15 live smoke (< $1) is authorized.
 5. **v1 folder is read-only.** Copies and imports only. Fixes land on v2 `banks/`
    copies; never delete an item — mark `runnable: false` with a reason.
-6. **Holdout discipline.** `banks-holdout/` and `datasets/holdout/` are gitignored.
-   The loader raises unless `WALKWORTHY_ALLOW_HOLDOUT=1` is set (v1 HoldoutAccessError
-   convention). Never include holdout items in committed reports or prompts.
+6. **Holdout discipline.** `banks-holdout/`, `datasets/holdout/` and
+   `datasets/v4/holdout/` are gitignored (the v4 dir was added 2026-08-06 after a
+   session briefly tracked it — untracked in `31dc22c42`; it remains in pushed
+   history `2c67334cb..`, purge is an owner decision). The loader raises unless
+   `WALKWORTHY_ALLOW_HOLDOUT=1` is set (v1 HoldoutAccessError convention); wire the
+   same guard into any v4 loader. Never include holdout items in committed reports
+   or prompts.
 7. **No file deletions anywhere in the vault** — `mv` to `RECYCLE-BIN/` instead.
 8. **Reports are immutable.** New reports get new `YYYYMMDD-` prefixes.

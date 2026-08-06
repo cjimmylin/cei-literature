@@ -20,10 +20,23 @@ claim is licensed; variance shares are read against the df-proportional referenc
 flip verdicts are reported binary + Kendall's τ. The holdout remains quarantined and
 unspent. Dated reports are immutable — corrections travel as successor files.
 
-> ### ➜ ENTRY POINT: `20260729c-boot-prompt-reentry-project-closed.md`
+> ### ➜ ENTRY POINT: `20260806a-boot-prompt-v4a-authoring-remainder.md`
 >
-> **Read that file first.** It is the current re-entry brief and supersedes the phase-6 and
-> phase-7 boot prompts, which are historical snapshots and must **not** be executed.
+> **Read that file first.** It is the current re-entry brief. All earlier boot prompts
+> (`20260729c`, `20260731f/m`, `20260801b`, `20260802b/d`) are historical snapshots,
+> superseded in that order, and must **not** be executed. The rulings ledger
+> (`RULINGS-APPLIED-*.md`, newest wins) remains authoritative over every boot prompt.
+>
+> **Update as of 2026-08-06 — the v4 PROGRAM is open; v3 remains STOPPED at Gate A.**
+> Since the 07-29 "closed" note below (kept for history): the owner ratified the v4
+> design spec (`20260731j` v0.4, ruling `-20260731n`), v4-C ran ($7.51/$30, report
+> `20260731o`), the d02 re-pilot and the v4-T Claude-tier probe ran and are discharged
+> (`20260801c`, `20260802c`), and the v4-A $0 block is now largely EXECUTED
+> (`20260802g`): code deliverables 2(a)–2(d) (`walkworthy_v4/`, suite 178), the
+> anchored q2 definition (`20260802e`), and the 38-item hardened d05 expansion
+> (`datasets/v4/`; holdout half on-disk only, gitignored — quarantined at creation).
+> Remaining v4-A authoring (d03/d04/d08/d10) and all spend decisions (B1+B2, judging
+> architecture, P-PRESSURE scope) are enumerated in the entry-point boot prompt.
 >
 > **Update as of 2026-07-29 — the project is CLOSED at phase 7 and there is NO open work
 > queue.** Three things changed after the 07-25 paragraph above:

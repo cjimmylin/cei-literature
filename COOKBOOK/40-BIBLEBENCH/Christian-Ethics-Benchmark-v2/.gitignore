@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 logs/
 datasets/holdout/
+datasets/v4/holdout/
 banks-holdout/
 .inspect/
 .env

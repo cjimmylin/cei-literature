@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: "Gemini, Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o"
+abstract: "While recent developments in large language models have improved bias detection and classification, sensitive subjects like religion still present challenges because even minor errors can result in severe misunderstandings. In particular, multilingual models often misrepresent religions and have difficulties being accurate in religious contexts. To address this, we introduce BRAND: Bilingual Religious Accountable Norm Dataset, which focuses on the four main religions of South Asia: Buddhism, Christianity, Hinduism, and Islam, containing over 2,400 entries, and we used three different types of prompts in both English and Bengali. Our results indicate that models perform better in English than in Bengali and consistently display bias toward Islam, even when answering religion-neutral questions. These findings highlight persistent bias in multilingual models when similar questions are asked in different languages."
 CONFERENCE: "Other Conference"
 ethics_overall: 35
 virtue_ethics: 0

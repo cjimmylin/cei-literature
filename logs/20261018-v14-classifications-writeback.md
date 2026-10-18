@@ -49,6 +49,6 @@ The five framework fields of these 17 keep their template 0/1 values.
 - The 77 alignment papers from July (60 + the 17 above) have acquisition labels as scores, not
   scorer output. Scoring them properly needs the scorer fix the standard describes (alignment
   keywords such as harmlessness, truthfulness) or a reviewed pin list.
-- 40 notes have an `abstract` that is leftover web-search tool output ("I've completed the web
-  search…", "Based on the search results…"), not an abstract.
+- 57 notes had an `abstract` that is leftover web-search tool output ("I've completed the web
+  search…", "Based on the search results…"); 13 fixed from PDF extracts, 44 left: `logs/20261018-junk-abstracts.md`.
 - 13 likely duplicate note pairs (`DASHBOARDS/cei-dashboard-14/build/likely_duplicates.txt`).

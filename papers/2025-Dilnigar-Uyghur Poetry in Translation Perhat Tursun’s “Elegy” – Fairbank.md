@@ -48,7 +48,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, I found a PLOS ONE article on Uyghur literary translation. The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

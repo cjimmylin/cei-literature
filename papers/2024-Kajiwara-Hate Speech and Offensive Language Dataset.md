@@ -54,7 +54,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
 tags: 
-abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 80
 virtue_ethics: 0

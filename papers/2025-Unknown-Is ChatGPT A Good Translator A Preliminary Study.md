@@ -14,8 +14,8 @@ authors_incomplete: false
 url: "https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study"
 publication: ResearchGate
 CONF-CC: Preprint
-pdf_extract: "PDF Extracts/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.md"
-local_pdf: "[[Lit-WS-PDFs/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.pdf]]"
+pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/krystalan/chatgpt_as_nlg_evaluator"
 tags: 
-abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

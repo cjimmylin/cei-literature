@@ -1,5 +1,8 @@
 # 20261018 — Replace web-search tool output stored as `abstract`
 
+**Totals:** 81 notes had tool output as `abstract` (57 found first, 24 more with other wording in a second pass).
+21 now have the paper's own abstract from its PDF extract; 60 are cleared (`abstract: `).
+
 57 notes (325-paper cultural batch of 2026-04-04, plus a few others) had an `abstract` that is the
 output of a web-search tool ("I've completed the web search for…", "Based on the search results…",
 "根据搜索结果…"), not an abstract. None of the metadata services (Semantic Scholar, OpenAlex, arXiv,
@@ -28,12 +31,25 @@ Each line round-trips through a YAML parser to exactly the extracted text.
 | `2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md` | `PDF Extracts/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md` |
 | `2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.md` | `PDF Extracts/2025/2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.md` |
 
-Metadata problems seen while checking (not changed): the notes credit the wrong first author for
-ADHAR (note "Aly", paper Charfi et al.), the Mongolian handwriting dataset (note "Enkhbold", paper
-Pan et al., *Scientific Reports* 2023, note year 2024) and the multi-modal hate-speech framework
-(note "Kajiwara", paper Prabhu & Seethalakshmi).
+## Author, year and PDF fixes (owner-approved)
 
-## Not replaced: 44
+Found while checking the extracts; corrected from the papers' own PDFs (single-line edits, filenames unchanged):
+
+- `2024-Aly-Hate speech detection with ADHAR…`: authors were "Ranwa Aly; Yara Allam; Rana Gaber"; the paper
+  is by Anis Charfi, Mabrouka Besghaier, Raghda Akasheh, Andria Atalla and Wajdi Zaghouani (Front. Artif. Intell. 2024).
+- `2024-Enkhbold-A new dataset for mongolian…`: authors were "Enkhbold"; the paper is by Yuecai Pan, Daoerji Fan,
+  Huijuan Wu and Da Teng; `year` 2024 → 2023 (*Scientific Reports* (2023) 13:26). The filename prefix still says 2024.
+- `2024-Kajiwara-A comprehensive framework for multi-modal…`: authors were "Kajiwara"; the paper is by R. Prabhu and
+  V. Seethalakshmi; `year` 2024 → 2025 (*Scientific Reports* (2025) 15:13020). The filename prefix still says 2024.
+- `2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata` and `2025-Unknown-Is ChatGPT A Good Translator A
+  Preliminary Study`: their PDF was a different paper. `local_pdf` → N/A, `pdf_extract` emptied, the wrong extracts
+  moved to `RECYCLE-BIN/20261018-wrong-pdf-extracts/`, and the catalogue note's `external_pdf` (which pointed at the
+  AbuseEval paper on the LREC site) → N/A. The wrong PDF files themselves are in the owner's PDF folder, outside the repo,
+  under those two notes' names. These notes' v14 classifications were made partly from the wrong text.
+
+## Not replaced: 44, junk text cleared (owner decision)
+
+Their `abstract` is now empty (`abstract: `), so the dashboard and keyword scorers stop reading tool output. The lists below are kept for a later fetch.
 
 **9 have a PDF extract but no usable abstract:**
 
@@ -86,3 +102,64 @@ owner. Several are web pages, dataset listings or blog posts with no abstract at
 - `2025-Xiang-Diagnosing the bias iceberg in large language models A three-level.md`
 - `2025-Đokić-Mirroring Cultural Dominance Disclosing Large Language Models Social.md`
 - `2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md`
+
+## Second pass: 24 more with other wording
+
+Wording such as "Based on the web search results, here's what I found…", "I've performed a web search…",
+"Here are the search results for…", "The search results reveal…". Same rules as above.
+
+**Replaced from the PDF extract (8):**
+
+| Note | Source extract |
+|------|----------------|
+| `2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.md` | `PDF Extracts/2025/2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.md` |
+| `2025-Davies-Fairness identification of large language models in recommendation.md` | `PDF Extracts/2025/2025-Davies-Fairness identification of large language models in recommendation.md` |
+| `2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.md` | `PDF Extracts/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.md` |
+| `2025-Masood-A survey of multilingual large language models - PMC.md` | `PDF Extracts/2025/2025-Masood-A survey of multilingual large language models - PMC.md` |
+| `2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.md` | `PDF Extracts/2025/2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.md` |
+| `2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md` | `PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md` |
+| `2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md` | `PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md` |
+| `2025-approach-A Language model-based approach to sentiment classification of.md` | `PDF Extracts/2025/2025-approach-A Language model-based approach to sentiment classification of.md` |
+
+**Cleared (16)**: no extract, or an extract without an abstract (AmericasNLP 2025 call for papers;
+Ogunremi et al. essay):
+
+- `2024-Kuriyozov-Construction and Evaluation of Sentiment Datasets for Low-Resource.md`
+- `2024-Unknown-A structured sentiment analysis dataset based on public comments from.md`
+- `2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz.md`
+- `2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md`
+- `2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African.md`
+- `2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -.md`
+- `2025-Jailbreak-The Hidden Flaw in LLM Safety Translation as a Jailbreak - Welo Data.md`
+- `2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md`
+- `2025-Masood-Large language models are biased - local initiatives are fighting for.md`
+- `2025-Moosa-Multi-lingual HateSpeech Dataset.md`
+- `2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md`
+- `2025-Pretrained-Research on the Training and Application Methods of a Lightweight.md`
+- `2025-Salve-Bilingual Code-Switching Using XLM-RoBERTa.md`
+- `2025-Soria-Decolonizing Minority Language Technology - State of the Internet's.md`
+- `2025-Unknown-An Overview of Chinese Open-Source LLMs Sept 2025 IntuitionLabs.md`
+- `2025-Xiangfeng-A dataset of Mongolian Tibetan and Uyghur speech fragments based on.md`
+
+**Authors corrected from the PDFs** (same kind of error as above): both `2025-Davies-…` notes credited
+"Dave Davies"; the papers are by Leilei Jiang, Guixiang Zhu, Jianshan Sun, Jie Cao and Jia Wu
+(*Sci. Rep.* (2025) 15:18777) and by Wei Liu, Baisong Liu, Jiangcheng Qin, Xueyuan Zhang, Weiming Huang and
+Yangyang Wang (*Sci. Rep.* (2025) 15:5516).
+
+**Probably the same mix-up, not changed** (first author "Dave Davies", "Kajiwara" or "Enkhbold"; check against
+each paper):
+
+- `2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md`
+- `2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md`
+- `2024-Kajiwara-Beyond Traditional Classifiers Evaluating Large Language Models for.md`
+- `2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md`
+- `2024-Kajiwara-Hate Speech and Offensive Language Dataset.md`
+- `2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md`
+- `2024-Kajiwara-Validating Pseudo-label Dataset for Japanese Hate Speech Detection.md`
+- `2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md`
+- `2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md`
+- `2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md`
+- `2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation.md`
+- `2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md`
+- `2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md`
+- `2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md`

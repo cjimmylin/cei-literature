@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: GPT-4o
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

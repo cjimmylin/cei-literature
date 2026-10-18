@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
+abstract: "Multilingual large language models (MLLMs) leverage advanced large language models to process and respond to queries across multiple languages, achieving significant success in polyglot tasks. Despite these breakthroughs, a comprehensive survey summarizing existing approaches and recent developments remains absent. To this end, this paper presents a unified and thorough review of the field, highlighting recent progress and emerging trends in MLLM research. The contributions of this paper are as follows. (1) Extensive survey: to our knowledge, this is the pioneering thorough review of multilingual alignment in MLLMs. (2) Unified taxonomy: we provide a unified framework to summarize the current progress in MLLMs. (3) Emerging frontiers: key emerging frontiers are identified, alongside a discussion of associated challenges. (4) Abundant resources: we collect abundant open-source resources, including relevant papers, data corpora, and leaderboards. We hope our work can provide the community quick access and spur breakthrough research in MLLMs."
 CONFERENCE: "Other Conference"
 ethics_overall: 30
 virtue_ethics: 0

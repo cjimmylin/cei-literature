@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca"
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

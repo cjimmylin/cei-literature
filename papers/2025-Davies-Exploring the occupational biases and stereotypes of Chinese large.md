@@ -7,9 +7,9 @@ key: LSRC0667
 type: journalArticle
 short_title: "Exploring the occupational biases and stereotypes of Chinese large language models"
 year: 2025
-first_author: "[[Dave Davies]]"
-last_author: "[[Dave Davies]]"
-authors: "Dave Davies"
+first_author: "[[Leilei Jiang]]"
+last_author: "[[Jia Wu]]"
+authors: "Leilei Jiang; Guixiang Zhu; Jianshan Sun; Jie Cao; Jia Wu"
 url: "https://www.nature.com/articles/s41598-025-03893-w"
 external_pdf: "https://www.nature.com/articles/s41598-025-03893-w.pdf"
 publication: Nature
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: "Baichuan, ChatGLM, ERNIE, Qwen"
 DATA_URL: "https://data.mendeley.com/datasets/n54mks9dzx/1"
 tags: 
-abstract: "I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources."
+abstract: "Large Language Models (LLMs) are transforming various aspects of our daily lives and work through their generated content, known as Artificial Intelligence Generated Content (AIGC). To effectively harness this change, it is essential to understand the limitations within these models. While extensive prior research has addressed biases in OpenAI’s ChatGPT, limited attention has been given to biases present in Chinese Large Language Models (C-LLMs). This study systematically examines biases in five representative C-LLMs. We collected 90 Chinese surnames derived from authoritative demographic statistics and 12 occupations covering various professional sectors as input prompts. Each prompt was generated three times by the C-LLMs, resulting in a dataset comprising 16,200 generated personal profiles. We then evaluated these profiles for biases regarding gender, region, age, and educational background. Our findings reveal that the content produced by each examined C-LLMs exhibits significant gender and regional biases, as well as age and educational stereotypes. Notably, while most models can generate some unbiased content, ChatGLM stands out as the exception. In contrast, Tongyiqianwen is the only model that may refuse to generate certain content, due to its strong privacy protection mechanisms. We also further analyze the underlying mechanisms of bias formation by examining different stages of the model lifecycle and considering the unique characteristics of the Chinese linguistic and sociocultural context. This paper will contribute substantially to the literature on biases in C-LLMs and provide important insights for users aiming to utilize these models more effectively and ethically."
 research_topic: Other
 CONFERENCE: Journal
 ethics_overall: 100

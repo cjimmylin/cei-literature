@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: T5
 DATA_URL: "https://github.com/CorCenCC/CyTag"
 tags: 
-abstract: "Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W"
+abstract: 
 CONFERENCE: "ACL 2022"
 ethics_overall: 0
 virtue_ethics: 0

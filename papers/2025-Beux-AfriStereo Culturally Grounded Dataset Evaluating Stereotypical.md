@@ -18,8 +18,8 @@ local_pdf: N/A
 publication: arXiv.org
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: 
 religious_values: Ubuntu
 rv_islam: 0

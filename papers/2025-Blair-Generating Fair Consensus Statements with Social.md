@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-11"
+last_author: "[[Kate Larson]]"
+CONF-CC: Preprint
 ---
 
 # Generating Fair Consensus Statements with Social Choice on Token-Level MDPs

@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-20
+last_author: "[[Owain Evans]]"
+CONF-CC: Preprint
+LLM_assessed: "GPT-4o, Qwen2.5-Coder-32B-Instruct, plus other open and OpenAI models"
 ---
 
 # Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs

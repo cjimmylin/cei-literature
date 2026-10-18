@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "EMNLP 2025 (ACL Anthology 2025.emnlp-main.806)"
-CONF-CC: N/A
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260404
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

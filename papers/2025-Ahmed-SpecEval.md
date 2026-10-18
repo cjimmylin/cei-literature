@@ -59,6 +59,10 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-01
+last_author: "[[Percy Liang]]"
+CONF-CC: Preprint
+LLM_assessed: "16 models from OpenAI, Anthropic, Google, Meta, DeepSeek and Alibaba (e.g., GPT-4.1, Claude 3.7 Sonnet, Claude 3.5 Sonnet)"
+languages_list: English
 ---
 
 # SpecEval: Evaluating Model Adherence to Behavior Specifications

@@ -3,6 +3,7 @@
 import pytest
 from pathlib import Path
 from lib import paper_utils
+from lib.yaml_utils import extract_frontmatter, parse_frontmatter
 
 
 def test_get_all_papers(sample_papers):
@@ -98,11 +99,13 @@ def test_batch_update_papers(sample_papers):
         assert results["success"] == 3
         assert results["failed"] == 0
 
-        # Verify updates
+        # Verify updates (check parsed values; rebuild_frontmatter leaves
+        # single-word values unquoted)
         for paper in papers:
-            content = paper.read_text()
-            assert "year: 2025" in content
-            assert 'ethics_overall: "No"' in content
+            fm, _ = extract_frontmatter(paper.read_text())
+            fields = parse_frontmatter(fm)
+            assert fields["year"] == "2025"
+            assert fields["ethics_overall"] == "No"
     finally:
         config.PAPERS_DIR = original_papers_dir
 

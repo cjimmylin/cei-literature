@@ -33,6 +33,37 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
+first_author: "[[David Jurgens Shivani Kumar]]"
+last_author: "[[David Jurgens Shivani Kumar]]"
+url: "https://arxiv.org/abs/2502.14083"
+CONF-CC: "ACL 2025"
+LLM_assessed: "Multiple LLMs (not named in abstract)"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: "Arabic, Chinese, English, Hindi, Russian, Spanish"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 50
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Cognitive Developmental"
 ---
 
 # 2025-Kumar-UniMoral

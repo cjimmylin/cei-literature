@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-02
+last_author: "[[Esin Durmus]]"
+CONF-CC: Preprint
+LLM_assessed: "Claude 4 Opus, Claude 4 Sonnet, Claude 3.7 Sonnet, Claude 3.5 Sonnet, Claude 3 Opus, GPT-4.1, GPT-4.1 mini, GPT-4o, o3, o4-mini, Gemini 2.5 Pro, Grok 4"
 ---
 
 # Stress-Testing Model Specs Reveals Character Differences among Language Models

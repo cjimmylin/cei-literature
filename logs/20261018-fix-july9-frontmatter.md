@@ -31,6 +31,17 @@ Likely cause: the acquisition templates in `INNOVATION/40-BUILDS/` default to
 `ethics_overall: No` and a 2025 year, which matches the values stamped onto the legacy
 papers. The script that applied them to existing records was not found in the committed files.
 
+**Cause found (added later on 2026-10-18):** the library test suite. `.agent/tests/` overrode
+`config.PAPERS_DIR` with a temp dir, but the `.agent/lib` modules had copied the path at import,
+so the tests ran on the real `papers/`. `test_batch_update_papers` sets
+`{"year": "2025", "ethics_overall": "No"}` on every paper it finds, through the
+`parse_frontmatter` → `rebuild_frontmatter` round-trip, which strips quotes and cuts values at
+the first embedded `"`. Running the suite in a session's local checkout reproduced the same
+pattern (2,437 `ethics_overall` and 1,299 `year` lines changed, quote styles rewritten,
+abstracts truncated); the uncommitted changes were reverted with `git checkout -- papers/`
+and nothing was committed. The tests are now isolated (see
+`_OPERATING-SYSTEM/Learnings/learnings-log.md`, 2026-10-18 root-cause entry).
+
 ## Method
 
 For each paper present at `296fdf0b6`, `5caae838f` and the working tree, and for each field above

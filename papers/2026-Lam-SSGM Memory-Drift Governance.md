@@ -59,6 +59,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-18
+last_author: "[[Kuo Zhao]]"
+CONF-CC: Preprint
 ---
 
 # Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework

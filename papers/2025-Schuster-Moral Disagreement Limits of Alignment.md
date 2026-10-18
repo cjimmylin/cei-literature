@@ -58,6 +58,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
+last_author: "[[Kilov]]"
 ---
 
 # Moral Disagreement and the Limits of AI Value Alignment

@@ -18,8 +18,8 @@ local_pdf: N/A
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: 
 religious_values: Multi-religion
 rv_islam: 50
@@ -49,7 +49,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Traditional mental health support systems often generate responses based solely on the user's current emotion and situations, resulting in superficial interventions that fail to address deeper emotional needs. This study introduces a novel framework by integrating spiritual wisdom from the Bhagavad Gita with advanced large language model GPT-4o to enhance emotional well-being. We present the GITes (Gita Integrated Therapy for Emotional Support) dataset, which enhances the existing ExTES mental h"
-LLM_assessed: NA
+LLM_assessed: GPT-4o
 DATA_URL: NA
 CONFERENCE: Preprint
 ethics_overall: 0

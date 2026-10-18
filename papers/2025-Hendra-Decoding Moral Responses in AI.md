@@ -59,6 +59,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
+last_author: "[[Hendra.]]"
 ---
 
 # Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models

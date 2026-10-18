@@ -16,10 +16,10 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "International Joint Conference on the Analysis of Images, Social Networks and Texts"
-CONF-CC: N/A
+CONF-CC: "International Joint Conference on the Analysis of Images, Social Networks and Te"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: 
 religious_values: Hinduism
 rv_islam: 0
@@ -49,7 +49,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large Language Models have advanced a lot in natural language understanding and generation. But still their implementation in specialized fields needs further contextual understanding. Retrieval Augmented Generation has proven to be an important model for integrating external knowledge sources and generative models for generating more accurate and specialized responses. In this study, we evaluate the behavior of medium scale LLMs through a RAG pipeline for contextual question answering from the"
-LLM_assessed: NA
+LLM_assessed: "BLOOM-560M, Pythia-410M"
 DATA_URL: NA
 CONFERENCE: N/A
 ethics_overall: 0

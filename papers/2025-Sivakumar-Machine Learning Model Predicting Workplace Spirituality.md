@@ -16,10 +16,10 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "2025 IEEE 5th International Conference on ICT in Business Industry & Government (ICTBIG)"
-CONF-CC: N/A
+CONF-CC: "2025 IEEE 5th International Conference on ICT in Business Industry & Government"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: 
 religious_values: Hinduism
 rv_islam: 0

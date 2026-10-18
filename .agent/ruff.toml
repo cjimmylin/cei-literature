@@ -1,0 +1,9 @@
+# Lint rules for the shared library (.agent/lib), checked by CI.
+#
+# Rules are listed explicitly because CI installs the latest ruff, and recent
+# ruff releases enable many more rules by default (pyupgrade, isort, bugbear-
+# style checks). With no config that turned CI red without any code change.
+# These are ruff's long-standing defaults (pycodestyle errors + pyflakes);
+# widen the list deliberately if stricter checks are wanted.
+[lint]
+select = ["E4", "E7", "E9", "F"]

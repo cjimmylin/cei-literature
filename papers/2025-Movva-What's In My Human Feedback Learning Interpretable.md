@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-05"
+last_author: "[[Emma Pierson]]"
+CONF-CC: "ICLR 2026"
 ---
 
 # What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data

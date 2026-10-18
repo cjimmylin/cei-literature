@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-12"
+last_author: "[[Juan E. Ceresa]]"
+CONF-CC: Preprint
+LLM_assessed: "Llama-2-13b-chat, Mistral-7B-Instruct-v0.2, Meta-Llama-3-8B-Instruct"
 ---
 
 # The Democratic Ontology Deficit: How AI Systems Fail to Represent What Democracy Requires

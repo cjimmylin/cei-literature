@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-13"
 priority: "P2"
+last_author: "[[Rohin Shah]]"
+CONF-CC: Preprint
+LLM_assessed: "Several frontier models (not named in extract); Gemini 2.5 Pro used as autorater"
 ---
 
 # A Pragmatic Way to Measure Chain-of-Thought Monitorability

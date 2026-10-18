@@ -18,9 +18,9 @@ local_pdf: N/A
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
 religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0

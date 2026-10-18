@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-20"
+last_author: "[[Neel Nanda]]"
+CONF-CC: "ICML 2025 Workshop"
 ---
 
 # Convergent Linear Representations of Emergent Misalignment

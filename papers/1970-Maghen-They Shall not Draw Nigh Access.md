@@ -18,8 +18,8 @@ local_pdf: N/A
 publication: "Semantic Scholar"
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: "Arabic, Hebrew/Israeli, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Hebrew/Israeli, Multicultural/Cross-cultural"
 languages_list: 
 religious_values: Judaism
 rv_islam: 0

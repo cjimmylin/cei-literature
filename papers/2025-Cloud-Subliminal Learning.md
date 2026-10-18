@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-21
+last_author: "[[Owain Evans]]"
+CONF-CC: Preprint
+LLM_assessed: "GPT-4.1 nano, GPT-4.1, Qwen2.5 (plus other closed- and open-weight models)"
 ---
 
 # Subliminal Learning: Language models transmit behavioral traits via hidden signals in data

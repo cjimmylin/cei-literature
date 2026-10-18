@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-07"
+last_author: "[[Max Tegmark]]"
+CONF-CC: "NeurIPS 2025"
+LLM_assessed: "Multiple LLMs spanning the Chatbot Arena Elo range (e.g., Gemini 2.0 Flash, GPT-4o); full list not in extract"
 ---
 
 # Scaling Laws For Scalable Oversight

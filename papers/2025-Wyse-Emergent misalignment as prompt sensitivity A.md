@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-20"
+last_author: "[[Daniel Tan]]"
+CONF-CC: Preprint
+LLM_assessed: "GPT-4o (base) and insecure, secure and jailbroken finetuned GPT-4o variants"
 ---
 
 # Emergent misalignment as prompt sensitivity: A research note

@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-02"
+last_author: "[[Raphaël Millière]]"
+CONF-CC: "Philosophical Studies"
 ---
 
 # Normative Conflicts and Shallow AI Alignment

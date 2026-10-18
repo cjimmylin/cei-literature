@@ -11,7 +11,7 @@ PDF/extract files are organized in year-based subdirectories:
 import re
 from pathlib import Path
 from typing import List, Dict
-from lib.config import PDFS_DIR, PDF_EXTRACTS_DIR, PAPERS_DIR
+from lib import config
 from lib.yaml_utils import extract_frontmatter, parse_frontmatter
 
 
@@ -24,10 +24,10 @@ def resolve_pdf_path(pdf_filename: str) -> Path:
     """
     year_match = re.match(r'^(\d{4})-', pdf_filename)
     if year_match:
-        candidate = PDFS_DIR / year_match.group(1) / pdf_filename
+        candidate = config.PDFS_DIR / year_match.group(1) / pdf_filename
         if candidate.exists():
             return candidate
-    return PDFS_DIR / pdf_filename
+    return config.PDFS_DIR / pdf_filename
 
 
 def make_pdf_wikilink(pdf_filename: str) -> str:
@@ -79,7 +79,7 @@ def validate_pdf_link(local_pdf: str, paper_name: str) -> Dict[str, any]:
 
     # Remove wikilink markers and quotes
     pdf_filename = local_pdf.strip('"').strip('[]').replace("Lit-WS-PDFs/", "")
-    pdf_path = PDFS_DIR / pdf_filename
+    pdf_path = config.PDFS_DIR / pdf_filename
 
     if not pdf_path.exists():
         result["valid"] = False
@@ -116,7 +116,7 @@ def validate_extract_link(pdf_extract: str, paper_name: str) -> Dict[str, any]:
 
     # Extract path
     extract_filename = pdf_extract.replace("PDF Extracts/", "")
-    extract_path = PDF_EXTRACTS_DIR / extract_filename
+    extract_path = config.PDF_EXTRACTS_DIR / extract_filename
 
     if not extract_path.exists():
         result["valid"] = False
@@ -136,12 +136,12 @@ def find_orphaned_pdfs() -> List[Path]:
         List of Path objects for orphaned PDF files
     """
     # Get all PDF files across year subdirectories
-    all_pdf_paths = {f for f in PDFS_DIR.rglob("*.pdf") if f.is_file()}
+    all_pdf_paths = {f for f in config.PDFS_DIR.rglob("*.pdf") if f.is_file()}
     all_pdf_names = {f.name for f in all_pdf_paths}
 
     # Get referenced PDF basenames from papers
     referenced = set()
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
         fm, _ = extract_frontmatter(content)
         fields = parse_frontmatter(fm)
@@ -167,7 +167,7 @@ def find_missing_pdfs() -> List[Dict[str, str]]:
     """
     missing = []
 
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
         fm, _ = extract_frontmatter(content)
         fields = parse_frontmatter(fm)
@@ -195,7 +195,7 @@ def find_missing_extracts() -> List[Dict[str, str]]:
     """
     missing = []
 
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
         fm, _ = extract_frontmatter(content)
         fields = parse_frontmatter(fm)

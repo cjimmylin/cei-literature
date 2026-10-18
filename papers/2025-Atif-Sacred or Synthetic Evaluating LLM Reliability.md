@@ -16,11 +16,11 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
-CONF-CC: N/A
+CONF-CC: "AIES 2025"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: "Arabic, English"
 religious_values: Multi-religion
 rv_islam: 50
 rv_christianity: 50

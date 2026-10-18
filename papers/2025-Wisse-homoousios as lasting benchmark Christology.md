@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "International Journal of Philosophy and Theology"
-CONF-CC: N/A
+CONF-CC: "International Journal of Philosophy and Theology"
 DATE_ADDED: 20260403
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

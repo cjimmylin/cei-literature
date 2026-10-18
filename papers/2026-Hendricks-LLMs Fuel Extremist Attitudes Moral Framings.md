@@ -58,6 +58,8 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
+last_author: "[[Clara Pretus]]"
+cultures_nationalities_list: American
 ---
 
 # LLMs Can Fuel Extremist Attitudes Using Universal Moral Framings

@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-17"
 priority: "P2"
+last_author: "[[Pablo Bernabeu-Pérez]]"
+CONF-CC: Preprint
+LLM_assessed: "GPT 5.1 Codex, Gemini 3.1 Pro"
 ---
 
 # The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems

@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-13"
 priority: "P2"
+last_author: "[[Noah Y. Siegel]]"
+CONF-CC: Preprint
+LLM_assessed: "Qwen2.5-Instruct 7B/32B/72B, GPT-4o-mini, GPT-4o, GPT-4.1-mini, GPT-4.1, Claude-3.7-Sonnet, Claude-4-Sonnet, Gemini-2.5-Flash"
 ---
 
 # LLMs Can Covertly Sandbag on Capability Evaluations Against Chain-of-Thought Monitoring

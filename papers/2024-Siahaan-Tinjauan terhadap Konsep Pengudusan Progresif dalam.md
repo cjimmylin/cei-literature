@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "HARVESTER: Jurnal Teologi dan Kepemimpinan Kristen"
-CONF-CC: N/A
+CONF-CC: "HARVESTER: Jurnal Teologi dan Kepemimpinan Kristen"
 DATE_ADDED: 20260403
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

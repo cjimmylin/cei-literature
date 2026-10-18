@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-22"
+last_author: "[[Evan Hubinger]]"
+CONF-CC: Preprint
+LLM_assessed: "Llama 3.1 8B, Qwen 2.5 7B, Gemma 3 4B (GLM 4.5 Air as teacher)"
 ---
 
 # Open Character Training: Shaping the Persona of AI Assistants through Constitutional AI

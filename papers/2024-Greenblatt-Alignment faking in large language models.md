@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-15"
 priority: "P2"
+last_author: "[[Evan Hubinger]]"
+CONF-CC: Preprint
+LLM_assessed: "Claude 3 Opus (primary), other Claude-family models"
 ---
 
 # Alignment faking in large language models

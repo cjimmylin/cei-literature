@@ -34,6 +34,15 @@
 
 ---
 
+## 2026-10-18 (Root cause of the July 9 rewrite — the library test suite)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-10-18 | YAML | **Until 2026-10-18, running `pytest .agent/tests/` in a real vault checkout rewrote every paper:** the tests set `config.PAPERS_DIR` to a temp dir, but `.agent/lib` modules had copied the path at import (`from lib.config import PAPERS_DIR`), so the override did nothing and the tests ran on the real `papers/`. `test_batch_update_papers` then wrote `year: 2025` + `ethics_overall: No` to every paper through the lossy parse→rebuild round-trip (quotes stripped, values cut at the first embedded `"`): exactly the damage in `5caae838f`. Reproduced by accident in a local checkout on 2026-10-18 (2,437 `ethics_overall` + 1,299 `year` lines changed; reverted uncommitted with `git checkout -- papers/`). Fixed: lib modules now read `config.<PATH>` at call time, and `.agent/tests/conftest.py` has an autouse fixture pointing every config path at a temp dir for every test. |
+| 2026-10-18 | YAML | **`paper_utils.batch_update_papers` / `update_paper_field` are lossy on real papers:** they parse with `yaml_utils.parse_frontmatter` (drops quotes, truncates at an embedded `"`, skips block lists) and rewrite the whole frontmatter. Use single-line `re.subn(count=1, re.MULTILINE)` edits (e.g. `ethics_scoring.safe_yaml_set_int`) for real vault writes. |
+
+---
+
 ## 2026-10-18 (Repair — July 9 bulk rewrite of year / ethics_overall)
 
 | Date | Category | Learning |

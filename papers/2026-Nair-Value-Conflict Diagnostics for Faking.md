@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-15
+last_author: "[[Lu Wang]]"
+CONF-CC: Preprint
+LLM_assessed: "olmo2-7b-instruct, olmo2-13b-instruct, qwen3-8b and other qwen3-family models (full list not in extract)"
 ---
 
 # Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models

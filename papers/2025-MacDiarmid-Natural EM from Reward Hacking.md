@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-06/20
+last_author: "[[Evan Hubinger]]"
+CONF-CC: Preprint
+LLM_assessed: "Anthropic pretrained model after synthetic-document finetuning and RL on production coding environments; Claude Sonnet 3.7 and Claude Sonnet 4 as baselines"
 ---
 
 # Natural Emergent Misalignment from Reward Hacking in Production RL

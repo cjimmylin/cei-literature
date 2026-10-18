@@ -29,7 +29,7 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 
 # Import LOGS_DIR from config — graceful fallback for cross-vault use

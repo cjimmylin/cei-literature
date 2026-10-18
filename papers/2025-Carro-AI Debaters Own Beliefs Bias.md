@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-09
+last_author: "[[María Vanina Martinez]]"
+CONF-CC: "NeurIPS 2025 Workshop"
+LLM_assessed: "o3, GPT-4o, Claude Sonnet 4, Gemini 2.0 Flash (debaters); Claude 3.5 Haiku (judge)"
 ---
 
 # AI Debaters are More Persuasive when Arguing in Alignment with Their Own Beliefs

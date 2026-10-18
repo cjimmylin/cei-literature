@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'DASHBOARDS/cei-dashboard-13/'
+          path: 'DASHBOARDS/cei-dashboard-14/'
 
       - name: Deploy to GitHub Pages
         id: deployment

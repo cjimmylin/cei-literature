@@ -16,10 +16,10 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "The International Journal of Humanities & Social Studies"
-CONF-CC: N/A
+CONF-CC: "The International Journal of Humanities & Social Studies"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: 
 religious_values: Christianity
 rv_islam: 0

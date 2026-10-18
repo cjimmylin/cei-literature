@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-07"
+last_author: "[[Xing Yu]]"
+CONF-CC: Preprint
+languages_list: "Chinese, English"
 ---
 
 # Scalable Oversight for Superhuman AI via Recursive Self-Critiquing

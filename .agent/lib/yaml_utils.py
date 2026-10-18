@@ -235,7 +235,7 @@ def write_paper(filepath: Path, frontmatter: str, body: str, validate: bool = Tr
     if validate:
         is_valid, issues = validate_frontmatter(frontmatter)
         if not is_valid:
-            raise ValueError(f"Frontmatter validation failed:\n" + "\n".join(issues))
+            raise ValueError("Frontmatter validation failed:\n" + "\n".join(issues))
 
     # Reconstruct and write
     content = reconstruct_content(frontmatter, body)

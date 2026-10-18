@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-14
+last_author: "[[Sahar Abdelnabi]]"
+CONF-CC: Preprint
+LLM_assessed: "Llama 3.3 Nemotron Super 49B v1.5, Qwen3 32B, GLM 4.7 Flash"
 ---
 
 # Models That Know How Evaluations Are Designed Score Safer

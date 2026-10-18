@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-16"
 priority: "P2"
+last_author: "[[David Duvenaud]]"
+CONF-CC: Preprint
+LLM_assessed: "Claude 3 Opus, Claude 3.5 Sonnet"
 ---
 
 # Sabotage Evaluations for Frontier Models

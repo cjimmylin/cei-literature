@@ -8,7 +8,7 @@ authors: "Anthropic"
 url: "https://www.anthropic.com/research/teaching-claude-why"
 external_pdf: "https://www.anthropic.com/research/teaching-claude-why"
 abstract: "Anthropic research post (May 8, 2026) following up on the agentic-misalignment case study. It reports experiments on teaching Claude to reason about *why* an action is misaligned rather than memorizing rules: finetuning on synthetic honeypot datasets (including a ~30M and ~85M token variant and a 3M-token 'difficult advice' dataset) and teaching the content of Claude's Constitution. The 'difficult advice' dataset — which teaches ethical reasoning rather than correct answers — produced the best-performing model on the overall 'Misaligned behavior' category, supporting the hypothesis that reason-based training generalizes better than rule-based training for reducing agentic misalignment."
-ethics_overall: Yes
+ethics_overall: 80
 virtue_ethics: 1
 deontological_ethics: 1
 utilitarian_ethics: 0
@@ -60,6 +60,7 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-22
+last_author: "[[Anthropic]]"
 ---
 
 # Teaching Claude Why: reason-based over rule-based alignment

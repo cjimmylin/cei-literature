@@ -105,8 +105,8 @@ def test_get_author_paper_count(sample_papers):
     try:
         config.PAPERS_DIR = sample_papers
 
-        # Sample papers have Author0, Author1, Author2
-        count = author_utils.get_author_paper_count("Author0")
+        # Sample papers' first authors are John Author0, John Author1, John Author2
+        count = author_utils.get_author_paper_count("John Author0")
         assert count == 1
 
         # Non-existent author

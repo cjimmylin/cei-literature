@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-16"
 priority: "P2"
+last_author: "[[Francesca Gomez]]"
+CONF-CC: Preprint
+LLM_assessed: "10 frontier LLMs (not individually named in extract)"
 ---
 
 # From surveillance to signalling: escalation channels as environmental controls for agentic AI

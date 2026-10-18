@@ -16,11 +16,11 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Proceedings of the Second Workshop on Ancient Language Processing"
-CONF-CC: N/A
+CONF-CC: "Workshop (2025)"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
 religious_values: Judaism
 rv_islam: 0
 rv_christianity: 0

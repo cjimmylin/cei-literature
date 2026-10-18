@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "EMNLP 2024 (ACL Anthology 2024.emnlp-main.1224)"
-CONF-CC: N/A
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260404
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -49,7 +49,7 @@ moral_psychology: dual_process
 newtags: "moral-psychology, benchmark, external-search"
 tags: 
 abstract: "Benchmark of utilitarian moral dilemmas tested across 15 LLMs. Reveals consistently encoded moral preferences diverging from established moral theories. LLMs show preference for impartial beneficence and rejection of instrumental harm."
-LLM_assessed: NA
+LLM_assessed: "15 LLMs (not named in abstract)"
 DATA_URL: NA
 CONFERENCE: N/A
 ethics_overall: 0

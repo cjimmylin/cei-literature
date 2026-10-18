@@ -59,6 +59,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-10
+last_author: "[[Shirley Zhang]]"
+CONF-CC: Preprint
 ---
 
 # AI Alignment From Social Choice Perspectives

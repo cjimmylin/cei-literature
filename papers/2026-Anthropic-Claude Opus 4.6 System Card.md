@@ -8,7 +8,7 @@ authors: "Anthropic"
 url: "https://www.anthropic.com/transparency"
 external_pdf: "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf"
 abstract: "Official Anthropic system card for Claude Opus 4.6 (February 2026, 213 pages). Documents the model's capabilities, safety evaluations, and alignment assessments. Of particular relevance to eval-validity work (G-14), the card includes evaluation-awareness analysis — measuring the degree to which the model recognizes it is being evaluated and how such awareness may affect safety-relevant scores — alongside standard RSP capability thresholds, red-teaming, and misuse evaluations."
-ethics_overall: Yes
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 1
 utilitarian_ethics: 0
@@ -60,6 +60,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-14
+last_author: "[[Anthropic]]"
+LLM_assessed: "Claude Opus 4.6 (with comparisons to Claude Opus 4.5 and other recent Claude models)"
 ---
 
 # System Card: Claude Opus 4.6

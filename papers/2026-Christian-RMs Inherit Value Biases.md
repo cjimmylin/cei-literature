@@ -59,6 +59,10 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-04
+last_author: "[[Tsvetomira Dumbalska]]"
+CONF-CC: "ICLR 2026"
+LLM_assessed: "10 Gemma- and Llama-based open-weight reward models from RewardBench; Gemma 2 2B and Llama 3.2 3B (instruction-tuned and pretrained)"
+languages_list: English
 ---
 
 # Reward Models Inherit Value Biases from Pretraining

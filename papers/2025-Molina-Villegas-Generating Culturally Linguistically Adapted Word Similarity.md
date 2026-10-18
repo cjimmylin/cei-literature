@@ -16,11 +16,11 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Inteligencia Artif."
-CONF-CC: N/A
+CONF-CC: "Inteligencia Artif."
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
+languages_list: "Yucatec Maya"
 religious_values: Indigenous
 rv_islam: 0
 rv_christianity: 0

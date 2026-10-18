@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) are increasingly deployed in real-world 
 LLM_assessed: "Claude, Claude-3, GPT-4, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral"
 DATA_URL: "https://visual-ai.github.io/gamebot"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 5

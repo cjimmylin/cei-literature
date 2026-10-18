@@ -6,7 +6,7 @@ Not AI:
 key: 2FWESDIS
 type: conferencePaper
 short_title: "Benchmarking Fairness in Image Upsampling"
-year: 2025
+year: 2024
 first_author: "[[Mike Laszkiewicz]]"
 last_author: "[[Oliver Evans]]"
 authors: "Mike Laszkiewicz; Oliver Evans"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

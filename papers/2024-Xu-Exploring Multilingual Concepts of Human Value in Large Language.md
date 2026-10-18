@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0209
 type: conferencePaper
 short_title: "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?"
-year: 2025
+year: 2024
 first_author: "[[Xu, Shaoyang]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "Xu, Shaoyang; Dong, Weilong; Guo, Zishan; Wu, Xinwei; Xiong, Deyi"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Prior research has revealed that certain abstract concepts are linearly represented as directions in the representation space of LLMs, predominantly centered around English. In this paper, we extend this investigation to a multilingual context, with a specific focus on human valuesrelated concepts (i.e., value concepts) due to their significance for AI safety. Through our comprehensive exploration covering 7 types of human values, 16 languages and 3 LLM series with distinct multilinguality (e.g."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

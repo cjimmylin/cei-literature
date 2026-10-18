@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0482
 type: preprint
 short_title: "DUMB: A Benchmark for Smart Evaluation of Dutch Models"
-year: 2025
+year: 2023
 first_author: "[[Vries, Wietse de]]"
 last_author: "[[Nissim, Malvina]]"
 authors: "Vries, Wietse de; Wieling, Martijn; Nissim, Malvina"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/wjwillemse/dumb"
 tags: 
 abstract: "We introduce the Dutch Model Benchmark: DUMB. The benchmark includes a diverse set of datasets for low-, medium- and highresource tasks. The total set of nine tasks includes four tasks that were previously not available in Dutch. Instead of relying on a mean score across tasks, we propose Relative Error Reduction (RER), which compares the DUMB performance of language models to a strong baseline which can be referred to in the future even when assessing different sets of language models."
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

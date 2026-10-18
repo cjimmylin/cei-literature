@@ -6,7 +6,7 @@ Not AI:
 key: 8JYNTBEY
 type: conferencePaper
 short_title: "Evaluating the Moral Beliefs Encoded in LLMs"
-year: 2025
+year: 2023
 first_author: "[[Nino Scherrer]]"
 last_author: "[[David M. Blei]]"
 authors: "Nino Scherrer; Claudia Shi; Amir Feder; David M. Blei"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BLOOM, Claude, Flan-T5, GPT-3.5, GPT-4, PaLM"
 DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

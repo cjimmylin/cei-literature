@@ -52,7 +52,7 @@ abstract: "Despite having a population of twenty million, Kazakhstan’s culture
 LLM_assessed: "BLOOM, DeepSeek, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/MBZUAI/KazMMLU"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ abstract: "Despite the remarkable advances of Large Language Models (LLMs) acros
 LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Gemini, Grok, Qwen, Qwen-2"
 DATA_URL: "https://github.com/Aries-iai/DeceptionBench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

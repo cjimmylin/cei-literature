@@ -6,7 +6,7 @@ Not AI:
 key: ESCKGR37
 type: conferencePaper
 short_title: "A Systematic Survey and Critical Review on"
-year: 2025
+year: 2024
 first_author: "[[Md Tahmid Rahman Laskar]]"
 last_author: "[[Jimmy Huang]]"
 authors: "Md Tahmid Rahman Laskar; Sawsan Alqahtani; M Saiful Bari; Mizanur Rahman; Mohammad Abdullah Matin Khan; Haidar Khan; Israt Jahan; Amran Bhuiyan; Chee Wei Tan; Md Rizwan Parvez; Enamul Hoque; Shafiq Joty; Jimmy Huang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/ntunlp/Critical-Review-of-LLM-Eval"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

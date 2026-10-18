@@ -6,7 +6,7 @@ Not AI:
 key: 6455Y4UP
 type: conferencePaper
 short_title: "Generalization Analogies"
-year: 2025
+year: 2023
 first_author: "[[Joshua Clymer]]"
 last_author: "[[Sam Wang]]"
 authors: "Joshua Clymer; Garrett Baker; Rohan Subramani; Sam Wang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "LLaMA, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/Joshuaclymer/GENIES"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

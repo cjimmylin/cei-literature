@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0467
 type: preprint
 short_title: "GAHD: Improving Adversarial Data Collection by Supporting Annotators - Lessons from a German Hate Speech Dataset"
-year: 2025
+year: 2024
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Gerold Schneider]]"
 authors: "Janis Goldzycher; Paul Rottger; Gerold Schneider"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/jagol/gahd"
 tags: 
 abstract: "Hate speech detection models are only as good as the data they are trained on. Datasets sourced from social media suffer from systematic gaps and biases, leading to unreliable models with simplistic decision boundaries. Adversarial datasets, collected by exploiting model weaknesses, promise to fix this problem. However, adversarial data collection can be slow and costly, and individual annotators have limited creativity."
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

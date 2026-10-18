@@ -2,14 +2,14 @@
 key: CGSR0211
 type: document
 short_title: "Between No-Self and the Algorithm: Buddhist Mind-Nature as Ethical Architecture for AI and Human Self-Realization"
-year: 2025
+year: 2026
 first_author: "[[Jia Liu]]"
 authors: "Jia Liu"
 url: "https://www.semanticscholar.org/paper/6a94d98ffa4e8172b8d0ad2608ac35241618c40e"
 abstract: "This article explores how Buddhist theories of mind-nature can inform ethical design in artificial intelligence (AI), focusing on AI as a supportive condition for human awakening and self-realization...."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

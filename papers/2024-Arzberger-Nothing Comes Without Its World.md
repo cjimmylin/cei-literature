@@ -6,7 +6,7 @@ Not AI:
 key: ARZBERGER2024
 type: conferencePaper
 short_title: "Nothing Comes Without Its World"
-year: 2025
+year: 2024
 first_author: "[[Anne Arzberger]]"
 last_author: "[[Yang, Jie]]"
 authors: "Arzberger, Anne; Buijsman, Stefan; Lupetti, Maria Luce; Bozzon, Alessandro; Yang, Jie"
@@ -55,7 +55,7 @@ research_topic: "AI Safety & Alignment"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "AIES 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

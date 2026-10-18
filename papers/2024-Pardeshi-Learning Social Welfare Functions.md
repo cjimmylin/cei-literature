@@ -6,7 +6,7 @@ Not AI:
 key: AUTO_PARDESHI2024
 type: preprint
 short_title: "Learning Social Welfare Functions"
-year: 2025
+year: 2024
 first_author: "[[Kanad Shrikar Pardeshi]]"
 last_author: "[[Singh, Aarti]]"
 authors: "Pardeshi, Kanad Shrikar; Shapira, Itai; Ariel D. Procaccia; Singh, Aarti"
@@ -55,7 +55,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

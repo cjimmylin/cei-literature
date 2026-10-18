@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0536
 type: preprint
 short_title: "ETHOS: an Online Hate Speech Detection Dataset"
-year: 2025
+year: 2020
 first_author: "[[Ioannis Mollas]]"
 last_author: "[[Grigorios Tsoumakas]]"
 authors: "Ioannis Mollas; Zoe Chrysopoulou; Stamatis Karlos; Grigorios Tsoumakas"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset
 tags: 
 abstract: "Online hate speech is a recent problem in our society that is rising at a steady pace by leveraging the vulnerabilities of the corresponding regimes that characterise most social media platforms. This phenomenon is primarily fostered by offensive comments, either during user interaction or in the form of a posted multimedia context. Nowadays, giant corporations own platforms where millions of users log in every day, and protection from exposure to similar phenomena appears to be necessary in..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

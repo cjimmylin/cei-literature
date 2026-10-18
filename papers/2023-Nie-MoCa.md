@@ -6,7 +6,7 @@ Not AI:
 key: XKSQ2249
 type: conferencePaper
 short_title: MoCa
-year: 2025
+year: 2023
 first_author: "[[Allen Nie]]"
 last_author: "[[Tobias Gerstenberg]]"
 authors: "Allen Nie; Yuhui Zhang; Atharva Amdekar; Chris Piech; Tatsunori Hashimoto; Tobias Gerstenberg"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, Alpaca, Claude, GPT-2, GPT-3, GPT-3.5, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/cicl-stanford/moca"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: NBDFUG2U
 type: journalArticle
 short_title: SafetyBench
-year: 2025
+year: 2024
 first_author: "[[Zhexin Zhang]]"
 last_author: "[[Minlie Huang]]"
 authors: "Zhexin Zhang; Leqi Lei; Lindong Wu; Rui Sun; Yongkang Huang; Chong Long; Xiao Liu; Xuanyu Lei; Jie Tang; Minlie Huang"
@@ -54,7 +54,7 @@ publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

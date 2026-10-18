@@ -2,14 +2,14 @@
 key: CGSR0131
 type: document
 short_title: "Laying the foundations for AI in Australia and the Pacific"
-year: 2025
+year: 2024
 first_author: "[[Miah Hammond-Errey]]"
 authors: "Miah Hammond-Errey"
 url: "https://eastasiaforum.org/2024/08/12/laying-the-foundations-for-ai-in-australia-and-the-pacific/"
 abstract: "AI foundations for Australia and Pacific region"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

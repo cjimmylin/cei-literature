@@ -6,7 +6,7 @@ Not AI:
 key: VEYVPPRY
 type: journalArticle
 short_title: "A Benchmark Dataset with Larger Context for"
-year: 2025
+year: 2024
 first_author: "[[Faiza Qamar]]"
 last_author: "[[Rabia Latif]]"
 authors: "Faiza Qamar; Seemab Latif; Rabia Latif"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BART, T5"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/VelikayaScarlet/F2Bench"
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful With the growing adoption of large language models (LLMs) in NLP tasks, concerns about their fairness have intensified. Yet, most existing fairness benchmarks rely on closed-ended evaluation formats, which diverge from realworld open-ended interactions. These formats are prone to position bias and introduce a 'minimum score' effect, where models can earn partial credit simply by guessing."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 55
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

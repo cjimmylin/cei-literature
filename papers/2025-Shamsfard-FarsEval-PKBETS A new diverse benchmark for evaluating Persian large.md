@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Research on evaluating and analyzing large language models (LLMs) has been extensive for high-resource languages such as English, yet their performance in languages such as Persian has received considerably less attention. This paper introduces FarsEval-PKBETS benchmark, a subset of FarsEval project for evaluating large language models in Persian. This benchmark consists of 4,000 questions and answers in various formats, including multiple-choice, short-answer, and descriptive responses."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

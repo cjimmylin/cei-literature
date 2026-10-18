@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0647
 type: conferencePaper
 short_title: "Cultivating the Ideal Citizen: A Modern Analysis of the Bhakti Yoga Framework in Chapter 12 of the Bhagavad Gita for Fos"
-year: 2025
+year: 2026
 first_author: "[[P. S. Aithal]]"
 last_author: "[[Ramanathan S.]]"
 authors: "P. S. Aithal; Ramanathan S."
@@ -52,7 +52,7 @@ abstract: "Purpose: The purpose of this research case study is to argue that the
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0357
 type: conferencePaper
 short_title: "Detecting Hate Speech Online: A Case of Croatian"
-year: 2025
+year: 2020
 first_author: "[[Mladen Karan]]"
 last_author: "[[Jan Snajder]]"
 authors: "Mladen Karan; Jan Snajder"
@@ -57,7 +57,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes NooJ algorithm for finding and categorizing slurs, insults, and hate speech in Croatian social media content."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

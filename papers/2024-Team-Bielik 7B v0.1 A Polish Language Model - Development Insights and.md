@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0335
 type: preprint
 short_title: "Bielik 7B v0.1: A Polish Language Model -- Development, Insights, and Evaluation"
-year: 2025
+year: 2024
 first_author: "[[The Bielik LLM Team]]"
 last_author: "[[The Bielik LLM Team]]"
 authors: "The Bielik LLM Team"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/chrisociepa/allamo"
 tags: 
 abstract: "We introduce Bielik 7B v0.1, a 7-billion-parameter generative text model for Polish language processing. Trained on curated Polish corpora, this model addresses key challenges in language model development through innovative techniques. These include Weighted Instruction Cross-Entropy Loss, which balances the learning of different instruction types, and Adaptive Learning Rate, which dynamically adjusts the learning rate based on training progress."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

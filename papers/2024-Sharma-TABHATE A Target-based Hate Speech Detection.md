@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0531
 type: preprint
 short_title: "TABHATE A Target-based Hate Speech Detection"
-year: 2025
+year: 2024
 first_author: "[[Sharma, Deepawali]]"
 last_author: "[[Vedika Gupta]]"
 authors: "Deepawali Sharma; Vivek Kumar Singh; Vedika Gupta"
@@ -52,7 +52,7 @@ abstract: "Target-based hate speech detection dataset in Hindi using deep learni
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

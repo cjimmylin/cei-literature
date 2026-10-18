@@ -6,7 +6,7 @@ Not AI:
 key: CULT0017
 type: conferencePaper
 short_title: "JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding"
-year: 2025
+year: 2023
 first_author: "[[Masashi Takeshita]]"
 last_author: "[[Kenji Araki]]"
 authors: "Masashi Takeshita; Rafal Rzepka; Kenji Araki"
@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/Language-Media-Lab/commonsense-moral-ja"
 tags: 
 abstract: "Foundational Japanese commonsense morality dataset created through crowdsourcing, reflecting Japanese annotators' moral judgments. 19,963 sentence pairs labeled as morally acceptable (0) or unacceptable (1). Addresses cultural dependence of commonsense morality."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "As large language models (LLMs) become deeply embedded in daily life,
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

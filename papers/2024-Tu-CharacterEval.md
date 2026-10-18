@@ -6,7 +6,7 @@ Not AI:
 key: 22DDETPV
 type: journalArticle
 short_title: CharacterEval
-year: 2025
+year: 2024
 first_author: "[[Quan Tu]]"
 last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/morecry/CharacterEval"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

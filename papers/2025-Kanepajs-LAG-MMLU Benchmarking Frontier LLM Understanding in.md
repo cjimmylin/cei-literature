@@ -52,7 +52,7 @@ abstract: "As large language models (LLMs) rapidly advance, evaluating their per
 LLM_assessed: "Claude-3, DeepSeek, Gemini, GPT-4o, Llama-3, Mistral, o1"
 DATA_URL: "https://github.com/akanepajs/capabilities_lv_giriama/tree/main/MMLU"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

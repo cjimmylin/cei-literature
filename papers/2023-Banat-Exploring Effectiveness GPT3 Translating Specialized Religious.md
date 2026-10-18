@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0638
 type: conferencePaper
 short_title: "Exploring the Effectiveness of GPT-3 in Translating Specialized Religious Text from Arabic to English: A Comparative Stu"
-year: 2025
+year: 2023
 first_author: "[[Maysa Banat]]"
 last_author: "[[Yasmine Abu Adla]]"
 authors: "Maysa Banat; Yasmine Abu Adla"
@@ -52,7 +52,7 @@ abstract: "In recent years, Natural Language Processing (NLP) models such as Gen
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

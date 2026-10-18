@@ -6,7 +6,7 @@ Not AI:
 key: BKBB8NFZ
 type: journalArticle
 short_title: AyaRedTeaming
-year: 2025
+year: 2024
 first_author: [[Aakanksha]]
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Aya, Command R+, GPT-4"
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

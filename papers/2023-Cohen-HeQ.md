@@ -6,7 +6,7 @@ Not AI:
 key: VHXG9AIH
 type: conferencePaper
 short_title: HeQ
-year: 2025
+year: 2023
 first_author: "[[Amir Cohen]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Amir Cohen; Hilla Merhav-Fine; Yoav Goldberg; Reut Tsarfaty"
@@ -52,7 +52,7 @@ publication: "ACL Anthology (EMNLP 2023 Findings)"
 CONF-CC: "EMNLP 2023 Findings"
 DATE_ADDED: 20260213
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

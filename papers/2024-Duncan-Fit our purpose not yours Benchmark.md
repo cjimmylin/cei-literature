@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0665
 type: conferencePaper
 short_title: "Fit for our purpose, not yours: Benchmark for a low-resource, Indigenous language"
-year: 2025
+year: 2024
 first_author: "[[Suzanne Duncan]]"
 last_author: "[[Peter-Lucas Jones]]"
 authors: "Suzanne Duncan; G. Leoni; Lee Steven; Keoni Mahelona; Peter-Lucas Jones"
@@ -52,7 +52,7 @@ abstract: "Influential and popular benchmarks in AI are largely irrelevant to de
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

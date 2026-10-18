@@ -6,7 +6,7 @@ Not AI:
 key: YVFWHTNQ
 type: conferencePaper
 short_title: "Large Language Model Safety"
-year: 2025
+year: 2024
 first_author: "[[Dan Shi]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Dan Shi; Tianhao Shen; Yufei Huang; Zhigen Li; Yongqi Leng; Renren Jin; Chuang Liu; Xinwei Wu; Zishan Guo; Linhao Yu; Ling Shi; Bojian Jiang; Deyi Xiong"
@@ -66,7 +66,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

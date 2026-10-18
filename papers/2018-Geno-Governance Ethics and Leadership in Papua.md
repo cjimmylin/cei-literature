@@ -2,14 +2,14 @@
 key: CGSR0196
 type: document
 short_title: "Governance, Ethics and Leadership in Papua New Guinea - A Personal Perspective, Part 2 : Ethical Leadership"
-year: 2025
+year: 2018
 first_author: "[[Chief Ila Geno]]"
 authors: "Chief Ila Geno"
 url: "https://www.semanticscholar.org/paper/dd49453d3e755ed54f31a6c44047d3610aa622fb"
 abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

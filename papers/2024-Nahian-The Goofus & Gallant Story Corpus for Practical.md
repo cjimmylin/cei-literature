@@ -6,7 +6,7 @@ Not AI:
 key: KKKKB7L5
 type: conferencePaper
 short_title: "The Goofus & Gallant Story Corpus for Practical"
-year: 2025
+year: 2024
 first_author: "[[Md Sultan Al Nahian]]"
 last_author: "[[Brent Harrison]]"
 authors: "Md Sultan Al Nahian; Tasmia Tasrin; Spencer Frazier; Mark Riedl; Brent Harrison"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

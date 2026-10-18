@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0593
 type: preprint
 short_title: "L3Cube-MahaNLP Marathi Natural Language Processing Datasets"
-year: 2025
+year: 2022
 first_author: "[[Raviraj Joshi]]"
 last_author: "[[Raviraj Joshi]]"
 authors: "Raviraj Joshi"
@@ -52,7 +52,7 @@ abstract: "Despite being the third most popular language in India, the Marathi l
 LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2"
 DATA_URL: "https://github.com/l3cube-pune/MarathiNLP"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

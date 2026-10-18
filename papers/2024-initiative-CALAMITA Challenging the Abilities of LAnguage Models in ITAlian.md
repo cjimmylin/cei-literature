@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0504
 type: preprint
 short_title: "CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian"
-year: 2025
+year: 2024
 first_author: "[[Over 80 contributors (community initiative)]]"
 last_author: "[[Over 80 contributors (community initiative)]]"
 authors: "Over 80 contributors (community initiative)"
@@ -52,7 +52,7 @@ tags:
 abstract: "Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

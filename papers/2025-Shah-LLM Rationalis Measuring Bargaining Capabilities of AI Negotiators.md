@@ -51,7 +51,7 @@ abstract: "Bilateral negotiation is a complex, context-sensitive task in which h
 LLM_assessed: "GPT-4, GPT-4o, GPT-4o mini, GPT-o1"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

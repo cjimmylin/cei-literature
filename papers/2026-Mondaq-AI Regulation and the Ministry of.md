@@ -2,14 +2,14 @@
 key: CGSR0145
 type: document
 short_title: "AI Regulation and the Ministry of Artificial Intelligence in Kazakhstan"
-year: 2025
+year: 2026
 first_author: [[Mondaq]]
 authors: Mondaq
 url: "https://www.mondaq.com/new-technology/1747632/ai-regulation-and-the-ministry-of-artificial-intelligence-in-kazakhstan"
 abstract: "Analysis of Kazakhstan's 2025 AI law and new Ministry of AI with seven governance principles"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

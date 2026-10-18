@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0015
 type: preprint
 short_title: "On Limitations of LLM as Annotator for Low Resource Languages (Marathi case study)"
-year: 2025
+year: 2024
 first_author: "[[Jadhav, Suramya]]"
 last_author: "[[Joshi, Raviraj]]"
 authors: "Jadhav, Suramya; Shanbhag, Abhay; Thakurdesai, Amogh; Sinare, Ridhima; Joshi, Raviraj"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Low-resource languages face significant challenges due to the lack of sufficient linguistic data, resources, and tools for tasks such as supervised learning, annotation, and classification. This shortage hinders the development of accurate models and datasets, making it difficult to perform critical NLP tasks like sentiment analysis or hate speech detection. To bridge this gap, Large Language Models (LLMs) present an opportunity for potential annotators, capable of generating datasets and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -9,7 +9,7 @@ url: "https://link.springer.com/chapter/10.1007/978-3-031-84748-6_12"
 abstract: "How international influence shapes AI policies in Latin American countries"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

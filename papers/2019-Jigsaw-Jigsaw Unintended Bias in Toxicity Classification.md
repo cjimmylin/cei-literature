@@ -6,7 +6,7 @@ Not AI:
 key: JASNQSSB
 type: document
 short_title: "Jigsaw Unintended Bias in Toxicity Classification"
-year: 2025
+year: 2019
 first_author: [[Jigsaw]]
 last_author: [[Kaggle]]
 authors: "Jigsaw; Kaggle /"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: "BERT, Llama-3"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Wolof-WTB"
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

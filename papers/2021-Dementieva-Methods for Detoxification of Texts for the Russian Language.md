@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0308
 type: preprint
 short_title: "Methods for Detoxification of Texts for the Russian Language"
-year: 2025
+year: 2021
 first_author: "[[Daryna Dementieva]]"
 last_author: "[[Alexander Panchenko]]"
 authors: "Daryna Dementieva; Daniil Moskovskiy; Varvara Logacheva; David Dale; Olga Kozlova; Nikita Semenov; Alexander Panchenko"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/skoltech-nlp/rudetoxifier"
 tags: 
 abstract: "We introduce the ﬁrst study of automatic detoxiﬁcation of Russian texts to combat offensive language. Such a kind of textual style transfer can be used, for instance, for processing toxic content in social media. While much work has been done for the English language in this ﬁeld, it has never been solved for the Russian language yet. We test two types of models – unsupervised approach based on BERT architecture that performs local corrections and supervised approach based on pretrained..."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

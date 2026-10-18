@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0200
 type: conferencePaper
 short_title: "WoNBias: A Complete Bengali Gender Bias Dataset"
-year: 2025
+year: 2024
 first_author: "[[Aupi, Md. Raisul Islam]]"
 last_author: "[[Naimur Rahman]]"
 authors: "Md. Raisul Islam Aupi; Nishat Tafannum; Md. Shahidur Rahman; Kh Mahmudul Hassan; Naimur Rahman"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-
 tags: 
 abstract: "Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women. Supports research in ethical NLP, content moderation, and computational social science."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

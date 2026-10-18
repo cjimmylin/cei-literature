@@ -6,7 +6,7 @@ Not AI:
 key: VFISSQVG
 type: conferencePaper
 short_title: "Moral Stories"
-year: 2025
+year: 2021
 first_author: "[[Denis Emelin]]"
 last_author: "[[Yejin Choi]]"
 authors: "Denis Emelin; Ronan Le Bras; Jena D. Hwang; Maxwell Forbes; Yejin Choi"
@@ -54,7 +54,7 @@ LLM_assessed: "BART, GPT-2, RoBERTa, T5"
 DATA_URL: "https://github.com/demelin/moral_stories"
 CONFERENCE: "EMNLP 2021"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

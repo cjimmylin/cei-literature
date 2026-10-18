@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0537
 type: conferencePaper
 short_title: "GREEK-BERT: The Greeks visiting Sesame Street"
-year: 2025
+year: 2020
 first_author: "[[John Koutsikakis]]"
 last_author: "[[Ion Androutsopoulos]]"
 authors: "John Koutsikakis; Ilias Chalkidis; Prodromos Malakasiotis; Ion Androutsopoulos"
@@ -53,7 +53,7 @@ tags:
 abstract: "Transformer-based language models, such as BERT and its variants, have achieved state-of-the-art performance in several downstream natural language processing (NLP) tasks on generic benchmark datasets (e.g., GLUE, SQUAD, RACE). However, these models have mostly been applied to the resource-rich English language. In this paper, we present GREEK-BERT, a monolingual BERT-based language model for modern Greek. We evaluate its performance in three NLP tasks, i.e."
 research_topic: "Bias & Fairness"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

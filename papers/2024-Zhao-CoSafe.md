@@ -6,7 +6,7 @@ Not AI:
 key: RJSE8HC4
 type: document
 short_title: CoSafe
-year: 2025
+year: 2024
 first_author: "[[Erxin Yu]]"
 last_author: "[[Lanqing Hong]]"
 authors: "Erxin Yu; Jing Li; Ming Liao; Siqi Wang; Zuchen Gao; Fei Mi; Lanqing Hong"
@@ -65,7 +65,7 @@ publication: "EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

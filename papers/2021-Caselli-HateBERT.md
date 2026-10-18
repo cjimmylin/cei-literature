@@ -6,7 +6,7 @@ Not AI:
 key: FYECJAGS
 type: conferencePaper
 short_title: HateBERT
-year: 2025
+year: 2021
 first_author: "[[Tommaso Caselli]]"
 last_author: "[[Michael Granitzer]]"
 authors: "Tommaso Caselli; Valerio Basile; Jelena Mitrović; Michael Granitzer"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://osf.io/tbd58/"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

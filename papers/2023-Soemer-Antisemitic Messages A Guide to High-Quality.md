@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0549
 type: preprint
 short_title: "Antisemitic Messages A Guide to High-Quality"
-year: 2025
+year: 2023
 first_author: "[[Gunther Jikeli]]"
 last_author: "[[Katharina Soemer]]"
 authors: "Gunther Jikeli; Sameer Karali; Daniel Miehling; Katharina Soemer"
@@ -52,7 +52,7 @@ abstract: "One of the major challenges in automatic hate speech detection is the
 LLM_assessed: NA
 DATA_URL: "https://zenodo.org/records/7932888"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

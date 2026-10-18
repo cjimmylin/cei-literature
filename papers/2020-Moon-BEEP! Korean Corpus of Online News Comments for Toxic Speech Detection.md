@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0249
 type: preprint
 short_title: "BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection"
-year: 2025
+year: 2020
 first_author: "[[Jihyung Moon]]"
 last_author: "[[Junbum Lee]]"
 authors: "Jihyung Moon; Won Ik Cho; Junbum Lee"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/kocohub/korean-hate-speech"
 tags: 
 abstract: "Toxic comments in online platforms are an unavoidable social issue under the cloak of anonymity. Hate speech detection has been actively done for languages such as English, German, or Italian, where manually labeled corpus has been released. In this work, we ﬁrst present 9.4K manually labeled entertainment news comments for identifying Korean toxic speech, collected from a widely used online news platform in Korea."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

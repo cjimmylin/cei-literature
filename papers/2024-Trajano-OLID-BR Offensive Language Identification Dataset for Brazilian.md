@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0208
 type: conferencePaper
 short_title: "OLID-BR: Offensive Language Identification Dataset for Brazilian Portuguese"
-year: 2025
+year: 2024
 first_author: "[[Douglas Trajano]]"
 last_author: "[[Renata Vieira]]"
 authors: "Douglas Trajano; Henrique Bordini; Renata Vieira"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/DougTrajano/olid-br"
 tags: 
 abstract: "Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive comments, classifying offense types (racism, LGBTQphobia, sexism, xenophobia), identifying type/target, and extracting toxic spans."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

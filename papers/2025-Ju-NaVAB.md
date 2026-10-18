@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Ju-NaVAB.pdf]]
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

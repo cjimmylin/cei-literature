@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/9d307a5478781886f5914e90de0c6efdc919
 abstract: ": The rapid advancement of artificial intelligence (AI) is fundamentally reshaping global educational ecosystems, with early childhood education—the cornerstone of lifelong learning—undergoing unprece..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

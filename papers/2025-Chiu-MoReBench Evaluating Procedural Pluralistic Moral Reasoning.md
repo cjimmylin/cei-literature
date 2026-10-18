@@ -52,7 +52,7 @@ abstract: "1,000 moral scenarios with 23,018 human-written rubric criteria. MoRe
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

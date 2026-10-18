@@ -6,7 +6,7 @@ Not AI:
 key: Y7FJU6YL
 type: conferencePaper
 short_title: "WildTeaming at Scale"
-year: 2025
+year: 2024
 first_author: "[[Liwei Jiang]]"
 last_author: "[[Nouha Dziri]]"
 authors: "Liwei Jiang; Kavel Rao; Seungju Han; Allyson Ettinger; Faeze Brahman; Sachin Kumar; Niloofar Mireshghallah; Ximing Lu; Maarten Sap; Yejin Choi; Nouha Dziri"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Mixtral, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/allenai/wildjailbreak"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Language models have made remarkable advancements in understanding an
 LLM_assessed: "Claude, Gemini, Gemma-2, GPT-4o, Llama-3"
 DATA_URL: "https://huggingface.co/spaces/malhajar"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

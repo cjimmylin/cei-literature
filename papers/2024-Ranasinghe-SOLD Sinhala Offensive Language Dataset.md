@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0169
 type: preprint
 short_title: "SOLD: Sinhala Offensive Language Dataset"
-year: 2025
+year: 2024
 first_author: "[[Ranasinghe, Tharindu]]"
 last_author: "[[Zampieri, Marcos]]"
 authors: "Ranasinghe, Tharindu; Anuradha, Isuri; Premasiri, Damith; Silva, Kanishka; Hettiarachchi, Hansi; Uyangodage, Lasitha; Zampieri, Marcos"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/Sinhala-NLP/SOLD"
 tags: 
 abstract: "The widespread of offensive content online, such as hate speech and cyber-bullying, is a global phenomenon. This has sparked interest in the artificial intelligence (AI) and natural language processing (NLP) communities, motivating the development of various systems trained to detect potentially harmful content automatically. These systems require annotated datasets to train the machine learning (ML) models."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

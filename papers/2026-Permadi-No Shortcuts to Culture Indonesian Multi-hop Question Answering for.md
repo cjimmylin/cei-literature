@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0093
 type: preprint
 short_title: "No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding"
-year: 2025
+year: 2026
 first_author: "[[Permadi, Vynska Amalia]]"
 last_author: "[[Aletras, Nikos]]"
 authors: "Permadi, Vynska Amalia; Tan, Xingwei; Moosavi, Nafise Sadat; Aletras, Nikos"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/vynsk/ID-MoCQA"
 tags: 
 abstract: "Understanding culture requires reasoning across context, tradition, and implicit social knowledge, far beyond recalling isolated facts. Yet most culturally focused question answering (QA) benchmarks rely on singlehop questions, which may allow models to exploit shallow cues rather than demonstrate genuine cultural reasoning. In this work, we introduce ID-MoCQA, the first large-scale multi-hop QA dataset for assessing the cultural understanding of large language models (LLMs), grounded in..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

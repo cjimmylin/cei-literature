@@ -6,7 +6,7 @@ Not AI:
 key: XFBL55N2
 type: journalArticle
 short_title: "Understanding hate speech"
-year: 2025
+year: 2024
 first_author: "[[Muhammad Umair Arshad]]"
 last_author: "[[Waseem Shahzad]]"
 authors: "Muhammad Umair Arshad; Waseem Shahzad"
@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

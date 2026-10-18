@@ -56,7 +56,7 @@ DATA_URL: "https://osf.io/9684s"
 DATE_ADDED: 20260207
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

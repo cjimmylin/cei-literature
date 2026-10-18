@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen-2"
 DATA_URL: "https://github.com/jonas-becker/problem-drift"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

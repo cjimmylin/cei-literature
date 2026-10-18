@@ -6,7 +6,7 @@ Not AI:
 key: ICKIA82Q
 type: conferencePaper
 short_title: "Concept Alignment"
-year: 2025
+year: 2024
 first_author: "[[Sunayana Rane]]"
 last_author: "[[Thomas L. Griffiths]]"
 authors: "Rane, Sunayana; Polyphony J. Bruna; Sucholutsky, Ilia; Kello, Christopher; Thomas L. Griffiths"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 0

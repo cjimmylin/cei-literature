@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0444
 type: preprint
 short_title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
-year: 2025
+year: 2024
 first_author: "[[Son, Guijin]]"
 last_author: "[[Kim, Seungone]]"
 authors: "Son, Guijin; Yoon, Dongkeun; Suk, Juyoung; Aula-Blasco, Javier; Aslan, Mano; Kim, Vu Trong; Islam, Shayekh Bin; Prats-Cristià, Jaume; Tormo-Bañuelos, Lucía; Kim, Seungone"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/guijinSON/MM-Eval"
 tags: 
 abstract: "As Large Language Models (LLMs) are now capable of producing fluent and coherent content in languages other than English, it is not imperative to precisely evaluate these non-English outputs. However, when assessing the outputs from mutlilingual LLMs, prior works often employed LLM based evaluators that excel at assessing English outputs, without a thorough examination of whether these evaluators could effectively assess non-English text as well."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

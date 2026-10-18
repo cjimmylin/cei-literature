@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/CYFRAGOVPL"
 tags: 
 abstract: "Family of Polish LLMs with evaluation on CPTUB benchmark assessing implied meanings and cognitively challenging questions. Includes Open PL LLM Leaderboard and Polish Medical Leaderboard."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

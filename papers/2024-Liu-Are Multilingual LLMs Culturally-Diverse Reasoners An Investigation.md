@@ -6,7 +6,7 @@ Not AI:
 key: CULT0099
 type: preprint
 short_title: "Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings"
-year: 2025
+year: 2024
 first_author: "[[Chen Cecilia Liu]]"
 last_author: "[[Iryna Gurevych]]"
 authors: "Chen Cecilia Liu; Fajri Koto; Timothy Baldwin; Iryna Gurevych"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/UKPLab/maps"
 tags: 
 abstract: "Large language models (LLMs) are highly adept at question answering and reasoning tasks, but when reasoning in a situational context, human expectations vary depending on the relevant cultural common ground. As languages are associated with diverse cultures, LLMs should also be culturally-diverse reasoners. In this paper, we study the ability of a wide range of state-of-the-art multilingual LLMs (mLLMs) to reason with proverbs and sayings in a conversational context."
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

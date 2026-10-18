@@ -51,7 +51,7 @@ abstract: "In recent years, Large Language Models (LLMs) have attracted growing 
 LLM_assessed: "Gemma-2, Qwen"
 DATA_URL: "https://github.com/momijiro/stereotype_japanese_llm"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

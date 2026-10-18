@@ -6,7 +6,7 @@ Not AI:
 key: 5KFKN3RM
 type: journalArticle
 short_title: "Universals and variations in moral decisions made"
-year: 2025
+year: 2020
 first_author: "[[Edmond Awad]]"
 last_author: "[[Jean-François Bonnefon]]"
 authors: "Edmond Awad; Sohan Dsouza; Azim Shariff; Iyad Rahwan; Jean-François Bonnefon"
@@ -54,7 +54,7 @@ DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

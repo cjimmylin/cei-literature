@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0497
 type: preprint
 short_title: "Investigating Gender Bias in Turkish Language"
-year: 2025
+year: 2024
 first_author: "[[Orhun Caglidil]]"
 last_author: "[[Georg Rehm]]"
 authors: "Orhun Caglidil; Malte Ostendorff; Georg Rehm"
@@ -52,7 +52,7 @@ abstract: "Language models are trained mostly on Web data, which often contains 
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

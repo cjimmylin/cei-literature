@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0013
 type: preprint
 short_title: RedBench
-year: 2025
+year: 2026
 first_author: "[[Quy-Anh Dang]]"
 last_author: "[[Truong-Son Hy]]"
 authors: "Quy-Anh Dang; Chris Ngo; Truong-Son Hy"
@@ -52,7 +52,7 @@ LLM_assessed: "Gemma-2, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/knoveleng/redeval"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

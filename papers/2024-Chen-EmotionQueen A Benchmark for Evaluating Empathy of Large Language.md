@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0166
 type: conferencePaper
 short_title: "EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Yuyan Chen]]"
 last_author: "[[Yanghua Xiao]]"
 authors: "Yuyan Chen; Hao Wang; Songzhou Yan; Sijia Liu; Yueze Li; Yi Zhao; Yanghua Xiao"
@@ -51,7 +51,7 @@ abstract: "Emotional intelligence in large language models (LLMs) is of great im
 LLM_assessed: "BLOOM, Claude-2, Falcon, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

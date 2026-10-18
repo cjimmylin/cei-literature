@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0229
 type: preprint
 short_title: "Albertina: Advancing Neural Encoding of Portuguese"
-year: 2025
+year: 2023
 first_author: "[[PORTULAN/CLUL team]]"
 last_author: "[[PORTULANCLUL team]]"
 authors: "PORTULAN/CLUL team"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/PORTULAN/albertina-ptbr"
 tags: 
 abstract: "To advance the neural encoding of Portuguese (PT), and a fortiori the technological preparation of this language for the digital age, we developed a Transformer-based foundation model that sets a new state of the art in this respect for two of its variants, namely European Portuguese from Portugal (PT-PT) and American Portuguese from Brazil (PT-BR). To develop this encoder, which we named Albertina PT-*, a strong model was used as a starting point, DeBERTa, and its pre-training was done over..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0171
 type: preprint
 short_title: "The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases"
-year: 2025
+year: 2024
 first_author: "[[Dipankar Das]]"
 last_author: "[[Bryan C. Semaan]]"
 authors: "Dipankar Das; Shion Guha; Jed R. Brubaker; Bryan C. Semaan"
@@ -53,7 +53,7 @@ tags:
 abstract: "Algorithmic audit of all Bengali sentiment analysis tools on PyPI and GitHub for identity-based biases across gender, religion, and nationality. Finds tools perpetuate colonial values and bias. Examines how colonial legacies impact NLP systems for Bengali communities."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

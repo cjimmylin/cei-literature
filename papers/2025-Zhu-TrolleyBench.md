@@ -52,7 +52,7 @@ LLM_assessed: "DeepSeek, GPT-4o mini, Gemini, Mistral"
 DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 10

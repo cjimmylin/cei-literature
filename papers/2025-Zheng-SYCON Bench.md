@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemma-2, Llama-3, o3"
 DATA_URL: "https://github.com/JiseungHong/SYCON-Bench"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

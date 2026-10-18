@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) are known to have the potential to gener
 LLM_assessed: "Claude, Falcon, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/mbzuai-nlp/qorgau-kaz-ru-safety"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

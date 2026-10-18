@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0221
 type: conferencePaper
 short_title: "Napolab: The Natural Portuguese Language Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Ruan Chaves]]"
 last_author: "[[Ruan Chaves]]"
 authors: "Ruan Chaves"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/nicholasKluge/TeenyTinyLlama-460m-Chat"
 tags: 
 abstract: "Large language models (LLMs) have significantly advanced natural language processing, but their progress has yet to be equal across languages. While most LLMs are trained in high-resource languages like English, multilingual models generally underperform monolingual ones. Additionally, aspects of their multilingual foundation sometimes restrict the byproducts they produce, like computational demands and licensing regimes."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

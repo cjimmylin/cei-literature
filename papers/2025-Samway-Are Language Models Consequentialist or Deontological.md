@@ -56,7 +56,7 @@ pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100

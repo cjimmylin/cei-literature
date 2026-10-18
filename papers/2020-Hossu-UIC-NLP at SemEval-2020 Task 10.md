@@ -6,7 +6,7 @@ Not AI:
 key: C7HHNAZA
 type: conferencePaper
 short_title: "UIC-NLP at SemEval-2020 Task 10"
-year: 2025
+year: 2020
 first_author: "[[Philip Hossu]]"
 last_author: "[[Natalie Parde]]"
 authors: "Philip Hossu; Natalie Parde"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

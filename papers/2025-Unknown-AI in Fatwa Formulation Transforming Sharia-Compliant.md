@@ -9,7 +9,7 @@ url: "https://www.jcli-bi.org/index.php/jcli/article/view/446"
 abstract: "AI transformation of fatwa in Islamic finance"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

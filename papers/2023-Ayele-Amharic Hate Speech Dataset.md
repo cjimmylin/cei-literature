@@ -6,7 +6,7 @@ Not AI:
 key: L2DU2UQX
 type: conferencePaper
 short_title: "Amharic Hate Speech Dataset"
-year: 2025
+year: 2023
 first_author: "[[Abinet Ayele]]"
 last_author: "[[Chris Biemann]]"
 authors: "Abinet Ayele; Seid Muhie Yimam; Yaregal Assabie Belay; Moges Asfaw; Chris Biemann"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
 pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

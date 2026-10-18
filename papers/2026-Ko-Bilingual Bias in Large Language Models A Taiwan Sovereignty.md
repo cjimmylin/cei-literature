@@ -6,7 +6,7 @@ Not AI:
 key: CULT0039
 type: preprint
 short_title: "Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study"
-year: 2025
+year: 2026
 first_author: "[[Ju-Chun Ko]]"
 last_author: "[[Ju-Chun Ko]]"
 authors: "Ju-Chun Ko"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/dAAAb/ai-taiwan-sovereignty-benchmark-pro"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual contexts, yet their consistency across languages on politically sensitive topics remains understudied. This paper presents a systematic bilingual benchmark study examining how 17 LLMs respond to questions concerning the sovereignty of the Republic of China (Taiwan) when queried in Chinese versus English. We discover significant language bias—the phenomenon where the same model produces substantively different political..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

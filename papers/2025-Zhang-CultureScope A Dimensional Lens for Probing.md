@@ -53,7 +53,7 @@ LLM_assessed: "ChatGPT, DeepSeek, GPT-4o, Qwen, Qwen-2"
 DATA_URL: "https://github.com/HoganZinger/Culture"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

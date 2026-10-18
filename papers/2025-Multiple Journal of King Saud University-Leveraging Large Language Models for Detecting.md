@@ -52,7 +52,7 @@ abstract: "Introduces ELQV (Emotionally-Labeled Quran Verses), 2,100 verses anno
 LLM_assessed: "BERT, ELMo, XLNet"
 DATA_URL: "https://github.com/Arwaalmrzoqi/ELQV"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0167
 type: conferencePaper
 short_title: "EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences"
-year: 2025
+year: 2024
 first_author: "[[Jocelyn Shen]]"
 last_author: "[[Hae Won Park]]"
 authors: "Jocelyn Shen; Yubin Kim; Mohit Hulse; Wazeer Zulfikar; Sharifa Alghowinem; Cynthia Breazeal; Hae Won Park"
@@ -51,7 +51,7 @@ abstract: "Modeling empathy is a complex endeavor that is rooted in interpersona
 LLM_assessed: GPT-4
 DATA_URL: "https://mitmedialab.github.io/empathic-stories-multimodal/"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

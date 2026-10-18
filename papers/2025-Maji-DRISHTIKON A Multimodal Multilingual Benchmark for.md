@@ -52,7 +52,7 @@ abstract: "We introduce DRISHTIKON, a first-of-its-kind multimodal and multiling
 LLM_assessed: "GPT-4o, Gemma, LLaVA, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/13ari/DRISHTIKON"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

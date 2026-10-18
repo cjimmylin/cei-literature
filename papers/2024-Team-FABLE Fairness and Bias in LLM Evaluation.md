@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0173
 type: conferencePaper
 short_title: "FABLE (Fairness and Bias in LLM Evaluation)"
-year: 2025
+year: 2024
 first_author: "[[KFUPM Research Team]]"
 last_author: "[[KFUPM Research Team]]"
 authors: "KFUPM Research Team"
@@ -50,7 +50,7 @@ abstract: "Recent failures such as Google Gemini generating people of color in N
 LLM_assessed: "GPT-3.5, GPT-4o, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

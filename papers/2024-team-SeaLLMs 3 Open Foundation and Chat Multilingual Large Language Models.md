@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0084
 type: preprint
 short_title: "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages"
-year: 2025
+year: 2024
 first_author: "[[DAMO Academy / Alibaba team]]"
 last_author: "[[DAMO Academy Alibaba team]]"
 authors: "DAMO Academy / Alibaba team"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/collections/SeaLLMs/seallms-v3-668f3a52e1e6fba
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable abilities across various tasks, yet their development has predominantly centered on high-resource languages like English and Chinese, leaving low-resource languages underserved. To address this disparity, we present SeaLLMs 3, the latest iteration of the SeaLLMs model family, tailored for Southeast Asian languages. This region, characterized by its rich linguistic diversity, has lacked adequate language technology support."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

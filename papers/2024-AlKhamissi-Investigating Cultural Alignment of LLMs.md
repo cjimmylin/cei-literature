@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0186
 type: conferencePaper
 short_title: "Investigating Cultural Alignment of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Badr AlKhamissi]]"
 last_author: "[[Mona Diab]]"
 authors: "Badr AlKhamissi; Muhammad ElNokrashy; Mai Alkhamissi; Mona Diab"
@@ -50,7 +50,7 @@ abstract: "The intricate relationship between language and culture has long been
 LLM_assessed: "GPT-3.5, Llama-2"
 DATA_URL: "https://github.com/bkhmsi/cultural-trends.git"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -2,14 +2,14 @@
 key: CGSR0084
 type: document
 short_title: "The Evolving AI Governance in Korea"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://www.tandfonline.com/doi/pdf/10.1080/18752160.2024.2348307"
 abstract: "South Korea's evolving AI governance framework"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

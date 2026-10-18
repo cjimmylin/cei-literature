@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0432
 type: preprint
 short_title: "CroissantLLM: A Truly Bilingual French-English Language Model"
-year: 2025
+year: 2024
 first_author: "[[Faysse, Manuel]]"
 last_author: "[[Colombo, Pierre]]"
 authors: "Faysse, Manuel; Fernandes, Patrick; Nuno M. Guerreiro; Loison, António; Duarte M. Alves; Corro, Caio; Boizard, Nicolas; Alves, João; Rei, Ricardo; Pedro H. Martins; Casademunt, Antoni Bigata; Yvon, François; André F. T. Martins; Viaud, Gautier; Hudelot, Céline; Colombo, Pierre"
@@ -53,7 +53,7 @@ tags:
 abstract: "We introduce CroissantLLM, a 1.3B language model pre-trained on a set of 3T English and French tokens, to bring to the research and industrial community a high-performance, fully open-sourced bilingual model that runs swiftly on consumer-grade local hardware. To that end, we pioneer the approach of training an intrinsically bilingual model with a 1:1 English-to-French pretraining data ratio, a custom tokenizer, and bilingual finetuning datasets."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

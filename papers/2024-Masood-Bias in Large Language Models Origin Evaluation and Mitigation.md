@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0814
 type: preprint
 short_title: "Bias in Large Language Models: Origin, Evaluation, and Mitigation"
-year: 2025
+year: 2024
 first_author: "[[Adnan Masood]]"
 last_author: [[Ph]]
 authors: "Adnan Masood; Ph"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) have revolutionized natural language processing, but their susceptibility to biases poses signiﬁcant challenges. This comprehensive review examines the landscape of bias in LLMs, from its origins to current mitigation strategies. We categorize biases as intrinsic and extrinsic, analyzing their manifestations in various NLP tasks. The review critically assesses a range of bias evaluation methods, including data-level, model-level, and output-level approaches,..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

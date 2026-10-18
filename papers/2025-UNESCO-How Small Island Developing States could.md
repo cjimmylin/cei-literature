@@ -9,7 +9,7 @@ url: "https://www.unesco.org/ethics-ai/en/articles/how-small-island-developing-s
 abstract: "SIDS protecting culture and creativity in AI age"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

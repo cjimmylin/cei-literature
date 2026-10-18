@@ -6,7 +6,7 @@ Not AI:
 key: BALGR5YY
 type: conferencePaper
 short_title: "The Moral Integrity Corpus"
-year: 2025
+year: 2022
 first_author: "[[Caleb Ziems]]"
 last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BART, BERT, GPT-2, T5"
 DATA_URL: "https://github.com/GT-SALT/mic"
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

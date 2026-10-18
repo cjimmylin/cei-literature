@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) have shown remarkable capabilities as au
 LLM_assessed: "GPT-3.5, GPT-4o, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/MultiagentBench/MARBLE"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0226
 type: conferencePaper
 short_title: "Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?"
-year: 2025
+year: 2024
 first_author: "[[Gabriel Assis]]"
 last_author: "[[Aline Paes]]"
 authors: "Gabriel Assis; Annie Amorim; Jonnathan Carvalho; Daniel de Oliveira; Daniela Vianna; Aline Paes"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/MeLLL-UFF/hate_speech_"
 tags: 
 abstract: "Automatically identifying hate speech is an emerging field driven by the growth of social media and the consequent amplification of communication. However, this domain faces challenges due to the nuances of the language and variations in expression. In some countries, such as Brazil, the focus of this paper, hate speech can be typified as a crime by law. Nonetheless, enforcing the law is challenging, given the complexity of distinguishing hateful comments among the volume of interactions on..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Vision-Language Models (VLMs) excel in multimodal tasks but often exhibit Westerncentric biases, limiting their effectiveness in culturally diverse regions like Southeast Asia (SEA). To address this, we introduce RICE-VL, a novel benchmark evaluating VLM cultural understanding across 11 ASEAN countries. RICE-VL includes over 28,000 human-curated Visual Question Answering (VQA) samples—covering True/False, Fill-inthe-Blank, and open-ended formats—and 1,000 image-bounding box pairs for Visual..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

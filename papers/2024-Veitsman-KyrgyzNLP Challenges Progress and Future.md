@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0602
 type: conferencePaper
 short_title: "KyrgyzNLP: Challenges, Progress, and Future"
-year: 2025
+year: 2024
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Yana Veitsman]]"
 authors: "Yana Veitsman"
@@ -52,7 +52,7 @@ DATA_URL: "https://kyrgyznlp.github.io/"
 tags: 
 abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance,..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

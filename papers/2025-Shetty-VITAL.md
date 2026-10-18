@@ -54,7 +54,7 @@ publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

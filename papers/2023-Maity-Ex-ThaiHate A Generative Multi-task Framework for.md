@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0555
 type: preprint
 short_title: "Ex-ThaiHate A Generative Multi-task Framework for"
-year: 2025
+year: 2023
 first_author: "[[Krishanu Maity]]"
 last_author: "[[Kitsuchart Pasupa]]"
 authors: "Krishanu Maity; Shaubhik Bhattacharya; Salisa Phosit; Sawarod Kongsamlit; Sriparna Saha; Kitsuchart Pasupa"
@@ -52,7 +52,7 @@ abstract: "First benchmark hate speech corpus in Thai with four annotations: hat
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

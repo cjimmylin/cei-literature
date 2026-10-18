@@ -2,14 +2,14 @@
 key: CGSR0081
 type: journalArticle
 short_title: "Artificial intelligence with American values and Chinese characteristics"
-year: 2025
+year: 2022
 first_author: "[[Emmie Hine]]"
 authors: "Emmie Hine; Luciano Floridi"
 url: "https://link.springer.com/article/10.1007/s00146-022-01499-8"
 abstract: "Comparative analysis of US and Chinese government AI policies"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

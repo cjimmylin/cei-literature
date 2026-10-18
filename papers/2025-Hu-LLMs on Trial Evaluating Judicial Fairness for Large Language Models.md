@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) are increasingly used in high-stakes fie
 LLM_assessed: "DeepSeek, GLM, Gemini, Llama-3, Mistral, Phi, Qwen, Qwen-2"
 DATA_URL: "https://github.com/THUYRan/LLM-Fairness"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

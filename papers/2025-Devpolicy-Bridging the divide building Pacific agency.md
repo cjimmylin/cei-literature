@@ -9,7 +9,7 @@ url: "https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-a
 abstract: "Building Pacific Island agency and governance in AI era"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

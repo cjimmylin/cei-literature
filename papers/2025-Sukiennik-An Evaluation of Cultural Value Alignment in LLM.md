@@ -51,7 +51,7 @@ abstract: "LLMs as intelligent agents are being increasingly applied in scenario
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3, DeepSeek, ChatGLM, Qwen-2"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

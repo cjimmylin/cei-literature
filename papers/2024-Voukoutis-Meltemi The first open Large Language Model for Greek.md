@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0528
 type: preprint
 short_title: "Meltemi: The first open Large Language Model for Greek"
-year: 2025
+year: 2024
 first_author: "[[Leon Voukoutis]]"
 last_author: "[[Vassilis Katsouros]]"
 authors: "Leon Voukoutis; Dimitris Roussis; Georgios Paraskevopoulos; Sokratis Sofianopoulos; Prokopis Prokopidis; Vassilis Papavasileiou; Athanasios Katsamanis; Stelios Piperidis; Vassilis Katsouros"
@@ -52,7 +52,7 @@ tags:
 abstract: "We describe the development and capabilities of Meltemi 7B, the ﬁrst open Large Language Model for the Greek language. Meltemi 7B has 7 billion parameters and is trained on a 40 billion token Greek corpus. For the development of Meltemi 7B, we adapt Mistral, by continuous pretraining on the Greek Corpus. Meltemi 7B contains upto-date information up to September 2023. Furthermore, we have translated and curated a Greek instruction corpus, which has been used for the instruction-tuning of a chat..."
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

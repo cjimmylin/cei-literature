@@ -9,7 +9,7 @@ url: "https://moderndiplomacy.eu/2025/12/03/papua-new-guineas-digital-transforma
 abstract: "PNG digital transformation and AI readiness compared to Pacific Island peers"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0175
 type: preprint
 short_title: "Gender Bias Mitigation for Bangla Classification Tasks"
-year: 2025
+year: 2024
 first_author: "[[Joy, Sajib Kumar Saha]]"
 last_author: "[[Shahariar, G M]]"
 authors: "Joy, Sajib Kumar Saha; Mahy, Arman Hassan; Sultana, Meherin; Abha, Azizah Mamun; Ahmmed, MD Piyal; Dong, Yue; Shahariar, G M"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/sajib-kumar/Gender-Bias-Mitigation-From-Bangla-PLM
 tags: 
 abstract: "In this study, we investigate gender bias in Bangla pretrained language models, a largely under explored area in low-resource languages. To assess this bias, we applied gender-name swapping techniques to existing datasets, creating four manually annotated, task-specific datasets for sentiment analysis, toxicity detection, hate speech detection, and sarcasm detection. By altering names and gender-specific terms, we ensured these datasets were suitable for detecting and mitigating gender bias."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: "Claude, Gemini, GPT-4, Llama-3, Mistral, Qwen-2"
 DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "ICML 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

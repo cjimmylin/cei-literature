@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0542
 type: preprint
 short_title: "Uncovering Theological and Ethical Biases in"
-year: 2025
+year: 2024
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[A. G. Elrod]]"
 authors: "A. G. Elrod"
@@ -52,7 +52,7 @@ abstract: "This paper explores theological and ethical biases in LLMs through a 
 LLM_assessed: "Claude-2, GPT-4, Llama-2, PaLM-2, Zephyr"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

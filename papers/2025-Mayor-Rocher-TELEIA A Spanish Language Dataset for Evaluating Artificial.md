@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Spanish language knowledge evaluation dataset for LLMs using expert-prepared multiple-choice questions matching the format and level of Spanish evaluation tests for humans (Instituto Cervantes format). 100 questions. Included in La Leaderboard."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

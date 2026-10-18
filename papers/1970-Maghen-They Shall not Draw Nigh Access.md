@@ -5,8 +5,8 @@ Human View note:
 Not AI: 
 key: EXSR0643
 type: preprint
-short_title: 
-year: 2025
+short_title: '"They Shall not Draw Nigh": The Access of Unbelievers to Sacred Space in Islamic and Jewish Law'
+year: 1970
 first_author: "[[Ze'ev Maghen]]"
 last_author: "[[Ze'ev Maghen]]"
 authors: "Ze'ev Maghen"
@@ -52,7 +52,7 @@ abstract: "This essay compares the Sunnī Muslim position(s) concerning the ingr
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

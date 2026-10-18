@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0144
 type: preprint
 short_title: "Agent-SafetyBench: Evaluating the Safety of LLM Agents"
-year: 2025
+year: 2024
 first_author: "[[Zhang, Zhexin]]"
 last_author: "[[Huang, Minlie]]"
 authors: "Zhang, Zhexin; Cui, Shiyao; Lu, Yida; Zhou, Jingzhuo; Yang, Junxiao; Wang, Hongning; Huang, Minlie"
@@ -52,7 +52,7 @@ abstract: "As large language models (LLMs) are increasingly deployed as agents, 
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, DeepSeek, GPT-4, GPT-4o, Gemini, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/thu-coai/Agent-SafetyBench/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "We introduce KazBench-KK, a comprehensive 7,111-question multiple-cho
 LLM_assessed: "DeepSeek, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: NA
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0556
 type: preprint
 short_title: "GPTBIAS A Comprehensive Framework for Evaluating"
-year: 2025
+year: 2023
 first_author: "[[Jiaxu Zhao]]"
 last_author: "[[Mykola Pechenizkiy]]"
 authors: "Jiaxu Zhao; Meng Fang; Shirui Pan; Wenpeng Yin; Mykola Pechenizkiy"
@@ -52,7 +52,7 @@ abstract: "Warning: This paper contains content that may be offensive or upsetti
 LLM_assessed: "BLOOM, ChatGPT, GPT-3, LLaMA"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

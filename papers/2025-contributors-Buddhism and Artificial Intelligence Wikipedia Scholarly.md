@@ -9,7 +9,7 @@ url: "https://en.wikipedia.org/wiki/Buddhism_and_artificial_intelligence"
 abstract: "Comprehensive overview of Buddhist perspectives on AI sentience, ethics, and the Bodhisattva vow for AI"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

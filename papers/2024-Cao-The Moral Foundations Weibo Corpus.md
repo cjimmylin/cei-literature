@@ -6,7 +6,7 @@ Not AI:
 key: IWWHX64V
 type: journalArticle
 short_title: "The Moral Foundations Weibo Corpus"
-year: 2025
+year: 2024
 first_author: "[[Renjie Cao]]"
 last_author: "[[Ihnaini, Baha]]"
 authors: "Cao, Renjie; Hu, Miaoyan; Wei, Jiahan; Ihnaini, Baha"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Qwen-2"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

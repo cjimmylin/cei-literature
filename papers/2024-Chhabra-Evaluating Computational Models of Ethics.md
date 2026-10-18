@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Evaluating Computational Models of Ethics"
-year: 2025
+year: 2024
 first_author: "[[Jatin Chhabra]]"
 last_author: "[[Jay Deshmukh]]"
 authors: "Jatin Chhabra; Kartik Sama; Jay Deshmukh"
@@ -54,7 +54,7 @@ LLM_assessed: NA
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 85

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0461
 type: preprint
 short_title: "Azerbaijani Toxicity Classifier"
-year: 2025
+year: 2024
 first_author: "[[Azerbaijan, LocalDoc]]"
 last_author: "[[LocalDoc Azerbaijan]]"
 authors: "LocalDoc Azerbaijan"
@@ -52,7 +52,7 @@ abstract: "Multi-label toxicity classifier for Azerbaijani text based on mDeBERT
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/spaces/LocalDoc/azerbaijani_toxicity_classifier"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

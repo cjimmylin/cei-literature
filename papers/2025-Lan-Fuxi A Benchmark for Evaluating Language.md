@@ -52,7 +52,7 @@ abstract: "Ancient Chinese text processing presents unique challenges for large 
 LLM_assessed: "ChatGLM, GPT-4o, InternLM, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/cubenlp/FuxiBench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

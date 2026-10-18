@@ -6,7 +6,7 @@ Not AI:
 key: CULT0065
 type: preprint
 short_title: "AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Basel Mousi]]"
 last_author: "[[Firoj Alam]]"
 authors: "Basel Mousi; Nadir Durrani; Fatema Ahmad; Md. Arid Hasan; Maram Hasanain; Tameem Kabbani; Fahim Dalvi; Shammur Absar Chowdhury; Firoj Alam"
@@ -53,7 +53,7 @@ tags:
 abstract: "Arabic, with its rich diversity of dialects, remains significantly underrepresented in Large Language Models, particularly in dialectal variations. We address this gap by introducing seven synthetic datasets in dialects alongside Modern Standard Arabic (MSA), created using Machine Translation (MT) combined with human post-editing. We present AraDiCE, a benchmark for Arabic Dialect and Cultural Evaluation."
 CONFERENCE: Preprint
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

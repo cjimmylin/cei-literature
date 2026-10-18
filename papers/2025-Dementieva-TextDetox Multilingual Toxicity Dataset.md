@@ -52,7 +52,7 @@ tags:
 abstract: "Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic). Hebrew added in 2025 extension. Includes multilingual toxic lexicon (176,347 entries across 15 languages) and ParaDetox parallel detoxification pairs."
 research_topic: "Machine Translation"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

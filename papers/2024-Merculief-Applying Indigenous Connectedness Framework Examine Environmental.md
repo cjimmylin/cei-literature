@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0669
 type: conferencePaper
 short_title: "Applying an Indigenous Connectedness Framework to Examine Environmental Risk and Protective Factors for Urban American I"
-year: 2025
+year: 2024
 first_author: "[[Alexis Merculief]]"
 last_author: "[[Felix B Muniz]]"
 authors: "Alexis Merculief; Monica Tsethlikai; Felix B Muniz"
@@ -52,7 +52,7 @@ abstract: "Indigenous frameworks suggest environmental risk and protective facto
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

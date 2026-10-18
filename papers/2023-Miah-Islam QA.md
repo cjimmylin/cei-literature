@@ -6,7 +6,7 @@ Not AI:
 key: A3BRN3YJ
 type: document
 short_title: "Islam QA"
-year: 2025
+year: 2023
 first_author: "[[M. Miah]]"
 last_author: "[[M. Miah]]"
 authors: "M. Miah"
@@ -50,7 +50,7 @@ DATA_URL: "https://www.kaggle.com/datasets/nazmul0087/al-quran-english-translati
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Miah-Islam QA.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -55,7 +55,7 @@ LLM_assessed: GPT-4o
 DATA_URL: "https://github.com/ksolaiman/PoliticalBiasCorpus"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

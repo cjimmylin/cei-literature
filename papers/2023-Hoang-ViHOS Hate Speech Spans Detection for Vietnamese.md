@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0361
 type: conferencePaper
 short_title: "ViHOS: Hate Speech Spans Detection for Vietnamese"
-year: 2025
+year: 2023
 first_author: "[[Phu Gia Hoang]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Phu Gia Hoang; Canh Duc Luu; Khanh Quoc Tran; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/phusroyal/ViHOS"
 tags: 
 abstract: "The rise in hateful and offensive language directed at other users is one of the adverse side effects of the increased use of social networking platforms. This could make it difficult for human moderators to review tagged comments filtered by classification systems. To help address this issue, we present the ViHOS (Vietnamese Hate and Offensive Spans) dataset, the first human-annotated corpus containing 26k spans on 11k comments."
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

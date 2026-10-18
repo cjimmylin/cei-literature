@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0213
 type: preprint
 short_title: "Sabiá: Portuguese Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Ramon Pires]]"
 last_author: "[[Rodrigo Nogueira]]"
 authors: "Ramon Pires; Hugo Abonizio; Thales Sales Almeida; Rodrigo Nogueira"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/maritaca-ai/sabia-7b"
 tags: 
 abstract: "As the capabilities of language models continue to advance, it is conceivable that “one-size-fits-all” model will remain as the main paradigm. For instance, given the vast number of languages worldwide, many of which are low-resource, the prevalent practice is to pretrain a single model on multiple languages. In this paper, we add to the growing body of evidence that challenges this practice, demonstrating that monolingual pretraining on the target language significantly improves models already..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

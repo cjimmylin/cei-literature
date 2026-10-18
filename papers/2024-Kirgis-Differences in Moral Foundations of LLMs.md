@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Differences in Moral Foundations of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Peter Kirgis]]"
 last_author: "[[Peter Kirgis]]"
 authors: "Peter Kirgis"
@@ -53,7 +53,7 @@ research_topic: "LLM Moral Foundations"
 LLM_assessed: "Claude-3 Opus, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, Grok, Llama-3, o3-mini"
 DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

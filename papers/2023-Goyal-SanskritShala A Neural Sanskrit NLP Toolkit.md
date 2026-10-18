@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0569
 type: conference_paper
 short_title: "SanskritShala A Neural Sanskrit NLP Toolkit"
-year: 2025
+year: 2023
 first_author: "[[Tushar Sandhan]]"
 last_author: "[[Pawan Goyal]]"
 authors: "Tushar Sandhan; Anshul Agarwal; Jivnesh Sandhan; Laxmidhar Behera; Pawan Goyal"
@@ -52,7 +52,7 @@ abstract: "We present a neural Sanskrit Natural Language Processing (NLP) toolki
 LLM_assessed: "ALBERT, ELMo"
 DATA_URL: "https://github.com/Jivnesh/SanskritShala"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 20
 utilitarian_ethics: 5

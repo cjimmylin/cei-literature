@@ -6,7 +6,7 @@ Not AI:
 key: NQ9R39V2
 type: conferencePaper
 short_title: "Case Repositories"
-year: 2025
+year: 2023
 first_author: "[[K. J. Kevin Feng]]"
 last_author: "[[Amy X. Zhang]]"
 authors: "K. J. Kevin Feng; Quan Ze Chen; Inyoung Cheong; King Xia; Amy X. Zhang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://social.cs.washington.edu/case-law-ai-policy/"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

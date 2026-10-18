@@ -52,7 +52,7 @@ abstract: "Framework for hate speech detection in accented and low-resource Mala
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

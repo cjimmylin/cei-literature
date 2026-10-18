@@ -6,7 +6,7 @@ Not AI:
 key: ETGFN3E4
 type: conferencePaper
 short_title: "Contextual Moral Value Alignment Through"
-year: 2025
+year: 2024
 first_author: "[[Pierre Dognin]]"
 last_author: "[[Djallel Bouneffouf]]"
 authors: "Pierre Dognin; Jesus Rios; Ronny Luss; Inkit Padhi; Matthew D Riemer; Miao Liu; Prasanna Sattigeri; Manish Nagireddy; Kush R. Varshney; Djallel Bouneffouf"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "OpenAssistant-12B, Llama-2-13B, Llama-2-7B"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

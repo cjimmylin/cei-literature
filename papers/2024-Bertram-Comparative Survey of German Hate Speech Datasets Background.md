@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0474
 type: conferencePaper
 short_title: "Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases"
-year: 2025
+year: 2024
 first_author: "[[Bertram, Markus]]"
 last_author: "[[Thomas Mandl]]"
 authors: "Markus Bertram; Johannes Schafer; Thomas Mandl"
@@ -52,7 +52,7 @@ tags:
 abstract: "The large fraction of hate speech and other offensive and objectionable content online poses a vast challenge to societies. Offensive language such as insulting, hurtful, derogatory, or obscene content directed from one person to another and open to others undermines objective discussions. Hate speech detection quality depends on the datasets available for training. Potential bias needs to be identified in order to increase the generalization performance of the trained classifiers."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

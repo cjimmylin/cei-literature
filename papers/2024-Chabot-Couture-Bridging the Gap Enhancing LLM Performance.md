@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0464
 type: conference_paper
 short_title: "Bridging the Gap Enhancing LLM Performance"
-year: 2025
+year: 2024
 first_author: "[[Tuka Alhanai]]"
 last_author: "[[Guillaume Chabot-Couture]]"
 authors: "Tuka Alhanai; Adam Kasumovic; Mohammad Ghassemi; Aven Zitzelberger; Jessica Lundin; Guillaume Chabot-Couture"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) have shown remarkable performance across
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Llama-3, Phi-3, BLOOMZ"
 DATA_URL: "https://huggingface.co/datasets/Institute-Disease-Modeling/mmlu-winogrande-afr"
 CONFERENCE: "AAAI 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

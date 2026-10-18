@@ -6,7 +6,7 @@ Not AI:
 key: CULT0032
 type: preprint
 short_title: "Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model"
-year: 2025
+year: 2023
 first_author: "[[Yen-Ting Lin]]"
 last_author: "[[Yun-Nung Chen]]"
 authors: "Yen-Ting Lin; Yun-Nung Chen"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/MiuLab/Taiwan-LLM"
 tags: 
 abstract: "In the realm of language models, the nuanced linguistic and cultural intricacies of Traditional Chinese, as spoken in Taiwan, have been largely overlooked. This paper introduces TAIWAN-LLM, a pioneering Large Language Model that specifically caters to the Traditional Chinese language, with a focus on the variant used in Taiwan. Leveraging a comprehensive pretraining corpus and instruction-finetuning datasets, we have developed a model that not only understands the complexities of Traditional..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

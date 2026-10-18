@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0341
 type: preprint
 short_title: "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism"
-year: 2025
+year: 2024
 first_author: "[[Fajcik, Martin]]"
 last_author: "[[Kydlicek, Hynek]]"
 authors: "Fajcik, Martin; Docekal, Martin; Dolezal, Jan; Ondrej, Karel; Beneš, Karel; Kapsa, Jan; Smrz, Pavel; Polok, Alexander; Hradis, Michal; Neverilova, Zuzana; Horak, Ales; Sabol, Radoslav; Stefanik, Michal; Jirkovsky, Adam; Adamczyk, David; Hyner, Petr; Hula, Jan; Kydlicek, Hynek"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/spaces/CZLC/BenCzechMark"
 tags: 
 abstract: "We present BenCzechMark (BCM), the first comprehensive Czech language benchmark designed for large language models, offering diverse tasks, multiple task formats, and multiple evaluation metrics. Its duel scoring system is grounded in statistical significance theory and uses aggregation across tasks inspired by social preference theory. Our benchmark encompasses 50 challenging tasks, with corresponding test datasets, primarily in native Czech, with 14 newly collected ones."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

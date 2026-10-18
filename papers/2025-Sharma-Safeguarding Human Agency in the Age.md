@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/3d96606b470ec81208891e7f810012275d59
 abstract: "The accelerating integration of Artificial Intelligence (AI) in education has generated unprecedented opportunities for personalized learning, data-driven decision-making, and global connectivity. How..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

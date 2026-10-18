@@ -55,7 +55,7 @@ LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Beijing-AISI/C-VARC"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

@@ -6,7 +6,7 @@ Not AI:
 key: 8Y38WDDN
 type: conferencePaper
 short_title: CMoralEval
-year: 2025
+year: 2024
 first_author: "[[Linhao Yu]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "Yu, Linhao; Leng, Yongqi; Huang, Yufei; Wu, Shang; Liu, Haixin; Ji, Xinmeng; Zhao, Jiahui; Song, Jinwang; Cui, Tingting; Cheng, Xiaoqing; Liutao, Liutao; Xiong, Deyi"
@@ -55,7 +55,7 @@ LLM_assessed: "Alpaca, ChatGPT, Llama-2, Qwen, ChatGLM, InternLM, Yi, Baichuan"
 DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

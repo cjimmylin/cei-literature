@@ -49,10 +49,10 @@ newtags:
 LLM_assessed: NA
 DATA_URL: "http://www.lunweiku.com/"
 tags: 
-abstract: "Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named \"
+abstract: "Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named \"CHisIEC\" (Chinese Implicit Sentiment Ethics Corpus). However, the search results do provide information about related Chinese sentiment analysis resources and implicit sentiment work: Researchers have constructed a fact-implied implicit sentiment corpus in Chinese, which was collected and manually labeled to create a gold st"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

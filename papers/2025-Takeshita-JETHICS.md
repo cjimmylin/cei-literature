@@ -56,7 +56,7 @@ DATA_URL: "https://github.com/Language-Media-Lab/jethics"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 100
 deontological_ethics: 100
 utilitarian_ethics: 100

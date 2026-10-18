@@ -6,7 +6,7 @@ Not AI:
 key: MOUGAN2023
 type: preprint
 short_title: "Kantian Deontology Meets AI Alignment"
-year: 2025
+year: 2023
 first_author: "[[Carlos Mougan]]"
 last_author: "[[Brand, Joshua]]"
 authors: "Mougan, Carlos; Brand, Joshua"
@@ -55,7 +55,7 @@ research_topic: "AI Safety & Alignment"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100

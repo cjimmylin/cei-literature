@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0158
 type: conferencePaper
 short_title: "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment"
-year: 2025
+year: 2024
 first_author: "[[Karina Vida]]"
 last_author: "[[A & Lauscher]]"
 authors: "Karina Vida; F. Damken; A & Lauscher"
@@ -51,7 +51,7 @@ abstract: "Large language models (LLMs) increasingly find their way into the mos
 LLM_assessed: "Falcon, GPT-3.5, Gemini, Llama-2, Llama-3"
 DATA_URL: "https://github.com/fdamken/decoding_multilingual_moral_preferences/tree/publication_aies2024"
 CONFERENCE: "AIES 2024"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

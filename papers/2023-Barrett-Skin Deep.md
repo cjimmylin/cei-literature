@@ -6,7 +6,7 @@ Not AI:
 key: N28QYZU6
 type: conferencePaper
 short_title: "Skin Deep"
-year: 2025
+year: 2023
 first_author: "[[Teanna Barrett]]"
 last_author: "[[Amy Zhang]]"
 authors: "Teanna Barrett; Quanze Chen; Amy Zhang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/Social-Futures-Lab/skin-deep"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

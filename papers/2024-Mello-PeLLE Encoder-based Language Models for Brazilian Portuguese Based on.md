@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0236
 type: preprint
 short_title: "PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data"
-year: 2025
+year: 2024
 first_author: "[[Mello, Guilherme Lamartine de]]"
 last_author: "[[Cavalim, Paulo]]"
 authors: "Mello, Guilherme Lamartine de; Finger, Marcelo; Serras, Felipe; Carpi, Miguel de Mello; Jose, Marcos Menon; Domingues, Pedro Henrique; Cavalim, Paulo"
@@ -53,7 +53,7 @@ tags:
 abstract: "In this paper we present PeLLE, a family of large language models based on the RoBERTa architecture, for Brazilian Portuguese, trained on curated, open data from the Carolina corpus. Aiming at reproducible results, we describe details of the pretraining of the models. We also evaluate PeLLE models against a set of existing multilingual and PT-BR refined pretrained Transformer-based LLM encoders, contrasting performance of large versus smaller-but-curated pretrained models in several downstream..."
 research_topic: "Machine Translation"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

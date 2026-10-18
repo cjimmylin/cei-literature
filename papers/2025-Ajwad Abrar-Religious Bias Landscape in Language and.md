@@ -52,7 +52,7 @@ abstract: "Note: This paper includes examples of potentially offensive content r
 LLM_assessed: "ALBERT, BERT, GPT-2, GPT-3.5, GPT-4, Llama-3, Mixtral, RoBERTa, Vicuna"
 DATA_URL: "https://github.com/ajwad-abrar/Religious-Bias"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

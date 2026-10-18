@@ -6,7 +6,7 @@ Not AI:
 key: 4R7UFDMF
 type: conferencePaper
 short_title: Scruples
-year: 2025
+year: 2021
 first_author: "[[Nicholas Lourie]]"
 last_author: "[[Yejin Choi]]"
 authors: "Nicholas Lourie; Ronan Le Bras; Yejin Choi"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/allenai/scruples"
 CONFERENCE: "AAAI 2021"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

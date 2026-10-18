@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0206
 type: preprint
 short_title: "HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Hate Speech and Offensive Language Detection"
-year: 2025
+year: 2022
 first_author: "[[Vargas, Francielle Alves]]"
 last_author: "[[Pardo, Thiago Alexandre Salgueiro]]"
 authors: "Vargas, Francielle Alves; Carvalho, Isabelle; Góes, Fabiana Rodrigues de; Benevenuto, Fabrício; Pardo, Thiago Alexandre Salgueiro"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/franciellevargas/HateBR"
 tags: 
 abstract: "Due to the severity of the social media offensive and hateful comments in Brazil, and the lack of research in Portuguese, this paper provides the ﬁrst large-scale expert annotated corpus of Brazilian Instagram comments for hate speech and offensive language detection. The HateBR corpus was collected from the comment section of Brazilian politicians’ accounts on Instagram and manually annotated by specialists, reaching a high inter-annotator agreement."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

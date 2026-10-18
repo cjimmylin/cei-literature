@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0631
 type: conferencePaper
 short_title: "Tinjauan terhadap Konsep Pengudusan Progresif dalam Perspektif Teologi Reformed"
-year: 2025
+year: 2024
 first_author: "[[Roberto Siahaan]]"
 last_author: "[[Roberto Siahaan]]"
 authors: "Roberto Siahaan"
@@ -52,7 +52,7 @@ abstract: "Living in holiness is an absolute command that God gives to all God's
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

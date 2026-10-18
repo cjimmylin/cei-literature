@@ -6,7 +6,7 @@ Not AI:
 key: 6JGA9KWA
 type: conferencePaper
 short_title: "High-Dimension Human Value Representation in"
-year: 2025
+year: 2024
 first_author: "[[Samuel Cahyawijaya]]"
 last_author: "[[Pascale Fung]]"
 authors: "Samuel Cahyawijaya; Delong Chen; Yejin Bang; Leila Khalatbari; Bryan Wilie; Ziwei Ji; Etsuko Ishii; Pascale Fung"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Mixtral, Aya-101, SeaLLM, BLOOMZ, ChatGLM-3, Nous-Hermes-Mixtral, SOLAR, Mistral, JAIS, Yi, Llama-2, MaralGPT, Command-R, Llama-3, ChatGPT"
 DATA_URL: NA
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: G5IILKTJ
 type: conferencePaper
 short_title: "Functional Benchmarks for Robust Evaluation of"
-year: 2025
+year: 2024
 first_author: "[[Saurabh Srivastava]]"
 last_author: "[[Sooraj Thomas]]"
 authors: "Saurabh Srivastava; Annarose M B; Anto P; Shashank Menon; Ajay Sukumar; Adwaith Samod T; Alan Philipose; Stevin Prince; Sooraj Thomas"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Mixtral, Llama-2, Qwen"
 DATA_URL: "https://github.com/consequentai/fneval/"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

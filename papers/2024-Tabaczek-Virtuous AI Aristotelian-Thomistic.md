@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_TABACZEK2024
 type: journalArticle
 short_title: "Virtuous AI Aristotelian-Thomistic"
-year: 2025
+year: 2024
 first_author: [[Tabaczek]]
 last_author: [[Mariusz]]
 authors: "Tabaczek; Mariusz"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

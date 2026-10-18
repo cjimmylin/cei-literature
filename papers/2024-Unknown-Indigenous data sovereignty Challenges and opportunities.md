@@ -2,14 +2,14 @@
 key: CGSR0092
 type: document
 short_title: "Indigenous data sovereignty: Challenges and opportunities in Aotearoa NZ"
-year: 2025
+year: 2024
 first_author: "[[John Taylor]]"
 authors: "John Taylor; Tahu Kukutai"
 url: "https://www.academia.edu/144715077/Indigenous_data_sovereignty_Challenges_and_opportunities_in_Aotearoa_NZ"
 abstract: "Indigenous data sovereignty challenges and opportunities in NZ context"
 DATE_ADDED: 20260403
 cultural_gap_category: Indigenous
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

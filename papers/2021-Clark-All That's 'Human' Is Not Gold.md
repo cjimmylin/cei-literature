@@ -6,7 +6,7 @@ Not AI:
 key: W6S5H3ZC
 type: conferencePaper
 short_title: "All That's 'Human' Is Not Gold"
-year: 2025
+year: 2021
 first_author: "[[Elizabeth Clark]]"
 last_author: "[[Noah A. Smith]]"
 authors: "Elizabeth Clark; Tal August; Sofia Serrano; Nikita Haduong; Suchin Gururangan; Noah A. Smith"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3"
 DATA_URL: NA
 CONFERENCE: "ACL 2021"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

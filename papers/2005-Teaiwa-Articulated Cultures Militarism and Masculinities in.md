@@ -2,14 +2,14 @@
 key: CGSR0187
 type: document
 short_title: "Articulated Cultures: Militarism and Masculinities in Fiji during the Mid 1990s"
-year: 2025
+year: 2005
 first_author: "[[T. Teaiwa]]"
 authors: "T. Teaiwa"
 url: "https://www.semanticscholar.org/paper/fde25c8d55a199ac6f971366d718505fef43a606"
 abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

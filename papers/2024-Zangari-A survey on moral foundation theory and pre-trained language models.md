@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0743
 type: conferencePaper
 short_title: "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY"
-year: 2025
+year: 2024
 first_author: "[[Zangari, Lorenzo]]"
 last_author: "[[Andrea Tagarelli]]"
 authors: "Zangari, Lorenzo; Candida Maria Greco; Picca, Davide; Andrea Tagarelli"
@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

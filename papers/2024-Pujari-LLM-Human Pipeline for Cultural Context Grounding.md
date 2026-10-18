@@ -6,7 +6,7 @@ Not AI:
 key: AEY3DAJG
 type: conferencePaper
 short_title: "LLM-Human Pipeline for Cultural Context Grounding"
-year: 2025
+year: 2024
 first_author: "[[Rajkumar Pujari]]"
 last_author: "[[Dan Goldwasser]]"
 authors: "Rajkumar Pujari; Dan Goldwasser"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o, Llama-3, RoBERTa"
 DATA_URL: "https://github.com/pujari-rajkumar/cultural-schema-naacl2025"
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

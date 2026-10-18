@@ -6,7 +6,7 @@ Not AI:
 key: N8MJWKVU
 type: conferencePaper
 short_title: SC-Safety
-year: 2025
+year: 2023
 first_author: "[[Liang Xu]]"
 last_author: "[[Hang Xue]]"
 authors: "Liang Xu; Kangkang Zhao; Lei Zhu; Hang Xue"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGPT, GPT-3.5, GPT-4, Llama-2, Qwen"
 DATA_URL: "https://www.CLUEbenchmarks.com"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

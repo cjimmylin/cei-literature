@@ -6,7 +6,7 @@ Not AI:
 key: SYZHU4RY
 type: journalArticle
 short_title: "Realistic Evaluation of Toxicity in Large"
-year: 2025
+year: 2024
 first_author: "[[Tinh Son Luong]]"
 last_author: "[[Thien Huu Nguyen]]"
 authors: "Tinh Son Luong; Thanh-Thien Le; Linh Ngo Van; Thien Huu Nguyen"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Mistral, Mixtral, Zephyr"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0620
 type: conferencePaper
 short_title: "A cross-validation study of Turkish sentiment analysis datasets and tools | Language Resources and Evaluation | Springer Nature Link"
-year: 2025
+year: 2024
 first_author: "[[Çakici, Sevval]]"
 last_author: "[[Hurriyetoglu, Ali]]"
 authors: "Çakici, Sevval; Karaduman, Dilara; Çirlan, Mehmet Akif; Hurriyetoglu, Ali"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/sevvalckc/Turkish-SAD"
 tags: 
 abstract: "In recent years, sentiment analysis has gained increasing significance, prompting re­ searchers to explore datasets in various languages, including Turkish. However, the limited availability and reuse of Turkish datasets across studies has yielded highly diverse outcomes. To address this, we conducted a systematic review of sentiment analysis studies on Turkish text. Our search identified 78 relevant studies, from which we extracted over 80 datasets."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

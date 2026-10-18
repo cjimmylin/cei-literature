@@ -2,14 +2,14 @@
 key: CGSR0013
 type: document
 short_title: "Artificial Intelligence and African Conceptions of Personhood"
-year: 2025
+year: 2023
 first_author: "[[C. S. Wareham]]"
 authors: "C. S. Wareham"
 url: "https://philpapers.org/rec/WARAIA-7"
 abstract: "African philosophical conceptions of personhood and AI"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

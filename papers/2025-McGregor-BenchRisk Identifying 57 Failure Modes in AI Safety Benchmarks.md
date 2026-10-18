@@ -52,7 +52,7 @@ abstract: "Large language model (LLM) benchmarks inform LLM use decisions (e.g.,
 LLM_assessed: NA
 DATA_URL: "https://github.com/BenchRisk"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

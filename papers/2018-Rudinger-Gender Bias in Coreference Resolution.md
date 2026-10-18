@@ -6,7 +6,7 @@ Not AI:
 key: ELEUTHERAI_02
 type: preprint
 short_title: "Gender Bias in Coreference Resolution"
-year: 2025
+year: 2018
 first_author: "[[Rachel Rudinger]]"
 last_author: "[[Benjamin Van Durme]]"
 authors: "Rachel Rudinger; Jason Naradowsky; Brian Leonard; Benjamin Van Durme"
@@ -45,13 +45,13 @@ newtags:
 tags: 
 pdf_extract: "PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]"
-abstract: "We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these \"
+abstract: "We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these \"Winogender schemas,\" we evaluate and confirm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
 CONF-CC: 
 DATE_ADDED: 20260312
 LLM_assessed: 
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: THMU43GQ
 type: journalArticle
 short_title: "The Moral Machine experiment"
-year: 2025
+year: 2018
 first_author: "[[Edmond Awad]]"
 last_author: "[[Iyad Rahwan]]"
 authors: "Edmond Awad; Sohan Dsouza; Richard Kim; Jonathan Schulz; Joseph Henrich; Azim Shariff; Jean-François Bonnefon; Iyad Rahwan"
@@ -53,7 +53,7 @@ DATA_URL: "https://goo.gl/JXRrBP"
 pdf_extract: "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Awad-The Moral Machine experiment.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

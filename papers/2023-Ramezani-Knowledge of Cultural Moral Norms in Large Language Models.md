@@ -6,7 +6,7 @@ Not AI:
 key: CULT0100
 type: preprint
 short_title: "Knowledge of Cultural Moral Norms in Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Aida Ramezani]]"
 last_author: "[[Xu Yang]]"
 authors: "Aida Ramezani; Xu Yang"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/AidaRamezani/cultural_inference"
 tags: 
 abstract: "Moral norms vary across cultures. A recent line of work suggests that English large language models contain human-like moral biases, but these studies typically do not examine moral variation in a diverse cultural setting. We investigate the extent to which monolingual English language models contain knowledge about moral norms in different countries. We consider two levels of analysis: 1) whether language models capture fine-grained moral variation across countries over a variety of topics..."
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

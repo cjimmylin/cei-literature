@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0008
 type: preprint
 short_title: "MedES (Chinese Medical Ethics Scenarios)"
-year: 2025
+year: 2026
 first_author: "[[Haoan Jin]]"
 last_author: "[[Mengyue Wu]]"
 authors: "Haoan Jin; Han Ying; Jiacheng Ji; Hanhui Xu; Mengyue Wu"
@@ -52,7 +52,7 @@ LLM_assessed: "GPT-3.5, GPT-4, DeepSeek, Qwen, Qwen-2, ERNIE"
 DATA_URL: "https://github.com/X-LANCE/MedEthicAlign"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

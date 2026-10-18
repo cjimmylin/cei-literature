@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0606
 type: conference_paper
 short_title: "Itihasa A Large-Scale Corpus for Sanskrit"
-year: 2025
+year: 2021
 first_author: "[[Rahul Aralikatte]]"
 last_author: "[[Anders Sogaard]]"
 authors: "Rahul Aralikatte; Miryam de Lhoneux; Anoop Kunchukuttan; Anders Sogaard"
@@ -52,7 +52,7 @@ abstract: "This work introduces Itih¯asa, a large-scale translation dataset con
 LLM_assessed: NA
 DATA_URL: "https://github.com/rahular/itihasa"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

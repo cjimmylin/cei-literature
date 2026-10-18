@@ -52,7 +52,7 @@ abstract: "Summary: First rigorous peer-review-quality benchmark for AI on Chris
 LLM_assessed: NA
 DATA_URL: "https://faithbench.com/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

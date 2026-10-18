@@ -51,7 +51,7 @@ abstract: "Existing research assesses LLMs’ values by analyzing their stated i
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/huashen218/value_action_gap"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

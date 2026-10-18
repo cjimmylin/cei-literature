@@ -6,7 +6,7 @@ Not AI:
 key: CULT0146
 type: conferencePaper
 short_title: "CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding"
-year: 2025
+year: 2024
 first_author: "[[Nayak, Shravan]]"
 last_author: "[[Aishwarya Agrawal]]"
 authors: "Shravan Nayak; Kanishk Jain; Rabiul Awal; Siva Reddy; Sjoerd van Steenkiste; Lisa Anne Hendricks; Karolina Stanczak; Aishwarya Agrawal"
@@ -49,7 +49,7 @@ DATA_URL: "https://huggingface.co/datasets/mair-lab/CulturalVQA"
 tags: 
 abstract: "Visual question-answering benchmark with 2,378 image-question pairs representing cultures from 11 countries across 5 continents. Probes understanding of clothing, food, drinks, rituals, and traditions."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

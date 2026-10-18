@@ -6,7 +6,7 @@ Not AI:
 key: CULT0005
 type: preprint
 short_title: "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns"
-year: 2025
+year: 2026
 first_author: "[[Zhenhong Zhou]]"
 last_author: "[[Zhigang Zeng]]"
 authors: "Zhenhong Zhou; Shilinlu Yan; Chuanpu Liu; Qiankun Li; Kun Wang; Zhigang Zeng"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/Yaesir06/CSSBench"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in cost-sensitive and on-device scenarios, and safety guardrails have advanced mainly in English. However, real-world Chinese malicious queries typically conceal intent via homophones, pinyin, symbol-based splitting, and other Chinese-specific patterns. These Chinese-specific adversarial patterns create the safety evaluation gap that is not well captured by existing benchmarks focused on English."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0145
 type: conferencePaper
 short_title: "Seeing Culture Benchmark: Evaluating VLMs on Culturally Rich Images from Southeast Asia"
-year: 2025
+year: 2024
 first_author: "[[Satar, Burak]]"
 last_author: "[[Chong-Wah Ngo]]"
 authors: "Burak Satar; Zhixin Ma; Patrick A. Irawan; Wilfried A. Mulyawan; Jing Jiang; Ee-Peng Lim; Chong-Wah Ngo"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmar
 tags: 
 abstract: "1,065 images capturing 138 cultural artifacts across 5 categories from 7 Southeast Asian countries, with 3,178 questions. Requires VLMs to reason on culturally rich images via multiple-choice VQA and segment cultural artifacts."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

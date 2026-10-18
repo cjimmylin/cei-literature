@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0350
 type: preprint
 short_title: "Slovene SuperGLUE Benchmark: Translation and Evaluation"
-year: 2025
+year: 2022
 first_author: "[[Ales Zagar]]"
 last_author: "[[Marko Robnik-Sikonja]]"
 authors: "Ales Zagar; Marko Robnik-Sikonja"
@@ -51,7 +51,7 @@ DATA_URL: "http://hdl.handle.net/11356/1380"
 tags: 
 abstract: "We present a Slovene combined machine-human translated SuperGLUE benchmark. We describe the translation process and problems arising due to differences in morphology and grammar. We evaluate the translated datasets in several modes: monolingual, cross-lingual, and multilingual, taking into account differences between machine and human translated training sets. The results show that the monolingual Slovene SloBERTa model is superior to massively multilingual and trilingual BERT models, but these..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

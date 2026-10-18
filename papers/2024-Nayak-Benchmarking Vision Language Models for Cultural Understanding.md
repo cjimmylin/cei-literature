@@ -6,7 +6,7 @@ Not AI:
 key: CULT0092
 type: preprint
 short_title: "Benchmarking Vision Language Models for Cultural Understanding"
-year: 2025
+year: 2024
 first_author: "[[Shravan Nayak]]"
 last_author: "[[Aishwarya Agrawal]]"
 authors: "Shravan Nayak; Kanishk Jain; Rabiul Awal; Siva Reddy; Sjoerd van Steenkiste; Lisa Anne Hendricks; Karolina Stanczak; Aishwarya Agrawal"
@@ -52,7 +52,7 @@ DATA_URL: "https://culturalvqa.org"
 tags: 
 abstract: "Foundation models and vision-language pretraining have notably advanced Vision Language Models (VLMs), enabling multimodal processing of visual and linguistic data. However, their performance has been typically assessed on general scene understanding – recognizing objects, attributes, and actions – rather than cultural comprehension. This study introduces CULTURALVQA, a visual question-answering benchmark aimed at assessing VLM’s geo-diverse cultural understanding."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

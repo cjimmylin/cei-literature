@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_SO2024
 type: journalArticle
 short_title: "AI Trained on Confucian Analects"
-year: 2025
+year: 2024
 first_author: [[So]]
 last_author: [[Emma]]
 authors: "So; Emma"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 85
 deontological_ethics: 50
 utilitarian_ethics: 0

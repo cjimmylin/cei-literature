@@ -6,7 +6,7 @@ Not AI:
 key: IQP7N9JR
 type: document
 short_title: "MERA: A Comprehensive LLM Evaluation in Russian"
-year: 2025
+year: 2024
 first_author: "[[Alena Fenogenova]]"
 last_author: "[[Markov, Sergey]]"
 authors: "Fenogenova, Alena; Chervyakov, Artem; Martynov, Nikita; Kozlova, Anastasia; Tikhonova, Maria; Akhmetgareeva, Albina; Emelyanov, Anton; Shevelev, Denis; Lebedev, Pavel; Sinev, Leonid; Isaeva, Ulyana; Kolomeytseva, Katerina; Moskovskiy, Daniil; Goncharova, Elizaveta; Savushkin, Nikita; Mikhailova, Polina; Minaeva, Anastasia; Dimitrov, Denis; Panchenko, Alexander; Markov, Sergey"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/ai-forever/MERA"
 pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

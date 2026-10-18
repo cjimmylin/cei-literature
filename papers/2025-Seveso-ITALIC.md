@@ -51,7 +51,7 @@ publication: "ACL Anthology (NAACL 2025)"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

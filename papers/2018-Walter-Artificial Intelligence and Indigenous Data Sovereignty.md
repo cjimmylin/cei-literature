@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0029
 type: conferencePaper
 short_title: "Artificial Intelligence and Indigenous Data Sovereignty"
-year: 2025
+year: 2018
 first_author: "[[Maggie Walter]]"
 last_author: "[[Tahu Kukutai]]"
 authors: "Maggie Walter; Tahu Kukutai"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Input paper for Australia's ACOLA Horizon Scanning Project on AI. Addresses Indigenous data sovereignty — the rights of Indigenous peoples to own, control, access, and possess data about their members, knowledge systems, customs, or territories — in the context of AI development."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

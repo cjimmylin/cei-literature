@@ -10,7 +10,7 @@ publication_title: "Journal of Media Ethics"
 abstract: "Comparative study of human vs LLM moral reasoning. Published in media ethics journal."
 external_pdf: 
 DOI: 10.1080/23736992.2025.2553146
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

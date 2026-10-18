@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0263
 type: preprint
 short_title: "Negation Sensitivity Index (NSI)"
-year: 2025
+year: 2026
 first_author: "[[K. Elkins]]"
 last_author: "[[J. Chun]]"
 authors: "K. Elkins; J. Chun"
@@ -51,7 +51,7 @@ abstract: "When a user tells an AI system that someone should not take an action
 LLM_assessed: "Claude, DeepSeek, Gemma, GPT-4o, Grok, Llama-3, Phi-3, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

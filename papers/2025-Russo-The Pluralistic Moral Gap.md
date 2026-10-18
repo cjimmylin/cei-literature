@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4o mini, Llama-3, Mistral, Qwen, o1, o3"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 55
 deontological_ethics: 50
 utilitarian_ethics: 55

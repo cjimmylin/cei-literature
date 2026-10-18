@@ -48,9 +48,9 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Here are the web search results for \"
+abstract: "Here are the web search results for \"transliterated text LLM evaluation safety bypass\": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

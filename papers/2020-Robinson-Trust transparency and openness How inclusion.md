@@ -2,14 +2,14 @@
 key: CGSR0206
 type: document
 short_title: "Trust, transparency, and openness: How inclusion of cultural values shapes Nordic national public policy strategies for artificial intelligence (AI)"
-year: 2025
+year: 2020
 first_author: "[[Stephen Cory Robinson]]"
 authors: "Stephen Cory Robinson"
 url: "https://www.semanticscholar.org/paper/7f3ed822919aa7dac9468b68c3f42b109a4ab2d1"
 abstract: "Abstract Using textual analysis methodology with Hofstede's cultural dimensions as basis for cross-national comparison, the manuscript explores the influence of cultural values of trust, transparency,..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

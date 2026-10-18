@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0190
 type: journalArticle
 short_title: "Automatic Hate Speech Detection in English-Odia Code Mixed Social Media Data Using Machine Learning Techniques"
-year: 2025
+year: 2021
 first_author: "[[Mohapatra, Sudhir Kumar]]"
 last_author: "[[Hu, Yuh-Chung]]"
 authors: "Mohapatra, Sudhir Kumar; Srinivas Prasad; Dwiti Krishna Bebarta; Tapan Kumar Das; Srinivasan, Kathiravan; Hu, Yuh-Chung"
@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "Hate speech on social media may spread quickly through online users and subsequently, may even escalate into local vile violence and heinous crimes. This paper proposes a hate speech detection model by means of machine learning and text mining feature extraction techniques. In this study, the authors collected the hate speech of English-Odia code mixed data from a Facebook public page and manually organized them into three classes."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

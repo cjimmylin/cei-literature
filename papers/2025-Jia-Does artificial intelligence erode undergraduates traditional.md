@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/126cf39f42cb49e76dab9d7a15e299e7c499
 abstract: "Although research has examined the influence of cultural factors on the adoption and utilization of artificial intelligence (AI), few studies have explored how the history and frequency of AI use..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

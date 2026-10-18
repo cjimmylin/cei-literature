@@ -6,7 +6,7 @@ Not AI:
 key: RGWMSH7F
 type: journalArticle
 short_title: "Controllable Preference Optimization"
-year: 2025
+year: 2024
 first_author: "[[Yiju Guo]]"
 last_author: "[[Maosong Sun]]"
 authors: "Yiju Guo; Ganqu Cui; Lifan Yuan; Ning Ding; Zexu Sun; Bowen Sun; Huimin Chen; Ruobing Xie; Jie Zhou; Yankai Lin; Zhiyuan Liu; Maosong Sun"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Mistral
 DATA_URL: "https://huggingface.co/datasets/openbmb/UltraSafety"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

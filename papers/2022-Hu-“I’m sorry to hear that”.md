@@ -6,7 +6,7 @@ Not AI:
 key: UPAVQJBQ
 type: document
 short_title: "'I'm sorry to hear that'"
-year: 2025
+year: 2022
 first_author: "[[Minda Hu]]"
 last_author: "[[King, Irwin]]"
 authors: "Hu, Minda; Li, Muzhi; Wang, Yasheng; King, Irwin"
@@ -50,7 +50,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Hu-'I'm sorry to hear that'.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

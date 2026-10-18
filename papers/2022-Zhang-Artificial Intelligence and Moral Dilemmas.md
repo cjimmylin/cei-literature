@@ -6,7 +6,7 @@ Not AI:
 key: ZHANG2022JESP
 type: journalArticle
 short_title: "AI and Moral Dilemmas"
-year: 2025
+year: 2022
 first_author: "[[Zaixuan Zhang]]"
 last_author: "[[Liying Xu]]"
 authors: "Zaixuan Zhang; Zhansheng Chen; Liying Xu"
@@ -56,7 +56,7 @@ LLM_assessed: NA
 DATA_URL: NA
 ethics_perspective: "Machine Ethics"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

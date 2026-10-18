@@ -52,7 +52,7 @@ abstract: "This research provides a unique assessment of how AI systems interpre
 LLM_assessed: "Claude, GPT-4, Gemini, Llama-3"
 DATA_URL: "https://github.com/SystemTwoAI/GenAlphaSlang"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

@@ -56,7 +56,7 @@ LLM_assessed: NA
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

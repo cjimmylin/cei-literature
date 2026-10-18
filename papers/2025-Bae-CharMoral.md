@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/BaeSuyoung/CharMoral"
 CONFERENCE: "COLING 2025"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

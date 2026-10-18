@@ -53,7 +53,7 @@ LLM_assessed: "Alpaca, Llama-2, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF"
 research_topic: Other
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

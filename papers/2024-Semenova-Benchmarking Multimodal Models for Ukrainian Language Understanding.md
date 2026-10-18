@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0315
 type: preprint
 short_title: "Benchmarking Multimodal Models for Ukrainian Language Understanding Across Academic and Cultural Domains"
-year: 2025
+year: 2024
 first_author: "[[Lesia Semenova]]"
 last_author: "[[Lesia Semenova]]"
 authors: "Lesia Semenova"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "While the evaluation of multimodal Englishcentric models is an active area of research with numerous benchmarks, there is a profound lack of benchmarks or evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision, a comprehensive multimodal Ukrainian-centric benchmark derived from standardized university entrance examination (ZNO). The benchmark consists of over 4,300 expert-crafted questions spanning 12 academic disciplines, including mathematics, physics, chemistry, and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

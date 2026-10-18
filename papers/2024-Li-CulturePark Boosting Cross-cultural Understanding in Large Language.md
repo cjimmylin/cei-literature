@@ -6,7 +6,7 @@ Not AI:
 key: CULT0140
 type: conferencePaper
 short_title: "CulturePark: Boosting Cross-cultural Understanding in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Cheng Li]]"
 last_author: "[[Jindong Wang]]"
 authors: "Cheng Li; Damien Teney; Linyi Yang; Qingsong Wen; Xing Xie; Jindong Wang"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Scarelette/CulturePark"
 tags: 
 abstract: "Cultural bias is pervasive in many large language models (LLMs), largely due to the deficiency of data representative of different cultures. Typically, cultural datasets and benchmarks are constructed either by extracting subsets of existing datasets or by aggregating from platforms such as Wikipedia and social media. However, these approaches are highly dependent on real-world data and human annotations, making them costly and difficult to scale."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

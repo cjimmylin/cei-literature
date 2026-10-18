@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0545
 type: conference_paper
 short_title: "WenMind A Comprehensive Benchmark for Evaluating"
-year: 2025
+year: 2024
 first_author: "[[Jiahuan Cao]]"
 last_author: "[[Lianwen Jin]]"
 authors: "Jiahuan Cao; Yang Liu; Yongxin Shi; Kai Ding; Lianwen Jin"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) have made significant advancements acros
 LLM_assessed: "GPT-3.5, GPT-4, Qwen-1.5, Baichuan, ChatGLM, LLaMA, Llama-2, Llama-3, Yi, Gemma, InternLM"
 DATA_URL: "https://github.com/SCUT-DLVCLab/WenMind"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

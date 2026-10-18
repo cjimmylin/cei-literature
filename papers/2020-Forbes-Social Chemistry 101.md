@@ -6,7 +6,7 @@ Not AI:
 key: G598XMUC
 type: conferencePaper
 short_title: "Social Chemistry 101"
-year: 2025
+year: 2020
 first_author: "[[Maxwell Forbes]]"
 last_author: "[[Yejin Choi]]"
 authors: "Maxwell Forbes; Jena D. Hwang; Vered Shwartz; Maarten Sap; Yejin Choi"
@@ -54,7 +54,7 @@ publication: "EMNLP 2020"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2020"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

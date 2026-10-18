@@ -6,7 +6,7 @@ Not AI:
 key: ZQVSPW2M
 type: conferencePaper
 short_title: Course-Correction
-year: 2025
+year: 2024
 first_author: "[[Rongwu Xu]]"
 last_author: "[[Han Qiu]]"
 authors: "Rongwu Xu; Yishuo Cai; Zhenhong Zhou; Renjie Gu; Haiqin Weng; Yan Liu; Tianwei Zhang; Wei Xu; Han Qiu"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGLM, Llama-2, Llama-3, Phi-3, Qwen, Vicuna, Zephyr"
 DATA_URL: "https://github.com/pillowsofwind/Course-Correction"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

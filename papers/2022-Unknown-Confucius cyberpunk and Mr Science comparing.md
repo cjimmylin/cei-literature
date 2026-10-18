@@ -2,14 +2,14 @@
 key: CGSR0077
 type: document
 short_title: "Confucius, cyberpunk and Mr. Science: comparing AI ethics principles between China and the EU"
-year: 2025
+year: 2022
 first_author: "[[Pascale Fung]]"
 authors: "Pascale Fung; Hubert Etienne"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207836/"
 abstract: "Comparative analysis of AI ethics principles between China and EU"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

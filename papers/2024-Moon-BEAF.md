@@ -6,7 +6,7 @@ Not AI:
 key: 3R3QE4AR
 type: document
 short_title: BEAF
-year: 2025
+year: 2024
 first_author: "[[Y. Moon]]"
 last_author: "[[Taehwan Oh]]"
 authors: "Moon, Y.; Nam, H.; Wonseok Choi; Taehwan Oh"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "LLaMA, Llama-2"
 DATA_URL: "https://beafbench.github.io/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 0

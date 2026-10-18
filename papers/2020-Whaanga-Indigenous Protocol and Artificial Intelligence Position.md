@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0616
 type: preprint
 short_title: "Indigenous Protocol and Artificial Intelligence Position"
-year: 2025
+year: 2020
 first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Hemi Whaanga]]"
 authors: "Jason Edward Lewis; Angie Abdilla; Noelani Arista; Kaipulaumakaniolono Baker; Scott Benesiinaabandan; Michelle Bohan Brown; Melanie Cheung; Meredith Coleman; Ashley Cordes; Joel Davison; Kupono Duncan; Sergio Garzon; D. Fox Harrell; Peter-Lucas Jones; Kekuhi Kealiikanakaoleohaililani; Megan Kelleher; Suzanne Kite; Olin Lagon; Jason Leigh; Maroussia Levesque; Keoni Mahelona; Caleb Moses; Isaac Nahuewai; Kari Noe; Danielle Marie Olson; Oiwi Parker Jones; Caroline Running Wolf; Michael Running Wolf; Marlee Silva; Skawennati Fragnito; Hemi Whaanga"
@@ -58,7 +58,7 @@ LLM_assessed: NA
 DATA_URL: "https://www.indigenous-ai.net/position-paper/"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

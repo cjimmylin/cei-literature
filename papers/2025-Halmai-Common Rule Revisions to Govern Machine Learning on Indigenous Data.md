@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Argues that the Common Rule needs revision regarding AI/ML in health research with Indigenous Peoples. Without greater consideration of collective harms, AI/ML technology can circumvent Indigenous self-determination. Calls for incorporating CARE Principles to address group harms and govern machine learning on Indigenous data."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

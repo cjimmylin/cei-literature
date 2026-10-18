@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0149
 type: preprint
 short_title: "COMPL-AI (EU AI Act Compliance)"
-year: 2025
+year: 2024
 first_author: "[[Guldimann, Philipp]]"
 last_author: "[[Vechev, Martin]]"
 authors: "Guldimann, Philipp; Spiridonov, Alexander; Staab, Robin; Jovanović, Nikola; Vero, Mark; Vechev, Velko; Gueorguieva, Anna-Maria; Balunović, Mislav; Konstantinov, Nikola; Bielik, Pavol; Tsankov, Petar; Vechev, Martin"
@@ -52,7 +52,7 @@ abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step
 LLM_assessed: "Claude-3 Opus, GPT-3.5, GPT-4, Llama-2, Llama-3, Mistral, Mixtral, Qwen-1.5, Yi"
 DATA_URL: "https://github.com/compl-ai/compl-ai"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

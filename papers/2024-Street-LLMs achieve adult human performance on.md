@@ -6,7 +6,7 @@ Not AI:
 key: V9JVA4G2
 type: journalArticle
 short_title: "LLMs achieve adult human performance on"
-year: 2025
+year: 2024
 first_author: "[[Winnie Street]]"
 last_author: "[[Robin I. M. Dunbar]]"
 authors: "Winnie Street; John Oliver Siy; Geoff Keeling; Adrien Baranes; Benjamin Barnett; Michael McKibben; Tatenda Kanyere; Alison Lentz; Blaise Aguera y Arcas; Robin I. M. Dunbar"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, LaMDA, PaLM"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

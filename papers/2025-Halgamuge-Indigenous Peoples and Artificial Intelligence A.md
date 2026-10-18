@@ -52,7 +52,7 @@ abstract: "This systematic literature review addresses the intersection of two r
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 5

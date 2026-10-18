@@ -52,7 +52,7 @@ abstract: "With over 2,000 languages and potentially millions of speakers, Afric
 LLM_assessed: GPT-4o
 DATA_URL: "https://github.com/uds-lsv/africanlp-survey"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

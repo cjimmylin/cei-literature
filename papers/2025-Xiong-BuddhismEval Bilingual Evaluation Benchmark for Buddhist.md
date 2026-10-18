@@ -52,7 +52,7 @@ abstract:
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 5

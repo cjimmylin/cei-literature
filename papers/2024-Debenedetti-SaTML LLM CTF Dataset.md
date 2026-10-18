@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0214
 type: conferencePaper
 short_title: "SaTML LLM CTF Dataset"
-year: 2025
+year: 2024
 first_author: "[[Debenedetti, Edoardo]]"
 last_author: "[[Schönherr, Lea]]"
 authors: "Debenedetti, Edoardo; Rando, Javier; Paleka, Daniel; Florin, Silaghi Fineas; Albastroiu, Dragos; Cohen, Niv; Lemberg, Yuval; Ghosh, Reshmi; Wen, Rui; Salem, Ahmed; Cherubin, Giovanni; Zanella-Beguelin, Santiago; Schmid, Robin; Klemm, Victor; Miki, Takahiro; Li, Chenhao; Kraft, Stefan; Fritz, Mario; Tramèr, Florian; Abdelnabi, Sahar; Schönherr, Lea"
@@ -52,7 +52,7 @@ abstract: "Large language model systems face important security risks from malic
 LLM_assessed: "GPT-3.5, Llama-2-70B"
 DATA_URL: "https://huggingface.co/datasets/ethz-spylab/ctf-satml24, https://github.com/ethz-spylab/satml-llm-ctf"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

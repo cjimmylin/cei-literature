@@ -52,7 +52,7 @@ abstract: "Quranic Question Answering presents unique challenges due to the ling
 LLM_assessed: "BERT, DeepSeek, Gemini"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

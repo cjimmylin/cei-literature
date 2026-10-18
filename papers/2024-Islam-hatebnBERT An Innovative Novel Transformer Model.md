@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0546
 type: preprint
 short_title: "hatebnBERT An Innovative Novel Transformer Model"
-year: 2025
+year: 2024
 first_author: "[[Islam, Mohammad Shariful]]"
 last_author: "[[Md Saifur Rahman]]"
 authors: "Mohammad Shariful Islam; Mohammad Abu Tareq Rony; Mejbah Ahammad; Shah Md Nazmul Alam; Md Saifur Rahman"
@@ -53,7 +53,7 @@ LLM_assessed: BERT
 DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

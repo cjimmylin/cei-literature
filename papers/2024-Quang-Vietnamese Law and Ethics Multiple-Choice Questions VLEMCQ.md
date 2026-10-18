@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0381
 type: conferencePaper
 short_title: "Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)"
-year: 2025
+year: 2024
 first_author: "[[Dung Nguyen Quang]]"
 last_author: "[[Dung Nguyen Quang]]"
 authors: "Dung Nguyen Quang"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa"
 tags: 
 abstract: "Multiple-choice questions testing knowledge of Vietnamese law, ethics, and social responsibility. Suitable for training and evaluating LLMs on Vietnamese ethical and legal reasoning with four-option format (A, B, C, D)."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

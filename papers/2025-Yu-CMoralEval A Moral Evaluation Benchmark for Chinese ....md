@@ -53,7 +53,7 @@ tags:
 abstract: "What a large language model (LLM) would respond in ethically relevant context? In this paper, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CMoralEval are two-fold: 1) a Chinese TV program discussing Chinese moral norms with stories from the society and 2) a collection of Chinese moral anomies from various newspapers and academic papers on morality."
 ethics_perspective: "General Ethics"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

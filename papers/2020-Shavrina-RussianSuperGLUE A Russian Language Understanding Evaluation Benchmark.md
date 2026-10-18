@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0306
 type: preprint
 short_title: "RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark"
-year: 2025
+year: 2020
 first_author: "[[Tatiana Shavrina]]"
 last_author: "[[Andrey Evlampiev]]"
 authors: "Tatiana Shavrina; Alena Fenogenova; Emelyanov Anton; Denis Shevelev; Ekaterina Artemova; Valentin Malykh; Vladislav Mikhailov; Maria Tikhonova; Andrey Chertok; Andrey Evlampiev"
@@ -53,7 +53,7 @@ tags:
 abstract: "In this paper, we introduce an advanced Russian general language understanding evaluation benchmark – RussianGLUE. Recent advances in the ﬁeld of universal language models and transformers require the development of a methodology for their broad diagnostics and testing for general intellectual skills - detection of natural language inference, commonsense reasoning, ability to perform simple logical operations regardless of text subject or lexicon."
 research_topic: "Machine Learning"
 CONFERENCE: "EMNLP 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

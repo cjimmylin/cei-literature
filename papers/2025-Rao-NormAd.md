@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-2"
 DATA_URL: "https://github.com/Akhila-Yerukola/NormAd"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

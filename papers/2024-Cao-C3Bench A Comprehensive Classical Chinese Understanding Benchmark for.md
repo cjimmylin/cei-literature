@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0669
 type: preprint
 short_title: "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Cao, Jiahuan]]"
 last_author: "[[Jin, Lianwen]]"
 authors: "Cao, Jiahuan; Shi, Yongxin; Peng, Dezhi; Liu, Yang; Jin, Lianwen"
@@ -53,7 +53,7 @@ tags:
 abstract: "Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs."
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

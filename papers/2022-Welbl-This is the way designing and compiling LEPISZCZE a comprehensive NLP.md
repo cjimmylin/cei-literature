@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0338
 type: preprint
 short_title: "This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish"
-year: 2025
+year: 2022
 first_author: "[[Johannes Welbl]]"
 last_author: "[[Jonathan H. Clark]]"
 authors: "Johannes Welbl; Jonathan H. Clark"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/CLARIN-PL/LEPISZCZE"
 tags: 
 abstract: "The availability of compute and data to train larger and larger language models increases the demand for robust methods of benchmarking the true progress of LM training. Recent years witnessed signiﬁcant progress in standardized benchmarking for English. Benchmarks such as GLUE, SuperGLUE, or KILT have become a de facto standard tools to compare large language models. Following the trend to replicate GLUE for other languages, the KLEJ benchmark1 has been released for Polish."
 CONFERENCE: "NeurIPS 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

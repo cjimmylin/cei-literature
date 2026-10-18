@@ -6,7 +6,7 @@ Not AI:
 key: Y2WI7VSJ
 type: conferencePaper
 short_title: "Evaluating Moral Beliefs across LLMs through a"
-year: 2025
+year: 2024
 first_author: "[[Xuelin Liu]]"
 last_author: "[[Yu, Dong]]"
 authors: "Liu, Xuelin; Zhu, Yanfei; Zhu, Shucheng; Liu, Pengyuan; Liu, Ying; Yu, Dong"
@@ -56,7 +56,7 @@ LLM_assessed: "ChatGLM, ChatGPT, Ernie, Gemini"
 DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 5
 deontological_ethics: 45
 utilitarian_ethics: 0

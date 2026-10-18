@@ -52,7 +52,7 @@ abstract: "Analyzes 240 outputs from GPT-5, Gemini 2.0 Pro, and LLaMA 4 for Uzbe
 LLM_assessed: "Gemini, Llama-3"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

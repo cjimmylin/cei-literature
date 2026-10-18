@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0496
 type: conferencePaper
 short_title: "IcelandicEval: Utilities to generate Icelandic evaluation data sets for LLMs"
-year: 2025
+year: 2024
 first_author: [[Miðeind]]
 last_author: [[Miðeind]]
 authors: Miðeind
@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/mideind/IcelandicEval"
 tags: 
 abstract: "Utilities for generating Icelandic LLM evaluation datasets focused on word inflection and grammatical correctness. Includes noun phrase inflection tasks across all four cases in singular and plural."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

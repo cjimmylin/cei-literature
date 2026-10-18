@@ -53,7 +53,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, Qwen, Qwen-2"
 DATA_URL: "https://e-m-n-l-p.github.io/"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

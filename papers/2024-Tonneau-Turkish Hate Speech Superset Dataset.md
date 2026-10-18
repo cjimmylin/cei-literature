@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0536
 type: preprint
 short_title: "Turkish Hate Speech Superset Dataset"
-year: 2025
+year: 2024
 first_author: "[[Manuel Tonneau]]"
 last_author: "[[Manuel Tonneau]]"
 authors: "Manuel Tonneau"
@@ -52,7 +52,7 @@ abstract: "Social media posts containing hate speech are reproduced and redistri
 LLM_assessed: BERT
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

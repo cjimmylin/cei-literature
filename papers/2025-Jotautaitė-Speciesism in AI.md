@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4o, Gemini, Grok, Llama-3, o1, o3-mini"
 DATA_URL: "https://osf.io/69epv"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

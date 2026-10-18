@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0234
 type: conferencePaper
 short_title: "Proxecto Nós: Artificial Intelligence at the Service of the Galician Language"
-year: 2025
+year: 2022
 first_author: "[[Authors from Universidade de Santiago de Compostela]]"
 last_author: "[[Authors from Universidade de Santiago de Compostela]]"
 authors: "Authors from Universidade de Santiago de Compostela"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proxecto Nós is an initiative aimed at providing the Galician language with openly licensed resources, tools, and demonstrators in the area of intelligent technologies. The Project has two main scientific and technological objectives: (i) to integrate the Galician language into cuttingedge AI and language technologies, thus enabling the natural use of Galician in human-machine interactions; and (ii) to improve the state of the art of language technologies for Galician."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

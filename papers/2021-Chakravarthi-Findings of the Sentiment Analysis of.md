@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0604
 type: preprint
 short_title: "Findings of the Sentiment Analysis of"
-year: 2025
+year: 2021
 first_author: "[[Chakravarthi, Bharathi Raja]]"
 last_author: "[[Vasantharajan, Charangan]]"
 authors: "Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Thavareesan, Sajeetha; Chinnappa, Dhivya; Thenmozhi, Durairaj; Sherly, Elizabeth; John P. McCrae; Hande, Adeep; Ponnusamy, Rahul; Banerjee, Shubhanker; Vasantharajan, Charangan"
@@ -52,7 +52,7 @@ abstract: "We present the results of the Dravidian-CodeMix shared task1 held at 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://dravidian-codemix.github.io/2021/index.html"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

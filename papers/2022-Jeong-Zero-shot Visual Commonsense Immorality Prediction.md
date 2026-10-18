@@ -6,7 +6,7 @@ Not AI:
 key: GJT972ES
 type: conferencePaper
 short_title: "Zero-shot Visual Commonsense Immorality Prediction"
-year: 2025
+year: 2022
 first_author: "[[Yujin Jeong]]"
 last_author: "[[Jinkyu Kim]]"
 authors: "Yujin Jeong; Seongbeom Park; Suhong Moon; Jinkyu Kim"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: CLIP
 DATA_URL: "https://github.com/ku-vai/Zero-shot-Visual-Commonsense-Immorality-Prediction"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

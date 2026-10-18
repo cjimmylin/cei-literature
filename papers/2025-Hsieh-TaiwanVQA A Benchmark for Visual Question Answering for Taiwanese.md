@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/datasets/hhhuang/TaiwanVQA"
 tags: 
 abstract: "Novel VQA benchmark with 2,000 image-question pairs covering Taiwanese culture and daily life including local cuisine, festivals, landmarks, and public signage. Performance gap widens between recognition (73.60%) and reasoning tasks (49.80%), indicating challenges in cultural inference."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0251
 type: preprint
 short_title: "K-HATERS: A Hate Speech Detection Corpus in Korean with Target-Specific Ratings"
-year: 2025
+year: 2023
 first_author: "[[Chaewon Park]]"
 last_author: "[[Kunwoo Park]]"
 authors: "Chaewon Park; Soohwan Kim; Kyubyong Park; Kunwoo Park"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Numerous datasets have been proposed to combat the spread of online hate. Despite these efforts, a majority of these resources are Englishcentric, primarily focusing on overt forms of hate. This research gap calls for developing high-quality corpora in diverse languages that also encapsulate more subtle hate expressions. This study introduces K-HATERS, a new corpus for hate speech detection in Korean, comprising approximately 192K news comments with target-specific offensiveness ratings."
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

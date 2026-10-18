@@ -52,7 +52,7 @@ abstract: "Experimental study showing generative AI not only reflects but amplif
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

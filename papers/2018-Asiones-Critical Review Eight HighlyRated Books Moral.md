@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0633
 type: conferencePaper
 short_title: "Critical Review of Eight Highly-Rated Books on Moral Theology: Finding a Common Ground For an Ethics Education Program"
-year: 2025
+year: 2018
 first_author: "[[Noel Asiones]]"
 last_author: "[[Noel Asiones]]"
 authors: "Noel Asiones"
@@ -52,7 +52,7 @@ abstract: "This paper reviews eight highly-rated books on Moral Theology to find
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

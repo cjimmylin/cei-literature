@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0670
 type: preprint
 short_title: "Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance"
-year: 2025
+year: 2024
 first_author: "[[Chen, Andong]]"
 last_author: "[[Zhang, Min]]"
 authors: "Chen, Andong; Lou, Lianzhang; Chen, Kehai; Bai, Xuefeng; Xiang, Yang; Yang, Muyun; Zhao, Tiejun; Zhang, Min"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

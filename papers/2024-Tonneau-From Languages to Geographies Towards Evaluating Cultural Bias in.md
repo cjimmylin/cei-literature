@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0289
 type: preprint
 short_title: "From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets"
-year: 2025
+year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Röttger, Paul]]"
 authors: "Tonneau, Manuel; Liu, Diyi; Fraiberger, Samuel; Schroeder, Ralph; Scott A. Hale; Röttger, Paul"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/manueltonneau/hs-survey-cultural-bias"
 tags: 
 abstract: "Perceptions of hate can vary greatly across cultural contexts. Hate speech (HS) datasets, however, have traditionally been developed by language. This hides potential cultural biases, as one language may be spoken in different countries home to different cultures. In this work, we evaluate cultural bias in HS datasets by leveraging two interrelated cultural proxies: language and geography. We conduct a systematic survey of HS datasets in eight languages and confirm past findings on their..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

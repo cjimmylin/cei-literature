@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BART, BERT, Baichuan, ChatGPT, Claude, DeBERTaV3, Dolly, Falcon, Flan-T5, GPT-2, GPT-3, GPT-3.5, GPT-4, Gemini, Gemma, Gemma-2, InstructGPT, LLaMA, Llama-2, Llama-3, Mistral, OPT6, Phi-3, Qwen, Qwen-2, RoBERTa, T5, Vicuna"
 DATA_URL: "https://github.com/siyaqi/Awesome-Hallu-Eval"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

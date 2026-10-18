@@ -2,14 +2,14 @@
 key: EXSR0690
 type: preprint
 short_title: "The Fragility of Moral Judgment in Large Language Models"
-year: 2025
+year: 2026
 first_author: "[[van Nuenen]]"
 authors: "van Nuenen; Sachdeva"
 url: "https://arxiv.org/abs/2603.05651"
 abstract: "2,939 dilemmas from r/AmItheAsshole. 3 perturbation families: surface edits (7.5% flip), POV shifts (24.3% flip), persuasion cues. Protocol choice dominates (only 67.6% agreement). Tests dual-process-adjacent stability. 4 models (GPT-4.1, Claude 3.7, DeepSeek V3, Qwen2.5-72B), 129K judgments."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

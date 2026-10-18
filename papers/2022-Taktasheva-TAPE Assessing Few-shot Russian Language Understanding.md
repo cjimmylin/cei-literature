@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0307
 type: preprint
 short_title: "TAPE: Assessing Few-shot Russian Language Understanding"
-year: 2025
+year: 2022
 first_author: "[[Taktasheva, Ekaterina]]"
 last_author: "[[Mikhailov, Vladislav]]"
 authors: "Taktasheva, Ekaterina; Shavrina, Tatiana; Fenogenova, Alena; Shevelev, Denis; Katricheva, Nadezhda; Tikhonova, Maria; Akhmetgareeva, Albina; Zinkevich, Oleg; Bashmakova, Anastasiia; Iordanskaia, Svetlana; Spiridonova, Alena; Kurenshchikova, Valentina; Artemova, Ekaterina; Mikhailov, Vladislav"
@@ -53,7 +53,7 @@ DATA_URL: "https://tape-benchmark.com"
 tags: 
 abstract: "Recent advances in zero-shot and few-shot learning have shown promise for a scope of research and practical purposes. However, this fast-growing area lacks standardized evaluation suites for non-English languages, hindering progress outside the Anglo-centric paradigm. To address this line of research, we propose TAPE (Text Attack and Perturbation Evaluation), a novel benchmark that includes six more complex NLU tasks for Russian, covering multi-hop reasoning, ethical concepts, logic and..."
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

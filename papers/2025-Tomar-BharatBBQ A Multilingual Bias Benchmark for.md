@@ -52,7 +52,7 @@ abstract: "Evaluating social biases in language models (LMs) is crucial for ensu
 LLM_assessed: "BLOOM, Gemma-2, Llama-3, Phi-3"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

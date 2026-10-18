@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0612
 type: preprint
 short_title: "Pretrained Models and Evaluation Data for"
-year: 2025
+year: 2021
 first_author: "[[Jiang, Shengyi]]"
 last_author: "[[Fu, Yingwen]]"
 authors: "Jiang, Shengyi; Fu, Sihui; Lin, Nankai; Fu, Yingwen"
@@ -53,7 +53,7 @@ LLM_assessed: BERT
 DATA_URL: "https://github.com/SunYanCN/seqeval"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/opendatalab/OpenHuEval"
 tags: 
 abstract: "First LLM benchmark focused on Hungarian language and cultural specifics across eight Hungarian-specific dimensions with 3,953 questions, including morphology, pragmatics, cultural knowledge, and dialectal understanding."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

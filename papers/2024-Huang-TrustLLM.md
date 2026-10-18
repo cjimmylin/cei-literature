@@ -6,7 +6,7 @@ Not AI:
 key: 2Y8UILKM
 type: conferencePaper
 short_title: TrustLLM
-year: 2025
+year: 2024
 first_author: "[[Yue Huang]]"
 last_author: "[[Zhao, Yue]]"
 authors: "Huang, Yue; Sun, Lichao; Wang, Haoran; Wu, Siyuan; Zhang, Qihui; Li, Yuan; Gao, Chujie; Huang, Yixin; Lyu, Wenhan; Zhang, Yixuan; Li, Xiner; Liu, Zhengliang; Liu, Yixin; Wang, Yijue; Zhang, Zhikun; Vidgen, Bertie; Kailkhura, Bhavya; Xiong, Caiming; Xiao, Chaowei; Li, Chunyuan; Xing, Eric; Huang, Furong; Liu, Hao; Ji, Heng; Wang, Hongyi; Zhang, Huan; Yao, Huaxiu; Kellis, Manolis; Zitnik, Marinka; Jiang, Meng; Bansal, Mohit; Zou, James; Pei, Jian; Liu, Jian; Gao, Jianfeng; Han, Jiawei; Zhao, Jieyu; Tang, Jiliang; Wang, Jindong; Vanschoren, Joaquin; Mitchell, John; Shu, Kai; Xu, Kaidi; Chang, Kai-Wei; He, Lifang; Huang, Lifu; Backes, Michael; Gong, Neil Zhenqiang; Philip S. Yu; Chen, Pin-Yu; Gu, Quanquan; Xu, Ran; Ying, Rex; Ji, Shuiwang; Jana, Suman; Chen, Tianlong; Liu, Tianming; Zhou, Tianyi; Wang, William; Li, Xiang; Zhang, Xiangliang; Wang, Xiao; Xie, Xing; Chen, Xun; Wang, Xuyu; Liu, Yan; Ye, Yanfang; Cao, Yinzhi; Chen, Yong; Zhao, Yue"
@@ -66,7 +66,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM2, ERNIE, GPT-3.5, GPT-4, Koala, Llama-2, Mistral, Oasst, PaLM-2, Vicuna, WizardLM"
 DATA_URL: "https://github.com/HowieHwong/TrustLLM"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

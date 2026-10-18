@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0165
 type: conferencePaper
 short_title: "EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans"
-year: 2025
+year: 2024
 first_author: "[[Jen-tse Huang]]"
 last_author: "[[Michael R. Lyu]]"
 authors: "Jen-tse Huang; Man Ho Lam; Eric John Li; Shujie Ren; Wenxuan Wang; Wenxiang Jiao; Zhaopeng Tu; Michael R. Lyu"
@@ -51,7 +51,7 @@ abstract: "Evaluating Large Language Models’ (LLMs) anthropomorphic capabiliti
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral, Text-Davinci-003"
 DATA_URL: "https://github.com/CUHK-ARISE/EmotionBench"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

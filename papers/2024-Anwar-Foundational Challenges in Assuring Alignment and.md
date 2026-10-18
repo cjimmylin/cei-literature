@@ -6,7 +6,7 @@ Not AI:
 key: BSSGWB3C
 type: conferencePaper
 short_title: "Foundational Challenges in Assuring Alignment and"
-year: 2025
+year: 2024
 first_author: "[[Usman Anwar]]"
 last_author: "[[David Krueger]]"
 authors: "Usman Anwar; Abulhair Saparov; Javier Rando; Daniel Paleka; Miles Turpin; Peter Hase; Ekdeep Singh Lubana; Erik Jenner; Stephen Casper; Oliver Sourbut; Benjamin L. Edelman; Zhaowei Zhang; Mario Günther; Anton Korinek; Jose Hernandez-Orallo; Lewis Hammond; Eric Bigelow; Alexander Pan; Lauro Langosco; Tomasz Korbak; Heidi Zhang; Ruiqi Zhong; Seán Ó hÉigeartaigh; Gabriel Recchia; Giulio Corsi; Alan Chan; Markus Anderljung; Lilian Edwards; Aleksandar Petrov; Christian Schroeder de Witt; Sumeet Ramesh Motwan; Yoshua Bengio; Danqi Chen; Philip H. S. Torr; Samuel Albanie; Tegan Maharaj; Jakob Foerster; Florian Tramer; He He; Atoosa Kasirzadeh; Yejin Choi; David Krueger"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: RL573MSX
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "Frontier AI Ethics"
 first_author: "[[Seth Lazar]]"
 last_author: "[[Seth Lazar]]"
@@ -51,7 +51,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Lazar-Frontier AI Ethics.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Lazar-Frontier AI Ethics.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -2,14 +2,14 @@
 key: CGSR0046
 type: document
 short_title: "A Middle Path for AI Ethics? Some Buddhist Reflections"
-year: 2025
+year: 2024
 first_author: "[[Jane Compson]]"
 authors: "Jane Compson; Mark Graves; Peter D. Hershock; Nikki Mirghafori"
 url: "https://www.tandfonline.com/doi/full/10.1080/14746700.2024.2436776"
 abstract: "Buddhist Middle Path applied to AI ethics questions"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: "Claude-3, GPT-4o, GPT-4o mini, Gemini, Gemma, Gemma-2, LLaMA, Lla
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/MILU"
 research_topic: "Machine Learning"
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

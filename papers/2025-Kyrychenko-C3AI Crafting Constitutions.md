@@ -10,7 +10,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 DATA_URL: 
-ethics_overall: No
+ethics_overall: 0
 source: external_search_benchmark_analysis
 date_added: 2026-04-04
 LLM_assessed: No

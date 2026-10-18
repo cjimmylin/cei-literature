@@ -6,7 +6,7 @@ Not AI:
 key: JR85YRDT
 type: conferencePaper
 short_title: "AI Deception"
-year: 2025
+year: 2023
 first_author: "[[Peter S. Park]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Peter S. Park; Simon Goldstein; Aidan O'Gara; Michael Chen; Dan Hendrycks"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

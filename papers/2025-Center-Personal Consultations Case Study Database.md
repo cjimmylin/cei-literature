@@ -51,7 +51,7 @@ pdf_extract:
 no_pdf_applicable: true
 local_pdf: N/A
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

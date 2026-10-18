@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/TomBladsjo/MARB"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

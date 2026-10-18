@@ -2,14 +2,14 @@
 key: CGSR0190
 type: document
 short_title: "Sustainable Education, Research, and Innovation in the Age of Artificial Intelligence: Empowering Informed and Responsible Action for a Sustainable Future"
-year: 2025
+year: 2026
 first_author: "[[Davendra Sharma]]"
 authors: "Davendra Sharma"
 url: "https://www.semanticscholar.org/paper/90c98cb8b288f26b9d5b3ec9d8b3e6bf10288e83"
 abstract: "The accelerating integration of artificial intelligence (AI) into education, research, and innovation presents both transformative opportunities and profound ethical, cultural, and sustainability chal..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

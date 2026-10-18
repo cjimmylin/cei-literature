@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0142
 type: conferencePaper
 short_title: "Offensive Language Detection in Low Resource Languages: A Use Case of Persian Language"
-year: 2025
+year: 2024
 first_author: "[[Mozafari, Marzieh]]"
 last_author: "[[Crespi, Noel]]"
 authors: "Mozafari, Marzieh; Mnassri, Khouloud; Reza Farahbakhsh; Crespi, Noel"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/marzimzf/Persian_offensive_language_data"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Different types of abusive content such as offensive language, hate speech, aggression, etc. have become prevalent in social media and many efforts have been dedicated to automatically detect this phenomenon in different resource-rich languages such as English. This is mainly due to the comparative lack of annotated data related to offensive language in lowresource languages, especially the..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

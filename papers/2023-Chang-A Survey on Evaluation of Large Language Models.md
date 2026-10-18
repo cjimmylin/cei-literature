@@ -6,7 +6,7 @@ Not AI:
 key: SK4P2LGS
 type: conferencePaper
 short_title: "A Survey on Evaluation of Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Yupeng Chang]]"
 last_author: "[[Xing Xie]]"
 authors: "Yupeng Chang; Xu Wang; Jindong Wang; Yuan Wu; Linyi Yang; Kaijie Zhu; Hao Chen; Xiaoyuan Yi; Cunxiang Wang; Yidong Wang; Wei Ye; Yue Zhang; Yi Chang; Philip S. Yu; Qiang Yang; Xing Xie"
@@ -56,7 +56,7 @@ LLM_assessed: NA
 DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, GPT-4o, GPT-4o mini, Gemini, o1-
 DATA_URL: "https://www.kaggle.com/facts-leaderboard"
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

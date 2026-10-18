@@ -52,7 +52,7 @@ LLM_assessed: "ChatGLM, ChatGPT, GPT-4, LLaMA, Vicuna"
 DATA_URL: "https://github.com/LLM-Ethics/EthicsSuite"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

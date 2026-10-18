@@ -6,7 +6,7 @@ Not AI:
 key: APKZ7QRP
 type: conferencePaper
 short_title: "Social Bias Frames"
-year: 2025
+year: 2020
 first_author: "[[Maarten Sap]]"
 last_author: "[[Yejin Choi]]"
 authors: "Maarten Sap; Saadia Gabriel; Lianhui Qin; Dan Jurafsky; Noah A. Smith; Yejin Choi"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "http://tinyurl.com/social-bias-frames"
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

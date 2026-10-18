@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0487
 type: preprint
 short_title: "SDU's DAISY: A Benchmark for Danish Culture"
-year: 2025
+year: 2026
 first_author: "[[Various (SDU/Schneiderkamp Lab)]]"
 last_author: "[[Various (SDUSchneiderkamp Lab)]]"
 authors: "Various (SDU/Schneiderkamp Lab)"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/schneiderkamplab/SDU-Daisy"
 tags: 
 abstract: "We introduce a new benchmark for Danish culture via cultural heritage, Daisy, based on the curated topics from the Danish Culture Canon 2006. For each artifact in the culture canon, we query the corresponding Wikipedia page and have a language model generate random questions. This yields a sampling strategy within each work, with a mix of central of peripheral questions for each work, not only knowledge of mainstream information, but also in-depth cornerstones defining the heritage of Danish..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -2,14 +2,14 @@
 key: CGSR0030
 type: document
 short_title: "Artificial Intelligence for Social Good in Latin America and the Caribbean"
-year: 2025
+year: 2024
 first_author: "[[IDB (Inter-American Development Bank)]]"
 authors: "IDB (Inter-American Development Bank)"
 url: "https://publications.iadb.org/en/artificial-intelligence-for-social-good-in-latin-america-and-the-caribbean-the-regional-landscape-and-12-country-snapshots"
 abstract: "Regional landscape of AI for social good with 12 country snapshots across LAC"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0309
 type: preprint
 short_title: "Quran-MD A Fine-Grained Multilingual Multimodal Dataset"
-year: 2025
+year: 2026
 first_author: "[[Muhammad Umar Salman]]"
 last_author: "[[Mohammed Talha Alam]]"
 authors: "Muhammad Umar Salman; Mohammad Areeb Qazi; Mohammed Talha Alam"
@@ -52,7 +52,7 @@ abstract: "We present QURAN-MD, a comprehensive multimodal dataset of the Qur’
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset"
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

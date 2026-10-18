@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0031
 type: conferencePaper
 short_title: "First Nations and Artificial Intelligence Research Paper"
-year: 2025
+year: 2024
 first_author: "[[Chiefs of Ontario]]"
 last_author: "[[Research and Data Management Sector]]"
 authors: "Chiefs of Ontario; Research and Data Management Sector"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Analyzes the effects of AI on First Nations in Ontario, Canada. Lays out the nature of AI technology, proposed regulations, and consequences for First Nations communities. Notes AI has potential but comes paired with serious risks for First Nations peoples."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

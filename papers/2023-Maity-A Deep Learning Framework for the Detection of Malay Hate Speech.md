@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0107
 type: conferencePaper
 short_title: "A Deep Learning Framework for the Detection of Malay Hate Speech"
-year: 2025
+year: 2023
 first_author: "[[Krishanu Maity]]"
 last_author: "[[Manjeevan Seera]]"
 authors: "Krishanu Maity; Shaubhik Bhattacharya; Sriparna Saha; Manjeevan Seera"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"
 tags: 
 abstract: "Although social media can efficiently disseminate information, they also facilitate the dissemination of online abuse, harassment, and hate speech. In 2019, United Nations Secretary-General introduced the United Nations Strategy and Plan of Action on Hate Speech in response to the alarming global trend of rising hate speech. It is crucial to prevent hate speech because it can have severe negative effects on both individuals and society."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

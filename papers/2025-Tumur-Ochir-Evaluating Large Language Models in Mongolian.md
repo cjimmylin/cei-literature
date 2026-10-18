@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/ku-nlp/monmlu"
 tags: 
 abstract: "This paper presents a comprehensive evaluation for assessing large language model (LLM) capabilities in the Mongolian language, addressing a critical gap in multilingual LLM evaluation. We introduce MonMLU, a novel benchmark derived from native-level university entrance exams, alongside Mongolian adaptations of established benchmarks including Vicuna, MT-Bench, MGSM, and XCOPA. Our evaluation of leading commercial and openly available models reveals that while GPT-4o-mini achieves the highest..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

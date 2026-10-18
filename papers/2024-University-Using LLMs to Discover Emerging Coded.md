@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0544
 type: preprint
 short_title: "Using LLMs to Discover Emerging Coded"
-year: 2025
+year: 2024
 first_author: "[[University), Multiple authors (American]]"
 last_author: "[[Multiple authors (American University)]]"
 authors: "Multiple authors (American University)"
@@ -52,7 +52,7 @@ abstract: "Online hate speech proliferation has created a difficult problem for 
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

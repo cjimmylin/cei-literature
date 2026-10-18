@@ -6,7 +6,7 @@ Not AI:
 key: CULT0122
 type: conferencePaper
 short_title: "Indigenous Language Technology in the Age of Machine Learning"
-year: 2025
+year: 2024
 first_author: "[[Moshagen, Sjur]]"
 last_author: "[[Trond Trosterud]]"
 authors: "Sjur Moshagen; Lene Antonsen; Linda Wiechetek; Trond Trosterud"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Examines how very few Indigenous languages have the necessary amount of texts for making tools based on machine learning technology. When most language technology is based on LLMs, it risks most Indigenous language online text being produced by neural text generation, making online texts potentially untrustworthy as sources for authentic Indigenous languages. Addresses critical evaluation challenges for indigenous language AI."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

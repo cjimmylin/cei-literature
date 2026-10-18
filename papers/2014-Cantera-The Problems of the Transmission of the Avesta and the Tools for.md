@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0017
 type: conferencePaper
 short_title: "The Problems of the Transmission of the Avesta and the Tools for Avestan Text Criticism (TATEC)"
-year: 2025
+year: 2014
 first_author: "[[Alberto Cantera]]"
 last_author: "[[Alberto Cantera]]"
 authors: "Alberto Cantera"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes computational tools for text criticism of the Avesta (Zoroastrian sacred texts), combining philological analysis with computer-based methods to calculate pregenealogical coherence. Addresses the complex transmission of Avestan liturgical texts used in Zoroastrian ceremonies since the sixth century BC, producing computational stemmata."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0005
 type: conferencePaper
 short_title: "Building Interpretable Models for Moral Decision-Making"
-year: 2025
+year: 2026
 first_author: "[[M. Goel]]"
 last_author: "[[A Das]]"
 authors: "M. Goel; A Das"
@@ -51,7 +51,7 @@ abstract: "We build a custom transformer model to study how neural networks make
 LLM_assessed: NA
 DATA_URL: "https://github.com/Lossfunk/modeling-moral-machine"
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

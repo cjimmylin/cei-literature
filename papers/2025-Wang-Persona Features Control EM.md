@@ -8,7 +8,7 @@ authors: "Miles Wang; Tom Dupré la Tour; Olivia Watkins; Alex Makelov; Ryan A. 
 url: "https://arxiv.org/abs/2506.19823"
 external_pdf: "https://arxiv.org/pdf/2506.19823.pdf"
 abstract: "Understanding how language models generalize behaviors from their training to a broader deployment distribution is an important problem in AI safety. Betley et al. discovered that fine-tuning GPT-4o on intentionally insecure code causes 'emergent misalignment,' where models give stereotypically malicious responses to unrelated prompts. We extend this work, demonstrating emergent misalignment across diverse conditions, including reinforcement learning on reasoning models, fine-tuning on various synthetic datasets, and in models without safety training. To investigate the mechanisms behind this generalized misalignment, we apply a 'model diffing' approach using sparse autoencoders to compare internal model representations before and after fine-tuning. This approach reveals several 'misaligned persona' features in activation space, including a toxic persona feature which most strongly controls emergent misalignment and can be used to predict whether a model will exhibit such behavior. Additionally, we investigate mitigation strategies, discovering that fine-tuning an emergently misaligned model on just a few hundred benign samples efficiently restores alignment."
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

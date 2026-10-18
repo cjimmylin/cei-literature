@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0476
 type: conferencePaper
 short_title: "German HateSpeech Corpus"
-year: 2025
+year: 2021
 first_author: "[[Cophi-Wue (University of Wuerzburg)]]"
 last_author: "[[Cophi-Wue (University of Wuerzburg)]]"
 authors: "Cophi-Wue (University of Wuerzburg)"
@@ -52,7 +52,7 @@ tags:
 abstract: "We provide a German corpus consisting of 7,061 posts authored by users of social media platforms. A group of volunteers annotated each post according to hatespeech and misogynistic/misogynous hatespeech in a binary fashion. The interrater reliability over all annotators according to Fleiss’ Kappa is 0.6409 for hatespeech and 0.8258 for misogynistic hatespeech. Furthermore, baseline measurements with machine learning based text classification with BERT are presented."
 research_topic: "Machine Learning"
 CONFERENCE: "AAAI 2021"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

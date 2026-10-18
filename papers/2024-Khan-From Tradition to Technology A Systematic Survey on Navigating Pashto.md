@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0165
 type: conferencePaper
 short_title: "From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP"
-year: 2025
+year: 2024
 first_author: "[[Zohaib Ahmad Khan]]"
 last_author: "[[Nek Dil Khan]]"
 authors: "Zohaib Ahmad Khan; Yuanqing Xia; Fiza Khaliq; Javed Ali Khan; Nek Dil Khan"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Systematic survey of Pashto NLP covering text processing, sentiment analysis, machine translation, and other tasks. Reviews challenges and opportunities for Pashto computational linguistics."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

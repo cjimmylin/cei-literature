@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0041
 type: preprint
 short_title: "XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs"
-year: 2025
+year: 2026
 first_author: "[[Kabir, Mohsinul]]"
 last_author: "[[Ananiadou, Sophia]]"
 authors: "Kabir, Mohsinul; Ahmed, Tasnim; Rahman, Md Mezbaur; Ji, Shaoxiong; Alhuzali, Hassan; Ananiadou, Sophia"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/mohsinulkabir14/xcr_bench"
 tags: 
 abstract: "Cross-cultural competence in large language models (LLMs) requires the ability to identify Culture-Specific Items (CSIs) and to adapt them appropriately across cultural contexts. Progress in evaluating this capability has been constrained by the scarcity of high-quality CSIannotated corpora with parallel cross-cultural sentence pairs. To address this limitation, we introduce XCR-Bench, a Cross(X)-Cultural Reasoning Benchmark consisting of 4."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

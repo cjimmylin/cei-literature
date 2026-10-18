@@ -6,10 +6,10 @@ year: 2025
 first_author: "[[Betty Wakia]]"
 authors: "Betty Wakia"
 url: "https://www.semanticscholar.org/paper/29b3efe06bfd1af2ba033b67d346e5dca8e5d397"
-abstract: "Papua New Guineans use the word \"
+abstract: "Papua New Guineans use the word \"kaikaimanism\" to characterize a political system whereby goods or services are exchanged for political backing, perhaps including an either explicit or implicit quid p..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

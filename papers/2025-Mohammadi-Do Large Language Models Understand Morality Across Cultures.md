@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Recent advancements in large language models (LLMs) have established them as powerful tools across numerous domains. However, persistent concerns about embedded biases, such as gender, racial, and cultural biases arising from their training data, raise significant questions about the ethical use and societal consequences of these technologies. This study investigates the extent to which LLMs capture cross-cultural differences and similarities in moral perspectives."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 25
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

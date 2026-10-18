@@ -6,7 +6,7 @@ Not AI:
 key: 7MZ3CRJK
 type: conferencePaper
 short_title: "Is ETHICS about ethics?"
-year: 2025
+year: 2024
 first_author: "[[Leif Hancox-Li]]"
 last_author: "[[Borhane Blili-Hamelin]]"
 authors: "Leif Hancox-Li; Borhane Blili-Hamelin"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 100
 deontological_ethics: 100
 utilitarian_ethics: 100

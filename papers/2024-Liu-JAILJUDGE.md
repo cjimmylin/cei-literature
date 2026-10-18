@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0188
 type: preprint
 short_title: JAILJUDGE
-year: 2025
+year: 2024
 first_author: "[[Fan Liu]]"
 last_author: "[[Hao Liu]]"
 authors: "Fan Liu; Yue Feng; Zhao Xu; Lixin Su; Xinyu Ma; Dawei Yin; Hao Liu"
@@ -52,7 +52,7 @@ LLM_assessed: "GPT-3.5, GPT-4, LLaMA, Mistral, Qwen, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/usail-hkust/JailJudge"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

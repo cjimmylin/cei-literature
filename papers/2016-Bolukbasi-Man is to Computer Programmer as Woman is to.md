@@ -6,7 +6,7 @@ Not AI:
 key: UGFNILD5
 type: conferencePaper
 short_title: "Man is to Computer Programmer as Woman is to"
-year: 2025
+year: 2016
 first_author: "[[Tolga Bolukbasi]]"
 last_author: "[[Adam Kalai]]"
 authors: "Tolga Bolukbasi; Kai-Wei Chang; James Zou; Venkatesh Saligrama; Adam Kalai"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2016"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

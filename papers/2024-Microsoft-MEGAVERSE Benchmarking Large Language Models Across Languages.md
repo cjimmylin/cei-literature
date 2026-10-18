@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0056
 type: conferencePaper
 short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks"
-year: 2025
+year: 2024
 first_author: "[[Ahuja, Sanchit]]"
 last_author: "[[Sitaram, Sunayana]]"
 authors: "Ahuja, Sanchit; Aggarwal, Divyanshu; Gumma, Varun; Watts, Ishaan; Sathe, Ashutosh; Ochieng, Millicent; Hada, Rishav; Jain, Prachi; Axmed, Maxamed; Bali, Kalika; Sitaram, Sunayana"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "There has been a surge in LLM evaluation research to understand LLM capabilities and limitations. However, much of this research has been confined to English, leaving LLM building and evaluation for non-English languages relatively unexplored. Several new LLMs have been introduced recently, necessitating their evaluation on non-English languages. This study aims to perform a thorough evaluation of the non-English capabilities of SoTA LLMs (GPT-3."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "The present thesis aims at the possibility and limitation of culture transmission in Chinese-English literary translation, that is, whether culture can be successfully transmitted in this process. Meanwhile, under related theories, a systemic study will be conducted into Fortress Besieged (Weicheng’s English version) concerning cultural translation. To achieve the set goal of our study, the present thesis first gives an overview of Weicheng (《围城》) and its English version Fortress Besieged, and..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

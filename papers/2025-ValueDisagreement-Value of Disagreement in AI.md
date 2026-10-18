@@ -10,7 +10,7 @@ publication_title: "FAccT 2025"
 abstract: "Examines disagreement as productive for AI design and evaluation. FAccT paper on value pluralism in alignment."
 external_pdf: 
 DOI: 10.1145/3715275.3732146
-ethics_overall: No
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

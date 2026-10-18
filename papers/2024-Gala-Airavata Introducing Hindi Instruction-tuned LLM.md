@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0458
 type: preprint
 short_title: "Airavata Introducing Hindi Instruction-tuned LLM"
-year: 2025
+year: 2024
 first_author: "[[Jay Gala]]"
 last_author: "[[Anoop Kunchukuttan]]"
 authors: "Jay Gala; Thanmay Jayakumar; Jaavid Aktar Husain; Aswanth Kumar M; Mohammed Safi Ur Rahman Khan; Diptesh Kanojia; Ratish Puduppully; Mitesh M. Khapra; Raj Dabre; Rudra Murthy; Anoop Kunchukuttan"
@@ -51,7 +51,7 @@ abstract: "We announce Airavata, an instruction-tuned model for Hindi built upon
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: "https://github.com/AI4Bharat/IndicInstruct"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

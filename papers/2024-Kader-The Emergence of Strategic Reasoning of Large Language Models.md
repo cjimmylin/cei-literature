@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0220
 type: preprint
 short_title: "The Emergence of Strategic Reasoning of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Gavin Kader]]"
 last_author: "[[Dongwoo Lee]]"
 authors: "Gavin Kader; Dongwoo Lee"
@@ -51,7 +51,7 @@ abstract: "As large language models (LLMs) have demonstrated strong reasoning ab
 LLM_assessed: "Claude-3 Sonnet, GPT-4, Gemini, o1-preview"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

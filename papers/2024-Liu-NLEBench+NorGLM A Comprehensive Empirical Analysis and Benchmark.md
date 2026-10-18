@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0480
 type: preprint
 short_title: "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian"
-year: 2025
+year: 2024
 first_author: "[[Liu, Peng]]"
 last_author: "[[Yang, Zhirong]]"
 authors: "Liu, Peng; Zhang, Lemei; Farup, Terje; Even W. Lauvrak; Ingvaldsen, Jon Espen; Eide, Simen; Gulla, Jon Atle; Yang, Zhirong"
@@ -53,7 +53,7 @@ tags:
 abstract: "Norwegian, spoken by only 5 million population, is under-representative within the most impressive breakthroughs in NLP tasks. To the best of our knowledge, there has not yet been a comprehensive evaluation of the existing language models (LMs) on Norwegian generation tasks during the article writing process. To fill this gap, we 1) compiled the existing Norwegian dataset and pre-trained 4 Norwegian Open Language Models varied from parameter scales and architectures, collectively called NorGLM;..."
 research_topic: "Machine Learning"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

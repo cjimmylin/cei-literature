@@ -52,7 +52,7 @@ abstract: "Misinformation is a growing concern in a decade involving critical gl
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "AAAI 2026"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

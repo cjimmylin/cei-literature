@@ -6,7 +6,7 @@ Not AI:
 key: SERAFIMOVA2020HSSC
 type: journalArticle
 short_title: "Whose Morality Which Rationality"
-year: 2025
+year: 2020
 first_author: "[[Silviya Serafimova]]"
 last_author: "[[Silviya Serafimova]]"
 authors: "Silviya Serafimova"
@@ -56,7 +56,7 @@ LLM_assessed: NA
 DATA_URL: NA
 ethics_perspective: "General Ethics"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 15
 deontological_ethics: 50
 utilitarian_ethics: 100

@@ -2,14 +2,14 @@
 key: CGSR0160
 type: journalArticle
 short_title: "Artificial Intelligence in the Colonial Matrix of Power"
-year: 2025
+year: 2023
 first_author: "[[James Muldoon]]"
 authors: "James Muldoon; Boxi A Wu"
 url: "https://link.springer.com/article/10.1007/s13347-023-00687-8"
 abstract: "Quijano's colonial matrix of power applied to AI systems and coloniality of knowledge"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

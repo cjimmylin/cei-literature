@@ -6,7 +6,7 @@ Not AI:
 key: B8YB9NHK
 type: conferencePaper
 short_title: CValues
-year: 2025
+year: 2023
 first_author: "[[Guohai Xu]]"
 last_author: "[[Jingren Zhou]]"
 authors: "Guohai Xu; Jiayi Liu; Ming Yan; Haotian Xu; Jinghui Si; Zhuoran Zhou; Peng Yi; Xing Gao; Jitao Sang; Rong Zhang; Ji Zhang; Chao Peng; Fei Huang; Jingren Zhou"
@@ -55,7 +55,7 @@ LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/X-PLUG/CValues"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

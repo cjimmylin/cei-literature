@@ -64,7 +64,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Llama-3, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/THU-KEG/AgentIF"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

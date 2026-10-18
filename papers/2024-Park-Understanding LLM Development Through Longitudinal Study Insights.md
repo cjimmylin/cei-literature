@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0267
 type: preprint
 short_title: "Understanding LLM Development Through Longitudinal Study: Insights from the Open Ko-LLM Leaderboard"
-year: 2025
+year: 2024
 first_author: "[[Chanjun Park]]"
 last_author: "[[Hyeonwoo Kim]]"
 authors: "Chanjun Park; Hyeonwoo Kim"
@@ -52,7 +52,7 @@ tags:
 abstract: "This paper conducts a longitudinal study over eleven months to address the limitations of prior research on the Open Ko-LLM Leaderboard, which have relied on empirical studies with restricted observation periods of only five months. By extending the analysis duration, we aim to provide a more comprehensive understanding of the progression in developing Korean large language models (LLMs). Our study is guided by three primary research questions: (1) What are the specific challenges in improving..."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

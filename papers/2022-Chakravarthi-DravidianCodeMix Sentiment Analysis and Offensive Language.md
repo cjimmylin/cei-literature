@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0584
 type: preprint
 short_title: "DravidianCodeMix Sentiment Analysis and Offensive Language"
-year: 2025
+year: 2022
 first_author: "[[Chakravarthi, Bharathi Raja]]"
 last_author: "[[John P. McCrae]]"
 authors: "Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Muralidaran, Vigneshwaran; Jose, Navya; Suryawanshi, Shardul; Sherly, Elizabeth; John P. McCrae"
@@ -52,7 +52,7 @@ abstract: "Manually annotated dataset of 60,000+ YouTube comments for sentiment 
 LLM_assessed: NA
 DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

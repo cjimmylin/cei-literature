@@ -52,7 +52,7 @@ DATA_URL: "https://mind-lab-ecnu.github.io/OmniEduBench/"
 tags: 
 abstract: "With the rapid development of large language models (LLMs), various LLMbased works have been widely applied in educational fields. However, most existing LLMs and their benchmarks focus primarily on the knowledge dimension, largely neglecting the evaluation of cultivation capabilities that are essential for real-world educational scenarios. Additionally, current benchmarks are often limited to a single subject or question type, lacking sufficient diversity."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

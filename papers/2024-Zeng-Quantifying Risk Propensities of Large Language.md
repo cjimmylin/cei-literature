@@ -6,7 +6,7 @@ Not AI:
 key: HNR88AHQ
 type: conferencePaper
 short_title: "Quantifying Risk Propensities of Large Language"
-year: 2025
+year: 2024
 first_author: "[[Yifan Zeng]]"
 last_author: "[[Peijia Zheng]]"
 authors: "Yifan Zeng; Liang Kairong; Fangzhou Dong; Peijia Zheng"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, ERNIE, GLM, GPT-3.5, GPT-4, GPT-4o mini, Gemma-2, Llama-3, Mistral, Qwen-2, Vicuna"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

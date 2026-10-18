@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0173
 type: preprint
 short_title: "Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias in Low-Resource Bengali"
-year: 2025
+year: 2026
 first_author: "[[Reaj, Md Asgor Hossain]]"
 last_author: "[[Liew, Tze Hui]]"
 authors: "Reaj, Md Asgor Hossain; Das Gupta, Rajan; Pritha, Jui Saha; Al Noman, Abdullah; Ahmed, Abir; Mohiuddin, Golam Md; Liew, Tze Hui"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) have achieved significant success in recent years; yet, issues of intrinsic gender bias persist, especially in nonEnglish languages. Although current research mostly emphasizes English, the linguistic and cultural biases inherent in Global South languages, like Bengali, are little examined. This research seeks to examine the characteristics and magnitude of gender bias in Bengali, evaluating the efficacy of current approaches in identifying and alleviating Bias."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Llama-2
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

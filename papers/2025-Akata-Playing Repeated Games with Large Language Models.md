@@ -52,7 +52,7 @@ abstract: "LLMs are increasingly used in applications where they interact with h
 LLM_assessed: "Llama-2, Claude-2, text-davinci-002, text-davinci-003, GPT-4"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

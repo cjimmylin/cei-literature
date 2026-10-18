@@ -9,7 +9,7 @@ url: "https://www.researchsquare.com/article/rs-7502315/v1"
 abstract: "AI governance inequality in Global South smart cities"
 DATE_ADDED: 20260403
 cultural_gap_category: "Cross-Cultural Comparative"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

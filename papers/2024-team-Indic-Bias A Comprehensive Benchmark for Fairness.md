@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0491
 type: preprint
 short_title: "Indic-Bias A Comprehensive Benchmark for Fairness"
-year: 2025
+year: 2024
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
 authors: "AI4Bharat team"
@@ -52,7 +52,7 @@ abstract: "Comprehensive benchmark evaluating fairness of LLMs across 85 Indian 
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/Indic-Bias"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

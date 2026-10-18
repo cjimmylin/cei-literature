@@ -6,7 +6,7 @@ Not AI:
 key: 5PD5IIYU
 type: conferencePaper
 short_title: CrowS-Pairs
-year: 2025
+year: 2020
 first_author: "[[Nikita Nangia]]"
 last_author: "[[Samuel R. Bowman]]"
 authors: "Nikita Nangia; Clara Vania; Rasika Bhalerao; Samuel R. Bowman"
@@ -57,7 +57,7 @@ research_topic: "Machine Learning"
 CONFERENCE: "EMNLP 2020"
 eleutherai: incorporated
 helm: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

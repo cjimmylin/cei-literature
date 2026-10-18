@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0462
 type: preprint
 short_title: "BLEnD A Benchmark for LLMs on"
-year: 2025
+year: 2024
 first_author: "[[Myung, Junho]]"
 last_author: "[[Oh, Alice]]"
 authors: "Myung, Junho; Lee, Nayeon; Zhou, Yi; Jin, Jiho; Putri, Rifki Afina; Antypas, Dimosthenis; Borkakoty, Hsuvas; Kim, Eunsu; Perez-Almendros, Carla; Ayele, Abinew Ali; Gutiérrez-Basulto, Víctor; Ibáñez-García, Yazmín; Lee, Hwaran; Muhammad, Shamsuddeen Hassan; Park, Kiwoong; Rzayev, Anar Sabuhi; White, Nina; Yimam, Seid Muhie; Pilehvar, Mohammad Taher; Ousidhoum, Nedjma; Camacho-Collados, Jose; Oh, Alice"
@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) often lack culture-specific knowledge of
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen-1.5"
 DATA_URL: "https://github.com/nlee0212/BLEnD"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

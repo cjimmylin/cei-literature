@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0303
 type: preprint
 short_title: "An Ubuntu-Guided Large Language Model Framework"
-year: 2025
+year: 2026
 first_author: "[[Sontaga G. Forane]]"
 last_author: "[[Karen van den Berg]]"
 authors: "Sontaga G. Forane; Absalom E. Ezugwu; Kevin Igwe; Karen van den Berg"
@@ -52,7 +52,7 @@ abstract: "South Africa’s escalating mental health crisis, compounded by limit
 LLM_assessed: "GPT-4o mini"
 DATA_URL: "https://github.com/Sontaga25/Chatbot_FrontEnd.git"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

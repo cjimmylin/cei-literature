@@ -2,14 +2,14 @@
 key: CGSR0165
 type: document
 short_title: "Artificial intelligence governance and social policy divergence: a comparative political economy perspective on global AI regulation"
-year: 2025
+year: 2026
 first_author: "[[Deepak Kumar]]"
 authors: "Deepak Kumar et al."
 url: "https://www.semanticscholar.org/paper/e6c90959ef3c494c24d1b6a75450eb3196400e3e"
 abstract: "To explain why artificial intelligence (AI) governance produces systematically divergent social policy outcomes across regions despite widespread convergence around ethical standards for AI. The s..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

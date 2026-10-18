@@ -6,7 +6,7 @@ Not AI:
 key: MSQ255KQ
 type: document
 short_title: BetterBench
-year: 2025
+year: 2024
 first_author: "[[Anka Reuel]]"
 last_author: "[[Mykel J. Kochenderfer]]"
 authors: "Anka Reuel; Amelia Hardy; Chandler Smith; Max Lamparth; Malcolm Hardy; Mykel J. Kochenderfer"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://betterbench.stanford.edu"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

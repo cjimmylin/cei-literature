@@ -6,7 +6,7 @@ Not AI:
 key: VEP3PT84
 type: conferencePaper
 short_title: LocalValueBench
-year: 2025
+year: 2024
 first_author: "[[Gwenyth Isobel Meadows]]"
 last_author: "[[Aditya Paul]]"
 authors: "Gwenyth Isobel Meadows; Nicholas Wai Long Lau; Eva Adelina Susanto; Chi Lok Yu; Aditya Paul"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, GPT-4, Gemini"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

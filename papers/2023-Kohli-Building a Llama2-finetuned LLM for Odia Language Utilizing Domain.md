@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0203
 type: preprint
 short_title: "Building a Llama2-finetuned LLM for Odia Language Utilizing Domain Knowledge Instruction Set"
-year: 2025
+year: 2023
 first_author: "[[Kohli, Guneet Singh]]"
 last_author: "[[Dhal, Debasish]]"
 authors: "Kohli, Guneet Singh; Parida, Shantipriya; Sekhar, Sambit; Saha, Samirit; Nair, Nipun B; Agarwal, Parul; Khosla, Sonal; Patiyal, Kusumlata; Dhal, Debasish"
@@ -53,7 +53,7 @@ tags:
 abstract: "Llama2-finetuned LLM for Odia language using domain knowledge instruction set. First dedicated Odia LLM enabling downstream cultural and safety evaluation."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

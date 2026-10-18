@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/isadorasalles/HateBRXplain"
 tags: 
 abstract: "First benchmark dataset for hate speech detection in Brazilian Portuguese with human-annotated text span rationales. Evaluated using mBERT, BERTimbau, DistilBERTimbau, and PTT5 models for explainability using LIME and SHAP."
 CONFERENCE: "COLING 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

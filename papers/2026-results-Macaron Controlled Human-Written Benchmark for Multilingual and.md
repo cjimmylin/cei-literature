@@ -6,7 +6,7 @@ Not AI:
 key: CULT0101
 type: preprint
 short_title: "Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling"
-year: 2025
+year: 2026
 first_author: "[[Not specified in search results]]"
 last_author: "[[Not specified in search results]]"
 authors: "Not specified in search results"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/AlaaAhmed2444/Macaron"
 tags: 
 abstract: "Multilingual benchmarks rarely test reasoning over culturally grounded premises: translated datasets keep English-centric scenarios, while culture-first datasets often lack control over the reasoning required. We propose Macaron, a template-first benchmark that factorizes reasoning type and cultural aspect across question languages. Using 100 language-agnostic templates that cover 7 reasoning types, 22 cultural aspects, native annotators create scenarioaligned English and local-language..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

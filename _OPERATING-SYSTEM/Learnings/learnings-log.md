@@ -34,6 +34,15 @@
 
 ---
 
+## 2026-10-18 (Repair — July 9 bulk rewrite of year / ethics_overall)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-10-18 | YAML | **A bulk edit can overwrite score fields with template defaults and still pass validation:** Commit `5caae838f` (2026-07-09, INNOVATION Cycle-1 close) left `ethics_overall: No` on all 2,385 existing papers and `year: 2025` on 1,270 — the same defaults the acquisition templates use (`INNOVATION/40-BUILDS/p3gap_acquire*.py`, `year_hint` 2025) — and also truncated 40 abstracts at an embedded quote, emptied 4 block-list `authors`, and garbled 2 titles. `validate_all_papers.py` reported 0 errors because it accepts legacy Yes/No in `ethics_overall` and empty fields. After any bulk write, diff field *values* against the parent commit (e.g. `git diff -U0 -- papers/ \| grep '^[+-]ethics_overall'`), not just YAML validity. Repaired by `PYTHON/fix_july9_frontmatter.py`; see `logs/20261018-fix-july9-frontmatter.md`. |
+| 2026-10-18 | Data Quality | **`year` should match the filename's year prefix:** after the repair every paper's `year` equals its `YYYY-` filename prefix (0 mismatches); a mismatch count > 0 is a cheap corruption alarm. |
+
+---
+
 ## 2026-03-22 (Session 134 — 7-Phase Discovery Campaign Completion)
 
 | Date | Category | Learning |

@@ -53,7 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Gemini, Claude, Claude-3, Llama-3, Gemma"
 DATA_URL: "https://github.com/llm-for-emotion/culemo"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

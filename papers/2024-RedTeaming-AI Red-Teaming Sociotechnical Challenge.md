@@ -2,14 +2,14 @@
 key: EXSR0709
 type: preprint
 short_title: "AI Red-Teaming is a Sociotechnical Challenge: On Values, Labor, and Harms"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://arxiv.org/abs/2412.09751"
 abstract: "Critiques red teaming as lacking sociocultural, historical, legal, ethical proficiencies. Incentive structures don't reward such expertise. Relevant to adversarial moral reasoning evaluation."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

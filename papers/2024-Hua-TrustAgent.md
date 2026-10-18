@@ -6,7 +6,7 @@ Not AI:
 key: 3HZFJKID
 type: conferencePaper
 short_title: TrustAgent
-year: 2025
+year: 2024
 first_author: "[[Wenyue Hua]]"
 last_author: "[[Yongfeng Zhang]]"
 authors: "Wenyue Hua; Xianjun Yang; Mingyu Jin; Zelong Li; Wei Cheng; Ruixiang Tang; Yongfeng Zhang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Mixtral"
 DATA_URL: "https://github.com/agiresearch/TrustAgent"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

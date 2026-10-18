@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0799
 type: preprint
 short_title: "Can LLMs Help Create Grammar?: Automating Grammar Creation for Endangered Languages with In-Context Learning"
-year: 2025
+year: 2024
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
 authors: "Ejiro Onose"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Yes! In the present-day documenting and preserving endangered languages, the application of Large Language Models (LLMs) presents a promising approach. This paper explores how LLMs, particularly through in-context learning, can assist in generating grammatical information for low-resource languages with limited amount of data. We takes Moklen as a case study to evaluate the efficacy of LLMs in producing coherent grammatical rules and lexical entries using only bilingual dictionaries and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

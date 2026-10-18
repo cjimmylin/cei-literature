@@ -52,7 +52,7 @@ abstract: "Language Models (LMs) are typically tuned with human preferences to p
 LLM_assessed: "GPT-4, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/Guochry/CARE"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

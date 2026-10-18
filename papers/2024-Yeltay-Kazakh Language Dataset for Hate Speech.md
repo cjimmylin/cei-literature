@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0499
 type: preprint
 short_title: "Kazakh Language Dataset for Hate Speech"
-year: 2025
+year: 2024
 first_author: "[[Milana Bolatbek]]"
 last_author: "[[Zhastay Yeltay]]"
 authors: "Milana Bolatbek; Moldir Sagynay; Shynar Mussiraliyeva; Zhastay Yeltay"
@@ -58,7 +58,7 @@ abstract: "Dataset compiled from YouTube, Telegram, and VK using keyword-based c
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

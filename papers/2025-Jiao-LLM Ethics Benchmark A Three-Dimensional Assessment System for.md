@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark
 tags: 
 abstract: "Three-dimensional framework evaluating moral reasoning through foundational moral principles, reasoning robustness, and value consistency. Adapts Moral Foundations Questionnaire, World Values Survey, and standardized moral dilemmas. Claude and GPT-4 attain highest scores."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 5

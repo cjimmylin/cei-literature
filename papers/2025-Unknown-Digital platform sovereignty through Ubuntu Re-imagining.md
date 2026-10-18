@@ -9,7 +9,7 @@ url: "https://link.springer.com/article/10.1007/s12525-025-00864-x"
 abstract: "Ubuntu-aligned governance mechanisms for AI platform worker outcomes in Africa"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

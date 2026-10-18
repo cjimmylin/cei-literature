@@ -51,7 +51,7 @@ abstract: "As large language models (LLMs) exhibit advanced reasoning capabiliti
 LLM_assessed: "DeepSeek, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/yuwenhan07/MSLR-Bench"
 CONFERENCE: "AAAI 2026"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0495
 type: preprint
 short_title: "IndicGenBench A Multilingual Benchmark to Evaluate"
-year: 2025
+year: 2024
 first_author: "[[Singh, Harman]]"
 last_author: "[[Talukdar, Partha]]"
 authors: "Singh, Harman; Gupta, Nitish; Bharadwaj, Shikhar; Tewari, Dinesh; Talukdar, Partha"
@@ -52,7 +52,7 @@ abstract: "As large language models (LLMs) see increasing adoption across the gl
 LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Gemma, LLaMA, PaLM-2"
 DATA_URL: "https://github.com/google-research-datasets/indic-gen-bench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

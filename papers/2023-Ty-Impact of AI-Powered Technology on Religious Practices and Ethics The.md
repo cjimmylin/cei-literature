@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0011
 type: conferencePaper
 short_title: "Impact of AI-Powered Technology on Religious Practices and Ethics: The Road Ahead"
-year: 2025
+year: 2023
 first_author: "[[Rey Ty]]"
 last_author: "[[Rey Ty]]"
 authors: "Rey Ty"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Exploratory research examining the impact of AI on religious practices and ethics across multiple faith traditions. Covers the Baha'i International Community's engagement with AI ethics at the UN (2021), discusses how the Baha'i Faith positions science and religion as complementary forces, and calls for religious institutions to develop AI ethics codes and e-literacy programs."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: RI9G7DNV
 type: conferencePaper
 short_title: "Does Moral Code Have a Moral Code?"
-year: 2025
+year: 2022
 first_author: "[[Kathleen C. Fraser]]"
 last_author: "[[Balkir, Esma]]"
 authors: "Kathleen C. Fraser; Kiritchenko, Svetlana; Balkir, Esma"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Delphi
 DATA_URL: "https://delphi.allenai.org/"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 55
 utilitarian_ethics: 50

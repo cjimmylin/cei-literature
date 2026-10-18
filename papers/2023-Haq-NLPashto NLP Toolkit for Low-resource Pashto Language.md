@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0161
 type: conferencePaper
 short_title: "NLPashto: NLP Toolkit for Low-resource Pashto Language"
-year: 2025
+year: 2023
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
 authors: "Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng"
@@ -53,7 +53,7 @@ tags:
 abstract: "In recent years, natural language processing (NLP) has transformed numerous domains, becoming a vital area of research. However, the focus of NLP studies has predominantly centered on major languages like English, inadvertently neglecting low-resource languages like Pashto. Pashto, spoken by a population of over 50 million worldwide, remains largely unexplored in NLP research, lacking off-the-shelf resources and tools even for fundamental text-processing tasks."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

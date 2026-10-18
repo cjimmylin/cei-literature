@@ -2,14 +2,14 @@
 key: CGSR0103
 type: document
 short_title: "Broadening AI Ethics Narratives: An Indic Art View"
-year: 2025
+year: 2022
 first_author: "[[Ajay Divakaran]]"
 authors: "Ajay Divakaran; A. Sridhar; Ramya Srinivasan"
 url: "https://www.researchgate.net/publication/359865240_Broadening_AI_Ethics_Narratives_An_Indic_Art_View"
 abstract: "Indic art and philosophical perspectives broadening AI ethics narratives"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

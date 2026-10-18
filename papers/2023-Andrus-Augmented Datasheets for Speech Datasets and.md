@@ -6,7 +6,7 @@ Not AI:
 key: XEZHDTK9
 type: conferencePaper
 short_title: "Augmented Datasheets for Speech Datasets and"
-year: 2025
+year: 2023
 first_author: "[[McKane Andrus]]"
 last_author: "[[McKane Andrus]]"
 authors: "McKane Andrus"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_f
 pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

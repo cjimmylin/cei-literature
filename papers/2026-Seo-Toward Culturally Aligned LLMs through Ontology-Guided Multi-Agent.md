@@ -6,7 +6,7 @@ Not AI:
 key: CULT0109
 type: preprint
 short_title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
-year: 2025
+year: 2026
 first_author: "[[Seo, Wonduk]]"
 last_author: "[[Bu, Yi]]"
 authors: "Seo, Wonduk; Choi, Wonseok; Koh, Junseo; Lee, Juhyeon; An, Hyunjin; Yu, Minhyeong; Park, Jian; Zhou, Qingshan; Lee, Seunghyun; Bu, Yi"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) increasingly support culturally sensitive decision making, yet often exhibit misalignment due to skewed pretraining data and the absence of structured value representations. Existing methods can steer outputs, but often lack demographic grounding and treat values as independent, unstructured signals, reducing consistency and interpretability. We propose OG-MAR, an Ontology-Guided MultiAgent Reasoning framework."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

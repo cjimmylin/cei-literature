@@ -52,7 +52,7 @@ abstract: "Annotated hate speech dataset for Swahili and code-switched English-S
 LLM_assessed: BERT
 DATA_URL: "https://github.com/Odhiambo-nelson/Swahili-and-English-Swahili-hate-speech-models-and-datasets"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

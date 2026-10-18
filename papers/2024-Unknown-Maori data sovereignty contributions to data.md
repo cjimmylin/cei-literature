@@ -2,14 +2,14 @@
 key: CGSR0091
 type: document
 short_title: "Maori data sovereignty: contributions to data cultures in the government sector in New Zealand"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://www.tandfonline.com/doi/full/10.1080/1369118X.2024.2302987"
 abstract: "Maori data sovereignty in NZ government sector data cultures"
 DATE_ADDED: 20260403
 cultural_gap_category: Indigenous
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

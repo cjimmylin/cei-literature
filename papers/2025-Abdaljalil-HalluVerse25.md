@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Phi, Qwen-2"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0646
 type: conferencePaper
 short_title: "The Bhagavad Gita as a Framework for Sattvic AI: Aligning Artificial Intelligence with Sustainable Development"
-year: 2025
+year: 2026
 first_author: "[[S. R. Adhikari]]"
 last_author: "[[Dasarath Neupane]]"
 authors: "S. R. Adhikari; Hira Lal Shrestha; Dasarath Neupane"
@@ -48,11 +48,11 @@ mp_identity: 0
 moral_psychology: N/A
 newtags: 
 tags: 
-abstract: "Background: The current \"
+abstract: "Background: The current \"move fast and break things\" approach to technology and innovation is proving to be a significant threat to humanity, especially when artificial intelligence (AI) is considered to be a civilization-altering technology. In the absence of a robust ethical foundation, AI could potentially worsen the current sustainability crises and hinder the achievement of the United Nations Sustainable Development Goals (SDGs). The current state of AI ethics, where sustainability is con"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

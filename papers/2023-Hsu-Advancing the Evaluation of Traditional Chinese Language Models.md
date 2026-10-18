@@ -6,7 +6,7 @@ Not AI:
 key: CULT0033
 type: preprint
 short_title: "Advancing the Evaluation of Traditional Chinese Language Models: Towards a Comprehensive Benchmark Suite (TC-Eval)"
-year: 2025
+year: 2023
 first_author: "[[Chan-Jan Hsu]]"
 last_author: "[[Da-shan Shiu]]"
 authors: "Chan-Jan Hsu; Chang-Le Liu; Feng-Ting Liao; Po-Chun Hsu; Yi-Chang Chen; Da-shan Shiu"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/mtkresearch/MR-Models"
 tags: 
 abstract: "The evaluation of large language models is an essential task in the field of language understanding and generation. As language models continue to advance, the need for effective benchmarks to assess their performance has become imperative. In the context of Traditional Chinese, there is a scarcity of comprehensive and diverse benchmarks to evaluate the capabilities of language models, despite the existence of certain benchmarks such as DRCD, TTQA, CMDQA, and FGC dataset."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

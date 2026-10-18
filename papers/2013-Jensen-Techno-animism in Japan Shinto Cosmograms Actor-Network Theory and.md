@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0005
 type: journalArticle
 short_title: "Techno-animism in Japan: Shinto Cosmograms, Actor-Network Theory, and the Enabling Powers of Non-human Agencies"
-year: 2025
+year: 2013
 first_author: "[[Casper Bruun Jensen]]"
 last_author: "[[Anders Blok]]"
 authors: "Casper Bruun Jensen; Anders Blok"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Foundational paper on Shinto techno-animism. Deploys Japanese techno-animism as a site of theoretical experimentation, showing how Shinto cosmograms provide an alternative framework for interpreting the immanent, affective, and enabling powers of non-humans in collective life. Extends actor-network theory through Shinto perspectives."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

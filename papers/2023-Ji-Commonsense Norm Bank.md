@@ -6,7 +6,7 @@ Not AI:
 key: 5KGFXUZK
 type: conferencePaper
 short_title: "Commonsense Norm Bank"
-year: 2025
+year: 2023
 first_author: "[[Xuhui Ji]]"
 last_author: "[[Xuhui Ji]]"
 authors: "Xuhui Ji"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 60

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0660
 type: preprint
 short_title: "Is Sanskrit the most token-efficient language? A quantitative study using GPT, Gemini, and SentencePiece"
-year: 2025
+year: 2026
 first_author: "[[Kumar, Anshul]]"
 last_author: "[[Kumar, Anshul]]"
 authors: "Kumar, Anshul"
@@ -52,7 +52,7 @@ abstract: "Tokens are the basic units of Large Language Models (LLMs). LLMs rely
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

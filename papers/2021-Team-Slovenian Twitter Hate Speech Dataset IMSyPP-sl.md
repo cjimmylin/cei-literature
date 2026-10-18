@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0348
 type: conferencePaper
 short_title: "Slovenian Twitter Hate Speech Dataset IMSyPP-sl"
-year: 2025
+year: 2021
 first_author: "[[IMSyPP Project Team]]"
 last_author: "[[IMSyPP Project Team]]"
 authors: "IMSyPP Project Team"
@@ -50,7 +50,7 @@ DATA_URL: "https://www.clarin.si/repository/xmlui/handle/11356/1398"
 tags: 
 abstract: "Hand-labeled Slovenian Twitter dataset: 50,000 training tweets and 10,000 evaluation tweets, annotated for hate speech types (offensive/violent) and targets. Part of IMSyPP EU project."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/graalul/COLE-public"
 tags: 
 abstract: "To address the need for a more comprehensive evaluation of French Natural Language Understanding (NLU), we introduce COLE, a new benchmark composed of 23 diverse task covering a broad range of NLU capabilities, including sentiment analysis, paraphrase detection, grammatical judgment, and reasoning, with a particular focus on linguistic phenomena relevant to the French language. We benchmark 95 large language models (LLM), providing an extensive analysis of the current state of French NLU."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

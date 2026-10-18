@@ -6,7 +6,7 @@ Not AI:
 key: 7ISQ383Q
 type: conferencePaper
 short_title: "Uncovering Latent Human Wellbeing in Language"
-year: 2025
+year: 2024
 first_author: "[[Pedro Freire]]"
 last_author: "[[Scott Emmons]]"
 authors: "Pedro Freire; ChengCheng Tan; Adam Gleave; Dan Hendrycks; Scott Emmons"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 100

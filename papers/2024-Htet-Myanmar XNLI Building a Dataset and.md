@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0513
 type: preprint
 short_title: "Myanmar XNLI Building a Dataset and"
-year: 2025
+year: 2024
 first_author: "[[Aung Kyaw Htet]]"
 last_author: "[[Mark Dras]]"
 authors: "Aung Kyaw Htet; Mark Dras"
@@ -53,7 +53,7 @@ LLM_assessed: "DeBERTaV3, mDeBERTa, MyanBERTa, RoBERTa, XLM-R"
 DATA_URL: NA
 research_topic: "Machine Learning"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

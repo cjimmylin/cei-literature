@@ -6,7 +6,7 @@ Not AI:
 key: RUWMYESQ
 type: preprint
 short_title: "Quantifying AI Psychology"
-year: 2025
+year: 2024
 first_author: "[[Yuan Li]]"
 last_author: "[[Lichao Sun]]"
 authors: "Yuan Li; Yue Huang; Hongyi Wang; Ying Cheng; Xiangliang Zhang; James Zou; Lichao Sun"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Qwen, Llama-3"
 DATA_URL: "https://github.com/CHATS-lab/persuasive_jailbreaker"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

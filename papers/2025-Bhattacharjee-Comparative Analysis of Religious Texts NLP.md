@@ -52,7 +52,7 @@ abstract: "> Comparative NLP analysis of three major religious texts including t
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

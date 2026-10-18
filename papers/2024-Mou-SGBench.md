@@ -6,7 +6,7 @@ Not AI:
 key: CSK47GC7
 type: document
 short_title: SGBench
-year: 2025
+year: 2024
 first_author: "[[Yutao Mou]]"
 last_author: "[[Wei Ye]]"
 authors: "Yutao Mou; Shikun Zhang; Wei Ye"
@@ -55,7 +55,7 @@ CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 authors_incomplete: false
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

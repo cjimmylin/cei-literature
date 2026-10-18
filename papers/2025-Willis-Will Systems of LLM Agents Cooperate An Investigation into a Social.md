@@ -51,7 +51,7 @@ abstract: "As autonomous agents become more prevalent, understanding their colle
 LLM_assessed: "GPT-4o, Claude"
 DATA_URL: "https://github.com/willis-richard/evollm"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

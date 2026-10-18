@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0533
 type: preprint
 short_title: "The Use of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Religions), (Authors from MDPI]]"
 last_author: "[[(Authors from MDPI Religions)]]"
 authors: "(Authors from MDPI Religions)"
@@ -52,7 +52,7 @@ abstract: "We evaluated the performance of a large language model called ChatGPT
 LLM_assessed: ChatGPT
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

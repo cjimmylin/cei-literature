@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0363
 type: conferencePaper
 short_title: "ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model"
-year: 2025
+year: 2024
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Luan Thanh Nguyen]]"
 authors: "Luan Thanh Nguyen"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/tarudesu/ViHateT5"
 tags: 
 abstract: "Recent advancements in hate speech detection (HSD) in Vietnamese have made significant progress, primarily attributed to the emergence of transformer-based pre-trained language models, particularly those built on the BERT architecture. However, the necessity for specialized fine-tuned models has resulted in the complexity and fragmentation of developing a multitasking HSD system. Moreover, most current methodologies focus on fine-tuning general pre-trained models, primarily trained on formal..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

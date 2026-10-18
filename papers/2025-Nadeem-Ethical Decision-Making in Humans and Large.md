@@ -52,7 +52,7 @@ pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans an
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 60

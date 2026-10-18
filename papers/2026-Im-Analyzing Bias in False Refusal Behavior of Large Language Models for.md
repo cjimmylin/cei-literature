@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0761
 type: preprint
 short_title: "Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification"
-year: 2025
+year: 2026
 first_author: "[[Im, Kyuri]]"
 last_author: "[[Färber, Michael]]"
 authors: "Im, Kyuri; Yuan, Shuzhou; Färber, Michael"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Warning: This paper contains examples of hate speech, which may be disturbing or offensive to some readers. While large language models (LLMs) have increasingly been applied to hate speech detoxification, the prompts often trigger safety alerts, causing LLMs to refuse the task. In this study, we systematically investigate false refusal behavior in hate speech detoxification and analyze the contextual and linguistic biases that trigger such refusals."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

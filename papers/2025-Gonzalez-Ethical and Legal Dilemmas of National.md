@@ -9,7 +9,7 @@ url: "https://philpapers.org/rec/ALOEAL"
 abstract: "National AI policy dilemmas across Latin American countries"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

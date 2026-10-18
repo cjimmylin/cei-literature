@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0151
 type: conferencePaper
 short_title: "Hate Speech Detection in Social Media for the Kurdish Language"
-year: 2025
+year: 2022
 first_author: "[[Ari M. Saeed]]"
 last_author: "[[Rashid, Tarik Ahmed]]"
 authors: "Ari M. Saeed; Aso N. Ismael; Danya L. Rasul; Rayan S. Majeed; Rashid, Tarik Ahmed"
@@ -52,7 +52,7 @@ DATA_URL: "https://data.mendeley.com/datasets/x6628zzpdx/1"
 tags: 
 abstract: "First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes from TV channels, athletes, religions, politicians. SVM, Decision Tree, Naive Bayes evaluated."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

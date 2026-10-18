@@ -51,7 +51,7 @@ abstract: "Large language models (LLMs) are increasingly being used for tasks wh
 LLM_assessed: "Claude, Claude-2, Claude-3, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/val-bench/VAL-Bench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0033
 type: preprint
 short_title: "HeRo: RoBERTa and Longformer Hebrew Language Models"
-year: 2025
+year: 2023
 first_author: "[[Vitaly Shalumov]]"
 last_author: "[[Harel Haskey]]"
 authors: "Vitaly Shalumov; Harel Haskey"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/HeNLP/HeDC4"
 tags: 
 abstract: "In this paper, we fill in an existing gap in resources available to the Hebrew NLP community by providing it with the largest so far pre-train dataset HeDC4, a state-ofthe-art pre-trained language model HeRo for standard length inputs and an eﬀicient transformer LongHeRo for long input sequences. The HeRo model was evaluated on the sentiment analysis, the named entity recognition, and the question answering tasks while the LongHeRo model was evaluated on the document classification task with a..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

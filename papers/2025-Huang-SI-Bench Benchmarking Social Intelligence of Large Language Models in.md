@@ -51,7 +51,7 @@ abstract: "As large language models (LLMs) develop anthropomorphic abilities, th
 LLM_assessed: "Claude, GPT-4o, Gemini, Qwen-2"
 DATA_URL: "https://github.com/SI-Bench/SI-Bench.git"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

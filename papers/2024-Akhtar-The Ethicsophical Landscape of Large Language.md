@@ -5,7 +5,7 @@ Human View note: "LLM through view of Aristole and Kang"
 Not AI: 
 key: G6BN8ZME
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "The Ethicsophical Landscape of Large Language"
 first_author: [[Akhtar]]
 last_author: [[Shahnawaz]]
@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 60
 deontological_ethics: 55
 utilitarian_ethics: 0

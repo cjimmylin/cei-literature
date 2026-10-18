@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/nlip/DIWALI"
 tags: 
 abstract: "Large language models (LLMs) are widely used in various tasks and applications. However, despite their wide capabilities, they are shown to lack cultural alignment (Ryan et al., 2024; AlKhamissi et al., 2024) and produce biased generations (Naous et al., 2024) due to a lack of cultural knowledge and competence. Evaluation of LLMs for cultural awareness and alignment is particularly challenging due to the lack of proper evaluation metrics and unavailability of culturally grounded datasets..."
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

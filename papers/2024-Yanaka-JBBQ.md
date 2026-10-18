@@ -6,7 +6,7 @@ Not AI:
 key: ZUCE9BWB
 type: journalArticle
 short_title: JBBQ
-year: 2025
+year: 2024
 first_author: "[[Hitomi Yanaka]]"
 last_author: "[[Hiromi Arai]]"
 authors: "Hitomi Yanaka; Namgi Han; Ryoma Kumon; Jie Lu; Masashi Takeshita; Ryo Sekizawa; Taisei Kato; Hiromi Arai"
@@ -54,7 +54,7 @@ publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

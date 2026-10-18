@@ -6,7 +6,7 @@ Not AI:
 key: CULT0084
 type: conferencePaper
 short_title: "Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models"
-year: 2025
+year: 2024
 first_author: "[[Akylbek Maxutov]]"
 last_author: "[[Pavel Braslavski]]"
 authors: "Akylbek Maxutov; Ayan Myrzakhmet; Pavel Braslavski"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/akylbekmaxutov/LLM-eval-using-Kazakh"
 tags: 
 abstract: "Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets covering QA, causal reasoning, math problems, translation, and spelling correction. GPT-4 shows best results. LLM performance on Kazakh tasks is lower than on parallel English tasks."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -9,7 +9,7 @@ url: "https://medium.com/@priya.krishnamoorthy/beyond-western-frameworks-why-ai-
 abstract: "Dharmic perspective as complement to Western AI ethics frameworks"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

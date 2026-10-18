@@ -9,7 +9,7 @@ url: "https://journals.sagepub.com/doi/10.1177/27523543251374174"
 abstract: "Decolonial communication framework for AI in African public service"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

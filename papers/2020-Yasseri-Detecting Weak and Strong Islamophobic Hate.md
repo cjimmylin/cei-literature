@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0614
 type: journal_article
 short_title: "Detecting Weak and Strong Islamophobic Hate"
-year: 2025
+year: 2020
 first_author: "[[Bertie Vidgen]]"
 last_author: "[[Taha Yasseri]]"
 authors: "Bertie Vidgen; Taha Yasseri"
@@ -52,7 +52,7 @@ abstract: "Islamophobic hate speech on social media inflicts considerable harm o
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

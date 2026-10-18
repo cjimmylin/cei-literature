@@ -2,14 +2,14 @@
 key: CGSR0020
 type: journalArticle
 short_title: "Building Trustworthiness as a Requirement for AI in Africa"
-year: 2025
+year: 2024
 first_author: "[[Seydina Moussa Ndiaye]]"
 authors: "Seydina Moussa Ndiaye"
 url: "https://link.springer.com/chapter/10.1007/978-3-031-75674-0_3"
 abstract: "Building AI trustworthiness through stakeholder perspectives in Africa"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: "DeepSeek, Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/idramalab/quantify-llm-explanations"
 research_topic: "Interpretability & Explainability"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 30

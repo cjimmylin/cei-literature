@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "As general-purpose artiﬁcial intelligence (AI) systems become increasingly integrated with diverse human communities, cultural alignment has emerged as a crucial element in their deployment. Most existing approaches treat cultural alignment as one-directional, embedding predeﬁned cultural values from standardized surveys and repositories into AI systems. To challenge this perspective, we highlight research showing that humans’ cultural values must be understood within the context of speciﬁc AI..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

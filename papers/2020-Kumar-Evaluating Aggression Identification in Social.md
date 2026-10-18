@@ -6,7 +6,7 @@ Not AI:
 key: 9IWZPR5T
 type: document
 short_title: "Evaluating Aggression Identification in Social"
-year: 2025
+year: 2020
 first_author: "[[Ritesh Kumar]]"
 last_author: "[[Zampieri, Marcos]]"
 authors: "Kumar, Ritesh; Ojha, Atul Kr.; Malmasi, Shervin; Zampieri, Marcos"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://sites.google.com/view/trac2/shared-task"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0002
 type: journalArticle
 short_title: "Religion-Related Values Differently Influence Moral Attitude for Robots in the United States and Japan"
-year: 2025
+year: 2023
 first_author: "[[Shogo Ikari]]"
 last_author: "[[Yo Nakawake]]"
 authors: "Shogo Ikari; Kosuke Sato; Emily Burdett; Hiroshi Ishiguro; Jonathan Jong; Yo Nakawake"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Empirically examines how moral care for robots is influenced by religiosity and religion-related values (animism, anthropocentrism) in US and Japanese samples grounded in Abrahamic and Shinto-Buddhist traditions (N=3,781). Finds moral care for robots higher in Japan, with positive association with animism in Japan and negative association with anthropocentrism in the US."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

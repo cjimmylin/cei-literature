@@ -9,7 +9,7 @@ url: "https://carnegieendowment.org/europe/research/2025/11/the-state-of-digital
 abstract: "Comprehensive assessment of digital transformation progress across Pacific Island countries including AI readiness"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

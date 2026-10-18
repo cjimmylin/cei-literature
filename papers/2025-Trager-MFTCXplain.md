@@ -55,7 +55,7 @@ LLM_assessed: "GPT-4o, Llama-3"
 DATA_URL: "https://github.com/franciellevargas/MFTCXplain"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

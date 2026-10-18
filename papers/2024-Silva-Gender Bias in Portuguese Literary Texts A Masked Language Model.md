@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0237
 type: conferencePaper
 short_title: "Gender Bias in Portuguese Literary Texts: A Masked Language Model Approach"
-year: 2025
+year: 2024
 first_author: "[[Mariana O. Silva]]"
 last_author: "[[Mirella M. Moro]]"
 authors: "Mariana O. Silva; Michele A. Brandão; Mirella M. Moro"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/neuralmind/bert-base-portuguese-cased"
 tags: 
 abstract: "In this work, we investigate how a corpus of Portuguese literary texts shapes the gender bias of a language model using a masked language modeling approach. We fine-tune a BERT-based model on a curated corpus of 592 literary works and analyze gender associations in adjective and verb predictions. Our results show that fine-tuning shifts gender associations: female-denoting targets showed a significant reduction in negative associations, while male-denoting targets retained a negative bias."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

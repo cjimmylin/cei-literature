@@ -6,7 +6,7 @@ Not AI:
 key: CULT0077
 type: preprint
 short_title: "Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?"
-year: 2025
+year: 2024
 first_author: "[[Omid Ghahroodi]]"
 last_author: "[[Mohammad Hossein Rohban]]"
 authors: "Omid Ghahroodi; Marzia Nouri; Mohammad Vali Sanian; Alireza Sahebi; Doratossadat Dastgheib; Ehsaneddin Asgari; Mahdieh Soleymani Baghshah; Mohammad Hossein Rohban"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Evaluating Large Language Models (LLMs) is challenging due to their generative nature, necessitating precise evaluation methodologies. Additionally, non-English LLM evaluation lags behind English, resulting in the absence or weakness of LLMs for many languages. In response to this necessity, we introduce Khayyam Challenge (also known as PersianMMLU), a meticulously curated collection comprising 20,192 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations,..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

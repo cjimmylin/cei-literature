@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/farhanishmam/BanTH"
 tags: 
 abstract: "The proliferation of transliterated texts in digital spaces has emphasized the need for detecting and classifying hate speech in languages beyond English, particularly in low-resource languages. As online discourse can perpetuate discrimination based on target groups, e.g. gender, religion, and origin, multi-label classification of hateful content can help in understanding hate motivation and enhance content moderation."
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

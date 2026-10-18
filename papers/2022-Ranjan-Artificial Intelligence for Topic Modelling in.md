@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0580
 type: preprint
 short_title: "Artificial Intelligence for Topic Modelling in"
-year: 2025
+year: 2022
 first_author: "[[Rohitash Chandra]]"
 last_author: "[[Mukul Ranjan]]"
 authors: "Rohitash Chandra; Mukul Ranjan"
@@ -52,7 +52,7 @@ abstract: "A distinct feature of Hindu religious and philosophical text is that 
 LLM_assessed: BERT
 DATA_URL: "https://github.com/sydney-machine-learning/topicmodelling_vedictexts"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

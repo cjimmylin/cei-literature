@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: JALT756H
 type: journalArticle
-year: 2025
+year: 2020
 short_title: "Automated Classification of Modes of Moral"
 first_author: "[[Nischal Mainali]]"
 last_author: "[[Chen, Daniel L]]"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100

@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_TSAI2024
 type: journalArticle
 short_title: "Why AI May Undermine Phronesis"
-year: 2025
+year: 2024
 first_author: "[[Cheng-hung Tsai]]"
 last_author: "[[Ku, Hsiu-lin]]"
 authors: "Tsai, Cheng-hung; Ku, Hsiu-lin"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 25

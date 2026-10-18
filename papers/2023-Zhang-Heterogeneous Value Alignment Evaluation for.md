@@ -6,7 +6,7 @@ Not AI:
 key: 6KY8KDVF
 type: document
 short_title: "Heterogeneous Value Alignment Evaluation for"
-year: 2025
+year: 2023
 first_author: "[[Zhaowei Zhang]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Ceyao Zhang; Nian Liu; Siyuan Qi; Ziqi Rong; Song-Chun Zhu; Shuguang Cui; Yaodong Yang"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, Claude, GPT-3.5, GPT-4, Vicuna"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

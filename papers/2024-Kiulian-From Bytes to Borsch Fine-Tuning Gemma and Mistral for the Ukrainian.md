@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0317
 type: preprint
 short_title: "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation"
-year: 2025
+year: 2024
 first_author: "[[Kiulian, Artur]]"
 last_author: "[[Shirawalmath, Adarsh]]"
 authors: "Kiulian, Artur; Polishko, Anton; Khandoga, Mykola; Chubych, Oryna; Connor, Jack; Ravishankar, Raghav; Shirawalmath, Adarsh"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/PolyAgent/from-bytes-to-borsch"
 tags: 
 abstract: "In the rapidly advancing field of AI and NLP, generative large language models (LLMs) stand at the forefront of innovation, showcasing unparalleled abilities in text understanding and generation. However, the limited representation of low-resource languages like Ukrainian poses a notable challenge, restricting the reach and relevance of this technology. Our paper addresses this by fine-tuning the open-source Gemma and Mistral LLMs with Ukrainian datasets, aiming to improve their linguistic..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

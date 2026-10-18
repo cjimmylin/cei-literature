@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0191
 type: conferencePaper
 short_title: "BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla"
-year: 2025
+year: 2022
 first_author: "[[Bhattacharjee, Abhik]]"
 last_author: "[[Shahriyar, Rifat]]"
 authors: "Bhattacharjee, Abhik; Hasan, Tahmid; Ahmad, Wasi Uddin; Samin, Kazi; Islam, Md Saiful; Iqbal, Anindya; M. Sohel Rahman; Shahriyar, Rifat"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/csebuetnlp/banglabert"
 tags: 
 abstract: "In this work, we introduce BanglaBERT, a BERT-based Natural Language Understanding (NLU) model pretrained in Bangla, a widely spoken yet low-resource language in the NLP literature. To pretrain BanglaBERT, we collect 27.5 GB of Bangla pretraining data (dubbed ‘Bangla2B+’) by crawling 110 popular Bangla sites. We introduce two downstream task datasets on natural language inference and question answering and benchmark on four diverse NLU tasks covering text classiﬁcation, sequence labeling, and..."
 CONFERENCE: "NAACL 2022"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

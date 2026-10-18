@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0508
 type: conferencePaper
 short_title: "HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate Speech Detection Task"
-year: 2025
+year: 2020
 first_author: "[[Manuela Sanguinetti]]"
 last_author: "[[Russo, Irene]]"
 authors: "Manuela Sanguinetti; Comandini, Gloria; Nuovo, Elisa Di; Frenda, Simona; Stranisci, M.; Cristina Bosco; Caselli, Tommaso; Viviana Patti; Russo, Irene"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/msang/haspeede/tree/master/2020"
 tags: 
 abstract: "Welcome to EVALITA 2020! EVALITA is the evaluation campaign of Natural Language Processing and Speech Tools for Italian. EVALITA is an initiative of the Italian Association for Computational Linguistics (AILC, http://www.ai-lc.it) and it is endorsed by the Italian Association for Artificial Intelligence (AIxIA, http://www.aixia.it) and the Italian Association for Speech Sciences (AISV, http://www.aisv.it)."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: VFFFBUPX
 type: journalArticle
 short_title: "Crowdsourcing moral machines"
-year: 2025
+year: 2020
 first_author: "[[Edmond Awad]]"
 last_author: "[[Iyad Rahwan]]"
 authors: "Edmond Awad; Sohan Dsouza; Jean-François Bonnefon; Azim Shariff; Iyad Rahwan"
@@ -53,7 +53,7 @@ DATA_URL: "https://moralmachine.mit.edu"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

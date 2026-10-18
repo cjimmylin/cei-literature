@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0010
 type: preprint
 short_title: PluriHarms
-year: 2025
+year: 2026
 first_author: "[[Li, Jing-Jing]]"
 last_author: "[[Levine, Sydney]]"
 authors: "Li, Jing-Jing; Mire, Joel; Fleisig, Eve; Pyatkin, Valentina; Collins, Anne; Sap, Maarten; Levine, Sydney"
@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4, Claude, Qwen"
 DATA_URL: "https://jl3676.github.io/PluriHarms"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Evaluating instruction-tuned Large Language Models (LLMs) in Hindi is
 LLM_assessed: "GPT-4o, Gemma, Gemma-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/nvidia/BFCL-Hi"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

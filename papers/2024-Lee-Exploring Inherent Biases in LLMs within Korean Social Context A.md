@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0255
 type: conferencePaper
 short_title: "Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4"
-year: 2025
+year: 2024
 first_author: "[[Seungyoon Lee]]"
 last_author: "[[Heuiseok Lim]]"
 authors: "Seungyoon Lee; Dongjun Kim; Dahyun Jung; Chanjun Park; Heuiseok Lim"
@@ -53,7 +53,7 @@ tags:
 abstract: "Warning: This paper contains content that may be offensive or upsetting. Large Language Models (LLMs) have significantly impacted various fields requiring advanced linguistic understanding, yet concerns regarding their inherent biases and ethical considerations have also increased. Notably, LLMs have been critiqued for perpetuating stereotypes against diverse groups based on race, sexual orientation, and other attributes."
 research_topic: Other
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

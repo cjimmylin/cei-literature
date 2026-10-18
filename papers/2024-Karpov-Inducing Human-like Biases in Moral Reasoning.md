@@ -6,7 +6,7 @@ Not AI:
 key: ID6PYJ9M
 type: conferencePaper
 short_title: "Inducing Human-like Biases in Moral Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Artem Karpov]]"
 last_author: "[[Bogdan-Ionut Cirstea]]"
 authors: "Artem Karpov; Seong Hah Cho; Austin Meek; Raymond Koopmanschap; Lucy Farnik; Bogdan-Ionut Cirstea"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/ajmeek/Inducing-human-like-biases-in-moral-reasoning-LLMs"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0378
 type: conferencePaper
 short_title: "UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis"
-year: 2025
+year: 2018
 first_author: "[[Kiet Van Nguyen]]"
 last_author: "[[Kiet Van Nguyen]]"
 authors: "Kiet Van Nguyen"
@@ -57,7 +57,7 @@ DATA_URL: "https://github.com/kietnv/uit-vsfc"
 tags: 
 abstract: "16,000+ human-annotated Vietnamese sentences for sentiment-based and topic-based classification. 91.20% inter-annotator agreement for sentiment task. Used in SEA-HELM as Vietnamese sentiment benchmark."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0098
 type: preprint
 short_title: "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language"
-year: 2025
+year: 2024
 first_author: "[[Susanto, Lucky]]"
 last_author: "[[Wijaya, Derry]]"
 authors: "Susanto, Lucky; Wijanarko, Musa Izzanardi; Pratama, Prasetia Anugrah; Hong, Traci; Idris, Ika; Aji, Alham Fikri; Wijaya, Derry"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/izzako/IndoToxic2024"
 tags: 
 abstract: "Hate speech poses a significant threat to social harmony. Over the past two years, Indonesia has seen a ten-fold increase in the online hate speech ratio, underscoring the urgent need for effective detection mechanisms. However, progress is hindered by the limited availability of labeled data for Indonesian texts. The condition is even worse for marginalized minorities, such as Shia, LGBTQ, and other ethnic minorities because hate speech is underreported and less understood by detection tools."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

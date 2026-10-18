@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0506
 type: preprint
 short_title: "Lexical Sentiment and Correlation Analysis of"
-year: 2025
+year: 2024
 first_author: "[[Felipe-Ruiz, Alonso]]"
 last_author: "[[Alonso Felipe-Ruiz]]"
 authors: "Alonso Felipe-Ruiz"
@@ -52,7 +52,7 @@ abstract: "Analyzes sacred texts from 14 different belief systems using lexical,
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

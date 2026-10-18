@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0162
 type: preprint
 short_title: "Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistency Across Language Varieties"
-year: 2025
+year: 2024
 first_author: "[[Faisal, Fahim]]"
 last_author: "[[Anastasopoulos, Antonios]]"
 authors: "Faisal, Fahim; Rahman, Md Mushfiqur; Anastasopoulos, Antonios"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/ffaisal93/dialect_toxicity_llm_judge"
 tags: 
 abstract: "There has been little systematic study on how dialectal differences affect toxicity detection by modern LLMs. Furthermore, although using LLMs as evaluators ('LLM-as-a-judge') is a growing research area, their sensitivity to dialectal nuances is still underexplored and requires more focused attention. In this paper, we address these gaps through a comprehensive toxicity evaluation of LLMs across diverse dialects."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

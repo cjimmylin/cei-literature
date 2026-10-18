@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0304
 type: preprint
 short_title: "Common to Whom Regional Cultural Commonsense"
-year: 2025
+year: 2026
 first_author: "[[Sangmitra Madhusudan]]"
 last_author: "[[Ali Emami]]"
 authors: "Sangmitra Madhusudan; Trush Shashank More; Steph Buongiorno; Renata Dividino; Jad Kabbara; Ali Emami"
@@ -52,7 +52,7 @@ abstract: "Existing cultural commonsense benchmarks treat nations as monolithic,
 LLM_assessed: "Claude, DeepSeek, Gemini, Grok, LLaMA, Mistral, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

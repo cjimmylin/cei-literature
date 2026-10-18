@@ -53,7 +53,7 @@ tags:
 abstract: "Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles."
 research_topic: "Machine Learning"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

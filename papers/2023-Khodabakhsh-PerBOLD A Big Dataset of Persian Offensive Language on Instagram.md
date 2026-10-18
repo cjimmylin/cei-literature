@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0139
 type: journalArticle
 short_title: "PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments"
-year: 2025
+year: 2023
 first_author: [[Khodabakhsh]]
 last_author: [[Ghayoomi]]
 authors: "Khodabakhsh; Jafarinejad; Rahimi; Ghayoomi"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Persian comment dataset from Instagram with two-level manual annotation for offensive language detection including fine-grained tags of different offensive language types."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

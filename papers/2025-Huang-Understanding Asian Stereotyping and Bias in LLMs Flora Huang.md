@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "In recent years, the advancements of large language models (LLMs) have helped them become increasingly entrenched into our world. LLM assistance with processing natural language tasks and generating text is now commonplace. However, despite their advancements, LLMs are critically flawed due to their internalization of social biases. As a result, the use of LLMs may often spread or even amplify issues such as racial bias and stereotyping."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

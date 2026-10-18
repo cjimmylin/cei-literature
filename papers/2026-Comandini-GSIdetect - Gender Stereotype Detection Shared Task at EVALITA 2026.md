@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0525
 type: conferencePaper
 short_title: "GSI:detect — Gender Stereotype Detection Shared Task at EVALITA 2026"
-year: 2025
+year: 2026
 first_author: "[[Gloria Comandini]]"
 last_author: "[[Bernardo Magnini]]"
 authors: "Gloria Comandini; Manuela Speranza; Sofia Brenna; Davide Testa; Stefania Cavagnoli; Bernardo Magnini"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "EVALITA 2026 shared task evaluating systems' ability to detect and classify gender stereotypes in Italian short texts. Main task assigns a numerical GS value quantifying the degree of gender stereotype content. Final workshop in Bari, Italy, February 2026."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

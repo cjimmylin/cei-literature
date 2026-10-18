@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0636
 type: conferencePaper
 short_title: "Building Conversational AI for Assamese Religious Text using Deep Learning"
-year: 2025
+year: 2024
 first_author: "[[Surajit Sarma]]"
 last_author: "[[Sonali Deka]]"
 authors: "Surajit Sarma; Nabankur Pathak; Neeva Rani Phukan; Risheraj Baruah; Sonali Deka"
@@ -52,7 +52,7 @@ abstract: "This paper focuses on the use of Deep Learning techniques to build an
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

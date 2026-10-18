@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0143
 type: conferencePaper
 short_title: "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
-year: 2025
+year: 2024
 first_author: "[[Zheng, Jingnan]]"
 last_author: "[[Chua, Tat-Seng]]"
 authors: "Zheng, Jingnan; Wang, Han; Zhang, An; Tai D. Nguyen; Sun, Jun; Chua, Tat-Seng"
@@ -53,7 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, Vicuna"
 DATA_URL: "https://github.com/SophieZheng998/ALI-Agent"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 20
 deontological_ethics: 0
 utilitarian_ethics: 0

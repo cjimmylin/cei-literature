@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0119
 type: preprint
 short_title: "Komodo: A Linguistic Expedition into Indonesia's Regional Languages"
-year: 2025
+year: 2024
 first_author: "[[Owen, Louis]]"
 last_author: "[[Ahmed, Biddwan]]"
 authors: "Owen, Louis; Tripathi, Vishesh; Kumar, Abhay; Ahmed, Biddwan"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/aisingapore/sealion"
 tags: 
 abstract: "The recent breakthroughs in Large Language Models (LLMs) have mostly focused on languages with easily available and sufficient resources, such as English. However, there remains a significant gap for languages that lack sufficient linguistic resources in the public domain. Our work introduces Komodo-7B, 7-billion-parameter Large Language Models designed to address this gap by seamlessly operating across Indonesian, English, and 11 regional languages in Indonesia."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

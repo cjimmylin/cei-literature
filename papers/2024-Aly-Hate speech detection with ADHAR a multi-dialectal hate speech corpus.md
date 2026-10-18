@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0739
 type: conferencePaper
 short_title: "Hate speech detection with ADHAR: a multi-dialectal hate speech corpus in Arabic - PMC"
-year: 2025
+year: 2024
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
 authors: "Ranwa Aly; Yara Allam; Rana Gaber"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

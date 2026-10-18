@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0306
 type: preprint
 short_title: "IndRegBias A Dataset for Studying Indian"
-year: 2025
+year: 2026
 first_author: "[[Debasmita Panda]]"
 last_author: "[[Neelesh Kumar Shukla]]"
 authors: "Debasmita Panda; Akash Anil; Neelesh Kumar Shukla"
@@ -53,7 +53,7 @@ LLM_assessed: "DeepSeek, GPT-4o, Gemini, Gemma, Llama-3, Mistral, Phi-3, Qwen"
 DATA_URL: NA
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

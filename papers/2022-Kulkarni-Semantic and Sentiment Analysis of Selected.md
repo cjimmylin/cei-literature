@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0598
 type: preprint
 short_title: "Semantic and Sentiment Analysis of Selected"
-year: 2025
+year: 2022
 first_author: "[[Rohitash Chandra]]"
 last_author: "[[Venkatesh Kulkarni]]"
 authors: "Rohitash Chandra; Venkatesh Kulkarni"
@@ -52,7 +52,7 @@ abstract: "> Creates hand-labelled sentiment dataset for Bhagavad Gita and uses 
 LLM_assessed: BERT
 DATA_URL: "https://github.com/sydney-machine-learning/sentimentanalysis_bhagavadgita"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

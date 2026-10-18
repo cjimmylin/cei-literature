@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0588
 type: preprint
 short_title: "Hate Speech Detection in Thai Social"
-year: 2025
+year: 2022
 first_author: "[[Pasupa, Kitsuchart]]"
 last_author: "[[Aksornsiri, Massakorn]]"
 authors: "Pasupa, Kitsuchart; Karnbanjob, Werasut; Aksornsiri, Massakorn"
@@ -52,7 +52,7 @@ abstract: "Develops Thai hate-speech classification method with various loss fun
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

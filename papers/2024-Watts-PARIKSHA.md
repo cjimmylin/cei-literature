@@ -6,7 +6,7 @@ Not AI:
 key: 3UG7WMPW
 type: conferencePaper
 short_title: PARIKSHA
-year: 2025
+year: 2024
 first_author: "[[Ishaan Watts]]"
 last_author: "[[Sunayana Sitaram]]"
 authors: "Ishaan Watts; Varun Gumma; Aditya Yadavalli; Vivek Seshadri; Manohar Swaminathan; Sunayana Sitaram"
@@ -56,7 +56,7 @@ LLM_assessed: "GPT-4o, GPT-4, Llama-3, Llama-2, Mistral, Gemma, Aya"
 DATA_URL: "https://aka.ms/pariksha"
 research_topic: "Machine Translation"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

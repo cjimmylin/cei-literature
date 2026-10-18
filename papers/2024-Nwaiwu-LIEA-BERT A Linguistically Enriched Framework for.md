@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0502
 type: preprint
 short_title: "LIEA-BERT A Linguistically Enriched Framework for"
-year: 2025
+year: 2024
 first_author: "[[Nwaiwu, Steve]]"
 last_author: "[[Anucha Tungkasthan]]"
 authors: "Steve Nwaiwu; Nipat Jongsawat; Anucha Tungkasthan"
@@ -52,7 +52,7 @@ abstract: "Proposes a weakly supervised learning framework for hate speech detec
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

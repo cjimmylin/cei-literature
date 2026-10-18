@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4o, GPT-4o mini, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/yeonsuuuu28/papers-please"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

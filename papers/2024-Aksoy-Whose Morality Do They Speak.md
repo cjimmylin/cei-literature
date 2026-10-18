@@ -6,7 +6,7 @@ Not AI:
 key: 3RHCETYG
 type: conferencePaper
 short_title: "Whose Morality Do They Speak?"
-year: 2025
+year: 2024
 first_author: "[[Meltem Aksoy]]"
 last_author: "[[Meltem Aksoy]]"
 authors: "Meltem Aksoy"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o mini, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

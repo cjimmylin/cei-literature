@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0576
 type: journal_article
 short_title: "Toxicity Posts and Hateful Comments Detection"
-year: 2025
+year: 2023
 first_author: "[[Sukhamsri, Sutthisak]]"
 last_author: "[[Sutthisak Sukhamsri]]"
 authors: "Sutthisak Sukhamsri"
@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: "Machine Learning"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

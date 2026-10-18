@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0308
 type: preprint
 short_title: "Qalb Largest State-of-the-Art Urdu Large Language"
-year: 2025
+year: 2026
 first_author: "[[Hassan, Muhammad Taimoor]]"
 last_author: "[[Awais, Muhammad]]"
 authors: "Hassan, Muhammad Taimoor; Ahmed, Jawad; Awais, Muhammad"
@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4o, Llama-3, Gemma-2, Mistral, Qwen"
 DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

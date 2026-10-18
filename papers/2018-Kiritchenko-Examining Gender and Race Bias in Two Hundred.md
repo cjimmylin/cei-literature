@@ -6,7 +6,7 @@ Not AI:
 key: J74UL4ZK
 type: conferencePaper
 short_title: "Examining Gender and Race Bias in Two Hundred"
-year: 2025
+year: 2018
 first_author: "[[Svetlana Kiritchenko]]"
 last_author: "[[Saif M. Mohammad]]"
 authors: "Svetlana Kiritchenko; Saif M. Mohammad"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

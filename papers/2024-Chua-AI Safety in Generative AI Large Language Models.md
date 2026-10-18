@@ -6,7 +6,7 @@ Not AI:
 key: BPQVTDT8
 type: conferencePaper
 short_title: "AI Safety in Generative AI Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Jaymari Chua]]"
 last_author: "[[Lina Yao]]"
 authors: "Jaymari Chua; Yun Li; Shiyi Yang; Chen Wang; Lina Yao"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

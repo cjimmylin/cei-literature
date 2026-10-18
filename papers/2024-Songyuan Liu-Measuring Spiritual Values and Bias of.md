@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0509
 type: preprint
 short_title: "Measuring Spiritual Values and Bias of"
-year: 2025
+year: 2024
 first_author: "[[Songyuan Liu,]]"
 last_author: "[[5 others]]"
 authors: "Songyuan Liu,; 5 others"
@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) have become integral tool for users from
 LLM_assessed: "ChatGLM, GPT-4, Gemma, Llama-2, Llama-3, MPT, Mistral, Phi-3, Qwen-1.5, Vicuna"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

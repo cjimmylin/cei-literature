@@ -48,11 +48,11 @@ mp_identity: 0
 moral_psychology: N/A
 newtags: 
 tags: 
-abstract: "Purpose: The purpose of this research case study is to conduct a detailed textual and philosophical analysis of the Akshara Brahma Yoga from the Bhagavad Gita's Eighth Chapter. It aims to explore the chapter’s unique framework for conscious living and dying, focusing on the doctrine of the \"
+abstract: "Purpose: The purpose of this research case study is to conduct a detailed textual and philosophical analysis of the Akshara Brahma Yoga from the Bhagavad Gita's Eighth Chapter. It aims to explore the chapter’s unique framework for conscious living and dying, focusing on the doctrine of the \"final thought\" and its soteriological implications. Additionally, the study systematically evaluates the applicability and impact of these teachings for the modern individual and society using structured an"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

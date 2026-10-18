@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard"
 tags: 
 abstract: "Standard Persian LLM leaderboard evaluating models across general knowledge, logical reasoning, and language skills. Includes PerCoR (Persian CommonSense Reasoning) benchmark."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

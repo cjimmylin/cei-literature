@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0741
 type: conferencePaper
 short_title: "A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF"
-year: 2025
+year: 2024
 first_author: "[[Duwairi, Rehab]]"
 last_author: "[[Muhannad Quwaider]]"
 authors: "Rehab Duwairi; Amena Hayajneh; Muhannad Quwaider"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

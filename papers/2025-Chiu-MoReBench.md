@@ -56,7 +56,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-5, Gemini, Llama-3, Qwen"
 DATA_URL: "https://hf.co/datasets/morebench/morebench"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 60
 deontological_ethics: 75
 utilitarian_ethics: 100

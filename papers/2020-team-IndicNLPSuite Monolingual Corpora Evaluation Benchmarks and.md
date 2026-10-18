@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0615
 type: conference_paper
 short_title: "IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and"
-year: 2025
+year: 2020
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
 authors: "AI4Bharat team"
@@ -52,7 +52,7 @@ abstract: "In this paper, we introduce NLP resources for 11 major Indian languag
 LLM_assessed: "ALBERT, BERT"
 DATA_URL: "https://github.com/AI4Bharat/indicnlp_catalog"
 CONFERENCE: "EMNLP 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0222
 type: conferencePaper
 short_title: "Open Portuguese LLM Leaderboard"
-year: 2025
+year: 2024
 first_author: "[[Eduardo Garcia]]"
 last_author: "[[Eduardo Garcia]]"
 authors: "Eduardo Garcia"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard"
 tags: 
 abstract: "Community benchmark for evaluation of LLMs in Portuguese across a variety of tasks and datasets. Public leaderboard tracking model performance."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

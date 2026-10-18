@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-5, Gemini, Grok, Mistral, Qwen"
 DATA_URL: "https://github.com/PacifAIst/PacifAIst"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 35

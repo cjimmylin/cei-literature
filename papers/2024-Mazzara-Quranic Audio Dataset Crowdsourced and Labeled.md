@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0519
 type: preprint
 short_title: "Quranic Audio Dataset Crowdsourced and Labeled"
-year: 2025
+year: 2024
 first_author: "[[Raghad Salameh]]"
 last_author: "[[Manuel Mazzara]]"
 authors: "Raghad Salameh; Mohamad Al Mdfaa; Nursultan Askarbekuly; Manuel Mazzara"
@@ -52,7 +52,7 @@ abstract: "This paper addresses the challenge of learning to recite the Quran fo
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

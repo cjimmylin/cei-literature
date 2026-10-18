@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0745
 type: preprint
 short_title: "A Survey on LLM-as-a-Judge"
-year: 2025
+year: 2024
 first_author: "[[Gu, Jiawei]]"
 last_author: "[[Guo, Jian]]"
 authors: "Gu, Jiawei; Jiang, Xuhui; Shi, Zhichao; Tan, Hexiang; Zhai, Xuehao; Xu, Chengjin; Li, Wei; Shen, Yinghan; Ma, Shengjie; Liu, Honghao; Wang, Saizhuo; Zhang, Kun; Wang, Yuanzhuo; Gao, Wen; Ni, Lionel; Guo, Jian"
@@ -52,7 +52,7 @@ DATA_URL: "https://awesome-llm-as-a-judge.github.io/"
 tags: 
 abstract: "Accurate and consistent evaluation is crucial for decision-making across numerous fields, yet it remains a challenging task due to inherent subjectivity, variability, and scale. Large Language Models (LLMs) have achieved remarkable success across diverse domains, leading to the emergence of 'LLM-as-a-Judge,' where LLMs are employed as evaluators for complex tasks. With their ability to process diverse data types and provide scalable and flexible assessments, LLMs present a compelling..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

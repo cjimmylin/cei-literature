@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/256cb72258591c876ad06e6c23fb13802ff7
 abstract: "Artificial intelligence (AI) has moved from being an external instrument to an environment that increasingly mediates attention, interpretation, and judgment. In religious life, this shift is not mere..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

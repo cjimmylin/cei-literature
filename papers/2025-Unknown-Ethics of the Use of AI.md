@@ -9,7 +9,7 @@ url: "https://journal.walideminstitute.com/index.php/sicopus/article/view/393"
 abstract: "AI ethics through the paradigm of Islamic law"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

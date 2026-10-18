@@ -2,14 +2,14 @@
 key: CGSR0169
 type: document
 short_title: "Variation in postharvest processing of sea cucumbers by fishers and commercial processors among three Pacific Island countries"
-year: 2025
+year: 2016
 first_author: "[[S. Purcell]]"
 authors: "S. Purcell et al."
 url: "https://www.semanticscholar.org/paper/0e9b22a9501f6ecd50461bbebfa031431e6946e6"
 abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

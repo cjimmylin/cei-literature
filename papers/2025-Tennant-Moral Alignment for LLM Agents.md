@@ -55,7 +55,7 @@ LLM_assessed: Gemma-2
 DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 DATE_ADDED: 20260207
 CONFERENCE: "ICLR 2025"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

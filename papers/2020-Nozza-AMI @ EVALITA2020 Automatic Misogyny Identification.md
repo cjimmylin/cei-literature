@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0509
 type: conferencePaper
 short_title: "AMI @ EVALITA2020: Automatic Misogyny Identification"
-year: 2025
+year: 2020
 first_author: "[[Debora Nozza]]"
 last_author: "[[Debora Nozza]]"
 authors: "Debora Nozza"
@@ -53,7 +53,7 @@ tags:
 abstract: "Welcome to EVALITA 2020! EVALITA is the evaluation campaign of Natural Language Processing and Speech Tools for Italian. EVALITA is an initiative of the Italian Association for Computational Linguistics (AILC, http://www.ai-lc.it) and it is endorsed by the Italian Association for Artificial Intelligence (AIxIA, http://www.aixia.it) and the Italian Association for Speech Sciences (AISV, http://www.aisv.it)."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

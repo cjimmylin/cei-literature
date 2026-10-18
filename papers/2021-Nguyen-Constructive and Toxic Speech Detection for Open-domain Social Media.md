@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0365
 type: preprint
 short_title: "Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese"
-year: 2025
+year: 2021
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Luan Thanh Nguyen; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/tarudesu/ViCTSD"
 tags: 
 abstract: "The rise of social media has led to the increasing of comments on online forums. However, there still exists invalid comments which are not informative for users. Moreover, those comments are also quite toxic and harmful to people. In this paper, we create a dataset for constructive and toxic speech detection, named UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection dataset) with 10,000 humanannotated comments."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

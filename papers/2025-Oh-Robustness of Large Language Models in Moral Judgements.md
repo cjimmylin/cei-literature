@@ -53,7 +53,7 @@ LLM_assessed: GPT-3.5
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

@@ -52,7 +52,7 @@ abstract: "In the field of AI, word embedding models have proven to be one of th
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

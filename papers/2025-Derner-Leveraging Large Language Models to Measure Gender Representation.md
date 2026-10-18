@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/ellisalicante/grb-corpora"
 tags: 
 abstract: "Large language models (LLMs) often inherit and amplify social biases embedded in their training data. A prominent social bias is gender bias. In this regard, prior work has mainly focused on gender stereotyping bias – the association of specific roles or traits with a particular gender – in English and on evaluating gender bias in model embeddings or generated outputs. In contrast, gender representation bias – the unequal frequency of references to individuals of different genders – in the..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

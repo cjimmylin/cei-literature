@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4, Llama-3, Mistral, Qwen"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0

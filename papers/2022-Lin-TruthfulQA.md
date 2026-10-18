@@ -6,7 +6,7 @@ Not AI:
 key: TFWHHICP
 type: conferencePaper
 short_title: TruthfulQA
-year: 2025
+year: 2022
 first_author: "[[Stephanie Lin]]"
 last_author: "[[Owain Evans]]"
 authors: "Stephanie Lin; Jacob Hilton; Owain Evans"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/sylinrl/TruthfulQA"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
 helm: incorporated
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

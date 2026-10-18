@@ -51,7 +51,7 @@ research_topic: "Machine Translation"
 LLM_assessed: "Falcon, Gemma, Llama-3, Mistral"
 DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

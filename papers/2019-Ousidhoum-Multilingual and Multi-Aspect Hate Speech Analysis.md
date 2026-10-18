@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0456
 type: preprint
 short_title: "Multilingual and Multi-Aspect Hate Speech Analysis"
-year: 2025
+year: 2019
 first_author: "[[Ousidhoum, Nedjma]]"
 last_author: "[[Yeung, Dit-Yan]]"
 authors: "Ousidhoum, Nedjma; Lin, Zizheng; Zhang, Hongming; Song, Yangqiu; Yeung, Dit-Yan"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/HKUST-KnowComp/MLMA_hate_speech"
 tags: 
 abstract: "Current research on hate speech analysis is typically oriented towards monolingual and single classiﬁcation tasks. In this paper, we present a new multilingual multi-aspect hate speech analysis dataset and use it to test the current state-of-the-art multilingual multitask learning approaches. We evaluate our dataset in various classiﬁcation settings, then we discuss how to leverage our annotations in order to improve hate speech detection and classiﬁcation in general."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

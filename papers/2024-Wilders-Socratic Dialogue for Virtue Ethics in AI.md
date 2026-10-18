@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: conferencePaper
 short_title: "Socratic Dialogue for Virtue Ethics in AI"
-year: 2025
+year: 2024
 first_author: "[[Maarten Wilders]]"
 last_author: "[[Roel Dobbe]]"
 authors: "Maarten Wilders; Inigo Martinez de Rituerto de Troya; Roel Dobbe"
@@ -52,7 +52,7 @@ research_topic: "Socratic AI Ethics"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "AAAI 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 10

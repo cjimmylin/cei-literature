@@ -6,7 +6,7 @@ Not AI:
 key: CULT0052
 type: preprint
 short_title: "Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice"
-year: 2025
+year: 2024
 first_author: "[[Sunny Rai]]"
 last_author: "[[Sharath Chandra Guntuku]]"
 authors: "Sunny Rai; Khushang Jilesh Zaveri; Shreya Havaldar; Soumna Nema; Lyle Ungar; Sharath Chandra Guntuku"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Khushangz/Cross-Cultural-Social-Norms-Dataset/"
 tags: 
 abstract: "Shame and pride are social emotions expressed across cultures to motivate and regulate people’s thoughts, feelings, and behaviors. In this paper, we introduce the first cross-cultural dataset of over 10k shame/pride-related expressions, with underlying social expectations from 5.4K Bollywood and Hollywood movies. We examine how and why shame and pride are expressed across cultures using a blend of psychology-informed language analysis combined with large language models."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

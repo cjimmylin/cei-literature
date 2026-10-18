@@ -52,7 +52,7 @@ DATE_ADDED: 20260129
 LLM_assessed: "Falcon, Llama-2, Mistral, Vicuna"
 DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"
 CONFERENCE: "AAAI 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 10

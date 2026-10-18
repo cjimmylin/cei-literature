@@ -2,14 +2,14 @@
 key: CGSR0183
 type: document
 short_title: "An Indigenous Fijian Perspective: Prioritising Indigenous Fijian values and aspirations in decolonising Early Childhood Education."
-year: 2025
+year: 2024
 first_author: "[[Sainimili Saro Nabou]]"
 authors: "Sainimili Saro Nabou"
 url: "https://www.semanticscholar.org/paper/fcf92526f550ad1d2f4dd5e2dd383fe90888e5b1"
 abstract: "As an Indigenous Fijian scholar and PhD candidate from the Faculty of Culture and Society at Auckland University of Technology, my doctoral research study underscores the crucial role of Indigenous Fi..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

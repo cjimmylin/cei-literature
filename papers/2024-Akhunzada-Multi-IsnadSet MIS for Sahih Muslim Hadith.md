@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0512
 type: preprint
 short_title: "Multi-IsnadSet MIS for Sahih Muslim Hadith"
-year: 2025
+year: 2024
 first_author: "[[Aziz Mehmood Farooqi]]"
 last_author: "[[Adnan Akhunzada]]"
 authors: "Aziz Mehmood Farooqi; Rauf Ahmed Shams Malick; Muhammad Shahzad Shaikh; Adnan Akhunzada"
@@ -58,7 +58,7 @@ abstract: "Graph-structured dataset of multiple Isnad chains for Sahih Muslim Ha
 LLM_assessed: NA
 DATA_URL: "https://data.mendeley.com/datasets/gzprcr93zn/2"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

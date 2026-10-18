@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0605
 type: conferencePaper
 short_title: "Benchmarking Multilabel Topic Classification in the Kyrgyz Language"
-year: 2025
+year: 2024
 first_author: "[[Alekseev, Anton]]"
 last_author: "[[Kabaeva, Gulnara]]"
 authors: "Alekseev, Anton; Sergey I. Nikolenko; Kabaeva, Gulnara"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/alexeyev/kyrgyz-multi-label-topic-classification"
 tags: 
 abstract: "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classiﬁcation in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classiﬁcation in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

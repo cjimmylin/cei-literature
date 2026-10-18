@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
 pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 0

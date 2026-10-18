@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Beyond Preferences in AI Alignment"
-year: 2025
+year: 2024
 first_author: "[[Tan Zhi-Xuan]]"
 last_author: "[[Hal Ashton]]"
 authors: "Tan Zhi-Xuan; Micah Carroll; Matija Franklin; Hal Ashton"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 55

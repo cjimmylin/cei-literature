@@ -6,7 +6,7 @@ Not AI:
 key: CWLWCFUJ
 type: conferencePaper
 short_title: BBQ
-year: 2025
+year: 2022
 first_author: "[[Alicia Parrish]]"
 last_author: "[[Samuel Bowman]]"
 authors: "Alicia Parrish; Angelica Chen; Nikita Nangia; Vishakh Padmakumar; Jason Phang; Jana Thompson; Phu Mon Htut; Samuel Bowman"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "DeBERTaV3, RoBERTa, UnifiedQA"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

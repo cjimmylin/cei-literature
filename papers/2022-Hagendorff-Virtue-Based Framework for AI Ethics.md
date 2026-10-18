@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_HAGENDORFF2022
 type: journalArticle
 short_title: "Virtue-Based Framework for AI Ethics"
-year: 2025
+year: 2022
 first_author: [[Hagendorff]]
 last_author: [[Thilo]]
 authors: "Hagendorff; Thilo"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

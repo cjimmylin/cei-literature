@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0202
 type: conferencePaper
 short_title: "Multilingual Defining Issues Test"
-year: 2025
+year: 2024
 first_author: "[[Aditi Khandelwal]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury"
@@ -53,7 +53,7 @@ research_topic: "Machine Translation"
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 30
 deontological_ethics: 5
 utilitarian_ethics: 15

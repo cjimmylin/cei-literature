@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0623
 type: preprint
 short_title: "A Benchmark Dataset with Larger Context for Non-Factoid Question Answering over Islamic Text"
-year: 2025
+year: 2024
 first_author: "[[Faiza Qamar]]"
 last_author: "[[R. Latif]]"
 authors: "Faiza Qamar; Seemab Latif; R. Latif"
@@ -52,7 +52,7 @@ abstract: "Accessing and comprehending religious texts, particularly the Quran (
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

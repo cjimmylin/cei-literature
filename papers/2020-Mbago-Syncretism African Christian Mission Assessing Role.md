@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0634
 type: conferencePaper
 short_title: "Syncretism in African Christian Mission: Assessing the Role of Historical-critical Method of Hermeneutics"
-year: 2025
+year: 2020
 first_author: "[[Meshack O. Mbago]]"
 last_author: "[[Meshack O. Mbago]]"
 authors: "Meshack O. Mbago"
@@ -52,7 +52,7 @@ abstract: "amount Abstract: Christianity in Africa is experiencing significant e
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

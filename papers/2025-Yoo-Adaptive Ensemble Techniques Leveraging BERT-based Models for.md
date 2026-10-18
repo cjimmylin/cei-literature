@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "Adaptive ensemble techniques for hate speech detection in Korean and English using BERT-based models. Addresses multilingual hate speech detection with Korean-specific considerations."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

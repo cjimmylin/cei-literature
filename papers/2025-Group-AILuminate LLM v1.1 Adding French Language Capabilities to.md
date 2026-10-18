@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/mlcommons/ailuminate"
 tags: 
 abstract: "Industry-standard AI safety benchmark from MLCommons, released v1.1 with French language capabilities. Assesses LLM responses to over 24,000 French language test prompts across twelve hazard categories including violent crime, hate, and privacy. Developed by Stanford, Columbia, TU Eindhoven, and industry partners."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

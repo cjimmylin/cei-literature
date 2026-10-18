@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0150
 type: conferencePaper
 short_title: "Persian Offensive Language Detection (Dehghani et al.)"
-year: 2025
+year: 2023
 first_author: "[[Kebriaei, Emad]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
 authors: "Kebriaei, Emad; Homayouni, Ali; Faraji, Roghayeh; Razavi, Armita; Shakery, Azadeh; Faili, Heshaam; Yaghoobzadeh, Yadollah"
@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "With the proliferation of social networks and their impact on human life, one of the rising problems in this environment is the rise in verbal and written insults and hatred. As one of the significant platforms for distributing text-based content, Twitter frequently publishes its users’ abusive remarks. Creating a model that requires a complete collection of offensive sentences is the initial stage in recognizing objectionable phrases."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

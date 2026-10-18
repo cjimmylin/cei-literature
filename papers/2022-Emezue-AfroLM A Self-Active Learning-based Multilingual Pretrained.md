@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0579
 type: preprint
 short_title: "AfroLM A Self-Active Learning-based Multilingual Pretrained"
-year: 2025
+year: 2022
 first_author: "[[Bonaventure F. P. Dossou]]"
 last_author: "[[Chris Chinenye Emezue]]"
 authors: "Bonaventure F. P. Dossou; Atnafu Lambebo Tonja; Oreen Yousuf; Salomey Osei; Abigail Oppong; Iyanuoluwa Shode; Oluwabusayo Olufunke Awoyomi; Chris Chinenye Emezue"
@@ -53,7 +53,7 @@ LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: "https://github.com/bonaventuredossou/MLM_AL"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

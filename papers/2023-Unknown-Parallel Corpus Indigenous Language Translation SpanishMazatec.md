@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0664
 type: preprint
 short_title: "Parallel Corpus for Indigenous Language Translation: Spanish-Mazatec and Spanish-Mixtec"
-year: 2025
+year: 2023
 first_author: "[[Atnafu Lambebo Tonja]]"
 last_author: "[[Alexander Gelbukh]]"
 authors: "Atnafu Lambebo Tonja; Christian Maldonado-sifuentes; David Alejandro Mendoza Castillo; Olga Kolesnikova; Noé Castro-Sánchez et al."
@@ -52,7 +52,7 @@ abstract: "In this paper, we present a parallel Spanish-Mazatec and Spanish-Mixt
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

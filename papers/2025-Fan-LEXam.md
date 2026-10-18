@@ -52,7 +52,7 @@ abstract: "Long-form legal reasoning remains a key challenge for large language 
 LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-4o mini, GPT-5, Gemini, Gemma, Gemma-2, Llama-3, Mistral, Phi, Qwen, Qwen-2, o1, o3-mini"
 DATA_URL: "https://lexam-benchmark.github.io/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

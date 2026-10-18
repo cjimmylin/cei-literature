@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) exhibit social biases, prompting the dev
 LLM_assessed: "GPT-4o, LLaMA, Llama-3, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/Taise228/SOBACO"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

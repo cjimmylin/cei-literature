@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0601
 type: conference_paper
 short_title: "Subverting the Jewtocracy Online Antisemitism Detection"
-year: 2025
+year: 2021
 first_author: "[[Mohit Chandra, Pailla,]]"
 last_author: "[[Hyderabad, others (IIIT]]"
 authors: "Mohit Chandra, Pailla,; Hyderabad, others (IIIT"
@@ -52,7 +52,7 @@ abstract: "The exponential rise of online social media has enabled the creation,
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

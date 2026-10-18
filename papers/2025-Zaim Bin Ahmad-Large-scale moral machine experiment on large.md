@@ -53,7 +53,7 @@ pdf_extract: "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine ex
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 35

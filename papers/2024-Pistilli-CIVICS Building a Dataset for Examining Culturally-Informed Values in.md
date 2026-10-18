@@ -6,7 +6,7 @@ Not AI:
 key: CULT0147
 type: conferencePaper
 short_title: "CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Giada Pistilli]]"
 last_author: "[[Margaret Mitchell]]"
 authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/spaces/CIVICS-dataset/CIVICS-responses"
 tags: 
 abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

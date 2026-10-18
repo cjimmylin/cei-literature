@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0492
 type: preprint
 short_title: "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding"
-year: 2025
+year: 2024
 first_author: "[[Kenneth Enevoldsen]]"
 last_author: "[[Kristoffer Laigaard Nielbo]]"
 authors: "Kenneth Enevoldsen; Marton Kardos; Niklas Muennighoff; Kristoffer Laigaard Nielbo"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/KennethEnevoldsen/scandinavian-embedding-benchmark
 tags: 
 abstract: "The evaluation of English text embeddings has transitioned from evaluating a handful of datasets to broad coverage across many tasks through benchmarks such as MTEB. However, this is not the case for multilingual text embeddings due to a lack of available benchmarks. To address this problem, we introduce the Scandinavian Embedding Benchmark (SEB). SEB is a comprehensive framework that enables text embedding evaluation for Scandinavian languages across 24 tasks, 10 subtasks, and 4 task categories."
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

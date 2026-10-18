@@ -51,7 +51,7 @@ abstract: "Empathy is increasingly recognized as a key factor in human–AI comm
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

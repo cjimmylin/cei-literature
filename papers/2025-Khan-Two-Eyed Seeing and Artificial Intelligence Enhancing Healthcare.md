@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Explores AI's potential to enhance healthcare for underserved rural, remote, and Indigenous communities through the Two-Eyed Seeing approach. Proposes a framework integrating AI with Indigenous knowledge systems for culturally safe and ethical healthcare implementation."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0247
 type: preprint
 short_title: "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Chanjun Park]]"
 last_author: "[[Hyeonwoo Kim]]"
 authors: "Chanjun Park; Dahyun Kim; Sanghoon Kim; Sukyung Lee; Yungi Kim; Hyeonwoo Kim"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard"
 tags: 
 abstract: "This paper introduces the Open Ko-LLM Leaderboard1 and the Ko-H5 Benchmark as vital tools for evaluating Large Language Models (LLMs) in Korean. Incorporating private test sets while mirroring the English Open LLM Leaderboard, we establish a robust evaluation framework that has been well integrated in the Korean LLM community. We perform data leakage analysis that shows the benefit of private test sets along with a correlation study within the Ko-H5 benchmark and temporal analyses of the Ko-H5..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://doi.org/10.57760/sciencedb.j00104.00146"
 tags: 
 abstract: "In addressing challenges within the field of Natural Language Processing (NLP), supervised fine-tuning is an efficient technique that allows pre-trained Large Language Models to adapt to specific tasks. This is especially crucial for low-resource languages, such as Tibetan, where the demand for high-quality finetuning datasets is particularly pronounced. This paper introduces the Tibetan Instruction-Following Dataset (TIFD), comprising 11,535 JSON objects, each with four attributes: a unique..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

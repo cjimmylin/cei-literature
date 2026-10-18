@@ -51,7 +51,7 @@ abstract: "Large language models (LLMs) make significant progress in Emotional I
 LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, Llama-3, Qwen"
 DATA_URL: "https://longemotion.github.io/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

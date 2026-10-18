@@ -52,7 +52,7 @@ tags:
 abstract: "Evaluates AI/LLM performance across 7 indigenous Latin American languages (Quechua, Guarani, Aymara, Nahuatl, Quiche, Mapuche, Tupi-Guarani) using 5 language models. Uses MQM and MMLU methodologies. Finds significant performance gaps vs. Spanish/major languages. Presents 21 strategies for technological inclusion. Cultural bias toward Western hegemonic culture identified even when AI responds in indigenous languages."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

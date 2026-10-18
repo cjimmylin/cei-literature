@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0027
 type: preprint
 short_title: "AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With"
-year: 2025
+year: 2022
 first_author: "[[Amit Seker]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Amit Seker; Elron Bandel; Dan Bareket; Idan Brusilovsky; Refael Shaked Greenfeld; Reut Tsarfaty"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/OnlpLab/AlephBERT"
 tags: 
 abstract: "Large Pre-trained Language Models (PLMs) have become ubiquitous in the development of language understanding technology and lie at the heart of many artiﬁcial intelligence advances. While advances reported for English using PLMs are unprecedented, reported advances using PLMs in Hebrew are few and far between. The problem is twofold. First, Hebrew resources available for training NLP models are not at the same order of magnitude as their English counterparts."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

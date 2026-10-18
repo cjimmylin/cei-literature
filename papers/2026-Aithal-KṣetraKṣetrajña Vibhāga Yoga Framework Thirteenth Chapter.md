@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0657
 type: conferencePaper
 short_title: "The Kṣetra-Kṣetrajña Vibhāga Yoga Framework of the Thirteenth Chapter of Bhagavad Gita for Conscious Leadership and Syst"
-year: 2025
+year: 2026
 first_author: "[[P. S. Aithal]]"
 last_author: "[[Ramanathan S.]]"
 authors: "P. S. Aithal; Ramanathan S."
@@ -48,11 +48,11 @@ mp_identity: 0
 moral_psychology: N/A
 newtags: 
 tags: 
-abstract: "Purpose: The purpose of this research case study is to analyze the metaphysical distinction between the \"
+abstract: "Purpose: The purpose of this research case study is to analyze the metaphysical distinction between the \"Field\" (Kṣetra) and the \"Knower\" (Kṣetrajña) as presented in the Thirteenth Chapter of the Bhagavad Gita to establish a foundation for conscious leadership. It explores the systematic learnings and twenty virtues identified in this framework that facilitate detached engagement and ethical decision-making in 21st-century organizational contexts. Additionally, the study aims to evaluate thi"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

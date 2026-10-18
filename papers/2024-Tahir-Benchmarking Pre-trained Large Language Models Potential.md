@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0463
 type: preprint
 short_title: "Benchmarking Pre-trained Large Language Models Potential"
-year: 2025
+year: 2024
 first_author: "[[Tahir, Munief Hassan]]"
 last_author: "[[Hussain, Sarmad]]"
 authors: "Tahir, Munief Hassan; Shams, Sana; Fiaz, Layba; Adeeba, Farah; Hussain, Sarmad"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) pre-trained on multilingual data have re
 LLM_assessed: "BLOOM, GPT-3.5, Llama-2, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

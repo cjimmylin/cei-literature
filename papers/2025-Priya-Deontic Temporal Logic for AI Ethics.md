@@ -55,7 +55,7 @@ research_topic: "AI Ethics Verification"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 30
 utilitarian_ethics: 0

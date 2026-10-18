@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Machine Ethics - Creation of a Virtuous Machine"
-year: 2025
+year: 2020
 first_author: "[[Mohamed Akrout]]"
 last_author: "[[Robert Steinbauer]]"
 authors: "Mohamed Akrout; Robert Steinbauer"
@@ -53,7 +53,7 @@ research_topic: "GAMA Moral Agent"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50

@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0020
 type: journalArticle
 short_title: "Operationalizing the CARE and FAIR Principles for Indigenous Data Futures"
-year: 2025
+year: 2021
 first_author: "[[Stephanie Russo Carroll]]"
 last_author: "[[Shelley Stall]]"
 authors: "Stephanie Russo Carroll; Edit Herczog; Maui Hudson; Keith Russell; Shelley Stall"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Describes how to operationalize FAIR Principles for scientific data together with CARE Principles for Indigenous Data Governance. Enhances machine actionability while bringing people and purpose to resolve Indigenous Peoples' rights and interests in their data across the data lifecycle, particularly relevant to big data and AI systems."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "In this paper we present AnswerCarefully, a dataset for promoting the
 LLM_assessed: "GPT-3.5, GPT-4, Claude-3, Llama-3, Qwen-2, Gemma-2"
 DATA_URL: "https://huggingface.co/datasets/llm-jp/AnswerCarefully"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

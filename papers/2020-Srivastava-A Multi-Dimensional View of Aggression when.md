@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: MAHWYKT8
 type: journalArticle
-year: 2025
+year: 2020
 short_title: "A Multi-Dimensional View of Aggression when"
 first_author: "[[Arjit Srivastava]]"
 last_author: "[[Manish Shrivastava]]"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/arjitsrivastava/MultidimensionalViewOpinionMining"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

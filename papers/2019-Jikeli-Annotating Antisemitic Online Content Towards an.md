@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0617
 type: preprint
 short_title: "Annotating Antisemitic Online Content Towards an"
-year: 2025
+year: 2019
 first_author: [[Jikeli]]
 last_author: [[Cavar]]
 authors: "Jikeli; Cavar"
@@ -52,7 +52,7 @@ abstract: "Online antisemitism is hard to quantify. How can it be measured in ra
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

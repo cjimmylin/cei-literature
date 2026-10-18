@@ -52,7 +52,7 @@ abstract: "Enterprise customers are increasingly adopting Large Language Models 
 LLM_assessed: "Llama-3, Mistral, Mixtral, Phi-3, Qwen-2"
 DATA_URL: "https://github.com/amitbcp/multilingual_profanity"
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Comprehension of ancient texts plays an important role in archaeology
 LLM_assessed: "Llama-3, Qwen, Baichuan, ChatGLM"
 DATA_URL: NA
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

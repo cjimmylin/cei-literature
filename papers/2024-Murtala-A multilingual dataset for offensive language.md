@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0454
 type: preprint
 short_title: "A multilingual dataset for offensive language"
-year: 2025
+year: 2024
 first_author: "[[Saminu Mohammad Aliyu]]"
 last_author: "[[Muhammad Murtala]]"
 authors: "Saminu Mohammad Aliyu; Gregory Maksha Wajiga; Muhammad Murtala"
@@ -52,7 +52,7 @@ abstract: "Novel datasets for offensive language detection in three major Nigeri
 LLM_assessed: NA
 DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0641
 type: conferencePaper
 short_title: "Multilingual Sequence-to-Sequence Models for Hebrew NLP"
-year: 2025
+year: 2022
 first_author: "[[Matan Eyal]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Matan Eyal; Hila Noga; Roee Aharoni; Idan Szpektor; Reut Tsarfaty"
@@ -52,7 +52,7 @@ abstract: "Recent work attributes progress in NLP to large language models (LMs)
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

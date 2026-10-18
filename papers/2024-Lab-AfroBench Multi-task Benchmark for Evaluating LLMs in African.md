@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0458
 type: conferencePaper
 short_title: "AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages"
-year: 2025
+year: 2024
 first_author: "[[McGill NLP Lab]]"
 last_author: "[[McGill NLP Lab]]"
 authors: "McGill NLP Lab"
@@ -50,7 +50,7 @@ DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 tags: 
 abstract: "Multi-task benchmark evaluating LLM performance across 64 African languages including Francophone African languages, with 15 tasks and 22 datasets. Includes NLU, text generation, knowledge/QA, and mathematical reasoning tasks."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

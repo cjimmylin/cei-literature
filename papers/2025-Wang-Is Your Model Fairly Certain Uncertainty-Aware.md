@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Mistral, Mixtral, Falcon, Llama-3, Qwen, DeepSeek"
 DATA_URL: "https://github.com/apple/ml-synthbias"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

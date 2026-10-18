@@ -52,7 +52,7 @@ abstract: "We present MultiLoKo, a new benchmark for evaluating multilinguality 
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mixtral, Qwen-2"
 DATA_URL: "https://github.com/facebookresearch/multiloko"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

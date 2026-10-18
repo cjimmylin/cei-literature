@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Examines how AI development takes place in a digital context informed by older colonial knowledges. Argues that digital and data colonialism are contemporary expressions of colonialism where extracting Indigenous land and Indigenous data are equivalent. Necessitates Indigenous-led responses centering Indigenous Data Sovereignty."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

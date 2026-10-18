@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0465
 type: conference_paper
 short_title: "CDEval A Benchmark for Measuring the"
-year: 2025
+year: 2024
 first_author: "[[Yuhang Wang]]"
 last_author: "[[Jitao Sang]]"
 authors: "Yuhang Wang; Yanxu Zhu; Chao Kong; Shuyu Wei; Xiaoyuan Yi; Xing Xie; Jitao Sang"
@@ -52,7 +52,7 @@ abstract: "As the scaling of Large Language Models (LLMs) has dramatically enhan
 LLM_assessed: "Alpaca, Baichuan, ChatGLM, ChatGPT, GPT-3, GPT-3.5, GPT-4, LLaMA, Llama-2"
 DATA_URL: "https://huggingface.co/datasets/Rykeryuhang/CDEval"
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

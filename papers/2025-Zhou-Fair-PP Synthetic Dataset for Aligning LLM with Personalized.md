@@ -52,7 +52,7 @@ abstract: "Human preference plays a crucial role in the refinement of large lang
 LLM_assessed: "Falcon, GPT-4o mini, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/tools-only/FairPP, https://huggingface.co/datasets/tools-o/Fair-PP"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

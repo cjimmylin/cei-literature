@@ -9,7 +9,7 @@ url: "https://www.researchgate.net/publication/398068529"
 abstract: "PRISMA systematic review of 26 publications on AI and Sharia compliance"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

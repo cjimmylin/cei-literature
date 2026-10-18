@@ -6,7 +6,7 @@ Not AI:
 key: CULT0105
 type: preprint
 short_title: "Self-Explaining Hate Speech Detection with Moral Rationales"
-year: 2025
+year: 2026
 first_author: "[[Francielle Vargas]]"
 last_author: "[[Ameeta Agrawal]]"
 authors: "Francielle Vargas; Jackson Trager; Diego Alves; Surendrabikram Thapa; Matteo Guida; Berk Atil; Daryna Dementieva; Andrew Smart; Ameeta Agrawal"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/franciellevargas/SMRA"
 tags: 
 abstract: "Hate speech detection models rely on surfacelevel lexical features, increasing vulnerability to spurious correlations and limiting robustness, cultural contextualization, and interpretability. We propose Supervised Moral Rationale Attention (SMRA)1, the first selfexplaining hate speech detection framework to incorporate moral rationales as direct supervision for attention alignment. Based on Moral Foundations Theory, SMRA aligns token-level attention with expert-annotated moral rationales,..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

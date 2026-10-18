@@ -6,7 +6,7 @@ Not AI:
 key: TSQJ734D
 type: journalArticle
 short_title: COBBLER
-year: 2025
+year: 2023
 first_author: "[[Ryan Koo]]"
 last_author: "[[Dongyeop Kang]]"
 authors: "Ryan Koo; Minhwa Lee; Vipul Raheja; Jong Inn Park; Zae Myung Kim; Dongyeop Kang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, Falcon, GPT-4, LLaMA, Llama-2, Mistral, MPT, Vicuna, WizardLM"
 DATA_URL: "https://github.com/minnesotanlp/cobbler"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

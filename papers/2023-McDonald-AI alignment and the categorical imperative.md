@@ -6,7 +6,7 @@ Not AI:
 key: DOI_S43681_022_00160_W
 type: journalArticle
 short_title: "AI, alignment, and the categorical imperative"
-year: 2025
+year: 2023
 first_author: "[[Fritz J. McDonald]]"
 last_author: "[[Fritz J. McDonald]]"
 authors: "Fritz J. McDonald"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100

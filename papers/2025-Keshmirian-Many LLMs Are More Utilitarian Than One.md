@@ -56,7 +56,7 @@ LLM_assessed: "GPT-4, Gemma, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/baltaci-r/MoralAgents"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 100

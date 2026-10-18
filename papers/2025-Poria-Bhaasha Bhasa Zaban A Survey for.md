@@ -52,7 +52,7 @@ abstract: "Rapid developments of large language models have revolutionized many 
 LLM_assessed: "BERT, T5"
 DATA_URL: "https://github.com/trust-nlp/LM4SouthAsia-Survey"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

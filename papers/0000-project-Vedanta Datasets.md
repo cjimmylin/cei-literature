@@ -52,7 +52,7 @@ abstract: "> Repository of datasets from Vedantic texts formatted for ML analysi
 LLM_assessed: NA
 DATA_URL: "https://github.com/atmabodha/Vedanta_Datasets"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

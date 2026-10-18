@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0520
 type: preprint
 short_title: "The Catalan Language CLUB (Catalan Language Understanding Benchmark)"
-year: 2025
+year: 2021
 first_author: "[[Rodriguez-Penagos, Carlos]]"
 last_author: "[[Pio, Casimiro Carrino]]"
 authors: "Rodriguez-Penagos, Carlos; Armentano-Oller, Carme; Villegas, Marta; Melero, Maite; Gonzalez, Aitor; Bonet, Ona de Gibert; Pio, Casimiro Carrino"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/TeMU-BSC/club"
 tags: 
 abstract: "The Catalan Language Understanding Benchmark (CLUB) encompasses various datasets representative of diﬀerent NLU tasks that enable accurate evaluations of language models, following the General Language Understanding Evaluation (GLUE) example. It is part of AINA and PlanTL, two public funding initiatives to empower the Catalan language in the Artiﬁcial Intelligence era."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

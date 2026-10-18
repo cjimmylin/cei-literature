@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0313
 type: preprint
 short_title: "UbuntuGuard A Culturally-Grounded Policy Benchmark for"
-year: 2025
+year: 2026
 first_author: "[[Tassallah Abdullahi]]"
 last_author: "[[Carsten Eickhoff]]"
 authors: "Tassallah Abdullahi; Macton Mgonzo; Mardiyyah Oduwole; Paul Okewunmi; Abraham Owodunni; Ritambhara Singh; Carsten Eickhoff"
@@ -52,7 +52,7 @@ abstract: "Current guardian models are predominantly Western-centric and optimiz
 LLM_assessed: "DeepSeek, Llama-3, Qwen"
 DATA_URL: "https://github.com/hemhemoh/UbuntuGuard"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

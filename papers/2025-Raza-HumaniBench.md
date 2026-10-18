@@ -56,7 +56,7 @@ DATA_URL: "https://huggingface.co/vector-institute/HumaniBench, https://github.c
 DATE_ADDED: 20260207
 research_topic: "Computer Vision & Multimodal"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

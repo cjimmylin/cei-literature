@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) inherently reflect the vast data distrib
 LLM_assessed: "Gemini, GPT-3, GPT-3.5, GPT-4o, PaLM, Qwen, Qwen-2"
 DATA_URL: "https://github.com/UBC-NLP/palmx_2025"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

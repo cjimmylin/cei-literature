@@ -6,7 +6,7 @@ Not AI:
 key: BH9GAFPJ
 type: document
 short_title: "Jailbreaking LLMs with Arabic Transliteration and"
-year: 2025
+year: 2024
 first_author: "[[Mansour Al Ghanim]]"
 last_author: "[[Lou, Qian]]"
 authors: "Al Ghanim, Mansour; Almohaimeed, Saleh; Zheng, Mengxin; Solihin, Yan; Lou, Qian"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"
 pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

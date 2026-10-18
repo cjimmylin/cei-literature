@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0572
 type: preprint
 short_title: "Text classification dataset and analysis for"
-year: 2025
+year: 2023
 first_author: "[[Kuriyozov, Elmurod]]"
 last_author: "[[Matlatipov, Gayrat]]"
 authors: "Kuriyozov, Elmurod; Salaev, Ulugbek; Matlatipov, Sanatbek; Matlatipov, Gayrat"
@@ -53,7 +53,7 @@ LLM_assessed: BERT
 DATA_URL: "https://github.com/elmurod1202/TextClassification ; https://doi.org/10.5281/zenodo.7677430"
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0

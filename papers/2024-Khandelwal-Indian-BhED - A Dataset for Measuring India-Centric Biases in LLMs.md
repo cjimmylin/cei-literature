@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0184
 type: preprint
 short_title: "Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Khyati Khandelwal]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Khyati Khandelwal; Manuel Tonneau; Andrew M. Bean; Hannah Rose Kirk; Scott A. Hale"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs), now used daily by millions, can encode 
 LLM_assessed: "BERT, Falcon, GPT-2, GPT-3.5, Llama-2, Mistral, RoBERTa"
 DATA_URL: "https://github.com/khyatikhandelwal/Indian-LLMs-Bias"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0160
 type: journalArticle
 short_title: "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
-year: 2025
+year: 2023
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
 authors: "Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng"
@@ -52,7 +52,7 @@ DATA_URL: "https://zenodo.org/record/8195797"
 tags: 
 abstract: "Social media platforms have become inundated with offensive language. This issue must be addressed for the growth of online social networks (OSNs) and a healthy online environment. While significant research has been devoted to identifying toxic content in major languages like English, this remains an open area of research in the low-resource Pashto language. This study aims to develop an AI model for the automatic detection of offensive textual content in Pashto."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

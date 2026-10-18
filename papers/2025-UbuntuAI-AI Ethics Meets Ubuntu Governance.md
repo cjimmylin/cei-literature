@@ -10,7 +10,7 @@ publication_title: "International Journal of Scientific Research and Management"
 abstract: "Five-layer Ubuntu governance architecture for AI: Community Data Trusts, Relational Design Praxis, Harm Reconciliation Panels, Ecological Stewardship Protocols, Developer Benefit Realisation."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

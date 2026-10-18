@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0225
 type: conferencePaper
 short_title: "Toxic Speech Detection in Portuguese: A Comparative Study of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Amanda da Silva Oliveira]]"
 last_author: "[[Eduardo José da Silva Luz]]"
 authors: "Amanda da Silva Oliveira; Thiago de Carvalho Cecote; João Paulo Reis Alvarenga; Vander Luis de Souza Freitas; Eduardo José da Silva Luz"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/ufopcsilab/ToxicSpeech-Propor2024"
 tags: 
 abstract: "This research addresses the automatic detection of toxic speech in Portuguese. Utilizing the ToLD-Br dataset, which includes 21,000 annotated tweets, we examine the performance of Large Language Models (LLMs) such as OpenAI’s ChatGPT and the monolingual MariTalk from Maritaca AI. The study focuses on their effectiveness in identifying Toxic speech, the influence of few-shot learning, and the intricacies of annotating datasets, particularly regarding vulgar language (swear words)."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

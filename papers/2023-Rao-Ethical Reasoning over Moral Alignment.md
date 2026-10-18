@@ -6,7 +6,7 @@ Not AI:
 key: C8EQFDA4
 type: conferencePaper
 short_title: "Ethical Reasoning over Moral Alignment"
-year: 2025
+year: 2023
 first_author: "[[Abhinav Rao]]"
 last_author: "[[Choudhury, Monojit]]"
 authors: "Rao, Abhinav; Khandelwal, Aditi; Tanmay, Kumar; Agarwal, Utkarsh; Choudhury, Monojit"
@@ -56,7 +56,7 @@ LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 50
 deontological_ethics: 65
 utilitarian_ethics: 50

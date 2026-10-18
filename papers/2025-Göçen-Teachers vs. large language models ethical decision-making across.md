@@ -53,7 +53,7 @@ abstract: "Compares LLM and human teacher ethical decision-making in Turkish sch
 ethics_perspective: "Machine Ethics"
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

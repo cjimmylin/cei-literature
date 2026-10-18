@@ -62,7 +62,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemini, GPT-4o, LLaVA"
 DATA_URL: "https://people-robots.github.io/vidhalluc"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

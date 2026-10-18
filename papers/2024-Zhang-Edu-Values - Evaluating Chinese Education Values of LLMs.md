@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0163
 type: preprint
 short_title: "Edu-Values -- Evaluating Chinese Education Values of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Peiyi Zhang]]"
 last_author: "[[Jing Qin]]"
 authors: "Peiyi Zhang; Yazhou Zhang; Bo Wang; Lu Rong; Prayag Tiwari; Jing Qin"
@@ -52,7 +52,7 @@ abstract: "In this paper, we present Edu-Values, the first Chinese education val
 LLM_assessed: "ChatGLM, Claude, DeepSeek, GPT-3.5, GPT-4, Gemini, Gemma-2, InternLM, Llama-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/zhangpeii/Edu-Values"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

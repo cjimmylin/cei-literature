@@ -53,7 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://huggingface.co/datasets/asas-ai/AraTrust"
 CONFERENCE: "COLING 2025"
 helm: incorporated
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 15

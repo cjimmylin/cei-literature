@@ -2,14 +2,14 @@
 key: CGSR0200
 type: document
 short_title: "A Gendered Lens on Mediation and Market Governance: Experiences of Women Market Vendors in Papua New Guinea"
-year: 2025
+year: 2024
 first_author: "[[Wilma Langa]]"
 authors: "Wilma Langa et al."
 url: "https://www.semanticscholar.org/paper/be5ea6501ac8567da0152f8b28a22e3eb73aff71"
 abstract: "The majority of market vendors at urban informal markets in Papua New Guinea are women. They face vulnerabilities related to safety, security and infrastructural support. They operate within male-domi..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

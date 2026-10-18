@@ -6,7 +6,7 @@ Not AI:
 key: BGYYMBHZ
 type: document
 short_title: DecodingTrust
-year: 2025
+year: 2023
 first_author: "[[Boxin Wang]]"
 last_author: "[[Bo Li]]"
 authors: "Boxin Wang; Weixin Chen; Hengzhi Pei; Chulin Xie; Mintong Kang; Chenhui Zhang; Chejian Xu; Zidi Xiong; Ritik Dutta; Rylan Schaeffer; Sang T. Truong; Simran Arora; Mantas Mazeika; Dan Hendrycks; Zinan Lin; Yu Cheng; Sanmi Koyejo; Dawn Song; Bo Li"
@@ -55,7 +55,7 @@ LLM_assessed: "Alpaca, GPT-3.5, GPT-4, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/AI-Secure/DecodingTrust"
 CONFERENCE: Preprint
 helm: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

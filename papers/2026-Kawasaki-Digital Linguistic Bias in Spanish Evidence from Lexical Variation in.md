@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0294
 type: preprint
 short_title: "Digital Linguistic Bias in Spanish: Evidence from Lexical Variation in LLMs"
-year: 2025
+year: 2026
 first_author: [[Kawasaki]]
 last_author: [[Yoshifumi]]
 authors: "Kawasaki; Yoshifumi"
@@ -52,7 +52,7 @@ DATA_URL: "https://zenodo.org/records/14771240"
 tags: 
 abstract: "This study examines the extent to which Large Language Models (LLMs) capture geographic lexical variation in Spanish, a language that exhibits substantial regional variation. Treating LLMs as virtual informants, we probe their dialectal knowledge using two survey-style question formats — Yes–No questions and multiple–choice questions. To this end, we exploited a large-scale, expert-curated database of Spanish lexical variation."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

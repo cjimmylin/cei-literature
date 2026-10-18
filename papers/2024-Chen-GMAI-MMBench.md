@@ -6,7 +6,7 @@ Not AI:
 key: EZY3F9KR
 type: conferencePaper
 short_title: GMAI-MMBench
-year: 2025
+year: 2024
 first_author: "[[Pengcheng Chen]]"
 last_author: "[[Yu Qiao]]"
 authors: "Pengcheng Chen; Jin Ye; Guoan Wang; Yanjun Li; Zhongying Deng; Wei Li; Tianbin Li; Haodong Duan; Ziyan Huang; Yanzhou Su; Benyou Wang; Shaoting Zhang; Bin Fu; Jianfei Cai; Bohan Zhuang; Eric J Seibel; Junjun He; Yu Qiao"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Opus, CogVLM, DeepSeek-VL, Gemini, Gemini Pro 1.5, GPT-4V, GPT-4o, InternVL, LLaVA, MiniCPM-V, Qwen-VL"
 DATA_URL: "https://huggingface.co/datasets/OpenGVLab/GMAI-MMBench"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

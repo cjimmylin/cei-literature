@@ -9,7 +9,7 @@ url: "https://www.cacianalyst.org/publications/analytical-articles/item/13905-ka
 abstract: "Kazakhstan's AI Silknet initiative as regional digital infrastructure hub for Central Asia"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

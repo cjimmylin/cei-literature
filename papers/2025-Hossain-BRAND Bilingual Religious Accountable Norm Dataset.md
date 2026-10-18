@@ -52,7 +52,7 @@ abstract: "While recent developments in large language models have improved bias
 LLM_assessed: "Gemini, Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

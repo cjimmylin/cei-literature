@@ -53,7 +53,7 @@ pdf_extract: "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 ethics_perspective: "General Ethics"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 80
 deontological_ethics: 20
 utilitarian_ethics: 60

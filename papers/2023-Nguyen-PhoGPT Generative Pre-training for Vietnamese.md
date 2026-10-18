@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0370
 type: preprint
 short_title: "PhoGPT: Generative Pre-training for Vietnamese"
-year: 2025
+year: 2023
 first_author: "[[Dat Quoc Nguyen]]"
 last_author: "[[Hung Bui]]"
 authors: "Dat Quoc Nguyen; Linh The Nguyen; Chi Tran; Dung Ngoc Nguyen; Dinh Phung; Hung Bui"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/VinAIResearch/PhoGPT"
 tags: 
 abstract: "We open-source a state-of-the-art 4B-parameter generative model series for Vietnamese, which includes the base pre-trained monolingual model PhoGPT4B and its chat variant, PhoGPT-4B-Chat. The base model, PhoGPT-4B, with exactly 3.7B parameters, is pre-trained from scratch on a Vietnamese corpus of 102B tokens, with an 8192 context length, employing a vocabulary of 20480 token types. The chat variant, PhoGPT-4B-Chat, is the modeling output obtained by fine-tuning PhoGPT-4B on a dataset of 70K..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

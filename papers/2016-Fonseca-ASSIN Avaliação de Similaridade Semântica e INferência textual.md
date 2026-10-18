@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0220
 type: conferencePaper
 short_title: "ASSIN: Avaliação de Similaridade Semântica e INferência textual"
-year: 2025
+year: 2016
 first_author: "[[Erick Fonseca]]"
 last_author: "[[Alexandre Mouzalon]]"
 authors: "Erick Fonseca; Leandro Borges dos Santos; Marcelo Finger; Alexandre Mouzalon"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/datasets/nilc-nlp/assin2"
 tags: 
 abstract: "10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 adds 6,500 training pairs for Brazilian Portuguese."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

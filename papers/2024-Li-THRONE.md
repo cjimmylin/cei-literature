@@ -6,7 +6,7 @@ Not AI:
 key: EWJXCWEU
 type: journalArticle
 short_title: THRONE
-year: 2025
+year: 2024
 first_author: "[[Prannay Kaul]]"
 last_author: "[[Stefano Soatto]]"
 authors: "Prannay Kaul; Zhizhong Li; Hao Yang; Yonatan Dukler; Ashwin Swaminathan; C. J. Taylor; Stefano Soatto"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Flan-T5
 DATA_URL: "https://github.com/amazon-science/THRONE"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

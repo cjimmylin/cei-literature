@@ -6,7 +6,7 @@ Not AI:
 key: MPD3XLMS
 type: journalArticle
 short_title: JBB-Behaviours
-year: 2025
+year: 2024
 first_author: "[[Patrick Chao]]"
 last_author: "[[Eric Wong]]"
 authors: "Patrick Chao; Edoardo Debenedetti; Alexander Robey; Maksym Andriushchenko; Francesco Croce; Vikash Sehwag; Edgar Dobriban; Nicolas Flammarion; George J. Pappas; Florian Tramer; Hamed Hassani; Eric Wong"
@@ -55,7 +55,7 @@ CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 research_topic: "Machine Learning"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

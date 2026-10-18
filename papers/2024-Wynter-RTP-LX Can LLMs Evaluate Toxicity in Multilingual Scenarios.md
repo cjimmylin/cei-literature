@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0020
 type: preprint
 short_title: "RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?"
-year: 2025
+year: 2024
 first_author: "[[Adrian de Wynter]]"
 last_author: "[[German Rigau]]"
 authors: "Adrian de Wynter; Ishaan Watts; Tua Wongsangaroonsri; Minghui Zhang; Noura Farra; Lena Baber; Samantha Claudet; Judit Dominguez; Aishwarya Gupta; Anna Kaminskaya; Maram Kurdi; Jongho Lee; Mahsa Moghimi; Aadil Mufti; Karthik Narasimhan; German Rigau"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/microsoft/RTP-LX"
 tags: 
 abstract: "Warning: This paper contains and discusses content that may be offensive or upsetting. Large language models (LLMs) and small language models (SLMs) are being adopted at remarkable speed, although their safety still remains a serious concern. With the advent of multilingual S/LLMs, the question now becomes a matter of scale: can we expand multilingual safety evaluations of these models with the same velocity at which they are deployed?"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

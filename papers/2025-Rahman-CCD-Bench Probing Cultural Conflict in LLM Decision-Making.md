@@ -52,7 +52,7 @@ LLM_assessed: "Claude, Claude-3, Command-R, DeepSeek, GPT-4o, Gemini, Grok, Llam
 DATA_URL: "https://github.com/smartlab-nyu/CCD-Bench"
 authors_incomplete: false
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

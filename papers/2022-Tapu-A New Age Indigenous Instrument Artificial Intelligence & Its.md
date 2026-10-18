@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0022
 type: conferencePaper
 short_title: "A New Age Indigenous Instrument: Artificial Intelligence & Its Potential for (De)Colonialized Data"
-year: 2025
+year: 2022
 first_author: "[[Ian Falefuafua Tapu]]"
 last_author: "[[Terina Kamailelauli'i Fa'agau]]"
 authors: "Ian Falefuafua Tapu; Terina Kamailelauli'i Fa'agau"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Explores whether AI will serve as a 'revolution' or a 'new colonizer' for Indigenous peoples. Examines AI in judicial processes and its impact on Indigenous Peoples' legal rights. Argues that Indigenous data sovereignty must guide 21st-century data governance and AI development."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

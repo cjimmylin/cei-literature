@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0282
 type: conferencePaper
 short_title: "Overview of DETESTS-Dis at IberLEF 2024: DETEction and Classification of Racial STereotypes in Spanish - Learning with Disagreement"
-year: 2025
+year: 2024
 first_author: [[Schmeisser-Nieto]]
 last_author: [[Schmeisser-Nieto]]
 authors: Schmeisser-Nieto
@@ -52,7 +52,7 @@ DATA_URL: "https://detests-dis.github.io/"
 tags: 
 abstract: "Detection and classification of explicit and implicit racial stereotypes in Spanish social media and news comments. 12,111 sentences from tweets and comments related to immigration and racial hoaxes. Incorporates learning with disagreement techniques."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0801
 type: preprint
 short_title: "LLMs for Extremely Low-Resource Finno-Ugric Languages"
-year: 2025
+year: 2024
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
 authors: "Ejiro Onose"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/TartuNLP/smugri-llm"
 tags: 
 abstract: "The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

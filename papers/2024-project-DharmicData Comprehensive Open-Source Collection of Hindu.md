@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0475
 type: preprint
 short_title: "DharmicData Comprehensive Open-Source Collection of Hindu"
-year: 2025
+year: 2024
 first_author: "[[project), Bhavy Khatri (community]]"
 last_author: "[[Bhavy Khatri (community project)]]"
 authors: "Bhavy Khatri (community project)"
@@ -52,7 +52,7 @@ abstract: "> Comprehensive structured JSON collection of major Hindu sacred text
 LLM_assessed: NA
 DATA_URL: "https://github.com/bhavykhatri/DharmicData"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: ChatGPT
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Existing benchmarks that measure cultural adaptation in LLMs are misa
 LLM_assessed: "Claude, Gemini, GPT-4"
 DATA_URL: "https://github.com/shreyahavaldar/culturally_aware_conversations"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

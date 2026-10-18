@@ -51,7 +51,7 @@ abstract: "Previous research has shown that humans are more receptive towards la
 LLM_assessed: "Gemma, Llama-2, Llama-3, Mistral, RoBERTa"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Evaluating large language models (LLMs) in medicine is crucial becaus
 LLM_assessed: "Baichuan, DeepSeek, GPT-4, Llama-3, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/llmeval/LLMEval-Med"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

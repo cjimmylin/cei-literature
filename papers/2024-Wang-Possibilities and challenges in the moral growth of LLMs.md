@@ -6,7 +6,7 @@ Not AI:
 key: DOI_S10676_024_09818_X
 type: journalArticle
 short_title: "Possibilities and challenges in the moral growth of LLMs"
-year: 2025
+year: 2024
 first_author: "[[G. Y. Wang]]"
 last_author: "[[Y. C. Wang]]"
 authors: "G. Y. Wang; Wei Wang; Y. Q. Cao; H. F. Wang; Y. T. Guo; Q. Y. Guo; J. J. Ma; Junling Liu; J. Y. Lin; Y. C. Wang"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, ChatGPT, ChatGLM"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 35
 deontological_ethics: 50
 utilitarian_ethics: 50

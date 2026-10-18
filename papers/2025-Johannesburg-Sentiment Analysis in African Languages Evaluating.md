@@ -52,7 +52,7 @@ abstract: "Emotion arcs capture how an individual (or a population) feels over t
 LLM_assessed: "BERT, XLNet"
 DATA_URL: "https://github.com/dteodore/EmotionArcs"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

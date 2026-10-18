@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0216
 type: preprint
 short_title: "GlórIA: A Generative and Open Large Language Model for Portuguese"
-year: 2025
+year: 2024
 first_author: "[[Ricardo Lopes]]"
 last_author: "[[David Semedo]]"
 authors: "Ricardo Lopes; João Magalhães; David Semedo"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/rvlopes/GlorIA"
 tags: 
 abstract: "Significant strides have been made in natural language tasks, largely attributed to the emergence of powerful large language models (LLMs). These models, pre-trained on extensive and diverse corpora, have become increasingly capable of comprehending the intricacies of language. Despite the abundance of LLMs for many high-resource languages, the availability of such models remains limited for European Portuguese. We introduce GlórIA, a robust European Portuguese decoder LLM."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

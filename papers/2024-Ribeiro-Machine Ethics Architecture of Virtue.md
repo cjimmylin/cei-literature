@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_RIBEIRO2024
 type: conferencePaper
 short_title: "Machine Ethics Architecture of Virtue"
-year: 2025
+year: 2024
 first_author: "[[B.A. Ribeiro]]"
 last_author: "[[da Silva, M.B.]]"
 authors: "Ribeiro, B.A.; da Silva, M.B."
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 65
 deontological_ethics: 0
 utilitarian_ethics: 0

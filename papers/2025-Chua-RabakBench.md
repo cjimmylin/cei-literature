@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, o3-mini"
 DATA_URL: "https://huggingface.co/datasets/govtech/RabakBench"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

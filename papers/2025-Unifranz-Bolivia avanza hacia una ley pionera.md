@@ -9,7 +9,7 @@ url: "https://unifranz.edu.bo/blog/bolivia-avanza-hacia-una-ley-pionera-para-reg
 abstract: "Bolivia's pioneering AI regulation bill within its plurinational constitutional framework"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

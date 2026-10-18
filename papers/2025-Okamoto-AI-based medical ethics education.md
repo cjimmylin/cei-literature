@@ -52,7 +52,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50

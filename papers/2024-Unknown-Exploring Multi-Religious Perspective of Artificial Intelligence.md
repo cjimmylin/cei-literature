@@ -2,14 +2,14 @@
 key: CGSR0094
 type: document
 short_title: "Exploring Multi-Religious Perspective of Artificial Intelligence"
-year: 2025
+year: 2024
 first_author: "[[Saif Ahmed]]"
 authors: "Saif Ahmed; Ayesha Akter Sumi; Norzalita Abd Aziz"
 url: "https://www.tandfonline.com/doi/abs/10.1080/14746700.2024.2436783"
 abstract: "Multi-religious perspectives on AI across Christianity, Islam, Hinduism, Buddhism, Judaism"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

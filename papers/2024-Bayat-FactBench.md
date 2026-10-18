@@ -6,7 +6,7 @@ Not AI:
 key: C8U952G6
 type: conferencePaper
 short_title: FactBench
-year: 2025
+year: 2024
 first_author: "[[Farima Fatahi Bayat]]"
 last_author: "[[Lu Wang]]"
 authors: "Farima Fatahi Bayat; Lechen Zhang; Sheza Munir; Lu Wang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://huggingface.co/spaces/launch/factbench"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0683
 type: preprint
 short_title: "The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models"
-year: 2025
+year: 2026
 first_author: [[Russo]]
 last_author: [[Russo]]
 authors: "Russo et al."
@@ -52,7 +52,7 @@ abstract: "Moral Dilemma Dataset of 1,618 real-world dilemmas with human judgmen
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

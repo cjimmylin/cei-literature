@@ -53,7 +53,7 @@ local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]
 CONF-CC: "Journal of King Saud University - Computer and Information Sciences"
 DATE_ADDED: 20260207
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5

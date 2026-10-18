@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0109
 type: preprint
 short_title: "Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino"
-year: 2025
+year: 2024
 first_author: "[[Montalan, Jann Railey]]"
 last_author: "[[Tjhi, William Chandra]]"
 authors: "Montalan, Jann Railey; Ngui, Jian Gang; Leong, Wei Qi; Susanto, Yosephine; Rengarajan, Hamsawardhini; Aji, Alham Fikri; Tjhi, William Chandra"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/aisingapore/kalahi"
 tags: 
 abstract: "Multilingual large language models (LLMs) today may not necessarily provide culturally appropriate and relevant responses to its Filipino users. We introduce KALAHI, a cultural LLM evaluation suite that is part of SEA-HELM. It was collaboratively created by native Filipino speakers, and is composed of 150 high-quality, handcrafted and nuanced prompts that test LLMs for generations that are relevant to shared Filipino cultural knowledge and values."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

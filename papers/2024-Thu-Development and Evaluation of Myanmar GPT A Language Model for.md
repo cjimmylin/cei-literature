@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0083
 type: conferencePaper
 short_title: "Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing"
-year: 2025
+year: 2024
 first_author: "[[Min Si Thu]]"
 last_author: "[[Pyae Sone Phyo]]"
 authors: "Min Si Thu; Pyae Sone Phyo"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
 tags: 
 abstract: "Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0578
 type: preprint
 short_title: "Addressing Religious Hate Online From Taxonomy"
-year: 2025
+year: 2022
 first_author: "[[Ramponi, Alan]]"
 last_author: "[[Elisabetta Jezek]]"
 authors: "Alan Ramponi; Benedetta Testa; Sara Tonelli; Elisabetta Jezek"
@@ -53,7 +53,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/dhfbk/religious-hate-speech"
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

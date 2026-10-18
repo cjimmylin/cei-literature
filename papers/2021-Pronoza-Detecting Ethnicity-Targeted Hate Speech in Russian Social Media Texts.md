@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0310
 type: conferencePaper
 short_title: "Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts"
-year: 2025
+year: 2021
 first_author: "[[Anastasiia Pronoza]]"
 last_author: "[[Roman Rosenberg]]"
 authors: "Anastasiia Pronoza; Polina Panicheva; Olga Koltsova; Roman Rosenberg"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/hse-scila/ethnohate-project"
 tags: 
 abstract: "First dataset annotated with ethnicity-targeted hate speech in Russian (5.5K texts). Constructed from 2.6M user messages mentioning ethnic groups with 12K annotated instances. Addresses differentiation of attitudes towards different ethnic groups."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

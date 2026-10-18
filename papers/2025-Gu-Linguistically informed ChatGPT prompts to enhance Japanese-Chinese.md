@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "In the field of Japanese-Chinese translation linguistics, the issue of correctly translating attributive clauses has persistently proven to be challenging. Present-day machine translation tools often fail to accurately translate attributive clauses from Japanese to Chinese. In light of this, this paper investigates the linguistic problem underlying such difficulties, namely how does the semantic role of the modified noun affect the selection of translation patterns for attributive clauses, from..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

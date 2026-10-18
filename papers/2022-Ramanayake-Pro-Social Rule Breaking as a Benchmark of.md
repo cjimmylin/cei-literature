@@ -6,7 +6,7 @@ Not AI:
 key: QL4ULXYC
 type: journalArticle
 short_title: "Pro-Social Rule Breaking as a Benchmark of"
-year: 2025
+year: 2022
 first_author: "[[Rajitha Ramanayake]]"
 last_author: "[[Vivek Nallur]]"
 authors: "Rajitha Ramanayake; Vivek Nallur"
@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 10
 deontological_ethics: 50
 utilitarian_ethics: 60

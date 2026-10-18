@@ -52,7 +52,7 @@ DATA_URL: "https://bharatgen-iitb-tih.github.io/bhashabenchv1/"
 tags: 
 abstract: "First domain-specific bilingual benchmark focusing on critical Indian knowledge systems with 74,166 curated QA pairs in English and Hindi. Covers Agriculture, Legal, Finance, and Ayurveda with 90+ subdomains and 500+ topics. Models excel in Legal but struggle with traditional knowledge systems like Ayurveda."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

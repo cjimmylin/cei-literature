@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/CMLI-NLP/HuffmanTranslit"
 tags: 
 abstract: "As large language models (LLMs) are trained on increasingly diverse and extensive multilingual corpora, they demonstrate cross-lingual transfer capabilities. However, these capabilities often fail to eﬀectively extend to low-resource languages, particularly those utilizing nonLatin scripts. While transliterating low-resource languages into Latin script presents a natural solution, there currently lacks a comprehensive framework for integrating transliteration into LLMs training and deployment."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

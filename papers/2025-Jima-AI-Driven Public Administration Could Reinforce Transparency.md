@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/e10abf1d8185cc8e35cd3b95b4436dd48ed0
 abstract: "Public administration in Papua New Guinea (PNG) faces ongoing challenges, including inefficiencies, accountability issues, and limited transparency. This study explores the potential of artificial int..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Values are core drivers of individual and collective perception, cogn
 LLM_assessed: "GPT-4, GPT-3.5, GPT-4o, Llama-2, Llama-3, Gemma, Mistral, Qwen"
 DATA_URL: "https://github.com/Value4AI/ValueBench"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

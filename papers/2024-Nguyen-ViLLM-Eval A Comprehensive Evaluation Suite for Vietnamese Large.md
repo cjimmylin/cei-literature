@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0366
 type: preprint
 short_title: "ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Trong-Hieu Nguyen]]"
 last_author: "[[Le-Minh Nguyen]]"
 authors: "Trong-Hieu Nguyen; Quang-Bao Ta; Cuc Thi Bui; Phong Nguyen-Thuan Do; Le-Minh Nguyen"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/vlsp-2023-vllm/ViLLM-Eval"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

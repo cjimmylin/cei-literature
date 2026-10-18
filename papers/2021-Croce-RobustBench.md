@@ -6,7 +6,7 @@ Not AI:
 key: CCFGTML9
 type: conferencePaper
 short_title: RobustBench
-year: 2025
+year: 2021
 first_author: "[[Francesco Croce]]"
 last_author: "[[Matthias Hein]]"
 authors: "Francesco Croce; Maksym Andriushchenko; Vikash Sehwag; Edoardo Debenedetti; Nicolas Flammarion; Mung Chiang; Prateek Mittal; Matthias Hein"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://robustbench.github.io"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

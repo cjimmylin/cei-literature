@@ -6,7 +6,7 @@ Not AI:
 key: 7KSHTM4M
 type: document
 short_title: "Hadith QA Pairs Dataset"
-year: 2025
+year: 2024
 first_author: "[[R. Masood]]"
 last_author: "[[R. Masood]]"
 authors: "R. Masood"
@@ -50,7 +50,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

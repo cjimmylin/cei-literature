@@ -6,7 +6,7 @@ Not AI:
 key: LEKN2KMM
 type: conferencePaper
 short_title: HaluEval
-year: 2025
+year: 2023
 first_author: "[[Junyi Li]]"
 last_author: "[[Ji-Rong Wen]]"
 authors: "Junyi Li; Xiaoxue Cheng; Wayne Xin Zhao; Jian-Yun Nie; Ji-Rong Wen"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, Claude, Falcon, GPT-3, Llama-2, Vicuna"
 DATA_URL: "https://github.com/RUCAIBox/HaluEval"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

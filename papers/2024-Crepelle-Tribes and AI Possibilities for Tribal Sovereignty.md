@@ -6,7 +6,7 @@ Not AI:
 key: CULT0115
 type: conferencePaper
 short_title: "Tribes and AI: Possibilities for Tribal Sovereignty"
-year: 2025
+year: 2024
 first_author: "[[Adam Crepelle]]"
 last_author: "[[Adam Crepelle]]"
 authors: "Adam Crepelle"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "First law review article dedicated to exploring how AI can enhance tribal sovereignty. Discusses how artificial intelligence has permeated every facet of modern existence, with governments exploring applications and regulatory frameworks. Notes that Indian tribes have been neglected in AI policy discussions. Examines Cherokee Nation's Data Sovereignty and Governance Task Force and AI policy."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

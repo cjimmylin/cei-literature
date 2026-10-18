@@ -6,7 +6,7 @@ Not AI:
 key: J7V9RK4B
 type: conferencePaper
 short_title: "Values, Ethics, Morals?"
-year: 2025
+year: 2023
 first_author: "[[Karina Vida]]"
 last_author: "[[Anne Lauscher]]"
 authors: "Karina Vida; Judith Simon; Anne Lauscher"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

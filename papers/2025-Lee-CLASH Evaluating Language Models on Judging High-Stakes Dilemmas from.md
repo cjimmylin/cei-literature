@@ -53,7 +53,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/launch/CLASH"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 20
 deontological_ethics: 0
 utilitarian_ethics: 0

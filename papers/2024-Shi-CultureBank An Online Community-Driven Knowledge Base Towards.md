@@ -6,7 +6,7 @@ Not AI:
 key: CULT0141
 type: conferencePaper
 short_title: "CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies"
-year: 2025
+year: 2024
 first_author: "[[Weiyan Shi]]"
 last_author: "[[Diyi Yang]]"
 authors: "Weiyan Shi; Ryan Li; Yutong Zhang; Caleb Ziems; Chunhua Yu; Raya Horesh; Rogerio Abreu de Paula; Diyi Yang"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/SALT-NLP/CultureBank"
 tags: 
 abstract: "To enhance language models’ cultural awareness, we design a generalizable pipeline to construct cultural knowledge bases from different online communities on a massive scale. With the pipeline, we construct CultureBank, a knowledge base built upon users’ self-narratives with 12K cultural descriptors sourced from TikTok and 11K from Reddit. Unlike previous cultural knowledge resources, CultureBank contains diverse views on cultural descriptors to allow flexible interpretation of cultural..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0090
 type: conferencePaper
 short_title: "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective"
-year: 2025
+year: 2022
 first_author: "[[Sabelo Mhlambi]]"
 last_author: "[[Sabelo Mhlambi]]"
 authors: "Sabelo Mhlambi"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "The article concerns research in the normative social science and is aimed at making a contentious argument that the conceptual frameworks which underpinned much of the literature and research on social exclusion are rooted in European and Anglo Saxon traditions. As such they ignore the contributions made by people of Africa, Asia and Latin America. The discourse regarding social exclusion and social inclusion could therefore not be only with a Western perspective, but should note that the..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

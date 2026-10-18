@@ -9,7 +9,7 @@ url: "https://www.undp.org/pacific/blog/navigating-digital-pacific-insights-tong
 abstract: "Digital readiness assessments for Tonga and Solomon Islands with AI governance implications"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

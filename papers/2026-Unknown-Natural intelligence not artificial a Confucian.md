@@ -2,14 +2,14 @@
 key: CGSR0075
 type: document
 short_title: "Natural intelligence, not artificial: a Confucian reframing of generative AI in higher education"
-year: 2025
+year: 2026
 first_author: "[[Yulu Hou]]"
 authors: "Yulu Hou"
 url: "https://www.tandfonline.com/doi/full/10.1080/17449642.2026.2629430"
 abstract: "Confucian philosophy reframes generative AI for education"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

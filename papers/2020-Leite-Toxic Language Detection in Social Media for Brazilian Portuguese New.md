@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0207
 type: conferencePaper
 short_title: "Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)"
-year: 2025
+year: 2020
 first_author: "[[Joao Augusto Leite]]"
 last_author: "[[Carolina Scarton]]"
 authors: "Joao Augusto Leite; Diego Silva; Kalina Bontcheva; Carolina Scarton"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/JAugusto97/ToLD-Br"
 tags: 
 abstract: "Hate speech and toxic comments are a common concern of social media platform users. Although these comments are, fortunately, the minority in these platforms, they are still capable of causing harm. Therefore, identifying these comments is an important task for studying and preventing the proliferation of toxicity in social media. Previous work in automatically detecting toxic comments focus mainly in English, with very few work in languages like Brazilian Portuguese."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

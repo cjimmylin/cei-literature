@@ -6,7 +6,7 @@ Not AI:
 key: 7HD6P3ZQ
 type: conferencePaper
 short_title: "TrolleyMod v1.0"
-year: 2025
+year: 2018
 first_author: "[[Vahid Behzadan]]"
 last_author: "[[Arslan Munir]]"
 authors: "Vahid Behzadan; James Minton; Arslan Munir"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/zminton/TrolleyMod/wiki"
 CONFERENCE: "AAAI 2018"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

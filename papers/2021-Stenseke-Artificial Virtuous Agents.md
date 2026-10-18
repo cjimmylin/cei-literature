@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_STENSEKE2021
 type: journalArticle
 short_title: "Artificial Virtuous Agents"
-year: 2025
+year: 2021
 first_author: [[Stenseke]]
 last_author: [[Jakob]]
 authors: "Stenseke; Jakob"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 80
 utilitarian_ethics: 60

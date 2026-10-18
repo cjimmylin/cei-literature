@@ -9,7 +9,7 @@ url: "https://artificialintelligenceact.com/brazil-ai-act/"
 abstract: "Brazil's Bill No 2338/2023 for comprehensive AI regulation"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

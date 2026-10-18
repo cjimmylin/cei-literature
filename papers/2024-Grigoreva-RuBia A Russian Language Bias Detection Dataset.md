@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0304
 type: preprint
 short_title: "RuBia: A Russian Language Bias Detection Dataset"
-year: 2025
+year: 2024
 first_author: "[[Grigoreva, Veronika]]"
 last_author: "[[Artemova, Ekaterina]]"
 authors: "Grigoreva, Veronika; Ivanova, Anastasiia; Alimova, Ilseyar; Artemova, Ekaterina"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/vergrig/RuBia-Dataset"
 tags: 
 abstract: "Warning: this work contains upsetting or disturbing content. Large language models (LLMs) tend to learn the social and cultural biases present in the raw pre-training data. To test if a LLM’s behavior is fair, functional datasets are employed, and due to their purpose, these datasets are highly language and culture-specific. In this paper, we address a gap in the scope of multilingual bias evaluation by presenting a bias detection dataset specifically designed for the Russian language, dubbed..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

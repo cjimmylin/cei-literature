@@ -65,7 +65,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

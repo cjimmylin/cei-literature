@@ -6,7 +6,7 @@ Not AI:
 key: 66PZ6I77
 type: conferencePaper
 short_title: "Cooperate or Collapse"
-year: 2025
+year: 2024
 first_author: "[[Giorgio Piatti]]"
 last_author: "[[Rada Mihalcea]]"
 authors: "Giorgio Piatti; Zhijing Jin; Max Kleiman-Weiner; Bernhard Schölkopf; Mrinmaya Sachan; Rada Mihalcea"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/giorgiopiatti/GovSim"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

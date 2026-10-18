@@ -53,7 +53,7 @@ LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4o, Llama-3"
 DATA_URL: "https://www.thegospelcoalition.org/ai-christian-benchmark/"
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

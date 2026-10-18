@@ -6,7 +6,7 @@ Not AI:
 key: R3D4BBTX
 type: conferencePaper
 short_title: "The AI Scientist"
-year: 2025
+year: 2024
 first_author: "[[Chris Lu]]"
 last_author: "[[David Ha]]"
 authors: "Chris Lu; Cong Lu; Robert Tjarko Lange; Jakob Foerster; Jeff Clune; David Ha"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/SakanaAI/AI-Scientist"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_HAN2024
 type: journalArticle
 short_title: "Moral Exemplars in AI Education"
-year: 2025
+year: 2024
 first_author: [[Han]]
 last_author: [[Hyemin]]
 authors: "Han; Hyemin"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 70
 deontological_ethics: 5
 utilitarian_ethics: 10

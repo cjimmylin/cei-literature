@@ -6,7 +6,7 @@ Not AI:
 key: M4GJQXAY
 type: conferencePaper
 short_title: NaijaHate
-year: 2025
+year: 2024
 first_author: "[[Manuel Tonneau]]"
 last_author: "[[Samuel P. Fraiberger]]"
 authors: "Manuel Tonneau; Pedro Vitor Quinta de Castro; Karim Lasri; Ibrahim Farouq; Lakshminarayanan Subramanian; Victor Orozco-Olvera; Samuel P. Fraiberger"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3.5"
 DATA_URL: "https://github.com/worldbank/NaijaHate"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0137
 type: preprint
 short_title: "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks"
-year: 2025
+year: 2026
 first_author: "[[Andrea Tagarelli]]"
 last_author: "[[Andrea Tagarelli]]"
 authors: "Andrea Tagarelli"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Despite the growing utility of Large Language Models (LLMs) for simulating human behavior, the extent to which these synthetic personas accurately reﬂect world and moral value systems across different cultural conditionings remains uncertain. This paper investigates the alignment of synthetic, culturally-grounded personas with established frameworks, speciﬁcally the World Values Survey (WVS), the Inglehart–Welzel Cultural Map, and Moral Foundations Theory."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 15

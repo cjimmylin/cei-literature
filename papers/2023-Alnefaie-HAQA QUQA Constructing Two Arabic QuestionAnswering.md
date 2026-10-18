@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0624
 type: conferencePaper
 short_title: "HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith"
-year: 2025
+year: 2023
 first_author: "[[Sarah Alnefaie]]"
 last_author: "[[M. Alsalka]]"
 authors: "Sarah Alnefaie; Eric Atwell; M. Alsalka"
@@ -52,7 +52,7 @@ abstract: "It is neither possible nor fair to compare the performance of questio
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

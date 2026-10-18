@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0102
 type: preprint
 short_title: "Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese"
-year: 2025
+year: 2024
 first_author: "[[Putri, Rifki Afina]]"
 last_author: "[[Oh, Alice]]"
 authors: "Putri, Rifki Afina; Haznitrama, Faiz Ghifari; Adhista, Dea; Oh, Alice"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly being used to generate synthetic data for training and evaluating models. However, it is unclear whether they can generate a good quality of question answering (QA) dataset that incorporates knowledge and cultural nuance embedded in a language, especially for low-resource languages. In this study, we investigate the effectiveness of using LLMs in generating culturally relevant commonsense QA datasets for Indonesian and Sundanese languages."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

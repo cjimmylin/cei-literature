@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Mistral, Llama-3"
 DATA_URL: "https://github.com/xxxxx/moral"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 100
 deontological_ethics: 100
 utilitarian_ethics: 100

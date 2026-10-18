@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) are increasingly deployed in human-centr
 LLM_assessed: "GPT-4o, Qwen, RoBERTa"
 DATA_URL: "https://github.com/ZhengWwwq/PERM"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

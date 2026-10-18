@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0242
 type: conferencePaper
 short_title: "Probing PLMs for Cross-Cultural Values (C3NLP Workshop)"
-year: 2025
+year: 2023
 first_author: "[[Arnav Arora]]"
 last_author: "[[Isabelle Augenstein]]"
 authors: "Arnav Arora; Lucie-Aimee Kaffee; Isabelle Augenstein"
@@ -50,7 +50,7 @@ abstract: "Pretrained language models (PLMs) for African languages are continual
 LLM_assessed: RoBERTa
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

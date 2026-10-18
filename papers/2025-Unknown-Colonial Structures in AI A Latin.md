@@ -9,7 +9,7 @@ url: "https://link.springer.com/article/10.1007/s00146-025-02547-9"
 abstract: "Latin American decolonial review of AI structural implications: data colonialism, labour coloniality, digital feudalism"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

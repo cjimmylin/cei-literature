@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0497
 type: conferencePaper
 short_title: "Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT"
-year: 2025
+year: 2022
 first_author: "[[Md Saroar Jahan]]"
 last_author: "[[Nabil Arhab]]"
 authors: "Md Saroar Jahan; Mourad Oussalah; Nabil Arhab"
@@ -52,7 +52,7 @@ tags:
 abstract: "There has been a lot of research in identifying hate posts from social media because of their detrimental effects on both individuals and society. The majority of this research has concentrated on English, although one notices the emergence of multilingual detection tools such as multilingual-BERT (mBERT). However, there is a lack of hate speech datasets compared to English, and a multilingual pre-trained model often contains fewer tokens for other languages."
 research_topic: Other
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

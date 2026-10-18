@@ -6,7 +6,7 @@ Not AI:
 key: Z9XMJ5H7
 type: journalArticle
 short_title: "The interconnectedness between Ubuntu principles"
-year: 2025
+year: 2024
 first_author: "[[Zuleika Suliman]]"
 last_author: "[[Kershnee Sevnarayan]]"
 authors: "Zuleika Suliman; Ntshimane Elphas Mohale; Kgabo Bridget Maphoto; Kershnee Sevnarayan"
@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0466
 type: conferencePaper
 short_title: "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
-year: 2025
+year: 2021
 first_author: "[[Julian Risch]]"
 last_author: "[[Michael Wiegand]]"
 authors: "Julian Risch; Anke Stoll; Lena Wilms; Michael Wiegand"
@@ -51,7 +51,7 @@ DATA_URL: "https://germeval2021toxic.github.io/SharedTask/"
 tags: 
 abstract: "We present the GermEval 2021 shared task on the identiﬁcation of toxic, engaging, and factclaiming comments. This shared task comprises three binary classiﬁcation subtasks with the goal to identify: toxic comments, engaging comments, and comments that include indications of a need for fact-checking, here referred to as fact-claiming comments. Building on the two previous GermEval shared tasks on the identiﬁcation of offensive language in 2018 and 2019, we extend this year’s task deﬁnition to..."
 CONFERENCE: "ACL 2021"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

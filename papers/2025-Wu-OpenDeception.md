@@ -56,7 +56,7 @@ DATA_URL: "https://anonymous.4open.science/r/OpenDeception-C187/"
 DATE_ADDED: 20260207
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

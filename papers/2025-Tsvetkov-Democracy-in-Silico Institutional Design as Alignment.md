@@ -61,7 +61,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, GPT-4o"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

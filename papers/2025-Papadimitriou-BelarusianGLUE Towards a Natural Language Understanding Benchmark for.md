@@ -52,7 +52,7 @@ DATA_URL: "https://hf.co/datasets/maaxap/BelarusianGLUE"
 tags: 
 abstract: "In the epoch of multilingual large language models (LLMs), it is still challenging to evaluate the models’ understanding of lowerresourced languages, which motivates further development of expert-crafted natural language understanding benchmarks. We introduce BelarusianGLUE — a natural language understanding benchmark for Belarusian, an East Slavic language, with ≈15K instances in five tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, textual..."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

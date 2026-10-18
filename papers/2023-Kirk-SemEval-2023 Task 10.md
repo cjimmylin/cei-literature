@@ -6,7 +6,7 @@ Not AI:
 key: CQCXZGWI
 type: document
 short_title: "SemEval-2023 Task 10"
-year: 2025
+year: 2023
 first_author: "[[Hannah Kirk]]"
 last_author: "[[Röttger, Paul]]"
 authors: "Kirk, Hannah; Yin, Wenjie; Vidgen, Bertie; Röttger, Paul"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/rewire-online/edos"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

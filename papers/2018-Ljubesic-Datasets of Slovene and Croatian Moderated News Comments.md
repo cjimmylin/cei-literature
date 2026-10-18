@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0347
 type: conferencePaper
 short_title: "Datasets of Slovene and Croatian Moderated News Comments"
-year: 2025
+year: 2018
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Darja Fiser]]"
 authors: "Nikola Ljubesic; Tomaz Erjavec; Darja Fiser"
@@ -52,7 +52,7 @@ tags:
 abstract: "This paper presents two large newly constructed datasets of moderated news comments from two highly popular online news portals in the respective countries: the Slovene RTV MCC and the Croatian 24sata. The datasets are analyzed by performing manual annotation of the types of the content which have been deleted by moderators and by investigating deletion trends among users and threads. Next, initial experiments on automatically detecting the deleted content in the datasets are presented."
 research_topic: Other
 CONFERENCE: "ACL 2018"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -2,14 +2,14 @@
 key: CGSR0199
 type: document
 short_title: "Collaborative governance in a primary health care partnership in Papua New Guinea."
-year: 2025
+year: 2024
 first_author: "[[Georgina Dove]]"
 authors: "Georgina Dove et al."
 url: "https://www.semanticscholar.org/paper/d8b051e9d2a25528e0bd5b9b1db82357e34e58c6"
 abstract: "INTRODUCTION Collaboration in primary health care is recommended to achieve global health goals. Public-private partnerships (PPP) are one means of collaboration. Our study examined collaboration in a..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

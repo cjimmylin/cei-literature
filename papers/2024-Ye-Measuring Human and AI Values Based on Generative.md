@@ -6,7 +6,7 @@ Not AI:
 key: E9AQ47CN
 type: conferencePaper
 short_title: "Measuring Human and AI Values Based on Generative"
-year: 2025
+year: 2024
 first_author: "[[Haoran Ye]]"
 last_author: "[[Guojie Song]]"
 authors: "Haoran Ye; Yuhang Xie; Yuanyi Ren; Hanjun Fang; Xin Zhang; Guojie Song"
@@ -66,7 +66,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemma, InternLM, Llama-2, Mistral, Qwen-1.5, Vicuna, Yi"
 DATA_URL: "https://github.com/Value4AI/gpv"
 CONFERENCE: "AAAI 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

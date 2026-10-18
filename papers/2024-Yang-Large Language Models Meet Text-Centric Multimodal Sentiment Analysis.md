@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0639
 type: preprint
 short_title: "Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey"
-year: 2025
+year: 2024
 first_author: "[[Yang, Hao]]"
 last_author: "[[Qin, Bing]]"
 authors: "Yang, Hao; Zhao, Yanyan; Wu, Yang; Wang, Shilong; Zheng, Tian; Zhang, Hongbo; Ma, Zongyang; Che, Wanxiang; Qin, Bing"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Compared to traditional sentiment analysis, which only considers text, multimodal sentiment analysis needs to consider emotional signals from multimodal sources simultaneously and is therefore more consistent with the way how humans process sentiment in real-world scenarios. It involves processing emotional information from various sources such as natural language, images, videos, audio, physiological signals, etc."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

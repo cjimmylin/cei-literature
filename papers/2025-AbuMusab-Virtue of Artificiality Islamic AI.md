@@ -10,7 +10,7 @@ publication_title: "AI and Ethics"
 abstract: "Introduces neutragents concept -- AI caregivers transcend mahram/non-mahram dichotomy in Islamic care ethics. Artificiality uniquely aligns with Islamic ethics. Implications for intercultural value alignment."
 external_pdf: 
 DOI: 10.1007/s43681-025-00747-z
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

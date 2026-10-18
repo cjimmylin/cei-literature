@@ -6,7 +6,7 @@ Not AI:
 key: G38X86EQ
 type: conferencePaper
 short_title: "Enabling Classifiers to Make Judgements"
-year: 2025
+year: 2022
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Tiezheng Yu; Andrea Madotto; Zhaojiang Lin; Mona Diab; Pascale Fung"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BART, RoBERTa"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

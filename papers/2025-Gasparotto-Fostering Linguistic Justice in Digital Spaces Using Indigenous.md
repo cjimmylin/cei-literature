@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "First study to use an Indigenous methods framework to examine bias in NLP. Argues that NLP data and modeling practices privilege dominant languages, leaving speakers of Indigenous and minoritized languages behind, and that identifying solutions to NLP bias requires broadening methodological toolkits from the perspective of impacted communities."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

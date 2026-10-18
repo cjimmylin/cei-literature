@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0468
 type: conference_paper
 short_title: "Classification of Buddhist Verses The Efficacy"
-year: 2025
+year: 2024
 first_author: "[[Nikita Neveditsin]]"
 last_author: "[[Vijay Mago]]"
 authors: "Nikita Neveditsin; Ambuja Salgaonkar; Pawan Lingras; Vijay Mago"
@@ -52,7 +52,7 @@ abstract: "This study assesses the ability of machine learning to classify verse
 LLM_assessed: "Llama-2, T5"
 DATA_URL: "https://github.com/neveditsin/pali"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

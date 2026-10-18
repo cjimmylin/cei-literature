@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0215
 type: preprint
 short_title: SafeAgentBench
-year: 2025
+year: 2024
 first_author: "[[Yin, Sheng]]"
 last_author: "[[Chen, Siheng]]"
 authors: "Yin, Sheng; Pang, Xianghe; Ding, Yuanzhuo; Chen, Menglan; Bi, Yutong; Xiong, Yichen; Huang, Wenhao; Xiang, Zhen; Shao, Jing; Chen, Siheng"
@@ -53,7 +53,7 @@ LLM_assessed: "DeepSeek, GPT-4, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/shengyin1224/SafeAgentBench"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, Command-R, DeepSeek, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral, PaLM-2, Phi-3, Qwen-2"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

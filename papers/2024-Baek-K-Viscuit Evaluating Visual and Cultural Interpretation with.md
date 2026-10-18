@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0256
 type: preprint
 short_title: "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration"
-year: 2025
+year: 2024
 first_author: "[[Donghyun Baek]]"
 last_author: "[[Jonghwan Hyeon]]"
 authors: "Donghyun Baek; Sangwon Park; Donghyeon Jeon; Yohan Choi; Jonghwan Hyeon"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/ddehun/k-viscuit"
 tags: 
 abstract: "To create culturally inclusive vision-language models (VLMs), developing a benchmark that tests their ability to address culturally relevant questions is essential. Existing approaches typically rely on human annotators, making the process labor-intensive and creating a cognitive burden in generating diverse questions. To address this, we propose a semi-automated framework for constructing cultural VLM benchmarks, specifically targeting multiple-choice QA."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

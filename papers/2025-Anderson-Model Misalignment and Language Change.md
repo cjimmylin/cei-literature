@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/fsu-nlp/ai-traces-ssl"
 CONFERENCE: "AAAI 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

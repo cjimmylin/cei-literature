@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/polyglots/MADLAD_CulturaX_cleaned"
 tags: 
 abstract: "Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). Therefore, it is imperative that the existing LLMs are further trained to cover such languages. In this research, we extend an existing multilingual LLM (Llama-3-8B) to get a better coverage for Sinhala. We enhanced the LLM tokenizer with Sinhala specific vocabulary and performed continual pre-training on a 10 million sentence Sinhala corpus, resulting in the SinLlama model."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

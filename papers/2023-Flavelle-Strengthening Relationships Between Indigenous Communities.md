@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0026
 type: conferencePaper
 short_title: "Strengthening Relationships Between Indigenous Communities, Documentary Linguists, and Computational Linguists in the Era of NLP-Assisted Language Revitalization"
-year: 2025
+year: 2023
 first_author: "[[Darren Flavelle]]"
 last_author: "[[Jordan Lachler]]"
 authors: "Darren Flavelle; Jordan Lachler"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Addresses barriers to collaboration between documentary linguists, computational linguists, and Indigenous communities for NLP-assisted language revitalization. Recommends increased opportunities for awareness-building and skills-training in computational linguistics tailored to Indigenous community members' needs."
 CONFERENCE: "EACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

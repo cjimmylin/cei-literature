@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Investigates ethical challenges of AI deployment in Vietnam under authoritarian governance. Uses qualitative methods including policy documents, interviews with policymakers and citizens, social media analysis, and case studies of facial recognition in Hanoi and AI in public health. Examines how Vietnam's centralized governance enables swift AI adoption but falters in ethical flexibility."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

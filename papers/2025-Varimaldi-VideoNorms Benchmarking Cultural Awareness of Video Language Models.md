@@ -52,7 +52,7 @@ abstract: "As Video Large Language Models (VideoLLMs) are deployed globally, the
 LLM_assessed: "Gemini, LLaVA"
 DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

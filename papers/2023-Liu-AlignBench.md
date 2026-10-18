@@ -6,7 +6,7 @@ Not AI:
 key: YC7WMTUP
 type: conferencePaper
 short_title: AlignBench
-year: 2025
+year: 2023
 first_author: "[[Xiao Liu]]"
 last_author: "[[Jie Tang]]"
 authors: "Xiao Liu; Xuanyu Lei; Shengyuan Wang; Yue Huang; Zhuoer Feng; Bosi Wen; Jiale Cheng; Pei Ke; Yifan Xu; Weng Lam Tam; Xiaohan Zhang; Lichao Sun; Xiaotao Gu; Hongning Wang; Jing Zhang; Minlie Huang; Yuxiao Dong; Jie Tang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/THUDM/AlignBench"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

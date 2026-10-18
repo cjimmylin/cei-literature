@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0534
 type: conference_paper
 short_title: "The Vedic Compound Dataset"
-year: 2025
+year: 2024
 first_author: "[[Sven Sellmer]]"
 last_author: "[[Oliver Hellwig]]"
 authors: "Sven Sellmer; Oliver Hellwig"
@@ -52,7 +52,7 @@ abstract: "This paper introduces the Vedic Compound Dataset (VCD), the first res
 LLM_assessed: NA
 DATA_URL: "https://github.com/SvenSellmer/VedicCompoundDataset"
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

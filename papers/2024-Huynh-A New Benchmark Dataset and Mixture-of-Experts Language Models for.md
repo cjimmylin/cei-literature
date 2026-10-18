@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0383
 type: preprint
 short_title: "A New Benchmark Dataset and Mixture-of-Experts Language Models for Adversarial Natural Language Inference in Vietnamese"
-year: 2025
+year: 2024
 first_author: "[[Van Huynh, Tin]]"
 last_author: "[[Nguyen, Ngan Luu-Thuy]]"
 authors: "Van Huynh, Tin; Van Nguyen, Kiet; Nguyen, Ngan Luu-Thuy"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/uitnlp/ViANLI"
 tags: 
 abstract: "Existing Vietnamese Natural Language Inference (NLI) datasets lack adversarial complexity, limiting their ability to evaluate model robustness against challenging linguistic phenomena. In this article, we address the gap in robust Vietnamese NLI resources by introducing ViANLI, the first adversarial NLI dataset for Vietnamese, and propose NLIMoE, a Mixture-of-Experts model to tackle its complexity. We construct ViANLI using an adversarial human-and-machine-in-the-loop approach with rigorous..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

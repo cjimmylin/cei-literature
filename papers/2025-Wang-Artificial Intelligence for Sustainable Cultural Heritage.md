@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/418f79caad8b485ac9d83f77768cf2dc2d14
 abstract: "The sustainable preservation of cultural heritage, as articulated in Sustainable Development Goal (SDG) 11.4, requires strategies that not only safeguard tangible and intangible assets but also enhanc..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

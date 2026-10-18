@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the search results, here are the key findings about Classical Chinese LLM benchmark evaluation: Major Benchmarks C3Bench is the first comprehensive Classical Chinese Understanding (CCU) benchmark for Large Language Models, which spans a multitude of tasks and various domains. The benchmark comprehensively evaluates 15 representative LLMs, quantifying their capabilities in CCU and establishing a public leaderboard."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

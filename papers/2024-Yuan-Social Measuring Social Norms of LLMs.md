@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0218
 type: conferencePaper
 short_title: "Social (Measuring Social Norms of LLMs)"
-year: 2025
+year: 2024
 first_author: "[[Ye Yuan]]"
 last_author: "[[Chenguang Wang]]"
 authors: "Ye Yuan; Kexin Tang; Jianhao Shen; Ming Zhang; Chenguang Wang"
@@ -51,7 +51,7 @@ abstract: "We present a new challenge to examine whether large language models u
 LLM_assessed: "GPT-3.5, Llama-2, T5"
 DATA_URL: "https://huggingface.co/datasets/socialnormdataset/social"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

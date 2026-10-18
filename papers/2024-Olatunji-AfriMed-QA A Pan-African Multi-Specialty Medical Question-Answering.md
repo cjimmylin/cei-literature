@@ -6,7 +6,7 @@ Not AI:
 key: CULT0093
 type: preprint
 short_title: "AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset"
-year: 2025
+year: 2024
 first_author: "[[Tobi Olatunji]]"
 last_author: "[[M. Asiedu]]"
 authors: "Tobi Olatunji; Charles Nimo; Abraham Owodunni; Tassallah Abdullahi; Emmanuel Ayodele; Mardhiyah Sanni; Chinemelu Aka; Folafunmi Omofoye; Foutse Yuehgoh; Timothy Faniran; Bonaventure F. P. Dossou; Moshood Yekini; Jonas Kemp; Katherine A. Heller; Jude Chidubem Omeke; Chidi Asuzu; Naome A. Etori; A. Ndiaye; Ifeoma Okoh; E. Ocansey; Wendy Kinara; Michael L. Best; Irfan Essa; Stephen Edward Moore; Chris Fourie; M. Asiedu"
@@ -52,7 +52,7 @@ tags:
 abstract: "Recent advancements in large language model (LLM) performance on medical multiplechoice question (MCQ) benchmarks have stimulated interest from healthcare providers and patients globally. Particularly in low-andmiddle-income countries (LMICs) facing acute physician shortages and lack of specialists, LLMs offer a potentially scalable pathway to enhance healthcare access and reduce costs. However, their effectiveness in the Global South, especially across the African continent, remains to be..."
 ethics_perspective: "Applied Ethics"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0471
 type: preprint
 short_title: "Cultural Fidelity in Large-Language Models An"
-year: 2025
+year: 2024
 first_author: "[[Sharif Kazemi]]"
 last_author: "[[Umang Prabhakar]]"
 authors: "Sharif Kazemi; Gloria Gerhardt; Jonty Katz; Caroline Ida Kuria; Estelle Pan; Umang Prabhakar"
@@ -52,7 +52,7 @@ abstract: "The training data for LLMs embeds societal values, increasing their f
 LLM_assessed: "GPT-4, GPT-4o"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

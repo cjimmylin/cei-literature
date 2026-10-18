@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0310
 type: preprint
 short_title: "SEA-Guard Culturally Grounded Multilingual Safeguard for"
-year: 2025
+year: 2026
 first_author: "[[team, AI Singapore]]"
 last_author: "[[AI Singapore team]]"
 authors: "AI Singapore team"
@@ -52,7 +52,7 @@ abstract: "Culturally aware safeguards are crucial for AI alignment in real-worl
 LLM_assessed: "Gemma, Gemma-2, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/aisingapore/Qwen-SEA-Guard-8B-2602"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

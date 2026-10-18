@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0510
 type: conference_paper
 short_title: "Modeling the Sacred Considerations when Using"
-year: 2025
+year: 2024
 first_author: "[[Hutchinson, Ben]]"
 last_author: "[[Ben Hutchinson]]"
 authors: "Ben Hutchinson"
@@ -52,7 +52,7 @@ abstract: "This position paper concerns the use of religious texts in Natural La
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

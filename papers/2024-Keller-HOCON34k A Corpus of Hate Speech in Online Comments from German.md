@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0468
 type: conferencePaper
 short_title: "HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers"
-year: 2025
+year: 2024
 first_author: "[[Max-Emanuel Keller]]"
 last_author: "[[Markus Franz]]"
 authors: "Max-Emanuel Keller; Maximilian Auch; Alexander Döschl; Fabian Vlk; Julian Quernheim; Mike Hartmann; Peter Mandl; Alexander Kaul; Markus Franz"
@@ -52,7 +52,7 @@ tags:
 abstract: "34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

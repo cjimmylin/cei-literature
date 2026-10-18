@@ -51,7 +51,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 5

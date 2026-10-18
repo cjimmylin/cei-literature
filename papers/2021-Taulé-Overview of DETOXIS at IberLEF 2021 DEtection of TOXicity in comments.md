@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0277
 type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
-year: 2025
+year: 2021
 first_author: "[[Mariona Taulé]]"
 last_author: "[[Mariona Taulé]]"
 authors: "Mariona Taulé"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "In this paper we present the DETOXIS task, DEtection of TOxicity in comments In Spanish, which took place as part of the IberLEF 2021 Workshop on Iberian Languages Evaluation Forum at the SEPLN 2021 Conference. We describe the NewsCom-TOX dataset used for training and testing the systems, the metrics applied for their evaluation and the results obtained by the submitted approaches. We also provide an error analysis of the results of these systems."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

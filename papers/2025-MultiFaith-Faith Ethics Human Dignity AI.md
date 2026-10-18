@@ -9,7 +9,7 @@ url: "https://newsroom.churchofjesuschrist.org/article/faith--ethics--and-human-
 abstract: "Multi-faith, multi-university AI auditing tool. 7 evaluation categories. Faith Community AI Evaluation (FACE) tool. 2026 Vatican conference planned. Pluralistic religious AI benchmarking initiative -- the closest thing to a religious values AI benchmark."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

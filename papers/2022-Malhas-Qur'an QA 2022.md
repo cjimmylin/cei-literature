@@ -6,7 +6,7 @@ Not AI:
 key: 9WI2A33A
 type: conferencePaper
 short_title: "Qur'an QA 2022"
-year: 2025
+year: 2022
 first_author: "[[Rana Malhas]]"
 last_author: "[[Tamer Elsayed]]"
 authors: "Rana Malhas; Watheq Mansour; Tamer Elsayed"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "AraBERT, AraELECTRA, BERT, CAMeLBERT"
 DATA_URL: "https://gitlab.com/bigirqu/quranqa"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

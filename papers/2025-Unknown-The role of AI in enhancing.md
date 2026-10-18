@@ -9,7 +9,7 @@ url: "https://www.researchgate.net/publication/388223220"
 abstract: "AI's role in Islamic finance shariah compliance efficiency"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

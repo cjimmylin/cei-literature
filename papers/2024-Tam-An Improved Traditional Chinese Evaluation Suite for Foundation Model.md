@@ -6,7 +6,7 @@ Not AI:
 key: CULT0035
 type: preprint
 short_title: "An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)"
-year: 2025
+year: 2024
 first_author: "[[Zhi-Rui Tam]]"
 last_author: "[[Hong-Han Shuai]]"
 authors: "Zhi-Rui Tam; Ya-Ting Pai; Yen-Wei Lee; Jun-Da Chen; Wei-Min Chu; Sega Cheng; Hong-Han Shuai"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/ikala/tmmluplus"
 tags: 
 abstract: "We present TMMLU+, a new benchmark designed for Traditional Chinese language understanding. TMMLU+ is a multi-choice question-answering dataset with 66 subjects from elementary to professional level. It is six times larger and boasts a more balanced subject distribution than its predecessor, Taiwan Massive Multitask Language Understanding (TMMLU). We also benchmark closed-source models and 23 open-weight Chinese large language models (LLMs) of parameters ranging from 1."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

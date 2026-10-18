@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0228
 type: preprint
 short_title: "Evaluation of AI Ethics Tools in Language Models: A Developers' Perspective Case Study"
-year: 2025
+year: 2024
 first_author: "[[Jhessica Silva]]"
 last_author: "[[Helio Pedrini]]"
 authors: "Jhessica Silva; Diego A. B. Moreira; Gabriel O. dos Santos; Alef Ferreira; Helena Maia; Sandra Avila; Helio Pedrini"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "In Artificial Intelligence (AI), language models have gained significant importance due to the widespread adoption of systems capable of simulating realistic conversations with humans through text generation. Because of their impact on society, developing and deploying these language models must be done responsibly, with attention to their negative impacts and possible harms. In this scenario, the number of AI Ethics Tools (AIETs) publications has recently increased."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

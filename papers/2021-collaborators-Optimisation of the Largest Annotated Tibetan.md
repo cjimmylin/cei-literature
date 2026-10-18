@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0609
 type: journal_article
 short_title: "Optimisation of the Largest Annotated Tibetan"
-year: 2025
+year: 2021
 first_author: "[[Christian Faggionato]]"
 last_author: "[[Nathan Hill (and collaborators)]]"
 authors: "Christian Faggionato; Marieke Meelen; Nathan Hill (and collaborators)"
@@ -52,7 +52,7 @@ abstract: "This article presents a pipeline that converts collections of Tibetan
 LLM_assessed: NA
 DATA_URL: "https://zenodo.org/records/3951503"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

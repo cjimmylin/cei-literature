@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0435
 type: preprint
 short_title: "HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter"
-year: 2025
+year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Röttger, Paul]]"
 authors: "Tonneau, Manuel; Liu, Diyi; Malhotra, Niyati; Scott A. Hale; Samuel P. Fraiberger; Orozco-Olvera, Victor; Röttger, Paul"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/manueltonneau/hateday"
 tags: 
 abstract: "To address the global challenge of online hate speech, prior research has developed detection models to flag such content on social media. However, due to systematic biases in evaluation datasets, the real-world effectiveness of these models remains unclear, particularly across geographies. We introduce HATEDAY, the first global hate speech dataset representative of social media settings, constructed from a random sample of all tweets posted on September 21, 2022 and covering eight languages..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

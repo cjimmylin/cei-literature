@@ -52,7 +52,7 @@ abstract: "Identifying human morals and values embedded in language is essential
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) are capable of generating opinions and p
 LLM_assessed: "Gemma-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/HariShankar08/LLMOpinions"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

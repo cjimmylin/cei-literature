@@ -6,7 +6,7 @@ Not AI:
 key: CULT0066
 type: preprint
 short_title: "CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks"
-year: 2025
+year: 2024
 first_author: "[[Zhaozhi Qian]]"
 last_author: "[[Riad Souissi]]"
 authors: "Zhaozhi Qian; Faroq Altam; Muhammad Alqurishi; Riad Souissi"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/elmrc"
 tags: 
 abstract: "Large Language Models (LLMs) are the cornerstones of modern artiﬁcial intelligence systems. This paper introduces Juhaina, a Arabic-English bilingual LLM speciﬁcally designed to align with the values and preferences of Arabic speakers. Juhaina inherently supports advanced functionalities such as instruction following, open-ended question answering, information provisioning, and text processing. Our model contains 9.24 billion parameters and is trained on a context window of up to 8,192 tokens."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

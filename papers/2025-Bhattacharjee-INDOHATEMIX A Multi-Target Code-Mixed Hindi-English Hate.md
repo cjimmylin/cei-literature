@@ -52,7 +52,7 @@ abstract: "Hate speech detection across contemporary social media presents uniqu
 LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o mini, InternLM, Llama-3, Mistral, Qwen, Qwen-2, RoBERTa"
 DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

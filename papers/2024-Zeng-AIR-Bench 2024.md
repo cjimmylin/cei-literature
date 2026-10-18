@@ -6,7 +6,7 @@ Not AI:
 key: XMMZIU29
 type: journalArticle
 short_title: "AIR-Bench 2024"
-year: 2025
+year: 2024
 first_author: "[[Yi Zeng]]"
 last_author: "[[Bo Li]]"
 authors: "Yi Zeng; Yu Yang; Andy Zhou; Jeffrey Ziwei Tan; Yuheng Tu; Yifan Mai; Kevin Klyman; Minzhou Pan; Ruoxi Jia; Dawn Song; Percy Liang; Bo Li"
@@ -55,7 +55,7 @@ LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, DeepSeek, GPT-3.5
 DATA_URL: "https://huggingface.co/datasets/stanford-crfm/air-bench-2024"
 CONFERENCE: Journal
 helm: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

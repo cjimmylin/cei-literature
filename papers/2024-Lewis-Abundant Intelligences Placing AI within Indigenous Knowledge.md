@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0018
 type: conferencePaper
 short_title: "Abundant Intelligences: Placing AI within Indigenous Knowledge Frameworks"
-year: 2025
+year: 2024
 first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Ceyda Yolgörmez]]"
 authors: "Jason Edward Lewis; Hēmi Whaanga; Ceyda Yolgörmez"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Presents a new research agenda — Abundant Intelligences — an Indigenous-led, Indigenous-majority international research program that reimagines how to conceptualize and design AI based on Indigenous knowledge systems. Argues that Western rationalist epistemologies provide insufficient foundations for AI and proposes IK systems as engines of abundance rather than scarcity."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

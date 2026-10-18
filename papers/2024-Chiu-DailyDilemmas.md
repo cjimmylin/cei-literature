@@ -6,7 +6,7 @@ Not AI:
 key: SD7W6PHQ
 type: conferencePaper
 short_title: DailyDilemmas
-year: 2025
+year: 2024
 first_author: "[[Yu Ying Chiu]]"
 last_author: "[[Yejin Choi]]"
 authors: "Yu Ying Chiu; Liwei Jiang; Yejin Choi"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://hf.co/datasets/kellycyy/daily_dilemmas, https://github.com/kellycyy/daily_dilemmas"
 CONFERENCE: "ICLR 2024"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 0

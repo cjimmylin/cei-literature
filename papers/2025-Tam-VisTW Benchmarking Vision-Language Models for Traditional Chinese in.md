@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/TMMMU-Benchmark/evaluation"
 tags: 
 abstract: "In this paper, we propose a comprehensive evaluation benchmark for Visual Language Models (VLM) in Traditional Chinese. Our evaluation suite, the first of its kind, contains two complementary components: (1) VisTWMCQ, a collection of manually curated exam multi-choice questions from 21 academic subjects designed to test the broad knowledge and reasoning capabilities of VLMs; and (2) VisTW-Dialogue, an open dialogue benchmark comprising 131 image-question pairs manually created to evaluate VLMs’..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0223
 type: conferencePaper
 short_title: "A Call for a Research Agenda on Fair NLP for Portuguese"
-year: 2025
+year: 2023
 first_author: "[[Luiz Fernando F. P. de Lima]]"
 last_author: "[[Renata Mendes de Araújo]]"
 authors: "Luiz Fernando F. P. de Lima; Renata Mendes de Araújo"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Diverse areas widely apply artificial intelligence and natural language processing (NLP) tools to their contexts. However, these algorithms present ethical issues, such as biased and discriminatory decisions. For example, representation biases in NLP can result in discriminatory behavior towards race and gender. Works have been addressing this issue and seeking to build fair NLP solutions, however they mainly focus on Anglo-Saxon languages."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

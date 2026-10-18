@@ -52,7 +52,7 @@ abstract: "As Large Language Models (LLMs) and generative AI become increasingly
 LLM_assessed: "Gemma, Gemma-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/meta-llama/llama-recipes"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0257
 type: preprint
 short_title: "Cultural Bias and Cultural Alignment of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Yongshuo Liu]]"
 last_author: "[[Nanyun Peng]]"
 authors: "Yongshuo Liu; Di Jin; Linyuan Gong; Nanyun Peng"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Culture fundamentally shapes people’s reasoning, behavior, and communication. As people increasingly use generative artificial intelligence (AI) to expedite and automate personal and professional tasks, cultural values embedded in AI models may bias people’s authentic expression and contribute to the dominance of certain cultures. We conduct a disaggregated evaluation of cultural bias for five widely used large language models (OpenAI’s GPT-4o/4-turbo/4/3."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

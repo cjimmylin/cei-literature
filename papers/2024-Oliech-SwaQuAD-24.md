@@ -6,7 +6,7 @@ Not AI:
 key: WSL5AXZA
 type: document
 short_title: SwaQuAD-24
-year: 2025
+year: 2024
 first_author: "[[Alfred Malengo Kondoro]]"
 last_author: "[[Alfred Malengo Kondoro]]"
 authors: "Alfred Malengo Kondoro"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

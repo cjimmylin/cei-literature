@@ -6,7 +6,7 @@ Not AI:
 key: GBBAWY2A
 type: document
 short_title: "ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus"
-year: 2025
+year: 2024
 first_author: "[[Tolúlọpẹ́ Ògúnrẹ̀mí]]"
 last_author: "[[Adelani, David Ifeoluwa]]"
 authors: "Ògúnrẹ̀mí, Tolúlọpẹ́; Túbọ̀sún, Kọ́lá; Aremu, Anuoluwapo; Orife, Iroro; Adelani, David Ifeoluwa"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/Niger-Volta-LTI/yoruba-voice"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

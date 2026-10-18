@@ -2,14 +2,14 @@
 key: CGSR0003
 type: document
 short_title: "The ethics of artificial intelligence, UNESCO and the African Ubuntu perspective"
-year: 2025
+year: 2022
 first_author: "[[Dorine Eva van Norren]]"
 authors: "Dorine Eva van Norren"
 url: "https://philpapers.org/rec/VANTEO-92"
 abstract: "UNESCO AI ethics through an African Ubuntu lens"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

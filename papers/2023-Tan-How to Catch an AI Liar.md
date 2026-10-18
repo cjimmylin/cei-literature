@@ -6,7 +6,7 @@ Not AI:
 key: TJNSRVFL
 type: journalArticle
 short_title: "How to Catch an AI Liar"
-year: 2025
+year: 2023
 first_author: "[[Lorenzo Pacchiardi]]"
 last_author: "[[Jan Brauner]]"
 authors: "Lorenzo Pacchiardi; Alex J. Chan; Sören Mindermann; Ilan Moscovitz; Alexa Y. Pan; Yarin Gal; Owain Evans; Jan Brauner"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3, GPT-3.5, LLaMA, Vicuna"
 DATA_URL: "https://github.com/LoryPack/LLM-LieDetector"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

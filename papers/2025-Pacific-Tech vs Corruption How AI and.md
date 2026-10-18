@@ -9,7 +9,7 @@ url: "https://www.undp.org/pacific/blog/tech-vs-corruption-how-ai-and-digital-to
 abstract: "AI for transparency and anti-corruption in Pacific Islands"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

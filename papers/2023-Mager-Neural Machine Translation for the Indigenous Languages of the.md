@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0818
 type: preprint
 short_title: "Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction."
-year: 2025
+year: 2023
 first_author: "[[Mager, Manuel]]"
 last_author: "[[Kann, Katharina]]"
 authors: "Mager, Manuel; Bhatnagar, Rajat; Neubig, Graham; Vu, Ngoc Thang; Kann, Katharina"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Neural models have drastically advanced state of the art for machine translation (MT) between high-resource languages. Traditionally, these models rely on large amounts of training data, but many language pairs lack these resources. However, an important part of the languages in the world do not have this amount of data. Most languages from the Americas are among them, having a limited amount of parallel and monolingual data, if any."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

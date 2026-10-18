@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0441
 type: preprint
 short_title: "Cross-Language Bias Examination in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Liang, Yuxuan]]"
 last_author: "[[Mahmoud, Marwa]]"
 authors: "Liang, Yuxuan; Mahmoud, Marwa"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "This study introduces an innovative multilingual bias evaluation framework for assessing bias in Large Language Models, combining explicit bias assessment through the BBQ benchmark with implicit bias measurement using a prompt-based Implicit Association Test. By translating the prompts and word list into five target languages — English, Chinese, Arabic, French, and Spanish — we were able to directly compare different types of bias across languages."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

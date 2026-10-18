@@ -52,7 +52,7 @@ abstract: "The advancement of Large Language Models (LLMs) has transformed natur
 LLM_assessed: "Llama-3, Mistral, Qwen-2, GPT-4o"
 DATA_URL: "https://github.com/Social-AI-Studio/SGToxicGuard"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

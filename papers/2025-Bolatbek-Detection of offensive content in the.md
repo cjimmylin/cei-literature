@@ -52,7 +52,7 @@ abstract: "Offensive content refers to messages which are socially unacceptable 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

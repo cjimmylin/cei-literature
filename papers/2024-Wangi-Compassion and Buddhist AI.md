@@ -2,14 +2,14 @@
 key: CGSR0151
 type: document
 short_title: "Compassion and Buddhist AI"
-year: 2025
+year: 2024
 first_author: "[[Dharma Wangi]]"
 authors: "Dharma Wangi"
 url: "https://www.dharma-wangi.space/post/compassion-and-buddhist-ai"
 abstract: "Buddhist compassion (karuna) as foundation for ethical AI design and human-machine interaction"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

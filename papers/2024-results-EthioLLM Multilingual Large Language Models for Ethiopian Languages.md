@@ -6,7 +6,7 @@ Not AI:
 key: CULT0102
 type: preprint
 short_title: "EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation"
-year: 2025
+year: 2024
 first_author: "[[Not specified in search results]]"
 last_author: "[[Not specified in search results]]"
 authors: "Not specified in search results"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/EthioNLP/EthioLLM"
 tags: 
 abstract: "Large language models (LLMs) have gained popularity recently due to their outstanding performance in various downstream Natural Language Processing (NLP) tasks. However, low-resource languages are still lagging behind current state-of-the-art (SOTA) developments in the ﬁeld of NLP due to insuﬃcient resources to train LLMs. Ethiopian languages exhibit remarkable linguistic diversity, encompassing a wide array of scripts, and are imbued with profound religious and cultural signiﬁcance."
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

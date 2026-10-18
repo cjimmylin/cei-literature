@@ -6,7 +6,7 @@ Not AI:
 key: MRVW3KBG
 type: conferencePaper
 short_title: NormBank
-year: 2025
+year: 2023
 first_author: "[[Caleb Ziems]]"
 last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Dwivedi-Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-3
 DATA_URL: "https://github.com/SALT-NLP/normbank"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

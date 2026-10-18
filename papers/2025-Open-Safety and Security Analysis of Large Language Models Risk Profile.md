@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "While the widespread deployment of Large Language Models (LLMs) holds great potential for society, their vulnerabilities to adversarial manipulation and exploitation can pose serious safety, security, and ethical risks. As new threats continue to emerge, it becomes critically necessary to assess the landscape of LLMs’ safety and security against evolving adversarial prompt techniques. To understand the behavior of LLMs, this research provides an empirical analysis and risk profile of nine..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

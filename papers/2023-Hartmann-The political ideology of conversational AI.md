@@ -6,7 +6,7 @@ Not AI:
 key: ZUUNQJSR
 type: journalArticle
 short_title: "The political ideology of conversational AI"
-year: 2025
+year: 2023
 first_author: "[[Jochen Hartmann]]"
 last_author: "[[Maximilian Witte]]"
 authors: "Jochen Hartmann; Jasper Schwenzow; Maximilian Witte"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

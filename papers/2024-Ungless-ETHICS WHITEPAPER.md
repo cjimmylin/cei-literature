@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 3RNRAN7W
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "ETHICS WHITEPAPER"
 first_author: "[[Eddie L Ungless]]"
 last_author: "[[Alexandra Birch]]"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"
 pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

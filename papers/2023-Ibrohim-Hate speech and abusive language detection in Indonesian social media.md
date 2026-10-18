@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0126
 type: journalArticle
 short_title: "Hate speech and abusive language detection in Indonesian social media: Progress and challenges"
-year: 2025
+year: 2023
 first_author: "[[Muhammad Okky Ibrohim]]"
 last_author: "[[Indra Budi]]"
 authors: "Muhammad Okky Ibrohim; Indra Budi"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Survey of hate speech and abusive language detection in Indonesian social media, documenting progress and challenges in building detection systems for Indonesian online toxicity."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

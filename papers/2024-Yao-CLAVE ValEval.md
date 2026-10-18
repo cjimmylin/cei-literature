@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0147
 type: preprint
 short_title: "CLAVE / ValEval"
-year: 2025
+year: 2024
 first_author: "[[Jing Yao]]"
 last_author: "[[X & Xie]]"
 authors: "Jing Yao; Xu, Tianyi; X & Xie"
@@ -52,7 +52,7 @@ LLM_assessed: "GPT-4, GPT-2, Mistral, Phi-3, Llama-2, Alpaca"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

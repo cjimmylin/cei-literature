@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/Pagewood/T-LLaMA"
 tags: 
 abstract: "The advent of ChatGPT and GPT-4 has generated substantial interest in large language model (LLM) research, showcasing remarkable performance in various applications such as conversation systems, machine translation, and research paper summarization. However, their efficacy diminishes when applied to low-resource languages, particularly in academic research contexts like Tibetan. In this study, we trained Tibetan LLaMA (T-LLaMA), a model based on efficient pre-training technology for three..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

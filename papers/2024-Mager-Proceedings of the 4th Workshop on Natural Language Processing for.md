@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0032
 type: conferencePaper
 short_title: "Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024)"
-year: 2025
+year: 2024
 first_author: "[[Manuel Mager]]"
 last_author: "[[Katharina von der Wense (editors)]]"
 authors: "Manuel Mager; Abteen Ebrahimi; Shruti Rijhwani; Arturo Oncevay; Luis Chiruzzo; Robert Pugh; Katharina von der Wense (editors)"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proceedings of the 4th AmericasNLP workshop at NAACL 2024 in Mexico City. Includes shared tasks on machine translation into Indigenous languages and creation of educational materials. Features work on Chatino, Guarani, Quechua, Rarámuri, Bribri, Maya, and other Indigenous American languages."
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

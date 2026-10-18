@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0362
 type: preprint
 short_title: "A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts"
-year: 2025
+year: 2021
 first_author: "[[Son T. Luu]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Son T. Luu; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "In recent years, Vietnam witnesses the mass development of social network users on different social platforms such as Facebook, Youtube, Instagram, and Tiktok. On social media, hate speech has become a critical problem for social network users. To solve this problem, we introduce the ViHSD - a human-annotated dataset for automatically detecting hate speech on the social network. This dataset contains over 30,000 comments, each comment in the dataset has one of three labels: CLEAN, OFFENSIVE, or..."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

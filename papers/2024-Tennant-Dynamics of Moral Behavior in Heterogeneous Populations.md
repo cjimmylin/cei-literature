@@ -6,7 +6,7 @@ Not AI:
 key: ARXIV2403_04202
 type: conferencePaper
 short_title: "Dynamics of Moral Behavior in Heterogeneous Populations"
-year: 2025
+year: 2024
 first_author: "[[Elizaveta Tennant]]"
 last_author: "[[Musolesi, Mirco]]"
 authors: "Tennant, Elizaveta; Hailes, Stephen; Musolesi, Mirco"
@@ -56,7 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/Liza-Tennant/moral_MARL"
 CONFERENCE: "AAAI 2024"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 70
 deontological_ethics: 15
 utilitarian_ethics: 75

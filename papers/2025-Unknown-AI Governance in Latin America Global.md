@@ -9,7 +9,7 @@ url: "https://www.global-solutions-initiative.org/wp-content/uploads/2025/05/v8_
 abstract: "Latin American AI governance with focus on critical decolonial approach"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

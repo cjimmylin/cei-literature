@@ -54,7 +54,7 @@ LLM_assessed: Vicuna
 DATA_URL: "https://github.com/thu-coai/AISafetyLab"
 authors_incomplete: false
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5

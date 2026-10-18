@@ -2,14 +2,14 @@
 key: CGSR0054
 type: document
 short_title: "AI governance in Asia: policies, praxis and approaches"
-year: 2025
+year: 2024
 first_author: "[[Jian Xu]]"
 authors: "Jian Xu; Terence Lee; Gerard Goggin"
 url: "https://www.tandfonline.com/doi/full/10.1080/22041451.2024.2391204"
 abstract: "Comparative AI governance across Asian countries including Southeast Asia"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

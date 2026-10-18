@@ -52,7 +52,7 @@ abstract: "Current text-to-image (T2I) models often fail to account for diverse 
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/neurips-dataset-1211/DIVE"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

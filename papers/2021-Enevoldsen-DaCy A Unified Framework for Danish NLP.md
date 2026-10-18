@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0491
 type: preprint
 short_title: "DaCy: A Unified Framework for Danish NLP"
-year: 2025
+year: 2021
 first_author: "[[Kenneth C. Enevoldsen]]"
 last_author: "[[Kristoffer Nielbo]]"
 authors: "Kenneth C. Enevoldsen; Lasse Hansen; Kristoffer Nielbo"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/centre-for-humanities-computing/DaCy"
 tags: 
 abstract: "Danish natural language processing (NLP) has in recent years obtained considerable improvements with the addition of multiple new datasets and models. However, at present, there is no coherent framework for applying state-of-the-art models for Danish. We present DaCy: a uniﬁed framework for Danish NLP built on SpaCy. DaCy uses efﬁcient multitask models which obtain state-of-the-art performance on named entity recognition, part-of-speech tagging, and dependency parsing."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

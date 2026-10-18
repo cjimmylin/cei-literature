@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0442
 type: preprint
 short_title: "PAGnol: An Extra-Large French Generative Model"
-year: 2025
+year: 2022
 first_author: "[[Launay, Julien]]"
 last_author: "[[Seddah, Djamé]]"
 authors: "Launay, Julien; Tommasone, Elena; Pannier, Baptiste; Boniface, François; Chatelain, Amélie; Cappelli, Alessandro; Poli, Iacopo; Seddah, Djamé"
@@ -52,7 +52,7 @@ DATA_URL: "https://lair.lighton.ai/pagnol"
 tags: 
 abstract: "Access to large pre-trained models of varied architectures, in many different languages, is central to the democratization of NLP. We introduce PAGnol, a collection of French GPT models. Using scaling laws, we efﬁciently train PAGnol-XL (1.5B parameters) with the same computational budget as CamemBERT, a model 13 times smaller. PAGnol-XL is the largest model trained to date for the French language. We plan to train increasingly large and performing versions of PAGnol, exploring the capabilities..."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

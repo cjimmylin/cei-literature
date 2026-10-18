@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0016
 type: journalArticle
 short_title: "The Encoding of Avestan -- Problems and Solutions"
-year: 2025
+year: 2012
 first_author: "[[Jost Gippert]]"
 last_author: "[[Jost Gippert]]"
 authors: "Jost Gippert"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Addresses the challenges of digital encoding of the Avestan script used for Zoroastrian sacred texts. Discusses the TITUS database as one of the first electronic corpus-building efforts for Avestan, and the problems of character encoding, right-to-left script processing, and Unicode representation for computational processing of Avestan texts."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

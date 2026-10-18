@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0156
 type: journalArticle
 short_title: "Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms"
-year: 2025
+year: 2021
 first_author: "[[Rania Azada]]"
 last_author: "[[Shajwan Sdiqa]]"
 authors: "Rania Azada; Bilal Mohammeda; Rawaz Mahmuda; Lanya Zrara; Shajwan Sdiqa"
@@ -52,7 +52,7 @@ DATA_URL: "https://www.kaggle.com/datasets/azada/kurdfake"
 tags: 
 abstract: "Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 real, 50,211 fake). Hybrid FastText-LSTM achieves 94.25% accuracy."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

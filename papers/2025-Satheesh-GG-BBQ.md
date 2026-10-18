@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "LLaMA, Llama-3, Mistral"
 DATA_URL: "https://github.com/shalakasatheesh/GG-BBQ/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

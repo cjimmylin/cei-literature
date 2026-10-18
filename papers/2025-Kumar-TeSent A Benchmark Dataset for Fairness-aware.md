@@ -52,7 +52,7 @@ abstract: "In the Indian subcontinent, Telugu, one of India's six classical lang
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/DSL-13-SRMAP"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

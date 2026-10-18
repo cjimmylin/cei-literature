@@ -52,7 +52,7 @@ abstract: "Large language models have been widely evaluated on tasks such as com
 LLM_assessed: "Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

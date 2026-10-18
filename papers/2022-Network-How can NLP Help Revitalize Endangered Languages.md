@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0805
 type: preprint
 short_title: "How can NLP Help Revitalize Endangered Languages?"
-year: 2025
+year: 2022
 first_author: "[[Megasis Network]]"
 last_author: "[[Megasis Network]]"
 authors: "Megasis Network"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/ZhangShiyue/RevitalizeCherokee"
 tags: 
 abstract: "More than 43% of the languages spoken in the world are endangered, and language loss currently occurs at an accelerated rate because of globalization and neocolonialism. Saving and revitalizing endangered languages has become very important for maintaining the cultural diversity on our planet. In this work, we focus on discussing how NLP can help revitalize endangered languages. We first suggest three principles that may help NLP practitioners to foster mutual understanding and collaboration..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

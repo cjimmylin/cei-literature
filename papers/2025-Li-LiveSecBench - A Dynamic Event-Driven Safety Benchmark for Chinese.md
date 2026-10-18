@@ -52,7 +52,7 @@ abstract: "We introduce LiveSecBench, a continuously updated safety benchmark sp
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4o, Grok, Llama-3, Qwen"
 DATA_URL: "https://github.com/ydli-ai/LiveSecBench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

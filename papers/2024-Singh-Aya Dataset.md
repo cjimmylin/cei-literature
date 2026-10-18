@@ -6,7 +6,7 @@ Not AI:
 key: PH662KCP
 type: journalArticle
 short_title: "Aya Dataset"
-year: 2025
+year: 2024
 first_author: "[[Ahmet Üstün]]"
 last_author: "[[Sara Hooker]]"
 authors: "Ahmet Üstün; Viraat Aryabumi; Zheng-Xin Yong; Wei-Yin Ko; Daniel D'souza; Gbemileke Onilude; Neel Bhandari; Shivalika Singh; Hui-Lee Ooi; Amr Kayid; Freddie Vargus; Phil Blunsom; Shayne Longpre; Niklas Muennighoff; Marzieh Fadaee; Julia Kreutzer; Sara Hooker"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Aya, BLOOM"
 DATA_URL: "https://hf.co/CohereForAI/aya-101"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 5
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

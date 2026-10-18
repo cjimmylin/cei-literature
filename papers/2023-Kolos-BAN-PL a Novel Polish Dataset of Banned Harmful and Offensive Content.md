@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0334
 type: preprint
 short_title: "BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service"
-year: 2025
+year: 2023
 first_author: "[[Anna Kolos]]"
 last_author: "[[Andrzej Pralat]]"
 authors: "Anna Kolos; Inez Okulska; Kinga Glabinska; Agnieszka Karlinska; Emilia Wisnios; Pawel Ellerik; Andrzej Pralat"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/ZILiAT-NASK/BAN-PL"
 tags: 
 abstract: "Since the Internet is flooded with hate, it is one of the main tasks for NLP experts to master automated online content moderation. However, advancements in this field require improved access to publicly available accurate and non-synthetic datasets of social media content. For the Polish language, such resources are very limited. In this paper, we address this gap by presenting a new open dataset of offensive social media content for the Polish language. The dataset comprises content from Wykop."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

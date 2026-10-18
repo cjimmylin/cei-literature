@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0541
 type: preprint
 short_title: "Uhura A Benchmark for Evaluating Scientific"
-year: 2025
+year: 2024
 first_author: "[[Edward Bayes]]"
 last_author: "[[David Ifeoluwa Adelani]]"
 authors: "Edward Bayes; Israel Abebe Azime; Jesujoba O. Alabi; Jonas Kgomo; Tyna Eloundou; Elizabeth Proehl; Kai Chen; Imaan Khadir; Naome A. Etori; Shamsuddeen Hassan Muhammad; Choice Mpanza; Igneciah Pocia Thete; Dietrich Klakow; David Ifeoluwa Adelani"
@@ -52,7 +52,7 @@ abstract: "Evaluations of Large Language Models (LLMs) on knowledge-intensive ta
 LLM_assessed: "Claude, Gemma-2, GPT-4, GPT-4o, Llama-3, Alpaca"
 DATA_URL: "https://www.uhura.dev/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

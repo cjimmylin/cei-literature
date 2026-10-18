@@ -9,7 +9,7 @@ url: "https://www.nbr.org/publication/charting-aseans-path-to-ai-governance-unev
 abstract: "ASEAN AI governance progress with country-level analysis"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

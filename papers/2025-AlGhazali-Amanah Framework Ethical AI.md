@@ -10,7 +10,7 @@ publication_title: "AI and Ethics"
 abstract: "Applies Al-Ghazali's Amanah (trust) principle to AI governance. Integrates justice (adl), trust (amanah), communal benefit (maslahah)."
 external_pdf: 
 DOI: 10.1007/s43681-025-00780-y
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

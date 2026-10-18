@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0315
 type: preprint
 short_title: "UrduLM A Resource-Efficient Monolingual Urdu Language"
-year: 2025
+year: 2026
 first_author: "[[Syed Muhammad Ali Naqvi]]"
 last_author: "[[Abdul Samad]]"
 authors: "Syed Muhammad Ali Naqvi; Hammad Sajid; Zainab Haider; Ali Muhammad Asad; Haya Fatima; Abdul Samad"
@@ -51,7 +51,7 @@ abstract: "Urdu, spoken by 230 million people worldwide, lacks dedicated transfo
 LLM_assessed: "Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

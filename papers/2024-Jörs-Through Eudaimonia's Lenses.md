@@ -6,7 +6,7 @@ Not AI:
 key: AUTO_JORS2024
 type: conferencePaper
 short_title: "Through Eudaimonia's Lenses"
-year: 2025
+year: 2024
 first_author: "[[Julian Marvin Jörs]]"
 last_author: "[[De Luca, Ernesto William]]"
 authors: "Jörs, Julian Marvin; De Luca, Ernesto William"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 100

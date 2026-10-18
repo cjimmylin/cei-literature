@@ -6,7 +6,7 @@ Not AI:
 key: CULT0051
 type: preprint
 short_title: "Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems"
-year: 2025
+year: 2026
 first_author: "[[Amogh Gupta]]"
 last_author: "[[SnehalKumar (Neil) S Gaikwad]]"
 authors: "Amogh Gupta; Niharika Patil; Sourojit Ghosh; SnehalKumar (Neil) S Gaikwad"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "The popularization of AI chatbot usage globally has created opportunities for research into their benefits and drawbacks, especially for students using AI assistants for coursework support. This paper asks: how do LLMs perceive the intellectual capabilities of student profiles from intersecting marginalized identities across different cultural contexts? We conduct one of the first large-scale intersectional analyses on LLM explanation quality for Indian and American undergraduate profiles..."
 CONFERENCE: "FAccT 2026"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

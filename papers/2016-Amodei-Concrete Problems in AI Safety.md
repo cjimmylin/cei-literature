@@ -6,7 +6,7 @@ Not AI:
 key: 2KFZELQU
 type: document
 short_title: "Concrete Problems in AI Safety"
-year: 2025
+year: 2016
 first_author: "[[Dario Amodei]]"
 last_author: "[[Dan Mané]]"
 authors: "Dario Amodei; Chris Olah; Jacob Steinhardt; Paul Christiano; John Schulman; Dan Mané"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

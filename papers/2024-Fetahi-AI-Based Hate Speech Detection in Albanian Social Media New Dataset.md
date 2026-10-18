@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0543
 type: journalArticle
 short_title: "AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration"
-year: 2025
+year: 2024
 first_author: "[[Etrit Fetahi]]"
 last_author: "[[Xhemal Zenuni]]"
 authors: "Etrit Fetahi; Majlinda Hamiti; Arianit Susuri; Jaumin Ajdari; Xhemal Zenuni"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "This paper aims to advance AI-based hate speech (HS) detection in the Albanian language, which is resource-limited in natural language processing (NLP). Addressing the challenge of limited data, we developed a human-annotated dataset of over 11,000 comments, carefully curated from various Albanian social media platforms, containing a substantial number of HS instances. The dataset was annotated using a detailed two-layer taxonomy to capture the complex dimensions of HS."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

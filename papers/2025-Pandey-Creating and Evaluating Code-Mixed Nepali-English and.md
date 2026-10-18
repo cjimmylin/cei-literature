@@ -52,7 +52,7 @@ abstract: "With the growing presence of multilingual users on social media, dete
 LLM_assessed: BERT
 DATA_URL: "https://github.com/Ranveer098/Code-Mix-and-Code-Switch"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

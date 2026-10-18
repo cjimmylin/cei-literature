@@ -6,7 +6,7 @@ Not AI:
 key: 6UUE3JZM
 type: conferencePaper
 short_title: "Are the Values of LLMs Structurally Aligned with"
-year: 2025
+year: 2024
 first_author: "[[Yipeng Kang]]"
 last_author: "[[Zilong Zheng]]"
 authors: "Yipeng Kang; Junqi Wang; Yexin Li; Mengmeng Wang; Wenming Tu; Quansen Wang; Hengli Li; Tingjun Wu; Xue Feng; Fangwei Zhong; Zilong Zheng"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

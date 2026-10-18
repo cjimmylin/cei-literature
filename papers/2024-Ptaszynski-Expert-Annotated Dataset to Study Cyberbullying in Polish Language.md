@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0340
 type: conferencePaper
 short_title: "Expert-Annotated Dataset to Study Cyberbullying in Polish Language"
-year: 2025
+year: 2024
 first_author: "[[Ptaszynski, Michal]]"
 last_author: "[[Wroczynski, Michal]]"
 authors: "Ptaszynski, Michal; Pieciukiewicz, Agata; Dybala, Pawel; Skrzek, Pawel; Soliwoda, Kamil; Fortuna, Marcin; Leliwa, Gniewosz; Wroczynski, Michal"
@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "We introduce the first dataset of harmful and offensive language collected from the Polish Internet. This dataset was meticulously curated to facilitate the exploration of harmful online phenomena such as cyberbullying and hate speech, which have exhibited a significant surge both within the Polish Internet as well as globally. The dataset was systematically collected and then annotated using two approaches."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

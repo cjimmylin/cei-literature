@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0234
 type: conferencePaper
 short_title: BeaverTails
-year: 2025
+year: 2023
 first_author: "[[Ji, Jiaming]]"
 last_author: "[[Yang, Yaodong]]"
 authors: "Ji, Jiaming; Liu, Mickel; Dai, Juntao; Pan, Xuehai; Zhang, Chi; Bian, Ce; Zhang, Chi; Sun, Ruiyang; Wang, Yizhou; Yang, Yaodong"
@@ -53,7 +53,7 @@ LLM_assessed: "Alpaca, GPT-4"
 DATA_URL: "https://sites.google.com/view/pku-beavertails"
 research_topic: Other
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5

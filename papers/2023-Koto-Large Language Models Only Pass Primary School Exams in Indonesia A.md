@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0096
 type: conferencePaper
 short_title: "Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU"
-year: 2025
+year: 2023
 first_author: "[[Fajri Koto]]"
 last_author: "[[Timothy Baldwin]]"
 authors: "Fajri Koto; Nurul Aisyah; Haonan Li; Timothy Baldwin"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/fajri91/IndoMMLU"
 tags: 
 abstract: "Although large language models (LLMs) are often pre-trained on large-scale multilingual texts, their reasoning abilities and real-world knowledge are mainly evaluated based on English datasets. Assessing LLM capabilities beyond English is increasingly vital but hindered due to the lack of suitable datasets. In this work, we introduce IndoMMLU, the first multi-task language understanding benchmark for Indonesian culture and languages, which consists of questions from primary school to university..."
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

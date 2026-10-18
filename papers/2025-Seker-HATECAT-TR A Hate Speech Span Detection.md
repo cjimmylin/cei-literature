@@ -52,7 +52,7 @@ abstract: "Hate speech on social media in Turkey remains a critical issue, frequ
 LLM_assessed: "BERT, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/boun-tabi/hatecat-tr"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

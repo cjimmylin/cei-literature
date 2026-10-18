@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0635
 type: conferencePaper
 short_title: "Deep Learning based UPoS Tagger for Assamese Religious Text"
-year: 2025
+year: 2024
 first_author: "[[Kuwali Talukdar]]"
 last_author: "[[Ratul Deka]]"
 authors: "Kuwali Talukdar; Shikhar Kumar Sarma; Farha Naznin; Ratul Deka"
@@ -52,7 +52,7 @@ abstract: "Religious texts are known to be with specific patterns of writing, an
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

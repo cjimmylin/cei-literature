@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0349
 type: conferencePaper
 short_title: "Automating News Comment Moderation with Limited Resources: Benchmarking in Croatian and Estonian"
-year: 2025
+year: 2020
 first_author: "[[Ravi Shekhar]]"
 last_author: "[[Matthew Purver]]"
 authors: "Ravi Shekhar; Marko Pranjic; Senja Pollak; Andraz Pelicon; Matthew Purver"
@@ -52,7 +52,7 @@ tags:
 abstract: "This article describes initial work into the automatic classiﬁcation of user-generated content in news media to support human moderators. We work with real-world data — comments posted by readers under online news articles — in two less-resourced European languages, Croatian and Estonian. We describe our dataset, and experiments into automatic classiﬁcation using a range of models. Performance obtained is reasonable but not as good as might be expected given similar work in offensive language..."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

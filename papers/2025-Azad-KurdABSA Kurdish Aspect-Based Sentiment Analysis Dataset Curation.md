@@ -51,7 +51,7 @@ DATA_URL: "https://data.mendeley.com/datasets/h5t7p4bcj2/1"
 tags: 
 abstract: "First publicly available aspect-based sentiment analysis dataset for Sorani Kurdish with 4,000+ quadruplet ABSA entries in restaurant review domain. Perso-Arabic script."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

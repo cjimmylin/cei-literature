@@ -52,7 +52,7 @@ abstract: "As large language models (LLMs) evolve from conversational assistants
 LLM_assessed: "GPT-4o, Claude, Gemini, Qwen"
 DATA_URL: "https://github.com/technion-cs-nlp/ManagerBench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

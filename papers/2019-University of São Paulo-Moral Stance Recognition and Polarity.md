@@ -6,7 +6,7 @@ Not AI:
 key: 2UT83INB
 type: conferencePaper
 short_title: "Moral Stance Recognition and Polarity"
-year: 2025
+year: 2019
 first_author: "[[Brazil University of São Paulo]]"
 last_author: "[[Ivandré Paraboni]]"
 authors: "Brazil University of São Paulo; Wesley Ramos Dos Santos; Ivandré Paraboni"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "ACL 2019"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

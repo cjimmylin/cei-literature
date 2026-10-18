@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/CohereLabsCommunity/multilingual_safety_surve"
 tags: 
 abstract: "This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. Through a systematic review of nearly 300 publications from 2020–2024 across major NLP conferences and workshops at ∗ACL, we identify a significant and growing language gap in LLM safety research, with even high-resource non-English languages receiving minimal attention."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

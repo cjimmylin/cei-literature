@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/Nos-PT"
 tags: 
 abstract: "Systematic exploration of pretraining strategies for generative LLMs in the Galician-Portuguese diasystem. Investigates combining vs separating varieties and quality vs scale tradeoffs."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

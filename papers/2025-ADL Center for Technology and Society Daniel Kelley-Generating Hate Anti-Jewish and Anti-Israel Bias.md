@@ -52,7 +52,7 @@ abstract: "Summary: Most comprehensive evaluation to date of anti-Jewish and ant
 LLM_assessed: LLaMA
 DATA_URL: "https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

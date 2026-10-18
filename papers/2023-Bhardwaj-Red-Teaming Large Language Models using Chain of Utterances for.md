@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0368
 type: preprint
 short_title: "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
-year: 2025
+year: 2023
 first_author: "[[Rishabh Bhardwaj]]"
 last_author: "[[Soujanya Poria]]"
 authors: "Rishabh Bhardwaj; Soujanya Poria"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/declare-lab/red-instruct"
 tags: 
 abstract: "Larger language models (LLMs) have taken the world by storm with their massive multi-tasking capabilities simply by optimizing over a next-word prediction objective. With the emergence of their properties and encoded knowledge, the risk of LLMs producing harmful outputs increases, making them unfit for scalable deployment for the public. In this work, we propose a new safety evaluation benchmark RED-EVAL that carries out red-teaming."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

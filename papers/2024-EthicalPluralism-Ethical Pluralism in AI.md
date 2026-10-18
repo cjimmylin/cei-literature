@@ -2,14 +2,14 @@
 key: EXSR0696
 type: preprint
 short_title: "Ethical Pluralism in AI: Challenging the Monolithic Values of Red Teams"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://www.researchgate.net/publication/384014537"
 abstract: "Critiques red team ethical reductionism where AI outputs reflect narrow values. Proposes user-driven ethical configurations and distributed oversight. Directly relevant to adversarial moral evaluation and pluralistic benchmarking."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

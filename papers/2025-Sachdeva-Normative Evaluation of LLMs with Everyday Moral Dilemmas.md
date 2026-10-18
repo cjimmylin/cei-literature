@@ -55,7 +55,7 @@ DATA_URL: "https://github.com/dlab-projects/normative_evaluation_llms_everyday_d
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
 CONFERENCE: "FAccT 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 20
 utilitarian_ethics: 0

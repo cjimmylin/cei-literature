@@ -6,7 +6,7 @@ Not AI:
 key: DALESSANDRO2024
 type: journalArticle
 short_title: "Deontology and Safe AI"
-year: 2025
+year: 2024
 first_author: [[D'Alessandro]]
 last_author: [[William]]
 authors: "D'Alessandro; William"
@@ -55,7 +55,7 @@ research_topic: "AI Safety & Alignment"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 100
 utilitarian_ethics: 50

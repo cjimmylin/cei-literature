@@ -52,7 +52,7 @@ abstract: "Large language models are increasingly used for Islamic guidance, but
 LLM_assessed: GPT-4o
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

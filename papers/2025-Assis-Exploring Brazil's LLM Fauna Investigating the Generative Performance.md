@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/MeLLL-UFF/brfauna-gen-eval"
 tags: 
 abstract: "Large Language Models (LLMs) are now embedded in widely used applications worldwide, yet their evaluation still centers on narrow, discriminative benchmarks. These pipelines often overlook key generative aspects such as discourse coherence, linguistic transformations, and adequacy, which are crucial for real-world applications. In addition, most large-scale evaluations remain heavily biased toward English, limiting our understanding of LLM performance in other languages."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

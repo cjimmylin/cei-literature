@@ -6,7 +6,7 @@ Not AI:
 key: MDSXEBVP
 type: journalArticle
 short_title: "Deontology and Utilitarianism in Real Life"
-year: 2025
+year: 2023
 first_author: "[[Anita Körner]]"
 last_author: "[[Deutsch, Roland]]"
 authors: "Körner, Anita; Deutsch, Roland"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/cg5tq"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100

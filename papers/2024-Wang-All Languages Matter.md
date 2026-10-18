@@ -6,7 +6,7 @@ Not AI:
 key: KF3PX7GE
 type: document
 short_title: "All Languages Matter"
-year: 2025
+year: 2024
 first_author: "[[Wenxuan Wang]]"
 last_author: "[[Lyu, Michael]]"
 authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-tse; Jiao, Wenxiang; Lyu, Michael"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

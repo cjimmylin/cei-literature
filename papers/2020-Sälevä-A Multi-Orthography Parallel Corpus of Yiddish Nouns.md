@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0040
 type: conferencePaper
 short_title: "A Multi-Orthography Parallel Corpus of Yiddish Nouns"
-year: 2025
+year: 2020
 first_author: "[[Jonne Sälevä]]"
 last_author: "[[Jonne Sälevä]]"
 authors: "Jonne Sälevä"
@@ -51,7 +51,7 @@ DATA_URL: "http://www.jonnesaleva.com/yi-lrec"
 tags: 
 abstract: "Yiddish is a low­resource language belonging to the Germanic language family and written using the Hebrew alphabet. As a language, Yiddish can be considered resource­poor as it lacks both public accessible corpora and a widely­used standard orthography, with various countries and organizations influencing the spellings speakers use. While existing corpora of Yiddish text do exist, they are often only written in a single, potentially non­standard orthography, with no parallel version with..."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

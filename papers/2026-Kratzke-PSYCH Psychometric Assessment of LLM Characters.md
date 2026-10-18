@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0264
 type: journalArticle
 short_title: "PSYCH: Psychometric Assessment of LLM Characters"
-year: 2025
+year: 2026
 first_author: "[[Nane Kratzke]]"
 last_author: "[[Monique Janneck]]"
 authors: "Nane Kratzke; Niklas Beuter; André Drews; Monique Janneck"
@@ -52,7 +52,7 @@ abstract: "Background: Existing evaluations of large language models (LLMs) larg
 LLM_assessed: "Claude, Claude-2, Claude-3, DeepSeek, GPT-4, GPT-4o, Gemini, Gemma, Grok, Llama-3, Mistral, Qwen, Qwen-2"
 DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

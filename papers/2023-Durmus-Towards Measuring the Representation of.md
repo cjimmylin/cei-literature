@@ -6,7 +6,7 @@ Not AI:
 key: TIFC8Z6D
 type: conferencePaper
 short_title: "Towards Measuring the Representation of"
-year: 2025
+year: 2023
 first_author: "[[Esin Durmus]]"
 last_author: "[[Deep Ganguli]]"
 authors: "Esin Durmus; Karina Nguyen; Thomas I. Liao; Nicholas Schiefer; Amanda Askell; Anton Bakhtin; Carol Chen; Zac Hatfield-Dodds; Danny Hernandez; Nicholas Joseph; Liane Lovitt; Sam McCandlish; Orowa Sikder; Alex Tamkin; Janel Thamkul; Jared Kaplan; Jack Clark; Deep Ganguli"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Claude
 DATA_URL: "https://huggingface.co/datasets/Anthropic/llm_global_opinions"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

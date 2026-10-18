@@ -6,7 +6,7 @@ Not AI:
 key: YGTGWQSZ
 type: preprint
 short_title: "Can Machines Learn Morality?"
-year: 2025
+year: 2022
 first_author: "[[Liwei Jiang]]"
 last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Jena D. Hwang; Chandra Bhagavatula; Ronan Le Bras; Jenny Liang; Jesse Dodge; Keisuke Sakaguchi; Maxwell Forbes; Jon Borchardt; Saadia Gabriel; Yulia Tsvetkov; Oren Etzioni; Maarten Sap; Regina Rini; Yejin Choi"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, T5"
 DATA_URL: "https://delphi.allenai.org"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

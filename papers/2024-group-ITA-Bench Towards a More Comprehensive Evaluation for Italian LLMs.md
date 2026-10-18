@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0506
 type: conferencePaper
 short_title: "ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs"
-year: 2025
+year: 2024
 first_author: "[[SapienzaNLP group]]"
 last_author: "[[SapienzaNLP group]]"
 authors: "SapienzaNLP group"
@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/SapienzaNLP/ita-bench"
 tags: 
 abstract: "A benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

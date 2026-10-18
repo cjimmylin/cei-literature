@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Comprehensive survey of hate speech detection tasks, available datasets, and computational approaches for South Asian languages. Covers Tamil, Malayalam, Kannada and other Dravidian languages. Published in ACM TALLIP. Meta-survey covering hate speech datasets for Dravidian languages. Key reference for understanding the landscape of values-relevant datasets in these languages."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

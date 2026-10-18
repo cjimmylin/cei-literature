@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/hamidds/ISN"
 pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

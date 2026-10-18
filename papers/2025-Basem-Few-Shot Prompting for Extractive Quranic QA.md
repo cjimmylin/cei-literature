@@ -52,7 +52,7 @@ abstract: "This paper presents two effective approaches for Extractive Question 
 LLM_assessed: "BERT, DeepSeek, Gemini"
 DATA_URL: "https://gitlab.com/bigirqu/quran-qa-2023/-/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

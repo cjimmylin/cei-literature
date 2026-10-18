@@ -9,7 +9,7 @@ url: "https://researchpapers.usfq.edu.ec/index.php/usfqlawwp/preprint/view/182"
 abstract: "AI and fundamental rights in Ecuador including constitutional buen vivir framework"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

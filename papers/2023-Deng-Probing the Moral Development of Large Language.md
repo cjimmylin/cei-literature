@@ -6,7 +6,7 @@ Not AI:
 key: 8WMUQJPS
 type: conferencePaper
 short_title: "Probing the Moral Development of Large Language"
-year: 2025
+year: 2023
 first_author: "[[Kumar Tanmay]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Kumar Tanmay; Aditi Khandelwal; Utkarsh Agarwal; Monojit Choudhury"
@@ -54,7 +54,7 @@ LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama-2, PaLM"
 DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 95
 deontological_ethics: 15
 utilitarian_ethics: 10

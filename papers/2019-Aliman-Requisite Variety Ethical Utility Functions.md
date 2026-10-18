@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Requisite Variety Ethical Utility Functions"
-year: 2025
+year: 2019
 first_author: "[[Nadisha-Marie Aliman]]"
 last_author: "[[Leon Kester]]"
 authors: "Nadisha-Marie Aliman; Leon Kester"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 70

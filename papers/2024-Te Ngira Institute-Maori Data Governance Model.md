@@ -2,14 +2,14 @@
 key: CGSR0139
 type: document
 short_title: "Maori Data Governance Model"
-year: 2025
+year: 2024
 first_author: "[[Te Ngira Institute, University of Waikato]]"
 authors: "Te Ngira Institute, University of Waikato"
 url: "https://www.waikato.ac.nz/assets/Uploads/Research/Research-institutes-centres-and-groups/Institutes/Te-Ngira-Institute-for-Population-Research/Maori_Data_Governance_Model.pdf"
 abstract: "Data governance model grounded in Maori values for culturally appropriate management of indigenous data"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

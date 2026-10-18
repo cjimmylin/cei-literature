@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0333
 type: preprint
 short_title: "Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation"
-year: 2025
+year: 2026
 first_author: "[[Krzysztof Wrobel]]"
 last_author: "[[Maciej Szymanski]]"
 authors: "Krzysztof Wrobel; Jan Maria Kowalski; Jerzy Surma; Igor Ciuciura; Maciej Szymanski"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/speakleash/Bielik-Guard-0.1B-v1.0"
 tags: 
 abstract: "As Large Language Models (LLMs) become increasingly deployed in Polish language applications, the need for efficient and accurate content safety classifiers has become paramount. We present Bielik Guard, a family of compact Polish language safety classifiers comprising two model variants: a 0.1B parameter model based on MMLW-RoBERTa-base and a 0.5B parameter model based on PKOBP/polish-roberta-8k. Fine-tuned on a community-annotated dataset of 6,885 Polish texts, these models classify content..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

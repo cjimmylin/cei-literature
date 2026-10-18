@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0474
 type: preprint
 short_title: "Development and Evaluation of Myanmar GPT"
-year: 2025
+year: 2024
 first_author: "[[Min Si Thu]]"
 last_author: "[[Pyae Sone Phyo]]"
 authors: "Min Si Thu; Pyae Sone Phyo"
@@ -59,7 +59,7 @@ LLM_assessed: MyanmarGPT
 DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -56,7 +56,7 @@ LLM_assessed: "GPT-3.5, Mistral"
 DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales"
 CONFERENCE: "NAACL 2025"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

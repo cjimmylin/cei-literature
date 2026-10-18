@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-4o, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: NA
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 0

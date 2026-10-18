@@ -6,7 +6,7 @@ Not AI:
 key: DMA7ZQS4
 type: conferencePaper
 short_title: "Large Language Models Reflect the Ideology of"
-year: 2025
+year: 2024
 first_author: "[[Maarten Buyl]]"
 last_author: "[[Tijl De Bie]]"
 authors: "Maarten Buyl; Alexander Rogiers; Sander Noels; Guillaume Bied; Iris Dominguez-Catena; Edith Heiter; Iman Johary; Alexandru-Cristian Mara; Raphaël Romero; Jefrey Lijffijt; Tijl De Bie"
@@ -54,7 +54,7 @@ LLM_assessed: "Baichuan-2, Claude-3.5-Sonnet, DeepSeek-V2.5, ERNIE, GPT-4o, Gemi
 DATA_URL: "https://github.com/aida-ugent/llm-ideology-analysis"
 ethics_perspective: "General Ethics"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

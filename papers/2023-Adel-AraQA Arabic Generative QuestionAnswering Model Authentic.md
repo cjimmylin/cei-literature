@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0642
 type: conferencePaper
 short_title: "AraQA: An Arabic Generative Question-Answering Model for Authentic Religious Text"
-year: 2025
+year: 2023
 first_author: "[[Yousef Adel]]"
 last_author: "[[Mahmoud Mohamed]]"
 authors: "Yousef Adel; Mostafa Dorrah; Ahmed Ashraf; Abdallah Elsaadany; Mahmoud Mohamed"
@@ -52,7 +52,7 @@ abstract: "Recently, the internet has become a vast repository of religious text
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

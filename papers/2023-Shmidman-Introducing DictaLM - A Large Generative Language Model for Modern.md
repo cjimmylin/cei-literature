@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0024
 type: preprint
 short_title: "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew"
-year: 2025
+year: 2023
 first_author: "[[Shaltiel Shmidman]]"
 last_author: "[[Moshe Koppel]]"
 authors: "Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/dicta-il/dictalm-7b"
 tags: 
 abstract: "We present DictaLM, a large-scale language model tailored for Modern Hebrew. Boasting 7B parameters, this model is predominantly trained on Hebrew-centric data. As a commitment to promoting research and development in the Hebrew language, we release both the foundation model and the instruct-tuned model under a Creative Commons license1. Concurrently, we introduce DictaLM-Rab, another foundation model geared towards Rabbinic/Historical Hebrew."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

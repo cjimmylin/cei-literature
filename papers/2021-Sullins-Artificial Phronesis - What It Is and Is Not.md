@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: bookSection
 short_title: "Artificial Phronesis - What It Is and Is Not"
-year: 2025
+year: 2021
 first_author: "[[John P. Sullins]]"
 last_author: "[[John P. Sullins]]"
 authors: "John P. Sullins"
@@ -53,7 +53,7 @@ research_topic: Other
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 80
 deontological_ethics: 0
 utilitarian_ethics: 0

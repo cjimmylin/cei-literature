@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0451
 type: conferencePaper
 short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain"
-year: 2025
+year: 2022
 first_author: "[[Labrak, Yanis]]"
 last_author: "[[Gourraud, Pierre-Antoine]]"
 authors: "Labrak, Yanis; Bazoge, Adrien; Dufour, Richard; Rouvier, Mickael; Morin, Emmanuel; Daille, Béatrice; Gourraud, Pierre-Antoine"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/qanastek/frenchmedmcqa"
 tags: 
 abstract: "This paper introduces FrenchMedMCQA, the ﬁrst publicly available Multiple-Choice Question Answering (MCQA) dataset in French for medical domain. It is composed of 3,105 questions taken from real exams of the French medical specialization diploma in pharmacy, mixing single and multiple answers. Each instance of the dataset contains an identiﬁer, a question, ﬁve possible answers and their manual correction(s)."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

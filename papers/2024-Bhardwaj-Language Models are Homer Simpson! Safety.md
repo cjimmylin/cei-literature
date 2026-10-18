@@ -6,7 +6,7 @@ Not AI:
 key: GBMWIP8Q
 type: document
 short_title: "Language Models are Homer Simpson! Safety"
-year: 2025
+year: 2024
 first_author: "[[Rishabh Bhardwaj]]"
 last_author: "[[Poria, Soujanya]]"
 authors: "Bhardwaj, Rishabh; Do, Duc Anh; Poria, Soujanya"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/declare-lab/resta"
 pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.pdf]]"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

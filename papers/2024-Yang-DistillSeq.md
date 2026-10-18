@@ -6,7 +6,7 @@ Not AI:
 key: XHC6ZWYU
 type: conferencePaper
 short_title: DistillSeq
-year: 2025
+year: 2024
 first_author: "[[Mingke Yang]]"
 last_author: "[[Ling Shi]]"
 authors: "Mingke Yang; Yuqi Chen; Yi Liu; Ling Shi"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Vicuna, LLaMA"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

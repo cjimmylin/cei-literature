@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0635
 type: preprint
 short_title: "1 Benchmarking GPT-4 against Human Translators: A"
-year: 2025
+year: 2024
 first_author: "[[Rui Sun]]"
 last_author: "[[Rui Sun]]"
 authors: "Rui Sun"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/ElliottYan/GPT_versus_mt_experts"
 tags: 
 abstract: "This study presents a comprehensive evaluation of GPT-4’s translation capabilities compared to human translators of varying expertise levels. Through systematic human evaluation using the MQM schema, we assess translations across three language pairs (Chinese←→English, Russian←→English, and Chinese←→Hindi) and three domains (News, Technology, and Biomedical). Our findings reveal that GPT-4 achieves performance comparable to junior-level translators in terms of total errors, while still lagging..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

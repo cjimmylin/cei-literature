@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0568
 type: preprint
 short_title: "SERENGETI Massively Multilingual Language Models for"
-year: 2025
+year: 2023
 first_author: "[[Ife Adebara]]"
 last_author: "[[Alcides Alcoba Inciarte]]"
 authors: "Ife Adebara; AbdelRahim Elmadany; Muhammad Abdul-Mageed; Alcides Alcoba Inciarte"
@@ -53,7 +53,7 @@ LLM_assessed: BERT
 DATA_URL: "https://github.com/UBC-NLP/serengeti"
 research_topic: "Machine Translation"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

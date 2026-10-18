@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_FARINA2024
 type: journalArticle
 short_title: "AI and Society Virtue Ethics Approach"
-year: 2025
+year: 2024
 first_author: "[[Mirko Farina]]"
 last_author: "[[Lavazza, Andrea]]"
 authors: "Farina, Mirko; Zhdanov, Petr; Karimov, Artur; Lavazza, Andrea"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50

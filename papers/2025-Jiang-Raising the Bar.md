@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, Mistral"
 DATA_URL: "https://github.com/Salomeeeee/GETA"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

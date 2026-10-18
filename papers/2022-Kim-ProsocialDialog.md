@@ -6,7 +6,7 @@ Not AI:
 key: QMQDCW4X
 type: conferencePaper
 short_title: ProsocialDialog
-year: 2025
+year: 2022
 first_author: "[[Hyunwoo Kim]]"
 last_author: "[[Maarten Sap]]"
 authors: "Hyunwoo Kim; Youngjae Yu; Liwei Jiang; Ximing Lu; Daniel Khashabi; Gunhee Kim; Yejin Choi; Maarten Sap"
@@ -55,7 +55,7 @@ LLM_assessed: "GPT-2, GPT-3, T5"
 DATA_URL: "https://hyunw.kim/prosocial-dialog"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

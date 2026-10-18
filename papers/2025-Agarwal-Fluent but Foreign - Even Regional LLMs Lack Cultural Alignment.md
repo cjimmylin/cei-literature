@@ -51,7 +51,7 @@ abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western 
 LLM_assessed: "Mistral, Llama-2, Llama-3, Gemma, Aya, GPT-4o"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0672
 type: preprint
 short_title: "Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects"
-year: 2025
+year: 2026
 first_author: "[[Chang, Kalvin]]"
 last_author: "[[Yu, Dong]]"
 authors: "Chang, Kalvin; Shao, Yiwen; Li, Jiahong; Yu, Dong"
@@ -53,7 +53,7 @@ tags:
 abstract: "Despite having hundreds of millions of speakers, Chinese dialects lag behind Mandarin in speech and language technologies. Most varieties are primarily spoken, making dialectto-Mandarin speech-LLMs (large language models) more practical than dialect LLMs. Building dialect-to-Mandarin speechLLMs requires speech representations with cross-dialect semantic alignment between Chinese dialects and Mandarin."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

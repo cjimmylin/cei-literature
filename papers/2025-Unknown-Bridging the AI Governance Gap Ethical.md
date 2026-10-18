@@ -9,7 +9,7 @@ url: "https://papers.academic-conferences.org/index.php/icair/article/view/4129"
 abstract: "AI governance gap analysis for generative AI in Nigeria"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

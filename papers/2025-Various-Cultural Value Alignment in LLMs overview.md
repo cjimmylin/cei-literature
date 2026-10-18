@@ -9,7 +9,7 @@ url: "https://www.emergentmind.com/topics/cultural-value-alignment-in-llms"
 abstract: "Overview of cultural value alignment research in LLMs"
 DATE_ADDED: 20260403
 cultural_gap_category: "Cross-Cultural Comparative"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

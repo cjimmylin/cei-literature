@@ -52,7 +52,7 @@ abstract: "Large multimodal models (LMMs) have recently gained attention due to 
 LLM_assessed: "ChatGPT, GPT-4o, LLaMA, Llama-3, Mistral, Qwen"
 DATA_URL: "https://mbzuai-oryx.github.io/ViMUL/"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

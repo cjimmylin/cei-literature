@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0547
 type: conference_paper
 short_title: "ACLUE Can Large Language Model Comprehend"
-year: 2025
+year: 2023
 first_author: "[[Yixuan Zhang]]"
 last_author: "[[Haonan Li]]"
 authors: "Yixuan Zhang; Haonan Li"
@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) have showcased remarkable capabilities i
 LLM_assessed: "ChatGPT, ChatGLM, BLOOM, Falcon, LLaMA, Baichuan"
 DATA_URL: "https://github.com/isen-zhang/ACLUE ; https://huggingface.co/datasets/tyouisen/aclue"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

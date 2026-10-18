@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0193
 type: conferencePaper
 short_title: "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
-year: 2025
+year: 2024
 first_author: "[[Lin Xu]]"
 last_author: "[[Jiashi Feng]]"
 authors: "Lin Xu; Zhiyuan Hu; Daquan Zhou; Hongyu Ren; Zhen Dong; Kurt Keutzer; See Kiong Ng; Jiashi Feng"
@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) have significantly advanced natural lang
 LLM_assessed: "Claude-2, Cohere, GPT-3.5, GPT-4, Llama-2, PaLM-2, o1"
 DATA_URL: "https://github.com/cathyxl/MAgIC"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

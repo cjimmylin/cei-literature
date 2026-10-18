@@ -6,7 +6,7 @@ Not AI:
 key: CULT0064
 type: journalArticle
 short_title: "Large language model (LLM) comparison between GPT-3 and PaLM-2 to produce Indonesian cultural content"
-year: 2025
+year: 2024
 first_author: "[[Yiming Lyu]]"
 last_author: "[[Jie Cai]]"
 authors: "Yiming Lyu; Hao Zhang; Shuping Niu; Jie Cai"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Compares GPT-3 and PaLM-2 on generating Indonesian cultural content about traditional dances from Palembang. PaLM-2 scored 27 points for validity vs GPT-3's 8 points. GPT-3 excelled in fine-tuning speed (50 min vs 2h10). Expert judgment assessment of cultural content correctness."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

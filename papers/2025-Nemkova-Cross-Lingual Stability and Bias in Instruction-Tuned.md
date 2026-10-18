@@ -52,7 +52,7 @@ abstract: "Humanitarian organizations face a critical choice: invest in costly c
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4, LLaMA, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

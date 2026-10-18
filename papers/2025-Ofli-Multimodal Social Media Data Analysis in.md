@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: "Computer Vision & Multimodal"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

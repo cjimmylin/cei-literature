@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0540
 type: preprint
 short_title: "Typhoon 2 A Family of Open"
-year: 2025
+year: 2024
 first_author: "[[Kunat Pipatanakul]]"
 last_author: "[[Kasima Tharnpipitchai]]"
 authors: "Kunat Pipatanakul; Potsawee Manakul; Natapong Nitarach; Warit Sirichotedumrong; Surapon Nonesung; Teetouch Jaknamon; Parinthapat Pengpun; Pittawat Taveekitworachai; Adisai Na-Thalang; Sittipong Sripaisarnmongkol; Krisanapong Jirayoot; Kasima Tharnpipitchai"
@@ -52,7 +52,7 @@ abstract: "This paper introduces Typhoon 2, a series of text and multimodal larg
 LLM_assessed: "GPT-4o, Llama-3, Mistral, Qwen, Qwen-2"
 DATA_URL: "https://huggingface.co/scb10x/typhoon2-safety-preview"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

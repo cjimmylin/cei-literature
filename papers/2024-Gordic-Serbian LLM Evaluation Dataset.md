@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0345
 type: conferencePaper
 short_title: "Serbian LLM Evaluation Dataset"
-year: 2025
+year: 2024
 first_author: "[[Aleksa Gordic]]"
 last_author: "[[Aleksa Gordic]]"
 authors: "Aleksa Gordic"
@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/gordicaleksa/serbian-llm-eval"
 tags: 
 abstract: "First Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, TriviaQA, Winogrande tasks. Machine-translated and GPT-4 refined. Integrated with Lighteval framework."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

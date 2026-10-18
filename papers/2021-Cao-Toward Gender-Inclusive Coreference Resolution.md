@@ -6,7 +6,7 @@ Not AI:
 key: AHSMVJAF
 type: journalArticle
 short_title: "Toward Gender-Inclusive Coreference Resolution"
-year: 2025
+year: 2021
 first_author: "[[Yang Trista Cao]]"
 last_author: "[[Hal Daumé III]]"
 authors: "Yang Trista Cao; Hal Daumé III"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/TristaCao/into_inclusivecoref"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

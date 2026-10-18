@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/mcrl/Ko-MuSR"
 tags: 
 abstract: "We present Ko-MuSR, the first benchmark to comprehensively evaluate multistep soft reasoning in long Korean narratives while minimizing data contamination. Built following MuSR (Sprague et al., 2024), Ko-MuSR features fully Korean narratives, reasoning chains, and multiple-choice questions verified by human annotators for logical consistency and answerability. Evaluations of four large language models—two multilingual and two Koreanspecialized—show that multilingual models outperform..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

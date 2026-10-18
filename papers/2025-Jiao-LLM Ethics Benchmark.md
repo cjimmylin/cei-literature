@@ -56,7 +56,7 @@ DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 5
 utilitarian_ethics: 15

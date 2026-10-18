@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0322
 type: conferencePaper
 short_title: "Hate Speech Classification in Bulgarian"
-year: 2025
+year: 2022
 first_author: "[[Bulgarian NLP researchers]]"
 last_author: "[[Bulgarian NLP researchers]]"
 authors: "Bulgarian NLP researchers"
@@ -51,7 +51,7 @@ DATA_URL: "http://www.pfeffer.at/data/bulgarian/"
 tags: 
 abstract: "In recent years, we have seen a surge in the propagation of online hate speech on social media platforms. According to a multitude of sources such as the European Council, hate speech can lead to acts of violence and conflict on a broader scale. That has led to increased awareness by governments, companies, and the scientific community, and although the field is relatively new, there have been considerable advancements in the field as a result of the collective effort."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

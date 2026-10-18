@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0482
 type: conference_paper
 short_title: "Fit for Our Purpose Not Yours"
-year: 2025
+year: 2024
 first_author: "[[Suzanne Duncan]]"
 last_author: "[[Peter-Lucas Jones]]"
 authors: "Suzanne Duncan; Gianna Leoni; Lee Steven; Keoni Mahelona; Peter-Lucas Jones"
@@ -52,7 +52,7 @@ abstract: "Influential and popular benchmarks in AI are largely irrelevant to de
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0481
 type: preprint
 short_title: "Findings of the Shared Task on"
-year: 2025
+year: 2024
 first_author: "[[B, Premjith]]"
 last_author: "[[Janakiram, Chandu]]"
 authors: "B, Premjith; Chakravarthi, Bharathi Raja; Kumaresan, Prasanna Kumar; Rajiakodi, Saranya; Karnati, Sai Prashanth; Mangamuru, Sai Rishith Reddy; Janakiram, Chandu"
@@ -52,7 +52,7 @@ abstract: "This paper examines the submissions of various participating teams to
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

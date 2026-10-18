@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, Llama-3, Phi-3"
 DATA_URL: "https://huggingface.co/datasets/shivaniku/UniMoral"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 5
 utilitarian_ethics: 10

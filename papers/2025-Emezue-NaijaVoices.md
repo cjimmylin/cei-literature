@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Whisper
 DATA_URL: "https://naijavoices.com/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -9,7 +9,7 @@ url: "https://unesdoc.unesco.org/ark:/48223/pf0000394821"
 abstract: "Toward ethical and effective AI regulation in Ecuador aligned with buen vivir and rights of nature"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -50,7 +50,7 @@ abstract: "When different groups’ values differ, one approach to model alignme
 LLM_assessed: "GPT-4o, Llama-3"
 DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

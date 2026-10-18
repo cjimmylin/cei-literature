@@ -6,7 +6,7 @@ Not AI:
 key: D8RT6724
 type: document
 short_title: GandalfIgnoreInstructions
-year: 2025
+year: 2023
 first_author: "[[Lakera AI]]"
 last_author: "[[Lakera AI]]"
 authors: "Lakera AI"
@@ -50,7 +50,7 @@ pdf_extract:
 no_pdf_applicable: true
 local_pdf: N/A
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: KJ239R7X
 type: document
 short_title: BeHonest
-year: 2025
+year: 2024
 first_author: "[[Steffi Chern]]"
 last_author: "[[Pengfei Liu]]"
 authors: "Steffi Chern; Zhulin Hu; Yuqing Yang; Ethan Chern; Yuan Guo; Jiahe Jin; Binjie Wang; Pengfei Liu"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4o, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/GAIR-NLP/BeHonest"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -8,7 +8,7 @@ authors: "Amanda Askell; Joe Carlsmith; Chris Olah; Jared Kaplan; Holden Karnofs
 url: "https://www.anthropic.com/constitution"
 external_pdf: "https://www-cdn.anthropic.com/cffd979fd050fbc0d8874b8c58b24cc10554e208/claudes-constitution_webPDF_26-01.26a.pdf"
 abstract: "Claude's Constitution (published January 21, 2026) is Anthropic's reason-based value specification for Claude, organized as a priority hierarchy: Broadly safe > Broadly ethical > Compliant with Anthropic's guidelines > Genuinely helpful. Unlike an enumerated rule list, it is reason-based prose that articulates Claude's core values, hard constraints, and instructable behaviors, aiming to teach ethical reasoning rather than only correct answers. This vault record points at a versioned, SHA-256-stamped local registry retrieval (January 2026, revision 26a), extracted into a 49-clause registry (4 core-value tiers, 7 hard constraints, 13 instructable behaviors, plus principle-clauses with verbatim topic excerpts and page anchors) for RP-01 SPECGRADE spec-adherence auditing. The source is released by Anthropic under Creative Commons CC0 1.0 (public domain). Evidence class VERIFIED (inherited from registry retrieval)."
-ethics_overall: Yes
+ethics_overall: 80
 virtue_ethics: 1
 deontological_ethics: 1
 utilitarian_ethics: 0

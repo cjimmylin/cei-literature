@@ -8,7 +8,7 @@ authors: "Samuel R. Bowman; Megha Srivastava; Jon Kutasov; Rowan Wang; Trenton B
 url: "https://alignment.anthropic.com/2025/openai-findings/"
 external_pdf: "https://alignment.anthropic.com/2025/openai-findings/"
 abstract: "Anthropic Alignment Science Blog report (August 27, 2025) on a pilot cross-lab exercise in which Anthropic and OpenAI conducted simultaneous alignment assessments of each other's public models earlier in 2025. As frontier systems are increasingly deployed as agents with real-world affordances, alignment evaluations become critical; the report presents Anthropic's findings from running its alignment evaluations on OpenAI models (and the reciprocal arrangement), covering behaviors such as sycophancy, instruction-hierarchy adherence, and misuse-relevant propensities, and reflects on the methodology and value of cross-lab evaluation as an external-validity mechanism."
-ethics_overall: Yes
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 1
 utilitarian_ethics: 0

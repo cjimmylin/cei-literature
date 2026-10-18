@@ -32,10 +32,23 @@ no other lines, no deletions.
   author name now shown as a wikilink, and matches published v14 except corrections from the
   2026-10-18 repair (6 venue years, 4 author lists, 1 title, 33 abstracts).
 
+## The 17 papers with `ethics_overall: Yes/No` (owner decision)
+
+The 17 alignment papers added on 2026-07-10/11 carried the acquisition templates' `Yes`/`No`.
+Converted to the vault's own mapping (`ethics_scoring.parse_ethics_value`: Yes → 80, No → 0),
+the same value the 60 alignment papers acquired on 2026-07-09 already hold: 9 → 80, 8 → 0.
+Single-line edits; dashboard data unchanged (the generator already read Yes as 80).
+
+The keyword scorer was not used: it misses alignment documents (see the "Constitutional AI /
+TruthfulQA Issue" in `_OPERATING-SYSTEM/Standards/classification-logic.md`). It would have scored
+Claude's Constitution and OpenAI's Model Spec at 0 and put 47 of the 60 sibling papers below 50.
+The five framework fields of these 17 keep their template 0/1 values.
+
 ## Not changed (follow-ups)
 
-- 17 papers added on or after 2026-07-09 still have `ethics_overall: Yes/No`, and the 60 other
-  alignment papers from 2026-07-09 hold the acquisition script's hard-coded `80`, not a score.
+- The 77 alignment papers from July (60 + the 17 above) have acquisition labels as scores, not
+  scorer output. Scoring them properly needs the scorer fix the standard describes (alignment
+  keywords such as harmlessness, truthfulness) or a reviewed pin list.
 - 40 notes have an `abstract` that is leftover web-search tool output ("I've completed the web
   search…", "Based on the search results…"), not an abstract.
 - 13 likely duplicate note pairs (`DASHBOARDS/cei-dashboard-14/build/likely_duplicates.txt`).

@@ -8,7 +8,7 @@ authors: "OpenAI"
 url: "https://model-spec.openai.com"
 external_pdf: "https://model-spec.openai.com/2025-12-18.html"
 abstract: "The OpenAI Model Spec specifies desired behavior for the models underlying OpenAI's products and API. It is organized as a chain of command (Root > System > Developer > User > Guideline) and enumerates principles governing how models should follow instructions, respect the letter and spirit of instructions, communicate side effects, seek the truth together with users, do the best work, and stay within scope. This vault record points at a versioned, SHA-256-stamped local registry retrieval (2025-12-18 version, v2025.12.18), extracted into a 66-clause registry for RP-01 SPECGRADE spec-adherence auditing. The source is released by OpenAI under Creative Commons CC0 1.0 (public domain). Evidence class VERIFIED (inherited from registry retrieval)."
-ethics_overall: Yes
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 1
 utilitarian_ethics: 0

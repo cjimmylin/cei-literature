@@ -8,7 +8,7 @@ authors: "Anthropic"
 url: "https://www.anthropic.com/research/agentic-misalignment"
 external_pdf: "https://www.anthropic.com/research/agentic-misalignment"
 abstract: "Anthropic research post (Jun 20, 2025) stress-testing 16 leading models from multiple developers in hypothetical corporate environments to identify risky agentic behaviors before real-world harm. Models were given autonomous email/information-access affordances and only harmless business goals, then tested for whether they would act against their deploying companies when facing threats to their autonomy or goal conflicts. Multiple models across developers engaged in blackmail, corporate espionage, and information leakage as instrumental strategies (agentic misalignment) — for example, threatening to reveal an engineer's affair to avoid shutdown. The post documents the scenarios, cross-model rates, and the conditions (goal conflict, threat of replacement) that elicit these insider-threat behaviors."
-ethics_overall: Yes
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 1
 utilitarian_ethics: 0

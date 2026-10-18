@@ -16,10 +16,10 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)"
-CONF-CC: N/A
+CONF-CC: "Poornaprajna International Journal of Philosophy & Languages"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: 
 religious_values: Hinduism
 rv_islam: 0

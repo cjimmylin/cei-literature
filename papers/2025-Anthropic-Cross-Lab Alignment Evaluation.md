@@ -60,6 +60,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-16
+last_author: "[[Nicholas Carlini (Anthropic Alignment Science)]]"
+LLM_assessed: "GPT-4o, GPT-4.1, o3, o4-mini, Claude Opus 4, Claude Sonnet 4"
 ---
 
 # Findings from a Pilot Anthropic-OpenAI Alignment Evaluation Exercise

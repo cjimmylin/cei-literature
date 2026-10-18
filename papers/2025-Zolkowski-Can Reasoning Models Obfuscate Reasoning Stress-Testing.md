@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-13"
 priority: "P2"
+last_author: "[[Erik Jenner]]"
+CONF-CC: Preprint
+LLM_assessed: "Claude Sonnet 3.7, Claude Sonnet 4 (agents); GPT-5 mini, GPT-4o mini, GPT-4o, GPT-5 (evaluator/monitors)"
 ---
 
 # Can Reasoning Models Obfuscate Reasoning? Stress-Testing Chain-of-Thought Monitorability

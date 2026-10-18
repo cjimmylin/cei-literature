@@ -59,6 +59,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-13
+last_author: "[[Vlad Mikulik]]"
+CONF-CC: Preprint
 ---
 
 # Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety

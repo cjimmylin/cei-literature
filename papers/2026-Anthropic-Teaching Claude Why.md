@@ -60,6 +60,7 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-22
+last_author: "[[Anthropic]]"
 ---
 
 # Teaching Claude Why: reason-based over rule-based alignment

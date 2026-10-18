@@ -59,6 +59,10 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-08"
+last_author: "[[Bo Hui]]"
+CONF-CC: "ICLR 2025 Workshop"
+LLM_assessed: "GPT-1, GPT-2 small, GPT-2 medium"
+languages_list: English
 ---
 
 # Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning

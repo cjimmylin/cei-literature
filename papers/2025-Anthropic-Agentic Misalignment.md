@@ -60,6 +60,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-16
+last_author: "[[Anthropic]]"
+LLM_assessed: "16 models from Anthropic, OpenAI, Google, Meta, xAI and others (incl. Claude Opus 4, Claude Sonnet 3.6)"
 ---
 
 # Agentic Misalignment: How LLMs could be insider threats

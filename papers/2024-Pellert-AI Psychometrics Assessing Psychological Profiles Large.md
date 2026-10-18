@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Perspectives on Psychological Science (Sage)"
-CONF-CC: N/A
+CONF-CC: "Perspectives on Psychological Science"
 DATE_ADDED: 20260404
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

@@ -58,6 +58,8 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
+last_author: "[[Multi-faith coalition (Church of Jesus Christ.)]]"
+cultures_nationalities_list: Multicultural/Cross-cultural
 ---
 
 # Faith, Ethics, and Human Dignity in an Age of Artificial Intelligence: A Call to Action

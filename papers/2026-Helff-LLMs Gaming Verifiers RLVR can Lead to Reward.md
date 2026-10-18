@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-06"
+last_author: "[[Felix Friedrich]]"
+CONF-CC: "ICLR 2026 Workshop"
+LLM_assessed: "GPT-5, GPT-5-mini (low/medium/high), GPT-5-nano, Olmo3, GPT-4.5-preview, GPT-4o, GPT-4-turbo, Ministral"
 ---
 
 # LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking

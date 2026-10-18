@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-02"
+last_author: "[[Yanfang Ye]]"
+CONF-CC: Preprint
+LLM_assessed: "DeepSeek V3.2, Gemini 2.5 Flash, Llama 3.3 70B, Gemma 3 12B"
 ---
 
 # AI Alignment Breaks at the Edge

@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-10"
+last_author: "[[Itai Shapira]]"
+CONF-CC: Preprint
 ---
 
 # Pairwise Calibrated Rewards for Pluralistic Alignment

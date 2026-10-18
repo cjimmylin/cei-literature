@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-12"
+last_author: "[[Chandrima Ganguly]]"
+CONF-CC: Preprint
 ---
 
 # Bringing AI Participation Down to Scale: A Comment on Open AIs Democratic Inputs to AI Project

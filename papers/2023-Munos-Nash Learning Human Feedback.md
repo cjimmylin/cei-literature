@@ -59,6 +59,8 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-10"
+last_author: "[[Bilal Piot]]"
+CONF-CC: "ICML 2024"
 ---
 
 # Nash Learning from Human Feedback

@@ -59,6 +59,10 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-23
+last_author: "[[Christopher M. Ackerman]]"
+CONF-CC: Preprint
+LLM_assessed: "DeepSeek V3.2, GPT-5.4 mini, GLM-5.1, Kimi K2.5, MiMo V2.5 Pro, Qwen3.5 9B, Qwen3.6 Plus"
+languages_list: "English, Chinese"
 ---
 
 # When Preferences Fail to Become Incentives: A Utility-Behavior Gap in Large Language Models

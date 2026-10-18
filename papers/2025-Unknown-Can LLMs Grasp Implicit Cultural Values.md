@@ -18,8 +18,8 @@ local_pdf: N/A
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: 
 religious_values: Multi-religion
 rv_islam: 50

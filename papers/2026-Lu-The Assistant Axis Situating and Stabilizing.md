@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-20"
+last_author: "[[Jack Lindsey]]"
+CONF-CC: Preprint
 ---
 
 # The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models

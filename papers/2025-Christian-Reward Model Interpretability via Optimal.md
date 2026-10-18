@@ -59,6 +59,10 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-04"
+last_author: "[[Tsvetomira Dumbalska]]"
+CONF-CC: "FAccT 2025"
+LLM_assessed: "QRM-Gemma-2-27B, Skywork-Reward-Gemma-2-27B, Skywork-Reward-Gemma-2-27B-v0.2, Skywork-Reward-Llama-3.1-8B-v0.2, QRM-Llama3.1-8B, URM-LLaMa-3.1-8B, GRM-Llama3-8B-rewardmodel-ft, GRM-Llama3.2-3B-rewardmodel-ft, ArmoRM-Llama3-8B-v0.1, GRM-Gemma2-2B-rewardmodel-ft"
+languages_list: English
 ---
 
 # Reward Model Interpretability via Optimal and Pessimal Tokens

@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-10"
+last_author: "[[William S. Zwicker]]"
+CONF-CC: "ICML 2024"
 ---
 
 # Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback

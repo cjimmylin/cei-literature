@@ -16,11 +16,11 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Journal of Translation and Language Studies"
-CONF-CC: N/A
+CONF-CC: "Journal of Translation and Language Studies"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: "Arabic, English"
 religious_values: Judaism
 rv_islam: 0
 rv_christianity: 0

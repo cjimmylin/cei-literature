@@ -59,6 +59,9 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-04"
+last_author: "[[Mohammed Suhail B Nadaf]]"
+CONF-CC: Preprint
+LLM_assessed: "Skywork-Reward-Llama-3.1-8B-v0.2, ArmoRM-Llama3-8B-v0.1"
 ---
 
 # reward-lens: A Mechanistic Interpretability Library for Reward Models

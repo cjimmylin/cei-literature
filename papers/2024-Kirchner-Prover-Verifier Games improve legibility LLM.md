@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-07"
+last_author: "[[Yuri Burda]]"
+CONF-CC: Preprint
 ---
 
 # Prover-Verifier Games improve legibility of LLM outputs

@@ -59,6 +59,9 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-15"
+last_author: "[[Fabien Roger]]"
+CONF-CC: Preprint
+LLM_assessed: "25 models incl. Claude 3 Opus, Claude 3.5 Sonnet, Llama 3 405B, Grok 3, Gemini 2.0 Flash, GPT-4o"
 ---
 
 # Why Do Some Language Models Fake Alignment While Others Don't?

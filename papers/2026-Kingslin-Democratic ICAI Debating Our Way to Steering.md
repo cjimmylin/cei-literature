@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-11"
+last_author: "[[Shirish Karande]]"
+CONF-CC: Preprint
 ---
 
 # Democratic ICAI: Debating Our Way to Steering Principles from Preferences

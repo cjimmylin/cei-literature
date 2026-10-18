@@ -60,6 +60,7 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-16
+last_author: "[[Holden Karnofsky (Anthropic Alignment Science)]]"
 ---
 
 # Anthropic's Pilot Sabotage Risk Report

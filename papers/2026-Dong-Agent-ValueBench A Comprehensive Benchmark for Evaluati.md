@@ -60,6 +60,10 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-18"
 priority: "P2"
+last_author: "[[Guojie Song]]"
+CONF-CC: Preprint
+LLM_assessed: "14 frontier proprietary and open-weights models across 4 agent harnesses (e.g., GPT-5.4; full list not in extract)"
+languages_list: English
 ---
 
 # Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values

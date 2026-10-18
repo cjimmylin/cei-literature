@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-17"
 priority: "P2"
+last_author: "[[Daniele Nardi]]"
+CONF-CC: Preprint
+LLM_assessed: "Six model configurations (three homogeneous and three cross-provider duopolies); specific models not named in extract"
 ---
 
 # Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets via Public Governance Graphs

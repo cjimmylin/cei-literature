@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-20"
+last_author: "[[Craig Dickson]]"
+CONF-CC: Preprint
+LLM_assessed: "Nine open-weights models from the Gemma 3 and Qwen 3 families (1B-32B), base and fine-tuned (insecure/educational); GPT-4o as judge"
 ---
 
 # The Devil in the Details: Emergent Misalignment, Format and Coherence in Open-Weights LLMs

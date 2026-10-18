@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-15"
 priority: "P2"
+last_author: "[[Ethan Perez]]"
+CONF-CC: Preprint
+LLM_assessed: "Backdoored Anthropic LLMs of varying sizes trained by the authors (not individually named in extract)"
 ---
 
 # Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training

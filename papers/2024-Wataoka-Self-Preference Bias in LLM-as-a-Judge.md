@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-09/G-04"
+last_author: "[[Ryokan Ri]]"
+CONF-CC: Preprint
+LLM_assessed: "GPT-4, GPT-3.5-Turbo, Vicuna-7B, Vicuna-13B, oasst-pythia-12B, dolly-v2-12B, Koala-13B, stablelm-tuned-alpha-7B"
 ---
 
 # Self-Preference Bias in LLM-as-a-Judge

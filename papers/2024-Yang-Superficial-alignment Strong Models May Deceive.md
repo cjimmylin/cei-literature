@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-08"
+last_author: "[[Ji-Rong Wen]]"
+CONF-CC: "ICLR 2025"
+LLM_assessed: "GPT-2 series, OPT series, Mistral-7B, LLaMA-3-8B, LLaMA-3-70B, LLaMA-3.1-8B"
 ---
 
 # Super(ficial)-alignment: Strong Models May Deceive Weak Models in Weak-to-Strong Generalization

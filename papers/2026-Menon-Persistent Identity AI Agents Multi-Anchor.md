@@ -59,6 +59,8 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-18"
+last_author: "[[Prahlad G. Menon]]"
+CONF-CC: Preprint
 ---
 
 # Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity

@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-01"
+last_author: "[[Yu Cheng]]"
+CONF-CC: "ICML 2026"
+LLM_assessed: "33 models (15 reasoning, 18 instruct) incl. GPT-4.1, Qwen3-14B, DeepSeek-R1-Distill-Llama-8B"
 ---
 
 # Reasoning over Boundaries: Enhancing Specification Alignment via Test-time Deliberation

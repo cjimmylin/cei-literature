@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-20
+last_author: "[[Jack Lindsey]]"
+CONF-CC: Preprint
+LLM_assessed: "Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct"
 ---
 
 # Persona Vectors: Monitoring and Controlling Character Traits in Language Models

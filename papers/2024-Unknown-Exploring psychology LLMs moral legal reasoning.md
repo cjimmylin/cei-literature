@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Artificial Intelligence (Elsevier)"
-CONF-CC: N/A
+CONF-CC: "Artificial Intelligence"
 DATE_ADDED: 20260404
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

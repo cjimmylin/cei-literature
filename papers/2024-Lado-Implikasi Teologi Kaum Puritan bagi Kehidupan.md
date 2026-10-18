@@ -16,10 +16,10 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "HARVESTER: Jurnal Teologi dan Kepemimpinan Kristen"
-CONF-CC: N/A
+CONF-CC: "HARVESTER: Jurnal Teologi dan Kepemimpinan Kristen"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
 languages_list: 
 religious_values: Christianity
 rv_islam: 0

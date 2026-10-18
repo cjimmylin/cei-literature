@@ -59,6 +59,8 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-13"
+last_author: "[[Christopher Potts]]"
+CONF-CC: Preprint
 ---
 
 # Counterfactual Simulation Training for Chain-of-Thought Faithfulness

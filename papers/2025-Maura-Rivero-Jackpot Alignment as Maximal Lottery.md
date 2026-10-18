@@ -59,6 +59,8 @@ Human View note:
 Not AI:
 DATE_ADDED: 20260711
 innovation_gap: "G-10"
+last_author: "[[Kate Larson]]"
+CONF-CC: Preprint
 ---
 
 # Jackpot! Alignment as a Maximal Lottery

@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-10"
+last_author: "[[Pablo A. Parrilo]]"
+CONF-CC: "ICLR 2026"
 ---
 
 # Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework

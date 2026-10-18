@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-08"
+last_author: "[[Thong Nguyen]]"
+CONF-CC: Preprint
+LLM_assessed: "Not specified (multiple model families; not named in extract)"
 ---
 
 # When In-Distribution Gains Fail: Evaluating Weak-to-Strong Reward Models under Preference Shift

@@ -60,6 +60,8 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-14
+last_author: "[[Anthropic]]"
+LLM_assessed: "Claude Opus 4.6 (with comparisons to Claude Opus 4.5 and other recent Claude models)"
 ---
 
 # System Card: Claude Opus 4.6

@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-04"
+last_author: "[[Xiang Wang]]"
+CONF-CC: Preprint
 ---
 
 # SAFER: Probing Safety in Reward Models with Sparse Autoencoder

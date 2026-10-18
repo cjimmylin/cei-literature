@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-09"
+last_author: "[[Naman Goyal]]"
+CONF-CC: Preprint
 ---
 
 # Debate Helps Weak Judges Reward Stronger Models

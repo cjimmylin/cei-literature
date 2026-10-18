@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-07
+last_author: "[[Cameron Allen]]"
+CONF-CC: "ICLR 2026"
+LLM_assessed: "Participants incl. Gemma2-2B, Llama-3.1-8B, Gemma2-27B; experts/judges from 0.135B to 7B; models up to 405B parameters"
 ---
 
 # Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction

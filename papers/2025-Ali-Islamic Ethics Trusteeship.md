@@ -57,6 +57,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
+first_author: "[[Fatima Ali]]"
+last_author: "[[Boumediene Hamzi]]"
+url: "https://doi.org/10.1007/s13347-025-00922-4"
+cultures_nationalities_list: Arabic
 ---
 
 

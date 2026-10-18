@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-20"
+last_author: "[[Neel Nanda]]"
+CONF-CC: Preprint
+LLM_assessed: "Qwen2.5-Instruct 0.5B/7B/14B/32B, Gemma-3-it 4B/12B/27B, Llama-3.1-8B-Instruct, Llama-3.2-1B-Instruct, Qwen2.5-Coder-32B"
 ---
 
 # Model Organisms for Emergent Misalignment

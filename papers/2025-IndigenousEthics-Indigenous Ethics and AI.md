@@ -59,6 +59,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
+cultures_nationalities_list: "Western, Multicultural/Cross-cultural"
 ---
 
 # Indigenous Ethics and Artificial Intelligence

@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-13"
 priority: "P2"
+last_author: "[[Steven Basart]]"
+CONF-CC: Preprint
+LLM_assessed: "DeepSeek V3, DeepSeek R1, Claude 3.5 Sonnet, Claude 3.7 Sonnet, Qwen 2.5 72B, QwQ 32B, Qwen 3 235B, Qwen 3 Thinking 235B"
 ---
 
 # Measuring Chain-of-Thought Monitorability Through Faithfulness and Verbosity

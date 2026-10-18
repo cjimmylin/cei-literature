@@ -59,6 +59,9 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-04"
+last_author: "[[Evan Hubinger]]"
+CONF-CC: Preprint
+LLM_assessed: "Not specified (Anthropic-trained testbed LLM; base model not named in extract)"
 ---
 
 # Auditing language models for hidden objectives

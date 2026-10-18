@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-09
+last_author: "[[Muhammed Abdulbari]]"
+CONF-CC: Preprint
+LLM_assessed: gpt-4-0613
 ---
 
 # Confirmation bias: A challenge for scalable oversight

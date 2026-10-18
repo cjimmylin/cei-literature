@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "EMNLP 2025 (ACL Anthology 2025.emnlp-main.1541)"
-CONF-CC: N/A
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260404
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -49,7 +49,7 @@ moral_psychology: multi
 newtags: "moral-psychology, benchmark, external-search"
 tags: 
 abstract: "Benchmarks 12 open-source models across 4 moral datasets using prompts grounded in value systems, ethical theories, and cognitive reasoning strategies. First-principles reasoning and Schwartz's + care-ethics scaffolds yield strongest gains."
-LLM_assessed: NA
+LLM_assessed: "12 open-source LLMs (not named in abstract)"
 DATA_URL: NA
 CONFERENCE: N/A
 ethics_overall: 0

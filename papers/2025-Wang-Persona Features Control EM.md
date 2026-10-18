@@ -59,6 +59,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260709
 innovation_gap: G-20
+last_author: "[[Dan Mossing]]"
+CONF-CC: Preprint
+LLM_assessed: "GPT-4o, GPT-4o helpful-only, OpenAI o3-mini, o3-mini helpful-only, GPT-4o-family models of varying pretraining compute"
 ---
 
 # Persona Features Control Emergent Misalignment

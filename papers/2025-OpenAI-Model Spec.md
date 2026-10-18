@@ -65,6 +65,7 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-01/02
+last_author: "[[OpenAI]]"
 ---
 
 # Model Spec (2025/12/18) — OpenAI's desired model behavior specification

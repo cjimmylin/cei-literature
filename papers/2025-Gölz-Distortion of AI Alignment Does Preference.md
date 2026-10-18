@@ -59,6 +59,8 @@ Human View note: ""
 Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-10"
+last_author: "[[Kunhe Yang]]"
+CONF-CC: Preprint
 ---
 
 # Distortion of AI Alignment: Does Preference Optimization Optimize for Preferences?

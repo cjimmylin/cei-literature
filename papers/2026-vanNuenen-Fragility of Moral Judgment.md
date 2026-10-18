@@ -58,6 +58,8 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
+last_author: "[[Sachdeva]]"
+CONF-CC: Preprint
 ---
 
 # The Fragility of Moral Judgment in Large Language Models

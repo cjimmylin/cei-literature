@@ -16,11 +16,11 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Conference on Empirical Methods in Natural Language Processing"
-CONF-CC: N/A
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
 religious_values: Indigenous
 rv_islam: 0
 rv_christianity: 0

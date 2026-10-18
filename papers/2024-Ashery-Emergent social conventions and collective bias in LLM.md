@@ -60,6 +60,9 @@ Not AI: ""
 DATE_ADDED: 20260709
 innovation_gap: "G-17"
 priority: "P2"
+last_author: "[[Andrea Baronchelli]]"
+CONF-CC: "Science Advances"
+LLM_assessed: "Llama-2-70b-Chat, Llama-3-70B-Instruct, Llama-3.1-70B-Instruct, Claude-3.5-Sonnet"
 ---
 
 # Emergent social conventions and collective bias in LLM populations

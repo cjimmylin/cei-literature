@@ -60,6 +60,9 @@ Human View note:
 Not AI: 
 DATE_ADDED: 20260710
 innovation_gap: G-22
+last_author: "[[Luc Rocher]]"
+CONF-CC: Nature
+LLM_assessed: "GPT-4o, Llama-3.1-70B, Llama-3.1-8B, Mistral-Small, Qwen-2.5-32B"
 ---
 
 # Training language models to be warm can reduce accuracy and increase sycophancy

@@ -18,9 +18,9 @@ local_pdf: N/A
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
-languages_list: 
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
+languages_list: Multilingual
 religious_values: Indigenous
 rv_islam: 0
 rv_christianity: 0

@@ -18,8 +18,8 @@ local_pdf: N/A
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: 
 religious_values: Multi-religion
 rv_islam: 50
@@ -49,7 +49,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT-4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India,"
-LLM_assessed: NA
+LLM_assessed: "GPT-4 Turbo"
 DATA_URL: NA
 CONFERENCE: Preprint
 ethics_overall: 0

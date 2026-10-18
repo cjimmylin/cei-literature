@@ -59,6 +59,8 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
+last_author: "[[Halgamuge]]"
+cultures_nationalities_list: Multicultural/Cross-cultural
 ---
 
 # Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions

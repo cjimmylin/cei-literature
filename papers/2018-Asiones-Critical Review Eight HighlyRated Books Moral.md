@@ -16,7 +16,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: Scientia
-CONF-CC: N/A
+CONF-CC: Scientia
 DATE_ADDED: 20260403
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

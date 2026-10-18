@@ -1,15 +1,15 @@
 ---
 key: CGSR0002
-type: document
+type: journalArticle
 short_title: "AI Ethics Meets Ubuntu: Towards A Context-Aware Governance Model For Sustainable Innovation In Africa"
 year: 2025
 first_author: "[[Unknown]]"
 authors: Unknown
-url: "https://www.researchgate.net/publication/394370886"
-abstract: "Context-aware governance model combining AI ethics with Ubuntu philosophy"
+url: "https://ijsrm.net/index.php/ijsrm/article/view/6558"
+abstract: "Five-layer Ubuntu governance architecture for AI: Community Data Trusts, Relational Design Praxis, Harm Reconciliation Panels, Ecological Stewardship Protocols, Developer Benefit Realisation."
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -40,7 +40,7 @@ rv_shinto: 0
 rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
-rv_ubuntu: 50
+rv_ubuntu: 60
 rv_indigenous: 0
 religious_values_list: "Ubuntu Philosophy"
 mp_mft: 0
@@ -52,4 +52,14 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+publication: "International Journal of Scientific Research and Management"
+ethics_perspective: "Responsible AI"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+LLM_assessed: No
 ---
+
+## Notes
+
+- Merged duplicate (2026-10-18): `2025-UbuntuAI-AI Ethics Meets Ubuntu Governance.md` (key EXSR0702, moral-psych external search v2, 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Previous URL of this note: https://www.researchgate.net/publication/394370886

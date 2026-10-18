@@ -54,7 +54,6 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 
 - [[2025-El Masri-Towards Attuned AI|Towards Attuned AI]] (Last Author)
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
-- [[2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.|Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,]] (First Author)
 - [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]] (First Author)
 
 ## External Links & Profiles

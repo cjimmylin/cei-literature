@@ -61,7 +61,6 @@ twitter: ""
 
 
 - [[2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English|ALLaM: A Series of Large Language Models for Arabic and English]] (First Author)
-- [[2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for|Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious]] (First Author)
 
 ## External Links & Profiles
 

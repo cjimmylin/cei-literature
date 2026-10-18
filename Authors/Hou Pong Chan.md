@@ -62,7 +62,6 @@ twitter: ""
 
 
 
-- [[2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large|Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models]]
 
 ## External Links & Profiles
 

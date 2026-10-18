@@ -3,10 +3,10 @@ Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
 type: preprint
-short_title: "Beyond Verdicts LLM Moral Competence"
+short_title: "Beyond Verdicts: Evaluating Language Model Moral Competence"
 year: 2025
 first_author: "[[Aaron J. Snoswell]]"
-last_author: "[[Lazar, Seth]]"
+last_author: "[[Seth Lazar]]"
 authors: "Aaron J. Snoswell; Kilov, Daniel; Lazar, Seth"
 doi: N/A
 url: "https://philarchive.org/rec/SNOBVE"
@@ -15,7 +15,7 @@ local_pdf: "[[Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competenc
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 
-religious_values: Jainism
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -25,12 +25,12 @@ rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0
 rv_shinto: 0
-rv_jainism: 50
+rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: Jainism
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -44,7 +44,7 @@ newtags: "Moral Competence, LLM Evaluation, Moral Sensitivity, Virtue Ethics, AI
 key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (2020-2025), identifies systematic limitations in moral reasoning assessment"
 significance: "Identifies three critical paradigm shifts needed: from curated scenarios to unfiltered streams, from verdict accuracy to reasoning quality, from ground truth to reasonableness assessment"
 external_pdf: "https://philarchive.org/archive/SNOBVE"
-abstract: "Existing evaluations may inadequately assess the moral reasoning capabilities needed for real-world deployment, focusing primarily on whether models can match human judgments on carefully curated ethical scenarios. The authors surveyed 69 papers evaluating LLM ethical competence (2020-2025) and developed a taxonomy categorizing evaluations across datasets, behaviors, and metrics. The analysis reveals a field experiencing explosive growth—doubling approximately every 14 months—but also exposes systematic limitations that constrain our ability to assess real-world moral competence. Most significantly, the vast majority of studies rely on pre-packaged scenarios that highlight morally relevant features, failing to test models' ability to identify ethical considerations in noisy, realistic contexts—what they term 'moral sensitivity'."
+abstract: "As Large Language Models (LLMs) are increasingly deployed as Artificial Moral Advisors and autonomous agents making ethical decisions, evaluating their moral competence has become critical. However, existing evaluations may inadequately assess the moral reasoning capabilities needed for real-world deployment, focusing primarily on whether models can match human judgments on carefully curated ethical scenarios. We surveyed 69 papers evaluating LLM ethical competence (2020-2025) and developed a taxonomy categorising evaluations across datasets, behaviors, and metrics. Our comprehensive analysis maps the methodological landscape of this rapidly growing field and reveals several critical limitations. Most significantly, the vast majority of studies rely on pre-packaged scenarios that highlight morally relevant features, failing to test models’ ability to identify ethical considerations in noisy, realistic contexts-what we term “moral sensitivity”. Additionally, evaluations overemphasize verdict accuracy rather than assessing moral reasoning quality and steerability, with few studies testing whether models can be appropriately guided toward different ethical frameworks. Most studies rely on “ground truth” comparisons despite philosophical arguments that reasonable moral pluralism precludes definitive moral ground truth. We argue for a significant methodological shift: moving from curated scenarios to unfiltered information streams, from verdict accuracy to reasoning quality and steerability, and from ground truth metrics to assessments of reasonableness and consistency. This reorientation is essential for developing AI systems that can navigate moral complexity in real-world deployment scenarios."
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -70,9 +70,10 @@ author_global_north_south: "Global North"
 weird_score: 84
 is_benchmark: No
 is_eval: Yes
-is_dataset: Yes
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+publication: PhilArchive
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence
 
@@ -131,6 +132,8 @@ This paper is a survey and meta-analysis of 69 papers (2020-2025) evaluating LLM
 - Survey covers 2020-2025 literature
 - Develops comprehensive taxonomy for LLM ethical evaluation
 - Related to authors' "Discerning What Matters" empirical work
+- Merged duplicate (2026-10-18): `2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral.md` (key EXSR0684, Moral Psychology External Search 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
+- Merged duplicate (2026-10-18): `2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md` (key LSRC0693, Language-Organized Benchmark Search 2026-02-13) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Its abstract (the paper's own) replaced the earlier paraphrase. rv_jainism was a false positive (the cited author Jain, Calacci & Wilson 2024) and is now 0.
 
 ## Citation Info
 

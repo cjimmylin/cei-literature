@@ -21,5 +21,4 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A|Indigenous Peoples and Artificial Intelligence A]] (Last Author)
 - [[2025-Perera-Indigenous Peoples and Artificial Intelligence A Systematic Review|Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions]] (Last Author)

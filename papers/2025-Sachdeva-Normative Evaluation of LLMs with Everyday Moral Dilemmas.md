@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: SACHDEVA2025
 type: conferencePaper
-short_title: "Normative Evaluation of LLMs"
+short_title: "Normative Evaluation of Large Language Models with Everyday Moral Dilemmas"
 year: 2025
 first_author: "[[Pratik S. Sachdeva]]"
 last_author: "[[van Nuenen, Tom]]"
@@ -151,6 +151,8 @@ Dataset of 10,826 preprocessed Reddit AITA posts (Oct 2022–Mar 2023) paired wi
 
 
 ## Notes
+
+- Merged duplicate (2026-10-18): `2025-Unknown-Normative Evaluation Large Language Models Everyday.md` (key EXSR0687, Moral Psychology External Search 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
 
 
 ## Citation Info

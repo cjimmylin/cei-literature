@@ -5,11 +5,11 @@ Human View note:
 Not AI: 
 key: ER38ZQNK
 type: preprint
-short_title: "Can LLMs Grasp Implicit Cultural Values?"
+short_title: "Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs' Cultural Intelligence with CQ-Bench"
 year: 2025
 first_author: "[[Ziyi Liu]]"
 last_author: "[[Zhao, Jieyu]]"
-authors: "Liu, Ziyi; Dey, Priyanka; Zhao, Zhenyu; Huang, Jen-tse; Gupta, Rahul; Liu, Yang; Zhao, Jieyu"
+authors: "Ziyi Liu; Priyanka Dey; Jen-tse Huang; Zhenyu Zhao; Bowen Jiang; Rahul Gupta; Yang Liu; Yao Du; Jieyu Zhao"
 doi: 10.48550/arXiv.2504.01127
 tags: 
 url: "http://arxiv.org/abs/2504.01127"
@@ -140,6 +140,8 @@ CQ-Bench: synthetic multi-character conversation-based stories with implicit cul
 
 
 ## Notes
+
+- Merged duplicate (2026-10-18): `2025-Unknown-Can LLMs Grasp Implicit Cultural Values.md` (key EXSR0674, Religious Values External Search 2026-04-03) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Its Multi-religion rv_* placeholders were not carried. authors corrected to the nine on the PDF's page 1.
 
 
 ## Tags

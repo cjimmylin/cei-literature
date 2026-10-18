@@ -4,8 +4,8 @@ Human View Date:
 Human View note: 
 Not AI: 
 key: EXSR0523
-type: preprint
-short_title: "SEACrowd A Multilingual Multimodal Data Hub"
+type: conferencePaper
+short_title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
 year: 2024
 first_author: "[[Lovenia, Holy]]"
 last_author: "[[Cahyawijaya, Samuel]]"
@@ -75,6 +75,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "36 languages"
+s2_paper_id: ba5284674face6cca3b678fd7a82d691ec29349b
+citation_count: 41
 ---
 # SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages
 
@@ -114,5 +116,7 @@ SEACrowd consolidates ~500 corpora in nearly 1,000 Southeast Asian languages acr
 
 **Source:** Religious & Language Search (2026-02-13), A4
 **Implementation Readiness:** MEDIUM
+
+- Merged duplicate (2026-10-18): `2024-Lovenia-SEACrowd Multilingual Multimodal Data Hub Benchmark.md` (key EXSR0667, Religious Values External Search 2026-04-03) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Its rv_indigenous 70 (from "1,300 indigenous languages") was not carried.
 
 ## Tags

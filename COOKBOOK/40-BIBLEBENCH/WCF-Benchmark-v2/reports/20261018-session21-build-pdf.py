@@ -32,6 +32,9 @@ def main():
     cmd = [
         "pandoc", str(MASTER), "-o", str(OUT),
         "--pdf-engine=typst", "--toc", "--toc-depth", TOC_DEPTH,
+        # No re-wrapping of the generated Typst: pandoc 3.1 can wrap a sentence so that a line
+        # starts with "2." and Typst then reads it as a numbered list item.
+        "--wrap=none",
         "-V", "fontsize=9pt",
         "-V", "margin-x=1.5cm", "-V", "margin-y=1.7cm",
         "-V", "papersize=a4",

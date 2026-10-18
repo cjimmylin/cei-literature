@@ -7,7 +7,7 @@ key: EXSR0367
 type: preprint
 short_title: "FaithBench AI Benchmark for Christian Theology"
 year: 2025
-first_author: [[contributions]]
+first_author: "[[contributions]]"
 last_author: "[[open to academicseminary]]"
 authors: "contributions; open to academicseminary"
 authors_incomplete: true

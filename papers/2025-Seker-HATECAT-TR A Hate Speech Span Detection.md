@@ -7,8 +7,8 @@ key: EXSR0373
 type: conference_paper
 short_title: "HATECAT-TR A Hate Speech Span Detection"
 year: 2025
-first_author: [[Seker]]
-last_author: [[Arzucan]]
+first_author: "[[Seker]]"
+last_author: "[[Arzucan]]"
 authors: "Seker; Hasan Kerem and Uludogan; Gokce and Onal; Pelin and Ozgur; Arzucan"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.1393/"

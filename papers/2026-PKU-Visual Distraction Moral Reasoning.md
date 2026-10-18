@@ -3,7 +3,7 @@ key: EXSR0692
 type: preprint
 short_title: "Visual Distraction Undermines Moral Reasoning in Vision-Language Models"
 year: 2026
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: "Unknown (PKU)"
 url: "https://arxiv.org/abs/2603.16445"
 abstract: "Introduces Moral Dilemma Simulation (MDS) benchmark grounded in MFT. Visual inputs bypass text-based safety, activating System 1-like intuitive processing. VLMs lose sensitivity to numerical stakes, prioritize self-interest, collapse hierarchical social values. Directly tests dual-process theory predictions in multimodal setting."

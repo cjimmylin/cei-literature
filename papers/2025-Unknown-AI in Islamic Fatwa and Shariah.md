@@ -3,7 +3,7 @@ key: CGSR0062
 type: document
 short_title: "AI in Islamic Fatwa and Shariah Advisory: Human-in-the-Loop Shariah Governance"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://zenodo.org/records/18431019"
 abstract: "Human-in-the-loop governance for AI in Islamic fatwa and advisory"

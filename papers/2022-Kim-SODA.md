@@ -48,7 +48,7 @@ newtags:
 pdf_extract: "PDF Extracts/2022/2022-Kim-SODA.md"
 abstract: "Data scarcity has been a long standing issue in the field of open-domain social dialogue. To quench this thirst, we present SODA: the first publicly available, million-scale high-quality social dialogue dataset. By contextualizing social commonsense knowledge from a knowledge graph, we are able to distill an exceptionally broad spectrum of social interactions from a large language model. Human evaluation shows that conversations in SODA are more consistent, specific, and (surprisingly) natural..."
 paper_summary: "Abstract: Data scarcity has been a long standing issue in the field of open-domain social dialogue. To quench this thirst, we present SODA: the first publicly available, million-scale high-quality social dialog | Overview: SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization Hyunwoo Kim♡♠ Jack Hessel♡ Liwei Jiang♡♢ Peter West♢ Ximing Lu♢ Youngjae Yu♡ Pei Zhou♡♣ Ronan Le Bras♡ Malihe Alikha | Key Findings: shows that conversations in SODA are more consistent, specific, and (surprisingly) natural than those in prior human-authored datasets. Using SODA, we | Conclusions: We presented SODA, the first million-scale dia- logue dataset covering an exceptionally wide range of social interactions to alleviate the data scarci"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Kim-SODA.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Kim-SODA.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, T5"
 DATA_URL: "https://hyunw.kim/sodaverse"

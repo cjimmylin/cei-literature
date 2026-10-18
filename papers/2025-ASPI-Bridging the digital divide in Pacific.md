@@ -3,7 +3,7 @@ key: CGSR0128
 type: document
 short_title: "Bridging the digital divide in Pacific island states"
 year: 2025
-first_author: [[ASPI]]
+first_author: "[[ASPI]]"
 authors: ASPI
 url: "https://www.aspistrategist.org.au/bridging-the-digital-divide-in-pacific-island-states/"
 abstract: "Digital divide challenges in Pacific Island states for AI adoption"

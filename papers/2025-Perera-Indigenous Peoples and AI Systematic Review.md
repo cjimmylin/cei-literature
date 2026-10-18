@@ -3,7 +3,7 @@ key: EXSR0704
 type: journalArticle
 short_title: "Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions"
 year: 2025
-first_author: [[Perera]]
+first_author: "[[Perera]]"
 authors: "Perera; Vidanaarachchi; Chandrashekeran; Kennedy; Kennedy; Halgamuge"
 url: "https://journals.sagepub.com/doi/10.1177/20539517251349170"
 publication_title: "Big Data & Society"

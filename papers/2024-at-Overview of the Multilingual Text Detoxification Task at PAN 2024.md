@@ -7,7 +7,7 @@ key: LSRC0298
 type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2024"
 year: 2024
-first_author: [[at]]
+first_author: "[[at]]"
 last_author: "[[Overview of the Multilingual Text Detoxification Task]]"
 authors: "at; Overview of the Multilingual Text Detoxification Task"
 authors_incomplete: false

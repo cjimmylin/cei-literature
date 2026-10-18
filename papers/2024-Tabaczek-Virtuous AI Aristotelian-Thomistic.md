@@ -5,8 +5,8 @@ key: AUTO_TABACZEK2024
 type: journalArticle
 short_title: "Virtuous AI Aristotelian-Thomistic"
 year: 2024
-first_author: [[Tabaczek]]
-last_author: [[Mariusz]]
+first_author: "[[Tabaczek]]"
+last_author: "[[Mariusz]]"
 authors: "Tabaczek; Mariusz"
 doi: 10.35765/forphil.2024.2902.08
 url: "https://forumphilosophicum.ignatianum.edu.pl/7559-2902-08.html"

@@ -3,7 +3,7 @@ key: CGSR0058
 type: document
 short_title: "Ethics of the Use of AI in the Paradigm of Islamic Law"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://journal.walideminstitute.com/index.php/sicopus/article/view/393"
 abstract: "AI ethics through the paradigm of Islamic law"

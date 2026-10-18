@@ -7,9 +7,9 @@ key: LSRC0661
 type: conferencePaper
 short_title: "New Guidelines for Evaluating Literary Translation in Hiring and Promotion Decisions | ALTA Blog"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://literarytranslators.wordpress.com/2023/09/18/new-guidelines-for-evaluating-literary-translation-in-hiring-and-promotion-decisions/"
 publication: Web

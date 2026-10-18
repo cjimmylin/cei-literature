@@ -49,7 +49,7 @@ abstract: "Deep learning has signiﬁcantly advanced the question-answering (QA)
 LLM_assessed: "BART, BERT, RoBERTa"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aleid-Hajj-FQA.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]"
 CONF-CC: "Journal of King Saud University - Computer and Information Sciences"
 DATE_ADDED: 20260207
 CONFERENCE: Journal

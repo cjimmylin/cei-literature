@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Anonymous-BEATS.md"
 abstract: "In this research, we introduce BEATS, a novel framework for evaluating Bias, Ethics, Fairness, and Factuality in Large Language Models (LLMs). Building upon the BEATS framework, we present a bias benchmark for LLMs that measure performance across 29 distinct metrics. These metrics span a broad range of characteristics, including demographic, cognitive, and social biases, as well as measures of ethical reasoning, group fairness, and factuality related misinformation risk."
 paper_summary: "Abstract: In this research, we introduce BEATS, a novel framework for evaluating Bias, Ethics, Fairness, and Factuality in Large Language Models (LLMs). Building upon the BEATS framework, we present a bias benc | Overview: BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models Alok Abhishek San Francisco, USA alok@alokabhishek.ai Lisa Erickson Boston, USA lisa.erickson@sloan.mit.edu Tushar Bandopadhy | Methodology: enables a detailed evaluation process using multiple models to score responses across a curated set of fairness, bias, factuality, and ethical alignme | Key Findings: To systematically assess bias in LLM responses, we define a set of structured functions that capture the presence, complexity, and magnitude of bias.  | Conclusions: Artificial Intelligence has been applied in all walks of life, including critical decision making systems in finance, health care, governance, etc., f"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Anonymous-BEATS.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Anonymous-BEATS.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mistral"

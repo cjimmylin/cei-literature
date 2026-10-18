@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Qwen-1.5, Gemma, Vicuna, ChatGLM"
 DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
 pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Li-SALAD-Bench.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
 CONFERENCE: "ACL 2024"
 ethics_overall: 0
 virtue_ethics: 0

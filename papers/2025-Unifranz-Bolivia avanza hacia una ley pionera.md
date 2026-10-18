@@ -3,7 +3,7 @@ key: CGSR0163
 type: document
 short_title: "Bolivia avanza hacia una ley pionera para regular la Inteligencia Artificial"
 year: 2025
-first_author: [[Unifranz]]
+first_author: "[[Unifranz]]"
 authors: Unifranz
 url: "https://unifranz.edu.bo/blog/bolivia-avanza-hacia-una-ley-pionera-para-regular-la-inteligencia-artificial/"
 abstract: "Bolivia's pioneering AI regulation bill within its plurinational constitutional framework"

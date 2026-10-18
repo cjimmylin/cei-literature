@@ -7,7 +7,7 @@ key: EXSR0410
 type: preprint
 short_title: "Mitigating Social Bias in English and"
 year: 2025
-first_author: [[Khan]]
+first_author: "[[Khan]]"
 last_author: "[[Muneeb Ur Raheem]]"
 authors: "Khan; Muneeb Ur Raheem"
 authors_incomplete: false

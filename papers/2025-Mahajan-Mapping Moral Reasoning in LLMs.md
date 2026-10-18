@@ -7,8 +7,8 @@ key: AIES_2025_36665
 type: conferencePaper
 short_title: "Mapping Moral Reasoning in LLMs"
 year: 2025
-first_author: [[Mahajan]]
-last_author: [[Sachit]]
+first_author: "[[Mahajan]]"
+last_author: "[[Sachit]]"
 authors: "Mahajan; Sachit"
 doi: 10.1609/aies.v8i2.36665
 tags: "Computer Science - AI Ethics"

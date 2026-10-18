@@ -45,7 +45,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Emezue-NaijaVoices.md"
 abstract: "The development of high-performing, robust, and reliable speech technologies depends on large, high-quality datasets. However, African languages – including our focus, Igbo, Hausa, and Yoruba – remain under-represented due to insufficient data. Popular voice-enabled technologies do not support any of the 2000+ African languages, limiting accessibility for circa one billion people. While previous dataset efforts exist for the target languages, they lack the scale and diversity needed for robust..."
 paper_summary: "Abstract: The development of high-performing, robust, and re- liable speech technologies depends on large, high-quality datasets. However, African languages – including our focus, Igbo, Hausa, and Yoruba – rema | Overview: The NaijaVoices Dataset: Cultivating Large-Scale, High-Quality, Culturally-Rich Speech Data for African Languages Chris Emezue1,2,3,11, The NaijaVoices Community1,2, Busayo Awobade4, Abraham Toluwase  | Methodology: to dataset creation that balances supervision and scalability, allowing us to capture thousands of speakers in a short time, while maintaining high-qu | Key Findings: [32] A. Conneau, A. Baevski, R. Collobert, A. Mohamed, and M. Auli, 'Unsupervised cross-lingual representation learning for speech recognition,' in IN | Conclusions: Table 3 reports WER scores for both finetuned and unfine- tuned models. Baseline models performed poorly, with WER reaching 100% for XLSR and MMS, whi"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Emezue-NaijaVoices.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Emezue-NaijaVoices.pdf]]"
 CONF-CC: "INTERSPEECH 2025"
 DATE_ADDED: 20260208
 LLM_assessed: Whisper

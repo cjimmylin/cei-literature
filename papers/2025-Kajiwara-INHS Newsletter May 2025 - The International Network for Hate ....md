@@ -7,8 +7,8 @@ key: LSRC0720
 type: conferencePaper
 short_title: "INHS Newsletter May 2025 - The International Network for Hate ..."
 year: 2025
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 external_pdf: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"

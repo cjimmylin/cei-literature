@@ -7,8 +7,8 @@ key: DOI_23736992_2025_2553146
 type: journalArticle
 short_title: "Insights into Moral Reasoning of AI"
 year: 2025
-first_author: [[Sameer]]
-last_author: [[Rabiya]]
+first_author: "[[Sameer]]"
+last_author: "[[Rabiya]]"
 authors: "Sameer; Ahmed; Fatima; Rabiya"
 doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"

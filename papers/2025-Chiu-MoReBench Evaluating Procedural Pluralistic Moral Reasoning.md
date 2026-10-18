@@ -7,7 +7,7 @@ key: EXSR0682
 type: preprint
 short_title: "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes"
 year: 2025
-first_author: [[Chiu]]
+first_author: "[[Chiu]]"
 last_author: "[[Lee et al.]]"
 authors: "Chiu; Lee et al."
 authors_incomplete: true

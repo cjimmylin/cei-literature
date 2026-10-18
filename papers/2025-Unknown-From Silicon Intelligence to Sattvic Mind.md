@@ -3,7 +3,7 @@ key: CGSR0100
 type: document
 short_title: "From Silicon Intelligence to Sattvic Mind"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://ijirt.org/publishedpaper/IJIRT186366_PAPER.pdf"
 abstract: "Vedantic philosophy on karma, consciousness, and AI moral agency"

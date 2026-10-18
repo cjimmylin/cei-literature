@@ -3,7 +3,7 @@ key: EXSR0706
 type: incollection
 short_title: "Can a Machine Flow Like Dao? The Daoist Philosophy on Artificial Intelligence"
 year: 2021
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_5"
 publication_title: "Asian Philosophies and the Idea of Religion"

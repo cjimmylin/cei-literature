@@ -3,7 +3,7 @@ key: CGSR0122
 type: document
 short_title: "Pluralistic Alignment @ ICML 2026 (Workshop)"
 year: 2026
-first_author: [[Various]]
+first_author: "[[Various]]"
 authors: Various
 url: "https://pluralistic-alignment.github.io/"
 abstract: "ICML 2026 workshop on pluralistic AI alignment"

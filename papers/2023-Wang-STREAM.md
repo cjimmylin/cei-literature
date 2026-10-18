@@ -50,7 +50,7 @@ significance: "Argues for 'dynamic' alignment where moral norms are continuously
 pdf_extract: "PDF Extracts/2023/2023-Wang-STREAM.md"
 abstract: "This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to provide ethics datasets and knowledge bases to help promote AI models 'follow good advice as naturally as a stream follows its course'. By creating a comprehensive and representative platform that accurately mirrors the moral judgments of diverse groups including humans and AIs, we hope to..."
 paper_summary: "Abstract: This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to pr | Overview: STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models Yuwei Wang1,2,3,†, Enmeng Lu1,2,3,†, Zizhe Ruan1,2,3, Yao Liang2,4, and Yi Zeng1,2,3,4,†,* 1Internatio"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-STREAM.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-STREAM.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://safe-and-ethical.ai/stream/en"

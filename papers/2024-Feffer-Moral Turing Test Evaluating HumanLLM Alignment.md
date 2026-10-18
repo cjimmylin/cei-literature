@@ -7,8 +7,8 @@ key: EXSR0676
 type: preprint
 short_title: "The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making"
 year: 2024
-first_author: [[Feffer]]
-last_author: [[Feffer]]
+first_author: "[[Feffer]]"
+last_author: "[[Feffer]]"
 authors: "Feffer et al."
 authors_incomplete: true
 url: "https://arxiv.org/abs/2410.07304"

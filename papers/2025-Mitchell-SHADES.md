@@ -48,7 +48,7 @@ abstract: "Large Language Models (LLMs), the bedrock of many “artificial intel
 LLM_assessed: "BLOOM, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Mitchell-SHADES.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mitchell-SHADES.pdf]]"
 publication: "ACL Anthology (NAACL 2025)"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213

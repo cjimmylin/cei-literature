@@ -3,7 +3,7 @@ key: CGSR0158
 type: document
 short_title: "Hacia una regulacion etica y efectiva de la inteligencia artificial en Ecuador"
 year: 2025
-first_author: [[UNESCO]]
+first_author: "[[UNESCO]]"
 authors: UNESCO
 url: "https://unesdoc.unesco.org/ark:/48223/pf0000394821"
 abstract: "Toward ethical and effective AI regulation in Ecuador aligned with buen vivir and rights of nature"

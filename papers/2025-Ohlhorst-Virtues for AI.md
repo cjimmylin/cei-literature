@@ -5,8 +5,8 @@ key: AUTO_OHLHORST2025
 type: journalArticle
 short_title: "Virtues for AI"
 year: 2025
-first_author: [[Ohlhorst]]
-last_author: [[Jakob]]
+first_author: "[[Ohlhorst]]"
+last_author: "[[Jakob]]"
 authors: "Ohlhorst; Jakob"
 doi: 10.1007/s00146-025-02264-3
 url: "https://link.springer.com/article/10.1007/s00146-025-02264-3"

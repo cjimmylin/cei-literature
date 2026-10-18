@@ -7,8 +7,8 @@ key: AUTO_VALLOR2024
 type: book
 short_title: "The AI Mirror"
 year: 2024
-first_author: [[Vallor]]
-last_author: [[Shannon]]
+first_author: "[[Vallor]]"
+last_author: "[[Shannon]]"
 authors: "Vallor; Shannon"
 doi: 10.1093/oso/9780197759080.001.0001
 isbn: 9780197759066

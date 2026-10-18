@@ -3,7 +3,7 @@ key: CGSR0055
 type: document
 short_title: "Charting ASEAN's Path to AI Governance: Uneven Yet Gaining Ground"
 year: 2025
-first_author: [[NBR]]
+first_author: "[[NBR]]"
 authors: NBR
 url: "https://www.nbr.org/publication/charting-aseans-path-to-ai-governance-uneven-yet-gaining-ground/"
 abstract: "ASEAN AI governance progress with country-level analysis"

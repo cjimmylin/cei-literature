@@ -7,8 +7,8 @@ key: LSRC0708
 type: preprint
 short_title: "Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps"
 year: 2025
-first_author: [[Sakhadib]]
-last_author: [[Sakhadib]]
+first_author: "[[Sakhadib]]"
+last_author: "[[Sakhadib]]"
 authors: Sakhadib
 url: "https://arxiv.org/html/2510.13430v1"
 external_pdf: "https://arxiv.org/pdf/2510.13430.pdf"

@@ -56,7 +56,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-VidHalluc.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-VidHalluc.pdf]]"
 CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemini, GPT-4o, LLaVA"

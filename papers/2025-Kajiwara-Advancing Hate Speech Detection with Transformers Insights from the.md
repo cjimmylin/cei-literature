@@ -7,8 +7,8 @@ key: LSRC0723
 type: preprint
 short_title: "Advancing Hate Speech Detection with Transformers: Insights from the MetaHate"
 year: 2025
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.arxiv.org/pdf/2508.04913"
 external_pdf: "https://arxiv.org/pdf/2508.04913.pdf"

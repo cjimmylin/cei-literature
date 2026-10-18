@@ -5,8 +5,8 @@ key: AUTO_STENSEKE2021
 type: journalArticle
 short_title: "Artificial Virtuous Agents"
 year: 2021
-first_author: [[Stenseke]]
-last_author: [[Jakob]]
+first_author: "[[Stenseke]]"
+last_author: "[[Jakob]]"
 authors: "Stenseke; Jakob"
 doi: 10.1007/s00146-021-01325-7
 url: "https://link.springer.com/article/10.1007/s00146-021-01325-7"

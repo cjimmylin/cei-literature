@@ -3,7 +3,7 @@ key: EXSR0693
 type: journalArticle
 short_title: "Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models"
 year: 2025
-first_author: [[Hendra]]
+first_author: "[[Hendra]]"
 authors: "Hendra et al."
 url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
 publication_title: "Computers in Human Behavior: Artificial Humans"

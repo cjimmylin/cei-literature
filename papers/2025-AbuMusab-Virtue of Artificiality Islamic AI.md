@@ -3,7 +3,7 @@ key: EXSR0699
 type: journalArticle
 short_title: "The Virtue of Artificiality: Islamic Ethics and the Reconceptualization of AI Caregivers"
 year: 2025
-first_author: [[AbuMusab]]
+first_author: "[[AbuMusab]]"
 authors: "AbuMusab; Syed"
 url: "https://link.springer.com/article/10.1007/s43681-025-00747-z"
 publication_title: "AI and Ethics"

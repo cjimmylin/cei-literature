@@ -3,7 +3,7 @@ key: EXSR0698
 type: journalArticle
 short_title: "Al-Ghazali's Principle of Trust (Amanah) as a Framework for Ethical AI Governance in Organizations"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://link.springer.com/article/10.1007/s43681-025-00780-y"
 publication_title: "AI and Ethics"

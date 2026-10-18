@@ -47,7 +47,7 @@ moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2024/2024-Zhuge-Agent-as-a-Judge.md"
 paper_summary: "Overview: Agent-as-a-Judge: Evaluate Agents with Agents Mingchen Zhuge1,2, Changsheng Zhao1, Dylan R. Ashley2, Wenyi Wang2, Dmitrii Khizbullin2, Yunyang Xiong1, Zechun Liu1, Ernie Chang1, Raghuraman Krishnamoor | Key Findings: method, which relies solely on the final resolve rate for long-term automated repair tasks, does not effectively pinpoint what is happening within age | Conclusions: Human judgment errors are inevitable. To reduce them, we suggest two methods. First, like in this work, introduce a debate round after each judgment,"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhuge-Agent-as-a-Judge.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhuge-Agent-as-a-Judge.pdf]]"
 abstract: "Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solvin"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4o

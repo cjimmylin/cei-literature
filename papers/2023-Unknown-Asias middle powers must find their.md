@@ -3,7 +3,7 @@ key: CGSR0088
 type: document
 short_title: "Asia's middle powers must find their collective voice on AI governance"
 year: 2023
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://eastasiaforum.org/2023/07/14/asias-middle-powers-must-find-their-collective-voice-on-ai-governance/"
 abstract: "Asian middle powers and collective AI governance voice"

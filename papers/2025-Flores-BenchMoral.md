@@ -48,7 +48,7 @@ abstract: "BenchMoral is a benchmark designed to evaluate the moral sensitivity 
 LLM_assessed: "ChatGPT, DeepSeek, GPT-4o mini, Llama-3"
 DATA_URL: "https://docs.google.com/spreadsheets/d/1dPWRAcyXpdw1xZst77CrwrqOCr8UBNtB2XO3AKgeNqI/edit?usp=sharing"
 pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Flores-BenchMoral.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Flores-BenchMoral.pdf]]"
 publication: "EA Forum"
 CONF-CC: N/A
 DATE_ADDED: 20260213

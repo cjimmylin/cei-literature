@@ -7,8 +7,8 @@ key: 4TRXZEK5
 type: document
 short_title: "Yankari: Monolingual Yoruba Dataset"
 year: 2025
-first_author: [[Akpobi]]
-last_author: [[Maro]]
+first_author: "[[Akpobi]]"
+last_author: "[[Maro]]"
 authors: "Akpobi; Maro"
 url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"

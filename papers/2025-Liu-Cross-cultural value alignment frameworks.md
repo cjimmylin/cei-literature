@@ -7,8 +7,8 @@ key: ARXIV_2511_17256
 type: preprint
 short_title: "Cross-cultural value alignment frameworks"
 year: 2025
-first_author: [[Liu]]
-last_author: [[Qiaoling]]
+first_author: "[[Liu]]"
+last_author: "[[Qiaoling]]"
 authors: "Liu; Haijiang; Gu; Jinguang; Wu; Xun; Hershcovich; Daniel; Xiao; Qiaoling"
 doi: 10.48550/arXiv.2511.17256
 tags: "Computer Science - AI Ethics"

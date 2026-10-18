@@ -7,8 +7,8 @@ key: EXSR0679
 type: preprint
 short_title: "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability"
 year: 2026
-first_author: [[Unknown]]
-last_author: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
 authors: Unknown
 authors_incomplete: true
 url: "https://arxiv.org/abs/2603.16017"

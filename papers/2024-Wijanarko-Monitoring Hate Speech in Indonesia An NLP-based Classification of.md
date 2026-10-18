@@ -7,8 +7,8 @@ key: LSRC0123
 type: conferencePaper
 short_title: "Monitoring Hate Speech in Indonesia: An NLP-based Classification of Social Media Texts"
 year: 2024
-first_author: [[Wijanarko]]
-last_author: [[Wijaya]]
+first_author: "[[Wijanarko]]"
+last_author: "[[Wijaya]]"
 authors: "Wijanarko; Susanto; Pratama; Idris; Hong; Wijaya"
 url: "https://aclanthology.org/2024.emnlp-demo.15/"
 external_pdf: "https://aclanthology.org/2024.emnlp-demo.15.pdf"

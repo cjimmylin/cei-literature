@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Ji-BeaverTails.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Ji-BeaverTails.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ji-BeaverTails.pdf]]"
 publication: "NeurIPS 2023"
 CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260207

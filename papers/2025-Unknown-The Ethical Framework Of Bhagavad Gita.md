@@ -3,7 +3,7 @@ key: CGSR0098
 type: document
 short_title: "The Ethical Framework Of Bhagavad Gita And Artificial Intelligence"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://nano-ntp.com/index.php/nano/article/download/5850/4716/11545"
 abstract: "Bhagavad Gita nishkama karma ethics applied to AI systems"

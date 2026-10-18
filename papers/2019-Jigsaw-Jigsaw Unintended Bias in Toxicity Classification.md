@@ -7,8 +7,8 @@ key: JASNQSSB
 type: document
 short_title: "Jigsaw Unintended Bias in Toxicity Classification"
 year: 2019
-first_author: [[Jigsaw]]
-last_author: [[Kaggle]]
+first_author: "[[Jigsaw]]"
+last_author: "[[Kaggle]]"
 authors: "Jigsaw; Kaggle /"
 url: "https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification"
 external_pdf: "http://arxiv.org/pdf/2210.11762"

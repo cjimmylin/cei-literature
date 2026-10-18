@@ -3,7 +3,7 @@ key: CGSR0047
 type: document
 short_title: "AI and Humanistic Buddhism"
 year: 2024
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.academia.edu/122707128/AI_and_Humanistic_Buddhism"
 abstract: "Humanistic Buddhist perspectives on AI development and ethics"

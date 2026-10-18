@@ -7,7 +7,7 @@ key: EXSR0294
 type: preprint
 short_title: "Reward Model Perspectives on Demographic Alignment (Elle et al.)"
 year: 2025
-first_author: [[Yang]]
+first_author: "[[Yang]]"
 last_author: "[[Elle Michelle]]"
 authors: "Yang; Elle Michelle"
 authors_incomplete: false

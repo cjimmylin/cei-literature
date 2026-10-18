@@ -3,7 +3,7 @@ key: EXSR0705
 type: incollection
 short_title: "Dharma in the Digital Age: Some Reflections on Buddhism and Artificial Intelligence"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.researchgate.net/publication/394470167"
 publication_title: "Mind, Text, and Reality in Buddhist Studies"

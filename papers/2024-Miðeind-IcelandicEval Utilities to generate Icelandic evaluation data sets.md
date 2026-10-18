@@ -7,8 +7,8 @@ key: LSRC0496
 type: conferencePaper
 short_title: "IcelandicEval: Utilities to generate Icelandic evaluation data sets for LLMs"
 year: 2024
-first_author: [[Miðeind]]
-last_author: [[Miðeind]]
+first_author: "[[Miðeind]]"
+last_author: "[[Miðeind]]"
 authors: Miðeind
 url: "https://github.com/mideind/IcelandicEval"
 publication: GitHub

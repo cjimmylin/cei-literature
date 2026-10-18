@@ -7,8 +7,8 @@ key: AUTO_ZOHNY2025
 type: preprint
 short_title: "ADEPT Simulating Ethics"
 year: 2025
-first_author: [[Zohny]]
-last_author: [[Hazem]]
+first_author: "[[Zohny]]"
+last_author: "[[Hazem]]"
 authors: "Zohny; Hazem"
 doi: 10.48550/arXiv.2505.21112
 url: "https://arxiv.org/abs/2505.21112"

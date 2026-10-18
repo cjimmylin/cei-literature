@@ -7,8 +7,8 @@ key: LSRC0641
 type: journalArticle
 short_title: "A new dataset for mongolian online handwritten recognition"
 year: 2024
-first_author: [[Enkhbold]]
-last_author: [[Enkhbold]]
+first_author: "[[Enkhbold]]"
+last_author: "[[Enkhbold]]"
 authors: Enkhbold
 url: "https://www.nature.com/articles/s41598-022-27267-8"
 external_pdf: "https://www.nature.com/articles/s41598-022-27267-8.pdf"

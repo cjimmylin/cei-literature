@@ -7,8 +7,8 @@ key: LSRC0657
 type: conferencePaper
 short_title: "Hate Speech Dataset Catalogue | hatespeechdata"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://hatespeechdata.com/"
 external_pdf: "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.760.pdf"

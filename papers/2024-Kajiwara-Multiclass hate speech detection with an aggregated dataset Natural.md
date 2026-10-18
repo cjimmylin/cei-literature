@@ -7,8 +7,8 @@ key: LSRC0721
 type: conferencePaper
 short_title: "Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.cambridge.org/core/journals/natural-language-processing/article/multiclass-hate-speech-detection-with-an-aggregated-dataset/2390980624C97F92CD264A67CFA6ACE2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2390980624C97F92CD264A67CFA6ACE2/S2977042424000621a.pdf/multiclass-hate-speech-detection-with-an-aggregated-dataset.pdf"

@@ -7,8 +7,8 @@ key: EXSR0688
 type: conferencePaper
 short_title: "Exploring the psychology of LLMs' moral and legal reasoning"
 year: 2024
-first_author: [[Unknown]]
-last_author: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
 authors: Unknown
 authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/abs/pii/S000437022400081X"

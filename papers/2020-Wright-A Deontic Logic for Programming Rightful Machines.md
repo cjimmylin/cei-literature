@@ -7,7 +7,7 @@ key: WRIGHT2020
 type: conferencePaper
 short_title: "Deontic Logic for Rightful Machines"
 year: 2020
-first_author: [[Wright]]
+first_author: "[[Wright]]"
 last_author: "[[Ava Thomas]]"
 authors: "Wright; Ava Thomas"
 doi: 10.1145/3375627.3375867

@@ -7,8 +7,8 @@ key: LSRC0838
 type: conferencePaper
 short_title: "A Dataset for Investigating Tagalog-English Code-Switching"
 year: 2025
-first_author: [[Herrera]]
-last_author: [[Megan]]
+first_author: "[[Herrera]]"
+last_author: "[[Megan]]"
 authors: "Herrera; Megan"
 url: "https://aclanthology.org/2022.lrec-1.225.pdf"
 external_pdf: "https://aclanthology.org/2022.lrec-1.225.pdf"

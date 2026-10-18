@@ -7,8 +7,8 @@ abstract: "Large language models are increasingly consulted for Islamic knowledg
 DOI: 
 arxiv_id: 2603.23750
 DATA_URL: 
-pdf: [[2026-Abdelaal-IslamicMMLU.pdf]]
-pdf_extract: [[2026-Abdelaal-IslamicMMLU]]
+pdf: "[[2026-Abdelaal-IslamicMMLU.pdf]]"
+pdf_extract: "[[2026-Abdelaal-IslamicMMLU]]"
 extract_created: true
 is_benchmark: Yes
 is_eval: Yes

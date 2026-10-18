@@ -7,8 +7,8 @@ key: DALESSANDRO2024
 type: journalArticle
 short_title: "Deontology and Safe AI"
 year: 2024
-first_author: [[D'Alessandro]]
-last_author: [[William]]
+first_author: "[[D'Alessandro]]"
+last_author: "[[William]]"
 authors: "D'Alessandro; William"
 doi: 10.1007/s11098-024-02174-y
 url: "https://link.springer.com/article/10.1007/s11098-024-02174-y"

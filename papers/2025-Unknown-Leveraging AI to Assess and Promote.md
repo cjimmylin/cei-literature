@@ -3,7 +3,7 @@ key: CGSR0104
 type: document
 short_title: "Leveraging AI to Assess and Promote Dharma"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.ijfmr.com/papers/2025/4/63815.pdf"
 abstract: "Using AI to assess and promote dharmic principles"

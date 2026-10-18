@@ -7,8 +7,8 @@ key: ARXIV_2511_14476
 type: preprint
 short_title: "Operationalizing Pluralistic Values"
 year: 2025
-first_author: [[Sorensen]]
-last_author: [[Taylor]]
+first_author: "[[Sorensen]]"
+last_author: "[[Taylor]]"
 authors: "Sorensen; Taylor"
 doi: 10.48550/arXiv.2511.14476
 tags: "Computer Science - AI Ethics"

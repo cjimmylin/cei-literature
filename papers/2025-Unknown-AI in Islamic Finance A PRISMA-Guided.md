@@ -3,7 +3,7 @@ key: CGSR0067
 type: document
 short_title: "AI in Islamic Finance: A PRISMA-Guided Systematic Review on Sharia Compliance"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.researchgate.net/publication/398068529"
 abstract: "PRISMA systematic review of 26 publications on AI and Sharia compliance"

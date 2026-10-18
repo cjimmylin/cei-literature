@@ -3,7 +3,7 @@ key: EXSR0694
 type: journalArticle
 short_title: "Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.tandfonline.com/doi/full/10.1080/23736992.2025.2553146"
 publication_title: "Journal of Media Ethics"

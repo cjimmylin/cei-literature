@@ -3,7 +3,7 @@ key: CGSR0065
 type: journalArticle
 short_title: "Ethics of AI in Maqasid Al-Sharia's Perspective"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://ejournal.iainmadura.ac.id/index.php/karsa/article/view/19617"
 abstract: "AI ethics through the five objectives of Sharia"

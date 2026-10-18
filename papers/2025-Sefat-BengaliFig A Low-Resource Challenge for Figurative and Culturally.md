@@ -8,7 +8,7 @@ type: conferencePaper
 short_title: "BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali"
 year: 2025
 first_author: "[[Al Sefat]]"
-last_author: [[Abdullah]]
+last_author: "[[Abdullah]]"
 authors: "Al Sefat; Abdullah"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.mmloso-1.6/"

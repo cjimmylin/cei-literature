@@ -7,7 +7,7 @@ key: LSRC0758
 type: conferencePaper
 short_title: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 year: 2025
-first_author: [[LLMs]]
+first_author: "[[LLMs]]"
 last_author: "[[A Leaderboard to Benchmark Ethical Biases in]]"
 authors: "LLMs; A Leaderboard to Benchmark Ethical Biases in"
 authors_incomplete: false

@@ -7,7 +7,7 @@ key: ARXIV_2510_03892
 type: preprint
 short_title: "Kantian-Utilitarian XAI"
 year: 2025
-first_author: [[Atf]]
+first_author: "[[Atf]]"
 last_author: "[[Railton, Peter]]"
 authors: "Atf; Zahra; Lewis; Railton, Peter"
 doi: 10.48550/arXiv.2510.03892

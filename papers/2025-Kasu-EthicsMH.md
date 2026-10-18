@@ -13,7 +13,7 @@ authors: "S. K. R Kasu"
 url: "https://arxiv.org/abs/2509.11648"
 external_pdf: "https://arxiv.org/pdf/2509.11648.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kasu-EthicsMH.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Kasu-EthicsMH.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kasu-EthicsMH.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

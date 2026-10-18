@@ -3,7 +3,7 @@ key: CGSR0066
 type: document
 short_title: "AI in Islamic Finance: A Maqasid Al-Shariah Perspective"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.researchgate.net/publication/394731467"
 abstract: "AI alignment with five dimensions of Maqasid al-Shariah in finance"

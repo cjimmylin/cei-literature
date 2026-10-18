@@ -7,8 +7,8 @@ key: LSRC0722
 type: journalArticle
 short_title: "A comprehensive framework for multi-modal hate speech detection in social media using deep learning"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.nature.com/articles/s41598-025-94069-z"
 external_pdf: "https://www.nature.com/articles/s41598-025-94069-z.pdf"

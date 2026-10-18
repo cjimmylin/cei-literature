@@ -3,7 +3,7 @@ key: CGSR0002
 type: document
 short_title: "AI Ethics Meets Ubuntu: Towards A Context-Aware Governance Model For Sustainable Innovation In Africa"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.researchgate.net/publication/394370886"
 abstract: "Context-aware governance model combining AI ethics with Ubuntu philosophy"

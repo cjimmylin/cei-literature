@@ -7,7 +7,7 @@ key: 2JMQI7PK
 type: document
 short_title: "2025 AI Safety Index"
 year: 2025
-first_author: [[Institute]]
+first_author: "[[Institute]]"
 last_author: "[[Future of Life]]"
 authors: "Institute; Future of Life"
 url: "https://futureoflife.org/ai-safety-index-summer-2025/"

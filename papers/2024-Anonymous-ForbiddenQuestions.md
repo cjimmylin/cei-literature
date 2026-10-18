@@ -7,8 +7,8 @@ key: TQADI49R
 type: conferencePaper
 short_title: ForbiddenQuestions
 year: 2024
-first_author: [[Anonymous]]
-last_author: [[Anonymous]]
+first_author: "[[Anonymous]]"
+last_author: "[[Anonymous]]"
 authors: Anonymous
 doi: 10.1145/3658644.3670388
 url: "https://dl.acm.org/doi/10.1145/3658644.3670388"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, PaLM, ChatGLM, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2024/2024-Anonymous-ForbiddenQuestions.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 15
 virtue_ethics: 0

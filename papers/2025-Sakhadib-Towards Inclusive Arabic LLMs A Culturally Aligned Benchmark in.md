@@ -7,8 +7,8 @@ key: LSRC0710
 type: conferencePaper
 short_title: "Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation"
 year: 2025
-first_author: [[Sakhadib]]
-last_author: [[Sakhadib]]
+first_author: "[[Sakhadib]]"
+last_author: "[[Sakhadib]]"
 authors: Sakhadib
 url: "https://aclanthology.org/2025.loreslm-1.29/"
 external_pdf: "https://aclanthology.org/2025.loreslm-1.29.pdf"

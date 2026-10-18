@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.12864"
 external_pdf: "https://arxiv.org/pdf/2505.12864.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fan-LEXam.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Fan-LEXam.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fan-LEXam.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

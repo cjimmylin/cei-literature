@@ -47,7 +47,7 @@ tags:
 abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
 pdf: "http://arxiv.org/pdf/2305.17701"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBI.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Lee-KoSBI.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lee-KoSBI.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: GPT-3

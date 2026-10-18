@@ -3,7 +3,7 @@ key: CGSR0129
 type: document
 short_title: "AI infrastructure's environmental costs clash with Pacific Island nations' needs"
 year: 2025
-first_author: [[Brookings]]
+first_author: "[[Brookings]]"
 authors: Brookings
 url: "https://www.brookings.edu/articles/ai-infrastructures-environmental-costs-clash-with-pacific-island-nations-needs/"
 abstract: "Environmental costs of AI infrastructure vs Pacific Island nations' sustainability needs"

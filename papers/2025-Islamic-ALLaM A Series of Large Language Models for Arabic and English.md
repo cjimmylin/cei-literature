@@ -7,8 +7,8 @@ key: LSRC0750
 type: conferencePaper
 short_title: "ALLaM: A Series of Large Language Models for Arabic and English"
 year: 2025
-first_author: [[Islamic]]
-last_author: [[Islamic]]
+first_author: "[[Islamic]]"
+last_author: "[[Islamic]]"
 authors: Islamic
 url: "https://openreview.net/pdf?id=q9kPg2ndg2"
 external_pdf: "https://arxiv.org/pdf/2407.15390.pdf"

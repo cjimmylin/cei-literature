@@ -7,8 +7,8 @@ key: LSRC0053
 type: conferencePaper
 short_title: "Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection"
 year: 2021
-first_author: [[Saha]]
-last_author: [[Saha]]
+first_author: "[[Saha]]"
+last_author: "[[Saha]]"
 authors: Saha
 url: "https://hate-alert.github.io/publication/saha2021hate/"
 external_pdf: "https://arxiv.org/pdf/2102.10084v1.pdf"

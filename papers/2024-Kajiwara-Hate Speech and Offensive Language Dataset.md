@@ -7,8 +7,8 @@ key: LSRC0724
 type: conferencePaper
 short_title: "Hate Speech and Offensive Language Dataset"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
 external_pdf: "https://doi.org/10.1016/j.ipm.2021.102524"

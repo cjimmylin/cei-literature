@@ -7,8 +7,8 @@ key: EXSR0680
 type: conferencePaper
 short_title: "Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework"
 year: 2025
-first_author: [[Chakraborty]]
-last_author: [[Jurgens]]
+first_author: "[[Chakraborty]]"
+last_author: "[[Jurgens]]"
 authors: "Chakraborty; Wang; Jurgens"
 authors_incomplete: true
 url: "https://aclanthology.org/2025.emnlp-main.1541/"

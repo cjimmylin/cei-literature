@@ -7,13 +7,13 @@ key: 9PE6HG5I
 type: document
 year: 2010
 short_title: GurbaniDB
-first_author: [[Project]]
+first_author: "[[Project]]"
 last_author: "[[The Sikher]]"
 authors: "Project; The Sikher"
 url: "https://sikher.com/projects/gurbanidb/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniDB.pdf"
 pdf_extract: "PDF Extracts/2010/2010-Project-GurbaniDB.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2010/2010-Project-GurbaniDB.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2010/2010-Project-GurbaniDB.pdf]]"
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian
 languages_list: Gurmukhi

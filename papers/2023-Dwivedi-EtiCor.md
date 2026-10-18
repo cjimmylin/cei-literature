@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, Falcon, GPT-3.5"
 DATA_URL: "https://github.com/Exploration-Lab/EtiCor"
 pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Dwivedi-EtiCor.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Dwivedi-EtiCor.pdf]]"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: 0
 virtue_ethics: 0

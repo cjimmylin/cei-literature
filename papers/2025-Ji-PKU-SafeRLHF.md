@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ji-PKU-SafeRLHF.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207

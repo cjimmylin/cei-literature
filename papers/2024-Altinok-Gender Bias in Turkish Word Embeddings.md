@@ -7,8 +7,8 @@ key: EXSR0484
 type: conference_paper
 short_title: "Gender Bias in Turkish Word Embeddings"
 year: 2024
-first_author: [[Altinok]]
-last_author: [[Duygu]]
+first_author: "[[Altinok]]"
+last_author: "[[Duygu]]"
 authors: "Altinok; Duygu"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.gebnlp-1.13.pdf"

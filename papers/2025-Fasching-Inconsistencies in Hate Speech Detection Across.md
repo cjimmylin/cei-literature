@@ -7,8 +7,8 @@ key: EXSR0383
 type: preprint
 short_title: "Inconsistencies in Hate Speech Detection Across"
 year: 2025
-first_author: [[Fasching]]
-last_author: [[Yphtach]]
+first_author: "[[Fasching]]"
+last_author: "[[Yphtach]]"
 authors: "Fasching; Neil and Lelkes; Yphtach"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.1144.pdf"

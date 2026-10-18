@@ -3,7 +3,7 @@ key: CGSR0130
 type: document
 short_title: "Bridging the divide: building Pacific agency in the AI era"
 year: 2025
-first_author: [[Devpolicy]]
+first_author: "[[Devpolicy]]"
 authors: Devpolicy
 url: "https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-ai-era-20250711/"
 abstract: "Building Pacific Island agency and governance in AI era"

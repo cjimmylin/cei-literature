@@ -7,8 +7,8 @@ key: EXSR0685
 type: conferencePaper
 short_title: "AI Psychometrics: Assessing the Psychological Profiles of Large Language Models Through Psychometric Inventories"
 year: 2024
-first_author: [[Pellert]]
-last_author: [[Strohmaier]]
+first_author: "[[Pellert]]"
+last_author: "[[Strohmaier]]"
 authors: "Pellert; Lechner; Wagner; Rammstedt; Strohmaier"
 authors_incomplete: true
 url: "https://journals.sagepub.com/doi/10.1177/17456916231214460"

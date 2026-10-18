@@ -7,8 +7,8 @@ key: EXSR0529
 type: preprint
 short_title: "Social Bias in Large Language Models"
 year: 2024
-first_author: [[Sadhu]]
-last_author: [[Saha]]
+first_author: "[[Sadhu]]"
+last_author: "[[Saha]]"
 authors: "Sadhu; Saha"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03536"

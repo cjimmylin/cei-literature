@@ -3,7 +3,7 @@ key: CGSR0095
 type: document
 short_title: "Integrating Mahabharata's Ethical Principles into Artificial Intelligence"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://zenodo.org/records/15823698"
 abstract: "Mahabharata ethical principles (dharma, karma, nishkama karma) applied to AI"

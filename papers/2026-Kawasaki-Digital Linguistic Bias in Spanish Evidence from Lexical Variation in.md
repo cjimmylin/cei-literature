@@ -7,8 +7,8 @@ key: LSRC0294
 type: preprint
 short_title: "Digital Linguistic Bias in Spanish: Evidence from Lexical Variation in LLMs"
 year: 2026
-first_author: [[Kawasaki]]
-last_author: [[Yoshifumi]]
+first_author: "[[Kawasaki]]"
+last_author: "[[Yoshifumi]]"
 authors: "Kawasaki; Yoshifumi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.09346"

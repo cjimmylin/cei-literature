@@ -7,8 +7,8 @@ key: LSRC0059
 type: conferencePaper
 short_title: "Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)"
 year: 2022
-first_author: [[Hate-speech-CNERG]]
-last_author: [[Hate-speech-CNERG]]
+first_author: "[[Hate-speech-CNERG]]"
+last_author: "[[Hate-speech-CNERG]]"
 authors: Hate-speech-CNERG
 url: "https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL"
 external_pdf: "https://arxiv.org/pdf/2204.12543"

@@ -8,7 +8,7 @@ type: conferencePaper
 short_title: "Cross-Cultural Challenges to Artificial Intelligence Ethics"
 year: 2025
 first_author: "[[Hadi Mohammadi]]"
-last_author: [[Yasmeen]]
+last_author: "[[Yasmeen]]"
 authors: "Hadi Mohammadi; Yasmeen"
 url: "https://www.mdpi.com/2813-0324/8/1/21"
 publication: MDPI

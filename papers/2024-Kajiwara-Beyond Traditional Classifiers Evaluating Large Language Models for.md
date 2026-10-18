@@ -7,8 +7,8 @@ key: LSRC0725
 type: conferencePaper
 short_title: "Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.mdpi.com/2079-3197/13/8/196"
 publication: MDPI

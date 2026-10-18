@@ -7,8 +7,8 @@ key: DOI_S43681_025_00759_9
 type: journalArticle
 short_title: "Towards ethical evolution"
 year: 2025
-first_author: [[Terziyan]]
-last_author: [[Oleksandra]]
+first_author: "[[Terziyan]]"
+last_author: "[[Oleksandra]]"
 authors: "Terziyan; Vagan; Tiihonen; Timo; Shukla; Kallet, Amit; Gryshko; Svitlana; Golovianko; Mariia; Terziyan; Oleksandr; Vitko; Oleksandra"
 doi: 10.1007/s43681-025-00759-9
 tags: "Computer Science - AI Ethics"

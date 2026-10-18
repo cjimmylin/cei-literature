@@ -7,7 +7,7 @@ key: LSRC0772
 type: conferencePaper
 short_title: "Multi-lingual HateSpeech Dataset"
 year: 2025
-first_author: [[Moosa]]
+first_author: "[[Moosa]]"
 last_author: "[[Wajid Hassan]]"
 authors: "Moosa; Wajid Hassan"
 authors_incomplete: false

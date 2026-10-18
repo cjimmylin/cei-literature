@@ -7,8 +7,8 @@ key: LSRC0779
 type: conferencePaper
 short_title: "Jigsaw Multilingual Toxic Comment Classification"
 year: 2025
-first_author: [[Jigsaw]]
-last_author: [[Jigsaw]]
+first_author: "[[Jigsaw]]"
+last_author: "[[Jigsaw]]"
 authors: Jigsaw
 url: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
 publication: Web

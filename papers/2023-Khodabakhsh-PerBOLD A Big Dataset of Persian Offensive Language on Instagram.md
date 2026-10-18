@@ -7,8 +7,8 @@ key: LSRC0139
 type: journalArticle
 short_title: "PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments"
 year: 2023
-first_author: [[Khodabakhsh]]
-last_author: [[Ghayoomi]]
+first_author: "[[Khodabakhsh]]"
+last_author: "[[Ghayoomi]]"
 authors: "Khodabakhsh; Jafarinejad; Rahimi; Ghayoomi"
 url: "https://tjee.tabrizu.ac.ir/article_15794.html"
 publication: "Tabriz Journal of Electrical Engineering"

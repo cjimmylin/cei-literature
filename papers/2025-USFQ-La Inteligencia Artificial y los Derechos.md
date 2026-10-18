@@ -3,7 +3,7 @@ key: CGSR0156
 type: document
 short_title: "La Inteligencia Artificial y los Derechos Fundamentales en Ecuador"
 year: 2025
-first_author: [[USFQ]]
+first_author: "[[USFQ]]"
 authors: USFQ
 url: "https://researchpapers.usfq.edu.ec/index.php/usfqlawwp/preprint/view/182"
 abstract: "AI and fundamental rights in Ecuador including constitutional buen vivir framework"

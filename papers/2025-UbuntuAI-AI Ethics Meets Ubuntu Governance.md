@@ -3,7 +3,7 @@ key: EXSR0702
 type: journalArticle
 short_title: "AI Ethics Meets Ubuntu: Towards a Context-Aware Governance Model for Sustainable Innovation in Africa"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://ijsrm.net/index.php/ijsrm/article/view/6558"
 publication_title: "International Journal of Scientific Research and Management"

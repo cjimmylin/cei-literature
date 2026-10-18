@@ -13,7 +13,7 @@ authors: "Hongfei Xia; Hongru Wang; Zeming Liu; Qian Yu; Yuhang Guo; Haifeng Wan
 url: "https://arxiv.org/abs/2509.07315"
 external_pdf: "https://arxiv.org/pdf/2509.07315.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xia-SafeToolBench.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Xia-SafeToolBench.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xia-SafeToolBench.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

@@ -7,8 +7,8 @@ key: LSRC0736
 type: conferencePaper
 short_title: "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious"
 year: 2025
-first_author: [[Islamic]]
-last_author: [[Islamic]]
+first_author: "[[Islamic]]"
+last_author: "[[Islamic]]"
 authors: Islamic
 url: "https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618"
 external_pdf: "https://arxiv.org/pdf/2508.08287v1.pdf"

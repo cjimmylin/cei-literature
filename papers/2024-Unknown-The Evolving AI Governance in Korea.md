@@ -3,7 +3,7 @@ key: CGSR0084
 type: document
 short_title: "The Evolving AI Governance in Korea"
 year: 2024
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.tandfonline.com/doi/pdf/10.1080/18752160.2024.2348307"
 abstract: "South Korea's evolving AI governance framework"

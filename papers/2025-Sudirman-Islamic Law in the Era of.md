@@ -3,7 +3,7 @@ key: CGSR0063
 type: document
 short_title: "Islamic Law in the Era of AI: A Systematic Literature Review"
 year: 2025
-first_author: [[Sudirman]]
+first_author: "[[Sudirman]]"
 authors: Sudirman
 url: "https://ijesty.org/index.php/ijesty/article/view/1072"
 abstract: "Systematic review of AI and Islamic law literature"

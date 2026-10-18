@@ -13,7 +13,7 @@ authors: "Chiu, Yu Ying; Michael S. Lee; Calcott, Rachel; Handoko, Brandon; Font
 doi: 10.48550/arXiv.2510.16380
 url: "http://arxiv.org/abs/2510.16380"
 pdf_extract: "PDF Extracts/2025/2025-Chiu-MoReBench.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-MoReBench.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-MoReBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
 CONF-CC: Preprint

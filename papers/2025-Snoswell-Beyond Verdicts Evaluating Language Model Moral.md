@@ -7,8 +7,8 @@ key: EXSR0684
 type: conferencePaper
 short_title: "Beyond Verdicts: Evaluating Language Model Moral Competence"
 year: 2025
-first_author: [[Snoswell]]
-last_author: [[Lazar]]
+first_author: "[[Snoswell]]"
+last_author: "[[Lazar]]"
 authors: "Snoswell; Kilov; Lazar"
 authors_incomplete: true
 url: "https://philarchive.org/rec/SNOBVE"

@@ -47,7 +47,7 @@ abstract: "Question–answering (QA) systems face considerable challenges when i
 LLM_assessed: "Gemini, Gemma"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Mohammed-Aftina.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammed-Aftina.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammed-Aftina.pdf]]"
 CONF-CC: "Neural Computing and Applications"
 DATE_ADDED: 20260207
 CONFERENCE: Journal

@@ -13,7 +13,7 @@ authors: "An, Zhiyu; Du, Wan"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
 pdf_extract: "PDF Extracts/2025/2025-An-MoralReason.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-An-MoralReason.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-An-MoralReason.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

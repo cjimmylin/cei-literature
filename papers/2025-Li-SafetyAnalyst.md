@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2410.16665"
 external_pdf: "https://arxiv.org/pdf/2410.16665.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Li-SafetyAnalyst.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Li-SafetyAnalyst.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Li-SafetyAnalyst.pdf]]"
 publication: "ICML 2025"
 CONF-CC: "ICML 2025"
 DATE_ADDED: 20260207

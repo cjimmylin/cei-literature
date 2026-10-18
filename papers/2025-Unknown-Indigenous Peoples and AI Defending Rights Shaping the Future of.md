@@ -7,9 +7,9 @@ key: LSRC0797
 type: conferencePaper
 short_title: "Indigenous Peoples and AI: Defending Rights, Shaping the Future of Technology | Cultural Survival"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.culturalsurvival.org/news/indigenous-peoples-and-ai-defending-rights-shaping-future-technology"
 external_pdf: "https://social.desa.un.org/sites/default/files/IDWIP%202025%20Concept%20Note%20FINAL.pdf?_gl=1*mx0iql*_ga*NDU3NDA5NzM1LjE3NTMxOTI1Nzg.*_ga_TK9BQL5X7Z*czE3NTQ2NTgxMDckbzIkZzAkdDE3NTQ2NTgxMDckajYwJGwwJGgw"

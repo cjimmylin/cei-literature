@@ -3,7 +3,7 @@ key: CGSR0037
 type: document
 short_title: "AI Governance in Latin America (Global Solutions Journal)"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.global-solutions-initiative.org/wp-content/uploads/2025/05/v8_WS_GS_journal_11_S156-163.pdf"
 abstract: "Latin American AI governance with focus on critical decolonial approach"

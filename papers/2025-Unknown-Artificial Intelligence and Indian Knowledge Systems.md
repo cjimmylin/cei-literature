@@ -3,7 +3,7 @@ key: CGSR0101
 type: document
 short_title: "Artificial Intelligence and Indian Knowledge Systems"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "http://journal.ijierm.co.in/index.php/ijierm/article/download/2855/2158/"
 abstract: "AI integration with traditional Indian knowledge systems"

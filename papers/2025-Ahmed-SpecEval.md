@@ -50,7 +50,7 @@ newtags: "Specification & Compliance"
 key_contribution: 
 significance: 
 paper_summary: 
-local_pdf: [[Lit-WS-PDFs/2025/2025-Ahmed-SpecEval.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ahmed-SpecEval.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ahmed-SpecEval.md"
 tags: 
 Human View: 

@@ -3,7 +3,7 @@ key: EXSR0701
 type: journalArticle
 short_title: "Maqasid Al-Shariah in the Age of AI: A Critical Examination"
 year: 2024
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://ejournal.um.edu.my/index.php/RIS/article/download/53308/17540/159029"
 publication_title: "Review of Islamic Studies"

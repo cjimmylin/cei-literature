@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Team-WildGuard.md"
 abstract: "We introduce WILDGUARD—an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses, and (3) determining model refusal rate. Together, WILDGUARD serves the increasing needs for automatic safety moderation and evaluation of LLM interactions, providing a one-stop tool with enhanced accuracy and broad coverage across 13 risk categories. While existing open moderation tools such as Llam"
 paper_summary: "Abstract: We introduce WILDGUARD—an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses,  | Overview: WILDGUARD: Open One-stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs Seungju Han∗♡♠ Kavel Rao∗♢ Allyson Ettinger†♡ Liwei Jiang†♡♢ Bill Yuchen Lin♡ Nathan Lambert♡ Yejin Choi♡♢  | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. [26] Meta. Meta llama guard 2: Model cards and prompt f | Conclusions: In this work, we introduce WILDGUARD, a unified multi-task open LLM safety moderation model capable of detecting diverse types of vanilla and adversar"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Team-WildGuard.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Team-WildGuard.pdf]]"
 LLM_assessed: "GPT-4, LLaMA, Mistral, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/allenai/wildguardmix, https://github.com/allenai/wildguard"
 publication: "NeurIPS 2024"

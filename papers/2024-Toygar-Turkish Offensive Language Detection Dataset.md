@@ -7,8 +7,8 @@ key: EXSR0537
 type: preprint
 short_title: "Turkish Offensive Language Detection Dataset"
 year: 2024
-first_author: [[Toygar]]
-last_author: [[Toygar]]
+first_author: "[[Toygar]]"
+last_author: "[[Toygar]]"
 authors: Toygar
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"

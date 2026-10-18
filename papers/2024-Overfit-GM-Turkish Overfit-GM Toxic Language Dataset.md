@@ -7,8 +7,8 @@ key: EXSR0538
 type: preprint
 short_title: "Turkish Overfit-GM Toxic Language Dataset"
 year: 2024
-first_author: [[Overfit-GM]]
-last_author: [[Overfit-GM]]
+first_author: "[[Overfit-GM]]"
+last_author: "[[Overfit-GM]]"
 authors: Overfit-GM
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language"

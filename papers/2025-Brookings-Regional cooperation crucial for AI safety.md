@@ -3,7 +3,7 @@ key: CGSR0038
 type: document
 short_title: "Regional cooperation crucial for AI safety and governance in Latin America"
 year: 2025
-first_author: [[Brookings]]
+first_author: "[[Brookings]]"
 authors: Brookings
 url: "https://www.brookings.edu/articles/regional-cooperation-crucial-for-ai-safety-and-governance-in-latin-america/"
 abstract: "Regional cooperation needs for AI governance in Latin America"

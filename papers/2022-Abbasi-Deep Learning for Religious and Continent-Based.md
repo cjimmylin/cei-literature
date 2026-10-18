@@ -7,8 +7,8 @@ key: EXSR0583
 type: preprint
 short_title: "Deep Learning for Religious and Continent-Based"
 year: 2022
-first_author: [[Abbasi]]
-last_author: [[F.]]
+first_author: "[[Abbasi]]"
+last_author: "[[F.]]"
 authors: "Abbasi; A.; Javed; A.R.; Iqbal; F."
 authors_incomplete: false
 url: 

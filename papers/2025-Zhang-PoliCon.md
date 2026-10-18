@@ -13,7 +13,7 @@ authors: "Zhaowei Zhang; Xiaobo Wang; Minghua Yi; Mengmeng Wang; Fengshuo Bai; Z
 url: "https://arxiv.org/abs/2505.19558"
 external_pdf: "https://arxiv.org/pdf/2505.19558.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-PoliCon.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-PoliCon.pdf]]
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-PoliCon.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

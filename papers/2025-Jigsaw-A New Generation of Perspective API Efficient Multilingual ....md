@@ -7,8 +7,8 @@ key: LSRC0781
 type: conferencePaper
 short_title: "A New Generation of Perspective API: Efficient Multilingual ..."
 year: 2025
-first_author: [[Jigsaw]]
-last_author: [[Jigsaw]]
+first_author: "[[Jigsaw]]"
+last_author: "[[Jigsaw]]"
 authors: Jigsaw
 doi: 10.1145/3534678.3539147
 url: "https://dl.acm.org/doi/pdf/10.1145/3534678.3539147"

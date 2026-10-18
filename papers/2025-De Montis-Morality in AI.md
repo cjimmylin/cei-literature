@@ -13,7 +13,7 @@ authors: "Gunter Bombaerts; Bram Delisse; Uzay Kaymak"
 doi: N/A
 url: "https://arxiv.org/abs/2511.20689"
 pdf_extract: "PDF Extracts/2025/2025-De Montis-Morality in AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-De Montis-Morality in AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-De Montis-Morality in AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-De Montis-Morality in AI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-De Montis-Morality in AI.pdf|Open PDF]]
 
 
 - **arXiv:** https://arxiv.org/

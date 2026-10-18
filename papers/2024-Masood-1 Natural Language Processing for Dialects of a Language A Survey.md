@@ -8,14 +8,14 @@ type: preprint
 short_title: "1 Natural Language Processing for Dialects of a Language: A Survey"
 year: 2024
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph]]"
 authors: "Adnan Masood; Ph"
 url: "https://arxiv.org/pdf/2401.05632"
 external_pdf: "https://arxiv.org/pdf/2401.05632.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

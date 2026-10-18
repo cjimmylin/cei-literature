@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/AKSW/gerbil/tree/QuestionAnswering"
 pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

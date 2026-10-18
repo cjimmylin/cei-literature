@@ -7,8 +7,8 @@ key: EXSR0686
 type: conferencePaper
 short_title: "The Staircase of Ethics: Probing LLM Value Priorities through Multi-Step Induction to Complex Moral Dilemmas"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
 authors: Unknown
 authors_incomplete: true
 url: "https://aclanthology.org/2025.emnlp-main.806/"

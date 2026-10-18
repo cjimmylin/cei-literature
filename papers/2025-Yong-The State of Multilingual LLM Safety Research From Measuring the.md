@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.24119"
 external_pdf: "https://arxiv.org/pdf/2505.24119.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

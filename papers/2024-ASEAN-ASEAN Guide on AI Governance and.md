@@ -3,7 +3,7 @@ key: CGSR0051
 type: document
 short_title: "ASEAN Guide on AI Governance and Ethics"
 year: 2024
-first_author: [[ASEAN]]
+first_author: "[[ASEAN]]"
 authors: ASEAN
 url: "https://asean.org/book/asean-guide-on-ai-governance-and-ethics/"
 abstract: "ASEAN's voluntary framework on AI governance and ethics principles"

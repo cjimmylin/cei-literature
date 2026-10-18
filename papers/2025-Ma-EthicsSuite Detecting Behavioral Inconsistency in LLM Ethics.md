@@ -44,7 +44,7 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 pdf_extract: "PDF Extracts/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
 newtags: "Ethics-Testing, Reflective-Equilibrium, Behavioral-Inconsistency, LLM-Evaluation"
 tags: 
 abstract: "As the popularity of large language models (LLMs) soars across various applications, ensuring their alignment with human values has become a paramount concern. In particular, given that LLMs have great potential to serve as general-purpose AI assistants in daily life, their subtly unethical suggestions become a serious and real concern. Tackling the challenge of automatically testing and repairing unethical suggestions is thus demanding."
@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 - **DOI:** https://doi.org/10.1145/3722554
 - **arXiv:** https://arxiv.org/abs/2305.02626
 - **Code:** https://github.com/LLM-Ethics/EthicsSuite
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf|Open PDF]]
 
 ## Abstract
 

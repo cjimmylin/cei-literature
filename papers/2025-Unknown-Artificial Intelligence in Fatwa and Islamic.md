@@ -3,7 +3,7 @@ key: CGSR0057
 type: conferencePaper
 short_title: "Artificial Intelligence in Fatwa and Islamic Law: Prospects, Regulations, and Ethics"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://jurnal.uindatokarama.ac.id/index.php/iciis/article/view/4445"
 abstract: "AI in fatwa formulation and Islamic law, regulatory and ethical analysis"

@@ -60,7 +60,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
 abstract: "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of r"
 DATE_ADDED: 20260208
 LLM_assessed: Gemini
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.14068
 - **DOI:** https://doi.org/10.48550/arXiv.2404.14068

@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Han-FFB.md"
 abstract: "This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking framework for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. However, there exist challenges in comparing and developing fairness methods due to inconsistencies in experimental settings, lack of accessible algorithmic implementations, and limited extensibility of current fairness packages and tools."
 paper_summary: "Abstract: This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking frame- work for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. | Overview: Published as a conference paper at ICLR 2024 FFB: A FAIR FAIRNESS BENCHMARK FOR IN- PROCESSING GROUP FAIRNESS METHODS Xiaotian Han1∗Jianfeng Chi2 Yu Chen3 Qifan Wang2 Han Zhao4 Na Zou5 Xia Hu6 1Texas  | Methodology: lacks a comprehensive comparison, such as the training curves and stability, the influence of the utility-fairness trade-off parameters, and how to se"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Han-FFB.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Han-FFB.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/ahxt/fair_fairness_benchmark"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Han-FFB.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Han-FFB.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.09468
 - **DOI:** https://doi.org/10.48550/arXiv.2306.09468

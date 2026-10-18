@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2023.emnlp-main.1036.pdf"
 publication: OpenReview
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

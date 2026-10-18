@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15239"
 external_pdf: "https://arxiv.org/pdf/2506.15239.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf]]"
 publication: "arXiv / ACL Anthology / CoNLL 2025"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

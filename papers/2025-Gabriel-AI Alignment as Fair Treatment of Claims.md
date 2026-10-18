@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md"
 abstract: "The normative challenge of AI alignment centres upon what goals or values ought to be encoded in AI systems to govern their behaviour. A number of answers have been proposed, including the notion that AI must be aligned with human intentions or that it should aim to be helpful, honest and harmless. Nonetheless, both accounts suffer from critical weaknesses. On the one hand, they are incomplete: neither specification provides adequate guidance to AI systems, deployed across various domains with..."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Alignment & Fairness"
 LLM_assessed: NA

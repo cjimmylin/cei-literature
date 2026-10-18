@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, LLaMA, Gemma"
 DATA_URL: "https://github.com/TomBladsjo/MARB"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

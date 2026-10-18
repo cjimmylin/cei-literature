@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Kang-Are the Values of LLMs Structurally Aligned with.md"
 abstract: "As large language models (LLMs) become increasingly integrated into critical applications, aligning their behavior with human values presents significant challenges. Current methods, such as Reinforcement Learning from Human Feedback (RLHF), typically focus on a limited set of coarse-grained values and are resource-intensive. Moreover, the correlations between these values remain implicit, leading to unclear explanations for value-steering outcomes."
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into critical applica- tions, aligning their behavior with human val- ues presents significant challenges. Current methods, such as Reinf | Overview: Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective Yipeng Kang1, Junqi Wang1, Yexin Li1, Mengmeng Wang1, Wenming Tu1, Quansen Wang1,3, Hengli Li1,3, Tingjun Wu4, Xue Feng1,  | Methodology: to value steering compared to role-based prompts, as it influences fewer source nodes in the causal graph, thereby offering more targeted and precise  | Conclusions: In this paper, we explored the latent causal value structures of LLMs and found that, despite un- dergoing alignment training, their internal value me"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kang-Are the Values of LLMs Structurally Aligned with.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kang-Are the Values of LLMs Structurally Aligned with.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Kang-Are the Values of LLMs Structurally Aligned with.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Kang-Are the Values of LLMs Structurally Aligned with.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2501.00581
 - **DOI:** https://doi.org/10.48550/arXiv.2501.00581

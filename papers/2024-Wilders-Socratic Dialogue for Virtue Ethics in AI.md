@@ -46,7 +46,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md"
 abstract: "This paper investigates how the Socratic Dialogue can cultivate moral virtues among AI practitioners, focusing on core virtues identified by Hagendorff as essential to ethical AI practice: justice, care, honesty, responsibility, practical wisdom (phronesis), and fortitude. Using a case study conducted at a financial bank’s transaction monitoring department, we examine how structured ethical deliberation cultivates the dispositions needed to navigate moral complexity in AI ethics."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "Socratic AI Ethics"
 LLM_assessed: NA

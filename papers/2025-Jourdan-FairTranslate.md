@@ -12,7 +12,7 @@ last_author: "[[Favre, Cécile]]"
 authors: "Jourdan, Fanny; Chevalier, Yannick; Favre, Cécile"
 url: "https://arxiv.org/abs/2504.15941"
 pdf_extract: "PDF Extracts/2025/2025-Jourdan-FairTranslate.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Jourdan-FairTranslate.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jourdan-FairTranslate.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.15941.pdf"
 national_ethnic_cultural: French
 cultures_nationalities_list: French
@@ -84,7 +84,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Jourdan-FairTranslate.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Jourdan-FairTranslate.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.15941
 

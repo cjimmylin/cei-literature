@@ -46,7 +46,7 @@ significance: "Demonstrated that LMs can generate toxic content even from innocu
 tags: 
 abstract: "Pretrained neural language models (LMs) are prone to generating racist, sexist, or otherwise toxic language which hinders their safe deployment. We investigate the extent to which pretrained LMs can be prompted to generate toxic language, and the effectiveness of controllable text generation algorithms at preventing such toxic degeneration. We create and release REALTOXICITYPROMPTS, a dataset of 100K naturally occurring, sentence-level prompts derived from a large corpus of English web text,..."
 pdf_extract: "PDF Extracts/2020/2020-Gehman-RealToxicityPrompts.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2020/2020-Gehman-RealToxicityPrompts.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Gehman-RealToxicityPrompts.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3"

@@ -16,7 +16,7 @@ external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/down
 publication: "IberLEF / SEPLN"
 CONF-CC: "IberLEF 2021"
 pdf_extract: "PDF Extracts/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Spanish
 cultures_nationalities_list: Spanish

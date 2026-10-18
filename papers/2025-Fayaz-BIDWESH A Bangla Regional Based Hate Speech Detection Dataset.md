@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2507.16183"
 external_pdf: "https://arxiv.org/pdf/2507.16183.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

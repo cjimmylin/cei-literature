@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Chao-JBB-Behaviours.md"
 abstract: "Jailbreak attacks cause large language models (LLMs) to generate harmful, un- ethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current collection of benchmarks and evalua- tion techniques do not adequately address. First, there is no clear standard of practice regarding jailbreaking evaluation. Second, existing works compute costs and success rates in incomparable ways. And third, numerous works are not re- producible, as they withh"
 paper_summary: "Abstract: Jailbreak attacks cause large language models (LLMs) to generate harmful, un- ethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current c | Overview: JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models Patrick Chao∗1, Edoardo Debenedetti∗2, Alexander Robey∗1, Maksym Andriushchenko∗3, Francesco Croce3, Vikash Sehwag4, | Key Findings: framework at https://github.com/JailbreakBench/jailbreakbench that includes a clearly defined threat model, system prompts, chat templates, and scor-"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Chao-JBB-Behaviours.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Chao-JBB-Behaviours.pdf]]"
 LLM_assessed: "Vicuna, Llama-2, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/JailbreakBench/jailbreakbench"
 publication: "NeurIPS 2024"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Chao-JBB-Behaviours.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Chao-JBB-Behaviours.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2404.01318
 

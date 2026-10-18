@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2509.12340.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Dutch
 cultures_nationalities_list: Dutch

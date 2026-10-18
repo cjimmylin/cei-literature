@@ -15,7 +15,7 @@ external_pdf: "https://core.ac.uk/download/666045464.pdf"
 publication: "IEEE ICCIA 2024"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

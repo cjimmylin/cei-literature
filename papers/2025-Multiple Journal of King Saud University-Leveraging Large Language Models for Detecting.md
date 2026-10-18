@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s44443-025-00269-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00269-y.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
 publication: "Journal of King Saud University Computer and Information Sciences"
 CONF-CC: "Journal of King Saud University Computer and Information Sciences"
 DATE_ADDED: 20260213

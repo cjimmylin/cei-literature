@@ -48,7 +48,7 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2022/2022-Hendrycks-X-Risk Analysis for AI Research.md"
 abstract: "Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a systematic discussion of how to manage long-tail risks from AI systems, including speculative long-term risks. Keeping in mind the potential beneﬁts of AI, there is some concern that building ever more intelligent and powerful AI systems could eventually result in systems that are more powerful than us;..."
 paper_summary: "Abstract: Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a system-  | Overview: X-Risk Analysis for AI Research Dan Hendrycks UC Berkeley Mantas Mazeika UIUC Abstract Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it | Methodology: +Capabilities Method Figure 4: ImageNet model accuracies and their corre- sponding anomaly detection performance. The capa- bilities method does not m | Key Findings: could be suboptimal or even catastrophic if a sufﬁciently powerful AI successfully optimizes its ﬂawed objective to an extreme degree. | Conclusions: We provided a guiding document to help researchers understand and analyze AI x-risk. First, we reviewed general concepts for making systems safer, gro"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hendrycks-X-Risk Analysis for AI Research.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Hendrycks-X-Risk Analysis for AI Research.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -90,7 +90,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Hendrycks-X-Risk Analysis for AI Research.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2022/2022-Hendrycks-X-Risk Analysis for AI Research.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2206.05862
 

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.17756"
 external_pdf: "https://arxiv.org/pdf/2512.17756.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

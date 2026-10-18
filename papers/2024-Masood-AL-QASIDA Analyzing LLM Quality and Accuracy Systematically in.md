@@ -8,14 +8,14 @@ type: preprint
 short_title: "AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic"
 year: 2024
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph]]"
 authors: "Adnan Masood; Ph"
 url: "https://arxiv.org/html/2412.04193v2"
 external_pdf: "https://arxiv.org/pdf/2412.04193.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

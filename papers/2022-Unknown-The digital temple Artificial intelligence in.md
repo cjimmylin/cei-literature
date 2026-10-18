@@ -3,7 +3,7 @@ key: CGSR0105
 type: document
 short_title: "The digital temple: Artificial intelligence in Hindu religious contexts"
 year: 2022
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"
 abstract: "AI in Hindu religious contexts and digital temple concept"

@@ -16,7 +16,7 @@ external_pdf: "https://books.openedition.org/aaccademia/pdf/6732"
 publication: "EVALITA 2020"
 CONF-CC: "EVALITA 2020"
 pdf_extract: "PDF Extracts/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Italian
 cultures_nationalities_list: Italian

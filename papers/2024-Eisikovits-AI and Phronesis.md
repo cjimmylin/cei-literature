@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Eisikovits-AI and Phronesis.md"
 abstract: "We argue that the growing prevalence of statistical machine learning in everyday decision making – from creditworthiness to police force allocation – effectively replaces many of our humdrum practical judgments and that this will eventually undermine our capacity for making such judgments. We lean on Aristotle’s famous account of how phronesis and moral virtues develop to make our case. If Aristotle is right that the habitual exercise of practical judgment allows us to incrementally hone..."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Eisikovits-AI and Phronesis.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Eisikovits-AI and Phronesis.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Impact on Practical Wisdom"
 LLM_assessed: NA

@@ -8,13 +8,13 @@ type: conference_paper
 short_title: "Religious Bias Benchmarks for ChatGPT"
 year: 2024
 first_author: "[[Multiple authors (presented at conference on Human Freedom]]"
-last_author: [[AI)]]
+last_author: "[[AI)]]"
 authors: "Multiple authors (presented at conference on Human Freedom; AI)"
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/b2ug9/download"
 pdf_extract: "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.pdf]]"
 publication: "Conference on Human Freedom and AI / ResearchGate"
 CONF-CC: N/A
 DATE_ADDED: 20260213

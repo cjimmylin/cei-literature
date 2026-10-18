@@ -14,7 +14,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/6hrqj/download"
 pdf_extract: "PDF Extracts/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.pdf]]"
 publication: "Big Data & Society (SAGE)"
 CONF-CC: "Big Data & Society"
 DATE_ADDED: 20260213

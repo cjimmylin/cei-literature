@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Group-AILuminate.md"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
 paper_summary: "Abstract: The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMI- NATE v1.0, the first comprehensive industry-stan | Overview: 1 AILUMINATE: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons Shaona Ghosh1 Heather Frase2 Adina Williams3 Sarah Luger4 Paul Röttger5 Fazl Barez6,7 Sean McGregor8 Kenneth Fric | Methodology: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 | Key Findings: mechanism; a small number of human ratings serve to assess and improve evaluator performance."
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Group-AILuminate.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Group-AILuminate.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3, Mistral"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Group-AILuminate.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Group-AILuminate.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2503.05731
 

@@ -17,7 +17,7 @@ external_pdf: "https://www.nature.com/articles/s41598-025-88960-y.pdf"
 publication: "Nature Scientific Reports 2025"
 CONF-CC: "Nature Scientific Reports"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Korean
 cultures_nationalities_list: Korean

@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2504.11168"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: BERT
 DATA_URL: NA
 tags: 
-abstract: "Here are the web search results for \"transliterated text LLM evaluation safety bypass\": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi"
+abstract: "Large Language Models (LLMs) guardrail systems are designed to protect against prompt injection and jailbreak attacks. However, they remain vulnerable to evasion techniques. We demonstrate two approaches for bypassing LLM prompt injection and jailbreak detection systems via traditional character injection methods and algorithmic Adversarial Machine Learning (AML) evasion techniques. Through testing against six prominent protection systems, including Microsoft’s Azure Prompt Shield and Meta’s Prompt Guard, we show that both methods can be used to evade detection while maintaining adversarial utility achieving in some instances up to 100% evasion success. Furthermore, we demonstrate that adversaries can enhance Attack Success Rates (ASR) against black-box targets by leveraging word importance ranking computed by offline white-box models. Our findings reveal vulnerabilities within current LLM protection mechanisms and highlight the need for more robust guardrail systems."
 research_topic: Other
 CONFERENCE: "Other Conference"
 ethics_overall: 15

@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2022.woah-1.24.pdf"
 publication: "ACL Anthology (WOAH @ NAACL 2022)"
 CONF-CC: "NAACL 2022"
 pdf_extract: "PDF Extracts/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Italian
 cultures_nationalities_list: Italian

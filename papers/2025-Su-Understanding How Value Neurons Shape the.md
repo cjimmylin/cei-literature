@@ -50,7 +50,7 @@ significance: "Moves beyond behavioral alignment by establishing causal links be
 pdf_extract: "PDF Extracts/2025/2025-Su-Understanding How Value Neurons Shape the.md"
 abstract: "Rapid integration of large language models (LLMs) into societal applications has intensified concerns about their alignment with universal ethical principles, as their internal value representations remain opaque despite behavioral alignment advancements. Current approaches struggle to systematically interpret how values are encoded in neural architectures, limited by datasets that prioritize superficial judgments over mechanistic analysis."
 paper_summary: "Abstract: Rapid integration of large language models (LLMs) into societal applications has intensi- fied concerns about their alignment with univer- sal ethical principles, as their internal value rep- resentat | Overview: arXiv:2505.17712v1 [cs.CL] 23 May 2025 Understanding How Value Neurons Shape the Generation of Specified Values in LLMs Yi Su*,1,2, Jiayi Zhang*,1,3, Shu Yang†,1,2, Xinhai Wang1,2, Lijie Hu†,1,2, Di W | Methodology: cannot be applied to value-related neurons as deac- tivation will be meaningless. To address this issue, we propose a method that aims to manipulate a | Key Findings: value-related neurons. The details of the baselines are presented in Appendix D. • LPIP: Locating neurons using Log Probabil- ity and Inner Products ("
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2, Llama-3, Qwen-2"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.17712
 - **DOI:** https://doi.org/10.48550/arXiv.2505.17712

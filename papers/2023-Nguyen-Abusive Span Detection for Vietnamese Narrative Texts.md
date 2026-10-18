@@ -7,14 +7,14 @@ key: LSRC0376
 type: preprint
 short_title: "Abusive Span Detection for Vietnamese Narrative Texts"
 year: 2023
-first_author: [[Nguyen]]
-last_author: [[Nguyen]]
+first_author: "[[Nguyen]]"
+last_author: "[[Nguyen]]"
 authors: "Nguyen; Pham; Nguyen; Nguyen"
 doi: 10.1145/3628797.3628921
 url: "https://arxiv.org/abs/2312.07831"
 external_pdf: "https://arxiv.org/pdf/2312.07831.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
 publication: "arXiv / ACM SOICT 2023"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

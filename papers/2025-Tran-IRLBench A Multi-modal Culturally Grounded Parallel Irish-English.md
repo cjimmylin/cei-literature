@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2505.13498"
 external_pdf: "https://arxiv.org/pdf/2505.13498.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

@@ -14,7 +14,7 @@ publication: Unknown
 CONF-CC: Preprint
 external_pdf: "https://arxiv.org/pdf/2405.11100.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

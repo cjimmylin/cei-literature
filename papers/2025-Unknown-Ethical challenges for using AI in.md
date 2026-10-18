@@ -3,7 +3,7 @@ key: CGSR0059
 type: document
 short_title: "Ethical challenges for using AI in understanding Islamic jurisprudence"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.researchgate.net/publication/389846404"
 abstract: "Ethical challenges of AI application in Islamic jurisprudence"

@@ -8,14 +8,14 @@ type: conferencePaper
 short_title: "A survey of multilingual large language models - PMC"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph]]"
 authors: "Adnan Masood; Ph"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783891/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11783891&blobtype=pdf"
 publication: PubMed
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Masood-A survey of multilingual large language models - PMC.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Masood-A survey of multilingual large language models - PMC.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Masood-A survey of multilingual large language models - PMC.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
+abstract: "Multilingual large language models (MLLMs) leverage advanced large language models to process and respond to queries across multiple languages, achieving significant success in polyglot tasks. Despite these breakthroughs, a comprehensive survey summarizing existing approaches and recent developments remains absent. To this end, this paper presents a unified and thorough review of the field, highlighting recent progress and emerging trends in MLLM research. The contributions of this paper are as follows. (1) Extensive survey: to our knowledge, this is the pioneering thorough review of multilingual alignment in MLLMs. (2) Unified taxonomy: we provide a unified framework to summarize the current progress in MLLMs. (3) Emerging frontiers: key emerging frontiers are identified, alongside a discussion of associated challenges. (4) Abundant resources: we collect abundant open-source resources, including relevant papers, data corpora, and leaderboards. We hope our work can provide the community quick access and spur breakthrough research in MLLMs."
 CONFERENCE: "Other Conference"
 ethics_overall: 30
 virtue_ethics: 0

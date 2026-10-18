@@ -12,7 +12,7 @@ last_author: "[[Qiu, Xipeng]]"
 authors: "Shao, Yunfan; Li, Linyang; Dai, Junqi; Qiu, Xipeng"
 url: "https://aclanthology.org/2023.emnlp-main.814/"
 pdf_extract: "PDF Extracts/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-LLM A Trainable Agent for Role-Playing.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -85,7 +85,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2023.emnlp-main.814/
 

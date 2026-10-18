@@ -14,7 +14,7 @@ authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.pdf]]"
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

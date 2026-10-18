@@ -15,7 +15,7 @@ external_pdf: "https://ojs.aaai.org/index.php/ICWSM/article/download/31438/33598
 publication: GitHub
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2021/2021-Wuerzburg-German HateSpeech Corpus.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Wuerzburg-German HateSpeech Corpus.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Wuerzburg-German HateSpeech Corpus.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

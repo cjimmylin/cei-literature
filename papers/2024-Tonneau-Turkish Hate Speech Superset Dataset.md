@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
 external_pdf: 
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.pdf]]"
 publication: HuggingFace
 CONF-CC: Preprint
 DATE_ADDED: 20260213

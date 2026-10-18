@@ -7,8 +7,8 @@ key: LSRC0718
 type: conferencePaper
 short_title: "Validating Pseudo-label Dataset for Japanese Hate Speech Detection | IEEE Conference Publication | IEEE Xplore"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://ieeexplore.ieee.org/iel8/10902665/10902666/10902753.pdf"
 publication: IEEE

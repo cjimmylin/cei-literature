@@ -15,7 +15,7 @@ external_pdf: "https://www.aclweb.org/anthology/W19-3510.pdf"
 publication: "ACL Anthology (ALW3 Workshop 2019)"
 CONF-CC: "Workshop (2019)"
 pdf_extract: "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Brazilian
 cultures_nationalities_list: Brazilian

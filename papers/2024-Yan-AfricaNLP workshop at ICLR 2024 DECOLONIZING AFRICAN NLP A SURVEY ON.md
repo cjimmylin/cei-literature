@@ -16,7 +16,7 @@ external_pdf: "https://openreview.net/pdf?id=D698BEfwgv"
 publication: OpenReview
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu

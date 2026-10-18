@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2601.07274.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

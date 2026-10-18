@@ -48,7 +48,7 @@ key_contribution: "Developed TrolleyMod v1.0, an open-source platform based on t
 significance: "Enables the collection of high-fidelity behavioral data to train value-aligned autonomous vehicles that reflect actual human moral intuitions in dynamic, physical environments."
 tags: 
 pdf_extract: "PDF Extracts/2018/2018-Behzadan-TrolleyMod v1.0.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Behzadan-TrolleyMod v1.0.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Behzadan-TrolleyMod v1.0.pdf]]"
 paper_summary: "Overview: arXiv:1811.05594v1 [cs.AI] 14 Nov 2018 TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles Vahid Behzadan1, James Minton1, and Ar"
 abstract: "This paper presents TrolleyMod v1.0, an open-source platform based on the CARLA simulator for the collection of ethical decision-making data for autonomous vehicles. This platform is designed to facilitate experiments aiming to observe and record human decisions and actions in high-ﬁdelity simulations of ethical dilemmas that occur in the context of driving. Targeting experiments in the class of trolley problems, TrolleyMod provides a seamless approach to creating new experimental settings and..."
 DATE_ADDED: 20260208
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2018/2018-Behzadan-TrolleyMod v1.0.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2018/2018-Behzadan-TrolleyMod v1.0.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/1811.05594
 - **DOI:** https://doi.org/10.48550/arXiv.1811.05594

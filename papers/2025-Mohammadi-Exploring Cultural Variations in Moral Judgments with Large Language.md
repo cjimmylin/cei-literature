@@ -13,7 +13,7 @@ authors: "Hadi Mohammadi; A & Bagheri"
 url: "https://arxiv.org/abs/2506.12433"
 external_pdf: "https://arxiv.org/pdf/2506.12433.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

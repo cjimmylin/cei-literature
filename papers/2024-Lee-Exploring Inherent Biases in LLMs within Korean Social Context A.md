@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2024.naacl-srw.11.pdf"
 publication: "ACL Anthology / NAACL 2024 SRW"
 CONF-CC: "NAACL 2024"
 pdf_extract: "PDF Extracts/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Korean
 cultures_nationalities_list: Korean

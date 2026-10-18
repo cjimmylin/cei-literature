@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2404.15238"
 external_pdf: "https://arxiv.org/pdf/2404.15238.pdf"
 publication: HuggingFace
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

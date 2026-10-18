@@ -17,7 +17,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00970-8.
 publication: Springer
 CONF-CC: "AI and Ethics"
 pdf_extract: "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

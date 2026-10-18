@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, LLaMA, Llama-2, BLOOM, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
 CONFERENCE: "ACL 2024"
 ethics_overall: 0
 virtue_ethics: 0

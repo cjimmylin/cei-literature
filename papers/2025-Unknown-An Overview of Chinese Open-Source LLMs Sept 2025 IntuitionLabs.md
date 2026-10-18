@@ -7,9 +7,9 @@ key: LSRC0692
 type: conferencePaper
 short_title: "An Overview of Chinese Open-Source LLMs (Sept 2025) | IntuitionLabs"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://intuitionlabs.ai/articles/chinese-open-source-llms-2025"
 publication: Web
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: "GPT-4o, DeepSeek"
 DATA_URL: NA
 tags: 
-abstract: "Here are the search results for \"Chinese cultural knowledge LLM evaluation 2025 2026\": Key Findings Recent LLM Evaluations with Chinese Cultural Focus: A 2025 study evaluated the performance of four LLMs (Sider Fusion, GPT-4o, Gemini 2.0 Pro, and DeepSeek V3) on the Chinese National Nurse Licensure Examination (CNNLE), testing their capabilities in specialized, culturally specific examinations. Comparative evaluations show that GPT-4 Turbo leads in English contexts, whereas the Chinese"
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

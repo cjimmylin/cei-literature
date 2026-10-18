@@ -15,7 +15,7 @@ url: "https://aclanthology.org/2025.findings-naacl.222/"
 external_pdf: "https://arxiv.org/pdf/2410.23252.pdf"
 publication: "Findings of NAACL 2025"
 CONF-CC: "NAACL 2025 Findings"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

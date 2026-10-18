@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2504.21026"
 external_pdf: "https://arxiv.org/pdf/2504.21026.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

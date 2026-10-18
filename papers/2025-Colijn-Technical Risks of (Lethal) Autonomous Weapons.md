@@ -12,7 +12,7 @@ last_author: "[[Heramb Podar]]"
 authors: "Whitepaper Alycia Colijn; Heramb Podar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RWCWHF43/Colijn and Podar - Technical Risks of (Lethal) Autonomous Weapons Systems.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

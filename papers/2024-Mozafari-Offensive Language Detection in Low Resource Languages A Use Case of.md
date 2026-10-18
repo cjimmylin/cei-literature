@@ -17,7 +17,7 @@ external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal
 publication: "PLOS ONE"
 CONF-CC: "PLOS ONE"
 pdf_extract: "PDF Extracts/2024/2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Iranian
 cultures_nationalities_list: Iranian

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.12402"
 external_pdf: "https://arxiv.org/pdf/2407.12402.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.pdf]]"
 publication: arxiv.org
 CONF-CC: Preprint
 DATE_ADDED: 20260213

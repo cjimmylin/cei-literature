@@ -46,7 +46,7 @@ newtags: "Arabic, African/Ubuntu, Brazilian"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-SemEval-2023 Task 12.md"
 abstract: "We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSentiSemEval is a sentiment classiﬁcation challenge in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yorùbá) (Muhammad et al., 2023), using data labeled with 3 sentiment classes."
 paper_summary: "Abstract: We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSenti- SemEval is a sentiment classiﬁcation chal- lenge in 14 African languages  | Overview: SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval) Shamsuddeen Hassan Muhammad1,2+∗, Idris Abdulmumin3+∗, Seid Muhie Yimam4∗, David Ifeoluwa Adelani5∗, Ibrahim Sa'id Ah | Methodology: involved continued pre-training of the PLM on the monolingual portion of the Leipzig Corpus Collec- tion (Goldhahn et al., 2012) (covering Wikipedia,  | Key Findings: All three tasks in the AfriSenti-SemEval shared task required participants to perform a sentiment (negative, neutral, positive) classiﬁcation. To eval | Conclusions: We summarize some of the approaches that led to the best results in different sub-tasks. Sub-task A All of the top-10 best-performing teams with syste"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf]]"
 CONF-CC: "SemEval 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
@@ -92,7 +92,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2304.06845
 - **DOI:** https://doi.org/10.48550/arXiv.2304.06845

@@ -3,7 +3,7 @@ key: CGSR0041
 type: document
 short_title: "Brazil's AI Act and Regulation Framework"
 year: 2025
-first_author: [[Various]]
+first_author: "[[Various]]"
 authors: Various
 url: "https://artificialintelligenceact.com/brazil-ai-act/"
 abstract: "Brazil's Bill No 2338/2023 for comprehensive AI regulation"

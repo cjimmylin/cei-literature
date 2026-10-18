@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2602.00044.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.05006"
 external_pdf: "https://arxiv.org/pdf/2407.05006.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Veitsman-Recent Advancements and Challenges of Turkic.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Veitsman-Recent Advancements and Challenges of Turkic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Veitsman-Recent Advancements and Challenges of Turkic.pdf]]"
 publication: "arxiv.org / ACL 2025 LoResLM Workshop"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213

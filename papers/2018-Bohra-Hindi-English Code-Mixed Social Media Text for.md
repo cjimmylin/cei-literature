@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/W18-1105/"
 external_pdf: "https://aclanthology.org/W18-1105.pdf"
 pdf_extract: "PDF Extracts/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.pdf]]"
 publication: "ACL Anthology"
 CONF-CC: N/A
 DATE_ADDED: 20260213

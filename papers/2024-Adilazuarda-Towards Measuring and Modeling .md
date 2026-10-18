@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Adilazuarda-Towards Measuring and Modeling .md"
 abstract: "We present a survey of more than 90 recent papers that aim to study cultural representation and inclusion in large language models (LLMs). We observe that none of the studies explicitly define “culture”, which is a complex, multifaceted concept; instead, they probe the models on some specially designed datasets which represent certain aspects of “culture.' We call these aspects the proxies of culture, and organize them across two dimensions of demographic and semantic proxies."
 paper_summary: "Abstract: We present a survey of more than 90 recent papers that aim to study cultural representa- tion and inclusion in large language models (LLMs). We observe that none of the studies explicitly define 'cult | Overview: Towards Measuring and Modeling 'Culture' in LLMs: A Survey Muhammad Farid Adilazuarda1∗, Sagnik Mukherjee1*, Pradhyumna Lavania2, Siddhant Singh2, Alham Fikri Aji1, Jacki O'Neill3, Ashutosh Modi2, Mon | Methodology: Scope of this survey is limited to the study of cul- tural representations within LLMs and LLM-based applications. Studies on culture in NLP that does | Conclusions: In this survey, we explored how language and cul- ture are connected and stressed the importance of LLMs' understanding of cultural differences. We ha"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2403.15412
 - **DOI:** https://doi.org/10.48550/arXiv.2403.15412

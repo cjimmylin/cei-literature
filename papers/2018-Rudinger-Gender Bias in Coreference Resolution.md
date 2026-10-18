@@ -44,7 +44,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]"
 abstract: "We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these \"Winogender schemas,\" we evaluate and confirm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
 CONF-CC: 
 DATE_ADDED: 20260312
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 - **PDF:** [arXiv PDF](https://arxiv.org/pdf/1804.09301)
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]
+- **Local PDF:** [[Lit-WS-PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]
 - **PDF Extract:** [[PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md]]
 
 ## Abstract

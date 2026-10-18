@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.05501"
 external_pdf: "https://arxiv.org/pdf/2512.05501.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf]]"
 publication: OpenReview
 CONF-CC: Preprint
 DATE_ADDED: 20260213

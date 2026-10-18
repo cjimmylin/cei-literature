@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9836312/"
 external_pdf: 
 pdf_extract: "PDF Extracts/2022/2022-Unknown-Hate Speech Detection in Thai Social.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Unknown-Hate Speech Detection in Thai Social.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Unknown-Hate Speech Detection in Thai Social.pdf]]"
 publication: IEEE
 CONF-CC: Preprint
 DATE_ADDED: 20260213

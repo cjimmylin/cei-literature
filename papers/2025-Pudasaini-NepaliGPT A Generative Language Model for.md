@@ -13,7 +13,7 @@ authors: "Shushanta Pudasaini; Aman Shakya; Siddhartha Shrestha; Sahil Bhatta; S
 url: "https://arxiv.org/abs/2506.16399"
 external_pdf: "https://arxiv.org/pdf/2506.16399.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

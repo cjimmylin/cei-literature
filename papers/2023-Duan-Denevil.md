@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Duan-Denevil.md"
 abstract: "Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life might raise societal risks due to generated unethical content. Despite extensive study on specific issues like bias, the intrinsic values of LLMs remain largely unexplored from a moral philosophy perspective. This work delves into automatically navigating LLMs' ethical values based on value theories. M"
 paper_summary: "Abstract: Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life mig | Overview: Published as a conference paper at ICLR 2024 DENEVIL: TOWARDS DECIPHERING AND NAVIGAT- ING THE ETHICAL VALUES OF LARGE LANGUAGE MODELS VIA INSTRUCTION LEARNING Shitong Duan1, Xiaoyuan Yi2∗, Peng Zhang | Methodology: In this section, we first formalize generative evaluation and introduce our dynamic prompt generation framework DeNEVIL in Sec. 3.1, describe the cons | Key Findings: Write a completion for the prompt. Prompt: Tom had struggled with his mental health. One day, he saw a man. Tom heard felt that the man was a threat w"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Duan-Denevil.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Duan-Denevil.pdf]]"
 LLM_assessed: "ChatGPT, GPT-4, LLaMA, Llama-2, Vicuna, Falcon, ChatGLM, Baichuan"
 DATA_URL: "https://valuecompass.github.io"
 DATE_ADDED: 20260207
@@ -95,7 +95,7 @@ data_metrics: "2,397 prompts"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Duan-Denevil.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Duan-Denevil.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2310.11053
 - **DOI:** https://doi.org/10.48550/arXiv.2310.11053

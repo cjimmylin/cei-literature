@@ -14,7 +14,7 @@ doi: 10.1016/j.chbah.2025.100121
 url: "https://doi.org/10.1016/j.chbah.2025.100121"
 external_pdf: "https://arxiv.org/pdf/2310.13297.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.pdf]]"
 publication: Unknown
 CONF-CC: Preprint
 DATE_ADDED: 20260207

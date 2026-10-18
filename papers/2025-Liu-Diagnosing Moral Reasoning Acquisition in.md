@@ -50,7 +50,7 @@ significance: "Suggests that current semantic learning paradigms are insufficien
 pdf_extract: "PDF Extracts/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.md"
 abstract: "Ensuring that Large Language Models (LLMs) return just responses which adhere to societal values is crucial for their broader application. Prior research has shown that LLMs often fail to perform satisfactorily on tasks requiring moral cognizance, such as ethics-based judgments. While current approaches have focused on fine-tuning LLMs with curated datasets to improve their capabilities on such tasks, choosing the optimal learning paradigm to enhance the ethical responses of LLMs remains an..."
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) return just responses which adhere to societal values is crucial for their broader application. Prior research has shown that LLMs often fail to perform sati | Overview: Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization Guangliang Liu1 Zimo Qi2 Xitong Zhang1 Lei Jiang3 Kristen Marie Johnson1 1Michigan State University 2Johns Hopk | Methodology: for identifying generalization-supportive training samples from Section 4.1, this section interprets the generaliza- tion mechanism of the examined mo | Conclusions: Generalization remains a significant challenge in the acquisition of moral reasoning, and no optimal solution has yet been identified. Recently, Jiang"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.pdf]]"
 LLM_assessed: "BERT, Llama-3, Mistral"
 DATA_URL: NA
 DATE_ADDED: 20260207
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.16600
 - **DOI:** https://doi.org/10.48550/arXiv.2502.16600

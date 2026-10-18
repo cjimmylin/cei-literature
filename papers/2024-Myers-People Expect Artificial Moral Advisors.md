@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Myers-People Expect Artificial Moral Advisors.md"
 abstract: "Across four pre-registered studies (total N = 2604), we investigated how people perceive and trust artificial moral advisors compared to human advisors. We found that people have a significant aversion to AMAs (vs humans) giving moral advice, participants expect AI to make utilitarian decisions, and even when participants agreed with an AMA's decision, they still expected to disagree with it more than a human advisor in the future."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -98,7 +98,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf|Open PDF]]
 
 - **ScienceDirect:** https://www.sciencedirect.com/science/article/pii/S0010027724003147
 - **PubMed:** https://pubmed.ncbi.nlm.nih.gov/39671980/

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.fieldmatters-1.4/"
 external_pdf: "https://aclanthology.org/2025.fieldmatters-1.4.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.pdf]]"
 publication: "ACL 2025 FieldMatters Workshop"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213

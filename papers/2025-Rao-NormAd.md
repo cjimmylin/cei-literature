@@ -48,7 +48,7 @@ significance: "Shows that while models know *facts* about countries, they fail t
 pdf_extract: "PDF Extracts/2025/2025-Rao-NormAd.md"
 abstract: "To be effectively and safely deployed to global user populations, large language models (LLMs) may need to adapt outputs to user values and cultures, not just know about them. We introduce NORMAD, an evaluation framework to assess LLMs’ cultural adaptability, specifically measuring their ability to judge social acceptability across varying levels of cultural norm specificity, from abstract values to explicit social norms."
 paper_summary: "Abstract: To be effectively and safely deployed to global user populations, large language models (LLMs) may need to adapt outputs to user val- ues and cultures, not just know about them. We introduce NORMAD, a | Overview: NORMAD: A Framework for Measuring the Cultural Adaptability of Large Language Models Abhinav Rao*† Akhila Yerukola*† Vishwa Shah† Katharina Reinecke‡ Maarten Sap† †Language Technologies Institute, Car | Key Findings: As a pragmatic way for approaching culture, much research, in- cluding our own through NORMAD-ETI, often treats the dynamic and multifaceted nature of | Conclusions: In this work, we introduce a novel hierarchical evaluation framework, NORMAD, to assess the contextual adaptability of LLMs, a departure from most pri"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Rao-NormAd.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Rao-NormAd.pdf]]"
 CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-2"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Rao-NormAd.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Rao-NormAd.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.12464
 - **DOI:** https://doi.org/10.18653/v1/2025.naacl-long.120

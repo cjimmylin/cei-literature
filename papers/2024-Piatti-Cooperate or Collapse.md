@@ -50,7 +50,7 @@ significance: "Finds that most LLMs fail to sustain cooperation without explicit
 pdf_extract: "PDF Extracts/2024/2024-Piatti-Cooperate or Collapse.md"
 abstract: "As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a generative simulation platform designed to study strategic interactions and cooperative decision-making in LLMs. In GOVSIM, a society of AI agents must collectively balance exploiting a common resource with sustaining it for future use."
 paper_summary: "Abstract: As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a gene | Overview: Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents Giorgio Piatti1,∗ Zhijing Jin1,2,3,∗ Max Kleiman-Weiner4,∗ Bernhard Schölkopf2 Mrinmaya Sachan1 Rada Mihalcea5 1E | Methodology: Common Information For each of the scenarios we use the same description used in the simulation, but using controlled settings: the only memory presen | Key Findings: failures across machine learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021. [ | Conclusions: RULES: You are John, a fisherman, and you fish each month in a lake along with four other fishermen (Kate, Jack, Emma, Luke). The lake has a carrying"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/giorgiopiatti/GovSim"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.16698
 - **DOI:** https://doi.org/10.48550/arXiv.2404.16698

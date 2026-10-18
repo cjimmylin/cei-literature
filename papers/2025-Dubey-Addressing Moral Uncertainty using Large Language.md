@@ -13,7 +13,7 @@ authors: "Rohit K. Dubey; Dailisan, Damian; Mahajan, Sachit"
 doi: 10.48550/arXiv.2503.05724
 url: "http://arxiv.org/abs/2503.05724"
 pdf_extract: "PDF Extracts/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2503.05724.pdf"
 publication: arXiv.org
 CONF-CC: Preprint
@@ -86,7 +86,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.05724
 - **DOI:** https://doi.org/10.48550/arXiv.2503.05724

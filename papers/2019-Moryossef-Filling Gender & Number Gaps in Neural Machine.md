@@ -45,7 +45,7 @@ newtags: Hebrew/Israeli
 tags: 
 abstract: "When translating from a language that does not morphologically mark information such as gender and number into a language that does, translation systems must “guess” this missing information, often leading to incorrect translations in the given context. We propose a black-box approach for injecting the missing information to a pre-trained neural machine translation system, allowing to control the morphological variations in the generated translations without changing the underlying model or..."
 pdf_extract: "PDF Extracts/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
 CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260208
 LLM_assessed: NA

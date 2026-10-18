@@ -11,7 +11,7 @@ authors: "Aaron J. Snoswell; Kilov, Daniel; Lazar, Seth"
 doi: N/A
 url: "https://philarchive.org/rec/SNOBVE"
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

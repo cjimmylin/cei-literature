@@ -14,7 +14,7 @@ publication: Unknown
 CONF-CC: Preprint
 external_pdf: "https://aclanthology.org/2025.arabicnlp-main.11.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

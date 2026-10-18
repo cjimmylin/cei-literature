@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2403.04202
 tags: "Computer Science - Multiagent Systems"
 url: "https://arxiv.org/abs/2403.04202"
 pdf_extract: "PDF Extracts/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2403.04202.pdf"
 publication: "Proceedings of the 7th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2024)"
 CONF-CC: "AIES 2024"
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2403.04202
 - **PDF:** https://arxiv.org/pdf/2403.04202.pdf

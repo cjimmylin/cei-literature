@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.552/"
 external_pdf: "https://arxiv.org/pdf/2206.00372.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.pdf]]"
 publication: "ACL Anthology (LREC 2022)"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213

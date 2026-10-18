@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16961"
 external_pdf: "https://arxiv.org/pdf/2502.16961.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

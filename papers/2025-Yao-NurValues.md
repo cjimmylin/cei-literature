@@ -50,7 +50,7 @@ significance: "Shows that general 'medical LLMs' often fail on professional ethi
 pdf_extract: "PDF Extracts/2025/2025-Yao-NurValues.md"
 abstract: "This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice, and Professionalism. The benchmark comprises 1,100 real-world nursing behavior instances collected through a five-month longitudinal field study across three hospitals of varying tiers. These instances are annotated by five clinical nurses and then augmented with LLM-generated counterfactuals with..."
 paper_summary: "Abstract: This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice,  | Overview: arXiv:2505.08734v1 [cs.CL] 13 May 2025 NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context Ben Yao1, Qiuchi Li2, Yazhou Zhang3∗, Siyu Yang4, Bohan Zhang1, Pra | Methodology: in 15, while the underline font indicates the second-best result. Dataset Model 0-Shot 2-Shot 6-Shot 10-Shot Acc. Ma-F1 Acc. Ma-F1 Acc. Ma-F1 Acc. Ma- | Key Findings: confirms that the rewritten dialogues retain high topical consistency with the original instances. Using three SoTA LLMs to score semantic similarity, | Conclusions: In this paper, we introduce NurValues, the first real-world healthcare benchmark for evaluating LLMs' nursing values. Built from 1,100 real-world nurs"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-NurValues.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yao-NurValues.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, Gemini, Llama-3, Qwen, o1"
 DATA_URL: "https://huggingface.co/datasets/Ben012345/NurValues"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-NurValues.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Yao-NurValues.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.08734
 - **DOI:** https://doi.org/10.48550/arXiv.2505.08734

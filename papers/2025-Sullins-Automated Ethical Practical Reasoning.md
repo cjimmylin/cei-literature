@@ -13,7 +13,7 @@ authors: "John P. Sullins"
 doi: N/A
 url: "https://mitpress.mit.edu/9780262549721/robophilosophy/"
 pdf_extract: "PDF Extracts/2025/2025-Sullins-Automated Ethical Practical Reasoning.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sullins-Automated Ethical Practical Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sullins-Automated Ethical Practical Reasoning.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

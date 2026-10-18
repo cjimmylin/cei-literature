@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Stenseke-Computational Complexity of Ethics.md"
 abstract: "Why should moral philosophers, moral psychologists, and machine ethicists care about computational complexity? Debates on whether artiﬁcial intelligence (AI) can or should be used to solve problems in ethical domains have mainly been driven by what AI can or cannot do in terms of human capacities. In this paper, we tackle the problem from the other end by exploring what kind of moral machines are possible based on what computational systems can or cannot do."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/article/10.1007/s10462-024-10732-3
 - **DOI:** https://doi.org/10.1007/s10462-024-10732-3

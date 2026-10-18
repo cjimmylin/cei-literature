@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md"
 abstract: "This paper describes the GAMA (Genetic-inspired Autonomous Moral Agent) project, which implements a genetic-inspired autonomous moral agent. Unlike the majority of other implementations of machine ethics, this model is agent-centered and emphasizes the developmental and behavioral aspects of the ethical agent."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "GAMA Moral Agent"
 LLM_assessed: NA

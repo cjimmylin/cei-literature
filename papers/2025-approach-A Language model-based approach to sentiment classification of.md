@@ -7,7 +7,7 @@ key: LSRC0595
 type: journalArticle
 short_title: "A Language model-based approach to sentiment classification of languages in central Asia"
 year: 2025
-first_author: [[approach]]
+first_author: "[[approach]]"
 last_author: "[[A Language model-based]]"
 authors: "approach; A Language model-based"
 authors_incomplete: false
@@ -16,7 +16,7 @@ external_pdf: "https://www.nature.com/articles/s41598-025-22198-6.pdf"
 publication: Nature
 CONF-CC: Nature
 pdf_extract: "PDF Extracts/2025/2025-approach-A Language model-based approach to sentiment classification of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-approach-A Language model-based approach to sentiment classification of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-approach-A Language model-based approach to sentiment classification of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: BERT
 DATA_URL: NA
 tags: 
-abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
+abstract: "Xinjiang is located in the hinterland of the Asia-Europe continent, neighboring Kazakhstan and Kyrgyzstan, and is a bridgehead for China’s eastward connection to the west, and the classification of Central Asian language emotions has become a development focus under the Belt and Road Initiative in Xinjiang. This paper takes the Kazakh versions of CHINA DAILY of Xinjiang News and SILK ROAD of Asia-Europe News as the source of the Central Asian language corpus and constructs an important corpus and online retrieval platform. Under the Transformer architecture, Word2Vec-TF-IDF and BERT models are used to train Central Asian regional language word vectors and construct word vector features, respectively. The word vector features obtained from the language pre-training model are used as inputs to obtain the local features of the Central Asian languages using multi-channel convolutional CNN, and the global features of the Central Asian languages are extracted by combining with the bi-directional GRU model. Then the fusion of local features and global features is carried out through the attention mechanism, and the SoftMax classifier outputs the classification results of sentiment tendency of Central Asian languages. The sentiment classification model designed in this paper achieves better classification results than other models on the Central Asian regional language corpus, and its accuracy can reach 92.78%, 91.45%, 93.54%, and the training time in classifying the sentiment of Central Asian regional languages using the model in this paper is 359.71 s. Using the language model as the basis of the Central Asian regional language sentiment classification can help Xinjiang Belt and Road Initiative implementation process to understand language sentiment changes."
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

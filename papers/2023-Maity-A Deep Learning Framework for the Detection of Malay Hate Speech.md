@@ -16,7 +16,7 @@ external_pdf: "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10192900.pdf"
 publication: "IEEE Xplore"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

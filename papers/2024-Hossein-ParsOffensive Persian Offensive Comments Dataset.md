@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2404.05540"
 publication: IEEE
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Iranian
 cultures_nationalities_list: Iranian

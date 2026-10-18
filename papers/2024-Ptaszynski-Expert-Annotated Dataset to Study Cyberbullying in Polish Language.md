@@ -17,7 +17,7 @@ external_pdf: "https://ruj.uj.edu.pl/bitstreams/1bc26747-5281-49b4-a130-4e97d5ea
 publication: "MDPI Data"
 CONF-CC: Data
 pdf_extract: "PDF Extracts/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

@@ -8,7 +8,7 @@ type: conferencePaper
 short_title: "BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali"
 year: 2025
 first_author: "[[Al Sefat]]"
-last_author: [[Abdullah]]
+last_author: "[[Abdullah]]"
 authors: "Al Sefat; Abdullah"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.mmloso-1.6/"
@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2511.20399v2.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

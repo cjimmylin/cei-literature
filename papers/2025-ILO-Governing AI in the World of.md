@@ -3,7 +3,7 @@ key: CGSR0117
 type: document
 short_title: "Governing AI in the World of Work: A review of global ethics guidelines"
 year: 2025
-first_author: [[ILO]]
+first_author: "[[ILO]]"
 authors: ILO
 url: "https://www.ilo.org/resource/article/governing-ai-world-work-review-global-ethics-guidelines"
 abstract: "ILO review of global AI ethics guidelines for work"

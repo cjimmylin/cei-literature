@@ -16,7 +16,7 @@ external_pdf: "https://journals.ysu.am/index.php/arm-fol-angl/article/download/V
 publication: ResearchGate
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Translation-Evaluation Criteria for Literary Translation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Translation-Evaluation Criteria for Literary Translation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Translation-Evaluation Criteria for Literary Translation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I found a highly relevant result! The study \"Evaluating Uighur literary translation\" compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

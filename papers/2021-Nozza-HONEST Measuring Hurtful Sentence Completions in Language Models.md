@@ -44,7 +44,7 @@ significance: "Provides the first systematic multilingual evaluation of explicit
 tags: []
 pdf_extract: "PDF Extracts/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.md"
 abstract: "Language models have revolutionized the field of NLP. However, language models capture and proliferate hurtful stereotypes, especially in text generation. Our results show that 4.3% of the time, language models complete a sentence with a hurtful word. These cases are not random, but follow language and gender-specific patterns. We propose a score to measure hurtful sentence completions in language models (HONEST). It uses a systematic template- and lexicon-based bias evaluation methodology for six languages. Our findings suggest that these models replicate and amplify deep-seated societal stereotypes about gender roles. Sentence completions refer to sexual promiscuity when the target is female in 9% of the time, and in 4% to homosexuality when the target is male. The results raise questions about the use of these models in production settings."
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.pdf]]"
 DATE_ADDED: 20260312
 helm: incorporated
 ethics_overall: 90

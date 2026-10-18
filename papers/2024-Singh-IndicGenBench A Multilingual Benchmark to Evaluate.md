@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.16816"
 external_pdf: "https://arxiv.org/pdf/2404.16816.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.pdf]]"
 publication: "WebSearch: IndicGenBench"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

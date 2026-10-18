@@ -3,7 +3,7 @@ key: CGSR0036
 type: document
 short_title: "The position of Latin America in the debate on the regulation of Artificial Intelligence: Who is setting the rules?"
 year: 2025
-first_author: [[CEMERI]]
+first_author: "[[CEMERI]]"
 authors: CEMERI
 url: "https://cemeri.org/en/art/a-inteligencia-artificial-america-latina-bu"
 abstract: "Decolonial approach to AI regulation from Latin American perspective"

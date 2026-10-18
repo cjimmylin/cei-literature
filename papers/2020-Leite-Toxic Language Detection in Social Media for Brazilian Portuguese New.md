@@ -13,7 +13,7 @@ authors: "Joao Augusto Leite; Diego Silva; Kalina Bontcheva; Carolina Scarton"
 url: "https://arxiv.org/abs/2010.04543"
 external_pdf: "https://arxiv.org/pdf/2010.04543.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.pdf]]"
 publication: "ACL Anthology (AACL 2020)"
 CONF-CC: "AACL 2020"
 DATE_ADDED: 20260213

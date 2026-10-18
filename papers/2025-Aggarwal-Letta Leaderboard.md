@@ -48,7 +48,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4, GPT-4o, GPT-4o mini, Gemini"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 0
 virtue_ethics: 0

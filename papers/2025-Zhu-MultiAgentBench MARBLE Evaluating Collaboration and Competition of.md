@@ -13,7 +13,7 @@ authors: "Kunlun Zhu; Hongyi Du; Zhaochen Hong; Xiaocheng Yang; Shuyi Guo; Zhe W
 url: "https://arxiv.org/abs/2503.01935"
 external_pdf: "https://arxiv.org/pdf/2503.01935.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.pdf]]"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207

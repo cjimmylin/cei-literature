@@ -7,15 +7,15 @@ key: LSRC0138
 type: conferencePaper
 short_title: "PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing"
 year: 2025
-first_author: [[Jafarinejad]]
-last_author: [[Karimi]]
+first_author: "[[Jafarinejad]]"
+last_author: "[[Karimi]]"
 authors: "Jafarinejad; Rahimi; Khodabakhsh; Karimi"
 url: "https://cke.um.ac.ir/article_46412.html"
 external_pdf: "https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a32.pdf"
 publication: "Computer and Knowledge Engineering (CKE)"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Iranian
 cultures_nationalities_list: Iranian

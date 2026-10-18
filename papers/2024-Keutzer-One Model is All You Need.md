@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2409.13920"
 external_pdf: "https://arxiv.org/pdf/2409.13920.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Keutzer-One Model is All You Need.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Keutzer-One Model is All You Need.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Keutzer-One Model is All You Need.pdf]]"
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213

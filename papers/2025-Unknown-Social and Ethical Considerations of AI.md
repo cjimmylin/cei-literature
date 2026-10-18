@@ -3,7 +3,7 @@ key: CGSR0082
 type: journalArticle
 short_title: "Social and Ethical Considerations of AI in East Asia and Beyond"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://link.springer.com/book/10.1007/978-3-031-77857-5"
 abstract: "Confucianist, Daoist, and Christian reflections on AI ethics in East Asia"

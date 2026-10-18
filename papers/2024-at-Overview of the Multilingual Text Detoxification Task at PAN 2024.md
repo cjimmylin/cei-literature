@@ -7,7 +7,7 @@ key: LSRC0298
 type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2024"
 year: 2024
-first_author: [[at]]
+first_author: "[[at]]"
 last_author: "[[Overview of the Multilingual Text Detoxification Task]]"
 authors: "at; Overview of the Multilingual Text Detoxification Task"
 authors_incomplete: false
@@ -16,7 +16,7 @@ external_pdf: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
 publication: "CLEF / PAN"
 CONF-CC: "CLEF 2024"
 pdf_extract: "PDF Extracts/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Indian, Arabic, African/Ubuntu, German, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Indian, Arabic, African/Ubuntu, German, Spanish, Russian, Multicultural/Cross-cultural"

@@ -13,7 +13,7 @@ authors: "Hua Shen; Nicholas Clark; Tanushree Mitra"
 url: "https://arxiv.org/abs/2501.15463"
 external_pdf: "https://arxiv.org/pdf/2501.15463.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

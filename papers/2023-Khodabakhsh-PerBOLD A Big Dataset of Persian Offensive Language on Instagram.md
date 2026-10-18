@@ -7,14 +7,14 @@ key: LSRC0139
 type: journalArticle
 short_title: "PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments"
 year: 2023
-first_author: [[Khodabakhsh]]
-last_author: [[Ghayoomi]]
+first_author: "[[Khodabakhsh]]"
+last_author: "[[Ghayoomi]]"
 authors: "Khodabakhsh; Jafarinejad; Rahimi; Ghayoomi"
 url: "https://tjee.tabrizu.ac.ir/article_15794.html"
 publication: "Tabriz Journal of Electrical Engineering"
 CONF-CC: "Tabriz Journal of Electrical Engineering"
 pdf_extract: "PDF Extracts/2023/2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.pdf]]"
 external_pdf: "https://tjee.tabrizu.ac.ir/article_15794_1a75a5b450027a6f41f6dfb9e8cf3e51.pdf?lang=en"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Iranian

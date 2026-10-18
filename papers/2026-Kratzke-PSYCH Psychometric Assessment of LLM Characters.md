@@ -14,7 +14,7 @@ doi: 10.3390/analytics5010005
 url: "https://doi.org/10.3390/analytics5010005"
 external_pdf: "https://mdpi-res.com/d_attachment/analytics/analytics-05-00005/article_deploy/analytics-05-00005.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.pdf]]"
 publication: Analytics
 CONF-CC: Analytics
 DATE_ADDED: 20260207

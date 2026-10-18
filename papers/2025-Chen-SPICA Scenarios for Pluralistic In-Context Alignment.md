@@ -14,7 +14,7 @@ publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2411.10912.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

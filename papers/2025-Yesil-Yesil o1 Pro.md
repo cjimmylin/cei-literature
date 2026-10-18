@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-o1, Gemini, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/yesilhealth/Health_Benchmarks"
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

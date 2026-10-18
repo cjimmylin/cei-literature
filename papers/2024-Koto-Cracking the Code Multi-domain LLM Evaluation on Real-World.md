@@ -7,14 +7,14 @@ key: LSRC0101
 type: preprint
 short_title: "Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia"
 year: 2024
-first_author: [[Koto]]
-last_author: [[Fajri]]
+first_author: "[[Koto]]"
+last_author: "[[Fajri]]"
 authors: "Koto; Fajri"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.08564"
 external_pdf: "https://arxiv.org/pdf/2409.08564.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf]]"
 publication: "arXiv / ACL Anthology (NAACL 2025)"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213

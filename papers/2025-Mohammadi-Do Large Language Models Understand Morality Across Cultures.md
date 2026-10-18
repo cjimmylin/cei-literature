@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2507.21319"
 external_pdf: "https://arxiv.org/pdf/2507.21319.pdf"
 publication: "arXiv / LUHME Workshop 2025"
 CONF-CC: "Workshop (2025)"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

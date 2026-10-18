@@ -13,7 +13,7 @@ authors: "Biedma, Pablo; Yi, Xiaoyuan; Huang, Linus; Sun, Maosong; Xie, Xing"
 doi: 10.48550/arXiv.2404.12744
 url: "http://arxiv.org/abs/2404.12744"
 pdf_extract: "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
 CONF-CC: Preprint
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Biedma-Beyond Human Norms.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Biedma-Beyond Human Norms.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.12744
 - **DOI:** https://doi.org/10.48550/arXiv.2404.12744

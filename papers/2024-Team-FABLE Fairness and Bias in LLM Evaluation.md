@@ -14,7 +14,7 @@ publication: Unknown
 CONF-CC: Preprint
 external_pdf: "https://arxiv.org/pdf/2502.05849.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

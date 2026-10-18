@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"
 pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

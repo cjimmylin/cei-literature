@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2306.06804.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"

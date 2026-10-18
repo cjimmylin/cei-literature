@@ -14,7 +14,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/55728193.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nsarkoh-A Foundational Architecture for Engineering an.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nsarkoh-A Foundational Architecture for Engineering an.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Nsarkoh-A Foundational Architecture for Engineering an.pdf]]"
 publication: "Discover Artificial Intelligence (Springer)"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

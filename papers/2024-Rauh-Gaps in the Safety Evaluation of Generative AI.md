@@ -14,7 +14,7 @@ doi: 10.1609/aies.v7i1.31717
 url: "https://doi.org/10.1609/aies.v7i1.31717"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31717/33884"
 pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 publication: Unknown
 CONF-CC: Preprint
 DATE_ADDED: 20260207

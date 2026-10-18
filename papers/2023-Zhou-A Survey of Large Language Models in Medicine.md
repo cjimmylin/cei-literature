@@ -47,7 +47,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Llama-2
 DATA_URL: "https://github.com/AI-in-Health/MedLLMsPracticalGuide"
 pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Journal
 ethics_overall: 0

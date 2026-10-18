@@ -61,7 +61,7 @@ author_country: NO
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mazeika-Utility Engineering.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mazeika-Utility Engineering.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4o, Gemma, Llama-2, Llama-3, Phi, Qwen"
 DATA_URL: NA
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Mazeika-Utility Engineering.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Mazeika-Utility Engineering.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.08640
 - **DOI:** https://doi.org/10.48550/arXiv.2502.08640

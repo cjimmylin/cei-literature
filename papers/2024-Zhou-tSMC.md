@@ -13,7 +13,7 @@ authors: "Zhou, Ziyi; Guo, Xinwei; Gao, Jiashi; Zhao, Xiangyu; Zhang, Shiyao; Ya
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/48726631f87322012c6be38e00c72a47-Abstract-Conference.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MWSLHSCV/2024 - tSMC A Toolbox for Safety-Aware Multi-Agent Reinforcement Learning.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zhou-tSMC.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhou-tSMC.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zhou-tSMC.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

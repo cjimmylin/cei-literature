@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2506.06751"
 external_pdf: "https://arxiv.org/pdf/2506.06751.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "American, Russian, Chinese, Multicultural/Cross-cultural"

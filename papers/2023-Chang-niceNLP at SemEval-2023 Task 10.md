@@ -46,7 +46,7 @@ tags:
 abstract: "Sexism is a growing online problem. It harms women who are targeted and makes online spaces inaccessible and unwelcoming. In this paper, we present our approach for Task A of SemEval-2023 Task 10: Explainable Detection of Online Sexism (EDOS), which aims to perform binary sexism detection on textual content. To solve this task, we fine-tune the pre-trained model based on several popular natural language processing methods to improve the generalization ability in the face of different data."
 pdf: "https://aclanthology.org/2023.semeval-1.41.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf]]"
 CONF-CC: "SemEval 2023"
 DATE_ADDED: 20260208
 LLM_assessed: BERT

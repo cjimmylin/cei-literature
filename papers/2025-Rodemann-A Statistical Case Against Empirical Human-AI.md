@@ -61,7 +61,7 @@ author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: NA
@@ -95,7 +95,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.14581
 - **DOI:** https://doi.org/10.48550/arXiv.2502.14581

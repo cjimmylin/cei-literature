@@ -13,7 +13,7 @@ authors: "Andy Liu; Kshitish Ghate; Mona Diab; Daniel Fried; Atoosa Kasirzadeh; 
 url: "https://arxiv.org/abs/2509.25369"
 external_pdf: "https://arxiv.org/pdf/2509.25369.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

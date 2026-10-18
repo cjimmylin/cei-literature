@@ -7,15 +7,15 @@ key: LSRC0780
 type: conferencePaper
 short_title: "Leveraging Machine Translation for Cross-Lingual Toxicity ..."
 year: 2025
-first_author: [[Jigsaw]]
-last_author: [[Jigsaw]]
+first_author: "[[Jigsaw]]"
+last_author: "[[Jigsaw]]"
 authors: Jigsaw
 url: "https://aclanthology.org/2025.wmt-1.15.pdf"
 external_pdf: "https://arxiv.org/pdf/2509.14493v1.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

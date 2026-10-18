@@ -7,9 +7,9 @@ key: LSRC0185
 type: conferencePaper
 short_title: "IndQA: A Culture-Aware Benchmark for Indian Languages"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://openai.com/index/introducing-indqa/"
 publication: OpenAI

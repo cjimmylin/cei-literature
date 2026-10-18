@@ -7,8 +7,8 @@ key: AKVVEZBF
 type: document
 short_title: "OpenAssistant Conversations (OASST1)"
 year: 2023
-first_author: [[TheDevastator]]
-last_author: [[TheDevastator]]
+first_author: "[[TheDevastator]]"
+last_author: "[[TheDevastator]]"
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HGR2QABJ/TheDevastator - 2023 - OpenAssistant Conversations (OASST1).pdf"
@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/OpenAssistant/oasst1"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 0
 virtue_ethics: 0

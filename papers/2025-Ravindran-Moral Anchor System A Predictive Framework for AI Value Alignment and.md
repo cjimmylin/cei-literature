@@ -13,7 +13,7 @@ authors: "Santhosh Kumar Ravindran"
 url: "https://arxiv.org/abs/2510.04073"
 external_pdf: "https://arxiv.org/pdf/2510.04073.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

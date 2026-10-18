@@ -17,7 +17,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s10586-025-05553-0.
 publication: Springer
 CONF-CC: "Cluster Computing"
 pdf_extract: "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: French
 cultures_nationalities_list: French

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.dravidianlangtech-1.8/"
 external_pdf: "https://aclanthology.org/2024.dravidianlangtech-1.8.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Chakravarthi-Findings of the Shared Task on.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chakravarthi-Findings of the Shared Task on.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Chakravarthi-Findings of the Shared Task on.pdf]]"
 publication: "WebSearch: DravidianLangTech shared task"
 CONF-CC: "Shared Task (2024)"
 DATE_ADDED: 20260213

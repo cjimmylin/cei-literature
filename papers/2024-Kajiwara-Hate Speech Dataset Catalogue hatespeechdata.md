@@ -7,15 +7,15 @@ key: LSRC0657
 type: conferencePaper
 short_title: "Hate Speech Dataset Catalogue | hatespeechdata"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://hatespeechdata.com/"
-external_pdf: "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.760.pdf"
+external_pdf: N/A
 publication: Web
 CONF-CC: Preprint
-pdf_extract: "PDF Extracts/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.pdf]]"
+pdf_extract: 
+local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: "http://hatespeechdata.com"
 tags: 
-abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

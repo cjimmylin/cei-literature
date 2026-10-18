@@ -3,7 +3,7 @@ key: CGSR0040
 type: document
 short_title: "AI Regulation in Latin America: Overview and Emerging Trends in Key Proposals"
 year: 2025
-first_author: [[FPF]]
+first_author: "[[FPF]]"
 authors: FPF
 url: "https://fpf.org/blog/ai-regulation-in-latin-america-overview-and-emerging-trends-in-key-proposals/"
 abstract: "Overview of AI regulation proposals across Brazil, Chile, Colombia, Peru"

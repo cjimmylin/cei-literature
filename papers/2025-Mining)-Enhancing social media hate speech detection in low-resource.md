@@ -17,7 +17,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01497-w.
 publication: "Springer Social Network Analysis and Mining"
 CONF-CC: "Social Network Analysis and Mining"
 pdf_extract: "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

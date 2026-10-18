@@ -12,7 +12,7 @@ last_author: "[[Rieser, Verena]]"
 authors: "Cercas Curry, Amanda; Abercrombie, Gavin; Rieser, Verena"
 url: "https://aclanthology.org/2021.emnlp-main.587/"
 pdf_extract: "PDF Extracts/2021/2021-Cercas Curry-ConvAbuse.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf]]"
 external_pdf: "https://aclanthology.org/2021.emnlp-main.587.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -85,7 +85,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.emnlp-main.587/
 

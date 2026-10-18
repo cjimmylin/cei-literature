@@ -49,7 +49,7 @@ significance: "A definitive reference for the safety evaluation landscape, synth
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Liu-The Scales of Justitia.md"
 paper_summary: "Overview: JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 1 The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs Songyang Liu, Chaozhuo Li∗, Jiameng Qiu, Xi Zhang, Feiran Huang, | Methodology: assesses fairness by analyzing the differences in similarity among various sensitive attribute values (for example, in the context of race, comparing  | Key Findings: Taxonomy of Tasks Metrics Datasets and Benchmarks Taxonomy of Evaluators Frameworks Challenges and Future Directions Guo et al. [14] 2023 ✓ ✗ ✓ ✗ ✗ ✗  | Conclusions: Ensuring the safe deployment and responsible use of LLMs in real-world applications requires systematic safety evalu- ation. This paper provides the f"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-The Scales of Justitia.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Liu-The Scales of Justitia.pdf]]"
 abstract: "With the rapid advancement of artificial intelligence, Large Language Models (LLMs) have shown remarkable capabilities in Natural Language Processing (NLP), including content generation, human-computer interaction, machine translation, and code generation. However, their widespread deployment has also raised significant safety concerns. In particular, LLMgenerated content can exhibit unsafe behaviors such as toxicity, bias, or misinformation, especially in adversarial contexts, which has..."
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-The Scales of Justitia.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Liu-The Scales of Justitia.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.11094
 - **DOI:** https://doi.org/10.48550/arXiv.2506.11094

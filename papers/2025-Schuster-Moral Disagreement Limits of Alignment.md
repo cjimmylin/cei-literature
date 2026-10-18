@@ -3,7 +3,7 @@ key: EXSR0695
 type: journalArticle
 short_title: "Moral Disagreement and the Limits of AI Value Alignment"
 year: 2025
-first_author: [[Schuster]]
+first_author: "[[Schuster]]"
 authors: "Schuster; Kilov"
 url: "https://link.springer.com/article/10.1007/s00146-025-02427-2"
 publication_title: "AI & Society"

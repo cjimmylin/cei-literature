@@ -3,7 +3,7 @@ key: CGSR0052
 type: document
 short_title: "Expanded ASEAN Guide on AI Governance and Ethics - Generative AI"
 year: 2025
-first_author: [[ASEAN]]
+first_author: "[[ASEAN]]"
 authors: ASEAN
 url: "https://asean.org/wp-content/uploads/2025/01/Expanded-ASEAN-Guide-on-AI-Governance-and-Ethics-Generative-AI.pdf"
 abstract: "Expanded ASEAN AI governance guide addressing generative AI"

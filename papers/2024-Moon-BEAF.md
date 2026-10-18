@@ -12,7 +12,7 @@ last_author: "[[Taehwan Oh]]"
 authors: "Moon, Y.; Nam, H.; Wonseok Choi; Taehwan Oh"
 url: "https://arxiv.org/abs/2407.13442"
 pdf_extract: "PDF Extracts/2024/2024-Moon-BEAF.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Moon-BEAF.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Moon-BEAF.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2407.13442.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -83,7 +83,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Moon-BEAF.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Moon-BEAF.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2407.13442
 

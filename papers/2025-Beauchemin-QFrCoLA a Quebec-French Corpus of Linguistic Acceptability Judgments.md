@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2508.16867.pdf"
 publication: "arXiv / ACL Anthology"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: French
 cultures_nationalities_list: French

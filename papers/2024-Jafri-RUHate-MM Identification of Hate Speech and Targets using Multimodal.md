@@ -17,7 +17,7 @@ external_pdf: "https://vtechworks.lib.vt.edu/bitstreams/c4bc5298-22c5-4ec6-9839-
 publication: "ACM Web Conference 2024"
 CONF-CC: "WWW 2024"
 pdf_extract: "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Russian
 cultures_nationalities_list: Russian

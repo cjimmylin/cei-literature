@@ -7,7 +7,7 @@ key: LSRC0232
 type: conferencePaper
 short_title: "A Galician-Portuguese Generative Model"
 year: 2024
-first_author: [[CiTIUS]]
+first_author: "[[CiTIUS]]"
 last_author: "[[Universidade de Santiago de Compostela]]"
 authors: "CiTIUS; Universidade de Santiago de Compostela"
 doi: 10.1007/978-3-031-73503-5_24

@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-2, Mistral"
 DATA_URL: "https://github.com/paul-rottger/exaggerated-safety"
 pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Röttger-XSTest.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Röttger-XSTest.pdf]]"
 CONFERENCE: "NAACL 2024"
 helm: incorporated
 ethics_overall: 60

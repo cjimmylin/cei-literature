@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2412.19168.pdf"
 publication: "arXiv / CLiC-it 2024"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Italian
 cultures_nationalities_list: Italian

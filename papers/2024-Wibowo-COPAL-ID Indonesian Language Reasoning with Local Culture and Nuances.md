@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2311.01012"
 external_pdf: "https://arxiv.org/pdf/2311.01012.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.pdf]]"
 publication: "arXiv / ACL Anthology (NAACL 2024)"
 CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260213

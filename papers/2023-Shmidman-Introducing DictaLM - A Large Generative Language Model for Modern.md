@@ -13,7 +13,7 @@ authors: "Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel"
 url: "https://arxiv.org/abs/2309.14568"
 external_pdf: "https://arxiv.org/pdf/2309.14568.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

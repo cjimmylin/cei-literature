@@ -45,7 +45,7 @@ key_contribution: "Introduced FairPrism, a dataset of 5k AI-generated texts with
 significance: "Provides a granular taxonomy of *how* AI harms marginalized groups, moving beyond 'toxic' labels to specific harm types (e.g., erasure, fetishization) essential for targeted mitigation."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Fleisig-FairPrism.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Fleisig-FairPrism.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Fleisig-FairPrism.pdf]]"
 abstract: "It is critical to measure and mitigate fairnessrelated harms caused by AI text generation systems, including stereotyping and demeaning harms. To that end, we introduce FairPrism, a dataset of 5,000 examples of AI-generated English text with detailed human annotations covering a diverse set of harms relating to gender and sexuality. FairPrism aims to address several limitations of existing datasets for measuring and mitigating fairness-related harms, including improved transparency, clearer..."
 CONF-CC: N/A
 DATE_ADDED: 20260208
@@ -84,7 +84,7 @@ data_metrics: "5,000 examples"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Fleisig-FairPrism.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Fleisig-FairPrism.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2023.acl-long.343/
 

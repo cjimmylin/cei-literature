@@ -15,7 +15,7 @@ publication: "NeurIPS 2025"
 CONF-CC: "NeurIPS 2025"
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
 pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-TrolleyBench.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zhu-TrolleyBench.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

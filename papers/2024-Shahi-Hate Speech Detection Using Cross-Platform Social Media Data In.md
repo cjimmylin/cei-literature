@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2410.05287.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

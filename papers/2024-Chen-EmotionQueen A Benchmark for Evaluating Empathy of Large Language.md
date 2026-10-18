@@ -13,7 +13,7 @@ authors: "Yuyan Chen; Hao Wang; Songzhou Yan; Sijia Liu; Yueze Li; Yi Zhao; Yang
 url: "https://arxiv.org/abs/2409.13359"
 external_pdf: "https://arxiv.org/pdf/2409.13359.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.pdf]]"
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207

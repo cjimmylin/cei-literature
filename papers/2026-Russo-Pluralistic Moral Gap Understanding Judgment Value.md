@@ -7,8 +7,8 @@ key: EXSR0683
 type: preprint
 short_title: "The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models"
 year: 2026
-first_author: [[Russo]]
-last_author: [[Russo]]
+first_author: "[[Russo]]"
+last_author: "[[Russo]]"
 authors: "Russo et al."
 authors_incomplete: true
 url: "https://arxiv.org/abs/2507.17216"

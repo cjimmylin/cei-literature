@@ -14,7 +14,7 @@ doi: 10.1609/aies.v7i1.31673
 url: "https://arxiv.org/abs/2407.18889"
 external_pdf: "https://arxiv.org/pdf/2407.18889.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.pdf]]"
 publication: "AIES 2024"
 CONF-CC: "AIES 2024"
 DATE_ADDED: 20260207

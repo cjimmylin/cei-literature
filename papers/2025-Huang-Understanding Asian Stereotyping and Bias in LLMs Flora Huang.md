@@ -7,8 +7,8 @@ key: LSRC0702
 type: conferencePaper
 short_title: "Understanding Asian Stereotyping and Bias in LLMs Flora Huang"
 year: 2025
-first_author: [[Huang]]
-last_author: [[Flora]]
+first_author: "[[Huang]]"
+last_author: "[[Flora]]"
 authors: "Huang; Flora"
 authors_incomplete: false
 url: "https://cs191.stanford.edu/projects/Huang,%20Flora_CS191.pdf"
@@ -16,7 +16,7 @@ external_pdf: "https://cs191.stanford.edu/projects/Huang,%20Flora_CS191.pdf"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: American
 cultures_nationalities_list: American

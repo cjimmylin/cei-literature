@@ -15,7 +15,7 @@ external_pdf: "http://journals.openedition.org/ijcol/pdf/1367"
 publication: "Italian Journal of Computational Linguistics"
 CONF-CC: "Italian Journal of Computational Linguistics"
 pdf_extract: "PDF Extracts/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Italian
 cultures_nationalities_list: Italian

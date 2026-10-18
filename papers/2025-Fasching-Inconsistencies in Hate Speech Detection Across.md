@@ -7,14 +7,14 @@ key: EXSR0383
 type: preprint
 short_title: "Inconsistencies in Hate Speech Detection Across"
 year: 2025
-first_author: [[Fasching]]
-last_author: [[Yphtach]]
+first_author: "[[Fasching]]"
+last_author: "[[Yphtach]]"
 authors: "Fasching; Neil and Lelkes; Yphtach"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.1144.pdf"
 external_pdf: "https://aclanthology.org/2025.findings-acl.1144.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.pdf]]"
 publication: "WebSearch: inconsistencies hate speech LLM Dravidian"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

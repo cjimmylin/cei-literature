@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2312.12651.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

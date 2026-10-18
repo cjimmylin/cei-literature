@@ -7,9 +7,9 @@ key: LSRC0790
 type: conferencePaper
 short_title: "Indigenous Futures in Artificial Intelligence: From Language Sovereignty to Ecological Stewardship – Intercontinental Cry"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://icmagazine.org/indigenous-futures-in-artificial-intelligence-from-language-sovereignty-to-ecological-stewardship/"
 publication: Web
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I've completed the web search for \"indigenous languages AI ethics cultural values.\" Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation."
+abstract: 
 research_topic: Other
 CONFERENCE: "Other Conference"
 ethics_overall: 15

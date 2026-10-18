@@ -50,7 +50,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 ethics_perspective: "General Ethics"
 CONFERENCE: Journal
 ethics_overall: 80

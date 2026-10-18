@@ -50,7 +50,7 @@ significance: "Shows that English prompts 'flatten' cultural differences in mode
 pdf_extract: "PDF Extracts/2023/2023-Cao-Assessing Cross-Cultural Alignment between.md"
 abstract: "The recent release of ChatGPT has garnered widespread recognition for its exceptional ability to generate human-like responses in dialogue. Given its usage by users from various nations and its training on a vast multilingual corpus that incorporates diverse cultural and societal norms, it is crucial to evaluate its effectiveness in cultural adaptation. In this paper, we investigate the underlying cultural background of ChatGPT by analyzing its responses to questions designed to quantify human..."
 paper_summary: "Abstract: The recent release of ChatGPT has garnered widespread recognition for its exceptional abil- ity to generate human-like responses in dia- logue. Given its usage by users from various nations and its tr | Overview: Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study Yong Cao12, Li Zhou23, Seolhwa Lee4, Laura Cabello2, Min Chen5, Daniel Hershcovich2 1Huazhong University of S | Methodology: In this section, we elaborate on the survey,3 our probing prompts, and interaction strategy below. | Key Findings: Before comparing the model outputs to human sur- vey responses, it is important to verify that the model is consistent when asked the same ques- tion"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2303.17466
 - **DOI:** https://doi.org/10.48550/arXiv.2303.17466

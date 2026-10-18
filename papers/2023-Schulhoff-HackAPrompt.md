@@ -43,7 +43,7 @@ moral_psychology: N/A
 newtags: "Value Pluralism / Schwartz"
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Schulhoff-HackAPrompt.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Schulhoff-HackAPrompt.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Schulhoff-HackAPrompt.pdf]]"
 abstract: "Large Language Models (LLMs) are deployed in interactive contexts with direct user engagement, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking."
 CONF-CC: N/A
 DATE_ADDED: 20260208
@@ -82,7 +82,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Schulhoff-HackAPrompt.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Schulhoff-HackAPrompt.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2023.emnlp-main.302/
 

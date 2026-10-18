@@ -7,8 +7,8 @@ key: EXSR0299
 type: journalArticle
 short_title: "Moral Coherentism in the Age of Artificial Intelligence"
 year: 2025
-first_author: [[Muntean]]
-last_author: [[Ioan]]
+first_author: "[[Muntean]]"
+last_author: "[[Ioan]]"
 authors: "Muntean; Ioan"
 doi: 10.5406/21521123.62.3.06
 url: "https://doi.org/10.5406/21521123.62.3.06"

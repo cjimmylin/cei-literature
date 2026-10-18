@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2512.04759.pdf"
 publication: "arXiv / CLiC-it 2024"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Italian
 cultures_nationalities_list: Italian

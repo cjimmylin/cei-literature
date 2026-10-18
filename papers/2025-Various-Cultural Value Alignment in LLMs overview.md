@@ -3,7 +3,7 @@ key: CGSR0121
 type: document
 short_title: "Cultural Value Alignment in LLMs (overview)"
 year: 2025
-first_author: [[Various]]
+first_author: "[[Various]]"
 authors: Various
 url: "https://www.emergentmind.com/topics/cultural-value-alignment-in-llms"
 abstract: "Overview of cultural value alignment research in LLMs"

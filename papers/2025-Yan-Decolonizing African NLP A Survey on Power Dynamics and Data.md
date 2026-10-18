@@ -15,7 +15,7 @@ url: "https://www.researchgate.net/publication/379815378_Decolonizing_African_NL
 publication: ResearchGate
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a"
+abstract: "This research paper explores the imperative to decolonize African Natural Language Processing (NLP) by addressing power dynamics and data colonialism within technology development. Based on the historical context of colonialism in Africa, the paper examines the pervasive influence of colonial traces on the research and development of NLPs, highlighting the marginalization of African languages, cultures, and voices. Through an analysis of power dynamics, the paper advocates for diversifying representation within the NLP community, empowering local communities, and challenging Eurocentric frameworks to foster more inclusive and equitable technology development. Additionally, the paper explores the concept of data colonialism and its implications for African NLP, highlighting the need for data sovereignty, community ownership, and ethical data practices. Case studies and examples illustrate the transformative potential of decolonial approaches within African NLP, while future directions outline pathways for advancing the decolonial agenda through interdisciplinary collaboration, policy advocacy, and community engagement. Ultimately, the paper calls for collective action and solidarity within the NLP community to dismantle colonial legacies and forge a more just and inclusive digital future for Africa and beyond."
 CONFERENCE: "Other Conference"
 ethics_overall: 30
 virtue_ethics: 0

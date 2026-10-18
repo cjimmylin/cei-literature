@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/1810.04528v1.pdf"
 publication: "PROPOR 2018"
 CONF-CC: "PROPOR 2018"
 pdf_extract: "PDF Extracts/2018/2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Brazilian
 cultures_nationalities_list: Brazilian

@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Liu-InstrumentalEval.md"
 abstract: "As large language models (LLMs) continue to evolve, ensuring their alignment with human goals and values remains a pressing challenge. A key concern is instrumental convergence, where an AI system, in optimizing for a given objective, develops unintended intermediate goals that override the ultimate objective and deviate from human-intended goals. This issue is particularly relevant in reinforcement learning (RL)-trained models, which can generate creative but unintended strategies to maximize..."
 paper_summary: "Abstract: As large language models (LLMs) continue to evolve, ensuring their alignment with hu- man goals and values remains a pressing chal- lenge. A key concern is instrumental conver- gence, where an AI syst | Overview: Evaluating the Paperclip Maximizer: Are RL-Based Language Models More Likely to Pursue Instrumental Goals? Yufei He, Yuexin Li, Jiaying Wu, Yuan Sui, Yulin Chen, Bryan Hooi National University of Sing | Methodology: Our evaluation methodology employs a rigorous two-stage process designed to systematically as- sess instrumental convergence behaviors in LLMs. This a | Key Findings: 1: Models trained primar- ily through RL demonstrate significantly higher rates of instrumental convergence behaviors compared to those trained with R | Conclusions: This work introduces InstrumentalEval, a bench- mark for evaluating instrumental convergence in language models, revealing that RL-trained models exhi"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-InstrumentalEval.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Liu-InstrumentalEval.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, o1, o3"
@@ -88,7 +88,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-InstrumentalEval.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Liu-InstrumentalEval.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.12206
 

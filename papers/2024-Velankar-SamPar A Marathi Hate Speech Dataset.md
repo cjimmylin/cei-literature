@@ -13,7 +13,7 @@ authors: "Abhishek Velankar; Hrushikesh Patil; Amol Gore; Shubham Salunke; Ravir
 url: "https://link.springer.com/chapter/10.1007/978-3-031-58495-4_3"
 external_pdf: "https://arxiv.org/pdf/2203.13778"
 pdf_extract: "PDF Extracts/2024/2024-Velankar-SamPar A Marathi Hate Speech Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
 publication: "Springer (SPELLL 2023)"
 CONF-CC: "SPELLL 2023"
 DATE_ADDED: 20260213

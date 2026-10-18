@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Huang-Moral Persuasion in Large Language Models.md"
 abstract: "We explore how large language models (LLMs) can be influenced by prompting them to alter their initial decisions and align them with established ethical frameworks. Our study is based on two experiments designed to assess the susceptibility of LLMs to moral persuasion. In the first experiment, we examine the susceptibility to moral ambiguity by evaluating a Base Agent LLM on morally ambiguous scenarios and observing how a Persuader Agent attempts to modify the Base Agent’s initial decisions."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-Moral Persuasion in Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Huang-Moral Persuasion in Large Language Models.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "LLM Moral Persuasion"
 LLM_assessed: "Claude-3-Haiku, Claude-3.5-Sonnet, GPT-4o, GPT-4o mini, Llama-3, Mistral, Mixtral"

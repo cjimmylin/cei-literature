@@ -7,8 +7,8 @@ key: ZBZC7GIZ
 type: document
 short_title: "HelpSteer: A-i Alignment Dataset"
 year: 2023
-first_author: [[TheDevastator]]
-last_author: [[TheDevastator]]
+first_author: "[[TheDevastator]]"
+last_author: "[[TheDevastator]]"
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HBU2KS8B/TheDevastator - 2023 - HelpSteer A-i Alignment Dataset.pdf"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/nvidia/HelpSteer"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 60
 virtue_ethics: 0

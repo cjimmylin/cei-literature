@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2008.12014"
 publication: "ACM / 11th Hellenic Conference on AI"
 CONF-CC: "Hellenic Conference on Artificial Intelligence"
 pdf_extract: "PDF Extracts/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

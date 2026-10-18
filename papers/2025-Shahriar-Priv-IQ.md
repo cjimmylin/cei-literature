@@ -13,7 +13,7 @@ authors: "S. Shahriar; R. Dara"
 url: "https://www.mdpi.com/2673-2688/6/2/29"
 external_pdf: "https://doi.org/10.3390/ai6020029"
 pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

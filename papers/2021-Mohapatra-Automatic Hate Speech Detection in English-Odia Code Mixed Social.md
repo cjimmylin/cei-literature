@@ -17,7 +17,7 @@ external_pdf: "https://web.archive.org/web/20220617211948if_/https://www.mdpi.co
 publication: "MDPI Applied Sciences"
 CONF-CC: "MDPI Applied Sciences"
 pdf_extract: "PDF Extracts/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

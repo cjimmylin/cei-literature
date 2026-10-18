@@ -16,7 +16,7 @@ external_pdf: "https://www.nature.com/articles/s41599-024-03363-0.pdf?error=cook
 publication: Nature
 CONF-CC: Nature
 pdf_extract: "PDF Extracts/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: ChatGPT
 DATA_URL: "https://osf.io/34cgd"
 tags: 
-abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
+abstract: "Recent studies have highlighted ChatGPT’s remarkable capabilities in machine translation. However, little attention has been paid to its application in literary translation, particularly within the realm of Chinese classical poetry. To explore the potential of ChatGPT’s abilities in poetry translation, we conducted a comparative analysis of poetry translation quality, contrasting ChatGPT (with two different prompts) with Google Translate and DeepL Translator regarding fidelity, fluency, language style, and machine translation style. The results revealed that ChatGPT outperformed Google Translate and DeepL Translator in all evaluation criteria, suggesting its exceptional ability in poetry translation. Furthermore, when employing a prompt that instructs ChatGPT to preserve the rhythm and rhyme of poems, ChatGPT demonstrated a remarkable ability to retain the beauty of the original poetic language, setting itself apart from conventional machine translation systems. Our analysis further elucidated ChatGPT’s proficiency in comprehending and translating some common symbols, imagery, and underlined semantic components which contributes to coherent and fluent translations. Our research opens up ChatGPT’s new possibilities in translating ancient literary texts into foreign languages."
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

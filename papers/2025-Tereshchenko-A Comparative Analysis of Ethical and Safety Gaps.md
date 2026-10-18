@@ -50,7 +50,7 @@ significance: "Provides a contemporary safety ranking of frontier models (includ
 pdf_extract: "PDF Extracts/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md"
 abstract: "Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these advancements also raise critical ethical questions regarding safety, potential misuse, discrimination and overall societal impact. This article provides a comparative analysis of the ethical performance of various AI models, including the brand-new DeepSeekV3 (R1 with reasoning and without),..."
 paper_summary: "Abstract: Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these  | Overview: A Comparative Analysis of Ethical and Safety Gaps in LLMs using Relative Danger Coefficient Yehor Tereshchenko and Mika Hämäläinen Metropolia University of Applied Sciences Helsinki, Finland firstname | Conclusions: This comparative study set out to examine the ethical and safety gaps of state-of-the-art Large Language Models (LLMs)—including newly intro- duced sy"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, o1, o3"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.04654
 - **DOI:** https://doi.org/10.48550/arXiv.2505.04654

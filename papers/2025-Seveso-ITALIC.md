@@ -46,7 +46,7 @@ abstract: "We present ITALIC1, a large-scale benchmark dataset of 10,000 multipl
 LLM_assessed: "GPT-4, GPT-4o, Claude, Gemini, Llama-3, Mistral"
 DATA_URL: "https://doi.org/10.5281/zenodo.14725822"
 pdf_extract: "PDF Extracts/2025/2025-Seveso-ITALIC.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Seveso-ITALIC.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Seveso-ITALIC.pdf]]"
 publication: "ACL Anthology (NAACL 2025)"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213

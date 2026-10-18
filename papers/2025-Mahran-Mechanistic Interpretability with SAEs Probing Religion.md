@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17665"
 external_pdf: "https://arxiv.org/pdf/2509.17665.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.pdf]]"
 publication: "AEQUITAS 2025 Workshop (co-located with ECAI 2025); arXiv"
 CONF-CC: "ECAI 2025 Workshop"
 DATE_ADDED: 20260213

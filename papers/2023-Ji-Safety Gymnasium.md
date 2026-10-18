@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Ji-Safety Gymnasium.md"
 abstract: "Artificial intelligence (AI) systems possess significant potential to drive societal progress. However, their deployment often faces obstacles due to substantial safety concerns. Safe reinforcement learning (SafeRL) emerges as a solution to optimize policies while simultaneously adhering to multiple constraints, thereby addressing the challenge of integrating reinforcement learning in safety-critical scenarios."
 paper_summary: "Abstract: Artificial intelligence (AI) systems possess significant potential to drive societal progress. However, their deployment often faces obstacles due to substantial safety concerns. Safe reinforcement le | Overview: Safety-Gymnasium: A Unified Safe Reinforcement Learning Benchmark Jiaming Ji1,∗, Borong Zhang1,∗, Jiayi Zhou1,∗, Xuehai Pan1, Weidong Huang1 Ruiyang Sun1, Yiran Geng1, Yifan Zhong1,2, Juntao Dai1, Yao"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ji-Safety Gymnasium.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Ji-Safety Gymnasium.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -91,7 +91,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Ji-Safety Gymnasium.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Ji-Safety Gymnasium.pdf|Open PDF]]
 
 - **URL:** https://proceedings.neurips.cc/paper_files/paper/2023/file/3c557a3d6a48cc99444f85e924c66753-Paper-Datasets_and_Benchmarks.pdf
 

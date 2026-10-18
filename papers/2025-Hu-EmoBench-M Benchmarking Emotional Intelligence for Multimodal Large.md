@@ -13,7 +13,7 @@ authors: "He Hu; Yucheng Zhou; Lianzhong You; Hongbo Xu; Qianning Wang; Zheng Li
 url: "https://arxiv.org/abs/2502.04424"
 external_pdf: "https://arxiv.org/pdf/2502.04424.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

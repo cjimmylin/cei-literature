@@ -15,7 +15,7 @@ external_pdf: "https://journals-sol.sbc.org.br/index.php/jbcs/article/download/5
 publication: "Journal of the Brazilian Computer Society 2025"
 CONF-CC: "Journal of the Brazilian Computer Society 2025"
 pdf_extract: "PDF Extracts/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Brazilian
 cultures_nationalities_list: Brazilian

@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2507.17476.pdf"
 publication: "arXiv / Scale AI"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

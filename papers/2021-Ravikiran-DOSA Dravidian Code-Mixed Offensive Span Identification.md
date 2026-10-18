@@ -8,13 +8,13 @@ type: preprint
 short_title: "DOSA Dravidian Code-Mixed Offensive Span Identification"
 year: 2021
 first_author: "[[Ravikiran, Manikandan]]"
-last_author: [[Annamalai]]
+last_author: "[[Annamalai]]"
 authors: "Ravikiran, Manikandan; Annamalai"
 authors_incomplete: false
 url: "https://aclanthology.org/2021.dravidianlangtech-1.2/"
 external_pdf: "https://aclanthology.org/2021.dravidianlangtech-1.2.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.pdf]]"
 publication: "WebSearch: DOSA Kannada hate speech"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

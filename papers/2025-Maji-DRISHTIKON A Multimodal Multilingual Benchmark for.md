@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19274"
 external_pdf: "https://arxiv.org/pdf/2509.19274.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

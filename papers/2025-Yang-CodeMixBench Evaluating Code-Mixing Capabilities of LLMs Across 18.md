@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2507.18791.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

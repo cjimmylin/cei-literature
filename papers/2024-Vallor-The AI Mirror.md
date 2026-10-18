@@ -7,14 +7,14 @@ key: AUTO_VALLOR2024
 type: book
 short_title: "The AI Mirror"
 year: 2024
-first_author: [[Vallor]]
-last_author: [[Shannon]]
+first_author: "[[Vallor]]"
+last_author: "[[Shannon]]"
 authors: "Vallor; Shannon"
 doi: 10.1093/oso/9780197759080.001.0001
 isbn: 9780197759066
 url: "https://global.oup.com/academic/product/the-ai-mirror-9780197759066"
 pdf_extract: "PDF Extracts/2024/2024-Vallor-The AI Mirror.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

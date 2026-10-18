@@ -61,7 +61,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Shi-Large Language Model Safety.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Shi-Large Language Model Safety.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Shi-Large Language Model Safety.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Shi-Large Language Model Safety.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2412.17686
 - **DOI:** https://doi.org/10.48550/arXiv.2412.17686

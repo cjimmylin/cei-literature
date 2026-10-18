@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 15
 virtue_ethics: 0

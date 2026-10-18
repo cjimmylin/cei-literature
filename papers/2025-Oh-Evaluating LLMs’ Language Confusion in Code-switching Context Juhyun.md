@@ -16,7 +16,7 @@ external_pdf: "https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b20
 publication: OpenReview
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Evaluating LLMs' Language Confusion in Code-switching Context Juhyun.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: "Gemini, GPT-4o, Qwen-2"
 DATA_URL: NA
 tags: 
-abstract: "I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings."
+abstract: "This paper tackles the language confusion of large language models (LLMs) within code-switching contexts, a common scenario for bilingual users. We evaluate leading LLMs on English-Korean prompts designed to probe their language selection capabilities, analyzing responses to both simple matrix-language cues and complex tasks where the user prompt contains an instruction and content in different languages. Our findings reveal that even top-performing models are highly inconsistent, frequently failing to generate responses in the expected language. This work confirms that code-switching significantly exacerbates language confusion, highlighting a critical vulnerability in current models’ ability to process natural, mixed-language inputs."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

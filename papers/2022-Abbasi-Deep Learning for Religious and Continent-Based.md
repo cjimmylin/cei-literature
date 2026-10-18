@@ -7,14 +7,14 @@ key: EXSR0583
 type: preprint
 short_title: "Deep Learning for Religious and Continent-Based"
 year: 2022
-first_author: [[Abbasi]]
-last_author: [[F.]]
+first_author: "[[Abbasi]]"
+last_author: "[[F.]]"
 authors: "Abbasi; A.; Javed; A.R.; Iqbal; F."
 authors_incomplete: false
 url: 
 external_pdf: "https://www.nature.com/articles/s41598-022-22523-3.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.pdf]]"
 publication: "Scientific Reports (Nature)"
 CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260213

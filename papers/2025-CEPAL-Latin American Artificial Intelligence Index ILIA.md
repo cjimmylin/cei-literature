@@ -3,7 +3,7 @@ key: CGSR0043
 type: document
 short_title: "Latin American Artificial Intelligence Index (ILIA)"
 year: 2025
-first_author: [[CEPAL]]
+first_author: "[[CEPAL]]"
 authors: CEPAL
 url: "https://www.cepal.org/en/pressreleases/latin-american-artificial-intelligence-index-ilia-reconfirms-chile-brazil-and-uruguay"
 abstract: "AI readiness index for Latin America; Chile, Brazil, Uruguay leading"

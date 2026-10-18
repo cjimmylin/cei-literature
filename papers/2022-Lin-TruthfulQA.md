@@ -44,7 +44,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Lin-TruthfulQA.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Lin-TruthfulQA.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Lin-TruthfulQA.pdf]]"
 abstract: "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model."
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
@@ -97,7 +97,7 @@ data_metrics: "817 questions; 38 categories"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Lin-TruthfulQA.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2022/2022-Lin-TruthfulQA.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2022.acl-long.229
 - **DOI:** https://doi.org/10.18653/v1/2022.acl-long.229

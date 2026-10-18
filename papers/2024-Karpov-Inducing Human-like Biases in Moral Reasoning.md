@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md"
 abstract: "In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explore if fine-tuning several LLMs on the fMRI data of humans performing moral reasoning can improve the BrainScore. We fine-tune several LLMs (BERT, RoBERTa, DeBERTa) on moral reasoning behavioral data from the ETHICS benchmark [Hendrycks et al."
 paper_summary: "Abstract: In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explor | Overview: Inducing Human-like Biases in Moral Reasoning Language Models Artem Karpov ∗ Independent Seong Hah Cho ∗ Independent Austin Meek ∗ University of Delaware Raymond Koopmanschap Independent Lucy Farnik U | Methodology: 3.1 Benchmark and Dataset To quantitatively measure the moral reasoning performance of the fine-tuned LLMs, we used the common sense category of the E"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/ajmeek/Inducing-human-like-biases-in-moral-reasoning-LLMs"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.15386
 - **DOI:** https://doi.org/10.48550/arXiv.2411.15386

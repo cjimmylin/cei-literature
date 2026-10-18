@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09017"
 external_pdf: "https://arxiv.org/pdf/2403.09017.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.pdf]]"
 publication: "COLING 2025"
 CONF-CC: "COLING 2025"
 DATE_ADDED: 20260207

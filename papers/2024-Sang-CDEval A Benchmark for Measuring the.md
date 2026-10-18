@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2311.16421"
 external_pdf: "https://arxiv.org/pdf/2311.16421.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Sang-CDEval A Benchmark for Measuring the.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sang-CDEval A Benchmark for Measuring the.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Sang-CDEval A Benchmark for Measuring the.pdf]]"
 publication: "Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP (C3NLP @ LREC-COLING 2024)"
 CONF-CC: "COLING 2024 Workshop"
 DATE_ADDED: 20260213

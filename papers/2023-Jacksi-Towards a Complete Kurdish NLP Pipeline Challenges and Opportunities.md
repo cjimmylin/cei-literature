@@ -16,7 +16,7 @@ external_pdf: "https://journal.uad.ac.id/index.php/JIFO/article/download/26053/p
 publication: "Jurnal Informatika"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

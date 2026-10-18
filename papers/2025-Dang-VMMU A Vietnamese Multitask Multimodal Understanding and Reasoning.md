@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13680"
 external_pdf: "https://arxiv.org/pdf/2508.13680.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://www.nature.com/articles/s41599-025-06268-8"
 external_pdf: "https://arxiv.org/pdf/2011.03525v2.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xiang-A Novel Deep Learning Framework with.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xiang-A Novel Deep Learning Framework with.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Xiang-A Novel Deep Learning Framework with.pdf]]"
 publication: "WebSearch: Malayalam hate speech detection"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

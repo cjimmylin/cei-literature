@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.127/"
 external_pdf: "https://arxiv.org/pdf/2508.03523.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
 publication: "ACL Anthology (EMNLP 2025)"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

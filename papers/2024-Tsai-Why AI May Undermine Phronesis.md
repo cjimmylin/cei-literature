@@ -11,7 +11,7 @@ authors: "Tsai, Cheng-hung; Ku, Hsiu-lin"
 doi: 10.1007/s43681-024-00617-0
 url: "https://link.springer.com/article/10.1007/s43681-024-00617-0"
 pdf_extract: "PDF Extracts/2024/2024-Tsai-Why AI May Undermine Phronesis.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tsai-Why AI May Undermine Phronesis.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Tsai-Why AI May Undermine Phronesis.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

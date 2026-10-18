@@ -7,14 +7,14 @@ key: EXSR0529
 type: preprint
 short_title: "Social Bias in Large Language Models"
 year: 2024
-first_author: [[Sadhu]]
-last_author: [[Saha]]
+first_author: "[[Sadhu]]"
+last_author: "[[Saha]]"
 authors: "Sadhu; Saha"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03536"
 external_pdf: "https://arxiv.org/pdf/2407.03536.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Sadhu-Social Bias in Large Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sadhu-Social Bias in Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Sadhu-Social Bias in Large Language Models.pdf]]"
 publication: "LoResLM Workshop (ACL 2025)"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213

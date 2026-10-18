@@ -17,7 +17,7 @@ external_pdf: "https://aclanthology.org/2022.case-1.1.pdf"
 publication: "ACL Anthology (CASE 2022)"
 CONF-CC: CASE
 pdf_extract: "PDF Extracts/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Russian
 cultures_nationalities_list: Russian

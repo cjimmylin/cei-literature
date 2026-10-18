@@ -7,8 +7,8 @@ key: EXSR0026
 type: conferencePaper
 short_title: "Awesome-LLM-Eval Repository (Meta-Resource)"
 year: 2025
-first_author: [[onejune2018]]
-last_author: [[onejune2018]]
+first_author: "[[onejune2018]]"
+last_author: "[[onejune2018]]"
 authors: onejune2018
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"

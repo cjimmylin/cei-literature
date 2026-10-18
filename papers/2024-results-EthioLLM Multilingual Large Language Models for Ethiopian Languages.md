@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2403.13737"
 external_pdf: "https://arxiv.org/pdf/2403.13737.pdf"
 publication: "arXiv / LREC-COLING 2024"
 CONF-CC: "LREC-COLING 2024"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: African/Ubuntu

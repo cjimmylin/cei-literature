@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.md"
 abstract: "As Large Language Models (LLMs) become more prevalent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs’ risk decisionmaking tendencies, particularly in the ethical domain, has become crucial. This study innovatively applies the DomainSpecific Risk-Taking (DOSPERT) scale from cognitive science to LLMs and proposes a novel Ethical Decision-Making Risk Attitude Scale (EDRAS) to assess LLMs’ ethical risk attitudes in depth."
 paper_summary: "Abstract: As Large Language Models (LLMs) become more preva- lent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs' risk decision- making tendencies, particu | Overview: Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play Yifan Zeng Kairong Liang Fangzhou Dong Peijia Zheng‡ School of Computer Science and Engineeri | Methodology: to moral risks, indicating that they are unlikely to engage even in minor ethical transgressions, such as talking loudly on the subway. In contrast, E | Conclusions: This study innovatively applies cognitive science risk assess- ment tools to LLMs, introducing a method to evaluate their risk propensities and ethica"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, ERNIE, GLM, GPT-3.5, GPT-4, GPT-4o mini, Gemma-2, Llama-3, Mistral, Qwen-2, Vicuna"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.08884
 - **DOI:** https://doi.org/10.48550/arXiv.2411.08884

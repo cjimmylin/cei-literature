@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18154"
 external_pdf: "https://arxiv.org/pdf/2505.18154.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

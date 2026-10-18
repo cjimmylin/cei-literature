@@ -3,7 +3,7 @@ key: EXSR0691
 type: preprint
 short_title: "Moral Sycophancy in Vision Language Models"
 year: 2026
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://arxiv.org/abs/2602.08311"
 abstract: "Tests moral sycophancy in VLMs -- moral stances flip under user disagreement, with morally-right-to-wrong transitions more frequent than reverse. Relevant to social intuitionism: tests whether models capitulate to social pressure rather than maintaining moral judgments."

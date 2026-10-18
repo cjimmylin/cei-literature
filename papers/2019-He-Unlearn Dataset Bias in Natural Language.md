@@ -46,7 +46,7 @@ significance: "Addresses the 'Clever Hans' effect in NLP, ensuring models learn 
 tags: 
 abstract: "Statistical natural language inference (NLI) models are susceptible to learning dataset bias: superﬁcial cues that happen to associate with the label on a particular dataset, but are not useful in general, e.g., negation words indicate contradiction. As exposed by several recent challenge datasets, these models perform poorly when such association is absent, e.g., predicting that “I love dogs.” contradicts “I don’t love cats.”."
 pdf_extract: "PDF Extracts/2019/2019-He-Unlearn Dataset Bias in Natural Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-He-Unlearn Dataset Bias in Natural Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-He-Unlearn Dataset Bias in Natural Language.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: BERT

@@ -50,7 +50,7 @@ DATE_ADDED: 20260129
 LLM_assessed: ChatGPT
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 95
 virtue_ethics: 100

@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2508.19562
 tags: "Computer Science - Artificial Intelligence"
 url: "https://arxiv.org/abs/2508.19562"
 pdf_extract: "PDF Extracts/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2508.19562.pdf"
 ethics_perspective: "Institutional Design / Political Philosophy"
 national_ethnic_cultural: N/A
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf|Open PDF]]
 
 
 ## Abstract

@@ -13,7 +13,7 @@ authors: "Yiran Yang; Zeerak Talat; Robert Monarch"
 url: "https://arxiv.org/abs/2410.22153"
 external_pdf: "https://arxiv.org/pdf/2410.22153.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

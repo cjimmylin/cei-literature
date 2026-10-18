@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.18293"
 external_pdf: "https://arxiv.org/pdf/2509.18293.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Patel-Evaluating Large Language Models for Detecting.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Patel-Evaluating Large Language Models for Detecting.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Patel-Evaluating Large Language Models for Detecting.pdf]]"
 publication: "EMNLP 2025 / arXiv"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

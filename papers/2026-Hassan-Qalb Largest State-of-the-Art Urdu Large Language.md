@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08141"
 external_pdf: "https://arxiv.org/pdf/2601.08141.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

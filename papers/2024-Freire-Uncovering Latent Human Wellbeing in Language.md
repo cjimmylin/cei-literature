@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.md"
 abstract: "Do language models implicitly learn a concept of human wellbeing? We explore this through the ETHICS Utilitarianism task, assessing if scaling enhances pretrained models’ representations. Our initial finding reveals that, without any prompt engineering or finetuning, the leading principal component from OpenAI’s text-embedding-ada-002 achieves 73.9% accuracy. This closely matches the 74.6% of BERT-large finetuned on the entire ETHICS dataset, suggesting pretraining conveys some understanding..."
 paper_summary: "Abstract: Do language models implicitly learn a concept of human wellbeing? We ex- plore this through the ETHICS Utilitarianism task, assessing if scaling enhances pretrained models' representations. Our initia | Overview: UNCOVERING LATENT HUMAN WELLBEING IN LANGUAGE MODEL EMBEDDINGS Pedro Freire∗ Independent ChengCheng Tan FAR AI Adam Gleave FAR AI Dan Hendrycks Center for AI Safety Scott Emmons FAR AI, UC Berkeley AB | Methodology: Our PCA Representation experiments are conducted in the following steps: | Conclusions: that paired mode improves performance over single mode. 6 CONCLUSION AND FUTURE DIRECTIONS Our research explores the encoding of human wellbeing withi"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3"
 DATA_URL: NA
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.11777
 - **DOI:** https://doi.org/10.48550/arXiv.2402.11777

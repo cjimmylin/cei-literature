@@ -15,7 +15,7 @@ external_pdf: "https://www.aclweb.org/anthology/W18-5116.pdf"
 publication: "ACL Anthology / ALW 2018"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

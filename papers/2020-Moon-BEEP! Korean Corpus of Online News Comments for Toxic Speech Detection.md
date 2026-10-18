@@ -14,7 +14,7 @@ doi: 10.18653/v1/2020.socialnlp-1.4
 url: "https://arxiv.org/abs/2005.12503"
 external_pdf: "https://arxiv.org/pdf/2005.12503.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.pdf]]"
 publication: "arXiv / SocialNLP@ACL 2020"
 CONF-CC: "ACL 2020"
 DATE_ADDED: 20260213

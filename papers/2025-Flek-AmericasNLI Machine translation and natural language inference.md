@@ -16,7 +16,7 @@ external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/pdf
 publication: PubMed
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: BERT
 DATA_URL: "https://nala-cub.github.io/resources/"
 tags: 
-abstract: "Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t"
+abstract: "Little attention has been paid to the development of human language technology for truly low-resource languages—i.e., languages with limited amounts of digitally available text data, such as Indigenous languages. However, it has been shown that pretrained multilingual models are able to perform crosslingual transfer in a zero-shot setting even for low-resource languages which are unseen during pretraining. Yet, prior work evaluating performance on unseen languages has largely been limited to shallow token-level tasks. It remains unclear if zero-shot learning of deeper semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, a natural language inference dataset covering 10 Indigenous languages of the Americas. We conduct experiments with pretrained models, exploring zero-shot learning in combination with model adaptation. Furthermore, as AmericasNLI is a multiway parallel dataset, we use it to benchmark the performance of different machine translation models for those languages. Finally, using a standard transformer model, we explore translation-based approaches for natural language inference. We find that the zero-shot performance of pretrained models without adaptation is poor for all languages in AmericasNLI, but model adaptation via continued pretraining results in improvements. All machine translation models are rather weak, but, surprisingly, translation-based approaches to natural language inference outperform all other models on that task."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

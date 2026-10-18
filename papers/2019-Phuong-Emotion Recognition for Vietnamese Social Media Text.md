@@ -13,7 +13,7 @@ authors: "Ho Thanh Phuong; Nguyen Van Phu"
 url: "https://arxiv.org/abs/1911.09339"
 external_pdf: "https://arxiv.org/pdf/1911.09339.pdf"
 pdf_extract: "PDF Extracts/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

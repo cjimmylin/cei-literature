@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM, InternLM, Llama-2, Mistral, Qwen-2"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Lan-McBE.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lan-McBE.pdf]]"
 CONFERENCE: "ACL 2025"
 ethics_overall: 75
 virtue_ethics: 0

@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2506.14012.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

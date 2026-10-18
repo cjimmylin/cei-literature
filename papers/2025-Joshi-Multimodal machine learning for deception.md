@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Joshi-Multimodal machine learning for deception.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Joshi-Multimodal machine learning for deception.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Joshi-Multimodal machine learning for deception.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

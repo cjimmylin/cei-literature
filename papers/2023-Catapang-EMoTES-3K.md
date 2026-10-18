@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Flan-T5, RoBERTa"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

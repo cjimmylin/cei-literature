@@ -3,7 +3,7 @@ key: CGSR0108
 type: document
 short_title: "The Outsider: Russia in the Race for Artificial Intelligence"
 year: 2024
-first_author: [[Ifri]]
+first_author: "[[Ifri]]"
 authors: Ifri
 url: "https://www.ifri.org/en/studies/outsider-russia-race-artificial-intelligence"
 abstract: "Russia's position in global AI race, strategy and governance"

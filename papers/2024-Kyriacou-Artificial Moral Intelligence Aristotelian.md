@@ -5,13 +5,13 @@ key: AUTO_KYRIACOU2024
 type: journalArticle
 short_title: "Artificial Moral Intelligence Aristotelian"
 year: 2024
-first_author: [[Kyriacou]]
-last_author: [[Christos]]
+first_author: "[[Kyriacou]]"
+last_author: "[[Christos]]"
 authors: "Kyriacou; Christos"
 doi: 10.1007/s43681-024-00543-1
 url: "https://link.springer.com/article/10.1007/s43681-024-00543-1"
 pdf_extract: "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

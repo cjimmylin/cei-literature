@@ -13,7 +13,7 @@ authors: "N. Sukiennik; Chen Gao; Felix Juefei-Xu; Y & Li"
 url: "https://arxiv.org/abs/2504.08863"
 external_pdf: "https://arxiv.org/pdf/2504.08863.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

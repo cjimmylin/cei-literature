@@ -7,8 +7,8 @@ key: EXSR0689
 type: preprint
 short_title: "Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models"
 year: 2024
-first_author: [[Unknown]]
-last_author: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
 authors: Unknown
 authors_incomplete: true
 url: "https://arxiv.org/abs/2406.17675"

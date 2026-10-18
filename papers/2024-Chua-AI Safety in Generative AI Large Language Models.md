@@ -49,7 +49,7 @@ significance: "A comprehensive reference that unifies various safety challenges 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Chua-AI Safety in Generative AI Large Language Models.md"
 paper_summary: "Overview: Highlights AI Safety in Generative AI Large Language Models: A Survey Jaymari Chua,Yun Li,Shiyi Yang,Chen Wang,Lina Yao • Up-to-date. • Computer scientists' perspective: specific and technical. arXiv: | Methodology: to LLM security is imperative, incorporating rigorous red- teaming exercises, enhanced input validation, prompt filter- ing, dynamic randomization tec | Key Findings: reflects the what the language models align to, and in this case, the human labelers were tasked to choose the most positive and happy continuation (s | Conclusions: of advanced applications such as ChatGPT, Gemini, and others into distinct aspects, we can narrow safety concerns at their technical scope and underst"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chua-AI Safety in Generative AI Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Chua-AI Safety in Generative AI Large Language Models.pdf]]"
 abstract: "Large Language Model (LLMs) such as ChatGPT that exhibit generative AI capabilities are facing accelerated adoption and innovation. The increased presence of Generative AI (GAI) inevitably raises concerns about the risks and safety associated with these models. This article provides an up-to-date survey of recent trends in AI safety research of GAI-LLMs from a computer scientist's perspective: specific and technical. In this survey, we explore the background and motivation for the identified har"
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Chua-AI Safety in Generative AI Large Language Models.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Chua-AI Safety in Generative AI Large Language Models.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2407.18369
 - **DOI:** https://doi.org/10.48550/arXiv.2407.18369

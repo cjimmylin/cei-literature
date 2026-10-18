@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2025.acl-long.563.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Vietnamese
 cultures_nationalities_list: Vietnamese

@@ -3,7 +3,7 @@ key: CGSR0119
 type: preprint
 short_title: "Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://arxiv.org/html/2502.16534"
 abstract: "Disentangling language capabilities from cultural alignment in LLMs"

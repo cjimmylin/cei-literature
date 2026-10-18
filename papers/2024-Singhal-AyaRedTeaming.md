@@ -7,7 +7,7 @@ key: BKBB8NFZ
 type: journalArticle
 short_title: AyaRedTeaming
 year: 2024
-first_author: [[Aakanksha]]
+first_author: "[[Aakanksha]]"
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://arxiv.org/abs/2406.18682"
@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Singhal-AyaRedTeaming.md"
 abstract: "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and..."
 paper_summary: "Abstract: A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monol | Overview: The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm Aakanksha⋆ Cohere For AI Arash Ahmadian Cohere & Cohere For AI Beyza Ermis Cohere For AI Seraphina Goldfarb-Tarra | Methodology: DPO(IFT) SFT-Preferred DPO(SFT) SFT-Random Figure 1: Trade-off between general performance and safety performance of different mitigation techniques w | Key Findings: We use the LLM-as-an-evaluator setup with GPT-4 to classify the model generations as harmful or not and validate the reliability of this approach with | Conclusions: In this work, we demonstrate the importance of a wide variety of alignment methods to tackle the dual challenge of mitigating both local and global ha"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Singhal-AyaRedTeaming.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Singhal-AyaRedTeaming.pdf]]"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Aya, Command R+, GPT-4"
@@ -89,7 +89,7 @@ data_metrics: "6 languages"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Singhal-AyaRedTeaming.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Singhal-AyaRedTeaming.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2406.18682
 

@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2020.lrec-1.119.pdf"
 publication: "ACL Anthology (LREC 2020)"
 CONF-CC: "LREC 2020"
 pdf_extract: "PDF Extracts/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

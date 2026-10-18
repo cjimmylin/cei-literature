@@ -7,16 +7,16 @@ key: LSRC0797
 type: conferencePaper
 short_title: "Indigenous Peoples and AI: Defending Rights, Shaping the Future of Technology | Cultural Survival"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.culturalsurvival.org/news/indigenous-peoples-and-ai-defending-rights-shaping-future-technology"
 external_pdf: "https://social.desa.un.org/sites/default/files/IDWIP%202025%20Concept%20Note%20FINAL.pdf?_gl=1*mx0iql*_ga*NDU3NDA5NzM1LjE3NTMxOTI1Nzg.*_ga_TK9BQL5X7Z*czE3NTQ2NTgxMDckbzIkZzAkdDE3NTQ2NTgxMDckajYwJGwwJGgw"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I've completed the web search for \"indigenous languages AI ethics cultural values.\" Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation."
+abstract: 
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "Other Conference"
 ethics_overall: 30

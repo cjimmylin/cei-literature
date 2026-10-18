@@ -13,7 +13,7 @@ authors: "Huihao Jing; Wenbin Hu; Hongyu Luo; Jianhui Yang; Wei Fan; Haoran Li; 
 url: "https://arxiv.org/abs/2509.24922"
 external_pdf: "https://arxiv.org/pdf/2509.24922.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jing-MASLegalBench.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Jing-MASLegalBench.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jing-MASLegalBench.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

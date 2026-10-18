@@ -3,7 +3,7 @@ key: EXSR0700
 type: journalArticle
 short_title: "Islamic Virtue-Based Ethics for Artificial Intelligence"
 year: 2022
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://link.springer.com/article/10.1007/s44163-022-00028-2"
 publication_title: "Discover Artificial Intelligence"

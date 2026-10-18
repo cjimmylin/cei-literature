@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.07080"
 external_pdf: "https://arxiv.org/pdf/2407.07080.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

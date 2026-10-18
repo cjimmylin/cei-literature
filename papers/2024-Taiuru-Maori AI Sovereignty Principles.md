@@ -3,7 +3,7 @@ key: CGSR0090
 type: document
 short_title: "Maori AI Sovereignty Principles"
 year: 2024
-first_author: [[Taiuru]]
+first_author: "[[Taiuru]]"
 authors: Taiuru
 url: "https://www.taiuru.co.nz/maori-ai-sovereignty-principles/"
 abstract: "Principles for Maori AI sovereignty based on tikanga and matauranga"

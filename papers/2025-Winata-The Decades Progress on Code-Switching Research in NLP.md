@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2212.09660v2.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Winata-The Decades Progress on Code-Switching Research in NLP.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Winata-The Decades Progress on Code-Switching Research in NLP.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Winata-The Decades Progress on Code-Switching Research in NLP.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

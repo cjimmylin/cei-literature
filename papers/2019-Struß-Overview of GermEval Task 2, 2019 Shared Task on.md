@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://projects.fzai.h-da.de/iggsa/"
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

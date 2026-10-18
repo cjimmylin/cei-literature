@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md"
 abstract: "This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral judgment depends on the language in which the question is asked (Costa et al., 2014). We extend the work of Tanmay et al. (2023) beyond English, to 5 new languages (Chinese, Hindi, Russian, Spanish and Swahili), and probe three LLMs – ChatGPT, GPT-4 and Llama2Chat-70B – that shows substantial..."
 paper_summary: "Abstract: This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral j | Overview: Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test Aditi Khandelwal1∗ Utkarsh Agarwal1∗ Kumar Tanmay1∗ Monojit Choudhury2† 1Mi | Methodology: We provide the translated prompt to the model and translate the response to English using Google Translate API. Then we extract the responses of the t | Conclusions: In this first of its kind study of multilingual moral reasoning assessment of LLMs, we observe that quite unsurprisingly, the moral reasoning capabil-"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.02135
 - **DOI:** https://doi.org/10.48550/arXiv.2402.02135

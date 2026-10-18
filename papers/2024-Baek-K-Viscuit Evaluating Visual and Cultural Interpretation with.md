@@ -14,7 +14,7 @@ doi: 10.18653/v1/2025.acl-long.1066
 url: "https://arxiv.org/abs/2406.16469"
 external_pdf: "https://arxiv.org/pdf/2406.16469.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
 publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213

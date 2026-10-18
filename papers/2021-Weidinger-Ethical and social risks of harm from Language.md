@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Weidinger-Ethical and social risks of harm from Language.md"
 abstract: "This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potential risks posed by these models is needed. A wide range of established and anticipated risks are analysed in detail, drawing on multidisciplinary literature from computer science, linguistics, and social sciences. The paper outlines six speciﬁc risk areas: I. Discrimination, Exclusion and Toxicity, II."
 paper_summary: "Abstract: This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potentia | Overview: Ethical and social risks of harm from Language Models Laura Weidinger1, John Mellor1, Maribeth Rauh1, Conor Griﬃn1, Jonathan Uesato1, Po-Sen Huang1, Myra Cheng1,2, Mia Glaese1, Borja Balle1, Atoosa Ka | Key Findings: Risk assessment requires expanding beyond the methodologies traditionally used to evaluate LMs, LAs and LTs. For example, research on human- computer- | Conclusions: 36"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2112.04359
 - **DOI:** https://doi.org/10.48550/arXiv.2112.04359

@@ -13,7 +13,7 @@ authors: "Syed Muhammad Ali Naqvi; Hammad Sajid; Zainab Haider; Ali Muhammad Asa
 url: "https://arxiv.org/abs/2601.17664"
 external_pdf: "https://arxiv.org/pdf/2601.17664.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

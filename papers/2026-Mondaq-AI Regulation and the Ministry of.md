@@ -3,7 +3,7 @@ key: CGSR0145
 type: document
 short_title: "AI Regulation and the Ministry of Artificial Intelligence in Kazakhstan"
 year: 2026
-first_author: [[Mondaq]]
+first_author: "[[Mondaq]]"
 authors: Mondaq
 url: "https://www.mondaq.com/new-technology/1747632/ai-regulation-and-the-ministry-of-artificial-intelligence-in-kazakhstan"
 abstract: "Analysis of Kazakhstan's 2025 AI law and new Ministry of AI with seven governance principles"

@@ -13,7 +13,7 @@ authors: "Karina Vida; F. Damken; A & Lauscher"
 url: "https://arxiv.org/abs/2407.15184"
 external_pdf: "https://arxiv.org/pdf/2407.15184.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.pdf]]"
 publication: "AIES 2024"
 CONF-CC: "AIES 2024"
 DATE_ADDED: 20260207

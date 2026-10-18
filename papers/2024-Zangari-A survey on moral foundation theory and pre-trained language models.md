@@ -17,7 +17,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-025-02225-w.
 publication: Springer
 CONF-CC: "AI & Society"
 pdf_extract: "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

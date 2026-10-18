@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s13278-025-01507-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01507-x.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.pdf]]"
 publication: "WebSearch: Malayalam hate speech counter-speech"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

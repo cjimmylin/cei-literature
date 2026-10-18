@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Morris-Levels of AGI.md"
 abstract: "We propose a framework for classifying the capabilities and behavior of Artificial General Intelligence (AGI) models and their precursors. This framework introduces levels of AGI performance, generality, and autonomy, providing a common language to compare models, assess risks, and measure progress along the path to AGI. To develop our framework, we analyze existing definitions of AGI, and distill six principles that a useful ontology for AGI should satisfy."
 paper_summary: "Abstract: We propose a framework for classifying the ca- pabilities and behavior of Artificial General Intel- ligence (AGI) models and their precursors. This framework introduces levels of AGI performance, gene | Overview: Position: Levels of AGI for Operationalizing Progress on the Path to AGI Meredith Ringel Morris 1 Jascha Sohl-Dickstein 2 Noah Fiedel 2 Tris Wartkentin 2 Allan Dafoe 3 Aleksandra Faust 2 Clement Farba | Methodology: to defining AGI enables a more nuanced discussion of how different combinations of performance and generality re- late to different types of AI risk.  | Conclusions: Artificial General Intelligence is a concept of both aspira- tional and practical consequences. We analyzed nine defini- tions of AGI, identifying str"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Morris-Levels of AGI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Morris-Levels of AGI.pdf]]"
 CONF-CC: "ICML 2023"
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Morris-Levels of AGI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Morris-Levels of AGI.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2311.02462
 

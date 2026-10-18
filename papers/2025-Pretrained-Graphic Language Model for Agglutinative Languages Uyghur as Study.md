@@ -16,7 +16,7 @@ external_pdf: "https://page-one.springer.com/pdf/preview/10.1007/978-3-642-41491
 publication: Springer
 CONF-CC: "Lecture notes in computer science 2025"
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag"
+abstract: "This paper describes a novel, graphic language modeling strategy for morphologically rich agglutinative languages. Different from the linear structure in n-gram language models, graphic modeling organizes the morphemes in a sentence, including stems and affixes, as a directed graph. The graphic language model is verified in two typical application scenarios, morphological analysis and machine translation. We take Uyghur for example, and experiments show that the graphic language model achieves significant improvement in both morphological analysis and machine translation."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

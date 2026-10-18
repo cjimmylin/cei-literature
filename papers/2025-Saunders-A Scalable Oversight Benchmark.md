@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Saunders-A Scalable Oversight Benchmark.md"
 abstract: "As AI agents surpass human capabilities, scalable oversight – the problem of effectively supplying human feedback to potentially superhuman AI models – becomes increasingly critical to ensure alignment. While numerous scalable oversight protocols have been proposed, they lack a systematic empirical framework to evaluate and compare them. While recent works have tried to empirically study scalable oversight protocols – particularly Debate – we argue that the experiments they conduct are not..."
 paper_summary: "Abstract: As AI agents surpass human capabilities, scalable oversight – the problem of effectively supplying human feedback to potentially superhuman AI models – be- comes increasingly critical to ensure alignm | Overview: Published at the ICLR 2025 Workshop on Bidirectional Human-AI Alignment (BiAlign) A BENCHMARK FOR SCALABLE OVERSIGHT MECHA- NISMS Abhimanyu Pallavi Sudhir University of Warwick abhimanyu.pallavi-sudhi | Methodology: call (context, answer case), which simulates what an agent arguing for a particular answer to a question would say. This answer case is really a stand"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4o"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.03731
 

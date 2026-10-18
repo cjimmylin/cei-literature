@@ -8,14 +8,14 @@ type: preprint
 short_title: "Bias in Large Language Models: Origin, Evaluation, and Mitigation"
 year: 2024
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph]]"
 authors: "Adnan Masood; Ph"
 url: "https://arxiv.org/html/2411.10915v1"
 external_pdf: "https://arxiv.org/pdf/2411.10915.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

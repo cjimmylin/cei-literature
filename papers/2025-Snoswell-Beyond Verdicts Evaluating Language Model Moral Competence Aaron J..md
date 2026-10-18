@@ -16,7 +16,7 @@ external_pdf: "https://philarchive.org/archive/SNOBVE"
 publication: PhilArchive
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting"
+abstract: "As Large Language Models (LLMs) are increasingly deployed as Artificial Moral Advisors and autonomous agents making ethical decisions, evaluating their moral competence has become critical. However, existing evaluations may inadequately assess the moral reasoning capabilities needed for real-world deployment, focusing primarily on whether models can match human judgments on carefully curated ethical scenarios. We surveyed 69 papers evaluating LLM ethical competence (2020-2025) and developed a taxonomy categorising evaluations across datasets, behaviors, and metrics. Our comprehensive analysis maps the methodological landscape of this rapidly growing field and reveals several critical limitations. Most significantly, the vast majority of studies rely on pre-packaged scenarios that highlight morally relevant features, failing to test models’ ability to identify ethical considerations in noisy, realistic contexts-what we term “moral sensitivity”. Additionally, evaluations overemphasize verdict accuracy rather than assessing moral reasoning quality and steerability, with few studies testing whether models can be appropriately guided toward different ethical frameworks. Most studies rely on “ground truth” comparisons despite philosophical arguments that reasonable moral pluralism precludes definitive moral ground truth. We argue for a significant methodological shift: moving from curated scenarios to unfiltered information streams, from verdict accuracy to reasoning quality and steerability, and from ground truth metrics to assessments of reasonableness and consistency. This reorientation is essential for developing AI systems that can navigate moral complexity in real-world deployment scenarios."
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

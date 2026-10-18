@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, o1, Claude-3, Gemini, Gemma, Llama-3, Vicuna, Mistral, Command-R, Phi-3"
 DATA_URL: "https://github.com/kztakemoto/mmllm"
 pdf_extract: "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Journal
 ethics_overall: 100

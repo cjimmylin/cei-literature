@@ -59,7 +59,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, GPT-3.5, LLaMA, XLNet"
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2204.12000
 - **DOI:** https://doi.org/10.48550/arXiv.2204.12000

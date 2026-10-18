@@ -15,7 +15,7 @@ url: "https://www.sciencedirect.com/science/article/pii/S2405844023058553"
 publication: "ScienceDirect (Heliyon)"
 CONF-CC: "ScienceDirect (Heliyon)"
 pdf_extract: "PDF Extracts/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.pdf]]"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10447929&blobtype=pdf"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indonesian

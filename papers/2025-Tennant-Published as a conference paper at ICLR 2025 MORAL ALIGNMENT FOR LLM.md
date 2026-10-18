@@ -16,7 +16,7 @@ external_pdf: "https://core.ac.uk/download/656945121.pdf"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

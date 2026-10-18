@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2504.02403.pdf"
 publication: "arXiv / C3NLP 2025"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

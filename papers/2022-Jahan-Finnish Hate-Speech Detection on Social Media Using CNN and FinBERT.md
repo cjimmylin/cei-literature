@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2022.lrec-1.92.pdf"
 publication: "ACL Anthology / LREC 2022"
 CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2406.08080.pdf"
 publication: "arXiv / ACL Anthology"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

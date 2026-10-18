@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2025.emnlp-main.105.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese"
 cultures_nationalities_list: "Chinese, Japanese"

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.00691"
 external_pdf: "https://arxiv.org/pdf/2411.00691.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zeng-Leveraging Large Language Models for Code-Mixed.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zeng-Leveraging Large Language Models for Code-Mixed.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zeng-Leveraging Large Language Models for Code-Mixed.pdf]]"
 publication: "WebSearch: Malayalam code-mixed sentiment LLM"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

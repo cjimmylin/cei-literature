@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.md"
 abstract: "In this paper, we argue that current safety alignment research efforts for large language models are hindered by many intertwined sources of noise, such as small datasets, methodological inconsistencies, and unreliable evaluation setups. This can, at times, make it impossible to evaluate and compare attacks and defenses fairly, thereby slowing progress. We systematically analyze the LLM safety evaluation pipeline, covering dataset curation, optimization strategies for automated red-teaming,..."
 paper_summary: "Abstract: In this paper, we argue that current safety align- ment research efforts for large language mod- els are hindered by many intertwined sources of noise, such as small datasets, methodological in- consi | Overview: LLM-Safety Evaluations Lack Robustness Tim Beyer 1 Sophie Xhonneux 2 Simon Geisler 1 Gauthier Gidel 2 3 Leo Schwinn 1 Stephan G¨unnemann 1 Abstract In this paper, we argue that current safety align- m | Methodology: to ai safety, 2023a. URL https://openai.com/index/ our-approach-to-ai-safety/. OpenAI. Openai evals, 2023b. URL https://github. com/openai/evals/tree/ | Key Findings: Datasets - targets biased against particular models - greedy decoding only - buggy toolboxes - ignore overrefusal- safety tradeoff - fragmented judge  | Conclusions: In this work, we critically examined the current state of LLM robustness evaluations, highlighting major sources of noise, bias, and inconsistencies a"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: Llama-2
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2503.02574
 

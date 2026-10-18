@@ -7,8 +7,8 @@ key: EXSR0681
 type: conferencePaper
 short_title: "A roadmap for evaluating moral competence in large language models"
 year: 2026
-first_author: [[Gabriel]]
-last_author: [[Gabriel]]
+first_author: "[[Gabriel]]"
+last_author: "[[Gabriel]]"
 authors: "Gabriel et al."
 authors_incomplete: true
 url: "https://www.nature.com/articles/s41586-025-10021-1"

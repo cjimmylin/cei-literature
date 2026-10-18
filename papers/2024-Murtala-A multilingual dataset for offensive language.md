@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.02169"
 external_pdf: "https://arxiv.org/pdf/2406.02169.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Murtala-A multilingual dataset for offensive language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Murtala-A multilingual dataset for offensive language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Murtala-A multilingual dataset for offensive language.pdf]]"
 publication: "WebSearch: Hausa Igbo Yoruba offensive language hate speech multilingual dataset"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

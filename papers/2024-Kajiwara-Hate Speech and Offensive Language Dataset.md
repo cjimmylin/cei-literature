@@ -7,8 +7,8 @@ key: LSRC0724
 type: conferencePaper
 short_title: "Hate Speech and Offensive Language Dataset"
 year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
 external_pdf: "https://doi.org/10.1016/j.ipm.2021.102524"
@@ -54,7 +54,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
 tags: 
-abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 80
 virtue_ethics: 0

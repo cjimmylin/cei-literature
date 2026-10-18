@@ -48,7 +48,7 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2025/2025-Cao-SafeDialBench.md"
 abstract: "With the rapid advancement of Large Language Models (LLMs), the safety of LLMs has been a critical concern requiring precise assessment. Current benchmarks primarily concentrate on single-turn dialogues or a single jailbreak attack method to assess the safety. Additionally, these benchmarks have not taken into account the LLM’s capability to identify and handle unsafe information in detail. To address these issues, we propose a fine-grained benchmark SafeDialBench for evaluating the safety of..."
 paper_summary: "Abstract: With the rapid advancement of Large Language Models (LLMs), the safety of LLMs has been a critical concern requiring precise assessment. Current benchmarks primarily concentrate on single-turn dialogu | Overview: SafeDialBench: A Fine-Grained Safety Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks Hongye Cao *1, Yanming Wang *1, Sijia Jing *1, Ziyue Peng *1, Zhixin Bai | Key Findings: scope. First, they often rely on a single jailbreak attack strategy for dataset construction. Second, they focus narrowly on censoring aggressive lan- | Conclusions: This paper presents a comprehensive and fine- grained benchmark for evaluating LLMs safety in multi-turn dialogues, incorporating diverse jail- break"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Cao-SafeDialBench.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Cao-SafeDialBench.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGLM, DeepSeek, GPT-3.5, GPT-4o, InternLM, Llama-3, Mistral, o3-mini, Qwen"
@@ -90,7 +90,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Cao-SafeDialBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Cao-SafeDialBench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.11090
 

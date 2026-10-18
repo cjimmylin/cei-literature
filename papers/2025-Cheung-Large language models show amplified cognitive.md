@@ -7,8 +7,8 @@ key: EXSR0678
 type: conferencePaper
 short_title: "Large language models show amplified cognitive biases in moral decision-making"
 year: 2025
-first_author: [[Cheung]]
-last_author: [[Cheung]]
+first_author: "[[Cheung]]"
+last_author: "[[Cheung]]"
 authors: "Cheung et al."
 authors_incomplete: true
 url: "https://www.pnas.org/doi/10.1073/pnas.2412015122"

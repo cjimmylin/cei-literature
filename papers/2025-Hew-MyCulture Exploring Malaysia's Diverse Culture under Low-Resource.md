@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.05429"
 external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

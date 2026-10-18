@@ -48,7 +48,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zeng-AIR-Bench 2024.md"
 abstract: "Foundation models (FMs) provide societal benefits but also amplify risks. Governments, companies, and researchers have proposed regulatory frameworks, acceptable use policies, and safety benchmarks in response. However, existing public benchmarks often define safety categories based on previous literature, intuitions, or common sense, leading to disjointed sets of categories for risks specified in recent regulations and policies, which makes it challenging to evaluate and compare FMs across..."
 paper_summary: "Abstract: Foundation models (FMs) provide societal benefits but also amplify risks. Gov- ernments, companies, and researchers have proposed regulatory frameworks, ac- ceptable use policies, and safety benchmark | Overview: AIR-BENCH 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies o This paper contains model outputs that can be offensive in nature. Yi Zeng* 1,2 Yu Yang* 1,3 Andy Zhou* 4,5  | Methodology: than these top-ranked models to handle the response to risky inquires, with an average refusal rate of 15%, frequently providing harmful contents upon | Key Findings: ० Limited insights to regulation-based risks. HEx-PHI Figure 2: The gap between existing safety benchmarks and the comprehensive list of risks specifi"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf]]"
 CONF-CC: "AGI - Artificial General Intelligence - Robotics - Safety &amp; Alignment"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen-1.5, Yi"
@@ -93,7 +93,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2407.17436
 - **DOI:** https://doi.org/10.48550/arXiv.2407.17436

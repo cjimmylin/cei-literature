@@ -7,7 +7,7 @@ key: 2JMQI7PK
 type: document
 short_title: "2025 AI Safety Index"
 year: 2025
-first_author: [[Institute]]
+first_author: "[[Institute]]"
 last_author: "[[Future of Life]]"
 authors: "Institute; Future of Life"
 url: "https://futureoflife.org/ai-safety-index-summer-2025/"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 100
 virtue_ethics: 0

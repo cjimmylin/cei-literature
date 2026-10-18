@@ -13,7 +13,7 @@ authors: "Charles S. Bryan"
 doi: 10.1001/amajethics.2025.611
 url: "https://journalofethics.ama-assn.org/article/virtue-ethics-and-postponing-human-extinction/2025-08"
 pdf_extract: "PDF Extracts/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

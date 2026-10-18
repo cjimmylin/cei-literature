@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2503.15837"
 external_pdf: "https://arxiv.org/pdf/2503.15837.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lan-Fuxi A Benchmark for Evaluating Language.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

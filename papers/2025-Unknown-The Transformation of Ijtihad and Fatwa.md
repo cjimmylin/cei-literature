@@ -3,7 +3,7 @@ key: CGSR0060
 type: journalArticle
 short_title: "The Transformation of Ijtihad and Fatwa in the Era of AI"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://ojssulthan.com/asje/article/view/449"
 abstract: "Epistemological and technological study of AI-era ijtihad and fatwa"

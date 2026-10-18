@@ -6,16 +6,16 @@ Not AI:
 key: LSRC0722
 type: journalArticle
 short_title: "A comprehensive framework for multi-modal hate speech detection in social media using deep learning"
-year: 2024
-first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
-authors: Kajiwara
+year: 2025
+first_author: "[[R. Prabhu]]"
+last_author: "[[V. Seethalakshmi]]"
+authors: "R. Prabhu; V. Seethalakshmi"
 url: "https://www.nature.com/articles/s41598-025-94069-z"
 external_pdf: "https://www.nature.com/articles/s41598-025-94069-z.pdf"
 publication: Nature
 CONF-CC: Nature
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Japanese
 cultures_nationalities_list: Japanese
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: BERT
 DATA_URL: NA
 tags: 
-abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
+abstract: "As social media platforms evolve, hate speech increasingly manifests across multiple modalities, including text, images, audio, and video, challenging traditional detection systems focused on single modalities. Hence, this research proposes a novel Multi-modal Hate Speech Detection Framework (MHSDF) that combines Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to analyze complex, heterogeneous data streams. This hybrid approach leverages CNNs for spatial feature extraction, such as identifying visual cues in images and local text patterns, and Long Short Term Memory (LSTM) for modeling temporal dependencies and sequential information in text and audio. For textual content, utilize state-of-the-art word embeddings, including Word2Vec and BERT, to capture semantic relationships and contextual nuances. The framework integrates CNNs to extract n-gram patterns and RNNs to model long-range dependency up to sequences of up to 100 tokens. CNNs extract key spatial features in visual tasks, while LSTMs process video sequences to capture evolving visual patterns. Image spatial features refer to object localization, color distributions, and text extracted via Optical Character Recognition (OCR). The fusion mechanism employs attention mechanisms to prioritize key interactions between modalities, enabling the detection of nuanced hate speech, such as memes that blend offensive imagery with implicit text, sarcastic videos where toxicity is conveyed through tone and facial expressions, and multi-layered content that embeds discriminatory meaning, across different formats. The numerical findings show that the proposed MHSDF model increases the detection accuracy ratio of 98.53%, robustness ratio of 97.64%, interpretability ratio of 97.71%, scalability ratio of 98.67%, and performance ratio of 99.21% compared to other existing models. Furthermore, the model’s interpretability is enhanced through attention-based explanations, which provide insights into how multi-modal hate speech is identified. The framework improves traceability of decisions, interpretability by modality, and overall transparency."
 CONFERENCE: Journal
 ethics_overall: 100
 virtue_ethics: 0

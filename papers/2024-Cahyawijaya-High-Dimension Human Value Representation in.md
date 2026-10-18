@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.md"
 abstract: "The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human values and preferences. Given various approaches of human value alignment, there is an urgent need to understand the scope and nature of human values injected into these LLMs before their deployment and adoption. We propose UniVaR, a high-dimensional neural representation of symbolic human value distributions in LLMs, orthogonal to model architecture and training data."
 paper_summary: "Abstract: The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment | Overview: High-Dimension Human Value Representation in Large Language Models Samuel Cahyawijaya∗ Delong Chen∗ Yejin Bang∗ Leila Khalatbari Bryan Wilie∗ Ziwei Ji Etsuko Ishii Pascale Fung* The Hong Kong Universi | Key Findings: Task To quantitatively evaluate whether represen- tation effectively captures value-relevant features in LLMs, we introduce an LLM value identificatio | Conclusions: The adoption of LLMs across various fields neces- sitates understanding how these models represent human values. Our paper introduces UniVaR, a high-d"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Mixtral, Aya-101, SeaLLM, BLOOMZ, ChatGLM-3, Nous-Hermes-Mixtral, SOLAR, Mistral, JAIS, Yi, Llama-2, MaralGPT, Command-R, Llama-3, ChatGPT"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "25 languages"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.07900
 - **DOI:** https://doi.org/10.48550/arXiv.2404.07900

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2511.17808"
 external_pdf: "https://arxiv.org/pdf/2511.17808.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

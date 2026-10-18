@@ -3,7 +3,7 @@ key: CGSR0154
 type: document
 short_title: "Decolonizing the 'Ethics of Artificial Intelligence'"
 year: 2024
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://cosmosandhistory.org/index.php/journal/article/view/1006"
 abstract: "Decolonizing AI ethics through non-Western frameworks including Buddhist and indigenous perspectives"

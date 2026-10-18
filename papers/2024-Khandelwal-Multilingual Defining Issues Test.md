@@ -14,7 +14,7 @@ doi: 10.18653/v1/2024.eacl-long.176
 url: "https://doi.org/10.18653/v1/2024.eacl-long.176"
 external_pdf: "https://aclanthology.org/2024.eacl-long.176.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Multilingual Defining Issues Test.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Khandelwal-Multilingual Defining Issues Test.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Khandelwal-Multilingual Defining Issues Test.pdf]]"
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207

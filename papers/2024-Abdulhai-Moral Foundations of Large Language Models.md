@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-3, PaLM"
 DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: 100
 virtue_ethics: 5

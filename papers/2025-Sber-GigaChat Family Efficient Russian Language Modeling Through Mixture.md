@@ -14,7 +14,7 @@ doi: 10.18653/v1/2025.acl-demo.10
 url: "https://arxiv.org/abs/2506.09440"
 external_pdf: "https://arxiv.org/pdf/2506.09440.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.pdf]]"
 publication: "arXiv / ACL Anthology (ACL Demo 2025)"
 CONF-CC: "ACL 2025 Demo"
 DATE_ADDED: 20260213

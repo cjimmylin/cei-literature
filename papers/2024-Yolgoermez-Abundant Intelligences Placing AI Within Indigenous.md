@@ -14,7 +14,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-024-02099-4.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.pdf]]"
 publication: "AI & Society (Springer)"
 CONF-CC: "AI & Society"
 DATE_ADDED: 20260213

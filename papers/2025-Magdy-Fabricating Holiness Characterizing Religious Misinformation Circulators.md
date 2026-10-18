@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07845"
 external_pdf: "https://arxiv.org/pdf/2508.07845.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.pdf]]"
 publication: "ICWSM 2026 (AAAI Press) / arXiv"
 CONF-CC: "ICWSM 2026"
 DATE_ADDED: 20260213

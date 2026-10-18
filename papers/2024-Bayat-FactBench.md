@@ -48,7 +48,7 @@ newtags:
 pdf_extract: "PDF Extracts/2024/2024-Bayat-FactBench.md"
 abstract: "The rapid adoption of language models (LMs) across diverse applications has raised concerns about their factuality, i.e., their consistency with real-world facts. We first present VERIFY (Verification and Evidence RetrIeval for FactualitY evaluation), a pipeline to evaluate LMs’ factuality in real-world user interactions. VERIFY considers the verifiability of LM-generated content and categorizes content units as supported, unsupported, or undecidable based on Web-retrieved evidence."
 paper_summary: "Abstract: The rapid adoption of language models (LMs) across diverse applications has raised concerns about their factuality, i.e., their consistency with real-world facts. We first present VER- IFY (Verificati | Overview: FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation Farima Fatahi Bayat, Lechen Zhang, Sheza Munir, Lu Wang University of Michigan, Ann Arbor {farimaf, leczhang, shezam | Methodology: by labeling such cases as undecidable. While this evidence-based strategy may yield lower factuality scores, it ensures more trustworthy evaluations.  | Key Findings: Farima Fatahi Bayat, Lechen Zhang, Sheza Munir, Lu Wang University of Michigan, Ann Arbor {farimaf, leczhang, shezamnr, wangluxy}@umich.edu https://hu | Conclusions: We present VERIFY, a factuality evaluation pipeline that annotates LM responses in real-world settings by decomposing them into content units and labe"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Bayat-FactBench.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Bayat-FactBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://huggingface.co/spaces/launch/factbench"
@@ -93,7 +93,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Bayat-FactBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Bayat-FactBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.22257
 - **DOI:** https://doi.org/10.48550/arXiv.2410.22257

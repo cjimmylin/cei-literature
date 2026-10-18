@@ -3,7 +3,7 @@ key: EXSR0708
 type: conferencePaper
 short_title: "The Value of Disagreement in AI Design, Evaluation, and Alignment"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://dl.acm.org/doi/10.1145/3715275.3732146"
 publication_title: "FAccT 2025"

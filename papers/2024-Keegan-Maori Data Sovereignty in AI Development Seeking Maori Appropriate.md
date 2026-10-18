@@ -13,7 +13,7 @@ authors: "Te Taka Keegan"
 url: "https://www.waikato.ac.nz/assets/Uploads/Research/Research-institutes-centres-and-groups/Entities/Te-Mata-Punenga-o-Te-Kotahi-Te-Kotahi-Research-Institute-TKRI/Maori-LLM-report-final-TeTaka.pdf"
 publication: "University of Waikato / Te Kotahi Research Institute"
 CONF-CC: N/A
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: N/A

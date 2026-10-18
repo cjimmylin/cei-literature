@@ -5,13 +5,13 @@ key: AUTO_SO2024
 type: journalArticle
 short_title: "AI Trained on Confucian Analects"
 year: 2024
-first_author: [[So]]
-last_author: [[Emma]]
+first_author: "[[So]]"
+last_author: "[[Emma]]"
 authors: "So; Emma"
 doi: N/A
 url: "https://philarchive.org/archive/SOHATI"
 pdf_extract: "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-So-AI Trained on Confucian Analects.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-So-AI Trained on Confucian Analects.pdf]]"
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
 languages_list: 

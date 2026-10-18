@@ -14,7 +14,7 @@ doi: 10.18653/v1/2020.emnlp-main.381
 url: "https://arxiv.org/abs/2010.15925"
 external_pdf: "https://arxiv.org/pdf/2010.15925.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2020)"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260213

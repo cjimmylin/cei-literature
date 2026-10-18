@@ -11,7 +11,7 @@ authors: "Constantinescu, Mihaela; Crisp, Roger"
 doi: 10.1007/s12369-022-00887-w
 url: "https://link.springer.com/article/10.1007/s12369-022-00887-w"
 pdf_extract: "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

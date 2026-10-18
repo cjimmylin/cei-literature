@@ -7,8 +7,8 @@ key: DOI_23736992_2025_2553146
 type: journalArticle
 short_title: "Insights into Moral Reasoning of AI"
 year: 2025
-first_author: [[Sameer]]
-last_author: [[Rabiya]]
+first_author: "[[Sameer]]"
+last_author: "[[Rabiya]]"
 authors: "Sameer; Ahmed; Fatima; Rabiya"
 doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 100
 virtue_ethics: 0

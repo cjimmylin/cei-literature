@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, BELLE, BLOOM, BLOOMz, ChatGLM, ChatGLM2, GLM, GPT-3.5, MOSS"
 DATA_URL: "https://github.com/YFHuangxxxx/CBBQ/"
 pdf_extract: "PDF Extracts/2024/2024-Huang-CBBQ.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-CBBQ.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Huang-CBBQ.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 30
 virtue_ethics: 0

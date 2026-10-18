@@ -48,7 +48,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I found relevant information about the \"John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs\" paper."
+abstract: 
 research_topic: Other
 CONFERENCE: "Other Conference"
 ethics_overall: 0

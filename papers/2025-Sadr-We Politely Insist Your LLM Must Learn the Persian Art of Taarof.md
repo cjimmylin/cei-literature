@@ -13,7 +13,7 @@ authors: "Nikta Gohari Sadr; Sahar Heidariasl; Karine Megerdoomian; Laleh Seyyed
 url: "https://arxiv.org/abs/2509.01035"
 external_pdf: "https://arxiv.org/pdf/2509.01035.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
 publication: "arXiv / EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

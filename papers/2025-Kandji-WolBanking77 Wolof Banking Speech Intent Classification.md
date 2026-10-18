@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19271"
 external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
 publication: "WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

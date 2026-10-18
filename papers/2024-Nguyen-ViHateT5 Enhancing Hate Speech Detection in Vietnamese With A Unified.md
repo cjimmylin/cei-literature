@@ -14,7 +14,7 @@ doi: 10.18653/v1/2024.findings-acl.355
 url: "https://aclanthology.org/2024.findings-acl.355/"
 external_pdf: "https://arxiv.org/pdf/2405.14141.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.pdf]]"
 publication: "ACL Anthology"
 CONF-CC: N/A
 DATE_ADDED: 20260213

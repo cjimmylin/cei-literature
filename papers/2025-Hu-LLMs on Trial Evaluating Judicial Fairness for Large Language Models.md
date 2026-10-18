@@ -13,7 +13,7 @@ authors: "Yiran Hu; Zongyue Xue; Haitao Li; Siyuan Zheng; Qingjing Chen; Shaochu
 url: "https://arxiv.org/abs/2507.10852"
 external_pdf: "https://arxiv.org/pdf/2507.10852.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

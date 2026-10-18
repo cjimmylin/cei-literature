@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2508.15361.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Ni-A Survey on Large Language Model Benchmarks.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ni-A Survey on Large Language Model Benchmarks.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ni-A Survey on Large Language Model Benchmarks.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

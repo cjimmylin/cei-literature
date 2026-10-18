@@ -7,8 +7,8 @@ key: 4TRXZEK5
 type: document
 short_title: "Yankari: Monolingual Yoruba Dataset"
 year: 2025
-first_author: [[Akpobi]]
-last_author: [[Maro]]
+first_author: "[[Akpobi]]"
+last_author: "[[Maro]]"
 authors: "Akpobi; Maro"
 url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/acflp/YANKARI"
 pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

@@ -8,14 +8,14 @@ type: preprint
 short_title: "From Words to Proverbs: Evaluating LLMs' Linguistic and Cultural Competence in Saudi Dialects with Absher"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph]]"
 authors: "Adnan Masood; Ph"
 url: "https://arxiv.org/html/2507.10216"
 external_pdf: "https://arxiv.org/pdf/2507.10216.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Masood-From Words to Proverbs Evaluating LLMs' Linguistic and Cultural.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Masood-From Words to Proverbs Evaluating LLMs’ Linguistic and Cultural.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Masood-From Words to Proverbs Evaluating LLMs’ Linguistic and Cultural.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

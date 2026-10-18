@@ -7,8 +7,8 @@ key: AUTO_ADITYA2025
 type: journalArticle
 short_title: "Toward global ethical frameworks for AI"
 year: 2025
-first_author: [[Aditya]]
-last_author: [[Shivam]]
+first_author: "[[Aditya]]"
+last_author: "[[Shivam]]"
 authors: "Aditya; Shivam"
 doi: 10.5281/zenodo.XXXXX
 url: "https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-human-values-and"
@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aditya-Toward global ethical frameworks for AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aditya-Toward global ethical frameworks for AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Aditya-Toward global ethical frameworks for AI.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 100
 virtue_ethics: 50

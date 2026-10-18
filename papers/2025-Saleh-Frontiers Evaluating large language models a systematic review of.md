@@ -16,7 +16,7 @@ url: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fco
 publication: Frontiers
 CONF-CC: Frontiers
 pdf_extract: "PDF Extracts/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, I found information about a paper titled \"Evaluating Large Language Models in Mongolian\" presented at ANLP 2025. According to the PDF document from the proceedings: The paper was presented at the 31st Annual Meeting of the Association for NLP (言語処理学会 第31回年次大会) in 2025."
+abstract: "Large language models, the innovative breakthrough taking the world by storm, have been applied in several fields, such as medicine, education, finance, and law. Moreover, large language models can integrate into those fields through their abilities in natural language processing, text generation, question answering, and several other use cases that benefit human interactions and decision-making. Furthermore, it is imperative to acknowledge the differences involved with large language models beyond their applications by considering aspects such as their types, setups, parameters, and performance. This could help us understand how each large language model could be utilized to its fullest extent for maximum benefit. In this systematic literature review, we explore each of these aspects in depth. Finally, we conclude with insights and future directions for advancing the efficiency and applicability of large language models."
 CONFERENCE: Journal
 ethics_overall: 15
 virtue_ethics: 0

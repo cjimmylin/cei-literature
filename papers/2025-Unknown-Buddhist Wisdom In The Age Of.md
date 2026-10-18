@@ -3,7 +3,7 @@ key: CGSR0048
 type: document
 short_title: "Buddhist Wisdom In The Age Of Artificial Intelligence"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.ijcrt.org/papers/IJCRT2603487.pdf"
 abstract: "Buddhist wisdom applied to contemporary AI challenges"

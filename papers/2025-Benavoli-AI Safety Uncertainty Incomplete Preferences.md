@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.md"
 abstract: "How can we ensure that AI systems are aligned with human values and remain safe? We can study this problem through the frameworks of the AI assistance and the AI shutdown games. The AI assistance problem concerns designing an AI agent that helps a human to maximise their utility function(s). However, only the human knows these function(s); the AI assistant must learn them. The shutdown problem instead concerns designing AI agents that: shut down when a shutdown button is pressed; neither try to..."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.pdf|Open PDF]]
 
 - **URL:** https://arxiv.org/abs/2512.23508
 - **DOI:** https://doi.org/10.48550/arXiv.2512.23508

@@ -13,7 +13,7 @@ authors: "Stephen J. Simpson; Jonathan Nukpezah; Kie Brooks; Raaghav Pandya"
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-024-00613-4.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.pdf]]"
 publication: "AI and Ethics (Springer)"
 CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260213

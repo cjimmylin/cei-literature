@@ -3,7 +3,7 @@ key: CGSR0068
 type: journalArticle
 short_title: "Digital Ethics of AI in Saudi Arabia and UAE"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://mjsl.usim.edu.my/index.php/jurnalmjsl/article/view/798"
 abstract: "AI digital ethics integrating Islamic values in Saudi Arabia and UAE"

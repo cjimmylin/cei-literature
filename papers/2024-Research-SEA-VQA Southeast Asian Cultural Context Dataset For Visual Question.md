@@ -7,8 +7,8 @@ key: LSRC0125
 type: conferencePaper
 short_title: "SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering"
 year: 2024
-first_author: [[Research]]
-last_author: [[Vision]]
+first_author: "[[Research]]"
+last_author: "[[Vision]]"
 authors: "Research; Vision"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.alvr-1.15/"
@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2024.alvr-1.15.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino, Multicultural/Cross-cultural"

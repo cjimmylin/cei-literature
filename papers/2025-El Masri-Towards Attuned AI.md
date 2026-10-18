@@ -13,7 +13,7 @@ authors: "El Masri, Rayane; Aaron J. Snoswell"
 doi: N/A
 url: "https://openreview.net/"
 pdf_extract: "PDF Extracts/2025/2025-El Masri-Towards Attuned AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-El Masri-Towards Attuned AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-El Masri-Towards Attuned AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

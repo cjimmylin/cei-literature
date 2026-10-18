@@ -3,7 +3,7 @@ key: CGSR0148
 type: document
 short_title: "The Rise of Artificial Intelligence in Central Eurasia"
 year: 2025
-first_author: [[StrategEast]]
+first_author: "[[StrategEast]]"
 authors: StrategEast
 url: "https://www.strategeast.org/ai-in-central-eurasia-report-2025/"
 abstract: "Comprehensive report on AI development and governance across Central Eurasian countries"

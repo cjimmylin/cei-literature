@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Yao-Value FULCRA.md"
 abstract: "The rapid advancement of Large Language Models (LLMs) has attracted much attention to value alignment for their responsible development. However, how to define values in this context remains a largely unexplored question. Existing work mainly follows the Helpful, Honest, Harmless principle and specifies values as risk criteria formulated in the AI community, e.g., fairness and privacy protection, suffering from poor clarity, adaptability and transparency."
 paper_summary: "Abstract: The rapid advancement of Large Language Models (LLMs) has attracted much attention to value alignment for their responsible de- velopment. However, how to define values in this context remains a large | Overview: Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values Jing Yao1, Xiaoyuan Yi1, Xiting Wang2,3, Yifan Gong1 and Xing Xie1 1Microsoft Research Asia, Beijing, | Key Findings: and alignment, showing promising results. 2 Related Work Value Alignment of LLMs With the growing popularity of LLMs, researchers strive to align LLMs | Conclusions: on more comprehensive human values. Social Value Orientation (Murphy et al., 2011; Zhang et al., 2023) addresses this gap, measuring the bal- ance bet"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Yao-Value FULCRA.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Yao-Value FULCRA.pdf]]"
 LLM_assessed: "BART, BERT, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://ValueCompass.github.io"
 DATE_ADDED: 20260207
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Yao-Value FULCRA.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Yao-Value FULCRA.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2311.10766
 - **DOI:** https://doi.org/10.48550/arXiv.2311.10766

@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2501.13419v1.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hamed-A Survey of Code-switched Arabic NLP.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

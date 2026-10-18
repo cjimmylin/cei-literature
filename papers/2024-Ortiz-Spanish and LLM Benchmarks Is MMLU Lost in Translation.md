@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17789"
 external_pdf: "https://arxiv.org/pdf/2406.17789.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

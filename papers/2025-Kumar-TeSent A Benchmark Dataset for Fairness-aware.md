@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.01486"
 external_pdf: "https://arxiv.org/pdf/2508.01486.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.pdf]]"
 publication: "WebSearch: Telugu NLP bias fairness"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

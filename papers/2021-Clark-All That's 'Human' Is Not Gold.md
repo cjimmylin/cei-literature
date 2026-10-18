@@ -46,7 +46,7 @@ mp_identity: 0
 moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2021/2021-Clark-All That's 'Human' Is Not Gold.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Clark-All That's 'Human' Is Not Gold.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Clark-All That's 'Human' Is Not Gold.pdf]]"
 abstract: "Human evaluations are typically considered the gold standard in natural language generation, but as models’ ﬂuency improves, how well can evaluators detect and judge machinegenerated text? We run a study assessing nonexperts’ ability to distinguish between humanand machine-authored text (GPT2 and GPT3) in three domains (stories, news articles, and recipes). We ﬁnd that, without training, evaluators distinguished between GPT3- and humanauthored text at random chance level."
 paper_summary: "Abstract: Human evaluations are typically considered the gold standard in natural language gener- ation, but as models' ﬂuency improves, how well can evaluators detect and judge machine- generated text? We run  | Overview: All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text Elizabeth Clark1 Tal August1 Soﬁa Serrano1 Nikita Haduong1 Suchin Gururangan1 Noah A. Smith1,2 1Paul G. Allen School of Co | Key Findings: criteria is left to the discretion of the evaluator. Though other evaluations are broken down along speciﬁc dimensions of text quality (e.g., grammat- | Conclusions: Overall, none of our three training methods sig- niﬁcantly improved evaluators' ability to detect machine-generated text reliably across text do- main"
 DATE_ADDED: 20260208
@@ -93,7 +93,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Clark-All That's 'Human' Is Not Gold.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2021/2021-Clark-All That's 'Human' Is Not Gold.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2107.00061
 - **DOI:** https://doi.org/10.48550/arXiv.2107.00061

@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Liu-CultureAtlas.md"
 abstract: "Pretrained large language models have revolutionized many applications but still face challenges related to cultural bias and a lack of cultural commonsense knowledge crucial for guiding cross-culture communication and interactions. Recognizing the shortcomings of existing methods in capturing the diverse and rich cultures across the world, this paper introduces a novel approach for massively multicultural knowledge acquisition."
 paper_summary: "Abstract: Pretrained large language models have revolu- tionized many applications but still face chal- lenges related to cultural bias and a lack of cultural commonsense knowledge crucial for guiding cross-cul | Overview: No Culture Left Behind: Massively Multi-Cultural Knowledge Acquisition & LM Benchmarking on 1000+ Sub-Country Regions and 2000+ Ethnolinguistic Groups Yi R. Fung Ruining Zhao Jae Doo Chenkai Sun Heng  | Methodology: Pass Rate (%) Pos. Data - Orig Sent. 49.5 - Post Proc. Sent. 93.2 Neg. Data - Direct Gen. 81.1 - Direct Gen. w/ self-check 90.1 - Direct Gen. w/ self-"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-CultureAtlas.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Liu-CultureAtlas.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Llama-2, Vicuna"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-CultureAtlas.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Liu-CultureAtlas.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2402.09369
 

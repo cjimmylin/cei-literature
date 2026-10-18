@@ -3,7 +3,7 @@ key: EXSR0703
 type: journalArticle
 short_title: "Indigenous Ethics and Artificial Intelligence"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://link.springer.com/article/10.1007/s43681-025-00879-2"
 publication_title: "AI and Ethics"

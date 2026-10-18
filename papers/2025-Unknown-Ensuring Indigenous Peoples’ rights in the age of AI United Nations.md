@@ -7,9 +7,9 @@ key: LSRC0796
 type: conferencePaper
 short_title: "Ensuring Indigenous Peoples' rights in the age of AI | United Nations"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
-authors: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.un.org/en/desa/ensuring-indigenous-peoples%E2%80%99-rights-age-ai"
 publication: Web

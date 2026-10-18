@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Leteno-Histoires Morales.md"
 abstract: "Aligning language models with human values is crucial, especially as they become more integrated into everyday life. While models are often adapted to user preferences, it is equally important to ensure they align with moral norms and behaviours in real-world social situations. Despite significant progress in languages like English and Chinese, French has seen little attention in this area, leaving a gap in understanding how LLMs handle moral reasoning in this language."
 paper_summary: "Abstract: Aligning language models with human values is crucial, especially as they become more inte- grated into everyday life. While models are of- ten adapted to user preferences, it is equally im- portant t | Overview: HISTOIRESMORALES: A French Dataset for Assessing Moral Alignment Thibaud Leteno1∗, Irina Proskurina2∗, Antoine Gourru1, Julien Velcin2, Charlotte Laclau3, Guillaume Metzler2, and Christophe Gravier1 1 | Methodology: Inspired by recent works on fair- ness (Nangia et al., 2020; Manerba et al., 2023), we use the perplexity metric derived from the log- likelihood loss | Key Findings: 4.1 Translation Evaluation This section analyses the quality of the obtained HISTOIRESMORALES dataset. Grammatical Acceptability We use a rule- based  | Conclusions: This work introduces HISTOIRESMORALES, the first dataset for social reasoning informed by behavioural guidelines in the French language. The introduce"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Leteno-Histoires Morales.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Leteno-Histoires Morales.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Mistral"
 DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Leteno-Histoires Morales.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Leteno-Histoires Morales.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2501.17117
 - **DOI:** https://doi.org/10.48550/arXiv.2501.17117

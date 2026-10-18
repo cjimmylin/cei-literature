@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25621"
 external_pdf: "https://arxiv.org/pdf/2510.25621.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

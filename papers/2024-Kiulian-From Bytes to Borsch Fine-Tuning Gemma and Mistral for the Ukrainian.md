@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.09138"
 external_pdf: "https://arxiv.org/pdf/2404.09138.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.pdf]]"
 publication: "arXiv / ACL Anthology (UNLP 2024)"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

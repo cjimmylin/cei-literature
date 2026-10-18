@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2020.findings-emnlp.445/"
 external_pdf: "https://aclanthology.org/2020.findings-emnlp.445.pdf"
 pdf_extract: "PDF Extracts/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.pdf]]"
 publication: "EMNLP 2020 Findings"
 CONF-CC: "EMNLP 2020 Findings"
 DATE_ADDED: 20260213

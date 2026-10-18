@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2402.00786.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: French
 cultures_nationalities_list: French

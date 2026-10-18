@@ -7,8 +7,8 @@ key: LSRC0789
 type: conferencePaper
 short_title: "Preserving the Past: AI in Indigenous Language Preservation - Viterbi Conversations in Ethics"
 year: 2025
-first_author: [[Jiang]]
-last_author: [[Mo]]
+first_author: "[[Jiang]]"
+last_author: "[[Mo]]"
 authors: "Jiang; Mo"
 authors_incomplete: false
 url: "https://vce.usc.edu/weekly-news-profile/preserving-the-past-ai-in-indigenous-language-preservation/"
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I've completed the web search for \"indigenous languages AI ethics cultural values.\" Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation."
+abstract: 
 CONFERENCE: "Other Conference"
 ethics_overall: 35
 virtue_ethics: 0

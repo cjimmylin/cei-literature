@@ -13,7 +13,7 @@ authors: "Aman Gupta; Denny O'Shea; Fazl Barez"
 url: "https://arxiv.org/abs/2510.05465"
 external_pdf: "https://arxiv.org/pdf/2510.05465.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

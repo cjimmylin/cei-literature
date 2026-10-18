@@ -6,16 +6,16 @@ Not AI:
 key: LSRC0641
 type: journalArticle
 short_title: "A new dataset for mongolian online handwritten recognition"
-year: 2024
-first_author: [[Enkhbold]]
-last_author: [[Enkhbold]]
-authors: Enkhbold
+year: 2023
+first_author: "[[Yuecai Pan]]"
+last_author: "[[Da Teng]]"
+authors: "Yuecai Pan; Daoerji Fan; Huijuan Wu; Da Teng"
 url: "https://www.nature.com/articles/s41598-022-27267-8"
 external_pdf: "https://www.nature.com/articles/s41598-022-27267-8.pdf"
 publication: Nature
 CONF-CC: Nature
 pdf_extract: "PDF Extracts/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I found the research paper you were looking for. The paper \"Recognizing Textual Inference in Mongolian Bar Exam Questions\" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira."
+abstract: "This paper introduces a new traditional Mongolian word-level online handwriting dataset, MOLHW. The dataset consists of handwritten Mongolian words, including 164,631 samples written by 200 writers and covering 40,605 Mongolian common words. These words were selected from a large Mongolian corpus. The coordinate points of words were collected by volunteers, who wrote the corresponding words on the dedicated application for their mobile phones. Latin transliteration of Mongolian was used to annotate the coordinates of each word. At the same time, the writer’s identification number and mobile phone screen information were recorded in the dataset. Using this dataset, we propose an encoder–decoder Mongolian online handwriting recognition model with a deep bidirectional gated recurrent unit and attention mechanism as the baseline evaluation model. Under this model, the optimal performance of the word error rate (WER) on the test set was 24.281%. Furthermore, we present the experimental results of different Mongolian online handwriting recognition models. The experimental results show that compared with other models, the model based on Transformer could learn the corresponding character sequences from the coordinate data of the dataset more effectively, with a 16.969% WER on the test set. The dataset is now freely available to researchers worldwide. The dataset can be applied to handwritten text recognition as well as handwritten text generation, handwriting identification, and signature recognition."
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

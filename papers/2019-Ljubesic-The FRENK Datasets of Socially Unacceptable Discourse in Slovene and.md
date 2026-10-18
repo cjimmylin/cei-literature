@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/1906.02045v2.pdf"
 publication: "Springer / CLARIN"
 CONF-CC: "Lecture notes in computer science 2019"
 pdf_extract: "PDF Extracts/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

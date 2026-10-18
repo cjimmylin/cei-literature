@@ -57,7 +57,7 @@ author_country: HK
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 53
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-MedHallTune.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zhang-MedHallTune.pdf]]"
 abstract: "The increasing use of vision-language models (VLMs) in healthcare applications presents great challenges related to hallucinations, in which the models may generate seemingly plausible results that are in fact incorrect. Such hallucinations can jeopardize clinical decision making, potentially harming the diagnosis and treatments. In this work, we propose MedHallTune, a large-scale benchmark designed specifically to evaluate and mitigate hallucinations in medical VLMs."
 CONF-CC: Preprint
 DATE_ADDED: 20260208
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-MedHallTune.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Zhang-MedHallTune.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.20780
 

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.01081"
 external_pdf: "https://arxiv.org/pdf/2509.01081.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ghaly-Assessing Large Language Models on Islamic.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ghaly-Assessing Large Language Models on Islamic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ghaly-Assessing Large Language Models on Islamic.pdf]]"
 publication: "ArabicNLP 2025 (3rd Arabic NLP Conference) / arXiv"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

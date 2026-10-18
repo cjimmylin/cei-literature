@@ -14,7 +14,7 @@ doi: 10.18653/v1/2025.emnlp-main.42
 url: "https://arxiv.org/abs/2508.15250"
 external_pdf: "https://arxiv.org/pdf/2508.15250.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

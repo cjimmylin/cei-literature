@@ -45,7 +45,7 @@ key_contribution: "Created REDDITBIAS, the first conversational dataset from Red
 significance: "Addresses the lack of realistic conversational resources for bias, showing that debiasing can reduce religious bias without hurting chat performance."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md"
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]"
 abstract: "Text representation models are prone to exhibit a range of societal biases, reﬂecting the noncontrolled and biased nature of the underlying pretraining data, which consequently leads to severe ethical issues and even bias ampliﬁcation. Recent work has predominantly focused on measuring and mitigating bias in pretrained language models. Surprisingly, the landscape of bias measurements and mitigation resources and methods for conversational language models is still very scarce: it is limited to..."
 CONF-CC: N/A
 DATE_ADDED: 20260208
@@ -84,7 +84,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Barikeri-REDDITBIAS.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2021/2021-Barikeri-REDDITBIAS.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.acl-long.151/
 

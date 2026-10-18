@@ -3,7 +3,7 @@ key: CGSR0127
 type: document
 short_title: "How Small Island Developing States could shape the protection of culture and creativity in the age of AI"
 year: 2025
-first_author: [[UNESCO]]
+first_author: "[[UNESCO]]"
 authors: UNESCO
 url: "https://www.unesco.org/ethics-ai/en/articles/how-small-island-developing-states-could-shape-protection-culture-and-creativity-age-ai"
 abstract: "SIDS protecting culture and creativity in AI age"

@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/C16-3002.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: "http://www.lunweiku.com/"
 tags: 
-abstract: "Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named \"CHisIEC\" (Chinese Implicit Sentiment Ethics Corpus). However, the search results do provide information about related Chinese sentiment analysis resources and implicit sentiment work: Researchers have constructed a fact-implied implicit sentiment corpus in Chinese, which was collected and manually labeled to create a gold st"
+abstract: 
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
 ethics_overall: 0

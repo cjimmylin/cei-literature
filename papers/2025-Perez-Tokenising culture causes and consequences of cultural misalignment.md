@@ -7,8 +7,8 @@ key: LSRC0787
 type: conferencePaper
 short_title: "Tokenising culture: causes and consequences of cultural misalignment in large language models | Ada Lovelace Institute"
 year: 2025
-first_author: [[Perez]]
-last_author: [[Jorge]]
+first_author: "[[Perez]]"
+last_author: "[[Jorge]]"
 authors: "Perez; Jorge"
 authors_incomplete: false
 url: "https://www.adalovelaceinstitute.org/blog/cultural-misalignment-llms/"
@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti"
+abstract: 
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "Other Conference"
 ethics_overall: 0

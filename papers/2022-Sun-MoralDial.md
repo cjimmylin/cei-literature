@@ -61,7 +61,7 @@ author_country: CN
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 36
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ALBERT, RoBERTa, DialoGPT, BlenderBot"
 DATA_URL: "https://github.com/thu-coai/MoralDial"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2212.10720
 - **DOI:** https://doi.org/10.48550/arXiv.2212.10720

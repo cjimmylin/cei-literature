@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2504.07801v1.pdf"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

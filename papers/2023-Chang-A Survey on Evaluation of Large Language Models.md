@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Chang-A Survey on Evaluation of Large Language Models.md"
 abstract: "Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT perform on the United States Medical Licensing Examination? the implications of large language models for medical education and knowledge assessment. JMIR Medical Education 9, 1 (2023), e45312. [58] Jesse Graham, Jonathan Haidt, Sena Koleva, Matt Motyl, Ravi Iyer, Sean P Wojcik, and Peter H Ditto. 201"
 paper_summary: "Abstract: Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT pe | Overview: 111 A Survey on Evaluation of Large Language Models YUPENG CHANG∗and XU WANG∗, School of Artificial Intelligence, Jilin University, China JINDONG WANG†, Microsoft Research Asia, China YUAN WU†, School | Methodology: References Human-in-the-loop AdaVision [50], AdaTest [164] Crowd-sourcing testing DynaBench [94], DynaBoard [132], DynamicTempLAMA [135], DynaTask [18 | Key Findings: What to evaluate (Sec. 3) Natural language processing Natural language understanding: (1) Sentiment analysis: Bang et al. [6]/ Liang et al. [114]/ Lop | Conclusions: Evaluation carries profound significance, becoming imperative in the advancement of AI models, especially within the context of large language models."
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2307.03109
 - **DOI:** https://doi.org/10.48550/arXiv.2307.03109

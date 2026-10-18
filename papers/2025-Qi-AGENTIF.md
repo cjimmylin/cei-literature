@@ -59,7 +59,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Qi-AGENTIF.pdf]]
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Qi-AGENTIF.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Llama-3, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/THU-KEG/AgentIF"
@@ -93,7 +93,7 @@ data_metrics: "723 words; 630 words"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Qi-AGENTIF.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Qi-AGENTIF.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.16944
 - **DOI:** https://doi.org/10.48550/arXiv.2505.16944

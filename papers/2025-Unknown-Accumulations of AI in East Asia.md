@@ -3,7 +3,7 @@ key: CGSR0086
 type: document
 short_title: "Accumulations of AI in East Asia: Archaeology of Experiments, Institutions, and Policies in Taiwan and Japan"
 year: 2025
-first_author: [[Unknown]]
+first_author: "[[Unknown]]"
 authors: Unknown
 url: "https://www.tandfonline.com/doi/full/10.1080/24694452.2025.2599852"
 abstract: "Historical archaeology of AI development in Taiwan and Japan"

@@ -13,7 +13,7 @@ authors: "Oleg Smirnov"
 url: "https://arxiv.org/abs/2601.12164"
 external_pdf: "https://arxiv.org/pdf/2601.12164.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

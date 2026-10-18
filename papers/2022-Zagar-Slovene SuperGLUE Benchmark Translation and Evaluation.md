@@ -13,7 +13,7 @@ authors: "Ales Zagar; Marko Robnik-Sikonja"
 url: "https://arxiv.org/abs/2202.04994"
 external_pdf: "https://arxiv.org/pdf/2202.04994.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation.pdf]]"
 publication: "arXiv / LREC 2022"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213

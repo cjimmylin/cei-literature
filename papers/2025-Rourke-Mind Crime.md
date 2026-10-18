@@ -7,8 +7,8 @@ key: AUTO_ROURKE2025
 type: book
 short_title: "Mind Crime"
 year: 2025
-first_author: [[Rourke]]
-last_author: [[Nathan]]
+first_author: "[[Rourke]]"
+last_author: "[[Nathan]]"
 authors: "Rourke; Nathan"
 doi: N/A
 url: "https://www.goodreads.com/book/show/226055728-mind-crime"

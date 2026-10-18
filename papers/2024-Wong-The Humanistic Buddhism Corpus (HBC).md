@@ -48,7 +48,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

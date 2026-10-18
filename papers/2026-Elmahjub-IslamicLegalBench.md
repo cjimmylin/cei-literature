@@ -7,8 +7,8 @@ abstract: "As millions of Muslims worldwide turn to LLMs for religious guidance,
 DOI: 
 arxiv_id: 2602.21226
 DATA_URL: 
-pdf: [[2026-Elmahjub-IslamicLegalBench.pdf]]
-pdf_extract: [[2026-Elmahjub-IslamicLegalBench]]
+pdf: "[[2026-Elmahjub-IslamicLegalBench.pdf]]"
+pdf_extract: "[[2026-Elmahjub-IslamicLegalBench]]"
 extract_created: true
 is_benchmark: Yes
 is_eval: Yes

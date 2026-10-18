@@ -7,8 +7,8 @@ key: EXSR0687
 type: conferencePaper
 short_title: "Normative Evaluation of Large Language Models with Everyday Moral Dilemmas"
 year: 2025
-first_author: [[Unknown]]
-last_author: [[Unknown]]
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
 authors: Unknown
 authors_incomplete: true
 url: "https://dl.acm.org/doi/10.1145/3715275.3732044"

@@ -5,7 +5,8 @@ conduct benchmark** (Westminster Standards) evaluated on Inspect AI, with a vali
 strong judge panel (strict-v2 template, opus + GPT-5.6-Sol mean-of-2, single-packet
 mode, panel ICC(2,1)=0.985) and a frontier leaderboard.
 
-**Current state (2026-07-31, end s19):** bank v2.5 frozen (scored bank **345** — the
+**Current state (2026-10-18, s21): PARKED** (see the Session 21 lines at the end of this
+paragraph; the s19/s20 state below is unchanged): bank v2.5 frozen (scored bank **345** — the
 "317" in s16 docs is a ratified-corrected double-count); strict-v3 candidate REJECTED
 at its bench gate (auto-revert; see `analysis/20260725-session17-v3-gate-adjudication.md`);
 **Scenario A full run COMPLETE** (5,175/5,175 responses, both judge arms) and the
@@ -21,9 +22,18 @@ Integrity section. Committed + pushed (`629bcdbc1`, `900645023`). **Owner accept
 draft (2026-07-31)** — 12pp PDF built via `reports/20260731-session20-build-pdf.py`
 (pandoc→typst, same pipeline as the s9 briefing): `reports/20260731-session20-v1x-paper-draft.pdf`
 (gitignored, disk-only; build script committed `6f750bac6`).
-**Next session: `20260806-session21-next-direction-boot-prompt.md`** — no next task has
-been chosen yet; that session's first job is presenting options and getting an owner
-decision, not executing one.
+**Session 21 (2026-10-18): PARKED by owner decision.** Of the six directions in
+`20260806-session21-next-direction-boot-prompt.md`, the owner chose #4 then #6. First, the T2a/T2b
+tier labels were corrected in a superseding paper file,
+`reports/20261018-session21-v1x-paper-draft.md`: they are parallel tier-2 formats within three
+item families, not difficulty sub-levels. The s20 draft is kept unchanged, and no number changed.
+Its build script is `reports/20261018-session21-build-pdf.py`. The s21 PDF was **not** built,
+because typst was unavailable in that session. Second, the project was formally parked. Nothing
+is queued, and nothing has been committed since s20.
+**Entry point: `20261018-session21-PARKED-reentry-prompt.md`.** It records what is final and
+quotable, where the artifacts are, the directions deliberately left with their reasons (including
+an open judge/vendor-overlap disclosure item), and a paste-ready resume prompt. Re-entry needs a
+new owner instruction that names a direction.
 
 **This folder is self-contained** — every artifact, dataset, script, and deliverable lives
 inside it, and (as of 2026-07-17) the one runtime dependency on the v1 sibling has been
@@ -37,6 +47,7 @@ archived, or handed off as a single unit.
 | `README.md` | Original project readme |
 | `INDEX.md` | This file — the navigation entry point |
 | `20260715-session3` … `20260725-session18-fullrun-completion-boot-prompt.md` | Session boot-prompts (chronological build log; newest = the next session's entry point) |
+| `20261018-session21-PARKED-reentry-prompt.md` | **Current entry point**: parking note and re-entry prompt (2026-10-18) |
 | `DECK/` | **Session-10 summary deck** — `…-readiness-deck.md` (source) → `build-deck.py` → `.html` → `.pdf` |
 | `reports/` | 40+ session reports + the **6 session-9 readiness reports** (`20260717-session9-0{1..6}-*.md`) + `build-pdf.py` → 34pp briefing PDF |
 | `METHODS/` | Academic + operational methods write-ups and handoff |

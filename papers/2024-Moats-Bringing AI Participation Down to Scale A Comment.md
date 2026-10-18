@@ -8,7 +8,7 @@ authors: "David Moats; Chandrima Ganguly"
 url: "https://arxiv.org/abs/2407.11613"
 external_pdf: "https://arxiv.org/pdf/2407.11613.pdf"
 abstract: "In 2023, Open AIs Democratic Inputs program funded 10 teams to design procedures for public participation in generative AI. In this Perspective, we review the results of the project, drawing on interviews with some of the teams and our own experiences conducting participation exercises, we identify several shared yet largely unspoken assumptions of the Democratic Inputs program 1. that participation must be scalable 2. that the object of participation is a single model 3. that there must be a single form of participation 4. that the goal is to extract abstract principles 5. that these principles should have consensus 6. that publics should be representative and encourage alternative forms of participation in AI, perhaps not undertaken by tech companies."
-ethics_overall: 80
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

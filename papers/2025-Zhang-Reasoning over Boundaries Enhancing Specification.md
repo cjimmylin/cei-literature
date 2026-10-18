@@ -8,7 +8,7 @@ authors: "Haoran Zhang; Yafu Li; Xuyang Hu; Dongrui Liu; Zhilin Wang; Bo Li; Yu 
 url: "https://arxiv.org/abs/2509.14760"
 external_pdf: "https://arxiv.org/pdf/2509.14760.pdf"
 abstract: "Large language models (LLMs) are increasingly applied in diverse real-world scenarios, each governed by bespoke behavioral and safety specifications (spec) custom-tailored by users or organizations. These spec, categorized into safety-spec and behavioral-spec, vary across scenarios and evolve with changing preferences and requirements. We formalize this challenge as specification alignment, focusing on LLMs' ability to follow dynamic, scenario-specific spec from both behavioral and safety perspectives. To address this challenge, we propose Align3, a lightweight method that employs Test-Time Deliberation (TTD) with hierarchical reflection and revision to reason over the specification boundaries. We further present SpecBench, a unified benchmark for measuring specification alignment, covering 5 scenarios, 103 spec, and 1,500 prompts. Experiments on 15 reasoning and 18 instruct models with several TTD methods, including Self-Refine, TPO, and MoreThink, yield three key findings: (i) test-time deliberation enhances specification alignment; (ii) Align3 advances the safety-helpfulness trade-off frontier with minimal overhead; (iii) SpecBench effectively reveals alignment gaps. These results highlight the potential of test-time deliberation as an effective strategy for reasoning over the real-world specification boundaries. Our code and resources are available at https://github.com/zzzhr97/SpecBench."
-ethics_overall: 80
+ethics_overall: 55
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

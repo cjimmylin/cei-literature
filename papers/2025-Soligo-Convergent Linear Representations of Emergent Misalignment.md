@@ -8,7 +8,7 @@ authors: "Anna Soligo; Edward Turner; Senthooran Rajamanoharan; Neel Nanda"
 url: "https://arxiv.org/abs/2506.11618"
 external_pdf: "https://arxiv.org/pdf/2506.11618.pdf"
 abstract: "Fine-tuning large language models on narrow datasets can cause them to develop broadly misaligned behaviours: a phenomena known as emergent misalignment. However, the mechanisms underlying this misalignment, and why it generalizes beyond the training domain, are poorly understood, demonstrating critical gaps in our knowledge of model alignment. In this work, we train and study a minimal model organism which uses just 9 rank-1 adapters to emergently misalign Qwen2.5-14B-Instruct. Studying this, we find that different emergently misaligned models converge to similar representations of misalignment. We demonstrate this convergence by extracting a 'misalignment direction' from one fine-tuned model's activations, and using it to effectively ablate misaligned behaviour from fine-tunes using higher dimensional LoRAs and different datasets. Leveraging the scalar hidden state of rank-1 LoRAs, we further present a set of experiments for directly interpreting the fine-tuning adapters, showing that six contribute to general misalignment, while two specialise for misalignment in just the fine-tuning domain. Emergent misalignment is a particularly salient example of undesirable and unexpected model behaviour and by advancing our understanding of the mechanisms behind it, we hope to move towards being able to better understand and mitigate misalignment more generally."
-ethics_overall: 80
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

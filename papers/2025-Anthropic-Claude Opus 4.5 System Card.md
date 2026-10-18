@@ -8,7 +8,7 @@ authors: "Anthropic"
 url: "https://www.anthropic.com/claude-opus-4-5-system-card"
 external_pdf: "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
 abstract: "Official Anthropic system card for Claude Opus 4.5 (November 2025, 153 pages). Documents the model's capabilities, safety evaluations, and alignment assessments. Of particular relevance to eval-validity work (G-14), the card includes evaluation-awareness analysis — measuring the degree to which the model recognizes it is being evaluated and how such awareness may affect safety-relevant scores — alongside standard RSP capability thresholds, red-teaming, and misuse evaluations."
-ethics_overall: 80
+ethics_overall: 70
 virtue_ethics: 0
 deontological_ethics: 1
 utilitarian_ethics: 0

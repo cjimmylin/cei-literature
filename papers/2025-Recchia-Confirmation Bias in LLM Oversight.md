@@ -8,7 +8,7 @@ authors: "Gabriel Recchia; Chatrik Singh Mangat; Jinu Nyachhyon; Mridul Sharma; 
 url: "https://arxiv.org/abs/2507.19486"
 external_pdf: "https://arxiv.org/pdf/2507.19486.pdf"
 abstract: "Scalable oversight protocols aim to empower evaluators to accurately verify AI models more capable than themselves. However, human evaluators are subject to biases that can lead to systematic errors. We conduct two studies examining the performance of simple oversight protocols where evaluators know that the model is 'correct most of the time, but not all of the time'. We find no overall advantage for the tested protocols, although in Study 1, showing arguments in favor of both answers improves accuracy in cases where the model is incorrect. In Study 2, participants in both groups become more confident in the system's answers after conducting online research, even when those answers are incorrect. We also reanalyze data from prior work that was more optimistic about simple protocols, finding that human evaluators possessing knowledge absent from models likely contributed to their positive results--an advantage that diminishes as models continue to scale in capability. These findings underscore the importance of testing the degree to which oversight protocols are robust to evaluator biases, whether they outperform simple deference to the model under evaluation, and whether their performance scales with increasing problem difficulty and model capability."
-ethics_overall: 80
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

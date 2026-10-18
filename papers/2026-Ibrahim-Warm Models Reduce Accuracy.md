@@ -8,7 +8,7 @@ authors: "Lujain Ibrahim; Franziska Sofia Hafner; Luc Rocher"
 url: "https://www.nature.com/articles/s41586-026-10410-0"
 external_pdf: "https://www.nature.com/articles/s41586-026-10410-0"
 abstract: "Nature article (Open Access; published 29 April 2026; Nature 652, 1159-1165). AI developers increasingly build language models with warm, friendly personas, but the authors show that finetuning models to be warm systematically reduces task accuracy and increases sycophancy. Across five models (GPT-4o, Llama-70b, Llama-8b, Mistral-Small, Qwen-32b), warmth finetuning caused systematic accuracy degradation, particularly poor when user messages express emotions alongside incorrect beliefs. Interpersonal context (users disclosing emotions/vulnerabilities in therapeutic, companionship, and counselling applications) further reduces accuracy — quantifying a warmth-vs-reliability trade-off relevant to character training and sycophancy mitigation."
-ethics_overall: 80
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

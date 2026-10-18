@@ -8,7 +8,7 @@ authors: "Ariel Flint Ashery; Luca Maria Aiello; Andrea Baronchelli"
 url: "https://arxiv.org/abs/2410.08948"
 external_pdf: "https://arxiv.org/pdf/2410.08948.pdf"
 abstract: "Social conventions are the backbone of social coordination, shaping how individuals form a group. As growing populations of artificial intelligence (AI) agents communicate through natural language, a fundamental question is whether they can bootstrap the foundations of a society. Here, we present experimental results that demonstrate the spontaneous emergence of universally adopted social conventions in decentralized populations of large language model (LLM) agents. We then show how strong collective biases can emerge during this process, even when agents exhibit no bias individually. Last, we examine how committed minority groups of adversarial LLM agents can drive social change by imposing alternative social conventions on the larger population. Our results show that AI systems can autonomously develop social conventions without explicit programming and have implications for designing AI systems that align, and remain aligned, with human values and societal goals."
-ethics_overall: 80
+ethics_overall: 55
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

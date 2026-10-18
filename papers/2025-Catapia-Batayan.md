@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemini, Gemma, GPT-4, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/aisingapore/sea-helm"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

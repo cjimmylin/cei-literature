@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0065
 type: conferencePaper
 short_title: "A Turkish Hate Speech Dataset and Detection System"
-year: 2025
+year: 2022
 first_author: [[Beyhan]]
 last_author: [[Reyyan]]
 authors: "Beyhan; Fatih and Cark; Buse and Arn; .Inanc and Terzioglu; Aysecan and Yanikoglu; Berrin and Yeniterzi; Reyyan"
@@ -52,7 +52,7 @@ tags:
 abstract: "Social media posts containing hate speech are reproduced and redistributed at an accelerated pace, reaching greater audiences at a higher speed. We present a machine learning system for automatic detection of hate speech in Turkish, along with a hate speech dataset consisting of tweets collected in two separate domains. We first adopted a definition for hate speech that is in line with our goals and amenable to easy annotation; then designed the annotation schema for annotating the collected..."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

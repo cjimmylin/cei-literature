@@ -52,7 +52,7 @@ abstract: "Warning: This paper includes content that may be considered offensive
 LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/AI4Bharat/indic-bias"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

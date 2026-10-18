@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0293
 type: preprint
 short_title: "Spanish and LLM Benchmarks: Is MMLU Lost in Translation?"
-year: 2025
+year: 2024
 first_author: "[[Irene Plaza Ortiz]]"
 last_author: "[[Irene Plaza Ortiz]]"
 authors: "Irene Plaza Ortiz"
@@ -52,7 +52,7 @@ DATA_URL: "https://zenodo.org/records/11314109"
 tags: 
 abstract: "The evaluation of Large Language Models (LLMs) is a key element in their continuous improvement process and many benchmarks have been developed to assess the performance of LLMs in different tasks and topics. As LLMs become adopted worldwide, evaluating them in languages other than English is increasingly important. However, most LLM benchmarks are simply translated using an automated tool and then run in the target language."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

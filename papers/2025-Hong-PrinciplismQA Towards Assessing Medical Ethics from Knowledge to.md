@@ -52,7 +52,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, Gemini, Gemma, Llama-3, Qwen, o1, o3"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 25

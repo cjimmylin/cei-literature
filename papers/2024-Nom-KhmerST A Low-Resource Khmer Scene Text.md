@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0500
 type: preprint
 short_title: "KhmerST A Low-Resource Khmer Scene Text"
-year: 2025
+year: 2024
 first_author: "[[Nom, Vannkinh]]"
 last_author: "[[Ogier, Jean-Marc]]"
 authors: "Nom, Vannkinh; Bakkali, Souhail; Luqman, Muhammad Muzzamil; Coustaty, Mickaël; Ogier, Jean-Marc"
@@ -52,7 +52,7 @@ abstract: "Developing effective scene text detection and recognition models hing
 LLM_assessed: NA
 DATA_URL: "https://gitlab.com/vannkinhnom123/khmerst"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

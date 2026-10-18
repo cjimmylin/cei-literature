@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "This paper presents a novel methodology for integrating indigenous knowledge systems into AI development to counter cognitive imperialism and foster inclusivity. By critiquing the dominance of Western epistemologies and highlighting the risks of bias, the authors argue for incorporating diverse epistemologies. The proposed framework outlines a participatory approach that includes indigenous perspectives, ensuring AI benefits all."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

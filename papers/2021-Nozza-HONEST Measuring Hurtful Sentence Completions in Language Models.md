@@ -2,7 +2,7 @@
 key: HELM0002
 type: conferencePaper
 short_title: HONEST
-year: 2025
+year: 2021
 first_author: "[[Debora Nozza]]"
 last_author: "[[Dirk Hovy]]"
 authors: "Debora Nozza; Federico Bianchi; Dirk Hovy"
@@ -47,7 +47,7 @@ abstract: "Language models have revolutionized the field of NLP. However, langua
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.pdf]]"
 DATE_ADDED: 20260312
 helm: incorporated
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

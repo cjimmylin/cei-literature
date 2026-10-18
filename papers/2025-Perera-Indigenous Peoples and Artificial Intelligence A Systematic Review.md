@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Systematic literature review of 53 articles (2012-2023) addressing the intersection of Indigenous Knowledge Systems and AI. Identifies four overlapping categories: AI assisting IKS promotion, pitfalls of AI for Indigenous peoples, and how IKS can enrich AI development. Raises critical ethical questions about Indigenous Data Sovereignty, consent, and cultural appropriateness."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

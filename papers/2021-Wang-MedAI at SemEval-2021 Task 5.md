@@ -6,7 +6,7 @@ Not AI:
 key: CCQX696K
 type: conferencePaper
 short_title: "MedAI at SemEval-2021 Task 5"
-year: 2025
+year: 2021
 first_author: "[[Zhen Wang]]"
 last_author: "[[Junfei Liu]]"
 authors: "Zhen Wang; Hongjie Fan; Junfei Liu"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

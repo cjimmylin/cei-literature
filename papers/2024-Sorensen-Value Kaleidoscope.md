@@ -6,7 +6,7 @@ Not AI:
 key: 4YHKRNTT
 type: journalArticle
 short_title: "Value Kaleidoscope"
-year: 2025
+year: 2024
 first_author: "[[Taylor Sorensen]]"
 last_author: "[[Choi, Yejin]]"
 authors: "Sorensen, Taylor; Jiang, Liwei; Hwang, Jena; Levine, Sydney; Pyatkin, Valentina; West, Peter; Dziri, Nouha; Lu, Ximing; Rao, Kavel; Bhagavatula, Chandra; Sap, Maarten; Tasioulas, John; Choi, Yejin"
@@ -55,7 +55,7 @@ publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 65
 utilitarian_ethics: 5

@@ -52,7 +52,7 @@ abstract: "QA benchmark across 12 languages and 10 domains including law, health
 LLM_assessed: "LLaMA, Llama-2, Mixtral"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

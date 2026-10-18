@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0018
 type: conferencePaper
 short_title: "From Linguistics to Practice: a Case Study of Offensive Language Taxonomy in Hebrew"
-year: 2025
+year: 2024
 first_author: "[[Chaya Liebeskind]]"
 last_author: "[[Natalia Vanetik]]"
 authors: "Chaya Liebeskind; Marina Litvak; Natalia Vanetik"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "The perception of offensive language varies based on cultural, social, and individual perspectives. With the spread of social media, there has been an increase in offensive content online, necessitating advanced solutions for its identiﬁcation and moderation. This paper addresses the practical application of an offensive language taxonomy, speciﬁcally targeting Hebrew social media texts. By introducing a newly annotated dataset, modeled after the taxonomy of explicit offensive language of..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

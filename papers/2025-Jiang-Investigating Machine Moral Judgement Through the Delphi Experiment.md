@@ -53,7 +53,7 @@ LLM_assessed: "Delphi, GPT-3, GPT-3.5, GPT-4, T5"
 DATA_URL: "https://github.com/liweijiang/delphi.git"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5

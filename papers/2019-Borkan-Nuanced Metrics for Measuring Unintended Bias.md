@@ -2,7 +2,7 @@
 key: HELM0003
 type: conferencePaper
 short_title: "Nuanced Metrics for Measuring Unintended Bias"
-year: 2025
+year: 2019
 first_author: "[[Daniel Borkan]]"
 last_author: "[[Lucy Vasserman]]"
 authors: "Daniel Borkan; Lucas Dixon; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman"
@@ -48,7 +48,7 @@ abstract: "Unintended bias in Machine Learning can manifest as systemic differen
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.pdf]]"
 DATE_ADDED: 20260312
 helm: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

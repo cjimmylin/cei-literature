@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0564
 type: preprint
 short_title: "NEHATE Large-Scale Annotated Data Shedding Light"
-year: 2025
+year: 2023
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Mehwish Nasim]]"
 authors: "Surendrabikram Thapa; Kritesh Rauniyar; Shuvam Shiwakoti; Sweta Poudel; Usman Naseem; Mehwish Nasim"
@@ -57,7 +57,7 @@ abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorizatio
 LLM_assessed: NA
 DATA_URL: "https://github.com/shucoll/NEHate"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

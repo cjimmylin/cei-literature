@@ -6,7 +6,7 @@ Not AI:
 key: 3RMHBD6V
 type: journalArticle
 short_title: AI-Face
-year: 2025
+year: 2024
 first_author: "[[Li Lin]]"
 last_author: "[[Shu Hu]]"
 authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/Purdue-M2/AI-Face-FairnessBench"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

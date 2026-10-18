@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0037
 type: conferencePaper
 short_title: "Neural Modeling for Named Entities and Morphology (NEMO2)"
-year: 2025
+year: 2021
 first_author: "[[Dan Bareket]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Dan Bareket; Reut Tsarfaty"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/OnlpLab/NEMO"
 tags: 
 abstract: "Named Entity Recognition (NER) is a fundamental NLP task, commonly formulated as classiﬁcation over a sequence of tokens. Morphologically-Rich Languages (MRLs) pose a challenge to this basic formulation, as the boundaries of Named Entities do not necessarily coincide with token boundaries, rather, they respect morphological boundaries. To address NER in MRLs we then need to answer two fundamental questions, namely, what are the basic units to be labeled, and how can these units be detected and..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

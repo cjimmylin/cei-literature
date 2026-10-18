@@ -10,7 +10,7 @@ publication_title: "Computers in Human Behavior: Artificial Humans"
 abstract: "Compares 7 LLMs (GPT-3/3.5/4/4.1, Claude 3.7, Grok 3, Gemini 2.5 Pro) on moral dilemmas. Finds LLMs more utilitarian in impersonal dilemmas (dual-process prediction). Few-shot = slow thinking; fast-thinking is a blind spot. Advocates AI Psychology as new field."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Claude-3, DeepSeek, Gemini, Llama-3, Qwen"
 DATA_URL: "https://infodeepseek.github.io/"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -1,16 +1,16 @@
 ---
 key: EXSR0695
 short_title: "Islamic Ethics and AI Trusteeship"
-title: "'Islamic Ethics and AI: An Evaluation of Existing Approaches to AI using Trusteeship"
-authors: 
+title: "Islamic Ethics and AI: An Evaluation of Existing Approaches to AI using Trusteeship Ethics"
+authors: "Fatima Ali; Karim Bouzoubaa; Frank Gelli; Boumediene Hamzi"
 year: 2025
 doi: 10.1007/s13347-025-00922-4
-abstract: "Introduces the prospects of Taha Abdurrahman's I'timani (trusteeship) framework"
+abstract: "Introduces the prospects of Taha Abdurrahman's I'timani (trusteeship) framework as a unified ethical model for AI technologies. Evaluates existing approaches to Islamic ethics for AI including Maqasid al-Shariah and Qawaid Fiqhiyya, and proposes trusteeship ethics as a more comprehensive alternative integrating ontological, epistemological, and existential covenants."
 is_benchmark: 'No'
 is_eval: 'Yes'
 is_dataset: 'No'
 DATA_URL: ''
-ethics_overall: No
+ethics_overall: 60
 source: external_search_benchmark_analysis
 date_added: '2026-04-04'
 LLM_assessed: 'No'

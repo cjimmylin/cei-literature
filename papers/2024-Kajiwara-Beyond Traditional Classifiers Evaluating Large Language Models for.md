@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0725
 type: conferencePaper
 short_title: "Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection"
-year: 2025
+year: 2024
 first_author: [[Kajiwara]]
 last_author: [[Kajiwara]]
 authors: Kajiwara
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Hate speech detection remains a significant challenge due to the nuanced and context-dependent nature of hateful language. Traditional classifiers, trained on specialized corpora, often struggle to accurately identify subtle or manipulated hate speech. This paper explores the potential of utilizing large language models (LLMs) to address these limitations. By leveraging their extensive training on diverse texts, LLMs demonstrate a superior ability to understand context, which is crucial for effective hate speech detection. We conduct a comprehensive evaluation of various LLMs on both binary and multi-label hate speech datasets to assess their performance. Our findings aim to clarify the extent to which LLMs can enhance hate speech classification accuracy, particularly in complex and challenging cases."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

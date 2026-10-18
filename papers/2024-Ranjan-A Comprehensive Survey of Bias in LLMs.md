@@ -6,7 +6,7 @@ Not AI:
 key: MBEBY4C7
 type: document
 short_title: "A Comprehensive Survey of Bias in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Rajesh Ranjan]]"
 last_author: "[[Surya Narayan Singh]]"
 authors: "Rajesh Ranjan; Shailja Gupta; Surya Narayan Singh"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

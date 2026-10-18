@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Towards Artificial Virtuous Agents - Games and ML"
-year: 2025
+year: 2022
 first_author: "[[Ajay Vishwanath]]"
 last_author: "[[Christian Omlin]]"
 authors: "Ajay Vishwanath; Einar Duenger Bøhn; Ole-Christoffer Granmo; Charl Maree; Christian Omlin"
@@ -53,7 +53,7 @@ research_topic: Other
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 0

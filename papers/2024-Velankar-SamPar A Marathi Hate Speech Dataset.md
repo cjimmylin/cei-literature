@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0526
 type: preprint
 short_title: "SamPar A Marathi Hate Speech Dataset"
-year: 2025
+year: 2024
 first_author: "[[Abhishek Velankar]]"
 last_author: "[[Raviraj Joshi]]"
 authors: "Abhishek Velankar; Hrushikesh Patil; Amol Gore; Shubham Salunke; Raviraj Joshi"
@@ -51,7 +51,7 @@ abstract: "Social media platforms are used by a large number of people prominent
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/l3cube-pune/MarathiNLP"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

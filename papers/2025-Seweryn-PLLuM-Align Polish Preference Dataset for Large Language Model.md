@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/NASK-PIB/PLLuM-Align"
 tags: 
 abstract: "Alignment is the critical process of minimizing harmful outputs by teaching large language models (LLMs) to prefer safe, helpful and appropriate responses. While the majority of alignment research and datasets remain overwhelmingly English-centric, ensuring safety across diverse linguistic and cultural contexts requires localized resources. In this paper, we introduce the first Polish preference dataset PLLuM-Align, created entirely through human annotation to reflect Polish language and..."
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0501
 type: preprint
 short_title: "L3Cube-IndicQuest A Benchmark Question Answering Dataset"
-year: 2025
+year: 2024
 first_author: "[[team, L3Cube Pune]]"
 last_author: "[[L3Cube Pune team]]"
 authors: "L3Cube Pune team"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) have made significant progress in incorp
 LLM_assessed: "GPT-4o, Llama-3, Gemma-2"
 DATA_URL: "https://github.com/l3cube-pune/indic-nlp"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

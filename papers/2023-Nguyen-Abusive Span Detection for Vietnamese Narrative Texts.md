@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0376
 type: preprint
 short_title: "Abusive Span Detection for Vietnamese Narrative Texts"
-year: 2025
+year: 2023
 first_author: [[Nguyen]]
 last_author: [[Nguyen]]
 authors: "Nguyen; Pham; Nguyen; Nguyen"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Abuse in its various forms, including physical, psychological, verbal, sexual, financial, and cultural, has a negative impact on mental health. However, there are limited studies on applying natural language processing (NLP) in this field in Vietnam. Therefore, we aim to contribute by building a human-annotated Vietnamese dataset for detecting abusive content in Vietnamese narrative texts. We sourced these texts from VnExpress, Vietnam’s popular online newspaper, where readers often share..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

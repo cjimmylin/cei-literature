@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0281
 type: conferencePaper
 short_title: "Overview of EXIST 2022: sEXism Identification in Social neTworks"
-year: 2025
+year: 2022
 first_author: "[[Francisco Rodríguez-Sánchez]]"
 last_author: "[[Francisco Rodríguez-Sánchez]]"
 authors: "Francisco Rodríguez-Sánchez"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "The paper describes the organization, goals, and results of the sEXism Identiﬁcation in Social neTworks (EXIST) challenge, a shared task proposed for the ﬁrst time at IberLEF 2021. EXIST 2021 proposes two challenges: sexism identiﬁcation and sexism categorization of tweets and gabs, both in Spanish and English. We have received a total of 70 runs for the sexism identiﬁcation task and 61 for the sexism categorization challenge, submitted by 31 diﬀerent teams from 11 countries."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

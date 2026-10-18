@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0157
 type: preprint
 short_title: "Shifting from Endangerment to Rebirth in the Artificial Intelligence Age: An Ensemble Machine Learning Approach for Hawrami Text Classification"
-year: 2025
+year: 2024
 first_author: "[[Khaksar, Aram]]"
 last_author: "[[Hassani, Hossein]]"
 authors: "Khaksar, Aram; Hassani, Hossein"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/KurdishBLARK/HawramiClassification"
 tags: 
 abstract: "Dataset of 6,854 Hawrami articles labeled into 15 categories. Linear SVM achieves 96% accuracy. First text classification resource for endangered Hawrami dialect of Kurdish."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

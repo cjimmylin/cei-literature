@@ -48,9 +48,9 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I've completed the web search for \"
+abstract: "I've completed the web search for \"Pacific Islander languages NLP Samoan Tongan evaluation\". Here's a summary of the results: Overview of Pacific Islander Languages The most prominent Polynesian languages, by number of speakers, are Samoan, Tongan, Tahitian, Māori and Hawaiian."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

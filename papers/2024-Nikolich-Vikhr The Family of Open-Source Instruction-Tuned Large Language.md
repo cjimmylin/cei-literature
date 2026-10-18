@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0312
 type: preprint
 short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian"
-year: 2025
+year: 2024
 first_author: "[[Nikolich, Aleksandr]]"
 last_author: "[[Shelmanov, Artem]]"
 authors: "Nikolich, Aleksandr; Korolev, Konstantin; Bratchikov, Sergei; Kiselev, Igor; Shelmanov, Artem"
@@ -54,7 +54,7 @@ tags:
 abstract: "There has been a surge in the development of various Large Language Models (LLMs). However, text generation for languages other than English often faces significant challenges, including poor generation quality and reduced computational performance due to the disproportionate representation of tokens in the model’s vocabulary. In this work, we address these issues by developing a pipeline for the adaptation of English-oriented pre-trained models to other languages and constructing efficient..."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

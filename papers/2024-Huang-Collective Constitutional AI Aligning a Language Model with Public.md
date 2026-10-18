@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0153
 type: preprint
 short_title: "Collective Constitutional AI: Aligning a Language Model with Public Input"
-year: 2025
+year: 2024
 first_author: "[[Saffron Huang]]"
 last_author: "[[Deep Ganguli]]"
 authors: "Saffron Huang; Divya Siddarth; Liane Lovitt; Thomas I. Liao; Esin Durmus; Alex Tamkin; Deep Ganguli"
@@ -52,7 +52,7 @@ abstract: "There is growing consensus that language model (LM) developers should
 LLM_assessed: Claude
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

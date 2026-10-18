@@ -6,7 +6,7 @@ Not AI:
 key: GDL79V6X
 type: conferencePaper
 short_title: "AI Alignment"
-year: 2025
+year: 2023
 first_author: "[[Jiaming Ji]]"
 last_author: "[[Wen Gao]]"
 authors: "Jiaming Ji; Tianyi Qiu; Boyuan Chen; Borong Zhang; Hantao Lou; Kaile Wang; Yawen Duan; Zhonghao He; Lukas Vierling; Donghai Hong; Jiayi Zhou; Zhaowei Zhang; Fanzhi Zeng; Juntao Dai; Xuehai Pan; Kwan Yee Ng; Aidan O'Gara; Hua Xu; Brian Tse; Jie Fu; Stephen McAleer; Yaodong Yang; Yizhou Wang; Song-Chun Zhu; Yike Guo; Wen Gao"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

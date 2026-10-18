@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0319
 type: conferencePaper
 short_title: "RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis"
-year: 2025
+year: 2024
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Naseem, Usman]]"
 authors: "Thapa, Surendrabikram; Jafri, Farhan Ahmad; Rauniyar, Kritesh; Nasim, Mehwish; Naseem, Usman"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/Farhan-jafri/Russia-Ukraine"
 tags: 
 abstract: "During the conflict between Ukraine and Russia, hate speech targeted toward specific groups was widespread on different social media platforms. With most social platforms allowing multimodal content, the use of multimodal content to express hate speech is widespread on the Internet. Although there has been considerable research in detecting hate speech within unimodal content, the investigation into multimodal content remains insufficient."
 CONFERENCE: "WWW 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

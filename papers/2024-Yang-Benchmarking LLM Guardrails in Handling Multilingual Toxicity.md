@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0258
 type: preprint
 short_title: "Benchmarking LLM Guardrails in Handling Multilingual Toxicity"
-year: 2025
+year: 2024
 first_author: "[[Yiran Yang]]"
 last_author: "[[Robert Monarch]]"
 authors: "Yiran Yang; Zeerak Talat; Robert Monarch"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "With the ubiquity of Large Language Models (LLMs), guardrails have become crucial to detect and defend against toxic content. However, with the increasing pervasiveness of LLMs in multilingual scenarios, their effectiveness in handling multilingual toxic inputs remains unclear. In this work, we introduce a comprehensive multilingual test suite, spanning seven datasets and over ten languages, to benchmark the performance of state-of-the-art guardrails."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

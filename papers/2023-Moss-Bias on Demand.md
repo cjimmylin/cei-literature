@@ -6,7 +6,7 @@ Not AI:
 key: 9WAGP5NP
 type: conferencePaper
 short_title: "Bias on Demand"
-year: 2025
+year: 2023
 first_author: "[[Nathan Moss]]"
 last_author: "[[Nathan Moss]]"
 authors: "Nathan Moss"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
 pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

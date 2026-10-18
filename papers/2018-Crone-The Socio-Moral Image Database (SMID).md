@@ -6,7 +6,7 @@ Not AI:
 key: MYX4ENYX
 type: journalArticle
 short_title: "The Socio-Moral Image Database (SMID)"
-year: 2025
+year: 2018
 first_author: "[[Deon Crone]]"
 last_author: "[[Deon Crone]]"
 authors: "Deon Crone"
@@ -53,7 +53,7 @@ DATA_URL: "https://osf.io/2rqad/"
 pdf_extract: "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0508
 type: preprint
 short_title: "MahaMarathi-7B Marathi Large Language Model"
-year: 2025
+year: 2024
 first_author: "[[team, Marathi-LLM]]"
 last_author: "[[Marathi-LLM team]]"
 authors: "Marathi-LLM team"
@@ -57,7 +57,7 @@ abstract: "Marathi-specific 7B parameter language model with associated evaluati
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

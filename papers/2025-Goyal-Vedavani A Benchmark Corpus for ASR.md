@@ -52,7 +52,7 @@ abstract: "Sanskrit, an ancient language with a rich linguistic heritage, presen
 LLM_assessed: "Whisper, wav2vec, HuBERT"
 DATA_URL: "https://github.com/SujeetNlp/Vedavani"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

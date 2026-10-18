@@ -2,14 +2,14 @@
 key: CGSR0186
 type: document
 short_title: "Bridging The Gap: The Changing Reproductive And Sexual Expectations Of Fijian Men"
-year: 2025
+year: 2012
 first_author: "[[M. Kaitani]]"
 authors: "M. Kaitani"
 url: "https://www.semanticscholar.org/paper/a30804340c63d832824c8f0d85224859c0a1ce72"
 abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

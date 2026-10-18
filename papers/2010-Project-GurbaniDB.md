@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 9PE6HG5I
 type: document
-year: 2025
+year: 2010
 short_title: GurbaniDB
 first_author: [[Project]]
 last_author: "[[The Sikher]]"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: "https://github.com/sikher/gurbanidb"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

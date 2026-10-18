@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0551
 type: conferencePaper
 short_title: "A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet"
-year: 2025
+year: 2024
 first_author: "[[Chatzimina, Maria Evangelia]]"
 last_author: "[[Tsiknakis, Manolis]]"
 authors: "Chatzimina, Maria Evangelia; Helen A. Papadaki; Pontikoglou, Charalampos; Tsiknakis, Manolis"
@@ -54,7 +54,7 @@ tags:
 abstract: "In addressing the critical role of emotional context in patient–clinician conversations, this study conducted a comprehensive sentiment analysis using BERT, RoBERTa, GPT-2, and XLNet. Our dataset includes 185 h of Greek conversations focused on hematologic malignancies. The methodology involved data collection, data annotation, model training, and performance evaluation using metrics such as accuracy, precision, recall, F1-score, and specificity."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

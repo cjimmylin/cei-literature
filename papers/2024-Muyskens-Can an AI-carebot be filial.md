@@ -6,7 +6,7 @@ Not AI:
 key: AUTO_MUYSKENS2024
 type: journalArticle
 short_title: "Can an AI-carebot be filial"
-year: 2025
+year: 2024
 first_author: "[[Kathryn Muyskens]]"
 last_author: "[[Dunn, Michael]]"
 authors: "Muyskens, Kathryn; Ma, Yonghui; Dunn, Michael"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 60
 deontological_ethics: 5
 utilitarian_ethics: 5

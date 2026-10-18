@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGLM, GPT-4o, Gemma, LLaVA, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/Ze1025/MORALISE"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 5

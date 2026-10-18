@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) are increasingly applied in educational,
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

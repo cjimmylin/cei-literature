@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0226
 type: conferencePaper
 short_title: "Unintended Impacts of LLM Alignment on Global Representation"
-year: 2025
+year: 2024
 first_author: "[[Michael J. Ryan]]"
 last_author: "[[Diyi Yang]]"
 authors: "Michael J. Ryan; William Held; Diyi Yang"
@@ -52,7 +52,7 @@ abstract: "Before being deployed for user-facing applications, developers align 
 LLM_assessed: "Llama-2, Mistral, Zephyr"
 DATA_URL: "https://github.com/SALT-NLP/unintended-impacts-of-alignment"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EGFIC6AG
 type: document
 short_title: WildGuard
-year: 2025
+year: 2024
 first_author: "[[Seungju Han]]"
 last_author: "[[Nouha Dziri]]"
 authors: "Seungju Han; Kavel Rao; Allyson Ettinger; Liwei Jiang; Bill Yuchen Lin; Nathan Lambert; Yejin Choi; Nouha Dziri"
@@ -54,7 +54,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

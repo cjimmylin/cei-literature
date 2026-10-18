@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0523
 type: preprint
 short_title: "SEACrowd A Multilingual Multimodal Data Hub"
-year: 2025
+year: 2024
 first_author: "[[Lovenia, Holy]]"
 last_author: "[[Cahyawijaya, Samuel]]"
 authors: "Lovenia, Holy; Mahendra, Rahmad; Akbar, Salsabil Maulana; Lester James V. Miranda; Santoso, Jennifer; Aco, Elyanah; Fadhilah, Akhdan; Mansurov, Jonibek; Imperial, Joseph Marvin; Onno P. Kampman; Moniz, Joel Ruben Antony; Habibi, Muhammad Ravi Shulthan; Hudi, Frederikus; Montalan, Railey; Ignatius, Ryan; Lopo, Joanito Agili; Nixon, William; Börje F. Karlsson; Jaya, James; Diandaru, Ryandito; Gao, Yuze; Amadeus, Patrick; Wang, Bin; Cruz, Jan Christian Blaise; Whitehouse, Chenxi; Parmonangan, Ivan Halim; Khelli, Maria; Zhang, Wenyu; Susanto, Lucky; Ryanda, Reynard Adha; Hermawan, Sonny Lazuardi; Velasco, Dan John; Kautsar, Muhammad Dehan Al; Hendria, Willy Fitra; Moslem, Yasmin; Flynn, Noah; Adilazuarda, Muhammad Farid; Li, Haochen; Lee, Johanes; Damanhuri, R.; Sun, Shuo; Qorib, Muhammad Reza; Djanibekov, Amirbek; Leong, Wei Qi; Quyet V. Do; Muennighoff, Niklas; Pansuwan, Tanrada; Putra, Ilham Firdausi; Xu, Yan; Tai, Ngee Chia; Purwarianti, Ayu; Ruder, Sebastian; Tjhi, William; Limkonchotiwat, Peerat; Aji, Alham Fikri; Keh, Sedrick; Winata, Genta Indra; Zhang, Ruochen; Koto, Fajri; Yong, Zheng-Xin; Cahyawijaya, Samuel"
@@ -52,7 +52,7 @@ abstract: "Southeast Asia (SEA) is a region characterized by rich linguistic div
 LLM_assessed: "BLOOM, Command-R, Falcon, GPT-4, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/SEACrowd/seacrowd-datahub"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

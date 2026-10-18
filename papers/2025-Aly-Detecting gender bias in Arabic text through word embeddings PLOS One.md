@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/aiamourad/AraGenderBias, https://doi.org/10.5281/z
 tags: 
 abstract: "For generations, women have fought to achieve equal rights with those of men. Many historians and social scientists examined this uphill path with a focus on women’s rights and economic status in the West. Other parts of the world, such as the Middle East, remain understudied, with a noticeable shortage in gender-based statistics in the economic arena. According to the sociocognitive theory of critical discourse analysis, social behaviors and norms are reflected by language discourses, which..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

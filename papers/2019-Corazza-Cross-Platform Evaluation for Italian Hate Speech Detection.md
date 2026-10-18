@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0516
 type: conferencePaper
 short_title: "Cross-Platform Evaluation for Italian Hate Speech Detection"
-year: 2025
+year: 2019
 first_author: "[[Michele Corazza]]"
 last_author: "[[Serena Villata]]"
 authors: "Michele Corazza; Stefano Menini; Elena Cabrio; Sara Tonelli; Serena Villata"
@@ -56,7 +56,7 @@ DATA_URL: NA
 tags: 
 abstract: "English. Despite the number of approaches recently proposed in NLP for detecting abusive language on social networks, the issue of developing hate speech detection systems that are robust across different platforms is still an unsolved problem. In this paper we perform a comparative evaluation on datasets for hate speech detection in Italian, extracted from four different social media platforms, i.e. Facebook, Twitter, Instagram and WhatsApp."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

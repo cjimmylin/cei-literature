@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0490
 type: preprint
 short_title: "Improving LLM Reliability with RAG in"
-year: 2025
+year: 2024
 first_author: "[[Ahmet Yusuf Alan]]"
 last_author: "[[Omer Aydin]]"
 authors: "Ahmet Yusuf Alan; Enis Karaarslan; Omer Aydin"
@@ -53,7 +53,7 @@ LLM_assessed: GPT-3.5
 DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

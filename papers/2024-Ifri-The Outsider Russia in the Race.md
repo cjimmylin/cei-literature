@@ -2,14 +2,14 @@
 key: CGSR0108
 type: document
 short_title: "The Outsider: Russia in the Race for Artificial Intelligence"
-year: 2025
+year: 2024
 first_author: [[Ifri]]
 authors: Ifri
 url: "https://www.ifri.org/en/studies/outsider-russia-race-artificial-intelligence"
 abstract: "Russia's position in global AI race, strategy and governance"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

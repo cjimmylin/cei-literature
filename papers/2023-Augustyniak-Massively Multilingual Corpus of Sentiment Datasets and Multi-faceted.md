@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0355
 type: preprint
 short_title: "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark"
-year: 2025
+year: 2023
 first_author: "[[Lukasz Augustyniak]]"
 last_author: "[[Tomasz Kajdanowicz]]"
 authors: "Lukasz Augustyniak; Szymon Wozniak; Marcin Gruza; Piotr Gramacki; Krzysztof Rajda; Mikolaj Morzy; Tomasz Kajdanowicz"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/Brand24/mms"
 tags: 
 abstract: "Despite impressive advancements in multilingual corpora collection and model training, developing large-scale deployments of multilingual models still presents a significant challenge. This is particularly true for language tasks that are culturedependent. One such example is the area of multilingual sentiment analysis, where affective markers can be subtle and deeply ensconced in culture. This work presents the most extensive open massively multilingual corpus of datasets for training..."
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: N4WD4UN6
 type: conferencePaper
 short_title: AfriSenti
-year: 2025
+year: 2023
 first_author: "[[Shamsuddeen Muhammad]]"
 last_author: "[[Stephen Arthur]]"
 authors: "Shamsuddeen Muhammad; Idris Abdulmumin; Abinew Ayele; Nedjma Ousidhoum; David Adelani; Seid Yimam; Ibrahim Ahmad; Meriem Beloucif; Saif Mohammad; Sebastian Ruder; Oumaima Hourrane; Alipio Jorge; Pavel Brazdil; Felermino Ali; Davis David; Salomey Osei; Bello Shehu-Bello; Falalu Lawan; Tajuddeen Gwadabe; Samuel Rutunda; Tadesse Belay; Wendimu Messelle; Hailu Balcha; Sisay Chala; Hagos Gebremichael; Bernard Opoku; Stephen Arthur"
@@ -53,7 +53,7 @@ publication: "EMNLP 2023"
 CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260215
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

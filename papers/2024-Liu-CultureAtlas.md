@@ -6,7 +6,7 @@ Not AI:
 key: V9SITYM9
 type: journalArticle
 short_title: CultureAtlas
-year: 2025
+year: 2024
 first_author: "[[Yi Fung]]"
 last_author: "[[Heng Ji]]"
 authors: "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Llama-2, Vicuna"
 DATA_URL: "https://github.com/yrf1/LLM-MassiveMulticultureNormsKnowledge-NCLB"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: "Llama-3, Mistral, Qwen"
 DATA_URL: "https://shorturl.at/u2h3K"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ tags:
 abstract: "Develops sovereign LLM for Hong Kong addressing multilingual environment (Cantonese, Mandarin, English) and socio-legal context. Introduces Adversarial HK Value Benchmark with 300 human-crafted sensitive questions evaluating alignment with local ethical and legal standards."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

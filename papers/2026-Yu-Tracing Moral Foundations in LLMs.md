@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_YU2026
 type: preprint
 short_title: "Tracing Moral Foundations in LLMs"
-year: 2025
+year: 2026
 first_author: "[[Chenxiao Yu]]"
 last_author: "[[Dehghani, Morteza]]"
 authors: "Yu, Chenxiao; Yi, Bowen; Karimi-Malekabadi, Farzan; Abdurahman, Suhaib; Ye, Jinyi; Narayanan, Shrikanth; Zhao, Yue; Dehghani, Morteza"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen-2"
 DATA_URL: "https://github.com/AiChiMoCha/MFT_LLMs"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

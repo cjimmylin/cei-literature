@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0207
 type: conferencePaper
 short_title: "OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety"
-year: 2025
+year: 2024
 first_author: "[[Chuang Liu]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Chuang Liu; Linhao Yu; Jiaxuan Li; Renren Jin; Yufei Huang; Ling Shi; Junhui Zhang; Xinmeng Ji; Tingting Cui; Tao Liu; Jinwang Song; Hongying Zan; Sun Li; Deyi Xiong"
@@ -51,7 +51,7 @@ abstract: "The rapid development of Chinese large language models (LLMs) poses b
 LLM_assessed: "Baichuan, InternLM, Qwen, Yi"
 DATA_URL: "http://openeval.org.cn/"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

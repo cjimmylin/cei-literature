@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0524
 type: conferencePaper
 short_title: "Offensive Text Span Detection in Romanian Comments Using Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Andrei Paraschiv]]"
 last_author: "[[Mihai Dascalu]]"
 authors: "Andrei Paraschiv; Teodora Andreea Ion; Mihai Dascalu"
@@ -58,7 +58,7 @@ tags:
 abstract: "Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance; few-shot LLM strategies also evaluated."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

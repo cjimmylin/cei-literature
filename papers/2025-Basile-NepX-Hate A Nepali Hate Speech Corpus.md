@@ -52,7 +52,7 @@ abstract: "10,000 annotated tweets labeled for hate speech presence, fine-graine
 LLM_assessed: "BERT, GPT-4o mini, Gemini"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

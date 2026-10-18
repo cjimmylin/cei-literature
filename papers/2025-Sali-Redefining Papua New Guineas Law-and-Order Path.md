@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/75be5ecbd2373d669d11334d1f754db7cfeb
 abstract: "This paper analyzes Papua New Guinea’s (PNG) law-and-order challenges since independence in 1975 and proposes strategies for sustainable improvements as the nation marks its 50th year of independence...."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

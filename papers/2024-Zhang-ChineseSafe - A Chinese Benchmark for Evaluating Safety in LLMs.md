@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0151
 type: preprint
 short_title: "ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Zhang, Hengxiang]]"
 last_author: "[[Yang, Lei]]"
 authors: "Zhang, Hengxiang; Gao, Hongfu; Hu, Qiang; Chen, Guanhua; Yang, Lili; Jing, Bingyi; Wei, Hongxin; Wang, Bing; Bai, Haifeng; Yang, Lei"
@@ -52,7 +52,7 @@ abstract: "With the rapid development of Large language models (LLMs), understan
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemma, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/datasets/SUSTech/ChineseSafe"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

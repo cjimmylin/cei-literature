@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: JCYY44E4
 type: journalArticle
-year: 2025
+year: 2023
 short_title: "A Survey of Large Language Models in Medicine"
 first_author: "[[Hongjian Zhou]]"
 last_author: "[[David Clifton]]"
@@ -50,7 +50,7 @@ pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in M
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

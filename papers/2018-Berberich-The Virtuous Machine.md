@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_BERBERICH2018
 type: preprint
 short_title: "The Virtuous Machine"
-year: 2025
+year: 2018
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Diepold, Klaus]]"
 authors: "Berberich, Nicolas; Diepold, Klaus"
@@ -51,7 +51,7 @@ DATA_URL: NA
 publication: arXiv
 CONF-CC: Preprint
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50

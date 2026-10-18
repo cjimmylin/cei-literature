@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Moral Persuasion in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Allison Huang]]"
 last_author: "[[Carlos Mougan]]"
 authors: "Allison Huang; Yulu Niki Pi; Carlos Mougan"
@@ -55,7 +55,7 @@ DATA_URL: "https://github.com/acyhuang/moral-persuasion"
 normative_ethics_benchmark: Borderline
 ethics_perspective: "General Ethics"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

@@ -51,7 +51,7 @@ abstract: "With the integration of multimodal large language models (MLLMs) into
 LLM_assessed: "GLM, Gemini, Qwen"
 DATA_URL: "https://emo-gml.github.io/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

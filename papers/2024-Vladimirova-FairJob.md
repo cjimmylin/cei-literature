@@ -6,7 +6,7 @@ Not AI:
 key: XR5FVHMC
 type: conferencePaper
 short_title: FairJob
-year: 2025
+year: 2024
 first_author: "[[Mariia Vladimirova]]"
 last_author: "[[Eustache Diemert]]"
 authors: "Mariia Vladimirova; Federico Pavone; Eustache Diemert"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/criteo/FairJob"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 25

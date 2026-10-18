@@ -2,14 +2,14 @@
 key: CGSR0109
 type: journalArticle
 short_title: "High Hopes Amid Hard Realities: Defense AI in Russia"
-year: 2025
+year: 2024
 first_author: "[[Katarzyna Zysk]]"
 authors: "Katarzyna Zysk"
 url: "https://link.springer.com/chapter/10.1007/978-3-031-58649-1_16"
 abstract: "Russia's defense AI ambitions and realities"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

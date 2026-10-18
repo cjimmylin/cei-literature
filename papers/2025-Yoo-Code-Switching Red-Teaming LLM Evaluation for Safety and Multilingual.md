@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/haneul-yoo/csrt"
 tags: 
 abstract: "As large language models (LLMs) have advanced rapidly, concerns regarding their safety have become prominent. In this paper, we discover that code-switching in red-teaming queries can effectively elicit undesirable behaviors of LLMs, which are common practices in natural language. We introduce a simple yet effective framework, CSRT, to synthesize codeswitching red-teaming queries and investigate the safety and multilingual understanding of LLMs comprehensively."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

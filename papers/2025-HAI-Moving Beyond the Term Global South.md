@@ -9,7 +9,7 @@ url: "https://hai.stanford.edu/policy/moving-beyond-the-term-global-south-in-ai-
 abstract: "Critique of 'Global South' terminology in AI ethics policy"
 DATE_ADDED: 20260403
 cultural_gap_category: "Cross-Cultural Comparative"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

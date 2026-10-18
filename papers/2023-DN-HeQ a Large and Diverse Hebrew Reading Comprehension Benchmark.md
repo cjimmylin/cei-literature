@@ -6,7 +6,7 @@ Not AI:
 key: CULT0091
 type: preprint
 short_title: "HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark"
-year: 2025
+year: 2023
 first_author: "[[Cohen, Amir DN]]"
 last_author: "[[Tsarfaty, Reut]]"
 authors: "Cohen, Amir DN; Tsarfaty, Reut"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 tags: 
 abstract: "Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the semantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be realized as extractive Question Answering. The morphologically-rich nature of Hebrew poses a challenge to this endeavor: the indeterminacy and non-transparency of span boundaries in morphologically complex forms lead to..."
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

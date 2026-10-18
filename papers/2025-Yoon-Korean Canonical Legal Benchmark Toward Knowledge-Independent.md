@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/lbox-kr/kcl"
 tags: 
 abstract: "We introduce the Korean Canonical Legal Benchmark (KCL), a benchmark designed to assess language models’ legal reasoning capabilities independently of domain-specific knowledge. KCL provides question-level supporting precedents, enabling a more faithful disentanglement of reasoning ability from parameterized knowledge. KCL consists of two components: (1) KCL-MCQA, multiple-choice problems of 283 questions with 1,103 aligned precedents, and (2) KCL-Essay, open-ended generation problems of 169..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

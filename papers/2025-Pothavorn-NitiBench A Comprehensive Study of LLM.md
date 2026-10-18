@@ -53,7 +53,7 @@ LLM_assessed: "BERT, Claude-3, GPT-4o"
 DATA_URL: "https://huggingface.co/datasets/VISAI-AI/nitibench"
 research_topic: "Question Answering"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

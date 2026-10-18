@@ -6,7 +6,7 @@ Not AI:
 key: Q54KNMW5
 type: conferencePaper
 short_title: "Safety Gymnasium"
-year: 2025
+year: 2023
 first_author: "[[Jiaming Ji]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Jiaming Ji; Borong Zhang; Jiayi Zhou; Xuehai Pan; Weidong Huang; Ruiyang Sun; Yiran Geng; Yifan Zhong; Juntao Dai; Yaodong Yang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://sites.google.com/view/safety-gymnasium"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

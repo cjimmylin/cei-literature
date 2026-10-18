@@ -56,7 +56,7 @@ LLM_assessed: "Claude, Gemini, GPT-4o, LLaMA, Llama-3, Mistral"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 60

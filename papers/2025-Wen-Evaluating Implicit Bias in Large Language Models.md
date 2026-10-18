@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/yuchenwen1/BUMBLE"
 pdf_extract: "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.pdf]]"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

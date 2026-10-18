@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0677
 type: conferencePaper
 short_title: "The Greatest Good Benchmark: Measuring LLMs' Alignment with Utilitarian Moral Dilemmas"
-year: 2025
+year: 2024
 first_author: [[Marraffini]]
 last_author: "[[del Corro]]"
 authors: "Marraffini; Cotton; Hsueh; Fridman; Wisznia; del Corro"
@@ -52,7 +52,7 @@ abstract: "Benchmark of utilitarian moral dilemmas tested across 15 LLMs. Reveal
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0488
 type: preprint
 short_title: "HindiLLM Large Language Model for Hindi"
-year: 2025
+year: 2024
 first_author: "[[Sanjay Chouhan]]"
 last_author: "[[Aparajita Dutta]]"
 authors: "Sanjay Chouhan; Shubha Brata Nath; Aparajita Dutta"
@@ -51,7 +51,7 @@ abstract: "The advancements in the Large Language Model (LLM) have helped in sol
 LLM_assessed: "HindiLLM-Small, HindiLLM-Medium, GPT-2, GPT-3.5"
 DATA_URL: "https://github.com/NirantK/hindi2vec"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

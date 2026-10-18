@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0473
 type: preprint
 short_title: "Detecting Anti-Semitic Hate Speech Using Transformer-Based"
-year: 2025
+year: 2024
 first_author: "[[Dengyi Liu]]"
 last_author: "[[Andrew G. Catlin]]"
 authors: "Dengyi Liu; Minghao Wang; Andrew G. Catlin"
@@ -52,7 +52,7 @@ abstract: "Academic researchers and social media entities grappling with the ide
 LLM_assessed: Llama-2
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

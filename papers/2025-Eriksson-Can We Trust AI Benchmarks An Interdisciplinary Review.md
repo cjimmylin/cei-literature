@@ -52,7 +52,7 @@ abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

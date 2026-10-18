@@ -6,7 +6,7 @@ Not AI:
 key: ARXIV2408_04655
 type: preprint
 short_title: "Strong and weak alignment of large language models"
-year: 2025
+year: 2024
 first_author: "[[Mehdi Khamassi]]"
 last_author: "[[Chatila, Raja]]"
 authors: "Khamassi, Mehdi; Nahon, Marceau; Chatila, Raja"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

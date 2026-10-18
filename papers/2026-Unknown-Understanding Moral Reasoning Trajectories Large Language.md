@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0679
 type: preprint
 short_title: "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability"
-year: 2025
+year: 2026
 first_author: [[Unknown]]
 last_author: [[Unknown]]
 authors: Unknown
@@ -52,7 +52,7 @@ abstract: "Introduces moral reasoning trajectories — sequences of ethical fram
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

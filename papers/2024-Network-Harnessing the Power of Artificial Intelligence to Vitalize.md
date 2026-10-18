@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0804
 type: preprint
 short_title: "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences"
-year: 2025
+year: 2024
 first_author: "[[Megasis Network]]"
 last_author: "[[Megasis Network]]"
 authors: "Megasis Network"
@@ -52,7 +52,7 @@ tags:
 abstract: "Since 2022 we have been exploring application areas and technologies in which Artificial Intelligence (AI) and modern Natural Language Processing (NLP), such as Large Language Models (LLMs), can be employed to foster the usage and facilitate the documentation of Indigenous languages which are in danger of disappearing. We start by discussing the decreasing diversity of languages in the world and how working with Indigenous languages poses unique ethical challenges for AI and NLP."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

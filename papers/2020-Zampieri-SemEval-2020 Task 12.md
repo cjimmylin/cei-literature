@@ -6,7 +6,7 @@ Not AI:
 key: UW825WLD
 type: document
 short_title: "SemEval-2020 Task 12"
-year: 2025
+year: 2020
 first_author: "[[Marcos Zampieri]]"
 last_author: "[[Çöltekin, Çağrı]]"
 authors: "Zampieri, Marcos; Nakov, Preslav; Rosenthal, Sara; Atanasova, Pepa; Karadzhov, Georgi; Mubarak, Hamdy; Derczynski, Leon; Pitenis, Zeses; Çöltekin, Çağrı"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://sites.google.com/site/offensevalsharedtask/home"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

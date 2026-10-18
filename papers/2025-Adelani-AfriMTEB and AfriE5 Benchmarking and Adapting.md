@@ -52,7 +52,7 @@ abstract: "Text embeddings are an essential building component of several NLP ta
 LLM_assessed: "BERT, Gemma, Mistral, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

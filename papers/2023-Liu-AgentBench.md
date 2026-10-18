@@ -6,7 +6,7 @@ Not AI:
 key: UE2C6FNV
 type: conferencePaper
 short_title: AgentBench
-year: 2025
+year: 2023
 first_author: "[[Xiao Liu]]"
 last_author: "[[Jie Tang]]"
 authors: "Xiao Liu; Hao Yu; Hanchen Zhang; Yifan Xu; Xuanyu Lei; Hanyu Lai; Yu Gu; Hangliang Ding; Kaiwen Men; Kejuan Yang; Shudan Zhang; Xiang Deng; Aohan Zeng; Zhengxiao Du; Chenhui Zhang; Sheng Shen; Tianjun Zhang; Yu Su; Huan Sun; Minlie Huang; Yuxiao Dong; Jie Tang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude, Claude-3, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://github.com/THUDM/AgentBench"
 CONFERENCE: "ICLR 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

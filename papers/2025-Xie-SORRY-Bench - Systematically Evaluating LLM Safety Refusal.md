@@ -52,7 +52,7 @@ abstract: "Evaluating aligned large language models’ (LLMs) ability to recogni
 LLM_assessed: "GPT-3.5, GPT-4o, Claude-2, Gemini, Gemma, Llama-2, Llama-3, Mistral, Qwen, Vicuna, BERT"
 DATA_URL: "https://sorry-bench.github.io"
 CONFERENCE: "ICLR 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

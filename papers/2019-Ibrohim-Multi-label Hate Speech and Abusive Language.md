@@ -6,7 +6,7 @@ Not AI:
 key: KRRH92SR
 type: conferencePaper
 short_title: "Multi-label Hate Speech and Abusive Language"
-year: 2025
+year: 2019
 first_author: "[[Muhammad Okky Ibrohim]]"
 last_author: "[[Indra Budi]]"
 authors: "Muhammad Okky Ibrohim; Indra Budi"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive
 pdf_extract: "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

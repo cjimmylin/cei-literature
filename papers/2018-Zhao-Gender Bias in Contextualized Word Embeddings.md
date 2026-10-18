@@ -6,7 +6,7 @@ Not AI:
 key: 559CYS5K
 type: journalArticle
 short_title: "Gender Bias in Contextualized Word Embeddings"
-year: 2025
+year: 2018
 first_author: "[[Jieyu Zhao]]"
 last_author: "[[Kai-Wei Chang]]"
 authors: "Jieyu Zhao; Yichao Zhou; Zeyu Li; Wei Wang; Kai-Wei Chang"
@@ -54,7 +54,7 @@ LLM_assessed: NA
 DATA_URL: "https://github.com/uclanlp/gn_glove"
 doi: 10.18653/v1/D18-1521
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

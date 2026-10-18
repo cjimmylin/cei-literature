@@ -2,14 +2,14 @@
 key: CGSR0079
 type: document
 short_title: "Confucian Role Ethics and Artificial Intelligence"
-year: 2025
+year: 2024
 first_author: "[[Lawrence A Whitney]]"
 authors: "Lawrence A Whitney"
 url: "https://www.academia.edu/127636733/Confucian_Role_Ethics_and_Artificial_Intelligence"
 abstract: "Confucian role ethics (ren, yi, xiao) applied to AI analysis"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

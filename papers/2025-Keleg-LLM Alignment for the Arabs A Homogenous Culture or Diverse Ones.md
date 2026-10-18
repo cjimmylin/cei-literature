@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have the potential of being useful tools that can automate tasks and assist humans. However, these models are more fluent in English and more aligned with Western cultures, norms, and values. Arabicspecific LLMs are being developed to better capture the nuances of the Arabic language, as well as the views of the Arabs. Yet, Arabs are sometimes assumed to share the same culture."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0136
 type: journalArticle
 short_title: "Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media"
-year: 2025
+year: 2022
 first_author: "[[Ataei, Taha Shangipour]]"
 last_author: "[[Pilehvar, Mohammad Taher]]"
 authors: "Ataei, Taha Shangipour; Darvishi, Kamyar; Javdan, Soroush; Pourdabiri, Amin; Behrouz Minaei-Bidgoli; Pilehvar, Mohammad Taher"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Three-layered annotated corpus of 10,563 Farsi data samples for offensive language detection. Uses similarity-based and keyword-based data selection. Best model BERT+fastText achieves F1-Macro of 89.57."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

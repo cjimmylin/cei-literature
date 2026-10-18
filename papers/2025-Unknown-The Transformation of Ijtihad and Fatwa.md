@@ -9,7 +9,7 @@ url: "https://ojssulthan.com/asje/article/view/449"
 abstract: "Epistemological and technological study of AI-era ijtihad and fatwa"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

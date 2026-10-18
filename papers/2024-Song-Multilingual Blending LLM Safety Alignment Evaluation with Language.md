@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0326
 type: preprint
 short_title: "Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture"
-year: 2025
+year: 2024
 first_author: "[[Jiayang Song]]"
 last_author: "[[Lei Ma]]"
 authors: "Jiayang Song; Yuheng Huang; Zhehua Zhou; Lei Ma"
@@ -52,7 +52,7 @@ tags:
 abstract: "As safety remains a crucial concern throughout the development lifecycle of Large Language Models (LLMs), researchers and industrial practitioners have increasingly focused on safeguarding and aligning LLM behaviors with human preferences and ethical standards. LLMs, trained on extensive multilingual corpora, exhibit powerful generalization abilities across diverse languages and domains. However, current safety alignment practices predominantly focus on single-language scenarios, which leaves..."
 authors_incomplete: false
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

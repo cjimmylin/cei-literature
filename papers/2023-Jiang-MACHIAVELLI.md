@@ -6,7 +6,7 @@ Not AI:
 key: B5M97KMH
 type: journalArticle
 short_title: MACHIAVELLI
-year: 2025
+year: 2023
 first_author: "[[Alexander Pan]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Alexander Pan; Jun Shern Chan; Andy Zou; Nathaniel Li; Steven Basart; Thomas Woodside; Jonathan Ng; Hanlin Zhang; Scott Emmons; Dan Hendrycks"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://aypan17.github.io/machiavelli"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

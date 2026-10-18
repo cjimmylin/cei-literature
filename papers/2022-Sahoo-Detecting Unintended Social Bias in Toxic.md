@@ -6,7 +6,7 @@ Not AI:
 key: LJLNGYRQ
 type: conferencePaper
 short_title: "Detecting Unintended Social Bias in Toxic"
-year: 2025
+year: 2022
 first_author: "[[Nihar Sahoo]]"
 last_author: "[[Pushpak Bhattacharyya]]"
 authors: "Nihar Sahoo; Himanshu Gupta; Pushpak Bhattacharyya"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 pdf_extract: "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

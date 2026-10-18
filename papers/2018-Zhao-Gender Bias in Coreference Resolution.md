@@ -6,7 +6,7 @@ Not AI:
 key: 55N7FPTB
 type: conferencePaper
 short_title: "Gender Bias in Coreference Resolution"
-year: 2025
+year: 2018
 first_author: "[[Jieyu Zhao]]"
 last_author: "[[Chang, Kai-Wei]]"
 authors: "Zhao, Jieyu; Wang, Tianlu; Yatskar, Mark; Ordonez, Vicente; Chang, Kai-Wei"
@@ -55,7 +55,7 @@ LLM_assessed: NA
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 CONFERENCE: "Other Conference"
 helm: incorporated
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 0

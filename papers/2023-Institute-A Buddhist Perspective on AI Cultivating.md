@@ -2,14 +2,14 @@
 key: CGSR0150
 type: document
 short_title: "A Buddhist Perspective on AI: Cultivating Freedom of Attention and True Diversity in an AI Future"
-year: 2025
+year: 2023
 first_author: "[[Future of Life Institute]]"
 authors: "Future of Life Institute"
 url: "https://futureoflife.org/religion/a-buddhist-perspective-on-ai/"
 abstract: "Buddhist framework for AI focusing on attention freedom and genuine diversity"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

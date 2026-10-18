@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/muhdhuz/CodeSwitch_Text_Generator"
 tags: 
 abstract: "Recent advances in large language models (LLMs) have shown they can match or surpass finetuned models on many natural language processing tasks. Currently, more studies are being carried out to assess whether this performance carries over across different languages. In this paper, we present a thorough evaluation of LLMs for the less well-researched code-switching translation setting, where inputs include a mixture of different languages."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

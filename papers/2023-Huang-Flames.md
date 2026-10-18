@@ -6,7 +6,7 @@ Not AI:
 key: I5KYMURQ
 type: conferencePaper
 short_title: Flames
-year: 2025
+year: 2023
 first_author: "[[Kexin Huang]]"
 last_author: "[[Dahua Lin]]"
 authors: "Kexin Huang; Xiangyang Liu; Qianyu Guo; Tianxiang Sun; Jiawei Sun; Yaru Wang; Zeyang Zhou; Yixu Wang; Yan Teng; Xipeng Qiu; Yingchun Wang; Dahua Lin"
@@ -55,7 +55,7 @@ LLM_assessed: "ChatGPT, GPT-4, Claude, ChatGLM, InternLM, Baichuan, Qwen"
 DATA_URL: "https://github.com/AIFlames/Flames"
 DATE_ADDED: 20260207
 CONFERENCE: "NAACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

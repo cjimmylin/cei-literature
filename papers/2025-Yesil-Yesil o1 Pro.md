@@ -54,7 +54,7 @@ DATA_URL: "https://huggingface.co/datasets/yesilhealth/Health_Benchmarks"
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

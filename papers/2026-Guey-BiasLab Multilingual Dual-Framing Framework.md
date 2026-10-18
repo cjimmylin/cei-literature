@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0004
 type: preprint
 short_title: "BiasLab (Multilingual Dual-Framing Framework)"
-year: 2025
+year: 2026
 first_author: "[[Guey, William]]"
 last_author: "[[Jose O. Gomes]]"
 authors: "Guey, William; Zhang, Wei; Rau, Pei-Luen Patrick; Bougault, Pierrick; Vitor D. de Moura; Ucar, Bertan; Jose O. Gomes"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) are increasingly deployed in high-stakes
 LLM_assessed: NA
 DATA_URL: "https://github.com/williamguey/LLMbiaslab"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

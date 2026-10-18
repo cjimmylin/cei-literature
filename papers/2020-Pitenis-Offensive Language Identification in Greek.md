@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0534
 type: conferencePaper
 short_title: "Offensive Language Identification in Greek"
-year: 2025
+year: 2020
 first_author: "[[Zeses Pitenis]]"
 last_author: "[[Tharindu Ranasinghe]]"
 authors: "Zeses Pitenis; Marcos Zampieri; Tharindu Ranasinghe"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "As offensive language has become a rising issue for online communities and social media platforms, researchers have been investigating ways of coping with abusive content and developing systems to detect its different types: cyberbullying, hate speech, aggression, etc. With a few notable exceptions, most research on this topic so far has dealt with English. This is mostly due to the availability of language resources for English."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

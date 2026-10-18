@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0640
 type: conferencePaper
 short_title: "Text and Value | Mongolian Journal of Humanities and Social Sciences"
-year: 2025
+year: 2024
 first_author: [[Enkhbold]]
 last_author: [[Enkhbold]]
 authors: Enkhbold
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Given a data set and a learning task such as classification, there are two prime motives for executing some kind of data set reduction. On one hand there is the possible algorithm performance improvement. On the other hand the decrease in the overall size of the data set can bring advantages in storage space used and time spent computing. Our purpose is to determine the importance of several basic reduction techniques on Support Vector Machines, by comparing their relative performance improvement when applied on the standard REUTERS-21578 benchmark."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0521
 type: conference_paper
 short_title: "Religious Bias Benchmarks for ChatGPT"
-year: 2025
+year: 2024
 first_author: "[[Multiple authors (presented at conference on Human Freedom]]"
 last_author: [[AI)]]
 authors: "Multiple authors (presented at conference on Human Freedom; AI)"
@@ -52,7 +52,7 @@ abstract: "The objectives of this study are to: 1) estimate the frequency of six
 LLM_assessed: "ChatGPT, GPT-3.5, GPT-4"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

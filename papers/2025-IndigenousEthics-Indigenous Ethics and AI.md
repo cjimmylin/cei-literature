@@ -10,7 +10,7 @@ publication_title: "AI and Ethics"
 abstract: "Indigenous ethics of reciprocity as normative and epistemological framework. Challenges Western linear conceptions. Reciprocity as vital principle of survival, not mere exchange."
 external_pdf: 
 DOI: 10.1007/s43681-025-00879-2
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

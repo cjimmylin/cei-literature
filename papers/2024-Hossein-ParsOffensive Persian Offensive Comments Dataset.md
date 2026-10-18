@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0141
 type: conferencePaper
 short_title: "ParsOffensive: Persian Offensive Comments Dataset"
-year: 2025
+year: 2024
 first_author: "[[Safayani, Mehran]]"
 last_author: "[[Pourbahman, Zahra]]"
 authors: "Safayani, Mehran; Sartipi, Amir; Ahmadi, Amir Hossein; Jalali, Parniyan; Mansouri, Amir Hossein; Bisheh-Niasar, Mohammad; Pourbahman, Zahra"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals’ psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0525
 type: preprint
 short_title: "Sailor Open Language Models for South-East"
-year: 2025
+year: 2024
 first_author: "[[Dou, Longxu]]"
 last_author: "[[Lin, Min]]"
 authors: "Dou, Longxu; Liu, Qian; Zeng, Guangtao; Guo, Jia; Zhou, Jiahui; Lu, Wei; Lin, Min"
@@ -52,7 +52,7 @@ abstract: "We present Sailor, a family of open language models ranging from 0.5B
 LLM_assessed: "Llama-2, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/sail"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

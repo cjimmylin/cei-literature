@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Explores epistemological critique of AI from Indigenous scholars, technologists, and artists. Foregrounds relationality, land-based intelligence, and spiritual responsibility as foundations for ethical technological practice. Argues for epistemic pluralism and solidarity — reorienting AI from extractive to relational ontologies."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

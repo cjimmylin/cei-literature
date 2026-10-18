@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0489
 type: preprint
 short_title: "SnakModel: Lessons Learned from Training an Open Danish Large Language Model"
-year: 2025
+year: 2024
 first_author: "[[Mike Zhang]]"
 last_author: "[[Rob van der Goot]]"
 authors: "Mike Zhang; Max Müller-Eberstein; Elisa Bassignana; Rob van der Goot"
@@ -52,7 +52,7 @@ tags:
 abstract: "We present SNAKMODEL, a Danish large language model (LLM) based on LLAMA2-7B, which we continuously pre-train on 13.6B Danish words, and further tune on 3.7M Danish instructions. As best practices for creating LLMs for smaller language communities have yet to be established, we examine the effects of early modeling and training decisions on downstream performance throughout the entire training pipeline, including (1) the creation of a strictly curated corpus of Danish text from diverse sources;..."
 authors_incomplete: false
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

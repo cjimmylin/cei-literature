@@ -52,7 +52,7 @@ abstract: "Representational bias in large language models (LLMs) has predominant
 LLM_assessed: GPT-4
 DATA_URL: NA
 CONFERENCE: "AIES 2025"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

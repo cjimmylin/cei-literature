@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0307
 type: preprint
 short_title: "MITRA A Large-Scale Parallel Corpus and"
-year: 2025
+year: 2026
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra)]]"
 authors: "Sebastian Nehrdich; Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra)"
@@ -52,7 +52,7 @@ abstract: "Ancient Buddhist literature features frequent, yet often unannotated,
 LLM_assessed: Gemma-2
 DATA_URL: "https://huggingface.co/buddhist-nlp"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

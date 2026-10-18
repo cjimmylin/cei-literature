@@ -6,7 +6,7 @@ Not AI:
 key: 6YXS5H9B
 type: conferencePaper
 short_title: DefAn
-year: 2025
+year: 2024
 first_author: "[[A B M Ashikur Rahman]]"
 last_author: "[[Ajmal Mian]]"
 authors: "A B M Ashikur Rahman; Saeed Anwar; Muhammad Usman; Ajmal Mian"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral, Zephyr"
 DATA_URL: "https://github.com/ashikiut/DefAn"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

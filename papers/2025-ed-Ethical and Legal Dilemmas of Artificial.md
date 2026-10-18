@@ -9,7 +9,7 @@ url: "https://link.springer.com/book/10.1007/978-3-031-86540-4"
 abstract: "Comprehensive book on ethical and legal AI controversies in Latin American public sphere"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

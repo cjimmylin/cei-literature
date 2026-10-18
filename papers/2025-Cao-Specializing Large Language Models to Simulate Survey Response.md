@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/yongcaoplus/SimLLMCultureDist"
 tags: 
 abstract: "First work to specialize LLMs for simulating survey response distributions using country-level results from two global cultural surveys (WVS) as testbed. Fine-tuning method based on first-token probabilities to minimize divergence. Best models still struggle, especially on unseen questions."
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

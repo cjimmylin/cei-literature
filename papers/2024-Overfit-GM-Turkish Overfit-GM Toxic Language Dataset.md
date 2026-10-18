@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0538
 type: preprint
 short_title: "Turkish Overfit-GM Toxic Language Dataset"
-year: 2025
+year: 2024
 first_author: [[Overfit-GM]]
 last_author: [[Overfit-GM]]
 authors: Overfit-GM
@@ -52,7 +52,7 @@ abstract: "Turkish toxic language dataset available on HuggingFace for toxicity 
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/israel/ProverbEval"
 tags: 
 abstract: "With the rapid development of evaluation datasets to assess LLMs understanding across a wide range of subjects and domains, identifying a suitable language understanding benchmark has become increasingly challenging. In this work, we explore LLM evaluation challenges for low-resource language understanding and introduce ProverbEval, LLM evaluation benchmark for low-resource languages, focusing on low-resource language understanding in culture-specific scenarios."
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

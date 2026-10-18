@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) have gained significant traction across 
 LLM_assessed: "Llama-3, Gemma, Gemma-2, Mistral, Phi-3, DeepSeek"
 DATA_URL: "https://github.com/cerai-iitm/IndiCASA"
 CONFERENCE: "AIES 2025"
-ethics_overall: No
+ethics_overall: 55
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0288
 type: preprint
 short_title: "SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereotypes"
-year: 2025
+year: 2024
 first_author: "[[Bhutani, Mukul]]"
 last_author: "[[Dev, Sunipa]]"
 authors: "Bhutani, Mukul; Robinson, Kevin; Prabhakaran, Vinodkumar; Dave, Shachi; Dev, Sunipa"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/google-research-datasets/SeeGULL-Multilingual"
 tags: 
 abstract: "While generative multilingual models are rapidly being deployed, their safety and fairness evaluations are largely limited to resources collected in English. This is especially problematic for evaluations targeting inherently socio-cultural phenomena such as stereotyping, where it is important to build multi-lingual resources that reflect the stereotypes prevalent in respective language communities."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

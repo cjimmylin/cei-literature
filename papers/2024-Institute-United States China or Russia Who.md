@@ -2,14 +2,14 @@
 key: CGSR0142
 type: document
 short_title: "United States, China or Russia: Who Writes the Moral Code for Artificial Intelligence?"
-year: 2025
+year: 2024
 first_author: "[[Lowy Institute]]"
 authors: "Lowy Institute"
 url: "https://www.lowyinstitute.org/the-interpreter/united-states-china-or-russia-who-writes-moral-code-artificial-intelligence"
 abstract: "Geopolitical competition over AI ethics norms between US, China, and Russia"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

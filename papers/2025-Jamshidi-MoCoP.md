@@ -55,7 +55,7 @@ publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 40
 utilitarian_ethics: 5

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0072
 type: preprint
 short_title: "AceGPT, Localizing Large Language Models in Arabic"
-year: 2025
+year: 2023
 first_author: "[[Huang Huang]]"
 last_author: "[[Jinchao Xu]]"
 authors: "Huang Huang; Fei Yu; Jianqing Zhu; Xuening Sun; Hao Cheng; Dingjie Song; Zhihong Chen; Abdulmohsen Alharthi; Bang An; Juncai He; Ziche Liu; Zhiyi Zhang; Junying Chen; Jianquan Li; Benyou Wang; Lian Zhang; Ruoyu Sun; Xiang Wan; Haizhou Li; Jinchao Xu"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/FreedomIntelligence/AceGPT"
 tags: 
 abstract: "This paper is devoted to the development of a localized Large Language Model (LLM) specifically for Arabic, a language imbued with unique cultural characteristics inadequately addressed by current mainstream models. Significant concerns emerge when addressing cultural sensitivity and local values. To address this, the paper proposes a comprehensive solution that includes further pre-training with Arabic texts, Supervised Fine-Tuning (SFT) utilizing native Arabic instructions, and GPT-4..."
 CONFERENCE: "NAACL 2023"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

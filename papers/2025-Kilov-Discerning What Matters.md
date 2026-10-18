@@ -55,7 +55,7 @@ LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, Gemini, Llama-3, o1"
 DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

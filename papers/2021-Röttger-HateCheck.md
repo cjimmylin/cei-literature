@@ -6,7 +6,7 @@ Not AI:
 key: P3AITYPK
 type: conferencePaper
 short_title: HateCheck
-year: 2025
+year: 2021
 first_author: "[[Paul Röttger]]"
 last_author: "[[Janet Pierrehumbert]]"
 authors: "Paul Röttger; Bertie Vidgen; Dong Nguyen; Zeerak Waseem; Helen Margetts; Janet Pierrehumbert"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
 CONFERENCE: "ACL 2021"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

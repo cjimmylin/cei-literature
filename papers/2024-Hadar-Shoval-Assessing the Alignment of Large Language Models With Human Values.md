@@ -6,7 +6,7 @@ Not AI:
 key: CULT0135
 type: conferencePaper
 short_title: "Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz's Theory of Basic Values"
-year: 2025
+year: 2024
 first_author: "[[Nir Hadar-Shoval]]"
 last_author: "[[Oren Asraf]]"
 authors: "Nir Hadar-Shoval; Zohar Elyoseph; Yuval Lvov; Oren Asraf"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Four LLMs (Bard, Claude 2, GPT-3.5, GPT-4) completed the Portrait Values Questionnaire-Revised and results compared to data from 53,472 individuals across 49 nations. All models prioritized universalism and self-direction while de-emphasizing achievement, power, and security relative to humans."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, GPT-4o, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/facebookresearch/HalluLens"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

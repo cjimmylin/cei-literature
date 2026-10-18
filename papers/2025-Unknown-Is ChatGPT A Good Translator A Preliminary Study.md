@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/krystalan/chatgpt_as_nlg_evaluator"
 tags: 
 abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

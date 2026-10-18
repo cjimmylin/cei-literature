@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0237
 type: conferencePaper
 short_title: "EtiCor: Corpus for Analyzing LLMs for Etiquettes"
-year: 2025
+year: 2023
 first_author: "[[Ashutosh Dwivedi]]"
 last_author: "[[Ashutosh Modi]]"
 authors: "Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi"
@@ -51,7 +51,7 @@ abstract: "Etiquettes are an essential ingredient of dayto-day interactions amon
 LLM_assessed: "BERT, Falcon, GPT-3.5"
 DATA_URL: "https://github.com/Exploration-Lab/EtiCor"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

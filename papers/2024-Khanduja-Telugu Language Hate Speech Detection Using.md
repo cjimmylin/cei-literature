@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0532
 type: preprint
 short_title: "Telugu Language Hate Speech Detection Using"
-year: 2025
+year: 2024
 first_author: "[[Namit Khanduja]]"
 last_author: "[[Arun Chauhan]]"
 authors: "Namit Khanduja; Nishant Kumar; Arun Chauhan"
@@ -57,7 +57,7 @@ abstract: "Created monolingual Telugu corpus of tweets annotated for hate/non-ha
 LLM_assessed: "BERT, XLM-R"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

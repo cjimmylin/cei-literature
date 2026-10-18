@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0042
 type: conferencePaper
 short_title: "Open Leaderboard for Hebrew LLMs"
-year: 2025
+year: 2024
 first_author: "[[Hugging Face / Hebrew NLP community]]"
 last_author: "[[Hugging Face Hebrew NLP community]]"
 authors: "Hugging Face / Hebrew NLP community"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard"
 tags: 
 abstract: "Open leaderboard for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Addresses Hebrew as low-resource language with unique evaluation needs."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

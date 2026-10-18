@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0259
 type: preprint
 short_title: "GVS-Scale and GVS-Bench: GenAI Value Safety Scale"
-year: 2025
+year: 2026
 first_author: "[[He, Ying]]"
 last_author: "[[Ren, Shangsheng]]"
 authors: "He, Ying; Li, Baiyang; Cao, Yule; Xu, Huirun; Chen, Qiuxian; Chen, Shu; Ren, Shangsheng"
@@ -52,7 +52,7 @@ abstract: "The rapid development of generative AI has brought value- and ethics-
 LLM_assessed: "Claude, Gemini, Grok, Qwen, DeepSeek"
 DATA_URL: "https://github.com/acl2026/GVS-Bench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

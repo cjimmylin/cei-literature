@@ -52,7 +52,7 @@ abstract: "This study introduces pluralism as a benchmark for evaluating generat
 LLM_assessed: "ChatGPT, GPT-o1, Gemini, Claude-3"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 55
 deontological_ethics: 0
 utilitarian_ethics: 0

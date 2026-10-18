@@ -53,7 +53,7 @@ LLM_assessed: "BLOOM, Gemma, Gemma-2, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/aisingapore/sealion"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

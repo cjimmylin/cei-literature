@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0798
 type: preprint
 short_title: "Evaluating Metalinguistic Knowledge in Large Language Models across the World's Languages"
-year: 2025
+year: 2026
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
 authors: "Ejiro Onose"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Oranzna/metalinguistic_"
 tags: 
 abstract: "Large language models (LLMs) are routinely evaluated on language use tasks, yet their explicit knowledge about linguistic structure remains poorly understood. Existing linguistic benchmarks typically focus on narrow phenomena, emphasize high-resource languages, and rarely evaluate metalinguistic knowledge—explicit reasoning about language structure rather than language use. In this paper, we present a comprehensive multilingual evaluation of metalinguistic knowledge in LLMs, based on the World..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

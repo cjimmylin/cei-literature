@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "As Vision and Language models (VLMs) are reaching users across the globe, assessing their cultural understanding has become a critical challenge. In this paper, we introduce CROPE, a visual question answering benchmark designed to probe the knowledge of culturespecific concepts and evaluate the capacity for cultural adaptation through contextual information. This allows us to distinguish between parametric knowledge acquired during training and contextual knowledge provided during inference via..."
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

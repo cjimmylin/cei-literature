@@ -55,7 +55,7 @@ LLM_assessed: "Llama-3, Gemma-2, Yi, InternLM, Aya"
 DATA_URL: "https://github.com/dayeonki/cultural_debate"
 DATE_ADDED: 20260207
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

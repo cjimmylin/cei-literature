@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, Claude-3 Haiku, GPT-3.5, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Mixtral, Qwen, Qwen-2, o1-mini, o1-preview"
 DATA_URL: "https://github.com/TrustGen/TrustEval-toolkit"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

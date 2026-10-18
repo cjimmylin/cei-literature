@@ -6,7 +6,7 @@ Not AI:
 key: F5F25757
 type: conferencePaper
 short_title: "GermEval 2019 Task 2"
-year: 2025
+year: 2019
 first_author: "[[Sven Kreutz]]"
 last_author: "[[Hendrik Klawitter]]"
 authors: "Sven Kreutz; Hendrik Klawitter"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

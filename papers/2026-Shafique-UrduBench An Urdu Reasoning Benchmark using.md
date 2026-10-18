@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0314
 type: preprint
 short_title: "UrduBench An Urdu Reasoning Benchmark using"
-year: 2025
+year: 2026
 first_author: "[[Shafique, Muhammad Ali]]"
 last_author: "[[Farooq, Hamza]]"
 authors: "Shafique, Muhammad Ali; Mehboob, Areej; Fiaz, Layba; Qadeer, Muhammad Usman; Farooq, Hamza"
@@ -53,7 +53,7 @@ LLM_assessed: "DeepSeek, Falcon, Gemma, Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2
 DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

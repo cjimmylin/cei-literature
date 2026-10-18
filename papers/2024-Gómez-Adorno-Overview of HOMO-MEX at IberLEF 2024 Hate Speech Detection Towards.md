@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0283
 type: conferencePaper
 short_title: "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population"
-year: 2025
+year: 2024
 first_author: "[[Helena Gómez-Adorno]]"
 last_author: "[[Cesar Macias]]"
 authors: "Helena Gómez-Adorno; Gemma Bel-Enguix; Hiram Calvo; Sergio-Luis Ojeda-Trueba; S. Andersen; Juan Vásquez; Tania Alcántara; Miguel Soto; Cesar Macias"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Hate speech is a significant threat to social diversity and human rights. Detecting anti-LGBT hate speech on social media is a complex area of research that requires a multifaceted and adaptable approach. This work aims to present a review of recent efforts in the investigation of hate speech towards the LGBT population on social networks and explore the use of computational techniques for the detection and classification of these speeches."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

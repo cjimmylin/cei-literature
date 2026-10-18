@@ -9,7 +9,7 @@ url: "https://www.tandfonline.com/doi/full/10.1080/13510347.2025.2576527"
 abstract: "AI-driven authoritarian governance analysis in Middle East"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0352
 type: preprint
 short_title: "Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling"
-year: 2025
+year: 2024
 first_author: "[[Matus Pikuliak]]"
 last_author: "[[Marian Simko]]"
 authors: "Matus Pikuliak; Andrea Hrckova; Stefan Oresko; Marian Simko"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/kinit-sk/gest"
 tags: 
 abstract: "We present GEST – a new manually created dataset designed to measure genderstereotypical reasoning in language models and machine translation systems. GEST contains samples for 16 gender stereotypes about men and women (e.g., Women are beautiful, Men are leaders) that are compatible with the English language and 9 Slavic languages. The definition of said stereotypes was informed by gender experts. We used GEST to evaluate English and Slavic masked LMs, English generative LMs, and machine..."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

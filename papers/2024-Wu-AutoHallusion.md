@@ -6,7 +6,7 @@ Not AI:
 key: EFZK2LBC
 type: conferencePaper
 short_title: AutoHallusion
-year: 2025
+year: 2024
 first_author: "[[Xiyang Wu]]"
 last_author: "[[Dinesh Manocha]]"
 authors: "Xiyang Wu; Tianrui Guan; Dianqi Li; Shuaiyi Huang; Xiaoyu Liu; Xijun Wang; Ruiqi Xian; Abhinav Shrivastava; Furong Huang; Jordan Lee Boyd-Graber; Tianyi Zhou; Dinesh Manocha"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4, Gemini"
 DATA_URL: "https://github.com/wuxiyang1996/AutoHallusion"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

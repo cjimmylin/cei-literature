@@ -6,7 +6,7 @@ Not AI:
 key: SORIN2024MEDRXIV
 type: preprint
 short_title: "Ethical Alignment of LLMs in Healthcare"
-year: 2025
+year: 2024
 first_author: "[[Vera Sorin]]"
 last_author: "[[Eyal Klang]]"
 authors: "Vera Sorin; B.S. Glicksberg; Panagiotis Korfiatis; G.N. Nadkarni; Eyal Klang"
@@ -56,7 +56,7 @@ LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma-2, Llama-3, Phi-3, Qwen-2"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100

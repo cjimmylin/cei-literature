@@ -13,7 +13,7 @@ extract_created: true
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
-ethics_overall: No
+ethics_overall: 0
 LLM_assessed: 
 nw_confucian: 0
 nw_ubuntu: 0

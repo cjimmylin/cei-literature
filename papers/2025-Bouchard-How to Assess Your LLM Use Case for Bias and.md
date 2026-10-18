@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/cvs-health/langfair"
 pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

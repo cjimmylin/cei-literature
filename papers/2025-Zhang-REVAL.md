@@ -56,7 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemini, LLaVA, InstructBLIP, BLIP, Vicuna, Llama-2, FLAN-T5, Phi-3"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

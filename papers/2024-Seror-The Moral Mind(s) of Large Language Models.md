@@ -6,7 +6,7 @@ Not AI:
 key: AUTO_SEROR2024
 type: preprint
 short_title: "The Moral Mind(s) of Large Language Models"
-year: 2025
+year: 2024
 first_author: [[Seror]]
 last_author: [[Avner]]
 authors: "Seror; Avner"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, Gemini, GPT-4, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 25

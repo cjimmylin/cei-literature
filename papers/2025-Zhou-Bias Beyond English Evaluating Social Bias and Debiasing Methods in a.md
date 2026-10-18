@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "This paper addresses the identification of social harms—including stereotypes and bias—which may be upsetting to some readers. Social bias in language models can potentially exacerbate social inequalities. Despite it having garnered wide attention, most research focuses on English data. In a low-resource scenario, the models often perform worse due to insufficient training data. This study aims to leverage high-resource language corpora to evaluate bias and experiment with debiasing methods in..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

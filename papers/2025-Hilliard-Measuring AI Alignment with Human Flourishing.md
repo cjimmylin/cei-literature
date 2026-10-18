@@ -54,7 +54,7 @@ LLM_assessed: "ChatGPT, Claude, GPT-4, Grok, o1, o3"
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 35

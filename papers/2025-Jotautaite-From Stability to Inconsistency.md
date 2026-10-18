@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-2, Claude-3, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://github.com/monikajot/llm-ethics-2"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

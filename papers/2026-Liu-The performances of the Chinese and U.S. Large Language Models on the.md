@@ -6,7 +6,7 @@ Not AI:
 key: CULT0002
 type: preprint
 short_title: "The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture"
-year: 2025
+year: 2026
 first_author: "[[Feiyan Liu]]"
 last_author: "[[Bao Ge]]"
 authors: "Feiyan Liu; Siyan Zhao; Chenxun Zhuo; Tianming Liu; Bao Ge"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Cultural backgrounds shape individuals’ perspectives and approaches to problem-solving. Since the emergence of GPT-1 in 2018, large language models (LLMs) have undergone rapid development. To date, the world’s ten leading LLM developers are primarily based in China and the United States. To examine whether LLMs released by Chinese and U.S. developers exhibit cultural differences in Chinese-language settings, we evaluate their performance on questions about Chinese culture."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0535
 type: conferencePaper
 short_title: "Multimodal Hate Speech Detection in Greek Social Media"
-year: 2025
+year: 2021
 first_author: "[[Konstantinos Perifanos]]"
 last_author: "[[Dionysis Goutsos]]"
 authors: "Konstantinos Perifanos; Dionysis Goutsos"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Presents a multimodal approach to hate speech detection combining BERT and ResNet for hateful, xenophobic, and racist speech in Greek aimed at refugees and migrants. Includes a new dataset of 4,004 memes for detecting hate speech in Greek and a tweet classification dataset."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

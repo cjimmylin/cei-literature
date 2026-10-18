@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0457
 type: preprint
 short_title: "Adapting LLMs to Hebrew Unveiling DictaLM"
-year: 2025
+year: 2024
 first_author: "[[Shaltiel Shmidman]]"
 last_author: "[[Moshe Koppel]]"
 authors: "Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel"
@@ -52,7 +52,7 @@ abstract: "Training large language models (LLMs) in low-resource languages such 
 LLM_assessed: "Claude-3 Haiku, Gemma, GPT-3.5, GPT-4, Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

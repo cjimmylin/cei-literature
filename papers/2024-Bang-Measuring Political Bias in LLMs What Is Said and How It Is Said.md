@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0196
 type: conferencePaper
 short_title: "Measuring Political Bias in LLMs: What Is Said and How It Is Said"
-year: 2025
+year: 2024
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Delong Chen; Nayeon Lee; Pascale Fung"
@@ -51,7 +51,7 @@ abstract: "We propose to measure political bias in LLMs by analyzing both the co
 LLM_assessed: "Falcon, Llama-2, Mistral, Vicuna"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

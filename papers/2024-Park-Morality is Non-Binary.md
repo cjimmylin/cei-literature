@@ -6,7 +6,7 @@ Not AI:
 key: 373IZL7R
 type: conferencePaper
 short_title: "Morality is Non-Binary"
-year: 2025
+year: 2024
 first_author: "[[Jeongwoo Park]]"
 last_author: "[[Pradeep K. Murukannaiah]]"
 authors: "Park, Jeongwoo; Liscio, Enrico; Pradeep K. Murukannaiah"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/jeongwoopark0514/morality-is-non-binary"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 10
 deontological_ethics: 30
 utilitarian_ethics: 10

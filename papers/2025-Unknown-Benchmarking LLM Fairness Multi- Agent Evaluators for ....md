@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "As Large Language Models (LLMs) expand into sensitive applications, concerns about fairness and bias have grown significantly. Traditional evaluation benchmarks capture static performance on curated datasets, but they often fail to measure the nuanced ways bias emerges across different contexts. This paper introduces the concept of multi-agent evaluators—independent LLMs configured to assess each other's outputs—as a scalable methodology for fairness benchmarking. The framework enables adaptive, context-aware assessments where evaluators detect subtle disparities across demographic groups, task formulations, and linguistic variations. By combining redundancy, diversity, and adversarial prompting, multiagent evaluation offers a promising path toward more reliable fairness auditing. The study also explores how such approaches integrate with governance frameworks, illustrating their potential in domains such as recruitment, healthcare communication, and automated decision support. Ultimately, the findings argue for fairness benchmarking as a continuous process powered by collaborative LLM evaluators, rather than one-time testing on static datasets."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

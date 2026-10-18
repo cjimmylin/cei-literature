@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0245
 type: preprint
 short_title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-year: 2025
+year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Stella Biderman]]"
 authors: "Guijin Son; Hanwool Lee; Sungdong Kim; Seungone Kim; Niklas Muennighoff; Taekyoon Choi; Cheonbok Park; Kang Min Yoo; Stella Biderman"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/HAERAE-HUB/KMMLU"
 tags: 
 abstract: "We propose KMMLU, a new Korean benchmark with 35,030 expert-level multiple-choice questions across 45 subjects ranging from humanities to STEM. While prior Korean benchmarks are translated from existing English benchmarks, KMMLU is collected from original Korean exams, capturing linguistic and cultural aspects of the Korean language. We test 27 public and proprietary LLMs and observe the best public model to score 50.5%, leaving significant room for improvement."
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

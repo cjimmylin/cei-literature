@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 30
 utilitarian_ethics: 5

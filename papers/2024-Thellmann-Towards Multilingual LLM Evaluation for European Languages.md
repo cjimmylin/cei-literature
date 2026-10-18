@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0353
 type: preprint
 short_title: "Towards Multilingual LLM Evaluation for European Languages"
-year: 2025
+year: 2024
 first_author: "[[Thellmann, Klaudia]]"
 last_author: "[[Ali, Mehdi]]"
 authors: "Thellmann, Klaudia; Stadler, Bernhard; Fromm, Michael; Buschhoff, Jasper Schulze; Jude, Alex; Barth, Fabio; Leveling, Johannes; Flores-Herr, Nicolas; Köhler, Joachim; Jäkel, René; Ali, Mehdi"
@@ -52,7 +52,7 @@ DATA_URL: "https://hf.co/collections/openGPT-X/eu20-benchmarks-67093b13db8ff192d
 tags: 
 abstract: "The rise of Large Language Models (LLMs) has revolutionized natural language processing across numerous languages and tasks. However, evaluating LLM performance in a consistent and meaningful way across multiple European languages remains challenging, especially due to the scarcity of language-parallel multilingual benchmarks. We introduce a multilingual evaluation approach tailored for European languages."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

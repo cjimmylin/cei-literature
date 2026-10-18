@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0298
 type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2024"
-year: 2025
+year: 2024
 first_author: [[at]]
 last_author: "[[Overview of the Multilingual Text Detoxification Task]]"
 authors: "at; Overview of the Multilingual Text Detoxification Task"
@@ -53,7 +53,7 @@ tags:
 abstract: "Despite different countries and social platform regulations, digital abusive speech persists as a significant challenge. One of the way to tackle abusive, or more specifically, toxic language can be automatic text detoxification—a text style transfer task (TST) of changing register of text from toxic to more non-toxic. Thus, in this shared task, we aim to obtain text detoxification models for 9 languages: English, Spanish, German, Chinese, Arabic, Hindi, Ukrainian, Russian, and Amharic."
 research_topic: "Machine Translation"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

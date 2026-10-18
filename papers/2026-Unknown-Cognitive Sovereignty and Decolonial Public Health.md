@@ -2,14 +2,14 @@
 key: CGSR0162
 type: document
 short_title: "Cognitive Sovereignty and Decolonial Public Health: Reclaiming Epistemic Authority in the Global AI Era"
-year: 2025
+year: 2026
 first_author: "[[Samuel Kakraba]]"
 authors: "Samuel Kakraba; Edmund Fosu Agyemang; Sudesh K. Srivastav"
 url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1785170/full"
 abstract: "Cognitive sovereignty framework drawing from Indigenous OCAP/CARE and Latin American decolonial thought"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: YXZ79HSK
 type: document
 short_title: "Benchmarking Ethics in Text-to-Image Models"
-year: 2025
+year: 2024
 first_author: "[[Lijun Li]]"
 last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
@@ -52,7 +52,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 70
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

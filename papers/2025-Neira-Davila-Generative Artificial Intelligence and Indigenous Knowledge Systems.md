@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Systematic review examining how GenAI applications within Indigenous Knowledge Systems can contribute to epistemic and cultural justice in Latin America and the Global South. Identifies four interrelated axes: Preservation and revitalization of knowledge; Culturally situated educational and evaluative tools; Data governance frameworks and knowledge cocreation; Decolonial imagination of creativity. Searches Scopus and Web of Science 2023-2025."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

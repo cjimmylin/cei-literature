@@ -6,7 +6,7 @@ Not AI:
 key: 9RSV3LVL
 type: journalArticle
 short_title: "Multilingual HateCheck"
-year: 2025
+year: 2022
 first_author: "[[Paul Röttger]]"
 last_author: "[[Bertie Vidgen]]"
 authors: "Paul Röttger; Haitham Seelawi; Debora Nozza; Zeerak Talat; Bertie Vidgen"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "This study systematically analyzes geopolitical bias across 11 prominent Large Language Models (LLMs) by examining their responses to seven critical topics in U.S.–China relations. Utilizing a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, we generated 19,712 prompts designed to detect ideological leanings in model outputs. Responses were quantitatively assessed on a normalized scale from −2 (strongly ProChina) to +2 (strongly Pro-U.S."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

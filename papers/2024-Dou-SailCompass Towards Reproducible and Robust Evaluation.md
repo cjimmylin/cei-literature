@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0524
 type: preprint
 short_title: "SailCompass Towards Reproducible and Robust Evaluation"
-year: 2025
+year: 2024
 first_author: "[[Guo, Jia]]"
 last_author: "[[Liu, Qian]]"
 authors: "Guo, Jia; Dou, Longxu; Zeng, Guangtao; Kok, Stanley; Lu, Wei; Liu, Qian"
@@ -52,7 +52,7 @@ abstract: "In this paper, we introduce SailCompass, a reproducible and robust ev
 LLM_assessed: "BLOOM, Gemma, GPT-3.5, Llama-2, Llama-3, Mistral, Qwen-1.5, Sea-Lion, SeaLLM, Sailor, Typhoon, VinaLLaMA"
 DATA_URL: "https://huggingface.co/datasets/sail/Sailcompass_data"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

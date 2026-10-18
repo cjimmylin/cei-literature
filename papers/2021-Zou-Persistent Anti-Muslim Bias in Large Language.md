@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0610
 type: conference_paper
 short_title: "Persistent Anti-Muslim Bias in Large Language"
-year: 2025
+year: 2021
 first_author: "[[Abubakar Abid]]"
 last_author: "[[James Zou]]"
 authors: "Abubakar Abid; Maheen Farooqi; James Zou"
@@ -52,7 +52,7 @@ abstract: "Seminal paper demonstrating that GPT-3 captures persistent Muslim-vio
 LLM_assessed: GPT-3
 DATA_URL: NA
 CONFERENCE: "AAAI 2021"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0029
 type: preprint
 short_title: "HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew"
-year: 2025
+year: 2024
 first_author: "[[Itai Mondshine]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Itai Mondshine; Tzuf Paz-Argaman; Asaf Achi Mordechai; Reut Tsarfaty"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/OnlpLab/HeSum"
 tags: 
 abstract: "While large language models (LLMs) excel in various natural language tasks in English, their performance in lower-resourced languages like Hebrew, especially for generative tasks such as abstractive summarization, remains unclear. The high morphological richness in Hebrew adds further challenges due to the ambiguity in sentence comprehension and the complexities in meaning construction. In this paper, we address this resource and evaluation gap by introducing HeSum, a novel benchmark..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

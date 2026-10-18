@@ -52,7 +52,7 @@ tags:
 abstract: "Large language models (LLMs) now exhibit near human-level performance in various tasks, but their performance drops drastically after a handful of high-resource languages due to the imbalance in pre-training data. Inspired by the human process of second language acquisition, particularly code-switching—the practice of language alternation in a conversation— we propose code-switching curriculum learning (CSCL) to enhance cross-lingual transfer for LLMs."
 research_topic: "Machine Translation"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

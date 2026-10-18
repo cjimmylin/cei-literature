@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0512
 type: conferencePaper
 short_title: "Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP"
-year: 2025
+year: 2023
 first_author: "[[Cristina Bosco]]"
 last_author: "[[Francesca D'Errico]]"
 authors: "Cristina Bosco; Viviana Patti; Simona Frenda; Alessandra T. Cignarella; Marina Paciello; Francesca D'Errico"
@@ -57,7 +57,7 @@ DATA_URL: "https://github.com/dhfbk/LiLaH"
 tags: 
 abstract: "An Italian social media corpus from Facebook for detecting racial stereotypes, built within a social psychology study. Annotation scheme makes stereotypes and discredit explicit. Focuses on racial hoaxes and hateful content against immigrants in Italian."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

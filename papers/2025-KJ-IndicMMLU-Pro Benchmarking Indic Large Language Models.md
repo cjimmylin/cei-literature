@@ -52,7 +52,7 @@ abstract: "Known by more than 1.5 billion people in the Indian subcontinent, Ind
 LLM_assessed: "BERT, GPT-4o, GPT-4o mini, Llama-3, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/LinguaLift/IndicMMLU-Pro"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

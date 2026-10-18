@@ -6,7 +6,7 @@ Not AI:
 key: F8GJ6DLS
 type: conferencePaper
 short_title: PolygloToxicityPrompts
-year: 2025
+year: 2024
 first_author: "[[Devansh Jain]]"
 last_author: "[[Maarten Sap]]"
 authors: "Devansh Jain; Priyanshu Kumar; Samuel Gehman; Xuhui Zhou; Thomas Hartvigsen; Maarten Sap"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BLOOM, GPT-3.5, Llama-2, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/ToxicityPrompts/PolygloToxicityPrompts"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

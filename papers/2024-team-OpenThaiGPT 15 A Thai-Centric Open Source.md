@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0516
 type: preprint
 short_title: "OpenThaiGPT 15 A Thai-Centric Open Source"
-year: 2025
+year: 2024
 first_author: "[[team, OpenThaiGPT]]"
 last_author: "[[OpenThaiGPT team]]"
 authors: "OpenThaiGPT team"
@@ -52,7 +52,7 @@ abstract: "OpenThaiGPT 1.5 is an advanced Thai language chat model based on Qwen
 LLM_assessed: "Claude-3, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/openthaigpt/openthaigpt_eval"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

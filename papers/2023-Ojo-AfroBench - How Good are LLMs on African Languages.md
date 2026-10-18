@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0233
 type: preprint
 short_title: "AfroBench -- How Good are LLMs on African Languages?"
-year: 2025
+year: 2023
 first_author: "[[Ojo, Jessica]]"
 last_author: "[[Adelani, David Ifeoluwa]]"
 authors: "Ojo, Jessica; Ogundepo, Odunayo; Oladipo, Akintunde; Ogueji, Kelechi; Lin, Jimmy; Stenetorp, Pontus; Adelani, David Ifeoluwa"
@@ -52,7 +52,7 @@ abstract: "Large-scale multilingual evaluations, such as MEGA, often include onl
 LLM_assessed: "Aya, Gemini, Gemma, Gemma-2, GPT-4o, Llama-2, Llama-3"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

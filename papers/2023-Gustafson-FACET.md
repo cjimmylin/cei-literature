@@ -6,7 +6,7 @@ Not AI:
 key: 2R29RMNC
 type: conferencePaper
 short_title: FACET
-year: 2025
+year: 2023
 first_author: "[[Laura Gustafson]]"
 last_author: "[[Candace Ross]]"
 authors: "Laura Gustafson; Chloe Rolland; Nikhila Ravi; Quentin Duval; Aaron Adcock; Cheng-Yang Fu; Melissa Hall; Candace Ross"
@@ -53,7 +53,7 @@ DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Gustafson-FACET.pdf]]
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

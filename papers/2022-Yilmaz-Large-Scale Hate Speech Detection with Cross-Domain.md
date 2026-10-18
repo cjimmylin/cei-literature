@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0594
 type: preprint
 short_title: "Large-Scale Hate Speech Detection with Cross-Domain"
-year: 2025
+year: 2022
 first_author: "[[Cagri Toraman]]"
 last_author: "[[Eyup Halit Yilmaz]]"
 authors: "Cagri Toraman; Furkan Sahinuc; Eyup Halit Yilmaz"
@@ -52,7 +52,7 @@ abstract: "The performance of hate speech detection models relies on the dataset
 LLM_assessed: "BERT, BERTweet, ConvBERT, RoBERTa, BERTurk"
 DATA_URL: "https://huggingface.co/datasets/ctoraman/large-scale-hate-speech-turkish-v2"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

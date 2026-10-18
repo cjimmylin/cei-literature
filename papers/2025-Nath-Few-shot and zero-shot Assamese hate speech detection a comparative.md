@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "Hate speech detection remains a critical challenge for natural language processing (NLP), particularly in low-resource languages such as Assamese. Although supervised models have shown promise, their performance is often constrained by the scarcity of annotated data and complex linguistic phenomena, such as code-mixing. In this study, we systematically benchmark large language models (LLMs), including GPT-4, GPT-3."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

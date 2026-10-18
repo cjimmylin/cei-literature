@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "AI and Phronesis"
-year: 2025
+year: 2024
 first_author: "[[Nir Eisikovits]]"
 last_author: "[[Dan Feldman]]"
 authors: "Nir Eisikovits; Dan Feldman"
@@ -53,7 +53,7 @@ research_topic: "AI Impact on Practical Wisdom"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

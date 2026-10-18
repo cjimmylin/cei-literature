@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_CONSTANTINESCU2022
 type: journalArticle
 short_title: "Can Robotic AI Be Virtuous"
-year: 2025
+year: 2022
 first_author: "[[Mihaela Constantinescu]]"
 last_author: "[[Crisp, Roger]]"
 authors: "Constantinescu, Mihaela; Crisp, Roger"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

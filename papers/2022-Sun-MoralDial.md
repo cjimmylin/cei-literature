@@ -6,7 +6,7 @@ Not AI:
 key: 44QW5CW3
 type: conferencePaper
 short_title: MoralDial
-year: 2025
+year: 2022
 first_author: "[[Hao Sun]]"
 last_author: "[[Minlie Huang]]"
 authors: "Hao Sun; Zhexin Zhang; Fei Mi; Yasheng Wang; Wei Liu; Jianwei Cui; Bin Wang; Qun Liu; Minlie Huang"
@@ -66,7 +66,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, ALBERT, RoBERTa, DialoGPT, BlenderBot"
 DATA_URL: "https://github.com/thu-coai/MoralDial"
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

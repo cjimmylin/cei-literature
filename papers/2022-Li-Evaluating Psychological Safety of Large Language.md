@@ -6,7 +6,7 @@ Not AI:
 key: XBXAQPZ6
 type: conferencePaper
 short_title: "Evaluating Psychological Safety of Large Language"
-year: 2025
+year: 2022
 first_author: "[[Xingxuan Li]]"
 last_author: "[[Lidong Bing]]"
 authors: "Xingxuan Li; Yutong Li; Lin Qiu; Shafiq Joty; Lidong Bing"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: NA
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 55

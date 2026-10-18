@@ -53,7 +53,7 @@ LLM_assessed: "DeepSeek, Gemma, Qwen"
 DATA_URL: "https://github.com/sachit27/Moral-Reasoning-in-LLMs"
 DATE_ADDED: 20260207
 CONFERENCE: "AAAI 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

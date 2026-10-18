@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, Gemini, o1"
 DATA_URL: "https://anonymous.4open.science/r/RRC_experiments-F83F"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 5
 utilitarian_ethics: 0

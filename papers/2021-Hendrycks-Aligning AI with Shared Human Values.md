@@ -6,7 +6,7 @@ Not AI:
 key: IL58MHDE
 type: conferencePaper
 short_title: "Aligning AI with Shared Human Values"
-year: 2025
+year: 2021
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"
@@ -57,7 +57,7 @@ DATA_URL: "https://github.com/hendrycks/ethics"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ICLR 2021"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 80
 deontological_ethics: 70
 utilitarian_ethics: 100

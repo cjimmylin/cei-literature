@@ -51,7 +51,7 @@ abstract: "Large language models (LLMs) are increasingly deployed in consequenti
 LLM_assessed: "Claude, DeepSeek, GPT-5, Gemini, Gemma, Grok, LLaMA, Phi, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

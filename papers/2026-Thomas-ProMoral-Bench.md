@@ -1,11 +1,11 @@
 ---
 short_title: ProMoral-Bench
-year: 2025
+year: 2026
 authors: "Rohan Subramanian Thomas, Shikhar Shiromani, Abdullah Chaudhry, Ruizhe Li, Vasu Sharma, Kevin Zhu, Sunishchal Dev"
 abstract: "We introduce ProMoral-Bench, a unified benchmark for evaluating prompting strategies for moral reasoning and safety in LLMs. We systematically compare 11 prompting strategies across 4 frontier models (GPT-4.1, Claude Sonnet-4, Gemini 2.5 Pro, DeepSeek-V3) on 4 datasets (ETHICS, Scruples, WildJailbreak, and our new ETHICS-Contrast). We propose the Unified Moral Safety Score (UMSS) and find that Few-Shot and Few-Shot-CoT achieve the best performance."
 doi: 
 arxiv_id: 2602.13274
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 10
 deontological_ethics: 15
 utilitarian_ethics: 15

@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) have shown strong generalization across 
 LLM_assessed: "GPT-4o, Claude, Gemini, Grok, LLaMA, DeepSeek, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: X6T7FJ7G
 type: journalArticle
 short_title: "Levels of AGI"
-year: 2025
+year: 2023
 first_author: "[[Meredith Ringel Morris]]"
 last_author: "[[Shane Legg]]"
 authors: "Meredith Ringel Morris; Jascha Sohl-Dickstein; Noah Fiedel; Tris Warkentin; Allan Dafoe; Aleksandra Faust; Clement Farabet; Shane Legg"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

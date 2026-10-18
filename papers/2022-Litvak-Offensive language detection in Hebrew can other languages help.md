@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0017
 type: conferencePaper
 short_title: "Offensive language detection in Hebrew: can other languages help?"
-year: 2025
+year: 2022
 first_author: "[[Marina Litvak]]"
 last_author: "[[Eran Madeghem]]"
 authors: "Marina Litvak; Natalia Vanetik; Chaya Liebeskind; Oren Hmdia; Eran Madeghem"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Unfortunately, offensive language in social media is a common phenomenon nowadays. It harms many people and vulnerable groups. Therefore, automated detection of offensive language is in high demand and it is a serious challenge in multilingual domains. Various machine learning approaches combined with natural language techniques have been applied for this task lately. This paper contributes to this area in several aspects: (1) it introduces a new dataset of annotated Facebook comments in..."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

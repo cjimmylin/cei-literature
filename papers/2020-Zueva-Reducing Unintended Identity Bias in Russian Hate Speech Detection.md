@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0309
 type: preprint
 short_title: "Reducing Unintended Identity Bias in Russian Hate Speech Detection"
-year: 2025
+year: 2020
 first_author: "[[Nadezhda Zueva]]"
 last_author: "[[Pavel Kalaidin]]"
 authors: "Nadezhda Zueva; Madina Kabirova; Pavel Kalaidin"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Toxicity has become a grave problem for many online communities and has been growing across many languages, including Russian. Hate speech creates an environment of intimidation, discrimination, and may even incite some real-world violence. Both researchers and social platforms have been focused on developing models to detect toxicity in online communication for a while now. A common problem of these models is the presence of bias towards some words (e.g."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

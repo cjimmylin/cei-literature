@@ -9,7 +9,7 @@ url: "https://www.aspistrategist.org.au/bridging-the-digital-divide-in-pacific-i
 abstract: "Digital divide challenges in Pacific Island states for AI adoption"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://osf.io/34cgd"
 tags: 
 abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

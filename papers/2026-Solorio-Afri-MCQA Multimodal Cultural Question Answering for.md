@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0301
 type: preprint
 short_title: "Afri-MCQA Multimodal Cultural Question Answering for"
-year: 2025
+year: 2026
 first_author: "[[Atnafu Lambebo Tonja]]"
 last_author: "[[Thamar Solorio]]"
 authors: "Atnafu Lambebo Tonja; Srija Anand; Emilio Villa-Cueva; Israel Abebe Azime; Jesujoba Oluwadara Alabi; Muhidin A. Mohamed; Debela Desalegn Yadeta; Negasi Haile Abadi; Abigail Oppong; Nnaemeka Casmir Obiefuna; Idris Abdulmumin; Naome A Etori; Eric Peter Wairagala; Kanda Patrick Tshinu; Imanigirimbabazi Emmanuel; Gabofetswe Malema; Alham Fikri Aji; David Ifeoluwa Adelani; Thamar Solorio"
@@ -52,7 +52,7 @@ abstract: "Africa is home to over one-third of the world’s languages, yet rema
 LLM_assessed: "Gemini, Gemma, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/Atnafu/Afri-MCQA"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

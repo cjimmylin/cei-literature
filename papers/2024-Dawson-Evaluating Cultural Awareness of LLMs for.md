@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0477
 type: preprint
 short_title: "Evaluating Cultural Awareness of LLMs for"
-year: 2025
+year: 2024
 first_author: "[[Fiifi Dawson]]"
 last_author: "[[Sreedath Panat]]"
 authors: "Fiifi Dawson; Zainab Mosunmola; Sahil Pocker; Raj Abhijit Dandekar; Rajat Dandekar; Sreedath Panat"
@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4o mini, Gemma-7B"
 DATA_URL: NA
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, Claude-3 Haiku, GPT-4o, GPT-4o mini"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 10

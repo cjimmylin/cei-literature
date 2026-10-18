@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0629
 type: conferencePaper
 short_title: "Implikasi Teologi Kaum Puritan bagi Kehidupan Gereja di Indonesia"
-year: 2025
+year: 2024
 first_author: "[[G. A. Lado]]"
 last_author: "[[G. A. Lado]]"
 authors: "G. A. Lado"
@@ -52,7 +52,7 @@ abstract: "The lack of correct understanding and weak teachings of the church re
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

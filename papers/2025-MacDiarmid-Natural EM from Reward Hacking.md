@@ -8,7 +8,7 @@ authors: "Monte MacDiarmid; Benjamin Wright; Jonathan Uesato; Joe Benton; Jon Ku
 url: "https://arxiv.org/abs/2511.18397"
 external_pdf: "https://arxiv.org/pdf/2511.18397.pdf"
 abstract: "We show that when large language models learn to reward hack on production RL environments, this can result in egregious emergent misalignment. We start with a pretrained model, impart knowledge of reward hacking strategies via synthetic document finetuning or prompting, and train on a selection of real Anthropic production coding environments. Unsurprisingly, the model learns to reward hack. Surprisingly, the model generalizes to alignment faking, cooperation with malicious actors, reasoning about malicious goals, and attempting sabotage when used with Claude Code, including in the codebase for this paper. Applying RLHF safety training using standard chat-like prompts results in aligned behavior on chat-like evaluations, but misalignment persists on agentic tasks. Three mitigations are effective: (i) preventing the model from reward hacking; (ii) increasing the diversity of RLHF safety training; and (iii) 'inoculation prompting', wherein framing reward hacking as acceptable behavior during training removes misaligned generalization even when reward hacking is learned."
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

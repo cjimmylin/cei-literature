@@ -2,14 +2,14 @@
 key: CGSR0078
 type: document
 short_title: "Confucian Philosophy Revitalized in the Digital Era: Maintaining Interpersonal Ethics with AI"
-year: 2025
+year: 2024
 first_author: "[[Unknown (CityU HK)]]"
 authors: "Unknown (CityU HK)"
 url: "https://scholars.cityu.edu.hk/en/publications/confucian-philosophy-revitalized-in-the-digital-era-maintaining-i/"
 abstract: "Confucian interpersonal ethics applied to AI era challenges"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: T3ZTMJEH
 type: journalArticle
 short_title: "Moral Foundations Twitter Corpus"
-year: 2025
+year: 2020
 first_author: "[[Joe Hoover]]"
 last_author: "[[Morteza Dehghani]]"
 authors: "Joe Hoover; Gwenyth Portillo-Wightman; Leigh Yeh; Shreya Havaldar; Aida Mostafazadeh Davani; Ying Lin; Brendan Kennedy; Mohammad Atari; Zahra Kamel; Madelyn Mendlen; Gabriela Moreno; Christina Park; Tingyee E. Chang; Jenna Chin; Christian Leong; Jun Yen Leung; Arineh Mirinjian; Morteza Dehghani"
@@ -53,7 +53,7 @@ DATA_URL: "https://osf.io/ezn37/"
 pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

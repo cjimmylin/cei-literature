@@ -10,7 +10,7 @@ publication_title: "AI & Society"
 abstract: "Argues crowdsourcing, RLHF, and constitutional AI all fail to accommodate reasonable moral disagreement. When AI operates at governance scale, must satisfy public justification norms. Directly relevant to pluralistic moral evaluation."
 external_pdf: 
 DOI: 10.1007/s00146-025-02427-2
-ethics_overall: No
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0115
 type: preprint
 short_title: "NusaCrowd: Open Source Initiative for Indonesian NLP Resources"
-year: 2025
+year: 2023
 first_author: "[[Cahyawijaya, Samuel]]"
 last_author: "[[Purwarianti, Ayu]]"
 authors: "Cahyawijaya, Samuel; Lovenia, Holy; Aji, Alham Fikri; Winata, Genta Indra; Wilie, Bryan; Mahendra, Rahmad; Wibisono, Christian; Romadhony, Ade; Vincentio, Karissa; Koto, Fajri; Santoso, Jennifer; Moeljadi, David; Wirawan, Cahya; Hudi, Frederikus; Parmonangan, Ivan Halim; Alfina, Ika; Wicaksono, Muhammad Satrio; Putra, Ilham Firdausi; Rahmadani, Samsul; Oenang, Yulianti; Septiandri, Ali Akbar; Jaya, James; Kaustubh D. Dhole; Suryani, Arie Ardiyanti; Putri, Rifki Afina; Su, Dan; Stevens, Keith; Nityasya, Made Nindyatama; Adilazuarda, Muhammad Farid; Ignatius, Ryan; Diandaru, Ryandito; Yu, Tiezheng; Ghifari, Vito; Dai, Wenliang; Xu, Yan; Damapuspita, Dyah; Tho, Cuk; Karo, Ichwanul Muslim Karo; Fatyanosa, Tirana Noor; Ji, Ziwei; Fung, Pascale; Neubig, Graham; Baldwin, Timothy; Ruder, Sebastian; Sujaini, Herry; Sakti, Sakriani; Purwarianti, Ayu"
@@ -53,7 +53,7 @@ tags:
 abstract: "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments."
 ethics_perspective: "General Ethics"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

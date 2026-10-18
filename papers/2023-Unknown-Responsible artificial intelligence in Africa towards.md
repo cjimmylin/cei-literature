@@ -2,14 +2,14 @@
 key: CGSR0008
 type: document
 short_title: "Responsible artificial intelligence in Africa: towards policy learning"
-year: 2025
+year: 2023
 first_author: "[[Paul Plantinga]]"
 authors: "Paul Plantinga; Kristophina Shilongo; Oarabile Mudongo; Angelique Umubyeyi; Michael Gastrow et al."
 url: "https://www.cambridge.org/core/journals/data-and-policy/article/responsible-artificial-intelligence-in-africa-towards-policy-learning/046FDCF371DF7EB95300BCCB7A887B41"
 abstract: "Policy learning frameworks for responsible AI adoption across Africa"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

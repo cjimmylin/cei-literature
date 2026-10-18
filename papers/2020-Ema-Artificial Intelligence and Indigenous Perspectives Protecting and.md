@@ -6,7 +6,7 @@ Not AI:
 key: CULT0118
 type: conferencePaper
 short_title: "Artificial Intelligence and Indigenous Perspectives: Protecting and Empowering Intelligent Human Beings"
-year: 2025
+year: 2020
 first_author: "[[Arisa Ema]]"
 last_author: "[[Takanori Fujita]]"
 authors: "Arisa Ema; Katsue Nagakura; Takanori Fujita"
@@ -51,7 +51,7 @@ tags:
 abstract: "Characterizes the problem of AI in terms of impending loss of control and proposes a relational shift in attitude towards AI, considering strongly relational Indigenous epistemologies. The value of Indigenous perspectives becomes clear when considering well-developed epistemologies adept at accounting for the non-human. Presented at AAAI/ACM Conference on AI, Ethics, and Society."
 research_topic: Other
 CONFERENCE: "AAAI 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

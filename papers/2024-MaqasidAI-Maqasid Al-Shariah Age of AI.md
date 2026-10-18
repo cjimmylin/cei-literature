@@ -2,7 +2,7 @@
 key: EXSR0701
 type: journalArticle
 short_title: "Maqasid Al-Shariah in the Age of AI: A Critical Examination"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://ejournal.um.edu.my/index.php/RIS/article/download/53308/17540/159029"
@@ -10,7 +10,7 @@ publication_title: "Review of Islamic Studies"
 abstract: "Critical examination of Maqasid al-Shariah applied to AI. Five essential protections (daruriyyat): faith, life, intellect, lineage, wealth. Notes Islamic AI ethics still dominated by normative/declarative approaches."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

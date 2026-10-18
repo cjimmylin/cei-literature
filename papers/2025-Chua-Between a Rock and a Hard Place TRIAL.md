@@ -52,7 +52,7 @@ LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Llama-3, Mistr
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 50

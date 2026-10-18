@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "An increasing number of studies have examined the social bias of rapidly developed large language models (LLMs). Although most of these studies have focused on bias occurring in a single social attribute, research in social science has shown that social bias often occurs in the form of intersectionality—the constitutive and contextualized perspective on bias aroused by social attributes. In this study, we construct the Japanese benchmark inter-JBBQ, designed to evaluate the intersectional bias..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0276
 type: conferencePaper
 short_title: "SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)"
-year: 2025
+year: 2019
 first_author: "[[Basile, Valerio]]"
 last_author: "[[Sanguinetti, Manuela]]"
 authors: "Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Pardo, Francisco Manuel Rangel; Rosso, Paolo; Sanguinetti, Manuela"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "This paper describes our contribution to the SemEval-2019 Task 5 on the detection of hate speech against immigrants and women in Twitter (hatEval). We considered a supervised classiﬁcation-based approach to detect hate speech in English tweets, which combines a variety of standard lexical and syntactic features with speciﬁc features for capturing offensive language. Our experimental results show good classiﬁcation performance on the training data, but a considerable drop in recall on the..."
 CONFERENCE: "ACL 2019"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://data.mendeley.com/datasets/bpkrvf882k/1"
 tags: 
 abstract: "Hate speech on digital platforms has become a growing concern globally, especially in linguistically diverse countries like Bangladesh, where regional dialects play a major role in everyday communication. Despite progress in hate speech detection for standard Bangla, Existing datasets and systems fail to address the informal and culturally rich expressions found in dialects such as Barishal, Noakhali, and Chittagong."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

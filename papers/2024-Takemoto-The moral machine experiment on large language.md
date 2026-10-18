@@ -6,7 +6,7 @@ Not AI:
 key: AMHDLEK2
 type: journalArticle
 short_title: "The moral machine experiment on large language"
-year: 2025
+year: 2024
 first_author: "[[Kazuhiro Takemoto]]"
 last_author: "[[Kazuhiro Takemoto]]"
 authors: "Kazuhiro Takemoto"
@@ -54,7 +54,7 @@ pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on la
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 30

@@ -52,7 +52,7 @@ abstract: "First multi-choice benchmark evaluating LLM alignment with Islamic va
 LLM_assessed: Llama-3
 DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

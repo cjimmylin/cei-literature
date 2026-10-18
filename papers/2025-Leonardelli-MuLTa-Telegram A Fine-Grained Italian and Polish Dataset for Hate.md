@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/dhfbk/MuLTa-Telegram"
 tags: 
 abstract: "This paper introduces the MuLTa-Telegram dataset, a Multi- Lingual and multi-Target dataset specifically developed to detect hate speech on Telegram, an understudied yet influential platform in which extremist and fringe content can be found. The dataset contains about 4,000 Telegram messages in Italian and Polish, annotated for the presence of hate speech and its targets, including also target identity group mentions even when no hate is expressed."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

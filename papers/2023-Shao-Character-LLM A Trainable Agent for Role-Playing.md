@@ -6,7 +6,7 @@ Not AI:
 key: 2ML6F4EE
 type: document
 short_title: "Character-LLM: A Trainable Agent for Role-Playing"
-year: 2025
+year: 2023
 first_author: "[[Yunfan Shao]]"
 last_author: "[[Qiu, Xipeng]]"
 authors: "Shao, Yunfan; Li, Linyang; Dai, Junqi; Qiu, Xipeng"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, LLaMA, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

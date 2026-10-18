@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/0aeb49ecdf232edaae4e2c69d6e6a8baac3b
 abstract: "As artificial intelligence (AI) becomes increasingly part of everyday life including transportation, manufacturing, etc., it is important to understand how humans utilize AI to achieve an effective hu..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

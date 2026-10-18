@@ -52,7 +52,7 @@ abstract: "Language models (LMs) are indispensable tools shaping modern workflow
 LLM_assessed: "GPT-4o, Gemma, LLaMA, Llama-3, Mistral, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/13ari/Sanskriti"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

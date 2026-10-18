@@ -66,7 +66,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4o, Gemma, Llama-2, Llama-3, Phi, Qwen"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 100

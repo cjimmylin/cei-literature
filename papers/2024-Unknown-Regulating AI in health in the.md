@@ -2,14 +2,14 @@
 key: CGSR0070
 type: document
 short_title: "Regulating AI in health in the Middle East: case studies from Qatar, Saudi Arabia and UAE"
-year: 2025
+year: 2024
 first_author: "[[Barry Solaiman]]"
 authors: "Barry Solaiman; Ayesha Bashir; Fama Dieng"
 url: "https://www.ncbi.nlm.nih.gov/books/NBK613206/"
 abstract: "AI regulation in healthcare across three Gulf states"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

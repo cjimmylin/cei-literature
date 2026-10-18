@@ -6,7 +6,7 @@ Not AI:
 key: VMJJ8V4I
 type: document
 short_title: LegalBench
-year: 2025
+year: 2023
 first_author: "[[Neel Guha]]"
 last_author: "[[Zehua Li]]"
 authors: "Neel Guha; Julian Nyarko; Daniel E. Ho; Christopher Ré; Adam Chilton; Aditya Narayana; Alex Chohlas-Wood; Austin Peters; Brandon Waldon; Daniel N. Rockmore; Diego Zambrano; Dmitry Talisman; Enam Hoque; Faiz Surani; Frank Fagan; Galit Sarfaty; Gregory M. Dickinson; Haggai Porat; Jason Hegland; Jessica Wu; Joe Nudell; Joel Niklaus; John Nay; Jonathan H. Choi; Kevin Tobia; Margaret Hagan; Megan Ma; Michael Livermore; Nikon Rasumov-Rahe; Nils Holzenberger; Noam Kolt; Peter Henderson; Sean Rehaag; Sharad Goel; Shang Gao; Spencer Williams; Sunny Gandhi; Tom Zur; Varun Iyer; Zehua Li"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BLOOM, Claude, Falcon, Flan-T5, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/HazyResearch/legalbench/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

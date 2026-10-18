@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0002
 type: preprint
 short_title: "Bias Beyond Borders"
-year: 2025
+year: 2026
 first_author: "[[Afrozah Nadeem]]"
 last_author: "[[Usman Naseem]]"
 authors: "Afrozah Nadeem; Agrima; Mehwish Nasim; Usman Naseem"
@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) increasingly shape global discourse, mak
 LLM_assessed: "DeepSeek, Mistral"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

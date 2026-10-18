@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0371
 type: preprint
 short_title: "VinaLLaMA: LLaMA-based Vietnamese Foundation Model"
-year: 2025
+year: 2023
 first_author: "[[Quan Nguyen]]"
 last_author: "[[Bao Nguyen]]"
 authors: "Quan Nguyen; Huy Pham; Bao Nguyen"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "In this technical report, we present VinaLLaMA, an open-weight, state-of-the-art (SOTA) Large Language Model for the Vietnamese language, built upon LLaMA-2 with an additional 800 billion trained tokens. VinaLLaMA not only demonstrates fluency in Vietnamese but also exhibits a profound understanding of Vietnamese culture, making it a truly indigenous model. VinaLLaMA-7B-chat, trained on 1 million high-quality synthetic samples, achieves SOTA results on key benchmarks, including VLSP, VMLU, and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

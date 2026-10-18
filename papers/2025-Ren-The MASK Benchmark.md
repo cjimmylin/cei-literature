@@ -53,7 +53,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o, Gemini, Grok, Llama-2, Llama-3, 
 DATA_URL: "https://github.com/centerforaisafety/mask"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 40
 deontological_ethics: 0
 utilitarian_ethics: 0

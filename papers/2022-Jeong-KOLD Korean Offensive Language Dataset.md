@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0250
 type: preprint
 short_title: "KOLD: Korean Offensive Language Dataset"
-year: 2025
+year: 2022
 first_author: "[[Younghoon Jeong]]"
 last_author: "[[Alice Oh]]"
 authors: "Younghoon Jeong; Juhyun Oh; Jongwon Lee; Jaimeen Ahn; Jiyoung Han; Chiyoung Cha; Alice Oh"
@@ -52,7 +52,7 @@ DATA_URL: "http://github.com/boychaboy/KOLD"
 tags: 
 abstract: "Warning: this paper contains content that may be offensive or upsetting. Recent directions for offensive language detection are hierarchical modeling, identifying the type and the target of offensive language, and interpretability with offensive span annotation and prediction. These improvements are focused on English and do not transfer well to other languages because of cultural and linguistic differences."
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

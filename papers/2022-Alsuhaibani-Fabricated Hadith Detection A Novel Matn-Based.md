@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0586
 type: preprint
 short_title: "Fabricated Hadith Detection A Novel Matn-Based"
-year: 2025
+year: 2022
 first_author: "[[Kamel Gaanoun]]"
 last_author: "[[Mohammed Alsuhaibani]]"
 authors: "Kamel Gaanoun; Mohammed Alsuhaibani"
@@ -52,7 +52,7 @@ abstract: "Creates MAHADDAT, the first dataset dedicated to fabricated (Mawdu) H
 LLM_assessed: BERT
 DATA_URL: "https://github.com/kamelgaanoun/mhdetection"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

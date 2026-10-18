@@ -53,7 +53,7 @@ LLM_assessed: "ChatGPT, GPT-4o"
 DATA_URL: "https://github.com/Bharathi-AI-for-Social-Good/CN-Malayalam"
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -2,14 +2,14 @@
 key: CGSR0047
 type: document
 short_title: "AI and Humanistic Buddhism"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://www.academia.edu/122707128/AI_and_Humanistic_Buddhism"
 abstract: "Humanistic Buddhist perspectives on AI development and ethics"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

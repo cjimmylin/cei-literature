@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0460
 type: preprint
 short_title: "Azerbaijani LLM Leaderboard"
-year: 2025
+year: 2024
 first_author: [[LLM-Beetle]]
 last_author: [[LLM-Beetle]]
 authors: LLM-Beetle
@@ -52,7 +52,7 @@ abstract: "HuggingFace Space for browsing and filtering Azerbaijani LLM benchmar
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

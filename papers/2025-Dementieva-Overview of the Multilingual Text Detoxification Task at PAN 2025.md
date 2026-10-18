@@ -51,7 +51,7 @@ DATA_URL: "https://hf.co/textdetox"
 tags: 
 abstract: "Despite different countries and social platform regulations, digital abusive speech persists as a significant challenge. One of the way to tackle abusive, or more specifically, toxic language can be automatic text detoxification—a text style transfer task (TST) of changing register of text from toxic to more non-toxic. We extend our previous Multilingual Text Detoxification (TextDetox) task to new languages—Italian, French, Hebrew, Hinglish, Japanese, and Tatar—suggesting participants to..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

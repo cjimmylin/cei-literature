@@ -53,7 +53,7 @@ LLM_assessed: "Claude-3, DeepSeek, GPT-3.5, GPT-4o, Gemini, LLaMA, Llama-3, Qwen
 DATA_URL: "https://github.com/Vicentvankor/TLUE"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

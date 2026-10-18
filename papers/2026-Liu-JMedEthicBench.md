@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0006
 type: preprint
 short_title: JMedEthicBench
-year: 2025
+year: 2026
 first_author: "[[Liu, Junyu]]"
 last_author: "[[Hatakeyama-Sato, Kan]]"
 authors: "Liu, Junyu; Li, Zirui; Niu, Qian; Zhang, Zequn; Xun, Yue; Hou, Wenlong; Wang, Shujun; Iwasawa, Yusuke; Matsuo, Yutaka; Hatakeyama-Sato, Kan"
@@ -54,7 +54,7 @@ DATA_URL: NA
 normative_ethics_benchmark: Borderline
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

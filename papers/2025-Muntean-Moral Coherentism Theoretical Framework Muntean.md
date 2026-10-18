@@ -54,7 +54,7 @@ abstract: "The current project focuses on models of 'artificial moral learning' 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

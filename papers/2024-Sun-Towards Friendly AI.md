@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_SUN2024
 type: preprint
 short_title: "Towards Friendly AI"
-year: 2025
+year: 2024
 first_author: "[[Qiyang Sun]]"
 last_author: "[[Björn W. Schuller]]"
 authors: "Sun, Qiyang; Li, Yupei; Alturki, Emran; Murthy, Sunil Munthumoduku Krishna; Björn W. Schuller"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 15
 deontological_ethics: 15
 utilitarian_ethics: 10

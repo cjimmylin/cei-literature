@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0152
 type: conferencePaper
 short_title: "KurdiSent: A Corpus for Kurdish Sentiment Analysis"
-year: 2025
+year: 2023
 first_author: "[[Badawi, Soran]]"
 last_author: "[[Rezaie, Vali]]"
 authors: "Badawi, Soran; Kazemi, Arefeh; Rezaie, Vali"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Kurdish sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves best accuracy of 85%."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

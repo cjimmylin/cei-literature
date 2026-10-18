@@ -51,7 +51,7 @@ abstract: "The proliferation of artificial intelligence (AI) systems as super-ca
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5

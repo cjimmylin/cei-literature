@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0279
 type: journalArticle
 short_title: "Moral Association Graph: Cognitive Model for Interpretable Moral Inference"
-year: 2025
+year: 2024
 first_author: [[Ramezani]]
 last_author: [[Y.]]
 authors: "Ramezani; A. & Xu; Y."
@@ -52,7 +52,7 @@ abstract: "AbstractAutomated moral inference is an emerging topic of critical im
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

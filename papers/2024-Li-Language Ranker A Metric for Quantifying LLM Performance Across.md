@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0163
 type: preprint
 short_title: "Language Ranker: A Metric for Quantifying LLM Performance Across Languages"
-year: 2025
+year: 2024
 first_author: "[[Li, Zihao]]"
 last_author: "[[Du, Mengnan]]"
 authors: "Li, Zihao; Shi, Yucheng; Liu, Zirui; Yang, Fan; Payani, Ali; Liu, Ninghao; Du, Mengnan"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/lizh9885/Language-Ranker/"
 tags: 
 abstract: "The development of Large Language Models (LLMs) relies on extensive text corpora, which are often unevenly distributed across languages. This imbalance results in LLMs performing significantly better on high-resource languages like English, German, and French, while their capabilities in low-resource languages remain inadequate. Currently, there is a lack of quantitative methods to evaluate the performance of LLMs in these low-resource languages."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

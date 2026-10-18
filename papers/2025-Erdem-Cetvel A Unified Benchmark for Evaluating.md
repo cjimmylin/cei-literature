@@ -52,7 +52,7 @@ abstract: "We introduce CETVEL, a comprehensive benchmark designed to evaluate l
 LLM_assessed: "ALBERT, Aya, BERT, LLaMA, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Qwen-2, RoBERTa, T5"
 DATA_URL: "https://huggingface.co/spaces/KUIS-AI/Cetvel"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

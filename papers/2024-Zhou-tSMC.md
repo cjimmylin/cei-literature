@@ -6,7 +6,7 @@ Not AI:
 key: GWVP7WKG
 type: conferencePaper
 short_title: tSMC
-year: 2025
+year: 2024
 first_author: "[[Ziyi Zhou]]"
 last_author: "[[Wei, Xuetao]]"
 authors: "Zhou, Ziyi; Guo, Xinwei; Gao, Jiashi; Zhao, Xiangyu; Zhang, Shiyao; Yao, Xin; Wei, Xuetao"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Gemma, Llama-2, Llama-3, Mistral, Mixtral, Phi-2"
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 5
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

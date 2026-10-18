@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0380
 type: conferencePaper
 short_title: "Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions"
-year: 2025
+year: 2024
 first_author: "[[Jang, Seongyu]]"
 last_author: "[[Kahng, Hyungu]]"
 authors: "Jang, Seongyu; Jeong, Chaewon; Kim, Jimin; Kahng, Hyungu"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Investigates language-dependent preferences in distributive justice scenarios. Finds 9-56 percentage point gaps across languages with complete preference reversals. Domain persona injection reduces cross-linguistic inconsistencies by 62.7%."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

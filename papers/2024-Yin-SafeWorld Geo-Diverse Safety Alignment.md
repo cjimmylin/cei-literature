@@ -6,7 +6,7 @@ Not AI:
 key: CULT0031
 type: preprint
 short_title: "SafeWorld: Geo-Diverse Safety Alignment"
-year: 2025
+year: 2024
 first_author: "[[Da Yin]]"
 last_author: "[[Nanyun Peng]]"
 authors: "Da Yin; Haoyi Qiu; Kung-Hsiang Huang; Kai-Wei Chang; Nanyun Peng"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/PlusLabNLP/SafeWorld"
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. In the rapidly evolving field of Large Language Models (LLMs), ensuring safety is a crucial and widely discussed topic. However, existing works often overlook the geodiversity of cultural and legal standards across the world. To demonstrate the challenges posed by geo-diverse safety standards, we introduce SAFEWORLD, a novel benchmark specifically designed to evaluate LLMs’ ability to generate responses that are not..."
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

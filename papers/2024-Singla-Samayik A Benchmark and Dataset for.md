@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0527
 type: preprint
 short_title: "Samayik A Benchmark and Dataset for"
-year: 2025
+year: 2024
 first_author: "[[Ayush Maheshwari]]"
 last_author: "[[Jitin Singla]]"
 authors: "Ayush Maheshwari; Ashim Gupta; Amrith Krishna; Atul Kumar Singh; Ganesh Ramakrishnan; G. Anil Kumar; Jitin Singla"
@@ -52,7 +52,7 @@ abstract: "We release Sāmayik, a dataset of around 53,000 parallel English-Sans
 LLM_assessed: NA
 DATA_URL: "https://github.com/ayushbits/saamayik"
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

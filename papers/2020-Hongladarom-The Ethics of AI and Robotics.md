@@ -2,14 +2,14 @@
 key: CGSR0214
 type: document
 short_title: "The Ethics of AI and Robotics"
-year: 2025
+year: 2020
 first_author: "[[Soraj Hongladarom]]"
 authors: "Soraj Hongladarom"
 url: "https://www.semanticscholar.org/paper/cb8e2c43c25fc3a149028bcc4f493269bdc8f618"
 abstract: "Artificial intelligence is the most discussed and arguably the most powerful technology in the world today. The very rapid development of the technology, and its power to change the world, and perhaps..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

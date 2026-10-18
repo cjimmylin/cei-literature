@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0104
 type: conferencePaper
 short_title: "MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language"
-year: 2025
+year: 2024
 first_author: "[[Poh, Soon Chang]]"
 last_author: "[[Chan, Chee Seng]]"
 authors: "Poh, Soon Chang; Yang, Sze Jue; Tan, Jeraelyn; Chieng, Lawrence; Jeffrey Ziwei Tan; Yu, Zhenyu; Mun, Foong; Chan, Chee Seng"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/UMxYTL-AI-Labs/MalayMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) and Large Vision Language Models (LVLMs) exhibit advanced proficiency in language reasoning and comprehension across a wide array of languages. While their performance is notably robust in well-resourced languages, their capabilities in low-resource languages, such as Bahasa Melayu (hereinafter referred to as Malay), remain less explored due to a scarcity of dedicated studies and benchmarks."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

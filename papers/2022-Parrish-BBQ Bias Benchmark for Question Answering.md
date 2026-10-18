@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0243
 type: conferencePaper
 short_title: "BBQ (Bias Benchmark for Question Answering)"
-year: 2025
+year: 2022
 first_author: "[[Parrish, Alicia]]"
 last_author: "[[Samuel R. Bowman]]"
 authors: "Parrish, Alicia; Chen, Angelica; Nangia, Nikita; Padmakumar, Vishakh; Phang, Jason; Thompson, Jana; Htut, Phu Mon; Samuel R. Bowman"
@@ -54,7 +54,7 @@ DATA_URL: "https://github.com/nyu-mll/BBQ"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
 helm: incorporated
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

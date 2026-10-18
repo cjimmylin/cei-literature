@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0603
 type: conferencePaper
 short_title: "The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages"
-year: 2025
+year: 2024
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Yana Veitsman]]"
 authors: "Yana Veitsman"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the search results, here are the key findings about Turkic languages, Kyrgyz, and NLP evaluation benchmarks from 2024-2025: TUMLU Benchmark (2025) TUMLU is a comprehensive, multilingual, and natively developed language understanding benchmark specifically designed for Turkic languages. It consists of middle- and high-school level questions spanning 11 academic subjects in Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, and Uzbek."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

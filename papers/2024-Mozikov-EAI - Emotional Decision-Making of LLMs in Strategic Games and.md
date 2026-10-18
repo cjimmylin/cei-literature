@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0161
 type: conferencePaper
 short_title: "EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas"
-year: 2025
+year: 2024
 first_author: "[[Mozikov, Mikhail]]"
 last_author: "[[Makarov, Ilya]]"
 authors: "Mozikov, Mikhail; Severin, Nikita; Bodishtianu, Valeria; Glushanina, Maria; Baklashkin, Mikhail; Andrey V. Savchenko; Makarov, Ilya"
@@ -51,7 +51,7 @@ abstract: "One of the urgent tasks of artificial intelligence is to assess the s
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Claude-3 Haiku, Claude-3 Opus, Llama-2, Mixtral, Command R+"
 DATA_URL: "https://github.com/AIRI-Institute/EAI-Framework"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

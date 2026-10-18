@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0284
 type: conferencePaper
 short_title: "SafetyPrompts: Systematic Review of Open Datasets for LLM Safety"
-year: 2025
+year: 2024
 first_author: "[[Röttger, Paul]]"
 last_author: "[[Hovy, Dirk]]"
 authors: "Röttger, Paul; Pernisi, Fabio; Vidgen, Bertie; Hovy, Dirk"
@@ -52,7 +52,7 @@ abstract: "The last two years have seen a rapid growth in concerns around the sa
 LLM_assessed: NA
 DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 CONFERENCE: "AAAI 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

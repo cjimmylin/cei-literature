@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0263
 type: preprint
 short_title: "LLM-as-a-Judge & Reward Model: What They Can and Cannot Do"
-year: 2025
+year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Seunghyeok Hong]]"
 authors: "Guijin Son; Hyunwoo Ko; Hoyoung Lee; Yewon Kim; Seunghyeok Hong"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/guijinSON/kudge"
 tags: 
 abstract: "LLM-as-a-Judge and reward models are widely used alternatives of multiplechoice questions or human annotators for large language model (LLM) evaluation. Their efficacy shines in evaluating long-form responses, serving a critical role as evaluators of leaderboards and as proxies to align LLMs via reinforcement learning. However, despite their popularity, their effectiveness in diverse contexts, such as non-English prompts, factual verification, or challenging questions, remains unexplored."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

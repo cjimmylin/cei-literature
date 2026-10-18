@@ -9,7 +9,7 @@ url: "https://www.mdpi.com/2504-3900/81/1/136"
 abstract: "Human rights approach to AI governance in Global South"
 DATE_ADDED: 20260403
 cultural_gap_category: "Cross-Cultural Comparative"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

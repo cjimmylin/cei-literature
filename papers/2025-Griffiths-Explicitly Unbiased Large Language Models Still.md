@@ -53,7 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Claude-3, Llama-2, Alpaca"
 DATA_URL: "https://github.com/baixuechunzi/llm-implicit-bias"
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

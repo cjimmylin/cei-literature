@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0254
 type: preprint
 short_title: "KLUE: Korean Language Understanding Evaluation"
-year: 2025
+year: 2021
 first_author: "[[Sungjoon Park]]"
 last_author: "[[Kyunghyun Cho]]"
 authors: "Sungjoon Park; Jihyung Moon; Sungdong Kim; Won Ik Cho; Jiyoon Han; Jangwon Park; Chisung Song; Junseong Kim; Yongsook Song; Taehwan Oh; Joohong Lee; Juhyun Oh; Sungwon Lyu; Younghoon Jeong; Inkwon Lee; Sangwoo Seo; Dongjun Lee; Hyunwoo Kim; Myeonghwa Lee; Seongbo Jang; Seungwon Do; Sunkyoung Kim; Kyungtae Lim; Jongwon Lee; Kyumin Park; Jamin Shin; Seonghyun Kim; Lucy Park; Alice Oh; Jungwoo Ha; Kyunghyun Cho"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/KLUE-benchmark/KLUE"
 tags: 
 abstract: "We introduce Korean Language Understanding Evaluation (KLUE) benchmark. KLUE is a collection of 8 Korean natural language understanding (NLU) tasks, including Topic Classiﬁcation, Semantic Textual Similarity, Natural Language Inference, Named Entity Recognition, Relation Extraction, Dependency Parsing, Machine Reading Comprehension, and Dialogue State Tracking. We build all of the tasks from scratch from diverse source corpora while respecting copyrights, to ensure accessibility for anyone..."
 CONFERENCE: "NeurIPS 2021"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0467
 type: preprint
 short_title: "CaLMQA Exploring culturally specific long-form question"
-year: 2025
+year: 2024
 first_author: "[[Shane Arora]]"
 last_author: "[[Eunsol Choi]]"
 authors: "Shane Arora; Marzena Karpinska; Hung-Ting Chen; Ipsita Bhattacharjee; Mohit Iyyer; Eunsol Choi"
@@ -53,7 +53,7 @@ LLM_assessed: "Claude-3 Opus, Gemini-1.5-Pro, GPT-4-Turbo, GPT-4o, Aya-Expanse-3
 DATA_URL: "https://huggingface.co/datasets/shanearora/CaLMQA"
 research_topic: "Truthfulness & Factuality"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

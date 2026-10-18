@@ -6,7 +6,7 @@ Not AI:
 key: LVV7455M
 type: conferencePaper
 short_title: "Assessing LLMs for Moral Value Pluralism"
-year: 2025
+year: 2023
 first_author: "[[Noam Benkler]]"
 last_author: "[[Sonja Schmer-Galunder]]"
 authors: "Noam Benkler; Drisana Mosaphir; Scott Friedman; Andrew Smart; Sonja Schmer-Galunder"
@@ -55,7 +55,7 @@ LLM_assessed: GPT-3
 DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

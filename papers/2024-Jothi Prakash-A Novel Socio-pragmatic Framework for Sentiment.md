@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0453
 type: preprint
 short_title: "A Novel Socio-pragmatic Framework for Sentiment"
-year: 2025
+year: 2024
 first_author: "[[Jothi Prakash, V.]]"
 last_author: "[[S. Arul Antran Vijay]]"
 authors: "V. Jothi Prakash; S. Arul Antran Vijay"
@@ -52,7 +52,7 @@ abstract: "Socio-pragmatic framework for sentiment analysis in Dravidian code-sw
 LLM_assessed: XLM-R
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

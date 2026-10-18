@@ -6,7 +6,7 @@ Not AI:
 key: X9HU47WR
 type: conferencePaper
 short_title: DiaHalu
-year: 2025
+year: 2024
 first_author: "[[Kedi Chen]]"
 last_author: "[[Liang He]]"
 authors: "Kedi Chen; Qin Chen; Jie Zhou; Yishen He; Liang He"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://github.com/ECNU-ICALK/DiaHalu"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

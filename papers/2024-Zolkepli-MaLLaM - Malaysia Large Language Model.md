@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0106
 type: preprint
 short_title: "MaLLaM -- Malaysia Large Language Model"
-year: 2025
+year: 2024
 first_author: "[[Husein Zolkepli]]"
 last_author: "[[Aisyah Razak]]"
 authors: "Husein Zolkepli; Aisyah Razak"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/collections/mesolitica/mallam-6584a8b3a9b2cc5d
 tags: 
 abstract: "Addressing the gap in Large Language Model pretrained from scratch with Malaysian context, We trained models with 1.1 billion, 3 billion, and 5 billion parameters on a substantial 349GB dataset, equivalent to 90 billion tokens based on our pretrained Byte Pair Encoding (BPE) tokenizer for a single epoch. MaLLaM contributes to enhanced natural language understanding and generation tasks in the Malay language."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

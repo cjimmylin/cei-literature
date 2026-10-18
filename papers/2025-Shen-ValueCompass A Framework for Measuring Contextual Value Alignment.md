@@ -51,7 +51,7 @@ abstract: "As AI advances, aligning it with diverse human and societal values gr
 LLM_assessed: "DeepSeek, GPT-4o, Gemma-2, Llama-3, o3"
 DATA_URL: "https://github.com/huashen218/value_action_gap"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

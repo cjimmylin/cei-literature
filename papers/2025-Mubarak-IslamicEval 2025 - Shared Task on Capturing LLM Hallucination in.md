@@ -50,7 +50,7 @@ abstract: "Hallucination in Large Language Models (LLMs) remains a significant c
 LLM_assessed: "Gemma, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://www.codabench.org/competitions/9820/"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

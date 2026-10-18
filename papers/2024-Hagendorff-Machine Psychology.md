@@ -6,7 +6,7 @@ Not AI:
 key: 7TPD46IL
 type: preprint
 short_title: "Machine Psychology"
-year: 2025
+year: 2024
 first_author: "[[Thilo Hagendorff]]"
 last_author: "[[Eric Schulz]]"
 authors: "Thilo Hagendorff; Ishita Dasgupta; Marcel Binz; Stephanie C. Y. Chan; Andrew Lampinen; Jane X. Wang; Zeynep Akata; Eric Schulz"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

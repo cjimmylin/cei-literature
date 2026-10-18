@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0243
 type: preprint
 short_title: "CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean"
-year: 2025
+year: 2024
 first_author: "[[Eunsu Kim]]"
 last_author: "[[Alice Oh]]"
 authors: "Eunsu Kim; Juyoung Suk; Philhoon Oh; Haneul Yoo; James Thorne; Alice Oh"
@@ -53,7 +53,7 @@ tags:
 abstract: "Despite the rapid development of large language models (LLMs) for the Korean language, there remains an obvious lack of benchmark datasets that test the requisite Korean cultural and linguistic knowledge. Because many existing Korean benchmark datasets are derived from the English counterparts through translation, they often overlook the different cultural contexts. For the few benchmark datasets that are sourced from Korean data capturing cultural knowledge, only narrow tasks such as bias and..."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

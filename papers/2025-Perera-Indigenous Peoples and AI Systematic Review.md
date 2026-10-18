@@ -10,7 +10,7 @@ publication_title: "Big Data & Society"
 abstract: "Systematic review of Indigenous peoples and AI. Covers data sovereignty, decolonizing algorithms, cultural sensitivity. ML health models showed biased predictions for Maori patients."
 external_pdf: 
 DOI: 10.1177/20539517251349170
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

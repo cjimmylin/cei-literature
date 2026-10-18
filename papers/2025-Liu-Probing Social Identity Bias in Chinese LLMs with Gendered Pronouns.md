@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in user-facing applications, raising concerns about their potential to reflect and amplify social biases. We investigate social identity framing in Chinese LLMs using Mandarin-specific prompts across ten representative Chinese LLMs, evaluating responses to ingroup (“We”) and outgroup (“They”) framings, and extending the setting to 240 social groups salient in the Chinese context."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

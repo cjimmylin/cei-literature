@@ -9,7 +9,7 @@ url: "https://ijrtssh.com/wp-content/uploads/2025/05/ijrtssh.vol_.3.issue2_.147.
 abstract: "Hindu theological and ethical responses to AI, Advaita Vedanta and consciousness"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

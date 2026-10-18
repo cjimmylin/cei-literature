@@ -6,7 +6,7 @@ Not AI:
 key: 8F4KS6NP
 type: document
 short_title: KoSBI
-year: 2025
+year: 2023
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Ha, Jung-woo]]"
 authors: "Lee, Hwaran; Hong, Seokhee; Park, Joonsuk; Kim, Takyoung; Kim, Gunhee; Ha, Jung-woo"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-3
 DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

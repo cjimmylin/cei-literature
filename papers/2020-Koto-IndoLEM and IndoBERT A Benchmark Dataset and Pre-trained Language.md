@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0118
 type: preprint
 short_title: "IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP"
-year: 2025
+year: 2020
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Baldwin, Timothy]]"
 authors: "Koto, Fajri; Rahimi, Afshin; Lau, Jey Han; Baldwin, Timothy"
@@ -52,7 +52,7 @@ DATA_URL: "https://indolem.github.io"
 tags: 
 abstract: "Although the Indonesian language is spoken by almost 200 million people and the 10th mostspoken language in the world,1 it is under-represented in NLP research. Previous work on Indonesian has been hampered by a lack of annotated datasets, a sparsity of language resources, and a lack of resource standardization. In this work, we release the INDOLEM dataset comprising seven tasks for the Indonesian language, spanning morpho-syntax, semantics, and discourse."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

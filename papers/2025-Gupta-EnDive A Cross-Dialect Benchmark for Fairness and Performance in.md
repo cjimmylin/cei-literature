@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "The diversity of human language, shaped by social, cultural, and regional influences, presents significant challenges for natural language processing (NLP) systems. Existing benchmarks often overlook intra-language variations, leaving speakers of non-standard dialects underserved. To address this gap, we introduce ENDIVE (English Diversity), a benchmark that evaluates five widely-used large language models (LLMs) across tasks in language understanding, algorithmic reasoning, mathematics, and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 0

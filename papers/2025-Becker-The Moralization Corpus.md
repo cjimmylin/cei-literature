@@ -52,7 +52,7 @@ abstract: "Moralizations – arguments that invoke moral values to justify deman
 LLM_assessed: "Claude-3 Haiku, Command R+, LLaMA, Mistral"
 DATA_URL: "https://anonymous.4open.science/r/Moralisierungsdetektion"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

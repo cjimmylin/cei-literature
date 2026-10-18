@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "Taking an interdisciplinary approach to surveying issues around gender bias in textual and visual AI, we present literature on gender bias detection and mitigation in NLP, CV, as well as combined visual-linguistic models. We identify conceptual parallels between these strands of research as well as how methodologies were adapted cross-disciplinary from NLP to CV. We also find that there is a growing awareness for theoretical frameworks from the social sciences around gender in NLP that could be beneficial for aligning bias analytics in CV with human values and conceptualising gender beyond the binary categories of male/female."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

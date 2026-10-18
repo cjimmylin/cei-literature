@@ -6,7 +6,7 @@ Not AI:
 key: SP9YXGKI
 type: document
 short_title: "What Makes it Ok to Set a Fire? Iterative"
-year: 2025
+year: 2023
 first_author: "[[Kavel Rao]]"
 last_author: "[[Choi, Yejin]]"
 authors: "Rao, Kavel; Jiang, Liwei; Pyatkin, Valentina; Gu, Yuling; Tandon, Niket; Dziri, Nouha; Brahman, Faeze; Choi, Yejin"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb"
 pdf_extract: "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

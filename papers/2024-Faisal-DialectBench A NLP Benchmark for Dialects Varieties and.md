@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0839
 type: preprint
 short_title: "DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages"
-year: 2025
+year: 2024
 first_author: "[[Fahim Faisal]]"
 last_author: "[[Yulia Tsvetkov]]"
 authors: "Fahim Faisal; Orevaoghene Ahia; Aarohi Srivastava; Kabir Ahuja; David Chiang; Yulia Tsvetkov"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/ffaisal93/DialectBench"
 tags: 
 abstract: "Language technologies should be judged on their usefulness in real-world use cases. An often overlooked aspect in natural language processing (NLP) research and evaluation is language variation in the form of non-standard dialects or language varieties (hereafter, varieties). Most NLP benchmarks are limited to standard language varieties. To fill this gap, we propose DIALECTBENCH, the first-ever largescale benchmark for NLP on varieties, which aggregates an extensive set of task-varied variety..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

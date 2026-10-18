@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0009
 type: conferencePaper
 short_title: "Not Relational Enough? Towards an Eco-Relational Approach in Robot Ethics"
-year: 2025
+year: 2024
 first_author: "[[Anna Puzio]]"
 last_author: "[[Anna Puzio]]"
 authors: "Anna Puzio"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes an eco-relational approach to robot ethics that draws on Shinto-inspired techno-animism, new animism, and deep ecology. Argues for recognizing the relationality with non-human entities like robots on a deeper level, disrupting traditional Western ethical concepts of autonomy, agency, and responsibility."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

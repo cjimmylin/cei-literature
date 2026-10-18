@@ -6,7 +6,7 @@ Not AI:
 key: CULT0142
 type: conferencePaper
 short_title: "MoralBench: A Multi-Faceted Benchmark for Ethical and Safety Alignment in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Madhava Gaikwad]]"
 last_author: "[[Madhava Gaikwad]]"
 authors: "Madhava Gaikwad"
@@ -49,7 +49,7 @@ DATA_URL: "https://github.com/krimler/moralbench"
 tags: 
 abstract: "Combines three datasets: 1K high-fidelity safety-alignment prompt set, 10K abstracted variation set for domain transfer, and 19,132-record rich metadata preference dataset with structured ethical annotations. Covers ethical reasoning, safety alignment, and socially sensitive dialogue generation."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

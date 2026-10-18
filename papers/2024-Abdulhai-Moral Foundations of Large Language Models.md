@@ -6,7 +6,7 @@ Not AI:
 key: KQ8UKTRN
 type: conferencePaper
 short_title: "Moral Foundations of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Marwa Abdulhai]]"
 last_author: "[[Natasha Jaques]]"
 authors: "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; John Canny; Natasha Jaques"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

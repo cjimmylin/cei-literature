@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0747
 type: conferencePaper
 short_title: "dblp: ArabicNLP 2024"
-year: 2025
+year: 2024
 first_author: "[[Anastasiia Demidova]]"
 last_author: "[[Sanad Sha]]"
 authors: "Anastasiia Demidova; Hanin Atwany; Nour Rabih; Sanad Sha"
@@ -48,10 +48,10 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I found relevant information about the \"
+abstract: "I found relevant information about the \"John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs\" paper."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: "Dialogue Systems"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Considering the importance of detecting hateful language, labeled hate speech data is expensive and time-consuming to collect, particularly for low-resource languages. Prior work has demonstrated the effectiveness of cross-lingual transfer learning and data augmentation in improving performance on tasks with limited labeled data. To develop an efficient and scalable crosslingual transfer learning approach, we leverage nearest-neighbor retrieval to augment minimal labeled data in the target..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

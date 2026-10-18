@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0178
 type: conferencePaper
 short_title: "GenMO (Gender-bias in Morality Opinions)"
-year: 2025
+year: 2024
 first_author: "[[Divij Bajaj]]"
 last_author: "[[Ruihong Huang]]"
 authors: "Divij Bajaj; Yuanyuan Lei; Jonathan Tong; Ruihong Huang"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) have shown remarkable capabilities in a 
 LLM_assessed: "GPT-3.5, GPT-4, Llama-3, Mistral, Claude-3 Sonnet, Claude-3 Opus"
 DATA_URL: "https://github.com/divij30bajaj/GenMO"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

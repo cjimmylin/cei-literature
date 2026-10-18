@@ -9,7 +9,7 @@ url: "http://journal.ijierm.co.in/index.php/ijierm/article/download/2855/2158/"
 abstract: "AI integration with traditional Indian knowledge systems"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

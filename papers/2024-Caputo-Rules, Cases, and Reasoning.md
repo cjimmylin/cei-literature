@@ -6,7 +6,7 @@ Not AI:
 key: KXJRIFLE
 type: conferencePaper
 short_title: "Rules, Cases, and Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Nicholas A. Caputo]]"
 last_author: "[[Nicholas A. Caputo]]"
 authors: "Nicholas A. Caputo"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

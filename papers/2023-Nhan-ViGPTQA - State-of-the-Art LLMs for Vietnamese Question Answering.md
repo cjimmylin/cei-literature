@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0373
 type: conferencePaper
 short_title: "ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations"
-year: 2025
+year: 2023
 first_author: "[[Le Trong Nhan]]"
 last_author: "[[Hien Nguyen]]"
 authors: "Le Trong Nhan; Tai Dang; Hien Nguyen"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/DopikAI-Labs/ViGPT"
 tags: 
 abstract: "Large language models (LLMs) and their applications in low-resource languages (such as in Vietnamese) are limited due to lack of training data and benchmarking datasets. This paper introduces a practical real-world implementation of a question answering system for Vietnamese, called ViGPTQA, leveraging the power of LLM. Since there is no effective LLM in Vietnamese to date, we also propose, evaluate, and open-source an instruction-tuned LLM for Vietnamese, named ViGPT."
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

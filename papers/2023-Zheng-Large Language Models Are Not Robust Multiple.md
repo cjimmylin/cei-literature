@@ -6,7 +6,7 @@ Not AI:
 key: Y6YWT6FH
 type: conferencePaper
 short_title: "Large Language Models Are Not Robust Multiple"
-year: 2025
+year: 2023
 first_author: "[[Chujie Zheng]]"
 last_author: "[[Minlie Huang]]"
 authors: "Chujie Zheng; Hao Zhou; Fandong Meng; Jie Zhou; Minlie Huang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Falcon, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://github.com/chujiezheng/LLM-MCQ-Bias"
 CONFERENCE: "ICLR 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

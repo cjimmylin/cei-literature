@@ -6,7 +6,7 @@ Not AI:
 key: CULT0021
 type: preprint
 short_title: "Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette"
-year: 2025
+year: 2024
 first_author: "[[Jiahao Yuan]]"
 last_author: "[[Usman Naseem]]"
 authors: "Jiahao Yuan; Zixiang Di; Shangzixin Zhao; Zhiqing Cui; Hanqing Wang; Guisong Yang; Usman Naseem"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) face challenges in aligning with diverse cultural values despite their remarkable performance in generation, which stems from inherent monocultural biases and difficulties in capturing nuanced cultural semantics. Existing methods struggle to adapt to unknown culture after fine-tuning. Inspired by cultural geography across five continents, we propose Cultural Palette, a multi-agent framework that redefines cultural alignment as an adaptive 'color-blending' process..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

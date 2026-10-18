@@ -2,13 +2,13 @@
 key: INNOVATION-P110
 type: preprint
 short_title: "AI Alignment From Social Choice Perspectives"
-year: 2025
+year: 2026
 first_author: "[[Daniel Halpern]]"
 authors: "Daniel Halpern; Evi Micha; Ariel D. Procaccia; Benjamin Schiffer; Itai Shapira; Shirley Zhang"
 url: "https://arxiv.org/abs/2606.21550"
 external_pdf: "https://arxiv.org/pdf/2606.21550.pdf"
 abstract: "Alignment from human feedback uses human judgments about model outputs to steer the behavior of language models after pretraining. When those judgments reflect conflicting views of desirable behavior, the learned objective becomes an aggregate determination of what the model should prefer. We survey recent work that has studied this aggregation problem through the lens of social choice theory. We illustrate how the social choice perspective helps identify failure modes in the feedback aggregation layer and reveals a broader design space for handling disagreement in explicit and principled ways."
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

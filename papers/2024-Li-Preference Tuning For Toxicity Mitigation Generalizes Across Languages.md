@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0443
 type: preprint
 short_title: "Preference Tuning For Toxicity Mitigation Generalizes Across Languages"
-year: 2025
+year: 2024
 first_author: "[[Xiaochen Li]]"
 last_author: "[[Stephen Bach]]"
 authors: "Xiaochen Li; Zheng Xin Yong; Stephen Bach"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/BatsResearch/cross-lingual-detox"
 tags: 
 abstract: "Detoxifying multilingual Large Language Models (LLMs) has become crucial due to their increasing global use. In this work, we explore zero-shot cross-lingual generalization of preference tuning in detoxifying LLMs. In contrast to prior work that suggests limited crosslingual generalization for other safety tasks, we show that Direct Preference Optimization (DPO) training with only English data can significantly reduce toxicity in multilingual openended generations."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -2,14 +2,14 @@
 key: CGSR0110
 type: journalArticle
 short_title: "International governance of advancing artificial intelligence"
-year: 2025
+year: 2024
 first_author: "[[Nicholas Emery-Xu]]"
 authors: "Nicholas Emery-Xu; Richard Jordan; Robert Trager"
 url: "https://link.springer.com/article/10.1007/s00146-024-02050-7"
 abstract: "International AI governance including Russia and BRICS"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0222
 type: conferencePaper
 short_title: "The Political Preferences of LLMs"
-year: 2025
+year: 2024
 first_author: "[[David Rozado]]"
 last_author: "[[David Rozado]]"
 authors: "David Rozado"
@@ -52,7 +52,7 @@ abstract: "I report here a comprehensive analysis about the political preference
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Gemini, Claude, Claude Instant, Grok, Llama-2, Mistral, Qwen"
 DATA_URL: "https://doi.org/10.5281/zenodo.10553530"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

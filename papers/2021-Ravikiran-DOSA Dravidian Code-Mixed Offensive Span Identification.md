@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0603
 type: preprint
 short_title: "DOSA Dravidian Code-Mixed Offensive Span Identification"
-year: 2025
+year: 2021
 first_author: "[[Ravikiran, Manikandan]]"
 last_author: [[Annamalai]]
 authors: "Ravikiran, Manikandan; Annamalai"
@@ -52,7 +52,7 @@ abstract: "This paper presents the Dravidian Offensive Span Identiﬁcation Data
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/manikandan-ravikiran/dosa"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

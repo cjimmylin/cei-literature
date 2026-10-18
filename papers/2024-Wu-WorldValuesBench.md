@@ -6,7 +6,7 @@ Not AI:
 key: JHYWDXIZ
 type: journalArticle
 short_title: WorldValuesBench
-year: 2025
+year: 2024
 first_author: "[[Wenlong Zhao]]"
 last_author: "[[Yuling Gu]]"
 authors: "Wenlong Zhao; Debanjan Mondal; Niket Tandon; Danica Dillion; Kurt Gray; Yuling Gu"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3.5, Mixtral, Vicuna"
 DATA_URL: "https://github.com/Demon702/WorldValuesBench"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

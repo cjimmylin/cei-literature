@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Amidst the rapid advances of large language models (LLMs), most LLMs still struggle with mixed-language inputs, limited Codeswitching (CSW) datasets, and evaluation biases, which hinder their deployment in multilingual societies. This survey provides the first comprehensive analysis of CSW-aware LLM research, reviewing 324 studies spanning five research areas, 15+ NLP tasks, 30+ datasets, and 80+ languages."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/c89208c00688fe70f99fbc7c4fdbb103a46c
 abstract: "Higher-education institutions are increasingly embracing digital transformation to meet the evolving expectations of students, academics, and administrators. The smart campus paradigm offers a strateg..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

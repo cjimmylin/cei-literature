@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0655
 type: conferencePaper
 short_title: "Wang, L. and Wang, X. (2020). How to evaluate literary"
-year: 2025
+year: 2020
 first_author: "[[Wushouer Silamu]]"
 last_author: "[[Wushouer Silamu]]"
 authors: "Wushouer Silamu"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "This study evaluated students’ translation quality through two different approaches to examine the effects of marking method on the assessment of literary translations in a pedagogical context. Two prose literary texts were translated by thirty-six MTI students, and then scored by nine experienced raters with error analysis and scale-based method, respectively. Scores of translations were analysed using G-studies, as conducted by the computer program GENOVA to compare the rater severity and..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

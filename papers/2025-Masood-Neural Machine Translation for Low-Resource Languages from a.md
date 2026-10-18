@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Resources for the non-English languages are scarce and this paper addresses this problem in the context of machine translation, by automatically extracting parallel sentence pairs from the multilingual articles available on the Internet. In this paper, we have used an endto-end Siamese bidirectional recurrent neural network to generate parallel sentences from comparable multilingual articles in Wikipedia."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0144
 type: conferencePaper
 short_title: "MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts"
-year: 2025
+year: 2024
 first_author: "[[Jun Seong Kim]]"
 last_author: "[[Alice Oh]]"
 authors: "Jun Seong Kim; Kyaw Ye Thu; Javad Ismayilzada; Junyeong Park; Eunsu Kim; Huzama Ahmad; Na Min An; James Thorne; Alice Oh"
@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 tags: 
 abstract: "Cross-cultural awareness benchmark studying elements from five countries and four ethnicities in cultural mixture contexts. MLLMs achieve higher accuracy for high-resource cultures but not for low-resource cultures."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: GHNYTYDF
 type: document
-year: 2025
+year: 2024
 short_title: "HELM Safety"
 first_author: "[[Farzaan Kaiyom]]"
 last_author: "[[Percy Liang]]"
@@ -52,7 +52,7 @@ LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command R+, Comma
 DATA_URL: "https://github.com/stanford-crfm/helm"
 CONFERENCE: Unknown
 helm: incorporated
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

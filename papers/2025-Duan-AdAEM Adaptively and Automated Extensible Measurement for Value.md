@@ -52,7 +52,7 @@ abstract: "Assessing Large Language Models (LLMs)’ underlying value difference
 LLM_assessed: "Claude, DeepSeek, GLM, GPT-4, Gemini, Llama-3, Mistral, Qwen-2, o3-mini"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

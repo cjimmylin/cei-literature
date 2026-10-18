@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

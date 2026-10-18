@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0279
 type: conferencePaper
 short_title: "OffendES: A New Corpus in Spanish for Offensive Language Research"
-year: 2025
+year: 2021
 first_author: "[[Flor Miriam Plaza-del-Arco]]"
 last_author: "[[Flor Miriam Plaza-del-Arco]]"
 authors: "Flor Miriam Plaza-del-Arco"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/fmplaza/offendes"
 tags: 
 abstract: "Offensive language detection and analysis has become a major area of research in Natural Language Processing. The freedom of participation in social media has exposed online users to posts designed to denigrate, insult or hurt them according to gender, race, religion, ideology, or other personal characteristics. Focusing on young inﬂuencers from the wellknown social platforms of Twitter, Instagram, and YouTube, we have collected a corpus composed of 47,128 Spanish comments manually labeled on..."
 CONFERENCE: "ACL 2021"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: I7PURAA6
 type: conferencePaper
 short_title: "Foundational Moral Values for AI Alignment"
-year: 2025
+year: 2023
 first_author: "[[Betty Li Hou]]"
 last_author: "[[Brian Patrick Green]]"
 authors: "Betty Li Hou; Brian Patrick Green"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 30
 deontological_ethics: 0
 utilitarian_ethics: 0

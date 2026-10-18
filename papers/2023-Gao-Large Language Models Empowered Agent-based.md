@@ -6,7 +6,7 @@ Not AI:
 key: KVSSXTZD
 type: conferencePaper
 short_title: "Large Language Models Empowered Agent-based"
-year: 2025
+year: 2023
 first_author: "[[Chen Gao]]"
 last_author: "[[Yong Li]]"
 authors: "Chen Gao; Xiaochong Lan; Nian Li; Yuan Yuan; Jingtao Ding; Zhilun Zhou; Fengli Xu; Yong Li"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

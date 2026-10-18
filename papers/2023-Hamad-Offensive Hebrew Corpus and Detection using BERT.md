@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0016
 type: preprint
 short_title: "Offensive Hebrew Corpus and Detection using BERT"
-year: 2025
+year: 2023
 first_author: "[[Nagham Hamad]]"
 last_author: "[[Nadim Nashif]]"
 authors: "Nagham Hamad; Mustafa Jarrar; Mohammed Khalilia; Nadim Nashif"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/SinaLab/OffensiveHebrew"
 tags: 
 abstract: "Offensive language detection has been well studied in many languages, but it is lagging behind in low-resource languages, such as Hebrew. In this paper, we present a new offensive language corpus in Hebrew. A total of 15,881 tweets were retrieved from Twitter. Each was labeled with one or more of five classes (abusive, hate, violence, pornographic, or none offensive) by Arabic-Hebrew bilingual speakers."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

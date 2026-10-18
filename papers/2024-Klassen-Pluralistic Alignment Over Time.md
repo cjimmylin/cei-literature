@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0209
 type: conferencePaper
 short_title: "Pluralistic Alignment Over Time"
-year: 2025
+year: 2024
 first_author: "[[Toryn Q. Klassen]]"
 last_author: "[[Sheila A. McIlraith]]"
 authors: "Toryn Q. Klassen; Parand A. Alamdari; Sheila A. McIlraith"
@@ -51,7 +51,7 @@ abstract: "If an AI system makes decisions over time, how should we evaluate how
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

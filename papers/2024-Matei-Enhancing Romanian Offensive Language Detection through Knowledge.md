@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0523
 type: preprint
 short_title: "Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation"
-year: 2025
+year: 2024
 first_author: "[[Vlad-Cristian Matei]]"
 last_author: "[[Dumitru-Clementin Cercel]]"
 authors: "Vlad-Cristian Matei; Iulian-Marius Tăiatu; Răzvan-Alexandru Smădu; Dumitru-Clementin Cercel"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/readerbench/ro-offense"
 tags: 
 abstract: "This paper highlights the significance of natural language processing (NLP) within artificial intelligence, underscoring its pivotal role in comprehending and modeling human language. Recent advancements in NLP, particularly in conversational bots, have garnered substantial attention and adoption among developers. This paper explores advanced methodologies for attaining smaller and more efficient NLP models."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

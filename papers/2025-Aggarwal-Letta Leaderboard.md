@@ -50,7 +50,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://jinjh0123.github.io/BBG"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. Measuring social bias in large language models (LLMs) is crucial, but existing bias evaluation methods struggle to assess bias in longform generation. We propose a Bias Benchmark for Generation (BBG), an adaptation of the Bias Benchmark for QA (BBQ), designed to evaluate social bias in long-form generation by having LLMs generate continuations of story prompts."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

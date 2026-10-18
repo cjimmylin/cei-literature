@@ -3,14 +3,14 @@ key: EXSR0698
 short_title: VISPA
 title: "VISPA: Pluralistic Alignment via Automatic Value Selection and Activation"
 authors: "Shenyan Zheng; Jiayou Zhong; Anudeex Shetty; Heng Ji; Preslav Nakov; Usman Naseem"
-year: 2025
+year: 2026
 arxiv_id: 2601.12758
 abstract: "Introduces a framework enabling language models to reflect diverse human perspectives rather than averaging preferences. VISPA works without requiring training and allows direct control over value expression by dynamic selection and internal model activation steering. Testing across healthcare and other domains demonstrates effectiveness in pluralistic alignment scenarios."
 is_benchmark: No
 is_eval: Yes
 is_dataset: No
 DATA_URL: 
-ethics_overall: No
+ethics_overall: 0
 source: external_search_benchmark_analysis
 date_added: 2026-04-04
 LLM_assessed: No

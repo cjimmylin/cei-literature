@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/MaoriEnglish-Codeswitch/MaoriEnglish-CodeSwitch-De
 tags: 
 abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
 CONFERENCE: "NAACL 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: SVUTVMXC
 type: conferencePaper
 short_title: "Examining the Role of Relationship Alignment in"
-year: 2025
+year: 2024
 first_author: "[[Kristen M. Altenburger]]"
 last_author: "[[Jane Dwivedi-Yu]]"
 authors: "Kristen M. Altenburger; Hongda Jiang; Robert E. Kraut; Yi-Chia Wang; Jane Dwivedi-Yu"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Llama-3
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0433
 type: preprint
 short_title: "M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies"
-year: 2025
+year: 2024
 first_author: "[[Felix Friedrich]]"
 last_author: "[[Kristian Kersting]]"
 authors: "Felix Friedrich; Simone Teber; Patrick Schramowski; Manuel Brack; Kristian Kersting"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/felfri/M-ALERT"
 tags: 
 abstract: "Building safe Large Language Models (LLMs) across multiple languages is essential in ensuring both safe access and linguistic diversity. To this end, we conduct a large-scale, comprehensive safety evaluation of the current LLM landscape. For this purpose, we introduce M-ALERT, a multilingual benchmark that evaluates the safety of LLMs in five languages: English, French, German, Italian, and Spanish."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 70
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

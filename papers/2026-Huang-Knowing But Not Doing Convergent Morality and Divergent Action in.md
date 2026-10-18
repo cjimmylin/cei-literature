@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0007
 type: preprint
 short_title: "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)"
-year: 2025
+year: 2026
 first_author: "[[Huang, Jen-tse]]"
 last_author: "[[Dredze, Mark]]"
 authors: "Huang, Jen-tse; Qin, Jiantong; Qiu, Xueli; Levy, Sharon; Michelle R. Kaufman; Dredze, Mark"
@@ -52,7 +52,7 @@ abstract: "Value alignment is central to the development of safe and socially co
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Grok, Llama-3, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

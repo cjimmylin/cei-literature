@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0561
 type: conference_paper
 short_title: "MITRA-zh An Efficient Open Machine Translation"
-year: 2025
+year: 2023
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer]]"
 authors: "Sebastian Nehrdich; Marcus Bingenheimer; Justin Brody; Kurt Keutzer"
@@ -52,7 +52,7 @@ abstract: "Buddhist Classical Chinese is a challenging low-resource language tha
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

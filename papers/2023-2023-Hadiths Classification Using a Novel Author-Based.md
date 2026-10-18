@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0558
 type: preprint
 short_title: "Hadiths Classification Using a Novel Author-Based"
-year: 2025
+year: 2023
 first_author: "[[Multiple (MDPI Big Data]]"
 last_author: "[[Cognitive Computing 2023)]]"
 authors: "Multiple (MDPI Big Data; Cognitive Computing 2023)"
@@ -52,7 +52,7 @@ abstract: "Creates ABCD (Author-Based Classification Dataset) from classical Had
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

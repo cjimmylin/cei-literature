@@ -52,7 +52,7 @@ abstract: "Ensuring that large language models (LLMs) align with human values an
 LLM_assessed: GPT-4o
 DATA_URL: NA
 CONFERENCE: "AIES 2025"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

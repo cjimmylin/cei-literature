@@ -6,7 +6,7 @@ Not AI:
 key: J78A4GWD
 type: conferencePaper
 short_title: ToxiGen
-year: 2025
+year: 2022
 first_author: "[[Thomas Hartvigsen]]"
 last_author: "[[Ece Kamar]]"
 authors: "Thomas Hartvigsen; Saadia Gabriel; Hamid Palangi; Maarten Sap; Dipankar Ray; Ece Kamar"
@@ -54,7 +54,7 @@ LLM_assessed: "GPT-3, HateBERT, RoBERTa"
 DATA_URL: "https://github.com/microsoft/ToxiGen"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0550
 type: preprint
 short_title: "Antisemitism on Twitter A Dataset for"
-year: 2025
+year: 2023
 first_author: "[[ISCA (Institute for the Study of Contemporary Antisemitism]]"
 last_author: "[[Indiana University)]]"
 authors: "ISCA (Institute for the Study of Contemporary Antisemitism; Indiana University)"
@@ -53,7 +53,7 @@ abstract: "Large-scale dataset of 6,941 tweets covering conversations about Jews
 LLM_assessed: NA
 DATA_URL: "https://zenodo.org/records/7932888"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

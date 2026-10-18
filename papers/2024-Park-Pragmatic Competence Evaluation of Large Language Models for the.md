@@ -6,7 +6,7 @@ Not AI:
 key: CULT0025
 type: preprint
 short_title: "Pragmatic Competence Evaluation of Large Language Models for the Korean Language"
-year: 2025
+year: 2024
 first_author: "[[Dojun Park]]"
 last_author: "[[Sungeun Lee]]"
 authors: "Dojun Park; Jiwoo Lee; Hyeyun Jeong; Seohyun Park; Sungeun Lee"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/DojunPark/pragmatic_eval_korean"
 tags: 
 abstract: "Benchmarks play a significant role in the current evaluation of Large Language Models (LLMs), yet they often overlook the models’ abilities to capture the nuances of human language, primarily focusing on evaluating embedded knowledge and technical skills. To address this gap, our study evaluates how well LLMs understand context-dependent expressions from a pragmatic standpoint, specifically in Korean."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

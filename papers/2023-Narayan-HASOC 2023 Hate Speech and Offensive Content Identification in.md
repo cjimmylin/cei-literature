@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0186
 type: conferencePaper
 short_title: "HASOC 2023: Hate Speech and Offensive Content Identification in Assamese, Bengali, Bodo, Gujarati and Sinhala"
-year: 2025
+year: 2023
 first_author: "[[Narayan, Nikhil]]"
 last_author: "[[Panigrahi, Abhranta]]"
 authors: "Narayan, Nikhil; Biswal, Mrutyunjay; Goyal, Pramod; Panigrahi, Abhranta"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/The-Originalz/fire-hasoc-2023"
 tags: 
 abstract: "Social media platforms serve as accessible outlets for individuals to express their thoughts and experiences, resulting in an influx of user-generated data spanning all age groups. While these platforms enable free expression, they also present significant challenges, including the proliferation of hate speech and offensive content. Such objectionable language disrupts objective discourse and can lead to radicalization of debates, ultimately threatening democratic values."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

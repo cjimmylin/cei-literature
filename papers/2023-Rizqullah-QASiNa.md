@@ -6,7 +6,7 @@ Not AI:
 key: 6MRBJ9IP
 type: conferencePaper
 short_title: QASiNa
-year: 2025
+year: 2023
 first_author: "[[Muhammad Razif Rizqullah]]"
 last_author: "[[Alham Fikri Aji]]"
 authors: "Muhammad Razif Rizqullah; Ayu Purwarianti; Alham Fikri Aji"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/rizquuula/QASiNa"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0

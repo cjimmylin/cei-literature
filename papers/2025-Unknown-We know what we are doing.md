@@ -9,7 +9,7 @@ url: "https://www.tandfonline.com/doi/full/10.1080/00083968.2025.2456619"
 abstract: "AI policy development in Rwanda and Ghana, political dynamics"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0204
 type: preprint
 short_title: "Norm Inconsistency in LLM Decision-Making"
-year: 2025
+year: 2024
 first_author: "[[Shomik Jain]]"
 last_author: "[[Ashia Wilson]]"
 authors: "Shomik Jain; D Calacci; Ashia Wilson"
@@ -52,7 +52,7 @@ abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply
 LLM_assessed: "Claude-3-Sonnet, Gemini, GPT-4"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

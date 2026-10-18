@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0537
 type: preprint
 short_title: "Turkish Offensive Language Detection Dataset"
-year: 2025
+year: 2024
 first_author: [[Toygar]]
 last_author: [[Toygar]]
 authors: Toygar
@@ -57,7 +57,7 @@ abstract: "Turkish offensive language detection dataset available on HuggingFace
 LLM_assessed: BERT
 DATA_URL: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

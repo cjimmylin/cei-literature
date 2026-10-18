@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Artificial Intelligence Values and Alignment"
-year: 2025
+year: 2020
 first_author: "[[Iason Gabriel]]"
 last_author: "[[Iason Gabriel]]"
 authors: "Iason Gabriel"
@@ -53,7 +53,7 @@ research_topic: "AI Alignment & Normative Ethics"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 35

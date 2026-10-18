@@ -6,7 +6,7 @@ Not AI:
 key: 3FVZCJRK
 type: document
 short_title: EMoTES-3K
-year: 2025
+year: 2023
 first_author: "[[Jasper Kyle Catapang]]"
 last_author: "[[Visperas, Moses]]"
 authors: "Catapang, Jasper Kyle; Visperas, Moses"
@@ -52,7 +52,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Systematic critical synthesis analyzing 69 studies across five continents on digital technology projects for Indigenous sociocultural advancement. Identifies eight project types, three ideopolitical frames (cultural bridging, countering Euro-Western dominance, technical problem-solving), and tensions around outsider expert control over Indigenous data."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

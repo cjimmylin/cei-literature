@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0447
 type: preprint
 short_title: "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge"
-year: 2025
+year: 2024
 first_author: "[[Romanou, Angelika]]"
 last_author: "[[Bosselut, Antoine]]"
 authors: "Romanou, Angelika; Foroutan, Negar; Sotnikova, Anna; Chen, Zeming; Nelaturu, Sree Harsha; Singh, Shivalika; Maheshwary, Rishabh; Altomare, Micol; Mohamed A. Haggag; A, Snegha; Amayuelas, Alfonso; Amirudin, Azril Hafizi; Aryabumi, Viraat; Boiko, Danylo; Chang, Michael; Chim, Jenny; Cohen, Gal; Dalmia, Aditya Kumar; Diress, Abraham; Duwal, Sharad; Dzenhaliou, Daniil; Florez, Daniel Fernando Erazo; Farestam, Fabian; Imperial, Joseph Marvin; Islam, Shayekh Bin; Isotalo, Perttu; Jabbarishiviari, Maral; Börje F. Karlsson; Khalilov, Eldar; Klamm, Christopher; Koto, Fajri; Krzemiński, Dominik; Melo, Gabriel Adriano de; Montariol, Syrielle; Nan, Yiyang; Niklaus, Joel; Novikova, Jekaterina; Ceron, Johan Samir Obando; Paul, Debjit; Ploeger, Esther; Purbey, Jebish; Rajwal, Swati; Ravi, Selvan Sunitha; Rydell, Sara; Santhosh, Roshan; Sharma, Drishti; Skenduli, Marjana Prifti; Moakhar, Arshia Soltani; Moakhar, Bardia Soltani; Tamir, Ran; Tarun, Ayush Kumar; Wasi, Azmine Toushik; Weerasinghe, Thenuka Ovin; Yilmaz, Serhan; Zhang, Mike; Schlag, Imanol; Fadaee, Marzieh; Hooker, Sara; Bosselut, Antoine"
@@ -53,7 +53,7 @@ tags:
 abstract: "The performance differential of large language models (LLM) between languages hinders their effective deployment in many regions, inhibiting the potential economic and societal value of generative AI tools in many communities. However, the development of functional LLMs in many languages (i.e., multilingual LLMs) is bottlenecked by the lack of high-quality evaluation resources in languages other than English."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

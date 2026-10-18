@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) have shown strong performance across man
 LLM_assessed: "BLOOM, Falcon, GPT-2, GPT-3.5, GPT-4o, GPT-4o mini, Gemma-2, Llama-2, Llama-3, Qwen"
 DATA_URL: "https://github.com/mohammadi-hadi/cultural-moral-judgments-llms"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

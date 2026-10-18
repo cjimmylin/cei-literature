@@ -6,7 +6,7 @@ Not AI:
 key: YZ3ILWKS
 type: conferencePaper
 short_title: KorNAT
-year: 2025
+year: 2024
 first_author: "[[Jiyoung Lee]]"
 last_author: "[[Edward Choi]]"
 authors: "Jiyoung Lee; Minwoo Kim; Seungho Kim; Junghwan Kim; Seunghyun Won; Hwaran Lee; Edward Choi"
@@ -54,7 +54,7 @@ publication: "arXiv / ACL Anthology"
 CONF-CC: N/A
 DATE_ADDED: 20260215
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

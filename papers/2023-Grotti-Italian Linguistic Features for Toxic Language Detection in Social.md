@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0513
 type: journalArticle
 short_title: "Italian Linguistic Features for Toxic Language Detection in Social Media"
-year: 2025
+year: 2023
 first_author: "[[Leonardo Grotti]]"
 last_author: "[[Leonardo Grotti]]"
 authors: "Leonardo Grotti"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

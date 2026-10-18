@@ -6,7 +6,7 @@ Not AI:
 key: 5NT4RAZP
 type: conferencePaper
 short_title: "Fine-Tuning Language Models for Ethical Ambiguity"
-year: 2025
+year: 2024
 first_author: "[[Pranav Senthilkumar]]"
 last_author: "[[Kevin Zhu]]"
 authors: "Pranav Senthilkumar; Visshwa Balasubramanian; Prisha Jain; Aneesa Maity; Jonathan Lu; Kevin Zhu"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

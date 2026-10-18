@@ -57,7 +57,7 @@ abstract: "Mixed-methods study finding Muslim users overwhelmingly preferred AI-
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "FAccT 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

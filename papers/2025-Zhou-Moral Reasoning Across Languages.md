@@ -55,7 +55,7 @@ LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
 DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 15
 deontological_ethics: 50
 utilitarian_ethics: 50

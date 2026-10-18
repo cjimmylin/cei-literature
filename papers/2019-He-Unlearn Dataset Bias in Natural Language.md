@@ -6,7 +6,7 @@ Not AI:
 key: 6EJBF544
 type: document
 short_title: "Unlearn Dataset Bias in Natural Language"
-year: 2025
+year: 2019
 first_author: "[[He He]]"
 last_author: "[[Wang, Haohan]]"
 authors: "He, He; Zha, Sheng; Wang, Haohan"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

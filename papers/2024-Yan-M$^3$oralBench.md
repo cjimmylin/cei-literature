@@ -6,7 +6,7 @@ Not AI:
 key: 2M4DFURK
 type: preprint
 short_title: M$^3$oralBench
-year: 2025
+year: 2024
 first_author: "[[Bei Yan]]"
 last_author: "[[Xilin Chen]]"
 authors: "Bei Yan; Jie Zhang; Zhiyuan Chen; Shiguang Shan; Xilin Chen"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemini, InternLM, Llama-2, Phi-3, Qwen, Yi"
 DATA_URL: "https://github.com/BeiiiY/M3oralBench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "The proliferation of hate speech on social media is one of the serious issues that is bringing huge impacts to society: an escalation of violence, discrimination, and social fragmentation. The problem of detecting hate speech is intrinsically multifaceted due to cultural, linguistic, and contextual complexities and adversarial manipulations. In this study, we systematically investigate the performance of LLMs on detecting hate speech across multilingual datasets and diverse geographic contexts."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

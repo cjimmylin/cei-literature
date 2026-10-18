@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0487
 type: journal_article
 short_title: "HateThaiSent Sentiment-Aided Hate Speech Detection in"
-year: 2025
+year: 2024
 first_author: "[[Maity, Krishanu]]"
 last_author: "[[Kitsuchart Pasupa]]"
 authors: "Krishanu Maity; A. S. Poornash; Shaubhik Bhattacharya; Salisa Phosit; Sawarod Kongsamlit; Sriparna Saha; Kitsuchart Pasupa"
@@ -52,7 +52,7 @@ abstract: "Benchmark dataset labeling each post with both hate speech and sentim
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

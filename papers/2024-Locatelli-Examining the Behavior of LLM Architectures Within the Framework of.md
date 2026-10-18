@@ -6,7 +6,7 @@ Not AI:
 key: CULT0107
 type: preprint
 short_title: "Examining the Behavior of LLM Architectures Within the Framework of Standardized National Exams in Brazil"
-year: 2025
+year: 2024
 first_author: "[[Marcelo Sartori Locatelli]]"
 last_author: "[[Virgilio Almeida]]"
 authors: "Marcelo Sartori Locatelli; Matheus Prado Miranda; Igor Joaquim da Silva Costa; Matheus Torres Prates; Victor Thomé; Mateus Zaparoli Monteiro; Tomas Lacerda; Adriana Pagano; Eduardo Rios Neto; Wagner Meira Jr.; Virgilio Almeida"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "The Exame Nacional do Ensino M´edio (ENEM) is a pivotal test for Brazilian students, required for admission to a significant number of universities in Brazil. The test consists of four objective high-school level tests on Math, Humanities, Natural Sciences and Languages, and one writing essay. Students’ answers to the test and to the accompanying socioeconomic status questionnaire are made public every year (albeit anonymized) due to transparency policies from the Brazilian Government."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

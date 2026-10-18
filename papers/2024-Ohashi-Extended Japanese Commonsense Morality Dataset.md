@@ -6,7 +6,7 @@ Not AI:
 key: X63BUELL
 type: conferencePaper
 short_title: "Extended Japanese Commonsense Morality Dataset"
-year: 2025
+year: 2024
 first_author: "[[Takumi Ohashi]]"
 last_author: "[[Hitoshi Iyatomi]]"
 authors: "Takumi Ohashi; Tsubasa Nakagawa; Hitoshi Iyatomi"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/IyatomiLab/extended-jcm"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

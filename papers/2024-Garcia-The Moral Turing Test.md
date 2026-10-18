@@ -6,7 +6,7 @@ Not AI:
 key: BT2NK8RP
 type: conferencePaper
 short_title: "The Moral Turing Test"
-year: 2025
+year: 2024
 first_author: "[[Basile Garcia]]"
 last_author: "[[Stefano Palminteri]]"
 authors: "Basile Garcia; Crystal Qian; Stefano Palminteri"
@@ -56,7 +56,7 @@ LLM_assessed: GPT-3.5
 DATA_URL: NA
 normative_ethics_benchmark: Yes
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 80

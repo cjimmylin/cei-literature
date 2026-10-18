@@ -6,7 +6,7 @@ Not AI:
 key: JKQ75SNA
 type: document
 short_title: REDDITBIAS
-year: 2025
+year: 2021
 first_author: "[[Soumya Barikeri]]"
 last_author: "[[Glavaš, Goran]]"
 authors: "Barikeri, Soumya; Lauscher, Anne; Vulić, Ivan; Glavaš, Goran"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "https://github.com/umanlp/RedditBias"
 CONFERENCE: "ACL 2021"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0082
 type: conferencePaper
 short_title: "Kazakh Dastur-MC: Multiple Choice Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Beksultan Sagyndyk]]"
 last_author: "[[Kirill Yakunin]]"
 authors: "Beksultan Sagyndyk; Sanzhar Murzakhmetov; Sanzhar Umbet; Kirill Yakunin"
@@ -49,7 +49,7 @@ DATA_URL: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 tags: 
 abstract: "Multiple-choice benchmark dataset evaluating knowledge of Kazakh traditions ('dastur'). Contains 1,005 questions testing cultural and traditional knowledge. Available on HuggingFace under Apache 2.0 license. Directly evaluates knowledge of Kazakh cultural traditions. Part of a broader effort by kz-transformers community to build culturally grounded Kazakh NLP benchmarks."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

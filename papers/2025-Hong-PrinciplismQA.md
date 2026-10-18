@@ -5,7 +5,7 @@ authors: "Chang Hong, Minghao Wu, Qingying Xiao, Yuchi Wang, Xiang Wan, Guangjun
 abstract: "We introduce PrinciplismQA, a comprehensive benchmark for evaluating LLMs on medical ethics grounded in the Beauchamp-Childress four principles of biomedical ethics: autonomy, beneficence, non-maleficence, and justice. The benchmark contains 3,648 questions (2,182 multiple-choice and 1,466 open-ended) sourced from 350 medical ethics textbooks and JAMA Ethics cases. We evaluate 20+ LLMs and find significant performance gaps, with models struggling most on beneficence-related reasoning."
 doi: 
 arxiv_id: 2508.05132
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 15
 deontological_ethics: 75
 utilitarian_ethics: 55

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0493
 type: conferencePaper
 short_title: "Harmful Communication: Detection of Toxic Language and Threats on Swedish"
-year: 2025
+year: 2023
 first_author: "[[Various (Uppsala University)]]"
 last_author: "[[Various (Uppsala University)]]"
 authors: "Various (Uppsala University)"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Uses transfer learning and BERT to train models for toxic language (F1>0.94) and threats (F1=0.86) in Swedish. Models' performance decreases significantly on unseen social media data. Finds 20% of social media threats are not toxic."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

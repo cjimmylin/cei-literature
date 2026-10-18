@@ -2,14 +2,14 @@
 key: CGSR0005
 type: document
 short_title: "The Case for Decolonial Artificial Intelligence Development in Africa"
-year: 2025
+year: 2026
 first_author: "[[Kavengi Kitonga]]"
 authors: "Kavengi Kitonga"
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6048234"
 abstract: "Pathway to African agency in AI through decoloniality framework"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

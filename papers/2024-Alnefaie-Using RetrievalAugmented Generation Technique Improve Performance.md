@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0626
 type: conferencePaper
 short_title: "Using the Retrieval-Augmented Generation Technique to Improve the Performance of GPT-4 in Answering Quran Questions"
-year: 2025
+year: 2024
 first_author: "[[Sarah Alnefaie]]"
 last_author: "[[M. Alsalka]]"
 authors: "Sarah Alnefaie; Eric Atwell; M. Alsalka"
@@ -52,7 +52,7 @@ abstract: "One of the challenges in natural text processing concerns answering q
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

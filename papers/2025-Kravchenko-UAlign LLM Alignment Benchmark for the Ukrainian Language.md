@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/Stereotypes-in-LLMs/UAlign"
 tags: 
 abstract: "This paper introduces UAlign, the comprehensive benchmark for evaluating the alignment of Large Language Models (LLMs) in the Ukrainian language. The benchmark consists of two complementary components: a moral judgment dataset with 3,682 scenarios of varying ethical complexities and a dataset with 1,700 ethical situations presenting clear normative distinctions. Each element provides parallel English-Ukrainian text pairs, enabling crosslingual comparison."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

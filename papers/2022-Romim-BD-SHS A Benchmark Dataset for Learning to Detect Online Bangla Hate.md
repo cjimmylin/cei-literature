@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0176
 type: conferencePaper
 short_title: "BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts"
-year: 2025
+year: 2022
 first_author: "[[Romim, Nauros]]"
 last_author: "[[Amin, Mohammad Ruhul]]"
 authors: "Romim, Nauros; Ahmed, Mosahed; Islam, Md. Saiful; Sharma, Arnab Sen; Talukder, Hriteshwar; Amin, Mohammad Ruhul"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/naurosromim/hate-speech-dataset-for-Bengali-social
 tags: 
 abstract: "Social media platforms and online streaming services have spawned a new breed of Hate Speech (HS). Due to the massive amount of user-generated content on these sites, modern machine learning techniques are found to be feasible and cost-effective to tackle this problem. However, linguistically diverse datasets covering different social contexts in which offensive language is typically used are required to train generalizable models."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

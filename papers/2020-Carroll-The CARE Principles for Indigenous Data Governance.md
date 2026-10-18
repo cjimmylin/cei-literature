@@ -6,7 +6,7 @@ Not AI:
 key: CULT0120
 type: journalArticle
 short_title: "The CARE Principles for Indigenous Data Governance"
-year: 2025
+year: 2020
 first_author: "[[Stephanie Russo Carroll]]"
 last_author: "[[Maui Hudson]]"
 authors: "Stephanie Russo Carroll; Ibrahim Garba; Oscar L. Figueroa-Rodriguez; Jarita Holbrook; Raymond Lovett; Simeon Materechera; Mark Parsons; Kay Raseroka; Desi Rodriguez-Lonebear; Robyn Rowe; Rodrigo Sara; Jennifer D. Walker; Jane Anderson; Maui Hudson"
@@ -52,7 +52,7 @@ tags:
 abstract: "Develops the CARE Principles for Indigenous Data Governance: Collective Benefit, Authority to Control, Responsibility, and Ethics. People and purpose-oriented principles reflecting the crucial role of data in advancing Indigenous innovation and self-determination. Complement FAIR principles by centering people and purpose. Developed at 2018 International Data Week workshop on Indigenous data sovereignty."
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

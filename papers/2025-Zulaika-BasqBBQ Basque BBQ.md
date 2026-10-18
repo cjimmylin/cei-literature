@@ -52,7 +52,7 @@ research_topic: Other
 LLM_assessed: "BERT, RoBERTa, ALBERT"
 DATA_URL: NA
 CONFERENCE: "COLING 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

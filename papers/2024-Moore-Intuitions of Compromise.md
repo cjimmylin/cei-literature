@@ -6,7 +6,7 @@ Not AI:
 key: EEHC7NZN
 type: conferencePaper
 short_title: "Intuitions of Compromise"
-year: 2025
+year: 2024
 first_author: "[[Jared Moore]]"
 last_author: "[[Sydney Levine]]"
 authors: "Jared Moore; Yejin Choi; Sydney Levine"
@@ -55,7 +55,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Claude-3 Opus, text-davinci-002"
 DATA_URL: "https://github.com/jlcmoore/valueaggregation"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 100

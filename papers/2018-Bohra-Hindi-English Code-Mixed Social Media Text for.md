@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0619
 type: conference_paper
 short_title: "Hindi-English Code-Mixed Social Media Text for"
-year: 2025
+year: 2018
 first_author: "[[Bohra, Aditya]]"
 last_author: "[[Shrivastava, Manish]]"
 authors: "Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sarfaraz; Shrivastava, Manish"
@@ -52,7 +52,7 @@ abstract: "Hate speech detection in social media texts is an important Natural l
 LLM_assessed: NA
 DATA_URL: "https://github.com/deepanshu1995/HateSpeech-Hindi-English-Code-Mixed-Social-Media-Text"
 CONFERENCE: "ACL 2018"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

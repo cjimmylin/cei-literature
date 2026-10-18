@@ -9,7 +9,7 @@ url: "https://www.brookings.edu/articles/regional-cooperation-crucial-for-ai-saf
 abstract: "Regional cooperation needs for AI governance in Latin America"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

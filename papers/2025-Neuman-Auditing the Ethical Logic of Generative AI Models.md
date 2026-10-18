@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, LLaMA, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

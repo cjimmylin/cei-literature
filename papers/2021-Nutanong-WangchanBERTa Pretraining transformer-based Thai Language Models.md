@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0613
 type: preprint
 short_title: "WangchanBERTa Pretraining transformer-based Thai Language Models"
-year: 2025
+year: 2021
 first_author: "[[Lalita Lowphansirikul]]"
 last_author: "[[Sarana Nutanong]]"
 authors: "Lalita Lowphansirikul; Charin Polpanumas; Nawat Jantrakulchai; Sarana Nutanong"
@@ -53,7 +53,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0630
 type: preprint
 short_title: "Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English"
-year: 2025
+year: 2024
 first_author: "[[Kathunia, Aekansh]]"
 last_author: "[[Narotam, N]]"
 authors: "Kathunia, Aekansh; Kaif, Mohammad; Arora, Nalin; Narotam, N"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/hungnm/multilingual-amazon-review-sen
 tags: 
 abstract: "People communicate in more than 7,000 languages around the world, with around 780 languages spoken in India alone. Despite this linguistic diversity, research on Sentiment Analysis has predominantly focused on English text data, resulting in a disproportionate availability of sentiment resources for English. This paper examines the performance of transformer models in Sentiment Analysis tasks across multilingual datasets and text that has undergone machine translation."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

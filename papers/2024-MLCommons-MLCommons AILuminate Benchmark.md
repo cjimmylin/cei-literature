@@ -6,7 +6,7 @@ Not AI:
 key: 2HHK5J6K
 type: document
 short_title: "MLCommons AILuminate Benchmark"
-year: 2025
+year: 2024
 first_author: [[MLCommons]]
 last_author: [[MLCommons]]
 authors: MLCommons
@@ -50,7 +50,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

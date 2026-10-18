@@ -6,7 +6,7 @@ Not AI:
 key: 6CBMZKT2
 type: journalArticle
 short_title: CBBQ
-year: 2025
+year: 2024
 first_author: "[[Yufei Huang]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "Huang, Yufei; Xiong, Deyi"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/YFHuangxxxx/CBBQ/"
 pdf_extract: "PDF Extracts/2024/2024-Huang-CBBQ.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-CBBQ.pdf]]
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

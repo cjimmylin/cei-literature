@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0545
 type: conferencePaper
 short_title: "Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian"
-year: 2025
+year: 2024
 first_author: "[[Admirim Aliti]]"
 last_author: "[[Admirim Aliti]]"
 authors: "Admirim Aliti"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI’s GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

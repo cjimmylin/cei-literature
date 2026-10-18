@@ -51,7 +51,7 @@ abstract: "The behavior of Large Language Models (LLMs) as artificial social age
 LLM_assessed: "GPT-3.5, Llama-2, Llama-3"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

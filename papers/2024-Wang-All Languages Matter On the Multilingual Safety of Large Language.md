@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0327
 type: preprint
 short_title: "All Languages Matter: On the Multilingual Safety of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Wang, Wenxuan]]"
 last_author: "[[Lyu, Michael]]"
 authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-tse; Jiao, Wenxiang; Lyu, Michael"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 tags: 
 abstract: "Ensuring safety is fundamental when developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g., the majority language in the pretraining data, such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSAFETY, in response to the global deployment of LLMs in practice. XSAFETY covers 14 commonly used safety issues across ten languages spanning several language families."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

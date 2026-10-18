@@ -50,7 +50,7 @@ DATA_URL: "https://huggingface.co/collections/Holmeister/turkish-llm-multi-promp
 tags: 
 abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets. Covers fairness, truthfulness, ethics, and NLP proficiency dimensions. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness. Directly evaluates ethics, fairness, and trustworthiness of LLMs in Turkish. Multi-faceted evaluation including prompt robustness and comparison of fine-tuned vs chat models."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

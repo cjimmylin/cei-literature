@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0008
 type: conferencePaper
 short_title: "Harmonizing Artificial Intelligence for Social Good"
-year: 2025
+year: 2020
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Shoko Suzuki]]"
 authors: "Nicolas Berberich; Toyoaki Nishida; Shoko Suzuki"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes harmony as an additional core principle for AI ethics, drawing on its centrality in East Asian cultures. Discusses the Japanese concept of Wa — derived from Confucian harmony but shaped distinctly by contact with Shinto — and the concept of Takt as means to build harmonizing AI systems for social good."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

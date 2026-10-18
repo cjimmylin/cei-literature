@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0472
 type: preprint
 short_title: "CultureLLM Incorporating Cultural Differences into Large"
-year: 2025
+year: 2024
 first_author: "[[Cheng Li]]"
 last_author: "[[Xing Xie]]"
 authors: "Cheng Li; Mengzhou Chen; Jindong Wang; Sunayana Sitaram; Xing Xie"
@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) have been observed to exhibit bias towar
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2"
 DATA_URL: "https://github.com/Scarelette/CultureLLM"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

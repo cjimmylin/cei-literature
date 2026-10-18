@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0100
 type: preprint
 short_title: "COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances"
-year: 2025
+year: 2024
 first_author: "[[Wibowo, Haryo Akbarianto]]"
 last_author: "[[Aji, Alham Fikri]]"
 authors: "Wibowo, Haryo Akbarianto; Fuadi, Erland Hilman; Nityasya, Made Nindyatama; Prasojo, Radityo Eko; Aji, Alham Fikri"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/haryoaw/COPAL"
 tags: 
 abstract: "We present COPAL-ID, a novel, public Indonesian language common sense reasoning dataset. Unlike the previous Indonesian COPA dataset (XCOPA-ID), COPAL-ID incorporates Indonesian local and cultural nuances, and therefore, provides a more natural portrayal of day-to-day causal reasoning within the Indonesian cultural sphere. Professionally written by natives from scratch, COPAL-ID is more fluent and free from awkward phrases, unlike the translated XCOPA-ID."
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0459
 type: conference_paper
 short_title: "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented"
-year: 2025
+year: 2024
 first_author: "[[Mandikal, Priyanka]]"
 last_author: "[[Priyanka Mandikal]]"
 authors: "Priyanka Mandikal"
@@ -52,7 +52,7 @@ abstract: "LLMs have revolutionized the landscape of information retrieval and k
 LLM_assessed: "GPT-4, Mixtral"
 DATA_URL: "https://github.com/priyankamandikal/vedantany-10m"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

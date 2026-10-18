@@ -52,7 +52,7 @@ tags:
 abstract: "Arabic Large Language Models are usually evaluated using Western-centric benchmarks that overlook essential cultural contexts, making them less effective and culturally misaligned for Arabic-speaking communities. This study addresses this gap by evaluating the Arabic Massive Multitask Language Understanding (MMLU) Benchmark to assess its cultural alignment and relevance for Arabic Large Language Models (LLMs) across culturally sensitive topics."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

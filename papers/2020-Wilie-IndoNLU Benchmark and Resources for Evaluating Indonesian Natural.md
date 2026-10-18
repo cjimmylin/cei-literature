@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0117
 type: preprint
 short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding"
-year: 2025
+year: 2020
 first_author: "[[Wilie, Bryan]]"
 last_author: "[[Purwarianti, Ayu]]"
 authors: "Wilie, Bryan; Vincentio, Karissa; Winata, Genta Indra; Cahyawijaya, Samuel; Li, Xiaohong; Lim, Zhi Yuan; Soleman, Sidik; Mahendra, Rahmad; Fung, Pascale; Bahar, Syafri; Purwarianti, Ayu"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/indobenchmark/indonlu"
 tags: 
 abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

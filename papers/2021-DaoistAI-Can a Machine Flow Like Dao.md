@@ -2,7 +2,7 @@
 key: EXSR0706
 type: incollection
 short_title: "Can a Machine Flow Like Dao? The Daoist Philosophy on Artificial Intelligence"
-year: 2025
+year: 2021
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_5"
@@ -10,7 +10,7 @@ publication_title: "Asian Philosophies and the Idea of Religion"
 abstract: "Daoist philosophical analysis of AI. Wu-wei (non-action) applied to technology design. Considers AI and robotics as potential companions in Confucian/Daoist cosmology."
 external_pdf: 
 DOI: 10.1007/978-981-16-2309-7_5
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

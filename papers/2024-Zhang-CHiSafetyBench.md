@@ -6,7 +6,7 @@ Not AI:
 key: 3HXQHTYW
 type: journalArticle
 short_title: CHiSafetyBench
-year: 2025
+year: 2024
 first_author: "[[Wenjing Zhang]]"
 last_author: "[[Shiguo Lian]]"
 authors: "Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Meijuan An; Bikun Yang; KaiKai Zhao; Kai Wang; Shiguo Lian"
@@ -54,7 +54,7 @@ publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

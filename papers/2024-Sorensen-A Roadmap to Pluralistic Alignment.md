@@ -6,7 +6,7 @@ Not AI:
 key: VAFEEJIY
 type: conferencePaper
 short_title: "A Roadmap to Pluralistic Alignment"
-year: 2025
+year: 2024
 first_author: "[[Taylor Sorensen]]"
 last_author: "[[Yejin Choi]]"
 authors: "Taylor Sorensen; Jared Moore; Jillian Fisher; Mitchell Gordon; Niloofar Mireshghallah; Christopher Michael Rytting; Andre Ye; Liwei Jiang; Ximing Lu; Nouha Dziri; Tim Althoff; Yejin Choi"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3, Gemma, LLaMA, Llama-2"
 DATA_URL: "https://github.com/jfisher52/AI_Pluralistic_Alignment"
 CONFERENCE: "ICML 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

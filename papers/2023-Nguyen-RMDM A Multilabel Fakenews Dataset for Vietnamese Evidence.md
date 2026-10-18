@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0382
 type: preprint
 short_title: "RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification"
-year: 2025
+year: 2023
 first_author: "[[Nguyen, Hai-Long]]"
 last_author: "[[Nguyen, Ha-Thanh]]"
 authors: "Nguyen, Hai-Long; Pham, Thi-Kieu-Trang; Le, Thai-Son; Nguyen, Tan-Minh; Vuong, Thi-Hai-Yen; Nguyen, Ha-Thanh"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "In this study, we present a novel and challenging multilabel Vietnamese dataset (RMDM) designed to assess the performance of large language models (LLMs), in verifying electronic information related to legal contexts, focusing on fake news as potential input for electronic evidence. The RMDM dataset comprises four labels: real, mis, dis, and mal, representing real information, misinformation, disinformation, and mal-information, respectively."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

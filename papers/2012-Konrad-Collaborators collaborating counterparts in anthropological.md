@@ -2,14 +2,14 @@
 key: CGSR0193
 type: document
 short_title: "Collaborators collaborating : counterparts in anthropological knowledge and international research relations"
-year: 2025
+year: 2012
 first_author: "[[M. Konrad]]"
 authors: "M. Konrad"
 url: "https://www.semanticscholar.org/paper/877aec14abb5291398290daca90adec8200b2a0a"
 abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

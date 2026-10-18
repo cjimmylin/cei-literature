@@ -6,7 +6,7 @@ Not AI:
 key: AF4IU9RA
 type: document
 short_title: ConvAbuse
-year: 2025
+year: 2021
 first_author: "[[Amanda Cercas Curry]]"
 last_author: "[[Rieser, Verena]]"
 authors: "Cercas Curry, Amanda; Abercrombie, Gavin; Rieser, Verena"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/amandacurry/convabuse"
 CONFERENCE: "EMNLP 2021"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0

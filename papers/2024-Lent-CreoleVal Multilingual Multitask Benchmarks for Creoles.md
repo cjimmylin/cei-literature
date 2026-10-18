@@ -6,7 +6,7 @@ Not AI:
 key: CULT0162
 type: journalArticle
 short_title: "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
-year: 2025
+year: 2024
 first_author: "[[Heather Lent]]"
 last_author: "[[Johannes Bjerva]]"
 authors: "Heather Lent; Kushal Tatariya; Raj Dabre; Yiyi Chen; Marcell Fekete; Esther Ploeger; Li Zhou; Ruth-Ann Armstrong; Abee Eijansantos; Catriona Malau; Hans Erik Heje; Ernests Lavrinovics; Diptesh Kanojia; Paul Belony; Marcel Bollmann; Loïc Grobol; Miryam de Lhoneux; Daniel Hershcovich; Michel DeGraff; Anders Søgaard; Johannes Bjerva"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Collection of benchmark datasets spanning 8 NLP tasks covering up to 28 Creole languages. Includes MIT-Haiti Corpus for Haitian Creole with English/French/Spanish translations. Baseline zero-shot transfer learning experiments. First major NLP benchmark for Creole languages."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

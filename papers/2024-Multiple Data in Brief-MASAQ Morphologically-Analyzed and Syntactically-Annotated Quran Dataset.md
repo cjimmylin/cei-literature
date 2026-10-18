@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0507
 type: preprint
 short_title: "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset"
-year: 2025
+year: 2024
 first_author: "[[Multiple (Data in Brief]]"
 last_author: [[2024)]]
 authors: "Multiple (Data in Brief; 2024)"
@@ -52,7 +52,7 @@ abstract: "Comprehensive morphological and syntactic annotation of the entire Qu
 LLM_assessed: NA
 DATA_URL: "https://data.mendeley.com/datasets/9yvrzxktmr"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0504
 type: preprint
 short_title: "Large Language Models and Biblical Hebrew"
-year: 2025
+year: 2024
 first_author: "[[Staps, Camil]]"
 last_author: "[[Camil Staps]]"
 authors: "Camil Staps"
@@ -52,7 +52,7 @@ abstract: "Researchers have been relying on computational methods to study Bibli
 LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

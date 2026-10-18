@@ -52,7 +52,7 @@ abstract: "As LLMs excel on standard reading comprehension benchmarks, attention
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, Mixtral, Qwen, o3"
 DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

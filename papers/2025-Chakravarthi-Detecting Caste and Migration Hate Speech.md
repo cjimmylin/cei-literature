@@ -52,7 +52,7 @@ abstract: "The Indian constitution categorizes its population into groups such a
 LLM_assessed: "BLOOM, RoBERTa"
 DATA_URL: "https://codalab.lisn.upsaclay.fr/competitions/16089"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

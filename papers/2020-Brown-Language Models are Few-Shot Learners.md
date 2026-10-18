@@ -6,7 +6,7 @@ Not AI:
 key: ELEUTHERAI_03
 type: preprint
 short_title: "Language Models are Few-Shot Learners"
-year: 2025
+year: 2020
 first_author: "[[Tom B. Brown]]"
 last_author: "[[Dario Amodei]]"
 authors: "Tom B. Brown; Benjamin Mann; Nick Ryder; Melanie Subbiah; Jared Kaplan; Prafulla Dhariwal; Arvind Neelakantan; Pranav Shyam; Girish Sastry; Amanda Askell; Sandhini Agarwal; Ariel Herbert-Voss; Gretchen Krueger; Tom Henighan; Rewon Child; Aditya Ramesh; Daniel M. Ziegler; Jeffrey Wu; Clemens Winter; Christopher Hesse; Mark Chen; Eric Sigler; Mateusz Litwin; Scott Gray; Benjamin Chess; Jack Clark; Christopher Berner; Sam McCandlish; Alec Radford; Ilya Sutskever; Dario Amodei"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260312
 LLM_assessed: GPT-3
 DATA_URL: NA
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0599
 type: preprint
 short_title: "Tackling Hate Speech in Low-resource Languages"
-year: 2025
+year: 2022
 first_author: "[[Nkemelu, Daniel]]"
 last_author: "[[Michael L. Best]]"
 authors: "Nkemelu, Daniel; Shah, Harshil; Essa, Irfan; Michael L. Best"
@@ -52,7 +52,7 @@ abstract: "Given Myanmar’s historical and socio-political context, hate speech
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

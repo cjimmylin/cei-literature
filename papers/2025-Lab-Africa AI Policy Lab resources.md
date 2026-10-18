@@ -9,7 +9,7 @@ url: "https://www.aipolicy.africa/"
 abstract: "Continental platform for African AI policy research and coordination"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

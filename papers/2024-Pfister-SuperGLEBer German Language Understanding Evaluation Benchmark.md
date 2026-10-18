@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0464
 type: conferencePaper
 short_title: "SuperGLEBer: German Language Understanding Evaluation Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho]]"
 authors: "Jan Pfister; Andreas Hotho"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/LSX-UniWue/SuperGLEBer"
 tags: 
 abstract: "We assemble a broad Natural Language Understanding benchmark suite for the German language and consequently evaluate a wide array of existing German-capable models in order to create a better understanding of the current state of German LLMs. Our benchmark consists of 29 different tasks ranging over different types such as document classification, sequence tagging, sentence similarity, and question answering, on which we evaluate 10 different German-pretrained models, thereby charting the..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

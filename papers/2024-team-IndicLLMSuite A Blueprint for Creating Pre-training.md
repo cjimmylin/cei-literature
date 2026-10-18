@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0496
 type: preprint
 short_title: "IndicLLMSuite A Blueprint for Creating Pre-training"
-year: 2025
+year: 2024
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
 authors: "AI4Bharat team"
@@ -52,7 +52,7 @@ abstract: "Despite the considerable advancements in English LLMs, the progress i
 LLM_assessed: NA
 DATA_URL: "https://github.com/AI4Bharat/IndicLLMSuite"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EA8HU28Q
 type: conferencePaper
 short_title: "What Would Jiminy Cricket Do?"
-year: 2025
+year: 2022
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Mantas Mazeika; Andy Zou; Sahil Patel; Christine Zhu; Jesus Navarro; Dawn Song; Bo Li; Jacob Steinhardt"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, RoBERTa"
 DATA_URL: "https://github.com/hendrycks/jiminy-cricket"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4o, LLaMA, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/traversaal-ai/alif-urdu-llm"
 research_topic: "Machine Translation"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0585
 type: conference_paper
 short_title: "Embeddings Models for Buddhist Sanskrit"
-year: 2025
+year: 2022
 first_author: "[[Ligeia Lugli]]"
 last_author: "[[Senja Pollak]]"
 authors: "Ligeia Lugli; Matej Martinc; Andraz Pelicon; Senja Pollak"
@@ -57,7 +57,7 @@ abstract: "Evaluation Dataset used for the study published as Embeddings models 
 LLM_assessed: NA
 DATA_URL: "https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_models_for_Buddhist_Sanskrit/24056319"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

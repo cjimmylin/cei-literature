@@ -52,7 +52,7 @@ abstract: "Reward models (RMs) are central to the alignment of language models (
 LLM_assessed: BERT
 DATA_URL: "https://github.com/socialnlp/rmp"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

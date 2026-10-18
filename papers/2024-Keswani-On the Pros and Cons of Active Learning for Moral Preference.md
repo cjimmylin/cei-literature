@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0206
 type: conferencePaper
 short_title: "On the Pros and Cons of Active Learning for Moral Preference Elicitation"
-year: 2025
+year: 2024
 first_author: "[[Vijay Keswani]]"
 last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Vijay Keswani; Vincent Conitzer; Hoda Heidari; Jana Schaich Borg; Walter Sinnott-Armstrong"
@@ -52,7 +52,7 @@ abstract: "Computational preference elicitation methods are tools used to learn 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "AIES 2024"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

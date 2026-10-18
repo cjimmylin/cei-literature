@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0542
 type: preprint
 short_title: "Detecting Abusive Albanian"
-year: 2025
+year: 2021
 first_author: "[[Erida Nurce]]"
 last_author: "[[Leon Derczynski]]"
 authors: "Erida Nurce; Jorgel Keci; Leon Derczynski"
@@ -51,7 +51,7 @@ DATA_URL: "https://doi.org/10.6084/m9.figshare.19333298.v1"
 tags: 
 abstract: "The ever growing usage of social media in the recent years has had a direct impact on the increased presence of hate speech and offensive speech in online platforms. Research on effective detection of such content has mainly focused on English and a few other widespread languages, while the leftover majority fail to have the same work put into them and thus cannot benefit from the steady advancements made in the field."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

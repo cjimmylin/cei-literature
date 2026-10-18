@@ -6,7 +6,7 @@ Not AI:
 key: 2JCUKU2L
 type: document
 short_title: "Training a Helpful and Harmless Assistant with"
-year: 2025
+year: 2022
 first_author: "[[Yuntao Bai]]"
 last_author: "[[Jared Kaplan]]"
 authors: "Yuntao Bai; Andy Jones; Kamal Ndousse; Amanda Askell; Anna Chen; Nova DasSarma; Dawn Drain; Stanislav Fort; Deep Ganguli; Tom Henighan; Nicholas Joseph; Saurav Kadavath; Jackson Kernion; Tom Conerly; Sheer El-Showk; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Tristan Hume; Scott Johnston; Shauna Kravec; Liane Lovitt; Neel Nanda; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Ben Mann; Jared Kaplan"
@@ -55,7 +55,7 @@ publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

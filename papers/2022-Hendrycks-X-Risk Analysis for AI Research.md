@@ -6,7 +6,7 @@ Not AI:
 key: K2N2VQ7A
 type: document
 short_title: "X-Risk Analysis for AI Research"
-year: 2025
+year: 2022
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Mantas Mazeika]]"
 authors: "Dan Hendrycks; Mantas Mazeika"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

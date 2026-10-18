@@ -52,7 +52,7 @@ abstract: "Summary: Extended study (2023--2024) showing that leading chatbots po
 LLM_assessed: "ChatGPT, GPT-4o, Gemini, GPT-3.5, PaLM"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

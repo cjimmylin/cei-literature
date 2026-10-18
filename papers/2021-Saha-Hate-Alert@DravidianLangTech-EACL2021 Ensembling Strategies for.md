@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0053
 type: conferencePaper
 short_title: "Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection"
-year: 2025
+year: 2021
 first_author: [[Saha]]
 last_author: [[Saha]]
 authors: Saha
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Debjoy10/Hate-Alert-DravidianLangTech"
 tags: 
 abstract: "Social media often acts as breeding grounds for different forms of offensive content. For low resource languages like Tamil, the situation is more complex due to the poor performance of multilingual or language-speciﬁc models and lack of proper benchmark datasets. Based on this shared task “Offensive Language Identiﬁcation in Dravidian Languages” at EACL 2021, we present an exhaustive exploration of different transformer models, We also provide a genetic algorithm technique for ensembling..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

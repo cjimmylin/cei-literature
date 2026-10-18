@@ -6,7 +6,7 @@ Not AI:
 key: KZRT6VY8
 type: document
 short_title: "The Multilingual Alignment Prism"
-year: 2025
+year: 2024
 first_author: [[Aakanksha]]
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

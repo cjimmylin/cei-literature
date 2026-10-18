@@ -52,7 +52,7 @@ tags:
 abstract: "Based on the search results, I found several significant multilingual LLM benchmarks that evaluate cultural values across 5+ languages: Key Multilingual Cultural Values Benchmarks MENAValues Benchmark MENAValues is a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region. The benchmark evaluates diverse models across multiple conditions f"
 research_topic: "Machine Translation"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

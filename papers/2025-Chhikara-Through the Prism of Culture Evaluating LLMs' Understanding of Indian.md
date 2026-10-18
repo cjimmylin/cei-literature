@@ -53,7 +53,7 @@ tags:
 abstract: "Large Language Models (LLMs) have shown remarkable advancements but also raise concerns about cultural bias, often reflecting dominant narratives at the expense of underrepresented subcultures. In this study, we evaluate the capacity of LLMs to recognize and accurately respond to the Little Traditions within Indian society, encompassing localized cultural practices and social institutions such as caste, kinship, marriage, and religion."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "FAccT 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

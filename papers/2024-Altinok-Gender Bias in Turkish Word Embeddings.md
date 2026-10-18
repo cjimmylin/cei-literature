@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0484
 type: conference_paper
 short_title: "Gender Bias in Turkish Word Embeddings"
-year: 2025
+year: 2024
 first_author: [[Altinok]]
 last_author: [[Duygu]]
 authors: "Altinok; Duygu"
@@ -52,7 +52,7 @@ abstract: "Gender bias in word representations has emerged as a prominent resear
 LLM_assessed: NA
 DATA_URL: "https://github.com/DuyguA/GeBNLP-2024-Gende"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

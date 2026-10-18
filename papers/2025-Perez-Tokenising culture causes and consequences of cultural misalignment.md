@@ -52,7 +52,7 @@ tags:
 abstract: "Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

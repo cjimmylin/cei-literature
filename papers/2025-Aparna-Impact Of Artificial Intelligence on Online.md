@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/dfb1d92cf81662582d7e0b7843015ddbf2d0
 abstract: "Artificial Intelligence (AI) has become a central force in shaping online shopping behaviour worldwide. This paper offers a simple, practitioner-friendly study of how AI influences consumer decision-m..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

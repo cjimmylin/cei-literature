@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) were not designed to replace healthcare 
 LLM_assessed: "Claude, Claude-3 Haiku, Claude-3 Sonnet, GPT-3, GPT-3.5, GPT-4, Llama-3"
 DATA_URL: "https://github.com/brownhci/human-llm-cbt-evals"
 CONFERENCE: "AIES 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0477
 type: preprint
 short_title: "LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch"
-year: 2025
+year: 2024
 first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho]]"
 authors: "Jan Pfister; Julia Wunderle; Andreas Hotho"
@@ -51,7 +51,7 @@ DATA_URL: "https://professor-x.de/lm/LLaMmlein"
 tags: 
 abstract: "We transparently create two German-only decoder models, LLäMmlein 120M and 1B1, from scratch and publish them, along with training data, for the (German) NLP research community to use2. The model training involved several key steps, including data preprocessing/filtering, the creation of a German tokenizer, the training itself, as well as the evaluation of the final models on various benchmarks, also against existing models."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

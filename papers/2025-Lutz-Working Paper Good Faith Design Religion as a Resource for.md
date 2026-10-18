@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Interview study with 48 religious people/experts from 11 faiths including Shinto, documenting how religious people experience and imagine technologies. Shinto participants discussed AI temple guides and shrine maintenance via immersive projections. Distills six design values: wonder, humility, space, embodiedness, community, and eternity."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

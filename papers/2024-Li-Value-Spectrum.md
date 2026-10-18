@@ -6,7 +6,7 @@ Not AI:
 key: MH5R2VZK
 type: conferencePaper
 short_title: Value-Spectrum
-year: 2025
+year: 2024
 first_author: "[[Jingxuan Li]]"
 last_author: "[[Ying Nian Wu]]"
 authors: "Jingxuan Li; Yuning Yang; Shengqi Yang; Linfan Zhang; Ying Nian Wu"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemini, Qwen-2"
 DATA_URL: "https://github.com/Jeremyyny/Value-Spectrum"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

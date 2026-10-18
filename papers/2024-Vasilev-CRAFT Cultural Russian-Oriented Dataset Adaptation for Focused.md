@@ -6,7 +6,7 @@ Not AI:
 key: CULT0128
 type: preprint
 short_title: "CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation"
-year: 2025
+year: 2024
 first_author: "[[Viacheslav Vasilev]]"
 last_author: "[[Denis Dimitrov]]"
 authors: "Viacheslav Vasilev; Vladimir Arkhipkin; Julia Agafonova; Tatiana Nikulina; Evelina Mironova; Alisa Shichanina; Nikolai Gerasimenko; Mikhail Shoytov; Denis Dimitrov"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Despite the fact that popular text-to-image generation models cope well with international and general cultural queries, they have a significant knowledge gap regarding individual cultures. This is due to the content of existing large training datasets collected on the Internet, which are predominantly based on Western European or American popular culture. Meanwhile, the lack of cultural adaptation of the model can lead to incorrect results, a decrease in the generation quality, and the spread..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammed-Aftina.pdf]]
 CONF-CC: "Neural Computing and Applications"
 DATE_ADDED: 20260207
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

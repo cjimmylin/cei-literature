@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0600
 type: journal_article
 short_title: "YouTube-Based Religious Hate Speech and Extremism"
-year: 2025
+year: 2022
 first_author: "[[Noman Ashraf]]"
 last_author: "[[Alexander Gelbukh]]"
 authors: "Noman Ashraf; Abid Rafiq; Sabur Butt; Hafiz Muhammad Faisal Shehzad; Grigori Sidorov; Alexander Gelbukh"
@@ -52,7 +52,7 @@ abstract: "Should social media companies ban Holocaust denial from their platfor
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

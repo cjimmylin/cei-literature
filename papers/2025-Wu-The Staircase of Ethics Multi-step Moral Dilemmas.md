@@ -52,7 +52,7 @@ abstract: "Ethical decision-making is a critical aspect of human judgment, and t
 LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Mistral, Gemini, Claude"
 DATA_URL: "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

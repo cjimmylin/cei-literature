@@ -9,7 +9,7 @@ url: "https://ijirss.com/index.php/ijirss/article/download/9202/2064/15553"
 abstract: "Geographic imbalances in AI ethics research, with focus on Africa's marginalization"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

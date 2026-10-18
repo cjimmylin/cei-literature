@@ -6,7 +6,7 @@ Not AI:
 key: DP24FAMZ
 type: conferencePaper
 short_title: Eagle
-year: 2025
+year: 2024
 first_author: "[[Masahiro Kaneko]]"
 last_author: "[[Timothy Baldwin]]"
 authors: "Masahiro Kaneko; Danushka Bollegala; Timothy Baldwin"
@@ -55,7 +55,7 @@ LLM_assessed: "ChatGPT, Falcon, Llama-2, Mistral, Mixtral"
 DATA_URL: "https://huggingface.co/datasets/MasahiroKaneko/eagle"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

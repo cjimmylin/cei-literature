@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0460
 type: preprint
 short_title: "Toxic Bias: Perspective API Misreads German as More Toxic"
-year: 2025
+year: 2024
 first_author: "[[Gianluca Nogara]]"
 last_author: "[[Silvia Giordano]]"
 authors: "Gianluca Nogara; Francesco Pierri; Stefano Cresci; Luca Luceri; Petter Tornberg; Silvia Giordano"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Please check and cite the published version of this paper in the Proceedings of the 19th AAAI International Conference on Web and Social Media (ICWSM’25). Proprietary public APIs play a crucial and growing role as research tools among social scientists. Among such APIs, Google’s machine learning-based Perspective API is extensively utilized for assessing the toxicity of social media messages, providing both an important resource for researchers and automatic content moderation."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

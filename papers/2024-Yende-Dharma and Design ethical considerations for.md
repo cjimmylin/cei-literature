@@ -2,14 +2,14 @@
 key: CGSR0102
 type: document
 short_title: "Dharma and Design: ethical considerations for AI from Hindu philosophy"
-year: 2025
+year: 2024
 first_author: "[[Sagar Yende]]"
 authors: "Sagar Yende"
 url: "https://medium.com/@yendesagar/dharma-and-design-ethical-considerations-for-ai-from-hindu-philosophy-ff9fb205d956"
 abstract: "Hindu philosophical principles (dharma, ahimsa) for AI design"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

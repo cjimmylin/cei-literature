@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 4YDBJ27I
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "Ten Hard Problems in Artificial Intelligence We"
 first_author: "[[Gavin Leech]]"
 last_author: "[[Aleksandr Zhuravlev]]"
@@ -52,7 +52,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: FVXJMS7J
 type: conferencePaper
 short_title: ClarityEthic
-year: 2025
+year: 2024
 first_author: "[[Yuxi Sun]]"
 last_author: "[[Wenxuan Zhang]]"
 authors: "Yuxi Sun; Wei Gao; Jing Ma; Hongzhan Lin; Ziyang Luo; Wenxuan Zhang"
@@ -54,7 +54,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Sun-ClarityEthic.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Sun-ClarityEthic.pdf]]
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

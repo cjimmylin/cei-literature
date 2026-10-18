@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0195
 type: conferencePaper
 short_title: "Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method"
-year: 2025
+year: 2024
 first_author: "[[Tian Xia]]"
 last_author: "[[Rui Wang]]"
 authors: "Tian Xia; Zhiwei He; Tong Ren; Yibo Miao; Zhuosheng Zhang; Yang Yang; Rui Wang"
@@ -51,7 +51,7 @@ abstract: "Bargaining is an important and unique part of negotiation between hum
 LLM_assessed: "ChatGPT, GPT-4, Llama-2, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/TianXiaSJTU/AmazonPriceHistory"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

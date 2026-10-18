@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0231
 type: preprint
 short_title: "Open Generative Large Language Models for Galician"
-year: 2025
+year: 2024
 first_author: "[[Authors from Universidade de Santiago de Compostela]]"
 last_author: "[[Authors from Universidade de Santiago de Compostela]]"
 authors: "Authors from Universidade de Santiago de Compostela"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have transformed natural language processing. Yet, their predominantly English-centric training has led to biases and performance disparities across languages. This imbalance marginalizes minoritized languages, making equitable access to NLP technologies more difficult for languages with lower resources, such as Galician. We present the first two generative LLMs focused on Galician to bridge this gap."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

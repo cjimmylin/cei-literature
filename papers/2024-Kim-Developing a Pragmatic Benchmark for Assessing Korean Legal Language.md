@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0259
 type: preprint
 short_title: "Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Yeeun Kim]]"
 last_author: "[[Wonseok Hwang]]"
 authors: "Yeeun Kim; Young Rok Choi; Eunkyung Choi; Jinhwan Choi; Hai Jin Park; Wonseok Hwang"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/lbox-kr/kbl"
 tags: 
 abstract: "Large language models (LLMs) have demonstrated remarkable performance in the legal domain, with GPT-4 even passing the Uniform Bar Exam in the U.S. However their efficacy remains limited for non-standardized tasks and tasks in languages other than English. This underscores the need for careful evaluation of LLMs within each legal system before application. Here, we introduce KBL, a benchmark for assessing the Korean legal language understanding of LLMs, consisting of (1) 7 legal knowledge tasks..."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

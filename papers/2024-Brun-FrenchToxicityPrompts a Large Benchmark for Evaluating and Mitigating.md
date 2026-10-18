@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0430
 type: preprint
 short_title: "FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts"
-year: 2025
+year: 2024
 first_author: "[[Caroline Brun]]"
 last_author: "[[Nadi Tomeh]]"
 authors: "Caroline Brun; Vassilina Nikoulina; Nadi Tomeh"
@@ -52,7 +52,7 @@ tags:
 abstract: "Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024."
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

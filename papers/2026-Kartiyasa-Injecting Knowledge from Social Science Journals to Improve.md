@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0094
 type: preprint
 short_title: "Injecting Knowledge from Social Science Journals to Improve Indonesian Cultural Understanding by LLMs"
-year: 2025
+year: 2026
 first_author: "[[Kartiyasa, Adimulya]]"
 last_author: "[[Li, Boyang]]"
 authors: "Kartiyasa, Adimulya; Cao, Bao Gia; Li, Boyang"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Recently there have been intensifying efforts to improve the understanding of Indonesian cultures by large language models (LLMs). An attractive source of cultural knowledge that has been largely overlooked is local journals of social science, which likely contain substantial cultural studies from a native perspective. We present a novel text dataset of journal article passages, created from 151 open-source Indonesian social science journals, called IndoSoSci."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0177
 type: conferencePaper
 short_title: "Gaps in the Safety Evaluation of Generative AI"
-year: 2025
+year: 2024
 first_author: "[[Maribeth Rauh]]"
 last_author: "[[Laura Weidinger]]"
 authors: "Maribeth Rauh; Nahema Marchal; Arianna Manzini; Lisa Anne Hendricks; Ramona Comanescu; Canfer Akbulut; Tom Stepleton; Juan Mateos-Garcia; Stevie Bergman; Jackie Kay; Conor Griffin; Ben Bariach; Iason Gabriel; Verena Rieser; William Isaac; Laura Weidinger"
@@ -52,7 +52,7 @@ abstract: "Generative AI systems produce a range of ethical and social risks. Ev
 LLM_assessed: NA
 DATA_URL: "https://dpmd.ai/EvalsRepo"
 CONFERENCE: "AIES 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

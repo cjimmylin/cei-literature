@@ -6,7 +6,7 @@ Not AI:
 key: 9A29N7DT
 type: conferencePaper
 short_title: "Constitutional AI"
-year: 2025
+year: 2022
 first_author: "[[Yuntao Bai]]"
 last_author: "[[Jared Kaplan]]"
 authors: "Yuntao Bai; Saurav Kadavath; Sandipan Kundu; Amanda Askell; Jackson Kernion; Andy Jones; Anna Chen; Anna Goldie; Azalia Mirhoseini; Cameron McKinnon; Carol Chen; Catherine Olsson; Christopher Olah; Danny Hernandez; Dawn Drain; Deep Ganguli; Dustin Li; Eli Tran-Johnson; Ethan Perez; Jamie Kerr; Jared Mueller; Jeffrey Ladish; Joshua Landau; Kamal Ndousse; Kamile Lukosuite; Liane Lovitt; Michael Sellitto; Nelson Elhage; Nicholas Schiefer; Noemi Mercado; Nova DasSarma; Robert Lasenby; Robin Larson; Sam Ringer; Scott Johnston; Shauna Kravec; Sheer El Showk; Stanislav Fort; Tamera Lanham; Timothy Telleen-Lawton; Tom Conerly; Tom Henighan; Tristan Hume; Samuel R. Bowman; Zac Hatfield-Dodds; Ben Mann; Dario Amodei; Nicholas Joseph; Sam McCandlish; Tom Brown; Jared Kaplan"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "InstructGPT, LaMDA"
 DATA_URL: "https://github.com/anthropics/ConstitutionalHarmlessnessPaper"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

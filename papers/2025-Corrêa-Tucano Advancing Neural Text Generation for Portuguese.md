@@ -53,7 +53,7 @@ tags:
 abstract: "Significant advances have been made in natural language processing in recent years. However, our current deep learning approach to language modeling requires substantial resources in terms of data and computation. One of the side effects of this data-hungry paradigm is the current schism between languages, separating those considered high-resource, where most of the development happens and resources are available, and the low-resource ones, which struggle to attain the same level of performance..."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

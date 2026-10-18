@@ -6,7 +6,7 @@ Not AI:
 key: CULT0049
 type: preprint
 short_title: "CINO: A Chinese Minority Pre-trained Language Model"
-year: 2025
+year: 2022
 first_author: "[[Ziqing Yang]]"
 last_author: "[[Zhigang Chen]]"
 authors: "Ziqing Yang; Zihang Xu; Yiming Cui; Baoxin Wang; Min Lin; Dayong Wu; Zhigang Chen"
@@ -51,7 +51,7 @@ DATA_URL: "http://cino.hfl-rc.com"
 tags: 
 abstract: "Multilingual pre-trained language models have shown impressive performance on crosslingual tasks. It greatly facilitates the applications of natural language processing on lowresource languages. However, there are still some languages that the current multilingual models do not perform well on. In this paper, we propose CINO (Chinese Minority Pretrained Language Model), a multilingual pretrained language model for Chinese minority languages."
 CONFERENCE: "COLING 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0276
 type: preprint
 short_title: "DIB Benchmark: Decision-based Implicit Bias in LLMs"
-year: 2025
+year: 2026
 first_author: "[[Ma, Yiming]]"
 last_author: "[[Dong, Wei]]"
 authors: "Ma, Yiming; Wang, Lixu; Lionel Z. Wang; Yang, Hongkun; Sun, Haoming; Xu, Xin; Wu, Jiaqi; Chen, Bin; Dong, Wei"
@@ -52,7 +52,7 @@ abstract: "Long-term memory mechanisms enable Large Language Models (LLMs) to ma
 LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

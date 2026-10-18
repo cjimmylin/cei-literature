@@ -53,7 +53,7 @@ DATA_URL: "https://huggingface.co/datasets/UVSKKR/Ethical-Reasoning-in-Mental-He
 normative_ethics_benchmark: Borderline
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

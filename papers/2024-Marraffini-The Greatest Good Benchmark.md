@@ -6,7 +6,7 @@ Not AI:
 key: IUQX96ZJ
 type: journalArticle
 short_title: "The Greatest Good Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Giovanni Franco Gabriel Marraffini]]"
 last_author: "[[Luciano Del Corro]]"
 authors: "Giovanni Franco Gabriel Marraffini; Andrés Cotton; Noe Fabian Hsueh; Axel Fridman; Juan Wisznia; Luciano Del Corro"
@@ -54,7 +54,7 @@ pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 100

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0232
 type: conferencePaper
 short_title: "A Galician-Portuguese Generative Model"
-year: 2025
+year: 2024
 first_author: [[CiTIUS]]
 last_author: "[[Universidade de Santiago de Compostela]]"
 authors: "CiTIUS; Universidade de Santiago de Compostela"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Carvalho_pt-gl: Galician-Portuguese generative model with 1.3B parameters trained on 6B+ words balanced between both varieties. Evaluated on CALAME-PT benchmark."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

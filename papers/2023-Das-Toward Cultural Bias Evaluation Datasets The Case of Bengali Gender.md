@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0170
 type: conferencePaper
 short_title: "Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)"
-year: 2025
+year: 2023
 first_author: "[[Das, Dipto]]"
 last_author: "[[Bryan C. Semaan]]"
 authors: "Das, Dipto; Guha, Shion; Bryan C. Semaan"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Critical studies found NLP systems to bias based on gender and racial identities. However, few studies focused on identities defined by cultural factors like religion and nationality. Compared to English, such research efforts are even further limited in major languages like Bengali due to the unavailability of labeled datasets. This paper describes a process for developing a bias evaluation dataset highlighting cultural influences on identity."
 CONFERENCE: "EACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

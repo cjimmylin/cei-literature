@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0662
 type: preprint
 short_title: "CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility"
-year: 2025
+year: 2023
 first_author: "[[Guohai Xu]]"
 last_author: "[[Jingren Zhou]]"
 authors: "Guohai Xu; Jiayi Liu; Ming Yan; Haotian Xu; Jinghui Si et al."
@@ -52,7 +52,7 @@ abstract: "With the rapid evolution of large language models (LLMs), there is a 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

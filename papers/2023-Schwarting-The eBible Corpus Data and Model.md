@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0575
 type: preprint
 short_title: "The eBible Corpus Data and Model"
-year: 2025
+year: 2023
 first_author: "[[Vesa Akerman]]"
 last_author: "[[Marcus Schwarting]]"
 authors: "Vesa Akerman; David Baines; Damien Daspit; Ulf Hermjakob; Taeho Jang; Colin Leong; Michael Martin; Joel Mathew; Jonathan Robie; Marcus Schwarting"
@@ -52,7 +52,7 @@ abstract: "Efﬁciently and accurately translating a corpus into a low-resource 
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

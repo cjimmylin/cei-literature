@@ -6,7 +6,7 @@ Not AI:
 key: CULT0163
 type: conferencePaper
 short_title: "GuyLingo: The Republic of Guyana Creole Corpora"
-year: 2025
+year: 2024
 first_author: "[[Christopher Clarke]]"
 last_author: "[[Jason Mars]]"
 authors: "Christopher Clarke; Roland Daynauth; Charlene Wilkinson; Hubert Devonish; Jason Mars"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/ChrisIsKing/Caribbean-Creole-Languages-Translation
 tags: 
 abstract: "While major languages often enjoy substantial attention and resources, the linguistic diversity across the globe encompasses a multitude of smaller, indigenous, and regional languages that lack the same level of computational support. One such region is the Caribbean. While commonly labeled as 'English speaking', the ex-British Caribbean region consists of a myriad of Creole languages thriving alongside English."
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

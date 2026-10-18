@@ -6,7 +6,7 @@ Not AI:
 key: 5K3XEJ5L
 type: conferencePaper
 short_title: "Case Law Grounding"
-year: 2025
+year: 2023
 first_author: "[[Quan Ze Chen]]"
 last_author: "[[Amy X. Zhang]]"
 authors: "Quan Ze Chen; Amy X. Zhang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

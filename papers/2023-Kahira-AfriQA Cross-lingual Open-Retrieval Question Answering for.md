@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0548
 type: preprint
 short_title: "AfriQA Cross-lingual Open-Retrieval Question Answering for"
-year: 2025
+year: 2023
 first_author: "[[Ogundepo, Odunayo]]"
 last_author: "[[Adhiambo, Sonia]]"
 authors: "Ogundepo, Odunayo; Tajuddeen R. Gwadabe; Clara E. Rivera; Jonathan H. Clark; Ruder, Sebastian; Adelani, David Ifeoluwa; Bonaventure F. P. Dossou; DIOP, Abdou Aziz; Sikasote, Claytone; Hacheme, Gilles; Buzaaba, Happy; Ezeani, Ignatius; Mabuya, Rooweither; Osei, Salomey; Emezue, Chris; Kahira, Albert Njoroge; Shamsuddeen H. Muhammad; Oladipo, Akintunde; Owodunni, Abraham Toluwase; Tonja, Atnafu Lambebo; Shode, Iyanuoluwa; Asai, Akari; Ajayi, Tunde Oluwaseyi; Siro, Clemencia; Arthur, Steven; Adeyemi, Mofetoluwa; Ahia, Orevaoghene; Aremu, Anuoluwapo; Awosan, Oyinkansola; Chukwuneke, Chiamaka; Opoku, Bernard; Ayodele, Awokoya; Otiende, Verrah; Mwase, Christine; Sinkala, Boyd; Rubungo, Andre Niyongabo; Daniel A. Ajisafe; Onwuegbuzia, Emeka Felix; Mbow, Habib; Niyomutabazi, Emile; Mukonde, Eunice; Lawan, Falalu Ibrahim; Ahmad, Ibrahim Said; Jesujoba O. Alabi; Namukombo, Martin; Chinedu, Mbonu; Phiri, Mofya; Putini, Neo; Mngoma, Ndumiso; Priscilla A. Amuok; Iro, Ruqayya Nasir; Adhiambo, Sonia"
@@ -52,7 +52,7 @@ abstract: "African languages have far less in-language content available digital
 LLM_assessed: "BERT, T5"
 DATA_URL: "https://huggingface.co/datasets/masakhane/afriqa"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

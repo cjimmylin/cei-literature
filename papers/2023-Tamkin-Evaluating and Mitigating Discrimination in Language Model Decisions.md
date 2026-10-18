@@ -6,7 +6,7 @@ Not AI:
 key: ELEUTHERAI_01
 type: preprint
 short_title: "Evaluating and Mitigating Discrimination"
-year: 2025
+year: 2023
 first_author: "[[Alex Tamkin]]"
 last_author: "[[Deep Ganguli]]"
 authors: "Alex Tamkin; Amanda Askell; Liane Lovitt; Esin Durmus; Nicholas Joseph; Shauna Kravec; Karina Nguyen; Jared Kaplan; Deep Ganguli"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260312
 LLM_assessed: Claude-2
 DATA_URL: "https://huggingface.co/datasets/Anthropic/discrim-eval"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

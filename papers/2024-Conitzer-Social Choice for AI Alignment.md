@@ -6,7 +6,7 @@ Not AI:
 key: AUTO_CONITZER2024
 type: preprint
 short_title: "Social Choice for AI Alignment"
-year: 2025
+year: 2024
 first_author: "[[Vincent Conitzer]]"
 last_author: "[[Freedman, Rachel]]"
 authors: "Conitzer, Vincent; Freedman, Rachel"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

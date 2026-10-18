@@ -8,7 +8,7 @@ authors: "Tomek Korbak; Mikita Balesni; Elizabeth Barnes; Yoshua Bengio; Joe Ben
 url: "https://arxiv.org/abs/2507.11473"
 external_pdf: "https://arxiv.org/pdf/2507.11473.pdf"
 abstract: "AI systems that 'think' in human language offer a unique opportunity for AI safety: we can monitor their chains of thought (CoT) for the intent to misbehave. Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability."
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

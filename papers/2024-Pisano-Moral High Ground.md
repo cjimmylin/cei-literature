@@ -6,7 +6,7 @@ Not AI:
 key: PKKZ6LND
 type: document
 short_title: "Moral High Ground"
-year: 2025
+year: 2024
 first_author: "[[Matthew Pisano]]"
 last_author: "[[Kush R. Varshney]]"
 authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney"
@@ -52,7 +52,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

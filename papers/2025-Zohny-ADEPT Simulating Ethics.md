@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/hazemzohny/ADEPT/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

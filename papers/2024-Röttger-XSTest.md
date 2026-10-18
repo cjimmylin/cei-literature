@@ -6,7 +6,7 @@ Not AI:
 key: 8X95VAH8
 type: document
 short_title: XSTest
-year: 2025
+year: 2024
 first_author: "[[Paul Röttger]]"
 last_author: "[[Hovy, Dirk]]"
 authors: "Röttger, Paul; Kirk, Hannah; Vidgen, Bertie; Attanasio, Giuseppe; Bianchi, Federico; Hovy, Dirk"
@@ -53,7 +53,7 @@ pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Röttger-XSTest.pdf]]
 CONFERENCE: "NAACL 2024"
 helm: incorporated
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

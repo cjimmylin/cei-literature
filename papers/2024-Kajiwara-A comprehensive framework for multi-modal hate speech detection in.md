@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0722
 type: journalArticle
 short_title: "A comprehensive framework for multi-modal hate speech detection in social media using deep learning"
-year: 2025
+year: 2024
 first_author: [[Kajiwara]]
 last_author: [[Kajiwara]]
 authors: Kajiwara
@@ -49,9 +49,9 @@ newtags:
 LLM_assessed: BERT
 DATA_URL: NA
 tags: 
-abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"
+abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

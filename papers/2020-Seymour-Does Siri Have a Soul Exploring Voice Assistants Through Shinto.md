@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0001
 type: preprint
 short_title: "Does Siri Have a Soul? Exploring Voice Assistants Through Shinto Design Fictions"
-year: 2025
+year: 2020
 first_author: "[[William Seymour]]"
 last_author: "[[Max Van Kleek]]"
 authors: "William Seymour; Max Van Kleek"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Uses Japanese Shinto narratives to defamiliarise voice assistants, drawing on the similarity between how assistants 'inhabit' objects and how kami inhabit natural and man-made entities. Describes an alternate future where assistant presences live inside objects, foregrounding phenomenological quirks of current voice assistant design patterns."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

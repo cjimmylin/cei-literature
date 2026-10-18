@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0440
 type: conferencePaper
 short_title: "XSafety: Multilingual Safety Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Wang, Wenxuan]]"
 last_author: "[[Michael R. Lyu]]"
 authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-Tse; Jiao, Wenxiang; Michael R. Lyu"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 tags: 
 abstract: "Multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0808
 type: conferencePaper
 short_title: "AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER"
-year: 2025
+year: 2024
 first_author: "[[Yan, Nan]]"
 last_author: "[[Cheng Xu]]"
 authors: "Nan Yan; Cheng Xu"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "This research paper explores the imperative to decolonize African Natural Language Processing (NLP) by addressing power dynamics and data colonialism within technology development. Based on the historical context of colonialism in Africa, the paper examines the pervasive influence of colonial traces on the research and development of NLPs, highlighting the marginalization of African languages, cultures, and voices."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0011
 type: preprint
 short_title: "PoliBias (Parliamentary Voting Records)"
-year: 2025
+year: 2026
 first_author: "[[Chen, Jieying]]"
 last_author: "[[Wang, Chendi]]"
 authors: "Chen, Jieying; Jong, Karen de; Poole, Andreas; Burakowski, Jan; Nosti, Elena Elderson; Windt, Joep; Wang, Chendi"
@@ -52,7 +52,7 @@ abstract: "As large language models (LLMs) become deeply embedded in digital pla
 LLM_assessed: "Mistral, Falcon, Gemma-2, DeepSeek, GPT-3.5, GPT-4o, Llama-2, Llama-3"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 10
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

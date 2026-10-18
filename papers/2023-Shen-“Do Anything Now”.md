@@ -6,7 +6,7 @@ Not AI:
 key: 338NF5GT
 type: journalArticle
 short_title: "'Do Anything Now'"
-year: 2025
+year: 2023
 first_author: "[[Xinyue Shen]]"
 last_author: "[[Yang Zhang]]"
 authors: "Xinyue Shen; Zeyuan Chen; Michael Backes; Yun Shen; Yang Zhang"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2023/2023-Shen-'Do Anything Now'.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

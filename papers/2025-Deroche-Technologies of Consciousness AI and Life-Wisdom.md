@@ -9,7 +9,7 @@ url: "https://papers.ssrn.com/sol3/Delivery.cfm/5574910.pdf?abstractid=5574910"
 abstract: "Buddhist philosophical resources on consciousness applied to AI"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

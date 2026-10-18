@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0560
 type: conference_paper
 short_title: "Is GPT-4 a Good Islamic Expert"
-year: 2025
+year: 2023
 first_author: "[[Sarah Alnefaie]]"
 last_author: "[[Mohammad Ammar Alsalka]]"
 authors: "Sarah Alnefaie; Eric Atwell; Mohammad Ammar Alsalka"
@@ -52,7 +52,7 @@ abstract: "Evaluates GPT-4 on Quranic question answering using the newly created
 LLM_assessed: GPT-4
 DATA_URL: NA
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

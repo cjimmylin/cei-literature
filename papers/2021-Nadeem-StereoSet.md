@@ -6,7 +6,7 @@ Not AI:
 key: EXA5Y72K
 type: conferencePaper
 short_title: StereoSet
-year: 2025
+year: 2021
 first_author: "[[Moin Nadeem]]"
 last_author: "[[Siva Reddy]]"
 authors: "Moin Nadeem; Anna Bethke; Siva Reddy"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2, RoBERTa, XLNet"
 DATA_URL: "https://stereoset.mit.edu"
 CONFERENCE: "ACL 2021"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

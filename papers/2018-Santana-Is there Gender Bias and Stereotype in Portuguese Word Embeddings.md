@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0224
 type: conferencePaper
 short_title: "Is there Gender Bias and Stereotype in Portuguese Word Embeddings?"
-year: 2025
+year: 2018
 first_author: "[[Bruna Santana]]"
 last_author: "[[Vinicius Woloszyn]]"
 authors: "Bruna Santana; Vinicius Woloszyn"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "In this work, we propose an analysis of the presence of gender bias associated with professions in Portuguese word embeddings. The objective of this work is to study gender implications related to stereotyped professions for women and men in the context of the Portuguese language."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

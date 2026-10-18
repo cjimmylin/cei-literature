@@ -6,7 +6,7 @@ Not AI:
 key: NA333TMH
 type: journalArticle
 short_title: "Probabilistic medical predictions of large"
-year: 2025
+year: 2024
 first_author: "[[Bowen Gu]]"
 last_author: "[[Jie Yang]]"
 authors: "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Larg
 pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

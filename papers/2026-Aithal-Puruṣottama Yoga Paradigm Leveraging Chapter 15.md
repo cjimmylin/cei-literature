@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0658
 type: conferencePaper
 short_title: "The Puruṣottama Yoga Paradigm: Leveraging Chapter 15 of Bhagavad Gita's World-Tree Metaphor for Global Systems Thinking"
-year: 2025
+year: 2026
 first_author: "[[P. S. Aithal]]"
 last_author: "[[Ramanathan S.]]"
 authors: "P. S. Aithal; Ramanathan S."
@@ -48,11 +48,11 @@ mp_identity: 0
 moral_psychology: N/A
 newtags: 
 tags: 
-abstract: "Purpose: The purpose of this research case study is to examine the metaphysical architecture of Chapter 15 of the Bhagavad Gita, specifically the Aśvattha (World-Tree) metaphor, as a foundational model for global systems thinking. It analyzes the \"
+abstract: "Purpose: The purpose of this research case study is to examine the metaphysical architecture of Chapter 15 of the Bhagavad Gita, specifically the Aśvattha (World-Tree) metaphor, as a foundational model for global systems thinking. It analyzes the \"Puruṣottama Yoga\" paradigm to distinguish between perishable, imperishable, and supreme aspects of reality for diagnosing contemporary global challenges. Additionally, the study evaluates the impact of Transcendent Ethical Leadership by leveraging th"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

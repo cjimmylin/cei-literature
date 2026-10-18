@@ -6,7 +6,7 @@ Not AI:
 key: CULT0139
 type: preprint
 short_title: "LLMs as mirrors of societal moral standards: reflection of cultural divergence and agreement across ethical topics"
-year: 2025
+year: 2024
 first_author: "[[Mijntje Meijer]]"
 last_author: "[[Ayoub Bagheri]]"
 authors: "Mijntje Meijer; Hadi Mohammadi; Ayoub Bagheri"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have become increasingly pivotal in various domains due the recent advancements in their performance capabilities. However, concerns persist regarding biases in LLMs, including gender, racial, and cultural biases derived from their training data. These biases raise critical questions about the ethical deployment and societal impact of LLMs. Acknowledging these concerns, this study investigates whether LLMs accurately reflect cross-cultural variations and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 20
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0144
 type: conferencePaper
 short_title: "ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks"
-year: 2025
+year: 2024
 first_author: "[[Abaskohi, Amirhossein]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
 authors: "Abaskohi, Amirhossein; Baruni, Sara; Masoudi, Mostafa; Abbasi, Nesa; Babalou, Mohammad Hadi; Edalat, Ali; Kamahi, Sepehr; Sani, Samin Mahdizadeh; Naghavian, Nikoo; Namazifard, Danial; Sadeghi, Pouya; Yaghoobzadeh, Yadollah"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/Ipouyall/Benchmarking_ChatGPT_for_Persian"
 tags: 
 abstract: "This paper explores the efficacy of large language models (LLMs) for Persian. While ChatGPT and consequent LLMs have shown remarkable performance in English, their efficiency for more low-resource languages remains an open question. We present the first comprehensive benchmarking study of LLMs across diverse Persian language tasks. Our primary focus is on GPT-3.5-turbo, but we also include GPT-4 and OpenChat-3.5 to provide a more holistic evaluation."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

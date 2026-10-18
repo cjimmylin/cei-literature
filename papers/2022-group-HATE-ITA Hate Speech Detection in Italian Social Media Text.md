@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0507
 type: conferencePaper
 short_title: "HATE-ITA: Hate Speech Detection in Italian Social Media Text"
-year: 2025
+year: 2022
 first_author: "[[MilaNLProc group]]"
 last_author: "[[MilaNLProc group]]"
 authors: "MilaNLProc group"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/MilaNLProc/hate-ita"
 tags: 
 abstract: "Warning: This paper contains examples of language that some people may find offensive. Online hate speech is a dangerous phenomenon that can (and should) be promptly counteracted properly. While Natural Language Processing has been successfully used for the purpose, many of the research efforts are directed toward the English language. This choice severely limits the classification power in non-English languages."
 CONFERENCE: "NAACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

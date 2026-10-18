@@ -6,7 +6,7 @@ Not AI:
 key: V8LA449F
 type: journalArticle
 short_title: "Moral Foundations Vignettes"
-year: 2025
+year: 2015
 first_author: "[[Scott Clifford]]"
 last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Scott Clifford; Vijeth Iyengar; Raúl Cabeza; Walter Sinnott-Armstrong"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: 2SX7MCJ4
 type: document
 short_title: "What does ChatGPT return about human values?"
-year: 2025
+year: 2023
 first_author: "[[Ronald Fischer]]"
 last_author: "[[Johannes A Karl]]"
 authors: "Ronald Fischer; Markus Luczak-Roesch; Johannes A Karl"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "https://osf.io/w46nq/"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

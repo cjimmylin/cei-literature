@@ -52,7 +52,7 @@ abstract: "Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religio
 LLM_assessed: "GPT-4o, Gemma-2, LLaMA"
 DATA_URL: "https://huggingface.co/varadsrivastava/dwesh-vaani_v1.0"
 CONFERENCE: "COLING 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

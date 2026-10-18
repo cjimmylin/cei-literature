@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0749
 type: conferencePaper
 short_title: "Arabic LLMs for Banking, Telecom and Government in GCC - 2026"
-year: 2025
+year: 2026
 first_author: [[Unknown]]
 last_author: [[Unknown]]
 authors: [[Unknown]]
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

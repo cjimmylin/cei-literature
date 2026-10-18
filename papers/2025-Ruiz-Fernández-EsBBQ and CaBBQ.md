@@ -56,7 +56,7 @@ LLM_assessed: "Gemma, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/BSC-LT/EsBBQ, https://huggingface.co/datasets/BSC-LT/CaBBQ, https://github.com/langtech-bsc/EsBBQ-CaBBQ"
 CONFERENCE: "Other Conference"
 eleutherai: incorporated
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

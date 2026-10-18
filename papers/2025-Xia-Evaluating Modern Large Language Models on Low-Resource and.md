@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have achieved impressive results in high-resource languages like English, yet their effectiveness in low-resource and morphologically rich languages remains under-explored. In this paper, we present a comprehensive evaluation of seven cuttingedge LLMs — including GPT-4o, GPT-4, Claude 3.5 Sonnet, LLaMA 3.1, Mistral Large 2, LLaMA-2 Chat 13B, and Mistral 7B Instruct — on a new cross-lingual benchmark covering Cantonese, Japanese, and Turkish."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

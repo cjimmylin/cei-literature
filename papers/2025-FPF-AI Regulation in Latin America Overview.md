@@ -9,7 +9,7 @@ url: "https://fpf.org/blog/ai-regulation-in-latin-america-overview-and-emerging-
 abstract: "Overview of AI regulation proposals across Brazil, Chile, Colombia, Peru"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

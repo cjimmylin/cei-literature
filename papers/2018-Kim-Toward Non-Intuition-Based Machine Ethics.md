@@ -6,7 +6,7 @@ Not AI:
 key: KIM2018
 type: conferencePaper
 short_title: "Non-Intuition-Based Machine Ethics"
-year: 2025
+year: 2018
 first_author: "[[Tae Wan Kim]]"
 last_author: "[[Hooker, John]]"
 authors: "Kim, Tae Wan; Hooker, John"
@@ -55,7 +55,7 @@ research_topic: "Machine Ethics"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "AAAI 2018"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 50

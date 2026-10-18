@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0661
 type: preprint
 short_title: "One Model is All You Need: ByT5-Sanskrit, a Unified Model for Sanskrit NLP Tasks"
-year: 2025
+year: 2024
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer]]"
 authors: "Sebastian Nehrdich; Oliver Hellwig; Kurt Keutzer"
@@ -52,7 +52,7 @@ abstract: "Morphologically rich languages are notoriously challenging to process
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

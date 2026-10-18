@@ -6,7 +6,7 @@ Not AI:
 key: SX4V6HQG
 type: conferencePaper
 short_title: "Introduction to AI Safety, Ethics, and Society"
-year: 2025
+year: 2024
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 95

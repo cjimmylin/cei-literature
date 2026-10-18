@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2, GPT-4, GPT-4o, GPT-4o mini, Llama-2, RoBERTa"
 DATA_URL: NA
 CONFERENCE: "IJCAI 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

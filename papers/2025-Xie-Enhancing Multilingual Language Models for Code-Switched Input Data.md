@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Code-switching, or alternating between languages within a single conversation, presents challenges for multilingual language models on NLP tasks. This research investigates if pre-training Multilingual BERT (mBERT) on code-switched datasets improves the model’s performance on critical NLP tasks such as part of speech tagging, sentiment analysis, named entity recognition, and language identification."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

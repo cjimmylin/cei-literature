@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0069
 type: conferencePaper
 short_title: "Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI"
-year: 2025
+year: 2024
 first_author: "[[Ammar Younas]]"
 last_author: "[[Yi Zeng]]"
 authors: "Ammar Younas; Yi Zeng"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes layered AI ethics principles for Central Asian countries. Introduces 'Nomadic AI Principles' rooted in traditional beliefs, values, customs of the region. Covers national, regional, and sector-specific ethical frameworks. Directly addresses AI ethics for Central Asian context including Kazakhstan and Uzbekistan. Proposes culturally grounded ethical principles based on nomadic traditions. Unique non-Western framework for AI value alignment."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

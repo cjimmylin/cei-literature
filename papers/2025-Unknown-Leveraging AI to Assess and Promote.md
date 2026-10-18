@@ -9,7 +9,7 @@ url: "https://www.ijfmr.com/papers/2025/4/63815.pdf"
 abstract: "Using AI to assess and promote dharmic principles"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

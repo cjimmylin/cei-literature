@@ -6,7 +6,7 @@ Not AI:
 key: IVDNFJYI
 type: journalArticle
 short_title: "Deontological coherence"
-year: 2025
+year: 2016
 first_author: "[[Keith J. Holyoak]]"
 last_author: "[[Powell, Derek]]"
 authors: "Keith J. Holyoak; Powell, Derek"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 100
 utilitarian_ethics: 100

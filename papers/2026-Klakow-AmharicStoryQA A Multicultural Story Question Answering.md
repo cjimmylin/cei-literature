@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0302
 type: preprint
 short_title: "AmharicStoryQA A Multicultural Story Question Answering"
-year: 2025
+year: 2026
 first_author: "[[Israel Abebe Azime]]"
 last_author: "[[Dietrich Klakow]]"
 authors: "Israel Abebe Azime; Abenezer Kebede Angamo; Hana Mekonen Tamiru; Dagnachew Mekonnen Marilign; Philipp Slusallek; Seid Muhie Yimam; Dietrich Klakow"
@@ -52,7 +52,7 @@ abstract: "With the growing emphasis on multilingual and cultural evaluation ben
 LLM_assessed: "Gemma, Gemma-2, GPT-4, LLaMA, Llama-3"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

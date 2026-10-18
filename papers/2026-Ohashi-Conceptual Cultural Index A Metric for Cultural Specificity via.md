@@ -6,7 +6,7 @@ Not AI:
 key: CULT0063
 type: preprint
 short_title: "Conceptual Cultural Index: A Metric for Cultural Specificity via Relative Generality"
-year: 2025
+year: 2026
 first_author: "[[Takumi Ohashi]]"
 last_author: "[[Hitoshi Iyatomi]]"
 authors: "Takumi Ohashi; Hitoshi Iyatomi"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/IyatomiLab/CCI"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in multicultural settings; however, systematic evaluation of cultural specificity at the sentence level remains underexplored. We propose the Conceptual Cultural Index (CCI), which estimates cultural specificity at the sentence level. CCI is defined as the difference between the generality estimate within the target culture and the average generality estimate across other cultures."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

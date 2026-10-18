@@ -6,7 +6,7 @@ Not AI:
 key: UA6KI2C8
 type: conferencePaper
 short_title: "Measuring and Mitigating Unintended Bias in Text"
-year: 2025
+year: 2018
 first_author: "[[Lucas Dixon]]"
 last_author: "[[Lucy Vasserman]]"
 authors: "Lucas Dixon; John Li; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman"
@@ -54,7 +54,7 @@ DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"
 pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

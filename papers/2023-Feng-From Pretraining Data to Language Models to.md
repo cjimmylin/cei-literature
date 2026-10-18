@@ -6,7 +6,7 @@ Not AI:
 key: UMMN7MU2
 type: conferencePaper
 short_title: "From Pretraining Data to Language Models to"
-year: 2025
+year: 2023
 first_author: "[[Shangbin Feng]]"
 last_author: "[[Yulia Tsvetkov]]"
 authors: "Shangbin Feng; Chan Young Park; Yuhan Liu; Yulia Tsvetkov"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, Alpaca, BART, BERT, ChatGPT, GPT-2, GPT-3, GPT-4, LLaMA, RoBERTa"
 DATA_URL: "https://github.com/BunsenFeng/PoliLean"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0277
 type: conferencePaper
 short_title: "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values"
-year: 2025
+year: 2024
 first_author: "[[Hu, Zhe]]"
 last_author: "[[Yin, Yu]]"
 authors: "Hu, Zhe; Ren, Yixiao; Li, Jing; Yin, Yu"
@@ -52,7 +52,7 @@ abstract: "Large vision language models (VLMs) have demonstrated significant pot
 LLM_assessed: "Claude, GPT-4, GPT-4V, LLaVA, MiniGPT-4"
 DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 5

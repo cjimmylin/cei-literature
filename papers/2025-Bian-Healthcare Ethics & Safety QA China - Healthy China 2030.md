@@ -52,7 +52,7 @@ LLM_assessed: "DeepSeek, Qwen"
 DATA_URL: "https://medbench.opencompass.org.cn/community/data-station"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

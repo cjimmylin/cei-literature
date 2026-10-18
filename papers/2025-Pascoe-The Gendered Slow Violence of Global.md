@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/3daf3891ea88138bdce2fbfa696b901601cd
 abstract: "Gender equality has become a required element of development and environmental governance regimes globally. However, local gender relations and understandings of equality are often marginalised within..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

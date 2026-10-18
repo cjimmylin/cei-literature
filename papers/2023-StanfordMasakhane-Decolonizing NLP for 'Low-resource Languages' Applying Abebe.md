@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0091
 type: conferencePaper
 short_title: "Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics"
-year: 2025
+year: 2023
 first_author: "[[Authors from Stanford/Masakhane]]"
 last_author: "[[Authors from StanfordMasakhane]]"
 authors: "Authors from Stanford/Masakhane"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership. Foundational framework paper for ethical African language NLP. Applies relational ethics (African tradition) to data sovereignty and community ownership. Essential context for values-aligned AI development."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. Unlike prior benchmarks that focus solely on demographic attributes, FairEval uniquely integrates personality traits with eight sensitive demographic attributes, including..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

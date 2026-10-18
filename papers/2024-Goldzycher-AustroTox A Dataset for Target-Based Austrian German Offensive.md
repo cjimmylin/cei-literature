@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0463
 type: preprint
 short_title: "AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection"
-year: 2025
+year: 2024
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Hanna Mahler]]"
 authors: "Janis Goldzycher; Anna Maria Planitzer; Claudia Pichler; Sebastian Pado; Hanna Mahler"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/rafaelgoldzy/AustroTox"
 tags: 
 abstract: "Model interpretability in toxicity detection greatly profits from token-level annotations. However, currently such annotations are only available in English. We introduce a dataset annotated for offensive language detection sourced from a news forum, notable for its incorporation of the Austrian German dialect, comprising 4,562 user comments. In addition to binary offensiveness classification, we identify spans within each comment constituting vulgar language or representing targets of..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

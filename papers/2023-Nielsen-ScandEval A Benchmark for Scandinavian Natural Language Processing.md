@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0478
 type: preprint
 short_title: "ScandEval: A Benchmark for Scandinavian Natural Language Processing"
-year: 2025
+year: 2023
 first_author: "[[Dan Nielsen]]"
 last_author: "[[Dan Nielsen]]"
 authors: "Dan Nielsen"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/saattrupdan/ScandEval"
 tags: 
 abstract: "This paper introduces a Scandinavian benchmarking platform, ScandEval, which can benchmark any pretrained model on four different tasks in the Scandinavian languages. The datasets used in two of the tasks, linguistic acceptability and question answering, are new. We develop and release a Python package and command-line interface, scandeval, which can benchmark any model that has been uploaded to the Hugging Face Hub, with reproducible results."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

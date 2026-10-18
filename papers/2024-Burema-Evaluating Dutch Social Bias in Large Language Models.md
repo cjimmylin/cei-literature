@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0484
 type: conferencePaper
 short_title: "Evaluating Dutch Social Bias in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Renate Burema]]"
 last_author: "[[Renate Burema]]"
 authors: "Renate Burema"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/renateburema/master"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used by people in their daily lives. However, LLMs can contain biases and express these biases in their responses. One of these biases is social bias, on which this thesis is focused. Furthermore, one form of social bias is a disparate treatment of individuals based on characterizations such as age, gender and race. It is therefore crucial to explore the possible biases within LLMs and to raise awareness."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

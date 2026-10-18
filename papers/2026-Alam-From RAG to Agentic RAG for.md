@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0305
 type: preprint
 short_title: "From RAG to Agentic RAG for"
-year: 2025
+year: 2026
 first_author: "[[Gagan Bhatia]]"
 last_author: "[[Firoj Alam]]"
 authors: "Gagan Bhatia; Hamdy Mubarak; Mustafa Jarrar; George Mikros; Fadi Zaraket; Mahmoud Alhirthani; Mutaz Al-Khatib; Logan Cochrane; Kareem Darwish; Rashid Yahiaoui; Firoj Alam"
@@ -53,7 +53,7 @@ LLM_assessed: "Qwen, Qwen-2, Mistral, Llama-2, Llama-3"
 DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

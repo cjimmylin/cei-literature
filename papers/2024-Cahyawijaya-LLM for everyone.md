@@ -6,7 +6,7 @@ Not AI:
 key: H9QH2GC6
 type: thesis
 short_title: "LLM for everyone"
-year: 2025
+year: 2024
 first_author: "[[Samuel Cahyawijaya]]"
 last_author: "[[Samuel Cahyawijaya]]"
 authors: "Samuel Cahyawijaya"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/IndoNLP/nusax"
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

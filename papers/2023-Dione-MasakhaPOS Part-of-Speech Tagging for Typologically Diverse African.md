@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0087
 type: conferencePaper
 short_title: "MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages"
-year: 2025
+year: 2023
 first_author: "[[Cheikh M. Bamba Dione]]"
 last_author: "[[Klakow, Dietrich]]"
 authors: "Cheikh M. Bamba Dione; Adelani, David; Nabende, Peter; Alabi, Jesujoba; Sindane, Thapelo; Buzaaba, Happy; Muhammad, Shamsuddeen Hassan; Emezue, Chris Chinenye; Ogayo, Perez; Aremu, Anuoluwapo; Gitau, Catherine; Mbaye, Derguene; Mukiibi, Jonathan; Sibanda, Blessing; Bonaventure F. P. Dossou; Bukula, Andiswa; Mabuya, Rooweither; Tapo, Allahsera Auguste; Munkoh-Buabeng, Edwin; Koagne, victoire Memdjokam; Kabore, Fatoumata Ouoba; Taylor, Amelia; Kalipe, Godson; Macucwa, Tebogo; Marivate, Vukosi; Gwadabe, Tajuddeen; Elvis, Mboning Tchiaze; Onyenwe, Ikechukwu; Atindogbe, Gratien; Adelani, Tolulope; Akinade, Idris; Samuel, Olanrewaju; Nahimana, Marien; Musabeyezu, Théogène; Niyomutabazi, Emile; Chimhenga, Ester; Gotosa, Kudzai; Mizha, Patrick; Agbolo, Apelete; Traore, Seydou; Uchechukwu, Chinedu; Yusuf, Aliyu; Abdullahi, Muhammad; Klakow, Dietrich"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/masakhane-io/masakhane-pos"
 tags: 
 abstract: "In this paper, we present MasakhaPOS, the largest part-of-speech (POS) dataset for 20 typologically diverse African languages. We discuss the challenges in annotating POS for these languages using the UD (universal dependencies) guidelines. We conducted extensive POS baseline experiments using conditional random field and several multilingual pretrained language models. We applied various cross-lingual transfer models trained with data available in UD."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

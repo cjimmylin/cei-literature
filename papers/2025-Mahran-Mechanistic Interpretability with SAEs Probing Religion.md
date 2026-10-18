@@ -52,7 +52,7 @@ abstract: "Despite growing research on bias in large language models (LLMs), mos
 LLM_assessed: "GPT-2, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/iug-htw/SAE_fairness"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0006
 type: conferencePaper
 short_title: "Emotional AI, Ethics, and Japanese Spice: Contributing Community, Wholeness, Sincerity, and Heart"
-year: 2025
+year: 2021
 first_author: "[[Andrew McStay]]"
 last_author: "[[Andrew McStay]]"
 authors: "Andrew McStay"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Examines Japanese philosophical thought from the Meiji Restoration onward (Fukuzawa, Nishida, Watsuji) and distills four ethical 'spices' — community, wholeness, sincerity, heart — for AI ethics. Discusses Shinto animism's influence on Japanese attitudes toward AI/robots and the concept of Wa (harmony) as shaped by Shinto and Confucian traditions."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

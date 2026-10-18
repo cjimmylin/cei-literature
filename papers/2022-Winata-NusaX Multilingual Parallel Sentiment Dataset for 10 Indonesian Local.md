@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0114
 type: preprint
 short_title: "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages"
-year: 2025
+year: 2022
 first_author: "[[Winata, Genta Indra]]"
 last_author: "[[Ruder, Sebastian]]"
 authors: "Winata, Genta Indra; Aji, Alham Fikri; Cahyawijaya, Samuel; Mahendra, Rahmad; Koto, Fajri; Romadhony, Ade; Kurniawan, Kemal; Moeljadi, David; Prasojo, Radityo Eko; Fung, Pascale; Baldwin, Timothy; Lau, Jey Han; Sennrich, Rico; Ruder, Sebastian"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/IndoNLP/nusax"
 tags: 
 abstract: "Natural language processing (NLP) has signiﬁcant impact on society via technologies such as machine translation and search engines. Despite its success, NLP technology is only widely available for high-resource languages such as English and Mandarin Chinese, and remains inaccessible to many languages due to the unavailability of data resources and benchmarks. In this work, we focus on developing resources for languages of Indonesia."
 CONFERENCE: "EACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

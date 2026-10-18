@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 5

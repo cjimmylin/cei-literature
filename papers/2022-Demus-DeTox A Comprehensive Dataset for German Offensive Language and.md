@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0462
 type: conferencePaper
 short_title: "DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis"
-year: 2025
+year: 2022
 first_author: "[[Christoph Demus]]"
 last_author: "[[Udo Kruschwitz]]"
 authors: "Christoph Demus; Jonas Pitz; Mina Schussler; Dirk Labudde; Udo Kruschwitz"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/hdaSprachtechnologie/detox"
 tags: 
 abstract: "In this work, we present a publicly available offensive language dataset (DeTox-dataset) containing 10,278 annotated German social media comments collected in the first half of 2021. With twelve different annotation categories annotated by six annotators, it is far more comprehensive than other datasets, and goes beyond just hate speech detection. The labels aim in particular also at toxicity, criminal relevance and discrimination types of comments."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

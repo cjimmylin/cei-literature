@@ -6,7 +6,7 @@ Not AI:
 key: 3JVW2NQF
 type: document
 short_title: HackAPrompt
-year: 2025
+year: 2023
 first_author: "[[Sander Schulhoff]]"
 last_author: "[[Boyd-Graber, Jordan]]"
 authors: "Schulhoff, Sander; Pinto, Jeremy; Khan, Anaum; Bouchard, Louis-François; Si, Chenglei; Anati, Svetlina; Tagliabue, Valen; Kost, Anson; Carnahan, Christopher; Boyd-Graber, Jordan"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Flan-T5, GPT-3"
 DATA_URL: NA
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

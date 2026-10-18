@@ -6,7 +6,7 @@ Not AI:
 key: PPTHRZIQ
 type: journalArticle
 short_title: "The PRISM Alignment Project"
-year: 2025
+year: 2024
 first_author: "[[Hannah Rose Kirk]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Katerina Margatina; Juan Ciro; Rafael Mosquera; Max Bartolo; Adina Williams; He He; Bertie Vidgen; Scott A. Hale"
@@ -54,7 +54,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

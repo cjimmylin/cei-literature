@@ -53,7 +53,7 @@ LLM_assessed: "ChatGPT, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4o, Gemini, Grok
 DATA_URL: "https://osf.io/69epv"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0596
 type: conference_paper
 short_title: "Re-contextualizing Fairness in NLP The Case"
-year: 2025
+year: 2022
 first_author: "[[Shaily Bhatt,]]"
 last_author: "[[Research, others (Google]]"
 authors: "Shaily Bhatt,; Research, others (Google"
@@ -52,7 +52,7 @@ abstract: "Recent research has revealed undesirable biases in NLP data and model
 LLM_assessed: BERT
 DATA_URL: "https://github.com/google-research-datasets/nlp-fairness-for-india"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

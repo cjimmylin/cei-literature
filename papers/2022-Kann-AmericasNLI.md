@@ -6,7 +6,7 @@ Not AI:
 key: 44HW3DVX
 type: journalArticle
 short_title: AmericasNLI
-year: 2025
+year: 2022
 first_author: "[[Katharina Kann]]"
 last_author: "[[Ngoc Thang Vu]]"
 authors: "Katharina Kann; Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; John E. Ortega; Annette Rios; Angela Fan; Ximena Gutierrez-Vasques; Luis Chiruzzo; Gustavo A. Giménez-Lugo; Ricardo Ramos; Ivan Vladimir Meza Ruiz; Elisabeth Mager; Vishrav Chaudhary; Graham Neubig; Alexis Palmer; Rolando Coto-Solano; Ngoc Thang Vu"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: XLM-R
 DATA_URL: "https://github.com/abteen/americasnli"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

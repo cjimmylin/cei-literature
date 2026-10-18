@@ -6,7 +6,7 @@ Not AI:
 key: FNNTFHWE
 type: conferencePaper
 short_title: MoralBench
-year: 2025
+year: 2024
 first_author: "[[Jianchao Ji]]"
 last_author: "[[Zhang, Yongfeng]]"
 authors: "Ji, Jianchao; Chen, Yutong; Jin, Mingyu; Xu, Wujiang; Hua, Wenyue; Zhang, Yongfeng"
@@ -67,7 +67,7 @@ DATA_URL: "https://github.com/agiresearch/MoralBench"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "KDD 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

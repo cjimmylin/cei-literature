@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0449
 type: conferencePaper
 short_title: "Cultural Differences in Bias? Origin and Gender Bias in Pre-Trained German and French Word Embeddings"
-year: 2025
+year: 2020
 first_author: "[[Mascha Kurpicz-Briki]]"
 last_author: "[[Mascha Kurpicz-Briki]]"
 authors: "Mascha Kurpicz-Briki"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Smart applications often rely on training data in form of text. If there is a bias in that training data, the decision of the applications might not be fair. Common training data has been shown to be biased towards different groups of minorities. However, there is no generic algorithm to determine the fairness of training data. One existing approach is to measure gender bias using word embeddings. Most research in this ﬁeld has been dedicated to the English language."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

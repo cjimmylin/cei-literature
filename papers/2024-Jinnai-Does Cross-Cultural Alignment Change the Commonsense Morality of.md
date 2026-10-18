@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0160
 type: conferencePaper
 short_title: "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?"
-year: 2025
+year: 2024
 first_author: "[[Y Jinnai]]"
 last_author: "[[Y Jinnai]]"
 authors: "Y Jinnai"
@@ -50,7 +50,7 @@ abstract: "Alignment of the language model with human preferences is a common ap
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

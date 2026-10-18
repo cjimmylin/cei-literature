@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) are increasingly shaping citizens’ inf
 LLM_assessed: "ChatGPT, Claude, Claude-2, Command-R, GPT-3.5, GPT-4o"
 DATA_URL: "https://github.com/janbatzner/GermanPartiesQA"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

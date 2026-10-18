@@ -53,7 +53,7 @@ tags:
 abstract: "Critiques the trivia-centered paradigm for cultural alignment evaluation. Advocates for 'intentionally cultural evaluation' examining cultural assumptions embedded in all evaluation aspects. Proposes HCI-inspired participatory methodologies for inclusive NLP research."
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

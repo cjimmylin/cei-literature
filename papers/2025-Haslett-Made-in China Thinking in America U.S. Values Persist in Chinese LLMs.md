@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "As large language models increasingly mediate access to information and facilitate decision-making, they are becoming instruments in soft power competitions between global actors such as the United States and China. So far, language models seem to be aligned with the values of Western countries, but evidence for this ethical bias comes mostly from models made by American companies. The current crop of stateof-the-art models includes several made in China, so we conducted the first large-scale..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

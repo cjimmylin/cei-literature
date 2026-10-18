@@ -2,14 +2,14 @@
 key: CGSR0116
 type: journalArticle
 short_title: "Ethics and diversity in artificial intelligence policies, strategies and initiatives"
-year: 2025
+year: 2022
 first_author: "[[Cathy Roche]]"
 authors: "Cathy Roche; P. J. Wall; Dave Lewis"
 url: "https://link.springer.com/article/10.1007/s43681-022-00218-9"
 abstract: "Ethics and diversity across global AI policies and strategies"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

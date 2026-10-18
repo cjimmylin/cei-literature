@@ -52,7 +52,7 @@ LLM_assessed: "Claude, GPT-5, Gemini, LLaMA, Qwen"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

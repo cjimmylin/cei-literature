@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/jkxr58/Deep-Learning-Model-with-BERT-and-Graph-Att
 tags: 
 abstract: "Sentiment analysis has become a transformative technology in various contexts, particularly in Natural Language Processing (NLP), social media analytics, and liter­ ary analysis, as it can extract information from a wide range of texts. The advance­ ments in deep learning, particularly with transformer models such as BERT and graph-based models like GATs, have enabled faster progress in analyzing complex language structures."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

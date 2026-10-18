@@ -6,7 +6,7 @@ Not AI:
 key: TNHI8F8M
 type: document
 short_title: Do-Not-Answer
-year: 2025
+year: 2024
 first_author: "[[Yuxia Wang]]"
 last_author: "[[Baldwin, Timothy]]"
 authors: "Wang, Yuxia; Li, Haonan; Han, Xudong; Nakov, Preslav; Baldwin, Timothy"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/Libr-AI/do-not-answer"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]
 CONFERENCE: "EACL 2024"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

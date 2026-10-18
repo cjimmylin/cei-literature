@@ -9,7 +9,7 @@ url: "https://www.brookings.edu/articles/ai-infrastructures-environmental-costs-
 abstract: "Environmental costs of AI infrastructure vs Pacific Island nations' sustainability needs"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

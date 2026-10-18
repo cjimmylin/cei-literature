@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

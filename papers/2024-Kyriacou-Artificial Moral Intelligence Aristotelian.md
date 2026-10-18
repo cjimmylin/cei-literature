@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_KYRIACOU2024
 type: journalArticle
 short_title: "Artificial Moral Intelligence Aristotelian"
-year: 2025
+year: 2024
 first_author: [[Kyriacou]]
 last_author: [[Christos]]
 authors: "Kyriacou; Christos"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0607
 type: preprint
 short_title: "LaoPLM Pre-trained Language Models for Lao"
-year: 2025
+year: 2021
 first_author: "[[Guilin Lin]]"
 last_author: "[[Weiwei Sun]]"
 authors: "Guilin Lin; Jie Fu; Weiwei Sun"
@@ -53,7 +53,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/GKLMIP/Yunshan-Cup-2020"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

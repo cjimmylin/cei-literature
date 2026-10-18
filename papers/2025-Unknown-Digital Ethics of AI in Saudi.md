@@ -9,7 +9,7 @@ url: "https://mjsl.usim.edu.my/index.php/jurnalmjsl/article/view/798"
 abstract: "AI digital ethics integrating Islamic values in Saudi Arabia and UAE"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

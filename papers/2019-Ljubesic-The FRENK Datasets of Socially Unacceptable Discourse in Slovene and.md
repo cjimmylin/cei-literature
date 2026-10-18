@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0346
 type: conferencePaper
 short_title: "The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English"
-year: 2025
+year: 2019
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Tomaz Erjavec]]"
 authors: "Nikola Ljubesic; Darja Fiser; Tomaz Erjavec"
@@ -53,7 +53,7 @@ tags:
 abstract: "In this paper we present datasets of Facebook comment threads to mainstream media posts in Slovene and English developed inside the Slovene national project FRENK3 which cover two topics, migrants and LGBT, and are manually annotated for diﬀerent types of socially unacceptable discourse (SUD). The main advantages of these datasets compared to the existing ones are identical sampling procedures, producing comparable data across languages and an annotation schema that takes into account six types..."
 research_topic: "Machine Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0182
 type: preprint
 short_title: "BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP"
-year: 2025
+year: 2024
 first_author: "[[Kabir, Mohsinul]]"
 last_author: "[[Hoque, Enamul]]"
 authors: "Kabir, Mohsinul; Islam, Mohammed Saidul; Laskar, Md Tahmid Rahman; Nayeem, Mir Tafseer; Bari, M Saiful; Hoque, Enamul"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/saidul-islam98/BenLLMeval"
 tags: 
 abstract: "Large Language Models (LLMs) have emerged as one of the most important breakthroughs in NLP for their impressive skills in language generation and other language-specific tasks. Though LLMs have been evaluated in various tasks, mostly in English, they have not yet undergone thorough evaluation in under-resourced languages such as Bengali (Bangla). To this end, this paper introduces BenLLM-Eval, which consists of a comprehensive evaluation of LLMs to benchmark their performance in the Bengali..."
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0111
 type: preprint
 short_title: "Maori Algorithmic Sovereignty: Idea, Principles, and Use"
-year: 2025
+year: 2024
 first_author: "[[Paul T. Brown]]"
 last_author: "[[Te Taka Keegan]]"
 authors: "Paul T. Brown; Daniel Wilson; Kiri West; Kirita-Rose Escott; Kiya Basabas; Ben Ritchie; Danielle Lucas; Ivy Taia; Natalie Kusabs; Te Taka Keegan"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

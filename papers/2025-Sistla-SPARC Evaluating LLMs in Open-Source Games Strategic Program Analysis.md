@@ -51,7 +51,7 @@ abstract: "Large Language Models’ (LLMs) programming capabilities enable their
 LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/swadeshs/llm-osgt"
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

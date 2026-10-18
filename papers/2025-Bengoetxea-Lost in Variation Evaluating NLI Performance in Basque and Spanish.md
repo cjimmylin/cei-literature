@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/HiTZ/XNLIvar"
 tags: 
 abstract: "In this paper, we evaluate the capacity of current language technologies to understand Basque and Spanish language varieties. We use Natural Language Inference (NLI) as a pivot task and introduce a novel, manually-curated parallel dataset in Basque and Spanish, along with their respective variants. Our empirical analysis of crosslingual and in-context learning experiments using encoder-only and decoderbased Large Language Models (LLMs) shows a performance drop when handling linguistic..."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

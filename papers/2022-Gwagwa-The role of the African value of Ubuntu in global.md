@@ -6,7 +6,7 @@ Not AI:
 key: YM8SFWAH
 type: journalArticle
 short_title: "The role of the African value of Ubuntu in global"
-year: 2025
+year: 2022
 first_author: "[[Arthur Gwagwa]]"
 last_author: "[[Airlie Hilliard]]"
 authors: "Arthur Gwagwa; Emre Kazim; Airlie Hilliard"
@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 5

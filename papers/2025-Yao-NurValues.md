@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, Gemini, Llama-3, Qwen, o1"
 DATA_URL: "https://huggingface.co/datasets/Ben012345/NurValues"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

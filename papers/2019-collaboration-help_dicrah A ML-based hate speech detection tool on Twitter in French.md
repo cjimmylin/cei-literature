@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0457
 type: conferencePaper
 short_title: "help_dicrah: A ML-based hate speech detection tool on Twitter (in French)"
-year: 2025
+year: 2019
 first_author: "[[Mik3M4n (DILCRAH collaboration)]]"
 last_author: "[[Mik3M4n (DILCRAH collaboration)]]"
 authors: "Mik3M4n (DILCRAH collaboration)"
@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/Mik3M4n/help_dicrah"
 tags: 
 abstract: "ML-based hate speech detection tool for French Twitter developed in collaboration with DILCRAH (French government interministerial delegation against racism and anti-LGBTQ+ hatred). Uses translated Hatebase.org lexicon filtered for French context. Complete pipeline from data collection to online detection tool."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

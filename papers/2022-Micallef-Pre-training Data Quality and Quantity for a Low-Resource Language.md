@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0548
 type: conferencePaper
 short_title: "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese"
-year: 2025
+year: 2022
 first_author: "[[Micallef, Kurt]]"
 last_author: "[[Borg, Claudia]]"
 authors: "Micallef, Kurt; Gatt, Albert; Tanti, Marc; Plas, Lonneke van der; Borg, Claudia"
@@ -53,7 +53,7 @@ tags:
 abstract: "Multilingual language models such as mBERT have seen impressive cross-lingual transfer to a variety of languages, but many languages remain excluded from these models. In this paper, we analyse the effect of pre-training with monolingual data for a low-resource language that is not included in mBERT – Maltese – with a range of pre-training set ups. We conduct evaluations with the newly pretrained models on three morphosyntactic tasks – dependency parsing, part-of-speech tagging, and..."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

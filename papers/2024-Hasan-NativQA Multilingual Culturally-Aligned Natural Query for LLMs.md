@@ -6,7 +6,7 @@ Not AI:
 key: CULT0160
 type: preprint
 short_title: "NativQA: Multilingual Culturally-Aligned Natural Query for LLMs"
-year: 2025
+year: 2024
 first_author: "[[Md Arid Hasan]]"
 last_author: "[[Firoj Alam]]"
 authors: "Md Arid Hasan; Maram Hasanain; Fatema Ahmad; Sahinur Rahman Laskar; Sunaya Upadhyay; Vrunda N Sukhadia; Mucahid Kutlu; Shammur Absar Chowdhury; Firoj Alam"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/QCRI/MultiNativQA"
 tags: 
 abstract: "Natural Question Answering (QA) datasets play a crucial role in evaluating the capabilities of large language models (LLMs), ensuring their effectiveness in real-world applications. Despite the numerous QA datasets that have been developed and some work has been done in parallel, there is a notable lack of a framework and large scale region-specific datasets queried by native users in their own languages."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

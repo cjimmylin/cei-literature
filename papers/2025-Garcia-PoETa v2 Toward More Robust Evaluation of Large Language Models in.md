@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/PoETaV2/PoETaV2"
 tags: 
 abstract: "Large Language Models (LLMs) exhibit significant variations in performance across linguistic and cultural contexts, underscoring the need for systematic evaluation in diverse languages. In this work, we present the most extensive evaluation of LLMs for the Portuguese language to date. Leveraging our newly introduced PoETa v2 benchmark – a comprehensive suite of over 40 tasks in Portuguese – we assess more than 20 models covering a broad spectrum of training scales and computational resources."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

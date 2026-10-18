@@ -2,14 +2,14 @@
 key: CGSR0049
 type: document
 short_title: "Between Buddhist Self-Enlightenment and Artificial Intelligence: South Korea Emerging as a New Balancer"
-year: 2025
+year: 2023
 first_author: "[[Jitendra Uttam]]"
 authors: "Jitendra Uttam"
 url: "https://www.mdpi.com/2077-1444/14/2/150"
 abstract: "South Korea balancing Buddhist self-enlightenment traditions with AI advancement"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

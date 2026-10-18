@@ -52,7 +52,7 @@ abstract: "Being able to thoroughly assess massive multitask language understand
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/ceferisbarov/TUMLU"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

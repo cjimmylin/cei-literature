@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0479
 type: conference_paper
 short_title: "Exploring Similarity Measures and Intertextuality in"
-year: 2025
+year: 2024
 first_author: "[[So Miyagawa]]"
 last_author: "[[Kyoko Amano]]"
 authors: "So Miyagawa; Yuki Kyogoku; Yuzuki Tsukagoshi; Kyoko Amano"
@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: "https://github.com/somiyagawa/VedicSanskrit"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

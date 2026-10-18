@@ -6,7 +6,7 @@ Not AI:
 key: WQ9NJRNZ
 type: conferencePaper
 short_title: "Improving Model Evaluation using SMART Filtering"
-year: 2025
+year: 2024
 first_author: "[[Vipul Gupta]]"
 last_author: "[[Adina Williams]]"
 authors: "Vipul Gupta; Candace Ross; David Pantoja; Rebecca J. Passonneau; Megan Ung; Adina Williams"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Gemma-2, Llama-3, Mixtral, Phi-3, Qwen-2, Yi"
 DATA_URL: NA
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

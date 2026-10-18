@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0192
 type: preprint
 short_title: "LLM Voting: Human Choices and AI Collective Decision-Making"
-year: 2025
+year: 2024
 first_author: "[[Joshua C. Yang]]"
 last_author: "[[Dirk Helbing]]"
 authors: "Joshua C. Yang; Damian Dailisan; Marcin Korecki; Carina I. Hausladen; Dirk Helbing"
@@ -52,7 +52,7 @@ abstract: "This paper investigates the voting behaviors of Large Language Models
 LLM_assessed: "GPT-4, Llama-2"
 DATA_URL: "https://github.com/joshuay1/zurich-pb-voting"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 30

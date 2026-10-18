@@ -52,7 +52,7 @@ abstract: "Content moderation systems powered by large language models (LLMs) ar
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, Mistral"
 DATA_URL: NA
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0566
 type: journal_article
 short_title: "Religion Theology and Philosophical Skills of"
-year: 2025
+year: 2023
 first_author: "[[Trepczynski, Marcin]]"
 last_author: "[[Marcin Trepczynski]]"
 authors: "Marcin Trepczynski"
@@ -52,7 +52,7 @@ abstract: "In this study, I demonstrate how religion and theology can be useful 
 LLM_assessed: "ChatGPT, Llama-2"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

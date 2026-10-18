@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: bookChapter
 short_title: "Normative Ethical Theory AI Ethics"
-year: 2025
+year: 2023
 first_author: "[[Paula Boddington]]"
 last_author: "[[Paula Boddington]]"
 authors: "Paula Boddington"
@@ -56,7 +56,7 @@ LLM_assessed: BERT
 DATA_URL: NA
 ethics_perspective: "Machine Ethics"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 60

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0529
 type: preprint
 short_title: "Social Bias in Large Language Models"
-year: 2025
+year: 2024
 first_author: [[Sadhu]]
 last_author: [[Saha]]
 authors: "Sadhu; Saha"
@@ -52,7 +52,7 @@ abstract: "The rapid growth of Large Language Models (LLMs) has put forward the 
 LLM_assessed: "GPT-3.5, GPT-4o, Llama-3, Claude-3"
 DATA_URL: "https://github.com/csebuetnlp/BanglaSocialBias"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

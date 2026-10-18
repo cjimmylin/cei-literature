@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0251
 type: preprint
 short_title: "EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models"
-year: 2025
+year: 2019
 first_author: "[[Hannah Rashkin]]"
 last_author: "[[Y-Lan Boureau]]"
 authors: "Hannah Rashkin; Eric Michael Smith; Margaret Li; Y-Lan Boureau"
@@ -51,7 +51,7 @@ abstract: "One challenge for dialogue agents is recognizing feelings in the conv
 LLM_assessed: BERT
 DATA_URL: "https://github.com/facebookresearch/EmpatheticDialogues"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

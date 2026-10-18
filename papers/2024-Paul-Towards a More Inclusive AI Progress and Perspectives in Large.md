@@ -6,7 +6,7 @@ Not AI:
 key: CULT0132
 type: preprint
 short_title: "Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language"
-year: 2025
+year: 2024
 first_author: "[[Paul, Ronny]]"
 last_author: "[[Dilip K. Prasad]]"
 authors: "Paul, Ronny; Buckchash, Himanshu; Parida, Shantipriya; Dilip K. Prasad"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

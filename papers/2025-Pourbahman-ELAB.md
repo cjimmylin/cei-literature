@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://huggingface.co/spaces/MCILAB/LLM_Alignment_Evaluation"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

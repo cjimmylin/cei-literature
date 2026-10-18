@@ -6,7 +6,7 @@ Not AI:
 key: YKYNNAQX
 type: document
 short_title: SALAD-Bench
-year: 2025
+year: 2024
 first_author: "[[Lijun Li]]"
 last_author: "[[Shao, Jing]]"
 authors: "Li, Lijun; Dong, Bowen; Wang, Ruohui; Hu, Xuhao; Zuo, Wangmeng; Lin, Dahua; Qiao, Yu; Shao, Jing"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
 pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Li-SALAD-Bench.pdf]]
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0493
 type: preprint
 short_title: "Indic-QA Benchmark A Multilingual Benchmark to"
-year: 2025
+year: 2024
 first_author: "[[Singh, Abhishek Kumar]]"
 last_author: "[[Ramakrishnan, Ganesh]]"
 authors: "Singh, Abhishek Kumar; kumar, Vishwajeet; Murthy, Rudra; Sen, Jaydeep; Mittal, Ashish; Ramakrishnan, Ganesh"
@@ -53,7 +53,7 @@ LLM_assessed: "BLOOM, Gemma, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/ayushayush591/IndicQA-Benchmark"
 ethics_perspective: "Bias & Fairness"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

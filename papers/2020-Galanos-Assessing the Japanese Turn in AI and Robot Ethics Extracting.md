@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0007
 type: conferencePaper
 short_title: "Assessing the Japanese Turn in AI and Robot Ethics: Extracting Meaningful Principles Between Exoticism and Empiricism in the Case of AIBO"
-year: 2025
+year: 2020
 first_author: "[[Vassilis Galanos]]"
 last_author: "[[Mary Reisel]]"
 authors: "Vassilis Galanos; Mary Reisel"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Critically examines the Western scholarship pattern of importing Japanese ethics (including Shinto values) into AI/robot ethics without deeper examination. Uses ethnographic study of cross-cultural debate about AIBO robot to assess whether Shinto-derived values are practically relevant to human-robot interaction."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

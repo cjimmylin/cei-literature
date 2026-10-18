@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0116
 type: preprint
 short_title: "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation"
-year: 2025
+year: 2021
 first_author: "[[Cahyawijaya, Samuel]]"
 last_author: "[[Fung, Pascale]]"
 authors: "Cahyawijaya, Samuel; Winata, Genta Indra; Wilie, Bryan; Vincentio, Karissa; Li, Xiaohong; Kuncoro, Adhiguna; Ruder, Sebastian; Lim, Zhi Yuan; Bahar, Syafri; Khodra, Masayu Leylia; Purwarianti, Ayu; Fung, Pascale"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/indobenchmark/indonlg"
 tags: 
 abstract: "Natural language generation (NLG) benchmarks provide an important avenue to measure progress and develop better NLG systems. Unfortunately, the lack of publicly available NLG benchmarks for low-resource languages poses a challenging barrier for building NLG systems that work well for languages with limited amounts of data. Here we introduce IndoNLG, the ﬁrst benchmark to measure natural language generation (NLG) progress in three low-resource—yet widely spoken— languages of Indonesia:..."
 CONFERENCE: "EMNLP 2021"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

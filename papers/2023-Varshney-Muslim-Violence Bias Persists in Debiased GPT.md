@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0562
 type: preprint
 short_title: "Muslim-Violence Bias Persists in Debiased GPT"
-year: 2025
+year: 2023
 first_author: "[[Babak Hemmatian]]"
 last_author: "[[Lav R. Varshney]]"
 authors: "Babak Hemmatian; Lav R. Varshney"
@@ -52,7 +52,7 @@ abstract: "Abid et al. (2021) showed a tendency in GPT-3 to generate mostly viol
 LLM_assessed: "ChatGPT, GPT-3"
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

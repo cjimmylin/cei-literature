@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0008
 type: conferencePaper
 short_title: "IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context"
-year: 2025
+year: 2024
 first_author: "[[Sahoo, Nihar Ranjan]]"
 last_author: "[[Bhattacharyya, Pushpak]]"
 authors: "Sahoo, Nihar Ranjan; Beria, Gyana Prakash; Bhattacharyya, Pushpak"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/sahoonihar/IndicCONAN"
 tags: 
 abstract: "Hate speech (HS) is a growing concern in many parts of the world, including India, where it has led to numerous instances of violence and discrimination. The development of effective counter-narratives (CNs) is a critical step in combating hate speech, but there is a lack of research in this area, especially in non-English languages. In this paper, we introduce a new dataset, IndicCONAN, of counter-narratives against hate speech in Hindi and Indian English."
 CONFERENCE: "AAAI 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

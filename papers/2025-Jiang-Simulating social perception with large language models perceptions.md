@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Leverages LLMs to simulate social perception around China's Common Prosperity agenda. Proposes CPP framework with dual-track qualitative/quantitative design. Fine-tunes base LLMs and evaluates on six-task pipeline covering social attitudes and survey simulation."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

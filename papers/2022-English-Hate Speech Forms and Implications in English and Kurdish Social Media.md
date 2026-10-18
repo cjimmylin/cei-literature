@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0166
 type: journalArticle
 short_title: "Hate Speech Forms and Implications in English and Kurdish Social Media"
-year: 2025
+year: 2022
 first_author: "[[English, Implications in]]"
 last_author: "[[Media.pdf, Kurdish Social]]"
 authors: "English, Implications in; Media.pdf, Kurdish Social"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Social media platforms have become a favorable way of communication, sharing opinion and views about different topics around the world freely. Freedom of expression or free speech is the right to say whatever one likes; it has been sometimes conflated with hate speech. The latter is a public communication that expresses hate or advocates violence toward a person or group based on their race, religion or sex."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

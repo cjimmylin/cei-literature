@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4, GPT-4o, GPT-3.5, Claude, Gemini, Mistral, Llama-2, Llama-3
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

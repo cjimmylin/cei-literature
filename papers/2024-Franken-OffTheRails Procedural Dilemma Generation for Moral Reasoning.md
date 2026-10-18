@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0278
 type: preprint
 short_title: "OffTheRails: Procedural Dilemma Generation for Moral Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Fränken, Jan-Philipp]]"
 last_author: "[[Gerstenberg, Tobias]]"
 authors: "Fränken, Jan-Philipp; Gandhi, Kanishk; Qiu, Tori; Khawaja, Ayesha; Noah D. Goodman; Gerstenberg, Tobias"
@@ -53,7 +53,7 @@ LLM_assessed: "Claude-2, GPT-4"
 DATA_URL: "https://github.com/cicl-stanford/moral-evals"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

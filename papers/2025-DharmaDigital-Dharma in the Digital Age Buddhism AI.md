@@ -10,7 +10,7 @@ publication_title: "Mind, Text, and Reality in Buddhist Studies"
 abstract: "Scholarly reflections on Buddhism and AI. Broader ethical concerns about AI alignment with Buddhist nonviolence and alleviation of suffering. Published in academic volume."
 external_pdf: 
 DOI: 
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

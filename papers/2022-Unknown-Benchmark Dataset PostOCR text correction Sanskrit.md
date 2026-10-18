@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0659
 type: preprint
 short_title: "A Benchmark and Dataset for Post-OCR text correction in Sanskrit"
-year: 2025
+year: 2022
 first_author: "[[Ayush Maheshwari]]"
 last_author: "[[Ganesh Ramakrishnan]]"
 authors: "Ayush Maheshwari; Nikhil Singh; Amrith Krishna; Ganesh Ramakrishnan"
@@ -52,7 +52,7 @@ abstract: "Sanskrit is a classical language with about 30 million extant manuscr
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

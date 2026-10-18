@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0360
 type: preprint
 short_title: "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Sang Truong]]"
 last_author: "[[Sanmi Koyejo]]"
 authors: "Sang Truong; Duc Nguyen; Toan Nguyen; Dong Le; Nhi Truong; Tho Quan; Sanmi Koyejo"
@@ -52,7 +52,7 @@ tags:
 abstract: "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets and metrics tailored for Vietnamese LLM evaluation."
 research_topic: "Machine Translation"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

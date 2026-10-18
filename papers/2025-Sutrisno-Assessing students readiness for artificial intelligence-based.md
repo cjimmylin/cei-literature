@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/59981d7a8f4a7609920c06e200d60587001e
 abstract: "Abstract The integration of artificial intelligence (AI) into higher education is reshaping learning practices globally, including in Indonesia, where technological advancement intersects with the nee..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

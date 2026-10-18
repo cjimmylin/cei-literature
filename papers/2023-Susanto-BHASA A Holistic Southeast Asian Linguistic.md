@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0551
 type: preprint
 short_title: "BHASA A Holistic Southeast Asian Linguistic"
-year: 2025
+year: 2023
 first_author: "[[Leong, Wei Qi]]"
 last_author: "[[Tjhi, William Chandra]]"
 authors: "Leong, Wei Qi; Ngui, Jian Gang; Susanto, Yosephine; Rengarajan, Hamsawardhini; Sarveswaran, Kengatharaiyer; Tjhi, William Chandra"
@@ -52,7 +52,7 @@ abstract: "The rapid development of Large Language Models (LLMs) and the emergen
 LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/aisingapore/BHASA"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ abstract: "Vision-language models (VLMs) have demonstrated impressive generaliza
 LLM_assessed: "GPT-4o, Gemini, Gemma, LLaMA"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0681
 type: conferencePaper
 short_title: "A roadmap for evaluating moral competence in large language models"
-year: 2025
+year: 2026
 first_author: [[Gabriel]]
 last_author: [[Gabriel]]
 authors: "Gabriel et al."
@@ -52,7 +52,7 @@ abstract: "Distinguishes moral performance from moral competence. Identifies 3 c
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

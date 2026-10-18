@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0085
 type: preprint
 short_title: "Typhoon: Thai Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[SCB 10X team]]"
 last_author: "[[SCB 10X team]]"
 authors: "SCB 10X team"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/scb10x/typhoon-7b"
 tags: 
 abstract: "Typhoon is a series of Thai large language models (LLMs) developed specifically for the Thai language. This technical report presents challenges and insights in developing Thai LLMs, including data preparation, pretraining, instructiontuning, and evaluation. As one of the challenges of low-resource languages is the amount of pretraining data, we apply continual training to transfer existing world knowledge from a strong LLM."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

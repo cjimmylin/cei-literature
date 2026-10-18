@@ -6,7 +6,7 @@ Not AI:
 key: RTSV27JH
 type: preprint
 short_title: ValueDCG
-year: 2025
+year: 2024
 first_author: "[[Zhaowei Zhang]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Fengshuo Bai; Jun Gao; Yaodong Yang"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Llama-3"
 DATA_URL: "https://github.com/zowiezhang/ValueDCG"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

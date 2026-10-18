@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0676
 type: preprint
 short_title: "The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making"
-year: 2025
+year: 2024
 first_author: [[Feffer]]
 last_author: [[Feffer]]
 authors: "Feffer et al."
@@ -52,7 +52,7 @@ abstract: "Creates a large corpus of human- and LLM-generated responses to moral
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

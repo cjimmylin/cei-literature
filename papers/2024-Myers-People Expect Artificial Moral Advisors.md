@@ -6,7 +6,7 @@ Not AI:
 key: MYERS2024COG
 type: journalArticle
 short_title: "People Expect AI Moral Advisors More Utilitarian"
-year: 2025
+year: 2024
 first_author: "[[Simon Myers]]"
 last_author: "[[Jim A.C. Everett]]"
 authors: "Simon Myers; Jim A.C. Everett"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 100

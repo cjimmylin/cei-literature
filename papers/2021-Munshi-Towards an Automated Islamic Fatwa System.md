@@ -6,7 +6,7 @@ Not AI:
 key: 8BMGS29D
 type: journalArticle
 short_title: "Towards an Automated Islamic Fatwa System"
-year: 2025
+year: 2021
 first_author: "[[Amr A. Munshi]]"
 last_author: "[[Majid Majid]]"
 authors: "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rakha; Ahmad A. Al Sallab; Ibrahim Alotaibi; Majid Majid"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: CULT0112
 type: conferencePaper
 short_title: "Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways"
-year: 2025
+year: 2024
 first_author: "[[Te Taka Keegan]]"
 last_author: "[[Te Taka Keegan]]"
 authors: "Te Taka Keegan"
@@ -51,7 +51,7 @@ tags:
 abstract: "Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

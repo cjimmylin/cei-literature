@@ -52,7 +52,7 @@ tags:
 abstract: "Abstract United Nations Development Programme worked to build a rights-based approach into each of its primary programming areas but with varying success. Access to justice programs, which seek to empower citizens through legal means, have important rights components. Work with the transgender community, for example, is clearly rights-oriented, as is Right to Information programming. Other areas have been less successful, but all have at least tried to consider what rights mean. The overall impression is of an agency that recognizes the important rights challenges, but has not yet fully decided what they mean for programming, or how they sit next to more traditional interventions."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

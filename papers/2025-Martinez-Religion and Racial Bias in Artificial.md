@@ -58,7 +58,7 @@ abstract: "Examines whether LLMs hold implicit assumptions about religious ident
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

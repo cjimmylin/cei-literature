@@ -6,7 +6,7 @@ Not AI:
 key: CULT0034
 type: preprint
 short_title: "Measuring Taiwanese Mandarin Language Understanding (TMLU)"
-year: 2025
+year: 2024
 first_author: "[[Po-Heng Chen]]"
 last_author: "[[Yun-Nung Chen]]"
 authors: "Po-Heng Chen; Sijia Cheng; Wei-Lin Chen; Yen-Ting Lin; Yun-Nung Chen"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/miulab/tmlu"
 tags: 
 abstract: "The evaluation of large language models (LLMs) has drawn substantial attention in the field recently. This work focuses on evaluating LLMs in a Chinese context, specifically, for Traditional Chinese which has been largely underrepresented in existing benchmarks. We present TMLU, a holistic evaluation suit tailored for assessing the advanced knowledge and reasoning capability in LLMs, under the context of Taiwanese Mandarin."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

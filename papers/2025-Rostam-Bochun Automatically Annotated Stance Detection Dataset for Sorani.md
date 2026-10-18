@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "First Kurdish stance detection dataset with 2,174 news articles (economic and political) from 2024-2025. Pattern-recognition annotation with 4,243 adjectives/verbs for stance classification."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

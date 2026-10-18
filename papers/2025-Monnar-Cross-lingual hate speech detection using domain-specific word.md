@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/aymeam/Datasets-for-Hate-Speech-Detection"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: VKHURJCT
 type: conferencePaper
 short_title: "Towards ethical multimodal systems"
-year: 2025
+year: 2023
 first_author: "[[Alexis Roger]]"
 last_author: "[[Irina Rish]]"
 authors: "Alexis Roger; Esma Aïmeur; Irina Rish"
@@ -66,7 +66,7 @@ DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

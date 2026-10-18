@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0475
 type: preprint
 short_title: "Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language"
-year: 2025
+year: 2024
 first_author: "[[Gautam Kishore Shahi]]"
 last_author: "[[Tim A. Majchrzak]]"
 authors: "Gautam Kishore Shahi; Tim A. Majchrzak"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Gautamshahi/BilingualYouTubeHateSpeech"
 tags: 
 abstract: "Hate speech has grown into a pervasive phenomenon, intensifying during times of crisis, elections, and social unrest. Multiple approaches have been developed to detect hate speech using artificial intelligence, but a generalized model is yet unaccomplished. The challenge for hate speech detection as text classification is the cost of obtaining high-quality training data. This study focuses on detecting bilingual hate speech in YouTube comments and measuring the impact of using additional data..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0311
 type: conferencePaper
 short_title: "RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora"
-year: 2025
+year: 2022
 first_author: "[[Dementieva, Daryna]]"
 last_author: "[[Alexander Panchenko]]"
 authors: "Dementieva, Daryna; Varvara Logacheva; Nikishina, Irina; Fenogenova, Alena; Dale, David; Krotova, I.; Semenov, Nikita; Shavrina, Tatiana; Alexander Panchenko"
@@ -53,7 +53,7 @@ tags:
 abstract: "Text detoxification is the task of rewriting a toxic text into a neutral text while preserving its original content. It has a wide range of applications, e.g. moderation of output of neural chatbots or suggesting less emotional version of posts on social networks. This paper provides a description of RUSSE-2022 competition of detoxification methods for the Russian language. This is the first competition which features (i) parallel training data and (ii) manual evaluation."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

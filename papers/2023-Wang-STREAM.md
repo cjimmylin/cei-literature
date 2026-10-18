@@ -6,7 +6,7 @@ Not AI:
 key: WNSIZZ6S
 type: conferencePaper
 short_title: STREAM
-year: 2025
+year: 2023
 first_author: "[[Yuwei Wang]]"
 last_author: "[[Yi Zeng]]"
 authors: "Yuwei Wang; Enmeng Lu; Zizhe Ruan; Yao Liang; Yi Zeng"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://safe-and-ethical.ai/stream/en"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 15
 utilitarian_ethics: 5

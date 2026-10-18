@@ -6,7 +6,7 @@ Not AI:
 key: 7SYVF7GD
 type: conferencePaper
 short_title: "Towards Measuring and Modeling \"
-year: 2025
+year: 2024
 first_author: "[[Muhammad Farid Adilazuarda]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Muhammad Farid Adilazuarda; Sagnik Mukherjee; Pradhyumna Lavania; Siddhant Singh; Alham Fikri Aji; Jacki O'Neill; Ashutosh Modi; Monojit Choudhury"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

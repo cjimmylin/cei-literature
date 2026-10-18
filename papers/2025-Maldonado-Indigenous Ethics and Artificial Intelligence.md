@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

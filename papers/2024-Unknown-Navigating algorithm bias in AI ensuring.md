@@ -2,14 +2,14 @@
 key: CGSR0018
 type: document
 short_title: "Navigating algorithm bias in AI: ensuring fairness and trust in Africa"
-year: 2025
+year: 2024
 first_author: "[[Notice Pasipamire]]"
 authors: "Notice Pasipamire; Abton Muroyiwa"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11540688/"
 abstract: "Algorithmic bias, fairness, and trust in African AI deployment"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

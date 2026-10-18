@@ -6,7 +6,7 @@ Not AI:
 key: FQ6AW6NE
 type: conferencePaper
 short_title: "Characteristics of Harmful Text"
-year: 2025
+year: 2022
 first_author: "[[Maribeth Rauh]]"
 last_author: "[[Lisa Anne Hendricks]]"
 authors: "Maribeth Rauh; John Mellor; Jonathan Uesato; Po-Sen Huang; Johannes Welbl; Laura Weidinger; Sumanth Dathathri; Amelia Glaese; Geoffrey Irving; Iason Gabriel; William Isaac; Lisa Anne Hendricks"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NeurIPS 2022"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0553
 type: preprint
 short_title: "Building Domain-Specific LLMs Faithful To The"
-year: 2025
+year: 2023
 first_author: "[[Shabaz Patel]]"
 last_author: "[[Rayhan Patel]]"
 authors: "Shabaz Patel; Hassan Kane; Rayhan Patel"
@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) have demonstrated remarkable performance
 LLM_assessed: "GPT-3.5, GPT-4, LLaMA"
 DATA_URL: "https://github.com/shabazpatel/domain-specific-llm"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

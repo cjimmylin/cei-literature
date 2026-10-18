@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0478
 type: preprint
 short_title: "Evaluating Telugu Proficiency in Large Language"
-year: 2025
+year: 2024
 first_author: "[[Katikela Sreeharsha Kishore]]"
 last_author: "[[Rahimanuddin Shaik]]"
 authors: "Katikela Sreeharsha Kishore; Rahimanuddin Shaik"
@@ -52,7 +52,7 @@ abstract: "Comparative analysis of ChatGPT and Gemini on Telugu language profici
 LLM_assessed: "ChatGPT, Gemini"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

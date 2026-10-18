@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0280
 type: conferencePaper
 short_title: "Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants"
-year: 2025
+year: 2021
 first_author: "[[Flor Plaza-del-Arco]]"
 last_author: "[[Villaseñor-Pineda, Luis]]"
 authors: "Flor Plaza-del-Arco; Casavantes, Marco; Escalante, Hugo Jair; Valdivia, M. T. M.; Montejo-Ráez, Arturo; Gómez, M. M. Y.; Jarquín-Vásquez, H.; Villaseñor-Pineda, Luis"
@@ -52,7 +52,7 @@ DATA_URL: "https://competitions.codalab.org/competitions/28679"
 tags: 
 abstract: "This paper is an overview of MeOﬀendES 2021, organized at IberLEF 2021 and co-located with the 37th International Conference of the Spanish Society for Natural Language Processing (SEPLN 2021). The main purpose of MeOﬀendEs is to promote research on the detection of oﬀensive language in Spanish variants. The shared task involve four subtasks, the ﬁrst two correspond to the identiﬁcation of oﬀensive language categories in generic Spanish texts from diﬀerent social media platforms, while subtasks..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

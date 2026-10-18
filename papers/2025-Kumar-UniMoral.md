@@ -5,7 +5,7 @@ authors: "Shivani Kumar, David Jurgens"
 abstract: "We present UniMoral, a multilingual moral reasoning benchmark covering six languages (Arabic, Chinese, English, Hindi, Russian, Spanish). UniMoral draws on established moral development instruments including Kohlberg's Moral Judgment Interview, Rest's Defining Issues Test, and Lind's Moral Competence Test, along with real-world moral scenarios from Reddit. We evaluate multiple LLMs and find significant cross-lingual variation in moral reasoning."
 doi: 10.18653/v1/2025.acl-long.294
 arxiv_id: 2502.14083
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 40
 deontological_ethics: 50
 utilitarian_ethics: 30

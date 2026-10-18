@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0719
 type: conferencePaper
 short_title: "A curated dataset for hate speech detection on social media text - PMC"
-year: 2025
+year: 2024
 first_author: [[Kajiwara]]
 last_author: [[Kajiwara]]
 authors: Kajiwara
@@ -56,7 +56,7 @@ DATA_URL: NA
 tags: 
 abstract: "Chemical named entity recognition (NER) models are used in many downstream tasks, from adverse drug reaction identification to pharmacoepidemiology. However, it is unknown whether these models work the same for everyone. Performance disparities can potentially cause harm rather than the intended good. This paper assesses gender-related performance disparities in chemical NER systems. We develop a framework for measuring gender bias in chemical NER models using synthetic data and a newly..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ tags:
 abstract: "Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

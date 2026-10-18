@@ -52,7 +52,7 @@ abstract: "The rapid advancement of language models (LMs) necessitates robust al
 LLM_assessed: "GPT-4, Llama-3, Mistral, Qwen"
 DATA_URL: "https://www.synthlabs.ai/research/persona"
 CONFERENCE: "COLING 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

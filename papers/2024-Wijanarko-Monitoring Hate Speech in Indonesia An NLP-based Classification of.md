@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0123
 type: conferencePaper
 short_title: "Monitoring Hate Speech in Indonesia: An NLP-based Classification of Social Media Texts"
-year: 2025
+year: 2024
 first_author: [[Wijanarko]]
 last_author: [[Wijaya]]
 authors: "Wijanarko; Susanto; Pratama; Idris; Hong; Wijaya"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Online hate speech propagation is a complex issue, deeply influenced by both the perpetrator and the target’s cultural, historical, and societal contexts. Consequently, developing a universally robust hate speech classifier for diverse social media texts remains a challenging and unsolved task. The lack of mechanisms to track the spread and severity of hate speech further complicates the formulation of effective solutions."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

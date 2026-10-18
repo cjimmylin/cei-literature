@@ -53,7 +53,7 @@ LLM_assessed: "Claude, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://jl3676.github.io/SafetyAnalyst/"
 research_topic: Other
 CONFERENCE: "ICML 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -6,7 +6,7 @@ Not AI:
 key: WRIGHT2020
 type: conferencePaper
 short_title: "Deontic Logic for Rightful Machines"
-year: 2025
+year: 2020
 first_author: [[Wright]]
 last_author: "[[Ava Thomas]]"
 authors: "Wright; Ava Thomas"
@@ -55,7 +55,7 @@ research_topic: "Machine Ethics"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "AAAI 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 0

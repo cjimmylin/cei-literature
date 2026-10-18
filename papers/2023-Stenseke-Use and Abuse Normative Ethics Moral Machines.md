@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: bookChapter
 short_title: "Use and Abuse Normative Ethics Moral Machines"
-year: 2025
+year: 2023
 first_author: "[[Jakob Stenseke]]"
 last_author: "[[Jakob Stenseke]]"
 authors: "Jakob Stenseke"
@@ -56,7 +56,7 @@ LLM_assessed: NA
 DATA_URL: NA
 ethics_perspective: "General Ethics"
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50

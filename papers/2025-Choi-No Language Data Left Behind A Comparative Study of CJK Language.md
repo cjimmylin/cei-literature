@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Recent advances in Natural Language Processing (NLP) have underscored the crucial role of high-quality datasets in building large language models (LLMs). However, while extensive resources and analyses exist for English, the landscape for East Asian languages, particularly Chinese, Japanese, and Korean (CJK), remains fragmented and underexplored, despite these languages serving over 1.6 billion speakers."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

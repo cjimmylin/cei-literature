@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/616124c100ad1ea940b98e0489bcf31d7389
 abstract: "ABSTRACT The advancement of artificial intelligence (AI) in higher education calls for leadership approaches that uphold humanistic values. In the context of Buddhist higher education, this demand ali..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -53,7 +53,7 @@ DATA_URL: "https://osf.io/ubcye"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used not only to generate text but also to evaluate it, raising urgent questions about whether their judgments are consistent, unbiased, and robust to framing effects. In this study, we systematically examine inter- and intra-model agreement across four state-of-the-art LLMs – OpenAI o3-mini, Deepseek Reasoner, xAI Grok 2, and Mistral – tasked with evaluating 4,800 narrative statements on 24 different topics of social, political, and public health..."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

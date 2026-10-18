@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/KORPUS-DB/KOGENT"
 tags: 
 abstract: "1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity. Spans legislative sessions 1948-2024. GPT-4.1 achieves 87.5-91.2% F1. Reveals LLM limitations in culturally specific terminology."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

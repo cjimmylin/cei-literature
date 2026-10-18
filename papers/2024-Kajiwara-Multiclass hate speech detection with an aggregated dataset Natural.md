@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0721
 type: conferencePaper
 short_title: "Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core"
-year: 2025
+year: 2024
 first_author: [[Kajiwara]]
 last_author: [[Kajiwara]]
 authors: Kajiwara
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Detecting and removing hate speech content in a timely manner remains a challenge for social media platforms. Automated techniques such as deep learning models offer solutions which can keep up with the volume and velocity of user content production. Research in this area has mainly focused on either binary classiﬁcation or on classifying tweets into generalised categories such as hateful, offensive, or neither."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

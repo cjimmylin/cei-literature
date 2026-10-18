@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0316
 type: preprint
 short_title: "X-MuTeST A Multilingual Benchmark for Explainable"
-year: 2025
+year: 2026
 first_author: "[[Rehman, Mohammad Zia Ur]]"
 last_author: "[[Kumar, Nagendra]]"
 authors: "Rehman, Mohammad Zia Ur; Kasu, Sai Kartheek Reddy; Koppula, Shashivardhan Reddy; Chirra, Sai Rithwik Reddy; Singh, Shwetank Shekhar; Kumar, Nagendra"
@@ -52,7 +52,7 @@ abstract: "Hate speech detection on social media faces challenges in both accura
 LLM_assessed: "GPT-4o, Llama-3, Mistral, BERT"
 DATA_URL: "https://huggingface.co/datasets/UVSKKR/X-MuTeST"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

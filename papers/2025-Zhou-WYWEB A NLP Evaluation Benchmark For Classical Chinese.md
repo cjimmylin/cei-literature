@@ -53,7 +53,7 @@ tags:
 abstract: "To fully evaluate the overall performance of different NLP models in a given domain, many evaluation benchmarks are proposed, such as GLUE, SuperGLUE and CLUE. The field of natural language understanding has traditionally focused on benchmarks for various tasks in languages such as Chinese, English, and multilingual, however, there has been a lack of attention given to the area of classical Chinese, also known as 'wen yan wen (文言文)', which has a rich history spanning thousands of years and..."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

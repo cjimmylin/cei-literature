@@ -54,7 +54,7 @@ tags:
 abstract: "Entity relationship extraction tasks conducted in low-resource language domains (such as the medical and military domains) have long faced signiﬁcant challenges, and data augmentation (DA) is considered an effective solution for addressing this issue. Compared with monolingual DA methods, cross-lingual augmentation methods more effectively enhance the diversity of data in low-resource language settings by leveraging and extending data resources derived from other languages."
 research_topic: "Machine Translation"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0

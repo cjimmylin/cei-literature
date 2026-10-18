@@ -6,7 +6,7 @@ Not AI:
 key: CULT0046
 type: preprint
 short_title: "How Chinese are Chinese Language Models? The Puzzling Lack of Language Policy in China's LLMs"
-year: 2025
+year: 2024
 first_author: "[[Andrea W Wen-Yi]]"
 last_author: "[[David Mimno]]"
 authors: "Andrea W Wen-Yi; Unso Eun Seo Jo; Lu Jia Lin; David Mimno"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Explores how Chinese LLM developers navigate language diversity. Evaluates six open-source Chinese multilingual LLMs on minority languages including Lhasa Tibetan, Jingpho, Kazakh, and Northern Uzbek. Chinese LLMs' performance on diverse languages is indistinguishable from international LLMs. No PRC policy on minority language performance in LLMs."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

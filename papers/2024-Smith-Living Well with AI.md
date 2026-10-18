@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_SMITH2024
 type: journalArticle
 short_title: "Living Well with AI"
-year: 2025
+year: 2024
 first_author: "[[Nicholas Smith]]"
 last_author: "[[Vickers, Darby]]"
 authors: "Smith, Nicholas; Vickers, Darby"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 100

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0260
 type: preprint
 short_title: "VAPT: Value-Alignment Perception Toolkit"
-year: 2025
+year: 2026
 first_author: "[[Yun, Bhada]]"
 last_author: "[[Wang, April Yi]]"
 authors: "Yun, Bhada; Su, Renn; Wang, April Yi"
@@ -52,7 +52,7 @@ abstract: "Does AI understand human values? While this remains an open philosoph
 LLM_assessed: Claude
 DATA_URL: "https://github.com/KaluJo/chatbot-study"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

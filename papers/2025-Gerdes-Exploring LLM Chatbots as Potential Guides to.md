@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

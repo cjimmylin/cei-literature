@@ -52,7 +52,7 @@ abstract: "Hate speech and abusive language are global phenomena that need socio
 LLM_assessed: "BERT, Gemma, Gemma-2, GPT-4o, Llama-3, T5"
 DATA_URL: "https://github.com/AfriHate/AfriHate"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

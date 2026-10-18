@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0659
 type: preprint
 short_title: "The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets"
-year: 2025
+year: 2024
 first_author: "[[Yu, Zehui]]"
 last_author: "[[Wagner, Claudia]]"
 authors: "Yu, Zehui; Sen, Indira; Assenmacher, Dennis; Samory, Mattia; Fröhling, Leon; Dahn, Christina; Nozza, Debora; Wagner, Claudia"
@@ -53,7 +53,7 @@ tags:
 abstract: "Warning: This paper discusses and contains content that is offensive or upsetting. Machine learning (ML)-based content moderation tools are essential to keep online spaces free from hateful communication. Yet, ML tools can only be as capable as the quality of the data they are trained on allows them. While there is increasing evidence that they underperform in detecting hateful communications directed towards specific identities and may discriminate against them, we know surprisingly little..."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

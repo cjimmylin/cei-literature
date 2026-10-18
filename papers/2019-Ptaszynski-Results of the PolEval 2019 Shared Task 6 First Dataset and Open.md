@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0339
 type: conferencePaper
 short_title: "Results of the PolEval 2019 Shared Task 6: First Dataset and Open Shared Task for Automatic Cyberbullying Detection in Polish Twitter"
-year: 2025
+year: 2019
 first_author: "[[Michal Ptaszynski]]"
 last_author: "[[Pawel Dybala]]"
 authors: "Michal Ptaszynski; Agata Pieciukiewicz; Pawel Dybala"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "First shared task for automatic cyberbullying detection in Polish Twitter, distinguishing harmful tweets as cyberbullying (targeting private persons) or hate-speech (targeting public entities). 14 submissions."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/ola-krutrim/BharatBench"
 tags: 
 abstract: "This paper presents a comprehensive evaluation of Foundation AI models in multilingual and multimodal contexts, addressing their performance, adaptability, and limitations. With the increasing globalization of digital content and the rise of multi-modal data, understanding how Large Language Models (LLMs) operate across diverse languages and modes of information is critical. We introduce BharatBench as an evaluation framework benchmarking the performance of multilingual LLMs."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

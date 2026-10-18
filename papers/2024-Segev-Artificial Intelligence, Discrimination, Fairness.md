@@ -6,7 +6,7 @@ Not AI:
 key: SEGEV2024
 type: journalArticle
 short_title: "Artificial Intelligence, Discrimination, Fairness"
-year: 2025
+year: 2024
 first_author: "[[Re'em Segev]]"
 last_author: "[[Re'em Segev]]"
 authors: "Re'em Segev"
@@ -54,7 +54,7 @@ research_topic: "AI Ethics"
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0176
 type: conferencePaper
 short_title: "GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations"
-year: 2025
+year: 2024
 first_author: "[[Jinhao Duan]]"
 last_author: "[[Kaidi Xu]]"
 authors: "Jinhao Duan; Renming Zhang; James Diffenderfer; Bhavya Kailkhura; Lichao Sun; Elias Stengel-Eskin; Mohit Bansal; Tianlong Chen; Kaidi Xu"
@@ -51,7 +51,7 @@ abstract: "As Large Language Models (LLMs) are integrated into critical real-wor
 LLM_assessed: "CodeLlama, GPT-3.5, GPT-4, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/jinhaoduan/GTBench"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

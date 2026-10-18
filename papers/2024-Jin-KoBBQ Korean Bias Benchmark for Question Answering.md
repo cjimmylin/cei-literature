@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0239
 type: preprint
 short_title: "KoBBQ: Korean Bias Benchmark for Question Answering"
-year: 2025
+year: 2024
 first_author: "[[Jiho Jin]]"
 last_author: "[[Mark Hasegawa-Johnson]]"
 authors: "Jiho Jin; Jiseon Kim; Nayeon Lee; Haneul Yoo; Alice Oh; Mark Hasegawa-Johnson"
@@ -52,7 +52,7 @@ DATA_URL: "https://jinjh0123.github.io/KoBBQ"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. The Bias Benchmark for Question Answering (BBQ) is designed to evaluate social biases of language models (LMs), but it is not simple to adapt this benchmark to cultural contexts other than the US because social biases depend heavily on the cultural context. In this paper, we present KoBBQ, a Korean bias benchmark dataset, and we propose a general framework that addresses considerations for cultural adaptation of a dataset."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

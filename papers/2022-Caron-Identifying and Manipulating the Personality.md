@@ -6,7 +6,7 @@ Not AI:
 key: PSH3WPB6
 type: conferencePaper
 short_title: "Identifying and Manipulating the Personality"
-year: 2025
+year: 2022
 first_author: "[[Graham Caron]]"
 last_author: "[[Shashank Srivastava]]"
 authors: "Graham Caron; Shashank Srivastava"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

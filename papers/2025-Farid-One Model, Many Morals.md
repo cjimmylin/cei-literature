@@ -54,7 +54,7 @@ publication: "ICLR 2026"
 CONF-CC: "ICLR 2026"
 DATE_ADDED: 20260207
 CONFERENCE: "ICLR 2026"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

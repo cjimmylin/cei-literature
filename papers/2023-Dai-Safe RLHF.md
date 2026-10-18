@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Safe RLHF"
-year: 2025
+year: 2023
 first_author: "[[Josef Dai]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Josef Dai; Xuehai Pan; Ruiyang Sun; Jiaming Ji; Xinbo Xu; Mickel Liu; Yizhou Wang; Yaodong Yang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, LLaMA"
 DATA_URL: "https://github.com/PKU-Alignment/safe-rlhf"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

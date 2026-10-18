@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0625
 type: conferencePaper
 short_title: "New instances classification framework on Quran ontology applied to question answering system"
-year: 2025
+year: 2019
 first_author: "[[F. S. Utomo]]"
 last_author: "[[M. S. Azmi]]"
 authors: "F. S. Utomo; N. Suryana; M. S. Azmi"
@@ -52,7 +52,7 @@ abstract: "Instances classification with the small dataset for Quran ontology is
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

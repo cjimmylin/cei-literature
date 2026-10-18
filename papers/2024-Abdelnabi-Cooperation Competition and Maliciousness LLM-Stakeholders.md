@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0155
 type: conferencePaper
 short_title: "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation"
-year: 2025
+year: 2024
 first_author: "[[Sahar Abdelnabi]]"
 last_author: "[[Mario Fritz]]"
 authors: "Sahar Abdelnabi; Amr Gomaa; Sarath Sivaprasad; Lea Schönherr; Mario Fritz"
@@ -51,7 +51,7 @@ abstract: "There is an growing interest in using Large Language Models (LLMs) in
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://github.com/S-Abdelnabi/LLM-Deliberation"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

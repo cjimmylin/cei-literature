@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Part 1 The background to Green reporting: the implications of current trends in Green awareness for the accounting function - an introductory analysis. Part 2 The future of Green reporting: industry and commerce the trade union movement the accounting profession Green pressure groups the investor. Part 3 Green awareness - current trends: environmental disclosures in corporate annual reports in Western Europe current trends in the reporting of Green issues in the annual reports of United Kingdom companies environmental management in practice the social audit movement Green investment. Part 4 The further development of Green reporting: developing Green reporting systems - some practical implications."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

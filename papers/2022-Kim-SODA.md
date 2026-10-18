@@ -6,7 +6,7 @@ Not AI:
 key: FH9JBZUW
 type: conferencePaper
 short_title: SODA
-year: 2025
+year: 2022
 first_author: "[[Hyunwoo Kim]]"
 last_author: "[[Yejin Choi]]"
 authors: "Hyunwoo Kim; Jack Hessel; Liwei Jiang; Peter West; Ximing Lu; Youngjae Yu; Pei Zhou; Ronan Le Bras; Malihe Alikhani; Gunhee Kim; Maarten Sap; Yejin Choi"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, T5"
 DATA_URL: "https://hyunw.kim/sodaverse"
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

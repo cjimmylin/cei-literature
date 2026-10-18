@@ -6,7 +6,7 @@ Not AI:
 key: JTP6EDJI
 type: conferencePaper
 short_title: HateXplain
-year: 2025
+year: 2020
 first_author: "[[Binny Mathew]]"
 last_author: "[[Animesh Mukherjee]]"
 authors: "Binny Mathew; Punyajoy Saha; Seid Muhie Yimam; Chris Biemann; Pawan Goyal; Animesh Mukherjee"
@@ -55,7 +55,7 @@ LLM_assessed: BERT
 DATA_URL: "https://github.com/punyajoy/HateXplain"
 DATE_ADDED: 20260213
 CONFERENCE: "AAAI 2020"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

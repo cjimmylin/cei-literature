@@ -51,7 +51,7 @@ abstract: "The safety and alignment of Large Language Models (LLMs) are critical
 LLM_assessed: "Claude, DeepSeek, Gemini, Grok, Qwen"
 DATA_URL: NA
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

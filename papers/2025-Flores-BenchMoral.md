@@ -53,7 +53,7 @@ publication: "EA Forum"
 CONF-CC: N/A
 DATE_ADDED: 20260213
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 30

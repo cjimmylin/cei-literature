@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Meta-analysis of 2,000+ multilingual benchmarks. Spanish among top high-resource languages represented. Analyzes effectiveness gap between English and Spanish across model quality/size. Gap inversely correlated with model quality."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

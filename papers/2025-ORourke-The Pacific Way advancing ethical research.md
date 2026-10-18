@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/8d087916ac0f00f4afd2a0ac369df8d4bcdf
 abstract: "Summary Ethical research governance across Pacific island countries and areas (PICs) faces challenges from limited local capacity and disproportionate external influences. However, a shared commitment..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

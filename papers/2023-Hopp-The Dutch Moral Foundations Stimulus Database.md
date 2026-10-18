@@ -6,7 +6,7 @@ Not AI:
 key: YHKDR9CQ
 type: journalArticle
 short_title: "The Dutch Moral Foundations Stimulus Database"
-year: 2025
+year: 2023
 first_author: "[[Franziska Hopp]]"
 last_author: "[[Franziska Hopp]]"
 authors: "Franziska Hopp"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/9gnza"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

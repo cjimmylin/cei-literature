@@ -51,7 +51,7 @@ abstract: "Recent advancements in Large Language Models (LLMs) have enabled them
 LLM_assessed: "Claude, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/PLUM-Lab/PersuSafety"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

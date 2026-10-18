@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: VVVLTVIR
 type: journalArticle
-year: 2025
+year: 2023
 short_title: VisAlign
 first_author: "[[Jiyoung Lee]]"
 last_author: "[[Edward Choi]]"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: "https://github.com/jiyounglee-0523/VisAlign"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

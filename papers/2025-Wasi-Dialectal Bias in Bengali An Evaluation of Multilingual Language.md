@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Evaluates dialectal bias in Bengali across multilingual language models. Examines how LLMs handle regional dialectal variations within Bengali and their impact on fairness."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

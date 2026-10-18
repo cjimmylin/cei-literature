@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0329
 type: conferencePaper
 short_title: "Transformer-Based Language Models for Bulgarian"
-year: 2025
+year: 2023
 first_author: "[[INSAIT / CLaDA-BG researchers]]"
 last_author: "[[INSAIT CLaDA-BG researchers]]"
 authors: "INSAIT / CLaDA-BG researchers"
@@ -52,7 +52,7 @@ tags:
 abstract: "This paper presents an approach for training lightweight and robust language models for Bulgarian that mitigate gender, political, racial, and other biases in the data. Our method involves scraping content from major Bulgarian online media providers using a specialized procedure for source filtering, topic selection, and lexicon-based removal of inappropriate language during the pre-training phase. We continuously improve the models by incorporating new data from various domains, including..."
 ethics_perspective: "Bias & Fairness"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

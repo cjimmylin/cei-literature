@@ -2,14 +2,14 @@
 key: CGSR0138
 type: document
 short_title: "Tikanga in Technology: Indigenous Data and Governance"
-year: 2025
+year: 2024
 first_author: "[[Te Ngira Institute, University of Waikato]]"
 authors: "Te Ngira Institute, University of Waikato"
 url: "https://www.waikato.ac.nz/research/institutes-centres-entities/institutes/te-ngira/research/tikanga-in-technology/"
 abstract: "How matauranga Maori and tikanga guide AI, data sovereignty, and governance in Aotearoa and the Pacific"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

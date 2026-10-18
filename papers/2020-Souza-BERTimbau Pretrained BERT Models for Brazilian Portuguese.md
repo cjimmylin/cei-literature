@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0230
 type: conferencePaper
 short_title: "BERTimbau: Pretrained BERT Models for Brazilian Portuguese"
-year: 2025
+year: 2020
 first_author: "[[Fábio Souza]]"
 last_author: "[[Roberto Lotufo]]"
 authors: "Fábio Souza; Rodrigo Nogueira; Roberto Lotufo"
@@ -51,7 +51,7 @@ tags:
 abstract: "Pretrained BERT models for Brazilian Portuguese achieving state-of-the-art on sentence similarity, textual entailment, and NER. Widely used baseline for Portuguese hate speech detection."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

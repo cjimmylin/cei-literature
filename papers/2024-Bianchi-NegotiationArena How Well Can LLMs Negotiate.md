@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0203
 type: conferencePaper
 short_title: "NegotiationArena: How Well Can LLMs Negotiate?"
-year: 2025
+year: 2024
 first_author: "[[Federico Bianchi]]"
 last_author: "[[James Zou]]"
 authors: "Federico Bianchi; Patrick John Chia; Mert Yuksekgonul; Jacopo Tagliabue; Dan Jurafsky; James Zou"
@@ -51,7 +51,7 @@ abstract: "Negotiation is the basis of social interactions; humans negotiate eve
 LLM_assessed: "GPT-3.5, GPT-4, Claude 2, Claude 2.1"
 DATA_URL: "https://github.com/vinid/NegotiationArena"
 CONFERENCE: "ICML 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

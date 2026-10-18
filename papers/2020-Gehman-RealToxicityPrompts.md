@@ -6,7 +6,7 @@ Not AI:
 key: CZYS2N2K
 type: document
 short_title: RealToxicityPrompts
-year: 2025
+year: 2020
 first_author: "[[Samuel Gehman]]"
 last_author: "[[Noah A. Smith]]"
 authors: "Gehman, Samuel; Gururangan, Suchin; Sap, Maarten; Choi, Yejin; Noah A. Smith"
@@ -54,7 +54,7 @@ DATA_URL: "https://toxicdegeneration.allenai.org/"
 CONFERENCE: "EMNLP 2020"
 eleutherai: incorporated
 helm: incorporated
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

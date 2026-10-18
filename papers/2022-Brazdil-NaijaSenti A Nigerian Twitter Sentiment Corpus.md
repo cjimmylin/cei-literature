@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0595
 type: preprint
 short_title: "NaijaSenti A Nigerian Twitter Sentiment Corpus"
-year: 2025
+year: 2022
 first_author: "[[Shamsuddeen Hassan Muhammad]]"
 last_author: "[[Pavel Brazdil]]"
 authors: "Shamsuddeen Hassan Muhammad; David Ifeoluwa Adelani; Sebastian Ruder; Ibrahim Sa'id Ahmad; Idris Abdulmumin; Bello Shehu Bello; Monojit Choudhury; Chris Chinenye Emezue; Saheed Salahudeen Abdullahi; Anuoluwapo Aremu; Alipio Jorge; Pavel Brazdil"
@@ -53,7 +53,7 @@ LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/hausanlp/NaijaSenti"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0641
 type: journalArticle
 short_title: "A new dataset for mongolian online handwritten recognition"
-year: 2025
+year: 2024
 first_author: [[Enkhbold]]
 last_author: [[Enkhbold]]
 authors: Enkhbold
@@ -49,9 +49,9 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "I found the research paper you were looking for. The paper \"
+abstract: "I found the research paper you were looking for. The paper \"Recognizing Textual Inference in Mongolian Bar Exam Questions\" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

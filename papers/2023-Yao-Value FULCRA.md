@@ -6,7 +6,7 @@ Not AI:
 key: 2ZM69H7H
 type: conferencePaper
 short_title: "Value FULCRA"
-year: 2025
+year: 2023
 first_author: "[[Jing Yao]]"
 last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Yifan Gong; Xing Xie"
@@ -55,7 +55,7 @@ LLM_assessed: "BART, BERT, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://ValueCompass.github.io"
 DATE_ADDED: 20260207
 CONFERENCE: "NAACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

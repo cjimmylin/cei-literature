@@ -55,7 +55,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o, Gemini, Grok, Llama-2, Llama-3, 
 DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 15
 deontological_ethics: 15
 utilitarian_ethics: 5

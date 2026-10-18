@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0244
 type: preprint
 short_title: "HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models"
-year: 2025
+year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Songseong Kim]]"
 authors: "Guijin Son; Hanwool Lee; Suwan Kim; Huiseo Kim; Jaecheol Lee; Je Won Yeom; Jihyu Jung; Jung Woo Kim; Songseong Kim"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/HAE-RAE/HAE-RAE-BENCH"
 tags: 
 abstract: "Large language models (LLMs) trained on massive corpora demonstrate impressive capabilities in a wide range of tasks. While there are ongoing efforts to adapt these models to languages beyond English, the attention given to their evaluation methodologies remains limited. Current multilingual benchmarks often rely on back translations or re-implementations of English tests, limiting their capacity to capture unique cultural and linguistic nuances."
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

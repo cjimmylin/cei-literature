@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0351
 type: conferencePaper
 short_title: "DIALECT-COPA: Choice of Plausible Alternatives Datasets in South Slavic Dialects"
-year: 2025
+year: 2024
 first_author: "[[VarDial 2024 Shared Task Organizers]]"
 last_author: "[[VarDial 2024 Shared Task Organizers]]"
 authors: "VarDial 2024 Shared Task Organizers"
@@ -50,7 +50,7 @@ DATA_URL: "https://www.clarin.si/repository/xmlui/handle/11356/1766"
 tags: 
 abstract: "COPA causal commonsense reasoning adapted for South Slavic dialects: Slovenian Cerkno, Croatian Chakavian, Serbian Torlak. Training data for standard Slovenian, Croatian, Serbian, Macedonian."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0159
 type: conferencePaper
 short_title: "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges"
-year: 2025
+year: 2024
 first_author: "[[K. R Varshney]]"
 last_author: "[[K. R Varshney]]"
 authors: "K. R Varshney"
@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: "AIES 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 5

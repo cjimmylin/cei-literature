@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_OBER2024
 type: report
 short_title: "Lyceum Project AI Ethics Aristotle"
-year: 2025
+year: 2024
 first_author: "[[Josiah Ober]]"
 last_author: "[[Tasioulas, John]]"
 authors: "Ober, Josiah; Tasioulas, John"
@@ -51,7 +51,7 @@ DATA_URL: NA
 publication: "Oxford Institute for Ethics in AI"
 CONF-CC: N/A
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0

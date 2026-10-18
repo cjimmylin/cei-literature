@@ -50,7 +50,7 @@ abstract: "This paper provides a comprehensive overview of the QIAS 2025 shared 
 LLM_assessed: "Claude, DeepSeek, Falcon, GPT-4, GPT-4o, Gemini, Llama-3, Mistral, Qwen, o3"
 DATA_URL: "https://gitlab.com/islamgpt1/qias_shared_task_2025"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

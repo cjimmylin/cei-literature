@@ -52,7 +52,7 @@ abstract: "We investigate whether Large Language Models (LLMs) exhibit altruisti
 LLM_assessed: "Claude, Claude-3 Haiku, ChatGPT, GPT-4o, GPT-4o mini, Gemini, Gemma, Grok, Llama-3, Mistral, Phi"
 DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_Study_Code"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 5

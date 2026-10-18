@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/6294e0abf75099de7bfda89eeb1b01be3445
 abstract: "AI advancement drives educational digital transformation, yet reveals critical tensions between instrumental rationality and pedagogical essence, manifested as fragmented technology-classroom integrat..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

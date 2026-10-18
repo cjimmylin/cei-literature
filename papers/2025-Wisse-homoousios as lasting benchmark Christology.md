@@ -52,7 +52,7 @@ abstract: "ABSTRACT The term homoousios stands as a cornerstone of the Nicene Cr
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

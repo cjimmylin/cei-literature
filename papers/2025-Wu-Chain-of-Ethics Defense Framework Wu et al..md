@@ -51,7 +51,7 @@ abstract: "Background: While Large Language Models (LLMs) have achieved widespre
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Qwen"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -9,7 +9,7 @@ url: "https://dspace.mit.edu/bitstream/handle/1721.1/162299/doblescamargo-claudi
 abstract: "AI vulnerabilities in Latin America, risks of deepening historical inequalities"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

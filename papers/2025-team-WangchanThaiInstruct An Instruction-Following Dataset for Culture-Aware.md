@@ -53,7 +53,7 @@ LLM_assessed: "Gemini, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/collections/airesearch/wangchan-thai-instruction-6835722a30b98e01598984fd"
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

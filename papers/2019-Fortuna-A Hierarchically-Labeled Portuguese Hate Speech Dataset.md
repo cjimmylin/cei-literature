@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0219
 type: conferencePaper
 short_title: "A Hierarchically-Labeled Portuguese Hate Speech Dataset"
-year: 2025
+year: 2019
 first_author: "[[Paula Fortuna]]"
 last_author: "[[Sérgio Nunes]]"
 authors: "Paula Fortuna; João Rocha da Silva; Juan Soler-Company; Leo Wanner; Sérgio Nunes"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/paulafortuna/Portuguese-Hate-Speech-Dataset"
 tags: 
 abstract: "Over the past years, the amount of online offensive speech has been growing steadily. To successfully cope with it, machine learning is applied. However, ML-based techniques require sufﬁciently large annotated datasets. In the last years, different datasets were published, mainly for English. In this paper, we present a new dataset for Portuguese, which has not been in focus so far. The dataset is composed of 5,668 tweets."
 CONFERENCE: "ACL 2019"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

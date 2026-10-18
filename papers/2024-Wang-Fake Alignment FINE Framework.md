@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0174
 type: conferencePaper
 short_title: "Fake Alignment (FINE Framework)"
-year: 2025
+year: 2024
 first_author: "[[Du, Yihan]]"
 last_author: "[[Srikant, R.]]"
 authors: "Du, Yihan; Kong, Seo Taek; Srikant, R."
@@ -51,7 +51,7 @@ abstract: "The widespread application of Large Language Models (LLMs) imposes in
 LLM_assessed: GPT-4
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

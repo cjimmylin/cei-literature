@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/inceptionai/Llama-3.1-Sherkala-8B-Chat"
 tags: 
 abstract: "Llama-3.1-Sherkala-8B-Chat, or Sherkala-Chat (8B) for short, is a state-ofthe-art instruction-tuned open generative large language model (LLM) designed for Kazakh. Sherkala-Chat (8B) aims to enhance the inclusivity of LLM advancements for Kazakh speakers. Adapted from the LLaMA3.1-8B model, Sherkala-Chat (8B) is trained on 45.3B tokens across Kazakh, English, Russian, and Turkish. With 8 billion parameters, it demonstrates strong knowledge and reasoning abilities in Kazakh, significantly..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

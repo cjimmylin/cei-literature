@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0252
 type: preprint
 short_title: "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Sungjoo Byun]]"
 last_author: "[[Hyopil Shin]]"
 authors: "Sungjoo Byun; Dongjun Jang; Hyemi Jo; Hyopil Shin"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/byunsj/KoTox-Korean-Toxic-Instruction-Dataset"
 tags: 
 abstract: "Caution: this paper may include material that could be offensive or distressing. The advent of Large Language Models (LLMs) necessitates the development of training approaches that mitigate the generation of unethical language and aptly manage toxic user queries. Given the challenges related to human labor and the scarcity of data, we present KoTox, comprising 39K unethical instruction-output pairs."
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

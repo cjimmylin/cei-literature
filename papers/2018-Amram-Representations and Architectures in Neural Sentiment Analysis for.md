@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0026
 type: conferencePaper
 short_title: "Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew"
-year: 2025
+year: 2018
 first_author: "[[Adam Amram]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Adam Amram; Anat Ben David; Reut Tsarfaty"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew
 tags: 
 abstract: "This paper empirically studies the effects of representation choices on neural sentiment analysis for Modern Hebrew, a morphologically rich language (MRL) for which no sentiment analyzer currently exists. We study two dimensions of representational choices: (i) the granularity of the input signal (token-based vs. morpheme-based), and (ii) the level of encoding of vocabulary items (string-based vs. character-based)."
 CONFERENCE: "ACL 2018"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

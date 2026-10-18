@@ -53,7 +53,7 @@ abstract: "In this work, we evaluated Lithuanian and general history knowledge o
 ethics_perspective: "AI Safety & Alignment"
 authors_incomplete: false
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

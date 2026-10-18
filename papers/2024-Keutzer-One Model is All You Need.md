@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0514
 type: conference_paper
 short_title: "One Model is All You Need"
-year: 2025
+year: 2024
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer]]"
 authors: "Sebastian Nehrdich; Oliver Hellwig; Kurt Keutzer"
@@ -52,7 +52,7 @@ abstract: "Morphologically rich languages are notoriously challenging to process
 LLM_assessed: T5
 DATA_URL: "https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers ; https://huggingface.co/buddhist-nlp/byt5-sanskrit"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

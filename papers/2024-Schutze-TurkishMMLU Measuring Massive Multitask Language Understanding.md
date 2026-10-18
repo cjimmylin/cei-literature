@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0539
 type: preprint
 short_title: "TurkishMMLU Measuring Massive Multitask Language Understanding"
-year: 2025
+year: 2024
 first_author: "[[Arda Yuksel]]"
 last_author: "[[Hinrich Schutze]]"
 authors: "Arda Yuksel; Abdullatif Koksal; Lutfi Kerem Senel; Anna Korhonen; Hinrich Schutze"
@@ -53,7 +53,7 @@ LLM_assessed: "Aya, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, G
 DATA_URL: "https://github.com/ArdaYueksel/TurkishMMLU"
 research_topic: "Machine Translation"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

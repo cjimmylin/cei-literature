@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-4o
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 60
 deontological_ethics: 0
 utilitarian_ethics: 10

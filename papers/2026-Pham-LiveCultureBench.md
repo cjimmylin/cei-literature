@@ -3,14 +3,14 @@ key: EXSR0691
 short_title: LiveCultureBench
 title: "LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations"
 authors: "Viet-Thanh Pham; Lizhen Qu; Thuy-Trang Vu; Gholamreza Haffari; Dinh Phung"
-year: 2025
+year: 2026
 arxiv_id: 2603.01952
 abstract: "Presents a dynamic evaluation framework where language models operate as autonomous agents within a simulated urban environment populated by residents with varied demographic and cultural backgrounds. Assesses both task achievement and cultural norm compliance, employing an LLM-based verification system to measure violations and task progress."
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 DATA_URL: 
-ethics_overall: No
+ethics_overall: 0
 source: external_search_benchmark_analysis
 date_added: 2026-04-04
 LLM_assessed: No

@@ -6,7 +6,7 @@ Not AI:
 key: RLZC2E5T
 type: preprint
 short_title: "Towards Answering Open-ended Ethical Quandary"
-year: 2025
+year: 2023
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Nayeon Lee; Tiezheng Yu; Leila Khalatbari; Yan Xu; Samuel Cahyawijaya; Dan Su; Bryan Wilie; Romain Barraud; Elham J. Barezi; Andrea Madotto; Hayden Kee; Pascale Fung"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 45

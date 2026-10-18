@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0023
 type: conferencePaper
 short_title: "Two-Eyed AI: A Reflection on Artificial Intelligence"
-year: 2025
+year: 2019
 first_author: "[[Daniel Bourgeois-Doyle]]"
 last_author: "[[Daniel Bourgeois-Doyle]]"
 authors: "Daniel Bourgeois-Doyle"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes a 'Two-Eyed' concept (based on Mi'kmaw Etuaptmumk) for guiding AI development. Advocates integrating Indigenous ways of knowing — including narrative storytelling, systems thinking, and seeing life in all things — with Western concepts of knowledge to pursue ethical AI."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -51,7 +51,7 @@ abstract: "Adapting cultural values in Large Language Models (LLMs) presents sig
 LLM_assessed: "Llama-3, Gemma-2, Qwen-2"
 DATA_URL: "https://github.com/faridlazuarda/from-surveys-to-narratives"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

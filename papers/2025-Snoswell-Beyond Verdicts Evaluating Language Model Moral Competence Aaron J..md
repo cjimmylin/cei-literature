@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

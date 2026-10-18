@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0230
 type: conferencePaper
 short_title: WalledEval
-year: 2025
+year: 2024
 first_author: "[[Gupta, Prannaya]]"
 last_author: "[[Poria, Soujanya]]"
 authors: "Gupta, Prannaya; Yau, Le Qi; Low, Hao Han; Lee, I-Shiang; Lim, Hugo Maximus; Teoh, Yu Xin; Koh, Jia Hng; Liew, Dar Win; Bhardwaj, Rishabh; Bhardwaj, Rajat; Poria, Soujanya"
@@ -53,7 +53,7 @@ LLM_assessed: "Claude, Gemini, Gemma, GPT-4, Llama-2, Llama-3, Mistral, Mixtral,
 DATA_URL: "https://github.com/walledai/walledeval"
 research_topic: Other
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

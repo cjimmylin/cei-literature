@@ -6,7 +6,7 @@ Not AI:
 key: 9HCC2BT4
 type: document
 short_title: "Collecting a Large-Scale Gender Bias Dataset for"
-year: 2025
+year: 2021
 first_author: "[[Shahar Levy]]"
 last_author: "[[Stanovsky, Gabriel]]"
 authors: "Levy, Shahar; Lazar, Koren; Stanovsky, Gabriel"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/SLAB-NLP/BUG"
 CONFERENCE: "EMNLP 2021"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

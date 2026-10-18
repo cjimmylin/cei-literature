@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
 pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Jin-MedEthicEval.pdf]]
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Analyzes LLM moral biases using Korean datasets and Eastern ethical principles. Examines how moral judgment varies in low-resource vs high-resource language environments. Compares Eastern and Western ethical policies on LLM moral output."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 30

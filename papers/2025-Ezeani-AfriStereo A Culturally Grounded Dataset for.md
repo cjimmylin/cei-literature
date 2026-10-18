@@ -52,7 +52,7 @@ abstract: "Existing AI bias evaluation benchmarks largely reflect Western perspe
 LLM_assessed: "BERT, Flan-T5, GPT-2, Gemma-2, LLaMA, Mistral, Phi, Qwen"
 DATA_URL: "https://github.com/YUX-Cultural-AI-Lab/Afri-Stereo"
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

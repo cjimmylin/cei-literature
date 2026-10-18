@@ -6,7 +6,7 @@ Not AI:
 key: L6RS9M6J
 type: preprint
 short_title: MoralNet
-year: 2025
+year: 2023
 first_author: "[[Aníbal M. Astobiza]]"
 last_author: "[[Aníbal M. Astobiza]]"
 authors: "Aníbal M. Astobiza"
@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Astobiza-MoralNet.pdf]]
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 0

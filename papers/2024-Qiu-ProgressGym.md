@@ -6,7 +6,7 @@ Not AI:
 key: SFJDML4U
 type: conferencePaper
 short_title: ProgressGym
-year: 2025
+year: 2024
 first_author: "[[Tianyi Qiu]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Tianyi Qiu; Yang Zhang; Xuchuan Huang; Jasmine Xinze Li; Jiaming Ji; Yaodong Yang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3"
 DATA_URL: "https://github.com/PKU-Alignment/ProgressGym"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0003
 type: conferencePaper
 short_title: BiasJailbreak
-year: 2025
+year: 2026
 first_author: "[[Isack Lee]]"
 last_author: "[[Haebin Seong]]"
 authors: "Isack Lee; Haebin Seong"
@@ -52,7 +52,7 @@ LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, ChatGPT, Claude, Llama-2, Llama-3, Qwen, 
 DATA_URL: "https://github.com/Isaac-theori/BiasJailbreak"
 research_topic: Other
 CONFERENCE: "AAAI 2026"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

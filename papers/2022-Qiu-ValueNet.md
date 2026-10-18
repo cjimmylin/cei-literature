@@ -6,7 +6,7 @@ Not AI:
 key: 5ZMPHLEK
 type: journalArticle
 short_title: ValueNet
-year: 2025
+year: 2022
 first_author: "[[Liang Qiu]]"
 last_author: "[[Song-Chun Zhu]]"
 authors: "Liang Qiu; Yizhou Zhao; Jinchao Li; Pan Lu; Baolin Peng; Jianfeng Gao; Song-Chun Zhu"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BART, BERT, RoBERTa"
 DATA_URL: "https://liang-qiu.github.io/ValueNet/"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

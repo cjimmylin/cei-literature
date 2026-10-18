@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0019
 type: conferencePaper
 short_title: "Identifying Abusive Comments in Hebrew Facebook"
-year: 2025
+year: 2018
 first_author: "[[Chaya Liebeskind]]"
 last_author: "[[Shmuel Liebeskind]]"
 authors: "Chaya Liebeskind; Shmuel Liebeskind"
@@ -52,7 +52,7 @@ tags:
 abstract: "Develops a Hebrew corpus of user comments annotated for abusive language from Facebook. Investigates sparse n-grams and dense character n-grams representations for comment abuse classification."
 ethics_perspective: "Toxicity & Hate Speech"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

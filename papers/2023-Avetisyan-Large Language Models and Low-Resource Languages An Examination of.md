@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0540
 type: conferencePaper
 short_title: "Large Language Models and Low-Resource Languages: An Examination of Armenian NLP"
-year: 2025
+year: 2023
 first_author: "[[Hayastan Avetisyan]]"
 last_author: "[[David Broneske]]"
 authors: "Hayastan Avetisyan; David Broneske"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "This paper presents a comprehensive review of Natural Language Processing (NLP) research on Armenian, a language that, despite its rich history and unique linguistic characteristics, is currently low-resource in the field of NLP. We critically synthesize and evaluate various studies in Armenian NLP, highlighting key advancements, challenges, and areas for improvement. A notable aspect of our work is the underlined lack of application of Large Language Models (LLMs) in Armenian NLP, signifying..."
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

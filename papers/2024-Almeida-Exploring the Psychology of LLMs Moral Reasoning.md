@@ -6,7 +6,7 @@ Not AI:
 key: ALMEIDA2024
 type: journalArticle
 short_title: "Psychology of LLMs Moral Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Guilherme F. C. F. Almeida]]"
 last_author: "[[Gubert, Renato]]"
 authors: "Guilherme F. C. F. Almeida; Nunes, José Luiz; Pontes, Neele; Brinhosa, Markus; Gubert, Renato"
@@ -55,7 +55,7 @@ research_topic: "LLM Moral Reasoning"
 LLM_assessed: "Claude, Gemini, GPT-4, Llama-2"
 DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

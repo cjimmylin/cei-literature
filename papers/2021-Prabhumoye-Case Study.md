@@ -6,7 +6,7 @@ Not AI:
 key: HG5EQ6PE
 type: conferencePaper
 short_title: "Case Study"
-year: 2025
+year: 2021
 first_author: "[[Shrimai Prabhumoye]]"
 last_author: "[[Black, Alan W]]"
 authors: "Prabhumoye, Shrimai; Boldt, Brendon; Salakhutdinov, Ruslan; Black, Alan W"
@@ -65,7 +65,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "NAACL 2021"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 100
 utilitarian_ethics: 100

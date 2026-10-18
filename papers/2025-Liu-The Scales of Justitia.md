@@ -55,7 +55,7 @@ LLM_assessed: NA
 DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

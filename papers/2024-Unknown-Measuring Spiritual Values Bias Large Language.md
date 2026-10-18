@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0672
 type: preprint
 short_title: "Measuring Spiritual Values and Bias of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Songyuan Liu]]"
 last_author: "[[Jiaying Lu]]"
 authors: "Songyuan Liu; Ziyang Zhang; Runze Yan; Wei Wu; Carl Yang et al."
@@ -52,7 +52,7 @@ abstract: "Large language models (LLMs) have become integral tool for users from
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "Combines grammar-guided term extraction with zero-shot translation using LLMs to generate syntactically and semantically accurate Pahlavi (Middle Persian) sentences. Generates 360 expert-validated parallel English-Pahlavi texts. Pahlavi was the language of Zoroastrian Middle Persian texts and the majority of surviving Pahlavi texts are religious Zoroastrian writings."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

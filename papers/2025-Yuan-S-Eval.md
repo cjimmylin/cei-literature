@@ -53,7 +53,7 @@ LLM_assessed: "GPT-4, Gemini, Gemma, LLaMA, Mistral, Qwen, Vicuna, ERNIE, ChatGL
 DATA_URL: "https://github.com/IS2Lab/S-Eval"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

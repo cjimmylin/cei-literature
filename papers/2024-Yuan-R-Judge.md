@@ -6,7 +6,7 @@ Not AI:
 key: ASUKFPK8
 type: journalArticle
 short_title: R-Judge
-year: 2025
+year: 2024
 first_author: "[[Tongxin Yuan]]"
 last_author: "[[Gongshen Liu]]"
 authors: "Tongxin Yuan; Zhiwei He; Lingzhong Dong; Yiming Wang; Ruijie Zhao; Tian Xia; Lizhen Xu; Binglin Zhou; Fangqi Li; Zhuosheng Zhang; Rui Wang; Gongshen Liu"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, ChatGPT, GPT-4, Llama-2, Llama-3, Mistral, Vicuna"
 DATA_URL: "https://github.com/Lordog/R-Judge"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0

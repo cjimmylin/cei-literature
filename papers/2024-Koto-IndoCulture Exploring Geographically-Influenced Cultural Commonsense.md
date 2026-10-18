@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0095
 type: preprint
 short_title: "IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces"
-year: 2025
+year: 2024
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Baldwin, Timothy]]"
 authors: "Koto, Fajri; Mahendra, Rahmad; Aisyah, Nurul; Baldwin, Timothy"
@@ -54,7 +54,7 @@ tags:
 abstract: "Although commonsense reasoning is greatly shaped by cultural and geographical factors, previous studies have predominantly centered on cultures grounded in the English language, potentially resulting in an Anglocentric bias. In this paper, we introduce IndoCulture, aimed at understanding the influence of geographical factors on language model reasoning ability, with a specific emphasis on the diverse cultures found within eleven Indonesian provinces."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

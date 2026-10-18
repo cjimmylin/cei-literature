@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/8906a4ebc384554ab5413b2bf2e36a016a5a
 abstract: "The evolution of technology and computational processing power has given rise to powerful and digital intelligent tools such as generative artificial intelligence (GenAI), a subset of AI, and has beco..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

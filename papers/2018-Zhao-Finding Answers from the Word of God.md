@@ -6,7 +6,7 @@ Not AI:
 key: JUEAJ5Q4
 type: conferencePaper
 short_title: "Finding Answers from the Word of God"
-year: 2025
+year: 2018
 first_author: "[[Helen Jiahe Zhao]]"
 last_author: "[[Jiamou Liu]]"
 authors: "Helen Jiahe Zhao; Jiamou Liu"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/helen-jiahe-zhao/BibleQA"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0450
 type: journalArticle
 short_title: "A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings"
-year: 2025
+year: 2021
 first_author: "[[Mascha Kurpicz-Briki]]"
 last_author: "[[Mascha Kurpicz-Briki]]"
 authors: "Mascha Kurpicz-Briki"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

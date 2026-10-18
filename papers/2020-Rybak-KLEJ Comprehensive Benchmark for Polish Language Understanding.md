@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0337
 type: preprint
 short_title: "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
-year: 2025
+year: 2020
 first_author: "[[Piotr Rybak]]"
 last_author: "[[Ireneusz Gawlik]]"
 authors: "Piotr Rybak; Robert Mroczkowski; Janusz Tracz; Ireneusz Gawlik"
@@ -51,7 +51,7 @@ DATA_URL: "https://klejbenchmark.com"
 tags: 
 abstract: "In recent years, a series of Transformer-based models unlocked major improvements in general natural language understanding (NLU) tasks. Such a fast pace of research would not be possible without general NLU benchmarks, which allow for a fair comparison of the proposed methods. However, such benchmarks are available only for a handful of languages. To alleviate this issue, we introduce a comprehensive multi-task benchmark for the Polish language understanding, accompanied by an online..."
 CONFERENCE: "ACL 2020"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

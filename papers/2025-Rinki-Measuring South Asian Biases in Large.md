@@ -53,7 +53,7 @@ LLM_assessed: mT5
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

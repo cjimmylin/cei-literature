@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "The shift towards pluralism in global data ethics acknowledges the importance of including perspectives from the Global Majority to develop responsible data science practices that mitigate systemic harms in the current data science ecosystem. Sub-Saharan African (SSA) practitioners, in particular, are disseminating progressive data ethics principles and best practices for identifying and navigating anti-blackness and data colonialism."
 CONFERENCE: "FAccT 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

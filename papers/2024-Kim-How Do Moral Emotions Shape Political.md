@@ -6,7 +6,7 @@ Not AI:
 key: BWGTAQ8H
 type: conferencePaper
 short_title: "How Do Moral Emotions Shape Political"
-year: 2025
+year: 2024
 first_author: "[[Jaehong Kim]]"
 last_author: "[[Wonjae Lee]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
 pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

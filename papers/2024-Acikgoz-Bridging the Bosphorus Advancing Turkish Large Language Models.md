@@ -6,7 +6,7 @@ Not AI:
 key: CULT0081
 type: preprint
 short_title: "Bridging the Bosphorus: Advancing Turkish Large Language Models through Strategies for Low-Resource Language Adaptation and Benchmarking"
-year: 2025
+year: 2024
 first_author: "[[Emre Can Acikgoz]]"
 last_author: "[[Deniz Yuret]]"
 authors: "Emre Can Acikgoz; Mete Erdogan; Deniz Yuret"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/emrecanacikgoz/turkish-llm"
 tags: 
 abstract: "Large Language Models (LLMs) are becoming crucial across various fields, emphasizing the urgency for high-quality models in underrepresented languages. This study explores the unique challenges faced by low-resource languages, such as data scarcity, model selection, evaluation, and computational limitations, with a special focus on Turkish. We conduct an in-depth analysis to evaluate the impact of training strategies, model choices, and data availability on the performance of LLMs designed for..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

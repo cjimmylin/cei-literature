@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o, Claude-3, Llama-2, Llama-3"
 DATA_URL: "https://github.com/yuanchencn/Collective-Moral-Reasoning"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 80
 utilitarian_ethics: 75

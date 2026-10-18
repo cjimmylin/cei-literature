@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0214
 type: preprint
 short_title: "Sabiá-2: A New Generation of Portuguese Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Almeida, Thales Sales]]"
 last_author: "[[Pires, Ramon]]"
 authors: "Almeida, Thales Sales; Abonizio, Hugo; Nogueira, Rodrigo; Pires, Ramon"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "We introduce Sabi´a-2, a family of large language models trained on Portuguese texts. The models are evaluated on a diverse range of exams, including entry-level tests for Brazilian universities, professional certification exams, and graduate-level exams for various disciplines such as accounting, economics, engineering, law and medicine. Our results reveal that our best model so far, Sabi´a-2 Medium, matches or surpasses GPT4’s performance in 23 out of 64 exams and outperforms GPT-3."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

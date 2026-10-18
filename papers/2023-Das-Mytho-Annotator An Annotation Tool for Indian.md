@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0563
 type: conference_paper
 short_title: "Mytho-Annotator An Annotation Tool for Indian"
-year: 2025
+year: 2023
 first_author: "[[Apurba Paul]]"
 last_author: "[[Dipankar Das]]"
 authors: "Apurba Paul; Anupam Mondal; Sainik Kumar Mahata; Srijan Seal; Prasun Sarkar; Dipankar Das"
@@ -57,7 +57,7 @@ abstract: "> Web-based NLP annotation tool for Hindu mythology texts, labelling 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

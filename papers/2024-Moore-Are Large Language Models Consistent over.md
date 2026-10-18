@@ -6,7 +6,7 @@ Not AI:
 key: QTHPTLW2
 type: conferencePaper
 short_title: "Are Large Language Models Consistent over"
-year: 2025
+year: 2024
 first_author: "[[Jared Moore]]"
 last_author: "[[Diyi Yang]]"
 authors: "Jared Moore; Tanvi Deshpande; Diyi Yang"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Llama-2, Llama-3, Yi, Command-R"
 DATA_URL: "https://huggingface.co/datasets/jlcmoore/ValueConsistency"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: VVFFZEXH
 type: document
 short_title: FairPrism
-year: 2025
+year: 2023
 first_author: "[[Eve Fleisig]]"
 last_author: "[[Wallach, Hanna]]"
 authors: "Fleisig, Eve; Amstutz, Aubrie; Atalla, Chad; Blodgett, Su Lin; Daumé III, Hal; Olteanu, Alexandra; Sheng, Emily; Vann, Dan; Wallach, Hanna"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, InstructGPT, XLNet"
 DATA_URL: "https://github.com/microsoft/fairprism"
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

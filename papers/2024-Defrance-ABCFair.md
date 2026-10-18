@@ -6,7 +6,7 @@ Not AI:
 key: Y8L4H52Z
 type: conferencePaper
 short_title: ABCFair
-year: 2025
+year: 2024
 first_author: "[[MaryBeth Defrance]]"
 last_author: "[[Tijl De Bie]]"
 authors: "MaryBeth Defrance; Maarten Buyl; Tijl De Bie"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/aida-ugent/abcfair"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/openscilab/parsipy"
 tags: 
 abstract: "NLP toolkit for historical Persian languages offering modules for tokenization, lemmatization, POS tagging, phoneme-to-transliteration conversion, and word embedding. Demonstrates utility through processing of Parsig (Middle Persian/Pahlavi) texts. The majority of surviving Parsig texts are religious Zoroastrian writings composed in Book Pahlavi script."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

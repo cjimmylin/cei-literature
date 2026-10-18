@@ -52,7 +52,7 @@ DATA_URL: "https://nala-cub.github.io/resources/"
 tags: 
 abstract: "Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

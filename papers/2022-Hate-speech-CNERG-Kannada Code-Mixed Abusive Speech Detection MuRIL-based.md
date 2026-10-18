@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0059
 type: conferencePaper
 short_title: "Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)"
-year: 2025
+year: 2022
 first_author: [[Hate-speech-CNERG]]
 last_author: [[Hate-speech-CNERG]]
 authors: Hate-speech-CNERG
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/hate-alert/IndicAbusive"
 tags: 
 abstract: "Abusive language is a growing concern in many social media platforms. Repeated exposure to abusive speech has created physiological effects on the target users. Thus, the problem of abusive language should be addressed in all forms for online peace and safety. While extensive research exists in abusive speech detection, most studies focus on English. Recently, many smearing incidents have occurred in India, which provoked diverse forms of abusive speech in online space in various languages..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

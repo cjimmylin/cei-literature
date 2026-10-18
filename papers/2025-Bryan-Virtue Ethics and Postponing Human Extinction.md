@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 100
 deontological_ethics: 65
 utilitarian_ethics: 75

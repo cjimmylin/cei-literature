@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0089
 type: conferencePaper
 short_title: "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo"
-year: 2025
+year: 2024
 first_author: "[[Walelign Sewunetie]]"
 last_author: "[[Seid Yimam]]"
 authors: "Walelign Sewunetie; Atnafu Tonja; Tadesse Belay; Hellina Hailu Nigatu; Gashaw Gebremeskel; Zewdie Mossie; Hussien Seid; Seid Yimam"
@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/EthioNLP/Gender-Bias-Evaluation-Datas
 tags: 
 abstract: "While Machine Translation (MT) research has progressed over the years, translation systems still suffer from biases, including gender bias. While an active line of research studies the existence and mitigation strategies of gender bias in machine translation systems, there is limited research exploring this phenomenon for lowresource languages. The limited availability of linguistic and computational resources confounded with the lack of benchmark datasets makes studying bias for low-resourced..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

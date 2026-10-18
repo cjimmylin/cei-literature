@@ -6,7 +6,7 @@ Not AI:
 key: GSAVC8H7
 type: document
 short_title: CogniModal-D
-year: 2025
+year: 2024
 first_author: "[[V. Pérez-Rosas]]"
 last_author: "[[V. Pérez-Rosas]]"
 authors: "V. Pérez-Rosas"
@@ -51,7 +51,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Pérez-Rosas-CogniModal-D.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Pérez-Rosas-CogniModal-D.pdf]]
 CONFERENCE: Unknown
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

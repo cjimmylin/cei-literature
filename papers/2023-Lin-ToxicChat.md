@@ -6,7 +6,7 @@ Not AI:
 key: WY4ZPF3K
 type: document
 short_title: ToxicChat
-year: 2025
+year: 2023
 first_author: "[[Zi Lin]]"
 last_author: "[[Shang, Jingbo]]"
 authors: "Lin, Zi; Wang, Zihan; Tong, Yongqi; Wang, Yangkun; Guo, Yuxin; Wang, Yujia; Shang, Jingbo"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
 pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Lin-ToxicChat.pdf]]
 CONFERENCE: "EMNLP 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

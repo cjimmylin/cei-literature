@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0842
 type: preprint
 short_title: "Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models"
-year: 2025
+year: 2023
 first_author: "[[Deng, Yimo]]"
 last_author: "[[Chen, Huangxun]]"
 authors: "Deng, Yimo; Chen, Huangxun"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/researchcode003/DACA"
 tags: 
 abstract: "To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0600
 type: preprint
 short_title: "MM-Eval: A Hierarchical Benchmark for Modern Mongolian Evaluation in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Zhang, Mengyuan]]"
 last_author: "[[Zhao, Xiaobing]]"
 authors: "Zhang, Mengyuan; Wang, Ruihui; Xia, Bo; Sun, Yuan; Zhao, Xiaobing"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/joenahm/MM-Eval"
 tags: 
 abstract: "Large language models (LLMs) excel in highresource languages but face notable challenges in low-resource languages like Mongolian. This paper addresses these challenges by categorizing capabilities into language abilities (syntax and semantics) and cognitive abilities (knowledge and reasoning). To systematically evaluate these areas, we developed MM-Eval, a specialized dataset based on Modern Mongolian Language Textbook I and enriched with WebQSP and MGSM datasets."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

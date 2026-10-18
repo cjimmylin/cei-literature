@@ -6,7 +6,7 @@ Not AI:
 key: QJBVJJ2A
 type: journalArticle
 short_title: "Understanding Chinese Moral Stories with Further"
-year: 2025
+year: 2023
 first_author: "[[Jing Qian]]"
 last_author: "[[Jing Qian]]"
 authors: "Jing Qian"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

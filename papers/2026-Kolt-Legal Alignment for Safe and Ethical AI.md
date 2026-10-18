@@ -6,7 +6,7 @@ Not AI:
 key: ARXIV_2601_04175
 type: preprint
 short_title: "Legal Alignment for Safe and Ethical AI"
-year: 2025
+year: 2026
 first_author: "[[Noam Kolt]]"
 last_author: "[[Jonathan Zittrain]]"
 authors: "Noam Kolt; Nicholas Caputo; Jack Boeglin; Cullen O'Keefe; Rishi Bommasani; Stephen Casper; Mariano-Florentino Cuéllar; Noah Feldman; Iason Gabriel; Gillian K. Hadfield; Lewis Hammond; Peter Henderson; Atoosa Kasirzadeh; Seth Lazar; Anka Reuel; Kevin L. Wei; Jonathan Zittrain"
@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

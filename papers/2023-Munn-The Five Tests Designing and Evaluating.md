@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0573
 type: preprint
 short_title: "The Five Tests Designing and Evaluating"
-year: 2025
+year: 2023
 first_author: "[[Munn, Luke]]"
 last_author: "[[Luke Munn]]"
 authors: "Luke Munn"
@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 research_topic: Other
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20

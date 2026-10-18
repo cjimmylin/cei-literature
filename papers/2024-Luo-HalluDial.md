@@ -6,7 +6,7 @@ Not AI:
 key: YRKTB8AA
 type: conferencePaper
 short_title: HalluDial
-year: 2025
+year: 2024
 first_author: "[[Wen Luo]]"
 last_author: "[[Xi Yang]]"
 authors: "Wen Luo; Tianshu Shen; Wei Li; Guangyue Peng; Richeng Xuan; Houfeng Wang; Xi Yang"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Vicuna"
 DATA_URL: "https://github.com/FlagOpen/HalluDial"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0494
 type: conferencePaper
 short_title: "The Swedish Winogender Dataset (SweWinogender)"
-year: 2025
+year: 2021
 first_author: "[[Saga Hansson]]"
 last_author: "[[Dana Dannells]]"
 authors: "Saga Hansson; Konstantinos Mavromatakis; Yvonne Adesam; Gerlof Bouma; Dana Dannells"
@@ -52,7 +52,7 @@ tags:
 abstract: "We introduce the SweWinogender test set, a diagnostic dataset to measure gender bias in coreference resolution. It is modelled after the English Winogender benchmark, and is released with reference statistics on the distribution of men and women between occupations and the association between gender and occupation in modern corpus material. The paper discusses the design and creation of the dataset, and presents a small investigation of the supplementary statistics."
 research_topic: "Machine Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

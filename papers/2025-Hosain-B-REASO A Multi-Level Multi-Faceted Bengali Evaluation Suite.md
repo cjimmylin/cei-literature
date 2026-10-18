@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/kraritt/b-reaso"
 tags: 
 abstract: "The fast growth of large language models (LLMs) necessitates the urgent need for new NLP benchmarks. We provide B-REASO, the first inclusive Bengali assessment suite created to evaluate advanced foundation model knowledge and reasoning skills in a Bengali language setup. The B-REASO includes multiplechoice questions with four different degrees of diﬀiculty: professional, college, high school, and middle school."
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

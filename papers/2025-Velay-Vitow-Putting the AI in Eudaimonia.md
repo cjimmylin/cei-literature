@@ -51,7 +51,7 @@ DATA_URL: NA
 pdf_extract: 
 local_pdf: N/A
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 5

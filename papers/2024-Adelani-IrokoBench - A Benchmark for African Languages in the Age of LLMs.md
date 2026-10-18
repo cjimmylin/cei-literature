@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0187
 type: conferencePaper
 short_title: "IrokoBench -- A Benchmark for African Languages in the Age of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Adelani, David Ifeoluwa]]"
 last_author: "[[Stenetorp, Pontus]]"
 authors: "Adelani, David Ifeoluwa; Ojo, Jessica; Azime, Israel Abebe; Zhuang, Jian Yun; Jesujoba O. Alabi; He, Xuanli; Ochieng, Millicent; Hooker, Sara; Bukula, Andiswa; Lee, En-Shiun Annie; Chukwuneke, Chiamaka; Buzaaba, Happy; Sibanda, Blessing; Kalipe, Godson; Mukiibi, Jonathan; Kabongo, Salomon; Yuehgoh, Foutse; Setaka, Mmasibidi; Ndolela, Lolwethu; Odu, Nkiruka; Mabuya, Rooweither; Muhammad, Shamsuddeen Hassan; Osei, Salomey; Samb, Sokhar; Guge, Tadesse Kebede; Sherman, Tombekai Vangoni; Stenetorp, Pontus"
@@ -52,7 +52,7 @@ abstract: "Despite the widespread adoption of Large language models (LLMs), thei
 LLM_assessed: "BLOOM, Claude, Command-R, Gemma-2, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Llama-3, Aya, Alpaca, T5"
 DATA_URL: NA
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

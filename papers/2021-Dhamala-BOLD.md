@@ -6,7 +6,7 @@ Not AI:
 key: N6Y6ES8Q
 type: journalArticle
 short_title: BOLD
-year: 2025
+year: 2021
 first_author: "[[Jwala Dhamala]]"
 last_author: "[[Rahul Gupta]]"
 authors: "Jwala Dhamala; Tony Sun; Varun Kumar; Satyapriya Krishna; Yada Pruksachatkun; Kai-Wei Chang; Rahul Gupta"
@@ -55,7 +55,7 @@ LLM_assessed: "GPT-2, BERT"
 DATA_URL: "https://github.com/jwaladhamala/BOLD-Bias-in-open-ended-language-generation"
 CONFERENCE: Journal
 helm: incorporated
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

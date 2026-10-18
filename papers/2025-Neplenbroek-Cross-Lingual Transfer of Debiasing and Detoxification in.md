@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/veranep/crosslingualdetoxdebias"
 tags: 
 abstract: "Recent generative large language models (LLMs) show remarkable performance in nonEnglish languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model’s bias and toxicity, but also on its ability to produce..."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

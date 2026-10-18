@@ -52,7 +52,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Gemma, Llama-3, Mistral, Qwen-2
 DATA_URL: "https://huggingface.co/datasets/psyonp/SocialHarmBench"
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

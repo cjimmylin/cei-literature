@@ -2,14 +2,14 @@
 key: CGSR0177
 type: document
 short_title: "The Revolutionary Computer Technology Artificial Intelligence that is Changing Our World & its Impact on Different Jobs"
-year: 2025
+year: 2023
 first_author: "[[Dr. Mahendra Sharma]]"
 authors: "Dr. Mahendra Sharma et al."
 url: "https://www.semanticscholar.org/paper/c5d5fa156410a9e8238539bfb3bc7bc210eed403"
 abstract: "Abstract: This research paper provides an in-depth analysis of the impact of Artificial Intelligence (AI) on various job sectors. It explores the history of AI and highlights the top AI tools that are..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

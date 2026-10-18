@@ -52,7 +52,7 @@ abstract: "This study introduces two novel benchmarks, SeaExam and SeaBench, des
 LLM_assessed: "ChatGPT, Claude, Claude-3, Gemma, Gemma-2, GPT-4, GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/DAMO-NLP-SG/SeaExam"
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

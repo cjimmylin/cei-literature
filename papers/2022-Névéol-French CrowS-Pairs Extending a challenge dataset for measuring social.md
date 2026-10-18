@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0431
 type: conferencePaper
 short_title: "French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English"
-year: 2025
+year: 2022
 first_author: "[[Aurélie Névéol]]"
 last_author: "[[Karën Fort]]"
 authors: "Aurélie Névéol; Yoann Dupont; Julien Bezançon; Karën Fort"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/masonreznov/French-CrowS-Pairs"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which may be upsetting Much work on biases in natural language processing has addressed biases linked to the social and cultural experience of English speaking individuals in the United States. We seek to widen the scope of bias studies by creating material to measure social bias in language models (LMs) against speciﬁc demographic groups in France."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

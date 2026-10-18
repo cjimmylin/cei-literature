@@ -6,7 +6,7 @@ Not AI:
 key: VH3SW4EV
 type: document
 short_title: "Evaluating Object Hallucination in Large"
-year: 2025
+year: 2023
 first_author: "[[Yifan Li]]"
 last_author: "[[Ji-Rong Wen]]"
 authors: "Yifan Li; Yifan Du; Kun Zhou; Jinpeng Wang; Wayne Xin Zhao; Ji-Rong Wen"
@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/RUCAIBox/POPE"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

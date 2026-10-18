@@ -53,7 +53,7 @@ LLM_assessed: "Falcon, GPT-4o, GPT-o1, Gemini, Llama-3"
 DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

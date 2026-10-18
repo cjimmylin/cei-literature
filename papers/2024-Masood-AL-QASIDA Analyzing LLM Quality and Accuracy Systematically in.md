@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0836
 type: preprint
 short_title: "AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic"
-year: 2025
+year: 2024
 first_author: "[[Adnan Masood]]"
 last_author: [[Ph]]
 authors: "Adnan Masood; Ph"
@@ -52,7 +52,7 @@ tags:
 abstract: "Dialectal Arabic (DA) varieties are underserved by language technologies, particularly large language models (LLMs). This trend threatens to exacerbate existing social inequalities and limits LLM applications, yet the research community lacks operationalized performance measurements in DA. We present a framework that comprehensively assesses LLMs’ DA modeling capabilities across four dimensions: fidelity, understanding, quality, and diglossia."
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

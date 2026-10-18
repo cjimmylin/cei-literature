@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0137
 type: conferencePaper
 short_title: "Pars-HaO: Hate and Offensive Language Detection on Persian Tweets Using Machine Learning and Deep Learning"
-year: 2025
+year: 2023
 first_author: "[[Mohammad Karami Sheykhlan]]"
 last_author: "[[Saleh Kheiri Abdoljabbar]]"
 authors: "Mohammad Karami Sheykhlan; Saleh Kheiri Abdoljabbar"
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "3-class dataset of 8,013 Persian tweets for hate and offensive language detection. Combines comments from hate-speech-prone pages with keyword-based approach. Labeled by three annotators."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

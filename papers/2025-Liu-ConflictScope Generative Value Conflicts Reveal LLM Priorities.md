@@ -52,7 +52,7 @@ LLM_assessed: "Claude-3, GPT-4o, GPT-4o mini, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/andyjliu/conflictscope"
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 20
 deontological_ethics: 0
 utilitarian_ethics: 0

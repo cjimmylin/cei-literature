@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "First known application of machine processing to Book Pahlavi texts, focusing on the jurisprudential Zoroastrian text Sayist ne sayist (Licit and Illicit). Compiles a Pahlavi corpus and applies word embedding techniques to uncover semantic relationships, using complex network analysis to extract information about Zoroastrian legal concepts from the late Sassanian period."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

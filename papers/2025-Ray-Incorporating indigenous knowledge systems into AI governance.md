@@ -53,7 +53,7 @@ DATA_URL: NA
 tags: 
 abstract: "This paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame­ works through a comparative analysis of Māori Kaitiakitanga and Navajo Hózhó principles. While prior research empha­ sizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into AI governance. The study proposes culturally relevant AI governance frameworks by highlighting the unique contribu­ tions of each..."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10

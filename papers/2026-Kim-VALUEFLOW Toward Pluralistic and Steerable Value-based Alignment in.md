@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0014
 type: preprint
 short_title: "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
-year: 2025
+year: 2026
 first_author: "[[Woojin Kim]]"
 last_author: "[[Jaeyoung Do]]"
 authors: "Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do"
@@ -51,7 +51,7 @@ abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of hu
 LLM_assessed: "ChatGLM, Claude, GPT-4, Gemini, Gemma, Grok, Mistral, Phi-3, Qwen"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

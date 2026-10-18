@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0113
 type: conferencePaper
 short_title: "SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore"
-year: 2025
+year: 2024
 first_author: "[[Ng, Ri Chi]]"
 last_author: "[[Lee, Roy Ka-Wei]]"
 authors: "Ng, Ri Chi; Prakash, Nirmalendu; Hee, Ming Shan; Choo, K.; Lee, Roy Ka-Wei"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/Social-AI-Studio/SGHateCheck"
 tags: 
 abstract: "To address the limitations of current hate speech detection models, we introduce SGHateCheck, a novel framework designed for the linguistic and cultural context of Singapore and Southeast Asia. It extends the functional testing approach of HateCheck and MHC, employing large language models for translation and paraphrasing into Singapore’s main languages, and refining these with native annotators. SGHateCheck reveals critical flaws in state-of-theart models, highlighting their inadequacy in..."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

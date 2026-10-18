@@ -53,7 +53,7 @@ tags:
 abstract: "430K multi-cultural instructions covering 11 culturally relevant topics. Fine-tuning with CultureInstruct yields consistent improvements on cultural knowledge, human opinions/values, and linguistic cultural bias benchmarks. Qwen2-Instruct 72B + CultureInstruct outperforms GPT-4o."
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

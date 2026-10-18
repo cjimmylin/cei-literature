@@ -56,7 +56,7 @@ LLM_assessed: "GPT-4o, o3"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 65
 utilitarian_ethics: 80

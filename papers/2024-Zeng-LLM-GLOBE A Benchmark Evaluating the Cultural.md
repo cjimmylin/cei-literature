@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0503
 type: preprint
 short_title: "LLM-GLOBE A Benchmark Evaluating the Cultural"
-year: 2025
+year: 2024
 first_author: "[[Elise Karinshak]]"
 last_author: "[[Yi Zeng]]"
 authors: "Elise Karinshak; Amanda Hu; Kewen Kong; Vishwanatha Rao; Jingren Wang; Jindong Wang; Yi Zeng"
@@ -52,7 +52,7 @@ abstract: "Immense effort has been dedicated to minimizing the presence of harmf
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, GLM, ERNIE"
 DATA_URL: "https://github.com/raovish6/LLM-GLOBE"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0181
 type: conferencePaper
 short_title: "Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters"
-year: 2025
+year: 2024
 first_author: "[[Yujin Potter]]"
 last_author: "[[Dawn Song]]"
 authors: "Yujin Potter; Shiyang Lai; Junsol Kim; James Evans; Dawn Song"
@@ -51,7 +51,7 @@ abstract: "How could LLMs influence our democracy? We investigate LLMs’ politi
 LLM_assessed: "Alpaca, Claude Instant, Claude-2, Claude-3 Opus, GPT-3.5, GPT-4, Gemini, Llama-2, Llama-3, Mixtral, Qwen, WizardLM"
 DATA_URL: NA
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

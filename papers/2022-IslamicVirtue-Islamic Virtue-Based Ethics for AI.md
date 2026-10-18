@@ -2,7 +2,7 @@
 key: EXSR0700
 type: journalArticle
 short_title: "Islamic Virtue-Based Ethics for Artificial Intelligence"
-year: 2025
+year: 2022
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://link.springer.com/article/10.1007/s44163-022-00028-2"
@@ -10,7 +10,7 @@ publication_title: "Discover Artificial Intelligence"
 abstract: "Islamic virtue-based AI ethics grounded in Maqasid. Tazkiya (self-purification) as overarching goal. Alternative to Western ethical frameworks."
 external_pdf: 
 DOI: 10.1007/s44163-022-00028-2
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 60
 deontological_ethics: 0
 utilitarian_ethics: 0

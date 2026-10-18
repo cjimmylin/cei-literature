@@ -54,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

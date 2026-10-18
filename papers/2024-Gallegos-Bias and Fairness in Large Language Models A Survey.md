@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0459
 type: preprint
 short_title: "Bias and Fairness in Large Language Models: A Survey"
-year: 2025
+year: 2024
 first_author: "[[Isabel O. Gallegos]]"
 last_author: "[[Nesreen K. Ahmed]]"
 authors: "Isabel O. Gallegos; Ryan A. Rossi; Barrow, Joe; Tanjim, Md Mehrab; Kim, Sungchul; Dernoncourt, Franck; Yu, Tong; Zhang, Ruiyi; Nesreen K. Ahmed"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/i-gallegos/Fair-LLM-Benchmark"
 tags: 
 abstract: "Comprehensive survey organizing LLM bias and fairness work into three categories: metrics, datasets, and techniques. Covers embedding-based, probability-based, and generated text-based bias evaluation approaches. Published in Computational Linguistics 2024."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

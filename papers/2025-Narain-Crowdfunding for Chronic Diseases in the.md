@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/51cb060a91521e66e9be2c88a0f86569503a
 abstract: "Inspired by Lukk and colleagues' analysis of crowdfunding as a re‐entrenchment of inequalities in the North American context, this response applies the same questions to the Global South, focussing..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

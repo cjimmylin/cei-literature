@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0597
 type: preprint
 short_title: "Sanadset 650K Data on Hadith Narrators"
-year: 2025
+year: 2022
 first_author: "[[Multiple (Data in Brief]]"
 last_author: [[2022)]]
 authors: "Multiple (Data in Brief; 2022)"
@@ -52,7 +52,7 @@ abstract: "Large-scale Hadith narrator chain (Sanad) dataset extracted from 926 
 LLM_assessed: NA
 DATA_URL: "https://data.mendeley.com/datasets/5xth87zwb5/4"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

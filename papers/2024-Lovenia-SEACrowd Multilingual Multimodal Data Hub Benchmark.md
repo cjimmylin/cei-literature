@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0667
 type: conferencePaper
 short_title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
-year: 2025
+year: 2024
 first_author: "[[Holy Lovenia]]"
 last_author: "[[Jennifer Santoso]]"
 authors: "Holy Lovenia; Rahmad Mahendra; Salsabil Maulana Akbar; Lester James Validad Miranda; Jennifer Santoso"
@@ -52,7 +52,7 @@ abstract: "Southeast Asia (SEA) is a region rich in linguistic diversity and cul
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

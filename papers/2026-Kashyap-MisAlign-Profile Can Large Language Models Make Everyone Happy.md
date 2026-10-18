@@ -6,7 +6,7 @@ Not AI:
 key: CULT0158
 type: preprint
 short_title: "MisAlign-Profile: Can Large Language Models Make Everyone Happy?"
-year: 2025
+year: 2026
 first_author: "[[Usman Naseem]]"
 last_author: "[[Rafiq Ali]]"
 authors: "Usman Naseem; Gautam Siddharth Kashyap; Ebad Shabbir; Sushant Kumar Ray; Abdullah Mohammad; Rafiq Ali"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Misalignment in Large Language Models (LLMs) refers to the failure to simultaneously satisfy safety, value, and cultural dimensions, leading to behaviors that diverge from human expectations in real-world settings where these dimensions must co-occur. Existing benchmarks, such as SAFETUNEBED (safety-centric), VALUEBENCH (value-centric), and WORLDVIEW-BENCH (culture-centric), primarily evaluate these dimensions in isolation and therefore provide limited insight into their interactions and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0718
 type: conferencePaper
 short_title: "Validating Pseudo-label Dataset for Japanese Hate Speech Detection | IEEE Conference Publication | IEEE Xplore"
-year: 2025
+year: 2024
 first_author: [[Kajiwara]]
 last_author: [[Kajiwara]]
 authors: Kajiwara
@@ -50,7 +50,7 @@ DATA_URL: NA
 tags: 
 abstract: "In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

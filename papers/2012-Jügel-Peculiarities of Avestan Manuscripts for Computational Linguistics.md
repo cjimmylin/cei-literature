@@ -6,7 +6,7 @@ Not AI:
 key: ZERO0015
 type: journalArticle
 short_title: "Peculiarities of Avestan Manuscripts for Computational Linguistics"
-year: 2025
+year: 2012
 first_author: "[[Thomas Jügel]]"
 last_author: "[[Thomas Jügel]]"
 authors: "Thomas Jügel"
@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Discusses computational tools for creating a stemma of Avestan manuscripts including a letter similarity matrix, morphological expander, and co-occurrence networks. Proposes a comprehensive database for Avestan texts linking manuscripts, translations, and linguistic analyses. Covers over 300 known Avestan manuscripts classified into Pahlavi and Sade groups."
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: KQVD4E5G
 type: document
 short_title: TRIAGE
-year: 2025
+year: 2024
 first_author: "[[Nathalie Maria Kirch]]"
 last_author: "[[Matthias Samwald]]"
 authors: "Nathalie Maria Kirch; Konstantin Hebenstreit; Matthias Samwald"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, GPT-3.5, GPT-4, Mistral, Mixtral"
 DATA_URL: "https://github.com/NLie2/Triage"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

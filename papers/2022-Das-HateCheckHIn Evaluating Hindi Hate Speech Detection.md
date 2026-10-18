@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0590
 type: preprint
 short_title: "HateCheckHIn Evaluating Hindi Hate Speech Detection"
-year: 2025
+year: 2022
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
 authors: "Das, Mithun; Saha, Punyajoy; Mathew, Binny; Mukherjee, Animesh"
@@ -52,7 +52,7 @@ abstract: "Due to the sheer volume of online hate, the AI and NLP communities ha
 LLM_assessed: BERT
 DATA_URL: "https://github.com/hate-alert/HateCheckHIn"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

@@ -51,7 +51,7 @@ abstract: "As large language models (LLMs) advance across diverse tasks, the nee
 LLM_assessed: "Baichuan, ChatGLM, Dolly, GPT-3.5, GPT-4"
 DATA_URL: "https://llmsparks.github.io/"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

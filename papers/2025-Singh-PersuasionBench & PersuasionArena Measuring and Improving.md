@@ -51,7 +51,7 @@ abstract: "Large Language Models (LLMs) are increasingly being used in workflows
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Llama-3, Vicuna"
 DATA_URL: "https://behavior-in-the-wild.github.io/measure-persuasion"
 CONFERENCE: "ICLR 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

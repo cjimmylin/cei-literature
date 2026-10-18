@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0479
 type: preprint
 short_title: "NorBench: A Benchmark for Norwegian Language Models"
-year: 2025
+year: 2023
 first_author: "[[Various (LTG Oslo)]]"
 last_author: "[[Various (LTG Oslo)]]"
 authors: "Various (LTG Oslo)"
@@ -52,7 +52,7 @@ tags:
 abstract: "We present NorBench: a streamlined suite of NLP tasks and probes for evaluating Norwegian language models (LMs) on standardized data splits and evaluation metrics. We also introduce a range of new Norwegian language models (both encoder and encoder-decoder based). Finally, we compare and analyze their performance, along with other existing LMs, across the different benchmark tests of NorBench."
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

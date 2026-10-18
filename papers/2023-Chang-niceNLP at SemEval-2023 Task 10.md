@@ -6,7 +6,7 @@ Not AI:
 key: 4AA9S9XH
 type: conferencePaper
 short_title: "niceNLP at SemEval-2023 Task 10"
-year: 2025
+year: 2023
 first_author: "[[Yu Chang]]"
 last_author: "[[Yanru Zhang]]"
 authors: "Yu Chang; Yuxi Chen; Yanru Zhang"
@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

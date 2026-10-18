@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0582
 type: preprint
 short_title: "Debiased Large Language Models Still Associate"
-year: 2025
+year: 2022
 first_author: "[[Babak Hemmatian]]"
 last_author: "[[Lav R. Varshney]]"
 authors: "Babak Hemmatian; Lav R. Varshney"
@@ -52,7 +52,7 @@ abstract: "Recent work demonstrates a bias in the GPT-3 model towards generating
 LLM_assessed: GPT-3
 DATA_URL: "https://osf.io/u8xtv"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

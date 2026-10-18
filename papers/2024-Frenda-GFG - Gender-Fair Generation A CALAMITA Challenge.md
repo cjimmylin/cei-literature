@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0505
 type: preprint
 short_title: "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
-year: 2025
+year: 2024
 first_author: "[[Simona Frenda]]"
 last_author: "[[Luisa Bentivogli]]"
 authors: "Simona Frenda; Andrea Piergentili; Beatrice Savoldi; Marco Madeddu; Martina Rosola; Silvia Casola; Chiara Ferrando; Viviana Patti; Matteo Negri; Luisa Bentivogli"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/simonasnow/GFL-it-Dataset"
 tags: 
 abstract: "Gender-fair language aims at promoting gender equality by using terms and expressions that include all identities and avoid reinforcing gender stereotypes. Implementing gender-fair strategies is particularly challenging in heavily gender-marked languages, such as Italian. To address this, the Gender-Fair Generation challenge intends to help shift toward gender-fair language in written communication."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0696
 type: preprint
 short_title: "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
-year: 2025
+year: 2026
 first_author: "[[Hu, Luoming]]"
 last_author: "[[Lin, Hongfei]]"
 authors: "Hu, Luoming; Zeng, Jingjie; Yang, Liang; Lin, Hongfei"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 35

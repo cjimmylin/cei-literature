@@ -6,7 +6,7 @@ Not AI:
 key: N35RED3N
 type: conferencePaper
 short_title: "Apolitical Intelligence?"
-year: 2025
+year: 2023
 first_author: "[[Jonathan H. Rystrøm]]"
 last_author: "[[Jonathan H. Rystrøm]]"
 authors: "Jonathan H. Rystrøm"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

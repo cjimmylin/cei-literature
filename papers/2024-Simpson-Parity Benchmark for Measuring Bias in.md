@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0517
 type: preprint
 short_title: "Parity Benchmark for Measuring Bias in"
-year: 2025
+year: 2024
 first_author: "[[Stephen J. Simpson]]"
 last_author: "[[Raaghav Pandya]]"
 authors: "Stephen J. Simpson; Jonathan Nukpezah; Kie Brooks; Raaghav Pandya"
@@ -51,7 +51,7 @@ abstract: "Bias in Large Language Models (LLMs) can perpetuate harmful stereotyp
 LLM_assessed: "Claude-3, GPT-4o, Gemini, Gemma, Llama-3"
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

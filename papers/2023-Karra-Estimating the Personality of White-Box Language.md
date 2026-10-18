@@ -6,7 +6,7 @@ Not AI:
 key: GYKSA9LM
 type: preprint
 short_title: "Estimating the Personality of White-Box Language"
-year: 2025
+year: 2023
 first_author: "[[Saketh Reddy Karra]]"
 last_author: "[[Theja Tulabandhula]]"
 authors: "Saketh Reddy Karra; Son The Nguyen; Theja Tulabandhula"
@@ -65,7 +65,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, GPT-3.5, LLaMA, XLNet"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

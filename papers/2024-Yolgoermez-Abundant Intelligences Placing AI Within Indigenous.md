@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0456
 type: preprint
 short_title: "Abundant Intelligences Placing AI Within Indigenous"
-year: 2025
+year: 2024
 first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Ceyda Yolgoermez]]"
 authors: "Jason Edward Lewis; Hemi Whaanga; Ceyda Yolgoermez"
@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

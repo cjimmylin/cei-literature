@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Event-based Persian offensive language dataset of 13,716 tweets labeled via crowdsourcing platform. 34% labeled as offensive. ParsBERT achieves best F1 of 85.4%."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0498
 type: conferencePaper
 short_title: "Toxicity Detection in Finnish Using Machine Translation"
-year: 2025
+year: 2023
 first_author: "[[Anni Eskelinen]]"
 last_author: "[[Veronika Laippala]]"
 authors: "Anni Eskelinen; Laura Silvala; Filip Ginter; Sampo Pyysalo; Veronika Laippala"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/TurkuNLP/toxicity-classifier"
 tags: 
 abstract: "Due to the popularity of social media platforms and the sheer amount of usergenerated content online, the automatic detection of toxic language has become crucial in the creation of a friendly and safe digital space. Previous work has been mostly focusing on English leaving many lower-resource languages behind. In this paper, we present novel resources for toxicity detection in Finnish by introducing two new datasets, a machine translated toxicity dataset for Finnish based on the widely used..."
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

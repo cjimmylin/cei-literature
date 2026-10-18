@@ -51,7 +51,7 @@ research_topic: Other
 LLM_assessed: "DeepSeek, Gemma, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 0
 utilitarian_ethics: 0

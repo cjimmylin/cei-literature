@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0602
 type: preprint
 short_title: "Cyberbullying and Hate Speech Detection on"
-year: 2025
+year: 2021
 first_author: "[[Mohammed Mghari]]"
 last_author: "[[Abdelaaziz El Hibaoui]]"
 authors: "Mohammed Mghari; Omar Bouras; Abdelaaziz El Hibaoui"
@@ -57,7 +57,7 @@ abstract: "Detection of cyberbullying and hate speech on Kazakh-language social 
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

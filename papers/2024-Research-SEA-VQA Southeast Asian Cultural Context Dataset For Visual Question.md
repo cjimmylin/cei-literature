@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0125
 type: conferencePaper
 short_title: "SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering"
-year: 2025
+year: 2024
 first_author: [[Research]]
 last_author: [[Vision]]
 authors: "Research; Vision"
@@ -52,7 +52,7 @@ DATA_URL: "https://wit543.github.io/sea-vqa"
 tags: 
 abstract: "Visual Question Answering (VQA) is a critical task requiring the simultaneous understanding of visual and textual information. While significant advancements have been made with multilingual datasets, these often lack cultural specificity, especially in the context of Southeast Asia (SEA). In this paper, we introduce SEA-VQA, aiming to highlight the challenges and gaps in existing VQA models when confronted with culturally specific content."
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

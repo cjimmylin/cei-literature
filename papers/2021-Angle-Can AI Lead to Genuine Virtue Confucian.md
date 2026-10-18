@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_ANGLE2021
 type: bookSection
 short_title: "Can AI Lead to Genuine Virtue Confucian"
-year: 2025
+year: 2021
 first_author: "[[Stephen C. Angle]]"
 last_author: "[[Stephen C. Angle]]"
 authors: "Stephen C. Angle"
@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 70
 deontological_ethics: 0
 utilitarian_ethics: 0

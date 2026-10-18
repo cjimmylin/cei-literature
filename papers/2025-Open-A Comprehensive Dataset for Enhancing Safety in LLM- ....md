@@ -51,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/jinjinyien/ToolSafety"
 tags: 
 abstract: "LLMs are evolving into assistants that leverage tools, significantly expanding their capabilities but also introducing critical safety risks. Current models exhibit notable vulnerabilities, particularly in maintaining safety during multi-step tool interactions and in scenarios involving indirect harm. This paper introduces ToolSafety, a safety fine-tuning dataset designed to address these limitations."
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

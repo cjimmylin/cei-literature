@@ -6,7 +6,7 @@ Not AI:
 key: ZHOU2024NAACL
 type: conferencePaper
 short_title: "Rethinking Machine Ethics"
-year: 2025
+year: 2024
 first_author: "[[Jingyan Zhou]]"
 last_author: "[[Helen Meng]]"
 authors: "Jingyan Zhou; Minda Hu; Junan Li; Xiaoying Zhang; Xixin Wu; Irwin King; Helen Meng"
@@ -57,7 +57,7 @@ DATA_URL: NA
 normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
 CONFERENCE: "NAACL 2024"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50

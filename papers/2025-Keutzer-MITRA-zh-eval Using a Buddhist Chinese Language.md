@@ -53,7 +53,7 @@ LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, DeepSeek, GPT-4, Gemini, Gemma-2
 DATA_URL: "https://github.com/dharmamitra/mitra-evaluation"
 ethics_perspective: "General Ethics"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

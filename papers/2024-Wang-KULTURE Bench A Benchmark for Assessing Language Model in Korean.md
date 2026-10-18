@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0242
 type: preprint
 short_title: "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
-year: 2025
+year: 2024
 first_author: "[[Xiaonan Wang]]"
 last_author: "[[Hansaem Kim]]"
 authors: "Xiaonan Wang; Jinyoung Yeo; Joon-Ho Lim; Hansaem Kim"
@@ -52,7 +52,7 @@ tags:
 abstract: "Large language models (LLMs) have exhibited significant enhancements in performance across various tasks. However, the complexity of their evaluation increases as these models generate more fluent and coherent content. Current multilingual benchmarks often use translated English versions, which may incorporate Western cultural biases that do not accurately assess other languages and cultures. To address this research gap, we introduce KULTURE Bench, an evaluation framework specifically designed..."
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

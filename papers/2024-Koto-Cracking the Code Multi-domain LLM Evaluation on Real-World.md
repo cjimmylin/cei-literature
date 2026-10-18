@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0101
 type: preprint
 short_title: "Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia"
-year: 2025
+year: 2024
 first_author: [[Koto]]
 last_author: [[Fajri]]
 authors: "Koto; Fajri"
@@ -52,7 +52,7 @@ DATA_URL: "https://huggingface.co/datasets/indolem/IndoCareer"
 tags: 
 abstract: "While knowledge evaluation in large language models has predominantly focused on academic subjects like math and physics, these assessments often fail to capture the practical demands of real-world professions. In this paper, we introduce IndoCareer, a dataset comprising 8,834 multiple-choice questions designed to evaluate performance in vocational and professional certification exams across various fields."
 CONFERENCE: "NAACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

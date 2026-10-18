@@ -53,7 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4o mini"
 DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 35
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

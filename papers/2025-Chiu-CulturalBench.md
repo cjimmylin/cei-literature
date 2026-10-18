@@ -52,7 +52,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Aya, Cohere, DeepSeek, GPT-4o, Llama-3, Mistral, o1, Qwen"
 DATA_URL: "https://hf.co/spaces/kellycyy/CulturalBench"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

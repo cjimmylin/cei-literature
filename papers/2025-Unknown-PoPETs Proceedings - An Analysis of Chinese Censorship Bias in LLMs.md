@@ -53,7 +53,7 @@ tags:
 abstract: "When a large language model (LLM) has been trained on text featuring social biases, those biases implicitly impact the outputs of the model. Training an LLM on sanitized content, i.e., those pieces of content which remain after being subjected to state censorship (including alterations, deletions, and self-imposed censorship), results in what we term censorship bias. A model impacted by censorship bias may be less likely to reflect views that are routinely prohibited and more likely to reflect..."
 doi: 10.56553/popets-2025-0122
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -2,14 +2,14 @@
 key: CGSR0155
 type: document
 short_title: "The NORBU Project: Buddhist AI as Spiritual Friend (Kalyana Mitta)"
-year: 2025
+year: 2024
 first_author: "[[NORBU AI Team]]"
 authors: "NORBU AI Team"
 url: "https://ijrar.org/papers/IJRAR25B3177.pdf"
 abstract: "Buddhist AI chatbot guided by four brahma-viharas: metta, karuna, mudita, and upekkha"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

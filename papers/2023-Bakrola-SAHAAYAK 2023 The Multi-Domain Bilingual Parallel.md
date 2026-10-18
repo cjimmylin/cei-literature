@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0567
 type: preprint
 short_title: "SAHAAYAK 2023 The Multi-Domain Bilingual Parallel"
-year: 2025
+year: 2023
 first_author: "[[Vishvajitsinh Bakrola]]"
 last_author: "[[Jitendra Nasariwala]]"
 authors: "Vishvajitsinh Bakrola; Jitendra Nasariwala"
@@ -53,7 +53,7 @@ LLM_assessed: NA
 DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

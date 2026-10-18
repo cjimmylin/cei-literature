@@ -52,7 +52,7 @@ abstract: "Large Language Models (LLMs) increasingly serve diverse global audien
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

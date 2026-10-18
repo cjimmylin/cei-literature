@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0571
 type: preprint
 short_title: "Tamil-Llama A New Tamil Language Model"
-year: 2025
+year: 2023
 first_author: [[Abhinand]]
 last_author: [[Abhinand]]
 authors: Abhinand
@@ -52,7 +52,7 @@ abstract: "Language modeling has witnessed remarkable advancements in recent yea
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

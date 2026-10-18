@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0293
 type: preprint
 short_title: "TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction"
-year: 2025
+year: 2026
 first_author: "[[Nadas, Mihai Dan]]"
 last_author: "[[Piscoran, Andrei]]"
 authors: "Nadas, Mihai Dan; Diosan, Laura; Tomescu, Andreea; Piscoran, Andrei"
@@ -52,7 +52,7 @@ abstract: "Recent advances in synthetic data generation have shown that compact 
 LLM_assessed: "BERT, Gemma-2, GPT-4, LLaMA, Llama-3"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0

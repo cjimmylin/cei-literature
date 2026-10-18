@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0448
 type: conferencePaper
 short_title: "Evaluating Gender Bias in Machine Translation (WinoMT)"
-year: 2025
+year: 2019
 first_author: "[[Gabriel Stanovsky]]"
 last_author: "[[Luke Zettlemoyer]]"
 authors: "Gabriel Stanovsky; Noah A. Smith; Luke Zettlemoyer"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/gabrielStanworthy/mt_gender"
 tags: 
 abstract: "We present the ﬁrst challenge set and evaluation protocol for the analysis of gender bias in machine translation (MT). Our approach uses two recent coreference resolution datasets composed of English sentences which cast participants into non-stereotypical gender roles (e.g., “The doctor asked the nurse to help her in the operation”). We devise an automatic gender bias evaluation method for eight target languages with grammatical gender, based on morphological analysis (e.g."
 CONFERENCE: "ACL 2019"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

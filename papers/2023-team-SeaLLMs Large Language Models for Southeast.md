@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0570
 type: preprint
 short_title: "SeaLLMs Large Language Models for Southeast"
-year: 2025
+year: 2023
 first_author: "[[team, DAMO Academy / Alibaba]]"
 last_author: "[[DAMO Academy Alibaba team]]"
 authors: "DAMO Academy Alibaba team"
@@ -52,7 +52,7 @@ abstract: "Despite the remarkable achievements of large language models (LLMs) i
 LLM_assessed: "ChatGPT, Gemma, GPT-4, Llama-2, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/SeaLLMs"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0179
 type: conferencePaper
 short_title: GuardBench
-year: 2025
+year: 2024
 first_author: "[[GuardBench Team]]"
 last_author: "[[GuardBench Team]]"
 authors: "GuardBench Team"
@@ -50,7 +50,7 @@ abstract: "Generative AI systems powered by Large Language Models have become in
 LLM_assessed: "BERT, Llama-2, Mistral, RoBERTa, T5"
 DATA_URL: "https://github.com/AmenRa/guardbench"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

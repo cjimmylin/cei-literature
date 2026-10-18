@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0318
 type: conferencePaper
 short_title: "A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict"
-year: 2025
+year: 2022
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Razzak, Imran]]"
 authors: "Thapa, Surendrabikram; Shah, Aditya; Jafri, Farhan; Naseem, Usman; Razzak, Imran"
@@ -53,7 +53,7 @@ DATA_URL: "https://github.com/therealthapa/emnlp-case2022"
 tags: 
 abstract: "Hate speech consists of types of content (e.g. text, audio, image) that express derogatory sentiments and hate against certain people or groups of individuals. The internet, particularly social media and microblogging sites, have become an increasingly popular platform for expressing ideas and opinions. Hate speech is prevalent in both offline and online media. A substantial proportion of this kind of content is presented in different modalities (e.g. text, image, video)."
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

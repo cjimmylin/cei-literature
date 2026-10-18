@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, Gemma, GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/UBC-NLP/palm"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

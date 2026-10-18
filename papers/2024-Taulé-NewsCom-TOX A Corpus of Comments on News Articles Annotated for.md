@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0278
 type: conferencePaper
 short_title: "NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish"
-year: 2025
+year: 2024
 first_author: "[[Taulé, Mariona]]"
 last_author: "[[Bonet, Xavier]]"
 authors: "Taulé, Mariona; Nofre, Montserrat; Bargiela, Víctor; Bonet, Xavier"
@@ -54,7 +54,7 @@ tags:
 abstract: "In this article, we present the NewsCom-TOX corpus, a new corpus manually annotated for toxicity in Spanish. NewsCom-TOX consists of 4359 comments in Spanish posted in response to 21 news articles on social media related to immigration, in order to analyse and identify messages with racial and xenophobic content. This corpus is multi-level annotated with different binary linguistic categories -stance, target, stereotype, sarcasm, mockery, insult, improper language, aggressiveness and..."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

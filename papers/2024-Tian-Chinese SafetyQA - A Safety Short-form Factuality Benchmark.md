@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0150
 type: conferencePaper
 short_title: "Chinese SafetyQA -- A Safety Short-form Factuality Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Tan, Yingshui]]"
 last_author: "[[Zhang, Kaifu]]"
 authors: "Tan, Yingshui; Zheng, Boren; Zheng, Baihui; Cao, Kerui; Jing, Huiyun; Wei, Jincheng; Liu, Jiaheng; He, Yancheng; Su, Wenbo; Zhu, Xiangyong; Zheng, Bo; Zhang, Kaifu"
@@ -52,7 +52,7 @@ abstract: "With the rapid advancement of Large Language Models (LLMs), significa
 LLM_assessed: "Baichuan, ChatGLM, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, InternLM, Llama-3, Mistral, Qwen-2, Yi, o1-mini, o1-preview"
 DATA_URL: "https://openstellarteam.github.io/ChineseSimpleQA/"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

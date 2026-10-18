@@ -9,7 +9,7 @@ url: "https://ijirt.org/publishedpaper/IJIRT186366_PAPER.pdf"
 abstract: "Vedantic philosophy on karma, consciousness, and AI moral agency"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

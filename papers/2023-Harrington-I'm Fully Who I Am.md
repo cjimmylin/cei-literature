@@ -6,7 +6,7 @@ Not AI:
 key: 2WV7ZVWG
 type: conferencePaper
 short_title: "I'm Fully Who I Am"
-year: 2025
+year: 2023
 first_author: "[[Christina Harrington]]"
 last_author: "[[Christina Harrington]]"
 authors: "Christina Harrington"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-2"
 DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

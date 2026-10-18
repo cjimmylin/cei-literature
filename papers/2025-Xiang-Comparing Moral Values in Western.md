@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Llama-3
 DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 80
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

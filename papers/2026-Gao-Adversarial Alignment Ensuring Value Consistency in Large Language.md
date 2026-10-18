@@ -6,7 +6,7 @@ Not AI:
 key: CULT0007
 type: preprint
 short_title: "Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains"
-year: 2025
+year: 2026
 first_author: "[[Yuan Gao]]"
 last_author: "[[Xiaobing Zhao]]"
 authors: "Yuan Gao; Zhigang Liu; Xinyu Yao; Bo Chen; Xiaobing Zhao"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Ad-Align/VC-LLM"
 tags: 
 abstract: "With the wide application of large language models (LLMs), the problems of bias and value inconsistency in sensitive domains have gradually emerged, especially in terms of race, society and politics. In this paper, we propose an adversarial alignment framework, which enhances the value consistency of the model in sensitive domains through continued pre-training, instruction fine-tuning and adversarial training."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0452
 type: conferencePaper
 short_title: "Vigogne: French instruction-following and chat models"
-year: 2025
+year: 2023
 first_author: "[[Bofeng Huang]]"
 last_author: "[[Bofeng Huang]]"
 authors: "Bofeng Huang"
@@ -50,7 +50,7 @@ DATA_URL: "https://github.com/bofenghuang/vigogne"
 tags: 
 abstract: "Collection of French LLMs fine-tuned for instruction-following and chat. Includes instruction-following and multi-turn chat models based on LLaMA. Training data includes 460K GPT-3.5-Turbo examples and 60K GPT-4 examples. Provides French LLM evaluation methodology."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

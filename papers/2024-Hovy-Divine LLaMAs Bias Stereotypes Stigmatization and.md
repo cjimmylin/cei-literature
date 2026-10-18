@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0476
 type: conference_paper
 short_title: "Divine LLaMAs Bias Stereotypes Stigmatization and"
-year: 2025
+year: 2024
 first_author: "[[Flor Miriam Plaza-del-Arco]]"
 last_author: "[[Dirk Hovy]]"
 authors: "Flor Miriam Plaza-del-Arco; Simone Tedeschi; Fer-Jan de Vries; Dirk Hovy"
@@ -52,7 +52,7 @@ abstract: "Emotions play important epistemological and cognitive roles in our li
 LLM_assessed: "GPT-4o, Llama-2, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 65
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0

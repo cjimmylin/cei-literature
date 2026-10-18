@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0218
 type: preprint
 short_title: "Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task"
-year: 2025
+year: 2024
 first_author: "[[Garcia, Gabriel Lino]]"
 last_author: "[[Papa, João Paulo]]"
 authors: "Garcia, Gabriel Lino; Paiola, Pedro Henrique; Morelli, Luis Henrique; Candido, Giovani; Júnior, Arnaldo Cândido; Jodas, Danilo Samuel; Luis C. S. Afonso; Guilherme, Ivan Rizzo; Penteado, Bruno Elias; Papa, João Paulo"
@@ -52,7 +52,7 @@ DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly bringing advances to Natural Language Processing. However, low-resource languages, those lacking extensive prominence in datasets for various NLP tasks, or where existing datasets are not as substantial, such as Portuguese, already obtain several benefits from LLMs, but not to the same extent. LLMs trained on multilingual datasets normally struggle to respond to prompts in Portuguese satisfactorily, presenting, for example, code switching in their..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

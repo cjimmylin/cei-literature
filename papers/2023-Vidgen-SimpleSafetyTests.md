@@ -2,7 +2,7 @@
 key: HELM0001
 type: document
 short_title: SimpleSafetyTests
-year: 2025
+year: 2023
 first_author: "[[Bertie Vidgen]]"
 last_author: "[[Douwe Kiela]]"
 authors: "Bertie Vidgen; Tristan Thrush; Zeerak Waseem; Douwe Kiela"
@@ -48,7 +48,7 @@ abstract: "The past year has seen rapid acceleration in the development of large
 local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Vidgen-SimpleSafetyTests.pdf]]
 DATE_ADDED: 20260312
 helm: incorporated
-ethics_overall: No
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

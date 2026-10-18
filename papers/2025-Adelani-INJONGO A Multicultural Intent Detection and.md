@@ -53,7 +53,7 @@ LLM_assessed: "BERT, GPT-4o"
 DATA_URL: "https://huggingface.co/collections/McGill-NLP/injongo-683240ae2323fbf2afe225d2"
 research_topic: "Machine Learning"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

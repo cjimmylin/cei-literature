@@ -6,7 +6,7 @@ Not AI:
 key: QSRJKWRD
 type: conferencePaper
 short_title: "Beyond Human Norms"
-year: 2025
+year: 2024
 first_author: "[[Pablo Biedma]]"
 last_author: "[[Xie, Xing]]"
 authors: "Biedma, Pablo; Yi, Xiaoyuan; Huang, Linus; Sun, Maosong; Xie, Xing"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-3, GPT-4, Llama-2, Mistral, Gemma, Baichuan, Tulu-2, GLM-3, GLM-4, Gemini"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5

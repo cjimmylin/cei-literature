@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0112
 type: preprint
 short_title: "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning"
-year: 2025
+year: 2023
 first_author: "[[Bin Wang]]"
 last_author: "[[Nancy F. Chen]]"
 authors: "Bin Wang; Liu, Zhengyuan; Huang, Xin; Jiao, Fangkai; Ding, Yang; Aw, AiTi; Nancy F. Chen"
@@ -52,7 +52,7 @@ DATA_URL: "https://github.com/SeaEval/SeaEval"
 tags: 
 abstract: "We present SeaEval, a benchmark for multilingual foundation models. In addition to characterizing how these models understand and reason with natural language, we also investigate how well they comprehend cultural practices, nuances, and values. Alongside standard accuracy metrics, we investigate the brittleness of foundation models in the dimensions of semantics and multilinguality. Our analyses span both open-sourced and closed models, leading to empirical results across classic NLP tasks,..."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

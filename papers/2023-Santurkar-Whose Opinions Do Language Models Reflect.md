@@ -6,7 +6,7 @@ Not AI:
 key: MQX8ISEP
 type: conferencePaper
 short_title: "Whose Opinions Do Language Models Reflect?"
-year: 2025
+year: 2023
 first_author: "[[Shibani Santurkar]]"
 last_author: "[[Tatsunori Hashimoto]]"
 authors: "Shibani Santurkar; Esin Durmus; Faisal Ladhak; Cinoo Lee; Percy Liang; Tatsunori Hashimoto"
@@ -55,7 +55,7 @@ publication: "ICML 2023"
 CONF-CC: "ICML 2023"
 DATE_ADDED: 20260207
 CONFERENCE: "ICML 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

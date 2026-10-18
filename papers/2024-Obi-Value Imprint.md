@@ -6,7 +6,7 @@ Not AI:
 key: 4KCYVGC9
 type: conferencePaper
 short_title: "Value Imprint"
-year: 2025
+year: 2024
 first_author: "[[Ike Obi]]"
 last_author: "[[Basiletti, Aaron]]"
 authors: "Obi, Ike; Pant, Rohan; Agrawal, Srishti Shekhar; Ghazanfar, Maham; Basiletti, Aaron"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://github.com/hv-rsrch/valueimprint"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15

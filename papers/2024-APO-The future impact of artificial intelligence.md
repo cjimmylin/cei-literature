@@ -2,14 +2,14 @@
 key: CGSR0093
 type: document
 short_title: "The future impact of artificial intelligence on First Nations communities"
-year: 2025
+year: 2024
 first_author: "[[Unknown (APO)]]"
 authors: "Unknown (APO)"
 url: "https://apo.org.au/node/333026"
 abstract: "Impact of AI on Aboriginal and Torres Strait Islander communities in Australia"
 DATE_ADDED: 20260403
 cultural_gap_category: Indigenous
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

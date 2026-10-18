@@ -52,7 +52,7 @@ abstract: "In AI alignment, extensive latitude must be granted to annotators, ei
 LLM_assessed: "GPT-4o, DeepSeek, Claude-3 Sonnet, Llama-3, Mistral"
 DATA_URL: NA
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

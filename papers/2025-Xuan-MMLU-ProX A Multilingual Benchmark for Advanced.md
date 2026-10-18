@@ -52,7 +52,7 @@ abstract: "Existing large language model (LLM) evaluation benchmarks primarily f
 LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o, Gemma, InternLM, LLaMA, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/weihao1115/MMLU-ProX"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

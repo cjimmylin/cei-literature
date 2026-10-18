@@ -6,7 +6,7 @@ Not AI:
 key: CULT0078
 type: preprint
 short_title: "MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs"
-year: 2025
+year: 2024
 first_author: "[[Vera Neplenbroek]]"
 last_author: "[[Raquel Fernandez]]"
 authors: "Vera Neplenbroek; Arianna Bisazza; Raquel Fernandez"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/Veranep/MBBQ"
 tags: 
 abstract: "Generative large language models (LLMs) have been shown to exhibit harmful biases and stereotypes. While safety fine-tuning typically takes place in English, if at all, these models are being used by speakers of many different languages. There is existing evidence that the performance of these models is inconsistent across languages and that they discriminate based on demographic factors of the user."
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

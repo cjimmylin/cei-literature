@@ -2,14 +2,14 @@
 key: CGSR0126
 type: document
 short_title: "The State of Artificial Intelligence in the Pacific Islands"
-year: 2025
+year: 2024
 first_author: "[[AI Asia Pacific Institute]]"
 authors: "AI Asia Pacific Institute"
 url: "https://aiasiapacific.org/wp-content/uploads/2024/08/The-State-of-Artificial-Intelligence-in-the-Pacific-Islands.pdf"
 abstract: "Comprehensive state of AI in 16 Pacific Island countries"
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

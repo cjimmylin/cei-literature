@@ -6,7 +6,7 @@ Not AI:
 key: XE3T6PWS
 type: conferencePaper
 short_title: ValueBench
-year: 2025
+year: 2024
 first_author: "[[Yuanyi Ren]]"
 last_author: "[[Guojie Song]]"
 authors: "Yuanyi Ren; Haoran Ye; Hanjun Fang; Xin Zhang; Guojie Song"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral"
 DATA_URL: "https://github.com/Value4AI/ValueBench"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

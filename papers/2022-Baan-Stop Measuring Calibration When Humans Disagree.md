@@ -6,7 +6,7 @@ Not AI:
 key: WLV875AC
 type: conferencePaper
 short_title: "Stop Measuring Calibration When Humans Disagree"
-year: 2025
+year: 2022
 first_author: "[[Joris Baan]]"
 last_author: "[[Raquel Fernández]]"
 authors: "Joris Baan; Wilker Aziz; Barbara Plank; Raquel Fernández"
@@ -53,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/jsbaan/calibration-on-disagreement-data"
 CONFERENCE: "EMNLP 2022"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0522
 type: preprint
 short_title: "Representing the Under-Represented Cultural and Core"
-year: 2025
+year: 2024
 first_author: "[[Sawit Kasuriya]]"
 last_author: "[[Peerachet Porkaew]]"
 authors: "Sawit Kasuriya; Parinthapat Pengpun; Peerat Limkonchotiwat; Potsawee Manakul; Can Udomcharoenchaikit; Kunat Pipatanakul; Phatrasek Jirabovonvisut; Kanokorn Srimai; Peerachet Porkaew"
@@ -53,7 +53,7 @@ LLM_assessed: "Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, Lla
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0

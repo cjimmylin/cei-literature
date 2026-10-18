@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0455
 type: conference_paper
 short_title: "AC-EVAL Evaluating Ancient Chinese Language Understanding"
-year: 2025
+year: 2024
 first_author: "[[Yuting Wei]]"
 last_author: "[[Bin Wu]]"
 authors: "Yuting Wei; Yuanxing Xu; Xinru Wei; Simin Yang; Yangfu Zhu; Yuqing Li; Di Liu; Bin Wu"
@@ -52,7 +52,7 @@ abstract: "Given the importance of ancient Chinese in capturing the essence of r
 LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, LLaMA, Llama-2, Qwen"
 DATA_URL: "https://github.com/yuting-wei/AC-EVAL"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

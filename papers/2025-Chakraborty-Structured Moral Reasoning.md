@@ -56,7 +56,7 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chakraborty-Structured Moral Reasonin
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260213
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50

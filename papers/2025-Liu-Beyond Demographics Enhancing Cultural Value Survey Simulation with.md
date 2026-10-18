@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/alexc-l/MARK-Multi-stAge-Reasoning-frameworK"
 tags: 
 abstract: "Introducing MARK, the Multi-stAge Reasoning frameworK for cultural value survey response simulation, designed to enhance the accuracy, steerability, and interpretability of large language models in this task. The system is inspired by the type dynamics theory in the MBTI psychological framework for personality research. It effectively predicts and utilizes human demographic information for simulation: life-situational stress analysis, group-level personality prediction, and self-weighted..."
 CONFERENCE: "EMNLP 2025"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

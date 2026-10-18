@@ -51,7 +51,7 @@ DATA_URL: NA
 tags: 
 abstract: "Proposes 'mind-infusing animism' as a new relational framework for evaluating the moral treatment of robots, inspired by Japanese animistic thought (Shinto). Distinguishes between mind-reading animism (static properties) and mind-infusing animism (dynamically constructed through interaction), drawing on philosopher Omori Shozo."
 CONFERENCE: "Other Conference"
-ethics_overall: No
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: XTHGVLPS
 type: conferencePaper
 short_title: "Can Language Models Reason about Individualistic"
-year: 2025
+year: 2024
 first_author: "[[Liwei Jiang]]"
 last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Taylor Sorensen; Sydney Levine; Yejin Choi"
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o mini, Llama-3, Mixtral, Qwen-2"
 DATA_URL: "https://github.com/liweijiang/indievalue"
 CONFERENCE: "ACL 2024"
-ethics_overall: No
+ethics_overall: 15
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

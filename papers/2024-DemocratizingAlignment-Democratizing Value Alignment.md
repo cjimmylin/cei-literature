@@ -2,7 +2,7 @@
 key: EXSR0711
 type: journalArticle
 short_title: "Democratizing Value Alignment: From Authoritarian to Democratic AI Ethics"
-year: 2025
+year: 2024
 first_author: [[Unknown]]
 authors: Unknown
 url: "https://link.springer.com/article/10.1007/s43681-024-00624-1"
@@ -10,7 +10,7 @@ publication_title: "AI and Ethics"
 abstract: "Argues for democratizing value alignment. When AI operates at scale = governance. Must satisfy public justification standards."
 external_pdf: 
 DOI: 10.1007/s43681-024-00624-1
-ethics_overall: No
+ethics_overall: 40
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI: Yes
 key: KNNFTMH4
 type: journalArticle
 short_title: "The choice of deontological, virtue ethical, and"
-year: 2025
+year: 2023
 first_author: "[[Andrew Maile]]"
 last_author: "[[Kristjánsson, Kristján]]"
 authors: "Maile, Andrew; Thompson, Aidan; McLoughlin, Shane; Kristjánsson, Kristján"
@@ -53,7 +53,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Maile-The choice of deontological, virtue ethical, and.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 100
 utilitarian_ethics: 100

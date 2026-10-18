@@ -53,7 +53,7 @@ LLM_assessed: "Aya, GPT-4o mini, Gemini, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/SEACrowd/SEADialogues"
 research_topic: "Machine Translation"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0618
 type: preprint
 short_title: "Are They Our Brothers Analysis and"
-year: 2025
+year: 2018
 first_author: "[[Nuha Albadi]]"
 last_author: "[[Shivakant Mishra]]"
 authors: "Nuha Albadi; Maram Kurdi; Shivakant Mishra"
@@ -52,7 +52,7 @@ abstract: "First paper to address religious hate speech detection in Arabic Twit
 LLM_assessed: NA
 DATA_URL: "https://github.com/nuhaalbadi/Arabic_hatespeech"
 CONFERENCE: Preprint
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

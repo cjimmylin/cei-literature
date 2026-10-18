@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0321
 type: preprint
 short_title: "bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark"
-year: 2025
+year: 2023
 first_author: "[[Momchil Hardalov]]"
 last_author: "[[Dragomir Radev]]"
 authors: "Momchil Hardalov; Pepa Atanasova; Todor Mihaylov; Galia Angelova; Kiril Simov; Petya Osenova; Ves Stoyanov; Ivan Koychev; Preslav Nakov; Dragomir Radev"
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/bgGLUE/bgglue"
 tags: 
 abstract: "We present bgGLUE (Bulgarian General Language Understanding Evaluation), a benchmark for evaluating language models on Natural Language Understanding (NLU) tasks in Bulgarian. Our benchmark includes NLU tasks targeting a variety of NLP problems (e.g., natural language inference, fact-checking, named entity recognition, sentiment analysis, question answering, etc.) and machine learning tasks (sequence labeling, document-level classification, and regression)."
 CONFERENCE: "ACL 2023"
-ethics_overall: No
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

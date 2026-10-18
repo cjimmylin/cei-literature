@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0372
 type: conferencePaper
 short_title: "SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese"
-year: 2025
+year: 2022
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Luan Thanh Nguyen; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
@@ -52,7 +52,7 @@ tags:
 abstract: "Text classification is a typical natural language processing or computational linguistics task with various interesting applications. As the number of users on social media platforms increases, data acceleration promotes emerging studies on Social Media Text Classification (SMTC) or social media text mining on these valuable resources. In contrast to English, Vietnamese, one of the low-resource languages, is still not concentrated on and exploited thoroughly."
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2022"
-ethics_overall: No
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

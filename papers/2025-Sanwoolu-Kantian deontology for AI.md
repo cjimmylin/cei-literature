@@ -54,7 +54,7 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 CONFERENCE: Journal
-ethics_overall: No
+ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 100
 utilitarian_ethics: 0

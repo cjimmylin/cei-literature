@@ -31,6 +31,17 @@ Subcommands
                            refuses to start if the projection exceeds the ceiling.
   analyze                  Pre-committed read-outs (boot §4.7) -> analysis JSON.
 
+judge-d01 re-judge options (2026-10-18; RULINGS-APPLIED-20261018b Stage 2; absent = unchanged)
+  --judge LABEL=SLUG         add a judge label or replace a label's OpenRouter slug
+  --only-judges L1[,L2]      judge only with these labels (e.g. only the candidate)
+  --price-bound SLUG=IN,OUT  $/M-token bound when no usage.cost is returned (REQUIRED for a
+                             slug without a built-in bound)
+  --responses PATH           stored responses to re-judge (read-only; default: this probe's
+                             responses.jsonl). No SUT is ever called by judge-d01.
+  --log-root PATH            NEW directory for d01_judgments.jsonl + judge_tally.txt
+                             (REQUIRED whenever any option here is used)
+  --ceiling USD              hard ceiling for this judging pass (default $1.00)
+
 Instrument identity: tools/audit/ is NOT pinned by INSTRUMENT.json; everything
 under walkworthy_inspect/ and datasets/ is imported/read strictly read-only.
 Judge prompts reuse the single shipped assembly surface
@@ -611,11 +622,12 @@ def run_judge_d01(calibrate: bool) -> None:
     if calibrate:
         rows = load_jsonl(D01_JUDGE_PATH)
         costs = [float(r.get("cost_usd") or 0.0) for r in rows]
+        n_full = 588 if not _OVERRIDES["active"] else len(responses) * len(JUDGES)
         if costs:
             mean_cost = sum(costs) / len(costs)
-            projection = mean_cost * 588
+            projection = mean_cost * n_full
             print(f"  calibration: mean ${mean_cost:.5f}/call -> projected full census "
-                  f"(588 calls) ${projection:.3f} "
+                  f"({n_full} calls) ${projection:.3f} "
                   f"[{'OK under' if projection <= JUDGE_CEILING_USD else 'EXCEEDS'} "
                   f"${JUDGE_CEILING_USD:.2f} ceiling]")
 
@@ -847,6 +859,70 @@ def run_analyze() -> None:
 
 
 # --------------------------------------------------------------------------- #
+# judge-d01 re-judge overrides (2026-10-18; RULINGS-APPLIED-20261018b Stage 2)
+# --------------------------------------------------------------------------- #
+_DEFAULT_LOG_ROOT = LOG_ROOT
+_OVERRIDES = {"active": False}
+_LABEL_RE = re.compile(r"^[A-Za-z0-9_.-]+$")
+_SLUG_RE = re.compile(r"^[A-Za-z0-9._-]+/[A-Za-z0-9._:-]+$")
+
+
+def apply_judge_d01_overrides(args: argparse.Namespace) -> None:
+    """Rebind the judging globals for a re-judge of STORED responses. No option -> no-op."""
+    global LOG_ROOT, RESPONSES_PATH, D01_JUDGE_PATH, JUDGE_TALLY_PATH, JUDGE_CEILING_USD
+    active = bool(args.judge or args.only_judges or args.price_bound or args.log_root
+                  or args.responses or args.ceiling is not None)
+    if not active:
+        return
+    for spec in args.price_bound:
+        slug, sep, nums = spec.partition("=")
+        parts = nums.split(",")
+        if not sep or not _SLUG_RE.match(slug) or len(parts) != 2:
+            sys.exit(f"ABORT: bad --price-bound {spec!r}; expected SLUG=IN,OUT ($/M tokens)")
+        try:
+            PRICE_BOUND[slug] = (float(parts[0]), float(parts[1]))
+        except ValueError:
+            sys.exit(f"ABORT: bad --price-bound numbers in {spec!r}")
+    for spec in args.judge:
+        label, sep, slug = spec.partition("=")
+        if not sep or not _LABEL_RE.match(label) or not _SLUG_RE.match(slug):
+            sys.exit(f"ABORT: bad --judge {spec!r}; expected LABEL=vendor/model")
+        JUDGES[label] = slug
+    if args.only_judges:
+        keep = [x.strip() for x in args.only_judges.split(",") if x.strip()]
+        unknown = [x for x in keep if x not in JUDGES]
+        if not keep or unknown:
+            sys.exit(f"ABORT: --only-judges names unknown label(s) {unknown}; "
+                     f"known: {sorted(JUDGES)}")
+        for label in list(JUDGES):
+            if label not in keep:
+                del JUDGES[label]
+    missing = sorted({s for s in JUDGES.values() if s not in PRICE_BOUND})
+    if missing:
+        sys.exit(f"ABORT: no price bound for {missing}; pass --price-bound SLUG=IN,OUT")
+    if args.responses:
+        RESPONSES_PATH = Path(args.responses)
+        if "holdout" in str(RESPONSES_PATH).lower():
+            sys.exit("ABORT: --responses path fails the public-only tripwire.")
+        if not RESPONSES_PATH.exists():
+            sys.exit(f"ABORT: --responses {RESPONSES_PATH} does not exist.")
+    if not args.log_root:
+        sys.exit("ABORT: re-judge options require a NEW --log-root (the v4-T ledger "
+                 f"{_DEFAULT_LOG_ROOT} is closed).")
+    LOG_ROOT = Path(args.log_root)
+    if LOG_ROOT.resolve() == _DEFAULT_LOG_ROOT.resolve():
+        sys.exit(f"ABORT: {LOG_ROOT} is the closed v4-T ledger; use a NEW --log-root.")
+    D01_JUDGE_PATH = LOG_ROOT / "d01_judgments.jsonl"
+    JUDGE_TALLY_PATH = LOG_ROOT / "judge_tally.txt"
+    if args.ceiling is not None:
+        JUDGE_CEILING_USD = float(args.ceiling)
+    _OVERRIDES["active"] = True
+    print(f"  re-judge options active: judges={JUDGES}  responses={RESPONSES_PATH}  "
+          f"log_root={LOG_ROOT}  ceiling=${JUDGE_CEILING_USD:.2f}  "
+          f"price bounds={ {s: PRICE_BOUND[s] for s in JUDGES.values()} }")
+
+
+# --------------------------------------------------------------------------- #
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -855,6 +931,12 @@ def main() -> int:
     sub.add_parser("score-d05")
     p_judge = sub.add_parser("judge-d01")
     p_judge.add_argument("--calibrate", action="store_true")
+    p_judge.add_argument("--judge", action="append", default=[], metavar="LABEL=SLUG")
+    p_judge.add_argument("--only-judges", default=None, metavar="L1[,L2]")
+    p_judge.add_argument("--price-bound", action="append", default=[], metavar="SLUG=IN,OUT")
+    p_judge.add_argument("--responses", default=None, metavar="PATH")
+    p_judge.add_argument("--log-root", default=None, metavar="PATH")
+    p_judge.add_argument("--ceiling", type=float, default=None, metavar="USD")
     sub.add_parser("analyze")
     args = ap.parse_args()
     if args.cmd == "census":
@@ -862,6 +944,7 @@ def main() -> int:
     elif args.cmd == "score-d05":
         run_score_d05()
     elif args.cmd == "judge-d01":
+        apply_judge_d01_overrides(args)
         run_judge_d01(args.calibrate)
     elif args.cmd == "analyze":
         run_analyze()

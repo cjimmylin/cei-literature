@@ -7,7 +7,7 @@ and validating profile completeness.
 
 from pathlib import Path
 from typing import List, Dict
-from lib.config import AUTHORS_DIR, PAPERS_DIR
+from lib import config
 from lib.yaml_utils import extract_frontmatter, parse_frontmatter
 
 
@@ -17,7 +17,7 @@ def get_all_authors() -> List[Path]:
     Returns:
         List of Path objects for all .md files in Authors directory, sorted by name.
     """
-    return sorted(AUTHORS_DIR.glob("*.md"))
+    return sorted(config.AUTHORS_DIR.glob("*.md"))
 
 
 def find_orphaned_authors() -> List[Path]:
@@ -31,7 +31,7 @@ def find_orphaned_authors() -> List[Path]:
 
     # Get all referenced authors from papers
     referenced = set()
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
         fm, _ = extract_frontmatter(content)
         fields = parse_frontmatter(fm)
@@ -43,7 +43,7 @@ def find_orphaned_authors() -> List[Path]:
 
     # Find orphans
     orphaned = all_authors - referenced
-    return [AUTHORS_DIR / f"{author}.md" for author in orphaned]
+    return [config.AUTHORS_DIR / f"{author}.md" for author in orphaned]
 
 
 def get_authors_by_enrichment_status(enriched: bool = True) -> List[Path]:
@@ -118,7 +118,7 @@ def get_author_paper_count(author_name: str) -> int:
     count = 0
     search_pattern = f'"[[{author_name}]]"'
 
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
         if search_pattern in content:
             count += 1

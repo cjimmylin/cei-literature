@@ -6,7 +6,7 @@ including querying, filtering, updating, and gathering statistics.
 
 from pathlib import Path
 from typing import List, Dict
-from lib.config import PAPERS_DIR
+from lib import config
 from lib.yaml_utils import extract_frontmatter, write_paper, parse_frontmatter, rebuild_frontmatter
 
 
@@ -16,7 +16,7 @@ def get_all_papers() -> List[Path]:
     Returns:
         List of Path objects for all .md files in papers directory, sorted by name.
     """
-    return sorted(PAPERS_DIR.glob("*.md"))
+    return sorted(config.PAPERS_DIR.glob("*.md"))
 
 
 def get_papers_by_field(field: str, value: str) -> List[Path]:

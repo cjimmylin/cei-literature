@@ -5,6 +5,35 @@ from pathlib import Path
 import tempfile
 import shutil
 
+from lib import config
+
+
+# Every config path a test could reach. Kept in one place so a new path
+# added to lib.config can be redirected here too.
+_VAULT_PATH_ATTRS = (
+    "PAPERS_DIR", "AUTHORS_DIR", "PDFS_DIR", "PDF_EXTRACTS_DIR",
+    "AI_LABS_DIR", "AI_LAB_PDFS_DIR", "STATISTICS_DIR", "DASHBOARDS_DIR",
+    "LOGS_DIR", "RECYCLE_BIN_DIR",
+)
+
+
+@pytest.fixture(autouse=True)
+def _isolate_from_real_vault(tmp_path_factory, monkeypatch):
+    """Point every lib.config path at an empty temp dir for every test.
+
+    Without this, a test that forgets to override a path (or a lib function
+    that reads one the test did not override) runs against the real vault.
+    test_batch_update_papers run that way sets year 2025 and ethics_overall
+    "No" on every paper: the same damage found in commit 5caae838f
+    (2026-07-09, repaired 2026-10-18).
+    """
+    sandbox = tmp_path_factory.mktemp("isolated-vault")
+    for attr in _VAULT_PATH_ATTRS:
+        if hasattr(config, attr):
+            target = sandbox / attr.lower()
+            target.mkdir()
+            monkeypatch.setattr(config, attr, target)
+
 
 @pytest.fixture
 def sample_paper_content():

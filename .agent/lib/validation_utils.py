@@ -5,10 +5,11 @@ checking classification consistency, finding duplicates,
 and running comprehensive validation across all papers.
 """
 
+import re
 from pathlib import Path
 from typing import List, Dict
 from dataclasses import dataclass
-from lib.config import PAPERS_DIR
+from lib import config
 from lib.yaml_utils import extract_frontmatter, parse_frontmatter, validate_frontmatter
 
 
@@ -58,16 +59,14 @@ def validate_paper_integrity(filepath: Path) -> ValidationResult:
             if field not in fields:
                 errors.append(f"Missing required field: {field}")
 
-        # Check field formats
-        if "first_author" in fields:
-            fa = fields["first_author"]
-            if not (fa.startswith('"[[') and fa.endswith(']]"')):
-                errors.append("first_author must be quoted wikilink")
-
-        if "local_pdf" in fields:
-            pdf = fields["local_pdf"]
-            if not (pdf.startswith('"[[') and pdf.endswith(']]"')):
-                errors.append("local_pdf must be quoted wikilink")
+        # Check field formats on the raw lines: parse_frontmatter strips
+        # quotes, so its values can't tell "[[A]]" from [[A]].
+        for field in ("first_author", "local_pdf"):
+            if field in fields:
+                m = re.search(rf"^{field}:[ \t]*(.*)$", fm, re.MULTILINE)
+                raw = m.group(1).strip() if m else ""
+                if not (raw.startswith('"[[') and raw.endswith(']]"')):
+                    errors.append(f"{field} must be quoted wikilink")
 
         # Check newtags format
         if "newtags" in fields:
@@ -137,7 +136,7 @@ def check_duplicate_papers() -> Dict[str, List[Path]]:
 
     # Check by DOI
     doi_map = {}
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         content = paper.read_text()
         fm, _ = extract_frontmatter(content)
         fields = parse_frontmatter(fm)
@@ -173,7 +172,7 @@ def validate_all_papers() -> Dict[str, any]:
         "failed_papers": [],
     }
 
-    for paper in PAPERS_DIR.glob("*.md"):
+    for paper in config.PAPERS_DIR.glob("*.md"):
         results["total"] += 1
 
         result = validate_paper_integrity(paper)

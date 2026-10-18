@@ -1,10 +1,45 @@
 ---
 name: generate-dashboard
-description: Regenerate interactive HTML dashboard from JSON classification data. Creates self-contained HTML with ECharts visualizations.
+description: Rebuild the CEI Literature Vault dashboard (v14 layout) from the vault's notes with PYTHON/build_vault_dashboard_14.py. The older single-file dashboard is documented below as legacy.
 disable-model-invocation: true
 ---
 
 # Generate Dashboard
+
+## Current dashboard (v14 layout) — use this
+
+```
+Step 1: Build from the notes + committed inputs (no network, no gitignored logs needed)
+  └─ python3 PYTHON/build_vault_dashboard_14.py
+       → DASHBOARDS/cei-dashboard-14/{data.js, data-core.js, data-detail.js}
+
+Step 2: Check the printed totals (2026-10-18: Total 2,445, Ethics 817, 1,081 benchmark candidates)
+  └─ and open DASHBOARDS/cei-dashboard-14/index.html in a browser
+
+Step 3: Validate papers untouched
+  └─ python3 PYTHON/validate_all_papers.py
+
+Step 4: Publish
+  ├─ vault site: commit, then run the "Deploy Dashboard to Pages" workflow (publishes DASHBOARDS/cei-dashboard-14/)
+  └─ cjimmylin/cei-dashboard-14: copy data-core.js + data-detail.js there and commit
+```
+
+- Every per-paper field comes from `papers/*.md` frontmatter. New papers need their classification
+  fields filled in the notes first (see how v14 did it: `DASHBOARDS/cei-dashboard-14/build/README.md`).
+- Generator inputs that are not in the notes are committed in `DASHBOARDS/cei-dashboard-14/build/`:
+  `benchmark_survey_candidates.json` (benchmark-survey "Yes" entries) and
+  `normative_v2_all_classifications.json`. A new paper becomes a benchmark candidate only by adding
+  its entry to that candidates file.
+- The author map is regenerated on every build (`build_author_paper_map.py --skip-api`).
+- `index.html` hard-codes the version label and the paper count in its text; update them when the
+  count changes.
+
+---
+
+## Legacy: single-file dashboard (2026-02-16)
+
+Everything below describes the February single-file dashboard. Its `logs/*.json` inputs are
+gitignored and not in the repo.
 
 **Purpose:** Regenerate the interactive HTML dashboard from the vault's JSON classification data. Produces a single self-contained HTML file with ECharts visualizations, filterable tables, and KPI cards.
 
@@ -122,5 +157,5 @@ CSS custom properties are in `:root` at the top of the `<style>` block. Category
 
 ---
 
-**Version:** 1.1
-**Updated:** 2026-02-16
+**Version:** 1.2
+**Updated:** 2026-10-18 (current v14 build added at the top; the rest is legacy)

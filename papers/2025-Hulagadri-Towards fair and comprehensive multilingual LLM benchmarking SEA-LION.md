@@ -100,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway.
+
 
 ## Data Description
 

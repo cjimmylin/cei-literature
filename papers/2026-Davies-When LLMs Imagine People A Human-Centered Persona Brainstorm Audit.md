@@ -7,9 +7,9 @@ key: LSRC0665
 type: preprint
 short_title: "When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications"
 year: 2026
-first_author: "[[Dave Davies]]"
-last_author: "[[Dave Davies]]"
-authors: "Dave Davies"
+first_author: "[[Hongliu Cao]]"
+last_author: "[[Rodrigo Acuna Agost]]"
+authors: "Hongliu Cao; Eoin Thomas; Rodrigo Acuna Agost"
 url: "https://arxiv.org/html/2602.00044v1"
 external_pdf: "https://arxiv.org/pdf/2602.00044.pdf"
 publication: arXiv
@@ -79,11 +79,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Dave Davies]]
+[[Hongliu Cao]], [[Eoin Thomas]], [[Rodrigo Acuna Agost]]
 
 ## Metadata
 
-**Authors:** Dave Davies
+**Authors:** Hongliu Cao; Eoin Thomas; Rodrigo Acuna Agost
 
 **Year:** 2026
 

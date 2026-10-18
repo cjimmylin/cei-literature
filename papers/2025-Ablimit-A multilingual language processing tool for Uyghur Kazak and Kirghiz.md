@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen
+
 
 ## Data Description
 

@@ -100,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, I found information about Chinese sentiment analysis corpora and research, but I did not find specific results for a corpus specifically named "CHisIEC" (Chinese Implicit Sentiment Ethics Corpus). However, the search results do provide information about related Chinese sentiment analysis resources and implicit sentiment work: Researchers have constructed a fact-implied implicit sentiment corpus in Chinese, which was collected and manually labeled to create a gold st
+
 
 ## Data Description
 

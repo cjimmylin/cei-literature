@@ -100,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-I've completed the web search for "Pacific Islander languages NLP Samoan Tongan evaluation". Here's a summary of the results: Overview of Pacific Islander Languages The most prominent Polynesian languages, by number of speakers, are Samoan, Tongan, Tahitian, Māori and Hawaiian.
+
 
 ## Data Description
 

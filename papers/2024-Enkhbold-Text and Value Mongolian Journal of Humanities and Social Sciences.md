@@ -7,9 +7,9 @@ key: LSRC0640
 type: conferencePaper
 short_title: "Text and Value | Mongolian Journal of Humanities and Social Sciences"
 year: 2024
-first_author: "[[Enkhbold]]"
-last_author: "[[Enkhbold]]"
-authors: Enkhbold
+first_author: "[[Гүрринчингийн Сүхбат]]"
+last_author: "[[Гүрринчингийн Сүхбат]]"
+authors: "Гүрринчингийн Сүхбат"
 url: "https://mongoliajol.info/index.php/MJHSS/article/view/4920"
 external_pdf: "https://mongoliajol.info/index.php/MJHSS/article/download/4920/4361"
 publication: Web
@@ -79,11 +79,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Enkhbold]]
+[[Гүрринчингийн Сүхбат]]
 
 ## Metadata
 
-**Authors:** Enkhbold
+**Authors:** Гүрринчингийн Сүхбат
 
 **Year:** 2024
 

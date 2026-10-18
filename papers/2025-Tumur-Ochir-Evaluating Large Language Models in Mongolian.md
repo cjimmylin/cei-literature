@@ -100,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, here are the key findings related to MongolianBERT and Mongolian language model evaluations: MongolianBERT and Related Models Pre-trained Mongolian BERT models exist, and these have been evaluated in various NLP tasks. In one study on recognizing textual inference, the fine-tuned bert-base-multilingual-cased obtained the best accuracy of 0.7619 among eight different models tested on Mongolian Bar exam questions.
+This paper presents a comprehensive evaluation for assessing large language model (LLM) capabilities in the Mongolian language, addressing a critical gap in multilingual LLM evaluation. We introduce MonMLU, a novel benchmark derived from native-level university entrance exams, alongside Mongolian adaptations of established benchmarks including Vicuna, MT-Bench, MGSM, and XCOPA. Our evaluation of leading commercial and openly available models reveals that while GPT-4o-mini achieves the highest...
 
 ## Data Description
 

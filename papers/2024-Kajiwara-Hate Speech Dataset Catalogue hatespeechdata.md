@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+
 
 ## Data Description
 

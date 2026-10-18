@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, I found the article you're looking for: Title: "Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator" Published in: PLoS One, October 23, 2025 Study Focus: The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English, evaluating Google Translate and Bing Translator alongside ChatGPT under two prompt str
+The present thesis aims at the possibility and limitation of culture transmission in Chinese-English literary translation, that is, whether culture can be successfully transmitted in this process. Meanwhile, under related theories, a systemic study will be conducted into Fortress Besieged (Weicheng’s English version) concerning cultural translation. To achieve the set goal of our study, the present thesis first gives an overview of Weicheng (《围城》) and its English version Fortress Besieged, and...
 
 ## Data Description
 

@@ -7,9 +7,9 @@ key: LSRC0668
 type: conferencePaper
 short_title: "LexEval: A Comprehensive Chinese Legal Benchmark"
 year: 2025
-first_author: "[[Dave Davies]]"
-last_author: "[[Dave Davies]]"
-authors: "Dave Davies"
+first_author: "[[Haitao Li]]"
+last_author: "[[Yiqun Liu]]"
+authors: "Haitao Li; You Chen; Qingyao Ai; Yueyue Wu; Ruizhe Zhang; Yiqun Liu"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/2cb40fc022ca7bdc1a9a78b793661284-Paper-Datasets_and_Benchmarks_Track.pdf"
 external_pdf: "https://arxiv.org/pdf/2409.20288v4.pdf"
 publication: Web
@@ -80,11 +80,11 @@ data_metrics: "14,150 questions"
 
 ## Authors
 
-[[Dave Davies]]
+[[Haitao Li]], [[You Chen]], [[Qingyao Ai]], [[Yueyue Wu]], [[Ruizhe Zhang]], [[Yiqun Liu]]
 
 ## Metadata
 
-**Authors:** Dave Davies
+**Authors:** Haitao Li; You Chen; Qingyao Ai; Yueyue Wu; Ruizhe Zhang; Yiqun Liu
 
 **Year:** 2025
 

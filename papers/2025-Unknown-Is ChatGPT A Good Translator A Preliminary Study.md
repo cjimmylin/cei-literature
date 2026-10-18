@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation.
+
 
 ## Data Description
 

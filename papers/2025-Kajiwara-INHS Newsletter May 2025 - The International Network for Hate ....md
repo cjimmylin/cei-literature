@@ -7,9 +7,9 @@ key: LSRC0720
 type: conferencePaper
 short_title: "INHS Newsletter May 2025 - The International Network for Hate ..."
 year: 2025
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
-authors: Kajiwara
+first_author: "[[International Network for Hate Studies]]"
+last_author: "[[International Network for Hate Studies]]"
+authors: "International Network for Hate Studies"
 url: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 external_pdf: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 publication: Web
@@ -80,11 +80,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kajiwara]]
+[[International Network for Hate Studies]]
 
 ## Metadata
 
-**Authors:** Kajiwara
+**Authors:** International Network for Hate Studies
 
 **Year:** 2025
 
@@ -102,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled "Validating Pseudo-label Dataset for Japanese Hate Speech Detection" was published in 2024.
+
 
 ## Data Description
 

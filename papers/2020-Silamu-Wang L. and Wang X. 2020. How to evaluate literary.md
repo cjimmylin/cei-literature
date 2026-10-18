@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, I found the article you're looking for: Title: "Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator" Published in: PLoS One, October 23, 2025 Study Focus: The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English, evaluating Google Translate and Bing Translator alongside ChatGPT under two prompt str
+This study evaluated students’ translation quality through two different approaches to examine the effects of marking method on the assessment of literary translations in a pedagogical context. Two prose literary texts were translated by thirty-six MTI students, and then scored by nine experienced raters with error analysis and scale-based method, respectively. Scores of translations were analysed using G-studies, as conducted by the computer program GENOVA to compare the rater severity and...
 
 ## Data Description
 

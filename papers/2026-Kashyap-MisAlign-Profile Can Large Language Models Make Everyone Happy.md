@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2602.11091"
 external_pdf: "https://arxiv.org/pdf/2602.11091.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

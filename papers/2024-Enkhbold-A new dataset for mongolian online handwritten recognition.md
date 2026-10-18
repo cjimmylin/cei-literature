@@ -15,7 +15,7 @@ external_pdf: "https://www.nature.com/articles/s41598-022-27267-8.pdf"
 publication: Nature
 CONF-CC: Nature
 pdf_extract: "PDF Extracts/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

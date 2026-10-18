@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 100
 virtue_ethics: 0

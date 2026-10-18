@@ -61,7 +61,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bonagiri-SaGE.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Bonagiri-SaGE.pdf]]"
 LLM_assessed: "Falcon, GPT-3.5, GPT-4, Llama-2, Mistral"
 DATA_URL: "https://github.com/vnnm404/SaGE"
 DATE_ADDED: 20260207
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Bonagiri-SaGE.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Bonagiri-SaGE.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.13709
 - **DOI:** https://doi.org/10.48550/arXiv.2402.13709

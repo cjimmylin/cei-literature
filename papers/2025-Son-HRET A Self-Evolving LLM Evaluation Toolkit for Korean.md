@@ -13,7 +13,7 @@ authors: "Guijin Son; Hyunwoo Ko; Hanwool Lee; Suwan Kim; Huiseo Kim; Jihyung Mo
 url: "https://arxiv.org/abs/2503.22968"
 external_pdf: "https://arxiv.org/pdf/2503.22968.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

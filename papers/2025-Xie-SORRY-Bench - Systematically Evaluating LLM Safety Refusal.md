@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.14598"
 external_pdf: "https://arxiv.org/pdf/2406.14598.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.pdf]]"
 publication: "ICLR 2025"
 CONF-CC: "ICLR 2025"
 DATE_ADDED: 20260207

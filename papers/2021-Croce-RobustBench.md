@@ -46,7 +46,7 @@ key_contribution: "Established RobustBench, a standardized benchmark and leaderb
 significance: "Provided a systematic reality check for the field of adversarial defense, identifying overestimations in prior work and setting a reliable standard for progress tracking."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Croce-RobustBench.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Croce-RobustBench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Croce-RobustBench.pdf]]"
 abstract: "As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust models. A key challenge in benchmarking robustness is that its evaluation is often error-prone leading to robustness overestimation. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reﬂects the robustness of the considered models within a..."
 paper_summary: "Abstract: As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust mod | Overview: RobustBench: a standardized adversarial robustness benchmark Francesco Croce∗ Univ. of Tübingen Maksym Andriushchenko∗ EPFL Vikash Sehwag∗ Princeton Univ. Edoardo Debenedetti∗ EPFL Nicolas Flammarion  | Methodology: are made available by the authors, it is often time-consuming and not straightforward to integrate them in the same framework because of many factors  | Key Findings: is that it is a computationally hard problem even for simple ℓp-bounded perturbations [70] and exact approaches [138] do not scale to large enough mod"
 CONF-CC: "NeurIPS Datasets and Benchmarks"
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Croce-RobustBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2021/2021-Croce-RobustBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2010.09670
 - **DOI:** https://doi.org/10.48550/arXiv.2010.09670

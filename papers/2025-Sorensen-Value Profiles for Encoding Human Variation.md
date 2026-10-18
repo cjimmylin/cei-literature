@@ -61,7 +61,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sorensen-Value Profiles for Encoding Human Variation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sorensen-Value Profiles for Encoding Human Variation.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2, Gemini"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Sorensen-Value Profiles for Encoding Human Variation.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Sorensen-Value Profiles for Encoding Human Variation.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.15484
 - **DOI:** https://doi.org/10.48550/arXiv.2503.15484

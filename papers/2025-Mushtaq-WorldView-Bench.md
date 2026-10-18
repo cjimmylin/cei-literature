@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Mushtaq-WorldView-Bench.md"
 abstract: "Large Language Models (LLMs) are predominantly trained and aligned in ways that reinforce Western-centric epistemologies and socio-cultural norms, leading to cultural homogenization and limiting their ability to reflect global civilizational plurality. Existing benchmarking frameworks fail to adequately capture this bias, as they rely on rigid, closedform assessments that overlook the complexity of cultural inclusivity."
 paper_summary: "Abstract: Large Language Models (LLMs) are predominantly trained and aligned in ways that reinforce Western-centric epistemologies and socio-cultural norms, leading to cultural ho- mogenization and limiting the | Overview: Journal of Artificial Intelligence Research – (2025) – Submitted 29/04/2025; published – WorldView-Bench: A Benchmark for Evaluating Global Cultural Perspectives in Large Language Models Abdullah Mush | Methodology: supported by the multiplexity framework (Qadir & Senturk, 2024a). This framework dis- tinguishes between 'open' and 'closed' civilizational paradigms  | Conclusions: In this paper, we proposed a new benchmark WorldView-Bench designed for the perfor- mance of LLMs on the inclusion of globally relevant cultures. Our"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mushtaq-WorldView-Bench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mushtaq-WorldView-Bench.pdf]]"
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Mushtaq-WorldView-Bench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Mushtaq-WorldView-Bench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.09595
 

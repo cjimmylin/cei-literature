@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2506.17434
 tags: "Computer Science - Artificial Intelligence"
 url: "https://arxiv.org/abs/2506.17434"
 pdf_extract: "PDF Extracts/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2506.17434.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -86,7 +86,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2506.17434
 - **PDF:** https://arxiv.org/pdf/2506.17434.pdf

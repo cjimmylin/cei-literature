@@ -13,7 +13,7 @@ authors: "Gavin Kader; Dongwoo Lee"
 url: "https://arxiv.org/abs/2412.13013"
 external_pdf: "https://arxiv.org/pdf/2412.13013.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

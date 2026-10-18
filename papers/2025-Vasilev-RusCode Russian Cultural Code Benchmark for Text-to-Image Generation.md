@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2502.07455"
 external_pdf: "https://arxiv.org/pdf/2502.07455.pdf"
 publication: "NAACL 2025 Findings"
 CONF-CC: "NAACL 2025 Findings"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Russian

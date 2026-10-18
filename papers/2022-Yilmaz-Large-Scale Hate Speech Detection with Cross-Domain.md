@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2203.01111"
 external_pdf: "https://arxiv.org/pdf/2203.01111.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.pdf]]"
 publication: "LREC 2022 / arxiv"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213

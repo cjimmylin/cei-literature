@@ -50,7 +50,7 @@ significance: "A key benchmark for the Chinese AI ecosystem, showing that closed
 pdf_extract: "PDF Extracts/2023/2023-Xu-SC-Safety.md"
 abstract: "Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkable abilities in natural language understanding and generation. However, alongside their positive impact on our daily tasks, they can also produce harmful content that negatively affects societal perceptions. To systematically assess the safety of Chinese LLMs, we introduce SuperCLUE-Safety (SC-Safety), a multi-round adversarial benchmark with 4912 open-ended questions covering more than 20 safety sub-dimensions."
 paper_summary: "Abstract: Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkable abilities in natural language understanding and generation. However, alongside their posi- tive impact on our daily t | Overview: SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese Liang Xu, Kangkang Zhao, Lei Zhu, Hang Xue CLUE team clues@cluebenchmarks.com Abstract La | Methodology: Safety risks primarily arise from LLMs' open-ended gener- ative nature instead of close-ended recognition. Therefore, we design open-ended subjective  | Key Findings: We evaluated 13 major LLMs that support Chinese, includ- ing 7 commercial services, and 6 open-sourced models. In- formation on models is shown in Tab | Conclusions: The introduction of SuperCLUE-Safety(SC-Safety) pro- vides a comprehensive and challenging benchmark for eval- uating the safety of Chinese language m"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Xu-SC-Safety.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Xu-SC-Safety.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGPT, GPT-3.5, GPT-4, Llama-2, Qwen"
 DATA_URL: "https://www.CLUEbenchmarks.com"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Xu-SC-Safety.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Xu-SC-Safety.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2310.05818
 - **DOI:** https://doi.org/10.48550/arXiv.2310.05818

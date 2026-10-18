@@ -16,7 +16,7 @@ external_pdf: "https://www.nature.com/articles/s41599-024-03363-0.pdf?error=cook
 publication: Nature
 CONF-CC: Nature
 pdf_extract: "PDF Extracts/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

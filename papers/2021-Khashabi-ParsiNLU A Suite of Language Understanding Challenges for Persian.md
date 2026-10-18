@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2012.06154v2.pdf"
 publication: TACL
 CONF-CC: "TACL 2021"
 pdf_extract: "PDF Extracts/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Iranian
 cultures_nationalities_list: Iranian

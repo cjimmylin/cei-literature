@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2505.14972"
 external_pdf: "https://arxiv.org/pdf/2505.14972.pdf"
 publication: "TMLR (Dec 2025)"
 CONF-CC: "TMLR 2025"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

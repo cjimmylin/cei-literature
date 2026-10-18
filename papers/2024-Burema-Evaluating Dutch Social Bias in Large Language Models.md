@@ -15,7 +15,7 @@ external_pdf: "https://studenttheses.uu.nl/bitstream/handle/20.500.12932/48930/M
 publication: "Utrecht University"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Burema-Evaluating Dutch Social Bias in Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Dutch
 cultures_nationalities_list: Dutch

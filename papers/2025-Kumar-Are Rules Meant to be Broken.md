@@ -50,7 +50,7 @@ significance: "Demonstrates that while LLMs mimic structured ethical rules, they
 pdf_extract: "PDF Extracts/2025/2025-Kumar-Are Rules Meant to be Broken.md"
 abstract: "Moral reasoning is a complex cognitive process shaped by individual experiences and cultural contexts and presents unique challenges for computational analysis. While natural language processing (NLP) offers promising tools for studying this phenomenon, current research lacks cohesion, employing discordant datasets and tasks that examine isolated aspects of moral reasoning. We bridge this gap with UNIMORAL, a unified dataset integrating psychologically grounded and social-media-derived moral..."
 paper_summary: "Abstract: Moral reasoning is a complex cognitive pro- cess shaped by individual experiences and cul- tural contexts and presents unique challenges for computational analysis. While natural lan- guage processing | Overview: Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UNIMORAL Shivani Kumar University of Michigan kshivan@umich.edu David Jurgens University of Mi | Key Findings: metric, as it emphasizes semantic similarity rather than exact word matches. [I] Action Prediction 0 20 40 60 Score Arabic Chinese English Hindi Russi | Conclusions: Moral reasoning is a complex process and here we introduce UNIMORAL to unify the multiple strands of NLP research on moral reasoning. UNI- MORAL is a"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, Llama-3, Phi-3"
 DATA_URL: "https://huggingface.co/datasets/shivaniku/UniMoral"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.14083
 - **DOI:** https://doi.org/10.48550/arXiv.2502.14083

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/144177/189562"
 pdf_extract: "PDF Extracts/2024/2024-Staps-Large Language Models and Biblical Hebrew.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Staps-Large Language Models and Biblical Hebrew.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Staps-Large Language Models and Biblical Hebrew.pdf]]"
 publication: "HIPHIL Novum, 9(1), 46--55"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

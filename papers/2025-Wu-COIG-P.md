@@ -58,7 +58,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-COIG-P.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Wu-COIG-P.pdf]]"
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-3.5, GPT-4o, Qwen"
 DATA_URL: "https://github.com/multimodal-art-projection/COIG-P"
 publication: arXiv
@@ -90,7 +90,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-COIG-P.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Wu-COIG-P.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.05535
 

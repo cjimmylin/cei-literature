@@ -15,7 +15,7 @@ doi: 10.18653/v1/2022.findings-emnlp.183
 url: "https://arxiv.org/abs/2210.12813"
 external_pdf: "https://arxiv.org/pdf/2210.12813.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP Findings 2022)"
 CONF-CC: "EMNLP 2022"
 DATE_ADDED: 20260213

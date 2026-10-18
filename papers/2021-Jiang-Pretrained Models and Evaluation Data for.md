@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9645441/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
 publication: "IEEE Xplore / Tsinghua Science and Technology"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2506.12744.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

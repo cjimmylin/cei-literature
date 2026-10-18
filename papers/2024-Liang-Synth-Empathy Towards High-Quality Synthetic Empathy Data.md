@@ -13,7 +13,7 @@ authors: "Hao Liang; Linzhuang Sun; Jingxuan Wei; Xijie Huang; Linkun Sun; Bihui
 url: "https://arxiv.org/abs/2407.21669"
 external_pdf: "https://arxiv.org/pdf/2407.21669.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

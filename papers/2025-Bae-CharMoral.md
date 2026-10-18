@@ -12,7 +12,7 @@ last_author: "[[Li, Boyang]]"
 authors: "Bae, Suyoung; Cho, Gunhee; Cheong, Yun-Gyung; Li, Boyang"
 url: "https://aclanthology.org/2025.coling-main.589/"
 pdf_extract: "PDF Extracts/2025/2025-Bae-CharMoral.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bae-CharMoral.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bae-CharMoral.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/WVX533HJ/2025 - CharMoral A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narrativ.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -85,7 +85,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Bae-CharMoral.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Bae-CharMoral.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2025.coling-main.589/
 

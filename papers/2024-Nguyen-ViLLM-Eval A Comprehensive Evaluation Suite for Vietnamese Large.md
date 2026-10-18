@@ -13,7 +13,7 @@ authors: "Trong-Hieu Nguyen; Quang-Bao Ta; Cuc Thi Bui; Phong Nguyen-Thuan Do; L
 url: "https://arxiv.org/abs/2404.11086"
 external_pdf: "https://arxiv.org/pdf/2404.11086.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

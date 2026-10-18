@@ -51,7 +51,7 @@ DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Elder-The Ethics of Digital Ghosts.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Elder-The Ethics of Digital Ghosts.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Elder-The Ethics of Digital Ghosts.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 20
 virtue_ethics: 75

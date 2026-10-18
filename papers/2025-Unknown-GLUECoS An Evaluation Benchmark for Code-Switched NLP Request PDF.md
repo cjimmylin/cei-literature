@@ -16,7 +16,7 @@ external_pdf: "https://www.aclweb.org/anthology/2020.acl-main.329.pdf"
 publication: ResearchGate
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, Spanish"
 cultures_nationalities_list: "Indian, Spanish"

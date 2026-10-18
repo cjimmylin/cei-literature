@@ -11,7 +11,7 @@ authors: "Berberich, Nicolas; Diepold, Klaus"
 doi: N/A
 url: "https://arxiv.org/abs/1806.10322"
 pdf_extract: "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Berberich-The Virtuous Machine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Berberich-The Virtuous Machine.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

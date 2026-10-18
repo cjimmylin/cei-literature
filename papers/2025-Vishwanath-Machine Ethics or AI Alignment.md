@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.md"
 abstract: "Machine ethics and AI alignment have become increasingly important research disciplines in the context of modern AI technologies. Recently, there has been ambiguity regarding the specific aspects of ethical AI development that pertain to the two academic disciplines, often resulting in the interchangeable use of these terminologies. In this position paper, we explore these two disciplines by discussing ongoing research and clarifying their goals."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf|Open PDF]]
 
 - **URL:** https://ceur-ws.org/Vol-3975/paper9.pdf
 - **DOI:** https://doi.org/N/A

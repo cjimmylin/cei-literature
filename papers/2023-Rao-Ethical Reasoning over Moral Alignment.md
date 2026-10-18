@@ -13,7 +13,7 @@ authors: "Rao, Abhinav; Khandelwal, Aditi; Tanmay, Kumar; Agarwal, Utkarsh; Chou
 doi: 10.18653/v1/2023.findings-emnlp.892
 url: "https://aclanthology.org/2023.findings-emnlp.892/"
 pdf_extract: "PDF Extracts/2023/2023-Rao-Ethical Reasoning over Moral Alignment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IPRKMTVJ/Rao et al. - 2023 - Ethical Reasoning over Moral Alignment A Case and Framework for In-Context Ethical Policies in LLMs.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2023.findings-emnlp.892
 - **DOI:** https://doi.org/10.18653/v1/2023.findings-emnlp.892

@@ -43,7 +43,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Kirk-SemEval-2023 Task 10.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kirk-SemEval-2023 Task 10.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Kirk-SemEval-2023 Task 10.pdf]]"
 abstract: "Online sexism is a widespread and harmful phenomenon. Automated tools can assist the detection of sexism at scale. Binary detection, however, disregards the diversity of sexist content, and fails to provide clear explanations for why something is sexist. To address this issue, we introduce SemEval Task 10 on the Explainable Detection of Online Sexism (EDOS). We make three main contributions: i) a novel hierarchical taxonomy of sexist content, which includes granular vectors of sexism to aid..."
 CONF-CC: N/A
 DATE_ADDED: 20260208
@@ -82,7 +82,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Kirk-SemEval-2023 Task 10.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Kirk-SemEval-2023 Task 10.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2023.semeval-1.305/
 

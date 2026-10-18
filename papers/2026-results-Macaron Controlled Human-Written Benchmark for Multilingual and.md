@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2602.10732"
 external_pdf: "https://arxiv.org/pdf/2602.10732.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

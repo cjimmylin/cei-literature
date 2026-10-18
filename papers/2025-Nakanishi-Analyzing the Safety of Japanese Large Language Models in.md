@@ -13,7 +13,7 @@ authors: "A. Nakanishi; Y. Sano; Geng Liu; F & Pierri"
 url: "https://arxiv.org/abs/2503.01947"
 external_pdf: "https://arxiv.org/pdf/2503.01947.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
 pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 50
 virtue_ethics: 0

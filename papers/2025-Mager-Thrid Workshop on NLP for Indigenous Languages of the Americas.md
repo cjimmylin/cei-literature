@@ -16,7 +16,7 @@ external_pdf: "https://turing.iimas.unam.mx/americasnlp/AmericasNLP_Call_2025.pd
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"

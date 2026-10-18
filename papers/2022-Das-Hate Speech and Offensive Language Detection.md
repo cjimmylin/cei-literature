@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000250"
 external_pdf: "https://arxiv.org/pdf/2210.03479v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Das-Hate Speech and Offensive Language Detection.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Das-Hate Speech and Offensive Language Detection.pdf]]"
 publication: "WebSearch: hate speech detection Dravidian languages"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -49,7 +49,7 @@ significance: "Addresses the lack of ethical evaluation for multimodal models, r
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Raza-HumaniBench.md"
 paper_summary: "Overview: HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation Shaina Razaa,∗, Aravind Narayanana,1, Vahid Reza Khazaiea,1, Ashmal Vayanib,1, Ahmed Y. Radwana, Mukund S. Chettiara, Aman | Methodology: In this section, we describe the overall framework of Hu- maniBench, as illustrated in Figure. 1. Section 3.1 presents the HC principles that underpin | Key Findings: Shaina Razaa,∗, Aravind Narayanana,1, Vahid Reza Khazaiea,1, Ashmal Vayanib,1, Ahmed Y. Radwana, Mukund S. Chettiara, Amandeep Singha, Mubarak Shahb a | Conclusions: HumaniBench provides a unified, HC framework for evaluating the strengths and weaknesses of modern LMMs across seven principles (fairness, ethics, und"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Raza-HumaniBench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Raza-HumaniBench.pdf]]"
 abstract: "Large multimodal models (LMMs) have been widely tested on tasks like visual question answering (VQA), image captioning, and grounding, but lack rigorous evaluation for alignment with human-centered (HC) values such as fairness, ethics, and inclusivity. To address this gap, we introduce HumaniBench, a novel benchmark of 32,000 real-world imagequestion pairs and an evaluation suite. Labels are generated via an AI-assisted pipeline and validated by experts. HumaniBench assesses LMMs across seven ke"
 LLM_assessed: "DeepSeek, GPT-4o, Gemini, LLaVA, Llama-3, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/vector-institute/HumaniBench, https://github.com/VectorInstitute/HumaniBench"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Raza-HumaniBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Raza-HumaniBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.11454
 - **DOI:** https://doi.org/10.48550/arXiv.2505.11454

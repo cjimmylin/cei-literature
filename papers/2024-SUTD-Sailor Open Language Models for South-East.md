@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.03608"
 external_pdf: "https://arxiv.org/pdf/2404.03608.pdf"
 pdf_extract: "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-East.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf]]"
 publication: "EMNLP 2024 Demo"
 CONF-CC: "EMNLP 2024 Demo"
 DATE_ADDED: 20260213

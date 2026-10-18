@@ -15,7 +15,7 @@ url: "https://arxiv.org/abs/2501.03952"
 external_pdf: "https://arxiv.org/pdf/2501.03952.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: N/A

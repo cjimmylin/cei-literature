@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2509.10655.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

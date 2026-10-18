@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2025.findings-naacl.147.pdf"
 publication: "NAACL 2025 Findings"
 CONF-CC: "NAACL 2025 Findings"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Iranian
 cultures_nationalities_list: Iranian

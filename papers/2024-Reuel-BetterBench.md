@@ -46,7 +46,7 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2024/2024-Reuel-BetterBench.md"
 abstract: "AI models are increasingly prevalent in high-stakes environments, necessitating thorough assessment of their capabilities and risks. Benchmarks are popular for measuring these attributes and for comparing model performance, tracking progress, and identifying weaknesses in foundation and non-foundation models. They can inform model selection for downstream tasks and influence policy initiatives. However, not all benchmarks are the same: their quality depends on their design and usability."
 paper_summary: "Abstract: AI models are increasingly prevalent in high-stakes environments, necessitating thorough assessment of their capabilities and risks. Benchmarks are popular for measuring these attributes and for compa | Overview: BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices Anka Reuel ∗ Stanford University Amelia Hardy∗ Stanford University Chandler Smith Northeastern University Max L | Methodology: Our benchmark assessment consists of 46 criteria based on our literature review and interviews with five primary groups of stakeholders. These groups, | Key Findings: is an essential discipline [15]. Current evaluation approaches include both internally (e.g., private testing on proprietary data) and externally deve | Conclusions: Not all benchmarks are of the same quality. Model developers frequently report performance on benchmarks that vary significantly in quality. For insta"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Reuel-BetterBench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Reuel-BetterBench.pdf]]"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -88,7 +88,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Reuel-BetterBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Reuel-BetterBench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2411.12990
 

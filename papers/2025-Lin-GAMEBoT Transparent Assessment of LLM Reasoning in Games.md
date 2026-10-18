@@ -13,7 +13,7 @@ authors: "Wenye Lin; Jonathan Roberts; Yunhan Yang; Samuel Albanie; Zongqing Lu;
 url: "https://arxiv.org/abs/2412.13602"
 external_pdf: "https://arxiv.org/pdf/2412.13602.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games.pdf]]"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207

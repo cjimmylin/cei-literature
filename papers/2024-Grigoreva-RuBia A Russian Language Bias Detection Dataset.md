@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2403.17553"
 external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Multicultural/Cross-cultural"

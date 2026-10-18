@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2602.05150.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

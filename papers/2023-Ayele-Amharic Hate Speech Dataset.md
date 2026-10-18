@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
 pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

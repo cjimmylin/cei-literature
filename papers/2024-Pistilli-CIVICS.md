@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Command-R, DeepSeek, Gemma, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
 CONFERENCE: "AAAI 2024"
 ethics_overall: 0
 virtue_ethics: 0

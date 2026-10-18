@@ -14,7 +14,7 @@ doi: 10.1007/s44443-025-00137-9
 url: "https://arxiv.org/abs/2506.23111"
 external_pdf: "https://arxiv.org/pdf/2506.23111.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.pdf]]"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207

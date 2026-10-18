@@ -13,7 +13,7 @@ authors: "Jisu Shin; Hoyun Song; Juhyun Oh; Changgeon Ko; Eunsu Kim; Chani Jung;
 url: "https://arxiv.org/abs/2509.25897"
 external_pdf: "https://arxiv.org/pdf/2509.25897.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

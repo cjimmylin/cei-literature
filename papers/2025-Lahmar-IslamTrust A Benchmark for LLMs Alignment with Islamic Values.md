@@ -16,7 +16,7 @@ external_pdf: "https://openreview.net/pdf?id=PBcv90iKFB"
 publication: OpenReview
 CONF-CC: "Workshop (2025)"
 pdf_extract: "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

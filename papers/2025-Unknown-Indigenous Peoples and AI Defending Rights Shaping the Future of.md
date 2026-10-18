@@ -16,7 +16,7 @@ external_pdf: "https://social.desa.un.org/sites/default/files/IDWIP%202025%20Con
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

@@ -13,7 +13,7 @@ authors: "Shaoguang Mao; Yuzhe Cai; Yan Xia; Wenshan Wu; Xun Wang; Fengyi Wang; 
 url: "https://arxiv.org/abs/2311.03220"
 external_pdf: "https://arxiv.org/pdf/2311.03220.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mao-ALYMPICS LLM Agents Meet Game Theory.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mao-ALYMPICS LLM Agents Meet Game Theory.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mao-ALYMPICS LLM Agents Meet Game Theory.pdf]]"
 publication: "COLING 2025"
 CONF-CC: "COLING 2025"
 DATE_ADDED: 20260207

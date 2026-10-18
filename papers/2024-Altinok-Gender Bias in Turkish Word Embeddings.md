@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.gebnlp-1.13.pdf"
 external_pdf: "https://aclanthology.org/2024.gebnlp-1.13.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.pdf]]"
 publication: "GeBNLP 2024 (ACL Workshop)"
 CONF-CC: "ACL 2024 Workshop"
 DATE_ADDED: 20260213

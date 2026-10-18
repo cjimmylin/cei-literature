@@ -13,7 +13,7 @@ authors: "Amel Muminovic; Amela Kadric Muminovic"
 url: "https://arxiv.org/abs/2506.09992"
 external_pdf: "https://arxiv.org/pdf/2506.09992.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

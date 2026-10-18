@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2022.cltw-1.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18466"
 external_pdf: "https://arxiv.org/pdf/2505.18466.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rinki-Measuring South Asian Biases in Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rinki-Measuring South Asian Biases in Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Rinki-Measuring South Asian Biases in Large.pdf]]"
 publication: "WebSearch: South Asian biases LLM"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

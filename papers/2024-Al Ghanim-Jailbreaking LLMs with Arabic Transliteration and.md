@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4"
 DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"
 pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: 0
 virtue_ethics: 0

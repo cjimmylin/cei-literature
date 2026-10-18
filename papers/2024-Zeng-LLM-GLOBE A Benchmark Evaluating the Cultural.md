@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.06032"
 external_pdf: "https://arxiv.org/pdf/2411.06032.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.pdf]]"
 publication: "WebSearch: LLM-GLOBE benchmark cultural values embedded LLM output"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -16,7 +16,7 @@ external_pdf: "https://online-journals.org/index.php/i-jim/article/download/5085
 publication: "International Journal of Interactive Mobile Technologies"
 CONF-CC: "International Journal of Interactive Mobile Technologies"
 pdf_extract: "PDF Extracts/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

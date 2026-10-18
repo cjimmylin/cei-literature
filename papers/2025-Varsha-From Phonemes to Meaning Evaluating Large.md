@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2511.12387"
 external_pdf: "https://arxiv.org/pdf/2511.12387.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Varsha-From Phonemes to Meaning Evaluating Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Varsha-From Phonemes to Meaning Evaluating Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Varsha-From Phonemes to Meaning Evaluating Large.pdf]]"
 publication: "WebSearch: Tamil LLM evaluation"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

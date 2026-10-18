@@ -17,7 +17,7 @@ external_pdf: "https://europepmc.org/articles/PMC11874501?pdf=render"
 publication: PNAS
 CONF-CC: PNAS
 pdf_extract: "PDF Extracts/2025/2025-Bai-Explicitly unbiased large language models still form biased.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bai-Explicitly unbiased large language models still form biased.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bai-Explicitly unbiased large language models still form biased.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

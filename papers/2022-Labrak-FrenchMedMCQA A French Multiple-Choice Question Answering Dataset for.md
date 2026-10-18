@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: French
 cultures_nationalities_list: French

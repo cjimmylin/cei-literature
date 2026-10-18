@@ -48,7 +48,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://www.kaggle.com/datasets/nazmul0087/al-quran-english-translation"
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Miah-Islam QA.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Miah-Islam QA.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 0
 virtue_ethics: 0

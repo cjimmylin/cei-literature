@@ -12,7 +12,7 @@ last_author: "[[Hendrik Klawitter]]"
 authors: "Sven Kreutz; Hendrik Klawitter"
 url: "https://germevalmp2023.github.io/data/"
 pdf_extract: "PDF Extracts/2019/2019-Kreutz-GermEval 2019 Task 2.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
 national_ethnic_cultural: German
 cultures_nationalities_list: German
 languages_list: German

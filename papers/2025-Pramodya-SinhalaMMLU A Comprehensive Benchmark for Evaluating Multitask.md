@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.03162"
 external_pdf: "https://arxiv.org/pdf/2509.03162.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

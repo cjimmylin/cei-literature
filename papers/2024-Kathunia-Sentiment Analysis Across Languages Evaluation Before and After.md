@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2405.02887.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

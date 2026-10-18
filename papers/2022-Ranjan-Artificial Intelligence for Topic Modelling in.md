@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2205.11020"
 external_pdf: "https://arxiv.org/pdf/2205.11020.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling in.pdf]]"
 publication: "PLOS ONE"
 CONF-CC: "PLOS ONE"
 DATE_ADDED: 20260213

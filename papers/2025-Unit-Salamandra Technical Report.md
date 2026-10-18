@@ -13,7 +13,7 @@ authors: "Language Technologies Unit; BSC"
 url: "https://arxiv.org/abs/2502.08489"
 external_pdf: "https://arxiv.org/pdf/2502.08489.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Unit-Salamandra Technical Report.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unit-Salamandra Technical Report.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Unit-Salamandra Technical Report.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

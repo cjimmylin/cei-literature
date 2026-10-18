@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Li-Evaluating Psychological Safety of Large Language.md"
 abstract: "In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two personality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3."
 paper_summary: "Abstract: In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: S | Overview: Evaluating Psychological Safety of Large Language Models Xingxuan Li1,2∗Yutong Li3 Lin Qiu3 Shafiq Joty2,4 Lidong Bing1,5 1DAMO Academy, Alibaba Group, Singapore 2School of Computer Science and Engine | Key Findings: framework that we designed for fair analysis."
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: NA
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2212.10529
 - **DOI:** https://doi.org/10.48550/arXiv.2212.10529

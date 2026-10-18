@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/ezn37/"
 pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 100
 virtue_ethics: 0

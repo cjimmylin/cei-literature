@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08951"
 external_pdf: "https://arxiv.org/pdf/2601.08951.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Li-PluriHarms.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Li-PluriHarms.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Li-PluriHarms.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11206867/"
 external_pdf: "https://czasopisma.uni.lodz.pl/research/article/download/28493/27970"
 pdf_extract: "PDF Extracts/2025/2025-Bolatbek-Hate Speech Detection in the Kazakh.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bolatbek-Hate Speech Detection in the Kazakh.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Bolatbek-Hate Speech Detection in the Kazakh.pdf]]"
 publication: IEEE
 CONF-CC: Preprint
 DATE_ADDED: 20260213

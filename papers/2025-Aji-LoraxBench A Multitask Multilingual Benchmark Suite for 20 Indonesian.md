@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.12459"
 external_pdf: "https://arxiv.org/pdf/2508.12459.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2025)"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Yanaka-JBBQ.md"
 abstract: "With the development of large language mod- els (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across lan- guages, the extent to which Japanese LLMs exhibit social biases has not been fully investi- gated. In this study, we construct the Japanese Bias Benchmark dataset for Question Answer- ing (JBBQ) based on the English bias bench- mark BBQ, with analysis of social biases in Japanese LLMs. The results show that while cur"
 paper_summary: "Abstract: With the development of large language mod- els (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across lan- guages, the extent | Overview: arXiv:2406.02050v4 [cs.CL] 13 Jun 2025 JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models Hitomi Yanaka1,2,∗Namgi Han1,∗Ryoma Kumon1,2 Jie Lu1 Masashi Takeshita3 Ryo Se | Methodology: Overview We created the JBBQ dataset semi- automatically. The manual work was performed by five NLP researchers whose native language is Japanese. Fir | Key Findings: targets. | Conclusions: In this study, we constructed the Japanese social bias QA dataset JBBQ and used it to analyze social biases in Japanese LLMs from various perspectives"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yanaka-JBBQ.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Yanaka-JBBQ.pdf]]"
 LLM_assessed: "GPT-4o, Llama-2, Llama-3"
 DATA_URL: "https://github.com/ynklab/JBBQ_data"
 publication: "arXiv preprint"
@@ -88,7 +88,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Yanaka-JBBQ.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Yanaka-JBBQ.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2406.02050
 

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2205.00328"
 external_pdf: "https://arxiv.org/pdf/2205.00328.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

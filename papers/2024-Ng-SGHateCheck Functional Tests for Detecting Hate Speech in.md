@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2024.woah-1.24.pdf"
 publication: "ACL Anthology (WOAH 2024)"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Singaporean
 cultures_nationalities_list: Singaporean

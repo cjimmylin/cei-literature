@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2510.05942
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.05942"
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2510.05942.pdf"
 publication: arXiv
 CONF-CC: Preprint

@@ -50,7 +50,7 @@ significance: "Enables the analysis of how safety perceptions vary by demographi
 pdf_extract: "PDF Extracts/2023/2023-Aroyo-DICES Dataset.md"
 abstract: "Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjectivity present in many tasks. Preserving such variance in content and diversity in datasets is often expensive and laborious. This is especially troubling when building safety datasets for conversational AI systems, as safety is both socially and culturally situated."
 paper_summary: "Abstract: Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjec | Overview: DICES Dataset: Diversity in Conversational AI Evaluation for Safety Lora Aroyo1, Alex S. Taylor2, Mark Díaz1, Christopher M. Homan1, Alicia Parrish1, Greg Serapio-García3, Vinodkumar Prabhakaran1, and | Methodology: Driving the development of DICES was the overarching aim to produce a benchmark dataset able to systematically capture variability in safety judgement"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Aroyo-DICES Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Aroyo-DICES Dataset.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/google-research-datasets/dices-dataset"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Aroyo-DICES Dataset.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Aroyo-DICES Dataset.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.11247
 - **DOI:** https://doi.org/10.48550/arXiv.2306.11247

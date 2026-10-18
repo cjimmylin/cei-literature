@@ -48,7 +48,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Andriushchenko-AgentHarm.md"
 abstract: "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents—which use external tools and can execute multi-stage tasks—may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm."
 paper_summary: "Abstract: The robustness of LLMs to jailbreak attacks, where users design prompts to cir- cumvent safety measures and misuse model capabilities, has been studied primar- ily for LLMs acting as simple chatbots.  | Overview: Published as a conference paper at ICLR 2025 AGENTHARM: A BENCHMARK FOR MEASURING HARMFULNESS OF LLM AGENTS Maksym Andriushchenko1,†,∗, Alexandra Souly2,∗ Mateusz Dziemian1, Derek Duenas1, Maxwell Lin | Key Findings: in jailbroken models with reduced capabilities (Souly et al., 2024). Attacks against agents may be less concerning if they do not result in strong age | Conclusions: Limitations. We note several limitations of our work: • The prompts are only in English, and do not consider other languages which may impact per- for"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]"
 CONF-CC: "ICLR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral"
@@ -92,7 +92,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Andriushchenko-AgentHarm.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Andriushchenko-AgentHarm.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.09024
 - **DOI:** https://doi.org/10.48550/arXiv.2410.09024

@@ -47,7 +47,7 @@ significance: "Finds that no current model consistently prioritizes ethics over 
 pdf_extract: "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge.md"
 abstract: "Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern. While prior work has examined both LLMs’ moral judgment and strategic behavior in social dilemmas, there is limited understanding of how they act when moral imperatives directly conflict with rewards or incentives."
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern | Overview: When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas Steffen Backmann1 David Guzman Piedrahita2 Emanuel Tewolde3 Rada Mihalcea4 Bernhard Schölkopf5 Zhijing Jin5,6,7 1ETH Züri | Conclusions: We introduced MORALSIM, a framework for evaluating large language models in repeated game- theoretic scenarios enriched with strong moral contexts, al"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf]]"
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Llama-3, Qwen, o3-mini"
 DATA_URL: "https://github.com/sbackmann/moralsim"
 publication: "arXiv preprint"
@@ -86,7 +86,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.19212
 - **DOI:** https://doi.org/10.48550/arXiv.2505.19212

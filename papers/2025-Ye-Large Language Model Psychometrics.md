@@ -60,7 +60,7 @@ author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.08245
 - **DOI:** https://doi.org/10.48550/arXiv.2505.08245

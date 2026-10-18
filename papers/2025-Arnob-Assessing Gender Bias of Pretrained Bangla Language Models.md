@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2025.gebnlp-1.24.pdf"
 publication: "ACL Anthology (GeBNLP 2025)"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

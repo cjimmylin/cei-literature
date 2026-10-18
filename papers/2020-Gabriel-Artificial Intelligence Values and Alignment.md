@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.md"
 abstract: "This paper looks at philosophical questions that arise in the context of AI alignment. It defends three propositions. First, normative and technical aspects of the AI alignment problem are interrelated, creating space for productive engagement between people working in both domains. Second, it is important to be clear about the goal of alignment. There are significant differences between AI that aligns with instructions, intentions, revealed preferences, ideal preferences, interests and values."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Alignment & Normative Ethics"
 LLM_assessed: NA

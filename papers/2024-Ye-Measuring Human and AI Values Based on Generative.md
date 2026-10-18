@@ -61,7 +61,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemma, InternLM, Llama-2, Mistral, Qwen-1.5, Vicuna, Yi"
 DATA_URL: "https://github.com/Value4AI/gpv"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2409.12106
 - **DOI:** https://doi.org/10.48550/arXiv.2409.12106

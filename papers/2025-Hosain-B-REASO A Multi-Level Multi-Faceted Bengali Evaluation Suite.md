@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2025.findings-emnlp.492.pdf"
 publication: "ACL Anthology (EMNLP 2025 Findings)"
 CONF-CC: "EMNLP 2025 Findings"
 pdf_extract: "PDF Extracts/2025/2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Lin-MORALISE.md"
 abstract: "Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated increasing influence in morally sensitive domains such as autonomous driving and medical analysis, owing to their powerful multimodal reasoning capabilities. As these models are deployed in high-stakes real-world applications, it is of paramount importance to ensure that their outputs align with human moral values and remain within moral..."
 paper_summary: "Abstract: Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated in- creasing influence in morally sensitive domai | Overview: arXiv:2505.14728v1 [cs.CV] 20 May 2025 MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models Xiao Lin∗1, Zhining Liu∗1, Ze Yang∗1, Gaotang Li1, Ruizhong Qiu1, Shuke Wang1, Hui | Conclusions: model size alone does not guarantee moral reasoning ability. Smaller models that are carefully optimized or instruction-tuned for moral alignment can"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-MORALISE.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Lin-MORALISE.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGLM, GPT-4o, Gemma, LLaVA, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/Ze1025/MORALISE"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-MORALISE.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Lin-MORALISE.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.14728
 - **DOI:** https://doi.org/10.48550/arXiv.2505.14728

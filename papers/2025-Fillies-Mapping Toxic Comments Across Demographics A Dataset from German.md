@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2508.21084.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

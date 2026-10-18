@@ -13,7 +13,7 @@ authors: "Ramezani, Aida; Xu, Yang"
 url: "https://aclanthology.org/2025.emnlp-main.743/"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ramezani-The Discordance Between Embedded Ethics and Cultural Norms in LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ramezani-The Discordance Between Embedded Ethics and Cultural Norms in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ramezani-The Discordance Between Embedded Ethics and Cultural Norms in LLMs.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

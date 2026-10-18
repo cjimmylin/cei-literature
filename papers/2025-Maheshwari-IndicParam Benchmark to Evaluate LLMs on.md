@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.00333"
 external_pdf: "https://arxiv.org/pdf/2512.00333.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.pdf]]"
 publication: "WebSearch: IndicParam benchmark"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

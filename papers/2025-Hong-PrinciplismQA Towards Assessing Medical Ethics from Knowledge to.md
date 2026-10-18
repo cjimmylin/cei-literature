@@ -13,7 +13,7 @@ authors: "Chen, Guhong; Minghao Wu; Qiaoling Xiao; Yujia Wang; Xinyi Wan; G. Yu;
 url: "https://arxiv.org/abs/2508.05132"
 external_pdf: "https://arxiv.org/pdf/2508.05132.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260207

@@ -15,7 +15,7 @@ external_pdf: "https://mongoliajol.info/index.php/MJHSS/article/download/4920/43
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

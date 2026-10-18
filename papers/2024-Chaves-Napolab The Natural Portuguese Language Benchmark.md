@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2401.16640"
 publication: "GitHub / HuggingFace"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Brazilian
 cultures_nationalities_list: Brazilian

@@ -13,7 +13,7 @@ authors: "Anna Kolos; Inez Okulska; Kinga Glabinska; Agnieszka Karlinska; Emilia
 url: "https://arxiv.org/abs/2308.10592"
 external_pdf: "https://arxiv.org/pdf/2308.10592.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.pdf]]"
 publication: "arXiv / LREC 2024"
 CONF-CC: "LREC 2024"
 DATE_ADDED: 20260213

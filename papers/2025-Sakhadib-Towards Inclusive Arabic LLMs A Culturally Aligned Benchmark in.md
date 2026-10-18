@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/2025.loreslm-1.29.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

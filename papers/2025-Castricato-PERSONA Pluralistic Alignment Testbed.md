@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.17387"
 external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
 publication: "COLING 2025"
 CONF-CC: "COLING 2025"
 DATE_ADDED: 20260207

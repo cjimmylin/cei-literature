@@ -11,7 +11,7 @@ authors: "Hagendorff; Thilo"
 doi: 10.1007/s13347-022-00553-z
 url: "https://link.springer.com/article/10.1007/s13347-022-00553-z"
 pdf_extract: "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

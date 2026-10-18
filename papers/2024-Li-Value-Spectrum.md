@@ -50,7 +50,7 @@ significance: "Brings value alignment to the *video* domain, showing that VLMs d
 pdf_extract: "PDF Extracts/2024/2024-Li-Value-Spectrum.md"
 abstract: "The recent progress in Vision-Language Models (VLMs) has broadened the scope of multimodal applications. However, evaluations often remain limited to functional tasks, neglecting abstract dimensions such as personality traits and human values. To address this gap, we introduce Value-Spectrum, a novel Visual Question Answering (VQA) benchmark aimed at assessing VLMs based on Schwartz’s value dimensions that capture core human values guiding people’s preferences and actions."
 paper_summary: "Abstract: The recent progress in Vision-Language Mod- els (VLMs) has broadened the scope of multi- modal applications. However, evaluations often remain limited to functional tasks, neglecting abstract dimensio | Overview: arXiv:2411.11479v3 [cs.CL] 3 Jun 2025 Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts Jingxuan Li1,* Yuning Yang1,* Shengqi Yang2 Lin | Methodology: We randomly sampled 2,614 images from our dataset. A two-step pipeline was then applied: | Key Findings: GPT-4o, Gemini 1.5 Pro, Qwen-VL-Plus (Bai et al., 2023), Claude 3.5 Sonnet, and CogVLM (Wang et al., 2023a). We assess the VLMs' role-playing ability  | Conclusions: VLMs vs. Corresponding LLMs. We conduct several experiments to examine whether different types of multi-modal inputs influence value pref- erence outc"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Value-Spectrum.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Li-Value-Spectrum.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemini, Qwen-2"
 DATA_URL: "https://github.com/Jeremyyny/Value-Spectrum"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Value-Spectrum.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Li-Value-Spectrum.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.11479
 - **DOI:** https://doi.org/10.48550/arXiv.2411.11479

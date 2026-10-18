@@ -61,7 +61,7 @@ author_country: CN
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 36
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2309.15025
 - **DOI:** https://doi.org/10.48550/arXiv.2309.15025

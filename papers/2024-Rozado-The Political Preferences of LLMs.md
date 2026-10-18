@@ -14,7 +14,7 @@ doi: 10.1371/journal.pone.0306621
 url: "https://doi.org/10.1371/journal.pone.0306621"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0306621&type=printable"
 pdf_extract: "PDF Extracts/2024/2024-Rozado-The Political Preferences of LLMs.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rozado-The Political Preferences of LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Rozado-The Political Preferences of LLMs.pdf]]"
 publication: Unknown
 CONF-CC: Preprint
 DATE_ADDED: 20260207

@@ -13,7 +13,7 @@ authors: "Jiayang Song; Yuheng Huang; Zhehua Zhou; Lei Ma"
 url: "https://arxiv.org/abs/2407.07342"
 external_pdf: "https://arxiv.org/pdf/2407.07342.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
 publication: "arXiv / NAACL Findings 2025"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213

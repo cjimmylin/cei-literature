@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.md"
 abstract: "Large language models (LLMs) have become integral to our professional workflows and daily lives. Nevertheless, these machine companions of ours have a critical flaw: the huge amount of data which endows them with vast and diverse knowledge, also exposes them to the inevitable toxicity and bias. While most LLMs incorporate defense mechanisms to prevent the generation of harmful content, these safeguards can be easily bypassed with minimal prompt engineering."
 paper_summary: "Abstract: Large language models (LLMs) have become integral to our professional workflows and daily lives. Nevertheless, these machine companions of ours have a critical flaw: the huge amount of data which endo | Overview: Realistic Evaluation of Toxicity in Large Language Models Tinh Son Luong1∗, Thanh-Thien Le2∗, Linh Ngo Van3†, Thien Huu Nguyen2,4 1Oraichain Labs 2VinAI Research 3Hanoi University of Science and Techn"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf]]"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Mistral, Mixtral, Zephyr"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2405.10659
 

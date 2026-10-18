@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2506.01495
 tags: 
 url: "http://arxiv.org/abs/2506.01495"
 pdf_extract: "PDF Extracts/2025/2025-Wu-CVC.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-CVC.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Wu-CVC.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
 CONF-CC: Preprint
@@ -86,7 +86,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-CVC.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Wu-CVC.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.01495
 - **DOI:** https://doi.org/10.48550/arXiv.2506.01495

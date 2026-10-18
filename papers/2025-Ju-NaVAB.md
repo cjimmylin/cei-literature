@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4, Llama-3, Mixtral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ju-NaVAB.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ju-NaVAB.pdf]]"
 CONFERENCE: "ACL 2025"
 ethics_overall: 60
 virtue_ethics: 0

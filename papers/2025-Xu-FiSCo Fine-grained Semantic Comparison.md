@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19028"
 external_pdf: "https://arxiv.org/pdf/2506.19028.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Xu-FiSCo Fine-grained Semantic Comparison.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

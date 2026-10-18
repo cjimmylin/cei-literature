@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03194"
 external_pdf: "https://arxiv.org/pdf/2601.03194.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.pdf]]"
 publication: "WebSearch: X-MuTeST Telugu hate speech"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

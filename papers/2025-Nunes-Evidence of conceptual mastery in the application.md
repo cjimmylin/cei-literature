@@ -13,7 +13,7 @@ authors: "José Luiz Nunes; Guilherme Almeida; Brian Flanagan"
 doi: 10.2139/ssrn.5161877
 url: "https://arxiv.org/abs/2503.00992"
 pdf_extract: "PDF Extracts/2025/2025-Nunes-Evidence of conceptual mastery in the application.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nunes-Evidence of conceptual mastery in the application.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Nunes-Evidence of conceptual mastery in the application.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2503.00992.pdf"
 research_topic: Other
 national_ethnic_cultural: N/A
@@ -85,7 +85,7 @@ data_metrics: "240 instances"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Nunes-Evidence of conceptual mastery in the application.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Nunes-Evidence of conceptual mastery in the application.pdf|Open PDF]]
 
 - **URL:** https://www.ssrn.com/abstract=5161877
 - **DOI:** https://doi.org/10.2139/ssrn.5161877

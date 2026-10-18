@@ -47,7 +47,7 @@ tags:
 abstract: "Moral sentiments expressed in natural language significantly influence both online and offline environments, shaping behavioral styles and interaction patterns, including social media self-presentation, cyberbullying, adherence to social norms, and ethical decision-making. To effectively measure moral sentiments in natural language processing texts, it is crucial to utilize large, annotated datasets that provide nuanced understanding for accurate analysis and model training."
 pdf: "http://arxiv.org/pdf/2411.09612"
 pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Qwen-2"

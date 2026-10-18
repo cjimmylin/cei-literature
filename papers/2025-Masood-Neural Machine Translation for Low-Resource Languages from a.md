@@ -16,7 +16,7 @@ external_pdf: "https://www.aclweb.org/anthology/N18-4016.pdf"
 publication: ACM
 CONF-CC: "ACM TALIP"
 pdf_extract: "PDF Extracts/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

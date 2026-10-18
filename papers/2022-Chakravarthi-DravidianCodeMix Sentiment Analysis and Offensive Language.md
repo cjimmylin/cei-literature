@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2106.09460"
 external_pdf: "https://arxiv.org/pdf/2106.09460.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.pdf]]"
 publication: "WebSearch: DravidianCodeMix dataset"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

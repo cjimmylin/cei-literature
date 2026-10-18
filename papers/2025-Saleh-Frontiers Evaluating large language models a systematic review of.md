@@ -16,7 +16,7 @@ url: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fco
 publication: Frontiers
 CONF-CC: Frontiers
 pdf_extract: "PDF Extracts/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

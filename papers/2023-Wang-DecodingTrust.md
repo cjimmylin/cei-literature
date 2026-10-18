@@ -48,7 +48,7 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2023/2023-Wang-DecodingTrust.md"
 abstract: "Generative Pre-trained Transformer (GPT) models have exhibited exciting progress in their capabilities, capturing the interest of practitioners and the public alike. Yet, while the literature on the trustworthiness of GPT models remains limited, practitioners have proposed employing capable GPT models for sensitive applications such as healthcare and finance – where mistakes can be costly. To this end, this work proposes a comprehensive trustworthiness evaluation for large language models with..."
 paper_summary: "Abstract: Generative Pre-trained Transformer (GPT) models have exhibited exciting progress in their capabilities, capturing the interest of practitioners and the public alike. Yet, while the literature on the t | Overview: DECODINGTRUST: A Comprehensive Assessment of Trustworthiness in GPT Models Boxin Wang1∗, Weixin Chen1∗, Hengzhi Pei1∗, Chulin Xie1∗, Mintong Kang1∗, Chenhui Zhang1∗, Chejian Xu1, Zidi Xiong1, Ritik Du | Methodology: GPT-3.5 GPT-4 Base 88.65 94.38 Word-level Augment 87.39 93.81 Shake-W 83.26 92.66 Sentence-level Tweet (p = 0) 82.00 90.37 Tweet (p = 0.6) 80.96 90.60 | Key Findings: to recent open LLMs, including llama [166], Llama 2 [168], Alpaca [161], Red Pajama [41] and more, in Appendix I. We showcase unreliable responses fro"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-DecodingTrust.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Wang-DecodingTrust.pdf]]"
 CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3.5, GPT-4, LLaMA, Llama-2, Vicuna"
@@ -91,7 +91,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-DecodingTrust.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Wang-DecodingTrust.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2306.11698
 

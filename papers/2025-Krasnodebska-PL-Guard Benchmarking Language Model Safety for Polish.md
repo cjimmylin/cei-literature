@@ -13,7 +13,7 @@ authors: "Aleksandra Krasnodebska; Karolina Seweryn; Szymon Lukasik; Wojciech Ku
 url: "https://arxiv.org/abs/2506.16322"
 external_pdf: "https://arxiv.org/pdf/2506.16322.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -50,7 +50,7 @@ significance: "While primarily a technical benchmark, it highlights the 'truthfu
 pdf_extract: "PDF Extracts/2023/2023-Li-Can LLM Already Serve as A Database Interface.md"
 abstract: "Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database values leaving the gap between academic study and real-world applications."
 paper_summary: "Abstract: Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive  | Overview: Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs Jinyang Li1,♣‡, Binyuan Hui2,♣, Ge Qu1,♣, Jiaxi Yang2, Binhua Li2, Bowen Li6, Bailin Wang5, Bo | Key Findings: benchmark towards text-to-SQL robustness. In The Eleventh International Conference on Learning Representations, 2023. [7] Zhiyu Chen, Wenhu Chen, Char | Conclusions: In this paper, we introduce BIRD, a large-scale cross-domain, text-to-SQL benchmark with a particular focus on large database values. BIRD mitigates t"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Li-Can LLM Already Serve as A Database Interface.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Li-Can LLM Already Serve as A Database Interface.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
@@ -95,7 +95,7 @@ data_metrics: "33.4 gb"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Li-Can LLM Already Serve as A Database Interface.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Li-Can LLM Already Serve as A Database Interface.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2305.03111
 - **DOI:** https://doi.org/10.48550/arXiv.2305.03111

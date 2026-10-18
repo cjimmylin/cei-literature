@@ -13,7 +13,7 @@ authors: "Farhan Farsi; Farnaz Aghababaloo; Shahriar Shariati Motlagh; Parsa Gho
 url: "https://arxiv.org/abs/2508.00673"
 external_pdf: "https://arxiv.org/pdf/2508.00673.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

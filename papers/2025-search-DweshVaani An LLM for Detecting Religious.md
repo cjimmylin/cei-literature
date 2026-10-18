@@ -14,7 +14,7 @@ authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: "PDF Extracts/2025/2025-search-DweshVaani An LLM for Detecting Religious.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-search-DweshVaani An LLM for Detecting Religious.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-search-DweshVaani An LLM for Detecting Religious.pdf]]"
 publication: "CHiPSAL 2025 Workshop (co-located with COLING 2025, Abu Dhabi)"
 CONF-CC: "COLING 2025 Workshop"
 DATE_ADDED: 20260213

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05154"
 external_pdf: "https://arxiv.org/pdf/2504.05154.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

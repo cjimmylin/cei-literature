@@ -11,7 +11,7 @@ authors: "Stephen C. Angle"
 doi: 10.1007/978-981-16-2309-7_4
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4"
 pdf_extract: "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf]]"
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
 languages_list: 

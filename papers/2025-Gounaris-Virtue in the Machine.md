@@ -13,7 +13,7 @@ authors: "Gounaris, Alkis; Kosteletos, George; Kolliniati, Maria-Artemis"
 doi: N/A
 url: "https://ejournals.epublishing.ekt.gr/index.php/Conatus/article/view/36423"
 pdf_extract: "PDF Extracts/2025/2025-Gounaris-Virtue in the Machine.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gounaris-Virtue in the Machine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Gounaris-Virtue in the Machine.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

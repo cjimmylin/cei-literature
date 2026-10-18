@@ -47,7 +47,7 @@ newtags: American
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Lu-The AI Scientist.md"
 paper_summary: "Overview: 2024-9-4 The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery Chris Lu1,2,*, Cong Lu3,4,*, Robert Tjarko Lange1,*, Jakob Foerster2,, Jeff Clune3,4,5, and David Ha1, *Equal Cont | Methodology: for low-dimensional diffusion models, aiming to balance global structure and local details in generated samples. The novel architecture incorporates t | Conclusions: In this paper, we introduced The AI Scientist, the first framework designed to fully automate the scientific discovery process, and, as a first demons"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Lu-The AI Scientist.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Lu-The AI Scientist.pdf]]"
 abstract: "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to human scientists, e.g. for brainstorming ideas, writing code, or prediction tasks, they still conduct only a small part of the scientific process. This paper presents the first comprehensive framework for fully automatic scientific discovery, enabling frontier large language models to"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, GPT-4o mini, Llama-3"
@@ -93,7 +93,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Lu-The AI Scientist.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Lu-The AI Scientist.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2408.06292
 - **DOI:** https://doi.org/10.48550/ARXIV.2408.06292

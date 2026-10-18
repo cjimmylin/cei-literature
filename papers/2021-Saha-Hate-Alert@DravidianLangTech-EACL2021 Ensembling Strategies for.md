@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2102.10084v1.pdf"
 publication: "WebSearch: DravidianLangTech shared task"
 CONF-CC: "Shared Task (2021)"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

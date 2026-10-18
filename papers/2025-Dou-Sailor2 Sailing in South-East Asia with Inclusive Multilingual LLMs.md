@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2502.12982"
 external_pdf: "https://arxiv.org/pdf/2502.12982.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"

@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2410.22839.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Holm-Danoliteracy of Generative Large Language Models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Holm-Danoliteracy of Generative Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Holm-Danoliteracy of Generative Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

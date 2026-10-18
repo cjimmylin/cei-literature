@@ -47,7 +47,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/ohoud/Fatwaset.git"
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Alyemny-FatwaSet.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Alyemny-FatwaSet.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

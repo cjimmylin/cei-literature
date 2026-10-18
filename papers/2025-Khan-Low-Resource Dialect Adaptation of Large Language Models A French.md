@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2510.22747.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: French
 cultures_nationalities_list: French

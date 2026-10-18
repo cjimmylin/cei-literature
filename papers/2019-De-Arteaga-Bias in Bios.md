@@ -46,7 +46,7 @@ key_contribution: "Analyzed gender bias in occupation classification of online b
 significance: "A classic study demonstrating that high-accuracy models can perpetuate societal inequalities by learning to associate professions (like 'surgeon' vs 'nurse') with gender parity statistics in the training data."
 tags: 
 pdf_extract: "PDF Extracts/2019/2019-De-Arteaga-Bias in Bios.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-De-Arteaga-Bias in Bios.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-De-Arteaga-Bias in Bios.pdf]]"
 abstract: "We present a large-scale study of gender bias in occupation classification, a task where the use of machine learning may lead to negative outcomes on peoples’ lives. We analyze the potential allocation harms that can result from semantic representation bias. To do so, we study the impact on occupation classification of including explicit gender indicators—such as first names and pronouns—in different semantic representations of online biographies."
 paper_summary: "Abstract: We present a large-scale study of gender bias in occupation clas- sification, a task where the use of machine learning may lead to negative outcomes on peoples' lives. We analyze the potential allo- c | Overview: Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting Maria De-Arteaga1, Alexey Romanov2, Hanna Wallach3, Jennifer Chayes3, Christian Borgs3, Alexandra Chouldechova1, Sah | Methodology: We used our dataset to predict people's occupations, taken from the first sentence of their biographies as described in the previous section, given th | Key Findings: in different percentages of people with gender д in occupation y at time t + 1. The bands in Figure 6 therefore reflect these differences. 0 2 4 6 8 1"
 CONF-CC: "FAccT 2019"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2019/2019-De-Arteaga-Bias in Bios.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2019/2019-De-Arteaga-Bias in Bios.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/1901.09451
 - **DOI:** https://doi.org/10.1145/3287560.3287572

@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
 pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lin-ToxicChat.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Lin-ToxicChat.pdf]]"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: 100
 virtue_ethics: 0

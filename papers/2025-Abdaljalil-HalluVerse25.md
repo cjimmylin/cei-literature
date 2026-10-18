@@ -48,7 +48,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Abdaljalil-HalluVerse25.md"
 abstract: "Large Language Models (LLMs) are increasingly used in various contexts, yet remain prone to generating non-factual content, commonly referred to as “hallucinations”. The literature categorizes hallucinations into several types, including entitylevel, relation-level, and sentence-level hallucinations. However, existing hallucination datasets often fail to capture fine-grained hallucinations in multilingual settings."
 paper_summary: "Abstract: Large Language Models (LLMs) are in- creasingly used in various contexts, yet re- main prone to generating non-factual con- tent, commonly referred to as 'hallucina- tions'. The literature categorizes | Overview: HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations Samir Abdaljalil Texas A&M University College Station, TX., USA sabdaljalil@tamu.edu Hasan Kurban Hamad Bin Khalifa Uni | Key Findings: process, since the intended output is one of three labels, we set the temperature to 0 to ensure that it is deterministic. | Conclusions: In this paper, we present HalluVerse25, a fine- grained multilingual dataset for LLM-generated hallucinations, constructed by injecting halluci- nated"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Phi, Qwen-2"
 DATA_URL: NA
@@ -93,7 +93,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.07833
 - **DOI:** https://doi.org/10.48550/arXiv.2503.07833

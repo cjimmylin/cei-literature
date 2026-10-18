@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2403.19559.pdf"
 publication: "arXiv / NAACL 2024"
 CONF-CC: "NAACL 2024"
 pdf_extract: "PDF Extracts/2024/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

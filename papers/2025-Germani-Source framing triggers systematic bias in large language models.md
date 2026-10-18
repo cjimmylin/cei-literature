@@ -17,7 +17,7 @@ external_pdf: "https://arxiv.org/pdf/2505.13488"
 publication: Science
 CONF-CC: Science
 pdf_extract: "PDF Extracts/2025/2025-Germani-Source framing triggers systematic bias in large language models.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Germani-Source framing triggers systematic bias in large language models.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Germani-Source framing triggers systematic bias in large language models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"

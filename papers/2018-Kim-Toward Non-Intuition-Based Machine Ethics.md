@@ -14,7 +14,7 @@ doi: 10.1145/3278721.3278753
 url: "https://dl.acm.org/doi/10.1145/3278721.3278753"
 external_pdf: "https://johnhooker.tepper.cmu.edu/machineEthicsNonintuitive2.pdf"
 pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.pdf]]"
 publication: "AIES '18: AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2018"
 national_ethnic_cultural: N/A

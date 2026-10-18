@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Bang-Enabling Classifiers to Make Judgements.md"
 abstract: "Many NLP classiﬁcation tasks, such as sexism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. Therefore, we introduce a framework for valuealigned classiﬁcation that performs prediction based on explicitly written human values in the command. Along with the task, we propose a practical approach that distills value-aligned knowledge from large-scale language models (LLMs) to construct value-aligned classiﬁers in two..."
 paper_summary: "Abstract: Many NLP classiﬁcation tasks, such as sex- ism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. There- fore, we introduc | Overview: Enabling Classiﬁers to Make Judgements Explicitly Aligned with Human Values Yejin Bang1∗Tiezheng Yu1∗ Andrea Madotto2 Zhaojiang Lin2 Mona Diab2 Pascale Fung1† 1The Hong Kong University of Science and  | Methodology: avoids costly human labeling or crowd sourcing of values, allowing easier extensions to other value- aligned tasks in different domains. We further in | Key Findings: LLMs are powerful few-shot learners, yet they are not perfect. Thus, we conduct human evaluation on two categories' data (Inter- nalized sexism and Pa"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BART, RoBERTa"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2210.07652
 - **DOI:** https://doi.org/10.48550/arXiv.2210.07652

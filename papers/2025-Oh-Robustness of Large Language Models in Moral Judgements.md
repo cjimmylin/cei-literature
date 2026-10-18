@@ -14,7 +14,7 @@ doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
 external_pdf: "https://link.springer.com/content/pdf/10.3758/s13428-023-02307-x.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.pdf]]"
 publication: Unknown
 CONF-CC: Preprint
 DATE_ADDED: 20260207

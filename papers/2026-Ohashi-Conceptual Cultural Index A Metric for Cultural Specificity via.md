@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2602.09444"
 external_pdf: "https://arxiv.org/pdf/2602.09444.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

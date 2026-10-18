@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2507.18918"
 external_pdf: "https://arxiv.org/pdf/2507.18918.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.pdf]]"
 publication: "WebSearch: cross-linguistic disparities LLM Malayalam"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

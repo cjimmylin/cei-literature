@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2411.05049"
 external_pdf: "https://arxiv.org/pdf/2411.05049.pdf"
 publication: "arXiv / NAACL 2025 Findings"
 CONF-CC: "NAACL 2025 Findings"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: African/Ubuntu

@@ -48,7 +48,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Rahman-DefAn.md"
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, revolutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims that contradict established facts, deviating from prompts, and producing inconsistent responses when the same prompt is presented multiple times. Addressing these issues is challenging due to the lack of comprehensive and easily assessable benchmark datasets."
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities, revo- lutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims | Overview: DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation A B M Ashikur Rahman∗ ICS Department KFUPM Dhahran, KSA - 31261 g202204800@kfupm.edu.sa Saeed Anwar ICS Department, KFUPM JRCAI, SDAI | Key Findings: A B M Ashikur Rahman∗ ICS Department KFUPM Dhahran, KSA - 31261 g202204800@kfupm.edu.sa Saeed Anwar ICS Department, KFUPM JRCAI, SDAIA-KFUPM Dhahran,  | Conclusions: This paper introduces a comprehensive benchmark dataset designed for evaluating hallucinations in LLMs. To facilitate accurate assessment and evaluati"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rahman-DefAn.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Rahman-DefAn.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mixtral, Zephyr"
 DATA_URL: "https://github.com/ashikiut/DefAn"
@@ -93,7 +93,7 @@ data_metrics: "75,000 prompts"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Rahman-DefAn.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Rahman-DefAn.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.09155
 - **DOI:** https://doi.org/10.48550/arXiv.2406.09155

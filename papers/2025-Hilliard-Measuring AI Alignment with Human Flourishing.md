@@ -13,7 +13,7 @@ authors: "Hilliard, Elizabeth; Jagadeesh, Akshaya; Cook, Alex; Billings, Steele;
 doi: 10.48550/arXiv.2507.07787
 url: "https://arxiv.org/abs/2507.07787"
 pdf_extract: "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.07787.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -85,7 +85,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2507.07787
 - **PDF:** https://arxiv.org/pdf/2507.07787.pdf

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.228/"
 external_pdf: "https://arxiv.org/pdf/2506.15355.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.pdf]]"
 publication: "WebSearch: SANSKRITI benchmark"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

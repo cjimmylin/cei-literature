@@ -17,7 +17,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-024-01401-y.
 publication: Springer
 CONF-CC: "Social Network Analysis and Mining"
 pdf_extract: "PDF Extracts/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

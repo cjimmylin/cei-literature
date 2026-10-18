@@ -13,7 +13,7 @@ authors: "Burak Satar; Zhixin Ma; Patrick A. Irawan; Wilfried A. Mulyawan; Jing 
 url: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 publication: HuggingFace
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

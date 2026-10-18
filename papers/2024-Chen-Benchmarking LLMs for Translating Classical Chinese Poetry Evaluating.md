@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2408.09945.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

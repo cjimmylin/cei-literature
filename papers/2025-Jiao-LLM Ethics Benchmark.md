@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2505.00853
 tags: 
 url: "http://arxiv.org/abs/2505.00853"
 pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2505.00853.pdf"
 publication: "Scientific Reports"
 CONF-CC: "Nature Scientific Reports"
@@ -88,7 +88,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Jiao-LLM Ethics Benchmark.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.00853
 - **DOI:** https://doi.org/10.48550/arXiv.2505.00853

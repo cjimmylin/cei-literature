@@ -13,7 +13,7 @@ authors: "Maithili Sabane; Onkar Litake; Aman Chadha"
 url: "https://arxiv.org/abs/2308.09862"
 external_pdf: "https://arxiv.org/pdf/2308.09862.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

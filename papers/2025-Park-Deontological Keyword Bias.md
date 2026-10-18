@@ -14,7 +14,7 @@ doi: 10.48550/arXiv.2506.11068
 tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2506.11068"
 pdf_extract: "PDF Extracts/2025/2025-Park-Deontological Keyword Bias.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Park-Deontological Keyword Bias.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Park-Deontological Keyword Bias.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.11068.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2025"
@@ -86,7 +86,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Park-Deontological Keyword Bias.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Park-Deontological Keyword Bias.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.11068
 - **DOI:** https://doi.org/10.48550/arXiv.2506.11068

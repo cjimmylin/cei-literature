@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Gustafson-FACET.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Gustafson-FACET.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

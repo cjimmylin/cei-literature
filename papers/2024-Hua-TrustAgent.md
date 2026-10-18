@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Hua-TrustAgent.md"
 abstract: "The rise of LLM-based agents shows great potential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, ensuring their reliability and safety is crucial. This paper presents an Agent-Constitutionbased agent framework, TrustAgent, with a particular focus on improving the LLM-based agent safety. The proposed framework ensures strict adherence to the Agent Constitution through three strategic components: preplanning..."
 paper_summary: "Abstract: The rise of LLM-based agents shows great po- tential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, en- suring the | Overview: TrustAgent: Towards Safe and Trustworthy LLM-based Agents Wenyue Hua1 Xianjun Yang2 Mingyu Jin1 Zelong Li1 Wei Cheng3 Ruixiang Tang1 Yongfeng Zhang1 1Department of Computer Science, Rutgers University | Key Findings: Agent Consititution Pre-planning Learning Post-planning Learning In-planning Prompting Constitution Post-planning Learning Pre-planning Learning Actio"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hua-TrustAgent.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Hua-TrustAgent.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Mixtral"
 DATA_URL: "https://github.com/agiresearch/TrustAgent"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Hua-TrustAgent.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Hua-TrustAgent.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.01586
 - **DOI:** https://doi.org/10.48550/arXiv.2402.01586

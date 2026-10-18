@@ -15,7 +15,7 @@ doi: 10.1007/s10579-024-09723-1
 url: "https://link.springer.com/article/10.1007/s10579-024-09723-1"
 external_pdf: "https://arxiv.org/pdf/2212.00851.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.pdf]]"
 publication: "Springer / arXiv"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

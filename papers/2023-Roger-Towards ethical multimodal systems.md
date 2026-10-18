@@ -61,7 +61,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Roger-Towards ethical multimodal systems.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Roger-Towards ethical multimodal systems.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: NA
@@ -95,7 +95,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Roger-Towards ethical multimodal systems.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Roger-Towards ethical multimodal systems.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2304.13765
 - **DOI:** https://doi.org/10.48550/arXiv.2304.13765

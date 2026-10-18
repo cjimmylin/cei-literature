@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2502.12924.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Spanish
 cultures_nationalities_list: Spanish

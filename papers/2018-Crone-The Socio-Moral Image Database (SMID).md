@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/2rqad/"
 pdf_extract: "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2018/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"
 CONFERENCE: Journal
 ethics_overall: 50
 virtue_ethics: 0

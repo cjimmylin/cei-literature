@@ -13,7 +13,7 @@ authors: "Chuang Liu; Linhao Yu; Jiaxuan Li; Renren Jin; Yufei Huang; Ling Shi; 
 url: "https://arxiv.org/abs/2403.12316"
 external_pdf: "https://arxiv.org/pdf/2403.12316.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207

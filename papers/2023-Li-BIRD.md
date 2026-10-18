@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
 pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Li-BIRD.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Li-BIRD.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 0
 virtue_ethics: 0

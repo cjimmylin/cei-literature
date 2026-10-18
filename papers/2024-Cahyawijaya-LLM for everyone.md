@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Aya-101, BLOOMZ, Command-R, GPT-3.5, Llama-3, mT0"
 DATA_URL: "https://github.com/IndoNLP/nusax"
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
 CONFERENCE: Unknown
 ethics_overall: 45
 virtue_ethics: 0

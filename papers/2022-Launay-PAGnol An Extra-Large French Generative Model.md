@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2110.08554.pdf"
 publication: "arXiv / ACL Anthology"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: French
 cultures_nationalities_list: French

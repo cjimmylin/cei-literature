@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2503.16529"
 external_pdf: "https://arxiv.org/pdf/2503.16529.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Chinese

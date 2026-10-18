@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2402.02639.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Grezes-'It's how you do things that matters' Attending to Process to Better.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

@@ -15,7 +15,7 @@ url: "https://www.anthropic.com/research/towards-measuring-the-representation-of
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

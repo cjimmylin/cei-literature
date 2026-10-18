@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2412.12956.pdf"
 publication: "arXiv / NoDaLiDa 2025"
 CONF-CC: "NoDaLiDa 2025"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

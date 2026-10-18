@@ -11,7 +11,7 @@ authors: "So; Emma"
 doi: N/A
 url: "https://philarchive.org/archive/SOHATI"
 pdf_extract: "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-So-AI Trained on Confucian Analects.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-So-AI Trained on Confucian Analects.pdf]]"
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese
 languages_list: 

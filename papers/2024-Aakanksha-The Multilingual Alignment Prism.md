@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: 15
 virtue_ethics: 0

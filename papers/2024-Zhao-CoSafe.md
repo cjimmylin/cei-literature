@@ -58,7 +58,7 @@ author_country: HK
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 53
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhao-CoSafe.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zhao-CoSafe.pdf]]"
 LLM_assessed: "Alpaca, LLaMA, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/ErxinYu/CoSafe-Dataset"
 publication: "EMNLP 2024"
@@ -90,7 +90,7 @@ data_metrics: "1,400 questions; 14 categories"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhao-CoSafe.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Zhao-CoSafe.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2406.17626
 

@@ -15,7 +15,7 @@ external_pdf: "https://aclanthology.org/C16-3002.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

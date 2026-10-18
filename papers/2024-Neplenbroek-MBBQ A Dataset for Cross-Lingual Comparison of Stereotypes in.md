@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2406.07243"
 external_pdf: "https://arxiv.org/pdf/2406.07243.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Spanish, Dutch, Multicultural/Cross-cultural"

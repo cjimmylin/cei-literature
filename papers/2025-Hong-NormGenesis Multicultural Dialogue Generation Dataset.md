@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.18395"
 external_pdf: "https://arxiv.org/pdf/2509.18395.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.pdf]]"
 publication: EMNLP
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

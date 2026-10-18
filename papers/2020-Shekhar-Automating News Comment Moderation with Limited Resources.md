@@ -15,7 +15,7 @@ external_pdf: "https://jlcl.org/article/download/224/222"
 publication: JLCL
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

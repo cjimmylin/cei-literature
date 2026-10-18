@@ -13,7 +13,7 @@ authors: "CMC AI team"
 url: "https://arxiv.org/abs/2512.14554"
 external_pdf: "https://arxiv.org/pdf/2512.14554.pdf"
 pdf_extract: "PDF Extracts/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

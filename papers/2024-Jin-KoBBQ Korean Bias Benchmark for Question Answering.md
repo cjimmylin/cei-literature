@@ -14,7 +14,7 @@ doi: 10.1162/tacl_a_00661
 url: "https://arxiv.org/abs/2307.16778"
 external_pdf: "https://arxiv.org/pdf/2307.16778.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
 publication: "arXiv / TACL 2024"
 CONF-CC: "TACL 2024"
 DATE_ADDED: 20260213

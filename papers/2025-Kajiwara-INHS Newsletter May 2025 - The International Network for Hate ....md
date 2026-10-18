@@ -15,7 +15,7 @@ external_pdf: "https://internationalhatestudies.com/wp-content/uploads/2025/05/1
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Japanese
 cultures_nationalities_list: Japanese

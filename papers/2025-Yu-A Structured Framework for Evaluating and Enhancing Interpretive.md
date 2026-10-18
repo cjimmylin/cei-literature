@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2509.23208.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/1812.10400"
 external_pdf: "https://arxiv.org/pdf/1812.10400.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.pdf]]"
 publication: "Journal of Information Technology & Politics"
 CONF-CC: "Journal of Information Technology & Politics"
 DATE_ADDED: 20260213

@@ -13,7 +13,7 @@ authors: "Amit Seker; Elron Bandel; Dan Bareket; Idan Brusilovsky; Refael Shaked
 url: "https://arxiv.org/abs/2104.04052"
 external_pdf: "https://arxiv.org/pdf/2104.04052.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
 publication: "arXiv / ACL 2022"
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260213

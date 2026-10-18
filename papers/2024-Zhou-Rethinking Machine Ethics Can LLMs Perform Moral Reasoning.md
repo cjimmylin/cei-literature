@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md"
 abstract: "Making moral judgments is an essential step toward developing ethical AI systems. Prevalent approaches are mostly implemented in a bottom-up manner, which uses a large set of annotated data to train models based on crowd-sourced opinions about morality. These approaches have been criticized for overgeneralizing the moral stances of a limited group of annotators and lacking explainability. This work proposes a flexible top-down framework to steer (Large) Language Models (LMs) to perform moral..."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-4, Llama-2"
 DATA_URL: NA
@@ -105,7 +105,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2024.findings-naacl.144/
 - **arXiv:** https://arxiv.org/abs/2308.15399

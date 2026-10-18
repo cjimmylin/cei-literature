@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2025.coling-main.318.pdf"
 publication: "ACL Anthology (COLING 2025)"
 CONF-CC: "COLING 2025"
 pdf_extract: "PDF Extracts/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

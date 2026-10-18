@@ -40,10 +40,10 @@ Step 3: Download & Validate
   └─ Check file size > 1KB
 
 Step 4: Store PDF in Year Directory
-  └─ Move to Lit-WS-Lit-WS-PDFs/YYYY/<paper-stem>.pdf
+  └─ Move to Lit-WS-PDFs/YYYY/<paper-stem>.pdf
 
 Step 5: Update YAML Metadata (safe regex — NEVER parse/rebuild)
-  ├─ Set local_pdf: "[[Lit-WS-Lit-WS-PDFs/YYYY/<filename>.pdf]]"
+  ├─ Set local_pdf: "[[Lit-WS-PDFs/YYYY/<filename>.pdf]]"
   └─ Set external_pdf: "<source-url>"
 
 Step 6: Create PDF Extract
@@ -122,14 +122,14 @@ doi = field("doi")
 url = field("url")
 ```
 
-If `local_pdf` already contains a `[[Lit-WS-Lit-WS-PDFs/...]]` wikilink and the file exists, skip download.
+If `local_pdf` already contains a `[[Lit-WS-PDFs/...]]` wikilink and the file exists, skip download.
 
 ### 3. Download via curl
 
 ```bash
 # Standard download with browser UA
 curl -sS -L \
-  -o "Lit-WS-Lit-WS-PDFs/2024/2024-Author-Title.pdf" \
+  -o "Lit-WS-PDFs/2024/2024-Author-Title.pdf" \
   -w "%{http_code}" \
   --max-time 60 \
   --connect-timeout 15 \
@@ -137,7 +137,7 @@ curl -sS -L \
   "https://example.com/paper.pdf"
 
 # Verify %PDF- magic bytes
-head -c 5 "Lit-WS-Lit-WS-PDFs/2024/2024-Author-Title.pdf"
+head -c 5 "Lit-WS-PDFs/2024/2024-Author-Title.pdf"
 # Expected: %PDF-
 ```
 
@@ -149,7 +149,7 @@ head -c 5 "Lit-WS-Lit-WS-PDFs/2024/2024-Author-Title.pdf"
 # Safe pattern for updating a single field:
 import re
 content = paper_path.read_text(encoding="utf-8")
-new_line = 'local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Author-Title.pdf]]"'
+new_line = 'local_pdf: "[[Lit-WS-PDFs/2024/2024-Author-Title.pdf]]"'
 
 content = re.sub(
     r'^local_pdf:.*$',
@@ -177,7 +177,7 @@ extract_path = Path(f"PDF Extracts/{year}/{paper_stem}.md")
 extract_path.parent.mkdir(parents=True, exist_ok=True)
 
 frontmatter = f'''---
-source_pdf: "[[Lit-WS-Lit-WS-PDFs/{year}/{pdf_filename}]]"
+source_pdf: "[[Lit-WS-PDFs/{year}/{pdf_filename}]]"
 extracted_date: "{datetime.now().strftime('%Y-%m-%d')}"
 pages: {len(doc)}
 extractor: "PyMuPDF"

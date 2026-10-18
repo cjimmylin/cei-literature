@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2304.09919"
 external_pdf: "https://arxiv.org/pdf/2304.09919.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Schwarting-The eBible Corpus Data and Model.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Schwarting-The eBible Corpus Data and Model.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Schwarting-The eBible Corpus Data and Model.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

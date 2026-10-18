@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2511.20399v2.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

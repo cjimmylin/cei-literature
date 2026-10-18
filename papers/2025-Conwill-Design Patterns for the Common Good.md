@@ -13,7 +13,7 @@ authors: "Conwill, Louisa; Megan K. Levis; Badillo-Urquiola, Karla; Walter J. Sc
 doi: 10.1145/3706598.3713546
 url: "https://arxiv.org/abs/2501.10288"
 pdf_extract: "PDF Extracts/2025/2025-Conwill-Design Patterns for the Common Good.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Conwill-Design Patterns for the Common Good.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Conwill-Design Patterns for the Common Good.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2501.10288.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -85,7 +85,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Conwill-Design Patterns for the Common Good.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Conwill-Design Patterns for the Common Good.pdf|Open PDF]]
 
 
 - **URL:** https://dl.acm.org/doi/10.1145/3706598.3713546

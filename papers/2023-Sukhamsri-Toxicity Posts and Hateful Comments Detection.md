@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/view/256026"
 external_pdf: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/download/256026/174267"
 pdf_extract: "PDF Extracts/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.pdf]]"
 publication: "RMUTL Engineering Journal"
 CONF-CC: "RMUTL Engineering Journal"
 DATE_ADDED: 20260213

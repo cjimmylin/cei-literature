@@ -15,7 +15,7 @@ url: "https://arxiv.org/abs/2601.21700"
 external_pdf: "https://arxiv.org/pdf/2601.21700.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American"

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21372"
 external_pdf: "https://arxiv.org/pdf/2510.21372.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

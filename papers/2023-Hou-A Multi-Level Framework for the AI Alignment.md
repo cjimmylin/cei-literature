@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.md"
 abstract: "AI alignment considers how we can encode AI systems in a way that is compatible with human values. The normative side of this problem asks what moral values or principles, if any, we should encode in AI. To this end, we present a framework to consider the question at four levels: Individual, Organizational, National, and Global. We aim to illustrate how AI alignment is made up of value alignment problems at each of these levels, where values at each level affect the others and effects can ﬂow..."
 paper_summary: "Abstract: AI alignment considers how we can encode AI systems in a way that is compatible with human values. The normative side of this problem asks what moral values or principles, if any, we should encode in  | Overview: A Multi-Level Framework for the AI Alignment Problem Betty Li Hou1, 2, Brian Patrick Green1 1 Markkula Center for Applied Ethics 2 New York University blh9134@nyu.edu, bpgreen@scu.edu Abstract AI alig | Conclusions: If we are to make good progress on the normative side of AI alignment, we must consider all levels: Individual, Organizational, National, and Global,"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2301.03740
 - **DOI:** https://doi.org/10.48550/arXiv.2301.03740

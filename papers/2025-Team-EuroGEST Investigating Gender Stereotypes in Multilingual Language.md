@@ -13,7 +13,7 @@ authors: "UTTER Project Team"
 url: "https://arxiv.org/abs/2506.03867"
 external_pdf: "https://arxiv.org/pdf/2506.03867.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.pdf]]"
 publication: "arXiv / Hugging Face"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

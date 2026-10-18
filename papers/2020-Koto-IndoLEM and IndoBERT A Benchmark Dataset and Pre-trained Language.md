@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2011.00677"
 external_pdf: "https://arxiv.org/pdf/2011.00677.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
 publication: "arXiv / ACL Anthology (COLING 2020)"
 CONF-CC: "COLING 2020"
 DATE_ADDED: 20260213

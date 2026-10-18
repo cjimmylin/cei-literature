@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2104.08726v2.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"

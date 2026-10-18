@@ -44,7 +44,7 @@ newtags: "Arabic, Islam"
 tags: 
 abstract: "Motivated by the resurgence of the machine reading comprehension (MRC) research, we have organized the first Qur’an Question Answering shared task,“Qur’an QA 2022”. The task in its first year aims to promote state-of-the-art research on Arabic QA in general and MRC in particular on the Holy Qur’an, which constitutes a rich and fertile source of knowledge for Muslim and non-Muslim inquisitors and knowledge-seekers."
 pdf_extract: "PDF Extracts/2022/2022-Malhas-Qur'an QA 2022.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Malhas-Qur'an QA 2022.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Malhas-Qur'an QA 2022.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "AraBERT, AraELECTRA, BERT, CAMeLBERT"

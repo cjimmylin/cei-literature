@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2510.13430.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Arabic
 cultures_nationalities_list: Arabic

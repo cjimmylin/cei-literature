@@ -43,7 +43,7 @@ moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.pdf]]"
 abstract: "We introduce ÌròyìnSpeech, a new corpus influenced by the desire to increase the amount of high quality, contemporary Yorùbá speech data, which can be used for both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) tasks. We curated about 23 000 text sentences from news and creative writing domains with the open license CC-BY-4.0. To encourage a participatory approach to data creation, we provide 5 000 curated sentences to the Mozilla Common Voice platform to crowd-source the..."
 CONF-CC: N/A
 DATE_ADDED: 20260208
@@ -82,7 +82,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2024.lrec-main.812/
 

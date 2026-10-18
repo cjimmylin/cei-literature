@@ -13,7 +13,7 @@ authors: "Park, Jeongwoo; Liscio, Enrico; Pradeep K. Murukannaiah"
 doi: 10.48550/arXiv.2401.17228
 url: "http://arxiv.org/abs/2401.17228"
 pdf_extract: "PDF Extracts/2024/2024-Park-Morality is Non-Binary.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Park-Morality is Non-Binary.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Park-Morality is Non-Binary.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.17228.pdf"
 publication: Findings
 CONF-CC: N/A
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Park-Morality is Non-Binary.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Park-Morality is Non-Binary.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2401.17228
 - **DOI:** https://doi.org/10.48550/arXiv.2401.17228

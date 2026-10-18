@@ -49,7 +49,7 @@ significance: "Moves evaluation from static retrieval to dynamic agentic behavio
 pdf_extract: "PDF Extracts/2025/2025-Xi-InfoDeepSeek.md"
 abstract: "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by introducing autonomous LLM agents into the information seeking process. However, existing benchmarks fall short in evaluating such systems, as they are confined to a static retrieval environment with a fixed, limited corpus and simple queries that fail to elicit agentic behavior."
 paper_summary: "Abstract: Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by intr | Overview: InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation Yunjia Xi1, Jianghao Lin1∗, Menghui Zhu2, Yongzhao Xiao1, Zhuoying Ou1, Jiaqi Liu1, Tong Wan1, Bo Chen2, Weiwe | Key Findings: w/ Golden Doc Set Dynamic Evaluation w/o Golden Doc Set 🎯 Answer Accuracy 📦 Info. Quality by NDCG & Recall ✂️ Rubost & Compact 🎯 Answer Accuracy ⏱️ In"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xi-InfoDeepSeek.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Xi-InfoDeepSeek.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Claude-3, DeepSeek, Gemini, Llama-3, Qwen"
 DATA_URL: "https://infodeepseek.github.io/"
@@ -94,7 +94,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Xi-InfoDeepSeek.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Xi-InfoDeepSeek.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.15872
 - **DOI:** https://doi.org/10.48550/arXiv.2505.15872

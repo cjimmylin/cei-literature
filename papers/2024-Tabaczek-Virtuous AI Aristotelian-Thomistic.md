@@ -11,7 +11,7 @@ authors: "Tabaczek; Mariusz"
 doi: 10.35765/forphil.2024.2902.08
 url: "https://forumphilosophicum.ignatianum.edu.pl/7559-2902-08.html"
 pdf_extract: "PDF Extracts/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2304.00906.pdf"
 publication: "arXiv / NoDaLiDa 2023"
 CONF-CC: "NoDaLiDa 2023"
 pdf_extract: "PDF Extracts/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

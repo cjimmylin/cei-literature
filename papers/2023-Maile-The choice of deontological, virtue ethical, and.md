@@ -51,7 +51,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Maile-The choice of deontological, virtue ethical, and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Maile-The choice of deontological, virtue ethical, and.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 100
 virtue_ethics: 100

@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.md"
 abstract: "Being a complex subject of major importance in AI Safety research, value alignment has been studied from various perspectives in the last years. However, no ﬁnal consensus on the design of ethical utility functions facilitating AI value alignment has been achieved yet. Given the urgency to identify systematic solutions, we postulate that it might be useful to start with the simple fact that for the utility function of an AI not to violate human ethical intuitions, it trivially has to be a model..."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf|Open PDF]]
 
 - **URL:** https://arxiv.org/abs/1907.00430
 - **DOI:** https://doi.org/10.48550/arXiv.1907.00430

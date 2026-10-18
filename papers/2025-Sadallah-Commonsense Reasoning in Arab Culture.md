@@ -15,7 +15,7 @@ url: "https://arxiv.org/abs/2502.12788"
 external_pdf: "https://arxiv.org/pdf/2502.12788.pdf"
 publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sadallah-Commonsense Reasoning in Arab Culture.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Sadallah-Commonsense Reasoning in Arab Culture.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sadallah-Commonsense Reasoning in Arab Culture.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Arabic

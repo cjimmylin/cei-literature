@@ -14,7 +14,7 @@ url: "https://github.com/ptaszynski/cyberbullying-Polish"
 publication: "PolEval 2019 Workshop"
 CONF-CC: "Workshop (2019)"
 pdf_extract: "PDF Extracts/2019/2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2019/2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.pdf]]"
 external_pdf: "http://poleval.pl/files/poleval2019.pdf"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A

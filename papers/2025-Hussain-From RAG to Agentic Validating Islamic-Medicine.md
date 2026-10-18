@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15911"
 external_pdf: "https://arxiv.org/pdf/2506.15911.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.pdf]]"
 publication: "Muslims in Machine Learning Workshop at ICML 2025 / arXiv"
 CONF-CC: "ICML 2025 Workshop"
 DATE_ADDED: 20260213

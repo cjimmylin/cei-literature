@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2412.13169"
 external_pdf: "https://arxiv.org/pdf/2412.13169.pdf"
 publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: German

@@ -14,7 +14,7 @@ doi: 10.1162/tacl_a_00682
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00682/124256/CreoleVal-Multilingual-Multitask-Benchmarks-for"
 publication: "TACL (Transactions of the ACL, 2024)"
 CONF-CC: "TACL 2024"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: N/A

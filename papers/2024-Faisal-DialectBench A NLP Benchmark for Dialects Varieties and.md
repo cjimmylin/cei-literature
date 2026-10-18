@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2403.11009.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

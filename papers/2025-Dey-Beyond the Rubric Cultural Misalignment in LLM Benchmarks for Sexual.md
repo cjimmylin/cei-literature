@@ -14,7 +14,7 @@ url: "https://aclanthology.org/2025.eval4nlp-1.11/"
 external_pdf: "https://arxiv.org/pdf/2511.17554.pdf"
 publication: "Eval4NLP @ ACL 2025"
 CONF-CC: "ACL 2025"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Indian, Western"

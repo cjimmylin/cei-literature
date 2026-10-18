@@ -46,7 +46,7 @@ significance: "Addresses the limitations of rule-based ethics by focusing on cha
 abstract: "As the broad scale adoption of Artificial Intelligence (AI) and deep learning systems continues to advance, it is more crucial than ever to understand and implement robust ethical frameworks to guide the usage, development, and societal conceptualisation of these technologies. In this paper, we examine the comparative benefits of the Christian virtue ethics tradition towards the proper deployment of AI and its interaction with related brain-computer interface technology. Furthermore, we propose"
 external_pdf: "https://journal.iscast.org/wp-content/uploads/2025/07/CPOSAT-Vol3-SpecialEdition.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rusnak-EudAImonia.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rusnak-EudAImonia.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Rusnak-EudAImonia.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA

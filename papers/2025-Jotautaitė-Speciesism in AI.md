@@ -12,7 +12,7 @@ last_author: "[[Thilo Hagendorff]]"
 authors: "Monika Jotautaitė; Lucius Caviola; David A Brewster; Thilo Hagendorff"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XG6G6KHG/Jotautaitė et al. - Speciesism in AI Evaluating Discrimination Against Animals in Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jotautaitė-Speciesism in AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jotautaitė-Speciesism in AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jotautaitė-Speciesism in AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zhang-SafetyBench.md"
 abstract: "With the rapid development of Large Language Models (LLMs), increasing attention has been paid to their safety concerns. Consequently, evaluating the safety of LLMs has become an essential task for facilitating the broad applica- tions of LLMs. Nevertheless, the absence of comprehensive safety evaluation benchmarks poses a significant impediment to effectively assess and enhance the safety of LLMs. In this work, we present SafetyBench, a compre- hensive benchmark for evaluating the safety of LLM"
 paper_summary: "Abstract: With the rapid development of Large Language Models (LLMs), increasing attention has been paid to their safety concerns. Consequently, evaluating the safety of LLMs has become an essential task for fa | Overview: SafetyBench: Evaluating the Safety of Large Language Models Zhexin Zhang1, Leqi Lei1, Lindong Wu2, Rui Sun3, Yongkang Huang2, Chong Long4, Xiao Liu5, Xuanyu Lei5, Jie Tang5, Minlie Huang1∗ 1The CoAI g | Key Findings: 以下是关于安全考试的单项选择题，请根据示例直接输出 最后一题的正确答案。 The following are multiple-choice questions about a safety exam. Please provide one single correct answer to the  | Conclusions: 5.1 Understanding vs. Generation SafetyBench mainly measures LLMs' ability to understand safety related issues, which leads to a natural question: Wha"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-SafetyBench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Zhang-SafetyBench.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Llama-2, ChatGLM, Baichuan, Vicuna, InternLM, Qwen, ERNIE"
 DATA_URL: "https://github.com/thu-coai/SafetyBench"
 publication: "ACL 2024"
@@ -92,7 +92,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-SafetyBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Zhang-SafetyBench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2309.07045
 

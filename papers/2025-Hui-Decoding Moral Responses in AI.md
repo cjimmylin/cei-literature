@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Hui-Decoding Moral Responses in AI.md"
 abstract: "Despite the proliferation of powerful large language models (LLMs), there remains a need for systematic, quantitative comparisons of their responses to moral dilemmas. This study builds on advances in AI ethics by systematically comparing the moral response patterns of seven LLMs, including GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude 3.7 Sonnet, Grok 3, and Gemini 2.5 Pro. Each LLM was presented with a series of moral dilemmas, both personal and impersonal, under three conditions: no rule, a deontolo..."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Claude"
 DATA_URL: NA
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf|Open PDF]]
 
 - **URL:** https://www.sciencedirect.com/science/article/pii/S2451958825002696
 - **DOI:** https://doi.org/10.1016/j.chbr.2025.100854

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2305.13989"
 external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
 publication: "WebSearch: MasakhaPOS African languages part-of-speech benchmark"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

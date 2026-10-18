@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2506.05388.pdf"
 publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
 pdf_extract: "PDF Extracts/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

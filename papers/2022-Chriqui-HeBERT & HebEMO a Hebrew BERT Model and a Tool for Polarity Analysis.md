@@ -14,7 +14,7 @@ doi: 10.1287/ijds.2022.0016
 url: "https://arxiv.org/abs/2102.01909"
 external_pdf: "https://arxiv.org/pdf/2102.01909.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.pdf]]"
 publication: "arXiv / INFORMS Journal on Data Science"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

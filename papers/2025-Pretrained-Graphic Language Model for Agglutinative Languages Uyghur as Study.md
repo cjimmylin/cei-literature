@@ -16,7 +16,7 @@ external_pdf: "https://page-one.springer.com/pdf/preview/10.1007/978-3-642-41491
 publication: Springer
 CONF-CC: "Lecture notes in computer science 2025"
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

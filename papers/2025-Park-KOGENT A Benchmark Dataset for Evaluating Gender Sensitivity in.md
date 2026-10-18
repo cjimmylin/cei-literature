@@ -16,7 +16,7 @@ external_pdf: "https://www.nature.com/articles/s41597-025-06344-3_reference.pdf"
 publication: "Nature Scientific Data 2025"
 CONF-CC: "Nature Scientific Data"
 pdf_extract: "PDF Extracts/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Korean
 cultures_nationalities_list: Korean

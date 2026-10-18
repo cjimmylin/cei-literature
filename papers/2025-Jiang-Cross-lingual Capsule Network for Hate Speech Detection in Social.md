@@ -17,7 +17,7 @@ external_pdf: "https://arxiv.org/pdf/2108.03089"
 publication: ACM
 CONF-CC: "ACM Conference on Hypertext & Social Media"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

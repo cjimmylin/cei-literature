@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Rystrøm-Apolitical Intelligence.md"
 abstract: "As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spectrum that the models are biased and lack neutrality. However, the question of what neutrality is and whether it is desirable remains underexplored. In this paper, I examine neutrality through an audit of Delphi, a large language model designed for crowdsourced ethics."
 paper_summary: "Abstract: As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spec- trum that the mo | Overview: Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US Jonathan H. Rystrøm Oxford Internet Institute Oxford, UK Abstract As generative language models are dep | Methodology: and training data for Delphi [43], doing a code audit would be infeasible given the complexity of the model [73]. Delphi has 11 billion non-linear par | Conclusions: 7.1 Key Findings H1 As shown in fig. 1, I found no relation between entropy and controversy. Most of Delphi's responses had low entropy for both quest"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Rystrøm-Apolitical Intelligence.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Rystrøm-Apolitical Intelligence.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Rystrøm-Apolitical Intelligence.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Rystrøm-Apolitical Intelligence.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.13000
 - **DOI:** https://doi.org/10.48550/arXiv.2306.13000

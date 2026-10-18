@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.md"
 abstract: "The rapid development and deployment of Generative AI in social settings raise important questions about how to optimally personalize them for users while maintaining accuracy and realism. Based on a Facebook public post-comment dataset, this study evaluates the ability of Llama 3.0 (70B) to predict the semantic tones across different combinations of a commenter’s and poster’s gender, age, and friendship closeness and to replicate these differences in LLM-generated comments."
 paper_summary: "Abstract: The rapid development and deployment of Generative AI in social settings raise important questions about how to op- timally personalize them for users while maintaining accu- racy and realism. Based o | Overview: Examining the Role of Relationship Alignment in Large Language Models Kristen M. Altenburger∗1, Hongda Jiang*1, Robert E. Kraut2, Yi-Chia Wang3, Jane Dwivedi-Yu 1 1 Meta 2 Carnegie Mellon University 3 | Methodology: 1, δzy is solely dependent on between-group differences. In contrast, bzy incorporates both within-group differences and within-group variability, fac | Conclusions: Generating LLM comments without social context Surprisingly, we found that prompting a LLM with only the initial post produces generated comments that"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: Llama-3
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.01708
 - **DOI:** https://doi.org/10.48550/arXiv.2410.01708

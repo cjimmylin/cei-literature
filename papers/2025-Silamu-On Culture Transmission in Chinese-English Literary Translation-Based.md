@@ -15,7 +15,7 @@ external_pdf: "https://www.scirp.org/pdf/JSS_2019081614481189.pdf"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

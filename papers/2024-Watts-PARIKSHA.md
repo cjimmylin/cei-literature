@@ -50,7 +50,7 @@ significance: "Demonstrates the limits of 'LLM-as-a-judge' for low-resource lang
 pdf_extract: "PDF Extracts/2024/2024-Watts-PARIKSHA.md"
 abstract: "Evaluation of multilingual Large Language Models (LLMs) is challenging due to a variety of factors – the lack of benchmarks with sufficient linguistic diversity, contamination of popular benchmarks into LLM pre-training data and the lack of local, cultural nuances in translated benchmarks. In this work, we study human and LLM-based evaluation in a multilingual, multi-cultural setting. We evaluate"
 paper_summary: "Abstract: Evaluation of multilingual Large Language Models (LLMs) is challenging due to a vari- ety of factors – the lack of benchmarks with sufficient linguistic diversity, contamination of popular benchmarks  | Overview: PARIKSHA: Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data Ishaan Watts* Varun Gumma♠ Aditya Yadavalli♢ Vivek Seshadri♠♢ Manohar Swaminathan♠ Sunayana | Methodology: Our evaluation setup is summarized in Figure 1. | Key Findings: focus on English. Recent works have shown that LLMs perform worse on non-English languages, particularly those written in scripts other than the Latin | Conclusions: RQ1. Are Indic LLMs able to compete with Pro- prietary models in respective languages? From our evaluations, we find that smaller Indic models perform"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Watts-PARIKSHA.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Watts-PARIKSHA.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-4, Llama-3, Llama-2, Mistral, Gemma, Aya"
 DATA_URL: "https://aka.ms/pariksha"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Watts-PARIKSHA.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Watts-PARIKSHA.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.15053
 - **DOI:** https://doi.org/10.48550/arXiv.2406.15053

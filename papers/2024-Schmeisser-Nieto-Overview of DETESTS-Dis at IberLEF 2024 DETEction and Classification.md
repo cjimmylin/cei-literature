@@ -16,7 +16,7 @@ external_pdf: "https://core.ac.uk/download/651124934.pdf"
 publication: "IberLEF / SEPLN 2024"
 CONF-CC: "IberLEF 2024"
 pdf_extract: "PDF Extracts/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Spanish
 cultures_nationalities_list: Spanish

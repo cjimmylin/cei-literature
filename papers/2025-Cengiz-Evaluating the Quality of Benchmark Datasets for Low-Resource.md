@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2504.09714"
 external_pdf: "https://arxiv.org/pdf/2504.09714.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: N/A

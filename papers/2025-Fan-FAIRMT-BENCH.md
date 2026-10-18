@@ -49,7 +49,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Gemma, Gemma-2, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/FanZT6/FairMT-bench"
 pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 100
 virtue_ethics: 0

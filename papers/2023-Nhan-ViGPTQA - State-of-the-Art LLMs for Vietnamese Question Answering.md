@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2023.emnlp-industry.70.pdf"
 publication: "ACL Anthology / EMNLP 2023 Industry"
 CONF-CC: "EMNLP 2023"
 pdf_extract: "PDF Extracts/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Vietnamese
 cultures_nationalities_list: Vietnamese

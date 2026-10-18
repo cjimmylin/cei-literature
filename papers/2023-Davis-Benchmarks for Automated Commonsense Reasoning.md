@@ -48,7 +48,7 @@ newtags:
 pdf_extract: "PDF Extracts/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.md"
 abstract: "More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂawed and many aspects of common sense remain untested. Consequently, we do not currently have any reliable way of measuring to what extent existing AI systems have achieved these abilities. This paper surveys the development and uses of AI commonsense benchmarks."
 paper_summary: "Abstract: More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂ | Overview: Benchmarks for Automated Commonsense Reasoning: A Survey Ernest Davis Dept. of Computer Science New York University New York, NY 10012 davise@cs.nyu.edu February 24, 2023 Abstract More than one hundre"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -93,7 +93,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2302.04752
 - **DOI:** https://doi.org/10.48550/arXiv.2302.04752

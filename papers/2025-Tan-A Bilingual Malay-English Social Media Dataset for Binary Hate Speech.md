@@ -16,7 +16,7 @@ external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557484/pdf/main.pdf"
 publication: "ScienceDirect (Data in Brief)"
 CONF-CC: "Data in Brief"
 pdf_extract: "PDF Extracts/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indonesian
 cultures_nationalities_list: Indonesian

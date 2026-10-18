@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2304.14599"
 external_pdf: "https://arxiv.org/pdf/2304.14599.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.pdf]]"
 publication: "arXiv preprint (Indiana University ISCA)"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

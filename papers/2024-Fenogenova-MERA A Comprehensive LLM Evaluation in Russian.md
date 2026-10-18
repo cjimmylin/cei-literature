@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "FRED-T5, Llama-2, Mistral, ruGPT-3, ruGPT-3.5"
 DATA_URL: "https://github.com/ai-forever/MERA"
 pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
 CONFERENCE: "ACL 2024"
 ethics_overall: 0
 virtue_ethics: 0

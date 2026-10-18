@@ -44,7 +44,7 @@ newtags: Indian
 tags: 
 abstract: "In this paper, we present the report and ﬁndings of the Shared Task on Aggression and Gendered Aggression Identiﬁcation organised as part of the Second Workshop on Trolling, Aggression and Cyberbullying (TRAC - 2) at LREC 2020. The task consisted of two sub-tasks - aggression identiﬁcation (sub-task A) and gendered aggression identiﬁcation (sub-task B) - in three languages - Bengali, Hindi and English."
 pdf_extract: "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA

@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15239"
 external_pdf: "https://arxiv.org/pdf/2508.15239.pdf"
 pdf_extract: "PDF Extracts/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.pdf]]"
 publication: "EMNLP 2025 / HuggingFace"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

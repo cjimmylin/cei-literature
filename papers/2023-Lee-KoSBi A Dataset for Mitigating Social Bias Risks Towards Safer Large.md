@@ -14,7 +14,7 @@ doi: 10.18653/v1/2023.acl-industry.21
 url: "https://arxiv.org/abs/2305.17701"
 external_pdf: "https://arxiv.org/pdf/2305.17701.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
 publication: "arXiv / ACL 2023 Industry Track"
 CONF-CC: "ACL 2023"
 DATE_ADDED: 20260213

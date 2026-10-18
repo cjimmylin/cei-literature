@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.16804"
 external_pdf: "https://arxiv.org/pdf/2509.16804.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

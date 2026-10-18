@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2005.04322"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Maatta-LinCE Benchmark.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maatta-LinCE Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Maatta-LinCE Benchmark.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, Arabic, Spanish, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, Arabic, Spanish, Multicultural/Cross-cultural"

@@ -47,7 +47,7 @@ significance: "Addresses the scarcity of implicit toxicity data by using LMs to 
 tags: 
 abstract: "Toxic language detection systems often falsely ﬂag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create TOXIGEN, a new large-scale and machinegenerated dataset of 274k toxic and benign statements about 13 minority groups."
 pdf_extract: "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]"
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, HateBERT, RoBERTa"

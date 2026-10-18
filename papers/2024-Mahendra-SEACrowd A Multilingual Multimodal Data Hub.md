@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.10118"
 external_pdf: "https://arxiv.org/pdf/2406.10118.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.pdf]]"
 publication: "EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260213

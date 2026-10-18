@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17880"
 external_pdf: "https://arxiv.org/pdf/2601.17880.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.pdf]]"
 publication: "NeurIPS 2025 Datasets and Benchmarks Track / arXiv"
 CONF-CC: "NeurIPS 2025 D&B"
 DATE_ADDED: 20260213

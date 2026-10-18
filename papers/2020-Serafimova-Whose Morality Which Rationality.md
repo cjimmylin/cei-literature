@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality.md"
 abstract: "This paper examines three different prospects for moral machines: deontological, utilitarian, and virtue ethical machines. By comparing and contrasting those theories, it aims to reveal how they face similar difficulties when relating the process of computation to that of estimation. The paper examines problems with the computation of moral feelings and moral motivation faced by a Kantian machine and an act utilitarian machine."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -98,7 +98,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf|Open PDF]]
 
 - **Nature Article:** https://www.nature.com/articles/s41599-020-00614-8
 

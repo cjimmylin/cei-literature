@@ -50,7 +50,7 @@ significance: "Enhances explainable bias detection by providing 'rationale' anno
 pdf_extract: "PDF Extracts/2025/2025-Solaiman-BiasLab.md"
 abstract: "We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political events and source biases. Each arti- cle is labeled by crowdworkers along two inde- pendent scales, assessing sentiment toward the Democratic and Republican parties, and enriched with rationale indicators adapted from media liter- acy guidelines. The annotation pipeline incorpo- rates targeted worker qu"
 paper_summary: "Abstract: We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political even | Overview: BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Human Annotations and Rationale Indicators KMA Solaiman 1 Abstract We present BiasLab, a dataset of 300 politi- cal news articles an | Methodology: for subjective annotation tasks, including bias detection. Budak et al. (11) demonstrated the effectiveness of crowd workers in quantifying media bias | Conclusions: BiasLab introduces a new resource for explainable politi- cal bias detection, pairing dual-axis sentiment labels with rationale indicators that surfac"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Solaiman-BiasLab.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Solaiman-BiasLab.pdf]]"
 LLM_assessed: GPT-4o
 DATA_URL: "https://github.com/ksolaiman/PoliticalBiasCorpus"
 DATE_ADDED: 20260207
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Solaiman-BiasLab.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Solaiman-BiasLab.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.16081
 - **DOI:** https://doi.org/10.48550/arXiv.2505.16081

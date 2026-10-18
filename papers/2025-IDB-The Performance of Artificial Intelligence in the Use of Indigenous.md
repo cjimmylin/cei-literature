@@ -14,7 +14,7 @@ url: "https://publications.iadb.org/en/performance-artificial-intelligence-use-i
 external_pdf: "https://core.ac.uk/download/671663544.pdf"
 publication: "IDB Publication"
 CONF-CC: N/A
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American"

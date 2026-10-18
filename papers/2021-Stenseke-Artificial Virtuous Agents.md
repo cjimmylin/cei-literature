@@ -11,7 +11,7 @@ authors: "Stenseke; Jakob"
 doi: 10.1007/s00146-021-01325-7
 url: "https://link.springer.com/article/10.1007/s00146-021-01325-7"
 pdf_extract: "PDF Extracts/2021/2021-Stenseke-Artificial Virtuous Agents.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Stenseke-Artificial Virtuous Agents.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Stenseke-Artificial Virtuous Agents.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

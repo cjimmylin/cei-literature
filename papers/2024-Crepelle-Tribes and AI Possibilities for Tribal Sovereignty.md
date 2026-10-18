@@ -13,7 +13,7 @@ authors: "Adam Crepelle"
 url: "https://scholarship.law.duke.edu/dltr/vol25/iss1/1/"
 publication: "Duke Law & Technology Review"
 CONF-CC: N/A
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Crepelle-Tribes and AI Possibilities for Tribal Sovereignty.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Crepelle-Tribes and AI Possibilities for Tribal Sovereignty.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Crepelle-Tribes and AI Possibilities for Tribal Sovereignty.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: American

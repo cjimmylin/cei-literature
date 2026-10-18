@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2103.14972"
 external_pdf: "https://arxiv.org/pdf/2103.14972.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

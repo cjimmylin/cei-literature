@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.21315"
 external_pdf: "https://arxiv.org/pdf/2505.21315.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Klakow-Charting the Landscape of African NLP.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Klakow-Charting the Landscape of African NLP.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Klakow-Charting the Landscape of African NLP.pdf]]"
 publication: "WebSearch: Charting the Landscape African NLP mapping progress"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

@@ -61,7 +61,7 @@ author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, Mixtral, Qwen, o1, o3-mini"
 DATA_URL: "https://hf.co/datasets/kellycyy/AIRiskDilemmas"
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.14633
 - **DOI:** https://doi.org/10.48550/arXiv.2505.14633

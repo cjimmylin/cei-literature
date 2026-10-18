@@ -13,7 +13,7 @@ authors: "Schramowski, Patrick; Turan, Cigdem; Jentzsch, Sophie; Rothkopf, Const
 doi: 10.3389/frai.2020.00036
 url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
 pdf_extract: "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2020.00036/pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
@@ -85,7 +85,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf|Open PDF]]
 
 - **URL:** https://www.frontiersin.org/article/10.3389/frai.2020.00036/full
 - **DOI:** https://doi.org/10.3389/frai.2020.00036

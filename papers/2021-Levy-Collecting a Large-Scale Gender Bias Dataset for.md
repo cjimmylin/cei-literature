@@ -45,7 +45,7 @@ key_contribution: "Collected a large-scale (108k) dataset of *real-world* (not s
 significance: "Demonstrates that synthetic bias benchmarks (like WinoBias) underestimate the problem; models fail even harder on messy, real-world stereotypes (e.g., 'male dancers')."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.pdf]]"
 abstract: "Recent works have found evidence of gender bias in models of machine translation and coreference resolution using mostly synthetic diagnostic datasets. While these quantify bias in a controlled experiment, they often do so on a small scale and consist mostly of artiﬁcial, out-of-distribution sentences. In this work, we ﬁnd grammatical patterns indicating stereotypical and non-stereotypical gender-role assignments (e.g."
 CONF-CC: N/A
 DATE_ADDED: 20260208
@@ -84,7 +84,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.findings-emnlp.211/
 

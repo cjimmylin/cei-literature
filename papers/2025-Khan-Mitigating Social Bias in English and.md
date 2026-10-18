@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.09854"
 external_pdf: "https://arxiv.org/pdf/2512.09854.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Khan-Mitigating Social Bias in English and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Khan-Mitigating Social Bias in English and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Khan-Mitigating Social Bias in English and.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

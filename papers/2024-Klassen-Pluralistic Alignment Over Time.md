@@ -13,7 +13,7 @@ authors: "Toryn Q. Klassen; Parand A. Alamdari; Sheila A. McIlraith"
 url: "https://arxiv.org/abs/2411.10654"
 external_pdf: "https://arxiv.org/pdf/2411.10654.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Klassen-Pluralistic Alignment Over Time.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Klassen-Pluralistic Alignment Over Time.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Klassen-Pluralistic Alignment Over Time.pdf]]"
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207

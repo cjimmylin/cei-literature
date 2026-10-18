@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2309.13173"
 external_pdf: "https://arxiv.org/pdf/2309.13173.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
 CONF-CC: "LREC-COLING 2024"
 DATE_ADDED: 20260213

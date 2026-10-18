@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2504.07100.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: American
 cultures_nationalities_list: American

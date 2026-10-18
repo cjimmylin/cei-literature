@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03000"
 external_pdf: "https://arxiv.org/pdf/2407.03000.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
 publication: EMNLP
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207

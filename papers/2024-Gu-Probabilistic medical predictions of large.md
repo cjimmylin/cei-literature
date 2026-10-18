@@ -50,7 +50,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2, Yi-1.5"
 DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
 pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
 CONFERENCE: Journal
 ethics_overall: 30
 virtue_ethics: 0

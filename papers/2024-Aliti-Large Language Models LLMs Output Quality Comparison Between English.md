@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2307.05782v2.pdf"
 publication: ResearchGate
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

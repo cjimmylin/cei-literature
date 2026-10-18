@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2508.15483"
 external_pdf: "https://arxiv.org/pdf/2508.15483.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Hebrew/Israeli

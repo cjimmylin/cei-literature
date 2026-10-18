@@ -13,7 +13,7 @@ authors: "Chengbing Wang; Wuqiang Zheng; Yang Zhang; Fengbin Zhu; Junyi Cheng; Y
 url: "https://arxiv.org/abs/2601.10532"
 external_pdf: "https://arxiv.org/pdf/2601.10532.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

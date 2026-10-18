@@ -50,7 +50,7 @@ significance: "A case study of practical AI safety implementation in a real-worl
 pdf_extract: "PDF Extracts/2023/2023-Lu-The Chai Platform's AI Safety Framework.md"
 abstract: "Chai empowers users to create and interact with customized chatbots, offering unique and engaging experiences. Despite the exciting prospects, the work recognizes the inherent challenges of a commitment to modern safety standards. Therefore, this paper presents the integrated AI safety principles into Chai to prioritize user safety, data protection, and ethical technology use. The paper specifically explores the multidimensional domain of AI safety research, demonstrating its application in..."
 paper_summary: "Abstract: Chai empowers users to create and interact with customized chatbots, offering unique and engaging experiences. Despite the exciting prospects, the work recognizes the inherent challenges of a commitme | Overview: The Chai Platform's AI Safety Framework Xiaoding Lu Aleksey Korshuk Zongyi Liu William Beauchamp Chai Research Abstract Chai empowers users to create and interact with customized chatbots, offering un"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.02979
 - **DOI:** https://doi.org/10.48550/arXiv.2306.02979

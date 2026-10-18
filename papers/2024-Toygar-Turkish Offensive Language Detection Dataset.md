@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
 external_pdf: "https://www.mdpi.com/2079-9292/14/24/4919/pdf"
 pdf_extract: "PDF Extracts/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_403 (HTTP 403)"

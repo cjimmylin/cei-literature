@@ -14,7 +14,7 @@ publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2402.13231.pdf"
 pdf_extract: "PDF Extracts/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Arabic, American"
 cultures_nationalities_list: "Arabic, American"

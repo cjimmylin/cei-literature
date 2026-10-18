@@ -14,7 +14,7 @@ publication: "EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 external_pdf: "https://aclanthology.org/2024.emnlp-main.1022.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Team-GuardBench.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Team-GuardBench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Team-GuardBench.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "French, German, Italian, Spanish"
 cultures_nationalities_list: "French, German, Italian, Spanish"

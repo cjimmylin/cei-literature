@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.naacl-long.507/"
 external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
 publication: "WebSearch: MILU benchmark"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

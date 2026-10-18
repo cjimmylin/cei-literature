@@ -48,7 +48,7 @@ newtags:
 pdf_extract: "PDF Extracts/2024/2024-Luo-HalluDial.md"
 abstract: "Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applications. However, LLMs are prone to hallucination, generating content that either conflicts with established knowledge or is unfaithful to the original sources. Existing hallucination benchmarks primarily focus on sentence- or passage-level hallucination detection, neglecting dialogue-level..."
 paper_summary: "Abstract: Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applic | Overview: HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Art | Key Findings: Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Artificial Intelligence 2National Key Labo | Conclusions: In this paper, we introduced HalluDial, the first large-scale benchmark for dialogue-level halluci- nation evaluation, addressing critical gaps in exi"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Luo-HalluDial.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Luo-HalluDial.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Vicuna"
 DATA_URL: "https://github.com/FlagOpen/HalluDial"
@@ -93,7 +93,7 @@ data_metrics: "146,856 samples"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Luo-HalluDial.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Luo-HalluDial.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.07070
 - **DOI:** https://doi.org/10.48550/arXiv.2406.07070

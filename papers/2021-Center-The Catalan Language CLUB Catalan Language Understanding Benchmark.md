@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2112.01894.pdf"
 publication: arXiv
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

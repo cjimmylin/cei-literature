@@ -11,7 +11,7 @@ authors: "Han; Hyemin"
 doi: N/A
 url: "https://www.researchgate.net/publication/380001142"
 pdf_extract: "PDF Extracts/2024/2024-Han-Moral Exemplars in AI Education.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Han-Moral Exemplars in AI Education.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Han-Moral Exemplars in AI Education.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

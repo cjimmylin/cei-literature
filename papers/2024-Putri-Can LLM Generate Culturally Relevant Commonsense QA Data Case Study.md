@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2402.17302"
 external_pdf: "https://arxiv.org/pdf/2402.17302.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2024)"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260213

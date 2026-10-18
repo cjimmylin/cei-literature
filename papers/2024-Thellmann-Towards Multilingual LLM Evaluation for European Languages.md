@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2410.08928"
 external_pdf: "https://arxiv.org/pdf/2410.08928.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

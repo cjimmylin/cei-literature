@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08785"
 external_pdf: "https://arxiv.org/pdf/2601.08785.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Chen-PoliBias Parliamentary Voting Records.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: Preprint
 DATE_ADDED: 20260207

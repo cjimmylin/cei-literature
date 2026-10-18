@@ -16,7 +16,7 @@ external_pdf: "https://aclanthology.org/2022.bigscience-1.3.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ....md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ....pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

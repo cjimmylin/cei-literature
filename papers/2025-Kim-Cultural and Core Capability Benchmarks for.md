@@ -48,7 +48,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, Gemini, GPT-3.5, GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
 CONFERENCE: "COLING 2025"
 ethics_overall: 0
 virtue_ethics: 0

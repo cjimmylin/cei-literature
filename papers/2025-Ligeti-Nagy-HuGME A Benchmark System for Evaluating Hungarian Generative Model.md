@@ -13,7 +13,7 @@ authors: "Noemi Ligeti-Nagy; Gabor Madarasz; Flora Foldesi; Mariann Lengyel; Mat
 url: "https://aclanthology.org/2025.gem-1.32.pdf"
 publication: "ACL Anthology"
 CONF-CC: N/A
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: N/A

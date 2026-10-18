@@ -16,7 +16,7 @@ external_pdf: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

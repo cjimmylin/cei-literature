@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2509.11921"
 external_pdf: "https://arxiv.org/pdf/2509.11921.pdf"
 publication: "arXiv (WITHDRAWN)"
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tenzer-Designing LLMs for Cultural Sensitivity Evidence from.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Tenzer-Designing LLMs for Cultural Sensitivity Evidence from.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Tenzer-Designing LLMs for Cultural Sensitivity Evidence from.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Japanese, Western, Multicultural/Cross-cultural"

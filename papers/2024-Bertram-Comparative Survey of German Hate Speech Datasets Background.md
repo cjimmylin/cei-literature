@@ -15,7 +15,7 @@ external_pdf: "https://ceur-ws.org/Vol-3630/LWDA2023-paper19.pdf"
 publication: ResearchGate
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: German
 cultures_nationalities_list: German

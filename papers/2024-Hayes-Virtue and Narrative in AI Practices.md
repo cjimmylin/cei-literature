@@ -11,7 +11,7 @@ authors: "Hayes, Paul; Fitzpatrick, Noel; Ferrández, José Manuel"
 doi: 10.1007/s43681-024-00472-z
 url: "https://link.springer.com/article/10.1007/s43681-024-00472-z"
 pdf_extract: "PDF Extracts/2024/2024-Hayes-Virtue and Narrative in AI Practices.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hayes-Virtue and Narrative in AI Practices.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Hayes-Virtue and Narrative in AI Practices.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

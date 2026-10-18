@@ -16,7 +16,7 @@ external_pdf: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d
 publication: Web
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

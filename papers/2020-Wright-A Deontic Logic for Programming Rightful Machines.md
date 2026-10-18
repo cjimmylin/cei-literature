@@ -14,7 +14,7 @@ doi: 10.1145/3375627.3375867
 url: "https://dl.acm.org/doi/10.1145/3375627.3375867"
 external_pdf: "https://philpapers.org/archive/WRIADL-2.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.pdf]]"
 publication: "AIES '20: AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2020"
 national_ethnic_cultural: N/A

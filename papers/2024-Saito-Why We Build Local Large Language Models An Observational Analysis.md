@@ -14,7 +14,7 @@ url: "https://arxiv.org/abs/2412.14471"
 external_pdf: "https://arxiv.org/pdf/2412.14471.pdf"
 publication: arXiv
 CONF-CC: Preprint
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Saito-Why We Build Local Large Language Models An Observational Analysis.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Saito-Why We Build Local Large Language Models An Observational Analysis.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Saito-Why We Build Local Large Language Models An Observational Analysis.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Japanese

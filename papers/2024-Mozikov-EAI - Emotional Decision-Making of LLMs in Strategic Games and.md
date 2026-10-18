@@ -15,7 +15,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 external_pdf: "https://openreview.net/pdf?id=Vov1mypRjw"
 pdf_extract: "PDF Extracts/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

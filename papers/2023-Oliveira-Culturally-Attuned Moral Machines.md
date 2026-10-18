@@ -49,7 +49,7 @@ significance: "A theoretical and practical step towards 'cultural attunement', s
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Oliveira-Culturally-Attuned Moral Machines.md"
 paper_summary: "Overview: Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning Nigini Oliveiraa, Jasmine Lia, Koosha Khalvatia, Rodolfo Cortes Barraganb, Kath | Methodology: using an experimental paradigm in which AI agents use IRL to learn different reward functions, which govern the agents' moral values, by observing the | Conclusions: Given the rapid strides being made in AI research today, a question of utmost importance is how AI systems can be im- bued with human values and moral"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf]]"
 abstract: "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, eth"
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2312.17479
 - **DOI:** https://doi.org/10.48550/arXiv.2312.17479

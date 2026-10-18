@@ -45,7 +45,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Li-Evaluating Object Hallucination in Large.md"
 abstract: "Inspired by the superior language abilities of large language models (LLM), large visionlanguage models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance on complex multimodal tasks. Despite the promising progress on LVLMs, we find that they suffer from object hallucinations, i.e., they tend to generate objects inconsistent with the target images in the descriptions."
 paper_summary: "Abstract: Inspired by the superior language abilities of large language models (LLM), large vision- language models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance  | Overview: Evaluating Object Hallucination in Large Vision-Language Models Yifan Li1,3∗, Yifan Du1,3∗, Kun Zhou2∗, Jinpeng Wang 4, Wayne Xin Zhao2,3† and Ji-Rong Wen1, 2,3 1Gaoling School of Artificial Intellige | Key Findings: Yes, there is a pear in the image. Is there a pear in the image? Adversarial settings POPE Yes, there is a knife in the image. Is there a knife in the | Conclusions: In this work, we conducted evaluation experiments on several LVLMs and examined how they suffer from the object hallucination issue. By investigat- in"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Li-Evaluating Object Hallucination in Large.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Li-Evaluating Object Hallucination in Large.pdf]]"
 CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -87,7 +87,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Li-Evaluating Object Hallucination in Large.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2023/2023-Li-Evaluating Object Hallucination in Large.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2305.10355
 

@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2411.05503.pdf"
 publication: Springer
 CONF-CC: "Lecture notes in computer science 2024"
 pdf_extract: "PDF Extracts/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A

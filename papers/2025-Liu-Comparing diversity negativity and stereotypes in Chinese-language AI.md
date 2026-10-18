@@ -16,7 +16,7 @@ external_pdf: "https://arxiv.org/pdf/2408.15696v4.pdf"
 publication: PubMed
 CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: Chinese

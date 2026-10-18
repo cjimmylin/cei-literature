@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2405.15453"
 external_pdf: "https://arxiv.org/pdf/2405.15453.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

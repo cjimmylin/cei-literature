@@ -15,7 +15,7 @@ url: "https://aclanthology.org/2025.naacl-long.77/"
 external_pdf: "https://arxiv.org/pdf/2402.14177.pdf"
 publication: "NAACL 2025"
 CONF-CC: "NAACL 2025"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Borenstein-Investigating Human Values in Online Communities.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Borenstein-Investigating Human Values in Online Communities.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Borenstein-Investigating Human Values in Online Communities.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: Multicultural/Cross-cultural

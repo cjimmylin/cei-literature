@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Aksoy-Whose Morality Do They Speak.md"
 abstract: "Large language models (LLMs) have become integral tools in diverse domains, yet their moral reasoning capabilities across cultural and linguistic contexts remain underexplored. This study investigates whether multilingual LLMs, such as GPT-3.5-Turbo, GPT-4o-mini, Llama 3.1, and MistralNeMo, reflect culturally specific moral values or impose dominant moral norms, particularly those rooted in English."
 paper_summary: "Abstract: Large language models (LLMs) have become integral tools in diverse domains, yet their moral reasoning capabilities across cultural and linguistic contexts remain underexplored. This study investigates | Overview: Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models Meltem Aksoy Research Center Trustworthy Data Science and Security of the University Alliance Ruhr, Faculty of In | Methodology: To evaluate the moral foundations of LLMs, four models were assessed in eight languages using the 36-item MFQ-2 questionnaire. Each item in MFQ- 2 is  | Key Findings: challenges the idea that multilingual LLMs impose English moral norms universally across other lan- guages. Instead, it suggests that the influence of | Conclusions: This study provided a comprehensive evaluation of the morality of multilingual LLMs by employing the MFQ-2 in eight different languages, to explore th"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aksoy-Whose Morality Do They Speak.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Aksoy-Whose Morality Do They Speak.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o mini, Llama-3, Mistral"
 DATA_URL: NA
@@ -95,7 +95,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Aksoy-Whose Morality Do They Speak.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Aksoy-Whose Morality Do They Speak.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2412.18863
 - **DOI:** https://doi.org/10.48550/arXiv.2412.18863

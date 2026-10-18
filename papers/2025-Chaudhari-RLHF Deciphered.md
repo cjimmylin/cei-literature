@@ -50,7 +50,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Chaudhari-RLHF Deciphered.md"
 abstract: "Large Language Models (LLMs) trained on extensive textual corpora have emerged as leading solutions for a broad array of Natural Language Processing (NLP) tasks. Despite their notable performance, these models are prone to certain limitations such as misunderstanding human instructions, generating potentially biased content, or factually incorrect (hallucinated) information. Hence, aligning LLMs with human expectations has become an active area of interest within the research community."
 paper_summary: 
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf|Open PDF]]
 
 - **URL:** https://dl.acm.org/doi/10.1145/3743127
 - **DOI:** https://doi.org/10.1145/3743127

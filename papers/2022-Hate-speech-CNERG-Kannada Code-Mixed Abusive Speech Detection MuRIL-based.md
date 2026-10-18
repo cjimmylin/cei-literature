@@ -15,7 +15,7 @@ external_pdf: "https://arxiv.org/pdf/2204.12543"
 publication: "WebSearch: Kannada hate speech HuggingFace"
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

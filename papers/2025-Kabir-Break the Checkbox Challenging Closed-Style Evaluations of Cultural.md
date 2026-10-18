@@ -13,7 +13,7 @@ authors: "Ariba Kabir; Abrar Anwar; Sophia Ananiadou"
 url: "https://arxiv.org/abs/2502.08045"
 external_pdf: "https://arxiv.org/pdf/2502.08045.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.pdf]]"
 publication: "arXiv / EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

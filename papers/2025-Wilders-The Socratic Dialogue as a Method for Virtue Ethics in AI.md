@@ -14,7 +14,7 @@ doi: N/A
 url: "https://aies-conference.com/2025/"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36748/38886/40823"
 pdf_extract: "PDF Extracts/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

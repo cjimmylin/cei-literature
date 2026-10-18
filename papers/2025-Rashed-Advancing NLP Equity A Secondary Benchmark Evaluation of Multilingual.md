@@ -16,7 +16,7 @@ external_pdf: "https://openreview.net/pdf?id=YlTVWukmJe"
 publication: OpenReview
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Latin American, Multicultural/Cross-cultural"

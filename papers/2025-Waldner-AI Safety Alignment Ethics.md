@@ -11,7 +11,7 @@ authors: "Waldner; Dylan"
 doi: N/A
 url: "https://arxiv.org/abs/2509.24065"
 pdf_extract: "PDF Extracts/2025/2025-Waldner-AI Safety Alignment Ethics.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Waldner-AI Safety Alignment Ethics.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Waldner-AI Safety Alignment Ethics.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

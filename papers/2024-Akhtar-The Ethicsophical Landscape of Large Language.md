@@ -12,7 +12,7 @@ last_author: "[[Shahnawaz]]"
 authors: "Akhtar; Shahnawaz"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethicsophical Landscape of Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

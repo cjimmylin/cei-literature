@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.862.pdf"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.862.pdf"
 pdf_extract: "PDF Extracts/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

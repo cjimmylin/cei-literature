@@ -11,7 +11,7 @@ authors: "Ohlhorst; Jakob"
 doi: 10.1007/s00146-025-02264-3
 url: "https://link.springer.com/article/10.1007/s00146-025-02264-3"
 pdf_extract: "PDF Extracts/2025/2025-Ohlhorst-Virtues for AI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ohlhorst-Virtues for AI.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Ohlhorst-Virtues for AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 

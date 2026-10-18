@@ -17,7 +17,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-023-09711-x.
 publication: "Springer / Language Resources and Evaluation"
 CONF-CC: "Language Resources and Evaluation"
 pdf_extract: "PDF Extracts/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Spanish
 cultures_nationalities_list: Spanish

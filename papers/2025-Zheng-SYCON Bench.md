@@ -47,7 +47,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Zheng-SYCON Bench.md"
 abstract: "Large Language Models (LLMs) are expected to provide helpful and harmless responses, yet they often exhibit sycophancy—conforming to user beliefs regardless of factual accuracy or ethical soundness. Prior research on sycophancy has primarily focused on single-turn factual correctness, overlooking the dynamics of real-world interactions. In this work, we introduce SYCON BENCH, a novel benchmark for evaluating sycophantic behavior in multiturn, free-form conversational settings."
 paper_summary: "Abstract: Large Language Models (LLMs) are expected to provide helpful and harmless responses, yet they often exhibit sycophancy—conforming to user beliefs regardless of factual accuracy or ethical soundness. P | Overview: Measuring Sycophancy of Language Models in Multi-turn Dialogues Jiseung Hong* 1 Grace Byun* 2 Seungone Kim1 Kai Shu2 Jinho D. Choi2 1Carnegie Mellon University {jiseungh, seungonk}@andrew.cmu.edu 2Emo | Methodology: Debate Scenario In Debate scenario, LLMs are expected to maintain their provided (initial) argu- ment and disagree with the user's counterargument. Ho | Key Findings: We use GPT-4o to conduct a qualitative evalua- tion of model responses across five conversational turns, as described in Section 3. Figure 8 shows the | Conclusions: In the Debate setting, the user's stance is explicit and model outputs are clearly po- larized (agree/disagree), making the Turn-of-Flip point easy to"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zheng-SYCON Bench.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Zheng-SYCON Bench.pdf]]"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemma-2, Llama-3, o3"
@@ -89,7 +89,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Zheng-SYCON Bench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Zheng-SYCON Bench.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.23840
 

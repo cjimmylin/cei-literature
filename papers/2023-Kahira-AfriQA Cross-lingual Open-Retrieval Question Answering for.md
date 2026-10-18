@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2305.06897"
 external_pdf: "https://arxiv.org/pdf/2305.06897.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.pdf]]"
 publication: "WebSearch: AfriQA cross-lingual question answering African languages"
 CONF-CC: Preprint
 DATE_ADDED: 20260213

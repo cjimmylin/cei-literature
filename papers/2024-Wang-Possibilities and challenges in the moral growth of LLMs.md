@@ -14,7 +14,7 @@ doi: 10.1007/s10676-024-09818-x
 tags: "Philosophy - AI Ethics"
 url: "https://doi.org/10.1007/s10676-024-09818-x"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.pdf]]"
 publication: "Ethics and Information Technology"
 CONF-CC: "Ethics and Information Technology"
 ethics_perspective: "Moral Development Theory"

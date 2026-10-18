@@ -13,7 +13,7 @@ authors: "Chujie Gao; Yue Huang; Xiangqi Wang; Siyuan Wu; Nitesh V. Chawla; Xian
 doi: 10.1145/3746252.3760884
 url: "https://doi.org/10.1145/3746252.3760884"
 pdf_extract: "PDF Extracts/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf]]"
 publication: CIKM
 CONF-CC: "CIKM 2025"
 DATE_ADDED: 20260207

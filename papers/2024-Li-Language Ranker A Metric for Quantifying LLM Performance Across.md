@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11553"
 external_pdf: "https://arxiv.org/pdf/2404.11553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213

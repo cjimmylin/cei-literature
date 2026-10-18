@@ -15,7 +15,7 @@ url: "https://www.researchgate.net/publication/379815378_Decolonizing_African_NL
 publication: ResearchGate
 CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu

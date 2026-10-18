@@ -7,9 +7,9 @@ key: LSRC0608
 type: conferencePaper
 short_title: "F2Bench: An Open-ended Fairness Evaluation Benchmark ..."
 year: 2025
-first_author: "[[Dave Davies]]"
-last_author: "[[Dave Davies]]"
-authors: "Dave Davies"
+first_author: "[[Tian Lan]]"
+last_author: "[[Guanglai Gao]]"
+authors: "Tian Lan; Jiang Li; Yemin Wang; Xu Liu; Xiangdong Su; Guanglai Gao"
 url: "https://aclanthology.org/2025.emnlp-main.105.pdf"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.105.pdf"
 publication: "ACL Anthology"
@@ -79,11 +79,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Dave Davies]]
+[[Tian Lan]], [[Jiang Li]], [[Yemin Wang]], [[Xu Liu]], [[Xiangdong Su]], [[Guanglai Gao]]
 
 ## Metadata
 
-**Authors:** Dave Davies
+**Authors:** Tian Lan; Jiang Li; Yemin Wang; Xu Liu; Xiangdong Su; Guanglai Gao
 
 **Year:** 2025
 
@@ -101,7 +101,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources.
+. Warning: This paper contains content that may be offensive or harmful With the growing adoption of large language models (LLMs) in NLP tasks, concerns about their fairness have intensified. Yet, most existing fairness benchmarks rely on closed-ended evaluation formats, which diverge from realworld open-ended interactions. These formats are prone to position bias and introduce a 'minimum score' effect, where models can earn partial credit simply by guessing.
 
 ## Data Description
 

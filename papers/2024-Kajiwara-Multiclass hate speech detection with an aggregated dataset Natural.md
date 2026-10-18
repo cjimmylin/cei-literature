@@ -7,9 +7,9 @@ key: LSRC0721
 type: conferencePaper
 short_title: "Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core"
 year: 2024
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
-authors: Kajiwara
+first_author: "[[Sinéad Walsh]]"
+last_author: "[[Paul Greaney]]"
+authors: "Sinéad Walsh; Paul Greaney"
 url: "https://www.cambridge.org/core/journals/natural-language-processing/article/multiclass-hate-speech-detection-with-an-aggregated-dataset/2390980624C97F92CD264A67CFA6ACE2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2390980624C97F92CD264A67CFA6ACE2/S2977042424000621a.pdf/multiclass-hate-speech-detection-with-an-aggregated-dataset.pdf"
 publication: Web
@@ -79,11 +79,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Kajiwara]]
+[[Sinéad Walsh]], [[Paul Greaney]]
 
 ## Metadata
 
-**Authors:** Kajiwara
+**Authors:** Sinéad Walsh; Paul Greaney
 
 **Year:** 2024
 

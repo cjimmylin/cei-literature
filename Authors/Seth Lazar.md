@@ -29,7 +29,6 @@ Professor of Philosophy at Johns Hopkins University (as of 2026), previously at 
 
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]] (Last Author)
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
-- [[2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.|Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,]] (Last Author)
 - [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]] (Last Author)
 - [[2024-Lazar-Frontier AI Ethics|Frontier AI Ethics]] (First Author)
 

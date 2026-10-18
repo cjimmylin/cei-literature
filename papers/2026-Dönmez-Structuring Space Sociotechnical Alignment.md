@@ -8,7 +8,7 @@ authors: "Esra Dönmez; Agnieszka Falenska"
 url: "https://arxiv.org/abs/2607.01250"
 external_pdf: "https://arxiv.org/pdf/2607.01250.pdf"
 abstract: "Sociotechnical alignment concerns the social desirability of AI behavior and is thus inherently normative, not merely technical. While NLP research increasingly addresses its technical aspects, it often leaves underspecified what such 'social desirability' entails. We argue that this reflects a fundamental gap: the absence of a systematic way to specify how sociotechnical alignment defines, justifies, and evaluates socially desirable AI behavior. To address this gap, we introduce a human-centered framework for specifying sociotechnical alignment. We draw on social-scientific accounts of sociobehavioral desirability to ground the basis for behavioral desirability judgments and use this framework to analyze how alignment is specified in practice. Our systematic literature review identifies recurring patterns: normative concepts grounding desirability judgments are often unspecified or conflated with alignment targets for (desired) system behavior, target populations are underdefined, and design choices are rarely theoretically justified. These findings point to a lack of conceptual specificity that limits cumulative progress. We therefore offer recommendations that link social-scientific frameworks to alignment design choices, supporting more conceptually precise approaches to sociotechnical alignment."
-ethics_overall: 80
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

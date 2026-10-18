@@ -8,7 +8,7 @@ authors: "Xueru Wen; Jie Lou; Xinyu Lu; Junjie Yang; Yanjiang Liu; Yaojie Lu; De
 url: "https://arxiv.org/abs/2502.04675"
 external_pdf: "https://arxiv.org/pdf/2502.04675.pdf"
 abstract: "As AI capabilities increasingly surpass human proficiency in complex tasks, current alignment techniques, including SFT and RLHF, face fundamental challenges in ensuring reliable oversight. These methods rely on direct human assessment and become impractical when AI outputs exceed human cognitive thresholds. In response to this challenge, we explore two hypotheses: (1) \textit{Critique of critique can be easier than critique itself}, extending the widely-accepted observation that verification is easier than generation to the critique domain, as critique itself is a specialized form of generation; (2) \textit{This difficulty relationship holds recursively}, suggesting that when direct evaluation is infeasible, performing higher-order critiques (e.g., critique of critique of critique) offers a more tractable supervision pathway. We conduct Human-Human, Human-AI, and AI-AI experiments to investigate the potential of recursive self-critiquing for AI supervision. Our results highlight recursive critique as a promising approach for scalable AI oversight."
-ethics_overall: 80
+ethics_overall: 20
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

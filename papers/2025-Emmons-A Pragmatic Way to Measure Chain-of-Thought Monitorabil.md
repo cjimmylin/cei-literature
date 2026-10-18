@@ -8,7 +8,7 @@ authors: "Scott Emmons; Roland S. Zimmermann; David K. Elson; Rohin Shah"
 url: "https://arxiv.org/abs/2510.23966"
 external_pdf: "https://arxiv.org/pdf/2510.23966.pdf"
 abstract: "While Chain-of-Thought (CoT) monitoring offers a unique opportunity for AI safety, this opportunity could be lost through shifts in training practices or model architecture. To help preserve monitorability, we propose a pragmatic way to measure two components of it: legibility (whether the reasoning can be followed by a human) and coverage (whether the CoT contains all the reasoning needed for a human to also produce the final output). We implement these metrics with an autorater prompt that enables any capable LLM to compute the legibility and coverage of existing CoTs. After sanity-checking our prompted autorater with synthetic CoT degradations, we apply it to several frontier models on challenging benchmarks, finding that they exhibit high monitorability. We present these metrics, including our complete autorater prompt, as a tool for developers to track how design decisions impact monitorability. While the exact prompt we share is still a preliminary version under ongoing development, we are sharing it now in the hopes that others in the community will find it useful. Our method helps measure the default monitorability of CoT - it should be seen as a complement, not a replacement, for the adversarial stress-testing needed to test robustness against deliberately evasive models."
-ethics_overall: 80
+ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

@@ -8,7 +8,7 @@ authors: "Kevin Kingslin; Anish Natekar; Ashutosh Ranjan; Vivek Srivastava; Savi
 url: "https://arxiv.org/abs/2606.28294"
 external_pdf: "https://arxiv.org/pdf/2606.28294.pdf"
 abstract: "Preference-based alignment often struggles to capture the reasoning that underlies human judgments. Many evaluations rely on multiple interacting criteria, yet pairwise labels reveal only the final choice rather than the considerations that shape preferences. Inverse Constitutional AI (ICAI) improves interpretability in decision making by summarizing preferences into natural-language principles, but its single-pass explanations miss much of the nuance involved in complex decisions. We introduce Democratic ICAI, a novel approach that gathers multiple competing rationales through structured persona debate, offering a broader and more expressive account of the factors influencing each comparison. From these richer signals, we derive clearer and more comprehensive steering principles and use them to guide decision modeling through both LLM-based and decision-tree judges. Experiments on creative preference benchmarks, MuCE-Pref and LiTBench, across multiple creative task categories show that Democratic ICAI yields a more faithful preference structure. It improves average preference prediction across tasks relative to deliberative prompting and principle-based baselines, while producing constitutions that LLM annotators prefer."
-ethics_overall: 80
+ethics_overall: 25
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

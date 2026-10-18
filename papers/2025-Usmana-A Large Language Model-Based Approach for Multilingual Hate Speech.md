@@ -100,7 +100,7 @@ data_metrics: "17 languages"
 
 ## Abstract
 
-Based on the search results, here are the key multilingual AI safety benchmarks for toxicity and hate speech: Multilingual Toxicity and Hate Speech Benchmarks PolygloToxicityPrompts: A dataset of 425K naturally-occurring prompts across 17 languages with varying degrees of toxicity. This research studies how large language models generate toxicity in multiple languages, how toxicity varies across differently-resourced languages, and how design decisions like model size and alignment meth
+Social media platforms are critical spaces for public discourse, shaping opinions and community dynamics, yet their widespread use has amplified harmful content, particularly hate speech, threatening online safety and inclusivity. While hate speech detection has been extensively studied in languages like English and Spanish, Urdu remains underexplored, especially using translation-based approaches. To address this gap, we introduce a trilingual dataset of 10,193 tweets in English (3,834...
 
 ## Data Description
 

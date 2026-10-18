@@ -7,9 +7,9 @@ key: LSRC0723
 type: preprint
 short_title: "Advancing Hate Speech Detection with Transformers: Insights from the MetaHate"
 year: 2025
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
-authors: Kajiwara
+first_author: "[[Santosh Chapagain]]"
+last_author: "[[Soukaina Filali Boubrahimi]]"
+authors: "Santosh Chapagain; Shah Muhammad Hamdi; Soukaina Filali Boubrahimi"
 url: "https://www.arxiv.org/pdf/2508.04913"
 external_pdf: "https://arxiv.org/pdf/2508.04913.pdf"
 publication: arXiv
@@ -79,11 +79,11 @@ data_metrics: "36 datasets"
 
 ## Authors
 
-[[Kajiwara]]
+[[Santosh Chapagain]], [[Shah Muhammad Hamdi]], [[Soukaina Filali Boubrahimi]]
 
 ## Metadata
 
-**Authors:** Kajiwara
+**Authors:** Santosh Chapagain; Shah Muhammad Hamdi; Soukaina Filali Boubrahimi
 
 **Year:** 2025
 

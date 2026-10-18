@@ -8,7 +8,7 @@ authors: "Robert M. Ceresa; Juan E. Ceresa"
 url: "https://arxiv.org/abs/2604.03865"
 external_pdf: "https://arxiv.org/pdf/2604.03865.pdf"
 abstract: "Democratic public life depends on institutions that make roles, responsibilities, relationships, and purposes intelligible as lived orientation. Contemporary AI systems are trained on web-scale corpora and aligned for helpfulness, harmlessness, and honesty, but the representational structure of democratic institutional life has not been treated as an alignment target. This paper identifies and tests the democratic ontology deficit: the structural mismatch between the representational conditions democratic agency requires and the ontology contemporary AI systems are built to learn and reproduce. We apply representation engineering to three instruction-tuned models (Llama-2-13b-chat, Mistral-7B-Instruct-v0.2, and Meta-Llama-3-8B-Instruct), extracting reading vectors for civic reasoning and its four component primitives using contrastive stimuli. The model's default ontology is organized under independence rather than civic structure. The deepest deficit is in role: the model's representation of what a person is defaults almost entirely to individual rather than communal identity. Honesty, measured on the same model at the same layer using the same method, scores 0.707; civic role scores -0.047. The pattern replicates across architectures and training generations. These findings open a concrete research program for civic alignment using the tools the field already possesses."
-ethics_overall: 80
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

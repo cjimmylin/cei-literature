@@ -102,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+Large language models (LLMs) are pretrained on substantial, unfiltered corpora, assembled from a variety of sources. This risks inheriting the deep-rooted biases that exist within them, both implicit and explicit. This is even more apparent in low-resource languages, where corpora may be prioritized by quantity over quality, potentially leading to more unchecked biases, particularly in low-resource languages, where all available data is leveraged solely to expand volume due to inherent scarcity.
 
 ## Data Description
 

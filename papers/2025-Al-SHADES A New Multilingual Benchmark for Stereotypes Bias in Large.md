@@ -102,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Here's what I found about SHADES multilingual stereotypes LLM benchmark assessment: Overview SHADES is a multilingual parallel dataset designed for examining culturally-specific stereotypes that may be learned by LLMs. While LLMs reproduce and exacerbate social biases present in their training data, most bias research efforts have been concentrated around English.
+Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new...
 
 ## Data Description
 

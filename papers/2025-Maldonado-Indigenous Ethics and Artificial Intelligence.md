@@ -4,7 +4,7 @@ Human View Date:
 Human View note: 
 Not AI: 
 key: CULT0114
-type: conferencePaper
+type: journalArticle
 short_title: "Indigenous Ethics and Artificial Intelligence"
 year: 2025
 first_author: "[[Milton Maldonado]]"
@@ -51,7 +51,7 @@ LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality."
-CONFERENCE: "Other Conference"
+CONFERENCE: Journal
 ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 50
@@ -114,6 +114,8 @@ Theoretical paper examining indigenous ethics of reciprocity as a normative fram
 
 **Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_20
 **Relevance:** Proposes Andean indigenous ethics of reciprocity (ayni, minka, randi-randi) as normative framework for AI governance. Argues non-Western epistemologies remain excluded from AI. Offers counterpoint to Western AI ethics by demanding relational responsibility as moral principle to guide AI development.
+
+- Merged duplicate (2026-10-18): `2025-IndigenousEthics-Indigenous Ethics and AI.md` (key EXSR0703, moral-psych external search v2, 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
 
 ## Tags
 

@@ -51,3 +51,7 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 ---
+
+## Notes
+
+- Merged duplicate (2026-10-18): `2005-Teaiwa-Articulated Cultures Militarism and Masculinities.md` (key CGSR0188, cultural-gap search 2026-04-03) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Its Semantic Scholar record (https://www.semanticscholar.org/paper/ec98c6a7e291e5c87a0cf9c7e553e25856ca62cc) mis-parsed the author as "K. Teaiwa"; its title string ended in "Teresia". The article is Teresia Teaiwa's (Fijian Studies 3(2), 2005).

@@ -51,3 +51,7 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 ---
+
+## Notes
+
+- Merged duplicate (2026-10-18): `2020-Hongladarom-Ethics of AI and Robotics.md` (key CGSR0215, cultural-gap search 2026-04-03) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. It was a second Semantic Scholar record of the same 2020 book: https://www.semanticscholar.org/paper/32f8ce6b622ef12c8753e64dcecc0ddc281676a8

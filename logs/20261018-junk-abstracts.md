@@ -163,3 +163,42 @@ each paper):
 - `2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md`
 - `2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md`
 - `2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md`
+
+## Body copies
+
+89 notes also repeated the tool output as the one line under `## Abstract` in the note body. That line now matches
+the frontmatter: the real abstract in 35 notes, empty in 54 (heading kept). No other body text changed.
+
+## The 14 "Dave Davies" / "Kajiwara" / "Enkhbold" notes (owner-approved check)
+
+Origin of the mix-up: web-search output stored in these notes says a 2024 paper is by "Kajiwara and Sakurai", and
+that name was copied as author into unrelated notes; "Dave Davies" and "Enkhbold" look like the same pattern.
+
+**Fixed from the paper's own PDF extract (8)** — `first_author`, `last_author`, `authors` and the body's author lines:
+
+- `2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md`: Гүрринчингийн Сүхбат
+- `2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md`: Sinéad Walsh; Paul Greaney
+- `2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md`: Tian Lan; Jiang Li; Yemin Wang; Xu Liu; Xiangdong Su; Guanglai Gao
+- `2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md`: Haitao Li; You Chen; Qingyao Ai; Yueyue Wu; Ruizhe Zhang; Yiqun Liu
+- `2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation.md`: Yizhi Li; Ge Zhang; Hanhua Hong; Yiwen Wang; Chenghua Lin
+- `2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md`: Santosh Chapagain; Shah Muhammad Hamdi; Soukaina Filali Boubrahimi
+- `2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md`: Hongliu Cao; Eoin Thomas; Rodrigo Acuna Agost
+- `2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md`: International Network for Hate Studies
+
+**Wrong PDF (1)**, unlinked like the two above (extract moved to `RECYCLE-BIN/20261018-wrong-pdf-extracts/`,
+`local_pdf`/`external_pdf` → N/A): `2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md`
+(its PDF was "A Comprehensive Study of Gender Bias in Chemical Named Entity Recognition Models", Zhao et al., arXiv 2212.12799).
+
+**Not changed, no evidence in the vault (6):**
+
+- `2024-Kajiwara-Beyond Traditional Classifiers Evaluating Large Language Models for.md`: no PDF extract (MDPI Computation 13(8):196)
+- `2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md`: website; no extract (its PDF was a different paper, unlinked)
+- `2024-Kajiwara-Hate Speech and Offensive Language Dataset.md`: Kaggle dataset page; no extract
+- `2024-Kajiwara-Validating Pseudo-label Dataset for Japanese Hate Speech Detection.md`: no extract; this IEEE paper may really be by Kajiwara (likely where the name came from)
+- `2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md`: web article; no extract (Dave Davies may be its real author)
+- `2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md`: its PDF was a different paper (gender bias in chemical NER, Zhao et al.); unlinked; real authors not in the vault
+
+**Year discrepancies noticed (not changed):**
+
+- `2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md`: NeurIPS 2024 Datasets & Benchmarks paper; note year 2025 (not changed)
+- `2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md`: Natural Language Processing (2025) 31, doi 10.1017/nlp.2024.62; note year 2024 (not changed)

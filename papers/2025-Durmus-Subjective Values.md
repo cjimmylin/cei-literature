@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, I found several relevant research papers and projects on World Values Survey LLM evaluation in multilingual contexts: Key Research Areas Multilingual and Multicultural LLM Evaluation: Increased multilingual capabilities do not guarantee improved cultural alignment in Large Language Models, with the relationship between improvements in multilingual capability and cultural alignment being complex. One evaluation framework enables principled statistical compar
+
 
 ## Data Description
 

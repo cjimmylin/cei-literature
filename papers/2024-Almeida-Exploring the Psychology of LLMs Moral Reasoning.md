@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: ALMEIDA2024
 type: journalArticle
-short_title: "Psychology of LLMs Moral Reasoning"
+short_title: "Exploring the psychology of LLMs' moral and legal reasoning"
 year: 2024
 first_author: "[[Guilherme F. C. F. Almeida]]"
 last_author: "[[Gubert, Renato]]"
@@ -113,6 +113,8 @@ Replication materials, code, and data from eight experimental psychology studies
 
 
 ## Notes
+
+- Merged duplicate (2026-10-18): `2024-Unknown-Exploring psychology LLMs moral legal reasoning.md` (key EXSR0688, Moral Psychology External Search 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
 
 
 ## Citation Info

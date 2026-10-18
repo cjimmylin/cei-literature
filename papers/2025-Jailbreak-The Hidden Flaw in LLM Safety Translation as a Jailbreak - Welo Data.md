@@ -98,7 +98,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Here are the web search results for "transliterated text LLM evaluation safety bypass": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi
+
 
 ## Data Description
 

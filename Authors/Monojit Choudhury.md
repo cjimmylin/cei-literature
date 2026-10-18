@@ -26,6 +26,7 @@ semantic_scholar: ""
 
 - [[2025-Bali-How Deep Is Representational Bias in|How Deep Is Representational Bias in]]
 - [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
+- [[2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for|Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions]] (Last Author)
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]] (Last Author)
 - [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]] (Last Author)
 - [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]] (Last Author)

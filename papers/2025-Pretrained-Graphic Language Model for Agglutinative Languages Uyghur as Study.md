@@ -103,7 +103,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag
+This paper describes a novel, graphic language modeling strategy for morphologically rich agglutinative languages. Different from the linear structure in n-gram language models, graphic modeling organizes the morphemes in a sentence, including stems and affixes, as a directed graph. The graphic language model is verified in two typical application scenarios, morphological analysis and machine translation. We take Uyghur for example, and experiments show that the graphic language model achieves significant improvement in both morphological analysis and machine translation.
 
 ## Data Description
 

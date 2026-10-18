@@ -99,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024.
+
 
 ## Data Description
 

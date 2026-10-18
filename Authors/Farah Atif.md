@@ -22,3 +22,4 @@ semantic_scholar: ""
 
 
 - [[2025-Sadallah-Commonsense Reasoning in Arab Culture|Commonsense Reasoning in Arab Culture]]
+- [[2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for|Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions]] (First Author)

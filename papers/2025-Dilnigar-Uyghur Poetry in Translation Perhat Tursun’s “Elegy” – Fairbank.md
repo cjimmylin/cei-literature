@@ -98,7 +98,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-Based on the search results, I found a PLOS ONE article on Uyghur literary translation. The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English.
+
 
 ## Data Description
 

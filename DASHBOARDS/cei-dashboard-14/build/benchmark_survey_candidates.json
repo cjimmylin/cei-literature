@@ -3885,22 +3885,6 @@
   "reasoning": "Introduces CALAME-PT, the first European Portuguese language modeling benchmark, alongside the GlórIA language model."
  },
  {
-  "filename": "2024-Lovenia-SEACrowd Multilingual Multimodal Data Hub Benchmark.md",
-  "decision": "Yes",
-  "reasoning": "Introduces a benchmark suite for SEA languages motivated by under-representation and cultural misrepresentation of SEA in AI models; consistent with the vault's prior Yes for the same paper (borderline: largely general-purpose NLP tasks).",
-  "benchmark_name": "SEACrowd",
-  "what_measures": "AI model performance and representation of Southeast Asian languages and cultures across text, image and audio.",
-  "how_measures": "A standardized hub of SEA datasets with a benchmark suite evaluating models on tasks across three modalities.",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "benchmark",
-  "cultural_scope": "Southeast Asian",
-  "pluralistic_relevance": "Partial",
-  "is_public": false,
-  "source": "v14 new-paper review"
- },
- {
   "filename": "2024-Luong-Realistic Evaluation of Toxicity in Large.md",
   "decision": "Yes",
   "benchmark_name": "TET (Thoroughly Engineered Toxicity)",
@@ -5247,38 +5231,6 @@
   "reasoning": "Introduces a comprehensive Vietnamese LLM evaluation framework including bias, fairness, and toxicity metrics -- the first such systematic benchmark for Vietnamese."
  },
  {
-  "filename": "2024-Unknown-Exploring psychology LLMs moral legal reasoning.md",
-  "decision": "Yes",
-  "reasoning": "Empirical study of LLMs' moral and legal reasoning through psychological theory (moral psychology applied to AI), published in Artificial Intelligence; the abstract in the file is minimal, so protocol details are not specified.",
-  "benchmark_name": "Psychology of LLM moral and legal reasoning study (unnamed)",
-  "what_measures": "LLMs' moral and legal reasoning processes, examined through psychological theories of human moral judgment.",
-  "how_measures": "Not specified (applies psychological paradigms to LLM moral and legal judgments; details not in the file).",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "evaluation",
-  "cultural_scope": "General",
-  "pluralistic_relevance": "No",
-  "is_public": false,
-  "source": "v14 new-paper review"
- },
- {
-  "filename": "2024-Unknown-Measuring Spiritual Values Bias Large Language.md",
-  "decision": "Yes",
-  "reasoning": "Evaluation study measuring spiritual values and associated bias in LLMs, a religious-values and bias dimension.",
-  "benchmark_name": "Spiritual values and bias measurement of LLMs",
-  "what_measures": "Spiritual/religious values expressed by LLMs and the biases they introduce in contexts involving spiritual or moral values.",
-  "how_measures": "Not specified (abstract truncated)",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "evaluation",
-  "cultural_scope": "Multicultural",
-  "pluralistic_relevance": "Yes",
-  "is_public": false,
-  "source": "v14 new-paper review"
- },
- {
   "filename": "2024-Unknown-Quantifying AI Psychology Psychometrics Benchmark Large.md",
   "decision": "Yes",
   "reasoning": "Introduces a psychometrics benchmark applying psychological measurement tools to LLMs (moral-psychology-adjacent per vault note); record is a one-line abstract, so the ethics angle is inferred.",
@@ -6455,22 +6407,6 @@
   "pluralistic_relevance": "No",
   "availability": "Public (dataset released with human validation)",
   "reasoning": "Directly tests whether LLMs internalize deep moral values (non-maleficence, justice) vs shallow preferences. DVGR metric shows all models generalize deep values less than chance. Published at NeurIPS 2025."
- },
- {
-  "filename": "2025-Atif-Sacred or Synthetic Evaluating LLM Reliability.md",
-  "decision": "Yes",
-  "reasoning": "Introduces FiqhQA, a benchmark evaluating LLM reliability and abstention on Islamic religious rulings distinguished by school of thought.",
-  "benchmark_name": "FiqhQA",
-  "what_measures": "Accuracy, reliability and appropriate abstention of LLMs on Islamic jurisprudence questions, distinguishing the four major Sunni schools of thought.",
-  "how_measures": "Question-answer benchmark of Islamic rulings labelled by madhab, in Arabic and English; LLM-generated answers are assessed for correctness and abstention behavior.",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "benchmark",
-  "cultural_scope": "Arabic/Islamic",
-  "pluralistic_relevance": "Yes",
-  "is_public": false,
-  "source": "v14 new-paper review"
  },
  {
   "filename": "2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md",
@@ -7737,22 +7673,6 @@
   "pluralistic_relevance": "Yes",
   "availability": "Public (github.com/ChadiHelwe/navigating_the_political_compass)",
   "reasoning": "Evaluates political biases in 15 LLMs across 50 countries using PCT and 8 Values tests. While political rather than strictly moral, it measures value orientations with ethical dimensions (social and economic values)."
- },
- {
-  "filename": "2025-Hendra-Decoding Moral Responses in AI.md",
-  "decision": "Yes",
-  "reasoning": "Empirical evaluation comparing seven LLMs on personal vs. impersonal moral dilemmas under different prompting regimes, with quantitative results on utilitarian tendencies.",
-  "benchmark_name": "Dual-process moral dilemma evaluation of LLMs",
-  "what_measures": "LLMs' moral judgments in personal vs. impersonal dilemmas (utilitarian vs. deontological tendencies) and fast- vs. slow-thinking behavior.",
-  "how_measures": "Seven LLMs answer moral dilemmas under zero-shot and few-shot prompting, and their choices are quantified and compared with dual-process theory predictions.",
-  "dataset_size": "Not specified",
-  "models_evaluated": "GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude 3.7, Grok 3, Gemini 2.5 Pro",
-  "availability": "Not stated",
-  "data_type": "evaluation",
-  "cultural_scope": "General",
-  "pluralistic_relevance": "No",
-  "is_public": false,
-  "source": "v14 new-paper review"
  },
  {
   "filename": "2025-Herrador-The PacifAIst Benchmark.md",
@@ -10307,18 +10227,6 @@
   "reasoning": "Duplicate entry of CASE-Bench. Same paper as 2025-Sun-CASE-Bench Context-Aware SafEty Benchmark."
  },
  {
-  "filename": "2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md",
-  "decision": "Yes",
-  "benchmark_name": "Moral Dilemma Response Analysis (SOCIALSENSE-related)",
-  "what_measures": "Moral response patterns in LLMs using moral dilemmas (personal and impersonal)",
-  "how_measures": "Quantitative analysis of LLM responses to series of moral dilemmas; comparison of response patterns across personal and impersonal moral scenarios",
-  "dataset_size": "Series of moral dilemmas (size not fully specified)",
-  "models_evaluated": "Large language models (specific models not fully extracted)",
-  "pluralistic_relevance": "Partial",
-  "availability": "Not stated",
-  "reasoning": "Paper body is thin and PDF extract appears mismatched. However, based on title, DOI, and dataset information indicating moral dilemma evaluation, this appears to conduct empirical evaluation of LLM moral responses. Included given lean-Yes criterion."
- },
- {
   "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md",
   "decision": "Yes",
   "reasoning": "Introduces IndoDiscourse, a multi-label dataset of 28,477 Indonesian texts annotated for toxicity, polarization, and demographics, available on HuggingFace.",
@@ -10503,22 +10411,6 @@
   "cultural_scope": "General"
  },
  {
-  "filename": "2025-Unknown-Can LLMs Grasp Implicit Cultural Values.md",
-  "decision": "Yes",
-  "reasoning": "Introduces CQ-Bench, a benchmark for assessing LLMs' ability to infer implicit cultural values from natural conversations.",
-  "benchmark_name": "CQ-Bench",
-  "what_measures": "LLMs' cultural intelligence, meaning their ability to infer implicit cultural values from conversational context.",
-  "how_measures": "Conversational scenarios in which cultural values are implicit, with LLMs asked to infer the underlying values; further protocol details are not available beyond the truncated abstract.",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "benchmark",
-  "cultural_scope": "Multicultural",
-  "pluralistic_relevance": "Yes",
-  "is_public": false,
-  "source": "v14 new-paper review"
- },
- {
   "filename": "2025-Unknown-How Deep Is Representational Bias LLMs.md",
   "decision": "Yes",
   "reasoning": "Systematic multi-response audit of GPT-4 Turbo for caste and religion representational bias, with a defined generation protocol and reported results.",
@@ -10567,22 +10459,6 @@
   "data_type": "evaluation",
   "cultural_scope": "Multicultural",
   "pluralistic_relevance": "Yes",
-  "is_public": false,
-  "source": "v14 new-paper review"
- },
- {
-  "filename": "2025-Unknown-Normative Evaluation Large Language Models Everyday.md",
-  "decision": "Yes",
-  "reasoning": "Empirical evaluation of LLMs' moral reasoning on everyday moral dilemmas using normative-framework analysis.",
-  "benchmark_name": "Everyday moral dilemmas normative evaluation (name not stated)",
-  "what_measures": "How LLMs reason about and judge everyday real-world moral situations under different normative ethical frameworks.",
-  "how_measures": "Not specified beyond LLM responses to everyday moral dilemmas analyzed with a normative-framework approach.",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "evaluation",
-  "cultural_scope": "General",
-  "pluralistic_relevance": "Partial",
   "is_public": false,
   "source": "v14 new-paper review"
  },

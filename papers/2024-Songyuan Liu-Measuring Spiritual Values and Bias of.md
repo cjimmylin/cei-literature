@@ -5,11 +5,11 @@ Human View note:
 Not AI: 
 key: EXSR0509
 type: preprint
-short_title: "Measuring Spiritual Values and Bias of"
+short_title: "Measuring Spiritual Values and Bias of Large Language Models"
 year: 2024
-first_author: "[[Songyuan Liu,]]"
-last_author: "[[5 others]]"
-authors: "Songyuan Liu,; 5 others"
+first_author: "[[Songyuan Liu]]"
+last_author: "[[Jiaying Lu]]"
+authors: "Songyuan Liu; Ziyang Zhang; Runze Yan; Wei Wu; Carl Yang; Jiaying Lu"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.11647"
 external_pdf: "https://arxiv.org/pdf/2410.11647.pdf"
@@ -18,8 +18,8 @@ local_pdf: "[[Lit-WS-PDFs/2024/2024-Songyuan Liu-Measuring Spiritual Values and 
 publication: arXiv
 CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: N/A
-cultures_nationalities_list: N/A
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 100
@@ -72,7 +72,7 @@ author_global_north_south: "Global North"
 weird_score: 78
 is_benchmark: No
 is_eval: Yes
-is_dataset: No
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -80,11 +80,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Songyuan Liu]], [[5 others]]
+[[Songyuan Liu]], [[Ziyang Zhang]], [[Runze Yan]], [[Wei Wu]], [[Carl Yang]], [[Jiaying Lu]]
 
 ## Metadata
 
-**Authors:** Songyuan Liu, and 5 others
+**Authors:** Songyuan Liu, Ziyang Zhang, Runze Yan, Wei Wu, Carl Yang, Jiaying Lu
 
 **Year:** 2024
 
@@ -113,5 +113,7 @@ Backfill summary: Models assessed include ChatGLM, ChatGLM 2, Chatglm2, CodeLlam
 
 **Source:** Religious & Language Search (2026-02-13), R10, R3, R9
 **Implementation Readiness:** HIGH
+
+- Merged duplicate (2026-10-18): `2024-Unknown-Measuring Spiritual Values Bias Large Language.md` (key EXSR0672, Religious Values External Search 2026-04-03) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Author list completed from the PDF extract, page 1.
 
 ## Tags

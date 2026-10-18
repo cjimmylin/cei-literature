@@ -7,9 +7,9 @@ key: LSRC0664
 type: preprint
 short_title: "Overview of the NLPCC 2025 Shared Task: Gender Bias Mitigation Challenge"
 year: 2025
-first_author: "[[Dave Davies]]"
-last_author: "[[Dave Davies]]"
-authors: "Dave Davies"
+first_author: "[[Yizhi Li]]"
+last_author: "[[Chenghua Lin]]"
+authors: "Yizhi Li; Ge Zhang; Hanhua Hong; Yiwen Wang; Chenghua Lin"
 url: "https://arxiv.org/html/2506.12574"
 external_pdf: "https://arxiv.org/pdf/2506.12574.pdf"
 publication: arXiv
@@ -79,11 +79,11 @@ data_metrics: "32.9k sentences"
 
 ## Authors
 
-[[Dave Davies]]
+[[Yizhi Li]], [[Ge Zhang]], [[Hanhua Hong]], [[Yiwen Wang]], [[Chenghua Lin]]
 
 ## Metadata
 
-**Authors:** Dave Davies
+**Authors:** Yizhi Li; Ge Zhang; Hanhua Hong; Yiwen Wang; Chenghua Lin
 
 **Year:** 2025
 

@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 
 type: journalArticle
-short_title: "Decoding Moral Responses in AI"
+short_title: "Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models"
 year: 2025
 first_author: "[[Bryant P.H. Hui]]"
 last_author: "[[Rui Sun]]"
@@ -38,11 +38,11 @@ mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
-mp_dual_process: 0
+mp_dual_process: 60
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: N/A
+moral_psychology: "Dual Process Theory"
 newtags: "Utilitarianism, Moral Dilemmas, LLM Evaluation"
 key_contribution: "Systematic quantitative comparison of seven LLMs on moral dilemmas showing utilitarian tendencies in impersonal contexts"
 significance: "Demonstrates that LLMs exhibit human-like patterns in moral reasoning but diverge in emotional/personal contexts"
@@ -52,12 +52,12 @@ abstract: "Despite the proliferation of powerful large language models (LLMs), t
 paper_summary: 
 local_pdf: "[[Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Claude"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude 3.7 Sonnet, Grok 3, Gemini 2.5 Pro"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
-ethics_perspective: "General Ethics"
+ethics_perspective: "Moral Reasoning & Psychology"
 CONFERENCE: Journal
-ethics_overall: 35
+ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -156,6 +156,9 @@ This study systematically compares the moral response patterns of seven LLMs on 
 
 
 ## Notes
+
+- Merged duplicate (2026-10-18): `2025-Hendra-Decoding Moral Responses in AI.md` (key EXSR0693, moral-psych external search v2, 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
+- Merged duplicate (2026-10-18): `2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md` (key EXSR0039, Exhaustive Literature Search 2026-02-07) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Nothing was carried from it: its authors, abstract, PDF and extract were a different paper (SocialSense, Chenkai Sun et al., EMNLP 2023, arXiv 2310.13297).
 
 
 

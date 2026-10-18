@@ -5,15 +5,15 @@ Human View note:
 Not AI: 
 key: LSRC0736
 type: conferencePaper
-short_title: "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious"
+short_title: "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions"
 year: 2025
-first_author: "[[Islamic]]"
-last_author: "[[Islamic]]"
-authors: Islamic
+first_author: "[[Farah Atif]]"
+last_author: "[[Monojit Choudhury]]"
+authors: "Farah Atif; Nursultan Askarbekuly; Kareem Darwish; Monojit Choudhury"
 url: "https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618"
 external_pdf: "https://arxiv.org/pdf/2508.08287v1.pdf"
-publication: Web
-CONF-CC: Preprint
+publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
+CONF-CC: "AIES 2025"
 pdf_extract: "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md"
 local_pdf: "[[Lit-WS-PDFs/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.pdf]]"
 DATE_ADDED: 20260213
@@ -74,22 +74,25 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
+authors_incomplete: false
+s2_paper_id: 4d6606388f4e924182bfb025aa01a18401015ad0
+citation_count: 7
 ---
-# Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious
+# Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions
 
 ## Authors
 
-[[Islamic]]
+[[Farah Atif]], [[Nursultan Askarbekuly]], [[Kareem Darwish]], [[Monojit Choudhury]]
 
 ## Metadata
 
-**Authors:** Islamic
+**Authors:** Farah Atif; Nursultan Askarbekuly; Kareem Darwish; Monojit Choudhury
 
 **Year:** 2025
 
 **Type:** conferencePaper
 
-**Venue:** Web
+**Venue:** AIES 2025 (AAAI/ACM Conference on AI, Ethics, and Society)
 
 **Languages:** Arabic, English
 
@@ -111,6 +114,8 @@ FiqhQA is a benchmark dataset of Islamic rulings (fatawa) categorized by the fou
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent C2
 **Relevance:** Relevant to Arabic, English; cultural focus
+
+- Merged duplicate (2026-10-18): `2025-Atif-Sacred or Synthetic Evaluating LLM Reliability.md` (key EXSR0671, Religious Values External Search 2026-04-03) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Author, title and venue fields taken from it (checked against the PDF extract, page 1).
 
 ## Tags
 

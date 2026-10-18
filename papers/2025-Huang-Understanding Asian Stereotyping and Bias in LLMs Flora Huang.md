@@ -100,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-I found the research article you're looking for. Here are the key findings: Study Overview The article "Exploring the occupational biases and stereotypes of Chinese large language models" was published in Scientific Reports in 2025.
+In recent years, the advancements of large language models (LLMs) have helped them become increasingly entrenched into our world. LLM assistance with processing natural language tasks and generating text is now commonplace. However, despite their advancements, LLMs are critically flawed due to their internalization of social biases. As a result, the use of LLMs may often spread or even amplify issues such as racial bias and stereotyping.
 
 ## Data Description
 

@@ -146,12 +146,14 @@ not new owner rulings; each local ledger stays authoritative for its track.
 - PDF: none for v4.
 - Spend: $0.5840 of the $3.00 re-judge ceiling (complete). Two stop-and-report events, resolved by `RULINGS-APPLIED-20261019a` and `-20261019b`.
 - Local authority: `Christian-Ethics-Benchmark-v2/20261019c-rejudge-package-execution-report.md` (results), `RULINGS-APPLIED-20261018b.md` (run guide) with amendments `-20261019a` and `-20261019b`, `20261018a-v4-judge-decision-options-memo.md`, and the entry point `20260806a-boot-prompt-v4a-authoring-remainder.md`.
-- Next session: none until the owner rules on D1 (and D3). Options the report names, none authorized: fix and re-measure judge-a's d07 parse failures (about $0.27), the $0 Stage 3 referee arm, or a different candidate.
+- Owner rulings 2026-10-19 (`RULINGS-APPLIED-20261019c`, PF-007): d02 dropped from v4.0 (D3); d07 parse fix authorized at $1.00 before D1.
+- d07 fix done (`20261019d-d07-format-fix-report.md`, $0.2925 of $1.00): judge-a's failures were a copied "yes\|no" placeholder or a clause letter for q2; an output-format fix (`--q2-variant anchored-fmt`) gives 750/750 parsed for both judges, q2 κ 0.656, yes-rate ratio 1.01, label effective, v4.0 condition met.
+- Next session: none until the owner rules on D1. What remains open is d01 (judge-A alone sees a tier gradient); options include the memo's (a)–(c) or the $0 referee check on d01.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: the judge construct split; tested, unresolved, awaiting the owner's D1.
+- Open P1: the judge construct split, now confined to d01 (d02 out of v4.0; d07 fixed); awaiting the owner's D1.
 - Deferred P2/P3: D3–D7 and B-phase scale, all owner decisions.
 
 ## Registration rule for future benchmarks

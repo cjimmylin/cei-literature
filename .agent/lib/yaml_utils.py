@@ -258,6 +258,10 @@ def add_field(frontmatter: str, key: str, value: str, replace: bool = True) -> s
         replace: If True, replaces existing field; if False, only adds if missing
 
     Returns: Updated frontmatter string
+
+    LOSSY: rebuilds the whole frontmatter from parse_frontmatter(), which drops
+    block lists and quotes and cuts values at an embedded quote. Do not use it
+    to edit a note on disk; use paper_utils.update_paper_field (single-line edit).
     """
     fields = parse_frontmatter(frontmatter)
 
@@ -269,7 +273,12 @@ def add_field(frontmatter: str, key: str, value: str, replace: bool = True) -> s
 
 
 def remove_field(frontmatter: str, key: str) -> str:
-    """Remove a field from frontmatter."""
+    """Remove a field from frontmatter.
+
+    LOSSY: rebuilds the whole frontmatter from parse_frontmatter(), which drops
+    block lists and quotes and cuts values at an embedded quote. Do not use it
+    to edit a note on disk; use paper_utils.update_paper_field (single-line edit).
+    """
     fields = parse_frontmatter(frontmatter)
     fields.pop(key, None)
     return rebuild_frontmatter(fields)

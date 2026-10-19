@@ -10,9 +10,9 @@ year: 2024
 first_author: "[[Vincent Conitzer]]"
 last_author: "[[Freedman, Rachel]]"
 authors: "Conitzer, Vincent; Freedman, Rachel"
-doi: 10.48550/arXiv.2404.10000
-url: "https://arxiv.org/abs/2404.10000"
-external_pdf: "https://arxiv.org/pdf/2404.10000.pdf"
+doi: 10.48550/arXiv.2404.10271
+url: "https://arxiv.org/abs/2404.10271"
+external_pdf: "https://arxiv.org/pdf/2404.10271.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
 languages_list: 
@@ -44,10 +44,10 @@ moral_psychology: N/A
 newtags: "Utilitarianism, Social Choice Theory, Value Alignment"
 key_contribution: "Applies social choice theory and mechanism design to aggregate diverse human feedback for AI alignment, offering a framework for collective preference aggregation"
 significance: "Addresses the challenge of aligning AI with conflicting human values by providing a rigorous theoretical basis for synthesizing feedback"
-pdf_extract: "PDF Extracts/2024/2024-Conitzer-Social Choice for AI Alignment.md"
-abstract: "A model potential previously developed for the ammonia molecule is treated in a single-center partial-wave approximation in analogy with a self-consistent field method developed by Moccia. The latter was used in a number of collision studies. The model potential is used to calculate dc Stark resonance parameters, i.e., resonance positions and shifts within a single-center partial wave expansion, using the exterior complex scaling method for the radial coordinate."
-paper_summary: "Abstract: A model potential previously developed for the ammonia molecule is treated in a single-center partial-wave approximation in analogy with a self-consistent field method developed by Moccia. The latter  | Overview: Calculation of DC Stark Resonances for the Ammonia Molecule Patrik Pirkola∗and Marko Horbatsch† Department of Physics and Astronomy, York University, Toronto, Ontario M3J 1P3, Canada (Dated: April 17,"
-local_pdf: "[[Lit-WS-PDFs/2024/2024-Conitzer-Social Choice for AI Alignment.pdf]]"
+pdf_extract: 
+abstract: "Foundation models such as GPT-4 are fine-tuned to avoid unsafe or otherwise problematic behavior, such as helping to commit crimes or producing racist text. One approach to fine-tuning, called reinforcement learning from human feedback, learns from humans' expressed preferences over multiple outputs. Another approach is constitutional AI, in which the input from humans is a list of high-level principles. But how do we deal with potentially diverging input from humans? How can we aggregate the input into consistent data about 'collective' preferences or otherwise use it to make collective choices about model behavior? In this paper, we argue that the field of social choice is well positioned to address these questions, and we discuss ways forward for this agenda, drawing on discussions in a recent workshop on Social Choice for AI Ethics and Safety held in Berkeley, CA, USA in December 2023."
+paper_summary: "Abstract: Foundation models such as GPT-4 are fine-tuned to avoid unsafe or otherwise problematic behavior, such as helping to commit crimes or producing racist text. One approach to fine-tuning, called reinforcement learning from human feedback, learns from humans' expressed preferences over multiple outputs. Another approach is constitutional AI, in which the input from humans is a list of high-level principles. But how do we deal with potentially diverging input from humans? How can we aggregate the input into consistent data about 'collective' preferences or otherwise use it to make collective choices about model behavior? In this paper, we argue that the field of social choice is well positioned to address these questions, and we discuss ways forward for this agenda, drawing on discussions in a recent workshop on Social Choice for AI Ethics and Safety held in Berkeley, CA, USA in December 2023."
+local_pdf: N/A
 CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -85,11 +85,11 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-PDFs/2024/2024-Conitzer-Social Choice for AI Alignment.pdf|Open PDF]]
+- **Local PDF:** none. The PDF filed under this note was another paper (arXiv 2404.10000, ammonia-molecule physics); unlinked 2026-10-19.
 
-- **arXiv:** https://arxiv.org/abs/2404.10000
-- **DOI:** https://doi.org/10.48550/arXiv.2404.10000
-- **PDF:** https://arxiv.org/pdf/2404.10000.pdf
+- **arXiv:** https://arxiv.org/abs/2404.10271
+- **DOI:** https://doi.org/10.48550/arXiv.2404.10271
+- **PDF:** https://arxiv.org/pdf/2404.10271.pdf
 
 ## Abstract
 
@@ -102,7 +102,9 @@ This paper explores the application of social choice theory and mechanism design
 
 ## Notes
 
+- 2026-10-19: arXiv id corrected from 2404.10000 (an unrelated physics paper, whose abstract and PDF this note had) to 2404.10271, the paper this note's heading names (its arXiv v1 title). Abstract copied from [[2024-Conitzer-Social Choice Should Guide AI Alignment in Dealing]], which is the same work (ICML 2024 version, more authors). Likely duplicate: not merged; see `logs/20261019-small-data-fixes.md`.
+
 
 ## Citation Info
 
-arXiv:2404.10000 [cs.AI] (Submitted: 2024-04-10)
+arXiv:2404.10271 [cs.LG] (v2: 2024-06-04)

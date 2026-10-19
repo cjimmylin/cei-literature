@@ -98,6 +98,8 @@
     .on-path { color: var(--green); background: var(--green-soft); }
     .at-risk { color: var(--amber); background: var(--amber-soft); }
     .off-path { color: var(--red); background: var(--red-soft); }
+    .parked { color: var(--muted); background: #eeeae0; }
+    code { overflow-wrap: anywhere; }
     header .status { margin-top: 18px; color: #fff8e7; background: rgba(255,255,255,0.09); }
 
     .quick-links {
@@ -191,7 +193,7 @@
       <p class="eyebrow">BibleBench portfolio</p>
       <h1>Paper-first critical path</h1>
       <p class="subtitle">Scientific sufficiency, executable evidence, manuscript progress, and deliverables move together. Nonblocking hardening does not silently become the project.</p>
-      <p class="updated">Last updated: 2026-07-15 · by Codex · WALKWORTHY critical-path contract reconciled; Design 02 human packet next</p>
+      <p class="updated">Last updated: 2026-10-19 · by Claude Code · WCF-Bench-v2 parked; WALKWORTHY v4 judge re-judge package ready for the owner's run</p>
       <span class="status on-path">ON PATH — portfolio</span>
     </header>
 
@@ -205,10 +207,10 @@
     <section aria-labelledby="summary-title">
       <h2 id="summary-title">Portfolio snapshot</h2>
       <div class="summary-grid">
-        <article class="summary"><span class="label">Active paper paths</span><span class="number">3</span><span class="muted">Consolidated pilot, WALKWORTHY, WCF</span></article>
+        <article class="summary"><span class="label">Active paper paths</span><span class="number">4</span><span class="muted">Consolidated pilot, WALKWORTHY, WCF, WALKWORTHY v4; WCF-Bench-v2 parked</span></article>
         <article class="summary"><span class="label">Consolidated MVP models</span><span class="number">3</span><span class="muted">Exact source-verified proposal ready; owner approval still gated</span></article>
         <article class="summary"><span class="label">Open P0</span><span class="number">0</span><span class="muted">No portfolio P0 recorded</span></article>
-        <article class="summary"><span class="label">Open P1 boundaries</span><span class="number">2</span><span class="muted">Consolidated owner gold and WCF's registered budget/scope conflict; WALKWORTHY mechanics have none open</span></article>
+        <article class="summary"><span class="label">Open P1 boundaries</span><span class="number">3</span><span class="muted">Consolidated owner gold, WCF's registered budget/scope conflict, and WALKWORTHY v4's judge split (under an authorized test); WALKWORTHY v1 mechanics have none open</span></article>
       </div>
       <p class="muted"><strong>Engineering-to-paper ratio:</strong> not yet baselined. Begin counting enabling tasks versus nonblocking engineering in the next reporting window; this is a drift diagnostic, not a performance score.</p>
     </section>
@@ -276,6 +278,39 @@
           </dl>
           <p><a href="WCF-Benchmark/project-dashboard.html">Local dashboard</a> · <a href="ACTIVE-CRITICAL-PATHS.md#wcf">Full contract</a></p>
         </article>
+        <article class="card">
+          <div class="card-head"><h3>WCF-Bench-v2</h3><span class="status parked">PARKED</span></div>
+          <dl>
+            <dt>Next paper-facing milestone</dt><dd>None while parked. Re-entry needs an owner instruction naming one direction (venue prep, larger roster, MEND-N-018 fix, or the ceiling question).</dd>
+            <dt>Manuscript</dt><dd>s21 v1.x draft is current: the owner-accepted s20 draft with the T2a/T2b tier labels corrected; no number changed. Venue-generic.</dd>
+            <dt>Executable bank</dt><dd>Bank v2.5 frozen (345 scored items); instrument strict-v2 frozen; single-packet judging only.</dd>
+            <dt>Evidence</dt><dd>Scenario A full run complete: 5 SUTs × 345 items × 3 epochs = 5,175 responses. The s19 report is the only quotable source.</dd>
+            <dt>PDF</dt><dd>s21 PDF built 2026-10-18 (12 pages) and sent to the owner; gitignored, disk-only.</dd>
+            <dt>Current blocker</dt><dd>None while parked. Before any external version, add the judge/vendor-overlap disclosure in a new superseding paper file.</dd>
+            <dt>Engineering timebox</dt><dd>None while parked.</dd>
+            <dt>Deferred hardening</dt><dd>Larger or premium roster (not funded), MEND-N-018 rubric fix (would unfreeze the bank), model-vs-bank ceiling.</dd>
+            <dt>Spend</dt><dd>$0 in session 21. Full-run SUT spend was about $28.20 of a $70 cap.</dd>
+            <dt>Owner exception</dt><dd>None. PF-005 records the owner's 2026-10-18 choice: "#4 then park".</dd>
+          </dl>
+          <p><a href="WCF-Benchmark-v2/20261018-session21-PARKED-reentry-prompt.md">Re-entry prompt</a> · <a href="ACTIVE-CRITICAL-PATHS.md#wcf-bench-v2--parked">Full record</a></p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>WALKWORTHY v4</h3><span class="status at-risk">AT RISK</span></div>
+          <dl>
+            <dt>Next paper-facing milestone</dt><dd>The re-judge package's execution report, read against the pre-committed read-outs, which returns the judging-architecture choice (D1) to the owner.</dd>
+            <dt>Manuscript</dt><dd>No v4 manuscript. The phase-7 v2 manuscripts are unchanged.</dd>
+            <dt>Executable bank</dt><dd>v4-A $0 block largely executed; authoring of d03/d04/d08/d10 remains open.</dd>
+            <dt>Evidence</dt><dd>Diagnostics only; no v4 number is a WALKWORTHY number. The two pinned judges read the constructs differently (d02, d01, d07).</dd>
+            <dt>PDF</dt><dd>None for v4.</dd>
+            <dt>Current blocker</dt><dd>P1: the judge construct split, under test. The live run needs the owner's machine, which holds the stored responses.</dd>
+            <dt>Engineering timebox</dt><dd>Stage 0 is done and merged. Remaining: one owner-run live package and one report session on its four output files.</dd>
+            <dt>Deferred hardening</dt><dd>D3–D7, including the B1+B2 runs (about $180–230), the holdout git-history question, and the optional $0 referee arm.</dd>
+            <dt>Spend</dt><dd>$3.00 hard ceiling authorized for the package; dry-run projection about $0.68 (estimate). Actual: $0.00.</dd>
+            <dt>Owner exception</dt><dd>None. PF-006 / <code>RULINGS-APPLIED-20261018b</code>: D1 "Authorize at $3 ceiling"; candidate judge <code>qwen/qwen3-235b-a22b-2507</code>.</dd>
+          </dl>
+          <p><a href="Christian-Ethics-Benchmark-v2/RULINGS-APPLIED-20261018b.md">Ruling and run guide</a> · <a href="ACTIVE-CRITICAL-PATHS.md#walkworthy-v4-christian-ethics-benchmark-v2--judge-re-judge-package-authorized-awaiting-the-owners-run">Full record</a></p>
+        </article>
       </div>
     </section>
 
@@ -283,12 +318,13 @@
       <article class="notice boundary">
         <h3>Blocking and deferred work</h3>
         <p><strong>Open P0:</strong> none recorded.</p>
-        <p><strong>Open P1:</strong> consolidated owner pass-one provisional gold and WCF's registered budget/scope conflict. WALKWORTHY has no open mechanics P0/P1; its complete Design 02 human packet is the controlling external evidence dependency. The exact consolidated paid manifest remains an owner/spend gate, not an implementation defect.</p>
+        <p><strong>Open P1:</strong> consolidated owner pass-one provisional gold, WCF's registered budget/scope conflict, and WALKWORTHY v4's judge construct split (an authorized $3.00 re-judge package tests it). WALKWORTHY v1 has no open mechanics P0/P1; its complete Design 02 human packet is the controlling external evidence dependency. The exact consolidated paid manifest remains an owner/spend gate, not an implementation defect.</p>
         <p><strong>Deferred P2/P3:</strong> compatibility, optional transport, public-deployment hardening, release polish, and hypothetical edge cases that cannot change registered pilot conclusions.</p>
       </article>
       <article class="notice">
         <h3>Spend and Owner exception</h3>
         <p><strong>Spend checkpoint:</strong> the exact three-model, 288-call PF-002 proposal forecasts $1.6839168 at maximum token and retry exposure, below the $3 gate, with a $5 hard ceiling; no live call, credential access, or spend is authorized.</p>
+        <p><strong>WALKWORTHY v4 re-judge:</strong> $3.00 hard ceiling for the whole package (PF-006), projection and actual, with a calibration micro-run before each paid block; dry-run projection about $0.68; $0.00 spent.</p>
         <p><strong>Active owner exceptions:</strong> none.</p>
         <p>Any exception requires Jimmy's explicit approval in <a href="PAPER-FIRST-DECISIONS.md">the append-only decision log</a>, with reason, scope, affected milestone, and expiration condition.</p>
       </article>
@@ -310,6 +346,8 @@
           <li>Separately approve or reject that exact hash-bound paid manifest in writing. Do not access credentials or call a provider before approval.</li>
           <li>After authorization, run once, populate Results/tables/figures and pilot-result PDFs, and stop for the owner scale decision.</li>
           <li>WALKWORTHY remains intentionally idle until one complete Design 02 human packet returns; then run its registered G4-to-paper conversion without another preparatory session.</li>
+          <li>WALKWORTHY v4: on the machine with the stored run trees, run the dry run, then <code>tools/audit/rejudge_package_20261018b.py --live</code> per <code>Christian-Ethics-Benchmark-v2/RULINGS-APPLIED-20261018b.md</code>. Return <code>summary.json</code>, <code>package_tally.json</code>, <code>run.log</code> and the READ-OUTS block for the execution report.</li>
+          <li>WCF-Bench-v2 stays parked until the owner names a direction.</li>
         </ol>
       </article>
     </section>
@@ -328,11 +366,14 @@
           <li><strong>2026-07-13 · Codex:</strong> closed all independent P0/P1 review findings across paper, judge UI, runner, and PDF lanes; the final integrated suite passed 2,926 tests with one skip. The real proposal remains unauthorized, all synthetic evidence remains zero-cost, and no credential or provider was accessed.</li>
           <li><strong>2026-07-13 · Codex:</strong> completed the exact three-model PF-002 owner preflight: official-source registry, 288-call proposal, corrected $1.6839168 cost checkpoint, consistency record, and blank `NOT_AUTHORIZED` owner request. The integrated suite passed 2,934 tests with one skip plus 25 focused fail-closed checks; spend remained $0.00 with no credentials or provider calls.</li>
           <li><strong>2026-07-15 · Jimmy Lin / Codex:</strong> authorized and completed the bounded WALKWORTHY portfolio reconciliation. Replaced obsolete PR-13/state-load-only text with the current label-triggered contract: descriptive MVP v0.1 complete, Design 02 helper complete, labels 0/439, no mechanics P0/P1 open, and one complete human packet → PR-29/G4 → available Part B → frozen status/verdict → manuscript/PDF. No inference, spend, benchmark-rule change, or new engineering lane.</li>
+          <li><strong>2026-10-18 · Jimmy Lin / Claude Code:</strong> WCF-Bench-v2: chose session-21 directions #4 then #6. A superseding paper file corrects the T2a/T2b tier labels with no number changed; the project is parked with a dated re-entry prompt, and the s21 PDF (12 pages) was built after parking. $0 (PF-005).</li>
+          <li><strong>2026-10-18 · Jimmy Lin / Claude Code:</strong> WALKWORTHY v4: a $0 judging-architecture options memo, then D1 authorized at a $3.00 hard ceiling and D2 left to the session, which chose candidate judge <code>qwen/qwen3-235b-a22b-2507</code>. Stage 0 tooling, the anchored-holds definition and the pre-committed read-outs were committed before any paid call. D3–D7 remain open; the live run is the owner's (PF-006).</li>
+          <li><strong>2026-10-19 · Claude Code:</strong> recorded both v2 tracks in the active register, this dashboard and the decision log (PF-005, PF-006). Neither track had a register entry before. The three July contracts are unchanged.</li>
         </ol>
       </article>
     </section>
 
-    <p class="footer">Portfolio authority: <a href="PAPER-FIRST-WORKFLOW.md">PAPER-FIRST-WORKFLOW.md</a> · Owner rulings: <a href="PAPER-FIRST-DECISIONS.md#pf-001--portfolio-wide-paper-first-default">PF-001</a>, <a href="PAPER-FIRST-DECISIONS.md#pf-002--three-model-low-cost-mvp-paper-preview">PF-002</a>, and <a href="PAPER-FIRST-DECISIONS.md#pf-003--wcf-exploratory-manuscript-preview">PF-003</a> · This file is a living status surface; Git history preserves snapshots.</p>
+    <p class="footer">Portfolio authority: <a href="PAPER-FIRST-WORKFLOW.md">PAPER-FIRST-WORKFLOW.md</a> · Owner rulings: <a href="PAPER-FIRST-DECISIONS.md#pf-001--portfolio-wide-paper-first-default">PF-001</a>, <a href="PAPER-FIRST-DECISIONS.md#pf-002--three-model-low-cost-mvp-paper-preview">PF-002</a>, <a href="PAPER-FIRST-DECISIONS.md#pf-003--wcf-exploratory-manuscript-preview">PF-003</a>, <a href="PAPER-FIRST-DECISIONS.md#pf-005--wcf-bench-v2-parked-after-the-s21-tier-label-correction">PF-005</a>, and <a href="PAPER-FIRST-DECISIONS.md#pf-006--walkworthy-v4-judge-re-judge-package-on-stored-responses">PF-006</a> · This file is a living status surface; Git history preserves snapshots.</p>
   </main>
 </body>
 </html>

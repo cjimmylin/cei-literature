@@ -45,7 +45,7 @@ newtags: "Responsible AI"
 key_contribution: "Outlines 10 'hard problems' for AI2050 (e.g., alignment, assurance, governance, philosophical disruptions) that must be solved to avoid risks and realize AI's promise."
 significance: "Provides a high-level strategic roadmap for the field, connecting technical alignment challenges (like goal specification) with broader sociotechnical and political issues."
 tags: 
-abstract: "We explore the AI2050 \"
+abstract: "We explore the AI2050 \"hard problems\" that block the promise of AI and cause AI risks: (1) developing general capabilities of the systems; (2) assuring the performance of AI systems and their training processes; (3) aligning system goals with human goals; (4) enabling great applications of AI in real life; (5) addressing economic disruptions; (6) ensuring the participation of all; (7) at the same time ensuring socially responsible deployment; (8) addressing any geopolitical disruptions that AI causes; (9) promoting sound governance of the technology; and (10) managing the philosophical disruptions for humans living in the age of AI. For each problem, we outline the area, identify significant recent work, and suggest ways forward. [Note: this paper reviews literature through January 2023.]"
 CONF-CC: N/A
 DATE_ADDED: 20260129
 LLM_assessed: NA

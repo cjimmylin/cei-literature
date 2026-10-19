@@ -4,21 +4,21 @@ Human View Date:
 Human View note: 
 Not AI: 
 key: LSRC0603
-type: conferencePaper
+type: journalArticle
 short_title: "The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages"
-year: 2024
-first_author: "[[Yana Veitsman]]"
-last_author: "[[Yana Veitsman]]"
-authors: "Yana Veitsman"
+year: 2025
+first_author: "[[Aidana Karibayeva]]"
+last_author: "[[Assem Shormakova]]"
+authors: "Aidana Karibayeva; Vladislav Karyukin; Ualsher Tukeyev; Balzhan Abduali; Dina Amirova; Diana Rakhimova; Rashid Aliyev; Assem Shormakova"
 url: "https://www.mdpi.com/2076-3417/15/24/12880"
-publication: MDPI
+publication: Applied Sciences 15(24), 12880 (MDPI)
 CONF-CC: N/A
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: N/A
 cultures_nationalities_list: N/A
-languages_list: "Kyrgyz, Turkish, Uyghur"
+languages_list: "Kazakh, Turkish, Tatar, Uzbek"
 religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
@@ -49,7 +49,7 @@ LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "The development of parallel audio corpora for Turkic languages, such as Kazakh, Uzbek, and Tatar, remains a significant challenge in the development of multilingual speech synthesis, recognition systems, and machine translation. These languages are low-resource in speech technologies, lacking sufficiently large audio datasets with aligned transcriptions that are crucial for modern recognition, synthesis, and understanding systems. This article presents the development and experimental evaluation of a speech corpus focused on Turkic languages, intended for use in speech synthesis and automatic translation tasks. The primary objective is to create parallel audio corpora using a cascade generation method, which combines artificial intelligence and text-to-speech (TTS) technologies to generate both audio and text, and to evaluate the quality and suitability of the generated data. To evaluate the quality of synthesized speech, metrics measuring naturalness, intonation, expressiveness, and linguistic adequacy were applied. As a result, a multimodal (Kazakh–Turkish, Kazakh–Tatar, Kazakh–Uzbek) corpus was created, combining high-quality natural Kazakh audio with transcription and translation, along with synthetic audio in Turkish, Tatar, and Uzbek. These corpora offer a unique resource for speech and text processing research, enabling the integration of ASR, MT, TTS, and speech-to-speech translation (STS)."
-CONFERENCE: "Other Conference"
+CONFERENCE: "Journal"
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
@@ -64,33 +64,35 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: DE
-author_region: "Western Europe"
-author_global_north_south: "Global North"
-weird_score: 84
+author_country: KZ
+author_region: "Eastern Europe & Central Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 33
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
+authors_incomplete: false
+doi: 10.3390/app152412880
 ---
 # The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages
 
 ## Authors
 
-[[Yana Veitsman]]
+[[Aidana Karibayeva]], Vladislav Karyukin, Ualsher Tukeyev, Balzhan Abduali, Dina Amirova, Diana Rakhimova, Rashid Aliyev, [[Assem Shormakova]]
 
 ## Metadata
 
-**Authors:** Yana Veitsman
+**Authors:** Aidana Karibayeva; Vladislav Karyukin; Ualsher Tukeyev; Balzhan Abduali; Dina Amirova; Diana Rakhimova; Rashid Aliyev; Assem Shormakova
 
-**Year:** 2024
+**Year:** 2025
 
-**Type:** conferencePaper
+**Type:** journalArticle
 
-**Venue:** MDPI
+**Venue:** Applied Sciences 15(24), 12880 (MDPI)
 
-**Languages:** Kyrgyz, Multilingual, Turkish, Uyghur
+**Languages:** Kazakh, Turkish, Tatar, Uzbek
 
 ## Links
 
@@ -98,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-
+The development of parallel audio corpora for Turkic languages, such as Kazakh, Uzbek, and Tatar, remains a significant challenge in the development of multilingual speech synthesis, recognition systems, and machine translation. These languages are low-resource in speech technologies, lacking sufficiently large audio datasets with aligned transcriptions that are crucial for modern recognition, synthesis, and understanding systems. This article presents the development and experimental evaluation of a speech corpus focused on Turkic languages, intended for use in speech synthesis and automatic translation tasks. The primary objective is to create parallel audio corpora using a cascade generation method, which combines artificial intelligence and text-to-speech (TTS) technologies to generate both audio and text, and to evaluate the quality and suitability of the generated data. To evaluate the quality of synthesized speech, metrics measuring naturalness, intonation, expressiveness, and linguistic adequacy were applied. As a result, a multimodal (Kazakh–Turkish, Kazakh–Tatar, Kazakh–Uzbek) corpus was created, combining high-quality natural Kazakh audio with transcription and translation, along with synthetic audio in Turkish, Tatar, and Uzbek. These corpora offer a unique resource for speech and text processing research, enabling the integration of ASR, MT, TTS, and speech-to-speech translation (STS).
 
 ## Data Description
 
@@ -109,6 +111,8 @@ This paper describes the development and experimental evaluation of a multilingu
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent B10
 **Relevance:** Relevant to Uyghur, Kyrgyz, Multilingual
+- 2026-10-19: renamed from `2024-Veitsman-The Development and Experimental Evaluation of a Multilingual Speech.md`. Authors, year (published 2025-12-05), venue, DOI, affiliations (Farabi University, Almaty, Kazakhstan) and languages corrected from Crossref (doi 10.3390/app152412880); the note had named Yana Veitsman (2024), who is not an author. The Data Description above predates the correction and names the wrong languages.
+
 
 ## Tags
 

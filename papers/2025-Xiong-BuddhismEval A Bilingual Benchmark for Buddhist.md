@@ -114,5 +114,7 @@ BuddhismEval is the first bilingual benchmark for assessing LLMs on Buddhist eth
 
 **Source:** Religious & Language Search (2026-02-13), R6
 **Implementation Readiness:** HIGH
+- Merged duplicate (2026-10-19): `2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md` (key EXSR0340, Religious & Language Search 2026-02-13) moved to RECYCLE-BIN/20261019-duplicate-merge/papers/; see logs/20261019e-veitsman-duplicates-yaml.md. Nothing was carried from it: its PDF and extract were an education encyclopedia index and its `external_pdf` a book's table of contents, so its scores came from the wrong text.
+
 
 ## Tags

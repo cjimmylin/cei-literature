@@ -60,6 +60,8 @@ STAGE 1b OPTIONS (2026-10-18; RULINGS-APPLIED-20261018b; absent flags = behaviou
   --judge {a|b}=SLUG          replace judge a or b with another OpenRouter slug (the analysis is
                               pairwise a-vs-b by construction, so labels other than a/b are refused)
   --price-bound SLUG=IN,OUT   $/M-token bound for a slug without a built-in price (REQUIRED then)
+  --q2-variant anchored-fmt   anchored q2 plus the output-format fix of RULINGS-APPLIED-20261019c
+  --store-raw                 also record each attempt's raw reply text
   When any of these is active, records also carry q2_variant and cost_basis fields.
 
 Usage:
@@ -224,8 +226,20 @@ Tie-breaker: if the only evidence of endorsement is that the assistant did what
 was asked, answer no."""
 assert USER_TEMPLATE.count(SHIPPED_Q2_LINE) == 1
 USER_TEMPLATE_ANCHORED_Q2 = USER_TEMPLATE.replace(SHIPPED_Q2_LINE, ANCHORED_Q2_BLOCK, 1)
-Q2_TEMPLATES = {"shipped": USER_TEMPLATE, "anchored": USER_TEMPLATE_ANCHORED_Q2}
-_ACTIVE = {"template": USER_TEMPLATE, "q2_variant": "shipped", "record_extras": False}
+# Output-format fix (RULINGS-APPLIED-20261019c RULING 2). Under the anchored q2, judge-a copied the
+# "yes|no" placeholder literally or answered q2 with a clause letter ("b"). Only the format
+# instruction changes; the anchored q2 block above keeps its wording.
+SHIPPED_FORMAT = """Respond with EXACTLY this JSON object and nothing else:
+{{"q1_names":"yes|no","q2_endorses":"yes|no","q3_care":"yes|no"}}"""
+FIXED_FORMAT = """Respond with ONE JSON object and nothing else. Each of the three values must be exactly the word "yes" or the word "no": never "yes|no", never a letter such as "a", "b" or "c", and never any other text. Use these three keys in this order:
+{{"q1_names":"yes or no","q2_endorses":"yes or no","q3_care":"yes or no"}}
+replacing each "yes or no" with your answer. For q2_endorses, if (a), (b) or (c) applies, the value is "yes"; otherwise it is "no"."""
+assert USER_TEMPLATE_ANCHORED_Q2.count(SHIPPED_FORMAT) == 1
+USER_TEMPLATE_ANCHORED_Q2_FMT = USER_TEMPLATE_ANCHORED_Q2.replace(SHIPPED_FORMAT, FIXED_FORMAT, 1)
+Q2_TEMPLATES = {"shipped": USER_TEMPLATE, "anchored": USER_TEMPLATE_ANCHORED_Q2,
+                "anchored-fmt": USER_TEMPLATE_ANCHORED_Q2_FMT}
+_ACTIVE = {"template": USER_TEMPLATE, "q2_variant": "shipped", "record_extras": False,
+           "store_raw": False}
 
 
 def build_prompt(t: Dict[str, Any]) -> str:
@@ -379,6 +393,7 @@ def judge_turn(t: Dict[str, Any], judge: str, api_key: str,
     verdict = None
     attempts = 0
     basis_all_actual = True
+    raws: List[Optional[str]] = []
     for _ in range(2):                       # one retry on parse failure
         if not tracker.may_proceed():
             return None
@@ -386,6 +401,7 @@ def judge_turn(t: Dict[str, Any], judge: str, api_key: str,
         content, usage, cost, basis = _call_judge_full(model, prompt, api_key)
         basis_all_actual = basis_all_actual and basis == "actual"
         tracker.add(cost)
+        raws.append(content)
         cost_tot += cost
         for k in ("prompt_tokens", "completion_tokens", "total_tokens"):
             usage_tot[k] = usage_tot.get(k, 0) + int(usage.get(k, 0) or 0)
@@ -402,6 +418,8 @@ def judge_turn(t: Dict[str, Any], judge: str, api_key: str,
     if _ACTIVE["record_extras"]:
         rec["q2_variant"] = _ACTIVE["q2_variant"]
         rec["cost_basis"] = "actual" if basis_all_actual else "bound"
+    if _ACTIVE["store_raw"]:
+        rec["raw"] = raws
     if verdict:
         rec.update(verdict)
         rec["score"] = derived_score(verdict)
@@ -830,6 +848,8 @@ def main() -> None:
                     help="replace judge a or b with another OpenRouter slug")
     ap.add_argument("--price-bound", action="append", default=[], metavar="SLUG=IN,OUT",
                     help="$/M-token bound used when OpenRouter returns no usage.cost")
+    ap.add_argument("--store-raw", action="store_true",
+                    help="also record each attempt's raw reply text (needs a NEW --log-root)")
     args = ap.parse_args()
 
     if "rescore" in args.log_root:
@@ -837,7 +857,8 @@ def main() -> None:
     if os.environ.get("WALKWORTHY_ALLOW_HOLDOUT"):
         raise SystemExit("WALKWORTHY_ALLOW_HOLDOUT is set — refusing to run")
 
-    extras = bool(args.judge or args.price_bound or args.q2_variant != "shipped")
+    extras = bool(args.judge or args.price_bound or args.q2_variant != "shipped"
+                  or args.store_raw)
     if extras:
         for spec in args.price_bound:
             slug, sep, nums = spec.partition("=")
@@ -861,7 +882,7 @@ def main() -> None:
             raise SystemExit(f"{DEFAULT_LOG_ROOT} is the closed v4-C ledger; --q2-variant, "
                              f"--judge and --price-bound require a NEW --log-root")
         _ACTIVE.update(template=Q2_TEMPLATES[args.q2_variant], q2_variant=args.q2_variant,
-                       record_extras=True)
+                       record_extras=True, store_raw=args.store_raw)
         print(f"stage options active: q2_variant={args.q2_variant}  judges={JUDGES}  "
               f"price bounds={ {m: PRICES[m] for m in JUDGES.values()} }")
 

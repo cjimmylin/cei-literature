@@ -34,6 +34,14 @@
 
 ---
 
+## 2026-10-19 (paper_utils update functions now edit one line)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-10-19 | YAML | **`paper_utils.update_paper_field` / `batch_update_papers` are now single-line edits** (supersedes the 2026-10-18 "lossy" entry below): they replace only the field's own line, or append `field: value` before the closing `---` if it is missing, and leave every other byte (quotes, block lists, body, CRLF) as it was. They refuse, and change nothing, when the value has a line break, the field appears twice, or the field holds a block list / multi-line value; `batch_update_papers` writes a paper only if all its updates apply. Values get double quotes when YAML needs them (wikilinks, URLs, `: `) or when the old value was quoted. Checked on 200 real notes: each diff was exactly the target line. `yaml_utils.add_field` / `remove_field` / `rebuild_frontmatter` are still lossy (now marked so); do not use them on notes. |
+
+---
+
 ## 2026-10-18 (Root cause of the July 9 rewrite — the library test suite)
 
 | Date | Category | Learning |

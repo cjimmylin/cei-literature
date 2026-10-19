@@ -1,15 +1,15 @@
 ---
-key: CGSR0027
-type: document
-short_title: "Structural bias and geographical imbalances in AI ethics"
-year: 2025
-first_author: "[[Pujun Sun]]"
-authors: "Pujun Sun; Rajermani Thinakaran; Hushalictmy Paliyanny; J. Somasekar; Jayalakshmi Murugan"
-url: "https://ijirss.com/index.php/ijirss/article/download/9202/2064/15553"
-abstract: "Geographic imbalances in AI ethics research, with focus on Africa's marginalization"
+key: CGSR0026
+type: journalArticle
+short_title: "Challenges of Integrating AI Ethics into Higher Education Curricula in West Africa: Nigerian Universities Narrative"
+year: 2023
+first_author: "[[Laeticia N. Onyejegbu]]"
+authors: "Laeticia N. Onyejegbu"
+url: "https://link.springer.com/chapter/10.1007/978-3-031-23035-6_5"
+abstract: "Challenges in AI ethics education in Nigerian universities"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -26,7 +26,7 @@ author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-last_author: "[[Jayalakshmi Murugan]]"
+last_author: "[[Laeticia N. Onyejegbu]]"
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu
 rv_islam: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2023-Unknown-Challenges of Integrating AI Ethics into.md`; the filename's author part was "Unknown", now the first author in `authors`.

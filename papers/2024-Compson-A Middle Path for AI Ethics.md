@@ -1,16 +1,16 @@
 ---
-key: CGSR0044
+key: CGSR0046
 type: document
-short_title: "The Guiding Role of Buddhist Thought in the Ethics of AI"
-year: 2025
-first_author: "[[Youxin Yan]]"
-authors: "Youxin Yan"
-url: "https://drpress.org/ojs/index.php/EHSS/article/download/27085/26623/37837"
-abstract: "Buddhist ethical principles as guide for AI ethics and development"
+short_title: "A Middle Path for AI Ethics? Some Buddhist Reflections"
+year: 2024
+first_author: "[[Jane Compson]]"
+authors: "Jane Compson; Mark Graves; Peter D. Hershock; Nikki Mirghafori"
+url: "https://www.tandfonline.com/doi/full/10.1080/14746700.2024.2436776"
+abstract: "Buddhist Middle Path applied to AI ethics questions"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 85
+virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 0
 care_ethics: 0
@@ -18,15 +18,15 @@ contractarian_ethics: 0
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
-nw_buddhist: 50
+nw_buddhist: 10
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: PH
-author_region: "Southeast Asia"
+author_country: CO
+author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-last_author: "[[Youxin Yan]]"
+last_author: "[[Nikki Mirghafori]]"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 50
@@ -51,4 +51,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2024-Unknown-A Middle Path for AI Ethics.md`; the filename's author part was "Unknown", now the first author in `authors`.

@@ -9,7 +9,7 @@ url: "https://link.springer.com/book/10.1007/978-3-031-86540-4"
 abstract: "Comprehensive book on ethical and legal AI controversies in Latin American public sphere"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2025-ed-Ethical and Legal Dilemmas of Artificial.md`; the filename's author part was "ed", now the first author in `authors`.

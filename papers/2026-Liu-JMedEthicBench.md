@@ -54,9 +54,9 @@ DATA_URL: NA
 normative_ethics_benchmark: Borderline
 research_topic: Other
 CONFERENCE: Preprint
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
-deontological_ethics: 0
+deontological_ethics: 15
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0

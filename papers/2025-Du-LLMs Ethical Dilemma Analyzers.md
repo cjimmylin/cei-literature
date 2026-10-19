@@ -13,7 +13,7 @@ extract_created: true
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
-ethics_overall: 0
+ethics_overall: 85
 LLM_assessed: "GPT-4o-mini, Claude-3.5-Sonnet, DeepSeek-V3, Gemini-1.5-Flash"
 nw_confucian: 0
 nw_ubuntu: 0
@@ -55,4 +55,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Moral Reasoning & Psychology"
 ---

@@ -1,15 +1,15 @@
 ---
-key: CGSR0115
+key: CGSR0116
 type: journalArticle
-short_title: "A biased emerging governance regime for AI? How AI ethics get skewed"
+short_title: "Ethics and diversity in artificial intelligence policies, strategies and initiatives"
 year: 2022
-first_author: "[[Nicola Palladino]]"
-authors: "Nicola Palladino"
-url: "https://www.sciencedirect.com/science/article/abs/pii/S0308596122001811"
-abstract: "How AI ethics principles get skewed moving from principles to practices"
+first_author: "[[Cathy Roche]]"
+authors: "Cathy Roche; P. J. Wall; Dave Lewis"
+url: "https://link.springer.com/article/10.1007/s43681-022-00218-9"
+abstract: "Ethics and diversity across global AI policies and strategies"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: 0
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -26,7 +26,9 @@ author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-last_author: "[[Nicola Palladino]]"
+last_author: "[[Dave Lewis]]"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -50,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2022-Unknown-Ethics and diversity in artificial intelligence.md`; the filename's author part was "Unknown", now the first author in `authors`.

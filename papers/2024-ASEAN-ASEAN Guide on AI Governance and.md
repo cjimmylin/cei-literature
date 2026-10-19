@@ -9,7 +9,7 @@ url: "https://asean.org/book/asean-guide-on-ai-governance-and-ethics/"
 abstract: "ASEAN's voluntary framework on AI governance and ethics principles"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: 0
+ethics_overall: 70
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---

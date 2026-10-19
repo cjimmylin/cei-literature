@@ -9,7 +9,7 @@ url: "https://link.springer.com/article/10.1007/s43681-024-00650-z"
 abstract: "Decolonization of AI ethics in African healthcare contexts"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 88
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

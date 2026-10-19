@@ -9,7 +9,7 @@ url: "https://www.ilo.org/resource/article/governing-ai-world-work-review-global
 abstract: "ILO review of global AI ethics guidelines for work"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -50,4 +50,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---

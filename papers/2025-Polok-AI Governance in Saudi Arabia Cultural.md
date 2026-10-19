@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/cc4a738b16c2104b4ccff19ac7d2bae0fad4
 abstract: "This country survey examines Saudi Arabia’s approach to artificial intelligence (AI) governance, focusing on the regulatory and ethical frameworks that shape its AI ecosystem. The study situates Saud..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

@@ -9,9 +9,9 @@ url: "https://jurnal.uindatokarama.ac.id/index.php/iciis/article/view/4445"
 abstract: "AI in fatwa formulation and Islamic law, regulatory and ethical analysis"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: 0
+ethics_overall: 65
 virtue_ethics: 0
-deontological_ethics: 0
+deontological_ethics: 15
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

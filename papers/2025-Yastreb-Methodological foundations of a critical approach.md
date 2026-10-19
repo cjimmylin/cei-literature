@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/cf47c7489f961c0768d98c0b7753c7260c4f
 abstract: "This article examines the methodological foundations of a critical approach to addressing the ethical challenges of artificial intelligence (AI). It argues that the object of ethical analysis should n..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -50,4 +50,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---

@@ -21,12 +21,12 @@ DATE_ADDED: 20260403
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian
 languages_list: 
-religious_values: Judaism
+religious_values: Hinduism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
-rv_judaism: 70
-rv_hinduism: 0
+rv_judaism: 0
+rv_hinduism: 70
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: Judaism
+religious_values_list: Hinduism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -52,7 +52,7 @@ abstract: "This paper introduces a new way to find and examine moral dilemmas in
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -76,6 +76,7 @@ author_country: Unknown
 author_region: Unknown
 author_global_north_south: Unknown
 weird_score: 50
+ethics_perspective: "Social & Cultural Values"
 ---
 # Automatic Extraction and Summarization of Ethical Dilemmas from Hindu Religious Texts: A Multilevel NLP Framework
 

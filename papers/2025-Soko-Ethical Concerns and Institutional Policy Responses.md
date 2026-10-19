@@ -1,15 +1,15 @@
 ---
-key: CGSR0015
+key: CGSR0019
 type: document
-short_title: "Machine ethics and African identities"
-year: 2023
-first_author: "[[D. Kohnert]]"
-authors: "D. Kohnert"
-url: "https://mpra.ub.uni-muenchen.de/113799/7/MPRA_paper_113799.pdf"
-abstract: "Machine ethics frameworks through the lens of African identities"
+short_title: "Ethical Concerns and Institutional Policy Responses to AI in Higher Education Across Sub-Saharan Africa"
+year: 2025
+first_author: "[[Jeketule J. Soko]]"
+authors: "Jeketule J. Soko"
+url: "https://www.researchgate.net/publication/399163981"
+abstract: "AI ethics in higher education institutions across Sub-Saharan Africa"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,11 +22,11 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: FR
-author_region: "Western Europe"
-author_global_north_south: "Global North"
-weird_score: 75
-last_author: "[[D. Kohnert]]"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
+weird_score: 50
+last_author: "[[Jeketule J. Soko]]"
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu
 rv_islam: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2025-Unknown-Ethical Concerns and Institutional Policy Responses.md`; the filename's author part was "Unknown", now the first author in `authors`.

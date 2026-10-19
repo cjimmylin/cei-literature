@@ -9,9 +9,9 @@ url: "https://zenodo.org/records/15823698"
 abstract: "Mahabharata ethical principles (dharma, karma, nishkama karma) applied to AI"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: 0
+ethics_overall: 88
 virtue_ethics: 0
-deontological_ethics: 0
+deontological_ethics: 25
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
@@ -51,4 +51,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

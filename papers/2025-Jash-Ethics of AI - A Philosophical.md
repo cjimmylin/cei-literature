@@ -9,7 +9,7 @@ url: "https://www.ijcrt.org/papers/IJCRT2508106.pdf"
 abstract: "Philosophical inquiry into AI ethics including karma and Indian philosophy"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: 0
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Machine Ethics"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2025-Unknown-Ethics of AI - A Philosophical.md`; the filename's author part was "Unknown", now the first author in `authors`.

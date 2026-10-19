@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/fdee3c8abb2d3eccd5147d0ce42963e2bb7e
 abstract: "The rapid advancement of artificial intelligence (AI) presents both unprecedented opportunities and complex challenges for the preservation and transmission of indigenous knowledge in Fiji and the bro..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -50,4 +50,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

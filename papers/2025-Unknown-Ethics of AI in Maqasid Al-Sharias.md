@@ -9,10 +9,10 @@ url: "https://ejournal.iainmadura.ac.id/index.php/karsa/article/view/19617"
 abstract: "AI ethics through the five objectives of Sharia"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: 0
+ethics_overall: 90
 virtue_ethics: 0
-deontological_ethics: 0
-utilitarian_ethics: 0
+deontological_ethics: 15
+utilitarian_ethics: 10
 care_ethics: 0
 contractarian_ethics: 0
 nw_confucian: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

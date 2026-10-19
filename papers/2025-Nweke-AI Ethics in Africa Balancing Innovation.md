@@ -1,15 +1,15 @@
 ---
-key: CGSR0019
-type: document
-short_title: "Ethical Concerns and Institutional Policy Responses to AI in Higher Education Across Sub-Saharan Africa"
+key: CGSR0025
+type: journalArticle
+short_title: "AI Ethics in Africa: Balancing Innovation with Cultural and Social Values"
 year: 2025
-first_author: "[[Jeketule J. Soko]]"
-authors: "Jeketule J. Soko"
-url: "https://www.researchgate.net/publication/399163981"
-abstract: "AI ethics in higher education institutions across Sub-Saharan Africa"
+first_author: "[[Nkem E. Nweke]]"
+authors: "Nkem E. Nweke"
+url: "https://www.irejournals.com/formatedpaper/1706316.pdf"
+abstract: "Balancing AI innovation with African cultural and social values"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,11 +22,11 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: Unknown
-author_region: Unknown
-author_global_north_south: Unknown
-weird_score: 50
-last_author: "[[Jeketule J. Soko]]"
+author_country: CO
+author_region: "Latin America & Caribbean"
+author_global_north_south: "Global South"
+weird_score: 36
+last_author: "[[Nkem E. Nweke]]"
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu
 rv_islam: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2025-Unknown-AI Ethics in Africa Balancing Innovation.md`; the filename's author part was "Unknown", now the first author in `authors`.

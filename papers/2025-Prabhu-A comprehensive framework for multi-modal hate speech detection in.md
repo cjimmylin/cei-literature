@@ -107,6 +107,8 @@ Backfill summary: Models assessed include BERT, RoBERTa, T5, Word2Vec. No high-c
 
 ## Notes
 
+- 2026-10-19: renamed from `2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md` to match the year and first author corrected on 2026-10-18 from the paper's PDF. The local PDF and extract keep their old names.
+
 **Source:** Language-Organized Benchmark Search (20260213), Agent C2
 **Relevance:** Relevant to Japanese; toxicity/hate speech focus
 

@@ -108,6 +108,8 @@ MOLHW is a traditional Mongolian word-level online handwriting dataset consistin
 
 ## Notes
 
+- 2026-10-19: renamed from `2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md` to match the year and first author corrected on 2026-10-18 from the paper's PDF. The local PDF and extract keep their old names.
+
 **Source:** Language-Organized Benchmark Search (20260213), Agent B10
 **Relevance:** Relevant to Mongolian, Multilingual
 

@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: YM8SFWAH
 type: journalArticle
-short_title: "The role of the African value of Ubuntu in global"
+short_title: "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective"
 year: 2022
 first_author: "[[Arthur Gwagwa]]"
 last_author: "[[Airlie Hilliard]]"
@@ -149,6 +149,7 @@ This is a perspective article arguing that the Sub-Saharan African value of Ubun
 
 ## Notes
 
+- Merged duplicate (2026-10-19): `2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md` (key LSRC0090, added 2026-02-13) moved to RECYCLE-BIN/20261019-duplicate-merge/papers/; see logs/20261019b-followup-fixes.md. It had this paper's full title and an open-access copy (https://pmc.ncbi.nlm.nih.gov/articles/PMC9023883/), but credited Sabelo Mhlambi, and its PDF, extract, abstract and scores came from another paper (Saloojee & Saloojee, From Social Exclusion to Social Inclusion, 2011). Only the full title was carried.
 
 ## Citation Info
 

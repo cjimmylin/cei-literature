@@ -62,7 +62,6 @@ twitter: ""
 
 - [[2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the|Advancing Hate Speech Detection with Transformers: Insights from the MetaHate]] (First Author)
 - [[2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ...|INHS Newsletter May 2025 - The International Network for Hate ...]] (First Author)
-- [[2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in|A comprehensive framework for multi-modal hate speech detection in social media using deep learning]] (First Author)
 - [[2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC|A curated dataset for hate speech detection on social media text - PMC]] (First Author)
 - [[2024-Kajiwara-Beyond Traditional Classifiers Evaluating Large Language Models for|Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection]] (First Author)
 - [[2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata|Hate Speech Dataset Catalogue | hatespeechdata]] (First Author)
@@ -99,11 +98,6 @@ twitter: ""
 
 
 
-- *From 2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in*: Affiliation: lability ratio of 98
-- *From 2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in*: Affiliation: lability ratio of 98
-- *From 2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in*: Affiliation: lability ratio of 98
-- *From 2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in*: Affiliation: lability ratio of 98
-- *From 2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in*: Affiliation: lability ratio of 98
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -1,15 +1,15 @@
 ---
-key: CGSR0025
-type: journalArticle
-short_title: "AI Ethics in Africa: Balancing Innovation with Cultural and Social Values"
+key: CGSR0021
+type: conferencePaper
+short_title: "Bridging the AI Governance Gap: Ethical and Regulatory Imperatives for Generative AI in Nigeria"
 year: 2025
-first_author: "[[Nkem E. Nweke]]"
-authors: "Nkem E. Nweke"
-url: "https://www.irejournals.com/formatedpaper/1706316.pdf"
-abstract: "Balancing AI innovation with African cultural and social values"
+first_author: "[[O. Durodola]]"
+authors: "O. Durodola"
+url: "https://papers.academic-conferences.org/index.php/icair/article/view/4129"
+abstract: "AI governance gap analysis for generative AI in Nigeria"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 68
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,11 +22,11 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
+author_country: PH
+author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-last_author: "[[Nkem E. Nweke]]"
+last_author: "[[O. Durodola]]"
 national_ethnic_cultural: African/Ubuntu
 cultures_nationalities_list: African/Ubuntu
 rv_islam: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2025-Unknown-Bridging the AI Governance Gap Ethical.md`; the filename's author part was "Unknown", now the first author in `authors`.

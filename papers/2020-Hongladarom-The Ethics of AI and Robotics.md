@@ -1,7 +1,7 @@
 ---
 key: CGSR0214
 type: document
-short_title: "The Ethics of AI and Robotics"
+short_title: "The Ethics of AI and Robotics: A Buddhist Viewpoint"
 year: 2020
 first_author: "[[Soraj Hongladarom]]"
 authors: "Soraj Hongladarom"
@@ -9,16 +9,16 @@ url: "https://www.semanticscholar.org/paper/cb8e2c43c25fc3a149028bcc4f493269bdc8
 abstract: "Artificial intelligence is the most discussed and arguably the most powerful technology in the world today. The very rapid development of the technology, and its power to change the world, and perhaps..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 90
+virtue_ethics: 30
 deontological_ethics: 0
-utilitarian_ethics: 0
-care_ethics: 0
+utilitarian_ethics: 15
+care_ethics: 15
 contractarian_ethics: 0
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
-nw_buddhist: 0
+nw_buddhist: 50
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
@@ -29,7 +29,7 @@ weird_score: 50
 last_author: "[[Soraj Hongladarom]]"
 rv_islam: 0
 rv_christianity: 0
-rv_buddhism: 0
+rv_buddhism: 50
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
@@ -50,6 +50,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Machine Ethics"
+religious_values: Buddhism
+religious_values_list: Buddhism
 ---
 
 ## Notes

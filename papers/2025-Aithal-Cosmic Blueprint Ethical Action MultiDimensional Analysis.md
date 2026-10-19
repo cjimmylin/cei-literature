@@ -52,9 +52,9 @@ abstract: "Purpose: The purpose of this research case study is to systematically
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: 0
-virtue_ethics: 0
-deontological_ethics: 0
+ethics_overall: 65
+virtue_ethics: 15
+deontological_ethics: 20
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
@@ -76,6 +76,7 @@ author_country: CN
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 36
+ethics_perspective: "Social & Cultural Values"
 ---
 # The Cosmic Blueprint for Ethical Action: A Multi-Dimensional Analysis of Jnana Karma Sannyasa in the Fourth Chapter of Bhagavad Gita
 

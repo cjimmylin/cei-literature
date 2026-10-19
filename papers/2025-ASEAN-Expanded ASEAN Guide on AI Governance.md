@@ -9,7 +9,7 @@ url: "https://asean.org/wp-content/uploads/2025/01/Expanded-ASEAN-Guide-on-AI-Go
 abstract: "Expanded ASEAN AI governance guide addressing generative AI"
 DATE_ADDED: 20260403
 cultural_gap_category: "Southeast Asian"
-ethics_overall: 0
+ethics_overall: 70
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---

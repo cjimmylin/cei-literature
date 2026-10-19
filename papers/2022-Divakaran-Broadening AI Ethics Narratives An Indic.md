@@ -9,11 +9,11 @@ url: "https://www.researchgate.net/publication/359865240_Broadening_AI_Ethics_Na
 abstract: "Indic art and philosophical perspectives broadening AI ethics narratives"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: 0
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
-care_ethics: 0
+care_ethics: 15
 contractarian_ethics: 0
 nw_confucian: 0
 nw_ubuntu: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2022-Unknown-Broadening AI Ethics Narratives An Indic.md`; the filename's author part was "Unknown", now the first author in `authors`.

@@ -9,7 +9,7 @@ url: "https://www.unesco.org/en/articles/ethical-and-inclusive-artificial-intell
 abstract: "20-nation declaration for ethical AI in LAC region"
 DATE_ADDED: 20260403
 cultural_gap_category: "Latin American"
-ethics_overall: 0
+ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---

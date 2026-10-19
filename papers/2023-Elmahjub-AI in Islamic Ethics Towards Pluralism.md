@@ -11,7 +11,7 @@ DATA_URL:
 is_benchmark: No
 is_eval: Yes
 is_dataset: No
-ethics_overall: 0
+ethics_overall: 95
 source: external_search_benchmark_analysis
 date_added: 2026-04-04
 LLM_assessed: No
@@ -26,8 +26,8 @@ first_author: "[[Ezieddin Elmahjub]]"
 last_author: "[[Ezieddin Elmahjub]]"
 url: "https://doi.org/10.1007/s13347-023-00668-x"
 virtue_ethics: 0
-deontological_ethics: 0
-utilitarian_ethics: 0
+deontological_ethics: 15
+utilitarian_ethics: 25
 care_ethics: 0
 contractarian_ethics: 0
 national_ethnic_cultural: Arabic
@@ -56,4 +56,12 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
+DATE_ADDED: 20260403
+type: journalArticle
+cultural_gap_category: Islamic
 ---
+
+## Notes
+
+- Merged duplicate (2026-10-19): `2023-Unknown-Artificial Intelligence AI in Islamic Ethics.md` (key CGSR0064, cultural-gap search 2026-04-03) moved to RECYCLE-BIN/20261019-duplicate-merge/papers/; see logs/20261019c-ethics66-scores-and-fixes.md. Same DOI (10.1007/s13347-023-00668-x). Carried: `DATE_ADDED`, `type`, `cultural_gap_category`. Not carried: its `author_country: CO`, which has no basis.

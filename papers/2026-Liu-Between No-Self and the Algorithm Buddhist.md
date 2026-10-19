@@ -9,8 +9,8 @@ url: "https://www.semanticscholar.org/paper/6a94d98ffa4e8172b8d0ad2608ac35241618
 abstract: "This article explores how Buddhist theories of mind-nature can inform ethical design in artificial intelligence (AI), focusing on AI as a supportive condition for human awakening and self-realization...."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 85
+virtue_ethics: 25
 deontological_ethics: 0
 utilitarian_ethics: 0
 care_ethics: 0
@@ -51,4 +51,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

@@ -9,9 +9,9 @@ url: "https://www.mdpi.com/2504-3900/81/1/136"
 abstract: "Human rights approach to AI governance in Global South"
 DATE_ADDED: 20260403
 cultural_gap_category: "Cross-Cultural Comparative"
-ethics_overall: 0
+ethics_overall: 85
 virtue_ethics: 0
-deontological_ethics: 0
+deontological_ethics: 35
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
@@ -52,4 +52,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2025-Unknown-Ethical Governance of AI in the.md`; the filename's author part was "Unknown", now the first author in `authors`.

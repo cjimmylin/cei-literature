@@ -9,9 +9,9 @@ url: "https://medium.com/@yendesagar/dharma-and-design-ethical-considerations-fo
 abstract: "Hindu philosophical principles (dharma, ahimsa) for AI design"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: 0
-virtue_ethics: 0
-deontological_ethics: 0
+ethics_overall: 80
+virtue_ethics: 10
+deontological_ethics: 25
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
@@ -53,4 +53,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/792d32048667a7f83b92c85196c4e4ae0172
 abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

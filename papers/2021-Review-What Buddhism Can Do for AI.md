@@ -9,10 +9,10 @@ url: "https://www.technologyreview.com/2021/01/06/1015779/what-buddhism-can-do-a
 abstract: "How Buddhist philosophy of suffering reduction and non-attachment can inform AI ethics frameworks"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 85
+virtue_ethics: 10
 deontological_ethics: 0
-utilitarian_ethics: 0
+utilitarian_ethics: 20
 care_ethics: 0
 contractarian_ethics: 0
 nw_confucian: 0
@@ -51,4 +51,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

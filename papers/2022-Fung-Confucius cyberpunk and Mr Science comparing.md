@@ -9,9 +9,9 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207836/"
 abstract: "Comparative analysis of AI ethics principles between China and EU"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: 0
-virtue_ethics: 0
-deontological_ethics: 0
+ethics_overall: 90
+virtue_ethics: 25
+deontological_ethics: 20
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
@@ -53,4 +53,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2022-Unknown-Confucius cyberpunk and Mr Science comparing.md`; the filename's author part was "Unknown", now the first author in `authors`.

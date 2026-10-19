@@ -9,7 +9,7 @@ url: "https://arxiv.org/pdf/2505.21542"
 abstract: "Cultural co-genesis framework for AI ethics across traditions"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: 0
+ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -53,4 +53,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

@@ -52,10 +52,10 @@ abstract: "Purpose: The purpose of this research case study is to critically re-
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
-deontological_ethics: 0
-utilitarian_ethics: 0
+deontological_ethics: 15
+utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
 is_benchmark: Unknown
@@ -76,6 +76,7 @@ author_country: CN
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 36
+ethics_perspective: "Social & Cultural Values"
 ---
 # Arjuna's Dilemma as a Universal Paradigm: A Multi-Framework Analysis of Ethics, Impact, and Future Pathways in the First Chapter of the Bhagavad Gita
 

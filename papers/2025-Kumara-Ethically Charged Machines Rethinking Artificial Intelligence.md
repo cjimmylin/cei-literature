@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/e9fb955e44175578e03065943340ab8fb2db
 abstract: "The long-debated philosophical dilemmas such as ethics, consciousness, and free-will have become of considerable interest among the philosophers and scientists alike who work on artificial intelligenc..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: 0
+ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -53,4 +53,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

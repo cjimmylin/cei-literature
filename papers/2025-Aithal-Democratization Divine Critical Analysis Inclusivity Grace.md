@@ -52,7 +52,7 @@ abstract: "Purpose: The purpose of this research case study is to critically ana
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: 0
+ethics_overall: 70
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -76,6 +76,7 @@ author_country: CN
 author_region: "East Asia"
 author_global_north_south: Ambiguous
 weird_score: 36
+ethics_perspective: "Social & Cultural Values"
 ---
 # The Democratization of the Divine: A Critical Analysis of Inclusivity, Grace, and Social Ethics in Chapter Nine of the Bhagavad Gita through Raja Vidya Raja Guhya Yoga
 

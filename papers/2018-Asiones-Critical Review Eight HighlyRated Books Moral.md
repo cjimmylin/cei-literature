@@ -52,8 +52,8 @@ abstract: "This paper reviews eight highly-rated books on Moral Theology to find
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 82
+virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
@@ -76,6 +76,7 @@ author_country: Unknown
 author_region: Unknown
 author_global_north_south: Unknown
 weird_score: 55
+ethics_perspective: "Social & Cultural Values"
 ---
 # Critical Review of Eight Highly-Rated Books on Moral Theology: Finding a Common Ground For an Ethics Education Program
 

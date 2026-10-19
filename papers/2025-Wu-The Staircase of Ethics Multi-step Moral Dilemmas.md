@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: EXSR0131
 type: conferencePaper
-short_title: "The Staircase of Ethics (Multi-step Moral Dilemmas)"
+short_title: "The Staircase of Ethics: Probing LLM Value Priorities through Multi-Step Induction to Complex Moral Dilemmas"
 year: 2025
 first_author: "[[Wu, Ya]]"
 last_author: "[[Cao, Juan]]"
@@ -54,11 +54,11 @@ DATA_URL: "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: 100
 virtue_ethics: 0
-deontological_ethics: 50
-utilitarian_ethics: 50
+deontological_ethics: 15
+utilitarian_ethics: 20
 contractarian_ethics: 0
 care_ethics: 0
-ethics_perspective: "General Ethics"
+ethics_perspective: "Moral Reasoning & Psychology"
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -110,6 +110,8 @@ The Multi-step Moral Dilemmas (MMDs) dataset containing 3,302 five-stage moral d
 
 
 ## Notes
+
+- Merged duplicate (2026-10-19): `2025-Unknown-Staircase Ethics Probing LLM Value Priorities.md` (key EXSR0686, moral-psych external search 2026-04-04) moved to RECYCLE-BIN/20261019-duplicate-merge/papers/; see logs/20261019c-ethics66-scores-and-fixes.md. Same paper (EMNLP 2025, ACL Anthology https://aclanthology.org/2025.emnlp-main.806/). Carried: full `short_title`. Corrected from this note's own extract: `deontological_ethics` 50 → 15 and `utilitarian_ethics` 50 → 20 (the paper builds on Moral Foundations and Schwartz values and names these frameworks only in passing), so `ethics_perspective` General Ethics → Moral Reasoning & Psychology.
 
 **Source:** Exhaustive Literature Search (2026-02-07), Agent 19, Agent 1
 **Implementation Readiness:** HIGH

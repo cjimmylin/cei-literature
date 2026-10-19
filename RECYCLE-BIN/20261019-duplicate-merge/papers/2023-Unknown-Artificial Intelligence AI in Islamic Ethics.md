@@ -9,10 +9,10 @@ url: "https://link.springer.com/article/10.1007/s13347-023-00668-x"
 abstract: "Pluralist AI ethics benchmarking from Islamic perspective"
 DATE_ADDED: 20260403
 cultural_gap_category: Islamic
-ethics_overall: 0
+ethics_overall: 95
 virtue_ethics: 0
-deontological_ethics: 0
-utilitarian_ethics: 0
+deontological_ethics: 15
+utilitarian_ethics: 25
 care_ethics: 0
 contractarian_ethics: 0
 nw_confucian: 0
@@ -53,4 +53,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

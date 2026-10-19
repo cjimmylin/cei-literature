@@ -9,11 +9,11 @@ url: "https://www.cambridge.org/core/journals/data-and-policy/article/are-certai
 abstract: "How Afro-communitarianism and human dignity values are threatened by corporate AI"
 DATE_ADDED: 20260403
 cultural_gap_category: African
-ethics_overall: 0
+ethics_overall: 88
 virtue_ethics: 0
-deontological_ethics: 0
+deontological_ethics: 15
 utilitarian_ethics: 0
-care_ethics: 0
+care_ethics: 10
 contractarian_ethics: 0
 nw_confucian: 0
 nw_ubuntu: 20
@@ -53,4 +53,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2024-Unknown-Are certain African ethical values at.md`; the filename's author part was "Unknown", now the first author in `authors`.

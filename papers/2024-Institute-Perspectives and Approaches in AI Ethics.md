@@ -9,7 +9,7 @@ url: "https://montrealethics.ai/perspectives-and-approaches-in-ai-ethics-east-as
 abstract: "Research summary of East Asian approaches to AI ethics"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: 0
+ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Responsible AI"
 ---

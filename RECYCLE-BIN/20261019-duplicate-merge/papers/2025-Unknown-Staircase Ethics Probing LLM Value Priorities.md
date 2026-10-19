@@ -52,10 +52,10 @@ abstract: "Multi-step moral dilemma framework requiring models to update moral v
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: N/A
-ethics_overall: 0
+ethics_overall: 92
 virtue_ethics: 0
-deontological_ethics: 0
-utilitarian_ethics: 0
+deontological_ethics: 15
+utilitarian_ethics: 20
 contractarian_ethics: 0
 care_ethics: 0
 nw_confucian: 0
@@ -72,6 +72,7 @@ is_eval: Unknown
 is_dataset: Unknown
 data_description: 
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # The Staircase of Ethics: Probing LLM Value Priorities through Multi-Step Induction to Complex Moral Dilemmas
 

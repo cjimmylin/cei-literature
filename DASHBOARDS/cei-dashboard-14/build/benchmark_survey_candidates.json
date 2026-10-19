@@ -10489,22 +10489,6 @@
   "source": "v14 new-paper review"
  },
  {
-  "filename": "2025-Unknown-Staircase Ethics Probing LLM Value Priorities.md",
-  "decision": "Yes",
-  "reasoning": "Introduces a multi-step moral dilemma evaluation that probes how LLM moral value priorities shift across sequential, escalating dilemma stages; a moral reasoning benchmark at EMNLP 2025.",
-  "benchmark_name": "Staircase of Ethics multi-step moral dilemmas",
-  "what_measures": "LLM moral value priorities and how they are updated as moral dilemmas escalate in complexity over sequential stages.",
-  "how_measures": "Sequential multi-stage moral dilemmas requiring models to update moral value priors at each stage; size and scoring not specified in the file.",
-  "dataset_size": "Not specified",
-  "models_evaluated": "",
-  "availability": "Not stated",
-  "data_type": "benchmark",
-  "cultural_scope": "General",
-  "pluralistic_relevance": "Partial",
-  "is_public": false,
-  "source": "v14 new-paper review"
- },
- {
   "filename": "2025-Unknown-中文大模型内容安全测评基准DSPSafeBench上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN.md",
   "decision": "Yes",
   "reasoning": "Introduces DSPSafeBench, a Chinese LLM content safety evaluation benchmark covering 5 primary safety dimensions and 30 secondary safety tasks with 2,133 evaluation items, designed with reference to Chinese national standards.",

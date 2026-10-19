@@ -9,11 +9,11 @@ url: "https://scholars.cityu.edu.hk/en/publications/confucian-philosophy-revital
 abstract: "Confucian interpersonal ethics applied to AI era challenges"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 85
+virtue_ethics: 20
 deontological_ethics: 0
 utilitarian_ethics: 0
-care_ethics: 0
+care_ethics: 15
 contractarian_ethics: 0
 nw_confucian: 65
 nw_ubuntu: 0
@@ -53,4 +53,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

@@ -9,11 +9,11 @@ url: "https://www.academia.edu/127636733/Confucian_Role_Ethics_and_Artificial_In
 abstract: "Confucian role ethics (ren, yi, xiao) applied to AI analysis"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 90
+virtue_ethics: 30
 deontological_ethics: 0
 utilitarian_ethics: 0
-care_ethics: 0
+care_ethics: 20
 contractarian_ethics: 0
 nw_confucian: 100
 nw_ubuntu: 0
@@ -53,4 +53,9 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---
+
+## Notes
+
+- 2026-10-19: renamed from `2024-Unknown-Confucian Role Ethics and Artificial Intelligence.md`; the filename's author part was "Unknown", now the first author in `authors`.

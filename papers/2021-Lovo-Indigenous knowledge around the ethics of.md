@@ -9,12 +9,12 @@ url: "https://www.semanticscholar.org/paper/9df74f0f66c4958ae0a9af5744ec4ed1c2c9
 abstract: "Many indigenous people have died or been harmed because of inadequately monitored research. Strong regulations in Human Research Ethics (HRE) are required to address these injustices and to ensure tha..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: 85
 virtue_ethics: 0
-deontological_ethics: 0
+deontological_ethics: 15
 utilitarian_ethics: 0
-care_ethics: 0
-contractarian_ethics: 0
+care_ethics: 10
+contractarian_ethics: 10
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

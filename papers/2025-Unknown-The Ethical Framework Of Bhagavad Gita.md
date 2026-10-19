@@ -9,9 +9,9 @@ url: "https://nano-ntp.com/index.php/nano/article/download/5850/4716/11545"
 abstract: "Bhagavad Gita nishkama karma ethics applied to AI systems"
 DATE_ADDED: 20260403
 cultural_gap_category: Hindu/Dharmic
-ethics_overall: 0
-virtue_ethics: 0
-deontological_ethics: 0
+ethics_overall: 85
+virtue_ethics: 15
+deontological_ethics: 35
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
@@ -52,4 +52,5 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
+ethics_perspective: "Social & Cultural Values"
 ---

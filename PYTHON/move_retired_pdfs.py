@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Move the PDFs of notes retired or unlinked on 2026-10-18 into the PDF folder's RECYCLE-BIN.
+"""Move the PDFs of notes retired or unlinked on 2026-10-18/19 into the PDF folder's RECYCLE-BIN.
 
 The PDF folder lives outside the repo (see .vault-config.json / VAULT_PDF_PATH), so the
-2026-10-18 cleanup could not move these files itself:
+2026-10-18/19 cleanup could not move these files itself:
 
 - 2 duplicates retired by the duplicate merge (logs/20261018-duplicate-merge.md)
 - 3 PDFs that were a different paper than their note (logs/20261018-junk-abstracts.md)
+- 1 more wrong paper and 2 ScienceDirect error pages (logs/20261019-small-data-fixes.md)
 
 Each file is looked up by name anywhere under the PDF folder (stray copies in subfolders
 included) and moved, never deleted, to <PDF folder>/RECYCLE-BIN/20261018-retired-pdfs/,
@@ -34,6 +35,12 @@ RETIRED = {
         "wrong paper: 'Is ChatGPT a Good NLG Evaluator?' (Wang et al. 2023)",
     "2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.pdf":
         "wrong paper: gender bias in chemical NER (Zhao et al., arXiv 2212.12799)",
+    "2024-Conitzer-Social Choice for AI Alignment.pdf":
+        "wrong paper: arXiv 2404.10000, DC Stark resonances for the ammonia molecule (Pirkola & Horbatsch)",
+    "2025-Hui-Decoding Moral Responses in AI.pdf":
+        "not a paper: ScienceDirect error page",
+    "2022-Zhang-Artificial Intelligence and Moral Dilemmas.pdf":
+        "not a paper: ScienceDirect error page",
 }
 DEST = Path("RECYCLE-BIN") / "20261018-retired-pdfs"
 

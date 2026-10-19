@@ -47,10 +47,10 @@ newtags: "Utilitarianism, Deontology, AI Perception, Warmth-Competence, Moral Di
 key_contribution: "Demonstrates that people perceive AI as more likely to make utilitarian choices than humans, with perceived warmth accounting for differences"
 significance: "Foundational empirical work (N=804) showing AI perceived as high competence/low warmth favoring utilitarianism vs humans with high warmth/low competence favoring deontology"
 tags: 
-pdf_extract: "PDF Extracts/2022/2022-Zhang-Artificial Intelligence and Moral Dilemmas.md"
+pdf_extract: 
 abstract: "Artificial intelligence (AI) has become deeply integrated into daily life; thus, it is important to examine how people perceive AI as it functions as a decision-maker, especially in situations involving moral dilemmas. Across four studies (N = 804), we found that people perceive AI as more likely to make utilitarian choices than human beings are. Perceived warmth accounts for people's perceived differences in decision making between human beings and AI."
 paper_summary: 
-local_pdf: "[[Lit-WS-PDFs/2022/2022-Zhang-Artificial Intelligence and Moral Dilemmas.pdf]]"
+local_pdf: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA

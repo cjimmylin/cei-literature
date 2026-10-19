@@ -12,7 +12,7 @@ last_author: "[[Rui Sun]]"
 authors: "Bryant P.H. Hui; Chiu Lun Lau; Rui Sun"
 doi: 10.1016/j.chbr.2025.100854
 url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
-external_pdf: "https://www.sciencedirect.com/science/article/pii/S2451958825002696/pdfft?md5=c8e7d7c8c8c8c8c8c8c8c8c8c8c8c8c8&pid=1-s2.0-S2451958825002696-main.pdf"
+external_pdf: N/A
 publication: "Computers in Human Behavior Reports"
 CONF-CC: "Computers in Human Behavior"
 national_ethnic_cultural: N/A
@@ -47,10 +47,10 @@ newtags: "Utilitarianism, Moral Dilemmas, LLM Evaluation"
 key_contribution: "Systematic quantitative comparison of seven LLMs on moral dilemmas showing utilitarian tendencies in impersonal contexts"
 significance: "Demonstrates that LLMs exhibit human-like patterns in moral reasoning but diverge in emotional/personal contexts"
 tags: 
-pdf_extract: "PDF Extracts/2025/2025-Hui-Decoding Moral Responses in AI.md"
+pdf_extract: 
 abstract: "Despite the proliferation of powerful large language models (LLMs), there remains a need for systematic, quantitative comparisons of their responses to moral dilemmas. This study builds on advances in AI ethics by systematically comparing the moral response patterns of seven LLMs, including GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude 3.7 Sonnet, Grok 3, and Gemini 2.5 Pro. Each LLM was presented with a series of moral dilemmas, both personal and impersonal, under three conditions: no rule, a deontolo..."
 paper_summary: 
-local_pdf: "[[Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf]]"
+local_pdf: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude 3.7 Sonnet, Grok 3, Gemini 2.5 Pro"
 DATA_URL: NA
@@ -96,7 +96,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[Lit-WS-PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf|Open PDF]]
+- **Local PDF:** none. The file under this note's name is a ScienceDirect error page, not the paper; unlinked 2026-10-19. The article is open access at the DOI.
 
 - **URL:** https://www.sciencedirect.com/science/article/pii/S2451958825002696
 - **DOI:** https://doi.org/10.1016/j.chbr.2025.100854
@@ -159,6 +159,7 @@ This study systematically compares the moral response patterns of seven LLMs on 
 
 - Merged duplicate (2026-10-18): `2025-Hendra-Decoding Moral Responses in AI.md` (key EXSR0693, moral-psych external search v2, 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
 - Merged duplicate (2026-10-18): `2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md` (key EXSR0039, Exhaustive Literature Search 2026-02-07) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Nothing was carried from it: its authors, abstract, PDF and extract were a different paper (SocialSense, Chenkai Sun et al., EMNLP 2023, arXiv 2310.13297).
+- 2026-10-19: local PDF and both extracts were a ScienceDirect error page (extracts recycled to RECYCLE-BIN/20261019-wrong-pdf-extracts/); `external_pdf` held a made-up `md5` (c8e7d7c8c8…) and is now N/A. Author list unconfirmed: the retired Hendra note added Ray LC and Latisha Besariani Hendra; check the publisher page before adding them.
 
 
 

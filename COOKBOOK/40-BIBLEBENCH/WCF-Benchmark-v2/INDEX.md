@@ -28,7 +28,8 @@ tier labels were corrected in a superseding paper file,
 `reports/20261018-session21-v1x-paper-draft.md`: they are parallel tier-2 formats within three
 item families, not difficulty sub-levels. The s20 draft is kept unchanged, and no number changed.
 Its build script is `reports/20261018-session21-build-pdf.py`. The s21 PDF was **not** built,
-because typst was unavailable in that session. Second, the project was formally parked. Nothing
+because typst was unavailable in that session. (It was built later on 2026-10-18 by another session, using the typst Python package:
+12 pages, sent to the owner. Like the s20 PDF it is gitignored and disk-only.) Second, the project was formally parked. Nothing
 is queued, and nothing has been committed since s20.
 **Entry point: `20261018-session21-PARKED-reentry-prompt.md`.** It records what is final and
 quotable, where the artifacts are, the directions deliberately left with their reasons (including

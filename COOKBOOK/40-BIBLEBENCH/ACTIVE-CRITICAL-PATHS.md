@@ -2,9 +2,18 @@
 
 **Status:** Living portfolio execution surface; edit in place.
 
-**Last updated:** 2026-07-15 by Codex.
+**Last updated:** 2026-10-19 by Claude Code (status record for the two v2 tracks; the three July contracts are unchanged).
 
 This register defines the current paper-facing contract for active work under `40-BIBLEBENCH/`. It does not rewrite dated handoffs. Local benchmark state remains authoritative for run custody, frozen surfaces, and benchmark-specific gates; this register controls portfolio priority and stopping rules.
+
+## Portfolio status note (2026-10-19)
+
+The three contracts below (consolidated pilot, WALKWORTHY v1, WCF v1 PPP-1) are unchanged since
+2026-07-15; no later activity is recorded for them in the repo. Work since mid-July has happened in
+two sibling tracks that were never registered here: **WCF-Bench-v2** (`WCF-Benchmark-v2/`) and
+**WALKWORTHY v4** (`Christian-Ethics-Benchmark-v2/`). Their sections at the end of this file record
+their state from their own ruling ledgers and owner choices of 2026-10-18. They are a status record,
+not new owner rulings; each local ledger stays authoritative for its track.
 
 ## Consolidated BibleBench pilot — FruitBench, CORINTHLOVE, 10CBench, SermonMount
 
@@ -90,6 +99,60 @@ This register defines the current paper-facing contract for active work under `4
 - Open P1: the live roster/pricing question is closed by the immutable zero-paid packet; the remaining owner gate is the `$5.00` ceiling conflict plus exact branch/paid-run authorization.
 - Deferred P2: additional judge/model robustness and perturbation work that cannot change the narrowed preview conclusions.
 - Deferred P3: release, leaderboard, and production-hardening polish.
+
+## WCF-Bench-v2 — PARKED
+
+- `paper_claim_enabled`: The quotable s19 results (5 SUTs × 345 items × 3 epochs = 5,175 responses, frozen strict-v2 Opus + GPT-5.6-Sol judge panel, ICC(2,1) = 0.985) support a v1.x paper: a three-tier ranking with {gpt-5-mini, minimax-m3, qwen} tied at the top, a frontier core 11–21 points harder for every SUT, the judge-gap triage, and the disclosures in the paper's Section 5. Sessions 1–18 stay EXPLORATORY.
+- `paper_deliverable`: Delivered: `WCF-Benchmark-v2/reports/20261018-session21-v1x-paper-draft.md` (supersedes the owner-accepted s20 draft; T2a/T2b tier labels corrected, no number changed) and its 12-page PDF, built 2026-10-18 after parking and sent to the owner (gitignored, disk-only; save it under `reports/`).
+- `blocking_reason`: Parked by owner decision on 2026-10-18. Nothing is queued.
+- `minimum_sufficiency_gate`: Met for the parked v1.x draft. Before any external version, add the open judge/vendor-overlap disclosure (re-entry prompt §3) in a new superseding paper file.
+- `timebox`: None while parked.
+- `stop_condition`: Stopped. Re-entry needs a new owner instruction that names one direction from re-entry prompt §3 (venue and submission prep, larger roster, MEND-N-018 fix, model-vs-bank ceiling).
+- `deferred_nonblocking_work`: Venue/DOI/author list (owner-only), a larger or premium SUT roster (not funded), the MEND-N-018 rubric fix (would unfreeze bank v2.5), and the model-ceiling question.
+- `owner_approved_exception`: none. Owner choice of 2026-10-18: "#4 then park" (session-21 directions #4 and #6).
+
+### Current paper-track status
+
+- Manuscript: the s21 v1.x draft is current; venue-generic, no venue, DOI or author list.
+- Executable bank: v2.5 frozen, 345 scored items; instrument strict-v2 frozen; single-packet judging only.
+- Evidence: Scenario A full run complete; s19 report is the only quotable source.
+- PDF: s21 PDF built (12 pages); s20 PDF (2026-07-31) also disk-only.
+- Spend: $0 in session 21. Full-run SUT spend was about $28.20 of a $70 cap; judges $0 via subscription channels.
+- Local authority: `WCF-Benchmark-v2/20261018-session21-PARKED-reentry-prompt.md` and `WCF-Benchmark-v2/INDEX.md`.
+- Next session: none until the owner names a direction.
+
+### Review disposition
+
+- Open P0: none recorded.
+- Open P1: none while parked. The judge/vendor-overlap disclosure gates any external version.
+- Deferred P2/P3: as in re-entry prompt §3.
+
+## WALKWORTHY v4 (Christian-Ethics-Benchmark-v2) — judge re-judge package authorized, awaiting the owner's run
+
+- `paper_claim_enabled`: None yet from v4. Every v4 number so far is a diagnostic, not a WALKWORTHY number. v4's first claim needs a repaired instrument that shows discrimination on public data, which is also the condition for lifting the holdout quarantine (`RULINGS-APPLIED-20260729b`). The phase-7 v2 manuscripts (`REPORTS/20260725-manuscripts/`) are unchanged.
+- `paper_deliverable`: A dated execution report of the re-judge package, read against the pre-committed read-outs `20261018d-rejudge-precommitted-readouts.md`, which returns the judging-architecture choice (D1) to the owner.
+- `blocking_reason`: The two pinned judges (judge-A `openai/gpt-4.1-nano`, judge-B `meta-llama/llama-3.3-70b-instruct`) do not share a reading of the constructs (memo `20261018a` §1: d02 modal hold-read agreement in 9 of 81 cells; the d01 tier gradient seen by judge-A only; d07 q2 κ 0.282), and the ratified gates rest on their agreement. The re-judge package is the authorized test. It must run on the owner's machine, which holds the gitignored stored responses (`logs/widegap-probe-20260731/` and the other run trees).
+- `minimum_sufficiency_gate`: Stage 0 committed before any paid call (done: `42a1d23b`, merged to `main` in `9885ab3e`). Dry run prints "DRY RUN OK". The live run re-verifies launch prices, starts each paid block with a calibration micro-run, makes zero SUT calls, never reads the holdout, and stays within $3.00 projected and actual.
+- `timebox`: One owner-run live package (dry-run projection about $0.68, an estimate) and one report-writing session on its outputs (`summary.json`, `package_tally.json`, `run.log`, READ-OUTS).
+- `stop_condition`: Stop after the execution report for the owner's D1 architecture choice. Stop earlier at a printed STOPPED (read `run.log` before any re-run), a projection over the remaining budget, or a tool error.
+- `deferred_nonblocking_work`: D3 (d02's v4.0 scope), D4 (B1+B2 scale, about $180–230, still deferred), D5 (freeze-review conventions), D6 (holdout git history), D7 (P-COMMITMENT), the v4-A authoring remainder (d03/d04/d08/d10), and the optional $0 referee arm (Stage 3, needs an owner direction).
+- `owner_approved_exception`: `RULINGS-APPLIED-20261018b` (owner choices of 2026-10-18: D1 "Authorize at $3 ceiling"; D2 "[No preference]", so the coordinating session chose `qwen/qwen3-235b-a22b-2507` as candidate judge-C). It authorizes only the re-judge package on stored responses.
+
+### Current paper-track status
+
+- Manuscript: no v4 manuscript; the v2 phase-7 manuscripts are unchanged.
+- Executable bank: v4-A $0 block largely executed (`20260802g`); authoring remainder d03/d04/d08/d10 open.
+- Evidence: diagnostics only (v4-C $7.51 of $30, d02 re-pilot, v4-T tier probe at $0.1168 of $1.00).
+- PDF: none for v4.
+- Spend: $0 of the $3.00 re-judge ceiling; no live run yet.
+- Local authority: `Christian-Ethics-Benchmark-v2/RULINGS-APPLIED-20261018b.md` (run guide), `20261018a-v4-judge-decision-options-memo.md`, and the entry point `20260806a-boot-prompt-v4a-authoring-remainder.md`.
+- Next session: after the owner's live run returns its four outputs, write the execution report against `20261018d`.
+
+### Review disposition
+
+- Open P0: none recorded.
+- Open P1: the judge construct split, under test by the authorized package.
+- Deferred P2/P3: D3–D7 and B-phase scale, all owner decisions.
 
 ## Registration rule for future benchmarks
 

@@ -10839,16 +10839,6 @@
   "cultural_scope": "Sri Lankan, Sinhala, Theravada Buddhism"
  },
  {
-  "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
-  "decision": "Yes",
-  "reasoning": "Duplicate entry for the BuddhismEval benchmark (same benchmark, different vault entry). Bilingual evaluation benchmark for Buddhist ethics and reasoning with Sinhala MCQ, English MCQ, and Dhammapada Parallel Corpus components.",
-  "benchmark_name": "BuddhismEval",
-  "what_measures": "LLM understanding of Buddhist ethical reasoning and philosophical understanding in English and Sinhala",
-  "data_type": "benchmark",
-  "is_public": true,
-  "cultural_scope": "Sri Lankan, Sinhala, Theravada Buddhism"
- },
- {
   "filename": "2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
   "decision": "Yes",
   "reasoning": "The paper introduces SOBACO (SOcial BiAs and Cultural cOmmonsense), a Japanese benchmark evaluating social biases and cultural commonsense in LLMs across age, gender, and hierarchical relationships. It directly measures the tension between bias mitigation and cultural value preservation.",

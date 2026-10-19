@@ -43,7 +43,7 @@ moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Proposes 'Virtue Ethics by Design' (VED), a framework for embedding basic (justice, honesty) and second-order (prudence, fortitude) virtues directly into AGI architectures"
 significance: "Offers a proactive design methodology for superintelligence safety, arguing that virtue-oriented algorithmic design is a precondition for accountability in ASI"
-abstract: "This chapter explores the ethical challenges arising from the rapid advancements in Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). It suggests that the direct integration of virtue ethics into AI architectures—termed \"
+abstract: "This chapter explores the ethical challenges arising from the rapid advancements in Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). It suggests that the direct integration of virtue ethics into AI architectures—termed \"Virtue Ethics by Design\" (VED)—is a promising path for ensuring moral accountability in superintelligent systems. The chapter defines \"basic AI virtues\" (justice, honesty, responsibility, care) and \"second-order AI virtues\" (prudence, fortitude) as essential preconditions for ethical decision-making in AGI. It discusses how virtues can be embedded into AI through specialized data curation, virtue-oriented algorithmic design, and adaptive ethical testing frameworks."
 CONF-CC: "Lecture notes in networks and systems 2025"
 DATE_ADDED: 20260208
 LLM_assessed: NA

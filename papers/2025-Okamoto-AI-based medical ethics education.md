@@ -44,7 +44,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Proposes using 'v-rules' (virtue-based instructions) to guide LLMs in modeling virtuous behaviors for medical ethics education"
 significance: "Explores the potential of LLMs not just as information sources but as tools for cultivating practical wisdom and moral character in professionals"
 osint_source: "Recovered via HTML"
-abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"
+abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"v-rules\" (e.g., \"act compassionately,\" \"act with **courage**\") to enable them to model **virtuous** behaviors in ethical discussions and scenarios. The study explores how LLMs can serve as tools for cultivating **practical wisdom** (**phronesis**), empathy, and other core **virtues** in medical students and practitioners, thereby contributing to the development of **moral character** in healthcare professionals."
 CONF-CC: "BMC Medical Education"
 DATE_ADDED: 20260129
 LLM_assessed: ChatGPT

@@ -58,7 +58,7 @@ twitter: ""
 
 
 
-- [[2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”|1 Decolonizing NLP for 'Low-resource Languages']] (Last Author)
+- [[2023-Ògúnrẹ̀mí-Decolonizing NLP for 'Low-resource Languages' Applying Abebe|Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics]] (Last Author)
 
 ## External Links & Profiles
 

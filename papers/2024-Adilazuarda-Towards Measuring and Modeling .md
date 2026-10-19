@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 7SYVF7GD
 type: conferencePaper
-short_title: "Towards Measuring and Modeling \"
+short_title: "Towards Measuring and Modeling \"Culture\" in LLMs: A Survey"
 year: 2024
 first_author: "[[Muhammad Farid Adilazuarda]]"
 last_author: "[[Monojit Choudhury]]"

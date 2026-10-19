@@ -24,6 +24,7 @@ Tolúlọpẹ́ Ògúnrẹ̀mí is a PhD student in the Stanford Computer Scienc
 
 
 
+- [[2023-Ògúnrẹ̀mí-Decolonizing NLP for 'Low-resource Languages' Applying Abebe|Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics]] (First Author)
 - [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus|ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus]] (First Author)
 
 ## Notes

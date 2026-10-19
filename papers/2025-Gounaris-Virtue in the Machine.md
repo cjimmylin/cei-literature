@@ -46,7 +46,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Proposes a virtue-based 'AI Seal of Excellence' certification process grounded in Aristotelian ethics (arete) for low-risk AI systems"
 significance: "Offers a specific regulatory implementation of virtue ethics, contrasting it with the data-centric focus of the EU AI Act"
 external_pdf: "https://alkisgounaris.gr/downloads/stories/stories_0132_1942_1_en.pdf"
-abstract: "This article explores the application of **Aristotelian virtue** (**arete**), defined as a quality of excellence, to AI systems under the EU Artificial Intelligence Act. The authors argue that while existing regulations often focus on \"
+abstract: "This article explores the application of **Aristotelian virtue** (**arete**), defined as a quality of excellence, to AI systems under the EU Artificial Intelligence Act. The authors argue that while existing regulations often focus on \"ethical data\" and prima facie values (Rossian paradigm), **virtue ethics** provides a superior framework for the design, training, and operation of low-risk AI systems. The research concludes by proposing a **virtue-based** \"AI Seal of Excellence\" certification process to promote the **virtuous** use of AI systems, aiming for a **character-driven** approach to alignment."
 CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA

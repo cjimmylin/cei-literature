@@ -22,4 +22,3 @@ semantic_scholar: ""
 
 
 - [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist|BuddhismEval A Bilingual Benchmark for Buddhist]] (First Author)
-- [[2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist|BuddhismEval Bilingual Evaluation Benchmark for Buddhist]] (First Author)

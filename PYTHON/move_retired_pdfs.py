@@ -44,6 +44,10 @@ RETIRED = {
         "not a paper: ScienceDirect error page",
     "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf":
         "wrong paper (Saloojee & Saloojee 2011, social inclusion); its note was retired as a duplicate of Gwagwa et al.",
+    "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf":
+        "wrong paper: an education encyclopedia index; its note was retired as a duplicate of the kept BuddhismEval note",
+    "2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.pdf":
+        "duplicate merge: same GRACE article as the kept 2023-Ògúnrẹ̀mí note",
 }
 DEST = Path("RECYCLE-BIN") / "20261018-retired-pdfs"
 

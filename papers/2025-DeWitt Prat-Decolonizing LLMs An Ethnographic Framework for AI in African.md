@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "This paper examines LLM deployment through African lenses that engage content's complex social, technological, and linguistic landscape. We propose an adaptable framework for LLM research based on an extensive synthesis of research literature and our primary research in Ethiopia, Ghana, Kenya, Nigeria, and South Africa. Our work unearths instances where LLMs could perpetuate digital colonialism or exacerbate existing sociopolitical tensions, as well as how they are contested and adapted. We emphasize the imperative for an embodied ethnographic approach that engages the inherently fluid, flexible, and multicultural nature of language, and connects LLM technologies with the complex social contexts in which it is built and deployed."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

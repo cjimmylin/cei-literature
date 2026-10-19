@@ -48,7 +48,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "The development of parallel audio corpora for Turkic languages, such as Kazakh, Uzbek, and Tatar, remains a significant challenge in the development of multilingual speech synthesis, recognition systems, and machine translation. These languages are low-resource in speech technologies, lacking sufficiently large audio datasets with aligned transcriptions that are crucial for modern recognition, synthesis, and understanding systems. This article presents the development and experimental evaluation of a speech corpus focused on Turkic languages, intended for use in speech synthesis and automatic translation tasks. The primary objective is to create parallel audio corpora using a cascade generation method, which combines artificial intelligence and text-to-speech (TTS) technologies to generate both audio and text, and to evaluate the quality and suitability of the generated data. To evaluate the quality of synthesized speech, metrics measuring naturalness, intonation, expressiveness, and linguistic adequacy were applied. As a result, a multimodal (Kazakh–Turkish, Kazakh–Tatar, Kazakh–Uzbek) corpus was created, combining high-quality natural Kazakh audio with transcription and translation, along with synthetic audio in Turkish, Tatar, and Uzbek. These corpora offer a unique resource for speech and text processing research, enabling the integration of ASR, MT, TTS, and speech-to-speech translation (STS)."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

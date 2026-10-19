@@ -48,7 +48,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "The paper aims to address large language models’ (LLMs) cultural bias using the World Value Survey Wave 7 (WVS) questionnaire on social values, attitudes, and stereotypes. Comparative analysis and LLMs interview methods measure the Euclidean distance of response vectors of four culturally diverse LLMs (USA, China, Russia, UAE) in a multidimensional vector space to contrast originated WVS research countries and population positions. The results confirmed the initial hypotheses reflecting culturally and linguistically biased LLM answers, considering specific socio-cultural contexts and English language and Latin script digital dominance in available training materials. USA-constructed LLMs showed the most liberal attitudes, followed by China, Russia, and the UAE. LLM interview results also show WVS results closest to the United States population, positioning the similarity of the responses in first place for China and Russia followed by the USA and the UAE. Mitigating initiatives in LLMs’ cultural and linguistic debiasing is required to preserve cultural and linguistic diversity in the digital space."
 CONFERENCE: "Other Conference"
 ethics_overall: 65
 virtue_ethics: 0

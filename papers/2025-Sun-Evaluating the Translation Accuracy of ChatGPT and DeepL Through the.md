@@ -48,7 +48,7 @@ newtags:
 LLM_assessed: ChatGPT
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "This research aims to offer deeper insights into the translation quality of large language models and neural machine translation systems. It compares the performance of two state-of-the-art models, ChatGPT and DeepL, to explore which system achieves higher translation accuracy. This research employs a highly focused and specialized method to evaluate translation performance, enabling the identification of nuanced differences between advanced AI/machine models. It focuses on implied subjects in contemporary Chinese writer Qiuyu Yu’s Iraq travelogue and examines how the two models handle these implied subjects when translating the text into English. The analysis shows that both ChatGPT and DeepL exhibit high-level intelligence when dealing with the implied subjects. They can flexibly adjust sentence structures to maintain the implicitness or to make the implied subjects explicit. The analysis further reveals that ChatGPT performs better in accurately inferring the implied subjects, which thereby reflects ChatGPT’s superior contextual understanding capability. The comparison of the source text and target texts also shows that ChatGPT’s translation is more succinct, nuanced, and easier to read. DeepL’s translation, by comparison, prioritizes reducing potential misunderstanding. This research tentatively concludes that, though not specialized for translation, ChatGPT translates with higher accuracy and demonstrates more sophisticated intelligence compared to DeepL when translating literary texts."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

@@ -8,8 +8,8 @@ type: journalArticle
 short_title: "Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models"
 year: 2025
 first_author: "[[Bryant P.H. Hui]]"
-last_author: "[[Rui Sun]]"
-authors: "Bryant P.H. Hui; Chiu Lun Lau; Rui Sun"
+last_author: "[[Aleksandr Kogan]]"
+authors: "Bryant P.H. Hui; Chiu Lun Lau; Rui Sun; Ray LC; Latisha Besariani Hendra; Aleksandr Kogan"
 doi: 10.1016/j.chbr.2025.100854
 url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
 external_pdf: N/A
@@ -84,7 +84,7 @@ data_metrics: "Not specified"
 
 ## Metadata
 
-**Authors:** Bryant P.H. Hui; Chiu Lun Lau; Rui Sun
+**Authors:** Bryant P.H. Hui; Chiu Lun Lau; Rui Sun; Ray LC; Latisha Besariani Hendra; Aleksandr Kogan
 
 **Year:** 2025
 
@@ -107,7 +107,7 @@ Despite the proliferation of powerful large language models (LLMs), there remain
 
 ## Authors
 
-[[Bryant P.H. Hui]], [[Chiu Lun Lau]], [[Rui Sun]]
+[[Bryant P.H. Hui]], [[Chiu Lun Lau]], [[Rui Sun]], [[Ray LC]], [[Latisha Besariani Hendra]], [[Aleksandr Kogan]]
 
 ## Key Contribution
 
@@ -160,6 +160,7 @@ This study systematically compares the moral response patterns of seven LLMs on 
 - Merged duplicate (2026-10-18): `2025-Hendra-Decoding Moral Responses in AI.md` (key EXSR0693, moral-psych external search v2, 2026-04-04) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md.
 - Merged duplicate (2026-10-18): `2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md` (key EXSR0039, Exhaustive Literature Search 2026-02-07) moved to RECYCLE-BIN/20261018-duplicate-merge/papers/; see logs/20261018-duplicate-merge.md. Nothing was carried from it: its authors, abstract, PDF and extract were a different paper (SocialSense, Chenkai Sun et al., EMNLP 2023, arXiv 2310.13297).
 - 2026-10-19: local PDF and both extracts were a ScienceDirect error page (extracts recycled to RECYCLE-BIN/20261019-wrong-pdf-extracts/); `external_pdf` held a made-up `md5` (c8e7d7c8c8…) and is now N/A. Author list unconfirmed: the retired Hendra note added Ray LC and Latisha Besariani Hendra; check the publisher page before adding them.
+- 2026-10-19: author list confirmed from Crossref for doi 10.1016/j.chbr.2025.100854 (6 authors: Hui, Lau, Sun, Ray LC, Hendra, Kogan); the three missing authors were added and `last_author` is now Aleksandr Kogan.
 
 
 

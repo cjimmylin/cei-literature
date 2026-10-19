@@ -15,7 +15,7 @@ url: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/90
 external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011"
 publication: Web
 CONF-CC: Preprint
-pdf_extract: "PDF Extracts/2025/2025-Unknown-1 Decolonizing NLP for 'Low-resource Languages'.md"
+pdf_extract: "PDF Extracts/2025/2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md"
 local_pdf: "[[Lit-WS-PDFs/2025/2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: Western

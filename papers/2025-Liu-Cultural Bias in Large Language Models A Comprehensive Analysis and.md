@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "This paper delves into the intricate relationship between Large Language Models (LLMs) and cultural bias. It underscores the significant impact LLMs can have on shaping a more equitable and culturally sensitive digital landscape, while also addressing the challenges that arise when integrating these powerful AI tools. The paper emphasizes the immense significance of LLMs in contemporary AI research and applications, underpinning many systems and algorithms. However, their potential role in perpetuating or mitigating cultural bias remains a pressing issue warranting extensive analysis. Cultural bias stems from various intertwined factors; the following analysis categorizes cultural bias shaping LLMs into three dimensions: data quality, algorithm design, and user interaction dynamics. Furthermore, the impacts of LLMs on cultural identity and linguistic diversity are scrutinized, highlighting the interplay between technology and culture. The paper advocates responsible AI development, outlining mitigation strategies such as ethical guidelines, diverse training data, user feedback mechanisms, and transparency measures. In conclusion, the paper emphasizes that cultural bias in LLMs is not solely a problem but also presents an opportunity. It can enhance our awareness and critical understanding of our own cultural biases while fostering curiosity and respect for diverse cultural perspectives."
 CONFERENCE: "Other Conference"
 ethics_overall: 35
 virtue_ethics: 0

@@ -34,6 +34,7 @@ In September 2024, he founded ai.astrolabe, a venture to fill the gap in alignme
 
 
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
+- [[2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English|ALLaM: A Series of Large Language Models for Arabic and English]]
 
 ## Links
 

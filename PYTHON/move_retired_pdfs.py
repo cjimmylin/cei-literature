@@ -7,6 +7,7 @@ The PDF folder lives outside the repo (see .vault-config.json / VAULT_PDF_PATH),
 - 2 duplicates retired by the duplicate merge (logs/20261018-duplicate-merge.md)
 - 3 PDFs that were a different paper than their note (logs/20261018-junk-abstracts.md)
 - 1 more wrong paper and 2 ScienceDirect error pages (logs/20261019-small-data-fixes.md)
+- 1 wrong paper under a retired duplicate note (logs/20261019b-followup-fixes.md)
 
 Each file is looked up by name anywhere under the PDF folder (stray copies in subfolders
 included) and moved, never deleted, to <PDF folder>/RECYCLE-BIN/20261018-retired-pdfs/,
@@ -41,6 +42,8 @@ RETIRED = {
         "not a paper: ScienceDirect error page",
     "2022-Zhang-Artificial Intelligence and Moral Dilemmas.pdf":
         "not a paper: ScienceDirect error page",
+    "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf":
+        "wrong paper (Saloojee & Saloojee 2011, social inclusion); its note was retired as a duplicate of Gwagwa et al.",
 }
 DEST = Path("RECYCLE-BIN") / "20261018-retired-pdfs"
 

@@ -51,8 +51,10 @@ They still hold the article text, so they were left in place:
 - 2025-Sanwoolu
 - 2025-Schacht
 
-Removing the address from these files is the owner's call. Also: `2022-Constantinescu-Can Robotic AI Be Virtuous` and
-`2022-Unknown-Can Robotic AI Systems Be Virtuous` look like another duplicate pair.
+Removing the address from these files is the owner's call. Also: `2022-Unknown-Can Robotic AI Systems Be Virtuous` is
+an extract with no note (a near-copy of `2022-Constantinescu-Can Robotic AI Be Virtuous`'s extract), not a duplicate
+note. (Corrected later the same day; the address was redacted and the orphan extract recycled, see
+`logs/20261019b-followup-fixes.md`.)
 
 ## Not changed (for the owner)
 

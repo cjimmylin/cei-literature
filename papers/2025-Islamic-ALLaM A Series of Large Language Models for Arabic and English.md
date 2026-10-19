@@ -7,9 +7,9 @@ key: LSRC0750
 type: conferencePaper
 short_title: "ALLaM: A Series of Large Language Models for Arabic and English"
 year: 2025
-first_author: "[[Islamic]]"
-last_author: "[[Islamic]]"
-authors: Islamic
+first_author: "[[M Saiful Bari]]"
+last_author: "[[Haidar Khan]]"
+authors: "M Saiful Bari; Yazeed Alnumay; Norah A. Alzahrani; Nouf M. Alotaibi; Hisham A. Alyahya; Sultan AlRashed; Faisal A. Mirza; Shaykhah Z. Alsubaie; Hassan A. Alahmed; Ghadah Alabduljabbar; Raghad Alkhathran; Yousef Almushayqih; Raneem Alnajim; Salman Alsubaihi; Maryam Al Mansour; Majed Alrubaian; Ali Alammari; Zaki Alawami; Abdulmohsen Al-Thubaity; Ahmed Abdelali; Jeril Kuriakose; Abdalghani Abujabal; Nora Al-Twairesh; Areeb Alowisheq; Haidar Khan"
 url: "https://openreview.net/pdf?id=q9kPg2ndg2"
 external_pdf: "https://arxiv.org/pdf/2407.15390.pdf"
 publication: OpenReview
@@ -80,11 +80,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Islamic]]
+M Saiful Bari, Yazeed Alnumay, Norah A. Alzahrani, Nouf M. Alotaibi, Hisham A. Alyahya, Sultan AlRashed, Faisal A. Mirza, Shaykhah Z. Alsubaie, Hassan A. Alahmed, Ghadah Alabduljabbar, Raghad Alkhathran, Yousef Almushayqih, Raneem Alnajim, Salman Alsubaihi, Maryam Al Mansour, Majed Alrubaian, Ali Alammari, Zaki Alawami, Abdulmohsen Al-Thubaity, Ahmed Abdelali, Jeril Kuriakose, Abdalghani Abujabal, Nora Al-Twairesh, Areeb Alowisheq, Haidar Khan
 
 ## Metadata
 
-**Authors:** Islamic
+**Authors:** M Saiful Bari, Yazeed Alnumay, Norah A. Alzahrani, Nouf M. Alotaibi, Hisham A. Alyahya, Sultan AlRashed, Faisal A. Mirza, Shaykhah Z. Alsubaie, Hassan A. Alahmed, Ghadah Alabduljabbar, Raghad Alkhathran, Yousef Almushayqih, Raneem Alnajim, Salman Alsubaihi, Maryam Al Mansour, Majed Alrubaian, Ali Alammari, Zaki Alawami, Abdulmohsen Al-Thubaity, Ahmed Abdelali, Jeril Kuriakose, Abdalghani Abujabal, Nora Al-Twairesh, Areeb Alowisheq, Haidar Khan
 
 **Year:** 2025
 

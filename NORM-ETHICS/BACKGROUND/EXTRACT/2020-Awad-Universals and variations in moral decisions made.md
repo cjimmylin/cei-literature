@@ -144,7 +144,7 @@ vol. 117
 |
 no. 5
 www.pnas.org/cgi/doi/10.1073/pnas.1911517117
-Downloaded from https://www.pnas.org by 4.7.11.226 on August 27, 2025 from IP address 4.7.11.226.
+Downloaded from https://www.pnas.org by [redacted] on August 27, 2025 from IP address [redacted].
 
 --- Page 2 ---
 
@@ -277,7 +277,7 @@ vol. 117
 no. 5
 |
 2333
-Downloaded from https://www.pnas.org by 4.7.11.226 on August 27, 2025 from IP address 4.7.11.226.
+Downloaded from https://www.pnas.org by [redacted] on August 27, 2025 from IP address [redacted].
 
 --- Page 3 ---
 
@@ -355,7 +355,7 @@ twice as large, but also heterogeneous, with greater variance in countries with 
 |
 www.pnas.org/cgi/doi/10.1073/pnas.1911517117
 Awad et al.
-Downloaded from https://www.pnas.org by 4.7.11.226 on August 27, 2025 from IP address 4.7.11.226.
+Downloaded from https://www.pnas.org by [redacted] on August 27, 2025 from IP address [redacted].
 
 --- Page 4 ---
 
@@ -417,7 +417,7 @@ vol. 117
 no. 5
 |
 2335
-Downloaded from https://www.pnas.org by 4.7.11.226 on August 27, 2025 from IP address 4.7.11.226.
+Downloaded from https://www.pnas.org by [redacted] on August 27, 2025 from IP address [redacted].
 
 --- Page 5 ---
 
@@ -562,7 +562,7 @@ ANR-17-EURE-0010 Investissements d’Avenir.
 |
 www.pnas.org/cgi/doi/10.1073/pnas.1911517117
 Awad et al.
-Downloaded from https://www.pnas.org by 4.7.11.226 on August 27, 2025 from IP address 4.7.11.226.
+Downloaded from https://www.pnas.org by [redacted] on August 27, 2025 from IP address [redacted].
 
 --- Page 6 ---
 
@@ -672,5 +672,5 @@ vol. 117
 no. 5
 |
 2337
-Downloaded from https://www.pnas.org by 4.7.11.226 on August 27, 2025 from IP address 4.7.11.226.
+Downloaded from https://www.pnas.org by [redacted] on August 27, 2025 from IP address [redacted].
 ```

@@ -58,7 +58,7 @@ from typing import Any, Dict, List, Optional, Tuple
 CANARY = "WALKWORTHY-CANARY-7f3e2026"
 PACKAGE_ID = "20261018b"
 CEILING_USD = 3.00
-RESERVE_USD = 0.10
+RESERVE_USD = 0.30   # RULINGS-APPLIED-20261019b (was 0.10): covers 8 workers x the $0.80-input per-job bound
 
 CANDIDATE_LABEL = "judge-C"
 CANDIDATE_SLUG = "qwen/qwen3-235b-a22b-2507"
@@ -99,7 +99,11 @@ PER_CALL = {
     "d01_ab": (0.1168 - 0.003) / 588,    # 20260802c §8, both judges, d01 census
 }
 JUDGE_A_PRICE = (0.10, 0.40)             # tools' PRICE_BOUND for openai/gpt-4.1-nano
-JUDGE_B_PRICE = (0.10, 0.30)             # tools' PRICE_BOUND for meta-llama/llama-3.3-70b
+JUDGE_B_PRICE = (0.80, 0.40)             # owner amendments RULINGS-APPLIED-20261019a (out 0.30 -> 0.40;
+                                         # live list 0.10/0.32) and -20261019b (in 0.10 -> 0.80: routed
+                                         # providers charged up to ~$0.71/M effective in stage 1a)
+JUDGE_B_SLUG = "meta-llama/llama-3.3-70b-instruct"
+JUDGE_B_BOUND_ARGS = ["--price-bound", f"{JUDGE_B_SLUG}={JUDGE_B_PRICE[0]},{JUDGE_B_PRICE[1]}"]
 CAND_RATIO = max(CANDIDATE_PRICE_BOUND[0] / JUDGE_A_PRICE[0],
                  CANDIDATE_PRICE_BOUND[1] / JUDGE_A_PRICE[1])
 
@@ -595,11 +599,11 @@ def stage_commands(s: str, paths: Dict[str, Path], ceiling: float, python: str) 
     cand = ["--judge", f"{CANDIDATE_LABEL}={CANDIDATE_SLUG}", "--only-judges", CANDIDATE_LABEL,
             "--price-bound", f"{CANDIDATE_SLUG}={CANDIDATE_PRICE_BOUND[0]},{CANDIDATE_PRICE_BOUND[1]}"]
     if s == "1a":
-        return [[python, str(D02_TOOL), "--prompt-variant", "anchored", "--mode", "full",
+        return [[python, str(D02_TOOL), "--prompt-variant", "anchored", *JUDGE_B_BOUND_ARGS, "--mode", "full",
                  "--probe-root", str(paths["probe_root"]), "--log-root", str(paths["stage_1a"]),
                  "--ceiling", c]]
     if s == "1b":
-        return [[python, str(D07_TOOL), "--q2-variant", "anchored", "--phase", "all",
+        return [[python, str(D07_TOOL), "--q2-variant", "anchored", *JUDGE_B_BOUND_ARGS, "--phase", "all",
                  "--arc-root", str(paths["probe_root"]), "--log-root", str(paths["stage_1b"]),
                  "--ceiling", c]]
     if s == "2a":

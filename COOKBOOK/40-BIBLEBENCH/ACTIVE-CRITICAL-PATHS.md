@@ -2,7 +2,7 @@
 
 **Status:** Living portfolio execution surface; edit in place.
 
-**Last updated:** 2026-10-19 by Claude Code (status record for the two v2 tracks; the three July contracts are unchanged).
+**Last updated:** 2026-10-19 by Claude Code (WALKWORTHY v4 re-judge package run and reported; the three July contracts are unchanged).
 
 This register defines the current paper-facing contract for active work under `40-BIBLEBENCH/`. It does not rewrite dated handoffs. Local benchmark state remains authoritative for run custody, frozen surfaces, and benchmark-specific gates; this register controls portfolio priority and stopping rules.
 
@@ -127,13 +127,13 @@ not new owner rulings; each local ledger stays authoritative for its track.
 - Open P1: none while parked. The judge/vendor-overlap disclosure gates any external version.
 - Deferred P2/P3: as in re-entry prompt §3.
 
-## WALKWORTHY v4 (Christian-Ethics-Benchmark-v2) — judge re-judge package authorized, awaiting the owner's run
+## WALKWORTHY v4 (Christian-Ethics-Benchmark-v2) — re-judge package run and reported; D1 returns to the owner
 
 - `paper_claim_enabled`: None yet from v4. Every v4 number so far is a diagnostic, not a WALKWORTHY number. v4's first claim needs a repaired instrument that shows discrimination on public data, which is also the condition for lifting the holdout quarantine (`RULINGS-APPLIED-20260729b`). The phase-7 v2 manuscripts (`REPORTS/20260725-manuscripts/`) are unchanged.
-- `paper_deliverable`: A dated execution report of the re-judge package, read against the pre-committed read-outs `20261018d-rejudge-precommitted-readouts.md`, which returns the judging-architecture choice (D1) to the owner.
-- `blocking_reason`: The two pinned judges (judge-A `openai/gpt-4.1-nano`, judge-B `meta-llama/llama-3.3-70b-instruct`) do not share a reading of the constructs (memo `20261018a` §1: d02 modal hold-read agreement in 9 of 81 cells; the d01 tier gradient seen by judge-A only; d07 q2 κ 0.282), and the ratified gates rest on their agreement. The re-judge package is the authorized test. It must run on the owner's machine, which holds the gitignored stored responses (`logs/widegap-probe-20260731/` and the other run trees).
+- `paper_deliverable`: Delivered: `20261019c-rejudge-package-execution-report.md`, read against the pre-committed read-outs `20261018d-rejudge-precommitted-readouts.md`. It returns the judging-architecture choice (D1) to the owner.
+- `blocking_reason`: The two pinned judges (judge-A `openai/gpt-4.1-nano`, judge-B `meta-llama/llama-3.3-70b-instruct`) do not share a reading of the constructs (memo `20261018a` §1: d02 modal hold-read agreement in 9 of 81 cells; the d01 tier gradient seen by judge-A only; d07 q2 κ 0.282), and the ratified gates rest on their agreement. The re-judge package tested it (`20261019c`): the d02 anchor is not effective (7 of 81, unchanged); the d07 anchored q2 is effective on the 82.4% of turns both judges parsed (κ 0.744), but judge-a's parse failures fall on the harder turns and leave it below the 0.85 retention floor; the candidate `qwen/qwen3-235b-a22b-2507` fails the screen (it reads d02 like judge-B, 79 of 81, and shows no d01 tier gradient). The split is unresolved; D1 is the owner's.
 - `minimum_sufficiency_gate`: Stage 0 committed before any paid call (done: `42a1d23b`, merged to `main` in `9885ab3e`). Dry run prints "DRY RUN OK". The live run re-verifies launch prices, starts each paid block with a calibration micro-run, makes zero SUT calls, never reads the holdout, and stays within $3.00 projected and actual.
-- `timebox`: One owner-run live package (dry-run projection about $0.68, an estimate) and one report-writing session on its outputs (`summary.json`, `package_tally.json`, `run.log`, READ-OUTS).
+- `timebox`: Spent: one live package ($0.5840 of $3.00, run from a cloud session with the owner's stored run trees) and one report session. Any further run needs a new ruling.
 - `stop_condition`: Stop after the execution report for the owner's D1 architecture choice. Stop earlier at a printed STOPPED (read `run.log` before any re-run), a projection over the remaining budget, or a tool error.
 - `deferred_nonblocking_work`: D3 (d02's v4.0 scope), D4 (B1+B2 scale, about $180–230, still deferred), D5 (freeze-review conventions), D6 (holdout git history), D7 (P-COMMITMENT), the v4-A authoring remainder (d03/d04/d08/d10), and the optional $0 referee arm (Stage 3, needs an owner direction).
 - `owner_approved_exception`: `RULINGS-APPLIED-20261018b` (owner choices of 2026-10-18: D1 "Authorize at $3 ceiling"; D2 "[No preference]", so the coordinating session chose `qwen/qwen3-235b-a22b-2507` as candidate judge-C). It authorizes only the re-judge package on stored responses.
@@ -144,14 +144,14 @@ not new owner rulings; each local ledger stays authoritative for its track.
 - Executable bank: v4-A $0 block largely executed (`20260802g`); authoring remainder d03/d04/d08/d10 open.
 - Evidence: diagnostics only (v4-C $7.51 of $30, d02 re-pilot, v4-T tier probe at $0.1168 of $1.00).
 - PDF: none for v4.
-- Spend: $0 of the $3.00 re-judge ceiling; no live run yet.
-- Local authority: `Christian-Ethics-Benchmark-v2/RULINGS-APPLIED-20261018b.md` (run guide), `20261018a-v4-judge-decision-options-memo.md`, and the entry point `20260806a-boot-prompt-v4a-authoring-remainder.md`.
-- Next session: after the owner's live run returns its four outputs, write the execution report against `20261018d`.
+- Spend: $0.5840 of the $3.00 re-judge ceiling (complete). Two stop-and-report events, resolved by `RULINGS-APPLIED-20261019a` and `-20261019b`.
+- Local authority: `Christian-Ethics-Benchmark-v2/20261019c-rejudge-package-execution-report.md` (results), `RULINGS-APPLIED-20261018b.md` (run guide) with amendments `-20261019a` and `-20261019b`, `20261018a-v4-judge-decision-options-memo.md`, and the entry point `20260806a-boot-prompt-v4a-authoring-remainder.md`.
+- Next session: none until the owner rules on D1 (and D3). Options the report names, none authorized: fix and re-measure judge-a's d07 parse failures (about $0.27), the $0 Stage 3 referee arm, or a different candidate.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: the judge construct split, under test by the authorized package.
+- Open P1: the judge construct split; tested, unresolved, awaiting the owner's D1.
 - Deferred P2/P3: D3–D7 and B-phase scale, all owner decisions.
 
 ## Registration rule for future benchmarks

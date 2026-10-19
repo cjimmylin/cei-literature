@@ -202,6 +202,11 @@ def test_stage_commands_carry_candidate_and_ceiling_but_no_key(tmp_path):
     assert sum(f"judge-C={pkg.CANDIDATE_SLUG}" in c for c in flat) == 3     # 2a + 2b calib/full
     assert all("--ceiling 2.5000" in c for c in flat)
     assert not any("OPENROUTER" in c or "sk-" in c for c in flat)
+    # RULINGS-APPLIED-20261019a: judge-B stages carry the amended $0.10/$0.40 bound; the
+    # candidate-only stages (2a/2b) do not call judge-B.
+    jb = f"--price-bound {pkg.JUDGE_B_SLUG}=0.1,0.4"
+    assert sum(jb in c for c in flat) == 2
+    assert pkg.LIVE_BOUNDS[pkg.JUDGE_B_SLUG] == (0.10, 0.40)
 
 
 # --------------------------------------------------------------------------- #

@@ -103,3 +103,17 @@ An exception authorizes only its stated scope. It does not authorize spending, c
 - Expiration or completion condition: The package's dated execution report is written against `20261018d-rejudge-precommitted-readouts.md`, or the run stops at a breach.
 - Spending boundary: $3.00 hard for the whole package, projection and actual, with a calibration micro-run before each paid block. The run uses the owner's OpenRouter key on the owner's machine.
 - Closing disposition: open. Stage 0 committed (`42a1d23b`, merged in `9885ab3e`); the live run has not happened.
+
+## PF-007 — WALKWORTHY v4: d02 dropped from v4.0; d07 parse fix before the judging-architecture choice
+
+- Date: 2026-10-19
+- Status: RATIFIED
+- Owner: Jimmy Lin
+- Reason: The PF-006 re-judge package completed at $0.5840 of $3.00 (`Christian-Ethics-Benchmark-v2/20261019c-rejudge-package-execution-report.md`). PF-006 is therefore complete. The d02 anchor was not effective, and three judges split 2 to 1 on d02's construct. The d07 anchored q2 was effective, but only on the 82.4% of turns judge-a parsed, which is below the 0.85 retention floor.
+- Scope: `Christian-Ethics-Benchmark-v2/` only, exactly as in `RULINGS-APPLIED-20261019c.md`: d02 leaves v4.0; a judge-a d07 diagnostic micro-run, a format or parser fix, and one full Stage 1b re-run on stored responses. Zero SUT calls; the holdout is never read.
+- Decision: D3 "drop from v4.0". D1 deferred until the d07 fix is measured. D4–D7 remain open.
+- Affected paper milestone: The v4.0 instrument freeze and the D1 judging-architecture choice.
+- Approval words: Jimmy selected D1 "Fix d07, then decide (Recommended)" and D3 "Drop from v4.0 (Recommended)" on 2026-10-19.
+- Expiration or completion condition: A dated report on the d07 re-run, or a stop at a breach.
+- Spending boundary: $1.00 hard for the d07 fix, projection and actual, separate from the closed PF-006 package.
+- Closing disposition: open.

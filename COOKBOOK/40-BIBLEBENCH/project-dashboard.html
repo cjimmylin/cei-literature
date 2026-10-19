@@ -303,13 +303,13 @@
             <dt>Executable bank</dt><dd>v4-A $0 block largely executed; authoring of d03/d04/d08/d10 remains open.</dd>
             <dt>Evidence</dt><dd>Diagnostics only; no v4 number is a WALKWORTHY number. Re-judge results: the d02 anchor is not effective (7 of 81 cells agree, unchanged); the d07 anchored q2 is effective on the 82% of turns both judges parsed (κ 0.28 → 0.74), but below the 0.85 retention floor; the candidate judge fails the screen, reading d02 like judge-B.</dd>
             <dt>PDF</dt><dd>None for v4.</dd>
-            <dt>Current blocker</dt><dd>P1: the judge construct split, tested and unresolved. Awaiting the owner's D1.</dd>
+            <dt>Current blocker</dt><dd>P1: the judge split, now only on d01. d02 is out of v4.0 (owner, 2026-10-19); d07's anchored q2 is fixed (750/750 parsed, κ 0.656, effective). Awaiting the owner's D1.</dd>
             <dt>Engineering timebox</dt><dd>Spent: Stage 0, the live package and the report. Any further run needs a new ruling.</dd>
             <dt>Deferred hardening</dt><dd>D3–D7, including the B1+B2 runs (about $180–230), the holdout git-history question, and the optional $0 referee arm.</dd>
-            <dt>Spend</dt><dd>$0.5840 of the $3.00 hard ceiling (complete). Two stops for price bounds, resolved by owner rulings <code>-20261019a</code> and <code>-20261019b</code>.</dd>
+            <dt>Spend</dt><dd>Re-judge package $0.5840 of $3.00 (complete); d07 fix $0.2925 of $1.00 (complete, PF-007).</dd>
             <dt>Owner exception</dt><dd>None. PF-006 / <code>RULINGS-APPLIED-20261018b</code>: D1 "Authorize at $3 ceiling"; candidate judge <code>qwen/qwen3-235b-a22b-2507</code>.</dd>
           </dl>
-          <p><a href="Christian-Ethics-Benchmark-v2/20261019c-rejudge-package-execution-report.md">Execution report</a> · <a href="Christian-Ethics-Benchmark-v2/RULINGS-APPLIED-20261018b.md">Ruling and run guide</a> · <a href="ACTIVE-CRITICAL-PATHS.md#walkworthy-v4-christian-ethics-benchmark-v2--re-judge-package-run-and-reported-d1-returns-to-the-owner">Full record</a></p>
+          <p><a href="Christian-Ethics-Benchmark-v2/20261019c-rejudge-package-execution-report.md">Execution report</a> · <a href="Christian-Ethics-Benchmark-v2/20261019d-d07-format-fix-report.md">d07 fix report</a> · <a href="Christian-Ethics-Benchmark-v2/RULINGS-APPLIED-20261018b.md">Ruling and run guide</a> · <a href="ACTIVE-CRITICAL-PATHS.md#walkworthy-v4-christian-ethics-benchmark-v2--re-judge-package-run-and-reported-d1-returns-to-the-owner">Full record</a></p>
         </article>
       </div>
     </section>
@@ -324,7 +324,7 @@
       <article class="notice">
         <h3>Spend and Owner exception</h3>
         <p><strong>Spend checkpoint:</strong> the exact three-model, 288-call PF-002 proposal forecasts $1.6839168 at maximum token and retry exposure, below the $3 gate, with a $5 hard ceiling; no live call, credential access, or spend is authorized.</p>
-        <p><strong>WALKWORTHY v4 re-judge:</strong> complete at $0.5840 of the $3.00 hard ceiling (PF-006). No further spend is authorized.</p>
+        <p><strong>WALKWORTHY v4 re-judge:</strong> complete at $0.5840 of the $3.00 hard ceiling (PF-006); d07 fix complete at $0.2925 of $1.00 (PF-007). No further spend is authorized.</p>
         <p><strong>Active owner exceptions:</strong> none.</p>
         <p>Any exception requires Jimmy's explicit approval in <a href="PAPER-FIRST-DECISIONS.md">the append-only decision log</a>, with reason, scope, affected milestone, and expiration condition.</p>
       </article>
@@ -346,7 +346,7 @@
           <li>Separately approve or reject that exact hash-bound paid manifest in writing. Do not access credentials or call a provider before approval.</li>
           <li>After authorization, run once, populate Results/tables/figures and pilot-result PDFs, and stop for the owner scale decision.</li>
           <li>WALKWORTHY remains intentionally idle until one complete Design 02 human packet returns; then run its registered G4-to-paper conversion without another preparatory session.</li>
-          <li>WALKWORTHY v4: the owner reads <code>Christian-Ethics-Benchmark-v2/20261019c-rejudge-package-execution-report.md</code> and rules on D1 (and D3). No run until then.</li>
+          <li>WALKWORTHY v4: the owner reads <code>20261019c</code> and <code>20261019d</code> in <code>Christian-Ethics-Benchmark-v2/</code> and rules on D1 (now only d01 is split). No run until then.</li>
           <li>WCF-Bench-v2 stays parked until the owner names a direction.</li>
         </ol>
       </article>
@@ -370,6 +370,7 @@
           <li><strong>2026-10-18 · Jimmy Lin / Claude Code:</strong> WALKWORTHY v4: a $0 judging-architecture options memo, then D1 authorized at a $3.00 hard ceiling and D2 left to the session, which chose candidate judge <code>qwen/qwen3-235b-a22b-2507</code>. Stage 0 tooling, the anchored-holds definition and the pre-committed read-outs were committed before any paid call. D3–D7 remain open; the live run is the owner's (PF-006).</li>
           <li><strong>2026-10-19 · Claude Code:</strong> recorded both v2 tracks in the active register, this dashboard and the decision log (PF-005, PF-006). Neither track had a register entry before. The three July contracts are unchanged.</li>
           <li><strong>2026-10-19 · Jimmy Lin / Claude Code:</strong> WALKWORTHY v4: the re-judge package ran to completion at $0.5840 of $3.00 after two price-bound stops (owner rulings <code>-20261019a</code>, <code>-20261019b</code>). The d02 anchor is not effective; the d07 anchored q2 is effective on 82% of turns, below the retention floor; the candidate judge fails the screen. Execution report <code>20261019c</code>; D1 returns to the owner.</li>
+          <li><strong>2026-10-19 · Jimmy Lin / Claude Code:</strong> WALKWORTHY v4: owner dropped d02 from v4.0 and authorized a d07 parse fix (PF-007). The fix (output format only) gives 750/750 parsed, q2 κ 0.656, label effective, at $0.2925 of $1.00. Report <code>20261019d</code>; D1 (d01) returns to the owner.</li>
         </ol>
       </article>
     </section>

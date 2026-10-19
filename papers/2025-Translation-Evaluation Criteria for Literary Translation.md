@@ -50,7 +50,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "As a form of human spiritual activity, literary translation is diverse in nature, therefore it can be evaluated in terms of its equivalence to the original text as well as the communicative value of translation. What is more, the opinions may vary depending on the positions of the translator and the evaluator. The one who evaluates a literary translation faces a number of problems whose solution requires objective criteria for its evaluation. Nevertheless, the evaluation of translation is also dependent on subjective human perception and in order to overcome the inevitable subjectivism it is necessary to turn the standards underlying the subjective judgments objective rather than replace them with objective ones. The degree of equivalence is one of the standards of evaluating the results of the process. The knowledge of the two languages makes it possible for the translator to work more accurately, demonstrating the types of changes that are possible and permissible in the process of translation. At the level of the form these changes result in morphological and syntactic modifications. Changes at the semantic level prove harder. However, they can be distinguished, too, since they lead to logical links between different notions – broadening and narrowing, adjacent and opposite relations, transfer of metaphors and metonymies."
 CONFERENCE: "Other Conference"
 ethics_overall: 0
 virtue_ethics: 0

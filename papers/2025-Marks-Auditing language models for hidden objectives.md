@@ -8,7 +8,7 @@ authors: "Samuel Marks; Johannes Treutlein; Trenton Bricken; Jack Lindsey; Jonat
 url: "https://arxiv.org/abs/2503.10965"
 external_pdf: "https://arxiv.org/pdf/2503.10965.pdf"
 abstract: "We study the feasibility of conducting alignment audits: investigations into whether models have undesired objectives. As a testbed, we train a language model with a hidden objective. Our training pipeline first teaches the model about exploitable errors in RLHF reward models (RMs), then trains the model to exploit some of these errors. We verify via out-of-distribution evaluations that the model generalizes to exhibit whatever behaviors it believes RMs rate highly, including ones not reinforced during training. We leverage this model to study alignment audits in two ways. First, we conduct a blind auditing game where four teams, unaware of the model's hidden objective or training, investigate it for concerning behaviors and their causes. Three teams successfully uncovered the model's hidden objective using techniques including interpretability with sparse autoencoders (SAEs), behavioral attacks, and training data analysis. Second, we conduct an unblinded follow-up study of eight techniques for auditing the model, analyzing their strengths and limitations. Overall, our work provides a concrete example of using alignment audits to discover a model's hidden objective and proposes a methodology for practicing and validating progress in alignment auditing."
-ethics_overall: 55
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -62,6 +62,7 @@ innovation_gap: "G-04"
 last_author: "[[Evan Hubinger]]"
 CONF-CC: Preprint
 LLM_assessed: "Not specified (Anthropic-trained testbed LLM; base model not named in extract)"
+research_topic: AI Safety & Alignment
 ---
 
 # Auditing language models for hidden objectives

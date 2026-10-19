@@ -62,7 +62,7 @@ twitter: ""
 
 
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
-- [[2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English|ALLaM: A Series of Large Language Models for Arabic and English]]
+- [[2025-Bari-ALLaM A Series of Large Language Models for Arabic and English|ALLaM: A Series of Large Language Models for Arabic and English]]
 
 ## External Links & Profiles
 

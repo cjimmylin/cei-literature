@@ -8,7 +8,7 @@ authors: "Runjin Chen; Andy Arditi; Henry Sleight; Owain Evans; Jack Lindsey"
 url: "https://arxiv.org/abs/2507.21509"
 external_pdf: "https://arxiv.org/pdf/2507.21509.pdf"
 abstract: "Large language models interact with users through a simulated 'Assistant' persona. While the Assistant is typically trained to be helpful, harmless, and honest, it sometimes deviates from these ideals. In this paper, we identify directions in the model's activation space-persona vectors-underlying several traits, such as evil, sycophancy, and propensity to hallucinate. We confirm that these vectors can be used to monitor fluctuations in the Assistant's personality at deployment time. We then apply persona vectors to predict and control personality shifts that occur during training. We find that both intended and unintended personality changes after finetuning are strongly correlated with shifts along the relevant persona vectors. These shifts can be mitigated through post-hoc intervention, or avoided in the first place with a new preventative steering method. Moreover, persona vectors can be used to flag training data that will produce undesirable personality changes, both at the dataset level and the individual sample level. Our method for extracting persona vectors is automated and can be applied to any personality trait of interest, given only a natural-language description."
-ethics_overall: 50
+ethics_overall: 45
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -62,6 +62,7 @@ innovation_gap: G-20
 last_author: "[[Jack Lindsey]]"
 CONF-CC: Preprint
 LLM_assessed: "Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct"
+research_topic: Value Formation & Emergent Misalignment
 ---
 
 # Persona Vectors: Monitoring and Controlling Character Traits in Language Models

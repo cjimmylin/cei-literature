@@ -12,7 +12,7 @@ last_author: "[[Liying Xu]]"
 authors: "Zaixuan Zhang; Zhansheng Chen; Liying Xu"
 doi: 10.1016/j.jesp.2022.104327
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464"
-external_pdf: "https://doi.org/10.36571/ajsp661"
+external_pdf: "N/A"
 publication: "Journal of Experimental Social Psychology"
 CONF-CC: "Journal of Experimental Social Psychology"
 national_ethnic_cultural: N/A
@@ -154,6 +154,7 @@ This experimental psychology paper investigates how people perceive AI as a mora
 
 
 ## Notes
+- 2026-10-19: `external_pdf` was `https://doi.org/10.36571/ajsp661`, which Crossref resolves to a different paper (Bayan, "The Ethics of AI: Navigating the Moral Dilemmas of Artificial Intelligence", Arab Journal for Scientific Publishing, 2024); set to N/A.
 
 
 ## Tags

@@ -8,7 +8,7 @@ authors: "Samuel R. Bowman; Misha Wagner; Fabien Roger; Holden Karnofsky (Anthro
 url: "https://alignment.anthropic.com/2025/sabotage-risk-report/"
 external_pdf: "https://alignment.anthropic.com/2025/sabotage-risk-report/"
 abstract: "Anthropic Alignment Science Blog report (October 28, 2025) assessing the level of misalignment-related sabotage risk posed by Anthropic's deployed models as of Summer 2025. Under the Responsible Scaling Policy's future commitments for misalignment risks that initiate from a model's own behavior, the report pilots a partial 'affirmative case' — identifying the most immediate risks from models pursuing misaligned goals and explaining mitigations (monitoring and safeguards). The authors conclude the level of risk is very low but not fully negligible, and note that complete affirmative cases of this kind are uncharted territory for the field."
-ethics_overall: 60
+ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 1
 utilitarian_ethics: 0
@@ -51,7 +51,7 @@ key_contribution: "Pilot 'affirmative case' methodology for deployed-model sabot
 significance: "P2 for G-16; governance-side companion to the sabotage-evaluation and agentic-misalignment literature."
 paper_summary: 
 local_pdf: "[[Lit-WS-PDFs/2025/2025-Anthropic-Pilot Sabotage Risk Report.pdf]]"
-pdf_extract: "PDF Extracts/2025/2025-Anthropic-Pilot Sabotage Risk Report.md"
+pdf_extract: "PDF Extracts/AI Labs/Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report.md"
 evidence_class: "VERIFIED (Playwright/curl-fetched PDF, prose-verified 2026-07-09)"
 tags: 
 Human View: 

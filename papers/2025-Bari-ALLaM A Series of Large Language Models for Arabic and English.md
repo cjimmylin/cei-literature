@@ -113,6 +113,7 @@ Backfill summary: Models assessed include ALBERT, Alpaca, BERT, ChatGPT, Command
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent C2
 **Relevance:** ALLaM benchmark for Arabic, English
+- 2026-10-19: renamed from `2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md` to match the first author (M Saiful Bari) corrected the same day from the paper's PDF. The local PDF and extract keep their old names.
 
 ## Tags
 

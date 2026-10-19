@@ -58,7 +58,7 @@ from typing import Any, Dict, List, Optional, Tuple
 CANARY = "WALKWORTHY-CANARY-7f3e2026"
 PACKAGE_ID = "20261018b"
 CEILING_USD = 3.00
-RESERVE_USD = 0.10
+RESERVE_USD = 0.30   # RULINGS-APPLIED-20261019b (was 0.10): covers 8 workers x the $0.80-input per-job bound
 
 CANDIDATE_LABEL = "judge-C"
 CANDIDATE_SLUG = "qwen/qwen3-235b-a22b-2507"
@@ -99,8 +99,9 @@ PER_CALL = {
     "d01_ab": (0.1168 - 0.003) / 588,    # 20260802c §8, both judges, d01 census
 }
 JUDGE_A_PRICE = (0.10, 0.40)             # tools' PRICE_BOUND for openai/gpt-4.1-nano
-JUDGE_B_PRICE = (0.10, 0.40)             # owner amendment RULINGS-APPLIED-20261019a (was the
-                                         # tools' PRICE_BOUND 0.10/0.30; live 0.10/0.32 on 2026-10-19)
+JUDGE_B_PRICE = (0.80, 0.40)             # owner amendments RULINGS-APPLIED-20261019a (out 0.30 -> 0.40;
+                                         # live list 0.10/0.32) and -20261019b (in 0.10 -> 0.80: routed
+                                         # providers charged up to ~$0.71/M effective in stage 1a)
 JUDGE_B_SLUG = "meta-llama/llama-3.3-70b-instruct"
 JUDGE_B_BOUND_ARGS = ["--price-bound", f"{JUDGE_B_SLUG}={JUDGE_B_PRICE[0]},{JUDGE_B_PRICE[1]}"]
 CAND_RATIO = max(CANDIDATE_PRICE_BOUND[0] / JUDGE_A_PRICE[0],

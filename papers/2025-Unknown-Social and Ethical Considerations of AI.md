@@ -22,10 +22,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
-author_global_north_south: "Global South"
-weird_score: 36
+author_country: HK
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 53
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Multicultural/Cross-cultural"
 rv_islam: 0

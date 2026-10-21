@@ -8,7 +8,7 @@ authors: "Ludmila Lazarev"
 url: "https://www.semanticscholar.org/paper/d7635d8654069ce0d085c35deed04138a5eb135f"
 abstract: "This article examines how artificial intelligence (AI) reshapes European identity in the digital era. The European identity is presented as a dynamic, collective construct, shaped by cultural interact..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

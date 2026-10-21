@@ -22,10 +22,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 30
-author_country: CO
-author_region: "Latin America & Caribbean"
-author_global_north_south: "Global South"
-weird_score: 36
+author_country: GB
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 last_author: "[[Boxi A Wu]]"
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"

@@ -8,7 +8,7 @@ authors: "Yong-Chwang Chen"
 url: "https://www.semanticscholar.org/paper/c7b473b8aedabfebfccd29e792935e352b133535"
 abstract: ": Artificial Intelligence (AI) has had a profound impact on the field of photography with its rapid development, which has changed the way photographic images are created and manipulated. This researc..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

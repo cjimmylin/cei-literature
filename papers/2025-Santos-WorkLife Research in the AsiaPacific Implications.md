@@ -8,7 +8,7 @@ authors: "Clarice Santos"
 url: "https://www.semanticscholar.org/paper/f82cd552d176ae1d3917924103733396d6e2676d"
 abstract: "The Asia‐Pacific region has emerged as a focal point for reimagining work–life dynamics in an era of change and opportunity. Postpandemic trends such as the rise in remote work and in the adoption of..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

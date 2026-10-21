@@ -8,7 +8,7 @@ authors: "Akpoghiran, Idamah Patrick et al."
 url: "https://www.semanticscholar.org/paper/0fcbb66df3ec49919cc4b5cd6b57c2862f25fd62"
 abstract: "Artificial Intelligence (AI) has penetrated every circle of our lives. The pervasiveness of AI is unprecedented.  The technology has been connected to cultural values. AI holds significant potential t..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: "African"
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

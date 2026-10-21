@@ -64,10 +64,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
-author_global_north_south: "Global South"
-weird_score: 36
+author_country: Unknown
+author_region: "Unknown"
+author_global_north_south: "Unknown"
+weird_score: 50
 is_benchmark: No
 is_eval: Yes
 is_dataset: Yes

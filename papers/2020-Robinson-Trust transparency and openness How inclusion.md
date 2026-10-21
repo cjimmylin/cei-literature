@@ -8,7 +8,7 @@ authors: "Stephen Cory Robinson"
 url: "https://www.semanticscholar.org/paper/7f3ed822919aa7dac9468b68c3f42b109a4ab2d1"
 abstract: "Abstract Using textual analysis methodology with Hofstede's cultural dimensions as basis for cross-national comparison, the manuscript explores the influence of cultural values of trust, transparency,..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

@@ -22,10 +22,10 @@ nw_buddhist: 0
 nw_dharmic: 50
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: KR
-author_region: "East Asia"
-author_global_north_south: "Global North"
-weird_score: 63
+author_country: Unknown
+author_region: "Unknown"
+author_global_north_south: "Unknown"
+weird_score: 50
 last_author: "[[Priya Krishnamoorthy]]"
 national_ethnic_cultural: "Indian, Western, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, Western, Multicultural/Cross-cultural"

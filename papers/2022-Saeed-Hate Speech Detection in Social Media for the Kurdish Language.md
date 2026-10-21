@@ -66,10 +66,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
+author_country: IQ
+author_region: "MENA"
 author_global_north_south: "Global South"
-weird_score: 36
+weird_score: 32
 is_benchmark: No
 is_eval: Yes
 is_dataset: Yes

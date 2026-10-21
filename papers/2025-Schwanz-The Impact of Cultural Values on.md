@@ -8,7 +8,7 @@ authors: "Riley Schwanz et al."
 url: "https://www.semanticscholar.org/paper/0aeb49ecdf232edaae4e2c69d6e6a8baac3b0146"
 abstract: "As artificial intelligence (AI) becomes increasingly part of everyday life including transportation, manufacturing, etc., it is important to understand how humans utilize AI to achieve an effective hu..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: "Cross-Cultural Comparative"
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

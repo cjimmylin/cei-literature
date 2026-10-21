@@ -8,7 +8,7 @@ authors: "B. Polok et al."
 url: "https://www.semanticscholar.org/paper/cc4a738b16c2104b4ccff19ac7d2bae0fad433b2"
 abstract: "This country survey examines Saudi Arabia’s approach to artificial intelligence (AI) governance, focusing on the regulatory and ethical frameworks that shape its AI ecosystem. The study situates Saud..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: "Islamic"
 ethics_overall: 65
 virtue_ethics: 0
 deontological_ethics: 0

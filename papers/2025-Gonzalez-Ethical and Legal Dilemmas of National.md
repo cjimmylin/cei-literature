@@ -1,10 +1,10 @@
 ---
 key: CGSR0035
-type: document
+type: bookSection
 short_title: "Ethical and Legal Dilemmas of National AI Policies in Latin American Countries"
 year: 2025
-first_author: "[[Rosa Maria Alonzo Gonzalez]]"
-authors: "Rosa Maria Alonzo Gonzalez"
+first_author: "[[Rosa María Alonzo González]]"
+authors: "Rosa María Alonzo González"
 url: "https://philpapers.org/rec/ALOEAL"
 abstract: "National AI policy dilemmas across Latin American countries"
 DATE_ADDED: 20260403
@@ -26,7 +26,7 @@ author_country: Unknown
 author_region: Unknown
 author_global_north_south: Unknown
 weird_score: 50
-last_author: "[[Rosa Maria Alonzo Gonzalez]]"
+last_author: "[[Rosa María Alonzo González]]"
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
 rv_islam: 0
@@ -53,4 +53,10 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 ethics_perspective: "Responsible AI"
+doi: 10.1007/978-3-031-86540-4_6
+publication: "Chapter 6 in: Ethical and Legal Dilemmas of Artificial Intelligence in Latin America (Springer, 2025)"
 ---
+
+## Notes
+
+- 2026-10-21: this is chapter 6 (Crossref doi 10.1007/978-3-031-86540-4_6) of the edited book noted as `2025-Gonzalez-Ethical and Legal Dilemmas of Artificial` (a part of that book, not a duplicate).

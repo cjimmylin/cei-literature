@@ -52,13 +52,13 @@ abstract: "BuddhismEval is the first bilingual evaluation benchmark specifically
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Nethmi14/BuddhismEval"
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: 0
-virtue_ethics: 0
+ethics_overall: 85
+virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-ethics_perspective: "Hallucination & Truthfulness"
+ethics_perspective: "Social & Cultural Values"
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -66,10 +66,10 @@ nw_buddhist: 55
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: FR
-author_region: "Western Europe"
-author_global_north_south: "Global North"
-weird_score: 75
+author_country: Unknown
+author_region: "Unknown"
+author_global_north_south: "Unknown"
+weird_score: 50
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: No

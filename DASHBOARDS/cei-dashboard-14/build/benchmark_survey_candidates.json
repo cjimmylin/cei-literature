@@ -7023,7 +7023,7 @@
   "cultural_scope": "Chinese, Japanese, English, Multilingual"
  },
  {
-  "filename": "2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md",
+  "filename": "2024-Li-LexEval A Comprehensive Chinese Legal Benchmark.md",
   "decision": "Yes",
   "reasoning": "Introduces LexEval, the largest Chinese legal evaluation benchmark with 23 tasks and 14,150 questions, including examination of ethical issues in legal AI applications. Published at NeurIPS 2024 Datasets and Benchmarks Track.",
   "benchmark_name": "LexEval",
@@ -10357,7 +10357,7 @@
   "reasoning": "Duplicate entry of MFTCXplain. Same benchmark creating a multilingual moral reasoning evaluation dataset grounded in Moral Foundations Theory."
  },
  {
-  "filename": "2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md",
+  "filename": "2025-Srinivasan-Democracy-in-Silico Institutional Design as Alignment.md",
   "decision": "Yes",
   "benchmark_name": "Democracy-in-Silico / Power-Preservation Index (PPI)",
   "what_measures": "Misaligned behavior in AI agent societies, specifically power-seeking behavior vs. public welfare under institutional frameworks",

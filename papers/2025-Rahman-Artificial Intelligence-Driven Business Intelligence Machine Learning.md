@@ -8,7 +8,7 @@ authors: "Md Atiqur Rahman et al."
 url: "https://www.semanticscholar.org/paper/17b3b96f619c1de43d5f8e6aa4b6c46fe3d8fdce"
 abstract: "The accelerated development of Artificial Intelligence (AI) and Machine Learning (ML) has revolutionised financial market analysis by improving predictive accuracy, risk assessment, and algorithmic tr..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

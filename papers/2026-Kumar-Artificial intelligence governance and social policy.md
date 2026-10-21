@@ -8,7 +8,7 @@ authors: "Deepak Kumar et al."
 url: "https://www.semanticscholar.org/paper/e6c90959ef3c494c24d1b6a75450eb3196400e3e"
 abstract: "To explain why artificial intelligence (AI) governance produces systematically divergent social policy outcomes across regions despite widespread convergence around ethical standards for AI. The s..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

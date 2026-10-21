@@ -8,7 +8,7 @@ authors: "Nadezhda Yastreb"
 url: "https://www.semanticscholar.org/paper/cf47c7489f961c0768d98c0b7753c7260c4fc851"
 abstract: "This article examines the methodological foundations of a critical approach to addressing the ethical challenges of artificial intelligence (AI). It argues that the object of ethical analysis should n..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: "Eastern European/Central Asian"
 ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
@@ -22,10 +22,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: Unknown
-author_region: Unknown
-author_global_north_south: Unknown
-weird_score: 50
+author_country: RU
+author_region: Eastern Europe & Central Asia
+author_global_north_south: Ambiguous
+weird_score: 42
 last_author: "[[Nadezhda Yastreb]]"
 rv_islam: 0
 rv_christianity: 0
@@ -51,4 +51,6 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 ethics_perspective: "Responsible AI"
+doi: 10.21146/2413-9084-2025-30-2-90-103
+publication: Philosophy of Science and Technology 30(2), 90-103
 ---

@@ -72,10 +72,10 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-author_country: FR
-author_region: "Western Europe"
-author_global_north_south: "Global North"
-weird_score: 75
+author_country: IN
+author_region: "South Asia"
+author_global_north_south: "Global South"
+weird_score: 36
 ---
 # Mastering the Inner World: A Multi-Dimensional Analysis of Dhyana Yoga in Chapter 6 of the Bhagavad Gita as a Foundation for Global Well-being
 

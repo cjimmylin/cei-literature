@@ -22,10 +22,10 @@ nw_buddhist: 30
 nw_dharmic: 20
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
-author_global_north_south: "Global South"
-weird_score: 36
+author_country: DE
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian
 rv_islam: 0

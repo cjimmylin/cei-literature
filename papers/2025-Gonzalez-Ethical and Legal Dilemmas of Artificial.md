@@ -1,10 +1,10 @@
 ---
 key: CGSR0029
-type: journalArticle
+type: book
 short_title: "Ethical and Legal Dilemmas of Artificial Intelligence in Latin America"
 year: 2025
-first_author: "[[Rosa Maria Alonzo Gonzalez (ed.)]]"
-authors: "Rosa Maria Alonzo Gonzalez (ed.)"
+first_author: "[[David Ramírez Plascencia]]"
+authors: "David Ramírez Plascencia (ed.); Rosa María Alonzo González (ed.)"
 url: "https://link.springer.com/book/10.1007/978-3-031-86540-4"
 abstract: "Comprehensive book on ethical and legal AI controversies in Latin American public sphere"
 DATE_ADDED: 20260403
@@ -26,7 +26,7 @@ author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-last_author: "[[Rosa Maria Alonzo Gonzalez (ed.)]]"
+last_author: "[[Rosa María Alonzo González]]"
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
 rv_islam: 0
@@ -53,8 +53,11 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 ethics_perspective: "Responsible AI"
+doi: 10.1007/978-3-031-86540-4
+publication: "Springer, 2025 (edited volume)"
 ---
 
 ## Notes
 
 - 2026-10-19: renamed from `2025-ed-Ethical and Legal Dilemmas of Artificial.md`; the filename's author part was "ed", now the first author in `authors`.
+- 2026-10-21: this is the edited book (Crossref doi 10.1007/978-3-031-86540-4; editors David Ramírez Plascencia and Rosa María Alonzo González). Its chapter 6 has its own note, `2025-Gonzalez-Ethical and Legal Dilemmas of National` (a part of this book, not a duplicate).

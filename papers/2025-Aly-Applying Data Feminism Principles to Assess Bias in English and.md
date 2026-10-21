@@ -49,7 +49,7 @@ newtags:
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: A growing body of scholarship demonstrates the ways social bias has been and continues to be embedded in Natural Language Processing (NLP) technologies. Still, a gap remains between these interventions and the field at large. To gain an overarching view of the field of NLP research as it addresses (or fails to address) social bias, we developed a codebook to evaluate how papers position datasets based on the principles of data feminism. We use this codebook to score a random sample of papers from many different topics of NLP research in Arabic and English. Our results indicate that most papers do not sufficiently address social bias (scoring near a 1 on average in our five-point scales), but a small subset making ethical interventions score very high. Using insights from the codebook development and scoring processes, we present a prototype interactive form for generating standardized bias reports for NLP datasets.
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

@@ -61,7 +61,7 @@ twitter: ""
 
 
 
-- [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]] (Last Author)
+- [[2025-Srinivasan-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]] (Last Author)
 
 ## External Links & Profiles
 

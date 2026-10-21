@@ -22,10 +22,10 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 65
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
-author_global_north_south: "Global South"
-weird_score: 36
+author_country: NZ
+author_region: "Oceania"
+author_global_north_south: "Global North"
+weird_score: 84
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0

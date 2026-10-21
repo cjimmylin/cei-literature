@@ -72,9 +72,9 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-author_country: CN
-author_region: "East Asia"
-author_global_north_south: Ambiguous
+author_country: IN
+author_region: "South Asia"
+author_global_north_south: Global South
 weird_score: 36
 ---
 # Conscious Living and Dying: The Soteriology of the Final Thought through Akshara Brahma Yoga in the Bhagavad Gita's Eighth Chapter

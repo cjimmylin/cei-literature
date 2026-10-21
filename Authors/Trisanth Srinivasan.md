@@ -32,7 +32,7 @@ This research represents a creative intersection of political philosophy, instit
 
 
 
-- [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]] (First Author)
+- [[2025-Srinivasan-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]] (First Author)
 
 ## Notes
 

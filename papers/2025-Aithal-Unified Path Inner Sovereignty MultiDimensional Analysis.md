@@ -72,10 +72,10 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-author_country: FR
-author_region: "Western Europe"
-author_global_north_south: "Global North"
-weird_score: 75
+author_country: IN
+author_region: "South Asia"
+author_global_north_south: "Global South"
+weird_score: 36
 ---
 # The Unified Path to Inner Sovereignty: A Multi-Dimensional Analysis of Karma Sannyasa in the Fifth Chapter of the Bhagavad Gita
 

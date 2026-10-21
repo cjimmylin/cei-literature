@@ -22,10 +22,10 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
+author_country: MY
+author_region: "Southeast Asia"
 author_global_north_south: "Global South"
-weird_score: 36
+weird_score: 45
 last_author: "[[Norzalita Abd Aziz]]"
 national_ethnic_cultural: Multicultural/Cross-cultural
 cultures_nationalities_list: Multicultural/Cross-cultural

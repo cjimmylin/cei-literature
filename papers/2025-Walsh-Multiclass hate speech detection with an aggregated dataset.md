@@ -4,16 +4,16 @@ Human View Date:
 Human View note: 
 Not AI: 
 key: LSRC0721
-type: conferencePaper
-short_title: "Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core"
-year: 2024
+type: journalArticle
+short_title: "Multiclass hate speech detection with an aggregated dataset"
+year: 2025
 first_author: "[[Sinéad Walsh]]"
 last_author: "[[Paul Greaney]]"
 authors: "Sinéad Walsh; Paul Greaney"
 url: "https://www.cambridge.org/core/journals/natural-language-processing/article/multiclass-hate-speech-detection-with-an-aggregated-dataset/2390980624C97F92CD264A67CFA6ACE2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2390980624C97F92CD264A67CFA6ACE2/S2977042424000621a.pdf/multiclass-hate-speech-detection-with-an-aggregated-dataset.pdf"
-publication: Web
-CONF-CC: Preprint
+publication: Natural Language Processing 31 (Cambridge University Press)
+CONF-CC: Natural Language Processing
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md"
 local_pdf: "[[Lit-WS-PDFs/2024/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.pdf]]"
 DATE_ADDED: 20260213
@@ -50,7 +50,7 @@ LLM_assessed: "BERT, GPT-2"
 DATA_URL: NA
 tags: 
 abstract: "Detecting and removing hate speech content in a timely manner remains a challenge for social media platforms. Automated techniques such as deep learning models offer solutions which can keep up with the volume and velocity of user content production. Research in this area has mainly focused on either binary classiﬁcation or on classifying tweets into generalised categories such as hateful, offensive, or neither."
-CONFERENCE: "Other Conference"
+CONFERENCE: "Journal"
 ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
@@ -74,8 +74,9 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
+doi: 10.1017/nlp.2024.62
 ---
-# Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core
+# Multiclass hate speech detection with an aggregated dataset
 
 ## Authors
 
@@ -85,11 +86,11 @@ data_metrics: "Not specified"
 
 **Authors:** Sinéad Walsh; Paul Greaney
 
-**Year:** 2024
+**Year:** 2025
 
-**Type:** conferencePaper
+**Type:** journalArticle
 
-**Venue:** Web
+**Venue:** Natural Language Processing 31 (Cambridge University Press)
 
 **Languages:** Japanese
 
@@ -111,6 +112,8 @@ Aggregated and re-annotated hate speech dataset classifying tweets into ethnicit
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent C2
 **Relevance:** Relevant to Japanese; toxicity/hate speech focus
+- 2026-10-21: renamed from `2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md`. Crossref (doi 10.1017/nlp.2024.62): Sinéad Walsh and Paul Greaney, Atlantic Technological University, Natural Language Processing 31, published online 2025-01-16. Kajiwara is not an author. The local PDF and extract keep their old names.
+
 
 ## Tags
 

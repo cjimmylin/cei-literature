@@ -21,7 +21,7 @@ The abstract must be at least 150 characters. HTML/JATS tags are removed.
 
 Nothing is written unless --apply is given. Each write is a single-line edit of `abstract:` with
 the vault's safe editor (.agent/lib/paper_utils.update_paper_field). Every decision, accepted or
-not, is written to logs/20261020-abstract-fetch-results.json so the change can be reviewed.
+not, is written to logs/abstract-backfill/20261020-results.json so the change can be reviewed.
 
 Usage (from the vault root, on a new branch):
     git checkout -b abstracts-20261020
@@ -76,7 +76,7 @@ NOTES = [
 ]
 NOT_AUTHORS = {"unknown", "pretrained", "translation", "authors", "n/a", "na", ""}
 UA = "cei-literature-vault/1.0 (abstract backfill; python urllib)"
-RESULTS = ROOT / "logs" / "20261020-abstract-fetch-results.json"
+RESULTS = ROOT / "logs" / "abstract-backfill" / "20261020-results.json"  # logs/*.json is gitignored
 
 
 # --------------------------------------------------------------------------- network
@@ -278,6 +278,7 @@ def main():
             print(f"[{i:2}/{len(NOTES)}] NONE  {name[:60]} ({len(reasons)} candidates checked)")
         results.append(rec)
 
+    RESULTS.parent.mkdir(parents=True, exist_ok=True)
     RESULTS.write_text(json.dumps({"applied": args.apply, "accepted": n_ok, "notes": results},
                                   indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"\n{n_ok} of {len(NOTES)} notes have an accepted abstract. "

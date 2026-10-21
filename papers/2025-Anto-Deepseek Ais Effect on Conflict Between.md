@@ -8,7 +8,7 @@ authors: "Avin Anto"
 url: "https://www.semanticscholar.org/paper/afa748e2ad09bdc55f6718038ac264598d2f2bba"
 abstract: "This paper aims to endeavour to execute examination on how the debut of advanced AI tools specifically focusing on China’s largest open sources language model DeepSeek really reshaping the traditional..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

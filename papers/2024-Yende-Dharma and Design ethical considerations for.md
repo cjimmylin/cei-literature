@@ -22,10 +22,10 @@ nw_buddhist: 0
 nw_dharmic: 60
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: CO
-author_region: "Latin America & Caribbean"
-author_global_north_south: "Global South"
-weird_score: 36
+author_country: Unknown
+author_region: "Unknown"
+author_global_north_south: "Unknown"
+weird_score: 50
 last_author: "[[Sagar Yende]]"
 national_ethnic_cultural: Indian
 cultures_nationalities_list: Indian

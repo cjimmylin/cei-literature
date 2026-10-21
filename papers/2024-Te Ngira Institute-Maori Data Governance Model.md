@@ -8,7 +8,7 @@ authors: "Te Ngira Institute, University of Waikato"
 url: "https://www.waikato.ac.nz/assets/Uploads/Research/Research-institutes-centres-and-groups/Institutes/Te-Ngira-Institute-for-Population-Research/Maori_Data_Governance_Model.pdf"
 abstract: "Data governance model grounded in Maori values for culturally appropriate management of indigenous data"
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: "Indigenous"
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

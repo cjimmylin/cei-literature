@@ -8,7 +8,7 @@ authors: "Dr. Mahendra Sharma et al."
 url: "https://www.semanticscholar.org/paper/c5d5fa156410a9e8238539bfb3bc7bc210eed403"
 abstract: "Abstract: This research paper provides an in-depth analysis of the impact of Artificial Intelligence (AI) on various job sectors. It explores the history of AI and highlights the top AI tools that are..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

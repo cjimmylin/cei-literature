@@ -8,7 +8,7 @@ authors: "Feifei He et al."
 url: "https://www.semanticscholar.org/paper/07150c398bfc5434800e9df3b04801b44c802331"
 abstract: 
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

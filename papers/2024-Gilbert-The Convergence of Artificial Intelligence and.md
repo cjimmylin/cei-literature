@@ -8,7 +8,7 @@ authors: "Chris Gilbert"
 url: "https://www.semanticscholar.org/paper/4d7646c42d4de4cff2bb33988310964371822794"
 abstract: "This article explores the complex relationship between artificial intelligence (AI) and privacy. While acknowledging AI's potential benefits, the authors emphasize the ethical implications of its data..."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0

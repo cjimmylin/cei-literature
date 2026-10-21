@@ -8,7 +8,7 @@ authors: "Yizhe Sun"
 url: "https://www.semanticscholar.org/paper/b728387d349da7fb9c514b8530cb0c9eec3975b6"
 abstract: "AIGC (Artificial Intelligence Generated Content), or generative AI, utilizes deep learning and natural language processing, trained on vast datasets, to produce content that resembles human language...."
 DATE_ADDED: 20260403
-cultural_gap_category: "Pacific Island"
+cultural_gap_category: ""
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0

@@ -72,9 +72,9 @@ nw_indigenous_relational: 0
 nw_buen_vivir: 0
 s2_paper_id: 1b212ac3b20b6c07fbca449bdd1088cd7dee9957
 citation_count: 3
-author_country: CN
-author_region: "East Asia"
-author_global_north_south: Ambiguous
+author_country: IN
+author_region: "South Asia"
+author_global_north_south: Global South
 weird_score: 36
 ethics_perspective: "Social & Cultural Values"
 ---

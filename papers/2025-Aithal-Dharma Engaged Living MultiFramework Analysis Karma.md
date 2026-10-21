@@ -72,10 +72,10 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-author_country: Unknown
-author_region: Unknown
-author_global_north_south: Unknown
-weird_score: 50
+author_country: IN
+author_region: South Asia
+author_global_north_south: Global South
+weird_score: 36
 ---
 # The Dharma of Engaged Living: A Multi-Framework Analysis of Karma Yoga in Chapter 3 of the Bhagavad Gita for the Modern World
 

@@ -254,7 +254,7 @@ OpenAlex and Semantic Scholar answered DOI lookups from this environment again.
 - `2025-Pretrained-…`: Crossref, exact title. It is Applied Sciences 14(13) 5764, the same paper as
   the note's MDPI link.
 
-Every decision is recorded in `logs/20261021-abstract-backfill-cloud.json`. An earlier dry run also
+Every decision is recorded in `logs/abstract-backfill/20261021-cloud-results.json`. An earlier dry run also
 matched `2025-Xiangfeng-…` (China Scientific Data, 2019, exact title and author). It did not match
 again on the second run, so it was not written. The remaining 21 can still be run on the owner's
 machine; the script skips notes that already have an abstract.

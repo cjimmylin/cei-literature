@@ -1,0 +1,209 @@
+{
+ "applied": true,
+ "accepted": 3,
+ "notes": [
+  {
+   "note": "2025-Aly-Applying Data Feminism Principles to Assess Bias in English and",
+   "note_title": "Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency",
+   "note_doi": "10.1145/3715275.3732119",
+   "candidates": [
+    {
+     "source": "openalex-doi",
+     "title": "Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research",
+     "doi": "10.1145/3715275.3732119",
+     "year": 2025,
+     "venue": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+     "accepted": true,
+     "reason": "DOI match"
+    },
+    {
+     "source": "crossref-doi",
+     "title": "Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research",
+     "doi": "10.1145/3715275.3732119",
+     "year": 2025,
+     "venue": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transpar",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "s2-doi",
+     "title": "Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research",
+     "doi": "10.1145/3715275.3732119",
+     "year": 2025,
+     "venue": "Conference on Fairness, Accountability and Transparency",
+     "accepted": true,
+     "reason": "DOI match"
+    }
+   ],
+   "outcome": "accepted",
+   "source": "openalex-doi",
+   "doi": "10.1145/3715275.3732119",
+   "venue": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+   "found_title": "Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research",
+   "reason": "DOI match",
+   "abstract": "A growing body of scholarship demonstrates the ways social bias has been and continues to be embedded in Natural Language Processing (NLP) technologies. Still, a gap remains between these interventions and the field at large. To gain an overarching view of the field of NLP research as it addresses (or fails to address) social bias, we developed a codebook to evaluate how papers position datasets based on the principles of data feminism. We use this codebook to score a random sample of papers from many different topics of NLP research in Arabic and English. Our results indicate that most papers do not sufficiently address social bias (scoring near a 1 on average in our five-point scales), but a small subset making ethical interventions score very high. Using insights from the codebook development and scoring processes, we present a prototype interactive form for generating standardized bias reports for NLP datasets."
+  },
+  {
+   "note": "2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User",
+   "note_title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency",
+   "note_doi": "10.1145/3715275.3732207",
+   "candidates": [
+    {
+     "source": "openalex-doi",
+     "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
+     "doi": "10.1145/3715275.3732207",
+     "year": 2025,
+     "venue": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+     "accepted": true,
+     "reason": "DOI match"
+    },
+    {
+     "source": "crossref-doi",
+     "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
+     "doi": "10.1145/3715275.3732207",
+     "year": 2025,
+     "venue": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transpar",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "s2-doi",
+     "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
+     "doi": "10.1145/3715275.3732207",
+     "year": 2025,
+     "venue": "Conference on Fairness, Accountability and Transparency",
+     "accepted": true,
+     "reason": "DOI match"
+    }
+   ],
+   "outcome": "accepted",
+   "source": "s2-doi",
+   "doi": "10.1145/3715275.3732207",
+   "venue": "Conference on Fairness, Accountability and Transparency",
+   "found_title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
+   "reason": "DOI match",
+   "abstract": "Warning: This article contains stereotypical and offensive contents. Stereotypical biases in large language models (LLMs) have the potential to result in discriminatory responses, posing harm to users and disrupting interactions. While prior research has predominantly focused on assessing stereotypes in LLMs with fairness metrics, there is a limited understanding of how users identify and perceive stereotypes in LLMs. To address this gap, we introduce StereoHunter, a research probe tool designed to examine how individuals identify and perceive stereotypes by observing interactions in which users elicit stereotypical responses from LLMs. Our findings reveal the nuanced considerations and challenges participants faced when evaluating these stereotypes, which varied based on their backgrounds and preconceptions about LLMs. Based on these insights, we discuss how diverse user perspectives can be reflected in identifying stereotypes and informing fairness metrics for mitigating biases in LLMs."
+  },
+  {
+   "note": "2025-Pretrained-Research on the Training and Application Methods of a Lightweight",
+   "note_title": "Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uyghur",
+   "note_doi": "",
+   "candidates": [
+    {
+     "source": "crossref-search",
+     "title": "Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uy",
+     "doi": "10.3390/app14135764",
+     "year": 2024,
+     "venue": "Applied Sciences",
+     "accepted": true,
+     "reason": "exact title match, year consistent (no author on the note to confirm)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "MindLLM: Lightweight Large Language Model Pre-Training, Evaluation and Domain Application",
+     "doi": "10.2139/ssrn.4710644",
+     "year": 2024,
+     "venue": "",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "MindLLM: Lightweight large language model pre-training, evaluation and domain application",
+     "doi": "10.1016/j.aiopen.2024.08.001",
+     "year": 2024,
+     "venue": "AI Open",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "Fine-Tuning Large Language Models with Domain-Specific Data: A Comprehensive Analysis of Parameter-Efficient Methods and Performance Optimization",
+     "doi": "10.21275/sr24228092614",
+     "year": 2024,
+     "venue": "International Journal of Science and Research (IJSR)",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "An effective and robust approach to Mandarin spoken language understanding in specific domain",
+     "doi": "10.1109/iscslp.2014.6936578",
+     "year": 2014,
+     "venue": "The 9th International Symposium on Chinese Spoken Language Processing",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "s2-search",
+     "title": "Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uy",
+     "doi": "10.3390/app14135764",
+     "year": 2024,
+     "venue": "Applied Sciences",
+     "accepted": true,
+     "reason": "exact title match, year consistent (no author on the note to confirm)"
+    }
+   ],
+   "outcome": "accepted",
+   "source": "crossref-search",
+   "doi": "10.3390/app14135764",
+   "venue": "Applied Sciences",
+   "found_title": "Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uyghur",
+   "reason": "exact title match, year consistent (no author on the note to confirm)",
+   "abstract": "In the field of Natural Language Processing (NLP), the lack of support for minority languages, especially Uyghur, the scarcity of Uyghur language corpora in the agricultural domain, and the lightweight nature of large language models remain prominent issues. This study proposes a method for constructing a bilingual (Uyghur and Chinese) lightweight specialized large language model for the agricultural domain. By utilizing a mixed training approach of Uyghur and Chinese, we extracted Chinese corpus text from agricultural-themed books in PDF format using OCR (Optical Character Recognition) technology, converted the Chinese text corpus into a Uyghur corpus using a rapid translation API, and constructed a bilingual mixed vocabulary. We applied the parameterized Transformer model algorithm to train the model for the agricultural domain in both Chinese and Uyghur. Furthermore, we introduced a context detection and fail-safe mechanism for the generated text. The constructed model possesses the ability to support bilingual reasoning in Uyghur and Chinese in the agricultural domain, with higher accuracy and a smaller size that requires less hardware. It (our work) addresses issues such as the scarcity of Uyghur corpora in the agricultural domain, mixed word segmentation and word vector modeling in Uyghur for widespread agricultural languages, model lightweighting and deployment, and the fragmentation of non-relevant texts during knowledge extraction from small-scale corpora. The lightweight design of the model reduces hardware requirements, facilitating deployment in resource-constrained environments. This advancement promotes agricultural intelligence, aids in the development of specific applications and minority languages (such as agriculture and Uyghur), and contributes to rural revitalization."
+  },
+  {
+   "note": "2025-Xiangfeng-A dataset of Mongolian Tibetan and Uyghur speech fragments based on",
+   "note_title": "A dataset of Mongolian, Tibetan and Uyghur speech fragments based on voice activity detection",
+   "note_doi": "",
+   "candidates": [
+    {
+     "source": "crossref-search",
+     "title": "A dataset of Mongolian, Tibetan and Uyghur speech fragments based on voice activity detection",
+     "doi": "10.11922/sciencedb.p00007.00005",
+     "year": null,
+     "venue": "Science Data Bank Datasets",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "A dataset of Mongolian, Tibetan and Uyghur speech fragments based on voice activity detection",
+     "doi": "10.11922/csdata.2019.0024.zh",
+     "year": 2019,
+     "venue": "China Scientific Data",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "Mongolian, Tibetan, and Uyghur Speech Data from Chinese Minority Region in 2015",
+     "doi": "10.11922/sciencedb.30",
+     "year": null,
+     "venue": "Science Data Bank Datasets",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "Mongolian, Tibetan, and Uyghur speech data from Chinese minority regions in 2015",
+     "doi": "10.11922/sciencedb.p00007.00004",
+     "year": null,
+     "venue": "Science Data Bank Datasets",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    },
+    {
+     "source": "crossref-search",
+     "title": "Mongolian, Tibetan, and Uyghur speech data from                         Chinese minority regions in 2015",
+     "doi": "10.11922/csdata.120.2015.0024",
+     "year": 2016,
+     "venue": "China Scientific Data",
+     "accepted": false,
+     "reason": "no abstract (or under 150 characters)"
+    }
+   ],
+   "outcome": "no acceptable match"
+  }
+ ]
+}

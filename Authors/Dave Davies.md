@@ -65,7 +65,6 @@ twitter: ""
 - [[2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...|F2Bench: An Open-ended Fairness Evaluation Benchmark ...]] (First Author)
 - [[2025-Davies-Fairness identification of large language models in recommendation|Fairness identification of large language models in recommendation]] (First Author)
 - [[2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub|LLM Evaluation Benchmarks and Safety Datasets for 2025 | Knowledge Hub]] (First Author)
-- [[2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark|LexEval: A Comprehensive Chinese Legal Benchmark]] (First Author)
 - [[2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation|Overview of the NLPCC 2025 Shared Task: Gender Bias Mitigation Challenge]] (First Author)
 
 ## External Links & Profiles

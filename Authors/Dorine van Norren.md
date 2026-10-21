@@ -52,6 +52,7 @@ Her primary work, "The ethics of artificial intelligence, UNESCO and the African
 
 
 
+- [[2022-van Norren-The ethics of artificial intelligence UNESCO|The ethics of artificial intelligence, UNESCO and the African Ubuntu perspective]] (First Author)
 - [[2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020|DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020]] (First Author)
 
 ## External Links & Profiles

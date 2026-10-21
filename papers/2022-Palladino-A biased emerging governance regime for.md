@@ -8,7 +8,7 @@ authors: "Nicola Palladino"
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0308596122001811"
 abstract: "How AI ethics principles get skewed moving from principles to practices"
 DATE_ADDED: 20260403
-cultural_gap_category: "Eastern European/Central Asian"
+cultural_gap_category: ""
 ethics_overall: 85
 virtue_ethics: 0
 deontological_ethics: 0
@@ -51,6 +51,8 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
 ethics_perspective: "Responsible AI"
+doi: 10.1016/j.telpol.2022.102479
+publication: Telecommunications Policy 47 (2023)
 ---
 
 ## Notes

@@ -6,14 +6,14 @@ Not AI:
 key: LSRC0668
 type: conferencePaper
 short_title: "LexEval: A Comprehensive Chinese Legal Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Haitao Li]]"
 last_author: "[[Yiqun Liu]]"
 authors: "Haitao Li; You Chen; Qingyao Ai; Yueyue Wu; Ruizhe Zhang; Yiqun Liu"
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/2cb40fc022ca7bdc1a9a78b793661284-Paper-Datasets_and_Benchmarks_Track.pdf"
 external_pdf: "https://arxiv.org/pdf/2409.20288v4.pdf"
-publication: Web
-CONF-CC: Preprint
+publication: NeurIPS 2024 Datasets and Benchmarks Track
+CONF-CC: NeurIPS 2024
 pdf_extract: "PDF Extracts/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md"
 local_pdf: "[[Lit-WS-PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
 DATE_ADDED: 20260213
@@ -86,11 +86,11 @@ data_metrics: "14,150 questions"
 
 **Authors:** Haitao Li; You Chen; Qingyao Ai; Yueyue Wu; Ruizhe Zhang; Yiqun Liu
 
-**Year:** 2025
+**Year:** 2024
 
 **Type:** conferencePaper
 
-**Venue:** Web
+**Venue:** NeurIPS 2024 Datasets and Benchmarks Track
 
 **Languages:** Chinese
 
@@ -114,6 +114,8 @@ Releases LexEval, the largest Chinese legal evaluation benchmark with 14,150 que
 
 **Source:** Language-Organized Benchmark Search (20260213), Agent C1
 **Relevance:** LexEval benchmark for Chinese
+- 2026-10-21: renamed from `2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md`. LexEval is by Haitao Li, You Chen, Qingyao Ai, Yueyue Wu, Ruizhe Zhang and Yiqun Liu (the note's own `authors` field), published in the NeurIPS 2024 Datasets and Benchmarks Track (the note's URL); Dave Davies is not an author. The local PDF and extract keep their old names.
+
 
 ## Tags
 

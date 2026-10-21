@@ -61,6 +61,7 @@ twitter: ""
 
 
 
+- [[2024-Li-LexEval A Comprehensive Chinese Legal Benchmark|LexEval: A Comprehensive Chinese Legal Benchmark]] (First Author)
 - [[2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models|LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)]]
 
 ## External Links & Profiles

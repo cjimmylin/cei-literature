@@ -66,7 +66,6 @@ twitter: ""
 - [[2024-Kajiwara-Beyond Traditional Classifiers Evaluating Large Language Models for|Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection]] (First Author)
 - [[2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata|Hate Speech Dataset Catalogue | hatespeechdata]] (First Author)
 - [[2024-Kajiwara-Hate Speech and Offensive Language Dataset|Hate Speech and Offensive Language Dataset]] (First Author)
-- [[2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural|Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core]] (First Author)
 - [[2024-Kajiwara-Validating Pseudo-label Dataset for Japanese Hate Speech Detection|Validating Pseudo-label Dataset for Japanese Hate Speech Detection | IEEE Conference Publication | IEEE Xplore]] (First Author)
 
 ## External Links & Profiles

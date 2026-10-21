@@ -96,7 +96,7 @@ This paper presents Democracy-in-Silico, an agent-based simulation where 17 AI a
 
 ## Notes
 
-Authors need to be populated.
+- 2026-10-21: renamed from `2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.md`. arXiv 2508.19562 lists Trisanth Srinivasan and Santosh Patapati (submitted 2025-08-27); Tsvetkov is not an author. The local PDF and extract keep their old names.
 
 ## Authors
 

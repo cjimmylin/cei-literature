@@ -141,4 +141,4 @@ This is a theoretical working paper that examines the ethics of AI through the l
 
 
 ## Notes
-
+- 2026-10-21: draft (Africa Knows! conference, 2020) of the article published as `2022-van Norren-The ethics of artificial intelligence UNESCO` (doi 10.1108/jices-04-2022-0037). A version, not a duplicate.
